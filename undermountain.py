@@ -14,5 +14,5 @@ print(79 * "=")
 ENVIRONMENT = Environment.get('test')
 
 ENGINE = Engine(ENVIRONMENT)
-ENGINE.start()
+ENGINE.run()
 ENGINE.join()

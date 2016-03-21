@@ -1,4 +1,5 @@
 from gevent import Greenlet
+from mud.world import World
 import gevent
 
 
@@ -29,11 +30,22 @@ class Engine(Greenlet):
         super(Engine, self).__init__(*args, **kwargs)
         self.environment = environment
 
+    def create_world(self):
+        """
+        Start the World.
+        """
+        self.world = World(self)
+
     def _run(self):
         """
         Start the Engine.
         """
         self.running = True
+
+        self.create_world()
+        self.world.start()
+
         while self.running:
-            print("Tick")
             gevent.sleep(1.0)
+
+        self.world.stop()
