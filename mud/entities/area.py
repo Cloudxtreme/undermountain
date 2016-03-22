@@ -1,7 +1,7 @@
-from mud.world_entity import WorldEntity
+from mud.game_entity import GameEntity
 
 
-class Area(WorldEntity):
+class Area(GameEntity):
     """
     AREA
     A container that holds a grouping of areas, Actors, etc.

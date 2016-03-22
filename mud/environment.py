@@ -22,3 +22,4 @@ class Environment(object):
                 }
             }
         }
+        self.folder = 'data/live'

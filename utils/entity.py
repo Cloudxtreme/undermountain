@@ -1,6 +1,17 @@
 class Entity(object):
-    def __init__(self, data):
+    def __init__(self, data=None):
+        if not data:
+            data = {}
         super(Entity, self).__setattr__("data", data)
+
+    def __eq__(self, other):
+        if other is None:
+            return False
+
+        return self.uid == other.get("uid")
+
+    def __neq__(self, other):
+        return not self.__eq__(other)
 
     def __setattr__(self, key, value):
         self.data[key] = value
@@ -11,7 +22,7 @@ class Entity(object):
     def __setitem__(self, key, value):
         self.__setattr__(key, value)
 
-    def __getitem(self, key):
+    def __getitem__(self, key):
         return self.__getattr__(key)
 
     def set(self, key, value):

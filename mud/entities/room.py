@@ -1,7 +1,7 @@
-from mud.world_entity import WorldEntity
+from mud.game_entity import GameEntity
 
 
-class Room(WorldEntity):
+class Room(GameEntity):
     """
     ROOM
     A container that Actors, Objects, and general "things" can be in.

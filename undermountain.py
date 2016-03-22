@@ -3,16 +3,16 @@
 Undermountain Shell Script
 Entrypoint into the Application
 """
-from mud.engine import Engine
 from mud.environment import Environment
+from mud.game import Game
 
-VERSION = Engine.get_version()
+VERSION = Game.get_version()
 
 print("Undermountain v{}".format(VERSION))
 print(79 * "=")
 
 ENVIRONMENT = Environment.get('test')
 
-ENGINE = Engine(ENVIRONMENT)
-ENGINE.run()
-ENGINE.join()
+GAME = Game(ENVIRONMENT)
+GAME.run()
+GAME.join()

@@ -1,16 +1,50 @@
 from gevent import Greenlet
+from settings.servers import SERVER_CLASSES
 import gevent
 
 
-class World(Greenlet):
+class Game(Greenlet):
     """
-    WORLD
-    Container for all Entities that make up the Game, like a chessboard filled
-    with pieces that the Engine controls.
+    GAME
+    The single process that runs the game.
     """
-    def __init__(self, engine):
-        super(World, self).__init__()
-        self.engine = engine
+
+    @classmethod
+    def get_version(cls):
+        """
+        Get the current Engine version.
+        """
+        try:
+            with open("VERSION", "r") as version_file:
+                version = version_file.read().strip()
+                return version
+        except IOError:
+            pass
+
+        return None
+
+    def add_connection(self, connection):
+        self.connections.append(connection)
+
+    def remove_connection(self, connection):
+        self.connections.remove(connection)
+
+    def get_actor_connection(self, actor):
+        for connection in self.connections:
+            if connection.actor and connection.actor == actor:
+                return connection
+
+        return None
+
+    def __init__(self, environment, *args, **kwargs):
+        """
+        Instantiate an Engine for an Environment.
+        """
+        super(Game, self).__init__(*args, **kwargs)
+        self.environment = environment
+        self.processes = []
+        self.connections = []
+
         self.data = {}  # Main memory core, reference relationships by ID only.
 
         from mud.entities.area import Area
@@ -21,15 +55,7 @@ class World(Greenlet):
             "level_min": 1,
             "level_max": 10,
         }
-        Area.create(westbridge)
-
-        """
-        The Temple of Life [LAW] [SAFE] [NOLOOT] (Westbridge) (cityst) [Room 3001]
-
-        [Exits: north east south west]   [Doors: none]   [Secret: none]
-             An old piece of paper lies on the floor.
-        [.......L....] Hollywood Hogan is here, looking out for Sting.
-        """
+        Area.add(westbridge)
 
         from mud.entities.actor import Actor
         hogan = {
@@ -38,7 +64,7 @@ class World(Greenlet):
             "area_id": "westbridge",
             "full_id": "westbridge:hogan",
             "name": "Hollywood Hogan",
-            "room_string": "Hollywood Hogan is here, looking out for Sting.",
+            "room_name": "Hollywood Hogan is here, looking out for Sting.",
             "room_id": "westbridge:3001",
             "room_uid": "abc123",
             "effects": [
@@ -46,10 +72,18 @@ class World(Greenlet):
                     "uid": "kjahsdkjhs7214",
                     "id": "shockshield",
                     "duration": 100,
-                }
+                },
             ],
         }
-        Actor.create(hogan)
+        Actor.add(hogan)
+
+        from mud.entities.object import Object
+        note = {
+            "uid": "note1234",
+            "id": "note",
+            "room_name": "An old piece of paper lies on the floor.",
+        }
+        Object.add(note)
 
         from mud.entities.room import Room
         temple_of_life = {
@@ -77,10 +111,39 @@ class World(Greenlet):
                 "up": { "id": "westbridge:3001", "uid": "abc123" },
                 "down": { "id": "westbridge:3001", "uid": "abc123" },
             },
+            "objects": [
+                {
+                    "uid": "note1234",
+                },
+            ],
             "actors": [
                 {
-                    "uid": "jahsdf1234"
-                }
-            ]
+                    "uid": "jahsdf1234",
+                },
+            ],
         }
-        Room.create(temple_of_life)
+        Room.add(temple_of_life)
+
+        from mud.entities.character import Character
+        kelemvor = Character.get_from_file('Kelemvor')
+        print(kelemvor)
+
+    def _run(self):
+        """
+        Start the Engine.
+        """
+        self.running = True
+
+        self.create_processes()
+
+        while self.running:
+            gevent.sleep(1.0)
+
+    def create_processes(self):
+        for process_class in SERVER_CLASSES:
+            process = process_class(self)
+            self.processes.append(process)
+            process.start()
+
+    def get_environment(self):
+        return self.environment
