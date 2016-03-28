@@ -4,6 +4,7 @@ TELNET
 from gevent import Greenlet
 from gevent import monkey
 from mud.entities.character import Character
+from utils.ansi import Ansi
 
 import gevent
 import socket
@@ -22,33 +23,62 @@ class TelnetConnection(Greenlet):
         self.output_buffer = ''
         self.state = 'login_username'
         self.game = server.get_game()
+        self.delay = 0
         self.actor = None
+        self.color = True
+        self.last_command = ""
+
+    def toggle_color(self):
+        self.color = not self.color
+
+    def has_color(self):
+        return self.color
+
+    def add_delay(self, seconds):
+        self.delay += seconds
+
+    def handle_login_username_input(self, message):
+        name = Character.get_clean_name(message)
+        if not name:
+            self.write("Sorry, try again: ")
+        else:
+            ch = Character.get_from_file(name)
+            if not ch:
+                self.writeln("New character path")
+            else:
+                self.actor = Character(self.game, ch)
+                self.actor.set_connection(self)
+                print('DATA', self.actor.data)
+                self.state = "motd"
+                self.display_motd()
+
+    def handle_motd_input(self, message):
+        self.state = "playing"
+        self.actor.handle_input("look")
+
+    def handle_playing_input(self, message):
+        # FIXME improve this or use constant?
+        if message.startswith("!"):
+            self.handle_playing_input(self.last_command)
+            return
+
+        self.last_command = message
+        self.actor.handle_input(message)
 
     def handle_input(self, message):
         message = message.strip()
 
-        if self.state == "login_username":
-            name = Character.get_clean_name(message)
-            if not name:
-                self.write("Sorry, try again: ")
-            else:
-                ch = Character.get_from_file(name)
-                if not ch:
-                    self.writeln("New character path")
-                else:
-                    self.actor = Character(self.game, ch)
-                    self.state = "motd"
-                    self.display_motd()
+        method_name = 'handle_{}_input'.format(self.state)
+        if not hasattr(self, method_name):
+            raise Exception("Invalid TelnetConnection state '{}'".format(
+                self.state
+            ))
 
-        elif self.state == "motd":
-            self.state = "playing"
-            self.actor.handle_input("look")
-
-        elif self.state == "playing":
-            self.actor.handle_input(message)
-
-        else:
-            self.writeln("Invalid state")
+        method = getattr(self, method_name)
+        try:
+            method(message)
+        except Exception, e:
+            self.game.handle_exception(e)
 
     def display_motd(self):
         self.writeln("MOTD")
@@ -71,6 +101,20 @@ class TelnetConnection(Greenlet):
 
     def input_loop(self):
         while self.connected:
+
+            # Handle any imposed delay on user input by the game.
+            delay = self.delay
+            self.delay = 0
+            if delay:
+                gevent.sleep(delay)
+
+            # FIXME make this cleaner?
+            # Allow players to clear their input buffer.
+            if "clear" in self.input_buffer:
+                self.input_buffer = []
+                self.writeln("Input buffer cleared.")
+
+            # Pop off a command and execute it.
             if self.input_buffer:
                 next_input = self.input_buffer.pop(0)
                 self.handle_input(next_input)
@@ -98,6 +142,8 @@ class TelnetConnection(Greenlet):
         return None
 
     def write(self, message=""):
+        if self.color:
+            message = Ansi.colorize(message)
         self.output_buffer += message
 
     def writeln(self, message=""):

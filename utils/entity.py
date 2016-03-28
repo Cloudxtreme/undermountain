@@ -17,7 +17,7 @@ class Entity(object):
         self.data[key] = value
 
     def __getattr__(self, key):
-        return self.data.get(key)
+        return self.data.get(key, None)
 
     def __setitem__(self, key, value):
         self.__setattr__(key, value)

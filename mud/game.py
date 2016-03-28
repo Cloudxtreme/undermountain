@@ -1,6 +1,8 @@
 from gevent import Greenlet
 from settings.servers import SERVER_CLASSES
 import gevent
+import sys
+import traceback
 
 
 class Game(Greenlet):
@@ -8,6 +10,11 @@ class Game(Greenlet):
     GAME
     The single process that runs the game.
     """
+    def handle_exception(self, e):
+        # TODO HANDLE PROPERLY
+        exc_type, exc_value, exc_traceback = sys.exc_info()
+        traceback.print_exception(exc_type, exc_value, exc_traceback,
+                                  limit=2, file=sys.stdout)
 
     @classmethod
     def get_version(cls):

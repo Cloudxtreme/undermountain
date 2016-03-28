@@ -10,6 +10,15 @@ class Character(Actor):
     """
     COLLECTION_NAME = 'characters'
 
+    def format_room_name_for(self, other):
+        # FIXME handle fighting
+        output = self.name if other.can_see(self) else "Someone"
+
+        if self.title:
+            output += " " + self.title
+
+        return output
+
     @classmethod
     def get_clean_name(self, name):
         name = name.strip()

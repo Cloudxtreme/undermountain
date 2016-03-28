@@ -9,6 +9,13 @@ class GameEntity(Entity):
     COLLECTION_NAME = None
     COLLECTIONS_CHECKED = []
 
+    def __repr__(self):
+        return "<{} uid:{} name:{}>".format(
+            self.__class__.__name__,
+            self.uid,
+            self.name,
+        )
+
     def __init__(self, game, data=None):
         super(Entity, self).__setattr__('game', game)
         super(GameEntity, self).__init__(data)
@@ -46,7 +53,7 @@ class GameEntity(Entity):
             return
 
         game.data[cls.COLLECTION_NAME] = []
-        game.data[cls.COLLECTION_NAME + '_by_uid'] = {}
+        game.data[cls.COLLECTION_NAME + "_by_uid"] = {}
 
         cls.COLLECTIONS_CHECKED.append(cls.__name__)
 
@@ -82,19 +89,35 @@ class GameEntity(Entity):
         game.data[cls.COLLECTION_NAME].remove(data)
 
     @classmethod
-    def index(cls, data, game):
+    def index(cls, data, game=None):
         if game is None:
             game = cls.get_game()
-        game.data[cls.COLLECTION_NAME + '_by_uid'][data['uid']] = data
+        game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]] = data
 
     @classmethod
-    def deindex(cls, data, game):
+    def deindex(cls, data, game=None):
         if game is None:
             game = cls.get_game()
-        del game.data[cls.COLLECTION_NAME + '_by_uid'][data['uid']]
+        del game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]]
 
     @classmethod
-    def get_by_uid(cls, uid, game=None):
+    def find_by_uid(cls, uid, game=None):
         if game is None:
             game = cls.get_game()
-        return cls(game, game.data[cls.COLLECTION_NAME + '_by_uid'][uid])
+
+        print('looking up', uid)
+        print(game.data[cls.COLLECTION_NAME + "_by_uid"])
+
+        data = game.data[cls.COLLECTION_NAME + "_by_uid"].get(uid, None)
+
+        if data:
+            return cls(game, data)
+
+        return None
+
+    @classmethod
+    def query(cls, game=None):
+        if game is None:
+            game = cls.get_game()
+
+        return tuple(game.data[cls.COLLECTION_NAME])
