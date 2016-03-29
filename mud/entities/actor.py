@@ -1,7 +1,48 @@
 from mud.entities.room import Room
 from mud.game_entity import GameEntity
+from mud.event import Event
 from utils.entity import Entity
 
+
+def direction_command(actor, command, *args, **kwargs):
+    # FIXME add actor.can_walk() check
+
+    current_room = actor.get_room()
+    exit = current_room.get_exit(command)
+
+    if not exit:
+        actor.echo("Alas, you can't go that way.")
+        return
+
+    event_data = {
+        "exit": command
+    }
+
+    exiting_event = actor.event_to_room(
+        "exiting",
+        event_data,
+        room=current_room
+    )
+
+    if exiting_event.is_blocked():
+        return
+
+    target_room = exit.get_room()
+
+    entering_event = actor.event_to_room(
+        "entering",
+        event_data,
+        room=target_room
+    )
+
+    if entering_event.is_blocked():
+        return
+
+    actor.set_room(target_room)
+    actor.handle_input("look")
+
+    actor.event_to_room("exited", event_data, room=current_room)
+    actor.event_to_room("entered", event_data, room=target_room)
 
 def look_command(actor, *args, **kwargs):
     actor.echo("""
@@ -17,17 +58,17 @@ slowly.  You have come to the center of the world, and now you know
 what runs it.
 
 [Exits: east west up down]   [Doors: none]   [Secret: none]
-     The Steam Engines & Boilers Of Waterdeep "City Of Splendors"
-    """)
+     The Steam Engines & Boilers Of Waterdeep "City Of Splendors"\
+ """)
 
     actors = Actor.query_by_room_uid(actor.room_uid)
     for other in actors:
         if not actor.can_see(other):
             continue
 
-        output = str(other.format_room_flags_for(actor))
+        output = str(other.format_room_flags_to(actor))
         output += ' '
-        output += str(other.format_room_name_for(actor))
+        output += str(other.format_room_name_to(actor))
 
         actor.echo(output)
 
@@ -43,17 +84,31 @@ def say_command(actor, params, *args, **kwargs):
         actor.echo("Say what?")
         return
 
+    event_data = {
+        "channel": "say",
+        "message": "message",
+    }
+
+    event = actor.event_to_room("channeling", event_data)
+
+    if event.is_blocked():
+        return
+
     message = ' '.join(params)
 
     # FIXME remove this once event handling is complete
     actor.echo("{{MYou say {{x'{{m{}{{x'".format(
-        message
+        message,
     ))
 
-    actor.event_to_room("channel", {
-        "channel": "say",
-        "message": "message",
-    })
+    actors = Actor.query_by_room_uid(actor.room_uid)
+    for other in actors:
+        other.echo("{{M{} says {{x'{{m{}{{x'".format(
+            actor.format_name_to(other),
+            message,
+        ))
+
+    actor.event_to_room("channeled", event_data)
 
 
 class Actor(GameEntity):
@@ -82,17 +137,75 @@ class Actor(GameEntity):
         # FIXME check for flags
         return True
 
-    def format_room_flags_for(self, other):
-        return "[........]"
+    def has_effect(self, effect):
+        return effect == "shock_shield"
+
+    def is_immortal_questing(self):
+        return False
+
+    def is_good_align(self):
+        return False
+
+    def is_evil_align(self):
+        return False
+
+    def format_prompt(self):
+        return "[7999/8101h 8669/12607m 1248v {}(3883) Baths(5/7am) -231] ".format(
+            self.name
+        )
+
+    def format_room_flags_to(self, other):
+        output = "{x["
+
+        has_flags = False
+        for color, flag, func in (
+            ("{y", "V", lambda: self.has_effect("invis")),
+            ("{8", "H", lambda: self.has_effect("hide")),
+            ("{c", "C", lambda: self.has_effect("charm")),
+            ("{b", "T", lambda: self.has_effect("pass_door")),
+            ("{b", "T", lambda: self.has_effect("pass_door")),
+            ("{w", "P", lambda: self.has_effect("faerie_fire")),
+            ("{C", "I", lambda: self.has_effect("ice_shield")),
+            ("{r", "F", lambda: self.has_effect("fire_shield")),
+            ("{B", "L", lambda: self.has_effect("shock_shield")),
+            ("{R", "E", lambda: self.is_evil_align()),
+            ("{Y", "G", lambda: self.is_good_align()),
+            ("{W", "G", lambda: self.has_effect("sanctuary")),
+            ("{G", "Q", lambda: self.is_immortal_questing()),
+        ):
+
+            output += color
+            if func():
+                has_flags = True
+                output += flag
+            else:
+                output += "."
+
+        output += "{x]"
+
+        return output
 
     def get_room(self):
         return Room.find_by_uid(self.room_uid)
 
-    def format_room_name_for(self, other):
+    def format_room_name_to(self, other):
         return self.room_name
 
-    def event_to_room(self, name, data=None):
-        print("EVENT_TO_ROOM NOOP FOR " + str(self))
+    def format_name_to(self, other):
+        return self.name if other.can_see(self) else "Someone"
+
+    def event_to_room(self, name, data=None, room=None):
+        # TODO broadcast to engine
+        print("TODO: Implement event broadcast for {} with data {}".format(
+            name,
+            repr(data)
+        ))
+        event = Event(name, data)
+        return event
+
+    def set_room(self, room):
+        self.room_id = room.id
+        self.room_uid = room.uid
 
     def delay(self, seconds):
         """
@@ -122,16 +235,16 @@ class Actor(GameEntity):
         command = parts.pop(0)
         params = tuple(parts)
 
-        handler = self.find_command_handler(command)
-        if not handler:
+        match = self.find_command(command)
+        if not match:
             self.echo("Huh? (Command not found.)")
             return
 
         try:
-            handler(
+            match["handler"](
                 actor=self,
                 params=params,
-                command=command,
+                command=match["keywords"].split()[0],
             )
         except Exception, e:
             self.echo("Huh?! (Exception in handler.)")
@@ -160,6 +273,13 @@ class Actor(GameEntity):
                 "handler": say_command
             },
         ]
+
+        # FIXME use config
+        for direction in ["north", "south", "east", "west", "up", "down"]:
+            commands.insert(0, {
+                "keywords": direction,
+                "handler": direction_command
+            })
 
         word = word.lower()
 

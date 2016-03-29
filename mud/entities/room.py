@@ -20,3 +20,13 @@ class Room(GameEntity):
                 continue
             actors.append(actor)
         return actors
+
+    def get_exit(self, direction):
+        from mud.entities.room_exit import RoomExit
+        data = self.exits.get(direction, None)
+        print(self.exits, direction)
+
+        if not data:
+            return None
+
+        return RoomExit(self.game, data)

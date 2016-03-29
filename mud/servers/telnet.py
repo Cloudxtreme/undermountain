@@ -1,18 +1,21 @@
 """
 TELNET
 """
+
+import gevent
+import socket
+
 from gevent import Greenlet
 from gevent import monkey
 from mud.entities.character import Character
 from utils.ansi import Ansi
 
-import gevent
-import socket
-
 monkey.patch_all()
 
 
 class TelnetConnection(Greenlet):
+    NEWLINE = "\r\n"
+
     def __init__(self, server, conn, addr):
         super(TelnetConnection, self).__init__()
         self.playing = False
@@ -21,6 +24,7 @@ class TelnetConnection(Greenlet):
         self.address = addr
         self.input_buffer = []
         self.output_buffer = ''
+        self.last_character_sent = ''
         self.state = 'login_username'
         self.game = server.get_game()
         self.delay = 0
@@ -48,12 +52,12 @@ class TelnetConnection(Greenlet):
             else:
                 self.actor = Character(self.game, ch)
                 self.actor.set_connection(self)
-                print('DATA', self.actor.data)
                 self.state = "motd"
                 self.display_motd()
 
     def handle_motd_input(self, message):
         self.state = "playing"
+        self.playing = True
         self.actor.handle_input("look")
 
     def handle_playing_input(self, message):
@@ -96,6 +100,17 @@ class TelnetConnection(Greenlet):
 
     def flush(self):
         if self.output_buffer:
+
+            # Prefix a newline if we didn't send one last time.
+            if self.last_character_sent != self.NEWLINE[-1]:
+                self.output_buffer = self.NEWLINE + self.output_buffer
+
+            if self.actor:
+                self.output_buffer += self.NEWLINE
+                if self.playing:
+                    self.output_buffer += self.actor.format_prompt()
+
+            self.last_character_sent = self.output_buffer[-1]
             self.socket.sendall(self.output_buffer)
             self.output_buffer = ''
 
@@ -144,10 +159,11 @@ class TelnetConnection(Greenlet):
     def write(self, message=""):
         if self.color:
             message = Ansi.colorize(message)
+
         self.output_buffer += message
 
     def writeln(self, message=""):
-        self.write(message + "\r\n")
+        self.write(message + self.NEWLINE)
 
 
 class TelnetServer(Greenlet):
@@ -155,6 +171,7 @@ class TelnetServer(Greenlet):
         super(TelnetServer, self).__init__()
         self.game = game
         self.connections = []
+        self.running = False
 
     def get_game(self):
         return self.game

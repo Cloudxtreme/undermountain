@@ -111,12 +111,11 @@ class Game(Greenlet):
                 "heads off to the north.",
             ],
             "exits": {
-                "north": { "id": "westbridge:3001", "uid": "abc123" },
-                "east": { "id": "westbridge:3001", "uid": "abc123" },
-                "south": { "id": "westbridge:3001", "uid": "abc123" },
-                "west": { "id": "westbridge:3001", "uid": "abc123" },
-                "up": { "id": "westbridge:3001", "uid": "abc123" },
-                "down": { "id": "westbridge:3001", "uid": "abc123" },
+                "north": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "east": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "south": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "west": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "up": { "room_id": "westbridge:3001", "room_uid": "abc123" },
             },
             "objects": [
                 {
