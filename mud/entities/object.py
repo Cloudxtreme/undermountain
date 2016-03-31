@@ -1,7 +1,7 @@
-from mud.game_entity import GameEntity
+from mud.room_entity import RoomEntity
 
 
-class Object(GameEntity):
+class Object(RoomEntity):
     """
     OBJECT
     A statue, bag, sword, or other "thing"in the room.

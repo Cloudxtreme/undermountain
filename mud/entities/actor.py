@@ -1,5 +1,6 @@
 from mud.entities.room import Room
-from mud.game_entity import GameEntity
+from mud.room_entity import RoomEntity
+from mud.entities.object import Object
 from mud.event import Event
 from utils.entity import Entity
 
@@ -44,30 +45,76 @@ def direction_command(actor, command, *args, **kwargs):
     actor.event_to_room("exited", event_data, room=current_room)
     actor.event_to_room("entered", event_data, room=target_room)
 
+
 def look_command(actor, *args, **kwargs):
-    actor.echo("""
-The Center Of Waterdeep [NOLOOT] (Limbo) (building) [Room 69]
-  You stand in the center of the world, the heart of the world.
-Before you stands a large cavern, not filled with lava, but with large
-steam engines.  The boilers stand 20 stories tall, and little umpa
-lumpas stand here, black as night shoveling coal into the boilers.  To
-the north, a little balcony overlooking the crank shaft of the world.
-Outside the balcony, you see a large iron shaft, going up and down.
-Piston Arms jult out of the sides of the wall and turn the shaft,
-slowly.  You have come to the center of the world, and now you know
-what runs it.
+    from settings.directions import DIRECTIONS
 
-[Exits: east west up down]   [Doors: none]   [Secret: none]
-     The Steam Engines & Boilers Of Waterdeep "City Of Splendors"\
- """)
+    room = actor.get_room()
 
+    title_line = "{} {} ({}) ({}) [Room {}] [ID {}]".format(
+        room.name,
+        "[NOLOOT]",
+        room.area_id,
+        "building",
+        room.id,
+        room.uid,
+    )
+    actor.echo(title_line)
+
+    for index, line in enumerate(room.description):
+
+        if index == 0:
+            line = "  " + line
+
+        actor.echo(line)
+
+    actor.echo()
+
+    exits = []
+    doors = []
+    secrets = []
+
+    def format_exits(exits):
+        if not exits:
+            return "none"
+        return " ".join([exit["colored_name"] for exit in exits])
+
+    for exit_id, exit in DIRECTIONS.iteritems():
+        room_exit = room.get_exit(exit_id)
+
+        if not room_exit:
+            continue
+
+        if room_exit.has_flag("door") and room_exit.has_flag("closed"):
+            if room_exit.has_flag("secret"):
+                secrets.append(exit)
+            else:
+                doors.append(exit)
+        else:
+            exits.append(exit)
+
+    actor.echo("[Exits: {}]   [Doors: {}]   [Secret: {}]".format(
+        format_exits(exits),
+        format_exits(doors),
+        format_exits(secrets),
+    ))
+
+    objects = Object.query_by_room_uid(actor.room_uid)
     actors = Actor.query_by_room_uid(actor.room_uid)
-    for other in actors:
+
+    for other in objects + actors:
         if not actor.can_see(other):
             continue
 
         output = str(other.format_room_flags_to(actor))
-        output += ' '
+
+        # Only add space if there's a set of flags.
+        if output:
+            output += ' '
+
+        if type(other) is Object:
+            output = '     ' + output
+
         output += str(other.format_room_name_to(actor))
 
         actor.echo(output)
@@ -111,7 +158,7 @@ def say_command(actor, params, *args, **kwargs):
     actor.event_to_room("channeled", event_data)
 
 
-class Actor(GameEntity):
+class Actor(RoomEntity):
     """
     ACTOR
     A creature, monster, person, etc. that is 'alive' in the World.
@@ -121,17 +168,6 @@ class Actor(GameEntity):
     def __init__(self, *args, **kwargs):
         super(Actor, self).__init__(*args, **kwargs)
         super(Entity, self).__setattr__("connection", None)
-
-    @classmethod
-    def query_by_room_uid(cls, uid, game=None):
-        if not game:
-            game = cls.get_game()
-
-        return [
-            cls(game, actor)
-            for actor in cls.query()
-            if actor.get("room_uid", None) == uid
-        ]
 
     def can_see(self, other):
         # FIXME check for flags
@@ -183,29 +219,10 @@ class Actor(GameEntity):
 
         output += "{x]"
 
-        return output
-
-    def get_room(self):
-        return Room.find_by_uid(self.room_uid)
-
-    def format_room_name_to(self, other):
-        return self.room_name
+        return output if has_flags else ""
 
     def format_name_to(self, other):
         return self.name if other.can_see(self) else "Someone"
-
-    def event_to_room(self, name, data=None, room=None):
-        # TODO broadcast to engine
-        print("TODO: Implement event broadcast for {} with data {}".format(
-            name,
-            repr(data)
-        ))
-        event = Event(name, data)
-        return event
-
-    def set_room(self, room):
-        self.room_id = room.id
-        self.room_uid = room.uid
 
     def delay(self, seconds):
         """
@@ -217,7 +234,7 @@ class Actor(GameEntity):
     def set_connection(self, connection):
         super(Entity, self).__setattr__("connection", connection)
 
-    def echo(self, message):
+    def echo(self, message=""):
         message = str(message)
 
         if self.connection:

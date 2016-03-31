@@ -88,6 +88,8 @@ class Game(Greenlet):
         note = {
             "uid": "note1234",
             "id": "note",
+            "room_id": "westbridge:3001",
+            "room_uid": "abc123",
             "room_name": "An old piece of paper lies on the floor.",
         }
         Object.add(note)

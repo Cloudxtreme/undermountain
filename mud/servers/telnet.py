@@ -138,7 +138,10 @@ class TelnetConnection(Greenlet):
                 gevent.sleep(0.05)
 
     def _run(self):
-        self.write_from_template("login")
+        # self.write_from_template("login")
+        self.writeln("Undermountain")
+        self.writeln()
+        self.write("Username: ")
 
         gevent.spawn(self.input_loop)
 
