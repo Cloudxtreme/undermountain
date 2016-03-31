@@ -200,7 +200,7 @@ class TelnetServer(Greenlet):
 
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        sock.bind(('0.0.0.0', 4200))
+        sock.bind(('0.0.0.0', 4269))
         sock.listen(1)
 
         while self.running:
