@@ -120,4 +120,6 @@ class GameEntity(Entity):
         if game is None:
             game = cls.get_game()
 
+        cls.check_game_collections(game)
+
         return tuple(game.data[cls.COLLECTION_NAME])

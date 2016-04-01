@@ -10,9 +10,10 @@ class Character(Actor):
     """
     COLLECTION_NAME = 'characters'
 
-    def format_room_name_for(self, other):
+    def format_room_name_to(self, other):
         # FIXME handle fighting
         output = self.name if other.can_see(self) else "Someone"
+        print("HERE", self.name)
 
         if self.title:
             output += " " + self.title
@@ -43,12 +44,12 @@ class Character(Actor):
 
     @classmethod
     def get_from_file(cls, uid):
-        game = cls.get_game()
         path = cls.get_file_path(uid)
 
         try:
             with open(path, "r") as fh:
                 data = json.loads(fh.read())
+                data["id"] = uid
                 data["uid"] = uid
                 return data
         except IOError:

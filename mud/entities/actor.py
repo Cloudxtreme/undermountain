@@ -1,8 +1,43 @@
-from mud.entities.room import Room
 from mud.room_entity import RoomEntity
 from mud.entities.object import Object
-from mud.event import Event
 from utils.entity import Entity
+
+
+def who_command(actor, *args, **kwargs):
+    actor.echo("""\
+{G                   The Visible Mortals and Immortals of Waterdeep
+{g-----------------------------------------------------------------------------\
+    """)
+# IMP M Coder God Coder [..LPM....B] Kelemvor Lord of Death [Software Development]
+# IMP M Coder God Coder [..LPM....B] Kelemvor Lord of Death [Software Development]
+# CRE F Human Ran       [W.PNMR...B] Mielikki May be here, but may not [Our Lady of the Forests]
+# SUP M Dwarf Gla       [W..N......] Dumathoin Keeper of Secrets Under the Mountain
+# DEI M Giant God UnDrk [...NMR....] Torog is digging, always digging. [Roleplay Immortal]
+# DEI M Dragn God       [...NMR....] Bahamut. [The Platinum Dragon]
+# GOD M Thken Cle Quest [...P......] Jergal The Lord of the End of Everything [Scrivener of Doom]
+# IMM F Carnl Joy       [...N.R....] Sharess the Naughty Dancer.
+# HRO M Human Mer BlkCh   [.P......] Frast Daftest of punks [CDXX]
+# HRO M Heucv Gla RdHrt   [.P......] Morholt Silent Destruction
+# HRO F H.Elf Str Vectr   [.P.R....] Hannah. [Imperial Princess]
+# HRO M Human Lic Hoard   [LP......] Oreza, Merchant Of Death    [vXo]
+# HRO M Drow  Prs Vectr   [.N.R....] Odia V.2002 NPK base for the masses.  nVo [Assembly of Wealth] [C|ST]
+# HRO M Dwarf Mnk         [.N......] Azzus is kung fu fighting
+# HRO N Human Mer BlkCh   [.P.R....] Skyla The Dark Rogue [DC]
+# HRO M Shadw Thi BlkCh   [.PMR....] Relic Revenu [Thief] [L|ST]
+# HRO M Podkv Gla KoB     [.N......] Alejandros De La Vega (Bandolero with a Bandolier)
+# HRO M Heucv Prs RdHrt   [.P......] Null Doomguide
+# 90 M Hflng Mnk OtLw    [.N......] Christian the Master of Summer
+# 79 M H.Elf Str         [.N......] Galkar SilverLeaf
+# 78 M Mntur Prs         [.N......] Bazza Horn of salvation
+# 77 M Hflng Wiz KoB     [.N......] Calcifer the Master Wizard
+# 54 F Esper Mer KoB     [.N......] Briar the Mistress of Hearing
+# 44 M Kenku Str         [.N......] Collonwy the Manhunter
+
+    actor.echo()
+    actor.echo("{GPlayers found{g: {x23   {GTotal online{g: {W23   {GMost on today{g: {x23")
+
+def save_command(actor, *args, **kwargs):
+    actor.echo("Saving happens automatically.  This command does nothing.")
 
 
 def direction_command(actor, command, *args, **kwargs):
@@ -47,15 +82,16 @@ def direction_command(actor, command, *args, **kwargs):
 
 
 def look_command(actor, *args, **kwargs):
+    from mud.entities.character import Character
     from settings.directions import DIRECTIONS
 
     room = actor.get_room()
 
-    title_line = "{} {} ({}) ({}) [Room {}] [ID {}]".format(
-        room.name,
-        "[NOLOOT]",
+    title_line = "{}{{x {} ({}) ({}) [Room {}] [ID {}]".format(
+        "{B" + room.name + "{x",
+        "{R[{WNOLOOT{R]{x",
         room.area_id,
-        "building",
+        "{Wbuilding{x",
         room.id,
         room.uid,
     )
@@ -93,19 +129,32 @@ def look_command(actor, *args, **kwargs):
         else:
             exits.append(exit)
 
-    actor.echo("[Exits: {}]   [Doors: {}]   [Secret: {}]".format(
-        format_exits(exits),
-        format_exits(doors),
-        format_exits(secrets),
-    ))
+    exit_options = [
+        ("Exits", exits),
+        ("Doors", doors),
+    ]
+    # FIXME Add immortality check.
+    if True:
+        exit_options.append(("Secret", secrets))
+
+    exit_line_parts = []
+    for label, options in exit_options:
+        exit_line_parts.append("{{x[{{G{}{{g:{{x {}{{x]".format(
+            label,
+            format_exits(options)
+        ))
+
+    actor.echo('   '.join(exit_line_parts))
 
     objects = Object.query_by_room_uid(actor.room_uid)
     actors = Actor.query_by_room_uid(actor.room_uid)
+    characters = Character.query_by_room_uid(actor.room_uid)
 
-    for other in objects + actors:
+    for other in objects + characters + actors:
         if not actor.can_see(other):
             continue
 
+        print(other)
         output = str(other.format_room_flags_to(actor))
 
         # Only add space if there's a set of flags.
@@ -186,6 +235,11 @@ class Actor(RoomEntity):
         return False
 
     def format_prompt(self):
+        if not self.prompt:
+            return "{{R100{{8/{{R100{{Chp {{G100{{8/{{G100{{Cmana {{Y1000{{Cxp {{8{}{{x> ".format(
+                self.name
+            )
+
         return "[7999/8101h 8669/12607m 1248v {}(3883) Baths(5/7am) -231] ".format(
             self.name
         )
@@ -276,6 +330,7 @@ class Actor(RoomEntity):
         return None
 
     def find_command(self, word):
+        from settings.directions import DIRECTIONS
         commands = [
             {
                 "keywords": "look",
@@ -289,10 +344,18 @@ class Actor(RoomEntity):
                 "keywords": "say",
                 "handler": say_command
             },
+            {
+                "keywords": "save",
+                "handler": save_command
+            },
+            {
+                "keywords": "who",
+                "handler": who_command
+            },
         ]
 
         # FIXME use config
-        for direction in ["north", "south", "east", "west", "up", "down"]:
+        for direction in DIRECTIONS.keys():
             commands.insert(0, {
                 "keywords": direction,
                 "handler": direction_command

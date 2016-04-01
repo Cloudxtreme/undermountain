@@ -50,6 +50,7 @@ class TelnetConnection(Greenlet):
             if not ch:
                 self.writeln("New character path")
             else:
+                Character.add(ch)
                 self.actor = Character(self.game, ch)
                 self.actor.set_connection(self)
                 self.state = "motd"
@@ -106,9 +107,9 @@ class TelnetConnection(Greenlet):
                 self.output_buffer = self.NEWLINE + self.output_buffer
 
             if self.actor:
-                self.output_buffer += self.NEWLINE
+                self.writeln()
                 if self.playing:
-                    self.output_buffer += self.actor.format_prompt()
+                    self.write(self.actor.format_prompt())
 
             self.last_character_sent = self.output_buffer[-1]
             self.socket.sendall(self.output_buffer)

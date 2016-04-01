@@ -109,7 +109,7 @@ class Game(Greenlet):
                 "the force that gives breath and a heartbeat, and Death, the force that",
                 "steals these gifts away.  There is a guard standing watch, keeping the",
                 "peace.  To the south is the Temple Square and to the west is the donation",
-                "room.  To the east is the City Morgue and a newer section of Main Street",
+                "room.  To the east is the {RCity Morgue{x and a newer section of Main Street",
                 "heads off to the north.",
             ],
             "exits": {

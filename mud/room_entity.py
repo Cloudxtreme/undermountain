@@ -9,11 +9,13 @@ class RoomEntity(GameEntity):
         if not game:
             game = cls.get_game()
 
-        return [
+        results = [
             cls(game, actor)
             for actor in cls.query()
             if actor.get("room_uid", None) == uid
         ]
+
+        return results
 
     def format_room_flags_to(self, other):
         return ""
