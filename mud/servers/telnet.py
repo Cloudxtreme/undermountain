@@ -46,15 +46,22 @@ class TelnetConnection(Greenlet):
         if not name:
             self.write("Sorry, try again: ")
         else:
-            ch = Character.get_from_file(name)
-            if not ch:
+            ch_data = Character.get_from_file(name)
+            if not ch_data:
                 self.writeln("New character path")
-            else:
-                Character.add(ch)
-                self.actor = Character(self.game, ch)
-                self.actor.set_connection(self)
-                self.state = "motd"
-                self.display_motd()
+                self.writeln("Dummy character created for {}".format(name))
+                ch_data = {
+                    "id": name,
+                    "uid": name,
+                    "name": name,
+                    "room_id": "westbridge:3001",
+                    "room_uid": "abc123",
+                }
+            Character.add(ch_data)
+            self.actor = Character(self.game, ch_data)
+            self.actor.set_connection(self)
+            self.state = "motd"
+            self.display_motd()
 
     def handle_motd_input(self, message):
         self.state = "playing"

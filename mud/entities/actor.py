@@ -151,7 +151,7 @@ def look_command(actor, *args, **kwargs):
     characters = Character.query_by_room_uid(actor.room_uid)
 
     for other in objects + characters + actors:
-        if not actor.can_see(other):
+        if not actor.can_see(other) or other == actor:
             continue
 
         print(other)
