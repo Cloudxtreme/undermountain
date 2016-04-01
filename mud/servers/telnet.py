@@ -69,6 +69,7 @@ class TelnetConnection(Greenlet):
                 self.state = "motd"
                 self.display_motd()
             else:
+                connection.close()
                 self.actor = connection.actor
                 self.actor.set_connection(self)
                 self.server.remove_connection(connection)
@@ -172,7 +173,10 @@ class TelnetConnection(Greenlet):
 
         self.connected = True
         while self.connected:
-            raw_message = self.socket.recv(4096)
+            try:
+                raw_message = self.socket.recv(4096)
+            except Exception:
+                raw_message = None
             if raw_message:
                 lines = raw_message.strip("\r\n").split("\n")
                 self.input_buffer += lines
