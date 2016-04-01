@@ -67,10 +67,6 @@ class GameEntity(Entity):
         cls.check_game_collections(game)
 
         game.data[cls.COLLECTION_NAME].append(data)
-        print("Appended ID:{} to {}".format(
-            data['id'],
-            cls.COLLECTION_NAME
-        ))
 
         cls.index(data, game)
 
@@ -104,9 +100,6 @@ class GameEntity(Entity):
     def find_by_uid(cls, uid, game=None):
         if game is None:
             game = cls.get_game()
-
-        print('looking up', uid)
-        print(game.data[cls.COLLECTION_NAME + "_by_uid"])
 
         data = game.data[cls.COLLECTION_NAME + "_by_uid"].get(uid, None)
 

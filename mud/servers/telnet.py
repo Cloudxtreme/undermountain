@@ -54,14 +54,31 @@ class TelnetConnection(Greenlet):
                     "id": name,
                     "uid": name,
                     "name": name,
+                    "level": 1,
                     "room_id": "westbridge:3001",
                     "room_uid": "abc123",
                 }
-            Character.add(ch_data)
-            self.actor = Character(self.game, ch_data)
-            self.actor.set_connection(self)
-            self.state = "motd"
-            self.display_motd()
+            ch = Character(self.game, ch_data)
+
+            connection = self.game.get_actor_connection(ch)
+
+            if connection is None:
+                Character.add(ch_data)
+                self.actor = ch
+                self.actor.set_connection(self)
+                self.state = "motd"
+                self.display_motd()
+            else:
+                self.actor = connection.actor
+                self.actor.set_connection(self)
+                self.server.remove_connection(connection)
+                self.state = "playing"
+                self.playing = True
+
+                self.writeln("Reconnecting..")
+                self.writeln()
+
+                self.actor.handle_input("look")
 
     def handle_motd_input(self, message):
         self.state = "playing"
@@ -175,6 +192,14 @@ class TelnetConnection(Greenlet):
 
     def writeln(self, message=""):
         self.write(message + self.NEWLINE)
+
+    def close(self):
+        self.connected = False
+        try:
+            self.socket.shutdown(socket.SHUT_WR)
+            self.socket.close()
+        except Exception:
+            pass
 
 
 class TelnetServer(Greenlet):

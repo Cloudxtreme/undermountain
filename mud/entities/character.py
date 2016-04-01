@@ -13,7 +13,6 @@ class Character(Actor):
     def format_room_name_to(self, other):
         # FIXME handle fighting
         output = self.name if other.can_see(self) else "Someone"
-        print("HERE", self.name)
 
         if self.title:
             output += " " + self.title

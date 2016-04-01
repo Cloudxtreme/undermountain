@@ -4,43 +4,101 @@ from utils.entity import Entity
 
 
 def who_command(actor, *args, **kwargs):
+    from utils.ansi import Ansi
+
     actor.echo("""\
 {G                   The Visible Mortals and Immortals of Waterdeep
 {g-----------------------------------------------------------------------------\
     """)
-# IMP M Coder God Coder [..LPM....B] Kelemvor Lord of Death [Software Development]
-# IMP M Coder God Coder [..LPM....B] Kelemvor Lord of Death [Software Development]
-# CRE F Human Ran       [W.PNMR...B] Mielikki May be here, but may not [Our Lady of the Forests]
-# SUP M Dwarf Gla       [W..N......] Dumathoin Keeper of Secrets Under the Mountain
-# DEI M Giant God UnDrk [...NMR....] Torog is digging, always digging. [Roleplay Immortal]
-# DEI M Dragn God       [...NMR....] Bahamut. [The Platinum Dragon]
-# GOD M Thken Cle Quest [...P......] Jergal The Lord of the End of Everything [Scrivener of Doom]
-# IMM F Carnl Joy       [...N.R....] Sharess the Naughty Dancer.
-# HRO M Human Mer BlkCh   [.P......] Frast Daftest of punks [CDXX]
-# HRO M Heucv Gla RdHrt   [.P......] Morholt Silent Destruction
-# HRO F H.Elf Str Vectr   [.P.R....] Hannah. [Imperial Princess]
-# HRO M Human Lic Hoard   [LP......] Oreza, Merchant Of Death    [vXo]
-# HRO M Drow  Prs Vectr   [.N.R....] Odia V.2002 NPK base for the masses.  nVo [Assembly of Wealth] [C|ST]
-# HRO M Dwarf Mnk         [.N......] Azzus is kung fu fighting
-# HRO N Human Mer BlkCh   [.P.R....] Skyla The Dark Rogue [DC]
-# HRO M Shadw Thi BlkCh   [.PMR....] Relic Revenu [Thief] [L|ST]
-# HRO M Podkv Gla KoB     [.N......] Alejandros De La Vega (Bandolero with a Bandolier)
-# HRO M Heucv Prs RdHrt   [.P......] Null Doomguide
-# 90 M Hflng Mnk OtLw    [.N......] Christian the Master of Summer
-# 79 M H.Elf Str         [.N......] Galkar SilverLeaf
-# 78 M Mntur Prs         [.N......] Bazza Horn of salvation
-# 77 M Hflng Wiz KoB     [.N......] Calcifer the Master Wizard
-# 54 F Esper Mer KoB     [.N......] Briar the Mistress of Hearing
-# 44 M Kenku Str         [.N......] Collonwy the Manhunter
+
+    game = actor.get_game()
+
+    total_count = 0
+    visible_count = 0
+
+    for other in game.get_characters():
+        total_count += 1
+
+        if not actor.can_see(other):
+            continue
+
+        visible_count += 1
+
+        output = ""
+
+        if other.level_restring:
+            output += Ansi.pad_left(other.level_restring, 4)
+        elif other.has_role("admin"):
+            output += "{RIMP{x "
+        elif other.has_role("builder"):
+            output += "{GCRE{x "
+        elif other.has_role("immortal"):
+            output += "{GIMM{x "
+        elif other.is_hero():
+            output += "{BHRO{x "
+        else:
+            output += Ansi.pad_left("{x" + str(other.level) + "{x", 3) + " "
+
+        if other.who_restring:
+            output += Ansi.pad_right(other.who_restring, 22)
+        else:
+            if other.who_gender_restring:
+                output += Ansi.pad_right(other.who_gender_restring, 2)
+            else:
+                output += other.format_who_gender() + " "
+
+            if other.who_race_restring:
+                output += Ansi.pad_right(other.who_race_restring, 6)
+            else:
+                output += Ansi.pad_right(other.format_who_race(), 6)
+
+            if other.who_class_restring:
+                output += Ansi.pad_right(other.who_class_restring, 4)
+            else:
+                output += Ansi.pad_right(other.format_who_class(), 4)
+
+            if other.who_clan_restring:
+                output += Ansi.pad_right(other.who_clan_restring, 6)
+            else:
+                output += Ansi.pad_right(other.format_who_clan(), 6)
+
+        if other.who_flags_restring:
+            Ansi.pad_left(other.who_flags_restring, 11)
+        if other.has_role("immortal"):
+            output += "[..........]"
+        else:
+            output += "[........]"
+
+        output += " "
+
+        output += other.name
+
+        if other.title:
+            output += " " + other.title
+
+        if other.bracket:
+            output += " {x[" + other.bracket + "{x]"
+
+        faction = other.get_faction()
+        if faction:
+            output += " " + faction.format_who_display()
+
+        actor.echo(output)
+
+    highest_count = total_count
 
     actor.echo()
-    actor.echo("{GPlayers found{g: {x23   {GTotal online{g: {W23   {GMost on today{g: {x23")
+    actor.echo("{{GPlayers found{{g: {{x{}   {{GTotal online{{g: {{W{}   {{GMost on today{{g: {{x{}".format(
+        visible_count,
+        total_count,
+        highest_count,
+    ))
 
 def save_command(actor, *args, **kwargs):
     actor.echo("Saving happens automatically.  This command does nothing.")
 
 
-def direction_command(actor, command, *args, **kwargs):
+def walk_command(actor, command, *args, **kwargs):
     # FIXME add actor.can_walk() check
 
     current_room = actor.get_room()
@@ -49,6 +107,12 @@ def direction_command(actor, command, *args, **kwargs):
     if not exit:
         actor.echo("Alas, you can't go that way.")
         return
+
+    if exit.has_flag("door"):
+        if exit.has_flag("closed"):
+            if not actor.has_effect("pass_door"):
+                actor.echo("The door is closed.")
+                return
 
     event_data = {
         "exit": command
@@ -234,6 +298,15 @@ class Actor(RoomEntity):
     def is_evil_align(self):
         return False
 
+    def has_role(self, role):
+        return role in self.get("roles", [])
+
+    def is_immortal(self):
+        return this.get("immortal", False)
+
+    def is_hero(self):
+        return self.level == 101
+
     def format_prompt(self):
         if not self.prompt:
             return "{{R100{{8/{{R100{{Chp {{G100{{8/{{G100{{Cmana {{Y1000{{Cxp {{8{}{{x> ".format(
@@ -243,6 +316,26 @@ class Actor(RoomEntity):
         return "[7999/8101h 8669/12607m 1248v {}(3883) Baths(5/7am) -231] ".format(
             self.name
         )
+
+    def format_who_race(self):
+        return "{CH{ceucv{x"
+
+    def get_faction(self):
+        return None
+
+    def format_who_class(self):
+        return "{BG{bla{x"
+
+    def format_who_clan(self):
+        return ""
+
+    def format_who_gender(self):
+        if self.gender == "male":
+            return "{BM{x"
+        elif self.gender == "female":
+            return "{MM{x"
+        else:
+            return "{8N{x"
 
     def format_room_flags_to(self, other):
         output = "{x["
@@ -295,8 +388,6 @@ class Actor(RoomEntity):
             self.connection.writeln(message)
 
     def handle_input(self, message):
-        self.echo("HANDLING INPUT> " + message)
-
         parts = message.split(' ')
 
         if not parts:
@@ -358,7 +449,7 @@ class Actor(RoomEntity):
         for direction in DIRECTIONS.keys():
             commands.insert(0, {
                 "keywords": direction,
-                "handler": direction_command
+                "handler": walk_command
             })
 
         word = word.lower()

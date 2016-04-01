@@ -36,9 +36,19 @@ class Game(Greenlet):
     def remove_connection(self, connection):
         self.connections.remove(connection)
 
-    def get_actor_connection(self, actor):
+    def get_characters(self):
+        return [
+            connection.actor
+            for connection in self.connections
+            if connection.actor
+        ]
+
+    def get_actor_connection(self, actor, exclude=None):
         for connection in self.connections:
-            if connection.actor and connection.actor == actor:
+            if connection == exclude:
+                continue
+
+            if connection.actor == actor:
                 return connection
 
         return None

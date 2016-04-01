@@ -7,4 +7,4 @@ class RoomExit(GameEntity):
         return Room.find_by_uid(self.room_uid)
 
     def has_flag(self, flag):
-        return True
+        return False

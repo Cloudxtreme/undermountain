@@ -93,3 +93,13 @@ class Ansi(object):
         out_string = out_string.replace(cls.REAL_BRACKET_SYMBOL, "{")
 
         return out_string
+
+    @classmethod
+    def pad_left(cls, message, length, symbol=" "):
+        stripped = cls.decolorize(message)
+        return (symbol * max(0, length - len(stripped))) + message
+
+    @classmethod
+    def pad_right(cls, message, length, symbol=" "):
+        stripped = cls.decolorize(message)
+        return message + (symbol * max(0, length - len(stripped)))
