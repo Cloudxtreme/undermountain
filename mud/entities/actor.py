@@ -3,6 +3,29 @@ from mud.entities.object import Object
 from utils.entity import Entity
 
 
+def reload_command(actor, *args, **kwargs):
+    import sys
+    to_restart = ["mud", "utils"]
+    for module in list(sys.modules):
+        found = False
+
+        # Exact match.
+        if module in to_restart:
+            found = True
+
+        # Prefix match.
+        else:
+            for prefix in to_restart:
+                if module.startswith(prefix + "."):
+                    found = True
+                    continue
+
+        if found:
+            del(sys.modules[module])
+
+	# del(sys.modules[m])
+    actor.echo("Reloaded modules.")
+
 def who_command(actor, *args, **kwargs):
     from utils.ansi import Ansi
 
@@ -442,6 +465,10 @@ class Actor(RoomEntity):
             {
                 "keywords": "who",
                 "handler": who_command
+            },
+            {
+                "keywords": "reload",
+                "handler": reload_command
             },
         ]
 
