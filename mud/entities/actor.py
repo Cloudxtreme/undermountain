@@ -305,6 +305,9 @@ class Actor(RoomEntity):
         super(Actor, self).__init__(*args, **kwargs)
         super(Entity, self).__setattr__("connection", None)
 
+        if not self.level:
+            self.level = 1
+
     def can_see(self, other):
         # FIXME check for flags
         return True

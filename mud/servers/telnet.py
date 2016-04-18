@@ -22,6 +22,7 @@ class TelnetConnection(Greenlet):
         self.server = server
         self.socket = conn
         self.address = addr
+        self.username = ""
         self.input_buffer = []
         self.output_buffer = ''
         self.last_character_sent = ''
@@ -42,22 +43,46 @@ class TelnetConnection(Greenlet):
         self.delay += seconds
 
     def handle_login_username_input(self, message):
-        name = Character.get_clean_name(message)
-        if not name:
+        username = Character.get_clean_name(message)
+
+        if not username:
             self.write("Sorry, try again: ")
         else:
-            ch_data = Character.get_from_file(name)
+            ch_data = Character.get_from_file(username)
+
             if not ch_data:
-                self.writeln("New character path")
-                self.writeln("Dummy character created for {}".format(name))
-                ch_data = {
-                    "id": name,
-                    "uid": name,
-                    "name": name,
-                    "level": 1,
+                self.actor = Character(self.game, {
+                    "uid": username,
+                    "id": username,
+                    "name": username,
                     "room_id": "westbridge:3001",
-                    "room_uid": "abc123",
-                }
+                })
+                self.actor.set_connection(self)
+
+                self.state = "create_confirm_username"
+                self.write("""\
++------------------------[ Welcome to Waterdeep ]-------------------------+
+
+  We are a roleplaying -encouraged- mud, meaning roleplaying is not
+  required by our players but we ask that non-roleplayers abide to a few
+  rules and regulations.  All names are to be roleplayish in nature and
+  this policy is enforced by the staff.
+
+    1. Do not use names such as Joe, Bob, Larry, Carl and so forth.
+    2. Names of Forgotten Realms Deities are reserved for staff members.
+    3. Do not use combo word names such as Blackbeard or Rockdeath, etc.
+
+  If we find your name is not suitable for our environment, an immortal
+  staff member will appear before you and offer you a rename.  Please be
+  nice and civil, and we will return with the same.
+
++--------------[ This MUD is rated R for Mature Audiences ]---------------+
+
+Did I get that right, {} (Y/N)? """.format(
+                    username
+                ))
+                return
+
             ch = Character(self.game, ch_data)
 
             connection = self.game.get_actor_connection(ch)
@@ -80,6 +105,187 @@ class TelnetConnection(Greenlet):
                 self.writeln()
 
                 self.actor.handle_input("look")
+
+    def clean_input(self, message):
+        cleaned = message.lower().strip()
+        return cleaned
+
+    def handle_create_confirm_username_input(self, message):
+        cleaned = self.clean_input(message)
+
+        if cleaned.startswith("y"):
+            self.write("""\
+A new life has been created.
+
+Please choose a password for {}: """.format(
+                self.actor.name
+            ))
+            self.state = "create_password"
+
+        elif cleaned.startswith("n"):
+            self.actor = None
+            self.state = "login_username"
+
+            self.writeln()
+            self.write("Ok, what IS it, then? ")
+        else:
+            self.write("Please type Yes or No: ")
+
+    def handle_create_password_input(self, message):
+        cleaned = message.strip()
+
+        if not cleaned:
+            self.writeln("You didn't provide a password, please try again.")
+            self.write("Password: ")
+
+        self.actor.password = Character.get_password_hash(cleaned)
+        self.write("Please confirm your password: ")
+        self.state = "create_password_confirm"
+
+    def handle_create_password_confirm_input(self, message):
+        cleaned = message.strip()
+
+        if Character.get_password_hash(cleaned) != self.actor.password:
+            self.writeln("Passwords don't match.")
+            self.write("Retype password: ")
+            self.state = "create_password"
+            return
+
+        self.writeln("""\
++---------------------------[ Pick your Race ]----------------------------+
+
+  Welcome to the birthing process of your character.  Below you will
+  find a list of available races and their basic stats.  You will gain
+  an additional +2 points on a specific stat depending on your choice
+  of class.  For detailed information see our website located at
+  http://waterdeep.org or type HELP (Name of Race) below.
+
+            STR INT WIS DEX CON                 STR INT WIS DEX CON
+  Avian     17  19  20  16  17      HalfElf     17  18  19  18  18
+  Centaur   20  17  15  13  21      HalfOrc     19  15  15  20  21
+  Draconian 22  18  16  15  21      Heucuva     25  10  10  25  25
+  Drow      18  22  20  23  17      Human       21  19  19  19  21
+  Dwarf     20  18  22  16  21      Kenku       19  19  21  20  19
+  Elf       16  20  18  21  15      Minotaur    23  16  15  16  22
+  Esper     14  21  21  20  14      Pixie       14  20  20  23  14
+  Giant     22  15  18  15  20      Podrikev    25  18  18  15  25
+  Gnoll     20  16  15  20  19      Thri'Kreen  17  22  22  16  25
+  Gnome     16  23  19  15  15      Titan       25  18  18  15  25
+  Goblin    16  20  16  19  20      Satyr       23  19  10  14  21
+  Halfling  15  20  16  21  18
+
++-------------------------------------------------------------------------+
+
+Please choose a race, or HELP (Name of Race) for more info: \
+""")
+        self.state = "create_race"
+
+    def handle_create_race_input(self, message):
+        from settings.races import RACES
+
+        cleaned = self.clean_input(message)
+
+        for race in RACES:
+            if race["id"].startswith(cleaned):
+                self.actor.race_id = race["id"]
+                self.write("""\
++--------------------------[ Pick your Gender ]---------------------------+
+
+                                  Male
+                                  Female
+                                  Neutral
+
++-------------------------------------------------------------------------+
+
+Please choose a gender for your character: """)
+                self.state = "create_gender"
+                return
+
+        self.writeln("That's not a race.")
+        self.write("What IS your race? ")
+
+    def handle_create_gender_input(self, message):
+        cleaned = self.clean_input(message)
+        for gender_id in ["male", "female", "neutral"]:
+            if gender_id.startswith(cleaned):
+                self.actor.gender_id = gender_id
+                break
+
+        if self.actor.gender_id:
+            self.write("""\
++--------------------------[ Pick your Class ]---------------------------+
+
+  Waterdeep has a 101 level, 2 Tier remorting system.  After the first
+  101 levels you will reroll and be able to choose a new race and class.
+  2nd Tier classes are upgrades from their 1st tier counterparts.
+
+  For more information type HELP (Name of Class) to see their help files.
+
+                               Mage
+                               Cleric
+                               Thief
+                               Warrior
+                               Ranger
+                               Druid
+                               Vampire
+
++-------------------------------------------------------------------------+
+
+Select a class or type HELP (Class) for details: """)
+            self.state = "create_class"
+        else:
+            self.writeln("That's not a sex.")
+            self.write("What IS your sex?")
+
+    def handle_create_class_input(self, message):
+        self.write("""\
++------------------------[ Pick your Alignment ]-------------------------+
+
+  Your alignment will effect how much experience you get from certain
+  mobiles, such as you gain less experience if you are evil, and you kill
+  evil mobiles.  You gain more for killing good mobiles.  There are spells
+  available that can counter this effect.
+
+                                  Good
+                                  Neutral
+                                  Evil
+
++-------------------------------------------------------------------------+
+
+Choose your alignment: """)
+        self.actor.class_id = "warrior"
+        self.state = "create_alignment"
+
+    def handle_create_alignment_input(self, message):
+        self.actor.alignment = 0
+        self.write("""\
++----------------------[ Character Customization ]-----------------------+
+
+  Your character is given a basic set of skills and or spells depending
+  on your choice of class.  You can customize your character which allows
+  you to choose from a wider range of skills and abilities.
+
++-------------------------------------------------------------------------+
+
+Do you wish to customize? (Yes or No): """)
+        self.state = "create_customize_prompt"
+
+    def handle_create_customize_prompt_input(self, message):
+        self.write("""\
++-------------------------[ Pick your Weapon ]---------------------------+
+
+  Please pick a weapon to learn from the following choices:
+
+  dagger
++-------------------------------------------------------------------------+
+
+
+Your choice?: """)
+        self.state = "create_weapon"
+
+    def handle_create_weapon_input(self, message):
+        self.display_motd()
+        self.state = "motd"
 
     def handle_motd_input(self, message):
         self.state = "playing"
@@ -237,7 +443,12 @@ class TelnetServer(Greenlet):
 
         sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
         sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
-        sock.bind(('0.0.0.0', 3200))
+
+        host = '0.0.0.0'
+        port = 3200
+        print("Listening on {}:{}".format(host, port))
+
+        sock.bind((host, port))
         sock.listen(1)
 
         while self.running:

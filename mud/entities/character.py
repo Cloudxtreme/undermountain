@@ -1,4 +1,5 @@
 from mud.entities.actor import Actor
+from mud.entities.room import Room
 import json
 import re
 
@@ -9,6 +10,16 @@ class Character(Actor):
     An Actor that can be controlled by a Player.
     """
     COLLECTION_NAME = 'characters'
+
+    def __init__(self, *args, **kwargs):
+        super(Character, self).__init__(*args, **kwargs)
+
+        room = self.get_room()
+        if not room:
+            # FIXME use some config setting
+            starting_rooms = Room.query_by_id("westbridge:3001")
+            if starting_rooms:
+                self.set_room(starting_rooms[0])
 
     def format_room_name_to(self, other):
         # FIXME handle fighting
@@ -55,6 +66,11 @@ class Character(Actor):
             pass
 
         return None
+
+    @classmethod
+    def get_password_hash(cls, password):
+        # FIXME REPLACE THIS WITH A REAL HASH
+        return password
 
     @classmethod
     def save_to_file(cls, data):

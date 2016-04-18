@@ -21,7 +21,19 @@ class RoomEntity(GameEntity):
         return ""
 
     def get_room(self):
-        return Room.find_by_uid(self.room_uid)
+        room = Room.get_by_uid(self.room_uid)
+        if room is not None:
+            return room
+
+        # TODO Make this figure out if this entity can be present in one
+        # of these rooms, otherwise.. return None
+        rooms = Room.query_by_id(self.room_id)
+        if rooms:
+            room = rooms[0]
+            self.room_uid = room.uid
+            return room
+
+        return None
 
     def format_room_name_to(self, other):
         return self.room_name
@@ -38,4 +50,3 @@ class RoomEntity(GameEntity):
     def set_room(self, room):
         self.room_id = room.id
         self.room_uid = room.uid
-

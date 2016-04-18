@@ -53,6 +53,7 @@ class GameEntity(Entity):
             return
 
         game.data[cls.COLLECTION_NAME] = []
+        game.data[cls.COLLECTION_NAME + "_by_id"] = {}
         game.data[cls.COLLECTION_NAME + "_by_uid"] = {}
 
         cls.COLLECTIONS_CHECKED.append(cls.__name__)
@@ -88,7 +89,15 @@ class GameEntity(Entity):
     def index(cls, data, game=None):
         if game is None:
             game = cls.get_game()
-        game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]] = data
+
+        by_id = game.data[cls.COLLECTION_NAME + "_by_id"]
+        id = data["id"]
+        if not id in by_id:
+            by_id[id] = []
+        by_id[id].append(data)
+
+        uid = data["uid"]
+        game.data[cls.COLLECTION_NAME + "_by_uid"][uid] = data
 
     @classmethod
     def deindex(cls, data, game=None):
@@ -96,17 +105,39 @@ class GameEntity(Entity):
             game = cls.get_game()
         del game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]]
 
+        by_id = game.data[cls.COLLECTION_NAME + "_by_id"][data["id"]]
+        by_id.remove(self)
+        if not by_id:
+            del game.data[cls.COLLECTION_NAME + "_by_id"][data["id"]]
+
     @classmethod
-    def find_by_uid(cls, uid, game=None):
+    def wrap(cls, game, data):
+        if data is None:
+            return None
+
+        # Do not recursively wrap.
+        if type(data) is list:
+            return [cls(game, item) for item in data]
+
+        return cls(game, data)
+
+    @classmethod
+    def query_by_id(cls, id, game=None):
+        if game is None:
+            game = cls.get_game()
+
+        data = game.data[cls.COLLECTION_NAME + "_by_id"].get(id, None)
+
+        return cls.wrap(game, data)
+
+    @classmethod
+    def get_by_uid(cls, uid, game=None):
         if game is None:
             game = cls.get_game()
 
         data = game.data[cls.COLLECTION_NAME + "_by_uid"].get(uid, None)
 
-        if data:
-            return cls(game, data)
-
-        return None
+        return cls.wrap(game, data)
 
     @classmethod
     def query(cls, game=None):

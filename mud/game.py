@@ -77,7 +77,7 @@ class Game(Greenlet):
         from mud.entities.actor import Actor
         hogan = {
             "uid": "jahsdf1234",
-            "id": "hogan",
+            "id": "westbridge:hogan",
             "area_id": "westbridge",
             "full_id": "westbridge:hogan",
             "name": "Hollywood Hogan",
@@ -107,9 +107,8 @@ class Game(Greenlet):
         from mud.entities.room import Room
         temple_of_life = {
             "uid": "abc123",
-            "id": "3001",
+            "id": "westbridge:3001",
             "area_id": "westbridge",
-            "full_id": "westbridge:3001",  # generated
             "flags": ["city", "indoor", "law", "safe", "noloot"],
             "name": "The Temple of Life",
             "description": [
