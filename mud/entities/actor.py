@@ -141,6 +141,8 @@ def walk_command(actor, command, *args, **kwargs):
         "exit": command
     }
 
+    actor.act_around("[actor.name] leaves to the {}".format(command))
+
     exiting_event = actor.event_to_room(
         "exiting",
         event_data,
@@ -163,6 +165,8 @@ def walk_command(actor, command, *args, **kwargs):
 
     actor.set_room(target_room)
     actor.handle_input("look")
+
+    actor.act_around("[actor.name] enters the room.")
 
     actor.event_to_room("exited", event_data, room=current_room)
     actor.event_to_room("entered", event_data, room=target_room)
@@ -241,7 +245,6 @@ def look_command(actor, *args, **kwargs):
         if not actor.can_see(other) or other == actor:
             continue
 
-        print(other)
         output = str(other.format_room_flags_to(actor))
 
         # Only add space if there's a set of flags.
@@ -272,7 +275,7 @@ def say_command(actor, params, *args, **kwargs):
         "message": "message",
     }
 
-    event = actor.event_to_room("channeling", event_data)
+    event = actor.event_to_room("saying", event_data)
 
     if event.is_blocked():
         return
@@ -284,14 +287,11 @@ def say_command(actor, params, *args, **kwargs):
         message,
     ))
 
-    actors = Actor.query_by_room_uid(actor.room_uid)
-    for other in actors:
-        other.echo("{{M{} says {{x'{{m{}{{x'".format(
-            actor.format_name_to(other),
-            message,
-        ))
+    actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(
+        message
+    ))
 
-    actor.event_to_room("channeled", event_data)
+    actor.event_to_room("said", event_data)
 
 
 class Actor(RoomEntity):
@@ -307,6 +307,9 @@ class Actor(RoomEntity):
 
         if not self.level:
             self.level = 1
+
+        room = self.get_room()
+        self.set_room(room)
 
     def can_see(self, other):
         # FIXME check for flags
@@ -355,6 +358,33 @@ class Actor(RoomEntity):
     def format_who_clan(self):
         return ""
 
+    def format_act_template(self, template, actor, other):
+        message = template
+
+        # FIXME make more efficient
+        replaces = {
+            "actor.name": actor.format_name_to(other),
+        }
+
+        for field, value in replaces.iteritems():
+            if field in message:
+                message = message.replace("[" + field + "]", value)
+
+        return message
+
+    def act_to(self, other, template):
+        message = self.format_act_template(template, actor=self, other=other)
+        other.echo(message)
+        # TODO look for triggers to fire
+
+    def act_around(self, template):
+        room = self.get_room()
+
+        actors = [actor for actor in room.get_actors(exclude=self)]
+
+        for other in actors:
+            self.act_to(other, template)
+
     def format_who_gender(self):
         if self.gender == "male":
             return "{BM{x"
@@ -401,17 +431,22 @@ class Actor(RoomEntity):
         """
         Delay a player's next command interpretation in seconds.
         """
-        if self.connection:
-            self.connection.add_delay(seconds)
+        connection = self.get_connection()
+        if connection:
+            connection.add_delay(seconds)
+
+    def get_connection(self):
+        return self.get("$connection", None)
 
     def set_connection(self, connection):
-        super(Entity, self).__setattr__("connection", connection)
+        self.set("$connection", connection)
 
     def echo(self, message=""):
         message = str(message)
 
-        if self.connection:
-            self.connection.writeln(message)
+        connection = self.get_connection()
+        if connection:
+            connection.writeln(message)
 
     def handle_input(self, message):
         parts = message.split(' ')

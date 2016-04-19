@@ -43,12 +43,15 @@ class Game(Greenlet):
             if connection.actor
         ]
 
-    def get_actor_connection(self, actor, exclude=None):
+    def get_actor_connection(self, actor=None, actor_id=None, exclude=None):
         for connection in self.connections:
             if connection == exclude:
                 continue
 
-            if connection.actor == actor:
+            if actor and connection.actor == actor:
+                return connection
+
+            if actor_id and connection.actor and connection.actor.id == actor_id:
                 return connection
 
         return None
@@ -122,9 +125,9 @@ class Game(Greenlet):
                 "heads off to the north.",
             ],
             "exits": {
-                "north": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "north": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
                 "east": { "room_id": "westbridge:3001", "room_uid": "abc123" },
-                "south": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "south": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
                 "west": { "room_id": "westbridge:3001", "room_uid": "abc123" },
                 "up": { "room_id": "westbridge:3001", "room_uid": "abc123" },
             },
@@ -141,9 +144,37 @@ class Game(Greenlet):
         }
         Room.add(temple_of_life)
 
-        from mud.entities.character import Character
-        kelemvor = Character.get_from_file('Kelemvor')
-        print(kelemvor)
+        temple_square = {
+            "uid": "xyz321",
+            "id": "westbridge:3005",
+            "area_id": "westbridge",
+            "flags": ["city", "outdoor", "law", "noloot"],
+            "name": "Temple Square",
+            "description": [
+                "Here is the middle of the Temple Square.  To the north, huge marble",
+                "steps lead up to the temple gate.  The entrance to a large cathedral",
+                "is to the west and The Healing Wound Inn is just east of here.  A few",
+                "large cracks in the ground can be seen.",
+            ],
+            "exits": {
+                "north": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "east": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
+                "south": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "west": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
+                "up": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
+            },
+            "objects": [
+                {
+                    "uid": "note1234",
+                },
+            ],
+            "actors": [
+                {
+                    "uid": "jahsdf1234",
+                },
+            ],
+        }
+        Room.add(temple_square)
 
     def _run(self):
         """

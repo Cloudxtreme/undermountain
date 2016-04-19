@@ -13,18 +13,22 @@ class Room(GameEntity):
         Get all the Actors in this Room.
         """
         from mud.entities.actor import Actor
+        from mud.entities.character import Character
+
         # FIXME use some kind of reusable filtering function
         actors = []
-        for actor in Actor.query_by_room_uid(self.uid, game=self.game):
-            if actor == exclude:
-                continue
-            actors.append(actor)
+
+        actors += [actor for actor in Actor.query_by_room_uid(self.uid)]
+        actors += [actor for actor in Character.query_by_room_uid(self.uid)]
+
+        if exclude in actors:
+            actors.remove(exclude)
+
         return actors
 
     def get_exit(self, direction):
         from mud.entities.room_exit import RoomExit
         data = self.exits.get(direction, None)
-        print(self.exits, direction)
 
         if not data:
             return None

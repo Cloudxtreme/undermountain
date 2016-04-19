@@ -10,10 +10,11 @@ class GameEntity(Entity):
     COLLECTIONS_CHECKED = []
 
     def __repr__(self):
-        return "<{} uid:{} name:{}>".format(
+        return "<{} uid:{} name:{} python:{}>".format(
             self.__class__.__name__,
             self.uid,
             self.name,
+            id(self),
         )
 
     def __init__(self, game, data=None):

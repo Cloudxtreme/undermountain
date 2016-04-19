@@ -21,6 +21,16 @@ class Character(Actor):
             if starting_rooms:
                 self.set_room(starting_rooms[0])
 
+        if not self.class_id:
+            # FIXME DEFAULTS
+            self.class_id = 'vampire'
+
+        if not self.race_id:
+            self.race_id = 'human'
+
+        if not self.gender_id:
+            self.gender_id = 'm'
+
     def format_room_name_to(self, other):
         # FIXME handle fighting
         output = self.name if other.can_see(self) else "Someone"

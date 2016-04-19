@@ -83,16 +83,16 @@ Did I get that right, {} (Y/N)? """.format(
                 ))
                 return
 
-            ch = Character(self.game, ch_data)
-
-            connection = self.game.get_actor_connection(ch)
+            connection = self.game.get_actor_connection(actor_id=username)
 
             if connection is None:
                 Character.add(ch_data)
+                ch = Character.get_by_uid(username)
                 self.actor = ch
                 self.actor.set_connection(self)
                 self.state = "motd"
                 self.display_motd()
+
             else:
                 connection.close()
                 self.actor = connection.actor
@@ -286,6 +286,10 @@ Your choice?: """)
     def handle_create_weapon_input(self, message):
         self.display_motd()
         self.state = "motd"
+
+        Character.add(self.actor.data)
+        self.actor = Character.get_by_uid(self.actor.uid)
+        self.actor.set_connection(self)
 
     def handle_motd_input(self, message):
         self.state = "playing"
