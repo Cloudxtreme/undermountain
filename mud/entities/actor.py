@@ -265,10 +265,17 @@ def bash_command(actor, *args, **kwargs):
 
 
 def say_command(actor, params, *args, **kwargs):
+
+    if actor.has_flag("nochan") or actor.has_flag("nosay"):
+        actor.echo("You cannot say anything.")
+        return
+
     # TODO Check nochan or nosay
     if not params:
         actor.echo("Say what?")
         return
+
+    message = ' '.join(params)
 
     event_data = {
         "channel": "say",
@@ -280,17 +287,8 @@ def say_command(actor, params, *args, **kwargs):
     if event.is_blocked():
         return
 
-    message = ' '.join(params)
-
-    # FIXME remove this once event handling is complete
-    actor.echo("{{MYou say {{x'{{m{}{{x'".format(
-        message,
-    ))
-
-    actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(
-        message
-    ))
-
+    actor.echo("{{MYou say {{x'{{m{}{{x'".format(message))
+    actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(message))
     actor.event_to_room("said", event_data)
 
 
@@ -307,6 +305,10 @@ class Actor(RoomEntity):
 
         if not self.level:
             self.level = 1
+
+    def has_flag(self, flag):
+        # FIXME to implement
+        return False
 
     def can_see(self, other):
         # FIXME check for flags
