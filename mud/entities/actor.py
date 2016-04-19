@@ -308,9 +308,6 @@ class Actor(RoomEntity):
         if not self.level:
             self.level = 1
 
-        room = self.get_room()
-        self.set_room(room)
-
     def can_see(self, other):
         # FIXME check for flags
         return True
