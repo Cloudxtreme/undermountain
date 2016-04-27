@@ -1,0 +1,1003 @@
+#AREADATA
+Name Festival Area~
+Builders None~
+VNUMs 58600 58699
+Credits [  IMM   ] Festival Area~
+Security 7
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 0
+Zone 0
+End
+
+
+
+#MOBILES
+#58600
+Nysen~
+{MN{mysen{x, the {Bf{be{Rs{rti{Rv{ba{Bl {Chealer{x~
+{MN{mysen{x, the {Bf{be{Rs{rti{Rv{ba{Bl {Chealer {xis here to bind your wounds.
+~
+Nysen stands about five and a half feet tall with a heavy set build
+and otherwise pleasant apearance.  He wears colorful robes with an
+ornate mace held at his waist by a leather belt.  The laugh lines on
+his face are deep and his demeaner suggest that he is a jovial man.
+~
+human~
+ABa DFZ CDEH 0 0
+110 100 1000d1000+10000 1000d1000+1000 1000d1000+1000 punch
+50 50 50 50
+0 ABLQa 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M grall 58602 75~
+M delay 58603 100~
+#58601
+Death trigger test mob~
+death trigger test mob~
+Death trigger test mob
+~
+~
+human~
+AB DF CDEH 0 0
+150 1000 1000d1000+10000 1000d1000+10000 1000d1000+10000 bite
+100 100 100 100
+0 AB 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M act 58600 guts all over the floor~
+M act 58600 hits the ground~
+M act 58600 is sliced from~
+M act 58600 severed head plops on the ground~
+M act 58600 heart is torn from~
+M act 58600 death cry~
+M act 58600 head is shattered~
+M act 58600 severed head plops on the ground~
+M act 58600 splatters blood on your armor~
+M delay 58601 100~
+#58602
+Namiira festival items dealer~
+{GN{ga{ymii{gr{Ga{x, the festival items dealer.~
+{GN{ga{ymii{gr{Ga {xis here at her counter smiling.
+~
+A tall elven woman wearing some finely crafted leather armor.  She has two
+long bladed daggers at her waist.  Her long black hair is braided tightly
+behind her.
+~
+elf~
+AB DFJZc 0 0 0
+101 1000 1000d1000+10000 0d0+0 1000d1000+10000 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 5
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+F res BG
+#58603
+dynach~
+{BD{bynach{x, The dwarven chef.~
+{BD{bynach{x, the dwarven chef is here selling delicacies.
+~
+A short squat dwarf with a long beard.  He wears a cloth apron stained with food
+stuffs and spattered with various unrecognizable stains.  He wears several cooking
+impliments at his waist stuck through a belt, all of which apear to be quite able
+to be used as weapons.
+~
+dwarf~
+AB DFJZ 0 0 0
+100 1000 1000d1000+10000 0d0+0 1000d1000+10000 none
+0 0 0 0
+0 ABCDLQa FLQ R
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#58604
+festival greeter~
+{BT{bh{Re{r F{Me{mstival Gr{Me{re{Rt{be{Br{x~
+{xThe {BF{be{Rs{rt{Mi{mval Gr{Me{re{Rt{be{Br {xis here welcoming newcomers to the {Bf{be{Rs{rti{Rv{ba{Bl{x.
+~
+A tall man wearing colorfull robes and a large black top, he 
+wears a dyed red tunic and smooth leather breeches.  He holds
+a wooden cane in one hand and has a dagger strapped to the
+waist of his breeches.
+~
+human~
+AB DFZ 0 0 0
+110 0 1000d1000+10000 0d0+0 1000d1000+10000 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M grall 58604 100~
+#58605
+scantily clad barkeep~
+{CA s{ccantily {Cc{clad {Cb{carmaid{x~
+{CA s{ccantily {Cc{clad {Cb{carmaid {xis here flirting with the customers.
+~
+A tall thin girl wearing almost nothing, her blouse is open half
+way down exposing a large portion of her young well formed breasts.
+Her shorts are cut off just below the curvature at the bottom of
+her shapely round bottom.  Her long red hair flows down over her
+shoulders in crimson ringlets.
+~
+human~
+AB DFZ 0 0 0
+110 0 1000d1000+10000 0d0+0 1000d1000+10000 none
+0 0 0 0
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M random 58605 5~
+#58606
+furlinastus shadow wyrm~
+{8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{8s{x, The {8Shadow {xWyrm~
+A giant dragon of shadow lies here waiting for its next victim.
+~
+A giant black dragon whom the sun apears not to touch.  His scales
+ripple in the darkness that ripples off of him in waves sapping the
+strngth of all those unfortunate enough to fall in his path.  Every
+once in a while what apears to be a face floats across the surface
+of the dragon's body as though souls are trapped within.
+~
+dragon~
+ABFT DFJTZ CDEHR 0 0
+125 500 1000d6000+1 500d500+10000 10d500+4000 none
+50 50 50 50
+ACDFHIKMN AB EHI IJR
+stand stand male 100000
+AHMVZ ABCDEFGHIJKPQUVX large unknown
+D ~
+T ~
+F res B
+F vul F
+M fight 58606 100~
+M death 58607 100~
+#58607
+festival patron~
+{BA {bF{Re{rs{Mt{mival P{Ma{rt{Rr{bo{Bn{x~
+A festival patron is here taking in the sights.
+~
+An average looking person of medium build.  He wears the clothes of
+a commoner.  A plain tunic with tan colored breeches.  We wears no
+weapons that can be seen, and his face seems to be stuck in a mask
+of pleasure.
+~
+human~
+AG 0 0 0 0
+10 0 100d100+1000 0d0+0 1d1+1 none
+0 0 0 0
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M random 58608 7~
+#58608
+grinch 2012~
+{gThe mean {GM{Gr. {GG{gr{yin{gc{Gh~
+{gThe mean {GM{Gr. {GG{gr{yin{gc{Gh{g who stole {wC{Rh{wr{Ri{ws{Rt{wm{Ra{ws{Rs{g is here, selling all the presents.
+~
+~
+human~
+ABG 0 0 0 0
+105 0 1d4000+4 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#58609
+santa 2012~
+{RS{wa{Rn{wt{Ra {wC{Rl{wa{Ru{ws{Re{x~
+{RS{wa{Rn{wt{Ra {wC{Rl{wa{Ru{ws{Re{x is here, trying to get his presents back.
+~
+~
+human~
+ABGT LVa CDEH 0 0
+115 600 16000d12000+15000 200d400+30000 50d50+300 none
+-90 -90 -90 -90
+0 AB I CHM
+stand stand none 1000
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M fight 58609 40~
+#0
+
+
+
+#OBJECTS
+#58600
+makou heated pool~
+a {bm{Ba{Ck{Bo{bu {Rh{reated {xpool~
+A {bm{Ba{Ck{Bo{bu {Rh{reated {xpool is here for you to soak away your injuries.~
+unknown~
+furniture 0 0
+50 5000 FIL 500 500
+1 1000 0 P
+#58601
+ornate plate armor~
+a set of finely crafted {8p{wl{8a{wt{8e {wa{8r{wm{8o{wr{x~
+Some plate armor lies here on the ground~
+unknown~
+armor N AD
+10 10 10 8 0
+0 3 12500 P
+A
+3 2
+A
+13 40
+A
+12 25
+A
+18 3
+A
+19 2
+#58602
+leggings learning studded~
+{8S{wt{8u{wd{8d{we{8d {yleather leggings of {Ble{ba{crn{bi{Bng{x~
+A pile of leather lies here on the ground.~
+leather~
+armor NY AF
+10 10 10 8 0
+14 2 12000 P
+A
+3 1
+A
+4 2
+A
+19 3
+A
+18 2
+A
+13 30
+#58603
+silver stud star ruby~
+a {Ws{wi{Wl{wv{We{wr {xstud with a {Rs{rta{8r r{rub{Ry{x~
+A tiny stud with a ruby lies here on the ground.~
+gem~
+jewelry NY AS
+0 0 0 0 0
+14 1 18000 P
+A
+13 15
+A
+2 2
+A
+18 3
+A
+19 1
+#58604
+dragonbone bone helm~
+a {Rdr{rag{8on{rbo{Rne {xhelm~
+A large piece of bone lies here on the ground~
+metal~
+armor NY AE
+10 10 10 11 0
+14 2 11000 P
+A
+3 2
+A
+4 2
+A
+13 15
+A
+18 2
+A
+19 3
+#58605
+bone lance~
+a long lance made of {Wb{wo{Wn{we{x~
+A long piece of pointed bone lies here.~
+bone~
+weapon ANY AZ
+exotic 10 5 divine GI
+14 3 25000 P
+~
+~
+~
+~
+~
+A
+13 15
+A
+5 2
+A
+4 2
+A
+3 2
+#58606
+magicite sword ifrit~
+a {Mm{magicite {xsword named "{RI{rf{Rr{ri{Rt{x"~
+A crystaline sword lies here on the ground.~
+magicite~
+weapon NUY AN
+sword 21 5 cleave AJ
+14 8 520000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+2 2
+A
+19 3
+A
+18 2
+#58607
+table counter~
+{-A festively decorated vendor booth{x~
+{cA booth piled with goods is here.{x~
+unknown~
+furniture 0 0
+0 0 0 0 0
+0 1000 0 P
+#58608
+dish roasted duck~
+{cA dish of {Rr{roasted {Yd{yuck{x~
+A plate of roasted meat lies here~
+unknown~
+food 0 A
+20 35 0 0 0
+1 1 500 P
+#58609
+bowl Beholder eye soup~
+{ca bowl of {Rb{re{8hold{re{Rr {ceye soup{x~
+A bowl of liquid lies here.~
+unknown~
+food 0 A
+20 35 0 0 0
+1 1 700 P
+#58610
+phase spider leg surprise~
+{Cp{chase {Cs{cpider leg {-surprise{x~
+A pile of spider legs lies here.~
+unknown~
+food 0 A
+20 35 0 0 0
+1 0 600 P
+#58611
+glass whiskey~
+{cA tall {wglass {cof {gWh{yisk{gey{x~
+A glass of dark liquid is here on the ground~
+glass~
+drink 0 AO
+3 3 'whisky' 0 0
+1 1 500 P
+#58612
+stein beer~
+{cA tall {Ws{wt{We{wi{Wn {cof {ybeer{x~
+A tall mug lies here on the ground.~
+glass~
+drink 0 AO
+5 5 'beer' 0 0
+1 2 250 P
+#0
+
+
+
+#ROOMS
+#58600
+{BE{bn{Rt{rr{Ma{mnce to the Fairgr{Mo{ru{Rn{bd{Bs{x~
+~
+This is the entrance area to what apears to be a festival grounds.
+To the north can be seen several tents and boots of various sizes.  The
+smell of foods and incense permeates the air as you walk through the
+makeshift gates.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58601
+D2
+~
+~
+0 0 6053
+S
+#58601
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+The ground here is packed under your feet and the sights and sounds of
+the fairgrounds threaten to overwhelm the senses.  Tents of all shapes
+and sizes surround the grounds with the spaces between filled with games
+and vendor booths.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58611
+D1
+~
+~
+0 0 58606
+D2
+~
+~
+0 0 58600
+D3
+~
+~
+0 0 58602
+S
+#58602
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+This section of the fairgrounds is scattered with tables and chairs, the smell
+of liquer and beer permeates the air from the spilled drink mixing with the dirt
+on the packed earth.  A barmaid makes her rounds to her customers selling
+drinks and flirting with the customers.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58610
+D1
+~
+~
+0 0 58601
+D2
+~
+~
+0 0 58605
+D3
+~
+~
+0 0 58603
+S
+#58603
+{BA {bP{Ra{rt{Mh{mway on the Festival Gr{Mo{ru{Rn{bd{Bs{x~
+~
+The ground here is packed under your feet and the sights and sounds of
+the fairgrounds threaten to overwhelm the senses.  Tents of all shapes
+and sizes surround the grounds with the spaces between filled with games
+and vendor booths.
+~
+0 1024 0 0
+0
+D1
+~
+~
+0 0 58602
+D2
+~
+~
+0 0 58604
+S
+#58604
+{BK{bo{Rr{rd{M's {mFestiva{Ml {rA{Rr{be{Ba{x~
+~
+This is an area of the festival grounds dedicated to the deity of
+competition, Kord.  Ornamental weaponry and armor adorn statues of
+past warriors of note.  The center of the area is dominated by a
+large ring for people to prove their prowess in combat.
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58603
+S
+#58605
+{BV{ba{Rp{rr{Ma{mk's Festiva{Ml {rA{Rr{be{Ba{x~
+~
+This section of the festival grounds is dedicated to the god
+of trolls and ogres, Vaprak.  The floor of the area has been
+beaten down by the large feet of his children as even they are
+allowed to attend this festival of all races.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58602
+S
+#58606
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+The ground here is packed under your feet and the sights and sounds of
+the fairgrounds threaten to overwhelm the senses.  Tents of all shapes
+and sizes surround the grounds with the spaces between filled with games
+and vendor booths.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58612
+D1
+~
+~
+0 0 58607
+D2
+~
+~
+0 0 58609
+D3
+~
+~
+0 0 58601
+S
+#58607
+{BA {bP{Ra{rt{Mh{mway on the Festival Gr{Mo{ru{Rn{bd{Bs{x~
+~
+The ground here is packed under your feet and the sights and sounds of
+the fairgrounds threaten to overwhelm the senses.  Tents of all shapes
+and sizes surround the grounds with the spaces between filled with games
+and vendor booths.
+~
+0 1024 0 0
+0
+D2
+~
+~
+0 0 58608
+D3
+~
+~
+0 0 58606
+S
+#58608
+{BF{be{Rn{rm{Ma{mrel's Festiva{Ml {rA{Rr{be{Ba{x~
+~
+This area of the grounds is dedicated to the reclusive god of the wild elves
+Fenmarel.  samples of the trademark armor of the elven people lie about as
+well as several targets to practice the favored bowcraft of the elves.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58607
+S
+#58609
+{BG{bo{Rn{rd{M's {mFestiva{Ml {rA{Rr{be{Ba{x~
+~
+This section of the fairgrounds is dedicated to Gond, the god of
+smithing and craftsmanship.  A large forge complete with tools 
+dominates the center of the area complete with tools for people
+to test their skill and pay tribute to Gond by way of his own craft.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58606
+S
+#58610
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+The ground here is packed under your feet and the sights and sounds of
+the fairgrounds threaten to overwhelm the senses.  Tents of all shapes
+and sizes surround the grounds with the spaces between filled with games
+and vendor booths.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58613
+D1
+~
+~
+0 0 58611
+D2
+~
+~
+0 0 58602
+S
+#58611
+{xThe Center of {BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+The center of the festival area is covered by a large peaked tent with all
+sides open.  The garish colors fo the fabric splash the reflected light around
+the area like a rainbow.  From here can be seen all corners of the festival
+grounds with the areas for the individual gods being spread out around the
+outside of the grounds.  to the northwest the medical tent can be seen.  Around
+the tent itself can be seen several vendor stalls crowded with people bartering
+for the goods the vendors are displaying.
+~
+0 1032 0 13
+0
+D0
+~
+~
+0 0 58614
+D1
+~
+~
+0 0 58612
+D2
+~
+~
+0 0 58601
+D3
+~
+~
+0 0 58610
+S
+#58612
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+The ground here is packed under your feet and the sights and sounds of
+the fairgrounds threaten to overwhelm the senses.  Tents of all shapes
+and sizes surround the grounds with the spaces between filled with games
+and vendor booths.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58615
+D2
+~
+~
+0 0 58606
+D3
+~
+~
+0 0 58611
+S
+#58613
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be {C(Food Vendor){x~
+~
+The smells of the festival combine here with the smells of the
+food being cooked behind the vendor stall here.  To the west
+you can see the entrance to what apears to be a large tent with
+the flaps partially drawn back around the entrance.  The main
+festival grounds continue to the east and south.
+~
+0 1024 0 0
+0
+D1
+~
+~
+0 0 58614
+D2
+~
+~
+0 0 58610
+D3
+~
+~
+0 0 58616
+S
+#58614
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be{x~
+~
+this area of the swuare holds nothing special of note but to the
+east and west there are vendor stalls.  Far to the west can be seen
+a large tent with a sign over the door reading "Medic".  To the
+north is a lavishly decorated tent with the distinct smell of perfume
+coming from it.
+~
+0 1024 0 0
+0
+D0
+~
+~
+0 0 58617
+D1
+~
+~
+0 0 58615
+D2
+~
+~
+0 0 58611
+D3
+~
+~
+0 0 58613
+S
+#58615
+{BF{be{Rs{rt{Mi{mval S{Mq{ru{Ra{br{Be {C(Leveling Gear){x~
+~
+This section of the festival square is relatively isolated
+from the rest as it offers a testing area for the items the
+vendor here sells.  The smell of sweat mixes with leather
+and metal here.  A Large covered counter is here with an elven
+woman standing behind it haggling with customers over her wares.
+~
+0 1024 0 0
+0
+D2
+~
+~
+0 0 58612
+D3
+~
+~
+0 0 58614
+S
+#58616
+{BF{be{Rs{rt{Mi{mval Medic{Ma{rl T{Re{bn{Bt~
+~
+The light scent of incense wafts past your nostrils here as tendrils
+of the armoatic smoke twist up from braziers in the corners of the tent.
+Large cushions are lined against the outside of the walls for relaxation
+from the events of the festival.  A Large recessed pool of water dominates
+the center of the room surrounded by what apears to be heating pipes.  A
+light layer of steam comes off of the top of the water as the water swirls
+slowly in circles in the pool.
+~
+0 1028 0 0
+0
+D1
+~
+~
+0 0 58613
+M 600 H 600
+S
+#58617
+{BS{bu{Rn{re{M's {mFestiva{Ml {rA{Rr{be{Ba{x~
+~
+This is a large crimson colored tent the hue of the dye is of
+unsurpassed beauty.  The walls of the tent have several stand
+mirrors for people to admire the beauty of what Sune's worship
+has to offer.  The smell of various perfumes and incense floats
+through the air in an intoxicating mixture.
+~
+0 1024 0 0
+0
+D2
+~
+~
+0 0 58614
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 58604 1 58600 1
+M 0 58607 5 58601 1
+M 0 58605 1 58602 1
+G 0 58612 0
+G 0 58611 0
+M 0 58607 5 58610 1
+M 0 58608 1 58611 1
+G 0 99896 0
+G 0 99895 0
+G 0 99894 0
+G 0 99893 0
+G 0 99892 0
+G 0 99891 0
+G 0 99890 0
+G 0 99889 0
+G 0 99888 0
+G 0 99887 0
+G 0 99886 0
+G 0 99885 0
+G 0 99884 0
+G 0 99883 0
+G 0 99863 0
+G 0 99864 0
+G 0 99865 0
+G 0 99866 0
+G 0 99867 0
+G 0 99868 0
+G 0 99869 0
+G 0 99870 0
+G 0 99871 0
+G 0 99872 0
+G 0 99873 0
+G 0 99874 0
+G 0 99875 0
+G 0 99876 0
+G 0 99877 0
+G 0 99878 0
+G 0 99879 0
+M 0 58607 5 58612 1
+M 0 58603 1 58613 1
+G 0 58608 0
+G 0 58609 0
+G 0 58610 0
+M 0 58607 5 58614 1
+O 0 58607 0 58615
+M 0 58602 1 58615 1
+G 0 58606 0
+G 0 58605 0
+G 0 58604 0
+G 0 58603 0
+G 0 58602 0
+G 0 58601 0
+M 0 58600 1 58616 1
+O 0 58600 0 58616
+S
+
+
+
+#SHOPS
+58602 0 0 0 0 0 75 125 0 23
+58603 0 0 0 0 0 125 75 0 23
+58605 0 0 0 0 0 125 75 0 23
+58608 0 0 0 0 0 100 100 0 24
+0
+
+
+
+#MOBPROGS
+#58600
+~
+if isnpc $n
+break
+else
+mob gecho $n has been slain in the Grand Arena!
+mob at $n echoat $n You will be transported to your corpse shortly.  Do not move.
+mob remember $n
+mob delay 1
+endif
+~
+#58601
+~
+if room $q == 58600
+say You have had plenty of time to recover your things.
+mob transfer $q 3001
+mob forget $q
+else
+mob at $q mob transfer $q 58600
+mob oload 58508
+give token $q
+mob oload 3092
+give potion $q
+say Pick up your corpse and fist, and then give me the token.
+say Do not linger, if you are longer than 30 seconds, you will be transfered out without your equipment.
+mob cast 'full heal' $q
+mob delay 10
+endif
+~
+#58602
+Grall for Nysen~
+say Be welcome $n!
+say Please feel free to avail yourself of our amenities here.
+say Our healing waters will have you feeling like new in short order!
+delay 3
+~
+#58603
+Delay prog for Nysen~
+mob echo {MN{mysen {creturns to his task of tending to the more seriously wounded.{x
+~
+#58604
+Greeter grall~
+mob echo {BT{bh{Re {rF{Me{mstival Gr{Me{re{Rt{be{Br {ctips his hat in greeting and dips into a deep bow.{x
+say Welcome to the festival $n!
+say Inside you will find wonders only the gods themselves could dream of.
+say Vendors have come to ply their finest wares for you to salivate over.
+say And maybe, just maybe the gods themselves shall grace us with their presence in our revelry!
+~
+#58605
+barmaid random ~
+if rand 75
+wink $r
+say You look like you could use another drink there sweety.
+break
+else
+if rand 50
+pinch $r
+say What would you like to drink there sexy?
+break
+else
+say Can I get you something to drink $r?
+endif
+endif
+~
+#58606
+Furlinastus combat prog~
+if rand 99
+ mob remember $r
+ mob echoaround $q {8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{ws {ccloses his {8jaws {caround {C$q's {cbody and throws it into the air dead and broken.{x
+ mob echoat $q {8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{ws {ccloses his {8jaws {caround {Cyour {cbody and the last thing you feel is his teeth crushing your bones.{x
+ mob damage $q 1000000 1000000 lethal
+ mob forget %q
+ say Another soul for my collection!
+ mob cast heal
+ mob cast heal
+ mob cast heal
+ mob cast heal
+ break
+else
+ if rand 90
+  mob echo {8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{ws {cflails his {8tail {cabout in a wild frenzy doing {RM{rASSIVE {cdamage.{x
+  mob damage all 10000 10000 lethal
+  break
+ else
+  if rand 50
+   mob echoat $n {8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{ws {crakes {Cyou {Rv{riciously with his {8ebony claws{c.{x
+   mob echoaround $n {8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{ws {crakes {C$n {Rv{riciously {cwith his {8claws{c.{x
+   mob damage $n 2500 2500 lethal
+   break
+  endif
+ endif
+endif
+~
+#58607
+furlinastus death mprog~
+say you may have bested me but I will taste this ones soul before I return to the shadows.
+point $n
+mob echoat $n {CYour {cbody freezes as you feel as though you are being yanked from your own body.{x
+mob echoaround {C$n's {cbody freezes stiff as his soul is yanked from his body.{x
+mob damage $n 1000000 1000000 lethal
+say Ahhh yes wonderful
+mob echo {8F{wu{8r{wl{8i{wn{8a{ws{8t{wu{ws {ccollapses to the ground in a heap.{x
+mob echo {cHis scales melt away leaving only pearly {8black {cbones{c.{x
+~
+#58608
+patron random prog~
+if rand 90
+ say Did you hear there is a sparring ring in Kord's area?  I would definately try my hand at it had I ever held a weapon in my life.
+ break
+else
+ if rand 85
+  say Have you been in Sune's tent yet?  The beauty of it is intoxicating.
+  break
+ else
+  if rand 80
+   say I heard that in Gond's area you can try your hand at smithing.
+   break
+  else
+   if rand 75
+    say That elven vendor in the northeast corner has some very nice objects in her shop.
+    break
+   else
+    say This is the best festival ive ever seen.  I hope I get a chance to see some of the gods here!
+   endif
+  endif
+ endif
+endif
+~
+#58609
+~
+if rand 95
+  mob echo {
+  mob echoaround $n {wYou see {C$n{w rip open {RS{wa{Rn{wt{Ra{w's present bag!{x
+  mob echoat $n {wWith your swing, you rip open {RS{wa{Rn{wt{Ra{w's present bag!{x
+  mob apoints $r 1
+  mob echo {wa {RC{wh{Rr{wi{Rs{wt{Rm{wa{Rs{w {RP{wr{Re{ws{Re{wn{Rt{w of {Y1 {RAP{w has been awarded to a random player in the room!{x
+  mob echo {x
+else
+  mob echo {x
+  mob echoaround $n {wYou see {C$n{w rip open {RS{wa{Rn{wt{Ra{w's present bag!{x
+  mob echoat $n {wWith your swing, you rip open {RS{wa{Rn{wt{Ra{w's present bag!{x
+  mob oload 6517
+  give coal $r
+  mob echo {x
+endif
+~
+#0
+
+#$

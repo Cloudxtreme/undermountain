@@ -1,0 +1,1408 @@
+#AREADATA
+Name Elven Alliance Clan Hall~
+Builders None~
+VNUMs 20450 20499
+Credits [ Public ] Elven Alliance Museum~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 4
+End
+
+
+
+#MOBILES
+#20450
+training dummy~
+A training dummy~
+{can {bE{Bl{Cv{cia{Cn{Bc{be{c training dummy is battered beyond repair.{x
+~
+This pitiful training dummy is beaten and battered, but can still take far more.
+~
+titan~
+ABGO DVac 0 0 0
+46 0 10d10+1000 200d5+0 1d8+0 none
+-22 -22 -22 -22
+EH ABCDEHIJKLMNOPQRSTXYZ D GR
+stand stand none 0
+AHMV ABCDEFGHIJK tiny unknown
+D ~
+T ~
+#20451
+Kinlindryl shopkeeper~
+Kinlindryl the shopkeeper~
+Here is Kinlindryl, the shopkeeper selling items of all sorts.
+~
+~
+avian~
+ABMNTVd DFJLT DH -750 0
+102 25 50d100+10000 90d25+1000 15d25+300 wrath
+150 150 150 150
+CDEKLTU ABCDLQa CIJ LQZ
+stand stand male 2147483647
+AHMV ABCDEFGHIJKP large 0
+D ~
+T ~
+#20452
+avatar gorefiend tero~
+{7an {*a{7v{&at{7a{*r{7 of {!T{1e{&r{1o{!n {!G{1o{7r{&efi{7e{1n{!d{X~
+{7an {*a{7v{&at{7a{*r{7 of {!T{1e{&r{1o{!n {!G{1o{7r{&efi{7e{1n{!d{7 guards the hall{X
+~
+{*This ethereal elf is a blur of poetic motion as it
+floats silently about, eternally guarding its hall.
+~
+human~
+ABNTV DFJZ DH -1000 0
+120 600 200d10+23000 200d10+10000 5d15+400 wrath
+-160 -160 -160 -160
+CDEKL AB CI Z
+stand stand male 100
+AHMV ABCDEFGHIJK large 0
+D ~
+T ~
+M DELAY 20458 95~
+M FIGHT 20456 50~
+#20453
+Healer~
+The Healer~
+A healer stands here, casting spells.
+~
+E-Mail Nisstyre To Redescrib this healer. Splendor@Slic.Com
+~
+elf~
+ABVa FJVc 0 0 0
+110 0 1d5+500 1d5000+500 1d5+500 none
+0 0 0 0
+0 ABLQa BG Z
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#20454
+Endial Bartender~
+A Bartender~
+Endial the bartender stands here
+~
+~
+avian~
+ABMNT DFJLT DH -750 0
+102 25 50d100+5000 90d25+1000 15d25+3000 wrath
+150 150 150 150
+CDEKLTU ABCDLQa J LQ
+stand stand male 1000
+AHMV ABCDEFGHIJKP large unknown
+D ~
+T ~
+#20455
+museum curator elviance~
+The Museum Curator~
+{2a {7mu{8se{7um{* cu{7rat{*or{2 of the {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{2 is here.{X
+~
+Aged, haggard, yet surprisingly serene this half-elven
+man looks as if he has been here a while.  Simple home
+spun garments adorn his bent frame.  Gnarled, tanned
+and wrinkled hands extend from his baggy sleeves to
+vend the tickets into the museum.  His eyes flash a
+brilliant green.
+~
+human~
+ABN DFJPZ 0 0 0
+102 0 100d100+50 0d0+0 0d0+0 none
+0 0 0 0
+0 ABa 0 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M EXIT 20454 0~
+M DELAY 20455 95~
+M GRALL 20453 90~
+M SPEECH 20452 museum~
+M SPEECH 20452 pass~
+#20456
+Ticket Bouncer~
+Elviance Ticket Bouncer~
+(Wizi) The Ticket Bouncer is here, checking tickets.
+~
+~
+human~
+ABN DFJZ P 0 0
+105 0 10d10+10 0d0+0 0d0+0 none
+0 0 0 0
+0 CDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M GRALL 20457 100~
+#20457
+elviancesage sage halfelf elf old~
+{2a {2H{3a{7l{2f{7-{2e{7l{3f{X {2S{3a{7g{2e{X~
+{2a {2H{3a{7l{2f{7-{2E{7l{3f{X {2s{3a{7g{2e is here, smoking mar{7i{3j{7u{2ana.{X
+~
+{7
+Baggy, earth colored cloth is draped around this half-elf's
+slouched form.  His mussed hair and blood shot eyes are the
+result of the still smoking bong in his hand.
+{X
+~
+drow~
+ABLNR DFJZ 0 0 0
+110 0 100d100+1000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABa BO NS
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GRALL 20463 100~
+M BRIBE 20460 5000~
+M DELAY 20461 100~
+#20458
+elf spectre~
+{*an {2el{*ven {7spe{*ctre{X~
+{*an {2el{*ven {7spe{*ctre floats languidly about{X
+~
+{7Eying you warily the spectre floats lazily about the
+room in an irregular pattern.  Diaphonous robes adorn
+his translucent form, and a hollow vacant look is
+noticable in his sunken eyes.
+{X
+~
+human~
+ABN DFJUZ 0 0 0
+110 0 100d100+5000 0d0+0 100d100+100 none
+0 0 0 0
+0 AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#20450
+key alliance clan hall~
+the key to the Elven Alliance clan hall~
+A mysteriously shaped key, engraved with elven runes lies here.~
+unknown~
+key V A
+0 0 0 0 0
+0 1 0 P
+#20451
+pit donation engraved chest~
+a wooden chest~
+A beautifully carved chest made of oak sits here.~
+wood~
+pit 0 0
+1000 0 0 10000 0
+0 0 0 P
+#20452
+healing pool~
+a healing pool~
+A healing pool sits in the middle of the room.~
+unknown~
+furniture O 0
+10 25000 CEIL 850 700
+0 0 0 P
+#20453
+Healer Alliance~
+the Alliance Healer~
+The Alliance Healer Stands here, casting spells.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#20454
+chest carved~
+a wooden chest~
+A beautifully carved chest made of oak sits here.~
+wood~
+pit 0 0
+500 0 0 500 1
+0 0 0 P
+#20455
+Talisman Elven Alliance~
+{*A {^Ta{6l{0is{6m{^an{& B{*ea{&r{*i{&ng th{*e {^S{6e{&a{^l{* o{&f th{*e {^E{6l{0v{6e{^n Al{6l{0ia{6n{^ce{0~
+A talisman representing the Elven Alliance is here.~
+unknown~
+armor ABGHNSYd AC
+0 0 0 0 0
+50 1 10000 P
+A
+19 50
+A
+18 50
+A
+12 200
+A
+13 200
+#20456
+Clear Water Sparkling Fountain~
+a Fountain~
+A Fountain with Sparkling Clear Water~
+unknown~
+fountain O 0
+0 0 'water' 0 0
+0 0 0 P
+#20457
+Zaknafal Dry bottle~
+a bottle of Zaknafal Dry~
+A bottle of pale beer~
+unknown~
+drink U A
+10 10 'beer' 0 0
+7 10 1000 P
+#20458
+Elven Spirits bottle~
+a Bottle of Elven Spirits~
+A bottle of Wine~
+unknown~
+drink U A
+20 20 'white wine' 0 0
+7 10 1200 P
+#20459
+shot Druid juice~
+a Shot of Juice of the Druids~
+A small shot glass filled with glowing liquid~
+unknown~
+drink U A
+1 1 'JD' 0 0
+7 10 1200 P
+#20460
+desk Oak~
+a desk~
+A Large Oak Desk painstakenly Carved with Symbols of the {bE{Bl{^v{6ia{^n{Bc{be{0~
+unknown~
+furniture 0 0
+1 0 DJK 100 0
+0 0 0 P
+#20461
+Chair Carved~
+a row of Chairs~
+A couple of Oak Chairs~
+unknown~
+furniture 0 0
+3 900 EH 0 0
+0 0 0 P
+#20462
+key Office~
+office Key for the {bE{Bl{^v{6ia{^n{Bc{be{0~
+A key lies here on the desk~
+unknown~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#20463
+Plaque~
+a Plaque ~
+{WA Silver Plaque{0~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+plaque~
+~
+#20464
+bar ~
+a bar~
+A bar stretching the length of the back wall.~
+unknown~
+furniture 0 0
+20 3000 ADGJ 100 100
+0 0 0 P
+#20465
+bowl peanuts pretzels~
+a small bowl of peanuts and pretzels~
+A small bowl of peanuts and pretzels~
+unknown~
+food 0 A
+1 1 0 0 0
+7 10 500 P
+#20466
+elviancepass ticket~
+{2[{!ADMIT ONE{2] An {bE{Bl{^v{6ia{^n{Bc{be{2 Museum Ticket [{!ADMIT ONE{2]{X~
+{2An {bE{Bl{^v{6ia{^n{Bc{be{2 Museum Ticket is here.~
+unknown~
+key NU A
+0 0 0 0 0
+1 10 50000 P
+L This is a ticket into the legendary Elviance Clan Hall!~
+#20467
+Keeper koa pin wooden~
+{2a {2woo{3d{2en pin {3c{7ar{3ved: {#K{6o{@A{X~
+(no description)~
+unknown~
+armor 0 AU
+0 0 0 0 0
+20 0 0 P
+#20468
+breakteleport~
+{X~
+{X~
+unknown~
+trash 0 A
+0 0 0 0 0
+1 0 0 P
+#20469
+ManaWell~
+{2a {@M{2anaWel{@l{X~
+{2a {@M{2anaWel{@l{2 is here.{X~
+unknown~
+key HMZ AO
+0 0 0 0 0
+101 500 10 P
+A
+12 500
+#20470
+axe headsplitter splitter elviance~
+{6an {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{6 Axe named '{2HeadSplitter{6'{X~
+{6an {bE{Bl{^v{6ia{^n{Bc{be{6 Axe named '{2HeadSplitter{6' is here{X.~
+unknown~
+weapon B AN
+axe 10 17 chop BD
+102 250 50000 P
+~
+~
+~
+~
+~
+A
+19 20
+A
+18 30
+L Created for the Elviance clan hall as one of the 3 special items over level 80~
+#20471
+soft leather earring elviance~
+{6an {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{2 soft {3leather{2 earring{X~
+An earring of polished onyx glimmers in the shadows.~
+unknown~
+jewelry CFI AS
+0 0 0 0 0
+78 10 50000 P
+A
+19 6
+A
+13 80
+A
+12 75
+A
+2 4
+E
+-=+)>~
+Below the Myrxes crest is the inscription:
+ 
+                   Myr'vale Myxes Jaena Deia
+~
+E
+earring~
+Below the Myrxes crest is the inscription:
+ 
+                   Myr'vale Myxes Jaena Deia
+~
+E
+myrxes~
+Below the Myrxes crest is the inscription:
+ 
+                   Myr'vale Myxes Jaena Deia
+~
+E
+onyx~
+Below the Myrxes crest is the inscription:
+ 
+                   Myr'vale Myxes Jaena Deia
+~
+L Copy of: onyx -=+)> earring myrxes~
+#20472
+potion elven healing~
+a Potion of {^E{6lv{7en {&He{7al{6in{^g{x~
+A bottle lies here.~
+glass~
+potion Y A
+40 'cure light' 'cure serious' 'cure light' 'cure serious'
+30 1 10000 P
+#20473
+shield pill~
+a {^S{6h{&ie{6l{^d{x Pill~
+A pill lies here.~
+unknown~
+pill 0 A
+40 'iceshield' 'fireshield' 'shockshield' 'sanctuary'
+102 1 1000 P
+#20474
+sword elviance practice~
+{2an {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{2 practice {7sw{*o{7rd{X~
+{2an {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{2 practice {7sw{*o{7rd{2 is here.{X~
+steel~
+weapon ABGHMS AN
+sword 5 11 pierce D
+48 5 1000 P
+~
+~
+~
+~
+~
+#20475
+elviance tshirt shirt souvenir~
+{2an {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{2 souvenir t-shirt{X~
+{2an {&[{bE{Bl{^v{6ia{^n{Bc{be{&]{2 souvenir t-shirt is here{X~
+steel~
+armor BHMS AK
+1 1 1 1 0
+35 20 1000 P
+#20476
+sword guard museum~
+the museum guard's sword~
+A sword lies on the ground. There is a flea crawling on it.~
+silver~
+weapon GI AN
+sword 4 9 slash D
+23 70 30000 P
+~
+~
+~
+~
+~
+A
+19 3
+A
+18 5
+#20477
+shield guard museum~
+the museum guard's shield~
+A shields lies on the ground. There is a tick sitting on it.~
+silver~
+armor GI AJ
+6 6 6 2 0
+23 50 20000 P
+#20478
+pair travelling boots leather~
+a pair of travelling boots~
+A pair of long leather made boots lie here footless and untied.~
+leather~
+armor 0 AG
+7 7 7 3 0
+15 20 2055 P
+A
+13 20
+A
+14 20
+#20479
+rainbow staff~
+the rainbow staff~
+The rainbow staff lies here.~
+oldstyle~
+light G A
+0 0 999 0 0
+9 80 550 P
+A
+4 1
+#20480
+bracelet thick marble~
+a thick marble bracelet~
+A thick bracelet made of marble lies here.~
+oldstyle~
+jewelry G AM
+0 0 0 0 0
+9 80 550 P
+A
+5 1
+#20481
+island helmet~
+an Island Helmet~
+An Island Helmet is lying here.~
+silver~
+armor AGK AE
+6 6 6 1 0
+15 5 1500 G
+A
+3 2
+A
+4 1
+E
+helmet~
+You see an Island Helmet.  Imprinted on the side is: Gapcio Industries
+~
+#20482
+ring earth~
+the earth ring~
+A dark ring which seems to absorb all the light around it lies here.~
+oldstyle~
+furniture I AB
+0 0 0 0 0
+13 50 1140 P
+A
+3 1
+A
+4 1
+#20483
+dark mithril lance~
+{8a da{Wr{8k {Wm{xi{Wthr{xi{Wl l{8a{Wnc{8e{x~
+{8a da{Wr{8k {Wm{xi{Wthr{xi{Wl l{8a{Wnc{8e {Wlies here, vibrating softly.{x~
+mithril~
+weapon BY AZ
+exotic 12 12 thrust D
+101 20 95900 P
+~
+~
+~
+~
+~
+#20484
+fine elven longbow bow~
+{2a f{*i{2ne elven lo{3n{2gbow{X~
+{2a f{*i{2ne elven lo{3n{2gbow{2 is here{X~
+unknown~
+weapon AG AN
+sword 5 9 thwack D
+35 1 5000 P
+~
+~
+~
+~
+~
+A
+19 6
+A
+18 6
+#20485
+sword elements~
+{3Sword {2of the {8Elements{x~
+A sword forged from the elements lays here.~
+unknown~
+weapon BGIS AN
+sword 8 7 slice DE
+46 2 25000 P
+~
+~
+~
+~
+~
+A
+3 3
+A
+18 6
+#20486
+cloak spider~
+a cloak of {8Spider Silk{x~
+A cloak of {8Spider Silk {xis on the floor~
+silk~
+armor N ACK
+6 6 6 6 0
+23 10 2000 P
+A
+2 1
+A
+5 2
+#0
+
+
+
+#ROOMS
+#20450
+Underground Hallway~
+~
+This hallway is apparently one of the roots of the tree hollowed
+out.  The hall continues north and south.  
+~
+0 524296 0 13
+0
+D0
+~
+~
+0 0 20451
+D2
+~
+~
+0 0 6154
+S
+#20451
+Guard room~
+~
+This is a large chamber.  A table with some cards on it stands in the
+center of the room, and guards are milling about.  To the south lies the
+stone hallway.  This seems to be a dead end.  
+~
+0 524296 0 0
+0
+D2
+~
+~
+0 0 20450
+D4
+~
+~
+0 0 20474
+S
+#20452
+The {bE{Bl{^v{6ia{^n{Bc{be{B portal chambers{0~
+~
+Here a chamber marked by arcane magik symbols surrounding many
+portals, some glow brightly as they show what is on the other side,
+others lie dormant waiting to be relinked to the ever changing realms.
+West is the first chamber of portals, East is the blazing tower of the
+MIB, and to the south is the dark and dreary museum of creatures.  {0 
+~
+0 67641352 0 0
+0
+D3
+~
+~
+0 0 20453
+S
+#20453
+The {bE{Bl{^v{6ia{^n{Bc{be{B portal chambers{0~
+~
+Here a chamber marked by arcane magik symbols surrounding many
+portals, some glow brightly as they show what is on the other side,
+others lie dormant waiting to be relinked to the ever changing realms.
+Up is the beautiful and busy Market Square, Down is Torregiano, and
+East is another portal room.  {0 
+~
+0 67641352 0 0
+0
+D1
+~
+~
+0 0 20452
+D3
+~
+~
+0 0 20455
+S
+#20454
+Main Hall of {bE{Bl{^v{6ia{^n{Bc{be{0~
+~
+You have entered the grand hall of the Elviance.  Your fellow
+members walk about, talking amongst themselves and going in and out of
+the various rooms.  It is here that new members of the clan are
+welcomed, and also where certain meetings are held.  A large statue of
+Teron stands before you.  
+~
+0 67634184 0 0
+0
+D1
+~
+~
+0 0 20455
+D4
+~
+~
+0 0 20456
+D5
+~
+~
+0 0 20457
+M 200 H 200
+S
+#20455
+Elven Cache of Weapons and Items{0~
+~
+A dimly lit room off the hallway, This is the shop of the elven
+alliance.  All about are items from the great campaigns of the elves,
+lining the walls are fine oak shelves, filled with rare items, ranging
+from the valuable armor of the Laerkai to the rare and powerful
+Flameblade.  Enchantments are heavy here, so thick they may leave a
+taste lightning upon one's pallet.  East lies the main hall.  
+ 
+~
+0 67641352 0 0
+0
+D0
+~
+~
+0 0 20461
+D1
+~
+~
+0 0 20453
+D2
+~
+~
+0 0 20457
+D3
+~
+~
+0 0 20454
+S
+#20456
+Sloping Stone Hallway~
+~
+You are standing in a stone hallway connecting to the Elviance clan
+hall.  Down is the Main Hall and A SECRET door lies up, leading into
+Westbridge.  
+~
+0 525320 0 0
+0
+D5
+~
+~
+0 0 20454
+S
+#20457
+Elviance Summoning Room{0~
+~
+{2In this room are archaic runes of the old elves who once started
+the Elviance.  The marks are perfect and well placed, magic runs thick
+in the air.  This room is for summoning evil monsters or for summoning
+those in dire peril.  Glancing about, the whispers almost sound like
+an elf's song.  {0 
+~
+0 524300 0 0
+0
+D0
+~
+~
+0 0 20455
+S
+#20458
+The Forest Area of Sharlandel{0~
+~
+{2In this area of beautiful trees, the harmonious voices of the trees
+can be heard singing to each other.  You hear the good sounds of
+nature here and feel at ease but this is a training ground for
+Elviance.  You need to hunt here.  Use your bow wisely.  {0 
+~
+0 67633160 0 0
+0
+D1
+~
+~
+0 0 20474
+S
+#20459
+Donation room~
+~
+This is an Alcove just off the Shrine of Teron, the aura of Teron
+deeply permiates this room, as gifts to him are stored in the chest
+here, and as such are gifts to the members of the Elviance.  A beauty
+and charm of the chest is undenighable.  {0 
+~
+0 67641352 0 0
+0
+D2
+~
+~
+0 0 20463
+S
+#20460
+Meeting room~
+~
+This room is where members of the Evliance meet to discuss clan
+orders.  It is also where the master strategists of the clan meet to
+form plans.  Down lies the rest of the hall, in all it's glory.  
+~
+0 67641352 0 0
+0
+D0
+~
+~
+2568 20462 20466
+D1
+~
+~
+0 0 20464
+D2
+~
+~
+2568 20462 20467
+D3
+~
+~
+0 0 20465
+D5
+~
+~
+0 0 20461
+S
+#20461
+The Songs of Elves{0~
+~
+{2Here is the most beautiful room of the clan hall.  A group of
+elves sing here in the most beautiful voices heard in the realms.  The
+delightful sounds try to catch your mind as you are here.  You pause
+and seem happy where you stand.  To the north a door made of plants
+grows, to the west a wooden door made of oak, to the east grand doors
+leading to the Elviance Shrine, and to the South is the main hall of
+Elviance.  {0 
+~
+0 67641352 0 0
+0
+D0
+~
+~
+0 0 20474
+D1
+~
+~
+0 0 20463
+D2
+~
+~
+0 0 20455
+D3
+~
+~
+0 0 20462
+D4
+~
+~
+0 0 20460
+D5
+~
+~
+4616 0 20475
+S
+#20462
+The Elven Retreat{0~
+~
+{2A large hollowed out tree forms a perfectly camoflaged barroom,
+leaves and tree bark lie on the floor.  Tables and stools are filled
+by elves out to have a good time.  The laughter and noise comes from
+every corner.  It seems like everybody is having a good time in here. 
+{0 
+ 
+{MEndial the bartender asks you, {m'What would you like to drink kind sir?'.{0
+ 
+~
+0 67641352 0 0
+0
+D1
+~
+~
+0 0 20461
+S
+#20463
+The Shrine of Teron{0~
+~
+{2Here is the most beautifully crafted stone in all the realms.  It
+tries to catch your eye's fullest attention and seems to glow with
+warm and friendly energy made of the most oldest magic.  Looking at
+runes and see this is Teron, our most loved and magical god of unity. 
+He provides us protection, warmth and spirit.  {0 
+~
+0 67641352 0 0
+0
+D0
+~
+~
+0 0 20459
+D3
+~
+~
+0 0 20461
+S
+#20464
+Stone Hallway~
+~
+{7You are standing in a stone hallway connecting parts of the
+Elviance clan hall.  There are elven paintings of warriors, druids,
+rangers and wizards of all sorts locked in glorious battle with
+various dragons, undead, and other foes throughout the ages.  {0 
+~
+0 67641344 0 0
+0
+D0
+~
+~
+2568 20462 20471
+D1
+~
+~
+2568 20462 20472
+D2
+~
+~
+2568 20462 20473
+D3
+~
+~
+0 0 20460
+S
+#20465
+Stone Hallway~
+~
+{7You are standing in a stone hallway connecting parts of the
+Elviance clan hall.  There are elven paintings of warriors, druids,
+rangers and wizards of all sorts locked in glorious battle with
+various dragons, undead, and other foes throughout the ages.  {0 
+~
+0 67641344 0 0
+0
+D0
+~
+~
+2568 20462 20468
+D1
+~
+~
+0 0 20460
+D2
+~
+~
+2568 20462 20470
+D3
+~
+~
+2568 20462 20469
+S
+#20466
+An Empty Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D2
+~
+~
+2568 20462 20460
+S
+#20467
+Teron's Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D0
+~
+~
+2568 20462 20460
+S
+#20468
+Thayer's Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D2
+~
+~
+2568 20462 20465
+S
+#20469
+Rezzo's Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D1
+~
+~
+2568 20462 20465
+S
+#20470
+An Empty Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D0
+~
+~
+2568 20462 20465
+S
+#20471
+Quigon's Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D2
+~
+~
+2568 20462 20464
+S
+#20472
+Ninnuam's Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D3
+~
+~
+2568 20462 20464
+S
+#20473
+An Empty Office~
+~
+An Office, sparcely decorated, but does not look overly lived in at
+this time.  
+~
+0 524296 0 0
+0
+D0
+~
+~
+2568 20462 20464
+S
+#20474
+The Entrance to {bE{Bl{^v{6ia{^n{Bc{be{0~
+~
+Stepping upon the forestal steps of this gigantic room, bright and
+beautiful lights coming from magical symbols of war shine down.  A
+partially hidden garden where there are lots of fresh mushrooms to be
+picked.  Around you are elven figures talking and singing.  It is a
+truly beautiful sight.  A safe and protective aura permiates the room,
+these elves are the allies of the Elviance.  To the south is a door
+made of plants and to north is the main entrance doorway.  To the
+west, Elven Warriors being equipped with famous Elven Bows as they
+prepare to hunt in the beautiful Sharlandel forest area.  
+~
+0 67641352 0 0
+0
+D2
+~
+~
+0 0 20461
+D3
+~
+~
+0 0 20458
+D5
+~
+~
+0 0 20451
+S
+#20475
+{7H{*idden {7E{*nclave{X~
+~
+{*
+Hollowed out of the granite foundation of the museum, this
+isolated room has been undisturbed for a countless span of
+years. Roughly carved stones compose the floors, walls and
+ceilings of this poorly lit shelter.
+{X
+~
+0 524320 0 0
+0
+D4
+~
+~
+4616 0 20461
+S
+#20476
+{2E{7lv{2en Sa{7nct{2uary{X~
+~
+~
+0 67633197 0 0
+0
+S
+#0
+
+
+
+#SPECIALS
+M 20452 spec_cast_mage
+M 20457 spec_cast_mage
+S
+
+
+
+#RESETS
+D 0 20460 0 2
+D 0 20460 2 2
+D 0 20461 5 2
+D 0 20464 0 2
+D 0 20464 1 2
+D 0 20464 2 1
+D 0 20465 0 2
+D 0 20465 2 1
+D 0 20465 3 2
+D 0 20466 2 2
+D 0 20467 0 2
+D 0 20468 2 2
+D 0 20469 1 2
+D 0 20470 0 1
+D 0 20471 2 2
+D 0 20472 3 2
+D 0 20473 0 1
+D 0 20475 4 2
+M 0 20455 1 20450 1
+E 0 20467 0 17
+G 0 20466 0
+M 0 20452 2 20451 2
+M 0 20452 2 20451 2
+G 0 20450 0
+M 0 20456 20 20452 1
+M 0 20456 20 20453 1
+M 0 20456 20 20454 1
+O 0 20452 0 20454
+O 0 20456 0 20454
+M 0 20453 1 20454 1
+M 0 20456 20 20455 1
+M 0 20451 1 20455 1
+G 0 20470 0
+G 0 20471 0
+G 0 20472 0
+G 0 20473 0
+G 0 20474 0
+G 0 20475 0
+G 0 20484 0
+M 0 20456 20 20456 1
+M 0 20456 20 20457 1
+M 0 20450 1 20458 1
+M 0 20456 20 20458 1
+M 0 20456 20 20459 1
+O 0 20451 0 20459
+M 0 20456 20 20460 1
+M 0 20456 20 20461 1
+M 0 20456 20 20462 1
+O 0 20464 0 20462
+M 0 20454 1 20462 1
+G 0 20465 0
+G 0 20459 0
+G 0 20458 0
+G 0 20457 0
+M 0 20456 20 20463 1
+M 0 20456 20 20464 1
+M 0 20456 20 20465 1
+M 0 20456 20 20466 1
+O 0 20462 0 20466
+O 0 20461 0 20466
+O 0 20460 0 20466
+M 0 20456 20 20467 1
+O 0 20462 0 20467
+O 0 20461 0 20467
+O 0 20460 0 20467
+M 0 20456 20 20468 1
+O 0 20462 0 20468
+O 0 20461 0 20468
+O 0 20460 0 20468
+M 0 20456 20 20469 1
+O 0 20462 0 20469
+O 0 20461 0 20469
+O 0 20460 0 20469
+M 0 20456 20 20470 1
+O 0 20462 0 20470
+O 0 20461 0 20470
+O 0 20460 0 20470
+M 0 20456 20 20471 1
+O 0 20462 0 20471
+O 0 20461 0 20471
+O 0 20460 0 20471
+M 0 20456 20 20472 1
+O 0 20462 0 20472
+O 0 20461 0 20472
+O 0 20460 0 20472
+M 0 20456 20 20473 1
+O 0 20462 0 20473
+O 0 20461 0 20473
+O 0 20460 0 20473
+M 0 20457 1 20475 1
+M 0 20458 1 20476 1
+E 0 20469 0 17
+S
+
+
+
+#SHOPS
+20451 33 9 5 2 10 150 50 0 23
+20454 19 0 0 0 0 100 100 0 23
+20455 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#20450
+~
+mob gecho {-C{-L{-A{-N {-H{-A{-L{-L {-R{-A{-I{-D{-: {R$n {Gis attempting a break in on the Elven Alliance.
+~
+#20451
+~
+~
+#20452
+~
+say That's right, 5 platinum buys you full access to the entire
+say Elven Alliance clan hall.  Browse the shops, see the dummy,
+say and tour Teron's creation, for a paltry 5 platinum coins.
+~
+#20453
+~
+say Buy your Tickets!  Visit Teron's Creation!  Tour the Elven Alliance clan hall!
+say Welcome traveller, you may purchase your {^museum pass{5 here.{X
+~
+#20454
+~
+if carries $n 'elviancepass'
+mob transfer $n 20451
+else
+mob transfer $n 20450
+say Sorry pal, ya need to buy a ticket before you can enter the hall.
+mob delay 1
+~
+#20455
+~
+mob echo $I shakes his head ruefully.
+~
+#20456
+~
+mob goto 20452
+mob goto 20451
+mob echo $I utters the words 'yjrr pzar'
+mob cast 'full heal'
+say Who are you to challenge Teron, $n?
+shake
+mob remember $n
+mob delay 1
+~
+#20457
+~
+if carries $n 'elviancepass'
+else
+mob at 20450 mob transfer $n
+endif
+~
+#20458
+~
+mob echo $I reaches into his {*quiver{7 to produce an enormous {2a{3rro{2w{7.{X
+mob echoat $q $I {7nocks his {3arrow{7 and takes {1aim{7 at you!{X
+mob echoaround $q $I {7nocks his {3arrow{7 and takes {1aim{7 at $q{X
+mob echo {X
+mob echo $I fires!
+mob echo {X
+mob echoaround $q {7$q is {1impaled{7{7 on the shaft of $I's {3arrow{X.
+mob echoat $q You are {1impaled{7 on the shaft of $I's {3arrow{X!
+mob damage $q 900000 900001
+~
+#20459
+~
+~
+#20460
+~
+mob echoat $n $I smiles at you and produces a two foot purple glass bong.
+mob echoaround $n $I smiles at $n and produces a two foot purple glass bong.
+mob echo $I produces an enormous bud from a leather belt pouch and loads the bong.
+mob echo $I motions for you to raise the bong to your lips and waits patiently.
+mob echo Smoke begins to fill the bong as a magic flame licks the bowl.
+mob echo {X
+mob echo {X
+mob echoat $n You begin to feel..different.
+mob echoaround $n $n begins to look a little...different.
+mob remember $n
+mob delay 1
+~
+#20461
+~
+mob echoat $q In a sublime rush of pleasure, your mind flies from your body!
+mob echo  
+mob cast teleport $i 
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob cast teleport $i
+mob cast teleport $i
+mob transfer $q
+mob echo  
+mob echo  
+mob goto 20475
+mob transfer $q
+mob echo  
+mob echo  
+mob echo {R:) {G:) {W:) {M:) {m:) {c:) {C:) :){x
+mob forget $q
+~
+#20462
+~
+~
+#20463
+~
+cough
+say Hey $n.  50 plat will get you ripped..
+cough
+~
+#20499
+~
+mob echo  
+mob echoaround $n The dummy's eyes open and he points at $n!
+mob echoat $n The dummy's eyes open and he points at YOU!
+say DIE $n!
+mob echoaround $n $n falls to the ground in a twitching fit!
+mob echoat $n You fall to the ground in a twitching fit!
+mob damage $n 9000000 1000000 lethal
+mob echoat $n {BYou have been {!KILLED!{0
+mob echoaround $n {B$n is DEAD!{0
+mob echo 
+cackle
+mob echo The dummy's eyes close, and the room is quiet.
+mob echo
+~
+#0
+
+#$

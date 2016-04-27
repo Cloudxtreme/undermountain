@@ -1,0 +1,1300 @@
+#AREADATA
+Name Baldur's Gate Elfsong Tavern~
+Builders None~
+VNUMs 55980 56009
+Credits [ Public ] Baldur's Gate Elfsong Tavern~
+Security 10
+Recall 55947
+Faction ~
+AQpoints 0
+Realm 1
+End
+
+
+
+#MOBILES
+#55980
+giant rat elfsongrat~
+a giant {Drat{x~
+A giant {Drat{x scurries towards you.
+~
+{DYou are looking at a giant rat the size of a small halfling.  It
+has dark black fur and nasty looking drool around its sharp teeth.  
+~
+kobold~
+AF J 0 -400 0
+24 0 5d5+150 5d5+150 1d10+5 bite
+-5 -5 -5 3
+H A Q 0
+stand stand none 0
+ABHV ACDEFHJKQU small unknown
+D ~
+T ~
+F res L
+F vul C
+F for M
+F par BGI
+#55981
+elfsong barmaid~
+The Elfsong Tavern Barmaid~
+Raella, {YT{yhe {WE{wlfsong's {YB{yarmaid {xleans over the bar towards you.
+~
+The barmaid is a beautiful woman, wearing a low cut silk blouse. 
+Her heaving breasts can distract just about any man.  She gives off a
+very friendly aura, making everyone feel welcome.  
+~
+human~
+AB 0 H 700 0
+115 0 100d100+10000 100d100+10000 100d100+10000 none
+-90 -90 -90 -90
+0 ABCDLQa 0 0
+stand stand female 99999
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GRALL 55984 100~
+M SPEECH 55985 help~
+M SPEECH 55988 finished~
+M ACT 55986 nods at you in agreement~
+#55982
+drunk halfling~
+A drunk little halfling~
+A Drunk little Halfling staggers around, eyeing the patrons of the tavern.
+~
+The halfling is dressed in tight fitting clothes, of a fairly poor
+quality, but his manner is much more refined for the poor drunk he
+appears to be.  
+~
+halfling~
+ABS QUb 0 200 0
+31 10 100d2+500 100d2+500 5d6+23 punch
+-18 -18 -18 -16
+0 AB LNQ S
+stand stand male 385
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GIVE 55983 teronbrewquest~
+M SPEECH 55982 no~
+M SPEECH 55981 yes~
+M GREET 55980 80~
+#55983
+elven elf patron local~
+an Elven Patron~
+An Elven local sits at the table merrily drinking with his comrades in arms.
+~
+This elf is wearing a woodsman's cloak, and has a longbow over his
+shoulder, next to a quiver of fine looking arrows.  Around his waist,
+an elven girdle that holds many things magically inside small pockets.
+~
+elf~
+ABL FJVc 0 444 0
+33 20 20d20+555 20d20+555 10d10+110 punch
+-20 -20 -20 -20
+0 AB BG 0
+sit sit male 847
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M DELAY 55996 100~
+M GRALL 55995 100~
+M RANDOM 55993 10~
+M GRALL 55994 80~
+#55984
+local gnome drinker~
+a Gnome local drinker~
+A little Gnome sits here, talking of magic and adventure.
+~
+This little gnome wears a dark blue robe with a hood, that is down
+around his neck.  
+~
+gnome~
+ABI Jc 0 0 0
+17 0 10d10+100 0d0+0 10d10+139 none
+0 0 0 0
+0 ABQ JL R
+sit sit male 9583
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M DELAY 55990 100~
+M GRALL 55991 50~
+M RANDOM 55994 10~
+M ACT 55996 sits down at a~
+#55985
+innkeeper~
+the Innkeeper~
+Kreneshiil the Innkeeper sits at his table renting out the rooms.
+~
+This sturdy half elf is about 5ft 5inches tall.  He is wearing a
+fine suit made from good quality cotton.  He carries a crossbow
+attatched to his arm, a custom design, to discourage any attempts at
+violence in the tavern.  
+~
+halfelf~
+AB DFL 0 0 0
+109 0 99d99+9999 99d99+9999 99d99+9999 none
+0 0 0 0
+0 ABCDLQa BF 0
+stand stand male 9999
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GREET 55992 100~
+#55986
+feldorn~
+feldorn~
+Feldorn, the tavern's best regular is here with a drink.
+~
+Feldorn is a stocky man, fairly tall for a human, and wears
+standard adventurer's equipment.  He has a large sword that he carries
+in a sheath on his back and a few potions in a bag on his belt.  
+~
+human~
+AG 0 0 600 0
+104 5000 100d100+10000 100d100+10000 100d50+100 punch
+0 0 0 0
+0 ABLQ 0 0
+stand stand none 84632
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M ENTRY 55987 100~
+#0
+
+
+
+#OBJECTS
+#55980
+elfsong key~
+the key to the cellar~
+A small golden key is here with the words 'Elfsong Tavern' forged into the handle.~
+unknown~
+key 0 AO
+0 0 0 0 0
+1 1 19 P
+#55981
+lantern~
+a {rL{Ra{Ynte{Rr{rn{x~
+A {rL{Ra{Ynte{Rr{rn{x is here on the wall lighting the room.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#55982
+table~
+a {yTable{x~
+A {yTable{x is here tucked away in the corner.~
+unknown~
+furniture 0 0
+1 400 BE 0 0
+0 0 0 P
+#55983
+four poster bed~
+a {YF{your {WP{woster {YB{yed{x~
+An elegant {YF{your {WP{woster {YB{yed{x is here draped in silk curtains.~
+unknown~
+furniture G 0
+4 4000 BEIL 500 500
+0 0 0 P
+#55984
+merchant bed~
+a Merchant's Bed~
+A bed is here for merchants to spend the night in.~
+unknown~
+furniture 0 0
+2 800 BEHL 500 500
+0 0 0 P
+#55985
+footlocker locker~
+a {yFootlocker{x~
+A {yFootlocker{x is here at the end of the bed.~
+unknown~
+container 0 0
+100 ABCD 55986 100 50
+0 0 0 P
+#55986
+merchant key~
+a Merchant's Key~
+A golden key is here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 7500 P
+#55987
+royal suite key~
+the Royal Suite Key~
+A platinum key of top quality is here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 90000 P
+#55988
+standard room key~
+a standard room key~
+An iron key is here, looking rather standard.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 200 P
+#55989
+Standard bed~
+a Small bed~
+A Small Bed is here for you to spend the night in.~
+unknown~
+furniture 0 0
+1 500 BEIL 450 450
+0 0 0 P
+#55990
+elfsong ale~
+a {YT{yankard {xof {WE{wlfsong {YA{yle{x~
+A tankard of {WE{wlfsong {YA{yle {xhas been left here.~
+unknown~
+drink 0 AO
+3 3 'ale' 0 0
+1 2 13 P
+#55991
+sparkling wine~
+a {WG{wlass{x of {YS{wp{Ya{wr{Yk{wl{Yi{wn{Yg {WW{wine{x~
+A {WG{wlass{x of {YS{wp{Ya{wr{Yk{wl{Yi{wn{Yg {WW{wine{x is here.~
+unknown~
+drink 0 AO
+2 2 'white wine' 0 0
+1 2 189 P
+#55992
+shot brandy~
+a {WS{whot {xof {YB{yrandy{x~
+A {WS{whotglass {xcontaining {YB{yrandy{x is here.~
+unknown~
+drink 0 AO
+1 1 'brandy' 0 0
+1 2 93 P
+#55993
+bottle rum~
+a {GB{gottle{x of {mRum{x~
+A {GB{gottle{x of {mRum{x is here.~
+unknown~
+drink 0 AO
+10 10 'rum' 0 0
+1 6 59 P
+#55994
+cherry squishy~
+a {MG{mlass {xof {RCherry {MS{mquishy{x~
+A {MG{mlass {xof {RCherry {MS{mquishy{x is here.~
+unknown~
+drink 0 AO
+4 4 'cherry squishy' 0 0
+1 2 28 P
+#55995
+elfsong bar~
+the {WE{wlfsong {YB{yar{x~
+A long oak wood bar is here for travellers to share a drink at.~
+unknown~
+furniture 0 0
+10 2000 ADG 400 400
+0 0 0 P
+#55996
+table~
+a {ywooden {WT{wable{x~
+A {ywooden {WT{wable{x is here for all to enjoy a drink at.~
+unknown~
+furniture 0 0
+4 4000 BDG 200 200
+1 0 0 P
+#55997
+glowingwhite glowing white pill~
+a {Wglowing white{x pill~
+A pill is on the floor, {Wglowing{x with a powerful {Wwhite aura{x.~
+unknown~
+pill AG AO
+25 'heal' 'cure critical' 'cure blindness' 'refresh'
+10 1 0 P
+#55998
+bottle teron brew teronbrewquest~
+{GT{ge{cr{Co{Gn{g'{cs {YB{yrew{x~
+A bottle of {GT{ge{cr{Co{Gn{g'{cs {YB{yrew{x is here.~
+unknown~
+drink G AO
+5 5 'Teron Brew' 0 0
+1 5 0 P
+#55999
+feldorntoken~
+the hope that Feldorn will return~
+Feldorn_token~
+unknown~
+trash 0 AQ
+0 0 0 0 0
+0 0 0 P
+#56001
+silver spiral armlet~
+{*a {wsi{Wlv{wer {*s{wp{Wi{wr{*al armlet{x~
+An armlet of thin, tapered silver lays here.~
+unknown~
+jewelry I AI
+0 0 0 0 0
+15 0 7400 P
+A
+13 10
+A
+3 2
+A
+5 2
+#56002
+copper armlet~
+{*a {yc{ro{yp{*p{ye{rr {*armlet{x~
+An armlet of dull copper sits here.~
+unknown~
+jewelry 0 AI
+0 0 0 0 0
+30 0 1000 P
+A
+4 1
+#0
+
+
+
+#ROOMS
+#55980
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+A warm hearth greets all who enter the Elfsong Tavern.  This is the
+largest and most famous tavern in all of Baldur's Gate.  It is famous
+for the ghost that noone can see, and gave the name to this tavern. 
+She is said to sing a haunting melody most nights, but noone knows
+why.  Travellers can rent rooms in the southeast corner of the tavern,
+and buy a drink from the bar over on the west side.  
+~
+0 1032 0 12
+0
+D0
+~
+~
+0 0 55985
+D1
+~
+~
+0 0 55981
+D2
+~
+~
+8 0 55811
+S
+#55981
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+Over by the corner of the tavern is a large fireplace.  Hanging
+over the top of the fireplace is a large beholder, that has been
+killed, and embalmed, and hung over the fireplace like a statue. 
+There is a sign at this table indicating that the man who is here
+drinking from a jug of mead is the innkeeper.  
+~
+0 1032 0 12
+0
+D0
+~
+~
+0 0 55982
+D3
+~
+~
+0 0 55980
+S
+#55982
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+Laughter and music can be heard through the tavern as many locals
+and travellers of a plethora of races enjoy a drink and good company. 
+A few locals sit at the table here along the east side of the tavern
+discussing many an inane topic.  Bright lanterns shine light into the
+tavern from the walls here, casting eerie shadows all around.  
+~
+0 1032 0 12
+0
+D0
+~
+~
+0 0 55983
+D2
+~
+~
+0 0 55981
+D3
+~
+~
+0 0 55985
+S
+#55983
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+This corner of the Elfsong is generally used by the more wealthy of
+patrons.  Paintings line the walls, showing images of Baldur's Gate
+from long ago.  One in particular stands out.  It is a beautiful elven
+woman watching as her husband leaves for battle.  
+~
+0 1032 0 12
+0
+D2
+~
+~
+0 0 55982
+D3
+~
+~
+0 0 55984
+S
+#55984
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+This is the back of the Elfsong Tavern.  There is a window in the
+north wall looking out onto a dimly lit alley.  There is the
+occasional voice coming from somewhere, kind of like someone singing a
+sad song.  Looking southward, it is possible to see the whole of the
+tavern, from the bar at the western side of the inn to the exit at the
+south.  
+~
+0 1032 0 12
+0
+D1
+~
+~
+0 0 55983
+D2
+~
+~
+0 0 55985
+D3
+~
+~
+0 0 55986
+S
+#55985
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+This is the centre of the tavern.  From all around, there is a
+general hussle and bussle of a popular tavern.  Laughter and
+conversations are coming from the many locals and travellers in the
+tavern.  To the west you can find the bar, where the barmaid, and
+owner of the tavern will greet you with a smile.  Every now and again,
+there is an eerie voice, that sings a haunting but beautiful melody. 
+Where could it come from?  
+~
+0 1036 0 12
+0
+D0
+~
+~
+0 0 55984
+D1
+~
+~
+0 0 55982
+D2
+~
+~
+0 0 55980
+D3
+~
+~
+0 0 55987
+S
+#55986
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+This corner of the tavern has a spiral staircase leading up to the
+second floor.  There are lanterns on the wooden panelled wall lighting
+the way up in this gloomy corner of the tavern.  There is the general
+hussle of people in the tavern coming from the south and east.  
+~
+0 1036 0 12
+0
+D1
+~
+~
+0 0 55984
+D2
+~
+~
+0 0 55987
+D4
+~
+~
+0 0 56001
+S
+#55987
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+This corner of the Elfsong Tavern is where the bar can be found. 
+Many a weary traveller can be found at the bar, drinking away their
+troubles.  There are also several citizens of Baldur's Gate at the bar
+and are a good source of gossip and information.  To the west, behind
+the bar, there is a small passageway that leads down to the cellars. 
+There are many tables and other patrons of the tavern to the west, and
+over to the north, a staircase leads up to the rooms for rent.  
+~
+0 1024 0 12
+0
+D0
+~
+~
+0 0 55986
+D1
+~
+~
+0 0 55985
+D3
+~
+~
+0 0 55988
+S
+#55988
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+There is a small passageway behind the bar of the Elfsong Tavern. 
+It leads south to a small room where there is a hatch to the cellar. 
+This room is usually reserved for people who are working for the
+tavern and you do not usually find any customers here.  
+~
+0 1036 0 12
+0
+D1
+~
+~
+0 0 55987
+D2
+~
+~
+8 0 55989
+S
+#55989
+{YT{yhe {WE{wlfsong {YT{yavern{x~
+~
+In this small room at the back of The Elfsong Tavern, there are no
+windows to let in any light.  The walls are made from fine pine wood
+panels, like much of the rest of the Tavern.  There is a hatch in the
+floor leading down into the cellars underneath the elfsong.  The only
+other exit is north through the door leading back to the main bar
+area.  
+~
+0 9 0 12
+0
+D0
+~
+~
+8 0 55988
+D5
+~
+hatch~
+776 55980 55990
+S
+#55990
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+Underneath the Elfsong is a small antechamber with a set of
+battered and worn ash black wooden steps that lead back to the Tavern.
+To the east, the cellar opens out into a large room, with wine racks
+and beer barrels strewn all over the place.  There is a constant
+scurrying noise as well, sounding like many rats running for cover
+somewhere in the dingy cellar.  
+~
+0 5 0 0
+0
+D1
+~
+~
+0 0 55991
+D4
+~
+hatch~
+776 55980 55989
+S
+#55991
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThis is the southwest corner of the cellar.  There is a set of
+steps to the west leading back up to the tavern.  Along the south wall
+are many barrels and kegs of various brews, and all around the rest of
+the cellar are several shelves stacked with bottles of wine,
+champagne, and all sorts of other alcohol.  There is a somewhat
+unpleasant odour, that of a rodent infestation.  {x 
+~
+0 9 0 0
+0
+D0
+~
+~
+0 0 55997
+D1
+~
+~
+0 0 55993
+D3
+~
+~
+0 0 55990
+S
+#55992
+EMPTY ROOM~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 55991
+S
+#55993
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThis is the centre of the south wall in the cellar.  All along the
+wall are barrels and kegs of various alcoholic beverages.  There are
+many racks and shelves around the cellar, stacked high with many dark
+coloured bottles.  {x 
+~
+0 9 0 0
+0
+D0
+~
+~
+0 0 55996
+D1
+~
+~
+0 0 55994
+D3
+~
+~
+0 0 55991
+S
+#55994
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThis is the southeast corner of the Elfsong Cellar.  Piled high in
+the corner are empty barrels, ready to be taken for refilling by the
+suppliers.  There are many racks of wine and barrels of alcohol
+filling the rest of the cellar.  There is also a distinct smell of
+rats all around the cellar.  {x 
+~
+0 9 0 0
+0
+D0
+~
+~
+0 0 55995
+D3
+~
+~
+0 0 55993
+S
+#55995
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThe eastern wall of the cellar is cracked and crumbling.  A wooden
+beam supports the ceiling to make sure it is safe, but it is a
+temporary job at best.  To the west, there is a large assortment of
+wine racks, beer barrels and kegs of ale.  {x 
+~
+0 9 0 0
+0
+D0
+~
+~
+0 0 55998
+D2
+~
+~
+0 0 55994
+D3
+~
+~
+0 0 55996
+S
+#55996
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThe centre of the cellar is surrounded by tall racks, filled with
+many bottles.  The isles between the racks are filled with large
+barrels and kegs making it difficult to walk around without bumping
+into one.  A large Barrel in the centre is placed on top of what looks
+like some kind of grate.  {x 
+~
+0 9 0 0
+0
+D0
+~
+~
+0 0 55999
+D1
+~
+~
+0 0 55995
+D2
+~
+~
+0 0 55993
+D3
+~
+~
+0 0 55997
+D5
+~
+~
+65544 0 56100
+S
+#55997
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThe west wall of the cellar has several pipes leading up into the
+ceiling.  These obviously take the drinks up to the bar above.  It is
+possible to see all around many wine racks and beer kegs filling the
+cellar.  There is also a vial odour of rats filling the cellar.  {x 
+~
+0 9 0 0
+0
+D0
+~
+~
+0 0 56000
+D1
+~
+~
+0 0 55996
+D2
+~
+~
+0 0 55991
+S
+#55998
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThis is the northeast corner of the Elfsong Cellar.  Piled high in
+the corner are empty barrels, ready to be taken for refilling by the
+suppliers.  There are many racks of wine and barrels of alcohol
+filling the rest of the cellar.  There is also a distinct smell of
+rats all around the cellar.  {x 
+~
+0 9 0 0
+0
+D2
+~
+~
+0 0 55995
+D3
+~
+~
+0 0 55999
+S
+#55999
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThis is the centre of the north wall in the cellar.  All along the
+wall are barrels and kegs of various alcoholic beverages.  There are
+many racks and shelves around the cellar, stacked high with many dark
+coloured bottles.  {x 
+~
+0 9 0 0
+0
+D1
+~
+~
+0 0 55998
+D2
+~
+~
+0 0 55996
+D3
+~
+~
+0 0 56000
+S
+#56000
+{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x~
+~
+{yThis is the northwest corner of the cellar.  Along the north wall
+are many barrels and kegs of various brews, and all around the rest of
+the cellar are several shelves stacked with bottles of wine,
+champagne, and all sorts of other alcohol.  There is a somewhat
+unpleasant odour, that of a rodent infestation.  {x 
+~
+0 9 0 0
+0
+D1
+~
+~
+0 0 55999
+D2
+~
+~
+0 0 55997
+S
+#56001
+{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs~
+~
+At the top of the stairs is a small chamber, lit by lanterns on the
+wall.  The main corridor to the rooms of the tavern runs to the south
+from here.  The main bar of the tavern is down the stairs.  
+~
+0 8 0 12
+0
+D2
+~
+~
+0 0 56006
+D5
+~
+~
+0 0 55986
+S
+#56002
+{WE{wlfsong {BStandard Room{x~
+~
+This is a fairly small room.  There is a small desk and a single
+bed, big enough for a large human, perhaps, in the centre of the back
+wall.  The floor is made from polished wood, and is pretty clean. 
+This is a nice enough room, but doesn't seem to have the luxury of the
+merchant's room or the royal suite.  
+~
+0 8 0 12
+0
+D2
+~
+~
+776 55988 56005
+S
+#56003
+{WE{wlfsong {BMerchant's Room{x~
+~
+This is a high quality room designed for travelling merchants. 
+There is a large footlocker at the end of the bed in this room, so
+that the merchants who use it can store their wares while they sleep
+in safety.  A small window overlooks the alleyways behind the tavern
+to the north.  
+~
+0 1032 0 12
+0
+D2
+~
+~
+776 55986 56004
+S
+#56004
+{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs~
+~
+The corridor reaches an abrupt end here.  There are another two
+doors.  The north door is labelled, {W'{yMerchant's Room{W'{x while the lavish
+door to the south has the label, {W'{YR{yoyal {YS{yuite{W'{x.  There is a window at
+the east end of the corridor looking down at the streets outside.  
+~
+0 8 0 12
+0
+D0
+~
+~
+776 55986 56003
+D2
+~
+~
+776 55987 56008
+D3
+~
+~
+0 0 56005
+S
+#56005
+{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs~
+~
+The corridor runs from west to east.  There are two doors along the
+edge.  To the north, there is a door labelled {W'{yStandard room 1{W'{x.  The
+door to the south is similarly labelled, {W'{yStandard room 2{W'{x.  A sign on
+the wall points to the east, indicating where the other rooms are.  
+~
+0 8 0 12
+0
+E
+sign~
+{y------------------------
+{x
+{Rnorth{w: {BStandard Room
+{rsouth{w: {BStandard Room
+{M east{w: {BMerchant's Room
+{x       {BRoyal Suite
+ 
+{y------------------------
+~
+D0
+~
+~
+776 55988 56002
+D1
+~
+~
+0 0 56004
+D2
+~
+~
+776 55988 56007
+D3
+~
+~
+0 0 56006
+S
+#56006
+{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs~
+~
+This corner of the tavern is not so well lit.  There is a small
+table tucked away in the southwest corner of the corridor with a small
+lantern on the table.  The corridor runs to the west, where people
+with the right amount of money can rent a room.  These rooms are well
+known for their safety and travellers always speak of the good rest
+they get here.  
+~
+0 8 0 12
+0
+D0
+~
+~
+0 0 56001
+D1
+~
+~
+0 0 56005
+S
+#56007
+{WE{wlfsong {BStandard Room{x~
+~
+This is a fairly small room.  There is a small desk and a single
+bed, big enough for a large human, perhaps, in the centre of the back
+wall.  The floor is made from polished wood, and is pretty clean. 
+This is a nice enough room, but doesn't seem to have the luxury of the
+merchant's room or the royal suite.  
+~
+0 8 0 12
+0
+D0
+~
+~
+776 55988 56005
+S
+#56008
+{WE{wlfsong {BRoyal Suite{x~
+~
+This is the largest of all the Elfsong's rooms.  There is a roaring
+fireplace warming the room, and in the centre is a large four poster
+bed with silk sheets and delicate and elegant silk curtains
+surrounding it.  There are gold framed paintings on the wall,
+depicting the various lords of Baldur's Gate throughout the years.  
+~
+0 1544 0 12
+0
+D0
+~
+~
+776 55987 56004
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 55980 2 1
+D 0 55989 5 2
+D 0 55990 4 2
+D 0 55996 5 1
+D 0 56002 2 2
+D 0 56003 2 2
+D 0 56004 0 2
+D 0 56004 2 2
+D 0 56005 0 2
+D 0 56005 2 2
+D 0 56007 0 2
+D 0 56008 0 2
+O 0 55996 0 55981
+M 0 55985 1 55981 1
+G 0 55988 0
+G 0 55986 0
+G 0 55987 0
+O 0 55996 0 55982
+M 0 55983 1 55982 1
+E 0 55990 0 17
+M 0 55984 1 55982 1
+M 0 55986 1 55982 1
+O 0 55996 0 55983
+O 0 55996 0 55984
+M 0 55982 1 55984 1
+O 0 55996 0 55985
+O 0 55981 0 55986
+O 0 55995 0 55987
+M 0 55981 1 55987 1
+G 0 55990 0
+G 0 55991 0
+G 0 55992 0
+G 0 55993 0
+G 0 55994 0
+M 0 55980 45 55991 5
+M 0 55980 45 55991 5
+M 0 55980 45 55991 5
+M 0 55980 45 55991 5
+M 0 55980 45 55991 5
+M 0 55980 45 55993 5
+M 0 55980 45 55993 5
+M 0 55980 45 55993 5
+M 0 55980 45 55993 5
+M 0 55980 45 55993 5
+O 0 55998 0 55994
+M 0 55980 45 55994 5
+M 0 55980 45 55994 5
+M 0 55980 45 55994 5
+M 0 55980 45 55994 5
+M 0 55980 45 55994 5
+M 0 55980 45 55995 5
+M 0 55980 45 55995 5
+M 0 55980 45 55995 5
+M 0 55980 45 55995 5
+M 0 55980 45 55995 5
+M 0 55980 45 55996 5
+M 0 55980 45 55996 5
+M 0 55980 45 55996 5
+M 0 55980 45 55996 5
+M 0 55980 45 55996 5
+M 0 55980 45 55997 5
+M 0 55980 45 55997 5
+M 0 55980 45 55997 5
+M 0 55980 45 55997 5
+M 0 55980 45 55997 5
+M 0 55980 45 55998 5
+M 0 55980 45 55998 5
+M 0 55980 45 55998 5
+M 0 55980 45 55998 5
+M 0 55980 45 55998 5
+M 0 55980 45 55999 5
+M 0 55980 45 55999 5
+M 0 55980 45 55999 5
+M 0 55980 45 55999 5
+M 0 55980 45 55999 5
+M 0 55980 45 56000 5
+M 0 55980 45 56000 5
+M 0 55980 45 56000 5
+M 0 55980 45 56000 5
+M 0 55980 45 56000 5
+O 0 55981 0 56001
+O 0 55989 0 56002
+O 0 55984 0 56003
+O 0 55985 0 56003
+O 0 55982 0 56006
+O 0 55989 0 56007
+O 0 55983 0 56008
+S
+
+
+
+#SHOPS
+55981 0 0 0 0 0 100 100 0 23
+55985 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#55980
+~
+say Hey, you look like a decent sort of person. I had a bit of a 'problem'
+say with a patron in here, and I got myself barred. I need a drink. None
+say from the bar are good enough. I want something special from here. Will
+say you help me?
+grin
+~
+#55981
+~
+beam $n
+say Great. All I need is a bottle of something good from the cellar. If you can get
+say it for me, I'll give you something in return.
+~
+#55982
+~
+say Fine. Your loss.
+glare $n
+~
+#55983
+~
+cackle
+say That's perfect.
+smile $n
+drink teronbrewquest
+mob junk teronbrewquest
+say See you around friend.
+mob oload 55997
+give glowingwhite $n
+~
+#55984
+~
+if mobhere 55986
+  if level $q >= 50
+    say I thank you. There is little I can offer one of your stature.
+    mob echo Raella ducks below the bar for a moment, reappearing with something in her hands.
+    say Please take this.
+    mob oload 56002
+    give 1. $q
+    mob forget $q
+    mob transfer feldorn 55982
+  else
+    say Thank you so much for your help!
+    beam $q
+    say Just a moment, I must reward you!
+    mob echo In a flourish, Raella ducks below the bar, rifling around.
+    say Here; this is the least I can offer!
+    mob oload 56001
+    give 1. $q
+    mob forget $q
+    mob transfer feldorn 55982
+  endif
+else
+ if mobexists elfsongrat
+   mob echoat $n The Elfsong Tavern Barmaid looks at you with her pretty eyes.
+   say Greetings there, traveller. What will it be? I'll even get
+   say a drink on the house if you can help me with a small problem.
+   break
+ else
+   mob echoat $n The Elfsong Tavern Barmaid looks at you with her pretty eyes.
+   say Greetings there, traveller. What will it be?
+  endif
+endif
+~
+#55985
+~
+if mobexists elfsongrat
+ beam $n
+ say Oh, thank you. I need someone to do a job in the cellar for me.
+ mob echoat $n The Elfsong Tavern Barmaid leans over and whispers into your ear.
+ mob echoaround $n The Elfsong Tavern Barmaid leans over and whispers into $n's ear.
+ mob echoat $n {gThe Elfsong Tavern Barmaid tells you '{GThere's lots of rats that seem to have come up{g'{x
+ mob echoat $n {gThe Elfsong Tavern Barmaid tells you '{Gfrom the sewers below. Can you kill them all for me?{g'{x
+ mob echoat $n {gThe Elfsong Tavern Barmaid tells you '{Gif so, nod at me. Don't say anything.{g'{x
+else
+endif
+~
+#55986
+~
+if mobexists elfsongrat
+ mob echoat $n The Elfsong Barmaid smiles sweetly and slips a key into your hand.
+ mob echoaround $n The Elfsong Barmaid smiles sweetly at $n and slips something into their hand.
+ mob oload 55980
+ give key $n
+ mob junk key
+ mob echoat $n {gThe Elfsong Barmaid tells you '{GThe cellar is behind the bar to the west.{g'{x
+ mob echoat $n {gThe Elfsong Barmaid tells you '{GWhen you have finished, come back here and say that you have finished{g'{x
+else
+endif
+~
+#55987
+~
+if mobhere 55981
+  mob echo $I says, 'Wow, thanks mate, you saved my skin!' and wanders off.
+  follow self
+else
+  break
+endif
+~
+#55988
+~
+if mobexists elfsongrat
+  say You haven't finished! There's still some rats there.
+  break
+else
+  say Oh well done. The rats are gone. Did you see Feldorn down there?
+  mob echo $I looks a little worried.
+  say Feldorn went down after you to help. He must be down there somewhere.
+  say Please find him, he must be in great danger.
+  mob transfer feldorn 56119
+  mob remember $n
+endif
+~
+#55989
+~
+~
+#55990
+gnome - elfsong bar - information~
+mob echo $I splashes down his tankard of ale onto the table.
+say You know, I heard the other day that there is a chalice lost deep under the sea somewhere.
+mob echo $I hiccups as a small amount of ale trickles down his chin.
+say They say that the high priestess of Umberlee is very interested in the chalice, oh yes.
+~
+#55991
+gnome - elfsong bar - create delay for speech~
+mob delay 3
+hic
+~
+#55992
+innkeeper - elfsong bar - hints for information~
+say Welcome traveller. If you want to rent a room, I am your man, if you want to get a drink, go see the barmaid over there.
+mob echo $I points over to the bar northwest.
+say The locals here are a friendly bunch. Stay a while, listen to their tales, there is always some useful information to be had.
+~
+#55993
+elf local - elfsong - general info~
+if rand 50
+  say Ahh, 'tis a fine day for a drink. But be careful. I hear the theives' guild are recruiting adventurers for something big.
+  mob echo $I looks sheepishly over his shoulder to make sure noone was listening, then gets back to his drink.
+else
+  say Shh, did you hear? There are rats in the cellar. Giant ones!
+  mob echo a Gnome local drinker looks a little shocked, but carries on drinking.
+end if
+~
+#55994
+~
+if rand 50
+  say I don't trust that Nemphre. One necromancer is as bad as another.
+  break
+else
+  say It's true! There is a really great invention being shown in the Hall of Wonder. Some new airship device.
+  break
+end if
+~
+#55995
+~
+mob delay 2
+~
+#55996
+~
+if rand 50
+  mob echo $I staggers up to his feet.
+  say You spilled my pint. Bah! No wait a minute. I finished it.
+  mob echo $I hurries off to get another drink and arrives back before you even notice he was gone.
+else
+  say I should go on that quest I think. The leader of the Flaming Fist is looking for adventurers.
+  mob echo $I hesitates a while.
+  say No, I think I will finish my drink first.
+end if
+pose
+~
+#55997
+~
+if mobhere 55986
+  if level $q >= 50
+    say I thank you. There is little I can offer one of your stature.
+    mob echo Raella ducks below the bar for a moment, reappearing with something in her hands.
+    say Please take this.
+    mob oload 56002
+    give 1. $q
+    mob forget $q
+  else
+    say Thank you so much for your help!
+    beam $q
+    say Just a moment, I must reward you!
+    mob echo In a flourish, Raella ducks below the bar, rifling around.
+    say Here; this is the least I can offer!
+    mob oload 56001
+    give 1. $q
+    mob forget $q
+  endif
+else
+   break
+endif
+~
+#0
+
+#$

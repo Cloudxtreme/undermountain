@@ -1,0 +1,1833 @@
+#AREADATA
+Name ArenaMaze~
+Builders None~
+VNUMs 18300 18499
+Credits [Imm Zone] Arena Maze~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 4
+End
+
+
+
+#MOBILES
+#18300
+mischievous sprite~
+A Mischievous Sprite~
+A Sprite is here, looking to cause some mischief.
+~
+~
+pixie~
+ABM DEFJTUVZ P -100 0
+105 2000 1d2+2000 1d2+2000 1d2+15 slap
+0 0 0 0
+DU ABC BJ R
+stand stand either 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18301 100~
+M FIGHT 18300 90~
+#18301
+mischievous sprite~
+A Mischievous Sprite~
+A Mischievous Sprite is here, looking to cause some trouble.
+~
+~
+pixie~
+A EJTUV P -100 0
+105 2000 1d2+2000 1d2+2000 1d2+15 slap
+0 0 0 0
+DR ABC BJ R
+stand stand either 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18302 100~
+M FIGHT 18300 90~
+#18302
+gnome littleoak mad alchemist~
+{0Littleoak, the Mad Alchemist~
+A Mad looking gnome is playing with potions here.
+~
+~
+gnome~
+AB Jc 0 0 0
+102 12000 1d2+24464 0d0+0 1d2+500 thwack
+0 0 0 0
+0 ABCLQ JLP R
+stand stand male 990000
+AHMV ABCDEFGHIJK small unknown
+D ~
+T ~
+#18303
+mischievous sprite~
+A Mischievous Sprite~
+A Sprite is here, looking to get into mischief.
+~
+~
+pixie~
+ABM DEFJTUVZ P -100 0
+105 2000 1d2+2000 1d2+2000 1d2+15 slap
+0 0 0 0
+DR ABC BJ R
+stand stand female 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18303 100~
+M FIGHT 18300 90~
+#18304
+mischievous sprite~
+A Mischievous Sprite~
+A Mischievous Sprite is here trying to cause some trouble.
+~
+~
+pixie~
+AB DEFJTUV P -100 0
+102 200 1d2+2000 0d0+0 1d2+15 slap
+0 0 0 0
+DR ABC BJP RZ
+stand stand either 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18304 100~
+M FIGHT 18300 90~
+#18305
+mischievous sprite~
+A Mischievous Sprite~
+A Mischievous Sprite is here grinning evilly.
+~
+~
+pixie~
+AB DEFJTUV P -100 0
+0 2000 1d2+2000 0d0+0 1d2+15 slap
+0 0 0 0
+DR ABC BJP RZ
+stand stand either 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18307 100~
+M GRALL 18307 100~
+M FIGHT 18300 90~
+#18306
+mischievous sprite~
+A Mischievous Sprite~
+A Mischievous Sprite is here rubbing her hands together while smiling wickedly. 
+~
+~
+pixie~
+AB DEFJTUV P -100 0
+102 2000 1d2+2000 0d0+0 1d2+15 slap
+0 0 0 0
+DR ABC BJP RZ
+stand stand either 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18305 100~
+M FIGHT 18300 90~
+#18307
+Mischievous Sprite~
+A Mischievous Sprite~
+A Mischievous Sprite is grinning madly here.
+~
+~
+pixie~
+AB EJTUV P -100 0
+102 2000 1d2+2000 0d0+0 1d2+15 slap
+0 0 0 0
+DR ABC BJP RZ
+stand stand either 0
+AHMV ABCDEFGHIJKP tiny unknown
+D ~
+T ~
+M GRALL 18306 100~
+M FIGHT 18300 90~
+#0
+
+
+
+#OBJECTS
+#18300
+sign~
+a sign~
+A crudely made sign has been shoved into the dirt here.~
+unknown~
+furniture 0 0
+2 10000 BE 0 0
+1 0 0 P
+E
+sign~
+{3  _______________________________________________________________
+{3  |                                                             /
+{3  |                                                            /
+{3  \         ________       {1ARENA MAZE{3         {8_{3     _   _  ___|
+{3   \                                                       |
+{3    |                          {0by{3                          /
+{3    |_     _                      ___           ___       _\
+{3   /          {8O          {1Mielikki {0& {1Brayn{3                 
+{3  /                                                        |
+{3  |____                                     ___            |
+{3       |                   {0-----{3                           |_____
+{3       |    _____               {0|{3                                |
+{3      /                         {0-----{1>{3                           |
+{3     |                                         {8 _ {3                |
+{3     |                                         {8(_){3            _____|
+{3     |                                                     /
+{3     |___________________________________________________ /
+{3                             |     |
+{3                             |     |
+{3                             |     |
+{3                             |     |
+{3                             |     |{0
+~
+#18301
+smokey potion~
+{0A potion overflowing with {8smoke{0~
+{0A potion overflowing with {8smoke{0 is here.~
+unknown~
+potion G AO
+95 'cure poison' 'cure disease' 'cure blindness' ''
+95 30 6000 P
+#18302
+bubbling potion~
+a {!B{#u{!B{#b{!L{#i{!N{#g{0 potion~
+A {!B{#u{!B{#b{!L{#i{!N{#g{0 potion looks like it is ready to explode here!~
+unknown~
+potion AG AO
+90 'haste' 'giant strength' 'frenzy' ''
+80 5 6000 P
+#18303
+fizzling potion~
+a {6fi{^ZZ{6ling{0 potion~
+A {6fi{^ZZ{6ling{0 potion is here.~
+unknown~
+potion BG AO
+30 'giant strength' 'frenzy' 'haste' ''
+30 5 4000 P
+#18304
+misty red potion~
+{0A {7misty {1red{0 potion~
+A {7misty {1red{0 potion is here.~
+unknown~
+potion AG AO
+40 'cure critical' 'cure critical' 'cure serious' ''
+20 10 5000 P
+#18305
+deep purple vial~
+{0A {8deep {5purple{0 vial~
+{0A {8deep {5purple{0 vial is capped here.~
+unknown~
+potion AG AO
+101 '' 'heal' '' 'heal'
+101 5 6000 P
+#18306
+tablet sage~
+a hard compressed s{8a{0g{8e{0 tablet~
+A tablet made out compressed s{8a{0g{8e{0 is here~
+unknown~
+pill GI AO
+101 'bless' 'sanctuary' 'stone skin' 'shield'
+101 40 6500 P
+#18307
+crushed pill tourmaline~
+a pill made of crushed {8to{7ur{&ma{7li{8ne{0~
+A pill made of crushed {8to{7ur{&ma{7li{8ne{0 has been dropped here.~
+unknown~
+pill G AO
+40 'sanctuary' 'bless' 'shield' 'armor'
+20 40 4000 P
+#18308
+no name~
+{0A {$spu{4tt{$ering{0 potion~
+{0A {$spu{4tt{$ering{0 potion is capped here.~
+unknown~
+potion AB AO
+70 'sanctuary' 'haste' 'frenzy' 'bless'
+50 50 5000 P
+#18309
+flashing potion~
+{0A {z{#flashing!{0 potion~
+{0A {#flashing!{0 potion is here.~
+unknown~
+potion AG AO
+90 'restore mana' 'restore mana' 'restore mana' ''
+60 50 8000 P
+#18310
+scroll gnomish gibberish~
+{0A scroll full of gnomish gibberish!~
+A scroll is rolled up here.~
+paper~
+scroll G AO
+101 'acid breath' 'gas breath' 'fire breath' ''
+101 20 10000 P
+#18311
+thingamabobberwhatchamacallit~
+a thingamabobberwhatchamacallit~
+A very WEIRD looking pair of shoes are here.~
+unknown~
+food 0 AG
+5 5 0 0 0
+15 10 100 P
+E
+thingamabob~
+Edible shoes?
+~
+#18312
+heliocraniosacral cap~
+a heliocraniosacral cap~
+A very WEIRD looking cap is here.~
+unknown~
+food 0 AE
+5 5 0 0 0
+15 20 150 P
+A
+3 -2
+A
+2 -1
+A
+4 4
+A
+17 -8
+E
+cap~
+an Edible cap?
+~
+E
+heliocraniosacral~
+an Edible cap?
+~
+#0
+
+
+
+#ROOMS
+#18300
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18301
+S
+#18301
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18300
+D1
+~
+~
+0 0 18302
+D3
+~
+~
+0 0 18311
+S
+#18302
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18303
+D3
+~
+~
+0 0 18301
+S
+#18303
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D3
+~
+~
+0 0 18302
+D5
+~
+~
+0 0 18304
+S
+#18304
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D3
+~
+~
+0 0 18305
+D4
+~
+~
+0 0 18303
+S
+#18305
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18304
+D3
+~
+~
+0 0 18306
+S
+#18306
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18305
+D2
+~
+~
+0 0 18313
+D3
+~
+~
+0 0 18307
+S
+#18307
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18308
+D1
+~
+~
+0 0 18306
+S
+#18308
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18307
+D3
+~
+~
+0 0 18309
+D4
+~
+~
+0 0 18310
+S
+#18309
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18308
+S
+#18310
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18312
+D5
+~
+~
+0 0 18308
+S
+#18311
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18301
+D3
+~
+~
+0 0 18312
+S
+#18312
+{8{@Jade{8 Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18311
+D3
+~
+~
+0 0 18310
+S
+#18313
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18306
+D1
+~
+~
+0 0 18314
+D2
+~
+~
+0 0 18331
+D3
+~
+~
+0 0 18322
+S
+#18314
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18315
+D3
+~
+~
+0 0 18313
+S
+#18315
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18316
+D3
+~
+~
+0 0 18314
+S
+#18316
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18317
+D3
+~
+~
+0 0 18315
+S
+#18317
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18316
+D3
+~
+~
+0 0 18318
+S
+#18318
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18317
+D2
+~
+~
+0 0 18319
+S
+#18319
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18318
+D2
+~
+~
+0 0 18320
+S
+#18320
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18319
+D1
+~
+~
+0 0 18321
+S
+#18321
+{8{3G{#o{3l{#d{3e{#n {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D3
+~
+~
+0 0 18320
+S
+#18322
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18313
+D3
+~
+~
+0 0 18323
+S
+#18323
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18322
+D2
+~
+~
+0 0 18330
+D3
+~
+~
+0 0 18324
+S
+#18324
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18323
+D3
+~
+~
+0 0 18325
+S
+#18325
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18324
+D2
+~
+~
+0 0 18326
+S
+#18326
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18325
+D1
+~
+~
+0 0 18327
+S
+#18327
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18328
+D3
+~
+~
+0 0 18326
+S
+#18328
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18327
+D1
+~
+~
+0 0 18329
+S
+#18329
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18330
+D3
+~
+~
+0 0 18328
+S
+#18330
+{8{#BRIGHT {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18323
+D2
+~
+~
+0 0 18329
+S
+#18331
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18313
+D1
+~
+~
+0 0 18335
+D3
+~
+~
+0 0 18332
+S
+#18332
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18331
+D2
+~
+~
+0 0 18333
+S
+#18333
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18332
+D2
+~
+~
+0 0 18334
+S
+#18334
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18333
+D4
+~
+~
+0 0 18338
+S
+#18335
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18336
+D3
+~
+~
+0 0 18331
+S
+#18336
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18335
+D2
+~
+~
+0 0 18337
+S
+#18337
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18336
+D4
+~
+~
+0 0 18343
+S
+#18338
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D3
+~
+~
+0 0 18339
+D5
+~
+~
+0 0 18334
+S
+#18339
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18338
+D2
+~
+~
+0 0 18340
+S
+#18340
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18339
+D1
+~
+~
+0 0 18341
+S
+#18341
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18342
+D3
+~
+~
+0 0 18340
+S
+#18342
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18343
+D3
+~
+~
+0 0 18341
+S
+#18343
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18344
+D1
+~
+~
+0 0 18345
+D2
+~
+~
+0 0 18386
+D3
+~
+~
+0 0 18342
+D5
+~
+~
+0 0 18337
+S
+#18344
+Littleoak's Mad Tinkers and Potion~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18343
+D5
+~
+~
+8 0 18387
+S
+#18345
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18346
+D3
+~
+~
+0 0 18343
+S
+#18346
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18347
+D3
+~
+~
+0 0 18345
+S
+#18347
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18348
+D3
+~
+~
+0 0 18346
+S
+#18348
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18347
+D2
+~
+~
+0 0 18349
+S
+#18349
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18348
+D2
+~
+~
+0 0 18350
+D4
+~
+~
+0 0 18365
+S
+#18350
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18349
+D2
+~
+~
+0 0 18351
+D3
+~
+~
+0 0 18374
+S
+#18351
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18350
+D1
+~
+~
+0 0 18352
+S
+#18352
+{8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18353
+D2
+~
+~
+0 0 18364
+D3
+~
+~
+0 0 18351
+S
+#18353
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18352
+D4
+~
+~
+0 0 18354
+S
+#18354
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18355
+D5
+~
+~
+0 0 18353
+S
+#18355
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18356
+D3
+~
+~
+0 0 18354
+S
+#18356
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18355
+D2
+~
+~
+0 0 18357
+S
+#18357
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18356
+D1
+~
+~
+0 0 18358
+D2
+~
+~
+0 0 18361
+S
+#18358
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18359
+D3
+~
+~
+0 0 18357
+S
+#18359
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18360
+D3
+~
+~
+0 0 18358
+S
+#18360
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D3
+~
+~
+0 0 18359
+S
+#18361
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18357
+D2
+~
+~
+0 0 18362
+S
+#18362
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18361
+D3
+~
+~
+0 0 18363
+S
+#18363
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18362
+D5
+~
+~
+0 0 18364
+S
+#18364
+{8{8S{7i{&l{7v{8e{8r Co{7rr{&id{7o{8rs{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18352
+D4
+~
+~
+0 0 18363
+S
+#18365
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18366
+D5
+~
+~
+0 0 18349
+S
+#18366
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18367
+D1
+~
+~
+0 0 18373
+D2
+~
+~
+0 0 18365
+S
+#18367
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18368
+D2
+~
+~
+0 0 18366
+S
+#18368
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18369
+D3
+~
+~
+0 0 18367
+S
+#18369
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18370
+D3
+~
+~
+0 0 18368
+S
+#18370
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18369
+D2
+~
+~
+0 0 18371
+S
+#18371
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18370
+D3
+~
+~
+0 0 18372
+S
+#18372
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18373
+D1
+~
+~
+0 0 18371
+S
+#18373
+{8{2--,-'-{{{1@ {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D2
+~
+~
+0 0 18372
+D3
+~
+~
+0 0 18366
+S
+#18374
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18350
+D3
+~
+~
+0 0 18375
+S
+#18375
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18374
+D3
+~
+~
+0 0 18376
+S
+#18376
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18375
+D3
+~
+~
+0 0 18377
+S
+#18377
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18376
+D3
+~
+~
+0 0 18378
+S
+#18378
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18377
+D3
+~
+~
+0 0 18379
+S
+#18379
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18380
+D1
+~
+~
+0 0 18378
+S
+#18380
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18381
+D2
+~
+~
+0 0 18379
+S
+#18381
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18382
+D3
+~
+~
+0 0 18380
+S
+#18382
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18383
+D3
+~
+~
+0 0 18381
+S
+#18383
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18386
+D1
+~
+~
+0 0 18384
+D3
+~
+~
+0 0 18382
+S
+#18384
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D1
+~
+~
+0 0 18385
+D3
+~
+~
+0 0 18383
+S
+#18385
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D3
+~
+~
+0 0 18384
+S
+#18386
+{8{5Cr{1i{!m{1s{5on {8Corridors{0~
+~
+~
+0 335552521 0 0
+0
+D0
+~
+~
+0 0 18343
+D2
+~
+~
+0 0 18383
+S
+#18387
+Healing Aura~
+~
+~
+0 67641344 0 0
+0
+D4
+~
+~
+8 0 18344
+M 1200 H 1200
+S
+#18422
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 18423
+S
+#18423
+~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 18422
+S
+#0
+
+
+
+#SPECIALS
+M 18300 spec_thief
+M 18301 spec_thief
+M 18303 spec_thief
+M 18304 spec_thief
+M 18305 spec_thief
+M 18306 spec_thief
+M 18307 spec_thief
+S
+
+
+
+#RESETS
+D 0 18344 5 1
+D 0 18387 4 1
+M 0 18300 2 18300 1
+M 0 18300 2 18306 1
+O 0 18300 0 18313
+M 0 18303 1 18315 1
+M 0 18301 1 18323 1
+M 0 18302 1 18344 1
+G 0 18312 0
+G 0 18311 0
+G 0 18310 0
+G 0 18309 0
+G 0 18307 0
+G 0 18306 0
+G 0 18308 0
+G 0 18303 0
+G 0 18302 0
+G 0 18301 0
+M 0 18305 1 18347 1
+M 0 18307 1 18356 1
+M 0 18306 1 18372 1
+M 0 18304 1 18380 1
+S
+
+
+
+#SHOPS
+18302 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#18300
+~
+say AHHHHHH!
+say Don't Hit Me!!
+run
+fle
+fle
+fle
+fle
+fle
+fle
+fle
+fle
+fle
+fle
+fle
+fle
+~
+#18301
+~
+vis
+mob zecho A Mischievous Sprite yells {1$n is in the {@Jade {8Corridors{1!! Mwhahaha!{0
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you! 
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh 
+~
+#18302
+~
+vis
+mob zecho A Mischievous Sprite yells '{1$n is in the {#BRIGHT {8Corridors{1!! Mwhahaha!{0'
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you! 
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh
+~
+#18303
+~
+vis
+mob zecho A Mischievous Sprite yells '{1$n is in the {3G{#o{3l{#d{3e{#n {8Corridors{1!! Mwhahaha!{0'
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you!
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh
+~
+#18304
+~
+vis
+mob zecho A Mischievous Sprite yells '{1$n is in the {5Cr{1i{!m{1s{5on {8Corridors{1!! Mwhahaha!{0'
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you!
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh
+~
+#18305
+~
+vis
+mob zecho A Mischievous Sprite yells '{1$n is in the {2--,-'-{{{1@ {8Corridors{1!! Mwhahaha!{0'
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you!
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh
+~
+#18306
+~
+vis
+mob zecho A Mischievous Sprite yells '{1$n is in the {8S{7i{&l{7v{8er Co{7rr{&id{7o{8rs{1!! Mwhahaha!{0'
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you! 
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh 
+~
+#18307
+~
+vis
+mob zecho A Mischievous Sprite yells '{1$n is in {8T{7h{8e {7S{8t{7o{8n{7e {8P{7a{8s{7s{8a{7g{8e {82nd floor{1!! Mwhahaha!{0'
+mob echo A Mischievous Sprite fades into thin air.
+mob cast 'imp'
+mob echoat $n Someone sticks its tongue out at you! 
+mob echoaround $n Someone sticks its tongue out at $n!
+laugh 
+~
+#0
+
+#$

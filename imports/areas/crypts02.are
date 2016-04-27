@@ -1,0 +1,3330 @@
+#AREADATA
+Name Deeper Crypts of Undead~
+Builders None~
+VNUMs 3600 3699
+Credits [ *HERO* ] Deeper Crypts of the Undead~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 3
+Zone 0
+End
+
+
+
+#MOBILES
+#3601
+undeadcompleter run completer~
+[{YIMP INVIS{x] undeadcompleter run completer{x~
+[{YIMP INVIS{x] undeadcompleter run completer{x
+~
+~
+human~
+ABGN 0 P 0 0
+105 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M act 3606 opens a large chest~
+#3602
+impenetrableseal dark seal~
+the impenetrable seal~
+{*An impenetrable seal of darkness blocks the eastern door.{x
+~
+A shimmering barrier of dark magic completely blocks any passage
+through the doorway.  Anyone wishing to pass will have to find
+another way around.
+~
+human~
+ABGN 0 0 0 0
+105 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLMQRa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M exall 3612 1~
+#3603
+cleanupmob_msi~
+{*a {Yl{yin{wge{yri{Yng p{yre{wse{ync{Ye{*~
+{*A {Yl{yin{wge{yri{Yng p{yre{wse{ync{Ye{*
+~
+~
+human~
+ABN JZ 0 0 0
+110 0 1d100+100 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 3613 50~
+#3652
+Dethecus guard undead vampire~
+{RD{*et{rhe{*c{ru{Rs{x~
+{*A large, strong vampire is standing here.{x
+~
+{*Dethecus is the guardian of the {wD{*eeper {wC{*rypts of the {RU{rndead{*.  He
+will give his life before he lets anyone pass this point.  
+~
+human~
+ABGNO DFJVc H -1000 0
+115 1000 60d60+10000 60d60+10000 40d40+400 bite
+-40 -40 -40 -40
+FHK AB EIQ HNS
+stand stand male 10034
+AHMV ABCDEFGHIJK large unknown
+D ~
+T {X~
+M grall 3657 100~
+M death 3652 100~
+#3653
+brokenangel angel broken wing~
+{WAn {YAn{Wg{Yel{x~
+An {YAn{Wg{Yel{x with a broken wing is trying to get out!
+~
+The {YAn{Wg{Yel{C is hurt, and looks very helpless...  How did a holy
+person as an angel ever end up in this cursed place?  She looks like
+she could use someone with healing powers very badly...  {x 
+~
+human~
+ABGMQ DEFJZ HN 1000 0
+105 500 30d30+2000 30d30+2000 20d20+200 none
+-10 -10 -10 -10
+Q ABCDLQa 0 0
+stand stand female 12638
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M give 3655 3669~
+M grall 3653 100~
+#3654
+magiccircle magic circle symbols death~
+{*the {Rm{ra{*g{ri{Rc c{ri{*rc{rl{Re{x~
+{*A {Rm{ra{*g{ri{Rc c{ri{*rc{rl{Re{* formed of symbols of {Rd{reath {*covers the floor.
+~
+{*A magic circle has been drawn in blood upon the floor.  Powerful dark{x
+{*magic radiates from the circle and prevents any passage into the chamber{x
+{*below.{x
+~
+human~
+ABGN 0 0 0 0
+105 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLMQRa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T Close undead~
+M act 3658 drops a holy stone of negation~
+M exall 3656 5~
+#3655
+cryptguard guardian undead~
+{*a {rcrypt {*guardian{x~
+{*A guardian in full plate armor has been summoned here to protect the {rCrypts{*.{x
+~
+{*This person is completely protected by dark plate armor.  His or
+her face is hidden behind a strong helmet, and a large sword rests in
+its hands.  This guard has been summoned here by Morthazar to defend
+the Crypts in these difficult times.  {x {x {x 
+~
+human~
+ABFGO DFJLVZ DHO -1000 0
+116 1000 50d50+18000 50d50+18000 80d80+600 drain
+-80 -80 -80 -80
+ABCEFO AB 0 0
+stand stand either 10000
+AEHMV ABCDEFGHIJK medium unknown
+D {Msays {W'{*Ahhhhrrrrggggg!!!!{W'{x~
+T ~
+#3656
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABGN 0 P 0 0
+105 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#3660
+IMP INVIS stairs mob~
+[{YIMP INVIS{x] stairs mob~
+[{YIMP INVIS{x] stairs mob
+~
+~
+human~
+ABMNO 0 P 0 0
+103 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLMQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M exall 3660 4~
+#3662
+IMP INVIS chest trap~
+[{YIMP INVIS{x]{* Chest Trap{x~
+[{YIMP INVIS{x]{* Chest Trap{x
+~
+~
+human~
+ABGN 0 P 0 0
+102 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M act 3662 unlocks~
+#3664
+Aramirak vampiric metalworker smith~
+{wA{*r{ra{Rmi{rr{*a{wk{*, the {RC{rr{Ry{rp{Rt {wS{*mith{x~
+{*A vampiric metalworker stands here, creating a dark dagger.{x
+~
+{*This man is the smith of the Crypts.  He is well known, and famous
+under the undead.  In his hands is hammer, by his side are various
+tools to create weapons and armor.  {x 
+~
+dwarf~
+ABO DFJLVZ DH -500 0
+112 800 120d120+19000 100d100+20000 80d80+700 smash
+-65 -65 -65 -60
+ACEFGHIKNO AB DFLQ LNRS
+stand stand male 13234
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M death 3603 100~
+M greet 3664 100~
+M give 3665 3659~
+M speech 3666 reward~
+#3668
+IMP INVIS switch operator~
+[{YIMP INVIS{x] switch operator~
+[{YIMP INVIS{x] switch operator
+~
+~
+human~
+ABGN DFJZ P 0 0
+106 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M act 3668 unlocks a small switch operated by a key~
+#3670
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABGN 0 P -1000 0
+102 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#3671
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABGN 0 P 0 0
+102 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#3672
+Bakamural Leader Demon~
+{wB{*a{rk{Ra{ym{Ru{rr{*a{wl{(, {RL{re{*a{wd{*e{rr{* of the {wD{re{Rm{ro{*n{ws{x~
+{*A huge demon stands here, summoned by his Lord {*Mo{rrt{Rha{rza{*r, to defend the key.{x
+~
+{8This large demon is the leader of the demons.  His power is
+{8enormous and he is also a good friend of Morthazar.  His teeth are
+{8yellow and he smells awful.  A large axe rest in his hands.  {x
+~
+human~
+ABGOS DFJLVZ DH -1000 0
+113 900 150d150+20000 300d300+20000 80d80+800 claw
+-70 -70 -70 -80
+ACEFGHIKMNO AB CD NSY
+stand stand male 34223
+AHMV ABCDEFGHIJK huge unknown
+D ~
+T ~
+M death 3604 100~
+#3674
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABGN 0 P 0 0
+110 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#3677
+chestguardian guardian chest undead~
+{*the {wG{*uardian of the {rC{Rh{re{Rs{rt{* of the {wU{rn{Rd{re{wa{*d{x~
+{*The {wG{*uardian of the {rC{Rh{re{Rs{rt{* of the {wU{rn{Rd{re{wa{*d patrols here.{x
+~
+{8This strong undead guard has served here for many centuries.  His
+{8power is still increasing, he trains hard, but so far he has never
+{8been challenged.  He guards the treasures these Crypts hold.{x
+~
+human~
+ABGNOP DFJVa CDEHOR -1000 0
+105 500 300d300+30000 200d200+30000 120d40+5000 crush
+-300 -300 -300 -300
+AFINO AB CDHIJKLM NSY
+stand stand male 231
+AHMV ABCDEFGHIJK huge unknown
+D ~
+T ~
+M death 3679 100~
+M grall 3677 100~
+M exall 3678 1~
+#3687
+Utalrund vampire undead~
+{rU{yt{ra{Rl{rr{yu{rn{yd {*the {wV{*a{rm{Rp{ri{*r{we{x~
+{*A vampire, covered with blood, has been summoned here to defend the Crypts.{x
+~
+{*With bloody and deathly fangs, this vampire is even feared by his
+own brothers.  He has no mercy and his slender body is much stronger
+then it seems to be.  His eyes have a red glow, burning with desire to
+eat his next victim.  {x 
+~
+human~
+ABGP DFJLVZ EH -1000 0
+110 500 300d300+20000 100d100+15000 80d80+500 acbite
+-50 -50 -50 -50
+ACEFHKNO AB CD NSY
+stand stand none 0
+AHMV ABCDEFGHIJK small unknown
+D ~
+T ~
+M death 3601 100~
+#3688
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABG Z P 0 0
+105 0 1d10+10000 50d50+500 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#3690
+strong death knight~
+{*a strong De{wa{*th Kn{wig{*ht{x~
+{*A strong De{wa{*th Kn{wig{*ht waits here.{x
+~
+{*This powerful man is the personal bodyguard of Morthazar.  He{x
+{*is dressed in full plate mail and carries a simple yet strong and{x
+{*lethal sword.  He is trained to protect and to kill.  His {x
+{*Master's wish is his command.{x
+~
+human~
+ABFGO DFJLVZ DH -1000 0
+112 500 50d50+7000 50d50+7000 40d40+600 none
+-50 -50 -50 -60
+ACEFKO AB 0 NSY
+stand stand male 0
+AHMV ABCDEFGHIJK large unknown
+D ~
+T ~
+#3693
+Protazur lich powerful~
+{yP{wr{*o{rt{Ra{rz{*u{yr{* the {RP{ro{*w{we{*r{rf{Ru{rl {*L{wic{*h{x~
+{*A powerful lich hovers here, meditating.{x
+~
+{*This lich is a strong fighter and a worthy oppenent for anyone. 
+His speed and balance are as lethal as his fangs and his mind beats
+both his speed and fangs.  {x 
+~
+human~
+ABGOP DFJLTVZ EH -1000 0
+111 600 130d130+19000 100d100+17000 80d80+600 drain
+-60 -60 -60 -60
+ACEFGHIKNO AB CM LNS
+stand stand none 12313
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M death 3602 100~
+#3694
+Morthazar mighty undead~
+{*Mo{rrt{Rha{rza{*r{X~
+{wThe mighty {*Mo{rrt{Rha{rza{*r{w is standing here.{x
+~
+{8You are standing before one of the most dangerous beings in the
+{8Realms.  {8The mighty Mo{rrt{Rha{rza{8r, The strongest undead creature in
+{8existence.  {8Death itself surrounds him.  There is nothing that 
+{8will please him more {8than killing you!{x
+~
+human~
+ABFGNOP DFJTVZ HO -1000 0
+118 2500 800d800+25000 50d100+10000 50d50+6000 drain
+-70 -70 -70 -70
+FJK ABPR CDIM NS
+stand stand male 123
+AHMV ABCDEFGHIJK large death
+D ~
+T ~
+M exall 3670 0~
+M exall 3670 1~
+M fight 3686 100~
+M grall 3688 100~
+M death 3685 100~
+#3697
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABGN 0 P 0 0
+119 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#3698
+Terrachus guard undead black knight~
+{wT{*e{rr{Rr{wa{Rc{rh{*u{ws{*{x~
+{*A huge armored black knight stands here to defend the crypt against attackers.{x
+~
+{wT{*e{rr{Rr{wa{Rc{rh{*u{ws{*, {wG{*uardian of the {RC{rr{Ry{rp{Rt{rs{*, is one of the very few Morthazar
+trusts.  He is here to defend the Crypts against any attacker and he
+has never failed so far.  Many stinking corpses and bones lie around
+him, as a warning for those who are foolish enough to enter.  {x 
+~
+human~
+ABFGNO DFJLVZ ADHO -1000 0
+115 1000 200d200+15000 200d200+15000 80d80+800 flbite
+-70 -70 -70 -70
+ABCEFGHIKNO AB HKLMQT NSY
+stand stand male 100000
+AEHMV ABCDEFGHIJKUW huge unknown
+D {Msays {W'{*Nooooo! I failed!{W'{x~
+T ~
+M death 3610 5~
+M exall 3661 1~
+M exall 3661 0~
+#3699
+{*-unused-{x~
+{*-unused-{x~
+{*-unused-{x
+~
+~
+human~
+ABGN 0 P 0 0
+110 0 1d10+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#0
+
+
+
+#OBJECTS
+#3600
+run09openmarker~
+run marker represents the Crypts of the Undead run having been already opened~
+Run marker represents run having been already opened.~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#3601
+portalundeadrun swirling red edged portal~
+{8A swirling {Rr{red {Re{rdged {8portal{x~
+{8A large portal is here swirling with an {Ra{rngry {Rr{red {8glow{x~
+unknown~
+portal R 0
+0 0 0 3695 0
+0 1000 0 P
+#3602
+portalundeadrun swirling red edged portal~
+{8A swirling {Rr{red {Re{rdged {8portal{x~
+{8A large portal is here swirling with an {Ra{rngry {Rr{red {8glow{x~
+unknown~
+portal R 0
+0 0 0 3696 0
+0 1000 0 P
+#3603
+portalundeadrun swirling red edged portal~
+{8A swirling {Rr{red {Re{rdged {8portal{x~
+{8A large portal is here swirling with an {Ra{rngry {Rr{red {8glow{x~
+unknown~
+portal R 0
+0 0 0 3697 0
+0 1000 0 P
+#3604
+portalundeadrun swirling red edged portal~
+{8A swirling {Rr{red {Re{rdged {8portal{x~
+{8A large portal is here swirling with an {Ra{rngry {Rr{red {8glow{x~
+unknown~
+portal R 0
+0 0 0 3698 0
+0 1000 0 P
+#3605
+tattoo holy symbol lloth~
+{*a {wt{*a{rt{wt{ro{*o of the unholy symbol of {RL{rl{*o{rt{Rh{x~
+{*A piece of Mo{rrt{Rha{rza{*r's hide, with the {wt{*a{rt{wt{ro{*o of {RL{rl{*o{rt{Rh{*'s unholy symbol, lies here.{x~
+unknown~
+treasure CEGM AW
+0 0 0 0 0
+101 0 50000 P
+A
+18 6
+A
+20 -6
+A
+13 10
+A
+19 6
+#3606
+lich crown madness~
+{*the {RL{rich{*'{rs {YC{yr{Yo{yw{Yn {*of Madness{x~
+{*A dull {Yg{yolden {*crown lies here.{x~
+unknown~
+armor CEG AE
+25 25 25 25 0
+101 10 50000 P
+A
+4 -2
+A
+3 -2
+A
+18 10
+A
+19 10
+A
+13 300
+A
+12 125
+A
+20 -5
+F
+A 0 0 D
+#3607
+aura hatred~
+{wa{*n {wA{ru{wr{Ra {*of {wH{*a{wt{Rr{re{wd{x~
+{8A feeling of {wh{8a{wt{Rr{re{wd {8permeates the room here.{x~
+unknown~
+treasure JMY AY
+0 0 0 0 0
+101 0 50000 P
+A
+13 75
+A
+12 75
+A
+20 -8
+A
+18 12
+A
+19 12
+A
+4 -2
+#3608
+blood stained boots~
+{8a pair of {Rb{rlood {8stained {yleather {8boots{x~
+{8A pair of bloody leather boots sit here.{x~
+unknown~
+armor EJLM AG
+20 20 20 20 0
+101 20 10000 P
+F
+V 0 0 Q
+A
+19 11
+A
+18 11
+A
+13 150
+A
+12 50
+A
+20 -3
+#3609
+openingportal small opening~
+{*a small opening{x~
+{8A section of the ceiling has caved in revealing a small {Ro{rpening {8leading upwards{x~
+unknown~
+portal 0 0
+0 0 0 36650 0
+0 0 0 P
+#3610
+gauntlets crypt guardian~
+{*the Gauntlets of the {RC{rrypt {*Guardian{x~
+{*A pair of foul smelling gauntlets lay here.{x~
+steel~
+armor GJL AH
+20 20 20 20 0
+101 20 50000 P
+A
+26 5
+A
+18 20
+A
+19 20
+#3611
+runmarker09~
+run marker represents Deeper Crypts to be opened~
+Run marker represents Deeper Crypts to be opened.~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#3612
+Io's breath~
+{WIo's {*Breath{x~
+The power of the breath of the {WDragon {*Creator {xis here!~
+breath~
+weapon ABCGIMPRTY AN
+exotic 125 100 divine BCDEGH
+102 0 0 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 500
+A
+17 -100
+F
+A 0 0 LTUZbc
+F
+S 0 0 CHNO
+F
+R 0 0 CD
+L {YThis is an immortal only weapon and is not used for any purpose within the Undead run.{x~
+#3652
+crackportal crack floor portal~
+{*a crack in the floor{x~
+{*The floor has partially collapsed. A {rc{Rr{ra{Rc{rk{* in the floor now provides another {re{Rxi{rt{*.{x~
+unknown~
+portal 0 0
+0 A A 3653 0
+101 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3653
+potion holy angel~
+{Wthe {Cpotion{W of an {YAn{Wg{Yel{x~
+A potion is lying here, humming with a {Wholy aura{x.~
+unknown~
+potion 0 AO
+102 'restore mana' 'restore mana' 'restore mana' 'mass healing'
+101 0 10000 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3654
+burning torch~
+{*a {Rb{yu{rr{*n{ri{Yn{rg {Rt{yo{rr{Yc{rh{x~
+{*A {Rb{yu{rr{*n{ri{Yn{rg {Rt{yo{rr{Yc{rh{* is set here, flickering and shimmering unnaturally.{x~
+unknown~
+light 0 0
+0 0 999 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead.{x~
+#3655
+large anvil~
+{*a large {wa{*nvil{x~
+{*A large {wa{*nvil stands in the center of the room.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3656
+scroll doom dark ~
+{*a {rscroll{* filled with doom{x~
+{*A {wd{*ark {rscroll{* lies here.{x~
+unknown~
+scroll CEG AO
+80 'faerie fire' 'curse' 'energy drain' 'blindness'
+70 1 100000 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3657
+chest darkness~
+{*the {wC{*hest of {wD{*arkness{x~
+{*The {wC{*hest of {wD{*arkness, decorated with {wd{*ark {Rsy{wm{*b{wo{rl{Rs{* sits here.{x~
+unknown~
+container RY 0
+3 ABCD 3658 1000 2
+103 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3658
+Key Chest Darkness~
+{*a {Rd{wa{rr{*k {wk{*ey{x~
+{*A {Rd{wa{rr{*k {wk{*ey lies here.{x~
+unknown~
+key ACJY AO
+0 0 0 0 0
+101 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3659
+Hammer Eternal Doom~
+{*the {wH{*ammer of {wE{*ternal {wD{*oom{x~
+{*A large {wH{*ammer lies here.{x~
+unknown~
+weapon CEG AN
+mace 50 50 divine ACFG
+102 0 20000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+17 -1000
+A
+20 -4000
+A
+14 4000
+A
+12 4000
+A
+13 4000
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3660
+holy stone negation~
+{*a {yh{Yol{Wy st{Yon{ye {*of {Wn{wegation{x~
+{*A {yh{Yol{Wy st{Yon{ye {*of {Wn{wegation{* sits upon the floor, glowing brightly.~
+unknown~
+treasure AGIKY A
+0 0 0 0 0
+0 1 77700 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3661
+-unused-~
+-unused-~
+-unused-~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3662
+-unused-~
+-unused-~
+-unused-~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3663
+-unused-~
+-unused-~
+-unused-~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3664
+-unused-~
+-unused-~
+-unused-~
+unknown~
+trash P A
+0 0 0 0 0
+0 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3665
+-unused-~
+-unused-~
+-unused-~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3666
+{*-unused-{x~
+-unused-~
+{*-unused-{x~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3667
+{*-unused-{x~
+-unused-~
+{*-unused-{x~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3668
+{*-unused-{x~
+-unused-~
+{*-unused-{x~
+unknown~
+trash P A
+0 0 0 0 0
+0 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3669
+potion angelic healing undead run~
+a {CP{cotion {xof {YA{yngelic {MH{mealing{X~
+{xA {CP{cotion {xof {YA{yngelic {MH{mealing{x lies here.~
+unknown~
+potion ABG AO
+110 'heal' 'heal' 'heal' 'heal'
+102 2 20000 R
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3670
+lance eternal fire~
+{*the {wL{*a{wn{*c{we{* of {RE{rt{*e{wr{*n{ra{Rl {RF{ri{Rr{re{x~
+{*A long and {Rb{yu{Yr{rn{Ri{yn{Yg {wl{*ance stands here.{x~
+unknown~
+weapon BCEGJ AZ
+exotic 16 16 pierce ADI
+100 5 10000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+13 20
+A
+12 150
+A
+20 -1
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3671
+hot fire~
+{*a {Rh{ro{Yt {Rf{ri{yr{Ye{x~
+{*A {Rh{ro{Yt {Rf{ri{yr{Ye{* burns here, to the left of the {wa{*nvil.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3672
+bath water~
+{*a {wb{*ath full of {Bw{Ca{Bt{Ce{Br{x~
+{*A {wb{*ath full of {Bw{Ca{Bt{Ce{Br{* sits to the right of the {wa{*nvil{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3673
+green burning torch flames~
+{*A {gb{Gu{yr{gi{Gn{Yg {yto{Yr{ych{* with {gg{Gr{gee{Gn {gf{Gl{Ya{gm{Ge{gs{x~
+{*A {gb{Gu{yr{gi{Gn{Yg {yto{Yr{ych{* with {gg{Gr{gee{Gn {gf{Gl{Ya{gm{Ge{gs{* hangs against the wall.{x~
+unknown~
+light R 0
+0 0 999 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3674
+circle stones gem aura~
+{*a {wc{*ircle of {ws{*tones, with a large {rdark red {Rg{rem{x~
+{*A {wc{*ircle of {ws{*tones with a large {rdark ded {rg{we{*m is here, radiating an {Re{rv{wi{*l {Ra{ru{wr{*a.{x~
+unknown~
+trash R 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3675
+piece hide morthazar tattoo undead~
+{*a {wT{*a{rt{wt{ro{*o of the {wU{*n{rd{Re{ra{*d{x~
+{*A piece of Mo{rrt{Rha{rza{*r's hide, with the {wT{*a{rt{wt{ro{*o of the {wU{*n{rd{Re{ra{*d, lies here.{x~
+unknown~
+armor CEGJMSZ AW
+6 6 6 6 0
+100 0 43583 P
+A
+20 -5
+A
+19 5
+A
+18 5
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3676
+Bloody Gauntlets Morthazar~
+{*t{wh{*e {RB{rl{wo{*o{rd{Ry {wG{*a{ru{Rn{rt{Rl{re{*t{ws{* of Mo{rrt{Rha{rza{*r{x~
+{RB{rl{wo{*o{rd{Ry {wG{*a{ru{Rn{rt{Rl{re{*t{ws{* lie here on the ground.{x~
+unknown~
+armor CEGJ AH
+23 23 23 23 0
+101 6 34322 P
+A
+18 19
+A
+19 19
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3677
+fury undead glowing aura~
+{wF{*u{Rr{ry {wof {*the {wU{*n{rd{Re{ra{wd{x~
+{*A {wg{*l{ro{Rw{ri{*n{wg {wa{*u{Rr{ra{* floats here without a master.{x~
+unknown~
+armor CEGJ AY
+15 15 15 15 0
+100 0 32142 P
+A
+18 10
+A
+19 12
+A
+20 -3
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3678
+Dark Helmet Insomnia~
+{*a {wD{*a{rr{Rk {wH{*el{wm{* of {wI{*n{rs{Ro{rm{Rn{*i{wa{x~
+{*a {wD{*a{rr{Rk {wH{*el{wm{we{*t{* lies here on the ground.{x~
+unknown~
+armor CEGY AE
+20 20 20 25 0
+100 10 43534 P
+A
+13 100
+A
+12 225
+A
+5 -1
+A
+19 5
+A
+18 5
+F
+A 0 -1 E
+A
+20 -2
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3679
+key guard treasure room~
+{*the {wk{*ey to the {wT{*r{re{Ra{rs{*u{wr{*e {rR{*oo{rm{x~
+{*A small {rk{*ey lies here{x~
+unknown~
+key CEG AO
+0 0 0 0 0
+1 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3680
+staircase~
+{*a small {ystaircase{*{x~
+{*A small {ystaircase{* leads deeper in the {rCrypts{*.{x~
+unknown~
+trash R 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead.{x~
+#3681
+staircase up staircaseup~
+{*a small {ystaircase{*{x~
+{*A small {ystaircase{* leads to the higher parts of the {rCrypts{*.{x~
+unknown~
+trash R 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead.{x~
+#3682
+undeadchest chest undead treasures~
+{*a large chest, with markings of the {wU{*n{rd{Re{ra{wd{x~
+{*A large chest, with markings of the {wU{*n{rd{Re{ra{wd{*, stands here.{x~
+unknown~
+container CEGY 0
+50 ABCD 3683 100 100
+1 50 10000 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3683
+key undead chest~
+{*the {wk{Re{wy{* to the {wU{*n{rd{Re{ra{wd {RC{rh{*e{ws{*t{x~
+{*The {wk{Re{wy{* to the {wU{*n{rd{Re{ra{wd {RC{rh{*e{ws{*t lies here on the ground.{x~
+unknown~
+key CEGY AO
+0 0 0 0 0
+1 1 3243 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3684
+switchcontainer small switch~
+{*a small switch operated by a key{x~
+{*A small switch operated by a key hangs here against the wall.{x~
+unknown~
+container 0 0
+0 ABCD 3686 0 0
+101 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3685
+Strange Key~
+-unused-~
+{*A {wS{*trange {RK{re{*y to operate a lever lies here.{x~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3686
+small key system~
+{*a small key operating an unknown system{x~
+{*A small key lies here.{x~
+unknown~
+key EG AO
+0 0 0 0 0
+101 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3687
+-unused-~
+-unused-~
+-unused-~
+unknown~
+npc_corpse 0 AO
+0 0 0 0 0
+0 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3688
+undeadswitchtoken token~
+undeadswitchtoken token~
+Undeadswitchtoken token~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 1 0 P
+L none~
+#3689
+-unused-~
+-unused-~
+-unused-~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3690
+-unused-~
+-unused-~
+-unused-~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3691
+-unused-~
+-unused-~
+-unused-~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3692
+-unused-~
+-unused-~
+-unused-~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 1 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3693
+-unused-~
+-unused-~
+-unused-~
+unknown~
+trash 0 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3694
+angel skull floating burning~
+{*the {Rb{ru{Yr{yn{ri{Rn{yg {wSk{*u{wll{* of an {YA{yn{Yg{ye{Yl{x~
+{*The {Rb{ru{Yr{yn{ri{Rn{yg {wSk{*u{wll{* of an {YA{yn{Yg{ye{Yl{* floats here.{x~
+unknown~
+armor AEGIJ AQ
+25 25 25 30 0
+100 2 32423 P
+A
+13 125
+A
+12 125
+A
+20 3
+A
+18 20
+A
+19 20
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3695
+enormous stone~
+{*an enormous stone{x~
+{*An enormous stone slammed against the ground here, crushing everything in the room.{x~
+unknown~
+trash R 0
+0 0 0 0 0
+1 0 0 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#3698
+deeperundeadisdone token~
+deeper Undead Is Done~
+Deeper Undead Is Done~
+unknown~
+treasure 0 A
+0 0 0 0 0
+1 0 0 P
+#3699
+potion wicked power~
+{*a {wp{*otion of {Rw{ricked {wp{*ower{x~
+{*A {wp{*otion with strange {wp{*owers sits on the ground.{x~
+unknown~
+potion CEG AO
+80 'protection good' 'stone skin' 'shield' 'frenzy'
+70 1 93000 P
+L {*This object was found in the Deeper Crypts of the Undead{x~
+#0
+
+
+
+#ROOMS
+#3652
+{rDescent {*to the {rCrypts{x {W[{CC{*laimpoin{Ct{W]{x~
+~
+{w
+{*The walls that surroun{rd this dark place, a{*re engraved with strange
+symbols. The floor s{reems damaged by the many{* ages it survived. All
+light is absorbed by{r the dark walls, the nig{*ht seems to live here.
+Many corpses lie on th{re ground. The last c{*hance to escape, is up.
+~
+0 1140850733 0 18
+0
+D4
+~
+~
+0 0 36652
+S
+#3653
+{rUnder {*the {rfloor{x~
+~
+{*
+This room has a strang{re atmosphere. This r{*oom is as dark as the
+previous one, but so{rmehow more relaxing. The{* screaming heard to
+the north is not f{rrightening from here, and th{*e floor and walls
+look clean and dry. {rCompared to the other pl{*aces in the Crypts,
+this seems a nice plac{re to rest. There is {*no way to go back up.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3654
+S
+#3654
+{rIn{* a dark {rhallway{x~
+~
+{w
+{*The hallway is decora{rted with strange car{*vings and illuminated by
+burning torches.  T{rhe fire flickers and shi{*mmers, dancing with an
+unnatural force. {rThe skeletons of foolish tra{*velers are shattered
+across the hallway.{r To the south a peaceful{* sensation can be felt
+but the east is repel{rlent, rotting corpse{*s spread an awful smell.
+~
+0 1140858920 0 18
+0
+D1
+~
+~
+0 0 3655
+D2
+~
+~
+0 0 3653
+X grall 3654 60~
+S
+#3655
+{rDeeper {*in the {rCrypts{x~
+~
+{w
+{*Rotting corpses cover{r the ground and spre{*ad an awful smell. The walls
+are decorated with {runknown symbols, that gl{*ow strangely in the dark.
+Darkness surrounds {rany fool that tries to e{*nter the Crypts and only
+those who are blessed{r with a fearless hea{*rt would dare to continue.
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3656
+D3
+~
+~
+0 0 3654
+S
+#3656
+{rIn the {*dark{r hallway{x~
+~
+{w
+{*An unnatural light sh{rines from the north,{* illuminating the strange
+carvings on the wal{rl. The aw{gfu{Gl s{gme{rll is st{*ill here, but here are
+no corpses and bo{rnes. The {gf{Ga{gi{Gnt gr{ge{Ge{gn {rlight t{*he {wcarvings{* emit and
+the light from the {rnorth pro{gduc{Ge{g lo{rng shado{*ws on the dusty ground.
+The hallway continues{r to the north and so{*uth, north is more light.
+~
+0 1140858921 0 18
+0
+E
+carvings~
+{w
+{*Strange carvings, emitting a {gpa{Gl{ge g{Gr{ge{Ge{gn{* glow, fill the walls.
+{w
+{*       N{wo{rr{wt{*h you will find what you des{re{*rve.
+{r         De{Ra{rth
+{*       S{wo{ru{wt{*h you will find what you a{rr{*e.
+{r         Not{Rh{ring{x
+~
+D0
+~
+~
+0 0 3657
+D2
+~
+~
+0 0 3655
+S
+#3657
+{rFurther{* in the {rhallway{x~
+~
+{w
+{*The source of the str{range light seems to {*be deeper in the Crypts.
+To the south a fain{rt green glow of the carv{*ings can still be seen.
+East the growling{r of a dark creature can be h{*eard, and its glowing
+red eyes can be see{rn. It seems to guard the{* different directions
+the hallway goes. Pil{res with bones and fl{*esh lie around the guard.
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3658
+D2
+~
+~
+0 0 3656
+S
+#3658
+{rIntersection{* in the {rCrypts{x~
+~
+{w
+{*At this point, three di{rrections can be chosen{*. The unusual light seems
+to come from the east{r. Through the northern hal{*lway come strange sounds,
+of metal on metal, al{rmost like somebody is crea{*ting tools. To the west
+is nothing but darkness{r, it is not likely one{* would find anything there.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3659
+D1
+~
+~
+0 0 3665
+D3
+~
+~
+0 0 3657
+M 20 H 50
+S
+#3659
+{rNorth{* of the {rIntersection{x~
+~
+{x
+{*Occasionally the soun{rd of met{Ral o{rn metal {*can be heard. A faint red
+light, most likely {rcaused b{Ry a smal{rl fire c{*oming from the north,
+enlightens the wall{rs. The w{Ralls are{r totally{* flat and black. The
+hallway continues nor{rth to th{Re so{rund, and{* also leads back south.
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3660
+D2
+~
+~
+0 0 3658
+X grall 3609 100~
+S
+#3660
+{rBelow{* a small {rstairway{x~
+~
+{x
+{*The light becomes bri{rghter a{Rnd the{r sound {*of hammering louder. The
+flat black walls wo{ruld ma{Rke everybody{r depre{*ssive. From time to time
+screaming can be he{rard fr{Rom the deepe{rr Cata{*combs. Many brave souls
+have lost their lives{r here a{Rnd man{ry will {*lose it here in the future. 
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3659
+D4
+~
+~
+0 0 3661
+S
+#3661
+{rAt the top{* of the {rstairway{x~
+~
+{x
+{8Immediately after th{re sta{Rirs stop, the hall{rway t{8akes a turn to the
+{8east.  It is now {rclea{Rr that the source of the {rlight{8 is a small fire
+{8somewhere around {rthe c{Rorner of the hallway.  T{rhe da{8ngerous stairway
+{8leads back into the {rdeepe{Rr Crypts of the Un{rdead.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3663
+D3
+~
+~
+65544 0 3662
+D5
+~
+~
+0 0 3660
+S
+#3662
+{RH{ri{*d{wd{re{Rn {RR{*o{ro{wm{x~
+~
+{x
+{*This chamber is apparently a secret room in these Crypts. The door is
+{wtotally invisible, unless the exact location is known.  In the center
+{rof the room stands a chest, locked. The chest is enormous and capable
+{Rof holding a gigantic treasure.   The dust everywhere shows that this
+{rroom has not been used for a long time.  The walls are decorated with
+{wred stripes and strange markings.  The symbols probably say something
+{*about the chamber or about the box, but their meaning remains unknown.
+{wThe only symbol that is also used by the elves is that of immortality.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+65544 0 3661
+S
+#3663
+{rSouth{* of the {rMetal smith{x~
+~
+{x
+{*The sound stopped{r, and {Rthe silence fills {rthe ha{*llway. The fire
+ahead is stil{rl flick{Rering, and the black wal{rls show{* absolutely no
+carvings or a{rny oth{Rer inscription that might {rhelp a{* lost traveler.
+North leads to th{re smal{Rl fire, west goes {rback t{*o the stairs.
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3664
+D3
+~
+~
+0 0 3661
+M 40 H 50
+S
+#3664
+{rBlacksmith{x~
+~
+{x
+{*The whole room is filled with all kinds of swords, lances, armor, and   
+{r  other tools.  In the center stands a big anvil, next to it a huge 
+{R   and incredibly hot fire and on the other site a large bath full 
+{r        of water. This blacksmith is famous under the Undead.        
+{*                 South leads back to the stairway.{x    
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3663
+S
+#3665
+{rSmall{* opening {rDown{x~
+~
+{x
+{*The hallway continues{r east and west. The {*smell of sulfur comes
+from a opening to t{rhe down. The gap is just{* big enough to crawl
+through. Screaming {rcan be heard to the east{*. West leads back to
+the intersection. The{r opening down leads {*to an unknown location.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3673
+D3
+~
+~
+0 0 3658
+D5
+~
+~
+0 0 3666
+S
+#3666
+{rBelow {*the small {ropening{x~
+~
+{x
+{wThis small cavern is even darker then the upper hallway.  The awful
+{*smell of sulfur penetrates everything.  The source seems to be south
+{gof here, deeper in the cavern.  A powerful aura can be felt there,
+{*that seems to come from an evil creature. The beast must be strong:
+{w{gthe ground is covered with half-eaten corpses, bones and flesh. 
+~
+0 1140858921 0 20
+0
+D2
+~
+~
+0 0 3667
+D4
+~
+~
+0 0 3665
+S
+#3667
+{rDeeper{* in the {rCavern{x~
+~
+{x
+{wThe terrible smell becomes stronger and stronger.  The corpses here
+{*are even more disgusting.  The evil aura fills the cavern with a scary
+{gatmosphere and a lot of determination is needed to keep moving.  The
+{*walls must have been smooth once, but currently they are damaged and
+{wthe floor is partially caved in.  The debris from the walls and floor
+{gis not always easy to pass.  The cavern takes a turn to the east here.
+~
+0 1140858921 0 20
+0
+D0
+~
+~
+0 0 3666
+D1
+~
+~
+0 0 3669
+S
+#3668
+{wT{*r{re{Ra{rs{Ru{*r{we {wR{ro{Ro{*m{x~
+~
+{x
+{wThis dark room is totally empty except for a large chest in the middle 
+{*of the room.  The chest is decorated with the symbols of the undead 
+{R{rand seems very strong.  A small switch has been attached against the 
+{*northern wall, and seems to operate some kind of system.  A enormous 
+{wstone hangs above the room, looking like it can fall down anytime now.{x
+~
+0 1073750057 0 18
+0
+D3
+~
+~
+0 0 3677
+S
+#3669
+{rLight{* to the {rSouth{x~
+~
+{x
+{wThe cavern continues to the south and west. A strange light can be 
+{*seen to the south, illuminating the damaged walls. The strong aura
+{gmakes thinking, walking and concentrating more difficult. The deep 
+{*darkness seems to fight a battle it can not win with the light here.
+~
+0 1140858921 0 20
+0
+D2
+~
+~
+0 0 3670
+D3
+~
+~
+0 0 3667
+X grall 3609 100~
+S
+#3670
+{rStrange Light{x~
+~
+{x
+{wHere is the source of the strange light. A small torch is burning,
+{*but with a unusual green glow. The flames do not move and almost 
+{gseem fake, but if one would touch the flames he or she would notice
+{*that the flames are not fake and burn with an incredible heat. The 
+{wcavern leads south to an unknown location, the source of the strong
+{gaura and also back north, to the hallway higher in the Undead Crypts.
+~
+0 1140858921 0 20
+0
+D0
+~
+~
+0 0 3669
+D2
+~
+~
+0 0 3671
+M 70 H 60
+S
+#3671
+{rClose{* to the {rEnd{x~
+~
+{x
+{wThe cavern here is illuminated by the torch to the north, but the
+{8chamber east of here is shrouded by an unnatural darkness. The amount
+{gof corpses in this part is even greater then in the beginning of the
+{8cavern. The aura almost makes it impossible to go east, even taking a 
+{wsmall step is easier said than done. The source must be there. It is 
+{gdifficult to imagine the creature or object that possess such power.{x
+~
+0 1140858921 0 20
+0
+D0
+~
+~
+0 0 3670
+D1
+~
+~
+0 0 3672
+M 20 H 40
+S
+#3672
+{rCircle{* of the {rAura{x~
+~
+{x
+{wFinally the cavern ends. The source of the strong aura is here,{x
+{*lying on the ground. It is hard to imagine that a little stone like{x
+{gthat gem can have such a power. However, the gem is not the reason {x
+{*of all those corpses and bones. There must be something else here,{x
+{wsomething that spreads the terrible smell of sulfur in this cavern.{x
+~
+0 1140858921 0 20
+0
+D3
+~
+~
+0 0 3671
+S
+#3673
+{rLight{* in the {rDarkness{x~
+~
+{x
+{*Here is finally a source of light. The glow of the burning torch 
+{renlightens the hallway and the bones of burned explorers confirm
+{rthe many rumors about this place. It is said that the emperor of 
+{*the undead is protected by many traps and deadly undead 'things'.
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3674
+D3
+~
+~
+0 0 3665
+X grall 3674 70~
+S
+#3674
+{rTurn{* in the {rHallway{x~
+~
+{x
+{*The hallway takes a quick turn and continues west and south. The 
+{rlight to the west is still visible. To the south the hallway seems
+{rto suddenly stop. No exits can be seen there, except for the way 
+{*back. Carvings on the wall: '{wDeath may be closer then expected.{*'
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3675
+D3
+~
+~
+0 0 3673
+S
+#3675
+{rHole {*in the {rFloor{x~
+~
+{x 
+{*The hallway stops and the only way to continue here is either by
+{rgoing back, or by entering the strange gap in the floor.  A small
+{*light shimmers around the corner to the north, and also below the 
+{rhole the flickering of flames can be seen.  The wall is inscribed 
+{*with a short advice for travelers: '{wDown lies what you deserve!{*'{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3674
+D5
+~
+~
+0 0 3676
+S
+#3676
+{rUnder{* the {rOpening{x~
+~
+{x 
+{wThe strange glow becomes brighter, the hallway darker. Screaming
+{yand yelling can be heard from deep in the catacombs. Luckily it is
+{*possible to reach the small opening in the ceiling. The walls are 
+{yas dark as the night, even with the flickering of flames that can 
+{wbe seen to the south. The smell of dead bodies is still present.
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3678
+D4
+~
+~
+0 0 3675
+S
+#3677
+{wG{ru{Ra{rr{wd {wR{*oo{wm{x~
+~
+{x
+{wThis is the room where the Guardian of the Chest waits for any{x
+{*intruders.  He has never been challenged so far, but it looks like{x
+{rthat has changed.  Remember that this Guard is not pretty, but very{x
+{*strong.  He will not let living beings pass.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3668
+D2
+~
+~
+776 0 3698
+S
+#3678
+{rAnother {*source of {rLight{x~
+~
+{x
+{wLight is a good thing to have in dark dungeons or catacombs, but
+{ysomehow this light can not give travelers any happiness, comfort or
+{*warmth.  The black walls absorb the light and the unnatural flames
+{yseem to have faces.  A strange feeling overwhelms you.  The hallway
+{wcontinues to the north and the east.  '{*May Darkness Guide Your Path{w'
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3676
+D1
+~
+~
+0 0 3679
+X grall 3654 60~
+S
+#3679
+{rTurn {*in the {rHall{x~
+~
+{x
+{wThe strange smell becomes stronger and a sudden heat fills the
+{yroom.  The center of these catacombs comes closer and closer.  The
+{*flames, that can be seen west of here, show their magical faces,
+{yscreaming and yelling.  The hallway makes a turn to the south, and
+{wsmall stair can be seen there, leading down.  '{*Die foolish mortals{w'
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3680
+D3
+~
+~
+0 0 3678
+S
+#3680
+{rStaircase {*leading {rdown{x~
+~
+{x
+{*The hallway itself stops, but a small staircase, leading down, can
+{ybe seen.  The readable part of the messages on the walls are still
+{*very unpleasant, the other part must be horrible. Written in blood,
+{ythese are some of the words found on the walls: '{wYou will soon find
+your ultimate destiny{*' and '{wYou will become more here then you have
+{wever been{y' and '{wThe only reason Light exists is to create Shadows{y'.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3679
+D5
+~
+~
+0 0 3681
+S
+#3681
+{rDeeper{* in the {rCrypts{x~
+~
+{x
+{*The halls here are clean, black and empty.  No messages or blood
+{wcover the walls, nor any dust.  The end of the catacombs seems to
+{*come closer and closer.  The heat coming from the east makes wearing
+{warmor almost unbearable.  At this moment, water is your only friend.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3682
+D4
+~
+~
+0 0 3680
+S
+#3682
+{rApproaching{* the {rEnd~
+~
+{x
+{*The heat, the screaming, the yelling, the smell.  The Crypts become
+{wmore threatening.  West leads back to the staircase, east leads deeper
+{*into the Crypts. For those with a sixth or seventh sense it is possible
+{wto feel the wickedness of the Lord of the Crypts himself here already.{x  
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3683
+D3
+~
+~
+0 0 3681
+S
+#3683
+{rCenter{* of the {rCrypts{x~
+~
+{x
+{*The hallway stops as it intersects with another hallway.  Even 
+{wthose without any special abilities in detecting sinfulness, can 
+{*feel a strong evil source somewhere north of here.  West leads 
+{wback out of here, and that way might be a smart decision.  South 
+{*leads to an unknown place, north obviously to something very Evil.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3688
+D2
+~
+~
+0 0 3684
+D3
+~
+~
+0 0 3682
+M 50 H 50
+S
+#3684
+{rSouth{* of the {rCenter{x~
+~
+{x
+{wThis hallway, that leads away from the center, is not as dark as
+{ythe rest of the Crypts.  A burning torch illuminates the hall and
+{wshows the smallest details of the walls.  East leads to am unknown 
+{yplace.  North would bring a traveler back to the absurd hot center.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3683
+D1
+~
+~
+0 0 3685
+X grall 3654 60~
+S
+#3685
+{rAway{* from the {rCenter{x~
+~
+{x
+{gThe smell and the heat slowly become less, luckily. This place seems
+{ysacred compared to the rest of the Crypts. The walls are still black,
+{gbut somehow the atmosphere here is much more peaceful and relaxing,
+{ythe floors are clean, not covered with blood, bones and rotting flesh.{x
+~
+0 1140858921 0 18
+0
+D3
+~
+~
+0 0 3684
+D5
+~
+~
+0 0 3686
+X grall 3609 100~
+S
+#3686
+{rSilence{x~
+~
+{x
+{gThe small gap in the ceiling is smooth and clean, and so is the room.
+{wThe light seems to come through the walls and the temperature is 
+{gcomfortable.  There is an exit south, but it is impossible to see
+{wwhat lies there.  This place does not belong here, it is too friendly.{x 
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3687
+D4
+~
+~
+0 0 3685
+M 50 H 50
+S
+#3687
+{rTrap!{x~
+~
+{x
+{*It is a trap!  This place is not sacred, nothing in these Crypts is.
+{rA strong enemy lives here, and the peaceful hallway is just to lure 
+{*his prey.  The corpses are all here, against the walls.  Only those 
+{rwho were lucky to find him away ever left this place, dead or alive.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3686
+S
+#3688
+{rPoint{* of no {rReturn{x~
+~
+{x
+{*The hallway continues north and south, but Evil can be felt down
+{where.  A small inscription is written here in the wall: 
+{x
+{g'Those who decide to return now, will find themselves trapped in 
+{g a dungeon without exits.  Only the bravest will be able to 
+{g fight their way out. May Light and Nature guide your path.' 
+{y                      - Eladamyr, Lord of Trees.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3689
+D2
+~
+~
+0 0 3683
+D5
+~
+~
+520 0 3694
+M 10 H 10
+X grall 3687 40~
+S
+#3689
+{rHallway{* to a {rCavern{x~
+~
+{x
+{yIt is less warm here, but the awful smell increases.  The small passage
+{wleads north, to a cavern and south back to the Crypts.  The gray walls
+{yare covered with dust and blood, and corpses lie here, rotting away on
+{wthe floor.  Rumors say a powerful lich lives in the Cave north of here.{x
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3688
+D3
+~
+~
+0 0 3690
+M 50 H 50
+S
+#3690
+{rLadder{* to a {rCavern{x~
+~
+{x
+{yA small ladder leads up to the cavern of the lich.  The smell becomes 
+{wmore intense and sickening.  It turns colder and colder and there is 
+{yhardly any light here.  The passage east leads back to the Crypts.
+{w       A small sign is posted here. '{yHouse of Protazur{w'{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3689
+D4
+~
+~
+0 0 3691
+X grall 3609 100~
+S
+#3691
+{rLadder{* to the {rCatacombs{x~
+~
+{x
+{yThe small ladder here leads back to the steaming Crypts.  The cavern is
+{wice cold and the smell is unbearable.  The gray walls show drawings 
+{yof various vampiric rituals.  Some are about religion and sacrificing,
+{wsome are about hunting.  None of these rituals is very pleasant.{x 
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+0 0 3692
+D5
+~
+~
+0 0 3690
+S
+#3692
+{rDeep{* in the {rCavern{x~
+~
+{x
+{yThe cavern narrows and the end seems near.  The ladder to the west
+{wis the last chance to escape.  The rumors about this place never 
+{yspoke of any survivors, so be prepared to fight your last fight.  
+{wNever underestimate a person who is already dead.  Keep that in mind.{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+0 0 3693
+D3
+~
+~
+0 0 3691
+M 50 H 50
+S
+#3693
+{rEnd{* of the {rCavern{x~
+~
+{x
+{yThe cavern suddenly ends.  This is the hideout of a powerful lich,
+{wnamed Protazur. The rumors about him are not very pleasant. Be ready 
+{yto suffer and die in his hands, weakened by his enormous fangs.{x
+~
+0 1140858921 0 18
+0
+D2
+~
+~
+0 0 3692
+S
+#3694
+{8The {RC{rrypt{8 of Mo{rrt{Rha{rza{8r{x~
+~
+{x
+{8This dark {RC{rrypt{8 is the home of {8Mo{rrt{Rha{rza{8r{8, {wL{8ord of the {RU{rndead{8.  The
+{8dungeon is almost totally empty and a large door seals the eastern
+{8exit.  It is too late to turn back, destiny awaits, and it looks like
+{8someone else is waiting too.  The {wG{8ods wish you good luck with this.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+776 0 3695
+D4
+~
+~
+520 0 3688
+S
+#3695
+{8The {RC{rrypt{8 of Mo{rrt{Rha{rza{8r{x~
+~
+{x
+{*Not many fools like you have made it this far, maybe you have been 
+underestimated by the Lord himself.  But do not worry, you will run
+out of luck soon enough.  Here is another chance to prove yourself in
+combat.  Remember, the {wG{*ods are on your side now, Mo{rrt{Rha{rza{*r is not.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+776 0 3696
+D3
+~
+~
+776 0 3694
+S
+#3696
+{8The {RC{rrypt{8 of Mo{rrt{Rha{rza{8r{x~
+~
+{x
+{*The black walls absorb the last light that reaches this place.  Maybe 
+you are not as stupid as you look.  The chance this was luck, is quite
+small, but if it was, then this will be your last fight. Fight well, 
+with the {wG{*ods on your side.  Mo{rrt{Rha{rza{*r will not let you go any further.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+776 0 3697
+D3
+~
+~
+776 0 3695
+S
+#3697
+{8The {RC{rrypt{8 of Mo{rrt{Rha{rza{8r{x~
+~
+{x
+{*The {RC{rrypts{* become darker and darker.  Things are getting confusing.
+Mo{rrt{Rha{rza{*r has never fought here, never someone got this far.  But have
+no fear, soon you will join those who already died here, he is not so
+easy to kill as you might think.  But you have the {wG{*ods on your side.{x
+~
+0 1140858921 0 18
+0
+D1
+~
+~
+776 0 3698
+D3
+~
+~
+776 0 3696
+S
+#3698
+{8The {RC{rrypt{8 of Mo{rrt{Rha{rza{8r{x~
+~
+{x
+{*This might be the last fight of Mo{rrt{Rha{rza{*r.  Show the world what you
+are capable of and destroy this evil being.  Good luck and may the
+{wG{*ods still be on your side.  Not many fools like you got this far,
+feel proud, but don't lose your head.  Mo{rrt{Rha{rza{*r might just eat it.{x  
+ 
+{*A strong guard can be seen through a small hole in the northern door,
+guarding the treasures of this {RC{rrypt{*.{x{x
+~
+0 1140858921 0 18
+0
+D0
+~
+~
+776 3679 3677
+D3
+~
+~
+776 0 3697
+S
+#3699
+Undead Run Storage Room~
+~
+{x
+                  {Y<<<{RImmortals Only{Y>>>{x
+~
+0 67141644 0 0
+0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 3661 3 1
+D 0 3662 1 1
+D 0 3677 2 2
+D 0 3688 5 1
+D 0 3694 1 1
+D 0 3694 4 1
+D 0 3695 1 1
+D 0 3695 3 1
+D 0 3696 1 1
+D 0 3696 3 1
+D 0 3697 1 1
+D 0 3697 3 1
+D 0 3698 0 2
+D 0 3698 3 1
+O 0 3654 0 3654
+M 0 3660 1 3660 1
+O 0 3681 0 3660
+O 0 3680 0 3661
+O 0 3657 0 3662
+O 0 3672 0 3664
+O 0 3671 0 3664
+O 0 3655 0 3664
+O 0 3673 0 3670
+O 0 3674 0 3672
+O 0 3654 0 3673
+O 0 3654 0 3678
+O 0 3680 0 3680
+O 0 3681 0 3681
+O 0 3654 0 3684
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#3601
+Utulrund creates portal~
+mob echo $I {*utters an {ba{Br{Cca{Bn{be {*incantation in panic.{x
+mob echo {*A {Rr{red {Re{rdged {*portal apears in the room through which you see the surprised face of Mo{rrt{Rha{rza{*r.{x
+mob oload 3601
+mob echo $I {*attempts to jump through the portal and escape.{x
+mob echoaround $n $n{*'s attack takes $I from behind dropping him to his knees.{x
+mob echoat $n {*Your attack takes $I {*from behind dropping him to his knees.{x
+say I have failed you master!
+mob echo $I {*falls over {Rdead {*with a groan.{x
+mob at 3694 mob purge impenetrableseal
+~
+#3602
+Protazur death prog~
+mob echo $I {*utters an {ba{Br{Cca{Bn{be {*incantation in panic.{x
+mob echo {*A {Rr{red {Re{rdged {*portal apears in the room through which you see the rageful face of Mo{rrt{Rha{rza{*r.{x
+mob oload 3602
+mob echo $I {*attempts to jump through the portal.{x
+mob echoaround $n $n{*'s attack takes the lich's leg off at the knee, dropping him to the floor.{x
+mob echoat $n {*Your attack takes the lich's leg off at the knee, dropping him to the floor.{x
+say Forgive me master!
+mob echo $I {*falls over and {Rdisintegrates {*into a pile of dust.{x
+mob at 3695 mob purge impenetrableseal
+~
+#3603
+Aramirak death load portal~
+mob echo $I {*pulls a small wand out of his pocket and utters a hasty command.{x
+mob echo {*A {Rr{red {Re{rdged {*portal apears in the room, through which you see the furious face of Mo{rrt{Rha{rza{*r.{x
+mob oload 3603
+mob echo $I {*attempts to jump through the portal.{x
+mob echoaround $n $n{*'s attack rips open the throat of the demonic smith.{x
+mob echoat $n {*Your attack rips open the throat of the demonic smith.{x
+mob echo $I {*falls over {Rdead{*, gurgling in a pool of his own blood.{x
+mob at 3696 mob purge impenetrableseal
+~
+#3604
+Bakamural death load portal~
+mob echo $I {*utters an incantation in his {Ri{rn{Rf{re{Rr{rn{Ra{rl {*language.{x
+mob echo {*A {Rr{red {Re{rdged {*portal apears in the room through which you see the twisted face of Mo{rrt{Rha{rza{*r.{x
+mob oload 3604
+mob echo $I {*attempts to escape through the portal.{x
+mob echoaround $n $n{*'s final attack splits the demon's skull.{x
+mob echoat $n {*Your final attack splits the demon's skull.{x
+say Master!  They are too strong!
+mob echo $I {*is sucked back to the {RH{rells {*in a blast of sulfurous smoke.{x
+mob at 3697 mob purge impenetrableseal
+~
+#3605
+Morthazar called damage prog~
+if rand 85
+ mob remember $r
+ mob echo $I utters the word 'razahtromar'.
+ mob echoaround $q $I sucks the very essence right out of $q!
+ mob echoat $q $I sucks the very essence right out of you!
+ mob damage $q 1000000 1000001 lethal show drain
+ mob heal $i hp 2000
+ mob forget
+else
+ if rand 80
+  mob echo $I utters an incantation in a forgotten language.
+  mob damage all 8000 12000 lethal show flame
+ else
+  if rand 70
+   mob echo $I pulls a scroll from his robes and recites it.
+   mob echo $I looks more energized as his wounds begin to close.
+   mob cast heal $i
+   mob cast heal $i
+   mob cast heal $i
+   mob cast heal $i
+  else
+   if rand 60
+    mob remember $r
+    mob echo $I barks a command and $q's magics begin to fade.
+    mob cast 'dispel magic' $q
+    mob forget
+   else
+    mob remember $r
+    mob echo $I raises one hand and points at $q.
+    mob cast meteor $q
+    mob forget
+   endif
+  endif
+ endif
+endif
+~
+#3606
+{CCrypts of the Undead {MCompleted{x~
+if mobhere 3694
+else
+mob echo {*Before the chest can even be fully opened, a dazzling {Ygo{Wld{Yen {ypoint of {Yli{Wg{Yht{* shoots out from inside.{x
+mob echo {*The {Ysp{Wa{Yrk{* zips about the room for a moment before bursting out through the ceiling with great force, leaving behind a small {Ro{rpening{*.{x
+mob oload 3609 1 room
+mob at 3000 mob mload 2835
+mob gecho {wA warm breeze sweeps across the realms as the {wL{*ord of the {RU{rndead {wis defeated and the {Ydi{Wvi{Yne {Ysp{Wa{Yrk{w set free.{x
+mob purge self
+endif
+~
+#3607
+{CCrypts of the Undead {RClosed{x~
+say Closing Deeper Crypts of the Undead...
+mob goto 3652
+if mobhere 3652
+  mob purge Dethecus
+endif
+if objhere 3652
+  mob purge crackportal
+endif
+mob goto 3653
+if mobhere 3653
+  mob purge brokenangel
+endif
+mob goto 3658
+if mobhere 3698
+  mob purge terrachus
+endif
+mob goto 3687
+if mobhere 3687
+  mob purge utalrund
+endif
+if objhere 3601
+  mob purge portalundeadrun
+endif
+mob goto 3693
+if mobhere 3693
+  mob purge protazur
+endif
+if objhere 3602
+  mob purge portalundeadrun
+endif
+mob goto 3664
+if mobhere 3664
+  mob purge aramirak
+endif
+if objhere 3603
+  mob purge portalundeadrun
+endif
+mob goto 3672
+if mobhere 3672
+  mob purge bakamural
+endif
+if objhere 3604
+  mob purge portalundeadrun
+endif
+mob goto 3662
+if mobhere 3662
+  mob purge trap
+endif
+mob goto 3688
+mob purge
+mob goto 3694
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3695
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3696
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3697
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3698
+if mobhere 3694
+  mob purge morthazar
+endif
+mob goto 3677
+if mobhere 3677
+  mob purge chestguardian
+endif
+if objhere 3695
+  mob purge enormous
+endif
+if objhere 3683
+  mob purge key
+endif
+mob goto 3668
+if mobhere 3668
+  mob purge operator
+endif
+if mobhere 3601
+  mob purge undeadcompleter
+endif
+if objhere 3684
+  mob purge switchcontainer 
+endif
+if objhere 3682
+  mob purge undeadchest
+endif
+if objhere 3609
+  mob purge openingportal
+endif
+mob goto 3699
+mob purge
+mob claimrun 8 {Y({RClosed{Y){x
+mob gecho Deeper Crypts of the Undead Closed!
+mob goto 3000
+set @91 0
+~
+#3608
+{CCrypts of the Undead {GOpener{x~
+say Opening Crypts of the Undead...
+mob gecho {wA {Ydi{Wvi{Yne {Ysp{Wa{Yrk{w has been locked away by the {wL{*ord of the {RU{rndead{w to be twisted for his {Rda{rr{*k pl{ra{Rns{w.{x
+mob claimrun 8 {Y({GOpened{Y){x
+mob goto 3652
+if mobhere 3652
+  mob purge dethecus
+endif
+mob mload 3652
+mob goto 3000
+~
+#3609
+Rprog in 3685,90,59,69: Guard trap~
+if mobhere cryptguard
+ break
+else
+ if rand 75
+  mob echo {8Two {RC{rrypt {8Guardians step into your path and {Ra{rt{Rt{ra{Rc{rk{8!{x
+  mob mload 3655
+  mob force guard kill $r
+  mob mload 3655
+  mob force guard kill $r
+ else
+  mob echo {8A {RC{rrypt {8Guardian steps into your path and {Ra{rt{Rt{ra{Rc{rk{Rs{8!{x
+  mob mload 3655
+  mob force guard kill $r
+ endif
+endif
+~
+#3610
+Terrachus death gauntlet drop~
+mob oload 3610
+~
+#3611
+{CCrypts of the Undead {rPurged{x~
+say Purging Deeper Crypts of the Undead so it will close and not re-open...
+mob goto 3652
+if mobhere 3652
+  mob purge Dethecus
+endif
+if objhere 3652
+  mob purge crackportal
+endif
+mob goto 3653
+if mobhere 3653
+  mob purge brokenangel
+endif
+mob goto 3658
+if mobhere 3698
+  mob purge terrachus
+endif
+mob goto 3687
+if mobhere 3687
+  mob purge utalrund
+endif
+if objhere 3601
+  mob purge portalundeadrun
+endif
+mob goto 3693
+if mobhere 3693
+  mob purge protazur
+endif
+if objhere 3602
+  mob purge portalundeadrun
+endif
+mob goto 3664
+if mobhere 3664
+  mob purge aramirak
+endif
+if objhere 3603
+  mob purge portalundeadrun
+endif
+mob goto 3672
+if mobhere 3672
+  mob purge bakamural
+endif
+if objhere 3604
+  mob purge portalundeadrun
+endif
+mob goto 3662
+if mobhere 3662
+  mob purge trap
+endif
+mob goto 3688
+if objhere 3654 
+  mob purge magiccircle
+endif
+mob goto 3694
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3695
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3696
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3697
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3698
+if mobhere 3694
+  mob purge morthazar
+endif
+mob goto 3677
+if mobhere 3677
+  mob purge chestguardian
+endif
+if objhere 3695
+  mob purge enormous
+endif
+if objhere 3683
+  mob purge key
+endif
+mob goto 3668
+if mobhere 3668
+  mob purge operator
+endif
+if mobhere 3601
+  mob purge undeadcompleter
+endif
+if objhere 3684
+  mob purge switchcontainer 
+endif
+if objhere 3682
+  mob purge undeadchest
+endif
+if objhere 3609
+  mob purge openingportal
+endif
+mob goto 3699
+mob purge
+mob goto 3000
+mob claimrun 8 {Y({rPurged{Y){x
+say Deeper Crypts of the Undead is now Purged!
+set @91 3
+~
+#3612
+Impenetrable seal blocking exall~
+mob echoat $n Passage through the doorway is completely blocked by the seal.
+mob echoat $n Alas, you cannot go that way.
+~
+#3613
+{CCrypts of the Undead {BCleanup{x~
+if valueof @91 2
+  mob claimrun 8 {Y({CComplete{Y){x
+  mob Gecho Crypts of the Undead Complete!
+  mob goto 3652
+  if objhere 3652
+   mob purge crackportal
+  endif
+  mob purge self
+  break
+endif
+mob goto 3668
+if players >= 1
+  mob zecho {*A {Yl{yin{wge{yri{Yng p{yre{wse{ync{Ye{* whispers, '{mYour task is done, now leave this foul place to rot beneath the earth.{*'{x
+  mob goto 3000
+  say Someone is still in the Crypts of the Undead.
+  break
+endif
+mob goto 3667
+if players >= 1
+  mob zecho {*A {Yl{yin{wge{yri{Yng p{yre{wse{ync{Ye{* whispers, '{mYour task is done, now leave this foul place to rot beneath the earth.{*'{x
+  mob goto 3000
+  say Someone is still in the Crypts of the Undead.
+  break
+endif
+mob goto 3698
+if players >= 1
+  mob zecho {*A {Yl{yin{wge{yri{Yng p{yre{wse{ync{Ye{* whispers, '{mYour task is done, now leave this foul place to rot beneath the earth.{*'{x
+  mob goto 3000
+  say Someone is still in the Crypts of the Undead.
+  break
+endif
+mob goto 3000
+set @91 2
+~
+#3614
+{CCrypts of the Undead {*Reset{x~
+say Resetting the Deeper Crypts of the Undead...
+say Bringing Run into a Closed State...
+mob goto 3652
+if mobhere 3652
+  mob purge Dethecus
+endif
+if objhere 3652
+  mob purge crackportal
+endif
+mob goto 3653
+if mobhere 3653
+  mob purge brokenangel
+endif
+mob goto 3658
+if mobhere 3698
+  mob purge terrachus
+endif
+mob goto 3687
+if mobhere 3687
+  mob purge utalrund
+endif
+if objhere 3601
+  mob purge portalundeadrun
+endif
+mob goto 3693
+if mobhere 3693
+  mob purge protazur
+endif
+if objhere 3602
+  mob purge portalundeadrun
+endif
+mob goto 3664
+if mobhere 3664
+  mob purge aramirak
+endif
+if objhere 3603
+  mob purge portalundeadrun
+endif
+mob goto 3672
+if mobhere 3672
+  mob purge bakamural
+endif
+if objhere 3604
+  mob purge portalundeadrun
+endif
+mob goto 3662
+if mobhere 3662
+  mob purge trap
+endif
+mob goto 3688
+mob purge
+mob goto 3694
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3695
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3696
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3697
+if mobhere 3694
+  mob purge morthazar
+endif
+if mobhere 3602
+  mob purge impenetrableseal
+endif
+mob goto 3698
+if mobhere 3694
+  mob purge morthazar
+endif
+mob goto 3677
+if mobhere 3677
+  mob purge chestguardian
+endif
+if objhere 3695
+  mob purge enormous
+endif
+if objhere 3683
+  mob purge key
+endif
+mob goto 3668
+if mobhere 3668
+  mob purge operator
+endif
+if mobhere 3601
+  mob purge undeadcompleter
+endif
+if objhere 3684
+  mob purge switchcontainer 
+endif
+if objhere 3682
+  mob purge undeadchest
+endif
+if objhere 3609
+  mob purge openingportal
+endif
+mob goto 3699
+mob purge
+say Run now in its Closed State!
+say Reopening the Run...
+mob goto 3652
+mob mload 3652
+mob goto 3000
+mob gecho A {Ydi{Wvi{Yne sp{Wa{Yrk{w has been locked away by the L{8ord of the {RU{rndead{w to be twisted for his {Rda{rr{8k pl{ra{Rns{w.{x
+mob claimrun 8 {Y({8Reset{Y){x
+set @91 1
+~
+#3652
+{CCrypts of the Undead {YClaimed{x~
+mob echo  {*The room starts to shake as a large crack appears in the floor, growing larger and larger!{x
+mob oload 3652 1 room
+mob at 3653 mob mload 3653
+mob at 3658 mob mload 3698
+mob at 3688 mob mload 3654
+mob at 3677 mob mload 3677
+mob goto 3694
+mob mload 3694
+mob goto 3668
+mob purge
+mob mload 3668
+mob mload 3601
+mob oload 3684 1 room
+mob oload 3682 1 room
+mob goto 3652
+mob oload 3669
+mob gecho {C$n {Wpasses the {CC{*heckpoin{Ct{W and claims the {wC{*rypts of the {RU{rndead{W run for the group.{x
+mob echo {M          <{Y<{M<{Y<{M<Ownership Checkpoint{Y>{M>{Y>{M>{Y>{x
+mob echo {R(({CThe Immortals now recongnize {G$n{C as the Run Owner{R)){x
+mob claimrun 8 $n
+~
+#3653
+Angel grall~
+bow $n
+say I came here to free the {Ydi{Wvi{Yne {Ysp{Wa{Yrk{m but I'm afraid I wasn't strong enough.  Now, my wing is broken and I can't even leave.{x
+sniff
+say Did you happen to find a {CP{cotion{x of {YA{yngelic {MH{mealing?{x
+say If so, please show mercy.  I could use the potion.
+~
+#3654
+Fire trap~
+mob echo {*Suddenly, huge {Rf{yl{Ya{rm{ye{Rs{* strike at you from a hidden trap in the wall!{x
+mob damage all 3000 4000 lethal flame
+mob echo {*The {Rf{yl{Ya{rm{ye{Rs{* lick around your body, burning you!{x
+~
+#3655
+Angel give potion angelic healing~
+bow $n
+say Oh, thank you!
+quaff 'angelic healing'
+mob echo $I stands up, and her left wing slowly heals.
+beam $n
+say I will not forget what you have done for me.  Please, continue on where I have failed.  You will need this...
+mob oload 3660
+give stone $n
+say There is a {Rm{ra{*g{ri{Rc c{ri{*rc{rl{Re{m blocking entry to the {wL{*ord {mof these {RU{rndead{m.  Drop that stone on the floor in the midst of the circle is to dispel it.{x
+mob echo {x
+say Perhaps this can help you, too.
+mob oload 3653
+give pot $n
+if rand 82
+  mob oload 3658
+  mob goto 3662
+  if objhere 3657
+  else
+   mob oload 3657 1 room
+  endif
+  unlock chest
+  open chest
+  mob oload 3659
+  put hammer chest
+  close chest
+  lock chest
+  mob mload 3662
+  mob goto 3653
+  mob echo {x
+  say Lastly, I came across this.  Maybe you can find a use for it.
+  give key $n
+  drop key
+else
+endif
+mob echo {x
+mob echo $I bows a final time and flies away, right through the ceiling.
+mob purge self
+~
+#3656
+Magic circle blocking exall~
+mob echoat $n {*The {Rm{ra{*g{ri{Rc c{ri{*rc{rl{Re{* upon the floor prevents you from moving into the chamber below.{x
+mob echoat $n Alas, you cannot go that way.
+~
+#3657
+Dethecus grall transfer lowbies~
+if level $n < 96
+peer $n
+say Go away, $n!
+mob echo $I {*utters the words '{wsofuliurz{*'{x
+mob echoaround $n {*$n{* disappears in a dark cloud.{x
+mob echoat $n {*A dark cloud forms around you.{x
+mob transfer $n 36646
+mob force $n look
+endif
+~
+#3658
+Magic circle act drop stone~
+mob echo The {yh{Yol{Wy st{Yon{ye{x hits the floor in the middle of the {Rm{ra{*g{ri{Rc c{ri{*rc{rl{Re{x and the room is immediately flooded with a {Wbrilliant light{x and high pitched whine.
+mob echo When the light and sound fade the {ys{yt{Wo{Yn{ye{x and {Rc{ri{*rc{rl{Re{x have both disappeared.
+set @0 1
+mob purge 'holy stone'
+mob purge self
+~
+#3659
+Morthazar called desperation damage prog~
+if affected $i blind
+  mob echo $I yells '{rWhere are you???  I will KILL YOU!!!!{x' 
+  mob echo $I throws massive jets of searing plasma in all directions.{x
+  mob damage all 25000 40000 lethal show flame
+else
+ if rand 80
+  mob remember $r
+  mob echoat $q $I points at YOU and screams out 'razahtromar'!
+  mob echoaround $q $I points at $q and screams out 'razahtromar'!
+  mob echoaround $q $I sucks the very essence right out of $q!
+  mob echoat $q $I sucks the very essence right out of you!
+  mob damage $q 1000000 1000001 lethal show drain
+  mob forget
+ else
+  if rand 75
+   mob echo $I yells '{rYou will burn!  Burn!!!{x'
+   mob echo $I shouts an incantation in a forgotten language.
+   mob damage all 10000 15000 lethal show flame
+  else
+   if rand 70
+    mob echo $I jerks a scroll from his robes and hastily recites it.
+    mob echo $I looks more energized as his wounds begin to close.
+    mob cast heal $i
+    mob cast heal $i
+    mob cast heal $i
+    mob cast heal $i
+    mob cast heal $i
+    mob cast heal $i
+   else
+    if rand 55
+     mob remember $r
+     mob echoat $q $I turns to you with a frenzied sneer.
+     mob echoaround $q $I turns to $q with a frenzied sneer.
+     mob echo $I yells '{rYou can never defeat me!!!{x'
+     mob cast coldfire $q
+     if rand 25
+       mob cast coldfire $q
+     else
+     endif
+     if rand 50
+       mob cast coldfire $q
+     else
+     endif
+     if rand 80
+       mob cast coldfire $q
+     else
+     endif
+     mob forget
+    else
+     mob echo $I yells '{rYou all deserve to die, and I hope you burn in the Hells!{x'
+     mob cast meteor $r
+     if rand 25
+       mob cast meteor $r
+     else
+     endif
+     if rand 50
+       mob cast meteor $r
+     else
+     endif
+     if rand 80
+       mob cast meteor $r
+     else
+     endif
+    endif
+   endif
+  endif
+ endif
+endif
+~
+#3660
+Stairs exall falling chance~
+if rand 40
+  mob transfer $n 3661
+  mob echo $n leaves {Yup{x.
+else
+  mob echoat $n {*You are about to take the last step, you are almost there...{x
+  mob echoaround $n {*$n is about to take the last step, $e is almost there...{x
+  mob echoat $n {RYou .... ahhh ... fall down!{x
+  mob echoaround $n {R$n fails and falls down!{x
+  mob echoat $n {RYou slam against the ground!{x
+  mob echoaround $n {R$n slams against the ground!{x
+  mob damage $n 7000 9000 lethal
+endif
+~
+#3661
+Terrachus exall blocking~
+say You're not getting past me!
+cackle
+~
+#3662
+Hammer chest trap damage prog~
+mob echoat $n {RA trap sets off as you unlock the chest!{x
+mob echoaround $n {RA trap sets off as $n unlocks the chest!{x
+mob echo {*A {Bb{wo{Cl{wt{* of arcane energy shoots through the room...{x
+mob force $r scream
+mob damage all 22000 30000 lethal magic
+if rand 40
+  mob echo {*...the {Bb{wo{Cl{wt{* returns...{x
+  mob force $r scream
+  mob damage all 10000 12000 lethal magic
+    if rand 70
+      mob echo {*...and again...{x
+      mob force $r scream
+      mob damage all 6000 10000 lethal magic
+    else
+  else
+endif
+endif
+mob echo {*...before dissipating with a sizzle!{x
+mob purge self
+~
+#3664
+Smith grall notice hammer~
+if carries $n 3659
+mob echo $I {*turns in anger and is about to attack before noticing something.{x
+say That... that hammer. You have the {wH{*ammer of {wE{*ternal {wD{*oom{m, don't you?{x
+say If you give it to me, I might give you something nice for it.
+else
+kill $n
+endif
+~
+#3665
+Smith give hammer~
+mob echoat $n $I{* looks at the {wH{*ammer you gave him.{x
+mob echoaround $n $I{* looks at the {wH{*ammer $n gave him.{x
+think
+say Watch this.
+mob echo $I {*raises the {wH{*ammer and slams it against the ground.{x
+mob gecho {RK{rA{wB{*A{wA{rA{RN{rN{wN{*G{wG{rG{R!{x
+mob echo $I sneers gleefully.
+say Very good, very good. This is the one. Hmm, I might even have a {Mreward{m for you.{x
+~
+#3666
+Smith speech reward give lance~
+if carries $i 3659
+nod
+say Oh yes... a reward.
+think
+say Perhaps you will like this...
+mob oload 3670
+give lance $n
+say ...if you're strong enough to keep it!
+cackle
+mob junk hammer
+kill $n
+else
+say I got nothin' for you.
+endif
+~
+#3668
+Switch operation act prog~
+if objexists undeadswitchtoken
+  mob echo {*Nothing happens.{x
+else
+  mob echo {*A large stone above you starts moving . . .{x
+  mob zecho {*An enormous rumbling sound can be heard throughout the Crypts.{x
+  mob echo {*The rolling stone leaves the room through a large hole in the western wall.{x
+  mob goto 3677
+  mob echo {*A large stone falls down from above, destroying everything in its way.{x
+  mob zecho {wBAAAA{*AAAAA{rAANNN{RNNNNN{rNNNNN{*GGGGG{wGGGGG!{x
+  mob damage all 50000 70000 lethal
+  mob oload 3695
+  if mobhere 3677
+    mob asound You hear the death cry of {*the {wG{*uardian of the {rC{Rh{re{Rs{rt{* of the {wU{rn{Rd{re{wa{*d{x.
+    mob echo {*The {WG{*uarian is crushed utterly.{x
+    mob echo {*A key squirts out from his pulverized remains to rest in a pool of gore on the floor.{x
+    mob purge chestguardian
+    mob oload 3683 1 room
+  else
+  endif
+  mob goto 3668
+  mob at 3699 mob oload 3688 1 room
+endif
+~
+#3670
+Morthazar blocking exall~
+mob echoat $n $I {*blocks the way, not allowing you through.{x
+~
+#3671
+{*-unused-{x~
+~
+#3674
+Flame trap~
+mob echo {8Suddenly, enormous {Rf{yl{Ya{rm{ye{Rs{8 strike at you from a gap in the wall!{x
+mob damage all 4000 5000 lethal flame
+mob echo {8The {Rf{yl{Ya{rm{ye{Rs{8 are licking around your body, torturing you!{x
+~
+#3677
+Guardian grall lic/heuc pass~
+if class $n lich
+or class $n vampire
+or race $n heucuva
+  bow $n
+  say Greetings, fellow undead. Welcome to the Vault of the Crypt.
+  say Feel free to look around.
+else
+if shielded $n imp_invis
+  mob echo $I seems to notice something is amiss.
+  mob echoat $n $I sweeps his arm in a broad arc, knocking into you.
+  mob echoaround $n $I sweeps his arm in a broad arc, knocking into $n.
+  say Oh, I'm wise to you sneaky wizards and your tricks now!
+  mob echoa &I attacks!
+  mob kill $n
+  break
+else
+  mob echoat $n $I looks at you.
+  mob echoaround $n $I looks at $n.
+  say Hold it right there!
+  mob echoat $n $I runs toward you and attacks.
+  mob echoaround $n $I runs toward $n and attacks.
+  mob kill $n
+  break
+endif
+endif
+~
+#3678
+Guardian exall trans lic/heuc~
+if class $n lich
+or class $n vampire
+or race $n heucuva
+  mob echoat $n $I stands aside to allow you to pass.
+  mob echoaround $n $I stands aside to allow $n to pass.
+  mob at 3668 mob echo $n has arrived.
+  mob transfer $n 3668
+  mob echo $n leaves {Meast{x.
+else
+  say Where do you think you are going??
+  mob echoat $n $I {*grabs you and drags you back to the center of the room.{x
+  mob echoat $n $I {*slaps you, VERY HARD!{x
+  mob echoaround $n $I {*grabs $n and drags $m back to the center of the room.{x
+  mob echoaround $n $I {*slaps $n, VERY HARD!{x
+  mob damage $n 10000 50000 lethal show slap
+  mob kill $n
+endif
+~
+#3679
+Guardian death load key~
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+mob oload 3683
+~
+#3682
+{*-unused-{x~
+~
+#3683
+unused part of old runpurger~
+if carries $i G2
+else
+mob at 3000 mob mload 2828
+mob oload 3662
+endif
+~
+#3684
+{*-unused-{x~
+~
+#3685
+Morthazar death prog~
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+cramp
+mob echo $I {8drops to the ground, as the final blows are dealt.{x
+mob echo A ray of {Ys{yun{Yli{ygh{Yt{8 comes forth out of his body as he screams in agony!{x
+mob zecho {8RRR{rROO{ROOOOOOOOOAA{rAAAR{8RRR!!!{x
+mob echo The Master of the {RU{rndead is beaten!{x
+mob goto 3668
+mob oload 3683
+unlock chest
+open chest
+get all chest
+mob junk all
+mob oload 3683
+mob oload 3656
+mob oload 3699
+if rand 50
+ mob oload 3605
+else
+ mob oload 3675
+endif
+if rand 50
+ mob oload 3608
+else
+ mob oload 3676
+endif
+if rand 50
+ mob oload 3607
+else
+ mob oload 3677
+endif
+if rand 50
+ mob oload 3606
+else
+ mob oload 3678
+endif
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+unlock chest
+open chest
+put 1. chest
+put 1. chest
+put 1. chest
+put 1. chest
+put 1. chest
+put 1. chest
+close chest
+lock chest
+mob junk key
+if rand 86
+ mob oload 3694
+endif
+mob goto 3698
+mob oload 3686
+mob oload 3679
+~
+#3686
+Morthazar fight switch rooms/call damage~
+if room $i == 3694
+and hpcnt $i <= 80
+and hpcnt $i >= 70
+  mob call 3695
+  break
+else
+endif
+if room $i == 3695
+and hpcnt $i <= 60
+and hpcnt $i >= 50
+  mob call 3696
+  break
+else
+endif
+if room $i == 3696
+and hpcnt $i <= 40
+and hpcnt $i >= 30
+  mob call 3697
+  break
+else
+endif
+if room $i == 3697
+and hpcnt $i <= 20
+and hpcnt $i >= 10
+  mob call 3698
+  break
+else
+endif
+if rand 60
+  if room $i == 3698
+    mob call 3659
+  else
+    mob call 3605
+  endif
+else
+endif
+~
+#3687
+Rprog in 3688: dispel trap~
+mob echoat $n {rYou set off a magical trap!{x
+mob echoat $n {*You feel a dispelling aura wash over you.{x
+mob echoaround $n {r$n sets off a magical trap!{x
+mob echoaround $n {*A dispelling aura washes over $m.{x
+mob cast 'dispel magic' $n
+~
+#3688
+Morthazar grall~
+if room $i == 3694
+and valueof @0 1
+  say {*Who dares to enter my Unholy Crypt?{x
+  say {*No one leaves here alive!{x
+  mob echo $I {Wutters '{*mortesmagnus{W'{x
+  mob echo $I {*draws upon the powers of {RP{rure {wE{*vil to drain your life!{x
+  mob damage all 8000 10000 lethal show drain
+  set @0 2
+  mob kill $n
+else
+endif
+if room $i == 3695
+and valueof @0 2
+  say {*You have returned?{x
+  say {*This time you will die for sure!{x
+  mob echo $I utters '{*mortesmagnus{W'{x
+  mob echo $I {*draws upon the powers of {RP{rure {wE{*vil to drain your life!{x
+  mob damage all 8500 10500 lethal show drain
+  set @0 3
+  kill $n
+else
+endif
+if room $i == 3696
+and valueof @0 3
+  say {*You dont give up, do you?{x
+  mob echo $I utters '{*mortesmagnus{W'{x
+  mob echo $I {*draws upon the powers of {RP{rure {wE{*vil to drain your life!{x
+  mob damage all 9000 11000 lethal show drain
+  set @0 4
+  kill $n
+else
+endif
+if room $i == 3697
+and valueof @0 4
+  say {*Curse you! How do you keep finding a way back!?{x
+  mob echo $I utters '{*mortesmagnus{W'{x
+  mob echo $I {*draws upon the powers of {RP{rure {wE{*vil to drain your life!{x
+  mob damage all 9500 11500 lethal show drain
+  set @0 5
+  mob cast creep $n
+  mob kill $n
+else
+endif
+if room $i == 3698
+and valueof @0 5
+  say {*This is it!  You will NEVER leave here alive!{x
+  grin
+  mob echo $I utters '{*mortesnecromansus{W'{x
+  mob echo $I {*calls upon the powers of {RP{rure {wE{*vil and summons in his De{wa{*th Kni{wgh{*ts!{x
+  mob mload 3690
+  mob mload 3690
+  mob mload 3690
+  mob echo {*Three Death Knights appear, awaiting $I's command.{x
+  say {*Death Knights... ATTACK!{x
+  mob echo {*The Death Knights leap forward eagerly!{x
+  mob vforce 3690 kill $r
+  set @0 0
+else
+endif
+mob kill $n
+~
+#3689
+{*-unused-{x~
+~
+#3690
+{*-unused-{x~
+~
+#3691
+{*-unused-{x~
+~
+#3692
+{*-unused-{x~
+~
+#3693
+{*-unused-{x~
+~
+#3694
+{*-unused-{x~
+~
+#3695
+Morthazar called 1st flee~
+say {*No! you will not enter my lair!{x
+mob echo $I opens the door.
+mob echo $I {Yflees{w through the door and closes it!{x
+mob echo You hear $I speak a quick incantation and an impenetrable seal forms across the door.
+mob mload 3602
+mob echo $I {Rscreams '{rYou will never find a way through!{R'{x
+mob at 3687 mob mload 3687  /*Utalrund*/
+mob goto 3695
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+~
+#3696
+Morthazar called 2nd flee~
+say {*Get the hell out of here!{x
+mob echo $I opens the door.
+mob echo $I {Yflees{w through the door and closes it!{x
+mob echo You hear $I speak a quick incantation and an impenetrable seal forms across the door.
+mob mload 3602
+mob echo $I {Rscreams '{rThis time you won't find a way through!{R'{x
+mob at 3693 mob mload 3693  /*Protazur*/
+mob goto 3696
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+~
+#3697
+Morthazar called 3rd flee~
+say {*No way you will get in!{x
+mob echo $I opens the door.
+mob echo $I {Yflees{w through the door and closes it!{x
+mob echo You hear $I speak a quick incantation and an impenetrable seal forms across the door.
+mob mload 3602
+mob echo $I {Rscreams '{rWhy won't you just {RDIE!{R'{x
+mob at 3664 mob mload 3664  /*Aramirak*/
+mob got 3697
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+~
+#3698
+Morthazar called 4th flee~
+say {*Never!  Never!!!  NEVER!!!!!{x
+mob echo $I opens the door.
+mob echo $I {Yflees{w through the door and closes it!{x
+mob echo You hear $I speak a quick incantation and an impenetrable seal forms across the door.
+mob mload 3602
+mob echo $I {Rscreams '{rRot in the Nine Hells!{R'{x
+mob at 3672 mob mload 3672  /*Bakamural*/
+mob goto 3698
+mob cast 'cure blind' self
+mob cast 'cure blind' self
+~
+#3699
+{*-unused-{x~
+~
+#0
+
+#$

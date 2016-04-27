@@ -1,0 +1,1406 @@
+#AREADATA
+Name Baldur's Gate Umberlee Temple~
+Builders None~
+VNUMs 55950 55979
+Credits [ Public ] BG:Temple of Umberlee~
+Security 10
+Recall 55947
+Faction ~
+AQpoints 0
+Realm 1
+End
+
+
+
+#MOBILES
+#55950
+umberlee priestess guard~
+{ga {bP{Br{Di{rest{De{Bs{bs {gof {bU{Bm{Db{rer{Dl{Be{be{x~
+{gA {bP{Br{Di{rest{De{Bs{bs {gof {bU{Bm{Db{rer{Dl{Be{be {gstands testing the faithful{x
+~
+{cThe priestess is a tall muscular woman, showing great strength for
+a woman.  She is wearing scalemail armor that has been intricately
+moulded to look like crashing waves.  She bears the symbol of
+Umberlee, the Bitch Queen, godess of the oceans, waves and sea travel.
+{x 
+~
+human~
+ABQ DEFJV HOR -700 0
+107 5000 100d10+24000 100d10+4000 100d20+600 slash
+-170 -170 -170 -250
+CEFH ABCR IN J
+stand stand female 69825
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GIVE 55971 goldenchalice~
+M SPEECH 55955 chalice~
+M ACT 55950 falls to the ground and worships you.~
+M GREET 55952 100~
+M FIGHT 55951 2~
+M FIGHT 55953 10~
+M GIVE 55970 tomeofwisdom~
+M DEATH 55972 50~
+#55951
+umberlee priestess~
+{cA {bP{Br{Di{rest{De{Bs{bs {cof {bU{Bm{Db{rer{Dl{Be{be{x~
+A {bp{Br{8i{rest{8e{Bs{bs{9 in long {bb{Blu{be{9 robes walks like {bw{6a{^t{6e{br{9 along the hall.
+~
+{cThe priestess is a tall muscular woman, showing great strength for
+a woman.  She is wearing scalemail armor that has been intricately
+moulded to look like crashing waves.  She bears the symbol of
+Umberlee, the Bitch Queen, godess of the oceans, waves and sea travel.
+{x 
+~
+human~
+ABGIQ FJZ 0 -750 0
+85 6 500d2+3000 500d2+3000 6d15+61 wrath
+-50 -50 -50 -100
+U AB R J
+stand stand none 2500
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55952
+local worshipper~
+a Local Worshipper~
+A local of Baldur's Gate is here, to give worship to {bU{Bm{Db{rer{Dl{Be{be{x.
+~
+~
+human~
+AGR 0 0 -300 0
+77 16 100d2+2600 100d2+2600 4d21+56 none
+-35 -35 -35 -30
+N AB 0 0
+stand stand none 9725
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55953
+water elemental waterelemental~
+a {BW{ba{Bt{be{Br {CE{cl{Ce{cm{Ce{cn{Ct{ca{Cl{x~
+A creature made of pure {BW{ba{Bt{be{Br{x flows up towards you.
+~
+{cWading up towards you is a tall creature made entirely from water. 
+It is translucent, and flowing, like a walking waterfall shaped
+roughly humanoid.  {x 
+~
+water fowl~
+AFT Tb 0 -1000 0
+101 1000 100d10+8000 100d10+10000 100d20+600 none
+-100 -100 -100 -200
+0 ABHLQR D J
+stand stand none 0
+CHIK 0 medium unknown
+D {csplashes down into nothingness.{x~
+T {cDie in the name of {bU{Bm{Db{rer{Dl{Be{be{c!{x~
+F res R
+F for AGW
+F par ACDEFHKP
+M FIGHT 55954 20~
+#55954
+drowningmob~
+DROWNING MOB~
+DROWNING MOB
+~
+~
+human~
+ABI 0 P 0 0
+104 0 9d9+9999 9d9+9999 9d9+9999 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M ACT 55968 stops using waterlungs~
+M DELAY 55969 100~
+M GRALL 55968 100~
+#55955
+old mermaid~
+an old mermaid~
+An old mermaid rests here, guarding some valuable treasure.
+~
+The Mermaid is an old woman, with the tail of a fish and the top
+half of a woman.  She is wearing white robes, with the symbols of helm
+on them.  
+~
+human~
+ABa 0 HP 0 0
+104 0 9d9+9999 9d9+9999 9d9+9999 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABDEFGIJKQ medium unknown
+D ~
+T ~
+F par CH
+M SPEECH 55958 nightmare~
+M GRALL 55957 100~
+#55956
+secret tunnel~
+secret tunnel transfer mob~
+Secret tunnel transfer mob
+~
+~
+human~
+ABI 0 P 0 0
+110 0 9d9+9 9d9+9 9d9+9 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M SPEECH 55959 help~
+#55957
+mazemob2~
+MAZEMOB_2~
+MAZEMOB_2
+~
+~
+human~
+ABI P P 0 0
+104 0 10d10+100 0d0+0 10d10+131 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55961 3~
+M EXALL 55960 2~
+M EXALL 55960 1~
+M EXALL 55960 0~
+#55958
+mazemob1~
+MAZEMOB_1~
+MAZEMOB_1
+~
+~
+human~
+ABI 0 P 0 0
+110 0 10d10+100 9d9+9 10d10+130 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55962 0~
+M EXALL 55960 3~
+M EXALL 55960 2~
+M EXALL 55960 1~
+#55959
+mazemob3~
+MAZEMOB_3~
+MAZEMOB_3
+~
+~
+human~
+ABI 0 P 0 0
+104 0 10d10+100 9d9+9 10d10+132 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55965 2~
+M EXALL 55960 3~
+M EXALL 55960 1~
+M EXALL 55960 0~
+#55960
+mazemob4~
+MAZEMOB_4~
+MAZEMOB_4
+~
+~
+human~
+ABI 0 P 0 0
+104 0 10d10+100 0d0+0 10d10+133 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55964 2~
+M EXALL 55960 3~
+M EXALL 55960 1~
+M EXALL 55960 0~
+#55961
+mazemob6~
+MAZEMOB_6~
+MAZEMOB_6
+~
+~
+human~
+ABI 0 P 0 0
+104 0 10d10+100 0d0+0 10d10+134 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55963 3~
+M EXALL 55960 2~
+M EXALL 55960 1~
+M EXALL 55960 0~
+#55962
+mazemob7~
+MAZEMOB_7~
+MAZEMOB_7
+~
+~
+human~
+ABI 0 P 0 0
+104 0 10d10+100 0d0+0 10d10+135 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55960 3~
+M EXALL 55960 2~
+M EXALL 55960 1~
+M EXALL 55960 0~
+#55963
+mazemob8~
+MAZEMOB_8~
+MAZEMOB_8
+~
+~
+human~
+ABI 0 P 0 0
+104 0 10d10+100 0d0+0 10d10+136 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55967 1~
+M EXALL 55960 3~
+M EXALL 55960 2~
+M EXALL 55960 0~
+#55964
+mazemob9~
+MAZEMOB_9~
+MAZEMOB_9
+~
+~
+human~
+ABI 0 P 0 0
+104 0 10d10+100 0d0+0 10d10+137 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M EXALL 55966 3~
+M EXALL 55960 2~
+M EXALL 55960 1~
+M EXALL 55960 0~
+#0
+
+
+
+#OBJECTS
+#55950
+oceanic trident~
+an {CO{cce{gan{Gic T{gri{cde{Cnt{x~
+A beautiful {Cb{clue{x/{Gg{green{x trident rests here eminating a magical glow.~
+unknown~
+weapon ABGI AN
+polearm 22 9 divine DG
+101 55 19500 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 10
+A
+19 10
+L This weapon was blessed by {bU{Bm{Db{rer{Dl{Be{be{x the Bitch Queen herself.~
+#55951
+umberlee temple key~
+{gThe {bT{Be{Dm{rp{Dl{be {gKey{x~
+{xA {gDark Green {bK{re{By{x is here.~
+unknown~
+key AG AO
+0 0 0 0 0
+0 5 1 P
+#55952
+shrine umberlee~
+{cthe {bS{Bh{Dr{ri{Dn{be {cof {bU{Bm{Db{rer{Dl{Be{be{x~
+{cA Beautiful {bS{Bh{Dr{ri{Dn{be {cto the Godess {bU{Bm{Db{rer{Dl{Be{be{c is here for any to offer a prayer.{x~
+unknown~
+trash AG 0
+0 0 0 0 0
+0 5000 0 P
+#55953
+oceanic scalemail~
+{CO{cce{gan{Gic Sc{gale{cma{Cil{x~
+Beautiful scalemail is here, each piece looking like a wave from the ocean.~
+unknown~
+armor AG AD
+20 20 20 18 0
+85 80 12950 P
+A
+1 -1
+A
+14 -100
+A
+12 55
+A
+19 8
+A
+18 9
+#55954
+waterlungs~
+waterlungs~
+If you can see waterlungs on the floor, someone has cheated~
+unknown~
+armor ABEGINPUZ AR
+0 0 0 0 0
+1 5 0 P
+L This strange artifact seems to allow breathing underwater, and is created for exploration under the harbour of baldur's gate to look for the chalice of eternity.~
+#55955
+cracked pillar~
+a cracked pillar~
+{x~
+unknown~
+container 0 0
+9000 0 0 9000 0
+0 0 0 P
+#55956
+plug~
+a magical plug~
+A magical plug is in the cracked pillar. Dare you take it out?~
+unknown~
+trash AFG A
+0 0 0 0 0
+0 9000 0 P
+#55957
+broken stone~
+{Da broken stone{x.~
+{x~
+unknown~
+container 0 0
+10 AC 0 10 0
+0 0 0 P
+#55958
+golden chalice goldenchalice~
+{WA {YG{yo{Yl{yd{Ye{yn {yC{Yha{Wli{Yc{ye{x~
+{WA Beautiful {YG{yo{Yl{yd{Ye{yn {yC{Yha{Wli{Yc{ye{W is laying here.{x~
+unknown~
+treasure ABG AO
+0 0 0 0 0
+1 1 100000 P
+#55959
+umberleeID~
+umberlee's service~
+This item cant be dropped~
+unknown~
+key FMNZ Aa
+0 0 0 0 0
+0 0 0 P
+#55960
+tokensouth~
+tokenSOUTH~
+Token south~
+unknown~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#55961
+tokeneast~
+tokenEAST~
+Token east~
+unknown~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#55962
+tokenwest~
+tokenWEST~
+Token west~
+unknown~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#55950
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55971
+D1
+~
+~
+0 0 55974
+D2
+~
+~
+0 0 55972
+D3
+~
+~
+0 0 55959
+D4
+~
+~
+0 0 55969
+S
+#55951
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cInside the main building is no ordinary temple.  The whole
+place is built  on the edge of the harbour in Baldur's Gate.
+There is no floor, but a series of jetties built from strong
+varn{gis{ched wood.  The{g j{cetties run arou{gnd{c level with the {goc{cean
+so{g that {cthe waves {g spill{c over onto {gthe je{ctties,  wash{ging th{ce
+{gfeet and ankles of the worshippers on Umberlee.
+~
+0 8 0 14
+0
+D0
+~
+~
+776 55951 55975
+D2
+~
+~
+0 0 55958
+D3
+~
+~
+0 0 55952
+S
+#55952
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThe cold,  wet jetty that  creates a path for land based
+creatures runs  from  east to  west along the  edge of the
+harbour.  Through small portholes in  the northern wall it
+is po{gssi{cble to catch a {ggli{cmpse of traveller{gs p{cassing along
+Um{gberlee's{c Passage o{gutside. {cThe ocean wa{gves roll{c and spill
+{gonto the jetty from the south.{x
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 55951
+D3
+~
+~
+0 0 55953
+S
+#55953
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThe cold,  wet jetty that  creates a path for land based
+creatures runs  from  east to  west along the  edge of the
+harbour.  Through small portholes in  the northern wall it
+is po{gssi{cble to catch a {ggli{cmpse of traveller{gs p{cassing along
+Um{gberlee's{c Passage o{gutside. {cThe ocean wa{gves roll{c and spill
+{gonto the jetty from the south.{x
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 55952
+D3
+~
+~
+0 0 55954
+S
+#55954
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThe Jetty comes to an abrupt end as it  reaches the edge
+as it reaches  the western  wall of the temple.  The jetty   
+contin{gu{ces south towards{g  {ca central island {gin{c the middle of
+the{g temp{cle where a  {glarge {cshrine to  Um{gberlee{c is  kept an{gd   
+{gthere is plenty of room for worshippers to offer a prayer.{x
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 55953
+D2
+~
+~
+0 0 55955
+S
+#55955
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThe jetty continues to the  south along the western wall
+of the temple.  There is a large porthole in the wall that
+appears to be padlocked shut.  To the east,  another jetty
+runs off towards the main platform in the temple, which is
+raised{g s{clightly so that{g f{collowers  when {gof{cfering a  praye{gr
+to {gthe Bit{cch Queen d{go not g{cet interru{gpted by{c a sudden {gwave
+{gcrashing up from the oceans below.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55954
+D1
+~
+~
+0 0 55956
+D2
+~
+~
+0 0 55966
+D3
+~
+~
+33544 55951 55903
+S
+#55956
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThis part of the jetty  system is a slightly raised area
+that houses the main shrine to Umberlee.  The large shrine
+is just south of here,  this being the northwest corner of
+the raised platform. The occasionally large wave creeps up
+to the {gedg{ce of the platform,  {gbut{c it  appears to  be{g be{cing
+held{g back by{c some godly fo{grce,  as {cthough Umberle{ge hersel{cf
+{gis holding back the waves so her minions can worship her.
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 55957
+D2
+~
+~
+0 0 55965
+D3
+~
+~
+0 0 55955
+S
+#55957
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThis part of the jetty  system is a slightly raised area
+that houses the main shrine to Umberlee.  The large shrine
+is just south of here,  this being the northeast corner of
+the raised platform. The occasionally large wave creeps up
+to th{ge{c edge of the pl{ga{ctform,  but it {g ap{cpears to  be being
+he{gld bac{ck by some {ggodly {cforce,  as{g though {cUmberlee herself
+{gis holding back the waves so her minions can worship her.{x
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 55958
+D2
+~
+~
+0 0 55962
+D3
+~
+~
+0 0 55956
+S
+#55958
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cA small jetty runs along south from the main entrance.  To
+the west there is a large slightly raised platform where the
+main shrine  to Umberlee is located.  Porthole windows built
+into t{ghe{c eastern  wall giv{ge {ca beautiful vew o{gf {cBaldur's Gate
+har{gbour. T{che occasiona{gl wave {csplashes ove{gr the j{cetty leaving
+{gmany damp patches in the wooden floor.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55951
+D3
+~
+~
+0 0 55957
+S
+#55959
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55970
+D1
+~
+~
+0 0 55950
+D2
+~
+~
+0 0 55960
+D3
+~
+~
+0 0 55974
+D4
+~
+~
+0 0 55969
+S
+#55960
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55959
+D1
+~
+~
+0 0 55972
+D2
+~
+~
+0 0 55970
+D3
+~
+~
+0 0 55964
+D4
+~
+~
+0 0 55969
+S
+#55961
+{bA S{Be{Dcr{Be{bt C{Bh{Damb{Be{br{x~
+~
+{DJust off from the tunnel is a small chamber. The walls, floor and
+ceiling  are all  made from dark stone blocks.  There appears to be 
+nothing but a few broken stones scattered about the chamber.{x
+~
+0 67109929 0 18
+0
+D3
+~
+~
+65544 0 55968
+S
+#55962
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThis part of the jetty  system is a slightly raised area
+that houses the main shrine to Umberlee.  The occasionally
+large wave creeps up to  the edge of the platform,  but it
+appears to  be being  held back  by some godly  force,  as 
+though {g U{cmberlee herself is  {gh{colding back the w{gav{ces so her 
+mini{gons can{c worship her. {gThe sh{crine is a hug{ge ston{ce effigy
+of{g Umberlee, {c rising fr{gom the oc{ceans to to{grment and {cattack
+{gsailors who dare to travel the oceans without  worshipping
+{gher awesome power.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55957
+D2
+~
+~
+0 0 55963
+D3
+~
+~
+0 0 55965
+S
+#55963
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cAt the far  south of the  Temple of Umberlee,  a narrow
+jetty runs along the south wall.  Several portholes  look
+out o{gnt{co the  Sea of Sw{gord{cs,  and it is of{gte{cn possible to
+se{ge great {cships trav{gelling ou{ct of the h{garbour {cleaving for
+{gsome great voyage.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55962
+D3
+~
+~
+0 0 55969
+S
+#55964
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55974
+D1
+~
+~
+0 0 55960
+D2
+~
+~
+0 0 55973
+D3
+~
+~
+0 0 55972
+D4
+~
+~
+0 0 55969
+S
+#55965
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThis part of the jetty  system is a slightly raised area
+that houses the main shrine to Umberlee.  The occasionally
+large wave creeps up to  the edge of the platform,  but it
+appears to  be being  held back  by some godly  force,  as 
+thoug{gh{c  Umberlee herself is {g h{colding back the wav{ge{cs so her 
+mi{gnions {ccan worship her.{g The shr{cine is a huge {gston{ce effigy
+{gof Umberle{ce,  rising {gfrom the ocea{cns to torm{gent an{cd attack
+{gsailors who dare to travel the oceans without  worshipping
+{gher awesome power.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55956
+D1
+~
+~
+0 0 55962
+D3
+~
+~
+0 0 55966
+S
+#55966
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cThe jetty continues to the south along the western wall
+of  the  temple.  To the east,  another  jetty  runs  off
+towards the  main platform in the temple, which is raised 
+slig{gh{ctly so  that fo{gll{cowers when of{gfer{cing a prayer to the 
+Bi{gtch  {cQueen  do  {gnot  g{cet  inter{grupted {c by a sudden wave
+{gcrashing up from the oceans below.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55955
+D1
+~
+~
+0 0 55965
+D2
+~
+~
+0 0 55967
+S
+#55967
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cAt the far  south of the  Temple of Umberlee,  a narrow
+jetty runs along the south wall.  Several portholes  look
+out o{gnt{co the  Sea of Sw{gord{cs,  and it is of{gte{cn possible to
+se{ge great {cships trav{gelling ou{ct of the h{garbour {cleaving for
+{gsome great voyage.{x
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 55966
+D1
+~
+~
+0 0 55969
+S
+#55968
+{bA{Dn {bUn{Bd{Dergro{Bu{bnd {bT{Bu{Dnn{Be{bl{x~
+~
+{DThe tunnel you find yourself inside, is very dark, and damp. It is
+probably somewhere under the oceans of Baldur's Gate, because of the
+damp smell,  and the occasional dripping of water.  The tunnel seems
+to go on and on forever to the north and south.{x
+~
+0 67117097 0 18
+0
+D0
+~
+~
+0 0 55968
+D1
+~
+wall~
+65544 0 55961
+D2
+~
+~
+0 0 55968
+S
+#55969
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cAt the far  south of the  Temple of Umberlee,  a narrow
+jetty runs along the south wall.  Several portholes  look
+out onto the  Sea of Swords,  and it is often possible to
+see great ships travelling out of the harbour leaving for
+some gre{ga{ct voyage.  Belo{gw,{c a small  op{gen{cing in the middle
+of the{g je{ctty leads do{gwn i{cnto the se{gas belo{cw,  most likely
+use{gd for{c  creature{gs that c{can brea{gthe  und{cerwater to enter
+{gthe temple.{x
+~
+0 12 0 14
+0
+D1
+~
+~
+0 0 55963
+D3
+~
+~
+0 0 55967
+D5
+~
+~
+0 0 55970
+S
+#55970
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55960
+D1
+~
+~
+0 0 55971
+D2
+~
+~
+0 0 55959
+D3
+~
+~
+0 0 55973
+D4
+~
+~
+0 0 55969
+S
+#55971
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55972
+D1
+~
+~
+0 0 55973
+D2
+~
+~
+0 0 55950
+D3
+~
+~
+0 0 55970
+D4
+~
+~
+0 0 55969
+S
+#55972
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55950
+D1
+~
+~
+0 0 55964
+D2
+~
+~
+0 0 55971
+D3
+~
+~
+0 0 55960
+D4
+~
+~
+0 0 55969
+S
+#55973
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like pillars that act as support columns for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55964
+D1
+~
+~
+0 0 55970
+D2
+~
+~
+0 0 55974
+D3
+~
+~
+0 0 55971
+D4
+~
+~
+0 0 55969
+S
+#55974
+{gUnder The {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{bAll around are the misty, dark waters of Baldur's Gate harbour.
+It is very dark and the currents are strong,  pulling you in all
+sorts of different directions.  Up above, the faint light of the
+temple of umberlee can be seen. Just off in the distance through
+the  dark murky  waters,  it is possible  to make out what looks
+like a cracked pillar supporting jetties for the temple above.{x
+~
+0 8 0 6
+0
+D0
+~
+~
+0 0 55973
+D1
+~
+~
+0 0 55959
+D2
+~
+~
+0 0 55964
+D3
+~
+~
+0 0 55950
+D4
+~
+~
+0 0 55969
+S
+#55975
+{gThe {bT{Be{Dm{rp{Dl{be {gOf {bU{Bm{Db{rer{Dl{Be{be{x~
+~
+{cInside the door,  is a dark chamber. The panelled wooden
+walls  are moist with all the water vapour in  the air and
+mould rises from  the floor up the walls.  To the south is
+a  large wooden door,  with two  round  porthole fashioned
+wind{gow{cs  looking int{go {cthe temple{g. A{c Tall and graceful lady
+st{gands i{cn  the way{g of th{ce door{g, guard{cing the entra{gnce {cfrom
+{gall those who would wish to trespass.
+~
+0 8 0 14
+0
+D0
+~
+~
+8 0 55883
+D2
+~
+~
+776 55951 55951
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 55951 0 2
+D 0 55955 3 2
+D 0 55961 3 1
+D 0 55968 1 1
+D 0 55975 0 1
+D 0 55975 2 2
+M 0 55964 1 55950 1
+M 0 55951 12 55951 1
+E 0 55953 0 5
+M 0 55952 6 55952 1
+M 0 55951 12 55952 1
+E 0 55953 0 5
+M 0 55952 6 55954 1
+M 0 55951 12 55954 1
+E 0 55953 0 5
+M 0 55951 12 55955 2
+E 0 55953 0 5
+M 0 55951 12 55955 2
+E 0 55953 0 5
+M 0 55952 6 55956 1
+M 0 55951 12 55956 1
+E 0 55953 0 5
+M 0 55952 6 55957 1
+M 0 55963 1 55959 1
+M 0 55955 1 55961 1
+M 0 55952 6 55963 1
+M 0 55951 12 55963 1
+E 0 55953 0 5
+M 0 55961 1 55964 1
+M 0 55952 6 55965 1
+M 0 55951 12 55965 1
+E 0 55953 0 5
+M 0 55951 12 55966 1
+E 0 55953 0 5
+M 0 55951 12 55967 1
+E 0 55953 0 5
+M 0 55957 1 55970 1
+M 0 55954 8 55970 1
+M 0 55959 1 55971 1
+M 0 55960 1 55972 1
+M 0 55958 1 55973 1
+M 0 55956 1 55974 1
+O 0 55955 0 55974
+P 0 55956 1 55955 1
+M 0 55962 1 55974 1
+O 0 55952 0 55975
+M 0 55950 1 55975 1
+E 0 55950 0 16
+E 0 55951 0 17
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#55950
+~
+Say OK, you may enter the temple. {bU{Bm{Db{rer{Dl{Be{be's {mblessing go with you.{x
+unlock south
+open south
+mob force $n south
+close south
+lock south
+~
+#55951
+~
+mob echo {bU{Bm{Db{rer{Dl{Be{be's {xblessing falls upon her high priestess.
+mob cast 'full heal'
+~
+#55952
+~
+say You! What do you want? Show your respect to the Bitch Queen or get the hell out.
+glare $n
+~
+#55953
+~
+mob echo {gA {bP{Br{Di{rest{De{Bs{bs {gof {bU{Bm{Db{rer{Dl{Be{be {xCalls forth a {BW{ba{Bt{be{Br {CE{cl{Ce{cm{Ce{cn{Ct{ca{Cl{x
+mob mload 55953
+~
+#55954
+~
+mob echoat $n {xa {BW{ba{Bt{be{Br {CE{cl{Ce{cm{Ce{cn{Ct{ca{Cl{x Reaches out and grabs at you!
+mob echoat $n {xa {BW{ba{Bt{be{Br {CE{cl{Ce{cm{Ce{cn{Ct{ca{Cl{x splashes into you, {BD{bR{BO{bW{BN{bI{BN{bG{x you!
+mob echoaround $n {xa {BW{ba{Bt{be{Br {CE{cl{Ce{cm{Ce{cn{Ct{ca{Cl{x Reaches out and grabs at $n!
+mob damage $n 20000 25000 lethal
+mob echo {xa {BW{ba{Bt{be{Br {CE{cl{Ce{cm{Ce{cn{Ct{ca{Cl{x drips away into a small puddle.
+mob goto 32400
+~
+#55955
+~
+if wears $n 55959
+ say Go get a Tome of Wisdom for me. Then you can look for the chalice.
+else
+ say Ahh, you have heard of the golden chalice hidden somewhere in the waters around
+ say the city of Baldur's Gate. We have searched for it for a long time but the
+ say currents are too strong down underwater. If you can get me a tome of wisdom I
+ say will grant you the ability to breathe underwater so you can look for me.
+ mob oload 55959 0 room
+ mob force $n get umberleeID
+ mob force $n wear umberleeID
+end if
+~
+#55956
+~
+if players >= 1
+if wears $r waterlungs
+mob echoat $r You inhale deeply from your waterlung.
+mob echoaround $r $r inhales deeply from $s waterlung.
+else
+mobechoat $r Your lungs scream for air!
+mobechoaround $r Bubbles leak from $r's mouth towards the surface.
+mob damage $r 5000 5000
+endif
+else
+endif
+~
+#55957
+~
+vis
+mob echo An old mermaid fades into existance.
+say welcome child. I have been resting here for centuries guarding the
+say treasure you seek. I cannot give my Chalice to just anybody. First
+say you must prove you have some intelligence.
+beam $n
+say Tell me child, What type of 'horse' can never be found during the
+say day and can never be seen with your open eyes?
+mob echoat $n $I looks anxiously towards you with an eager smile.
+mob echoaround $n $I looks anxiously towards $n with an eager smile.
+~
+#55958
+~
+hug $n
+say Oh, well done!
+smile
+mob oload 55958
+give chalice $n
+say Now I must leave here, my job is done.
+mob echo An old mermaid lays down to rest, and as she does so, fades out of existance, leaving nothing but a calm sense of peace.
+mob cast 'calm'
+mob goto 32400
+vis
+~
+#55959
+~
+mob echoat $n Your cry for help is heard by {bU{Bm{Db{rer{Dl{Be{be{x herself! You must be close to the chalice.
+mob echoat $n As the plug comes out, you are sucked into a watery vortex to another place!
+mob echoaround $n $n disappears into a swirling vortex of water.
+mob transfer $n 55968
+mob force $n look
+~
+#55960
+maze_wrong_way~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55970
+mob at 55970 mob echo the currents cease for a second
+~
+#55961
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55973
+mob force $n look
+~
+#55962
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55964
+mob force $n look
+~
+#55963
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55972
+mob force $n look
+~
+#55964
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55971
+mob force $n look
+~
+#55965
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55950
+mob force $n look
+~
+#55966
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55959
+mob force $n look
+~
+#55967
+~
+mob echoat $n The strong currents pull you somewhere else.
+mob echoaround $n $n is pulled away by strong currents.
+mob gtransfer $n 55974
+mob force $n look
+~
+#55968
+~
+if wears $n waterlung
+ break
+else
+ mob echoat $n You cough and splutter as you {BDROWN{x!
+ mob echoaround $n $n tries to gasp for air but only takes in water!
+ mob damage $n 10000 30000 lethal
+ mob remember $n
+ mob delay 1
+endif
+~
+#55969
+~
+if players >= 1
+ if wears $n waterlung
+  break
+ else
+  mob echoat $n You cough and splutter as you {BDROWN{x!
+  mob echoaround $n $n tries to gasp for air but only takes in water!
+  mob damage $n 10000 30000 lethal
+  mob delay 1
+  endif
+else
+ endif
+~
+#55970
+~
+say Ahh, the tome! Excellent. I suppose you'll be wanting the waterlungs now.
+mob oload 55954
+give waterlungs $n
+say if you do not wear them, you will drown very quickly in the strong current.
+mob junk tome
+~
+#55971
+give chalice to umberlee priestess~
+pmote looks up at $n with an expression of surprise on her face.
+say You found the chalice? Unbelieveable.
+mob junk chalice
+~
+#55972
+{ga {bP{Br{8i{rest{8e{Bs{bs {gof {bU{Bm{8b{rer{8l{Be{be {GDEATH {gdamage all/junk trident{x~
+say The Bitch Queen shall have her revenge on you!
+mob damage $n 5000 5000
+remove trident
+mob junk trident
+~
+#0
+
+#$

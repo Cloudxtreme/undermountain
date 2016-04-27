@@ -1,0 +1,3792 @@
+#AREADATA
+Name Valley of the Elves~
+Builders None~
+VNUMs 7800 7899
+Credits [09 GR 40] Valley Of The Elves~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 4
+Zone 0
+End
+
+
+
+#MOBILES
+#7800
+dog cooshee~
+{ga {yc{goos{yhe{ge{x~
+A rather large dog is here, wandering the valley.
+~
+A beast is the size of the largest common dog.  It has a greenish coat with
+brown spots.  Its shape, along with its colors, make this cooshee almost
+undetectable as it moves.
+~
+dog~
+A P 0 1000 0
+35 0 14d14+190 14d14+190 2d7+4 none
+0 0 0 1
+FHR 0 0 0
+stand stand either 0
+AGV ACDEFHJKUV medium 0
+D ~
+T ~
+#7801
+elf valley male~
+{ya {gvalley {yelf{x~
+A male valley elf wanders here, wary of any intrusion.
+~
+This elf is almost as tall as an average human, but much slimmer and more
+agile.  There is a deep distrust in his eyes.  He goes about his business
+swiftly and quietly while avoiding any contact with strangers.
+~
+elf~
+AC FJPc 0 1000 0
+40 0 16d16+230 16d16+230 4d4+5 none
+-1 -1 -1 0
+EFNR 0 BG Z
+stand stand male 300
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#7802
+elf valley female~
+{ya {gvalley {yelf{x~
+A female valley elf wanders here, wary of any intrusion.
+~
+This elf is almost as tall as an average human, but much slimmer and more
+agile.  There is a deep distrust in her eyes.  She goes about her business
+swiftly and quietly while avoiding any contact with strangers.
+~
+elf~
+AC FJPc 0 1000 0
+40 0 16d16+230 16d16+230 4d4+5 none
+-1 -1 -1 0
+EFNR 0 BG Z
+stand stand female 300
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#7803
+valley elf sentry~
+{ya {gvalley {yelf {*sentry{x~
+A valley elf sentry stands here, ready to attack any intruders.
+~
+This elf is almost as tall as an average human, but much slimmer and
+more agile.  His hard eyes scan his surroundings, watching for any
+disturbance.
+~
+elf~
+ABG FJPc 0 1000 0
+50 0 15d25+440 15d25+440 3d7+7 none
+-1 -1 -2 9
+EFNR AB BG Z
+stand stand male 400
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+M greet 7802 100~
+#7804
+valley elf sentry~
+{ya {gvalley {yelf {*sentry{x~
+A valley elf sentry stands here, ready to attack any intruders.
+~
+This elf is almost as tall as an average human, but much slimmer and
+more agile.  Her hard eyes scan her surroundings, watching for any
+disturbance.
+~
+elf~
+AB FJPc 0 1000 0
+50 0 15d25+440 15d25+440 3d7+7 none
+-1 -1 -2 9
+EFNR AB BG Z
+stand stand female 400
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+M greet 7802 100~
+#7805
+elf scout valley~
+{ya {gvalley {yelf {yscout{x~
+A valley elf scout wanders the valley, taking note of anything unusual.
+~
+This elf is quick to notice any changes in the valley and is tasked with
+reporting findings back to the elders.
+~
+elf~
+AC FJPVc 0 1000 0
+45 0 16d20+300 16d20+300 3d6+6 none
+-1 -1 -1 -1
+EFNR 0 BG Z
+stand stand male 350
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#7806
+elf valley maid~
+{ya {gvalley {yelf {wmaid{x~
+A valley elf maid is here, doing her chores.
+~
+This elf is very busy doing some menial chores.  She ignores intruders except
+if they get in her way.
+~
+elf~
+A FJPVc 0 1000 0
+40 0 16d16+230 16d16+230 4d4+5 none
+-1 -1 -1 0
+FR 0 BG Z
+stand stand female 250
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#7807
+elf elder valley~
+{ya {gvalley {yelf {Welder{x~
+A valley elf elder is here, studying.
+~
+This elf looks quite old, probably 800 years or more.  Despite his advanced
+age he still appears quite potent.
+~
+elf~
+ABCGQ FJc 0 1000 0
+55 0 15d25+550 15d25+550 3d8+8 divine
+-1 -1 -1 -3
+IKR AB BG Z
+stand stand male 600
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+M greet 7801 100~
+#7808
+elf elder valley~
+{ya {gvalley {yelf {Welder{x~
+A valley elf elder is here, studying.
+~
+This elf looks quite old, probably 800 years or more.  Despite her advanced
+age she still appears quite potent.
+~
+elf~
+ABCGQ FJc 0 1000 0
+55 0 15d25+550 15d25+550 3d8+8 divine
+-1 -1 -1 -3
+IKR AB BG Z
+stand stand female 600
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+M speech 7804 further~
+M greet 7803 100~
+#7809
+pyrohydra pyro hydra~
+{rthe {Rpy{Yr{ro{Rhy{rd{Yr{Ra{x~
+A big beast with many heads, each breathing fire, stands guard here.
+~
+This big beast looks like a small red dragon, but has many more heads than a
+regular dragon.  It doesn't look happy.
+~
+dragon~
+ABFG JT 0 -1000 0
+65 0 20d20+700 20d20+700 4d6+7 flbite
+-4 -4 -4 7
+FNU AB BEH FI
+stand stand none 850
+AHMVZ ABCDEFGHIJKPQUVX medium 0
+D ~
+T ~
+#7810
+hermit man old~
+an {*o{Wl{wd {Wh{*er{wm{*i{Wt{x~
+An old hermit sits here, smoking a pipe.
+~
+This man looks very old and feeble.  Judging from the condition of
+his clothes, the length of his filthy beard, and the semi-crazed
+look in his eyes, he has not seen another person in some time.
+~
+human~
+ABCGH 0 0 0 0
+30 0 8d20+160 1d9+100 3d4+4 punch
+0 0 0 2
+FU 0 0 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#7811
+talemon wizard mage~
+{cT{wa{Blem{wo{cn{x~
+An old mage busies himself with some arcane experiments.
+~
+At first glance, the mage, Talemon, might appear to be harmless.
+He wear long blue robes, adorned with arcane runes, with the hood
+pulled up over his head.  However, one look into his hard gray eyes
+reveals a merciless intensity that cannot be mistaken.
+~
+human~
+ABCFGR 0 0 -1000 0
+75 0 23d23+1000 23d23+1000 4d7+9 magic
+-6 -6 -6 2
+FGU AB C F
+stand stand male 800
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#7812
+guardiandemon guardian demon~
+{*a gua{rrd{Rian {rde{*mon{x~
+A huge demon is here, guarding the room.
+~
+This demon is large, with pitch black wings and glowing red eyes.
+The smell of sulfur radiates off its scaly hide.  It looks quite
+unhappy with its summoned job and is willing to take out its anger
+on any who enter its room.
+~
+heucuva~
+ABFG DFJT 0 -1000 0
+70 0 22d22+900 22d22+900 5d5+10 drain
+-2 -2 -2 -7
+EFNU ABLQ M EN
+stand stand none 600
+AHMV ABCDEFGHIJKP medium 0
+D ~
+T ~
+F res D
+M death 7806 100~
+#7813
+small brown wolf~
+a small {ybrown {xwolf~
+A small wolf is here, looking for easy prey.
+~
+The wolf is small and a bit mangy, covered in mottled brown
+hair.  It looks about with wary eyes, searching out some easy
+prey for a quick meal.
+~
+wolf~
+A Z 0 1000 0
+30 0 8d30+160 8d30+160 3d4+4 none
+0 0 0 2
+FHR 0 0 0
+stand stand none 0
+AGV ACDEFJKQV medium 0
+D ~
+T ~
+#7814
+antelope~
+an {yan{wt{We{wl{yope{x~
+An antelope is here, peacefully munching on grass.
+~
+This stout creature has large horns and whitish spots over coarse,
+brown hair.  This game most likely sustains not only the elves of
+the valley, but many other wild creatures.
+~
+human~
+A 0 0 1000 0
+26 0 5d25+130 5d25+130 3d4+3 charge
+0 0 0 4
+F 0 0 0
+stand stand either 0
+AHMV ACDEFHJKW medium 0
+D ~
+T ~
+F par BGI
+#7815
+imp invis stove mob~
+IMP INVIS stove mob~
+IMP INVIS stove mob
+~
+If you are not an immortal you should not be seeing this mob.  If
+you do, it is a bug.  Please report it.
+~
+human~
+ABG DFJ P 0 0
+104 0 10d100+10000 10d100+10000 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M act 7800 from the large oven~
+M act 7800 opens the large oven~
+#7816
+potion mistress elven woman~
+{cYul{Cna{x, the potion mistress~
+A slender elven woman stands here, cautiously watching for customers.
+~
+This tall and slender elven woman has long auburn hair that flows
+down over her simple white robes.  Yulna knows all there is to know
+about potion concoction and seems able to whip up anything that anyone
+could ask for.  She eyes any strangers that come into her shop warily.
+~
+elf~
+ABG FJc 0 900 0
+105 0 27d52+7380 27d52+7380 5d21+42 punch
+-4 -4 -4 -16
+F ABCDLQa BGJL R
+stand stand female 100000
+AHMV ABCDEFGHIJK small unknown
+D ~
+T ~
+#7817
+parymo master scribe elven man~
+{*Pary{wmo{x, the master scribe~
+A tall elven man with a long white beard waits for customers.
+~
+This man is quite tall for an elf and has a long, whispy white beard.
+He strolls the aisles of his shop with a white cloth, polishing the
+scroll cases as he waits for customers to make a purchase.
+~
+elf~
+ABG FJc 0 900 0
+105 0 27d52+7380 27d52+7380 5d21+42 punch
+-4 -4 -4 -16
+F ABCDLQa BGJL R
+stand stand male 100000
+AHMV ABCDEFGHIJK small unknown
+D ~
+T ~
+#7818
+elven village citizen~
+{yan {gelven {yvillager{x~
+A citizen of the elven village goes about their business.
+~
+This citizen of the elven village goes about their business quietly,
+all the while looking about suspiciously at any outsiders.  They may
+give a distrustful gaze to outsiders but they don't bother taking any
+action unless provoked.
+~
+elf~
+AC FJPVc 0 1000 0
+45 0 16d20+300 16d20+300 3d6+6 none
+-1 -1 -1 -1
+EFNR 0 BG Z
+stand stand either 350
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#7819
+brown bear~
+{ya brown bear{x~
+An average sized brown bear forages for grubs.
+~
+This bear is of average size and appears to be rather calm, almost
+docile.  It spends its time foraging for grubs and roots, paying
+practically no heed to what goes on around it so long as its not
+disturbed.
+~
+dog~
+A 0 0 1000 0
+35 0 14d14+190 14d14+190 2d7+4 claw
+0 0 0 1
+FHR 0 0 0
+stand stand either 0
+AGV ACDEFHJKUV medium unknown
+D ~
+T ~
+#7820
+valley elf guardian~
+{ya {gvalley {yelf {bguardian{x~
+A valley elf guardian stands here, ready to protect the elders.
+~
+This elf is almost as tall as an average human, but much slimmer and
+more agile.  The guardian stands watch over the most revered elders
+in the clan.
+~
+elf~
+ABG FJPc 0 1000 0
+60 0 20d20+710 20d20+710 4d6+10 none
+-2 -2 -2 -5
+EFNR AB BG Z
+stand stand either 500
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M greet 7802 100~
+#7821
+imp invis demon spawner~
+IMP INVIS demon spawner~
+IMP INVIS demon spawner
+~
+If you are not an immortal you should not be seeing this mob.  If
+you do, it is a bug.  Please report it.
+~
+human~
+ABG DFJ P 0 0
+104 0 10d100+10000 10d100+10000 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 7805 100~
+M random 7807 5~
+#0
+
+
+
+#OBJECTS
+#7800
+chainmail elven chain mail shirt~
+{*an {ye{glve{yn {*chainmail shirt{x~
+A lightweight elven chainmail shirt is on the floor.~
+oldstyle~
+armor 0 AD
+4 4 4 2 0
+15 10 1080 P
+A
+2 1
+A
+13 10
+L Crafted by the elves of the Valley of the Elves, this shirt shows exquisite workmanship.~
+#7801
+boots elven~
+{ye{glve{yn boots{x~
+Some soft elven boots are on the floor.~
+oldstyle~
+armor 0 AG
+3 3 3 0 0
+15 3 390 P
+A
+2 1
+A
+1 1
+A
+13 5
+A
+14 15
+L Crafted by the elves of the Valley of the Elves, these boots show exquisite workmanship.~
+#7802
+longsword elven sword long~
+{*an {ye{glve{yn {*longsword{x~
+A shiny elven blade is on the floor~
+oldstyle~
+weapon G AN
+sword 11 3 slash D
+15 2 670 P
+~
+~
+~
+~
+~
+A
+19 1
+A
+18 1
+L This sword was crafted by the elves of the Valley of the Elves.  In days past, this was a common weapon among new adventurers.~
+#7803
+cloak brown cloth~
+{ya brown cloak{x~
+A pile of brown cloth is on the floor.~
+oldstyle~
+armor G AC
+3 3 3 0 0
+13 2 900 P
+A
+2 1
+A
+5 1
+L A cloak with minor enchantments placed by the elves of the Valley of the Elves.  In days past, this was a common item worn by new adventurers.~
+#7804
+round wooden key~
+{ya round wooden key{x~
+A round wooden key is on the floor.~
+oldstyle~
+key 0 A
+BCFHJKLM 0 0 0 0
+1 0 0 P
+#7805
+intricate silver key~
+an intricate {*s{wi{Wl{*v{We{*r {xkey~
+An intricate silver key has been left here.~
+oldstyle~
+key 0 A
+DGHJKLM 0 0 0 0
+1 0 0 P
+L This key is fashioned into an intricate design resembling arcane runes.~
+#7806
+talemon's ring iron~
+{cT{wa{Blem{wo{cn{*'s ring{x~
+An iron ring with arcane runes has been left here.~
+unknown~
+jewelry EGHM AB
+0 0 0 0 0
+27 0 1250 P
+A
+19 3
+A
+18 3
+A
+2 1
+A
+4 1
+A
+3 1
+L A ring once worn by Talemon, a mage who was a blight upon the Elven Valley and the main cause of their mistrust of outsiders.~
+#7807
+quarterstaff staff Talemon's~
+{cT{wa{Blem{wo{cn's {ystaff{x~
+A quarterstaff is on the floor.~
+oldstyle~
+weapon EGHZ AN
+mace 18 4 pound CF
+27 10 670 P
+~
+~
+~
+~
+~
+A
+1 2
+A
+3 1
+A
+4 1
+A
+12 25
+L A staff once held by Talemon, a mage who was a blight upon the Elven Valley and the main cause of their mistrust of outsiders.~
+#7808
+stealth potion~
+a {*stealth {xpotion~
+A potion labeled 'stealth' is on the floor.~
+oldstyle~
+potion G A
+10 'armor' 'invisibility' '' ''
+1 0 200 P
+#7809
+small mana potion~
+a small {Bmana {xpotion~
+A potion labeled 'small mana' is on the floor.~
+oldstyle~
+potion G A
+10 'restore mana' '' '' ''
+10 0 580 P
+#7810
+insight potion~
+a potion of {mi{Mns{Wi{Mgh{mt{x~
+A potion labeled 'insight' is on the floor.~
+oldstyle~
+potion G A
+10 'detect hidden' 'detect invis' 'detect good' 'detect evil'
+10 1 290 P
+#7811
+wickedness potion~
+a {rwickedness{x potion~
+A potion labeled 'wickedness' is on the floor.~
+oldstyle~
+potion G A
+36 'detect good' 'protection good' '' ''
+26 0 1380 P
+#7812
+rebirth potion~
+a {Wre{Ybir{Wth {xpotion~
+A potion labeled 'rebirth' is on the floor.~
+oldstyle~
+potion G A
+10 'refresh' 'protection evil' 'cure serious' ''
+8 10 240 P
+#7813
+berserker potion~
+a {yb{*er{rs{Re{rr{*ke{yr {xpotion~
+A potion is on the floor.~
+oldstyle~
+potion G A
+10 'frenzy' '' '' ''
+10 0 250 P
+#7814
+divine favor potion~
+a {Wd{wi{Yvi{wn{We {Wf{wa{Yv{wo{Wr {xpotion~
+A potion labeled 'divine favor' is on the floor.~
+oldstyle~
+potion G A
+10 'bless' '' '' ''
+1 0 220 P
+#7815
+first aid potion~
+a {Wfi{Rr{Wst {Wa{Ri{Wd {xpotion~
+A potion labeled 'first aid' is on the floor.~
+oldstyle~
+potion G A
+15 'cure critical' '' '' ''
+15 0 330 P
+#7816
+eagleeye potion~
+an {We{yag{Wle{yey{We {xpotion~
+A potion labeled 'eagleeye' is on the floor.~
+oldstyle~
+potion G A
+14 'farsight' '' '' ''
+11 10 420 P
+#7817
+first aid scroll~
+a scroll of {Wfi{Rr{Wst {Wa{Ri{Wd{x~
+A scroll labeled 'first aid' is on the floor.~
+oldstyle~
+scroll G A
+15 'cure critical' '' '' ''
+15 1 330 P
+#7818
+reforging scroll~
+a scroll of {Wr{*ef{wo{Wr{wg{*in{Wg{x~
+A scroll labeled 'reforging' is on the floor.~
+oldstyle~
+scroll G A
+16 'enchant armor' '' '' ''
+15 1 109 P
+#7819
+judgment scroll~
+a scroll of {*ju{wdg{Wme{Ynt{x~
+A scroll labeled 'judgment' is on the floor.~
+oldstyle~
+scroll G A
+10 'detect evil' 'detect good' '' ''
+10 1 400 P
+#7820
+scroll oasis~
+a scroll of {Yo{ya{Gs{yi{Ys{x~
+A scroll labeled 'oasis' is on the floor.~
+oldstyle~
+scroll G A
+10 'create spring' '' '' ''
+10 1 210 P
+#7821
+missiles scroll~
+a scroll of {Rm{ris{wsil{*es{x~
+A scroll labeled 'missiles' is on the floor.~
+oldstyle~
+scroll G A
+40 'magic missile' 'magic missile' '' ''
+40 1 630 P
+#7822
+winter scroll~
+a scroll of {Cw{Wi{cnt{We{Cr{x~
+A scroll labeled 'winter' is on the floor.~
+oldstyle~
+scroll G A
+10 'chill touch' 'chill touch' 'chill touch' 'chill touch'
+15 1 415 P
+#7823
+healing scroll~
+a scroll of {mh{Me{wa{Wl{wi{Mn{mg{x~
+A scroll labeled 'healing' is on the floor.~
+oldstyle~
+scroll G A
+32 'heal' '' '' ''
+22 10 1360 P
+#7824
+ball light cold~
+a {Ccold {xball of {Ylight{x~
+A {Ccold {xball of {Ylight{x shimmers in the air.~
+oldstyle~
+light AEG A
+0 0 999 0 0
+15 0 250 P
+A
+3 1
+A
+5 1
+A
+13 10
+A
+12 10
+L A slightly more evil, yet more enchanted, variation of the standard mage's light source.~
+#7825
+quarterstaff staff Talemon's~
+{ya quarterstaff{x~
+A quarterstaff is on the floor.~
+oldstyle~
+weapon G AN
+mace 15 4 pound F
+27 10 670 P
+~
+~
+~
+~
+~
+A
+1 2
+A
+4 1
+A
+3 1
+#7826
+tripower sign~
+the TriPower State Line~
+A large sign stands here, written in big words are "TRIPOWER STATE LINE".~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+This Sign Represents The Border Of The TriPower State.
+Beyond This Sign Is Non-TriPower Land, Free From Its
+Rule. May Your Travels Be Well.
+------------------------------------------------------
+##    ##
+## ## ## ##
+## ## ## ##  THE TRIPOWER STATE
+## ## ## ##
+## ## ## ##
+   ##    ##
+~
+#7827
+large wood oven~
+the large oven~
+A large wood-fired oven sits to the side.~
+unknown~
+container 0 0
+350 AC 0 100 100
+104 0 0 P
+#7828
+unfinished elfcake~
+an unfinished elfcake~
+A partially baked elfcake has been dropped here.~
+unknown~
+food 0 A
+100 15 0 0 0
+1 0 10 P
+L A hearty meal in cake form baked by the elves who dwell in the Valley of the Elves.  Too bad it wasn't done cooking.~
+#7829
+dining table~
+a dining table~
+A long dining table sits in the middle of the room.~
+unknown~
+furniture 0 0
+6 1000 BEHKN 0 0
+104 0 0 P
+#7830
+bowl fruit~
+the fruit bowl~
+A decorative bowl for holding fruit sits on the table.~
+unknown~
+container 0 0
+5 0 0 100 100
+1 5 0 P
+#7831
+shiny red apple~
+{ga {rs{Rhin{ry {Rre{Rd {ra{Rpp{Rl{re{x~
+A shiny red apple has been left here.~
+unknown~
+food 0 A
+10 10 0 0 0
+1 1 5 P
+L A tasty, naturally grown apple from the Valley of the Elves.~
+#7832
+ripe pear~
+{ga {yr{Yipe p{Wear{x~
+A ripe and juicy pear has been left here.~
+unknown~
+food 0 A
+10 10 0 0 0
+1 1 5 P
+L A tasty, naturally grown pear from the Valley of the Elves.~
+#7833
+green grapes bunch~
+{ya bunch of {Ggr{ge{Gen {gg{Grap{ge{Gs{x~
+A bunch of green grapes has been left here.~
+unknown~
+food 0 A
+15 15 0 0 0
+1 2 10 P
+L A tasty bunch of naturally grown grapes from the Valley of the Elves.~
+#7834
+woooden cabinet~
+a wooden cabinet~
+A wooden cabinet sits against the earthen wall.~
+unknown~
+container 0 0
+300 ACD 7835 100 100
+104 350 0 P
+#7835
+singed iron key~
+{*a {rsinged {*iron key{x~
+A small iron key has been dropped here. ~
+unknown~
+key 0 A
+0 0 0 0 0
+1 0 0 P
+#7836
+tasty elfcake~
+{Wa {Yt{yast{Yy {We{Yl{yfca{Yk{We{x~
+A fresh and sweet smelling elfcake sits here.~
+unknown~
+food 0 A
+50 50 0 0 0
+1 1 220 P
+#7837
+small ivory fountain~
+the {Walabaster {Wf{Co{cunta{Ci{Wn{x~
+A small {Walabaster {Wf{Co{cunta{Ci{Wn{x sits in the middle of the square.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+104 300 0 P
+#7838
+wooden benches~
+one of the {*wo{yoden bench{*es{x~
+Several wooden benches provide a place to sit beside the fountain.~
+unknown~
+furniture 0 0
+10 10000 BEHK 0 0
+104 250 0 P
+#7839
+tome obscure knowledge leather~
+a {ytome {xof {*ob{cscu{Cre kno{Wwled{Yge{x~
+A small leather-bound tome of knowledge sits here.~
+unknown~
+treasure GPU AO
+0 0 0 0 0
+27 2 675 P
+A
+4 2
+A
+3 2
+A
+12 30
+#7840
+boxes personal effects~
+one of the boxes~
+Several boxes of personal effects are stacked in the room.~
+unknown~
+container 0 0
+500 0 0 1000 100
+104 500 0 P
+#7841
+gloves woven grass~
+{gglo{yve{gs of {ywo{gven gr{yas{gs{x~
+A pair of gloves made from woven blades of grass lie here.~
+unknown~
+armor G AH
+3 3 3 5 0
+15 0 329 P
+A
+12 10
+A
+2 1
+A
+4 1
+A
+3 1
+#7842
+elven elder silver ring elderquest1~
+{GE{gl{yv{ge{Gn {WElder's {wring{x~
+A silver ring with flowing runes has been left here.~
+unknown~
+jewelry AGHIZ AB
+0 0 0 0 0
+27 0 1250 P
+A
+5 1
+A
+2 1
+A
+1 1
+A
+19 3
+A
+18 3
+A
+13 25
+A
+12 25
+#7843
+belt elven elder elderquest2~
+{*the {YB{ye{Wl{Yt {*of the {GE{gl{yv{ge{Gn {WElder{x~
+A long leather belt branded with elven designs rests here.~
+unknown~
+armor GHIZ AL
+10 10 10 15 0
+29 10 3100 P
+A
+5 1
+A
+3 1
+A
+4 1
+A
+19 3
+A
+18 3
+A
+12 25
+A
+13 25
+A
+20 -3
+#7844
+guardiandemonwasspawned token~
+guardiandemonwasspawned token~
+Guardiandemonwasspawned token~
+unknown~
+treasure 0 A
+0 0 0 0 0
+104 1 1 P
+#0
+
+
+
+#ROOMS
+#7800
+A Path from the Plains~
+~
+This path leads north, away from the Plains of Ofcol.  The path doesn't
+look often traveled, but it is relatively well kept.  To the south are the
+plains, and beyond, the city of Westbridge.
+~
+0 4 0 11
+0
+D0
+The path continues north.
+~
+~
+0 0 7801
+D2
+You see the Plains of Ofcol.
+~
+~
+0 0 323
+S
+#7801
+Along the Path~
+~
+A relatively well-trodden path leads north toward the ridge overlooking
+a valley and south toward the Plains of Ofcol.  Much more faint and narrow
+paths branch off toward the west and east, heading around the ridge of
+the valley.
+~
+0 0 0 11
+0
+D0
+You see the overlook.
+~
+~
+0 0 7804
+D1
+You see the small trail.
+~
+~
+0 0 7803
+D2
+You see the path back toward Ofcol.
+~
+~
+0 0 7800
+D3
+You see the small trail.
+~
+~
+0 0 7802
+D4
+~
+~
+0 0 49178
+S
+#7802
+A Small Trail~
+~
+A small path that appears to be nothing more than a game trail curves
+north and east.  To the north is a ridge overlooking a valley, to the
+east is a much wider path.
+~
+0 0 0 2
+0
+D0
+The trail continues north.
+~
+~
+0 0 7867
+D1
+The main path is to the east.
+~
+~
+0 0 7801
+D4
+~
+~
+0 0 49128
+S
+#7803
+A Small Trail~
+~
+A small path that appears to be nothing more than a game trail curves
+north and west.  To the north is a ridge overlooking a valley, to the
+west is a much wider path.
+~
+0 0 0 2
+0
+D0
+The trail continues north.
+~
+~
+0 0 7849
+D3
+The main path is to the west.
+~
+~
+0 0 7801
+S
+#7804
+The Overlook~
+~
+This is a rocky overlook high above a small valley.  Below, rich green
+grass covers the valley, with some small trees dotting the landscape.  To
+the south is the trail back toward the plains and Westbridge beyond.  A
+narrow cobblestone road leads steeply down from the overlook toward the
+valley below.
+~
+0 4 0 11
+0
+D2
+You see the path back toward Ofcol.
+~
+~
+0 0 7801
+D4
+~
+~
+0 0 49177
+D5
+~
+~
+0 0 58023
+S
+#7805
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7810
+D1
+The valley continues east.
+~
+~
+0 0 7807
+D2
+~
+~
+0 0 58019
+D3
+The valley continues west.
+~
+~
+0 0 7806
+S
+#7806
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  There is a group
+of elves who call this valley home, however, caution is warranted as they are
+notorious for being distrustful of outsiders.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7809
+D1
+The entrance to the valley is to the east.
+~
+~
+0 0 7805
+D2
+~
+~
+0 0 58020
+D3
+~
+~
+0 0 58000
+S
+#7807
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay temperate.  It is unclear if that is a result
+of the unique geography of the area or an act of magic.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7811
+D1
+~
+~
+0 0 7827
+D2
+~
+~
+0 0 58025
+D3
+The entrance to the valley is to the west.
+~
+~
+0 0 7805
+S
+#7808
+{gThe {GElven Val{gley{x~
+~
+Here, on the edge of the Valley of the Elves, a tall rocky ridge rises
+overhead.  The rim is too convex and the rocks too loose to be able to
+reasonably climb out.  The lush greenery of the valley spreads out away
+from the ridge, inviting exploration.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7813
+D1
+The valley continues east.
+~
+~
+0 0 7809
+D2
+~
+~
+0 0 58000
+S
+#7809
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7814
+D1
+The valley continues east.
+~
+~
+0 0 7810
+D2
+The valley continues south.
+~
+~
+0 0 7806
+D3
+The valley continues west.
+~
+~
+0 0 7808
+S
+#7810
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay temperate.  It is unclear if that is a result
+of the unique geography of the area or an act of magic.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7815
+D1
+The valley continues east.
+~
+~
+0 0 7811
+D2
+You see the entrance to the valley.
+~
+~
+0 0 7805
+D3
+The valley continues west.
+~
+~
+0 0 7809
+S
+#7811
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  There is a group
+of elves who call this valley home, however, caution is warranted as they are
+notorious for being distrustful of outsiders.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7816
+D1
+The valley continues east.
+~
+~
+0 0 7812
+D2
+The valley continues south.
+~
+~
+0 0 7807
+D3
+The valley continues west.
+~
+~
+0 0 7810
+S
+#7812
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+A narrow cobblestone road leads north and south through the Valley
+of the Elves.  All around lush green grasses grow, dotted with stands
+of trees and patches of wildflowers.
+~
+0 0 0 11
+0
+D0
+The valley continues north.
+~
+~
+0 0 7817
+D1
+~
+~
+0 0 7830
+D2
+~
+~
+0 0 7827
+D3
+The valley continues west.
+~
+~
+0 0 7811
+S
+#7813
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+This road leads east/west through the wide open Valley of the Elves.
+To the west there is an opening in the ridge surrounding the valley
+and beyond, a settlement of some type.  The rest of the valley lies
+to the east.
+~
+0 4 0 11
+0
+D0
+The valley continues north.
+~
+~
+0 0 7818
+D1
+The valley continues east.
+~
+~
+0 0 7814
+D2
+The valley continues south.
+~
+~
+0 0 7808
+D3
+~
+~
+0 0 7869
+S
+#7814
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+The road leading west and east through the valley isn't so much
+paved as it is just a narrow path of well-worn rocks and gravel.
+Tall grasses lead in all directions, dotted with the occasional tree.
+~
+0 0 0 11
+0
+D0
+The valley continues north.
+~
+~
+0 0 7819
+D1
+The valley continues east.
+~
+~
+0 0 7815
+D2
+The valley continues south.
+~
+~
+0 0 7809
+D3
+The valley continues west.
+~
+~
+0 0 7813
+S
+#7815
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+This road leads west and east through the wide open Valley of the
+Elves.  All about can be heard the vibrant sounds of nature.  Birdsong
+floats on the warm breeze while insects hum and chirp.
+~
+0 0 0 11
+0
+D0
+The valley continues north.
+~
+~
+0 0 7820
+D1
+The valley continues east.
+~
+~
+0 0 7816
+D2
+The valley continues south.
+~
+~
+0 0 7810
+D3
+The valley continues west.
+~
+~
+0 0 7814
+S
+#7816
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+A narrow cobblestone road leads west and east through the Valley
+of the Elves.  All around lush green grasses grow, dotted with stands
+of trees and patches of wildflowers.
+~
+0 0 0 11
+0
+D0
+The valley continues north.
+~
+~
+0 0 7821
+D1
+The valley continues east.
+~
+~
+0 0 7817
+D2
+The valley continues south.
+~
+~
+0 0 7811
+D3
+The valley continues west.
+~
+~
+0 0 7815
+S
+#7817
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+Here is an intersection in the narrow cobblestone road that runs
+through the valley.  The main road leads north and south.  It also
+branches west where it heads toward a small village.
+~
+0 0 0 11
+0
+D0
+The valley continues north.
+~
+~
+0 0 7822
+D1
+~
+~
+0 0 7832
+D2
+The valley continues south.
+~
+~
+0 0 7812
+D3
+The valley continues west.
+~
+~
+0 0 7816
+S
+#7818
+{gThe {GElven Val{gley{x~
+~
+Here, on the edge of the Valley of the Elves, a tall rocky ridge rises
+overhead.  The rim is too convex and the rocks too loose to be able to
+reasonably climb out.  The lush greenery of the valley spreads out away
+from the ridge, inviting exploration.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58001
+D1
+The valley continues east.
+~
+~
+0 0 7819
+D2
+The valley continues south.
+~
+~
+0 0 7813
+S
+#7819
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7823
+D1
+The valley continues east.
+~
+~
+0 0 7820
+D2
+The valley continues south.
+~
+~
+0 0 7814
+D3
+The valley continues west.
+~
+~
+0 0 7818
+S
+#7820
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  There is a group
+of elves who call this valley home, however, caution is warranted as they are
+notorious for being distrustful of outsiders.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7824
+D1
+The valley continues east.
+~
+~
+0 0 7821
+D2
+The valley continues south.
+~
+~
+0 0 7815
+D3
+The valley continues west.
+~
+~
+0 0 7819
+S
+#7821
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+The valley continues north.
+~
+~
+0 0 7825
+D1
+The valley continues east.
+~
+~
+0 0 7822
+D2
+The valley continues south.
+~
+~
+0 0 7816
+D3
+The valley continues west.
+~
+~
+0 0 7820
+S
+#7822
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+This road leads north and south through the wide open Valley of the
+Elves.  All about can be heard the vibrant sounds of nature.  Birdsong
+floats on the warm breeze while insects hum and chirp.
+~
+0 0 0 11
+0
+D0
+~
+~
+0 0 58006
+D1
+~
+~
+0 0 7837
+D2
+The valley continues south.
+~
+~
+0 0 7817
+D3
+The valley continues west.
+~
+~
+0 0 7821
+S
+#7823
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  There is a group
+of elves who call this valley home, however, caution is warranted as they are
+notorious for being distrustful of outsiders.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58003
+D1
+The valley continues east.
+~
+~
+0 0 7824
+D2
+The valley continues south
+~
+~
+0 0 7819
+D3
+~
+~
+0 0 58001
+S
+#7824
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+A small trail leads away from the valley.
+~
+~
+0 0 7826
+D1
+The valley continues east.
+~
+~
+0 0 7825
+D2
+The valley continues south.
+~
+~
+0 0 7820
+D3
+The valley continues west.
+~
+~
+0 0 7823
+S
+#7825
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay temperate.  It is unclear if that is a result
+of the unique geography of the area or an act of magic.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58004
+D1
+~
+~
+0 0 58006
+D2
+The valley continues south.
+~
+~
+0 0 7821
+D3
+The valley continues west.
+~
+~
+0 0 7824
+S
+#7826
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay temperate.  It is unclear if that is a result
+of the unique geography of the area or an act of magic.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58043
+D1
+~
+~
+0 0 58004
+D2
+The trail leads back to the valley.
+~
+~
+0 0 7824
+D3
+~
+~
+0 0 58003
+S
+#7827
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+The road leading north and south through the valley isn't so much
+paved as it is just a narrow path of well-worn rocks and gravel.
+Tall grasses lead in all directions, dotted with the occasional tree.
+~
+0 0 0 11
+0
+D0
+~
+~
+0 0 7812
+D1
+~
+~
+0 0 7891
+D2
+~
+~
+0 0 58026
+D3
+~
+~
+0 0 7807
+S
+#7828
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+You see a small valley north.
+~
+~
+0 0 7829
+D1
+~
+~
+0 0 58012
+D2
+~
+~
+0 0 58014
+D3
+~
+~
+0 0 7891
+S
+#7829
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  To the north is the
+entrance to a large wooden building.  The structure almost looks like it was
+grown from the earth as there are no cuts or breaks in its wooden construction.
+~
+0 0 0 2
+0
+D0
+You see the building.
+~
+door~
+8 -1 7834
+D1
+You see the trail around the building.
+~
+~
+0 0 7831
+D2
+You see the trail leading away from this valley.
+~
+~
+0 0 7828
+D3
+You see the trail around the building.
+~
+~
+0 0 7830
+S
+#7830
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+You see the trail.
+~
+~
+0 0 7832
+D1
+You see the trail.
+~
+~
+0 0 7829
+D2
+~
+~
+0 0 7891
+D3
+~
+~
+0 0 7812
+S
+#7831
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  To the north is the outside
+wall of a large wooden building.
+~
+0 0 0 2
+0
+D1
+You see the trail.
+~
+~
+0 0 7833
+D2
+~
+~
+0 0 58012
+D3
+You see the trail.
+~
+~
+0 0 7829
+S
+#7832
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  To the east
+there stands a large wooden building that appears to be some type of
+communal living home.
+~
+0 0 0 2
+0
+D0
+You see the trail.
+~
+~
+0 0 7837
+D2
+You see the trail.
+~
+~
+0 0 7830
+D3
+~
+~
+0 0 7817
+S
+#7833
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+You see the trail.
+~
+~
+0 0 7836
+D1
+~
+~
+0 0 58028
+D2
+~
+~
+0 0 58011
+D3
+You see the trail.
+~
+~
+0 0 7831
+S
+#7834
+The Elf Home~
+~
+This is a community home of the valley elves.  The building continues to
+the north and east.  The exit is to the south.
+~
+0 12 0 0
+0
+D0
+The building continues to the north.
+~
+~
+0 0 7838
+D1
+The building continues to the east.
+~
+~
+0 0 7835
+D2
+The exit is to the south.
+~
+door~
+8 -1 7829
+S
+#7835
+The Kitchen~
+~
+This is a community kitchen for the valley elven home.  Pots and pans line
+the walls, along with shelves filled with foodstuffs.  A big oven sits to one
+side, whithin which elfcakes are being baked.  The home continues to the north
+and to the west.
+~
+0 8 0 0
+0
+D0
+The building continues to the north.
+~
+~
+0 0 7839
+D3
+The building continues to the west.
+~
+~
+0 0 7834
+S
+#7836
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay comfortable.  Directly west stands a large
+wooden building that looks to be able to house quite an extended family.
+~
+0 0 0 2
+0
+D0
+You see the trail.
+~
+~
+0 0 7840
+D1
+~
+~
+0 0 58029
+D2
+You see the trail.
+~
+~
+0 0 7833
+S
+#7837
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay comfortable.  Directly east stands a large
+wooden building that looks to be able to house quite an extended family.
+~
+0 0 0 2
+0
+D0
+You see the trail.
+~
+~
+0 0 7841
+D2
+You see the trail.
+~
+~
+0 0 7832
+D3
+~
+~
+0 0 7822
+S
+#7838
+The Living Room~
+~
+The living room of the elven home.  Mats cover the floor, and there is
+a table in the middle with bowl full of fruit.  Through the window can
+be seen the valley, with its wild flowers and tall, green grasses.
+~
+0 8 0 0
+0
+D1
+The building continues to the east.
+~
+~
+0 0 7839
+D2
+The entrance is to the south.
+~
+~
+0 0 7834
+S
+#7839
+The Storage Room~
+~
+This is a storage area of the elven home.  Sacks of flour cover one side
+and cleaning accessories cover the other side.  There appears to be nothing
+else of note here.  A staircase leads up.
+~
+0 8 0 0
+0
+D2
+The building continues to the south.
+~
+~
+0 0 7835
+D3
+The building continues to the west.
+~
+~
+0 0 7838
+D4
+You see the second floor.
+~
+~
+0 0 7848
+S
+#7840
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  To the west
+there stands a large wooden building that appears to be some type of
+communal living home.
+~
+0 0 0 2
+0
+D0
+You see the trail.
+~
+~
+0 0 7844
+D1
+~
+~
+0 0 58032
+D2
+You see the trail.
+~
+~
+0 0 7836
+S
+#7841
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58007
+D1
+You see the trail.
+~
+~
+0 0 7842
+D2
+You see the trail.
+~
+~
+0 0 7837
+D3
+~
+~
+0 0 58006
+S
+#7842
+{gThe {GElven Val{gley{x~
+~
+This secluded valley is surrounded on all sides by a rocky ridge which
+protects it from harsh weather and many outside visitors.  To the south
+there stands a large wooden building that appears to be some type of
+communal living home.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58008
+D1
+You see the trail.
+~
+~
+0 0 7843
+D3
+You see the trail.
+~
+~
+0 0 7841
+S
+#7843
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  To the south is the outside
+wall of a large wooden building.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58009
+D1
+You see the trail.
+~
+~
+0 0 7844
+D3
+You see the trail.
+~
+~
+0 0 7842
+S
+#7844
+{gThe {GElven Val{gley{x~
+~
+The green grass of the Valley of the Elves spreads out in all directions,
+waving gently with the breeze.  There are scattered stands of trees along
+with patches of wildflowers and sweet clover.  Animals, insects, and birds
+abound, thriving in this beautiful setting.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 58010
+D1
+~
+~
+0 0 58033
+D2
+You see the trail.
+~
+~
+0 0 7840
+D3
+You see the trail.
+~
+~
+0 0 7843
+S
+#7845
+The Elders' Room~
+~
+This is the private room for the elders of the valley elves.  Many books
+written in obscure languages line numerous shelves and there is a long
+table absolutely covered in scrolls.  There is a smooth, spheric object
+in the center of the room that serves an unknown purpose.
+~
+0 8 0 0
+0
+E
+spheric~
+Strange visions swirl within the sphere but nothing seems to come into focus.
+~
+E
+sphere~
+Strange visions swirl within the sphere but nothing seems to come into focus.
+~
+D0
+You see another room.
+~
+door~
+8 -1 7847
+D1
+You see another room.
+~
+door~
+2568 7804 7846
+S
+#7846
+The Storage Room~
+~
+This is a small storage room.  There are several boxes stacked
+about and shelves holding plain clothing.  A fine layer of dust
+has settled over everything, seeming to indicate that people don't
+often come in here.
+~
+0 8 0 0
+0
+D3
+You see another room.
+~
+door~
+2568 7804 7845
+S
+#7847
+The Sleeping Quarters~
+~
+This appears to be the sleeping quarters of the valley elves.  Cots are
+lined up in rows alongside two windows showing a beautiful view of the
+expanse of the valley below.  There are doors leading east and south.
+~
+0 8 0 0
+0
+D1
+You see another room.
+~
+door~
+8 -1 7848
+D2
+You see another room.
+~
+door~
+8 -1 7845
+S
+#7848
+Study~
+~
+This is a study room in the communal house of the valley elves.
+Comfortable mats sit on the floor and there are musical instruments
+neatly stacked on shelves.  Books in strange languages line even
+more shelves.  A stairway leads down to the first floor.
+~
+0 8 0 0
+0
+D3
+You see another room.
+~
+door~
+8 -1 7847
+D5
+You see the first floor.
+~
+~
+0 0 7839
+S
+#7849
+A Trail on the Rim of the Valley~
+~
+This faint trail leads around the rocky rim overlooking a lush green
+valley below.  It is known as the Valley of the Elves, due to a small
+settlement of rather reclusive elves that live there.  It is possible
+to drop down the ridge into the valley but not to climb back up.
+~
+0 0 0 2
+0
+D1
+~
+~
+0 0 7850
+D2
+~
+~
+0 0 7803
+D5
+~
+~
+0 0 58024
+S
+#7850
+A Trail on the Rim of the Valley~
+~
+A narrow game trail works its way along the ridge overlooking the
+Valley of the Elves.  The valley below appears green and vibrant
+with several scattered stands of trees.  It would be easy to drop
+down the ledge into the valley but impossible to climb back up here.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7851
+D3
+~
+~
+0 0 7849
+D5
+~
+~
+0 0 58015
+S
+#7851
+A Trail on the Rim of the Valley~
+~
+This is a narrow, winding trail following along the rim of the Valley
+of the Elves.  Below can be see the valley, filled with wild flowers
+and tall, green grasses.  It looks like it would be possible to slide
+down the ridge toward the valley but not to climb back up.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7852
+D2
+~
+~
+0 0 7850
+D4
+~
+~
+0 0 49225
+D5
+~
+~
+0 0 58011
+S
+#7852
+A Trail on the Rim of the Valley~
+~
+This faint trail leads around the rocky rim overlooking a lush green
+valley below.  It is known as the Valley of the Elves, due to a small
+settlement of rather reclusive elves that live there.  It is possible
+to drop down the ridge into the valley but not to climb back up.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7853
+D2
+~
+~
+0 0 7851
+D5
+~
+~
+0 0 58030
+S
+#7853
+A Trail on the Rim of the Valley~
+~
+A narrow game trail works its way along the ridge overlooking the
+Valley of the Elves.  The valley below appears green and vibrant
+with several scattered stands of trees.  It would be easy to drop
+down the ledge into the valley but impossible to climb back up here.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7854
+D2
+~
+~
+0 0 7852
+D5
+~
+~
+0 0 58033
+S
+#7854
+A Trail on the Rim of the Valley~
+~
+This is a narrow, winding trail following along the rim of the Valley
+of the Elves.  Below can be see the valley, filled with wild flowers
+and tall, green grasses.  It looks like it would be possible to slide
+down the ridge toward the valley but not to climb back up.
+~
+0 0 0 2
+0
+D2
+~
+~
+0 0 7853
+D3
+~
+~
+0 0 7855
+D5
+~
+~
+0 0 58034
+S
+#7855
+A Trail on the Rim of the Valley~
+~
+This faint trail leads around the rocky rim overlooking a lush green
+valley below.  To the east is a rope bridge spanning a break in the
+ridge.  To the north, a broader path branches from the trail.  It is
+also possible to drop off the ridge down into the valley but it would
+be too difficult to climb back up.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7856
+D1
+~
+~
+0 0 7854
+D3
+~
+~
+0 0 7858
+D5
+~
+~
+0 0 58038
+S
+#7856
+A Trail on the Rim of the Valley~
+~
+A broad dirt path leads north and south here through a grassy
+field.  To the south can be seen a rocky ridge overlooking a
+valley of some sort.  To the north is an imposing and dense
+forest of tall trees.
+~
+0 4 0 2
+0
+D0
+~
+~
+0 0 19300
+D2
+~
+~
+0 0 7855
+D5
+The trail down doesn't look safe to travel on at all.
+~
+~
+0 0 7883
+S
+#7857
+Unused~
+~
+~
+0 32772 0 2
+0
+S
+#7858
+On the Rope Bridge~
+~
+A well made rope bridge spans a break in the ridge that surrounds
+the valley below.  From here, it is possible see the whole Valley of
+the Elves.  Directly south is see the main valley but to the southwest
+there appears to be a passage to a smaller valley.  In the southeastern
+section of the main valley there is a large wooden house and a road
+passes directly below the bridge.  A rope ladder leads down to the road.
+~
+0 0 0 27
+0
+D1
+~
+~
+0 0 7855
+D3
+~
+~
+0 0 7859
+D4
+~
+~
+0 0 49074
+D5
+~
+~
+0 0 58039
+S
+#7859
+A Trail on the Rim of the Valley~
+~
+This faint trail leads around the rocky rim overlooking a lush green
+valley below.  To the east is a rope bridge spanning a break in the
+ridge which serves as an outlet for the valley below.  It is possible
+to drop down the ridge into the valley but not to climb back up.
+~
+0 0 0 2
+0
+D1
+You see a rope bridge.
+~
+~
+0 0 7858
+D3
+~
+~
+0 0 7860
+D5
+~
+~
+0 0 58040
+S
+#7860
+A Trail on the Rim of the Valley~
+~
+A narrow game trail works its way along the ridge overlooking the
+Valley of the Elves.  The valley below appears green and vibrant
+with several scattered stands of trees.  It would be easy to drop
+down the ledge into the valley but impossible to climb back up here.
+~
+0 0 0 2
+0
+D1
+~
+~
+0 0 7859
+D2
+~
+~
+0 0 7861
+D5
+~
+~
+0 0 58042
+S
+#7861
+A Trail on the Rim of the Valley~
+~
+This is a narrow, winding trail following along the rim of the Valley
+of the Elves.  Below can be see the valley, filled with wild flowers
+and tall, green grasses.  It looks like it would be possible to slide
+down the ridge toward the valley but not to climb back up.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7860
+D3
+~
+~
+0 0 7862
+D4
+~
+~
+0 0 49124
+D5
+~
+~
+0 0 58044
+S
+#7862
+A Trail on the Rim of the Valley~
+~
+This faint trail leads around the rocky rim overlooking a lush green
+valley below.  It is known as the Valley of the Elves, due to a small
+settlement of rather reclusive elves that live there.  It is possible
+to drop down the ridge into the valley but not to climb back up.
+~
+0 0 0 2
+0
+D1
+~
+~
+0 0 7861
+D2
+~
+~
+0 0 7863
+D5
+~
+~
+0 0 58002
+S
+#7863
+A Trail on the Rim of the Valley~
+~
+A narrow game trail works its way along the ridge overlooking the
+Valley of the Elves.  The valley below appears green and vibrant
+with several scattered stands of trees.  It would be easy to drop
+down the ledge into the valley but impossible to climb back up here.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7862
+D2
+~
+~
+0 0 7864
+D4
+~
+~
+0 0 49075
+D5
+~
+~
+0 0 7818
+S
+#7864
+A Trail on the Rim of the Valley~
+~
+This is a narrow, winding trail following along the rim of the Valley
+of the Elves.  Below can be see the valley, filled with wild flowers
+and tall, green grasses.  It looks like it would be possible to slide
+down the ridge toward the valley but not to climb back up.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7863
+D1
+~
+~
+0 0 7865
+D5
+~
+~
+0 0 7808
+S
+#7865
+A Trail on the Rim of the Valley~
+~
+This faint trail leads around the rocky rim overlooking a lush green
+valley below.  It is known as the Valley of the Elves, due to a small
+settlement of rather reclusive elves that live there.  It is possible
+to drop down the ridge into the valley but not to climb back up.
+~
+0 0 0 2
+0
+D2
+~
+~
+0 0 7866
+D3
+~
+~
+0 0 7864
+D4
+~
+~
+0 0 49126
+D5
+~
+~
+0 0 58020
+S
+#7866
+A Trail on the Rim of the Valley~
+~
+A narrow game trail works its way along the ridge overlooking the
+Valley of the Elves.  The valley below appears green and vibrant
+with several scattered stands of trees.  It would be easy to drop
+down the ledge into the valley but impossible to climb back up here.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7865
+D1
+~
+~
+0 0 7867
+D4
+~
+~
+0 0 49128
+D5
+~
+~
+0 0 58018
+S
+#7867
+A Trail on the Rim of the Valley~
+~
+This is a narrow, winding trail following along the rim of the Valley
+of the Elves.  Below can be see the valley, filled with wild flowers
+and tall, green grasses.  It looks like it would be possible to slide
+down the ridge toward the valley but not to climb back up.
+~
+0 0 0 2
+0
+D2
+~
+~
+0 0 7802
+D3
+~
+~
+0 0 7866
+D5
+~
+~
+0 0 58022
+S
+#7868
+{BOn The {BTh{be D{Car{bk Po{Bnd{x~
+~
+This large pond divides the secluded valley, stretching from the
+northern ridge of the valley all the way to the southern.  The waters
+are still and completely dark, making the depth seem eternal.  A complete
+silence pervades the area, as if any sound is absorbed by the dark pond
+itself.
+~
+0 0 0 6
+0
+D1
+~
+~
+0 0 7883
+D2
+~
+~
+0 0 58084
+S
+#7869
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+This well maintained cobblestone road leads east and west through
+the small elven settlement.  A wooden building that looks like a
+hunting lodge sits to the north.  A ways to the west lies a village
+square and the valley can be found to the east.
+~
+0 4 0 11
+0
+D0
+~
+~
+0 0 58051
+D1
+~
+~
+0 0 7813
+D3
+~
+~
+0 0 58050
+S
+#7870
+{*[{GElven Vi{gllage Sq{Guare{*]{x~
+~
+{x
+{gA terrace{Gd {Wsquare mark{ws the center of this sma{Wll elven village.  The{x
+{gsquare {Gis{W paved in b{weautiful white marble an{Wd several potted trees and{x
+{gflowe{Gri{Wng bushes a{wre placed all about.  On{W a raised tier in the center{x
+{gof {Gth{We square is{w a beautiful fountain.  {WThe road lies east and the{x
+{gs{Gqu{Ware continu{wes in all other directio{Wns.{x
+~
+0 0 0 11
+0
+D0
+The valley continues to the north.
+~
+~
+0 0 7871
+D1
+~
+~
+0 0 58050
+D2
+The valley continues to the south.
+~
+~
+0 0 7872
+D3
+~
+~
+0 0 58062
+S
+#7871
+{*[{GElven Vi{gllage Sq{Guare{*]{x~
+~
+{x
+{gA terrace{Gd {Wsquare mark{ws the center of this sma{Wll elven village.  The{x
+{gsquare {Gis{W paved in b{weautiful white marble an{Wd several potted trees and{x
+{gflowe{Gri{Wng bushes a{wre placed all about.  On{W a raised tier in the center{x
+{gof {Gth{We square is{w a beautiful fountain.  {WA shop stands to the north and{x
+{gt{Ghe{W square con{wtinues to the west and s{Wouth.{x
+~
+0 0 0 11
+0
+D0
+~
+~
+0 0 58061
+D2
+The valley continues to the south.
+~
+~
+0 0 7870
+D3
+The valley continues to the west.
+~
+~
+0 0 7873
+S
+#7872
+{*[{GElven Vi{gllage Sq{Guare{*]{x~
+~
+{x
+{gA terrace{Gd {Wsquare mark{ws the center of this sma{Wll elven village.  The{x
+{gsquare {Gis{W paved in b{weautiful white marble an{Wd several potted trees and{x
+{gflowe{Gri{Wng bushes a{wre placed all about.  On{W a raised tier in the center{x
+{gof {Gth{We square is{w a beautiful fountain.  {WA shop stands to the south and{x
+{gt{Ghe{W square con{wtinues to the west and n{Worth.{x
+~
+0 0 0 11
+0
+D0
+The valley continues to the north.
+~
+~
+0 0 7870
+D2
+~
+~
+0 0 58054
+D3
+The valley continues to the west.
+~
+~
+0 0 7877
+S
+#7873
+{*[{GElven Vi{gllage Sq{Guare{*]{x~
+~
+{x
+{gA terrace{Gd {Wsquare mark{ws the center of this sma{Wll elven village.  The{x
+{gsquare {Gis{W paved in b{weautiful white marble an{Wd several potted trees and{x
+{gflowe{Gri{Wng bushes a{wre placed all about.  On{W a raised tier in the center{x
+{gof {Gth{We square is{w a beautiful fountain.  {WA shop stands to the west and{x
+{gt{Ghe{W square con{wtinues to the east and s{Wouth.{x
+~
+0 4 0 11
+0
+D0
+~
+~
+0 0 21650
+D1
+The valley continues to the east.
+~
+~
+0 0 7871
+D2
+~
+~
+0 0 58062
+D3
+The valley continues to the west.
+~
+~
+0 0 7874
+S
+#7874
+{GSy{glvan{yic {*Scri{wbe{x~
+~
+This large shop almost looks like a library.  There are rows upon rows
+of tall wooden shelves, all filled with very neatly organized scroll
+casings.  Despite the vastness of the merchandise, there is not a single
+speck of dust to be found anywhere.  You may {Ylook{x at any item that's for
+sale to see the stats on it.
+~
+0 12 0 13
+0
+E
+oasis~
+Object 'scroll oasis' is type scroll, extra flags magic.
+Weight is 0, value is 129, level is 10.
+Level 10 spells of: 'create spring'.
+~
+E
+judgment~
+Object 'judgment scroll' is type scroll, extra flags magic.
+Weight is 0, value is 368, level is 10.
+Level 10 spells of: 'detect evil' 'detect good'.
+~
+E
+reforging~
+Object 'reforging scroll' is type scroll, extra flags magic.
+Weight is 0, value is 65, level is 15.
+Level 16 spells of: 'enchant armor'.
+~
+E
+aid~
+Object 'first aid scroll' is type scroll, extra flags magic.
+Weight is 0, value is 306, level is 15.
+Level 15 spells of: 'cure critical'.
+~
+E
+first~
+Object 'first aid scroll' is type scroll, extra flags magic.
+Weight is 0, value is 306, level is 15.
+Level 15 spells of: 'cure critical'.
+~
+E
+winter~
+Object 'winter scroll' is type scroll, extra flags magic.
+Weight is 0, value is 248, level is 15.
+Level 10 spells of: 'chill touch' 'chill touch' 'chill touch' 'chill touch'.
+~
+E
+healing~
+Object 'healing scroll' is type scroll, extra flags magic.
+Weight is 1, value is 1265, level is 22.
+Level 32 spells of: 'heal'.
+~
+E
+missiles~
+Object 'missiles scroll' is type scroll, extra flags magic.
+Weight is 0, value is 378, level is 40.
+Level 40 spells of: 'magic missile' 'magic missile'.
+~
+D1
+The valley continues to the east.
+~
+~
+0 0 7873
+S
+#7875
+{*[{GElven Vi{gllage Sq{Guare{*]{x~
+~
+This well maintained cobblestone road leads east and west through
+the small elven settlement.  Directly east lies a village square
+and there seem to be a few more buildings along the road to the
+west. 
+~
+0 0 0 11
+0
+D1
+~
+~
+0 0 58062
+D3
+~
+~
+0 0 7892
+S
+#7876
+{GSy{glvan{yic {cFormul{Cary{x~
+~
+This small shop is filled with rows upon rows of bottles.  Each bottle
+contains a different colored liquid, some shimmering, some bubbling, but
+all with a distinct aura of magic.  There is a work table in the back
+with many tins and glass beakers sitting upon it.  To see the stats of
+any item for sale, simply {Ylook{x at it.
+~
+0 12 0 13
+0
+E
+favor~
+Object 'divine favor potion' is type potion, extra flags magic.
+Weight is 0, value is 216, level is 1.
+Level 10 spells of: 'bless'.
+~
+E
+divine~
+Object 'divine favor potion' is type potion, extra flags magic.
+Weight is 0, value is 216, level is 1.
+Level 10 spells of: 'bless'.
+~
+E
+stealth~
+Object 'stealth potion' is type potion, extra flags magic.
+Weight is 0, value is 155, level is 1.
+Level 10 spells of: 'armor' 'invisibility'.
+~
+E
+insight~
+Object 'insight potion' is type potion, extra flags magic.
+Weight is 0, value is 254, level is 7.
+Level 10 spells of: 'detect hidden' 'detect invis' 'detect good' 'detect evil'.
+~
+E
+rebirth~
+Object 'rebirth potion' is type potion, extra flags magic.
+Weight is 1, value is 197, level is 8.
+Level 10 spells of: 'refresh' 'protection evil' 'cure serious'.
+~
+E
+berserker~
+Object 'berserker potion' is type potion, extra flags magic.
+Weight is 0, value is 224, level is 10.
+Level 10 spells of: 'frenzy'.
+~
+E
+eagleeye~
+Object 'eagleeye potion' is type potion, extra flags magic.
+Weight is 1, value is 292, level is 11.
+Level 14 spells of: 'farsight'.
+~
+E
+aid~
+Object 'first aid potion' is type potion, extra flags magic.
+Weight is 0, value is 227, level is 15.
+Level 15 spells of: 'cure critical'.
+~
+E
+first~
+Object 'first aid potion' is type potion, extra flags magic.
+Weight is 0, value is 227, level is 15.
+Level 15 spells of: 'cure critical'.
+~
+E
+mana~
+Object 'small mana potion' is type potion, extra flags magic.
+Weight is 0, value is 456, level is 15.
+Level 10 spells of: 'restore mana'.
+~
+E
+wickedness~
+Object 'wickedness potion' is type potion, extra flags magic.
+Weight is 0, value is 1380, level is 26.
+Level 36 spells of: 'detect good' 'protection good'.
+~
+D1
+The valley continues to the east.
+~
+~
+0 0 7877
+S
+#7877
+{*[{GElven Vi{gllage Sq{Guare{*]{x~
+~
+{x
+{gA terrace{Gd {Wsquare mark{ws the center of this sma{Wll elven village.  The{x
+{gsquare {Gis{W paved in b{weautiful white marble an{Wd several potted trees and{x
+{gflowe{Gri{Wng bushes a{wre placed all about.  On{W a raised tier in the center{x
+{gof {Gth{We square is{w a beautiful fountain.  {WShops stand to the south and{x
+{gw{Ges{Wt.  The squ{ware continues to the nor{Wth and east.{x
+~
+0 0 0 11
+0
+D0
+~
+~
+0 0 58062
+D1
+The valley continues to the east.
+~
+~
+0 0 7872
+D2
+~
+~
+8 0 58055
+D3
+The valley continues to the west.
+~
+~
+0 0 7876
+S
+#7878
+Inside the Small Shack~
+~
+This is the inside of a small wooden shack.  It looks like this meager
+shelter was lashed together using nothing more than rope and spare wood.
+A small stove sits to one side, with soup cooking atop it.  There is a
+foul, musty smell hanging in the air.  A ratty old rug lays slightly
+askew on the floor.
+~
+0 8 0 0
+0
+D2
+~
+~
+0 0 58069
+D5
+You see a trap door!
+~
+trap door~
+65544 -1 7879
+S
+#7879
+Beneath the Small Shack~
+~
+This is a damp, earthen tunnel.  Despite being underground, the tunnel
+feels unnaturally warm.  A ladder leads up toward the small shack which
+appears to just be a ruse for disguising this passage.  The tunnel leads
+south.
+~
+0 9 0 0
+0
+D2
+The room looks reddish down there.
+~
+~
+0 0 7880
+D4
+Back to known territory!
+~
+trap door~
+65544 -1 7878
+S
+#7880
+The Den of the Pyrohydra~
+~
+This is a large, hollowed out cavern with a tunnel leading to the north.
+All the walls are charred and this room is filled with a smell close to
+that of burning tar.  This appears to be the den for a fiery creature,
+most likely used as some type of guardian.  There is a door set into the
+wall to the west and some cracks in the rock to the east.
+~
+0 9 0 0
+0
+D0
+You see the relative safety to the north.
+~
+~
+0 0 7879
+D1
+You see breaks in the charred rock to the east.
+~
+secret door~
+35336 7805 7882
+D3
+You see a door to the west.
+~
+door~
+2568 7805 7881
+S
+#7881
+The Workroom~
+~
+This room looks like it is used for magical studies.  Potions bubble over
+burners and the whole room smells of herbs and dead animal flesh.  A furnace
+to the side casts a bright light in this room.  The whole room radiates with
+a magical aura.
+~
+0 8 0 0
+0
+D1
+~
+door~
+2568 7805 7880
+S
+#7882
+The Storage Room~
+~
+This underground room appears to be used to store scrolls, potions, and
+other magical items.  The whole area radiates with a magical aura.
+~
+0 8 0 0
+0
+D3
+~
+secret door~
+35336 7805 7880
+S
+#7883
+{BOn The {BTh{be D{Car{bk Po{Bnd{x~
+~
+The waters of this large pond are completely dark and absolutely still,
+making it impossible to determine its depth.  The mirror-like surface of
+the water reflects the sky above, yet seems to suck any light or color
+beneath the depths.  The pond reaches all the way across the secluded
+valley.
+~
+0 0 0 6
+0
+D2
+~
+~
+0 0 58083
+D3
+~
+~
+0 0 7868
+S
+#7884
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+A rustic cobblestone road leads north and south through a rocky
+pass.  To the south can be seen an opening into a lush green valley.
+To the north, the road continues toward an intersection.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7885
+D2
+~
+~
+0 0 58039
+S
+#7885
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+The aged cobblestones of the Elven Valley Road lead through sparse
+and rocky hillsides here.  To the south, lies the Valley of the Elves,
+home to a private group of elven residents who live amongst the
+wildlife. 
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7886
+D2
+~
+~
+0 0 7884
+S
+#7886
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+The Elven Valley road runs north and south here through the
+countryside.  The terrain is rather barren but in the distance
+to the north can be seen an intersection in the road.  Some ways
+to the south is a tall rocky ridge.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7887
+D2
+~
+~
+0 0 7885
+S
+#7887
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+The old yet well constructed cobblestone Elven Valley Road leads
+north and south here.  To the north, is the intersection with the
+lesser maintained Elven Valley Roadway.  To the south, the road
+leads toward the Valley of the Elves.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7897
+D2
+~
+~
+0 0 7886
+S
+#7888
+Unused~
+~
+~
+0 32772 0 0
+0
+S
+#7889
+{gA {gSecluded {GVal{gley{x~
+~
+The sounds of nature seem somehow harsher and more amplified in this
+small, secluded valley off the main Valley of the Elves.  There are
+several tall trees spread throughout the valley, despite the relative
+darkness cast by the rocky ridges surrounding the area.
+~
+0 0 0 2
+0
+D2
+~
+~
+0 0 7890
+D3
+~
+~
+0 0 58092
+S
+#7890
+{gA {gSecluded {GVal{gley{x~
+~
+Tall stands of trees are all about in this secluded sub-section of
+the Valley of the Elves.  There is a general feeling of arcane energy
+in the air and the natural elements in the area seem strengthened,
+and perhaps a bit twisted, by it.  The valley is surrounded by rock
+ledges, making it difficult to get in and out of.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7889
+D3
+~
+~
+0 0 58049
+S
+#7891
+{gThe {GElven Val{gley{x~
+~
+The sounds of birds and insects float on the air as the surrounding grass
+of the Valley of the Elves swishes in a natural rhythm.  The temperature in
+the valley seems to always stay temperate.  It is unclear if that is a result
+of the unique geography of the area or an act of magic.
+~
+0 0 0 2
+0
+D0
+~
+~
+0 0 7830
+D1
+~
+~
+0 0 7828
+D2
+~
+~
+0 0 58027
+D3
+~
+~
+0 0 7827
+S
+#7892
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+This well maintained cobblestone road leads east and west through
+the small elven settlement.  A short ways east lies a village square.
+To the south, there is a building that looks like a small home. 
+~
+0 0 0 11
+0
+D1
+~
+~
+0 0 7875
+D2
+~
+~
+8 0 58052
+D3
+~
+~
+0 0 7893
+S
+#7893
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+This well maintained cobblestone road leads east and west through
+the outskirts of the small elven settlement off of the main valley.
+To the north, there is a building that looks like a small home. 
+~
+0 0 0 11
+0
+D0
+~
+~
+8 0 58063
+D1
+~
+~
+0 0 7892
+D3
+~
+~
+0 0 7894
+S
+#7894
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+This well maintained cobblestone road leads east and west through
+the outskirts of the small elven settlement off of the main valley.
+To the south, there is a building that looks like a small home.
+~
+0 0 0 11
+0
+D1
+~
+~
+0 0 7893
+D2
+~
+~
+8 0 58065
+D3
+~
+~
+0 0 7895
+S
+#7895
+{*[{GElven Vi{glla{Gge Road{*]{x~
+~
+The cobblestone road that leads through the Valley of the Elves and
+the small elven settlement peters out here.  The stone pavement
+becomes more and more broken until it is really nothing more than a
+dirt path.  The settlement and valley can be found to the east. 
+~
+0 4 0 11
+0
+D0
+~
+~
+0 0 15068
+D1
+~
+~
+0 0 7894
+S
+#7896
+Unused~
+~
+~
+0 32772 0 2
+0
+S
+#7897
+{*[{GThe E{glven Valle{Gy Road{*]{x~
+~
+The cobblestone surface of the Elven Valley road leads north and south
+through rocky hillsides.  A distance to the south lies a tall ridge and
+the rather secluded Valley of the Elves beyond.  To the north, the road
+connects to a branching intersection. 
+~
+0 4 0 2
+0
+D0
+~
+~
+0 0 28115
+D2
+~
+~
+0 0 7887
+S
+#0
+
+
+
+#SPECIALS
+M 7807 spec_cast_cleric
+M 7808 spec_cast_cleric
+M 7809 spec_breath_fire
+M 7811 spec_cast_mage
+S
+
+
+
+#RESETS
+D 0 7829 0 1
+D 0 7834 2 1
+D 0 7845 0 1
+D 0 7845 1 2
+D 0 7846 3 2
+D 0 7847 1 1
+D 0 7847 2 1
+D 0 7848 3 1
+D 0 7877 2 1
+D 0 7878 5 1
+D 0 7879 4 1
+D 0 7880 1 2
+D 0 7880 3 2
+D 0 7881 1 2
+D 0 7882 3 2
+O 0 7826 0 7800
+M 0 7819 6 7805 1
+M 0 7813 6 7806 1
+M 0 7802 6 7807 1
+M 0 7819 6 7808 1
+M 0 7814 6 7809 1
+M 0 7802 6 7810 1
+M 0 7814 6 7811 1
+M 0 7803 10 7813 1
+E 0 7802 0 16
+M 0 7804 10 7813 1
+E 0 7802 0 16
+M 0 7819 6 7814 1
+M 0 7805 6 7818 1
+M 0 7813 6 7820 1
+M 0 7819 6 7821 1
+M 0 7814 6 7821 1
+M 0 7813 6 7823 1
+M 0 7801 6 7824 1
+M 0 7805 6 7825 1
+M 0 7813 6 7826 1
+M 0 7802 6 7828 1
+M 0 7814 6 7829 1
+M 0 7813 6 7830 1
+M 0 7802 6 7831 1
+M 0 7801 6 7833 1
+O 0 7827 0 7835
+P 0 7828 4 7827 4
+P 0 7828 4 7827 4
+P 0 7828 4 7827 4
+P 0 7828 4 7827 4
+M 0 7806 5 7835 1
+M 0 7815 1 7835 1
+M 0 7819 6 7836 1
+M 0 7813 6 7837 1
+O 0 7830 0 7838
+P 0 7833 1 7830 1
+P 0 7832 2 7830 2
+P 0 7831 2 7830 2
+O 0 7829 0 7838
+M 0 7806 5 7838 1
+M 0 7806 5 7839 1
+M 0 7802 6 7840 1
+M 0 7814 6 7841 1
+M 0 7801 6 7842 1
+M 0 7819 6 7843 1
+M 0 7801 6 7844 1
+M 0 7808 1 7845 1
+E 0 7825 0 16
+M 0 7807 1 7845 1
+G 0 7804 0
+E 0 7825 0 16
+O 0 7840 0 7846
+P 0 7841 1 7840 1
+P 0 7839 1 7840 1
+M 0 7806 5 7847 2
+M 0 7806 5 7847 2
+M 0 7820 2 7848 2
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7820 2 7848 2
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7803 10 7849 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7803 0 16
+E 0 7803 0 3
+M 0 7804 10 7850 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7803 10 7852 1
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7804 10 7853 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7803 10 7854 1
+E 0 7802 0 16
+M 0 7804 10 7860 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7803 10 7862 1
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7804 10 7863 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7803 10 7865 1
+E 0 7802 0 16
+M 0 7803 10 7866 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7804 10 7867 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7803 0 16
+E 0 7803 0 3
+M 0 7800 3 7869 1
+M 0 7818 10 7870 1
+O 0 7838 0 7870
+O 0 7837 0 7870
+M 0 7818 10 7871 1
+O 0 7838 0 7871
+O 0 7837 0 7871
+M 0 7818 10 7872 1
+O 0 7838 0 7872
+O 0 7837 0 7872
+M 0 7818 10 7873 1
+O 0 7838 0 7873
+O 0 7837 0 7873
+M 0 7817 1 7874 1
+G 0 7823 0
+G 0 7822 0
+G 0 7821 0
+G 0 7820 0
+G 0 7819 0
+G 0 7818 0
+G 0 7817 0
+M 0 7800 3 7875 1
+M 0 7818 10 7875 1
+M 0 7816 1 7876 1
+G 0 7816 0
+G 0 7815 0
+G 0 7814 0
+G 0 7813 0
+G 0 7812 0
+G 0 7811 0
+G 0 7810 0
+G 0 7809 0
+G 0 7808 0
+M 0 7818 10 7877 1
+O 0 7838 0 7877
+O 0 7837 0 7877
+M 0 7810 1 7878 1
+M 0 7809 1 7880 1
+G 0 7805 0
+M 0 7811 1 7881 1
+E 0 7806 0 1
+E 0 7807 0 16
+E 0 7824 0 0
+O 0 7834 0 7882
+P 0 7810 3 7834 3
+P 0 7821 2 7834 2
+P 0 7822 2 7834 2
+P 0 7815 4 7834 4
+P 0 7809 4 7834 4
+M 0 7821 1 7882 1
+M 0 7803 10 7884 1
+E 0 7800 0 5
+E 0 7801 0 8
+E 0 7802 0 16
+E 0 7803 0 3
+M 0 7814 6 7891 1
+M 0 7818 10 7892 1
+M 0 7818 10 7893 1
+M 0 7818 10 7894 1
+M 0 7800 3 7895 1
+S
+
+
+
+#SHOPS
+7816 10 0 0 0 0 100 90 0 23
+7817 2 0 0 0 0 100 90 0 23
+0
+
+
+
+#MOBPROGS
+#7800
+Stove mob burn prog~
+{x
+mob echoat $n {ROUCH!{x You burned yourself on the hot stove.
+mob damage $n 10 50 lethal flame
+{x
+~
+#7801
+Elder greet~
+if carries $n 58031
+or carries $n 7843
+mob echoat $n $I {cnotices your belt and gives you a respectful nod of acknowledgement.{x
+else
+if race $n elf
+mob echoat $n{x
+mob echoat $n {cThe elder glances up at you briefly before grumbling and going back to his studies.{x
+mob echoat $n{x
+else
+mob echoat $n{x
+mob echoat $n {cThe elder glares at you upon your intrusion.{x
+say You have intruded wrongly.  Be prepared to die!
+mob echoat $n{x
+kill $n
+endif
+endif
+~
+#7802
+Valley elf greet 'aggro'~
+if carries $n 58031
+or carries $n 7843
+mob echoat $n $I {cnotices your belt and gives you a respectful nod of acknowledgement.{x
+else
+if level $n < 50
+if race $n elf
+mob echoat $n $I {ceyes you suspiciously but does nothing.{x
+else
+mob echoat $n{x
+mob echoat $n $I {cglares at you.{x
+say You have intruded wrongly.  Be prepared to die!
+mob echoat $n{x
+kill $n
+endif
+else
+mob echoat $n $I {cglares at you but does nothing.{x
+endif
+endif
+~
+#7803
+Elder #2 greet~
+if carries $n 58031
+if carries $n 7806
+mob echo {x
+mob echoat $n $I{c's keen eyes pick out the glint of Tielmon's ring among your posessions.{x
+mob echoat $n $I says, '{WThat ring... it belonged to Tielmon.  That means you've done it, haven't you?  This is good news indeed.{x'
+mob echo {x
+mob echoat $n $I says, '{WHere, take this.  I'm sure you'll find it at least as useful as that evil thing, without the dark energies and any side effects they cause.{x'
+mob oload 7842 0 room
+mob force $n get elderquest1
+mob echo {x
+mob echoat $n $I says, '{WAnd one more thing, you have certainly proven yourself far beyond an honorary ranger.  Here, you need something more special.{x
+mob echoat $n $I {csnatches your {yBelt {*of the {GE{gl{yv{ge{Gn Ra{gng{yer{c with surprising quickness and hands you a new belt in its place.{x'
+mob remove $n 58031
+mob oload 7843 0 room
+mob force $n get elderquest2
+mob echo {x
+mob echoat $n $I says, '{WYou have done more than we ever could have hoped for, $n, outsider or not.  On behalf of all of us, thank you.{x'
+mob echo {x
+else
+mob echo {x
+mob echoat $n $I {clooks up from her studies, gesturing you closer.{x
+mob echoaround $n $I {clooks up from her studies, gesturing $n closer to speak privately.{x
+mob echoat $n $I says, '{WHello, you must be $n, we have heard about your vigilant service from Tahl'fara.  Thanks to your samples, we have been able to determine the cause of the problems in the secluded valley.{x'
+mob echo {x
+mob echoat $n $I says, '{WI'm actually hoping that you might be able to help us {*further {Wwith this issue.{x'
+mob echo {x
+else
+if carries $n 7843
+mob echoat $n $I {cgives you a friendly nod of acknowledgement.{x
+else
+if race $n elf
+mob echoat $n{x
+mob echoat $n {cThe elder glances up at you briefly before grumbling and going back to her studies.{x
+mob echoat $n{x
+else
+mob echoat $n{x
+mob echoat $n {cThe elder glares at you upon your intrusion.{x
+say You have intruded wrongly.  Be prepared to die!
+mob echoat $n{x
+kill $n
+endif
+endif
+endif
+endif
+~
+#7804
+Elder speech further~
+if carries $n 58031
+mob echo {x
+mob echoat $n $I says, '{WIt seems that an old enemy of the valley, a mage by the name of Talemon, has resurfaced and is conducting arcane experiments somewhere in that area.  The magics are twisting the creatures living there and attracting monsters.{x'
+mob echo {x
+mob echoat $n $I says, '{WIf you can find the mage and eliminate him, then return with proof of his death, we would be forever grateful.  I have faith you can do this for us.{x'
+mob echo {x
+mob echoat $n $I {cgives you a kind smile before returning to her studies.{x
+else
+endif
+~
+#7805
+Demon guard greet spawning~
+if carries $i 7844
+break
+else
+mob echo {x
+mob echoat $n As you step into the room, an arcane sigil above the threshold flares to life.  A {Rf{ri{ye{Rr{ry {yr{ri{Rf{rt{x opens in midair and a {rde{*mon{x leaps out to attack.
+mob mload 7812
+mob oload 7844
+mob echo {x
+mob force guardiandemon kill $n
+endif
+~
+#7806
+Guardian demon death prog~
+mob oload 7835
+mob force spawner mob oload 7844
+~
+#7807
+Demon guard spawner random junk all~
+mob junk all
+~
+#7888
+~
+say Valley of the Elves
+~
+#0
+
+#$

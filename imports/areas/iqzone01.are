@@ -1,0 +1,4602 @@
+#AREADATA
+Name Immortal Quest Zone~
+Builders Lliira~
+VNUMs 10600 10999
+Credits [  IMM   ] ImmQuest Zone~
+Security 7
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 3
+Zone 0
+End
+
+
+
+#MOBILES
+#10600
+Black Knight of Camelot~
+The {wB{8lack {wK{8night{x~
+The {wB{8lack {wK{8night {xstands here vigilantly awaiting his next battle.
+~
+{8The B{wlack {8K{wnight {8stands here ready to fight to the death.
+The eye slits of his helmet emit an unnatural {Rblood {rred {8light. 
+He is dressed in heavy plate mail that is scratched and 
+dented from years of fighting. His armor and heavy shield
+are pitch black and contain no heraldry, the sign of an 
+{woutcast {8knight. No longer bound to the rules of chivalry,
+he has become a plaything of the gods to exact {yrevenge
+{8on mortals foolish enough to challenge him.{x
+~
+human~
+ABFO DFVa CDEHR -1000 0
+104 5000 10000d1000+-31073 10000d1000+10000 100d300+2000 cleave
+-150 -150 -150 -150
+ACDEFHK AB FHIM G
+stand stand male 10000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M fight 10600 100~
+M random 10605 15~
+M act 10601 full heal~
+M act 10602 circles around behind~
+M act 10603 strikes you with precision~
+M fight 10600 100~
+M act 10604 gets the black steel gauntlet~
+#10601
+undead acolyte~
+{RA{rn {RU{rndead {RA{rcolyte{x~
+An {RU{rndead {RA{rcolyte {xis here moving steadily north.
+~
+An undead construct built of what apears to be the bodies
+of dead giants.  The flesh practically drips from its bones
+as it ambles its way mindlessly northward.  The aura of dark
+magics swirl about its body malevolently seeking a target.
+Its torso is bloated as if what flesh is still in tact holds
+something in.
+~
+human~
+ABO DFTV HR -1000 0
+104 5000 1000d1800+1 10d200+10000 100d200+1000 wrath
+-200 -200 -200 -200
+AFH AB CFG EN
+stand stand none 1000
+AHMV ABCDEFGHIJK large Undead
+D ~
+T ~
+M give 10619 10613~
+M fight 10609 45~
+M random 10608 80~
+M hpcnt 10607 20~
+M random 10606 14~
+#10602
+westbridge pinata~
+{CA {CF{cestive {BP{binata{c~
+{xA {Cf{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!!!!
+~
+{xA {Cf{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!!!!
+~
+human~
+AB 0 0 0 0
+101 100 30d30+40 1d1+1000 1d1+400 punch
+0 0 0 0
+0 CF 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 10610 100~
+M death 10610 100~
+#10603
+new thalos pinata~
+{CA F{cestive {BP{binata{x~
+{xA {C{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!
+~
+{xA {C{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!
+~
+human~
+AB 0 0 0 0
+101 100 9d10+13 1d1+100 1d1+100 punch
+0 0 0 0
+0 CF 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 10611 100~
+#10604
+darro pinata~
+{CA F{cestive {BP{binata{x~
+{xA {Cf{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!
+~
+{xA {Cf{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!
+~
+human~
+AB 0 0 0 0
+101 100 1d1+1000 1d1+100 1d1+100 punch
+0 0 0 0
+0 CF 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 10612 100~
+#10605
+daggerford pinata~
+{CA F{cestive {BP{binata{x~
+{xA {Cf{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!
+~
+{xA {Cf{cestive {Bp{binata {xis here dangling from a street light.  {RW{rH{RA{rC{RK {rI{RT{x!
+~
+human~
+AB 0 0 0 0
+101 100 1d1+1000 1d1+100 1d1+100 punch
+0 0 0 0
+0 CF 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 10613 100~
+#10606
+Liira pinata IQ placement mob~
+{CL{cliira {BP{binata {RI{rQ {xstarter mob~
+{xThe {BP{binata {Rq{ruest {xplacer mob is here.  ({MLook at me for directions{x)
+~
+Say "place the pinatas" and I will place a pinata at the relative
+center of westbridge, darrowmere, new thalos, and daggerford.
+~
+human~
+AB DF 0 0 0
+110 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10614 place the pinatas~
+#10607
+vorc mprog test mob~
+{RV{ro{Yrc{re{Rt{x's mprog test mob~
+A mob is here with a sign on its back "Kick me!"
+~
+I can has mprog??!?!?
+~
+human~
+AB 0 0 0 0
+110 0 100d100+10000 100d100+10000 0d0+0 punch
+0 0 0 0
+0 ABa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10615 test teleport~
+#10608
+liira Scatter quest mprog mob~
+{CI{ctem {BS{bcatter {xquest item vendor{x~
+{xA {Cs{ccatterquest {xitem vendor is here poking through his bags ({RLOOK AT ME FOR DIRS{x)
+~
+say "i need balloons" for {W[{CI{cQ{W] {RH{rappy {CB{cirthday {MB{malloons{x
+say "i need bubblegum' for {W[{CI{cQ{W] {CA {RF{restive {CP{ciece of {BB{bubblegum{x
+say "i need hats' for {W[{CI{cQ{W] {Wa {YB{yirthday {MP{marty {GH{xat
+~
+human~
+AB 0 0 0 0
+110 0 100d100+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10618 i need hats~
+M speech 10617 i need bubblegum~
+M speech 10616 i need balloons~
+#10609
+undead grunt soldier~
+{RA{rn {RU{rndead {RG{rrunt {RS{roldier{x~
+{xA human sized {Ru{rndead {xshambles around the {RA{rcolytes{x.
+~
+A small human sized undead moves northward with the Acolyte
+as it makes its way to its target.  Long clawed skeletal hands
+make this undead a fearsome but fragile opponent.
+~
+human~
+AF DF 0 -1000 0
+102 1000 10d20+5000 10d10+1000 10d20+500 claw
+-30 -30 -30 -30
+BCDEFKLN M D C
+stand stand none 0
+0 0 medium undead
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#10610
+ruby weapon immquest~
+{RR{ru{Rb{ry{R {GW{ge{yap{go{Gn{x~
+{RR{ru{Rb{ry {GW{ge{yap{go{Gn {xis here protecting Toril.
+~
+An incredibly huge creature with a reddish hued skin that
+appears to be set into plates that perhaps act as armor
+for the mighty beast.  It's claws themselves are the size
+of a giant and could crush most beings with one blow.
+~
+dragon~
+AFG DFJ HR 0 0
+104 4000 1000d2000+10000 1000d500+20000 20d30+1500 claw
+-70 -70 -70 -70
+ACDEFJ AB EH FI
+stand stand none 100000
+AHZ ACDEFGHIJKPQUVX huge unknown
+D ~
+T ~
+F aff T
+F res B
+M fight 10620 100~
+#10611
+emerald weapon~
+{GE{gm{Ge{gr{Ga{gl{Gd {GW{ge{yap{go{Gn{x~
+{GE{gm{Ge{gr{Ga{gl{Gd {GW{ge{yap{go{Gn{x is here defending Toril.
+~
+Emerald Weapon is a large creature with tremendous claws
+on either side of its insectile body.  Its slimy skin
+looks thick and hard as it moves through the water.  The
+space around him crackles with magical energy.
+~
+dragon~
+AF DFJTV HR 0 0
+104 10000 1000d2500+10000 1000d2000+10000 100d200+1000 claw
+-60 -60 -60 -60
+ACDFHIK 0 EH FI
+stand stand none 100000
+AHZ ACDEFGHIJKPQUVX huge unknown
+D ~
+T ~
+F res B
+M fight 10621 100~
+#10612
+Duck~
+The duck~
+{W[{CI{cQ{W] {WA {YD{yuck {Wstands here happily quacking. {YH{yunt {Wit down!{x
+~
+You found an IQ Duck Hunt Duck! Kill it quick!
+~
+water fowl~
+AB Tb 0 0 0
+102 -1 9d20+13 0d0+0 1d1+1 bite
+0 0 0 0
+0 A CR 0
+stand stand none 1
+AGW ACDEFHKP medium feathers
+D ~
+T ~
+#10613
+Rabbid Rabbit easter bunny~
+A Diseased Easter Bunny~
+A rabbid diseased bunny hops around handing out poisoned candy.
+~
+{wA {8dirty {Mp{mink {wman sized bunny {Yh{yops {waround handing 
+out candy to the kiddes. One of his big floppy ears 
+has been {Bc{bhewed{w off. His furry coat is matted with 
+dirt and a few half eaten {Gl{golly {Gp{gops{w. A small amount 
+of {Wwhite foam {whangs from the side of his mouth. In 
+one hand he holds a bottle of jack and in the other 
+an old easter basket full of candy. {mH{Mappy {cE{Caster.{x
+~
+human~
+AF DFTVac CDEHOR -1000 0
+107 5100 10000d600+10000 12000d1500+15000 150d250+3000 bite
+-150 -150 -150 -150
+ABCFHK ABN BM 0
+stand stand male 100
+AHMV ABCDEFGHIJK medium blood
+D ~
+T ~
+#10614
+Syrolf of Rashemen~
+{WS{wyrol{Wf of {cR{Cas{Whe{Cme{cn{x~
+{WS{wyrol{Wf {Wof {cR{Cas{Whe{Cme{cn{W stands here waiting for battle.{x
+~
+{8The first fighter of the {WIce Wolf Berserker Lodge{8 of {cR{Cas{Whe{Cme{cn{8 stands here.
+This man from the winter wilds looks like a cross between man and wolf. His 
+short hair and beard is pure {Wsnow{8 white and his eyes are i{Wr{Yi{Wd{8es{Wc{Ye{Wn{8t yellow
+orbs. He's clothed in thick layers, heavy boots and an assortment of deadly 
+weapons. A full {Wwolf pelt {8completely envelopes him, complete with a wolf 
+face on top of his head.{x
+~
+human~
+ABFLPST DFVac BCDEHOR 0 0
+111 10000 1200d1500+5000 600d600+10000 130d120+1500 slice
+-20 -20 -20 -20
+ACDFGHKN ABIQ DE H
+stand stand male 1000
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M fight 10655 20~
+M fight 10654 20~
+M fight 10650 20~
+#10615
+Guard of Rashemen~
+{WThe Guard{x~
+{WA Guard of the Rashemen stands here blocking your way forward.{x
+~
+{WA bulky Guard of the Rashemen tribe stands here ready to stop 
+those foolish enough to wander into this cave.{x
+~
+human~
+AB PTVa CHO -1000 0
+105 3000 30000d20+3000 600d600+2500 2999d10+1000 chill
+-20 -20 -20 -20
+CFHKN ABIQ E H
+stand stand none 1
+0 0 medium flesh
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 10652 100~
+M exit 10651 0~
+#10616
+ghost sentinel hero Valiant~
+Valiant~
+A ghost of the hero Valiant stands here.
+~
+A ghost of the famous hero Valiant stands here.  The last hero to
+successfully reach the top of the tower of proving, he was honored to
+continue his service to the gods by becoming the Tower's Warden.  
+~
+human~
+AB 0 0 0 0
+105 100 10d10+4300 0d0+0 10d10+4300 none
+0 0 0 0
+0 ABCDEFGHIJLMNOPQRSTXYZa 0 0
+stand stand male 1
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M greet 10646 100~
+M speech 10647 hints~
+#10617
+Cie'th Stone~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them.  
+~
+human~
+AB 0 0 1000 0
+103 100 10d10+2000 0d0+0 10d10+2000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M speech 10630 focus~
+M give 10638 11102~
+#10618
+Cie'th Stone 2~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them. 
+~
+human~
+AB 0 0 1000 0
+103 100 100d10+4000 10d10+5000 100d10+4000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10631 focus~
+M give 10639 24336~
+#10619
+Cie'th Stone 3~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them.  
+~
+human~
+AB 0 0 1000 0
+103 1000 100d10+4000 10d10+5000 100d10+4000 claw
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10632 focus~
+M give 10640 51557~
+#10620
+Cie'th Stone 4~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them.  
+~
+human~
+AB 0 0 1000 0
+103 1000 100d10+4000 10d10+5000 100d10+4000 claw
+0 0 0 0
+0 ABCDEFGHIJKMNOQRSTXYZ 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10633 focus~
+M give 10641 12117~
+#10621
+Cie'th Stone 5~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them.  
+~
+human~
+AB 0 0 1000 0
+103 1000 100d10+4000 10d10+5000 100d10+4000 claw
+0 0 0 0
+0 ABCDEFGHIJKMNOQRSTXYZ 0 0
+stand stand none 1
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10634 focus~
+M give 10642 32524~
+#10622
+Cie'th Stone 6~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them. 
+~
+human~
+AB 0 0 1000 0
+103 1000 100d10+4000 0d0+0 100d10+4000 claw
+0 0 0 0
+0 ABCDEFGHIJKMNOQRSTXYZ 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10635 focus~
+M give 10643 18215~
+#10623
+Cie'th Stone 7~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them. 
+~
+human~
+AB 0 0 1000 0
+103 1000 100d10+4000 10d10+6000 100d10+4000 claw
+0 0 0 0
+0 ABCDEFGHIJKMNOQRSTXYZ 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10636 focus~
+M give 10644 32548~
+#10624
+Cie'th Stone 8~
+{Wa {CC{cie't{Ch S{cton{Ce{x~
+{Wa {CC{cie't{Ch S{cton{Ce{W floats here sobbing quietly.{x
+~
+A crystal Cie'th Stone floats here.  A whisper of sobs eminates
+from it.  When a L'Cie fails to fulfill their focus, they become
+crystalized and damned to live forever trapped in a single spot.  All
+they can do is cry and pray that another will come along and fulfill
+their focus for them. 
+~
+human~
+AB 0 0 1000 0
+103 1000 100d10+5000 0d0+0 100d10+5000 claw
+0 0 0 0
+0 ABCDEFGHIJKMNOQRSTXYZ 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 10637 focus~
+M give 10645 24014~
+#10625
+Redcoat British Fourth of July IQ~
+{rBr{Ri{wtis{Wh Re{8dc{Ro{rat{x~
+{Wa {rBr{Ri{wtis{Wh Re{8dc{Ro{rat{W hides here ready to attack!{x
+~
+A soldier of the British Army stands here with his faithful musket.
+Kill Him!
+~
+human~
+AFT DJPVac BCDEHO -1000 0
+115 7000 10000d100+5000 0d0+0 130d120+4500 none
+-500 -500 -500 -500
+BCDEFHKN ABI ABCG 0
+stand stand male 100
+0 0 medium blood
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 10660 100~
+#10626
+IQ Birthday Cie'th Stone 1 First One~
+{W[{CI{cQ{W] {WT{whe {WF{wirst {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WF{wirst {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10627
+IQ Birthday Cie'th Stone 2 Second Two~
+{W[{CI{cQ{W] {WT{whe {WS{wecond {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WS{wecond {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10628
+IQ Birthday Cie'th Stone 3 Third Three~
+{W[{CI{cQ{W] {WT{whe {WT{whird {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WT{whird {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10629
+IQ Birthday Cie'th Stone 4 Fourth~
+{W[{CI{cQ{W] {WT{whe {WF{wourth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WF{wourth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10630
+IQ Birthday Cie'th Stone 5 Fifth Five~
+{W[{CI{cQ{W] {WT{whe {WF{wifth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WF{wifth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10631
+IQ Birthday Cie'th Stone 6 Sixth Six~
+{W[{CI{cQ{W] {WT{whe {WS{wixth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WS{wixth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10632
+IQ Birthday Cie'th Stone 7 Seventh~
+{W[{CI{cQ{W] {WT{whe {WS{weventh {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WS{weventh {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10633
+IQ Birthday Cie'th Stone 8 Eighth Eight~
+{W[{CI{cQ{W] {WT{whe {WE{wighth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WE{wighth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10634
+IQ Birthday Cie'th Stone 9 Ninth Nine~
+{W[{CI{cQ{W] {WT{whe {WN{winth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WN{winth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10635
+IQ Birthday Cie'th Stone 10 Tenth ~
+{W[{CI{cQ{W] {WT{whe {WT{wenth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WT{wenth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10636
+IQ Birthday Cie'th Stone 11 Eleventh ~
+{W[{CI{cQ{W] {WT{whe {WE{wleventh {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WE{wleventh {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10637
+IQ Birthday Cie'th STone 12 Twelfth Twelve ~
+{W[{CI{cQ{W] {WT{whe {WT{wwelfth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WT{wwelfth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10638
+IQ Birthday Cie'th STone 13 Thirteenth~
+{W[{CI{cQ{W] {WT{whe {WT{whirteenth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WT{whirteenth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10639
+IQ Birthday Cie'th Stone 14 Fourteenth~
+{W[{CI{cQ{W] {WT{whe {WF{wourteenth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WF{wourteenth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10640
+IQ Birthday Cie'th Stone 15 Fifteenth~
+{W[{CI{cQ{W] {WT{whe {WF{wifteenth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WF{wifteenth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10641
+IQ Birthday Cie'th STone 16 SIxteenth~
+{W[{CI{cQ{W] {WT{whe {WS{wixteenth {CC{cie't{Ch S{cton{Ce{x~
+{W[{CI{cQ{W] {WT{whe {WS{wixteenth {CC{cie't{Ch S{cton{Ce{x {Wfloats here sobbing quietly.{x
+~
+{CA crystal Cie'th Stone floats here.  A whisper of sobs eminates
+{cfrom it.  When a L'Cie fails to fulfill their focus, they become
+{Ccrystalized and damned to live forever trapped in a single spot.  All
+{cthey can do is cry and pray that another will come along and fulfill
+{Ctheir focus for them.{x
+~
+human~
+ABG DF 0 1000 0
+103 100 10d10+1000 10d10+1 10d10+1000 none
+0 0 0 0
+0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 1
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+#10997
+BirthdayGifter 2013 male satyr man heavy partier agreosos artipipan~
+{RAg{rre{8os{ros {RAr{rti{8pi{rpan, {BHe{bav{Wy Par{bti{Ber {rE{Rx{Yt{yra{wordi{yna{Yi{Rr{re{x ~
+{RAg{rre{8os{ros {RAr{rti{8pi{rpan, {BHe{bav{Wy Par{bti{Ber {rE{Rx{Yt{yra{wordi{yna{Yi{Rr{re{8, stands here, drunk.{x
+~
+{rWith ruddy hair on the top of his head, reddish eyes, and
+a ton of long, goaty hair on his legs down to his cloven 
+hooves, Agreosos is a drunken, lascivious male.  He wears 
+a golden horn over his... er... member... that is as erect
+as possible.  He seems to enjoy when a female of any race
+walks by.  He holds a bottle of wine in his hand, grinning
+and drinking like a ... well... drunken satyr.{x
+~
+satyr~
+ABGNV CDFGV 0 0 0
+102 10000 35d35+4645 35d35+4645 3d14+20 bite
+-4 -4 -4 -4
+DH ABCDLPQa EHLM INS
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M speech 10986 imme some~
+M grall 10994 100~
+#10998
+elder taint elemental erregdal IQmob~
+{RE{8rr{we{8gda{rl{w, {8el{wd{8er {gt{ra{wi{yn{gt {8ele{wme{8n{rta{8l{x~
+{RE{8rr{we{8gda{rl{w, {8el{wd{8er {gt{ra{wi{yn{gt {8ele{wme{8n{rta{8l {wstands here, looking ferociously evil.{x
+~
+{RE{8rr{we{8gda{rl {8stares out with red pits for eyes.  From his gaping,
+tooth-lined maw, blood as black as ichor drops in ropy strands.
+His flesh moves like putrid liquid, the stench of which rolls
+off in waves of rot.  There is an absolute chill in the air that
+wends its way into the souls that are brave enough, or foolish
+enough, to get near.  Towering the height of a five story building,
+muscled like a behemoth, Erregdal turns his hate-filled gaze onto
+you and a deep rumbling noise can be heard from his throat that
+rattles the ground on which you stand.{x
+~
+heucuva~
+AFGNPT CGLZ EHR -1000 0
+105 500 3500d5000+30000 3000d3000+30000 150d150+1000 crush
+-50 -50 -50 -50
+ACEFKNV ABJLMP EIK FHN
+stand stand none 0
+ABHJc ABCFJK huge taint
+D ~
+T ~
+F imm Q
+F res DM
+F vul E
+F for MV
+F par GHI
+M death 10988 100~
+M speech 10995 friend~
+M speech 10995 follow~
+M speech 10995 summon~
+M speech 10995 group~
+M act 10991 meteors strike out at~
+M act 10993 recites~
+M act 10992 rescues~
+M act 10990 rushes through the room~
+M act 10990 you sprawling with a powerful bash~
+M act 10989 circles around behind you~
+M fight 10998 100~
+#10999
+random generator iq imp~
+Istooskwest, imp_invis, level 104~
+Istooskwest, imp_invis, level 104 stands here, ready to generate IstusQuest items.
+~
+Used to help randomly generate IstusQuest (IQ) pieces
+for crafting.
+~
+human~
+ABGMNV 0 P 0 0
+104 1000 35d35+4645 35d35+4645 3d14+20 slap
+-4 -4 -4 -4
+0 ABCDLPQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M speech 10999 ay it on me~
+#0
+
+
+
+#OBJECTS
+#10600
+Lliira IQ Scarlett Mummer Rose~
+{W[{CI{cQ{W] {wa single {Rr{red {Rr{rose {wof the {mSc{Ya{Rrl{Me{mt M{Mum{Rm{Ye{mrs{x~
+{W[{CI{cQ{W] {wa single {Rr{red {Rr{rose {wof the {mSc{Ya{Rrl{Me{mt M{Mum{Rm{Ye{mrs{x~
+Rose~
+treasure ATY A
+0 0 0 0 0
+1 1 1 P
+L This rose, left by the militant order within the Church of Joy, is left as a calling card next to the victim.~
+#10601
+Lliira Festive Balloons~
+{gsome {RF{re{Ys{yt{Gi{gv{Be {bB{Ca{cl{Ml{mo{Wo{wn{8s{x~
+{gsome {RF{re{Ys{yt{Gi{gv{Be {bB{Ca{cl{Ml{mo{Wo{wn{8s{x~
+Balloon~
+trash AY 0
+0 0 0 0 0
+102 600 1 P
+#10602
+Lliira IQ boots dancer sole~
+{8The {WBoots {8of a {BD{ca{Wn{Gc{ge{mr's {GS{Wo{cl{Be{x~
+{8The {WBoots {8of a {BD{ca{Wn{Gc{ge{mr's {GS{Wo{cl{Be{x~
+Leather~
+armor IY AG
+25 25 25 25 0
+100 50 1 P
+A
+13 125
+A
+12 425
+A
+20 -3
+A
+14 150
+A
+2 4
+L These boots were made especially by Lliira to encourage dancing at her Festivals.~
+#10603
+IQ Kitty Mojo container~
+(no short description)~
+(no description)~
+glass~
+treasure AY 0
+0 0 0 0 0
+0 1 1 P
+#10604
+IQ Waterdeep Happy Birthday Balloons~
+{W[{CI{cQ{W] {RH{rappy {CB{cirthday {MB{malloons{x~
+{W[{CI{cQ{W] {RH{rappy {CB{cirthday {MB{malloons{x~
+balloon~
+treasure ATY A
+0 0 0 0 0
+1 1 1 P
+L Birthday Balloons celebrating Waterdeep's 12th birthday!~
+#10605
+Waterdeep Birthday Party Hat IQ~
+{W[{CI{cQ{W] a {YB{yirthday {MP{marty {GH{xat {x~
+{W[{CI{cQ{W] a {YB{yirthday {MP{marty {GH{xat {x~
+paper~
+treasure ATY AE
+0 0 0 0 0
+1 1 1 P
+L A birthday hat with the number 12 on it~
+#10606
+Birthday Cake Waterdeep~
+{WA B{Ce{Wautif{Cu{Wl Wh{Ci{Wte B{Ci{Wrthd{Ca{Wy Cake with 12 C{Ya{Wndl{Ye{Ws on top{x.~
+{WA B{Ce{Wautif{Cu{Wl Wh{Ci{Wte B{Ci{Wrthd{Ca{Wy Cake with 12 C{Ya{Wndl{Ye{Ws on top{x.~
+unknown~
+container AOY P
+500 0 0 400 1
+102 600 1 P
+#10607
+big slice birthday cake~
+{WA Big Sli{Cc{We of B{Ci{Wrthd{Ca{Wy Cake{x~
+{WA Big Sli{Cc{We of B{Ci{Wrthd{Ca{Wy Cake{x~
+cake~
+food AY A
+10 3 0 0 0
+1 1 1 P
+L This is a big slice of cake from Waterdeep's 12th birthday celebration.~
+#10608
+Black Knight Sword~
+{8The {rU{cn{8ho{cl{ry {8sword of the {wB{8lack {wK{8night{x~
+(no description)~
+Steel~
+weapon BCGHMTZ AN
+sword 13 22 slash CD
+101 100 150000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+13 20
+A
+19 17
+A
+18 20
+#10609
+black steel gauntlet black knight~
+{8the {wb{8lack {8s{wteel {rga{cun{wt{cle{rt {8of the {wB{8lack {wK{8night{x~
+A pair of black steel gauntlets lies here.~
+metal~
+armor NP AH
+-100 -100 -100 -100 0
+102 50 1 P
+#10610
+bubble gum~
+{W[{CI{cQ{W] {CA {RF{restive {CP{ciece of {BB{bubblegum{x~
+{W[{CI{cQ{W] {xA piece of bubblegum lies here in the dirt looking festive.~
+unknown~
+pill A A
+1 'quest pill' 'quest pill' 'quest pill' 'quest pill'
+1 10 100 P
+#10611
+Lorna Fan Club Card IQ~
+{W[{CI{cQ{W] An Official {RL{rorna {BF{ban {CC{club {WC{ward{x~
+{W[{CI{cQ{W] An Official {RL{rorna {BF{ban {CC{club {WC{ward{x~
+plastic~
+treasure TY A
+0 0 0 0 0
+1 1 1 P
+#10612
+IQ official Nisstyre Fan Club Card~
+{W[{CI{cQ{W] An Official {RN{risstyre {BF{ban {CC{club {WC{ward{x~
+{W[{CI{cQ{W] An Official {RN{risstyre {BF{ban {CC{club {WC{ward{x~
+plastic~
+trash TY A
+0 0 0 0 0
+1 1 1 P
+#10613
+negative lifestream shard immquest~
+{xA {8Nega{wtive {WLifestr{weam S{8hard{x~
+{W[{CI{cQ{W] {xA shard of pure {8darkness {xfloats here.~
+neglifestream~
+trash B A
+0 0 0 0 0
+50 1 1 P
+L A solidified shard of the Negative Lifestream.~
+#10614
+IQ Lliira Sprig Mistletoe~
+{W[{CI{cQ{W] A {GS{gprig {Wof {GM{Wi{gs{Wtl{We{gt{Wo{Ge{x~
+{W[{CI{cQ{W] A {GS{gprig {Wof {GM{Wi{gs{Wtl{We{gt{Wo{Ge{x~
+unknown~
+armor AITY AE
+0 0 0 0 0
+1 1 1 P
+L Quick! find someone to kiss!~
+#10615
+Wolf Pelt of Syrolf of Rashemen~
+{wA {WW{8olf {WP{8elt{x~
+{wA {WB{8eautiful {WW{8olf {WP{8elt {wlies here.{x~
+fur~
+armor ISY AE
+0 0 0 0 0
+1 1 1 P
+L This is the Wolf Pelt of Syrulf of Rashemen.~
+#10616
+frosty mirror~
+{WA Frosty Full length Mirror.{x~
+{WA Frosty Full length Mirror stands here.{x~
+glass~
+portal TY 0
+0 H H 10618 0
+1 1 1 P
+#10617
+Cie'th Tear Stone 1AP~
+{Wa {CC{cie't{Ch T{cea{Cr {B(Worth 1AP!){x~
+{Wa {CC{cie't{Ch T{cea{Cr{W floats here. {B(Worth 1AP!){x~
+unknown~
+gem AGISY AQ
+0 0 0 0 0
+1 1 0 P
+L a reward for completing the focus on the first floor of the Tower of Proving ~
+#10618
+Cie'th Tear Stone 2AP~
+{Wa {CC{cie't{Ch T{cea{Cr {B(Worth 2AP!){x~
+{Wa {CC{cie't{Ch T{cea{Cr{W floats here. {B(Worth 2AP!){x~
+gem~
+gem AGIY AQ
+0 0 0 0 0
+1 1 1 P
+#10619
+Cie'th Tear Stone 3AP~
+{Wa {CC{cie't{Ch T{cea{Cr {B(Worth 3AP!){x~
+{Wa {CC{cie't{Ch T{cea{Cr{W floats here. {B(Worth 3AP!){x~
+gem~
+gem AGIY AQ
+0 0 0 0 0
+1 1 1 P
+#10620
+Cie'th Tear Stone 4AP~
+{Wa {CC{cie't{Ch T{cea{Cr {B(Worth 4AP!){x~
+{Wa {CC{cie't{Ch T{cea{Cr{W floats here. {B(Worth 4AP!){x~
+gem~
+gem AGIY AQ
+0 0 0 0 0
+1 1 1 P
+#10621
+Cie'th Key 1~
+the First Cie'th Key~
+The First Cie'th Key lies here~
+metal~
+key AISY AP
+0 0 0 0 0
+1 1 0 P
+#10622
+Cie'th Key 2 Second~
+the Second Cie'th Key~
+The Second Cie'th Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10623
+Cie'th Key 3 Third~
+the Third Cie'th Key~
+The Third Cie'th Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10624
+Cie'th Key 4 Fourth~
+the Fourth Cie'th Key~
+The Fourth Cie'th Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10625
+Cie'th Key 5 Fifth~
+the Fifth Cie'th Key~
+The Fifth Cie'th Key~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10626
+Cie'th Key Sixth 6~
+the Sixth Cie'th Key~
+The Sixth Cie'th Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10627
+Cie'th Key Seventh 7~
+the Seventh Cie'th Key~
+The Seventh Cie'th Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10628
+Cie'th Key Eighth 8~
+the Eighth Cie'th Key~
+The Eighth Cie'th Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10629
+Tower of Proving Treasure Room Key~
+the Tower of Proving Treasure Room Key~
+The Tower of Proving Treasure Room Key dangles here.~
+unknown~
+key AY ACP
+0 0 0 0 0
+1 0 1 P
+#10630
+Tower of Proving Second floor key~
+[TOP] The Second Floor Key~
+[TOP] The Second Floor Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10631
+Tower of Proving Third floor key~
+[TOP] The Third Floor Key~
+[TOP] The Third Floor Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10632
+Tower of Proving Fourth floor key~
+[TOP] Fourth Floor Key~
+[TOP] Fourth Floor Key lies here~
+unknown~
+key AY AP
+0 0 0 0 0
+1 1 0 P
+#10633
+Tower of Proving Treasure Chest~
+{WThe {8T{wower of {8P{wroving {yT{Yr{Weasu{Yr{ye {YC{yh{We{ys{Yt~
+{WThe {8T{wower of {8P{wroving {yT{Yr{Weasu{Yr{ye {YC{yh{We{ys{Yt {W lies here.~
+steel~
+container SY P
+1000 0 0 1000 10
+103 20 1 P
+#10634
+Ancient Book Tower of Proving~
+{WAn {YAn{yc{wi{ye{Ynt{x {BB{Co{Wo{Bk{x ~
+{WAn {YAn{yc{wi{ye{Ynt{x {BB{Co{Wo{Bk{W lies here open to a page about the Lost Tower of Proving.{x~
+wood~
+portal ABTY P
+0 H H 10621 0
+103 100 1 P
+#10635
+Valiant Vambraces TOP IQ~
+{CV{ca{Yl{yi{Ya{cn{Ct {CV{cam{Yb{yr{Ya{cce{Cs{x~
+{Wa pair of silver {CV{ca{Yl{yi{Ya{cn{Ct {CV{cam{Yb{yr{Ya{cce{Cs{W lies here.{x~
+silver~
+armor AISY AI
+-28 -28 -28 -28 0
+101 2 100 P
+A
+1 3
+A
+13 300
+A
+18 20
+A
+19 20
+A
+20 -10
+L A pair of Vambraces left by the Hero Valiant left at the top of the Tower of Proving~
+#10636
+Warlock Anklet ToP IQ~
+{WA {CW{ca{Yr{yl{Yo{cc{Ck {CA{cn{Yk{yl{ce{Ct{x~
+{WAn {CA{cn{Yk{yl{ce{Ct {Wof a {CW{ca{Yr{yl{Yo{cc{Ck {Wdangles here.~
+iron~
+armor AISY AT
+-10 -10 -10 -10 0
+101 1 1 P
+A
+12 250
+A
+13 150
+A
+20 -6
+L The Anklet of a Heroic Warlock left at the top of the Tower of Proving~
+#10637
+Firecracker IQ~
+{W[{CI{cQ{W] A {rF{Yi{Rr{recrac{Rk{Ye{rr{x~
+{W[{CI{cQ{W] A {rF{Yi{Rr{recrac{Rk{Ye{rr{W lies here letting off sparks.{x~
+Fire~
+treasure TY AOP
+0 0 0 0 0
+1 1 1 P
+#10638
+Uncle Sam Doll FourthofJulyIQ 3AP!~
+{RA{rn {WU{wncle {BS{bam {RD{roll {Wworth {B3AP!{x~
+{RA{rn {WU{wncle {BS{bam {RD{roll {Wworth {B3AP!{8 lies here.{x~
+fluff~
+treasure AISY AO
+0 0 0 0 0
+1 1 100 P
+L with a pull of the string he says "Uncle Sam Wants You!"~
+#10639
+Firework FourthofJulyIQ 2AP!~
+{RA {WF{wreedom {BF{birework {Rw{rorth {W2{wAP!{x~
+{RA {WF{wreedom {BF{birework {Rw{rorth {W2{wAP!{8 sits here ready to burst!{x~
+hot~
+treasure AGISY AO
+0 0 0 0 0
+1 1 1000 P
+L An Extra Snappy Firework!~
+#10640
+American Flag Star Spangled Banner FourthofJulyIQ 7AP!~
+{RA {WS{wt{Wa{wr {BS{bpangled {RB{ranner {Wworth 7AP!{x~
+{RA {WS{wt{Wa{wr {BS{bpangled {RB{ranner {Wworth 7AP! waves in the wind.{x~
+cloth~
+treasure AISY AO
+0 0 0 0 0
+1 1 10000 P
+L Oh say does that star spangled banner yet wave~
+#10641
+badge festival two moons~
+{YB{Wad{yge {Wof the {YT{yw{Wo{y Moons{x~
+A magical banner that represents the {YF{ye{Ws{yti{Yv{Wa{yl{W of the {YT{yw{Wo{y Moons {wflies here.{x~
+unknown~
+armor AG Aa
+-20 -20 -20 -20 0
+25 2 1 P
+A
+19 5
+A
+18 5
+A
+13 20
+A
+12 20
+L A magical banner that represents the findings of the Two Moons.~
+#10642
+badge festival two moons rare~
+{D[{RR{rare{D] {YB{Wad{yge {Wof the {YT{yw{Wo{y Moons{x~
+A magical banner that represents the {YF{ye{Ws{yti{Yv{Wa{yl{W of the {YT{yw{Wo{y Moons {wflies here.{x~
+Gold~
+armor ABGT Aa
+-20 -20 -20 -20 0
+25 2 1 P
+A
+19 15
+A
+18 15
+A
+13 50
+A
+12 100
+L A magical banner that represents the rare findings of the Two Moons.~
+#10643
+festival two moons 1ap token~
+{WThe {YF{ye{Ws{Dt{yi{Yv{ya{Dl{W of {ythe {YT{yw{Wo {yMoons {Yt{yo{Wk{yen{x~
+{WThe {YF{ye{Ws{Dt{yi{Yv{ya{Dl{W of {ythe {YT{yw{Wo {yMoons {Wbanner flies here. {D[ {Y1{WAP{D ]{x~
+unknown~
+treasure AT A
+0 0 0 0 0
+25 0 0 P
+#10644
+Sweet Sixteen Pink Cadillac Car Keys~
+{W[{CI{cQ{W] A pair of {YK{yey{Ys{x~
+{W[{CI{cQ{W] A pair of {Yk{yey{Ys {Wto a Sweet 16 {MP{mink C{Madillac{W lies here.{x~
+Metal~
+treasure IRTY O
+0 0 0 0 0
+1 1 1 P
+L In Celebration of Waterdeep's Sweet 16th Birthday!~
+#10645
+Sweet 16 sixteen Birthday Candle worth 1AP Happy Birthday Waterdeep!~
+{W[{CI{cQ{W] A {mB{Mirthday {yC{Ya{ynd{Yl{ye{x~
+{W[{CI{cQ{W] A {mB{Mirthday {yC{Ya{ynd{Yl{ye {Wfrom {8W{waterdeep's {YS{yweet {W16 {MB{mday {WCake worth 1AP!{x~
+unknown~
+treasure ABGIRTY S
+0 0 0 0 0
+1 1 1 P
+L A birthday Candle from Waterdeep's Sweet 16 Birthday Party! ~
+#10646
+Waterdeep Sweet 16 Birthday Streamers~
+{-B{Wi{Yr{-th{Yd{Wa{-y {-S{Wt{-re{Wa{-me{Wr{-s{x~
+{-B{Wi{Yr{-th{Yd{Wa{-y {-S{Wt{-re{Wa{-me{Wr{-s{x~
+unknown~
+furniture ABMRY 0
+0 0 0 0 0
+107 50 1 P
+#10647
+First Birthday Candle~
+{WThe {MF{mirst {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MF{mirst {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABITY O
+0 0 999 0 0
+1 1 1 P
+E
+first~
+The First Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the first candle from Waterdeep's Birthday Cake~
+#10648
+Second Birthday Candle~
+{WThe {MS{mecond {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MS{mecond {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+second~
+The Second Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the second candle from Waterdeep's Birthday Cake~
+#10649
+Third Birthday Candle~
+{WThe {MT{mhird {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MT{mhird {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABITY O
+0 0 999 0 0
+1 1 1 P
+E
+third~
+The Third Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the third candle from Waterdeep's Birthday Cake~
+#10650
+Fourth Birthday Candle~
+{WThe {MF{mourth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MF{mourth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+fourth~
+The Fourth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the fourth candle from Waterdeep's Birthday Cake~
+#10651
+Fifth Birthday Candle~
+{WThe {MF{mifth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MF{mifth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+fifth~
+The Fifth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the fifth candle from Waterdeep's Birthday Cake~
+#10652
+Sixth Birthday Candle~
+{WThe {MS{mixth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MS{mixth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+sixth~
+The Sixth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the sixth candle from Waterdeep's Birthday Cake~
+#10653
+Seventh Birthday Candle~
+{WThe {MS{meventh {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MS{meventh {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+seventh~
+The Seventh Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the seventh candle from Waterdeep's Birthday Cake~
+#10654
+Eighth Birthday Candle~
+{WThe {ME{mighth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {ME{mighth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+eighth~
+The Eighth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the eighth candle from Waterdeep's Birthday Cake~
+#10655
+Ninth Birthday Candle~
+{WThe {MN{minth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MN{minth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+ninth~
+lore This is the sinth candle from Waterdeep's Birthday Cake
+~
+L This is the ninth candle from Waterdeep's Birthday Cake~
+#10656
+Tenth Birtday Candle~
+{WThe {MT{menth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MT{menth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+tenth~
+The Tenth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the tenth candle from Waterdeep's Birthday Cake~
+#10657
+Eleventh Birthday Candle~
+{WThe {ME{mleventh {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {ME{mleventh {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+eleventh~
+The Eleventh Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the eleventh candle from Waterdeep's Birthday Cake~
+#10658
+Twelfth Birthday Candle~
+{WThe {MT{mwelfth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MT{mwelfth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+twelfth~
+The Twelfth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the twelfth candle from Waterdeep's Birthday Cake~
+#10659
+Thirteenth Birthday Candle~
+{WThe {MT{mhirteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MT{mhirteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+thirteenth~
+The Thirteenth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the thirteenth candle from Waterdeep's Birthday Cake~
+#10660
+Fourteenth Birthday Candle~
+{WThe {MF{mourteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MF{mourteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+fourteenth~
+The Fourteenth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the fourteenth candle from Waterdeep's Birthday Cake~
+#10661
+Fifteenth Birthday Candle~
+{WThe {MF{mifteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MF{mifteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+fifteenth~
+The Fifteenth Candle added to Waterdeep's Birth Cake flickers here.
+~
+L This is the fifteenth candle from Waterdeep's Birthday Cake~
+#10662
+Sixteenth Birthday Candle~
+{WThe {MS{mixteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W from Waterdeep's Cake{x~
+{WThe {MS{mixteenth {cB{Yi{Crthd{Ya{cy {YC{yandle{W lies here{x~
+wax~
+light ABTY O
+0 0 999 0 0
+1 1 1 P
+E
+sixteen~
+Sweet Little 16!
+~
+L This is the sweet sixteenth candle from Waterdeep's Birthday Cake~
+#10978
+unused~
+.~
+.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L .~
+#10979
+Birthday Cake Waterdeep~
+{WA B{Re{Wautif{Ru{Wl Wh{Ri{Wte B{Ri{Wrthd{Ra{Wy Cake with 16 C{Ya{Wndl{Ye{Ws on top.{x~
+{WA B{Re{Wautif{Ru{Wl Wh{Ri{Wte B{Ri{Wrthd{Ra{Wy Cake with 16 C{Ya{Wndl{Ye{Ws on top.{x~
+unknown~
+container AOY P
+500 0 0 400 1
+102 600 1 P
+#10980
+unused~
+.~
+.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L .~
+#10981
+big slice birthday cake~
+{WA Big Sli{Rc{We of B{Ri{Wrthd{Ra{Wy Cake{x~
+{WA Big Sli{Rc{We of B{Ri{Wrthd{Ra{Wy Cake{x~
+cake~
+food AY A
+10 3 0 0 0
+1 1 1 P
+L This is a big slice of cake from Waterdeep's 16th birthday celebration.~
+#10982
+unused~
+.~
+.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L .~
+#10983
+>>Sweet<< **Luxury Ram-Duster IQ13** >>Sixteen<< keys airshipkey~
+{xKeys to the [{M>>S{mwe{We{Mt<< {W**{RLu{Mxu{Rry {MRam{8-{MDu{mst{Mer {mI{WQ1{m3{W** {M>>Si{mxt{Wee{Mn<<{w] Airship.{x~
+{xThe keys to the airship [{M>>S{mwe{We{Mt<< {W**{RLu{Mxu{Rry {MRam{8-{MDu{mst{Mer {mI{WQ1{m3{W** {M>>Si{mxt{Wee{Mn<<{w{x].~
+unknown~
+trash T Ac
+0 0 0 0 0
+0 0 0 P
+#10984
+commemorative wine bottle WaterdeepSweetSixteen2013~
+{8a {RWat{rer{8de{rep {B16{bth {BBi{br{Wth{bd{Bay {rC{Ro{Ym{yme{wmor{yat{Yi{Rv{re {mWi{gn{me Bo{gtt{mle{x~
+{8A very {Rde{rco{8ra{rti{Rve {mWi{gn{me Bo{gtt{mle {8sits here.{x~
+glass~
+drink G AO
+30 30 'red wine' 0 0
+1 1 0 P
+E
+bottle~
+{x
+{mThis  wine bottle  is {gbeautifully crafted  glass -{m it is dark brown with
+{ma high-relief  design {gof  the Grim  Reaper sitting{m on top of a globe. To
+{mhis sides are gilded a{girships flying over the pain{mted city of Torregiano.
+{mBright silver letterin{gg encircles  the bottom of  {mthe bottle that reads:
+{x
+                  {WHa{wpp{8y 16th B{wir{Wth{wda{8y Wa{wte{Wrd{wee{8p!{x
+{x
+            ;::::;                                                     
+           ;::::; :;                                                            
+         ;:::::'   :;                       {RShame on you for your {Mun{wdera{Mge {Rdrinking!{x
+        ;:::::;     ;.                       
+       ,:::::'       ;           OOO\
+       ::::::;       ;          OOOOO\                 {BHa{bpp{By 16{bth {BBi{br{Wth{bd{Bay{x
+       ;:::::;       ;         OOOOOOOO                     {RWat{rer{8de{rep!{x
+      ,;::::::;     ;'         / OOOOOOO
+    ;:::::::::`. ,,,;.        /  / DOOOOOO               {rA{Ru{Yg{yust{w 12{y, 1{Y9{R9{r7{x
+  .';:::::::::::::::::;,     /  /    DOOOO               
+ ,::::::;::::::;;;;::::;,   /  /       DOOO               {MSw{Wee{mt Six{Wte{Men{x
+;`::::::`'::::::;;;::::: ,#/  /        DOOO               
+:`:::::::`;::::::;;::: ;::#  /          DOOO                    {mXX{x
+::`:::::::`;:::::::: ;::::# /            DOO                    {mXX{x
+`:`:::::::`;:::::: ;::::::#/             DOO                    {mXX{x
+ :::`:::::::`;; ;:::::::::##              OO                   {mXXXX{x
+ ::::`:::::::`;::::::::;:::#              OO                   {mXXXX{x
+ `:::::`::::::::::::;'`:;::#              O                    {mXXXX {x
+  `:::::`::::::::;' /  / `:#                                   {mXXXX{x
+   ::::::`:::::;'  /  /   `#                                   {mXXXX{x
+~
+E
+wine~
+{x
+{mThis  wine bottle  is {gbeautifully crafted  glass -{m it is dark brown with
+{ma high-relief  design {gof  the Grim  Reaper sitting{m on top of a globe. To
+{mhis sides are gilded a{girships flying over the pain{mted city of Torregiano.
+{mBright silver letterin{gg encircles  the bottom of  {mthe bottle that reads:
+{x
+                  {WHa{wpp{8y 16th B{wir{Wth{wda{8y Wa{wte{Wrd{wee{8p!{x
+{x
+            ;::::;                                                     
+           ;::::; :;                                                            
+         ;:::::'   :;                       {RShame on you for your {Mun{wdera{Mge {Rdrinking!{x
+        ;:::::;     ;.                       
+       ,:::::'       ;           OOO\
+       ::::::;       ;          OOOOO\                 {BHa{bpp{By 16{bth {BBi{br{Wth{bd{Bay{x
+       ;:::::;       ;         OOOOOOOO                     {RWat{rer{8de{rep!{x
+      ,;::::::;     ;'         / OOOOOOO
+    ;:::::::::`. ,,,;.        /  / DOOOOOO               {rA{Ru{Yg{yust{w 12{y, 1{Y9{R9{r7{x
+  .';:::::::::::::::::;,     /  /    DOOOO               
+ ,::::::;::::::;;;;::::;,   /  /       DOOO               {MSw{Wee{mt Six{Wte{Men{x
+;`::::::`'::::::;;;::::: ,#/  /        DOOO               
+:`:::::::`;::::::;;::: ;::#  /          DOOO                    {mXX{x
+::`:::::::`;:::::::: ;::::# /            DOO                    {mXX{x
+`:`:::::::`;:::::: ;::::::#/             DOO                    {mXX{x
+ :::`:::::::`;; ;:::::::::##              OO                   {mXXXX{x
+ ::::`:::::::`;::::::::;:::#              OO                   {mXXXX{x
+ `:::::`::::::::::::;'`:;::#              O                    {mXXXX {x
+  `:::::`::::::::;' /  / `:#                                   {mXXXX{x
+   ::::::`:::::;'  /  /   `#                                   {mXXXX{x
+~
+L Waterdeep opened its doors August 12th, 1997, based on Final Fantasy 7, Dungeons and Dragons, and Steampunk Fantasy.  16 years later, here we are, still going strong.  Long live Waterdeep!  Long live Nisstyre!~
+#10985
+Erregdal armor piece mobonly IstusQuest~
+{8rock solid skin{x~
+{8A massive sheath of rock solid skin sits here in the shape of Erregdal.{x~
+skin~
+armor ENPd AY
+1000 1000 1000 1000 0
+102 0 0 P
+F
+R 0 0 L
+F
+R 0 0 K
+F
+V 0 0 O
+F
+V 0 0 C
+F
+I 0 0 G
+F
+I 0 0 F
+F
+I 0 0 E
+#10986
+#erregdal token recite mobonly~
+{8a dr{wi{8ppi{rn{8g {rp{gu{ys{8tu{rl{ye{x~
+{8A b{wu{8rst {rp{gu{ys{8tu{rl{ye {8seeps into the ground here.{x~
+unknown~
+trash NPd A
+0 0 0 0 0
+102 0 0 P
+#10987
+#erregdal token rescue mobonly~
+{8an e{wn{8la{rr{8ged {rp{gu{ys{8tu{rl{ye{x~
+{8A b{wu{8rst {rp{gu{ys{8tu{rl{ye {8seeps into the ground here.{x~
+unknown~
+trash NPd A
+0 0 0 0 0
+102 0 0 P
+#10988
+#erregdal token meteor mobonly~
+{8a cr{wu{8s{rt{8ed {rp{gu{ys{8tu{rl{ye{x~
+{8A b{wu{8rst {rp{gu{ys{8tu{rl{ye {8seeps into the ground here.{x~
+unknown~
+trash NPd A
+0 0 0 0 0
+102 0 0 P
+#10989
+#erregdal token rush mobonly~
+{8a w{we{8epi{rn{8g {rp{gu{ys{8tu{rl{ye{x~
+{8A b{wu{8rst {rp{gu{ys{8tu{rl{ye {8seeps into the ground here.{x~
+unknown~
+trash NPd A
+0 0 0 0 0
+102 0 0 P
+#10990
+#erregdal token circle mobonly~
+{8an o{wo{8zi{rn{8g {rp{gu{ys{8tu{rl{ye{x~
+{8A b{wu{8rst {rp{gu{ys{8tu{rl{ye {8seeps into the ground here.{x~
+unknown~
+trash NPd A
+0 0 0 0 0
+102 0 0 P
+#10991
+light eternal bearing MOBONLY~
+{8the {YLi{Wg{Yht {8of {CEt{cer{Gna{gl {WB{Ye{Ga{gr{Gi{Yn{Wg{x~
+{8The {YLi{Wg{Yht {8of {CEt{cer{Gna{gl {WB{Ye{Ga{gr{Gi{Yn{Wg {8burns brightly here.{x~
+unknown~
+light AG A
+0 0 999 0 0
+102 0 0 P
+L The light of the soul that shows the way.~
+#10992
+eternally protective gaze fate destiny IstusQuest~
+{8The {YEt{yer{Yna{yll{Yy {GP{gr{Co{ctect{Ci{gv{Ge {WG{waz{We {8of {WF{Ya{Gt{ge {8and {WD{Ye{Gs{gt{Gi{Yn{Wy{x~
+{8The {YEt{yer{Yna{yll{Yy {GP{gr{Co{ctect{Ci{gv{Ge {WG{waz{We {8of {WF{Ya{Gt{ge {8and {WD{Ye{Gs{gt{Gi{Yn{Wy {8drifts here, wise and knowing.{x~
+eternity~
+armor ABGHMYZ AY
+5 5 5 50 0
+101 0 0 P
+F
+A 0 0 G
+F
+A 0 0 C
+A
+12 250
+A
+13 100
+A
+20 -20
+A
+19 17
+A
+18 17
+L The eternally protective gaze of fate and destiny, shining like the sun, and ever guiding its wearer on the path to greater things.~
+#10993
+shimmering countenance fate destiny IstusQuest~
+{8The {YSh{yim{Yme{yri{Yng {GCo{gu{Cn{cten{Ca{gn{Gce {8of {WF{Ya{Gt{ge {8and {WD{Ye{Gs{gt{Gi{Yn{Wy{x~
+{8The {YSh{yim{Yme{yri{Yng {GCo{gu{Cn{cten{Ca{gn{Gce {8of {WF{Ya{Gt{ge {8and {WD{Ye{Gs{gt{Gi{Yn{Wy {8floats here.{x~
+eternity~
+armor ABGHMYZ AY
+5 5 5 50 0
+101 0 0 P
+A
+13 100
+A
+12 300
+F
+A 0 0 G
+F
+A 0 0 C
+A
+19 22
+A
+18 22
+A
+20 -10
+L The physical manifestation of fate and destiny, shimmering like the stars, and ever guiding its wearer on the path to greater things.~
+#10994
+glowing scarf destiny IstusQuest~
+{8The {YGl{Wowi{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy{x~
+{8The {YGl{Wowi{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy {8drifts here.{x~
+destiny~
+treasure ABGUY AC
+0 0 0 0 0
+85 0 0 P
+A
+18 8
+A
+19 8
+A
+13 30
+A
+12 85
+A
+4 2
+A
+3 2
+A
+20 -4
+L Glowing scarf of the fabric of destiny; softer than vicuna, a quintillion times stronger...~
+#10995
+vial nebulous ether fate IstusQuest~
+{8a vial of the {WN{Ye{Gb{gul{Go{Yu{Ws E{Yt{Gh{Ye{Wr {8of {WF{Ya{Gt{ge{x~
+{8A {8vial of the {WN{Ye{Gb{gul{Go{Yu{Ws E{Yt{Gh{Ye{Wr {8of {WF{Ya{Gt{ge {8sits here.{x~
+unknown~
+treasure BGUY AO
+0 0 0 0 0
+1 0 0 P
+L Nebulous ether of the fabric of fate; lighter than silk, a quadrillion times stronger...~
+#10996
+glittering scarf destiny IstusQuest~
+{8The {YGl{yit{Yte{yri{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy{x~
+{8The {YGl{yit{Yte{yri{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy {8lays here.{x~
+destiny~
+treasure BGUY AC
+0 0 0 0 0
+50 0 0 P
+A
+18 5
+A
+19 5
+A
+13 25
+A
+12 50
+A
+4 1
+A
+3 1
+A
+20 -2
+L A scarf woven of the infinite pathways of destiny; softer than silk, a trillion times stronger...~
+#10997
+thread fate IstusQuest~
+{8a {Wt{Yh{Gr{ge{Ga{Yd {8of {gF{Ga{Yt{We{x~
+{8A {Wt{Yh{Gr{ge{Ga{Yd {8of {gF{Ga{Yt{We {8floats along here.{x~
+fate~
+treasure BGUY AO
+0 0 0 0 0
+1 0 0 P
+L A strand of the infinite consciousness of fate; soft as mohair, a billion times stronger...~
+#10998
+tuft fate IstusQuest~
+{8a {Wt{Yu{Gf{gt {8of {gF{Ga{Yt{We{x~
+{8A {Wt{Yu{Gf{gt {8of {gF{Ga{Yt{We {8drifts along here.{x~
+fate~
+treasure BGUY AO
+0 0 0 0 0
+1 0 0 P
+L A small mote of the infinite consciousness of fate; soft as a piece of mohair, a million times stronger...~
+#10999
+sign #signquestnolocate istusquest~
+{8a {Ws{Yi{Gg{gn{x~
+{8A {Ws{Yi{Gg{gn {8sits here, {RD{rE{RM{rA{RN{rD{RI{rN{RG {8your attention...{x~
+wood~
+treasure ABRT 0
+0 0 0 0 0
+1 0 0 P
+#0
+
+
+
+#ROOMS
+#10600
+{rVor{Ycet{R's M{ypro{Rg Te{Yst R{room{x~
+~
+{rS{Yhelves {Rline th{ye red p{rainted {Ywalls c{Rontaini{yng piec{res of e{Yxperime{Rntal
+{rmo{Ynsters {Rand ite{yms.  Pa{rpers li{Ytter th{Re large{y oak de{rsk in t{Yhe cent{Rer of
+{rthe{Y room. {R An ove{yrflowin{rg waste{Ybasket {Ris next{y to the{r desk s{Yurround{Red
+{rby c{Yrumpled{R papers{y.  A la{rrge via{Yl of bl{Rack ink{y ists a{rt the c{Yorner o{Rf
+{rthe d{Yesk alo{Rng with{y a quil{r pen st{Yill dri{Rpping i{ynk.  A {rtable a{Ygainst
+{rthe we{Yst wall{R is sta{ycked hi{rgh with{Y books,{R many w{yith pag{re marke{Yrs
+{rstickin{Yg out, {Rand sev{yeral mo{rre sitt{Ying ope{Rn.{x
+~
+0 557064 0 0
+0
+D0
+~
+~
+0 0 10601
+S
+#10601
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 10602
+D1
+~
+~
+0 0 10607
+D2
+~
+~
+0 0 10600
+D3
+~
+~
+0 0 10606
+S
+#10602
+~
+~
+~
+0 4 0 0
+0
+D0
+~
+~
+0 0 10603
+D1
+~
+~
+0 0 10608
+D2
+~
+~
+0 0 10601
+D3
+~
+~
+0 0 10609
+S
+#10603
+Hallway~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 10604
+D1
+~
+~
+0 0 10611
+D2
+~
+~
+0 0 10602
+D3
+~
+~
+0 0 10610
+S
+#10604
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 10605
+D1
+~
+~
+0 0 10612
+D2
+~
+~
+0 0 10603
+D3
+~
+~
+0 0 10613
+S
+#10605
+IQ Zone~
+~
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 10604
+S
+#10606
+Miniquest Activation Room~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 10601
+S
+#10607
+Random Prize Generator Room.~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 10601
+S
+#10608
+~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 10602
+S
+#10609
+IQ mob storage room.~
+~
+~
+0 565248 0 9
+0
+D1
+~
+~
+0 0 10602
+S
+#10610
+Lliira's Office~
+~
+This is Lliira's Office. There is no desk and no chairs
+in this room. Instead, a few mats and pillows are thrown
+on the ground and various instruments and items are
+tossed around the room on a whim.
+ 
+A staircase leads up to huge Dancehall
+~
+0 1275109408 0 0
+0
+D1
+~
+~
+0 0 10603
+D4
+~
+~
+0 0 10614
+S
+#10611
+~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 10603
+S
+#10612
+Birthday Planning Room~
+~
+This room is a kaleidoscope of color!
+Desks and chairs are all covered in hand written notes
+and colorful paper.
+Colored Ribbons slowly dance through the air from the ceiling
+and magically disappear on the floor.
+ 
+You have found the Birthday Planning Room!
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 10604
+S
+#10613
+Portal to the Lost Tower of Proving~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 10604
+D3
+~
+~
+8 0 10636
+D4
+~
+~
+33544 0 10621
+S
+#10614
+The Center of Lliira's Festival Hall~
+~
+This is the middle of Lliira's Grand Festival Hall.
+The whole hall is made of a pure white stone.
+It has huge vaulted ceilings and carved roman columns.
+Colorful streamers and banners litter the hall with
+little coordination. 
+~
+0 557056 0 0
+0
+D0
+~
+~
+0 0 10617
+D1
+~
+~
+0 0 10615
+D3
+~
+~
+0 0 10616
+D5
+~
+~
+0 0 10610
+S
+#10615
+Quest Room~
+~
+Mobs:
+ 
+10612 {W[{CI{cQ{W] A {YD{yuck {Wstands here happily quacking. {YH{yunt {Wit down!{x
+33760 Black Knight
+ 
+Scatter Quest Items:
+10600 {W[{CI{cQ{W] {wa single {Rr{red {Rr{rose {wof the {mSc{Ya{Rrl{Me{mt M{Mum{Rm{Ye{mrs{x
+ 
+10604 {W[{CI{cQ{W] {RH{rappy {CB{cirthday {MB{malloons{x
+10605 {W[{CI{cQ{W] a {YB{yirthday {MP{marty {GH{xat
+ 
+[10611] {W[{CI{cQ{W] An Official {RL{rorna {BF{ban {CC{club {WC{ward{x
+[10612] {W[{CI{cQ{W] An Official {RN{risstyre {BF{ban {CC{club {WC{ward{x
+ 
+Other:
+10606 {WA B{Ce{Wautif{Cu{Wl Wh{Ci{Wte B{Ci{Wrthd{Ca{Wy Cake with 12 C{Ya{Wndl{Ye{Ws on top{x.
+10607 {WA Big Sli{Cc{We of B{Ci{Wrthd{Ca{Wy Cake{x
+10614 {W[{CI{cQ{W] A {GS{gprig {Wof {GM{Wi{gs{Wtl{We{gt{Wo{Ge{x
+ 
+ 
+Mob: 10614 Syolf of Rashemen
+ 
+ 
+4th of July:
+10627 {W[{CI{cQ{W] A {rF{Yi{Rr{recrac{Rk{Ye{rr{x
+[10625] {rBr{Ri{wtis{Wh Re{dc{Ro{rat{x
+10638 uncle sam doll 3AP
+10639 firework 2AP
+10640 star spangled banner 7AP
+10644 {W[{CI{cQ{W] A pair of {Yk{yey{Ys {Wto a Sweet 16 {MP{mink C{Madillac{W lies here.{x
+10645  {W[{CI{cQ{W] A {mB{Mirthday {yC{Ya{ynd{Yl{ye {Wfrom {8W{waterdeep's {YS{yweet {W16 {MB{mday {WCake worth 1AP!{x
+10646 {-B{Wi{Yr{-th{Yd{Wa{-y {-S{Wt{-re{Wa{-me{Wr{-s{x
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 10614
+S
+#10616
+Lliira's IQ equipment Ideas~
+~
+10602 {8The {WBoots {8of a {BD{ca{Wn{Gc{ge{mr's {GS{Wo{cl{Be{x
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 10614
+S
+#10617
+Portal to the Chill~
+~
+~
+0 557056 0 0
+0
+D0
+~
+~
+66304 0 10618
+D2
+~
+~
+0 0 10614
+S
+#10618
+Outside the Chill~
+~
+{CLar{cg{We dark clouds loom  above and heavy snow continuously  fall{cs{C in
+  {Cd{crov{Wes.A cave has been carved out of the ice to the north and m{cake{Cs
+  {Ca h{cor{Wrible howling sound with the blowing  wind.  Fresh tracks {cl{Cead
+  {Cdir{ce{Wctly into the cave.  {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 10619
+D2
+~
+~
+66304 0 10617
+S
+#10619
+Inside the Chill~
+~
+{CChi{cp{W marks can be seen  where the Rashemen used  axes to carve {Cthi{cs
+  {Cc{cave{W out of the sheer ice.Cold water drips down from icicles o{Cn {cthe
+  {Ccei{cl{Wing and splash down onto the floor.The fierce wind from out{Csid{ce
+  {Cw{chip{Ws through the cave, freezing  the dripping water and makin{Cg {cthe
+  {Ccav{ce{W completely  miserable to stay in.To the north  lies the en{Cd o{cf
+  {Ct{chis{W small cave.{x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 10620
+D2
+~
+~
+0 0 10618
+S
+#10620
+Inside the Chill~
+~
+{W This small cave of the Rashemen ends here at the lair of Syrolf,
+the fiercest of their fighters.  {x 
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 10619
+S
+#10621
+Outside the Lost Tower of Proving~
+~
+A small dirt path leads north to a massive dark red tower.  There
+is nothing but blackness surrounding the tower, as if you have
+stumbled onto a pocket of void.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 10622
+D5
+~
+~
+33544 0 10613
+S
+#10622
+Inside the Lost Tower of Proving~
+~
+You have managed to find the Tower of Proving.  Nicknamed the Lost
+Tower of Proving over 100 years ago, it is now commonly believed among
+scholars to have been a metaphor for a hero's training.  Now that you
+have proven its existence, will you carry forward or retreat to
+safety?  
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 10621
+D4
+~
+~
+0 0 10623
+S
+#10623
+First Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D0
+~
+~
+776 10621 10624
+D5
+~
+~
+0 0 10622
+S
+#10624
+First Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D0
+~
+~
+776 10622 10625
+D2
+~
+~
+776 0 10623
+S
+#10625
+First Floor of the Lost Tower of Proving~
+~
+~
+0 0 0 0
+0
+D2
+~
+~
+776 0 10624
+D4
+~
+~
+776 10630 10626
+S
+#10626
+Second Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D3
+~
+~
+776 10623 10627
+D5
+~
+~
+776 0 10625
+S
+#10627
+Second Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D1
+~
+~
+776 0 10626
+D3
+~
+~
+776 10624 10628
+S
+#10628
+Second Floor of the Lost Tower of Proving~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+776 0 10627
+D4
+~
+~
+776 10631 10629
+S
+#10629
+Third Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D2
+~
+~
+776 10625 10630
+D5
+~
+~
+776 0 10628
+S
+#10630
+Third Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D0
+~
+~
+776 0 10629
+D2
+~
+~
+776 10626 10631
+S
+#10631
+Third Floor of the Lost Tower of Proving~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+776 0 10630
+D4
+~
+~
+776 10632 10632
+S
+#10632
+Fourth Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D1
+~
+~
+776 10627 10633
+D5
+~
+~
+776 0 10631
+S
+#10633
+Fourth Floor of the Lost Tower of Proving~
+~
+~
+0 1024 0 0
+0
+D1
+~
+~
+776 10628 10634
+D3
+~
+~
+776 10627 10632
+S
+#10634
+Fourth Floor of the Lost Tower of Proving~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+776 0 10633
+D4
+~
+~
+776 10629 10635
+S
+#10635
+Treasure Room of the Lost Tower of Proving~
+~
+~
+0 0 0 0
+0
+D5
+~
+~
+776 0 10634
+S
+#10636
+Cie'th Stone Holding Room~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 10613
+S
+#10637
+{WI{Ys{Gt{gu{Gs{Y'{Ws {8Room of Goodies{x~
+~
+{W"Lay it on me!"{x
+{x
+{GObjects:{x
+{W*{8[{R 10999{8] {8a {Ws{Yi{Gg{gn {x(No locate-able signquest sign.)
+{W*{8[{R 10998{8] {8a {Wt{Yu{Gf{gt {8of {gF{Ga{Yt{We {x(common drop)
+{W*{8[{R 10997{8] {8a {Wt{Yh{Gr{ge{Ga{Yd {8of {gF{Ga{Yt{We {w(rare drop)
+{W*{8[{R 10996{8] {8The {YGl{yit{Yte{yri{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy {x(crafted)
+{W*{8[{R 10995{8] {8a vial of the {WN{Ye{Gb{gul{Go{Yu{Ws E{Yt{Gh{Ye{Wr {8of {WF{Ya{Gt{ge {x(ultra-rare drop)
+{W*{8[{R 10994{8] {8The {YGl{Wowi{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy {x(crafted)
+{W*{8[{R 10993{8] {8The {YSh{yim{Yme{yri{Yng {GCo{gu{Cn{cten{Ca{gn{Gce {8of {WF{Ya{Gt{ge {8and {WD{Ye{Gs{gt{Gi{Yn{Wy {x(rare final crafted)
+{W*{8[{R 10992{8] {8The {YEt{yer{Yna{yll{Yy {GP{gr{Co{ctect{Ci{gv{Ge {WG{waz{We {8of {WF{Ya{Gt{ge {8and {WD{Ye{Gs{gt{Gi{Yn{Wy {x(common final crafted)
+{x
+{W*{8[{R 10984{8] {8a {RWat{rer{8de{rep {B16{bth {BBi{br{Wth{bd{Bay {rC{Ro{Ym{yme{wmor{yat{Yi{Rv{re {mWi{gn{me Bo{gtt{mle {x(DO NOT RECREATE AFTER 8/16/2013)
+{W*{8[{R 10983{8] {xKeys to the [{M>>S{mwe{We{Mt<< {W**{RLu{Mxu{Rry {MRam{8-{MDu{mst{Mer {mI{WQ1{m3{W** {M>>Si{mxt{Wee{Mn<<{w{x] Airship. (DO NOT RECREATE AFTER 8/16/2013)
+{W*{8[{R 10981{8] {WA Big Sli{Rc{We of B{Ri{Wrthd{Ra{Wy Cake {x(DO NOT RECREATE AFTER 8/16/2013)
+{W*{8[{R 10979{8] {WA B{Re{Wautif{Ru{Wl Wh{Ri{Wte B{Ri{Wrthd{Ra{Wy Cake {x(DO NOT RECREATE AFTER 8/16/2013)
+ 
+{YMobs:{x
+{Y*{8[{R 10999{8] {wIstooskwest, imp_invis, level 104 {x(generates iq crafting pieces)
+{Y*{8[{R 10997{8] {RAg{rre{8os{ros {RAr{rti{8pi{rpan, {BHe{bav{Wy Par{bti{Ber {rE{Rx{Yt{yra{wordi{yna{Yi{Rr{re {x(Hands out 16th bday wine in ms)
+{x
+{RIQ Mobs:{x
+{G*{8[{R 10998{8] {RE{8rr{we{8gda{rl{w, {8el{wd{8er {gt{ra{wi{yn{gt {8ele{wme{8n{rta{8l{x
+~
+0 1275625516 0 0
+0
+S
+#0
+
+
+
+#SPECIALS
+M 10606 spec_cast_mage
+M 10608 spec_cast_mage
+M 10610 spec_cast_mage
+M 10611 spec_cast_mage
+M 10613 spec_breath_fire
+M 10614 spec_attack_fled
+M 10615 spec_breath_frost
+S
+
+
+
+#RESETS
+D 0 10613 3 1
+D 0 10613 4 2
+D 0 10621 5 2
+D 0 10623 0 2
+D 0 10624 0 2
+D 0 10624 2 2
+D 0 10625 2 2
+D 0 10625 4 2
+D 0 10626 3 2
+D 0 10626 5 2
+D 0 10627 1 2
+D 0 10627 3 2
+D 0 10628 1 2
+D 0 10628 4 2
+D 0 10629 2 2
+D 0 10629 5 2
+D 0 10630 0 2
+D 0 10630 2 2
+D 0 10631 0 2
+D 0 10631 4 2
+D 0 10632 1 2
+D 0 10632 5 2
+D 0 10633 1 2
+D 0 10633 3 2
+D 0 10634 3 2
+D 0 10634 4 2
+D 0 10635 5 2
+D 0 10636 1 1
+M 0 10607 1 10600 1
+M 0 10611 1 10609 1
+M 0 10610 1 10609 1
+M 0 10600 1 10609 1
+E 0 10609 0 9
+G 0 10608 0
+M 0 10608 1 10610 1
+M 0 10606 1 10610 1
+M 0 10615 1 10619 1
+M 0 10614 1 10620 1
+E 0 10615 0 6
+M 0 10616 1 10622 1
+M 0 10617 1 10623 1
+M 0 10618 1 10624 1
+M 0 10619 1 10626 1
+M 0 10620 1 10627 1
+M 0 10621 1 10629 1
+M 0 10622 1 10630 1
+M 0 10623 1 10632 1
+M 0 10624 1 10633 1
+O 0 10633 0 10635
+P 0 10635 5 10633 1
+P 0 10636 5 10633 1
+O 0 10632 0 10636
+O 0 10631 0 10636
+O 0 10630 0 10636
+O 0 10629 0 10636
+O 0 10634 0 10636
+M 0 10999 1 10637 1
+E 0 10991 0 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#10600
+{wB{8lack {wK{8night - {RI{rnstakill{x~
+if rand 90
+ mob remember $r
+ mob echoat $q {8With three swift moves the {wB{8lack {wK{8night removes both of your arms and then your head.{x
+ mob echoaround $q {8With three swift moves the {wB{8lack {wK{8night {8removes {c$q's {8arms and head.{x
+ mob damage $q 10000000 10000000 lethal
+ mob forget $q
+else 
+endif
+if rand 74
+ mob echo {8The {wB{8lack {wK{8night screams in rage and begins wildly swinging his sword around him.{x
+ if rand 50
+  mob echo {8The {wB{8lack {wK{8night's {rWi{8ld {ws{8la{rsh {w-{8-{C+{w- {cDI{CS{8IN{wT{WE{wG{8RA{CT{cES {w-{C+{8-{w- {8You.{x
+  mob damage  all 5000 5000 lethal
+ else
+ endif
+ if rand 50
+  mob echo {8The {wB{8lack {wK{8night's {rWi{8ld {ws{8la{rsh {w-{8-{C+{w- {cDI{CS{8IN{wT{WE{wG{8RA{CT{cES {w-{C+{8-{w- {8You.{x
+  mob damage  all 5000 5000 lethal
+ else
+ endif 
+ if rand 50
+  mob echo {8The {wB{8lack {wK{8night's {rWi{8ld {ws{8la{rsh {w-{8-{C+{w- {cDI{CS{8IN{wT{WE{wG{8RA{CT{cES {w-{C+{8-{w- {8You.{x
+  mob damage  all 5000 5000 lethal
+ else
+ endif
+ if rand 50
+  mob echo {8The {wB{8lack {wK{8night's {rWi{8ld {ws{8la{rsh {w-{8-{C+{w- {cDI{CS{8IN{wT{WE{wG{8RA{CT{cES {w-{C+{8-{w- {8You.{x
+  mob damage  all 5000 5000 lethal
+ else
+ endif
+ if rand 50
+  mob echo {8The {wB{8lack {wK{8night's {rWi{8ld {ws{8la{rsh {w-{8-{C+{w- {cDI{CS{8IN{wT{WE{wG{8RA{CT{cES {w-{C+{8-{w- {8You.{x
+  mob damage  all 5000 5000 lethal
+ else
+ endif
+else
+endif
+if rand 85
+and wears $i 10609
+mob echo {x
+mob echo {x
+Pmote {8takes his gauntlet off his hand, throwing it on the ground in {rch{cal{wl{cen{rge{8.{x
+remove gaunt
+drop gaunt
+mob echo {x
+mob echo {x
+else
+endif
+if affected $i blind
+ pmote {8screams in {Rr{ra{8g{re {8and the {Ge{ga{yr{gt{Gh {8begins to shake {rvi{col{we{cnt{rly{8.{x
+ mob echo {8The {Ge{ga{yr{gt{Gh {8splits open and begins swallowing people whole.{x
+ mob damage all 10000000 10000000 lethal
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast cure blind
+ mob cast full self
+else
+endif
+~
+#10601
+{wB{8lack {wK{8night {x- {ROn cast of Full heal{x~
+say Assisting your little friends are you!
+mob cast div $n
+mob cast sanc self
+~
+#10602
+{wB{8lack {wK{8night {x- {RAnti circle prog{x~
+Mob echoat $n {8The {wB{8lack {wK{8night {rcou{8nte{wra{8tta{rcks {8your circle dealing {RIN{rCR{RED{rIB{RLE {8damage!{x
+mob echoaround $n {8The {wB{8lack {wK{8night {rcou{8nte{wra{8tta{rcks {8$n's circle dealing {RIN{rCR{RED{rIB{rLE {8damage!{x
+mob damage $n 15000 15000 lethal
+mob damage $n 15000 15000 lethal
+mob damage $n 15000 15000 lethal
+mob damage $n 15000 15000 lethal
+~
+#10603
+{wB{8lack {wK{8night {x- {RAnti Strike Mprog{x~
+Mob echoat $n {8The {wB{8lack {wK{8night {rcou{8nte{wra{8tta{rcks {8your strike dealing {RIN{rCR{RED{rIB{RLE {8damage!{x
+mob echoaround $n {8The {wB{8lack {wK{8night {rcou{8nte{wra{8tta{rcks {8$n's strike dealing {RIN{rCR{RED{rIB{rLE {8damage!{x
+mob damage $n 15000 15000 lethal
+mob damage $n 15000 15000 lethal
+mob damage $n 15000 15000 lethal
+mob damage $n 15000 15000 lethal
+~
+#10604
+{wB{8lack {wK{8night {x- {RChallenge Mprog{x~
+cackle
+pmote {8raises his fist to the heavens as {yl{Yi{yg{Yh{yt{Yn{yi{Yn{yg {8strikes his remaining {rg{cau{8nt{cle{rt {8from above.{x
+mob echo {8The {yl{Yi{yg{Yh{yt{Yn{yi{Yn{yg {8dances through the room {rde{cst{8ro{cyi{rng {8everything it touches.{x
+mob damage all 10000000 10000000 lethal
+~
+#10605
+{wB{8lack {wK{8night {x- {Rrandom to get gauntlet~
+if objhere 10609
+pmote grumbles in dissapointment
+get gaunt
+wear gaunt
+~
+#10606
+{RU{rndead {RA{rcolyte {x- {RNorthward movement Mprog~
+pmote ambles mindlessly to the north.
+north
+~
+#10607
+{RU{rndead {RA{rcolyte {x- {REXPLODE at 20%{x~
+mob echo {cAs your attacks pummel its flesh, the {RA{rcolyte's {ctorso splits open and the last thing you see is a {Wb{wl{Wi{wn{Wd{wi{Wn{wg {Yf{yl{Ya{ys{Yh {cof {Wl{wi{Wg{wh{Wt {cand then {8nothing{c.{x
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob damage $r 10000000 10000000 lethal
+mob purge self
+~
+#10608
+{RU{rndead {RA{rcolyte {x- {RHeal blind and full heal if not fighting{x~
+If pos $i fighting
+ break
+else
+ if affected $i blind
+  mob cast 'cure blindness' $i
+  mob cast 'cure blindness' $i
+  mob cast 'cure blindness' $i
+  mob cast 'cure blindness' $i
+ endif
+ if hpcnt $i == 100
+  break
+ else
+  mob echo 
+  mob cast 'full heal' self
+  mob echo 
+ endif
+endif
+break
+~
+#10609
+{RU{rndead {RA{rcolyte {x- {RRandom Damage{x~
+if rand 50
+pmote {cbelches out a cloud of {Gt{go{Gx{gi{Gc {cgas making you cough and wheeze.{x
+mob damage all 5000 5000 lethal
+else
+endif
+if rand 50
+pmote {cflails its arms around in an attempt to knock its {rat{ct{8ac{cke{rrs {cloose.{x
+mob damage all 5000 5000 letal
+else
+endif
+if rand 50
+mob echo {cAn unholy {rglow {cemenates from the {RA{rcolyte's {caura and blasts {Rp{ra{Ri{rn {cthrough your mind.{x
+mob damage all 5000 5000 lethal
+else
+endif
+if rand 50
+mob echo {cA blast of {ru{cn{8ho{cl{ry {Rf{ri{yr{re {cspreads in a ring from the {RA{rcolyte{c, searing over your flesh.{x
+mob damage 5000 5000 lethal
+else
+endif
+~
+#10610
+{CP{cinata {x- {RItem scatter on death{x~
+mob echo {cWith a concussive {Rb{rl{Ya{rs{Rt{c, {-g{-o{-o{-d{-i{-e{-s {cfly from the {Cp{cinata {call over town!  {RBetter hurry up and collect!{x
+mob goto 3009
+mob oload 10611
+drop all
+mob goto 3033
+mob oload 10612
+drop all
+mob goto 2910
+mob oload 32717
+drop all
+mob goto 3378
+mob oload 32716
+drop all
+mob goto 450
+mob oload 32715
+drop all
+mob goto 471
+mob oload 32714
+drop all
+mob goto 12518
+mob oload 32713
+drop all
+mob goto 3056
+mob oload 32712
+drop all
+mob goto 3049
+mob oload 32711
+drop all
+mob goto 207
+mob oload 32710
+drop all
+mob goto 2815
+mob oload 10610
+drop all
+mob goto 3106
+mob oload 10610
+drop all
+mob goto 2909
+mob oload 10610
+drop all
+mob goto 2864
+mob oload 10610
+drop all
+mob goto 214
+mob oload 10610
+drop all
+mob goto 3048
+mob oload 10610
+drop all
+mob goto 2834
+mob oload 10610
+drop all
+mob goto 21014
+mob oload 10610
+drop all
+mob goto 3118
+mob oload 32714
+drop all
+mob goto 2823
+mob oload 32715
+drop all
+mob goto 9773
+mob oload 32716
+drop all
+mob goto 9412
+mob oload 32717
+drop all
+~
+#10611
+NT Pinata - Death prog scatter~
+mob echo {cWith a concussive {Rb{rl{Ya{rs{Rt{c, {-g{-o{-o{-d{-i{-e{-s {cfly from the {Cp{cinata {call over town!  {RBetter hurry up and collect!{x
+mob goto 9841
+mob oload 10611
+drop all
+mob goto 9635
+mob oload 10612
+drop all
+mob goto 9508
+mob oload 32717
+drop all
+mob goto 9754
+mob oload 32716
+drop all
+mob goto 9570
+mob oload 32715
+drop all
+mob goto 9620
+mob oload 32714
+drop all
+mob goto 9610
+mob oload 32713
+drop all
+mob goto 9627
+mob oload 32712
+drop all
+mob goto 9581
+mob oload 32711
+drop all
+mob goto 9622
+mob oload 32710
+drop all
+mob goto 9623
+mob oload 10610
+drop all
+mob goto 23103
+mob oload 10610
+drop all
+mob goto 9664
+mob oload 10610
+drop all
+mob goto 23112
+mob oload 10610
+drop all
+mob goto 9651
+mob oload 10610
+drop all
+mob goto 9559
+mob oload 10610
+drop all
+mob goto 9654
+mob oload 10610
+drop all
+mob goto 9848
+mob oload 10610
+drop all
+mob goto 9674
+mob oload 32714
+drop all
+mob goto 9689
+mob oload 32715
+drop all
+mob goto 9686
+mob oload 32716
+drop all
+mob goto 9615
+mob oload 32717
+drop all
+~
+#10612
+{Cdarrowmere pinata {x- {RScatter{x~
+mob echo {cWith a concussive {Rb{rl{Ya{rs{Rt{c, {-g{-o{-o{-d{-i{-e{-s {cfly from the {CP{cinata all over town!  {RBetter hurry up and collect!{x
+mob goto 14082
+mob oload 10611
+drop all
+mob goto 14093
+mob oload 10612
+drop all
+mob goto 14334
+mob oload 32717
+drop all
+mob goto 14233
+mob oload 32716
+drop all
+mob goto 14338
+mob oload 32715
+drop all
+mob goto 14065
+mob oload 32714
+drop all
+mob goto 14305
+mob oload 32713
+drop all
+mob goto 14272
+mob oload 32712
+drop all
+mob goto 14277
+mob oload 32711
+drop all
+mob goto 14302
+mob oload 32710
+drop all
+mob goto 14198
+mob oload 10610
+drop all
+mob goto 14200
+mob oload 10610
+drop all
+mob goto 14149
+mob oload 10610
+drop all
+mob goto 14293
+mob oload 10610
+drop all
+mob goto 14271
+mob oload 10610
+drop all
+mob goto 14340
+mob oload 10610
+drop all
+mob goto 14354
+mob oload 10610
+drop all
+mob goto 14118
+mob oload 10610
+drop all
+mob goto 14187
+mob oload 32714
+drop all
+mob goto 14387
+mob oload 32715
+drop all
+mob goto 9773
+mob oload 32716
+drop all
+mob goto 9412
+mob oload 32717
+drop all
+~
+#10613
+{CDaggerford Pinata {x- {RScatter{x~
+mob echo {cWith a concussive {Rb{rl{Ya{rs{Rt{c, {-g{-o{-o{-d{-i{-e{-s {cfly from the {CP{cinata all over town!  {RBetter hurry up and collect!{x
+mob goto 56800
+mob oload 10611
+drop all
+mob goto 56855
+mob oload 10612
+drop all
+mob goto 56821
+mob oload 32717
+drop all
+mob goto 56849
+mob oload 32716
+drop all
+mob goto 56766
+mob oload 32715
+drop all
+mob goto 56767
+mob oload 32714
+drop all
+mob goto 56762
+mob oload 32713
+drop all
+mob goto 56798
+mob oload 32712
+drop all
+mob goto 56770
+mob oload 32711
+drop all
+mob goto 56735
+mob oload 32710
+drop all
+mob goto 56893
+mob oload 10610
+drop all
+mob goto 56714
+mob oload 10610
+drop all
+mob goto 56728
+mob oload 10610
+drop all
+mob goto 56705
+mob oload 10610
+drop all
+mob goto 56707
+mob oload 10610
+drop all
+mob goto 56730
+mob oload 10610
+drop all
+mob goto 38502
+mob oload 10610
+drop all
+mob goto 38508
+mob oload 10610
+drop all
+mob goto 38522
+mob oload 32714
+drop all
+mob goto 56864
+mob oload 32715
+drop all
+mob goto 56867
+mob oload 32716
+drop all
+mob goto 56885
+mob oload 32717
+drop all
+~
+#10614
+{BP{binata {CP{clacer {x- {RPlace pinatas{x~
+mob goto 3014
+mob mload 10602
+mob goto 9506
+mob mload 10603
+mob goto 14008
+mob mload 10604
+mob goto 56845
+mob mload 10605
+mob goto 10610
+~
+#10615
+Experimental teleport mprog~
+mob cast teleport self
+~
+#10616
+{CS{ccatterquest mob {x- {RVend Baloons{x~
+say a pack of {W[{CI{cQ{W] {RH{rappy {CB{cirthday {MB{malloons coming right up!
+mob oload 1203
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+mob oload 10604
+put all pack
+put all pac
+put all pac
+drop pack
+~
+#10617
+{CS{ccatterquest vendor {x- {RVend Bubblegum{x~
+say a pack of {W[{CI{cQ{W] {RF{restive {BB{bubblegum {mcoming right up!{x
+mob oload 1203
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+mob oload 10610
+put all pack
+put all pac
+put all pac
+drop pack
+~
+#10618
+{CS{ccatterquest Vendor {x- {RVend Party hats{x~
+say a pack of {W[{CI{cQ{W] {Wa {YB{yirthday {MP{marty {GH{xat {mcoming right up!
+mob oload 1203
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+mob oload 10605
+put all pack
+put all pac
+put all pac
+drop pack
+~
+#10619
+{RU{rndead {RA{rcolyte {x- {RHeal on giving item{x~
+mob echo {x
+mob echo {cThe {8Nega{wtive {Wlifestr{weam S{8hard {cmelts into the {RA{rcolyte's {cSkin and its Wounds begin to heal before your eyes.{x
+mob echo {x
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob cast heal self
+mob junk shard
+~
+#10620
+{RR{ru{Rb{ry {GW{ge{yap{go{Gn {x- {RFight mprogs{x~
+if rand 91
+ mob echo {x
+ mob echo {RR{ru{Rb{ry {GW{ge{yap{go{Gn {crears back and raises both claws in the air preparing to strike.{x
+ mob echo {x
+ mob remember $r
+ mob echoat $q {RR{ru{Rb{ry {GW{ge{yap{go{Gn {xSlams his claw down on top of your head.{x
+ mob echoat $q {CYou {care knocked out {Bcold{x.
+ mob echoaround $q {RR{ru{Rb{ry {GW{ge{yap{go{Gn {cslams his claw down on {C$q{x.
+ mob echoaround $q {C$q {cis knocked out {Bcold{x.
+ mod damage $q 10000000 10000000 lethal
+ mob forget $q
+ mob remember $r
+ mob echoat $q {RR{ru{Rb{ry {GW{ge{yap{go{Gn {xSlams his claw down on top of your head.{x
+ mob echoat $q {CYou {care knocked out {Bcold{x.
+ mob echoaround $q {RR{ru{Rb{ry {GW{ge{yap{go{Gn {cslams his claw down on {C$q{x.
+ mob echoaround $q {C$q {cis knocked out {Bcold{x.
+ mod damage $q 10000000 10000000 lethal
+ mob forget $q
+ pmote moves back to a fighting stance.
+ mob echo {x
+else
+endif
+if rand 75
+ mob echo {x
+ mob echoaround $n {RR{ru{Rb{ry {GW{ge{yap{go{Gn {cRears back and stomps down on {C$n{c.{x
+ mob echoat $n {RR{ru{Rb{ry {GW{ge{yap{go{Gn {crears back and stomps down on {Cyou{c.{x
+ mob damage 10000 10000 lethal
+ mob echo {x
+else
+endif
+if rand 15
+ mob echo {x
+ mob echo {cA {Rb{rl{Ya{rs{Rt {cof {bm{Ba{Cg{Wi{Cc{Ba{bl {cforce strikes everyone in the room.{x
+ mob damage all 10000 10000 lethal
+ mob echo {x
+else
+endif
+if rand 60
+ mob remember $r
+ mob echo {x
+ mob echoat $q {RR{ru{Rb{ry {GW{ge{yap{go{Gn {cmakes a gutteral sound and points at {Cyou{c.{x
+ mob echoaround $q {RR{ru{Rb{ry {GW{ge{yap{go{Gn {cmakes a gutteral sound and points at {C$q{c.{x
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob cast sleep $q
+ mob echo {RR{ru{Rb{ry {GW{ge{yap{go{Gn {cresumes fighting.{x
+ mob echo {x
+else
+endif
+~
+#10621
+{GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn {x- {RFight Mprogs{x~
+if rand 90
+ mob echo {x
+ mob echo {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn {crears back as a ball of {Bm{ba{Cg{Wi{C{ba{Bl {Ee{energy {cbuilds at its mouth.{x
+ mob echoaround $n {cA beam of {Ee{energy {xshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth and burns {C$n's {cflesh away.{x
+ mob echoat $n {cA beam of {Ge{gnergy {cshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth consuming {Cyour {cflesh.{x
+ mob damage $n 1000000 1000000
+ mob echoaround $n {cA beam of {Ee{energy {xshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth and burns {C$n's {cflesh away.{x
+ mob echoat $n {cA beam of {Ge{gnergy {cshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth consuming {Cyour {cflesh.{x
+ mob damage $n 1000000 1000000
+ mob echoaround $n {cA beam of {Ee{energy {xshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth and burns {C$n's {cflesh away.{x
+ mob echoat $n {cA beam of {Ge{gnergy {cshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth consuming {Cyour {cflesh.{x
+ mob damage $n 1000000 1000000
+ mob echoaround $n {cA beam of {Ee{energy {xshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth and burns {C$n's {cflesh away.{x
+ mob echoat $n {cA beam of {Ge{gnergy {cshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth consuming {Cyour {cflesh.{x
+ mob damage $n 1000000 1000000
+ mob echoaround $n {cA beam of {Ee{energy {xshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth and burns {C$n's {cflesh away.{x
+ mob echoat $n {cA beam of {Ge{gnergy {cshoots from {GE{gm{Ge{gr{Ga{gl{Gd W{ge{yap{go{Gn{c'{Gs {cmouth consuming {Cyour {cflesh.{x
+ mob damage $n 1000000 1000000 lethal
+else
+endif
+if rand 75
+ mob echo {x
+ mob echoaround $n {GE{gm{Ge{gr{Ga{gl{Gd {GW{ge{yap{go{Gn {cRears back and stomps down on {C$n{c.{x
+ mob echoat $n {GEmerald {GW{ge{yap{go{Gn {crears back and stomps down on {Cyou{c.{x
+ mob damage 10000 10000 lethal
+ mob echo {x
+else
+endif
+if rand 30
+ mob echo {x
+ mob echo {cA {Rb{rl{Ya{rs{Rt {cof {bm{Ba{Cg{Wi{Cc{Ba{bl {cforce strikes everyone in the room.{x
+ mob damage all 10000 10000 lethal
+ mob echo {x
+else
+endif
+if rand 75
+ mob remember $r
+ mob echo {x
+ mob echoat $q {GE{gm{Ge{gr{Ga{gl{Gd {GW{ge{yap{go{Gn {cmakes a gutteral sound and points at {Cyou{c.{x
+ mob echoaround $q {GE{gm{Ge{gr{Ga{gl{Gd {GW{ge{yap{go{Gn {cmakes a gutteral sound and points at {C$q{c.{x
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob cast blind $q
+ mob echo {GE{gm{Ge{gr{Ga{gl{Gd {GW{ge{yap{go{Gn {cresumes fighting.{x
+ mob echo {x
+ mob forget $q
+else
+endif
+~
+#10630
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say I was never a true hero, but I wanted to prove my village elders wrong.
+say I ventured here to the Tower of Proving before I was ready.
+say I wasn't even able to finish my first focus!
+mob echo A faint {Mbl{mu{Msh{x ripples over the {CC{cie't{Ch S{cton{Ce.{x
+say And now I must live with the shame of being the first stone heroes must pass.
+say Perhaps you are more a hero than I am. Perhaps you will be the one to finish my focus for me?
+say My focus was a simple one. I merely had to kill a unicorn. 
+say But I could not bring myself to kill such a beautiful creature. 
+say Bring me the fiery mane of a unicorn and I shall know my focus has been complete.
+~
+#10631
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say Whatever you are, I am glad for the company.
+say I don't know how much more I could take of that brat crying next door.
+say He couldn't even slay a unicorn! Can you believe it? 
+say In my opinion, the gods should have booted him out of the Tower 
+say and left him on the side of the road where he belongs.
+mob echo $I {Wt{ww{Wi{wr{Wl{ws {xaround {Clazily.{x
+say My focus was much tougher than his.
+say My focus was to gather a sprig of hacklo leaves.
+say I mean, who the hell has even heard of hacklo leaves!
+say if you wish to recover the treasures above, you must bring me a sprig of hacklo leaves.
+~
+#10632
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say Welcome, Brave Adventurer, to the Second Floor of the Temple of Proving.
+say Though I doubt the first floor gave you much trouble. 
+mob echo $I {Gw{xh{Mi{Cst{Ml{xe{Gs{x a little ditty.
+say In my time, I was one of the best rogues.
+say You name it, I could steal, recover, or waylay it.
+say Soon I had set my sights on the treasure located in this temple.
+say But as you can see, I didn't quite make it to the top.
+say The Gods have a cruel sense of humor. I had one vice during my life.
+say Money would burn a hole in my pockets and i couldn't say no to a good gamble.
+say So when my focus was to turn over a 500 platinum gambling ticket, I thought it would be easy.
+say I recovered several 500 platinum gambling tickets, but everytime I went to leave,
+say I would press it and play one more roll of the dice.
+mob echo $I {Wsighs.{x
+say Bring me a 500 platinum ticket and I will open the way for you.
+~
+#10633
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say No. you are real enough. A hero attempting to recover the fabled treasure of this tower?
+say You must be resourceful to have made it this far. 
+mob echo $I {-s{-h{-i{-m{-m{-e{-r{-s {xin thought.
+say My hubris got the best of me. I thought myself a strong warrior.
+say I thought I could kill some whiney kid named Cloud by myself.
+say So I traveled far to find him. But damn that kid can hurt!
+say I suggest you bring a buddy if you decide to seek him out.
+say Bring me his Cloud Hair Spike and I shall open the door.
+~
+#10634
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say Will you be the one to take up my Focus and complete it?
+mob echo $I {BShakes{x with {rf{Ru{rr{Ry.{x
+say I had tracked down the chromatic monkeys to their natural habitat.
+say All I had to do was kill one and retrieve the special gem they carry around.
+say Right when I was about to land the killing blow,
+say the damn thing threw poo at my face! It blinded me!
+say Please, heroic adventurer, bring me a chromatic monkey gem!
+say I'll give you a reward if you help me out.
+~
+#10635
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say During my lifetime, to be a hero meant you were a slayer of Dragons.
+say I was a well known Dragonslayer and made alot of money in the process.
+say The fashion of the day was a colorful suit made of dragon scales.
+mob echo $I laughs {Mh{me{Martily.{x
+say Oh we looked ridiculous back then.
+say In my twilight years I grew bored and decided to take on the Tower of Proving.
+say Imagine! After all those years of slaying dragons, my focus was to make a suit of chromatic dragonscale armor.
+say Well I marched myself right up to the dragon lair and killed the lower dragons until I had the scales.
+say But I got greedy. I decided to kill the queen dragon on my own.
+say I never had a chance against that bitch of a dragon.
+say But perhaps you will? Bring me the armor and you may continue on your way.
+~
+#10636
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say Whatever you are, I applaud your ability to have gotten this far.
+say Reaching the Fourth Floor is no small feat!
+say When I was alive, I survived on my magical ability and smarts.
+say I never had much need for brute strength.
+mob echo $I {Mhops {Yu{yp {xand {Gd{xo{Gw{xn in the air.
+say But in the Tower of Proving, heroes must prove themselves, both in their strengths and weaknesses.
+say I see now that I should have allied myself with like-minded heroes.
+say Ones that could compensate for my weaknesses.
+say But enough about my story. It is hundreds of years told already.
+say Show me your strength and complete my focus!
+say Bring me the Bracers of Strength and the path shall open for you.
+~
+#10637
+~
+mob echo $I stops sobbing.
+say Are you truly here to complete my focus? Or is this another cruel trick of the Gods?
+mob echo A {Bw{bave{x of cold {Rheat{x washes over you.
+say Take heart, dear heroes.
+say For I am the last of the Cie'th Stones.
+say I was so close to the Tower's treasure!
+say But the magician proved too much for me.
+say I won't bore you with my life's story, like the others have.
+say simply bring me the {RAmu{wlet{x {Wof {wTeil{Rmon{x.
+~
+#10638
+~
+Mob echo $I {Ysh{yin{Yes with {xh{xappiness!
+Say Thank you for completing my focus!
+Mob oload 10617
+Give tear $n
+Mob oload 10621
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.{x
+Mob goto 10636
+~
+#10639
+~
+Mob echo $I {Ysh{yin{Yes with {xhappiness!
+Say Thank you for completing my focus!
+Mob oload 10619
+Give tear $n
+Mob oload 10622
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10640
+~
+Mob echo $I {ysh{Yin{yes {xwith happiness!
+Say Thank you for completing my focus!
+Mob oload 10618
+Give tear $n
+Mob oload 10623
+Give key $n
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10641
+~
+Mob echo $I {Ysh{yin{Yes with {xhappiness!
+Say Thank you for completing my focus!
+Mob oload 10618
+Give tear $n
+Mob oload 10624
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10642
+~
+Mob echo $I {Ysh{yin{Yes with {xhappiness!
+Say Thank you for completing my focus!
+Mob oload 10619
+Give tear $n
+Mob oload 10625
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10643
+~
+Mob echo $I {Ysh{yin{Yes with {xhappiness!
+Say Thank you for completing my focus!
+Mob oload 10619
+Give tear $n
+Mob oload 10626
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10644
+~
+Mob echo $I {Ysh{yin{Yes with {xhappiness!
+Say Thank you for completing my focus!
+Mob oload 10620
+Give tear $n
+Mob oload 10627
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10645
+~
+Mob echo $I {Ysh{yin{Yes with {xhappiness!
+Say Thank you for completing my focus!
+Mob oload 10620
+Give tear $n
+Mob oload 10628
+drop key
+Mob echo $I slowly {wf{8ade{ws{x away.
+Mob goto 10636
+~
+#10646
+~
+mob echo $I salutes as you enter the room.
+say Welcome, Brave Adventurers, to the Tower of Proving.
+mob echo $I gives you a heroic smile.
+say The Tower of Proving was built by the Gods years ago to test the meddle of the Heroes of the Realms.
+say If you are not feeling Heroic, I suggest you come back after you've gained some experience.
+mob echo $I waits patiently.
+say Oh! You are feeling Heroic?
+say Well then, proceed upward to the first floor.
+say or if you like, I could give you a few {Mhints.
+~
+#10647
+~
+mob echo $I grins cheekily.
+say I knew you were smarter than you looked!
+say Each floor consists of three rooms.
+say The first two will always be a Cie'th Stone that will give you a quest to complete.
+say to receive the quest, merely say {Mfocus{m when near them.
+say the third room will be a monster you will need to prove yourself against.
+say From one hero to another, good luck!
+~
+#10650
+~
+mob echo {WSyrolf bashes his head against the glacial wall.
+mob echo {WThousands of shimmering icicles rain down from the ceiling!
+mob damage all 5000 5000 lethal
+mob damage all 5000 5000 lethal
+mob damage all 5000 5000 lethal
+mob damage all 5000 5000 lethal
+mob echo {YThe icicles rain down on you with lethal accuracy!
+~
+#10651
+~
+mob echo {WThe Guard gets a feral look in his eyes and attacks!{x
+mob cast 'creep'
+~
+#10652
+~
+say Only members of clan Rashemen are welcome here. Leave now, weakling, while you still can.
+~
+#10654
+~
+mob echo $I {Wgets a {Rd{reviou{Rs {Wlook in his eyes.{x
+mob cast 'dispel magic' $n
+mob cast 'dispel magic' $n
+mob cast 'dispel magic' $n
+mob cast 'dispel magic' $n
+mob cast 'dispel magic' $n
+~
+#10655
+~
+mob echo {WS{wyrol{Wf lets out a great big {YY{yawn{x
+mob echo {WS{wyrol{Wf says 'I tire of your antics.'
+{mob echo {WS{wyrol{Wf says 'Begone from my presence, you unworthy nuisance!'
+mob force $n flee
+mob force $n flee
+mob force $n flee
+mob force $n flee
+mob echo {WS{wyrol{Wf crouches down into a fighting stance and continues the battle.{x
+~
+#10660
+~
+mob echo $N screams FFFREEEEDDDOOOMMMM! and stabs the Redcoat dead.
+mob oload 10638
+mob oload 10638
+mob oload 10639
+mob oload 10639
+mob oload 10639
+mob oload 10640
+mob oload 10640
+~
+#10986
+Agreosos giving out wine~
+mob echo $I reaches into a sack at his side and pulls out a wine bottle.
+mob oload 10984
+give wine $n
+say {rHappy Fuckin' Birthday, Waterdeep.  Am I right?  I'm right.  I know.  And don't mention it.{x
+grin $n
+hic
+~
+#10987
+Agreosos lewd lascivious and drunk called prog~
+if race $n 'gnoll'
+and sex $n == 2
+  say {rGnoll... never done a gnoll... but do it... I will.{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'minotaur'
+and sex $n == 2
+  say {rRougher and rougher... I LIKE IT!{x
+  pant $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'titan'
+and sex $n == 2
+  say {r... WHOA!{x
+  mob echo $I's eyes bug out.
+  say {rI'd get lost in there... sign me up and give me a map!{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'giant'
+and sex $n == 2
+  say {rI'm into spelunking and totally willing to go caving.{x
+  grin $n
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'heucuva'
+and sex $n == 2
+  say {rWe could bone eachother... get it?  Eh?  Eh?{x
+  grin $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'centaur'
+and sex $n == 2
+  say {rNNNNEEEEIIIGHHHH!{x
+  pm paws at the ground with his cloven hoof.
+  say {rI want a ride!{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+  mob echoat $n $I looks at you and shoves out his chin.
+  say {rIf you don't have ladies for me... well... no matter.{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+endif
+endif
+endif
+endif
+endif
+endif
+~
+#10988
+Erregdal death prog~
+{R/*Who wants to go down like a bitch, really?*/{x
+mob echo {x
+mob echo {x
+mob echo $I{8's body crashes to the ground, the thick, oily putrid rot rushing forth like a torrent.{x
+mob echo {8It washes over everyone, instantly growing thicker, smellier, and even more sickening.{x
+mob cast entangle $r
+mob cast entangle $r
+mob cast entangle $r
+mob cast entangle $r
+mob cast entangle $r
+mob cast gas $r
+mob cast gas $r
+mob cast gas $r
+mob cast gas $r
+mob cast gas $r
+mob damage all 1000 8000 lethal show slime
+~
+#10989
+Erregdal loads counters for circle~
+{R/*Circles beware...*/{x
+if objcount $i 10990 3
+  if rand 30
+  mob echoat $n $I {8explodes a tentacle from the center of his forehead, shooting it at {RYOU{8!{x
+  mob echoaround $n $I {8explodes a tentacle from the center of his forehead, shooting it at $n!{x
+  mob damage $n 15000 30000 lethal show slap
+    if rand 50
+    mob junk circle
+    else
+    mob junk circle
+    mob junk circle
+    endif
+  else
+    if rand 70
+    mob junk all.circle
+    endif
+  endif
+else
+mob oload 10990
+endif
+~
+#10990
+Erregdal loads counters for rush~
+{R/*If you rush him, he loads a token... "It's the final countdown..."*/{x
+if objcount $i 10989 4
+  if rand 30
+  mob echoat $n $I {8suddenly brings one of his legs forward, ramming it into you with explosive force!{x
+  mob echoaround $n $I {8suddenly brings one of his legs forward, ramming it into $n with explosive force!{x
+  mob damage $n 15000 23000 lethal show kick
+    if rand 50
+    mob junk rush
+    else
+    mob junk rush
+    mob junk rush
+    endif
+  else
+    if rand 70
+    mob junk all.rush
+    endif
+  endif
+else
+mob oload 10989
+endif
+~
+#10991
+Erregdal loads counters for meteor swarm~
+{R/*If you swarm him, he will come... er... no wait...*/{x
+if objcount $i 10988 5
+  if rand 30
+  mob echoat $n $I {8lets out a deep roar, evading the meteors to wrap his mouth around your entire body!{x
+  mob echoaround $n $I {8lets out a deep roar, evading the meteors to wrap his mouth around $ns entire body!{x
+  mob cast earthquake
+  mob damage $n 15000 25000 lethal show digestion
+    if rand 50
+    mob junk meteor
+    else
+    mob junk meteor
+    mob junk meteor
+    endif
+  else
+    if rand 70
+    mob junk all.meteor
+    endif
+  endif
+else
+mob oload 10988
+endif
+~
+#10992
+Erregdal loads counters for rescuers~
+{R/*If you rescue, he loads a token*/{x
+if objcount $i 10987 2
+  if rand 30
+  mob echoat $n $I {8lets out a bellowing {RHOWL {8and grabs you, crushing you in his grip!{x
+  mob echoaround $n $I {8lets out a bellowing {RHOWL {8and grabs $n, crushing $m in his grip!{x
+  mob cast earthquake
+  mob damage $n 15000 25000 lethal show crush
+  mob call 10996
+    if rand 50
+    mob junk rescue
+    else
+    mob junk rescue
+    mob junk rescue
+    endif
+  else
+    if rand 70
+    mob junk all.rescue
+    endif
+  endif
+else
+mob oload 10987
+endif
+~
+#10993
+Erregdal loads counters for reciters~
+{R/*If you recite, he loads a token*/{x
+if objcount $i 10986 6
+  if rand 20
+  mob echoat $n $I {8lashes out in a fury, a putrid tentacle shooting from his body to punch rot deep into your mouth!{x
+  mob echoaround $n $I {8lashes out in a fury, a putrid tentacle shooting from his body to punch rot deep into $n's mouth!{x
+  mob damage $n 10000 20000 lethal show punch
+    if rand 50
+    mob junk recite
+    else
+    mob junk recite
+    mob junk recite
+    endif
+  else
+    if rand 70
+    mob junk all.recite
+    endif
+  endif
+else
+mob oload 10986
+endif
+~
+#10994
+Agreosos lewd lascivious and drunk~
+if race $n 'human'
+and sex $n == 2
+  say {rHEY BABAYYY!{x
+  mob echoat $n $I wolf whistles at you.
+  mob echoaround $n $I wolf whistles at $n.{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'drow'
+and sex $n == 2
+  say {rI take all comers, red, yellow, black and white.{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'pixie'
+and sex $n == 2
+  cackle
+  say {rOh man... I'd break you in half little lady.{x
+  grin $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'halfling'
+and sex $n == 2
+  grin $n
+  say {rHow about I put my lower half with your lower half and we'll be halflings together?{x
+  mob echo $I waggles his cock rod around, it sparkles.
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'goblin'
+and sex $n == 2
+  eyebrow $n
+  say {rCan't say I've ever had a goblin gal... I'm willing if you are, babe.{x
+  grin $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'gnome'
+and sex $n == 2
+  pm waves his cock-rod about, bucking wildly.
+  say {rI would tear that little taint up!{x
+  grin $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'kenku'
+and sex $n == 2
+  mob echoat $n $I whistles and looks you up and down.
+  mob echoaround $n $I whistles and looks $n up and down.
+  say {rYou know what they say about feathers and fur, don'tcha?{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'satyr'
+and sex $n == 2
+  grin $n
+  say {rWe have compatible parts, you know.{x
+  pm breathes heavily, panting lustily.
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'podrikev'
+and sex $n == 2
+  pm knocks his hand on his rock hard cock sheath.
+  say {rMetal on metal for DAYS baby.{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'avian'
+and sex $n == 2
+  mob echoat $n $I looks you over with a lecherous grin.
+  mob echoaround $n $I looks you over with a lecherous grin.
+  say {rLike an angel... I'd tear off those wings and ground you.{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'draconian'
+and sex $n == 2
+  say {rCold... hmmm... so long as it's wet, I don't care!{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n thri'kreen
+and sex $n == 2
+  say {rWHOA!  I've never done a bug before, but I'm sure I could find a hole to put it in!{x
+  mob echoat $n $I humps the air lewdly at you.
+  mob echoaround $n $I humps the air lewdly toward $n.
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'elf'
+and sex $n == 2
+  say {rMMMMMMMMAMA!  I'd take that lithe little body and...{x
+  mob echo $I thrust the air.
+  say {rBAM BAM BAM!{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'dwarf'
+and sex $n == 2
+  say {rBearded... I'll still tap it.{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'esper'
+and sex $n == 2
+  grin $n
+  say {rEsper poon... it's magically delicious!{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'halforc'
+and sex $n == 2
+  say {rI like em big... there's no shame.{x
+  mob echo $I slowly thrusts the air as he grins.
+  say {rYEAH BABY!{x
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+if race $n 'halfelf'
+and sex $n == 2
+  say {rHalf human, half elf... got a little satyr in you?  Want some?{x
+  waggle $n
+  say {rHow about you share a bottle of wine with me, huh?  Want a bottle?  Just say {Rgimme some{r.{x
+else
+mob call 10987 $n
+~
+#10995
+Erregdal instadeath speech~
+{R/*Completely for shits and giggles*/{x
+if class $n 'monk'
+mob echoat $n $I {8splashes to the ground and rushes over to you.  $I bursts from the ground, encasing you in vial taint, suffocating you!!{x
+mob echoaround $n $I {8splashes to the ground and rushes over to $n.  $I bursts from the ground, encasing $n, suffocating $m!{x
+mob damage $n 900000 900000 lethal show crush
+else
+if class $n 'gladiator'
+mob echoat $n $I{8's entire body forms into a liquid mass of boulder.  He suddenly charges you!{x
+mob echoaround $n $I{8's enter body forms into a liquid mass of boulder.  He suddenly charges $n!{x
+mob damage $n 900000 900000 lethal show charge
+else
+if class $n 'strider'
+mob echoat $n $I {8extends his massive arm, lined with spikes.  He swipes at you with all his strength!{x
+mob echoaround $n $I {8extends his massive arm, lined with spikes.  He swipes at $n with all his strength!{x
+mob damage $n 900000 900000 lethal show pierce
+else
+if class $n 'wizard'
+mob echoat $n $I {8brings all his energy to his maw.  It crackles as he lets loose a howl that encases you in lightning!{x
+mob echoaround $n $I {8brings all his energy to his maw.  It crackles as he lets loose a howl that encases $n in lightning!{x
+mob damage $n 900000 900000 lethal show shocking
+else
+if class $n 'sage'
+mob echoat $n $I {8heaves and brings forth billions of insects that pour down upon you!{x
+mob echoaround $n $I {8heaves and brings forth billions of insects that pour down upon $n!{x
+mob damage $n 900000 900000 lethal show sting
+else
+if class $n 'lich'
+mob echoat $n $I {8snatches you into his powerful grasp.  He bites down upon your body... HARD.{x
+mob echoaround $n $I {8snatches $n into his powerful grasp.  He bites down on $m... HARD.{x
+mob damage $n 900000 900000 lethal show chomp
+else
+if class $n 'priest'
+mob echoat $n $I {8lets loose a torrent of acidic vomit right on top of you that eats you alive!!!{x
+mob echoaround $n $I {8lets loose a torrent of acidic vomit right on top of $n that eats $m alive!!!{x
+mob damage $n 900000 900000 lethal show digestion
+else
+if class $n 'mercenary'
+mob echoat $n $I {8forms a whip-like tail from the putrescence at his back end and hurls it toward you!{x 
+mob echoaround $n $I {8forms a whip-like tail from the putrescence at his back end and hurls it toward $n!{x
+mob damage $n 900000 900000 lethal show whip
+else
+mob echoat $n $I{8's body turns into a sickeningly oily rot that pries itself into your throat, nose, and mouth!{x
+mob echoaround $n $I{8's body turns into a sickeningly oily rot that pries itself into $n's throat, nose, and mouth!{x
+mob damage $n 900000 900000 lethal show wrath
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+endif
+~
+#10996
+Erregdal transports a player~
+mob echoaround $n $I {8finishes with $n and stands on two legs, doubling his size.  He rares back and flings $n from him!{x
+mob echoaround $n {Y$n {WGOES {YWHEELING {8THROUGH {MTIME {8AND {GSPACE!!!{x
+mob echoat $n $I {8finishes with you and stands on two legs, doubling his size.  He rares back and {RFLINGS {8you from him!{x
+mob echoat $n {8-=+++{RYOU {WGO {YWHEELING {8THROUGH {MTIME {8AND {GSPACE!{8+++=-{x
+mob echoat $n {8-=+++{RYOU {WGO {YWHEELING {8THROUGH {MTIME {8AND {GSPACE!{8+++=-{x
+mob echoat $n {8-=+++{RYOU {WGO {YWHEELING {8THROUGH {MTIME {8AND {GSPACE!{8+++=-{x
+if rand 80
+mob transfer $n 34700 {R/*Nibelheim*/{x
+break
+endif
+if rand 70
+mob transfer $n 2400 {R/*Mahn-Tor*/{x
+break
+endif
+if rand 60
+mob transfer $n 11150 {R/*Chessboard*/{x
+break
+endif
+if rand 50
+mob transfer $n 5301 {R/*Old Thalos*/{x
+break
+endif
+if rand 40
+mob transfer $n 9208 {R/*Elemental Canyon*/{x
+break
+endif
+if rand 30
+mob transfer $n 9926 {R/*Hilp*/{x
+break
+endif
+if rand 20
+mob transfer $n 58010 {R/*Elven Valley*/{x
+break
+else
+mob transfer $n 27380 {R/*Torregiano*/{x
+endif
+~
+#10997
+Erregdal earthquakes for rp flavor~
+mob cast earthquake
+mob cast earthquake
+mob cast earthquake
+mob cast earthquake
+~
+#10998
+Erregdal master fight prog~
+{R/*Check for blind*/{x
+if affected $i 'blind'
+mob echo $I {8opens his maw and lets out an earthshaking {RHOWL{8.{x
+mob call 10997
+mob echo $I {8suddenly splashes down on the ground, his body turning into a fast running river of putrescence.{x
+mob echo $I {8solidifies in the form of spikes that shoot up from the ground!{x
+mob damage all 900000 900000 lethal show pierce
+mob mload 10998
+mob force 2.elder necrotic $r
+mob purge self
+endif
+{R/*Check for sanctuary*/{x
+if affected $i 'sanctuary'
+else
+  if rand 99
+    if rand 50
+  mob echo {x
+  mob echo {x
+  mob echo $I{8's skin grows hard for a moment and glows gray...{x
+  mob cast sanctuary $i
+  mob echo {x
+  mob echo {x
+    endif
+  else
+  endif
+endif
+{R/*5% fight*/{x
+if rand 95
+ if hpcnt $i <= 25
+ mob echo $I {8seems to draw energy from the very ground on which he stands.  It spirals up his legs and into his body.{x
+ mob cast 'cure critical' $i
+ mob cast 'cure critical' $i
+ mob cast 'cure critical' $i
+ mob cast 'cure critical' $i
+ else
+ break
+ endif
+break
+endif
+{R/*20% fight*/{x
+if rand 80
+mob echo $I {8begins heaving.  Thousands upon thousands of insects pour from his mouth.{x
+mob cast creep $r
+mob cast creep $r
+ if rand 80
+ mob cast creep $r
+  if rand 90
+  mob cast creep $r
+  endif
+ endif
+break
+endif
+{R/*30% fight*/{x
+if rand 70
+mob echoaround $n $I {8grabs $n in a sickening embrace and begins siphoning off $s life!{x
+mob echoat $n $I {8grabs {RYOU{8 in a sickening embrace and begins {gs{ri{wp{gho{yn{ri{rn{gg{8 off your life!{x
+mob damage $n 4000 8000 lethal show drain
+mob damage $n 4000 8000 lethal show drain
+mob damage $n 4000 8000 lethal show drain
+mob damage $n 4000 8000 lethal show drain
+  if rand 60
+  mob call 10996 $n
+  break
+  endif
+break
+endif
+{R/*40% fight*/{x
+if rand 60
+ if players >= 3
+ mob echo $I{8's disgusting skin hardens into long spikes that conduct his electrical charges.{x
+ mob echo $I{8's skin crackles with {Cblue {8bolts which suddenly discharge!{x
+ mob damage all 3000 7000 lethal show shock
+ mob damage all 3000 7000 lethal show shock
+ mob damage all 3000 7000 lethal show shock
+ else
+ break
+ endif
+break
+endif
+{R/*50% fight*/{x
+if rand 50
+  if class $r 'priest'
+  or class $r 'lich'
+  mob remember $r
+  mob echoaround $q $I {8reaches out and grabs $q with slime-ridden claws at lightning fast speed.{x
+  mob echoat $q $I {8reaches out and grabs you with slime-ridden claws at lightning fast speed.{x
+  mob echoaround $q $I {8begins siphoning $n's magical power!!!{x
+  mob echoat $q $I {8begins siphoning off your magical power!!!{x
+  mob cast 'energy drain' $q
+  mob cast 'energy drain' $q
+  mob cast 'energy drain' $q
+    if rand 80
+    mob call 10996 $q
+    mob forget $q
+    break
+    endif
+  mob forget $q
+  else
+  break
+  endif
+break
+endif
+{R/*60% fight*/{x
+if rand 40
+mob echo $I {8lets out a raging {RHOWL {8that {YRUMBLES {8along the ground!{x
+mob call 10997
+mob echo $I {8charges the room, his liquid skin now a battering ram of putrid ichor.{x
+bash $r
+bash $r
+bash $r
+break
+endif
+{R/*70% fight*/{x
+if rand 30
+mob cast gas $r
+mob cast gas $r
+mob cast gas $r
+break
+endif
+{R/*80% fight*/{x
+if rand 20
+if wears $i 'armor piece mobonly IstusQuest'
+mob junk armor
+mob echo $I{8's skin grows liquid once more.{x
+else
+   {R/*15% chance he will wear armor vuln/magic, imm/weapon types*/{x
+  if rand 85
+  mob oload 10985
+  mob echo $I{8's skin grows into a solid shell of armor.{x
+  wear armor
+  endif
+endif
+~
+#10999
+IstusQuest random generator for IQ craft pieces~
+{R/*Should only be run by the following...*/{x
+if name $n 'Istus'
+or name $n 'Luthic'
+if rand 1
+say {CHere's a {Wt{Yu{Gf{gt {8of {gF{Ga{Yt{We{C.{x
+mob oload 10998
+give tuft $n
+endif
+if rand 35
+say {CHere is a second {Wt{Yu{Gf{gt {8of {gF{Ga{Yt{We{C.{x
+mob oload 10998
+give tuft $n
+endif
+if rand 70
+say {CHere's another {Wt{Yu{Gf{gt {8of {gF{Ga{Yt{We{C.{x
+mob oload 10998
+give tuft $n
+endif
+if rand 75
+say {CHere's a {Wt{Yh{Gr{ge{Ga{Yd {8of {gF{Ga{Yt{We{C... lucky you!{x
+mob oload 10997
+give thread $n
+endif
+if rand 80
+say {CWow, {8vial of {WN{Ye{Gb{gul{Go{Yu{Ws E{Yt{Gh{Ye{Wr{C... incredible!{x
+mob oload 10995
+give vial $n
+endif
+if rand 98
+say {CHoly smokes!  It's {8The {YGl{yit{Yte{yri{Yng {gSc{Ga{grf {8of {WD{Ye{Gs{gt{Gi{Yn{Wy{C!{x
+mob oload 10996
+give scarf $n
+endif
+else
+{R/*Response if you are not supposed to be running this guy...*/{x
+shake
+say {CSorry, $n.  I only work for one lady.  My fate and my life depend on it.{x
+endif
+~
+#0
+
+#$

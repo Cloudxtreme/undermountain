@@ -1,0 +1,177 @@
+#AREADATA
+Name Faction Fortress~
+Builders None~
+VNUMs 94800 94899
+Credits [ CLOSED ] Faction Fortress Template~
+Security 6
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 0
+Zone 0
+End
+
+
+
+#MOBILES
+#94800
+high officer factionwar~
+{8High Officer {1of {8Faction {1W{!ar{0~
+{8A tall officer {7suited {8in {8pl{1at{!e{8-{!m{1a{8il {8stands here.{0
+~
+~
+human~
+AB 0 0 0 0
+110 0 100d100+100 100d100+100 100d100+100 slash
+-10 -10 -10 -10
+0 CDa 0 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 94800 0~
+#0
+
+
+
+#OBJECTS
+#94800
+factionattack attacker badge~
+{8<{7={!At{1t{8ac{1k{!er{7={8>{0~
+{8a {1r{!ed {8me{7tall{8ic badge lies here.{0~
+steel~
+key AHMYZ Ab
+0 0 0 0 0
+1 1 5 P
+L this badge is an insignia of attacking forces~
+#94801
+factiondefense defender badge~
+{8<{7={BDe{bf{8en{bd{Ber{7={8>{0~
+{8a {bb{Blu{be {8me{7tall{8ic badge lies here.{0~
+steel~
+key AHMYZ Ab
+0 0 0 0 0
+1 1 5 P
+L this badge is an insignia of defending forces~
+#0
+
+
+
+#ROOMS
+#94800
+Faction War Entry Point~
+~
+~
+0 67108908 0 0
+0
+D0
+~
+~
+0 0 94801
+S
+#94801
+Wrong Room~
+~
+If you found yourself here, something has gone wrong,
+so go ahead and recall away or walk south.
+~
+0 67108904 0 0
+0
+D2
+~
+~
+0 0 94800
+S
+#94802
+Attack Portal Room~
+~
+~
+0 67108908 0 0
+0
+S
+#94803
+Defend Portal Room~
+~
+~
+0 67108908 0 0
+0
+S
+#94804
+Southern Path~
+~
+~
+0 335552544 0 19
+0
+D0
+~
+~
+0 0 94805
+S
+#94805
+Southern Path~
+~
+~
+0 335552544 0 19
+0
+D0
+~
+~
+0 0 94806
+D2
+~
+~
+0 0 94804
+S
+#94806
+Southern Path~
+~
+~
+0 335552544 0 19
+0
+D2
+~
+~
+0 0 94805
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 94800 1 94800 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#94800
+~
+if wears $n factiondefense
+smile $n
+say You belong to the forces of Defenders, Let me show you the way to your quarters.
+mob transfer $n 94803
+endif
+if wears $n factionattack
+smile $n
+say You belong to the forces of Attackers, Let me show you the way to your quarters.{0
+mob transfer $n 94802
+else
+mutter $n
+say You dont carry the insignia of any force so I cannot let you pass.{0
+endif
+~
+#0
+
+#$

@@ -1,0 +1,1095 @@
+#AREADATA
+Name Mirage's area~
+Builders None~
+VNUMs 99800 99849
+Credits [ CLOSED ] RP and Leveling~
+Security 6
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 3
+Zone 0
+End
+
+
+
+#MOBILES
+#99800
+gerrit bartender~
+{CGerrit the Bartender{x~
+{WGerrit the bartender stands here cleaning glasses.{x
+~
+~
+human~
+ABU 0 0 0 0
+50 0 1d1+100 1d1+1 1d1+1 none
+0 0 0 0
+0 ABCa ABC 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 99800 100~
+#99801
+bard~
+A bard~
+The Bard sits here singing and drinking ale.
+~
+The bard is a medium built male .  He is hanging out singing and
+strumming his guitar, alternating with drinking his ale.  He has long
+brown hair and blue eyes as well as a long brown beard.  His clothing
+looks like it was newly bought.  
+~
+human~
+ABY DFY 0 1000 0
+50 10 1d1+1 0d0+0 0d0+0 punch
+0 0 0 0
+DEFK B 0 0
+stand stand male 5000
+AHV ABCDEFGI medium unknown
+D {RA bard crashes to the ground with a thud. He is dead.{x~
+T I was only singing!~
+F for M
+F par HJK
+#0
+
+
+
+#OBJECTS
+#99800
+large dusty stage~
+{CA large dusty stage.{x~
+{C Here is a large expansive, yet dusty stage before you. {x~
+unknown~
+furniture 0 0
+10 10000 BEH 0 0
+0 0 0 P
+#99801
+A silver key~
+{WA silver key{X~
+{wA silver key gleams in the light.{x~
+unknown~
+key 0 O
+0 0 0 0 0
+0 0 0 P
+#99802
+Hamburger~
+{wA {*Hamburger{x~
+{wA {*yummy hamburger sits here waiting to be eaten.{x~
+unknown~
+food 0 0
+5 4 0 0 0
+1 10 35 P
+#99803
+Ale~
+{yA bottle of Ale{x~
+{yA bottle of ale is here , ice cold.{x~
+unknown~
+drink 0 0
+100 100 'ale' 0 0
+1 10 5 P
+#0
+
+
+
+#ROOMS
+#99800
+{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy~
+~
+{WYou have entered Mother Gothal's Lobby.  Before you sit many tables
+obviously for dining purposes.  Each table has a beautiful centerpeice
+and a candle glowing atop it.  The atmosphere in the room is quiet and
+relaxed.  {x 
+~
+0 8 0 12
+0
+D0
+~
+~
+0 0 99801
+Q 99802
+S
+#99801
+{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy~
+~
+{WYou have entered the midsection of the lobby.  To the north and
+east there is a bar to quench your thirst, and there are plenty of
+cozy places to sit and relax from your travels.  {WThere are stairs
+{Wleading up to the second floor and a {bK{Bi{Ct{Wc{Ch{Be{bn {Wto the east.  
+~
+0 8 0 12
+0
+D0
+~
+~
+0 0 99802
+D1
+~
+~
+0 0 99805
+D2
+~
+~
+0 0 99800
+D4
+~
+~
+0 0 99803
+Q 99802
+S
+#99802
+{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy{x~
+~
+{WThere are several cofortable chairs here to relax in coupled with
+large tables.  Here you can see a better view of the stage.  
+~
+0 8 0 12
+0
+D1
+~
+~
+0 0 99804
+D2
+~
+~
+0 0 99801
+S
+#99803
+{WThe {CP{cr{Co{cm{Ce{cn{Ca{cd{Ce{x~
+~
+{WThe comfortable and quiet atmosphere of this room is soothing.  The
+{bblue curtains {Wthat line the walls mesh beautifully with the {ywooden
+floor.  {WPlush sofas are scattered throughout the room, adding a
+welcome to stay awhile and relax.  The {Ylanterns {Wthat line the walls
+all give off a soft glow, slightly {Cilluminating {Wthe polish on the
+floor.  {WEach table holds a various array of flowers and other plants. 
+Giving the room the an intoxicating scent.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99822
+D1
+~
+~
+0 0 99826
+D2
+~
+~
+0 0 99808
+D3
+~
+~
+0 0 99824
+D5
+~
+~
+0 0 99801
+S
+#99804
+Bar in the lobby~
+~
+{W Here you see a beautiful yet simple bar hosting a great deal of
+exotic and domestic ales and other fine brews behind its counter.  The
+glass on either side of the bar is beautifully etched with {CT{ch{Ce {cH{Ca{cr{Cp{ce{Cr {W
+symbol.  
+~
+0 8 0 13
+0
+D3
+~
+~
+0 0 99802
+Q 99802
+S
+#99805
+{bA L{Ba{cr{Cg{We Ki{Ct{cc{Bh{ben.{x~
+~
+{bThis kitchen i{Bs quite obviou{csly made for a l{Carge crowd to c{book for.
+In the m{Biddle of the ro{com is a large ki{Cln, one with a po{bt hung inside
+o{Bf it, brewing so{cmething deli{Cghtfully arom{batic and the ot{Bher
+containin{cg spaces to pla{Cce bread perha{bps for baking.  A{Bround the roo{cm
+there are var{Cious tables, ea{bch for a differ{Bent purpose an{cd above each
+of {Cthese tables th{bere are utensi{Bls for each tas{ck gleaming in t{Che
+light.  {x 
+~
+0 0 0 12
+0
+D1
+~
+~
+0 0 99814
+D2
+~
+~
+0 0 99806
+D3
+~
+~
+0 0 99801
+Q 99802
+S
+#99806
+{WElevator at the First Floor{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up or Down?" {x
+~
+0 67108872 0 0
+0
+D0
+~
+~
+0 0 99805
+D4
+~
+~
+0 0 99808
+D5
+~
+~
+0 0 99807
+S
+#99807
+{WElevator at the Basement{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up?" {x
+~
+0 0 0 0
+0
+D4
+~
+~
+0 0 99806
+S
+#99808
+{WElevator at the Second Floor{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up or Down?" {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99803
+D4
+~
+~
+0 0 99809
+D5
+~
+~
+0 0 99806
+S
+#99809
+{WElevator at the Third Floor{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up or Down?" {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99827
+D4
+~
+~
+0 0 99810
+D5
+~
+~
+0 0 99808
+S
+#99810
+{WElevator at the Fourth Floor{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up or Down?" {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99839
+D4
+~
+~
+0 0 99811
+D5
+~
+~
+0 0 99809
+S
+#99811
+{WElevator at the Fifth Floor{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up or Down?" {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99843
+D4
+~
+~
+0 0 99812
+D5
+~
+~
+0 0 99810
+S
+#99812
+{WElevator at the Sixth Floor{x~
+~
+{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C"Going up or Down?" {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99846
+D4
+~
+~
+0 0 99813
+D5
+~
+~
+0 0 99811
+S
+#99813
+{WElevator at the Roof{x~
+~
+{cThere is a man standing here.  There is a pully next to him with
+various levers and the like.  He looks at you and asks {C"Going Down?"  {x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99848
+D5
+~
+~
+0 0 99812
+S
+#99814
+{WA {RS{rm{Wa{Rl{rl {WC{Ro{ru{Wr{Rt{ry{Wa{Rr{rd{W.{x~
+~
+{WA Beautiful courtyard is here, {Rcherry {Wtrees blossom here it seems
+year round.  {WThe atmosphere is very relaxing and comfortable.  Why not
+{W take a rest and relax in the {Cs{cp{Cr{ci{Cn{cg{W or rest on a bench?  {x 
+~
+0 0 0 19
+0
+D1
+~
+~
+776 0 99815
+D3
+~
+~
+0 0 99805
+S
+#99815
+{CA {cM{Ce{ce{Ct{ci{Cn{cg {CR{co{Co{cm.{x~
+~
+{*This room has no {ww{Wi{wn{Wd{wo{Ww{ws{* in it, the room is barely {Yl{yi{Yt {*with candles
+that line the walls.  Bookeshelves line the walls with {ydusty books
+{*sitting in them.  The table in the middle of the room is huge, large
+enough for a gathering of at least 15 people.  The chairs are all
+tucked in neatly around it.  A {Yfi{Rre{rp{Rla{Yce {Rburns {*nearby adding warmth to
+the room.  
+{x
+~
+0 67108872 0 0
+0
+D1
+~
+~
+0 0 99817
+D2
+~
+~
+0 0 99816
+D3
+~
+~
+776 99801 99814
+S
+#99816
+{YA Sitting Room{x~
+~
+{cThis room appears to be made for a {*small {cgroup of people, perhaps
+maybe four or five {Rmaximum. {cThere are two sofas that {Yinvite {cyou to
+rest during your quiet conversation. There are no {wwindows {Cin
+this room, there are only {Ycandles {clining the walls. The {ybookshelf {cin
+the corner is {*empty.{x 
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99815
+S
+#99817
+{WA {yDimly {WLit Stairwell.{x~
+~
+{WThese stairs go up to {CS{ct{Ce{cr{Cl{ci{Cn{cg{C'{cs {Woffice and waiting area.  They
+also lead down into what seems to be a dead end.  {x 
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 99815
+D5
+~
+~
+0 0 99818
+S
+#99818
+{CA Secret Meeting Room.{x~
+~
+{WYou enter, it is dark and dusty.  There are small tables scattered
+throughout the room lit with a single candle on each one giving off a
+faint glow.  In the center of the room sits a long table with maps
+rolled out across it.  Bookshelves that surround it are covered in
+cobwebs.  
+~
+0 0 0 0
+0
+D1
+~
+~
+35592 99801 99819
+D3
+~
+~
+33544 99801 99820
+D4
+~
+~
+0 0 99817
+S
+#99819
+~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+35592 0 99818
+S
+#99820
+{yA Large Storeroom{x~
+~
+{WA large store room stores barrels of beer and bottles upon bottles
+of fine wines and ales.  The whole room is filled to the cieling in
+rows.  The smell is almost as intoxicating as drinking the contents
+there in.  
+~
+0 0 0 0
+0
+D1
+~
+~
+33544 99801 99818
+D3
+~
+~
+0 0 99821
+S
+#99821
+{CCold {cS{Ct{co{Cr{ca{Cg{ce{x~
+~
+{WYou walk down a ramp into a dark musky room.  A small {Ylantern {Wcasts
+a faint glow on what seems to be blocks of ice and more barrels. 
+{WThere are {yshelves{W lining the walls holding jars and other odds and
+ends.  
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99820
+S
+#99822
+{CTi{cck{Cet {YBo{yo{Yth{x~
+~
+{CAn enclosed {Wroom just bi{cg enough for {Cone sits her{We.  It appear{cs to
+be a boot{Ch of some sor{Wt.  The top of t{chis small ro{Com doesn't e{Wven
+touch th{ce cieling.  A g{Cold counter{W stretches u{cnderneathe{C the glass
+pa{Wnel that sep{carates you f{Crom the vend{Wor.  Tickets f{cor several {Cevents
+are so{Wld here.  Look{cing inside y{Cou see a huge{W poster list{cing the
+even{Cts for the ev{Wening.  {x 
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 99803
+D3
+~
+~
+0 0 99823
+S
+#99823
+{RC{Bh{Gi{Yl{Rd{Br{Ge{Yn{Rs {BS{Gt{Yo{Rr{By {GR{Yo{Ro{Bm{G.{x~
+~
+{YBookshelves line the walls.  Books of all sizes and {Rc{Bo{Gl{Ro{Br{Gs {Yrest
+upon them.  Some with {ygold {Ybinding , some with {wsilver{Y, others dusty
+and torn with browned edges, and some almost brand new.  Couches and
+soft satiny pillows litter the room.  In the center there is a
+{rbeautiful {Yrug, cozy enough for one to relax on while listening to a
+grand tale.{x  
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99822
+S
+#99824
+{YG{yr{Ya{yn{Yd {CB{ca{Cl{cl{Cr{co{Co{cm{x~
+~
+{CThis ballroom is large with high ceilings and hanging {Wchandeliers. 
+{CThe walls are full of floor length windows that are tall and slender. 
+{CThe Curtains draped over them seems to be a {Ygold lace.  {CThe floor is
+shiny and polished.  Off in the corner there is an area where the
+floor isn't so shiny.  It looks like this may be where the musicians
+play and maybe where food is set up.  {X 
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 99825
+D1
+~
+~
+0 0 99803
+S
+#99825
+{WA {RQ{Wu{Ri{We{Rt Romantic {WS{Rp{Wo{Rt{x~
+~
+{GGreen grass that is l{gu{Gs{gh{G and perfectly manicured, surrounds a large
+{ytree{G that provides shade and cover.  There are various places to sit
+among some {Rroses {Gand {Mwildflowers.  {x 
+~
+0 0 0 19
+0
+D2
+~
+~
+0 0 99824
+S
+#99826
+{CP{cr{Ci{cv{Ca{ct{Ce {RB{ra{Rl{rc{Ro{rn{Ry{x~
+~
+{WThis balcony is secluded.  Satiny {cblue curtains{W cover the entrance.
+The deck is made with a {Rcherry {Wwood and is {Ypolished {Whighly to a glaze.
+The railing surrounding this balcony is carved {Rcherry {Wwood depicting
+different symbols, some burne {Wned into the wood.  There is a
+comfortable spot for a couple sit and watch the sunrise or just about
+anything else.  
+{x
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 99803
+S
+#99827
+{CA Hallway~
+~
+{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark
+{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side
+you can see doors leading to various guestrooms along the length of
+the hall.
+{x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99828
+D2
+~
+~
+0 0 99809
+S
+#99828
+{CA Hallway~
+~
+{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark
+{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side
+you can see doors leading to various guestrooms along the length of
+the hall.
+{x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99829
+D1
+~
+~
+0 0 99832
+D2
+~
+~
+0 0 99827
+D3
+~
+~
+0 0 99831
+S
+#99829
+{CA Hallway{x~
+~
+{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark
+{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side
+you can see doors leading to various guestrooms along the length of
+the hall.
+{x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99830
+D1
+~
+~
+0 0 99834
+D2
+~
+~
+0 0 99828
+D3
+~
+~
+0 0 99833
+S
+#99830
+{CA Hallway~
+~
+{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark
+{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side
+you can see doors leading to various guestrooms along the length of
+the hall.
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99836
+D2
+~
+~
+0 0 99829
+D3
+~
+~
+0 0 99835
+D4
+~
+~
+0 0 99837
+S
+#99831
+{cR{Co{wo{Bm {W1{x~
+~
+{cA comfortable and cozy room surrounds you.  On the ceiling are
+painted murals of {wangels {cand the like.  A fireplace warms the room to
+your liking.  {x 
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99828
+S
+#99832
+{cR{Co{Wo{Bm {W2~
+~
+{cA pair of twin beds are on either side of the room.  A nightstand
+with a single lamp sits at the head inbetween them.  {x 
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 99828
+S
+#99833
+{cR{Co{Wo{Bm {W3~
+~
+{cA barren room is here....  No bed, no furniture, no pictures on the
+walls.  Maybe the room was rented by mistake.  All that is here is a
+{Rfireplace{c.  {x 
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99829
+S
+#99834
+{cR{Co{Wo{Bm {W4~
+~
+{YShiny {wmirrored {Wwalls surround this room.  The bed on the opposite
+side of the room is sorrounded with sheer {Mpink curtains.  {WA down
+comforter lays over the top of the bed, and lots of pillows adorn the
+head of the bed.  {x 
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 99829
+S
+#99835
+{cR{Co{Wo{Bm {W5~
+~
+{CThis room emanates a {Ywa{Rrm {Yglow {Cfrom it.  There are tapestries on
+each wall, each one depicting a {mroma{Rntic {Cmoment of its own.  The floor
+is covered with a faux fur rug, {ytan {Cin color.  The bed which is
+centered in the middle on the room is circular in shape and covered in
+satiny sheets.  This room is definently inviting to a pair of {Rlovers.{X
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99830
+S
+#99836
+{cR{Co{Wo{Bm {W6~
+~
+{BA waterbed dominates this room.  It sits on the middle of the room
+and it's huge.  On all four sides it leaves only about two feet on
+either side.  Around the edges are {rcherry wood{B edges holding the bed
+in place {*etched {B with beautiful elven writin g.  {BAround the top of the
+room near the ceiling is a netowrk of {Givy.  {BIn each corner of the room
+is an {WOrchid {Bplant.  {x 
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 99830
+S
+#99837
+{YO{yr{Yn{ya{Yt{ye {YH{ya{Yl{yl{Yw{ya{Yy.{x~
+~
+{WThe {Yshiny {ybrass {Csta{cirs {wyou {Wjus{Ct cl{cimb{wed l{Wead {Cint{co a v{wery {Yornate
+{Whal{Clwa{cy.  T{whe w{Wall{Cs ar{ce co{wver{Wed i{Cn ta{cpes{wtri{Wes d{Cepi{ccti{wng v{Wari{Cous{c
+sce{wnes{W.  So{Cme a{cre r{woma{Wnti{Cc an{cd fu{wll o{Wf lo{cve.  {w Oth{Wers{C are {*dark {cand
+{*sinister.  {wThe{W wal{Cls a{cre a{w sof{Wt {ybeige, {Wli{Ct by{c {Ylanterns.  {cShe{wlve{Ws li{Cne
+t{che w{wall{Ws co{Cver{ced w{with {Wtin{Cy kn{cick{w kna{Wcks {Cand {codd{ws an{Wd en{Cds.  {c To t{whe
+e{Wast{C is a{c Gue{wst R{Woom{C.  {x 
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99840
+D1
+~
+~
+0 0 99838
+D2
+~
+~
+512 99801 99839
+D3
+~
+~
+0 0 99841
+D5
+~
+~
+0 0 99830
+S
+#99838
+{MA Guest Room~
+~
+{x {mA swe{Met sm{rell w{Rafts{r thro{Mugh{m the a{Mir in{r here{R.  It s{rmell{Ms lik{me swe{Met
+ch{rerri{Res.  A{rn inc{Mense{m burn{Mer is{r lit i{Rn all{r four{M corn{mers o{Mf the{r room{R. 
+The{r smok{Me waf{mting{M up in{rto th{Re air{r and g{Mentl{my dis{Mappe{rarin{Rg.  A
+b{rooks{Mhelf{m hold{Ms var{rious{R kind{rs of b{Mooks{m rang{Ming i{rn all{R fiel{rds of{M
+inte{mrest{M to oc{rcupy{R the m{rind o{Mf who{mever{M is he{rre fo{Rr the {reven{Ming.  {m A
+mur{Mal pa{rinte{Rd on t{rhe wa{Mll de{mpict{Ms a sc{rene o{Rf a be{rauti{Mful l{make.  {MThe
+w{rater{Rs blu{re and{M spar{mklin{Mg on a{r sunn{Ry day{r.  The {Msunl{might{M pour{rs dow{Rn
+thr{rough{M the t{mrees{M and t{rhen r{Refle{rcts o{Mff th{me wat{Mers g{rivin{Rg eve{rryth{Ming
+a{mroun{Md it a{m beau{Mtifu{rl glo{Rw.  A d{roe an{Md her{m fawn{M lean{r down{R for a{r drin{Mk
+of w{mater{M, Whi{rle bi{Rrds f{rly up{M over{mhead{M.  {x 
+~
+0 0 0 0
+0
+D3
+~
+~
+0 0 99837
+S
+#99839
+{5 A Suite {x~
+~
+{WThis room is very {bneat {Wand {Cclean.  {WThere are sofas all around the
+room inviting someone to rest their weary heads.  T he lights are {ydim
+{Wand create an atmosphere of coziness and {rwarmth.  {GWreaths {Wand bundles
+of flowers litter the room emitting a sweet and {Rsensual {Ysmell.  
+~
+0 1032 0 0
+0
+D0
+~
+~
+512 99801 99837
+D2
+~
+~
+0 0 99810
+S
+#99840
+{CS{ce{Cr{cv{Ca{cn{Ct{cs {CQ{cu{Ca{cr{Ct{ce{Cr{cs.{x~
+~
+{WThis {Croom {cis fa{wirly {Wbarr{Cen sa{cve fo{wr a fe{Ww be{Cds an{cd {wa cou{Wple o{Cf
+war{cdrob{wes.  {x 
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 99837
+S
+#99841
+{YA Spiraling Brass Staircase.~
+~
+{yA set of brass stairs spirals upward.  The steps, the rails and the
+room is all polished brass.  You can see yourself in the brass as a
+reflexion.  {x 
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 99837
+D4
+~
+~
+0 0 99842
+S
+#99842
+{BThe Magic Room{x~
+~
+{cA table with various tubes and flasks of different colored liquids
+bubble and drip here.  A a couple of wands are laid out on the table
+as well.  An open book lies at another end of the table written in
+some sort of cryptic code.  
+{x
+~
+0 0 0 0
+0
+D2
+~
+~
+32776 0 99843
+D5
+~
+~
+0 0 99841
+S
+#99843
+{*A dark, {ynasty {gsmelling corridor{x~
+~
+{*It's dark except for a {wfaint {*light at the end of this corridor.  A
+dripping noise echoes down it.  The smell is more than any normal
+person can bare.  {x 
+~
+0 0 0 0
+0
+D0
+~
+~
+32776 0 99842
+D1
+~
+~
+32768 0 99844
+D2
+~
+~
+0 0 99811
+S
+#99844
+Dream Gate~
+~
+{BThis {Croom {Wis la{Brge w{Cith h{Wigh c{Beili{Cngs.  S{Wuppo{Brt be{Cams r{Wun ac{Bross {Cthe
+t{Wop.  Al{Bl aro{Cund t{Whe wa{Blls a{Cppea{Wr to b{Be cei{Cling {Wto fl{Boor c{Curta{Wins m{Bade
+o{Cf hea{Wvy ve{Blvet {Cmate{Wrial {Bin a d{Cark b{Wlue.  O{Bn eit{Cher e{Wnd of {Bthe
+c{Curta{Wins t{Bhere {Care l{Wong g{Bolde{Cn rop{Wes th{Bat lo{Cok li{Wke pu{Blley{Cs.  The{W
+floo{Br is m{Cade o{Wf pol{Bishe{Cd oak.  {BIn th{Ce mid{Wdle o{Bf thi{Cs roo{Wm app{Bears t{Co
+be a {Wlarg{Be doo{Cr, see{Wming{Bly le{Cadin{Wg to n{Bothi{Cng.  No{Wthin{Bg is o{Cn eit{Wher
+s{Bide o{Cf the {Wdoor.  {BAbov{Ce the {Wdoor, {Bon ei{Cther {Wside, {Bthe f{Crame {Wsays
+{Y"Dream Gate"{X 
+~
+0 0 0 0
+0
+D3
+~
+~
+32768 0 99843
+D4
+~
+~
+0 0 99845
+S
+#99845
+~
+~
+~
+0 0 0 0
+0
+D5
+~
+~
+0 0 99844
+S
+#99846
+{yAn empty storage area.~
+~
+{WThis room is dark and smelly.  It smells like moldy cardboard.  You
+can hear dripping noises, apparently there is some sort of leak from
+the roof.  
+{x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99847
+D2
+~
+~
+0 0 99812
+S
+#99847
+{yAn empty storage area~
+~
+{WThis part of the room is even darker and you can barely see the
+elevator from this vantage.  Some squeaking noises are coming from
+nearby, maybe it's a rat.  
+{x
+~
+0 8 0 0
+0
+D2
+~
+~
+0 0 99846
+S
+#99848
+{*The roof.{x~
+~
+{*The roof starts here sloping down sharply on either side.  The
+roofing seems to be slippery and wet.  There is a chimney here with
+smoke billowing out of it.  
+{x
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 99849
+D2
+~
+~
+0 0 99813
+S
+#99849
+{*The edge of the roof~
+~
+{* This is the other end of the roof, in the distance the sigh is the
+rest of Amphail and off even further are mountains.  {x 
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 99848
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 99842 2 1
+D 0 99843 0 1
+O 0 99800 0 99802
+M 0 99801 1 99802 1
+M 0 99800 1 99804 1
+G 0 99802 0
+G 0 99803 0
+S
+
+
+
+#SHOPS
+99800 0 19 17 0 0 75 120 0 23
+0
+
+
+
+#MOBPROGS
+#99800
+~
+say Hey there, $n! How are you today?
+say Would you care for a drink?
+~
+#0
+
+#$

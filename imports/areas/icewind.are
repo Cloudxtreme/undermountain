@@ -1,0 +1,3228 @@
+#AREADATA
+Name Icewind Dale~
+Builders None~
+VNUMs 33400 33499
+Credits [50 FR 99] Icewind Dale~
+Security 10
+Recall 55774
+Faction ~
+AQpoints 0
+Realm 1
+Zone 0
+End
+
+
+
+#MOBILES
+#33400
+imp task mob~
+the Task Mob~
+(Wizi) A imp task mob performs mprogs.
+~
+~
+human~
+AB DFJZ P 0 0
+104 0 10d10+100 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 33400 15~
+M grall 33401 100~
+#33401
+freezing wind mob~
+freezing wind mob~
+Freezing wind mob (imp)
+~
+~
+human~
+ABN DFJZ P 0 0
+102 0 100d100+100 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 33402 50~
+#33402
+maze plains wind mob~
+maze plains wind mob~
+The maze plains wind mob casting mprogs is here
+~
+~
+human~
+ABIN 0 P 0 0
+120 0 1d1+999 1d1+999 0d0+0 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 33407 90~
+#33403
+wolf white whitewolf~
+a {WWi{Cn{wt{Ce{Wr Wolf{x~
+An ice cold {Wwhite wolf{x snarls towards you.
+~
+This savage and large wolf has a chillingly ocld wintery white
+pelt, and is very very angry.  
+~
+wolf~
+AFNT DFPTVZc CHO -800 0
+102 1500 100d100+20000 100d100+20000 100d20+300 claw
+-99 -99 -99 -88
+BFHRU ABILQ 0 H
+stand stand either 0
+AGV ACDEFJKQV medium unknown
+D ~
+T ~
+M exall 33408 1~
+M exall 33408 3~
+M exall 33408 0~
+M exall 33408 2~
+M exall 33408 4~
+#33404
+polara beara~
+a {WP{wolar {WB{wear{x~
+A great big {WP{wolar {WB{wear{x stands on his hind legs and roars.
+~
+This is a large white bear with a thick fur skin.  It is pretty
+nasty and rather tough.  
+~
+bear~
+ABN DFV CH 0 0
+111 5000 100d100+10000 100d100+100 100d10+500 crush
+-83 -83 -83 -53
+DEHO AB EI H
+stand stand none 0
+AGV ABCDEFHJKUV medium unknown
+D ~
+T ~
+M death 33417 100~
+M exall 33412 1~
+#33405
+IWD teleport blocker mprog mob~
+IWD teleport blocker mob~
+({WWizi{x) teleport blocker mprog mob is here, and shouldn't be visible to you!
+~
+He is here to keep this room able to recall out, yet block teleporters
+from gaining access to the loot. Let the imms know if he's visible. 
+Thanks! 
+~
+human~
+ABMNO DFJTZ P 0 0
+102 0 100d100+5800 100d100+5800 100d100+5000 punch
+-10 -10 -10 -50
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M act 33409 fades into existence.~
+#33450
+gargantuan icy dragon ice solid~
+the {Wgiant {wdragon of {CF{cr{Cos{ct{x~
+{wAn enormous, gargantuan {Rd{rr{Ya{yg{ro{Yn {wsits here{W,{w with his body as solid as {Ci{cc{Ce{W,{w he watches your every move.{x
+~
+~
+wolf~
+ABFT DFJTVZ CEHR 0 0
+150 1516 1000d500+-31072 1000d100+10000 1000d20+1000 frbite
+-312 -312 -312 -312
+AEFHKM ABIRT EN HK
+stand stand none 10000000
+AGHVZ ACDEFGHIJKPQUVX large ice
+D ~
+T ~
+M random 33418 30~
+M exall 33416 3~
+M death 33450 100~
+M fight 33415 2~
+#33451
+pomab shop~
+Pomab the Dwarf~
+Pomab the Dwarf stands behind the counter greeting all into his strange little shop.
+~
+Pomab is a stout little dwarf with a long red beard.  He is wearing
+all sorts of strange bright garments put together in an eclectic
+ensemble.  
+~
+dwarf~
+AB JZ 0 399 0
+120 0 1d1+9999 1d1+9999 1d1+9999 none
+0 0 0 0
+0 ABLQa FLQ RS
+stand stand male 1000000000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33452
+old dying treasure hunter man~
+{wA withered, old {Btr{Cea{bsu{cre {Dhu{c{bn{Cte{Br{x~
+An old, tired man is lying on the ground, dying in pain.
+~
+~
+human~
+AB V 0 0 0
+130 0 1d1+1 0d0+0 3d3+3 none
+0 0 0 0
+0 A 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 33455 100~
+M death 33456 90~
+#33453
+fishmonger~
+the fishmonger~
+The Fishmonger is here selling fish of all sorts.
+~
+This man is wearing a bloody apron covered in stains of fish guts,
+and man, does he stink of fish.  
+~
+human~
+AB DF 0 555 0
+120 0 1d1+9999 1d1+9999 1d1+9999 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 50000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33454
+halfling barman~
+the halfling barman~
+A Halfling Barman stands ready to take your order.
+~
+This short little creature stands on a platform behind the bar so
+that you can see him.  
+~
+halfling~
+AB QUb 0 333 0
+120 0 1d1+9999 1d1+9999 1d1+9999 none
+0 0 0 0
+0 ABLQa LNQ S
+stand stand none 33333
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33455
+elf healer~
+{WL{waeria{x the {CE{cl{gv{ce{Cn {WH{wealer{x~
+{WL{waeria{x the {CE{cl{gv{ce{Cn {WH{wealer{x is here healing weary travellers.
+~
+Laeria is a beautiful elven girl, wearing fine robes and possesses
+the symbols of Lathander.  
+~
+elf~
+ABZa FJVc 0 1000 0
+120 0 1d1+9999 1d1+9999 1d1+9999 divine
+0 0 0 0
+0 ABLQa BG 0
+stand stand female 55555
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33456
+fishing boy~
+a fishing boy~
+A Small boy is here, fishing through a hole in the ice.
+~
+This is a young human boy, around 13 years of age.  He is dressed
+in thick furs to keep him warm and he smells of fish.  The lucky boy. 
+:P 
+~
+human~
+A 0 0 650 0
+48 7 10d10+500 10d10+500 2d10+15 none
+-15 -15 -15 -3
+0 0 I H
+stand stand male 48
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33457
+hrothgar~
+Hrothgar~
+Hrothgar, the owner of the house is here.
+~
+A finely dressed man stands before you.  He is wearing a finely cut
+suit, and not the usual furs of the rest of the villagers.  His house
+is warm and he doesnt need them.  
+~
+human~
+AG DF H 400 0
+115 100 500d500+-24288 10d10+9000 200d50+1000 thwack
+-37 -37 -37 -30
+0 AB I 0
+stand stand male 4599
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T What are you doing in my house?~
+#33458
+servant~
+Hrothgar's Servant~
+A Servant wanders the house doing duties for his master.
+~
+~
+human~
+AC 0 0 200 0
+90 5000 100d100+10000 100d100+10000 100d10+500 none
+-30 -30 -30 -20
+FN 0 I 0
+stand stand none 5000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33459
+icewind villager~
+A villager~
+{xAn {cI{Cce{Wwind D{Cal{ce{x Villager wanders out in the cold village.
+~
+Not many venture out through the cold of icewind dale.  This
+villager has their face wrapped heavily with a scarf, and are wearing
+thick furs to keep out the cold.  
+~
+human~
+A 0 0 444 0
+95 100 10d10+3000 10d10+3000 6d6+32 thwack
+-30 -30 -30 -40
+0 0 I 0
+stand stand either 3472
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33460
+drunk old man~
+a drunk old man~
+An Old Man rests at the table, half asleep from a little too much alcohol.
+~
+~
+human~
+A 0 0 450 0
+5 0 10d10+500 10d10+500 1d10+10 none
+-5 -5 -5 0
+0 B 0 0
+stand stand male 45
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#33497
+ice yeti gigantic~
+A gigantic, slobbering Ice Yeti~
+A gigantic, slobbering Ice Yeti leaps from the shadows!
+~
+Matted, filthy fur is clumped around this creature's body.  It
+stands on two legs, patches of hairlessness showing that it has
+survived quite a few battles in its lifetime.  It's massive weight
+sends loose rock tumbling from the ceiling as it stomps the ground. 
+It glowers down at you, and bears its canines, undeniably ready for
+the fight that is sure to ensue...  
+~
+giant~
+ABFY DFV CHP -550 0
+107 1500 500d500+5000 100d100+900 300d30+500 beating
+-65 -65 -65 -30
+CDO AB EHI HJR
+stand stand none 10000
+AHMV ABCDEFGHIJK huge unknown
+D ~
+T ~
+M exall 33411 5~
+#33498
+wolf tundra tundrawolf~
+A tundra wolf~
+A tundra wolf senses your presence and lets out a snarl.
+~
+Blindingly white fur dominates the tundra wolf's features, as with
+most animals of the Dale.  Its ice-blue eyes bore into you, and its
+mouth recoils in a ferocious snarl.  
+~
+wolf~
+AGW Z 0 0 0
+15 0 6d11+107 6d11+107 3d4+6 claw
+3 3 3 6
+FH 0 I H
+stand stand none 500
+AGV ACDEFJKQV medium unknown
+D ~
+T ~
+#33499
+white snow rabbit whiterabbit snowrabbit~
+A snow rabbit~
+A snow rabbit is here, seeking shelter of some sort.
+~
+This rabbit is blindingly white, a natural camouflage that allows
+it to blend in with the surrounding snow in the frozen wasteland that
+it calls home.  
+~
+rabbit~
+AGW 0 0 0 0
+10 0 5d8+67 5d8+67 2d5+4 bite
+5 5 5 5
+FH AB I H
+stand stand none 300
+AG CDEFJK small unknown
+D ~
+T ~
+F for V
+F par AH
+#0
+
+
+
+#OBJECTS
+#33400
+dragontooth earrings~
+{CD{cr{Ca{cg{Co{cn{WT{wo{Wo{wt{Wh {WEa{wr{Dri{wn{Wgs{x~
+{wThe most beautiful, {Wglowing{w pair of earrings you have seen sit here.{x~
+unknown~
+jewelry AY AS
+0 0 0 0 0
+101 0 1000023 P
+A
+13 100
+A
+12 75
+A
+18 6
+A
+19 9
+#33401
+dragons bane~
+{CD{cr{Ca{cg{Co{cn{C'{cs {RB{ra{Rn{re{x~
+A large sword lies here, with Dragon's scales embedded into the hilt.~
+Acid~
+weapon AKMSU ANO
+exotic 30 13 smash ACDF
+101 200 1000000 P
+~
+~
+~
+~
+~
+A
+19 30
+A
+18 30
+#33402
+fishing rod~
+a Fishing Rod~
+Someone has dropped a fishing rod here.~
+unknown~
+weapon 0 AN
+exotic 10 2 whip 0
+9 10 50 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+#33403
+rough cut diamond~
+a rough cut diamond~
+A glass looking stone is here on the floor.~
+unknown~
+gem AY AO
+0 0 0 0 0
+1 1 20000 P
+#33404
+hourglass~
+an hourglass~
+A shiny hourglass is here, the sands of time running down.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+10 2 37500 P
+A
+4 2
+#33405
+boots north~
+boots of the North~
+Some fur covered boots are here.~
+unknown~
+armor AG AG
+10 10 10 20 0
+65 45 48950 P
+A
+19 6
+A
+12 50
+A
+24 -5
+#33406
+antimagic rod~
+an Antimagic Rod~
+A black twisted rod lies here absorbing the light around it.~
+unknown~
+wand 0 AO
+48 6 6 'energy drain' 0
+42 2 3055 P
+A
+12 -50
+#33407
+antiphantom pill~
+an {WA{wnti{r{DPhantom {CP{ci{wl{Wl{x~
+Someone has left an {WA{wnti{r{DPhantom {CP{ci{wl{Wl{x here.~
+unknown~
+pill G AO
+90 'protection evil' 'fly' 'energy drain' ''
+101 1 20535 P
+#33408
+piece Cod~
+a piece of Cod~
+A bit of cooked cod is here on the floor gathering dirt.~
+unknown~
+food 0 AO
+8 3 0 0 0
+1 2 29 P
+#33409
+fish fingers~
+fish fingers~
+A couple of fish fingers are here on the floor.~
+unknown~
+food 0 AO
+6 1 0 0 0
+1 0 12 P
+#33410
+plate salmon~
+a {wplate{x of {RS{ra{Wl{wm{ro{Rn{x~
+A nice plate of salmon is here.~
+unknown~
+food 0 AO
+18 0 0 0 0
+1 2 394 P
+#33411
+tuna~
+some {ytuna{x~
+Some tuna is here, looking rather tasty.~
+unknown~
+food 0 AO
+20 5 0 0 0
+1 1 54 P
+#33412
+shot whisky~
+a shot of whisky~
+A shot of whisky is here.~
+unknown~
+drink 0 AO
+1 1 'whisky' 0 0
+1 0 7 P
+#33413
+shot vodka~
+a shot of vodka~
+Some vodka in a shot glass is here~
+unknown~
+drink 0 AO
+1 1 'vodka' 0 0
+1 0 11 P
+#33414
+jug mead~
+a jug of mead~
+A jug of mead is here.~
+unknown~
+drink 0 AO
+6 6 'mead' 0 0
+1 1 4 P
+#33415
+bottle local specialty~
+a bottle of local specialty brew~
+A bottle of local specialty brew is here.~
+unknown~
+drink 0 AO
+5 5 'local specialty' 0 0
+1 1 41 P
+#33416
+glass water~
+a glass of water~
+A glass of water is here.~
+unknown~
+drink 0 AO
+3 3 'water' 0 0
+1 0 0 P
+#33417
+red wine glass~
+a glass of red wine~
+A glass of red wine is here.~
+unknown~
+drink 0 AO
+3 2 'water' 1 0
+1 1 28 P
+#33418
+can coke~
+a can of coke~
+A can of coke is here.~
+unknown~
+drink 0 AO
+5 4 'coke' 0 0
+1 1 29 P
+#33419
+glass orange juice~
+a glass of orange juice~
+A glass of orange juice is here.~
+unknown~
+drink 0 AO
+2 2 'orange juice' 1 0
+1 1 3 P
+#33420
+table~
+a table~
+A small wooden table is here for the tavern's clientel.~
+unknown~
+furniture 0 0
+4 2000 BDG 200 200
+0 6666 0 P
+#33421
+set beds~
+a set of beds~
+A set of beds is here for all to share.~
+unknown~
+furniture 0 0
+10 30000 EIL 900 900
+0 8888 0 P
+#33422
+hrothgars key~
+{WH{wrothgar{W'{ws {CR{coom {BK{bey{x~
+{WH{wrothgar{W'{ws {CR{coom {BK{bey{x is here on the floor. Better return it to him before he misses it.~
+unknown~
+key AG AO
+0 0 0 0 0
+0 3 1 P
+#33423
+bedside cabinet~
+{cH{Cro{Wthg{Car{c's {yBedside {DCabinet{x~
+A beautiful {yBedside {DCabinet{x is here next to the bed.~
+unknown~
+container 0 0
+1000 ABCD 33422 1000 50
+0 0 0 P
+#33424
+four poster bed~
+a Four Poster Bed~
+A Four Poster Bed is here towering up to the ceiling.~
+unknown~
+furniture 0 0
+2 2000 EIL 600 600
+0 0 0 P
+#33425
+hrothgar diamond~
+{cH{Cro{Wthg{Car{c's {WD{wi{Wa{wm{Wo{wn{Wd{x~
+{cH{Cro{Wthg{Car{c's {WD{wi{Wa{wm{Wo{wn{Wd{x is here glowing briliantly.~
+unknown~
+gem ABI AO
+0 0 0 0 0
+1 0 1000000 P
+#33426
+bracer strength~
+{2brac{7er{*s of s{7tre{2ngth{X~
+{XSome {2brac{7er{*s of s{7tre{2ngth{X are here~
+unknown~
+armor ABY AM
+20 20 20 20 0
+101 200 2001 P
+A
+20 -1
+A
+13 320
+A
+18 20
+A
+19 20
+A
+1 2
+#33427
+hemp ring~
+{Xa w{yo{wv{ye{Xn h{ye{wm{Xp r{wi{yn{Xg~
+{Xa w{yo{wv{ye{Xn h{ye{wm{Xp r{wi{yn{Xg is here~
+unknown~
+armor GY AB
+10 10 10 10 0
+100 10 420 P
+A
+12 225
+A
+13 75
+A
+20 -9
+A
+4 2
+#33428
+ice band~
+{*an {6i{*c{7e b{*an{6d{X~
+{*an {6i{*c{7e b{*an{6d{* melts here{X~
+unknown~
+armor G AM
+20 20 20 20 0
+101 10 6000000 P
+A
+13 325
+A
+12 325
+A
+20 -1
+#33429
+iwdisdone token~
+a token showing the IWD has been completed~
+A token showing the IWD has been completed.~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 1 P
+#33450
+chipped tooth icingbreath~
+{DThe {RC{rhip{Rp{re{Rd{x {WT{wo{Wo{wt{Wh {Dof {WIcingbreath{x~
+A large tooth, fresh from the jaw of a large dragon.~
+unknown~
+key 0 AO
+0 0 0 0 0
+102 15 10000 P
+#33451
+smashed jewel earring~
+{8A smashed {xpiece {8of {Cj{cewe{Cl{x~
+A smashed piece of metal lies here.~
+unknown~
+trash Y AS
+0 0 0 0 0
+5 0 0 P
+#33452
+large ice chest~
+{wA {ylarge {wchest, made of solid {Ci{cc{Ce{x~
+A {ylarge {xchest, made of solid {Ci{cc{Ce {xsits here.~
+unknown~
+container 0 0
+100000000 ABCD 33450 10000000 0
+1 10000 0 P
+#33459
+crack ice~
+a large crack in the ice.~
+A deep dark crack in the ice has formed here.~
+ice~
+portal BY 0
+0 0 0 0 0
+0 0 0 P
+#33470
+tarry nisstyre~
+(no short description)~
+(no description)~
+unknown~
+armor ABGI AX
+0 0 0 0 0
+102 0 0 P
+#33488
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#33494
+brain food thought~
+the brain of an unfortunate adventurer~
+A brain sits here, squishy and icky.~
+unknown~
+food 0 AO
+-1 5 0 0 0
+0 1 0 P
+#33495
+skeleton head skull~
+a dusty, grime-covered skull~
+A dusty skull sits here, beside the pile of remains.~
+unknown~
+container 0 AO
+2 AC 0 1 0
+0 0 0 P
+#33496
+skeletal remains dead~
+a pile of skeletal remains~
+A pile of skeletal remains lies in the dust here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#33497
+thigh snow rabbit yum~
+a white snow rabbit's thigh~
+The thigh of a snow rabbit sits here, gathering flies.~
+unknown~
+food 0 AO
+-1 4 0 0 0
+0 1 0 P
+#33498
+bleached bone animal~
+a sun bleached animal bone~
+A sun bleached animal bone is half buried in the ground here.~
+unknown~
+trash U AO
+0 0 0 0 0
+0 1 0 P
+#33499
+opening wood small~
+a small opening in the wood~
+A small opening in the wood catches your eye.~
+unknown~
+portal 0 0
+0 0 0 33414 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#33400
+{cT{Che {WPla{Cin{cs{x~
+~
+{WYou stand in the vast tundra of Icewind Dale.  There are mountains
+protruding to the north.  An icy wind cuts into your face as it
+bellows in from the Spine of the World.  As you look around, you can
+see the sun shining down upon you.  A path leads off towards the
+north, and the plains stretch out far to the west...  {x {WA small plaque
+floats here.  {x 
+~
+0 67633152 0 2
+0
+E
+plaque~
+{y+------------------------+
+{y|                        |
+{y| {WT{whis area, and all the {y|
+{y| {wareas {WNW {wof {WWaterdeep{y  |
+{y| {wto {cI{Cce{Wwind D{Cal{ce {whave   {y|
+{y| {wbeen built by {RA{rmanar{w.  {y|
+{y|                        |
+{y+------------------------+
+~
+D3
+~
+~
+0 0 33403
+D4
+~
+~
+0 0 30999
+S
+#33401
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe plains of Icewind Dale stretch out vastly for miles around.  To
+the west you can see a small town, while to the north, the jagged,
+shadowy peaks of the Spine of the World reach skyward like skeletal
+fingers.  A small pile of bleached bones lays scattered about here.  {x 
+~
+0 67633152 0 2
+0
+E
+bones~
+Looking closely you see two femurs, a skull, a few rib bones and a
+mandible.  As the recognition creeps into your mind, a shiver escapes
+your soul.  Did these bones really belong to someone of your own race?
+~
+D0
+~
+~
+0 0 33405
+D1
+~
+~
+0 0 33402
+S
+#33402
+{cT{Che {WPla{Cin{cs{x~
+~
+{WA few scattered trees have begun to surface on the plains to the
+south.  The air bites relentlessly with its cold teeth and icy breath.
+There are small billows of smoke rising from a village to the west,
+complementing the icy-gray snow caps to the north.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33407
+D1
+~
+~
+0 0 33403
+D3
+~
+~
+0 0 33401
+S
+#33403
+{cT{Che {WPla{Cin{cs{x~
+~
+{W You stand in the vast tundra of Icewind Dale, a huge snow covered
+plain, far north of the civilisations of waterdeep and the south. 
+Putridly cold winds seem slightly broken, but always as harsh.  There
+appears to be nothing much around but an endless plain of ice and
+snow.  A constant blizzard prevents a clear view of anthing around.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33400
+D3
+~
+~
+0 0 33402
+S
+#33404
+{WA {CF{crozen {CR{civer{x~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108868 0 6
+0
+D0
+~
+~
+0 0 33406
+D3
+~
+~
+0 0 33476
+S
+#33405
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe icy tundra of Icewind Dale reaches the edge of the coastline
+here.  To the west, the glaciers of the Sea of Moving Ice reach all
+the way to the north of the world.  The plains extend further north.  {x
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33408
+D2
+~
+~
+0 0 33401
+S
+#33406
+{WA {CF{crozen {CR{civer{x~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108868 0 6
+0
+D1
+~
+~
+0 0 33444
+D2
+~
+~
+0 0 33404
+S
+#33407
+{cS{Cec{Wluded P{Cat{ch{x~
+~
+{WThis small path winds off from the plains to the south.  There is a
+small grove of lifeless, barren trees up ahead, and an icy gale blows
+in from the mountains.  A game trail heads up through the mountains.  {x
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33402
+D4
+~
+~
+0 0 33410
+S
+#33408
+{cT{Che {WPla{Cin{cs{x~
+~
+{WA few lifeless trees blow in the bitter cold wind.  They look
+almost like stone, due to the petrifying nature of the cold weather
+here.  They seem to block the path to the east, and the only way on
+appears to be to the north, or back south to the edge of the plain.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33409
+D2
+~
+~
+0 0 33405
+S
+#33409
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe plains span all around you, but a bitter cold blizzard is
+stopping anything going into the centre of the plain, to the east. 
+There is a route through the snow storm to the west.  There are some
+more signs of a village to the west here.  
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33408
+D3
+~
+~
+0 0 33427
+S
+#33410
+{cG{Cam{We Tr{Cai{cl{x~
+~
+{WThe path begins to get a bit precarious here.  There are various
+rocky outcroppings lining the weatherbeaten road.  Wind and falling
+snow have formed a thin, slick layer of ice over the steep climb, a
+fact that many an unfortunate hunter has overlooked, only to feel the
+cold, arctic wind blowing against their face as the tundra floor
+rushes up to greet them, one final time.  {x 
+~
+0 67108864 0 5
+0
+D1
+~
+~
+0 0 33413
+D4
+~
+~
+0 0 33411
+D5
+~
+~
+0 0 33407
+S
+#33411
+{cG{Cam{We Tr{Cai{cl{x~
+~
+{WThe trail levels out here, and proceeds to the north once again. 
+What was probably a green forest, a millenium ago, sprawls out
+unevenly to the sides of the trail.  Broken, barren tree limbs hang
+limply over the tiny road, weighed down by aeons of snow accumulation.
+It is hard to believe that any sort of animal could survive in such
+hostile environs, but nonetheless, the unmistakeable sound of life can
+be heard issuing from the deep reaches of the stripped wood.  Maybe
+that sound means venison for a hungry traveller...  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33412
+D2
+~
+~
+0 0 33413
+D5
+~
+~
+0 0 33410
+S
+#33412
+{cG{Cam{We Tr{Cai{cl{x~
+~
+{WThe sounds of life remain distant, and it seems that the animals
+that reside here may have caught on to the fact that entering this
+trail is suicidal.  A small opening in the wood is here, where it
+would seem the braver of hunters decided to take matters into their
+own hands, as opposed to waiting for a kill...  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33413
+D2
+~
+~
+0 0 33411
+S
+#33413
+{cY{Cou{W've Slip{Cpe{cd{C!{x~
+~
+{WYou tumble end over end as you rocket back down the mountain at a
+breakneck pace.  You try to put your hands out to slow your decent,
+and you recieve a few broken fingers and a sprained wrist for your
+troubles.  You finally reach the bottom of the hill, where you crash
+in a defeated heap.  Looks like you'll be nursing a few wounds before
+attempting this climb again...  {x 
+~
+0 67108868 0 2
+0
+M 0 H 0
+S
+#33414
+{DInside {Ct{ch{Ce {DBarren {cW{Co{Wo{cd{x~
+~
+Trees loom around this area, seemingly holding everything in their
+claustrophobic grip.  This is where the various animals of the tundra
+roam.  Some harmless, some quite deadly, they all share one advantage:
+You are on their turf.  This is their home...  
+~
+0 67174437 0 3
+0
+D1
+~
+~
+0 0 33415
+D5
+~
+~
+0 0 33413
+S
+#33415
+{DInside {Ct{ch{Ce {DBarren {cW{Co{Wo{cd{x~
+~
+Trees loom around this area, seemingly holding everything in their
+claustrophobic grip.  This is where the various animals of the tundra
+roam.  Some harmless, some quite deadly, they all share one advantage:
+You are on their turf.  This is their home...  
+~
+0 67182689 512 3
+0
+D1
+~
+~
+0 0 33416
+D3
+~
+~
+0 0 33414
+S
+#33416
+{DInside {Ct{ch{Ce {DBarren {cW{Co{Wo{cd{x~
+~
+Shadows creep in and everything seems to get much darker here.  The
+forest is thickening, and the crunches of feet on dead leaves and snow
+seem to ring out like a warning call..  Or a battle call...  
+~
+0 67182689 512 3
+0
+D0
+~
+~
+0 0 33417
+D3
+~
+~
+0 0 33415
+S
+#33417
+{DDeeper {ci{Cn {Wt{Ch{ce {DBarren {cW{Co{Wo{cd{x~
+~
+Shadows creep in and everything seems to get much darker here.  The
+forest is thickening, and the crunches of feet on dead leaves and snow
+seem to ring out like a warning call..  Or a battle call...
+~
+0 67182693 512 3
+0
+D1
+~
+~
+0 0 33418
+D2
+~
+~
+0 0 33416
+S
+#33418
+{DDeeper {ci{Cn {Wt{Ch{ce {DBarren {cW{Co{Wo{cd{x~
+~
+The forest is almost unbelievably dark here.  An overwhelming sense
+of immediate danger permiates the area.  There are no sounds present,
+save the occasional *thump* of a pack of snow falling from the trees
+and hitting the frozen ground.  It seems as if whatever makes its lair
+here has scared away any would-be competition completely.  
+~
+0 67182689 512 3
+0
+D1
+~
+~
+0 0 33419
+D3
+~
+~
+0 0 33417
+S
+#33419
+{CT{ch{Ce {DDeepest {cR{Ce{Wach{Ce{cs {Dof the {cW{Co{Wo{cd{x~
+~
+The forest is almost unbelievably dark here.  An overwhelming sense
+of immediate danger permiates the area.  There are no sounds present,
+save the occasional *thump* of a pack of snow falling from the trees
+and hitting the frozen ground.  It seems as if whatever makes its lair
+here has scared away any would-be competition completely.  
+~
+0 67182693 512 3
+0
+D1
+~
+~
+0 0 33420
+D3
+~
+~
+0 0 33418
+S
+#33420
+{DCave{c E{Cn{Wtran{Cc{ce{x~
+~
+Sheer rockface jets out to the east, blocking any further
+expedition in that direction.  To the north, a small hill holds the
+black darkness of a cave entrance.  Sun bleached, frozen bones litter
+the ground, and a sickly sweet smell wafts out from the hole.  
+~
+0 67182689 512 3
+0
+D0
+~
+~
+0 0 33421
+D3
+~
+~
+0 0 33419
+S
+#33421
+{DInside {cT{Ch{We Ca{Cv{ce{x~
+~
+A strange smell...  One of rotting flesh mixed with age old dust
+and grime, is omnipresent here.  Echos that sound like low, guttural
+growls bounce off of the cave walls, reverberating and then receeding
+back into the depths from whence they came.  Bones and other carrion
+are beginning to become more numerous, it seems.  Something is visible
+to the far left of the cave wall here...  
+~
+0 67182697 512 20
+0
+D0
+~
+~
+0 0 33422
+D2
+~
+~
+0 0 33420
+S
+#33422
+{DInside {cT{Ch{We Ca{Cv{ce{x~
+~
+The growls that echo in the cave seem to be getting louder. 
+Whatever calls this wretched hole its home is not too far away.  The
+horrible smell gains in intensity, wafts of it coming more often now. 
+Somewhere in the far distance, the sound of water slowly dripping can
+be heard.  
+~
+0 201400429 512 20
+0
+D2
+~
+~
+0 0 33421
+D3
+~
+~
+0 0 33423
+S
+#33423
+{cI{Cn {WT{Ch{ce {DBowels {cO{Cf {WT{Ch{ce {DCave{x~
+~
+A sharp curve twists through the cave, funelling the roaring sounds
+through like an amplifier.  A terrible smell is coming from the south,
+like rotting flesh.  The booming echo gives the mipression that
+something unpleasant and hungry is going to make some restless
+traveller it's meal.  
+~
+0 201400425 512 20
+0
+D1
+~
+~
+0 0 33422
+D2
+~
+~
+0 0 33425
+S
+#33424
+Spare Room~
+~
+~
+0 67633156 0 20
+0
+S
+#33425
+{DLair {wof the {CI{cc{Ce {WY{we{Wt{wi{x~
+~
+The cave forms a wide arc here, with stalagmites and stalagtites
+randomly jutting from the ground or hanging ominously from the
+cavernous ceiling, which looms approximately fourty feet from the
+stone floor.  Blood is spattered over the ground and the walls, and
+half eaten animal corpses slowly rot away to nothing.  The smell is
+almost overpowering, and it stings the eyes and nose.  A form can be
+made out in the darkness, hunched and still...  
+~
+0 1140924521 512 20
+0
+E
+ground~
+Looking at the ground, a jagged and large rock looks out of place.  
+~
+E
+stalagmites~
+There is a small gap in between these stalagmites growing from the
+floor that is covered with a large rock.  
+~
+D0
+~
+~
+0 0 33423
+D5
+~
+rock~
+32776 0 33426
+S
+#33426
+A Small Chasm~
+~
+Below the Lair of the Ice Yeti, a small chasm has formed, leading
+down into another much larger cave.  It is so steep and jagged that
+climbing is impossible.  The only way down is to fly.  There is a
+large roaring of an enormous creature below in the cave.  
+~
+0 67182633 512 9
+0
+D4
+~
+~
+32776 0 33425
+D5
+~
+~
+0 0 33450
+S
+#33427
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe cold bitter wind blows with a freezing force as the plains of
+Icewind Dale move closer to the sea of moving ice.  The only way
+forward seems to be to the north.  There is a small pathway back to
+the east towards the spine of the world.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33428
+D1
+~
+~
+0 0 33409
+S
+#33428
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThere appears to be a small trail through the plains, a path to the
+north.  Perhaps it is the beginnings of a small settlement, or the
+home of some large monsters, it is not possible to tell.  The Sea of
+Moving Ice is ever closer to the west, and there are signs that some
+life lives over there, on the icebergs.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33429
+D2
+~
+~
+0 0 33427
+S
+#33429
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThere seems to be a path to the west that has been trodden by
+several human sized creatures.  Perhaps this could be one of the
+villages found on the plains of icewind dale.  The rest of the plains
+carry on to the east, while a traveller who needs to restock their
+supplies can leave the plains, far to the southeast.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33431
+D2
+~
+~
+0 0 33428
+D3
+~
+~
+0 0 33430
+S
+#33430
+{DThe {cE{Ca{Wste{Cr{cn{D Edge of {cI{Cro{Wnmas{Cte{cr {DVillage{x~
+~
+{WClose to the Sea of Moving Ice, is a small village.  Ironmaster
+village holds no more than 20 or 30 people, who live there mainly to
+fish, for the great salmon there which can make a tidy profit.  It
+also has an iron mine of exceptional quality.  Snow sprays around in
+the air, making vision very limited.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33429
+S
+#33431
+{cT{Che {WPla{Cin{cs{x~
+~
+{WSnow and ice fly around in the bitter cold wind.  Vision is highly
+limited.  The only choice is to trek on into the blizzard, into the
+freezing cold winds, or turn back and leave.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33433
+D3
+~
+~
+0 0 33429
+S
+#33432
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe blizzard is getting very strong here.  Snow is all around, it's
+freezing chill biting at everything foolhardy enough to travel through
+it.  There seems to be no more way forward to the east, perhaps try
+another way.  {x 
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33452
+D3
+~
+~
+0 0 33433
+S
+#33433
+{cT{Che {WPla{Cin{cs{x~
+~
+{WSnow and ice fly around in the bitter cold wind.  Vision is highly
+limited.  The only choice is to trek on into the blizzard, into the
+freezing cold winds, or turn back and leave.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33432
+D3
+~
+~
+0 0 33431
+S
+#33434
+{DSoutheast {cE{Cd{Wg{Ce {DOf {cB{Cry{Wn Shan{Cde{cr{x~
+~
+{WGravel stones have been used to create a road through the snow. 
+They form a path to the north, leaving white plains of snow on either
+side.  Just over to the west, you can see a frozen over stream.  {x 
+~
+0 67108868 0 2
+0
+D0
+~
+~
+0 0 33435
+D2
+~
+~
+0 0 33464
+S
+#33435
+Gravel Pathway~
+~
+{WThe path curves to avoid a steep hill to the north, and as the road
+continues past the snow covered hill, the whole of the village is
+visible from your high vantage point.  It is a very small village, a
+few huts to house the inhabitants, a couple of places of business, and
+a frozen over river running through the centre.  It links up over the
+far west to some sort of building.  {x 
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33434
+D3
+~
+~
+0 0 33436
+S
+#33436
+Gravel Pathway~
+~
+{WThe gravel pathway continues to follow the northern edge of the
+village.  Up ahead, the smell of fish wafts all around.  There is a
+larger building not far north that is of notice.  To the south, a
+large plain of snow leads to the river, where children skate on the
+frozen surface.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33437
+D1
+~
+~
+0 0 33435
+S
+#33437
+Gravel Pathway~
+~
+{WAs you get closer to the center of the village, the smell of fish
+begins to dominate your olfactory senses.  The only thing keeping it
+from completely overwhelming you is the bitterly cold temperature,
+preserving and freezing the fish.  {x 
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33436
+D3
+~
+~
+0 0 33438
+S
+#33438
+Gravel Pathway (South of the Inn)~
+~
+{WThere is a branch off the gravel path to the north.  It leads to
+the Snowdrift Inn.  There you can find lodgings, although not of the
+most pleasant nature.  Not many people venture this far north.  It is
+usually only the brave adventurers who seek glory at any price.  The
+main gravel pathway continues into the village to the west, while east
+lies the path away from the village.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33498
+D1
+~
+~
+0 0 33437
+D3
+~
+~
+0 0 33439
+S
+#33439
+Gravel Pathway~
+~
+{WThe gravel pathway curves again, this time northward.  There is a
+large building up ahead with the loud sounds of a public house.  You
+can also see the frozen river from here to the south, accross a vast
+snow covered plain.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33440
+D1
+~
+~
+0 0 33438
+S
+#33440
+Gravel Pathway (South of the Tavern)~
+~
+{WThe gravel pathway passes a large tavern to the north.  The path
+curves round to the west now running almost parallel with the frozen
+rivver to the south.  Loud singing, and other boisterous behaviour is
+commonplace here.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33467
+D2
+~
+~
+0 0 33439
+D3
+~
+~
+0 0 33441
+S
+#33441
+Gravel Pathway~
+~
+{WA large drift of snow is piled up, causing the path to vere off to
+the north again to go past it.  The snow drift is piled up high
+against some small shack.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33442
+D1
+~
+~
+0 0 33440
+S
+#33442
+Gravel Pathway~
+~
+{WThe mound of snow levells off, and the path resumes it's westerly
+direction.  Over to the north, there are a few small insignificant
+huts, probably where some village fishermen live.  {x 
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33441
+D3
+~
+~
+0 0 33443
+S
+#33443
+Gravel Pathway (North of the Fishmonger's)~
+~
+{WThe smell of fish here is unbelieveably terrible.  The villagers
+must have built up an immunity to it over the years.  There is a shop
+to the south, that isnt too far from the frozen river.  Surrounding
+the outside of the shop, several racks hold fish, drying and freezing
+in the cold windy air.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33442
+D2
+~
+~
+0 0 33466
+D3
+~
+~
+0 0 33445
+S
+#33444
+{WA {CF{crozen {CR{civer{x~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D0
+~
+~
+0 0 33478
+D3
+~
+~
+0 0 33406
+S
+#33445
+Gravel Pathway (South of Pomab's Emporium)~
+~
+{WThe gravel path continues from east to west along the northern edge
+of the village.  There are some small houses to the south, and the
+fishmongers is just east of here.  There is a small shack to the
+north, with a sign outside.  {x 
+~
+0 67108864 0 2
+0
+E
+sign~
+{WPombab's Emporium
+{x
+{R       N
+{R       ^
+{R       |
+{R     --+--
+{R       |
+{x
+~
+D0
+~
+~
+0 0 33497
+D1
+~
+~
+0 0 33443
+D3
+~
+~
+0 0 33446
+S
+#33446
+Gravel Pathway~
+~
+{WThe gravel path reaches the western edge of the village here.  To
+the west, a large house rises up into the landscape.  The gravel path
+now bends round to the south, towards the frozen stream that lies at
+the centre of the village, accross the snowy plain.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33445
+D2
+~
+~
+0 0 33447
+S
+#33447
+Gravel Pathway~
+~
+{WAnother curve in the gravel path is caused by a large mound of
+snow.  The path now bends round to the west again, leading towards the
+large house, and south to another big building.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33446
+D3
+~
+~
+0 0 33448
+S
+#33448
+Gravel Pathway~
+~
+{WThe entrance to a large and expensive looking house is here to the
+north.  The doors are usually locked, to prevent anyone untrustworthy
+entering.  A large hill to the west forms a natural border to the
+village, and the gravel path runs south along the edge of the hill.  {x 
+~
+0 67108868 0 2
+0
+D0
+~
+~
+8 0 33489
+D1
+~
+~
+0 0 33447
+D2
+~
+~
+0 0 33449
+S
+#33449
+Gravel Pathway~
+~
+{WThe icy wind picks up a bit here as you get closer to the Sea of
+Moving Ice far to the west, over some rather high snow covered hills. 
+The gravel path continues from north to south.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33448
+D2
+~
+~
+0 0 33473
+S
+#33450
+{wA {DDark{w, {cI{Cc{cy {WC{wa{Wv{we{Wr{wn{x ~
+~
+You stand in a large open cavern, There are large stalagtites
+hanging from the roof.  There is an extremely large one in the middle
+of the room that seems to be holding up the roof?  There is a deathly
+wind coming in from the small entrance up above, and you can hear a
+loud breathing in and out.  There are jewels and assorted pieces of
+weaponry and armor scattered all over the floor.  
+~
+0 1140924521 512 20
+0
+D3
+~
+~
+65544 0 33451
+D4
+~
+~
+0 0 33426
+S
+#33451
+{WA {CS{cmal{Cl {yCave{x~
+~
+Hidden away in the side of the main cavern is a small alcove. 
+There is surprisingly little light here, and all that is visible is a
+small chest in the middle of the room.  The chest is carved out of the
+very ice that covers the floor of the cavern like a frozen carpet. 
+The only exit is back the way you came in.  
+~
+0 73769 512 20
+0
+D1
+~
+~
+65544 0 33450
+S
+#33452
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33432
+D1
+~
+~
+0 0 33453
+D2
+~
+~
+0 0 33454
+D3
+~
+~
+0 0 33457
+S
+#33453
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33452
+D3
+~
+~
+0 0 33452
+S
+#33454
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33452
+D2
+~
+~
+0 0 33455
+S
+#33455
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33452
+D1
+~
+~
+0 0 33456
+S
+#33456
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33457
+D1
+~
+~
+0 0 33458
+D3
+~
+~
+0 0 33455
+S
+#33457
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33413
+D2
+~
+~
+0 0 33456
+D3
+~
+~
+0 0 33413
+S
+#33458
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33457
+D2
+~
+~
+0 0 33459
+D3
+~
+~
+0 0 33454
+S
+#33459
+{cT{Che{W Pla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33460
+D1
+~
+~
+0 0 33455
+D2
+~
+~
+0 0 33413
+D3
+~
+~
+0 0 33413
+S
+#33460
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33461
+D1
+~
+~
+0 0 33460
+D2
+~
+~
+0 0 33459
+D3
+~
+~
+0 0 33413
+S
+#33461
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33462
+D1
+~
+~
+0 0 33413
+D2
+~
+~
+0 0 33460
+D3
+~
+~
+0 0 33461
+S
+#33462
+{cT{Che {WPla{Cin{cs{x~
+~
+{WThe wind hurls snow around you.  The blizzard is so severe that you
+can't see anything more than a foot infront of you.  In fact, there is
+nothing around anywhere, except bitterly cold winds, ice and snow.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33413
+D1
+~
+~
+0 0 33463
+D2
+~
+~
+0 0 33455
+D3
+~
+~
+0 0 33413
+S
+#33463
+{cA{Cpp{Wroach{Cin{cg {DBryn {cS{Ch{Wand{Ce{cr{x~
+~
+{WFinally, there is a break from the relentless pounding of the
+blizzard.  A man made pathway leads up a small mountainside onto a
+plateau where a little village lies.  {x 
+~
+0 67108864 0 2
+0
+D3
+~
+~
+0 0 33462
+D4
+~
+~
+0 0 33464
+S
+#33464
+{cA{Cpp{Wroach{Cin{cg {DBryn {cS{Ch{Wand{Ce{cr{x~
+~
+{WAhead, and to the west, mountains loom.  There Is a path leading
+through the snow to the east.  The snow is about 2 feet deep in
+places, so halflings and other small creatures need to beware
+ofbecomming burried.  A path in the snow leads north, into the little
+village known locally as Bryn Shander.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33434
+D1
+~
+~
+0 0 33465
+D5
+~
+~
+0 0 33463
+S
+#33465
+{DPath {ct{Ch{Wrou{Cg{ch {Dthe {cM{Cou{Wnta{Cin{cs{x~
+~
+{WMountains rise up and surround the path.  It is just possible to
+squeeze through to the north, or turn back to the west and attempt to
+leave through the blizzards in the plains, or to rest for a time at
+the local village.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33468
+D3
+~
+~
+0 0 33464
+S
+#33466
+The {cF{Cis{Whmon{Cge{cr's{x~
+~
+You are inside a small log cabin, that has been converted into a
+shop.  Crates of all different sorts of fish line the walls, and many
+are hanging from hooks attatched to the ceiling.  The smell of fish
+could kill a titan if it were in the least bit toxic.  There is a cart
+out the back used for carrying the fish along the long, long trek to
+neverwinter for trade.  
+~
+0 67108872 0 13
+0
+D0
+~
+~
+0 0 33443
+S
+#33467
+{BThe {cW{Ci{Wnte{Cr'{cs {BCradle{x~
+~
+You are inside a small hut.  There are tables placed around the
+wooden floor for people to sit at.  Over to the west wall, a large bar
+dominates the room.  There is much to choose from, which is surprising
+for such a small settlement.  Perhaps it is because there is nothing
+else to do besides fish and drink in this village.  
+~
+0 67108872 0 0
+0
+D2
+~
+~
+0 0 33440
+S
+#33468
+{DPath {ct{Ch{Wrou{Cg{ch {Dthe {cM{Cou{Wnta{Cin{cs{x~
+~
+{WThe path through the mountains comes to an end.  There is, however,
+a chasm below, like a gorge carved through a glacier.  It may be
+possible to squeeze through the small opening below.  {x 
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33465
+D5
+~
+~
+0 0 33469
+S
+#33469
+{DPath {cT{Ch{Wrou{Cg{ch {DThe {CI{cc{Cy {cG{Co{Wr{Cg{ce{x~
+~
+{WThe path slopes down into a gorge, like a wedge cut out of the ice
+and snow.  The sides are unscalable, and the only way to proceed is to
+the north.  The narrow gorge shelters all who pass through it from the
+bitter wind across all of icewind dale.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33470
+D4
+~
+~
+0 0 33468
+S
+#33470
+{DPath {cT{Ch{Wrou{Cg{ch {DThe {CI{cc{Cy {cG{Co{Wr{Cg{ce{x~
+~
+{WLooming up ahead, a very large mountain blocks the horizon with its
+snow covered peak.  The gorge runs deeper to the north, while the
+sounds of a small village somewhere near to the southwest break the
+chilling silence.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33471
+D2
+~
+~
+0 0 33469
+S
+#33471
+{DPath {cT{Ch{Wrou{Cg{ch {DThe {CI{cc{Cy {cG{Co{Wr{Cg{ce{x~
+~
+{WThe large mountain is now closer to the north.  The walls of the
+gorge are so smooth that climbing up would be impossible.  Back to the
+south, the gorge slopes upwards to it's eventual exit back to the icy
+plains.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33472
+D2
+~
+~
+0 0 33470
+S
+#33472
+{DPath {cT{Ch{Wrou{Cg{ch {DThe {CI{cc{Cy {cG{Co{Wr{Cg{ce{x~
+~
+{WThe gorge comes to an end, at the base of the mountain.  Looking
+up, it isn't possible to see the top, as it is so high, above the
+snowy mists and vapour in the air.  A path around the base of the
+mountain leads off to the west.  {x 
+~
+0 67108864 0 2
+0
+D2
+~
+~
+0 0 33471
+D3
+~
+~
+0 0 33499
+S
+#33473
+Gravel Pathway~
+~
+{WA large and old boathouse is to the east.  It is batterd and run
+down, as the river to the east has been frozen over permanently for
+years.  The winds blow chillingly cold all around.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33449
+D1
+~
+~
+8 0 33477
+D2
+~
+~
+0 0 33474
+S
+#33474
+Gravel Pathway~
+~
+{WThe riverbanks are south and east of the gravel path, forcing it to
+alter course and head off to the west.  The pathway is getting very
+narrow here too, as it reaches the edge of the village.  {x 
+~
+0 67108864 0 2
+0
+D0
+~
+~
+0 0 33473
+D3
+~
+~
+0 0 33475
+S
+#33475
+End of the Path~
+~
+{WThe gravel path comes to a halt here, as it reaches nowhere to
+turn.  Hills and snowdrifts block the way back out onto the plains,
+while the riverbank lies to the south.  The only way for now is back
+into the village to the east.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33474
+S
+#33476
+{WA {CF{crozen {CR{civer{x~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D1
+~
+~
+0 0 33404
+S
+#33477
+The {cB{Coa{Wtho{Cus{ce{x~
+~
+Inside the boathouse is nothing but dust, broken wooden planks and
+dust.  It has long since been abandoned.  There is a strong breeze
+coming from the east, where the boathouse once opened onto the river. 
+~
+0 0 0 0
+0
+D1
+~
+~
+32776 0 33478
+D3
+~
+~
+8 0 33473
+S
+#33478
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D1
+~
+~
+0 0 33491
+D2
+~
+~
+0 0 33444
+D3
+~
+~
+32776 0 33477
+S
+#33479
+Main Hallway~
+~
+The main hallway is a grand room.  There are doors to the east and
+west, leading off to the various rooms of the house.  Each door is
+made from fine ash wood, and has a gold handle carved into the image
+of a dragon's head.  The staircase itself is the grand center-piece of
+the hallway.  It is enormously wide, with a fine red carpet running
+down the steps.  The banister is made from expensive mahogany wood,
+and has intricate carvings of figures down the sides, such as snakes,
+dragons, and other magestic creatures.  The stairs spiral up to the
+first floor.  
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 33481
+D2
+~
+~
+0 0 33489
+D3
+~
+~
+8 0 33480
+D4
+~
+~
+0 0 33482
+S
+#33480
+Dining Room~
+~
+The dining room has a large circular table in the centre that can
+seat about 8 people.  Candlesticks line the tables, both silver and
+gold, and there is a cabinet on the west wall filled with fine
+crockery.  There is another typically beautiful wooden door to the
+south, and a serving hatch on the south wall, indicating the kitchen
+is there.  
+~
+0 67108872 0 0
+0
+D1
+~
+~
+8 0 33479
+D2
+~
+~
+0 0 33487
+S
+#33481
+Living Room~
+~
+There is a large roaring fireplace situated on the north wall with
+a chimney leading up out of the roof.  A large window looks out onto
+the village to the south.  It is possible to see all the way down to
+the frozen river, where some movement indicates the fishermen working
+through holes in the ice.  A great rug on the floor depicts a graceful
+ice dragon, which is rumoured to live off a trail somewhere in Icewind
+Dale.  
+~
+0 67108872 0 0
+0
+D3
+~
+~
+8 0 33479
+S
+#33482
+First Floor Landing~
+~
+Atop the stairs is a large open room.  As with the downstairs hall,
+there is a beautiful ornate door to the west, and another to the east.
+The one to the west has a large lock on it, and obviously belongs to
+the owner of the house.  The other door has a sign above it saying
+"servant's quarters."  The grand staircase leads down to the ground
+floor.  
+~
+0 67108872 0 0
+0
+D1
+~
+~
+8 0 33485
+D3
+~
+~
+776 33422 33483
+D5
+~
+~
+0 0 33479
+S
+#33483
+Master Bedroom~
+~
+You are in a large bedroom decorated with gems and gold, trinkets
+of beauty and paintings of vast and beautful scenes.  A four poster
+bed towers up to the ceiling, with wonderful silk drapes hanging
+around.  A dilver framed window lets in the sunlight directly making
+the room feel warmer in the icy cold surroundings of icewind dale. 
+There is a small open doorway to the south leading into a bathroom.  
+~
+0 67108873 0 0
+0
+D1
+~
+~
+776 33422 33482
+D2
+~
+~
+8 0 33484
+S
+#33484
+Bathroom~
+~
+A small stove is here, with a flume leading out to the ceiling.  It
+is used to heat water for the spacious cast iron bath tub in the
+centre.  A lavatory is neatly tucked away in the corner of the room. 
+A low shelf below the south facing window stores many perfums and oils
+for a luxurious bath.  
+~
+0 67108872 0 0
+0
+D0
+~
+~
+8 0 33483
+S
+#33485
+Servant's Bedroom~
+~
+Although this is a servant's quarters, it is still of high quality,
+like the rest of the house.  The servant gets a nice comfortable bed
+on the eastern side of the room under a silver framed window.  There
+is a fairly good quality rug on a neatly polished wooden floor.  A
+door to the south leads to the servant's bathroom.  
+~
+0 67108872 0 0
+0
+D2
+~
+~
+8 0 33486
+D3
+~
+~
+8 0 33482
+S
+#33486
+Servant's Bathroom~
+~
+A pipe runs from the Master Bathroom into here bringing hot water
+into the bath.  The room is quite small, and the bath is next to a
+small toilet.  The only exit is the door back to the north.  
+~
+0 67108872 0 0
+0
+D0
+~
+~
+8 0 33485
+S
+#33487
+Kitchen~
+~
+The kitchen is filled with many appliances and utensils.  There is
+a large work bench for preparing food and next to it, a huge iron
+stove.  Cutlery and other cooking utensils are stored in racks and
+cupboards on the walls, and there is a large serving hatch on the
+north wall.  
+~
+0 67108872 0 0
+0
+D0
+~
+~
+0 0 33480
+S
+#33488
+Loading Room~
+~
+~
+0 8196 0 0
+0
+S
+#33489
+Hrothgar's {cH{Co{Wu{Cs{ce{x~
+~
+You are inside a rather nice house, especially considering the
+location.  There are fine silk woven carpets lining the floor, and the
+beams in the ceiling are of the finest ash wood.  The main hallway is
+to the north of the house.  
+~
+0 67108864 0 0
+0
+D0
+~
+~
+0 0 33479
+D2
+~
+~
+8 0 33448
+S
+#33490
+~
+~
+~
+0 67108864 0 0
+0
+D3
+~
+~
+0 0 33478
+S
+#33491
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D1
+~
+~
+0 0 33492
+D3
+~
+~
+0 0 33478
+S
+#33492
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D1
+~
+~
+0 0 33493
+D3
+~
+~
+0 0 33491
+S
+#33493
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D2
+~
+~
+0 0 33494
+D3
+~
+~
+0 0 33492
+S
+#33494
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D0
+~
+~
+0 0 33493
+D1
+~
+~
+0 0 33495
+S
+#33495
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D1
+~
+~
+0 0 33496
+D3
+~
+~
+0 0 33494
+S
+#33496
+{WA {CF{crozen {CR{civer~
+~
+{cThe river here is nothing but a small stream, that has been frozen
+over completely solid.  There are a few fishing holes drilled in the
+river that the fishermen use to catch some of the local stock of fish,
+but most go to the sea of moving ice.  {x 
+~
+0 67108864 0 6
+0
+D3
+~
+~
+0 0 33495
+S
+#33497
+Pomab's {cE{Cmp{Wor{Ciu{cm{x~
+~
+Many different trinkets are for sale in this shop.  Pomab, the
+owner of the store, goes travelling frequently, picking up odds and
+ends, and sells them for a tidy profit.  There are stacks and stacks
+of clutter in the shop.  
+~
+0 67108872 0 13
+0
+D2
+~
+~
+0 0 33445
+S
+#33498
+{BThe {cS{Cno{Wwdr{Cif{ct {Binn{x~
+~
+This inn seems dark and dreary.  There are no separate rooms that
+someone can rent, but instead, a large set of beds to rest in
+separated with some sort of curtains fashioned from animal hide. 
+Pictures on the walls depict large and mythical monsters, treasures
+and beautiful women, fuelling the lust of the adventurer to go out and
+seek their glory.  This inn was obviously built to be a resting place
+for travellers on their way to some adventures.  
+~
+0 67108872 0 12
+0
+D2
+~
+~
+0 0 33438
+S
+#33499
+{DA {cS{Ct{We{Ce{cp {DClimb {Ct{Wo {cK{De{wl{Wv{wi{Dn{c's C{wa{Wi{wr{cn{x~
+~
+{WThe gorge comes to an end, with a steep slope up.  The slope leads
+to Kelvin's Cairn, the largest mountain in the frozen north of the
+forgotten realms.  There is many a treasure to be found there for the
+boldest of adventurers only.  {x 
+~
+0 67108864 0 2
+0
+D1
+~
+~
+0 0 33472
+D4
+~
+~
+0 0 51700
+S
+#0
+
+
+
+#SPECIALS
+M 33403 spec_breath_frost
+M 33450 spec_breath_frost
+S
+
+
+
+#RESETS
+D 0 33425 5 1
+D 0 33426 4 1
+D 0 33448 0 2
+D 0 33450 3 1
+D 0 33451 1 1
+D 0 33473 1 1
+D 0 33477 1 1
+D 0 33477 3 1
+D 0 33478 3 1
+D 0 33479 1 1
+D 0 33479 3 1
+D 0 33480 1 1
+D 0 33481 3 1
+D 0 33482 1 1
+D 0 33482 3 2
+D 0 33483 1 2
+D 0 33485 3 1
+D 0 33489 2 2
+M 0 33456 6 33406 1
+O 0 33499 0 33412
+M 0 33400 1 33413 1
+M 0 33498 1 33416 1
+M 0 33403 10 33419 4
+M 0 33403 10 33419 4
+M 0 33403 10 33419 4
+M 0 33403 10 33419 4
+O 0 33498 0 33420
+O 0 33496 0 33421
+O 0 33495 0 33421
+P 0 33494 1 33495 1
+M 0 33403 10 33421 6
+M 0 33403 10 33421 6
+M 0 33403 10 33421 6
+M 0 33403 10 33421 6
+M 0 33403 10 33421 6
+M 0 33403 10 33421 6
+P 0 33400 1 33452 1
+P 0 33451 1 33452 1
+P 0 33401 1 33452 1
+M 0 33459 10 33435 1
+M 0 33459 10 33436 1
+M 0 33459 10 33437 1
+M 0 33459 10 33440 1
+M 0 33459 10 33442 1
+M 0 33459 10 33443 1
+M 0 33459 10 33446 1
+M 0 33459 10 33447 1
+M 0 33459 10 33449 1
+M 0 33402 10 33452 1
+M 0 33402 10 33453 1
+M 0 33402 10 33454 1
+M 0 33402 10 33455 1
+M 0 33402 10 33456 1
+M 0 33402 10 33457 1
+M 0 33402 10 33458 1
+M 0 33402 10 33459 1
+M 0 33402 10 33460 1
+M 0 33402 10 33461 1
+M 0 33402 10 33462 1
+M 0 33453 1 33466 1
+G 0 33408 0
+G 0 33409 0
+G 0 33410 0
+G 0 33411 0
+M 0 33454 1 33467 1
+G 0 33419 0
+G 0 33418 0
+G 0 33417 0
+G 0 33416 0
+G 0 33415 0
+G 0 33414 0
+G 0 33413 0
+G 0 33412 0
+O 0 33420 0 33467
+M 0 33460 1 33467 1
+M 0 33459 10 33474 1
+M 0 33456 6 33476 1
+M 0 33456 6 33478 1
+O 0 33424 0 33483
+O 0 33423 0 33483
+P 0 33425 1 33423 1
+M 0 33458 1 33485 1
+M 0 33457 1 33489 1
+E 0 33422 0 17
+M 0 33456 6 33492 1
+M 0 33456 6 33494 1
+M 0 33456 6 33496 1
+M 0 33451 1 33497 1
+G 0 33402 0
+G 0 33404 0
+G 0 33405 0
+G 0 33403 0
+G 0 33406 0
+G 0 33407 0
+O 0 33421 0 33498
+M 0 33455 1 33498 1
+S
+
+
+
+#SHOPS
+33451 33 5 9 10 1 130 80 0 23
+33453 0 0 0 0 0 120 80 2 22
+33454 0 0 0 0 0 110 70 0 23
+0
+
+
+
+#MOBPROGS
+#33400
+{@Fall{&: {!Echo/Damage{X~
+mob damage all 300 300
+mob echo Your cuts and scrapes bleed profusely.
+~
+#33401
+{@Fall{&: {!Echo/Damage{X~
+mob damage $n 400 400
+mob echoat $n You tumble head over heels, slamming against the rocks!
+mob echoaround $n $n tumbles head over heels, slamming against the rocks!
+~
+#33402
+~
+if rand 25
+mob call 33406
+break
+else
+endif
+if rand 68
+mob call 33403
+break
+else
+endif
+if rand 50
+mob call 33404
+break
+else
+endif
+mob call 33405
+break
+~
+#33403
+~
+if rand 60
+mob echo {bTh{Be w{cin{Cd {Whowls across the dale.{x
+mob damage all 750 750 lethal
+break
+else
+endif
+mob echo {bSn{Bow {cfl{Cie{Ws into your eyes, stinging them.{x
+mob damage all 250 250 lethal
+if rand 80
+mob cast 'blindness' $r
+else
+endif
+break
+~
+#33404
+~
+mob echo {bTh{Be f{cre{Cez{Wing wind blows...{x
+if rand 70
+mob echo {bTh{Be w{cin{Cd {Wnumbs your skin.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bSn{Bow {cst{Cin{Wgs your face.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bYo{Bu a{cre{C c{Whilled to your bones.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bYo{Bu s{chi{Cve{Wr from the cold.{x
+mob damage all 350 350 lethal
+else
+endif
+mob echo {bTh{Be w{cin{Cd {Wdies down.{x
+break
+~
+#33405
+~
+mob echo {bTh{Be f{cre{Cez{Wing wind blows...{x
+if rand 70
+mob echo {bYo{Bu a{cre{C c{Whilled to your bones.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bYo{Bu s{chi{Cve{Wr from the cold.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bSn{Bow {cst{Cin{Wgs your face.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bTh{Be w{cin{Cd {Wnumbs your skin.{x
+mob damage all 350 350 lethal
+else
+endif
+if rand 70
+mob echo {bYo{Bu s{chi{Cve{Wr from the cold.{x
+mob damage all 350 350 lethal
+else
+endif
+mob echo {bTh{Be w{cin{Cd {Wdies down.{x
+break
+~
+#33406
+~
+mob echo {bTh{Be c{col{Cd {Wwind whispers around you.{x
+mob damage all 50 50 lethal
+break
+~
+#33407
+~
+mob echoat $n {WThe bitter wind sends a chill right through your bones.{x
+mob echoaround $n {W$n shivers and suffers in the freezing cold.{x
+mob damage $n 1000 1500 lethal
+~
+#33408
+~
+mob echoat $n The wolves surround you, barring your exit.
+~
+#33409
+Mprog Mob {GACT {gteleports in, bounces back out.{x~
+mob transfer $n 3014
+~
+#33410
+~
+mob gecho {C$n {WPasses the {CC{wheckpoin{Ct {Wand claims the {cI{Cce{Wwind D{Cal{ce {WHero run for the group.{x
+~
+#33411
+~
+mob echoat $n The Yeti is too big and blocks your path
+~
+#33412
+~
+mob echoat $n The polar bear is too large to get past
+~
+#33415
+~
+mob echo {WThe {RD{rr{Ya{yg{ro{Yn{W ROARS, and a Wi{Cn{wt{Ce{Wr Wolf, hearing the mighty cry, comes running to aid its master{x
+mob mload 33403
+mob force whitewolf kill $r
+~
+#33416
+~
+mob echoat $n The Ice Dragon is too large to get past.
+~
+#33417
+~
+mob gecho {C$n {Wpasses the {CC{wheckpoin{Ct {Wand claims the {cI{8ce{wwi{Wn{wd D{8al{Ce {Wrun for the group.{x
+mob echo {x      {Y{M     <{Y<{M<{Y<{M<Ownership Checkpoint{Y>{M>{Y>{M>{Y>{x
+mob echo {R(({CThe Immortals now recognizes {G$n {Cas the Run Owner{R)){x
+mob claimrun 7 $n
+ 
+~
+#33418
+~
+if pos $i resting
+ stand
+ mob cast 'frost breath'
+ break
+else
+ If pos $i fighting
+  break
+ else
+  if affected $i blind
+   growl
+   mob cast 'cure blindness' $i
+   mob cast 'cure blindness' $i
+   mob cast 'cure blindness' $i
+   mob cast 'cure blindness' $i
+   cackle
+  endif
+  if hpcnt $i == 100
+   break
+  else
+   mob echo 
+   grumble
+   mob cast 'full heal' $i
+   mob echo 
+  endif
+ endif
+endif
+break
+~
+#33419
+RUNPURGER:  Reset IWD~
+say Opening IWD...
+mob goto 33414
+mob purge
+mob mload 33404
+mob mload 33499
+mob oload 33497
+give 'thigh snow rabbit yum' 'white snow rabbit whiterabbit snowrabbit'
+mob goto 33450
+mob purge
+mob mload 33450
+mob goto 33425
+mob purge
+mob mload 33497
+mob goto 33451
+mob purge
+mob oload 33452
+mob oload 33400
+mob oload 33451
+mob oload 33401
+mob oload 33450
+unlock chest
+open chest
+put bane chest
+put jewel chest
+put dragontooth chest
+if rand 50
+ mob oload 33451
+ put smashed chest
+endif
+if rand 50
+ mob oload 51816
+ drop gem
+endif
+if rand 50
+ mob oload 51817
+ drop gem
+endif
+if rand 50
+ mob oload 33451
+ put smashed chest
+endif
+if rand 50
+ mob oload 51816
+ drop gem
+endif
+if rand 50
+ mob oload 51817
+ drop gem
+endif
+close chest
+lock chest
+mob junk 'chipped tooth icingbreath'
+mob claimrun 7 {Y({GReset{Y){x
+mob goto 3000
+mob gecho {WA massive {CF{cr{Wo{8s{ct {CD{cr{Wa{8g{co{Wn has been {Rt{rerrorizing {Wthe {cvillage {Wof {CI{cc{We{8w{Wi{cn{Cd D{ca{Wl{Ce{W, and has been rumored to have taken a{W {CL{ca{Wi{8r {ci{Cn {Wt{Ch{ce {8Barren {cW{Co{Wo{cd{8s.{x
+set @92 1
+~
+#33420
+RUNPURGER:  Close IWD~
+say Closing IWD...
+mob goto 33414
+mob purge
+mob mload 1054
+mob oload 1062
+mob goto 33425
+mob purge
+mob goto 33450
+mob purge
+mob goto 33451
+mob purge
+mob claimrun 7 {Y({RClosed{Y){x
+mob goto 3000
+mob gecho Icewind Dale Run Closed!
+set @92 0
+~
+#33421
+RUNPURGER:  Purge IWD~
+say Purging IWD...
+mob goto 33414
+mob purge
+mob mload 1054
+mob oload 1062
+mob goto 33425
+mob purge
+mob goto 33450
+mob purge
+mob goto 33451
+mob purge
+mob claimrun 7 {Y({rPurged{Y){x
+mob goto 3000
+mob gecho Icewind Dale Run Purged!
+set @92 3
+~
+#33450
+~
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+if rand 70
+ mob oload 10062
+endif
+mob echo {wWith tremendous power, the dragon tries to flee and smashes the cavern
+mob echo massive {Bs{bta{Blg{bti{Btes {wcrash with the {Cs{cta{Clg{cmi{Cte{cs{w, causing immense power, the
+mob echo roof caves in as rocks and ice are hurld at your body, you suddenly fall
+mob echo back and watch as the sunlight from the new made opening melts away the
+mob echo the last remaining evidence of the dragon, all thats left is a small peice of {Rr{re{Rd {Wi{wvor{Wy{w.{x
+mob oload 33450
+if rand 50
+mob oload 33426
+else
+mob oload 33428
+endif
+mob oload 33427
+mob at 3000 mob mload 2818
+mob goto 33451
+mob oload 13712
+mob goto 33450
+~
+#33455
+~
+say No!!!!!, please no i beg of you!!!! dont kill me!!!! i will help you!!!!!
+~
+#33456
+~
+laugh
+say YOU selfish, self centered fool! YOU shall never have my prized jewel
+mob echo THe adventurer smashes it on a near by rock, SMAAAAAASSSSSSHHH!!!!
+The adventurer smashes the jewel on a near by rock.
+mob remove all
+mob junk dragontooth earring
+mob oload 33451
+cackle
+~
+#0
+
+#$

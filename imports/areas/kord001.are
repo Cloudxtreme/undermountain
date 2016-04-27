@@ -1,0 +1,3648 @@
+#AREADATA
+Name Grand Arena~
+Builders None~
+VNUMs 58500 58599
+Credits [ *HERO* ] Grand Arena~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 1
+Zone 0
+End
+
+
+
+#MOBILES
+#58500
+kremlin~
+Kremlin~
+{w({WWizi{w) Kremlin is here, running the GA.
+~
+~
+human~
+ABNV DF P 0 0
+106 0 5d20+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 58537 reset variables~
+M speech 58540 check~
+M random 58520 4~
+M act 58502 nods~
+M speech 58508 reset the ga~
+M speech 58514 restart the ga~
+M speech 58504 close the ga~
+#58501
+ga old man~
+{WT{wh{De {cO{Bl{cd {rM{Dan{x~
+An {cO{Bl{cd {rM{Dan{x stands here ready to assist those in need.
+~
+~
+human~
+ABGN DFJZ 0 0 0
+111 0 200d20+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 58501 wish to register~
+M greet 58500 100~
+#58502
+angel_sage~
+{gAn {YA{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge{x~
+{gAn {Ya{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge sits here, rewarding all those who kill the {DD{re{Dm{Ro{Dn L{wo{Wr{rd{Ds{g in the {CGrand Arena{g.{x
+~
+~
+human~
+ABGN 0 0 0 0
+108 50 100d100+30000 0d0+0 1d20+200 none
+30 30 30 30
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 58518 100~
+M speech 58516 check tokens~
+#58503
+ga1 Bel~
+{DB{re{Dl{x~
+{DB{re{Dl{x, {WLord of the First{w, stands here at the ready.{x
+~
+~
+human~
+ABNT V CDEH 0 0
+105 2000 1d50+15000 1d1+100 10d20+300 claw
+-30 -30 -30 -30
+0 AB 0 0
+stand stand male 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M fight 58528 80~
+M death 58507 100~
+#58504
+ga old man~
+{WT{wh{De {cO{Bl{cd {rM{Dan{x~
+{xAn {cO{Bl{cd {rM{Dan{x stands here ready to assist those in need.
+~
+~
+human~
+ABGNQVZa DFJZ 0 0 0
+110 200 1d20+30000 20d30+25000 200d200+200 none
+-50 -55 -50 -50
+0 ABCDa 0 0
+stand stand none 1000000
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M speech 58538 replenish~
+#58505
+ga2 Dispater~
+{DDis{rpa{Dter, the {rIron {DDuke{x~
+{DDis{rpa{Dter{w,{W Lord of the Second{w, stands here at the ready.{x
+~
+~
+human~
+ABNT V CDEH 0 0
+105 2000 1d50+20000 0d0+0 10d20+750 acbite
+-45 -45 -45 -45
+FK AB 0 F
+stand stand male 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58530 80~
+#58506
+Player Death Mob~
+Player Death Mob~
+{w({DWizi{w) Player Death Mob
+~
+Mob to transfer a player to the morgue to drop thier corpse and
+fist when they die.  Then the player will be sent to thier local
+recal.  
+~
+human~
+ABGNV 0 P 0 0
+112 0 1d1+30000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M act 58526 guts all over the floor~
+M act 58526 hits the ground~
+M act 58526 is sliced from~
+M act 58526 heart is torn from~
+M act 58526 death cry~
+M act 58526 head is shattered~
+M act 58526 severed head plops on the ground~
+M act 58526 splatters blood on your armor~
+#58507
+ga3 Mammon~
+{DMa{rmm{Don, the {rViscount{x~
+{DMa{rmm{Don{w, {WLord of the Third{w, stands here at the ready.{x
+~
+~
+human~
+ABNT V CDEH 0 0
+105 2000 1d50+25000 0d0+0 10d20+850 crush
+-50 -50 -50 -50
+0 ABJLQ 0 C
+stand stand male 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58531 80~
+#58508
+gladiator_kord~
+{wThe {YA{yv{Da{Wt{ya{Yr {wof {YK{yor{Yd{x~
+{wA massive {Wg{Ri{Dan{Wt{w shaped {YG{yl{Wa{wd{Di{wa{Et{yo{Yr{w stands here in all his {Ca{Brm{Cor{w r{ya{Ydi{Wa{Yti{yn{wg pure {Yg{yl{wo{Yr{yy{w.{x
+~
+{wStruck down from the heavens, what stands before you is a
+monstrousity of a human the size of a giant.  His armor radiates in
+the glory of Good.  {x 
+~
+human~
+ABMNQT Vac CDEHNR 1000 0
+115 900 2000d12000+636 2000d12000+636 60d35+400 chop
+-80 -80 -80 -100
+ACDEFGHKNO ABLN 0 CDEFGKO
+stand stand male 6000000
+M ABCDH giant unknown
+D ~
+T {wA massive {Wg{Ri{Dan{Wt {wshaped {YG{yl{Wa{wd{Di{wa{Rt{yo{Yr{x~
+F for AHV
+F par EFGIJK
+M fight 58564 80~
+M speech 58580 equip!~
+M death 58560 100~
+#58509
+ga4 Fierna~
+{DFi{rer{Dna{x~
+{DFi{rer{Dna{w, {WLord of the Fourth{w, stands here at the ready.{x
+~
+~
+human~
+ABNT Va CDEH 0 0
+105 2000 1d50+25000 0d0+0 10d20+1200 slash
+-60 -60 -60 -60
+CEFK ABF 0 K
+stand stand male 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58532 50~
+#58510
+fail safe transfer mob~
+({DWizi{x) Mob Loader and Fail Safe{x~
+({DWizi{x) Mob Loader and Fail Safe{x
+~
+This mob will transport the character to the advancing room should
+the death mprog on the GA mob fail.  
+~
+human~
+ABGNV 0 P 0 0
+102 0 1d1+20000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 58535 100~
+M speech 58503 advance~
+#58511
+ga5 Levistus~
+{DPrince Lev{ris{Dtus{x~
+{DLev{ris{Dtus{w, {WLord of the Fifth{w, stands here at the ready.{x
+~
+~
+human~
+ABNT Va CDEH 0 0
+105 2000 50d200+30000 0d0+0 1d50+2000 none
+-65 -65 -65 -65
+0 AB 0 0
+stand stand male 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58533 80~
+#58512
+ga summon mob blocker~
+Summon mob Blocker~
+{w({DWizi{w) Summon Blocker Mob{x
+~
+~
+human~
+ABGV 0 P 0 0
+102 0 1d1+10000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M act 58512 arrives suddenly~
+#58513
+ga6 glasya~
+{DThe Archduchess Gl{ras{Dya{x~
+{DGl{ras{Dya{w, {WLord of the Sixth{w, stands here at the ready.{x
+~
+~
+human~
+ABNR Va CDEH 0 0
+115 2000 100d200+30000 1d20+10000 10d20+2000 pound
+-70 -70 -70 -70
+0 AB H 0
+stand stand female 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58585 70~
+#58514
+avatar_bane_GLAD~
+{DThe A{Wva{rt{War {Dof {rBane{X~
+{DThe A{Wva{rt{War {Dof {rBane{X
+~
+~
+human~
+AN 0 0 0 0
+105 400 100d100+10000 0d0+0 0d0+0 none
+-10 -10 -10 -10
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 58568 99~
+#58515
+ga7 Baalzebul~
+{DBaal{rz{Debul{D, the Slug Archduke{x~
+{DBaal{rz{Debul{w,{W Lord of the Seventh{w, stands here at the ready.{x
+~
+~
+human~
+ABNT Vc CDEHR 0 0
+115 2000 150d200+30000 1d50+10000 10d20+3000 drain
+-75 -75 -75 -75
+0 AB IJ H
+stand stand male 0
+D 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58584 80~
+#58516
+UNUSED~
+UNUSED~
+An {cO{Bl{cd {rM{Dan{X stands here ready to assist those in need.
+~
+~
+human~
+ABGN DFJZ 0 0 0
+110 200 1d30+30000 0d0+0 0d0+0 none
+-50 -50 -50 -50
+0 ABCDa 0 0
+stand stand none 1000
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#58517
+ga8 Mephistopheles~
+{DMephis{rto{Dpheles{W, Archduke of Cania{x~
+{DMephis{rto{Dpheles{w,{W Lord of the Eighth{w, stands here at the ready.{x
+~
+~
+human~
+ABNRT TVa BCDEHNR 0 0
+120 3000 200d200+30000 1d20+10000 20d30+0 magic
+-70 -70 -70 -70
+CDFGHK ABE 0 JKO
+stand stand male 0
+V 0 medium unknown
+D ~
+T ~
+F for AHM
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58583 80~
+#58519
+ga9 asmodeus~
+{DAsm{rod{Deus{W, King of the Nine Hells{x~
+{DAsm{rod{Deus{W, Lord of the Ninth{w, stands here at the ready.{x
+~
+~
+human~
+ABGNRT Vac CDEHOR 0 0
+120 3000 250d200+30000 1d50+10000 30d30+0 beating
+-75 -75 -75 -75
+0 AB 0 CKO
+stand stand none 0
+0 0 small unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M death 58507 100~
+M fight 58582 80~
+#58521
+gax malkizid~
+{DMal{rki{Dzid{W, the Branded King{x~
+{DMal{rki{Dzid{W, King of Hell{w, stands here at the ready.{x
+~
+~
+human~
+ABGNPQRT Va CDEHR -1000 0
+125 4000 300d200+30000 1d10+17000 80d30+200 sting
+-110 -110 -110 -110
+0 AB G CIKO
+stand stand none 0
+0 0 large unknown
+D ~
+T {x~
+F for AHMV
+F par ABCDEFGHIJK
+M fight 58581 80~
+M death 58525 100~
+#58564
+UNUSED~
+an old man~
+A old man sits here, smoking his pipe.
+~
+~
+human~
+ABGNa 0 0 0 0
+101 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#58599
+avatar_bane~
+{DThe {rPo{Rw{rer {Dof {WB{Dane{X~
+(Wizi) Avatar of Bane is here, providing the echos.
+~
+~
+human~
+AN 0 P 0 0
+126 0 1d100+1000 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 58563 80~
+#0
+
+
+
+#OBJECTS
+#58500
+golden chest key Kord_IQ~
+{wa {YG{Wo{yld{We{Yn Key{x~
+A golden key lies here, humming with tremendous power.~
+Gold~
+treasure ABTU AO
+0 0 0 0 0
+1 2 0 P
+L This is the key that opens Kord's Golden Chest.~
+#58501
+chest malkizids kord reward ga~
+malkizids chest~
+{WA massive chest made out of {Dblack marble {Wcompletely surrounded in {Rf{rl{Wa{rm{Res{W sits here.{x~
+gold~
+container ABGTY 0
+1000 ACD 58500 1000 0
+101 10 0 P
+#58502
+gamarkeropenseq~
+{D[{CGA{D]{W System Start{x~
+{D[{CGA Marker{D]{W Reset Modifier, this will start the GA after a sequence of checks.{x~
+unknown~
+treasure 0 0
+0 0 0 0 0
+102 0 0 P
+#58503
+glad_axe~
+{wA large {YH{wo{yl{Yy {DExecutioners {rA{Dx{re{X~
+{wA large {YH{wo{yl{Yy {DExecutioners {rA{Dx{re{X~
+steel~
+weapon MZ AN
+axe 60 30 chop 0
+102 0 0 P
+~
+~
+~
+~
+~
+#58504
+gainitialstart~
+{D[{CGA{D]{W Initial Start{x~
+{D[{CGA Marker{D]{W Initial Reboot Start Counter{x~
+unknown~
+treasure 0 A
+0 0 0 0 0
+102 0 0 P
+#58505
+gacountermarker~
+{D[{CGA{D]{W Counter Check{x~
+{D[{CGA Marker{D]{W Counter System running.{x~
+unknown~
+treasure 0 A
+0 0 0 0 0
+102 0 10000 P
+L {x~
+#58506
+GA Level Token~
+{D[{CGA Token{D]{W Level Completed{x~
+A shiny token lies on the ground.~
+Platinum~
+treasure ABGHZ A
+0 0 0 0 0
+102 0 40000 P
+L a magical token that was created in the Grand Arena~
+#58507
+GA Final Token~
+{D[{CGA Token{D]{W Grand Arena completed{x~
+A rare token lies here.~
+Mithril~
+treasure ABGHZ A
+0 0 0 0 0
+1 0 70000 P
+L a final token from the Grand Arena, only those who complete it shall be rewarded with one.~
+#58508
+initialgaclosemarker~
+{XUN8SED~
+{D[{CGA Marker{D]{W Initial closed marker from reboot.{x~
+Gold~
+treasure 0 A
+0 0 0 0 0
+102 0 0 P
+L {x~
+#58509
+purged gamarker~
+{XUNUSED~
+{D[{CGA Marker{D]{W System is Purged and will not open until this object is removed from the room.{x~
+unknown~
+treasure 0 0
+0 0 0 0 0
+102 0 0 P
+#58510
+portal ga1 bel~
+unused~
+A Portal swirls here to Bel on [GA] Level 1.~
+unknown~
+portal 0 0
+0 0 0 58503 0
+101 0 0 P
+#58511
+portal grand arena~
+a portal to the {CGrand Arena{x~
+A Portal to the {CGrand Arena{x shimmers here.~
+unknown~
+portal 0 0
+0 0 0 58544 0
+1 0 0 P
+#58512
+gacounter01~
+ga run counter 01~
+GA run couter 01~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#58513
+gacounter02~
+ga run counter 02~
+GA run counter 02~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#58514
+gacounter04~
+ga run counter 04~
+Ga run counter 04~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#58515
+gacounter08~
+ga run counter 08~
+Ga run counter 08~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#58516
+gacounter16~
+ga run counter 16~
+Ga run counter 16~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#58517
+gacounter32~
+ga run counter 32~
+Ga run counter 32~
+unknown~
+treasure 0 A
+0 0 0 0 0
+0 0 0 P
+#58518
+scorpion~
+{Dthe mouth of the massive {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{x~
+{x~
+unknown~
+container 0 0
+100 0 0 0 0
+102 0 0 P
+#58519
+pill glad_kord~
+{Da tiny {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn~
+This object should not be here, note Kord immediately!~
+unknown~
+pill 0 A
+101 'full heal' 'holy invoke' 'sanctuary' 'lifeforce'
+101 0 0 P
+L It is color bled for a reason.~
+#58523
+ga rules marker~
+unused~
+{WA massive {Dskull{W banner flies here with the {rrules {Wof the {CGrand Arena {Wwritten on it.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58530
+ga marker open~
+{D[{CGA{D]{W System Loaded/Reset{x~
+{D[{CGA Marker{D]{W System has been Loaded/Reset.{X~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58531
+ga marker level 1~
+ga marker level 1~
+{D[{CGA Marker{D]{W Level 1 completed.{x~
+unknown~
+treasure 0 0
+0 0 0 0 0
+0 0 0 P
+#58532
+ga marker level 2~
+ga marker level 2~
+{D[{CGA Marker{D]{W Level 2 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58533
+ga marker level 3~
+ga marker level 3~
+{D[{CGA Marker{D]{W Level 3 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58534
+ga marker level 4~
+ga marker level 4~
+{D[{CGA Marker{D]{W Level 4 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58535
+ga marker level 5~
+ga marker level 5~
+{D[{CGA Marker{D]{W Level 5 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58536
+ga marker level 6~
+ga marker level 6~
+{D[{CGA Marker{D]{W Level 6 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58537
+ga marker level 7~
+ga marker level 7~
+{D[{CGA Marker{D]{W Level 7 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58538
+ga marker level 8~
+ga marker level 8~
+{D[{CGA Marker{D]{W Level 8 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58539
+ga marker level 9~
+ga marker level 9~
+{D[{CGA Marker{D]{W Level 9 completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58540
+ga marker fail safe~
+ga marker fail safe~
+{D[{CGA Marker{D]{W Fail Safe Program was activated.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58541
+Player Marker~
+unused~
+{D[{CGA Marker{D]{W A Player has entered the GA.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58542
+ga marker level 10~
+ga marker level 10~
+{D[{CGA Marker{D]{W The GA was completed.{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+102 0 0 P
+#58599
+avatar_bane_obj_check~
+the Deck of Many Things~
+{x~
+unknown~
+treasure T 0
+0 0 0 0 0
+102 1 999 P
+#0
+
+
+
+#ROOMS
+#58500
+{DConstruction Room{x~
+~
+~
+0 67141644 0 14
+0
+S
+#58501
+Entrance to the Grand Arena~
+~
+The room is made out of well polished marble, colored a light beige
+with black veins running sporatically throughout.  Along the walls are
+racks and racks of weapons and armor, none of which are for sale.  
+A massive arced wooden door lies to the north.
+~
+0 67118120 0 14
+0
+D2
+~
+~
+0 0 58523
+S
+#58502
+{D[{CGA{D]{W The Old Man's Waiting Room{x~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.  
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58503
+S
+#58503
+{D[{CGA{D] {WThe Arena{x~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+D3
+~
+~
+0 0 58570
+S
+#58504
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.  
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58505
+S
+#58505
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+S
+#58506
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58507
+S
+#58507
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 8
+0
+S
+#58508
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58509
+S
+#58509
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 8
+0
+S
+#58510
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58511
+S
+#58511
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 8
+0
+S
+#58512
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58513
+S
+#58513
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+S
+#58514
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58515
+S
+#58515
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+S
+#58516
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58517
+S
+#58517
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383208 0 0
+0
+D3
+~
+~
+0 0 58598
+S
+#58518
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58519
+S
+#58519
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383208 0 0
+0
+D3
+~
+~
+0 0 58573
+S
+#58520
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384744 0 13
+0
+D0
+~
+~
+0 0 58521
+S
+#58521
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+S
+#58522
+UNUSED~
+~
+This is the room in the Grand Arena where you can rest, re-equip
+and sooth you wounds.  Rows of blankets, pillows, beds and cots cover
+the east and west walls.  A Large wooden door lies to the north, and
+an old man sits here behind a glass counter, ready to sell you his
+wares for your next battle.
+~
+0 1141384236 0 13
+0
+S
+#58523
+Halls of the Arena~
+~
+The room is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  Along the
+walls are racks and racks of weapons and armor, none of which are for
+sale.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58501
+D2
+~
+~
+0 0 58565
+S
+#58524
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58565
+D1
+~
+~
+0 0 58531
+D2
+~
+~
+0 0 58532
+D3
+~
+~
+0 0 58525
+S
+#58525
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 58524
+D2
+~
+~
+0 0 58526
+S
+#58526
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58525
+D1
+~
+~
+0 0 58532
+D2
+~
+~
+0 0 58527
+S
+#58527
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58526
+D1
+~
+~
+0 0 58528
+S
+#58528
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58532
+D1
+~
+~
+0 0 58529
+D2
+~
+~
+0 0 58543
+D3
+~
+~
+0 0 58527
+S
+#58529
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58530
+D3
+~
+~
+0 0 58528
+S
+#58530
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58531
+D2
+~
+~
+0 0 58529
+D3
+~
+~
+0 0 58532
+S
+#58531
+Hall of the Valiant~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D2
+~
+~
+0 0 58530
+D3
+~
+~
+0 0 58524
+S
+#58532
+{CChamber{g of the {YA{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge{x~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 40 0 14
+0
+D0
+~
+~
+0 0 58524
+D1
+~
+~
+0 0 58530
+D2
+~
+~
+0 0 58528
+D3
+~
+~
+0 0 58526
+S
+#58533
+Western Chambers~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D3
+~
+~
+0 0 58534
+S
+#58534
+Western Chambers~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58537
+D1
+~
+~
+0 0 58533
+D2
+~
+~
+0 0 58535
+D3
+~
+~
+0 0 58536
+S
+#58535
+GA Viewing Room level 3~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1032 0 14
+0
+D0
+~
+~
+0 0 58534
+Q 58507
+S
+#58536
+GA Viewing Room Level 2~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1032 0 14
+0
+D1
+~
+~
+0 0 58534
+Q 58505
+S
+#58537
+Western Chambers~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1032 0 14
+0
+D2
+~
+~
+0 0 58534
+Q 58503
+S
+#58538
+Eastern Chambers~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D1
+~
+~
+0 0 58539
+S
+#58539
+Eastern Chambers~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58540
+D1
+~
+~
+0 0 58542
+D2
+~
+~
+0 0 58541
+D3
+~
+~
+0 0 58538
+S
+#58540
+GA Viewing Room 4~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1032 0 14
+0
+D2
+~
+~
+0 0 58539
+Q 58509
+S
+#58541
+GA Viewing Room 6~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1032 0 14
+0
+D0
+~
+~
+0 0 58539
+Q 58513
+S
+#58542
+GA Viewing Room 5~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1032 0 14
+0
+D3
+~
+~
+0 0 58539
+Q 58511
+S
+#58543
+Southern Chamber~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 14
+0
+D0
+~
+~
+0 0 58528
+D2
+~
+~
+0 0 58544
+S
+#58544
+Southern Chamber~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 58543
+D4
+~
+~
+0 0 16436
+S
+#58545
+{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x~
+~
+~
+0 335552544 0 18
+0
+D2
+~
+~
+0 0 58546
+S
+#58546
+{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x~
+~
+~
+0 268435456 0 0
+0
+D0
+~
+~
+0 0 58545
+D2
+~
+~
+0 0 58547
+S
+#58547
+{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x~
+~
+~
+0 268435456 0 0
+0
+D0
+~
+~
+0 0 58546
+D2
+~
+~
+0 0 58548
+S
+#58548
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58547
+D1
+~
+~
+0 0 58549
+S
+#58549
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58550
+D3
+~
+~
+0 0 58548
+S
+#58550
+~
+~
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 58551
+D3
+~
+~
+0 0 58549
+S
+#58551
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58550
+D2
+~
+~
+0 0 58552
+S
+#58552
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58551
+D1
+~
+~
+0 0 58553
+S
+#58553
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58554
+D3
+~
+~
+0 0 58552
+S
+#58554
+~
+~
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 58555
+D3
+~
+~
+0 0 58553
+S
+#58555
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58554
+D3
+~
+~
+0 0 58556
+S
+#58556
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58555
+D3
+~
+~
+0 0 58557
+S
+#58557
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58556
+D3
+~
+~
+0 0 58558
+S
+#58558
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58557
+D2
+~
+~
+0 0 58559
+S
+#58559
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58558
+D3
+~
+~
+0 0 58560
+S
+#58560
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58559
+D2
+~
+~
+0 0 58562
+D3
+~
+~
+0 0 58561
+S
+#58561
+~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 58560
+S
+#58562
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58560
+D2
+~
+~
+0 0 58563
+S
+#58563
+~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58562
+D2
+~
+~
+0 0 58564
+S
+#58564
+Entrance to the Forbiddin Forest~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58563
+S
+#58565
+Northern Chambers~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 58523
+D2
+~
+~
+0 0 58524
+D3
+~
+~
+0 0 58566
+S
+#58566
+GA Viewing Room~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1024 0 0
+0
+D1
+~
+~
+0 0 58565
+Q 58503
+S
+#58567
+GA Viewing Room 8~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1028 0 0
+0
+Q 58517
+S
+#58568
+GA Viewing Room 9~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1028 0 0
+0
+Q 58519
+S
+#58569
+GA Viewing Room 10~
+~
+The chamber is made out of well polished marble, colored a light
+beige with black veins running sporatically throughout.  There are
+four columns stretching about twenty feet high in the four corners,
+and the ceiling vaults to a center point in the chamber.  
+~
+0 1028 0 0
+0
+Q 58521
+S
+#58570
+{D[{CGA{D]{W Annexed Chamber{x~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383208 0 0
+0
+D1
+~
+~
+0 0 58503
+S
+#58571
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+S
+#58572
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141385260 0 0
+0
+S
+#58573
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383208 0 0
+0
+D1
+~
+~
+0 0 58519
+S
+#58574
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383212 0 0
+0
+S
+#58575
+{D[{CGA{D]{W Summoning Chamber{x~
+~
+~
+0 524332 0 0
+0
+S
+#58598
+UNUSED~
+~
+The room is nothing special, just what you would expect to see in
+an arena.  The chamber you enter has no doors, no way out, just
+scoarched marble walls, bones, and some sand on the floor.  The walls
+and floor are marble, and the colors are a dark swirling hue, with the
+stain of red blood.  
+~
+0 1141383208 0 0
+0
+D1
+~
+~
+0 0 58517
+S
+#58599
+{DA D{ra{Drk, C{Co{Bl{Dd Cha{rm{Dber{x~
+~
+~
+0 1141383212 0 0
+0
+S
+#0
+
+
+
+#SPECIALS
+M 58521 spec_breath_any
+S
+
+
+
+#RESETS
+M 0 58508 1 58500 1
+M 0 58501 1 58501 1
+M 0 58504 10 58502 1
+E 0 10017 0 17
+E 0 5847 0 17
+E 0 31025 0 17
+E 0 40279 0 17
+M 0 58506 2 58503 1
+M 0 58510 2 58503 1
+M 0 58512 2 58503 1
+M 0 58502 1 58532 1
+M 0 58564 1 58564 1
+M 0 58512 2 58570 1
+M 0 58599 1 58599 1
+S
+
+
+
+#SHOPS
+58504 0 0 0 0 0 100 100 0 24
+0
+
+
+
+#MOBPROGS
+#58500
+{COld Man Entrance Check{x~
+if gadone open
+smile
+say Welcome to the entrance of the Grand Arena.
+say Please register with me if you wish to become a Gladiator in the name of Kord!
+say You can register by stating "i wish to register".
+else
+say I am sorry $n, but the Grand Arena is closed at the moment.
+say Please check in again later, and remember to check the grandarena registration board.
+tip
+endif
+~
+#58501
+{CI wish to register{x~
+if gadone open
+    if gadone $n
+      say {mhrmm...looks like you have previously registered and competed in the Grand Arena.{x
+      say {mUnfortunately, we have a time limit on competitors so we dont over saturate the crowd.{x
+      say {mYou can view when its your turn again by checking the {Cgrandarena{m registry.{x
+    else
+      mob remember $n
+      say Alright, you have been registered...and here we go!!!!
+      mob call 58505
+    endif
+else
+    say I am sorry, but the Grand Arena is closed at the moment.
+    say Please check your registry for when the Grand Arena is open.   
+endif
+~
+#58502
+{CSet GAUpdate Open/Close{x~
+set @99 1
+~
+#58503
+{CGA Fail Safe Program{x~
+if players == 1
+  if mobhere ga1
+  or mobhere ga2
+  or mobhere ga3
+  or mobhere ga4
+  or mobhere ga5
+  or mobhere ga6
+  or mobhere ga7
+  or mobhere ga8
+  or mobhere ga9
+    break
+  else
+    if valueof @4 1
+    or valueof @4 2
+    or valueof @4 3
+    or valueof @4 4
+    or valueof @4 5
+    or valueof @4 6
+    or valueof @4 7
+    or valueof @4 8
+    or valueof @4 9
+      mob gaupdate @3 @4
+      set @4 + 1
+      mob gecho {D[{CGrand Arena{D]{W: @3 has defeated $s opponent and has advanced to round @4.{x
+      mob oload 58506
+      give token @3
+      mob transfer all 58502
+      sac all
+      mob goto 58570
+      sac all
+      mob goto 58503
+      mob at 3219 mob oload 58540
+      break
+    endif
+  endif
+  if mobhere gax
+    break
+  else
+    mob oload 58506
+    mob oload 58507
+    give token @3
+    give token @3
+    mob gecho {D[{CGrand Arena{D]{W: @3 has completed the final level in the Grand Arena.{x
+    mob gecho {D[{CGrand Arena{D]{W: @3 is victorious in the Grand Arena.{x
+    mob gecho {D[{CGrand Arena{D]{W: The Grand Arena is now closed.{x
+    mob at 3219 mob oload 58540
+    mob gaupdate @3 10
+    mob gaupdate close
+    mob transfer all 3001
+    set @5 GA-Reloading
+  endif
+endif
+~
+#58504
+{CGA System {RClosure{X~
+say Closing the Grand Arena...
+mob at 58502 mob purge
+mob at 58503 mob purge
+set @5 GA-Closed by Gods
+mob junk all
+mob gaupdate close
+mob gecho {D[{CGrand Arena{D]{W: The Grand Arena has been closed by the Gods.{x
+say The Grand Arena will no longer load until an Immortal "resets" it or "restarts" it by telling me so.
+~
+#58505
+{COld Man YES Check{x~
+mob gaupdate $q 0
+    mob call 58541 $q
+    mob call 58542 $q
+    mob call 58506 $q
+    set @3 $q
+    set @4 1
+    mob forget
+    mob cancel
+~
+#58506
+{CGA Welcome Message{x~
+smile
+say Very well, I shall meet you in between levels for assistance.
+say Good luck, you will need it.
+mob transfer $n 58502
+mob at 58502 mob echo {W+-----------------------{D[ {CRules of the Grand Arena {D]{W------------------------+{x
+mob at 58502 mob echo {W
+mob at 58502 mob echo {W  {r1.{W  You enter at your own Risk.  There is no way out except dying
+mob at 58502 mob echo {W      or being victorious.
+mob at 58502 mob echo {W  {r2.{W  If you die, your corpse and fist will be at the Westbridge Morgue
+mob at 58502 mob echo {W      and you will be at your local recal.
+mob at 58502 mob echo {W  {r3.{W  If you killed your opponent and was not transfered to the next level,
+mob at 58502 mob echo {W      simply say {M"advance"{x
+mob at 58502 mob echo {W  {r3.{W  Use whatever is at your arsenal in the Arena.  It is you vs the
+mob at 58502 mob echo {W      9 Arch-Devils who control the 9 levels of Hell.  They will
+mob at 58502 mob echo {W      show you no quarter.
+mob at 58502 mob echo {W  {r5.{W  If you succeed, you will face the King of Hell for a chance of a completed token.
+mob at 58502 mob echo {W  {r6.{W  Only one entry per character.  Not per player.
+mob at 58502 mob echo {W  {r7.{W  Tokens will be awarded per kill, right now 10 GA tokens = 10 AP.
+mob at 58502 mob echo {W      You must cash in 10 GA tokens to obtain the reward of 10 AP.
+mob at 58502 mob echo {W      A completed token will get you a further 10 AP.
+mob at 58502 mob echo {W      I reserve the right to change this ratio.
+mob at 58502 mob echo {W  {r8.{W  Tokens are non transferable, do not try to get around this!
+mob at 58502 mob echo {W  {r9.{W  Report any Bugs you find to Kord.  Any abuse of bugs will get
+mob at 58502 mob echo {W      you banned from the {CGrand Arena{W.{x
+mob at 58502 mob echo {x
+mob at 58502 mob echo Have fun with it, any suggestions welcomed.
+mob at 58502 mob echo {x
+mob at 58502 mob echo {Wv4 {D[30/08/13]{x{x
+mob gaupdate close
+mob gecho {D[{CGrand Arena{D]{W: $n, a @1 @2 has joined the Grand Arena.{x
+~
+#58507
+{CCompleted lvl 1-9{x~
+mob gaupdate @3 @4
+set @4 + 1
+mob gecho {D[{CGrand Arena{D]{W: @3 has defeated $s opponent and has advanced to round @4.{x
+mob oload 58506
+give token @3
+mob transfer all 58502
+sac all
+mob goto 58570
+sac all
+mob goto 58503
+~
+#58508
+{CGA System {RReset{x~
+say Resetting the Grand Arena...
+mob at 58502 mob purge
+mob at 58503 mob purge
+mob junk all
+set @5 GA-Reloading
+mob gaupdate close
+say Grand Arena is now closed, and will resume normal operating procedures.
+~
+#58509
+UNUSED~
+delay 2
+~
+#58510
+UNUSED~
+~
+#58511
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the third level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 3
+mob transfer all 58508
+set @4 + 1
+~
+#58512
+{CAnti-Summon{x~
+mob transfer 1. 58575
+mob echo {DA {Yh{ri{yd{we{yo{ru{Ys {cs{Ch{Bri{Ce{ck{D is heard as a {Wdark {Dshimmer appears in front of you, then disappears.{x
+~
+#58513
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the fourth level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 4
+mob transfer all 58510
+set @4 + 1
+~
+#58514
+{CGA System {GRestart{X~
+say Restarting the Grand Arena immediately...
+mob at 58502 mob purge
+mob at 58503 mob purge
+mob junk all
+set @5 GA-Loaded by Restart
+mob gaupdate open
+mob gecho {D[{CGrand Arena{D]{W: The Grand Arena is now open.{x
+mob oload 58530
+~
+#58515
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the fifth level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 5
+mob transfer all 58512
+set @4 + 1
+~
+#58516
+{CGA Token rewards AP{x~
+if objcount $n 'GA Level Token' 10
+  say {CYes $n, you have 10 GA Level Completed tokens.{x
+  say {CNice job, the God of Battle would be proud of you!{x
+  say {CAllow me to cash those in for something more usefull!{x
+  mob confiscate $n 58506 10
+  mob apoints $n 10
+  mob echoat $n $I {ghas rewarded you with {C10 {RA{Ydventure {RP{Yoints.{x
+else
+  say {CSorry, you dont have 10 GA Level Completed tokens. Come back when you have killed more Lords of Hell.{x
+endif
+if carries $n 'GA Final Token'
+  if objcount $n 'GA Final Token' 1
+    say {CAhh wow, you were Victorious in the Grand Arena twice!{x
+    say {CA great feat indeed! Here, let me reward you for those special token.{x
+    mob confiscate $n 58507 1
+    mob apoints $n 10
+    mob echoat $n $I {ghas rewarded you with {C10 {RA{Ydventure {RP{Yoints.{x
+  else
+    say {CSorry, you need two Grand Arena completed tokens to cash in for the reward.{x
+  endif
+endif
+~
+#58517
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the sixth level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 6
+mob transfer all 58514
+set @4 + 1
+~
+#58518
+{CSage Greeting{x~
+say {gWelcome to the {CGrand Arena{g $n{x
+say {gIf you are here to kill the {DD{re{Dm{Ro{Dn L{wo{Wr{rd{Ds{g of hell, proceed {RNorth{g.{x
+say {gIf you would like to cash in your tokens, please say {M"{Ccheck tokens{M"{g.{X
+~
+#58519
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the seventh level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 7
+mob transfer all 58516
+set @4 + 1
+~
+#58520
+{CGA System {GCounter/Opener{x~
+if valueof @5 null
+or valueof @5 GA-Reloading
+  if objcount $i 58505 32
+    mob at 58502 mob purge
+    mob at 58503 mob purge
+    mob goto 3014
+    if objhere 58511
+    else
+      mob oload 58511
+    endif
+    mob goto 3219
+    mob gecho {D[{CGrand Arena{D]{W: The Grand Arena is now open.{x
+    mob gaupdate open
+    mob oload 58530
+    set @5 GA-Loaded
+    mob junk all
+  else
+    mob oload 58505
+  endif
+endif
+~
+#58521
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the eigth level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 8
+mob transfer all 58518
+set @4 + 1
+~
+#58522
+{COld Man NO Check{x~
+if hastarget $i
+  if istarget $n
+    say You have been removed from the registry and can compete when you are ready.
+    say Goodbye.
+    mob cancel
+    mob forget
+  else
+    say Please wait your turn $n.
+  endif
+endif
+~
+#58523
+{xUNUSED~
+mob gecho {D[{CGrand Arena{D]{W: $r has completed the ninth level in the Grand Arena.{x
+mob oload 58506
+give token $r
+mob gaupdate $r 9
+mob transfer all 58520
+set @4 + 1
+~
+#58524
+{CClass Select CALL Race DMG x2{x~
+mob remember $n
+if class $q 'mercenary'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'gladiator'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'strider'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'wizard'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'priest'
+  mob call 58577
+  mob call 58577
+  break
+endif
+if class $q 'lich'
+  mob call 58577
+  mob call 58577
+  break
+endif
+if class $q 'sage'
+  mob call 58577
+  mob call 58577
+  break
+endif
+~
+#58525
+{CCompleted lvl X{x~
+mob gecho {D[{CGrand Arena{D]{W: @3 has completed the final level in the Grand Arena.{x
+mob gecho {D[{CGrand Arena{D]{W: @3 is victorious in the Grand Arena.{x
+mob gecho {D[{CGrand Arena{D]{W: The Grand Arena is now closed.{x
+mob oload 58507
+mob oload 58506
+give token @3
+give token @3
+mob at 3219 mob oload 58542
+mob gaupdate @3 @4
+mob transfer all 3001
+set @5 GA-Reloading
+~
+#58526
+{CPlayer Death{x~
+if isnpc $n
+  break
+else
+  mob cast 'full heal' $n
+  mob transfer $n 3054
+  mob gecho {D[{CGrand Arena{D]{W: $n has been killed in the Grand Arena.{x
+  mob at $n mob echoat $n {x
+  mob at $n mob echoat $n {W+-------------------------{D[{C The Grand Arena {D]{W--------------------------+{x
+  mob at $n mob echoat $n {x
+  mob at $n mob echoat $n {W    You have died in the Grand Arena.
+  mob at $n mob echoat $n {x
+  mob at $n mob echoat $n {W    Your corpse and fist have been dropped off at the Westbridge Morgue
+  mob at $n mob echoat $n {W    as you can see above and you are now at your local recal.
+  mob at $n mob echoat $n {x
+  mob at $n mob echoat $n {W    You can try again in 30 days, good luck next time.{x
+  mob at $n mob echoat $n {x
+  mob gecho {D[{CGrand Arena{D]{W: The Grand Arena is now closed.{x
+  set @5 GA-Reloading
+endif
+~
+#58527
+{COld Man Delay{x~
+say $q, you have taken too long to complete the registration.
+say Please come back when you are ready.
+mob transfer $q 3001
+mob forget
+~
+#58528
+{CLethal 300 600 GA1{x~
+mob echo $I {Draises his hand, and casts an unknown {rarcane {Dspell upon you.{x
+mob damage $r 300 600 lethal show magic
+mob echo {DYou {rreel {Din pain from its effect.{x
+~
+#58529
+{CPoison/Pla 1300 1400{x~
+mob echo $I {Dblows out a {gp{yo{Gi{Ds{wo{Dn{Go{yu{gs {Ccloud {Dof {Ggreen{D smoke at you.{x
+mob damage $r 1300 1400 lethal
+mob cast poison $r
+mob cast plague $r
+mob echo {DYou feel the {Ccloud {Doverwhelm you, and you start to feel {rsick.{x
+~
+#58530
+{CLethal 1600 1800 GA2{x~
+mob echo $I {Dcalls upon the power of the {Bwinds{D.{x
+mob echo {DA gust of {Bwind {rknocks {Dyou from your feet.{x
+mob damage $r 1600 1800 lethal show blast
+~
+#58531
+{CLethal 2100 2300 GA3{x~
+mob echo $I {Dbreaths out a {Ccone {Dof {Bcold{D.{x
+mob damage $r 2100 2300 lethal show fbite
+mob echo {DYou {Cshiver {Dand {rsuffer {Dfrom the intense {Bcold{D.{x
+~
+#58532
+{CLethal 3000 3200 GA4{x~
+mob echo $I {Dlifts up his hand, and {rpoints {Dat you!{x
+mob damage $r 3000 3200 lethal show wrath
+mob echo {DYou feel his {rpower {Dstrike right through you.{x
+~
+#58533
+{CLethal 3900 4300 GA5{x~
+mob echo $I {Dshrieks to the high {Yheavens{D!{x
+mob damage $r 3900 4300 lethal show shock
+mob echo {DYou feel the {Cshriek {Dthrough your {rbones{D.{x
+~
+#58534
+{CNRG Drain/Heal{x~
+mob echo $I {Dhits you with his {rvampiric {Dtouch.{x
+mob cast 'energy drain' $r
+mob cast heal $i
+mob echo {DYou feel the {rdrain {Dof of his vampiric touch!{x
+mob echo $I {Ddraws life from your {rsoul{D!{x
+~
+#58535
+{CLord Loader{x~
+if mobhere 58503
+or mobhere 58505
+or mobhere 58507
+or mobhere 58509
+or mobhere 58511
+or mobhere 58513
+or mobhere 58515
+or mobhere 58517
+or mobhere 58519
+or mobhere 58521
+  break
+else
+  mob echoat @3 {WThe crowd starts to {Yc{yh{we{ye{Yr{W, as a massive {Diron gate {Wstarts to lift at the opposite end of the {Carena{W.
+  mob echoat @3 {WYour opponent walks out grinning, ready for {rb{Ra{Dtt{Rl{re{W!{x
+  if valueof @4 1
+    mob mload 58503
+    break
+  endif
+  if valueof @4 2
+    mob mload 58505
+    break
+  endif
+  if valueof @4 3
+    mob mload 58507
+    break
+  endif
+  if valueof @4 4
+    mob mload 58509
+    break
+  endif
+  if valueof @4 5
+    mob mload 58511
+    break
+  endif
+  if valueof @4 6
+    mob mload 58513
+    break
+  endif
+  if valueof @4 7
+    mob mload 58515
+    break
+  endif
+  if valueof @4 8
+    mob mload 58517
+    break
+  endif
+  if valueof @4 9
+    mob mload 58519
+    break
+  endif
+  if valueof @4 10
+    mob mload 58521
+    break
+  endif
+endif
+~
+#58536
+{CGA Entrance Gechos{x~
+if room $n == 58502
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the first level in the Grand Arena.{x
+  mob transfer all 58503
+  break
+endif
+if room $n == 58504
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the second level in the Grand Arena.{x
+  mob transfer all 58505
+  mob at 3219 mob oload 58531
+  break
+endif
+if room $n == 58506
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the third level in the Grand Arena.{x
+  mob transfer all 58507
+  mob at 3219 mob oload 58532
+  break
+endif
+if room $n == 58508
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the fourth level in the Grand Arena.{x
+  mob transfer all 58509
+  mob at 3219 mob oload 58533
+  break
+endif
+if room $n == 58510
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the fifth level in the Grand Arena.{x
+  mob transfer all 58511
+  mob at 3219 mob oload 58534
+  break
+endif
+if room $n == 58512
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the sixth level in the Grand Arena.{x
+  mob transfer all 58513
+  mob at 3219 mob oload 58535
+  break
+endif
+if room $n == 58514
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the seventh level in the Grand Arena.{x
+  mob transfer all 58515
+  mob at 3219 mob oload 58536
+  break
+endif
+if room $n == 58516
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the eighth level in the Grand Arena.{x
+  mob transfer all 58517
+  mob at 3219 mob oload 58537
+  break
+endif
+if room $n == 58518
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the ninth level in the Grand Arena.{x
+  mob transfer all 58519
+  mob at 3219 mob oload 58538
+  break
+endif
+if room $n == 58520
+  mob gecho {D[{CGrand Arena{D]{W: $n has entered the final level in the Grand Arena.{x
+  mob transfer all 58521
+  mob at 3219 mob oload 58539
+  break
+endif
+~
+#58537
+{MVar Reset - TESTING{x~
+set @1 null
+set @2 null
+set @3 null
+set @4 null
+set @5 null
+set @6 null
+set @7 null
+set @8 null
+set @9 null
+mob call 58540
+~
+#58538
+{COld Man (Waiting) c replenish{x~
+say Ah, so you found out my secret did you? Alright then...
+mob cast replenish $n
+~
+#58540
+{MCheck Variable Values{X~
+say Var 1 = @1
+say Var 2 = @2
+say Var 3 = @3
+say Var 4 = @4
+say Var 5 = @5
+say Var 6 = @6
+say Var 7 = @7
+say Var 8 = @8
+say Var 9 = @9
+~
+#58541
+{CGA Race Check (Var){x~
+if race $q 'drow'
+  set @1 Drow
+  break
+endif
+if race $q 'goblin'
+  set @1 Goblin
+  break
+endif
+if race $q 'halforc'
+  set @1 Half-Orc
+  break
+endif  
+if race $q 'gnoll'
+  set @1 Gnoll
+  break
+endif
+if race $q 'satyr'
+  set @1 Satyr
+  break
+endif
+if race $q 'podrikev'
+  set @1 Podrikev
+  break
+endif
+if race $q 'draconian'
+  set @1 Draconian
+  break
+endif
+if race $q 'thri'
+  set @1 Thri'kreen
+  break
+endif
+if race $q 'titan'
+  set @1 Titan
+  break
+endif
+if race $q 'giant'
+  set @1 Giant
+  break
+endif
+if race $q 'heucuva'
+  set @1 Heucuva
+  break
+endif
+if race $q 'avian'
+  set @1 Avian
+  break
+endif
+if race $q 'centaur'
+  set @1 Centaur
+  break
+endif
+if race $q 'human'
+  set @1 Human
+  break
+endif
+if race $q 'pixie'
+  set @1 Pixie
+  break
+endif
+if race $q 'kenku'
+  set @1 Kenku
+  break
+endif
+if race $q esper
+  set @1 Esper
+  break
+endif
+if race $q 'dwarf'
+  set @1 Dwarf
+  break
+endif
+if race $q 'halfelf'
+  set @1 Half-Elf
+  break
+endif
+if race $q halfling
+  set @1 Halfling
+  break
+endif
+if race $q elf
+  set @1 Elf
+  break
+endif
+if race $q gnome
+  set @1 Gnome
+  break
+endif
+if race $q minotaur
+  set @1 Minotaur
+  break
+endif
+~
+#58542
+{CGA Class Check (Var){x~
+if class $q 'gladiator'
+  set @2 Gladiator
+  break
+endif
+if class $q lich
+  set @2 Lich
+  break
+endif
+if class $q merc
+  set @2 Mercenary
+  break
+endif
+if class $q priest
+  set @2 Priest
+  break
+endif
+if class $q sage
+  set @2 Sage
+  break
+endif
+if class $q strider
+  set @2 Strider
+  break
+endif
+if class $q wizard
+  set @2 Wizard
+  break
+endif
+if class $q monk
+  set @2 Monk
+  break
+endif
+~
+#58560
+{CGLAD Death Mprog{x~
+mob echo The Avatar of Kord falls to the ground, defeated!
+mob echo His power is seen leaving his body, in the form of a mystical
+mob echo flame. His essence, has been destroyed, and now the Spirit of Kord
+mob echo if not rescued, will be left to spend 1,000 years in the abyss!
+mob mload 58514
+mob junk all
+mob purge $i
+~
+#58561
+{CGLAD Bane Xfer{x~
+if affected $q 'blind'
+  mob cast 'cure blind' $q
+  mob cast 'cure blind' $q
+  mob cast 'cure blind' $q
+endif
+mob echoat $q {x
+mob echoat $q {DYou see $I {Dcatch you in his gaze with his eyes focused on you!{x
+mob echoat $q {DAs if time is now suspended, every motion seems slow as you are caught in his gaze.{x
+mob echoat $q {DYour {RHEART {Dstarts to beat faster, you feel your {Bs{Co{Bu{Cl{D being pulled from your body.{x
+mob echoat $q {DIn your suspended time state, you see a massive amount of {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{Ws{D come rushing{x
+mob echoat $q {Dtowards you moving at a rediculously fast pace. Each one attacks your body, taking{x
+mob echoat $q {Da single bite, until you feel the pull of Darkness upon you...{x
+mob echoaround $q {x
+mob echoaround $q {DYou see {C$q{D taking a swing at $I{D.{x
+mob echoaround $q {DThen all of a sudden, you see {C$q{D freeze, as if somehow suspended in time.{x
+mob echoaround $q $I {Dcatches {C$q{D in his gaze, makes a gesture, and then {C$q{D disappears!!!{x
+mob echoaround $q {x
+mob transfer $q 58599
+~
+#58562
+{CGLAD Class DMG{x~
+if class $q 'wizard'
+or class $q 'priest'
+or class $q 'lich'
+or class $q 'sage'
+  laugh $q
+  say {C$q{m! You think your magic can harm me??{x
+  say Here, try again!
+  mob cast replenish $q
+endif
+if class $q 'gladiator'
+  mob echoat $q $I {Dtakes a running charge at you!{x
+  mob echoaround $q You see $I charging at {C$q.{x
+  mob cast blind $q
+  mob call 58579
+  mob call 58579
+  mob call 58579
+endif
+if class $q 'strider'
+  mob echoat $q $I {Dtakes a massive swing at your arm!{X
+  mob echoaround $q You see $I take a two-handed swing right at {C$q's{x arm!
+  mob damage $q 15350 16950 lethal show cleave
+endif
+if class $q 'mercenary'
+  mob echoat $q $I {Dtakes a calculated advance towards you!{X
+  mob echoaround $q You see $I take a calculated advance towards {C$q.{x
+  mob call 58579
+  mob call 58579
+  mob call 58579
+endif 
+if class $q 'monk'
+  say Fucking dumb ass monk!
+  mob call 58579
+  mob call 58579
+  mob call 58579
+  mob call 58579
+  mob call 58579
+  mob call 58579
+endif
+~
+#58563
+{CGLAD Bane Reward{x~
+if players >= 1
+  mob remember $r
+  if affected $q 'blind'
+    mob cast 'cure blind' $q
+    mob cast 'cure blind' $q
+  endif
+  mob echoat $q {DAs the Darkness fades, you feel the essence of your {Bs{Co{Bu{Cl{D returning.{x
+  mob echoat $q {DYou open your eyes and see 10,000 {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{Ws{D leaving your body, and congregating to a central{X
+  mob echoat $q {Dlocation in the chamber. You see all the {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{Ws{D morpth into a massive {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn!!{x
+  mob echoat $q {x
+  mob echoat $q {DThe massive {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{D opens its mouth, and you see a tiny {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{D inside.{x
+  mob echoat $q {DYou move by no choice of your own, and walk towards the massive {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{D.{x
+  mob echoat $q {DYou get a tiny {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{Ws{D from the mouth of a massive {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{Ws{D.  
+  mob echoat $q {DAnd place it in your mouth.
+  mob cast 'full heal' $q
+  mob cast 'holy invoke' $q
+  mob cast 'sanctuary' $q
+  mob cast 'lifeforce' $q
+  mob echoat $q {x
+  mob echoat $q {DThe A{Wva{rt{War{D of {rBane {Din {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{D form speaks to you, and tells you to {RKILL{D the {YA{yv{Da{Wt{ya{Yr{W of {YK{yor{Yd{D!{x
+  mob echoat $q {DThe {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{D disburses into 10,000 little {WS{Dc{Wo{Dr{Wp{Di{Wo{Dn{Ws{D and scatters throughout the cracks in the chamber.{X
+  mob echoat $q {x
+  mob echoat $q {DThe Darkness creeps into you again, this time you feel stronger, and ready for battle!{x
+  mob echoat $q {x
+  mob transfer $q 'gladiator_kord'
+  mob goto 'gladiator_kord'
+  mob echoaround $q {x
+  mob echoaround $q {DA shroud of Darkness comes swirling in, and from it you see {C$q{D step out grining.{x
+  mob echoaround $q {C$q {Dtakes a massive swing at the {YA{yv{Da{Wt{ya{Yr {wof {YK{yor{Yd{D and attacks!{x
+  mob echoaround $q {x
+  mob echoat $q {x
+  mob echoat $q {DYou see the {YA{yv{Da{Wt{ya{Yr {wof {YK{yor{Yd{D standing before you, and with your new power, you {RATTACK{D!{x
+  mob echoat $q {x
+  mob force $q battle 'gladiator_kord'
+  mob goto 58599
+  mob forget
+endif
+~
+#58564
+{CGLAD Main Call Mprog{x~
+mob remember $r
+mob call 58571
+mob call 58573
+mob call 58575
+if players == 1
+  mob call 58569
+  mob forget
+  break
+endif
+if players == 2
+  mob call 58569
+  mob forget
+  break
+endif
+if rand 93
+  if players <= 5
+    mob call 58565
+    mob forget
+    break
+  endif
+  if players <= 8
+    mob call 58566
+    mob forget
+    break
+  endif
+  if players >= 9
+    mob call 58567
+    mob forget
+    break
+  endif
+else
+  mob call 58579
+  mob call 58579
+endif
+if rand 70
+  mob call 58561
+  mob forget
+  break
+else
+  mob call 58577
+  mob call 58575
+  mob call 58573
+  mob call 58571
+endif
+if rand 40
+  mob call 58562
+endif
+if rand 97
+  if objexists 'golden chest key Kord_IQ'
+  else
+    if affected $q 'blind'
+      mob cast 'cure blind' $q
+      mob cast 'cure blind' $q
+      mob cast 'cure blind' $q
+    endif
+    mob oload 58500
+    mob echoat $q {G**** {WYou have won a rare prize {G***{X
+    mob echoat $q {G**** {WYou have won a rare prize {G***{X
+    mob echoat $q {G**** {WYou have won a rare prize {G***{X
+    give key $q
+  endif
+endif
+mob forget
+~
+#58565
+{CGLAD AP Rewards <= 5{x~
+mob echoat $q {x
+mob echoat $q {WYou raise your hands and let out a Primal Scream!{x
+mob echoat $q {WAs if suddenly blessed by a greater {DE{Rv{ri{Dl{W force, you leap into the air,{x
+mob echoat $q {WSwing your weapon, and hit $I {Wsquare, tearing open his {Rf{rl{Re{rs{Rh{r!{x
+mob echoat $q {x
+if rand 90
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 30 feet in the air swinging his weapon at {D$I{x
+  mob echoaround $q {Wand hitting him square in the {RHEART!{W Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C3 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 3
+  set @99 + 3
+  break
+endif
+if rand 60
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 22 feet in the air swinging his weapon at {D$I{x
+  mob echoaround $q {Wand hitting him square in the abdomen! Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C2 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 2
+  set @99 + 2
+  break
+else
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 15 feet in the air swinging his weapon at {D$I{x
+  mob echoaround $q {Wand hitting him square in the thigh! Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C1 {RA{Ydventure {RP{yoint{g!{x
+  set @99 + 1
+  mob apoints $q 1
+  break
+endif
+~
+#58566
+{CGLAD AP Reward <= 8{x~
+mob echoat $q {x
+mob echoat $q {WYou raise your hands and let out a Primal Scream!{x
+mob echoat $q {WAs if suddenly blessed by a greater {DE{Rv{ri{Dl{W force, you leap into the air,{x
+mob echoat $q {WSwing your weapon, and hit $I {Wsquare, tearing open his {Rf{rl{Re{rs{Rh{r!{x
+mob echoat $q {x
+if rand 90
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 30 feet in the air swinging his weapon at {D$I{x
+  mob echoaround $q {Wand hitting him square in the {RHEART!{W Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C6 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 6
+  set @99 + 6
+  break
+endif
+if rand 60
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 22 feet in the air swinging his weapon at {D$I{x
+  mob echoaround $q {Wand hitting him square in the abdomen! Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C5 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 5
+  set @99 + 5
+  break
+else
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 15 feet in the air swinging his weapon at {D$I{x
+  mob echoaround $q {Wand hitting him square in the thigh! Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C4 {RA{Ydventure {RP{yoint{g!{x
+  set @99 + 4
+  mob apoints $q 4
+  break
+endif
+~
+#58567
+{CGLAD AP Rewards >=7{x~
+mob echoat $q {x
+mob echoat $q {WYou raise your hands and let out a Primal Scream!{x
+mob echoat $q {WAs if suddenly blessed by a greater {DE{Rv{ri{Dl{W force, you leap into the air,{x
+mob echoat $q {WSwing your weapon, and hit $I {Wsquare, tearing open his {Rf{rl{Re{rs{Rh{r!{x
+mob echoat $q {x
+if rand 95
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 30 feet in the air swinging his weapong at {D$I{x
+  mob echoaround $q {Wand hitting him square in the {RHEART!{W Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C10 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 10
+  set @99 + 10
+  break
+endif
+if rand 70
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 22 feet in the air swinging his weapong at {D$I{x
+  mob echoaround $q {Wand hitting him square in the abdomen! Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C8 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 8
+  set @99 + 8
+  break
+else
+  mob echoaround $q {x
+  mob echoaround $q {WYou see {D$q{W raise his fists and scream a horrific chant!{x
+  mob echoaround $q {WIn a flash, he leaps 15 feet in the air swinging his weapong at {D$I{x
+  mob echoaround $q {Wand hitting him square in the thigh! Then lands on his feet, turns and...{x
+  mob echoaround $q {Wstares down {D$I{W with a very {DE{Rv{ri{Dl {Wgrin!{w
+  mob echoat $q {x
+  mob echoat $q {gYou have been awarded {C7 {RA{Ydventure {RP{yoint{g!{x
+  mob apoints $q 7
+  set @99 + 7
+  break
+endif
+~
+#58568
+{CGLAD Bane Creation{x~
+mob echo {W                    _o8888888o_
+mob echo {W                 .o888'{Y ...  {W'888o.
+mob echo {W              .o88' {Y :::;{r({Y;:::  {W'88o.
+mob echo {W             ,88' {Y .::;{r.) ){Y;:::.  {W'88,
+mob echo {W            ,88'{Y  :::;`{r(,' (,{Y;:::  {W'88,
+mob echo {W           ,88' {Y :::;;{r). (, ('{Y;:::  {W'88,
+mob echo {W           88'  {Y :::;{r( ) ; ' ){Y;;::   {W'88
+mob echo {W           88   {Y '::;{r'){y_{r,{y_{r){y_{r(`{Y;::'   {W 88
+mob echo {W           88    {Y  '::{y[_____]{Y::'     {W 88
+mob echo {W           88        {y  \_ _/          {W88
+mob echo {W           88          {D {y|{R#{y|{D_          {W88
+mob echo {W           88,   {D  __.-'(__ )       {W ,88
+mob echo {W           '88,  {D   '-. \___ )   {W   ,88'
+mob echo {W            '88,   {D  _.\_)__ )   {W  ,88'
+mob echo {W             '88o, {D _   (__ )   {W ,o88'
+mob echo {W               '88o, {D`'-{y\{R#{y/{D' {W  ,o88'
+mob echo {W                 '888o,_   _,o888'
+mob echo {W                    '8JGS88888'
+mob echo {D
+mob echo {DA Black hand conjures out of the mist, grasping at the fire and
+mob echo lifline that was the Avatar of Kord. Taking his power like transfering
+mob echo a flame from one soul to the next, the Black hand takes the flame as 
+mob echo his first breath...
+mob echo And the Avatar of Bane steps out of the Mist.
+mob echo {D
+mob echo With a massive roar, and a smirk on his face, the Avatar of Bane
+mob echo unleashes his swarm of spiders upon you!
+mob echo {D
+mob echo You will now, feel his darkness as your reward for setting him FREE!
+mob echo {x
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob damage all 9900 15999 lethal show wrath 
+mob purge $i 
+~
+#58569
+{CGLAD Player Check{x~
+if players == 1
+  say Ha! You think you can defeat me all by yourself?
+  laugh
+  say Here, see if you can survive the {DDarkness!!{x
+  mob echo $I sends you reeling through time and space!
+  mob transfer $q 16438
+else
+  say Ha! You think the two of you can defeat me?
+  laugh
+  say Here, see if you can survive the {DDarkness!!{x
+  mob echo $I sends you reeling through time and space!
+  mob transfer all 16438
+endif
+~
+#58570
+{CClass Call Race 58571 (2/1){x~
+if class $q 'mercenary'
+  mob call 58571
+  mob call 58571
+  break
+endif
+if class $q 'gladiator'
+  mob call 58571
+  mob call 58571
+  break
+endif
+if class $q 'strider'
+  mob call 58571
+  mob call 58571
+  break
+endif
+if class $q 'wizard'
+  mob call 58571
+  break
+endif
+if class $q 'priest'
+  mob call 58571
+  break
+endif
+if class $q 'lich'
+  mob call 58571
+  break
+endif
+if class $q 'sage'
+  mob call 58571
+  break
+endif
+if class $q 'monk'
+  mob call 58571
+  mob call 58571
+  break
+endif
+~
+#58571
+{CRace DMG (100) $q{x~
+if race $q 'drow'
+  mob damage $q 600 700 lethal show divine
+  break
+endif
+if race $q 'goblin'
+  mob damage $q 600 700 lethal show divine
+  break
+endif
+if race $q 'halforc'
+  mob damage $q 600 700 lethal show divine
+  break
+endif  
+if race $q 'gnoll'
+  mob damage $q 600 700 lethal show divine
+  break
+endif
+if race $q 'satyr'
+  mob damage $q 600 700 lethal show chill
+  break
+endif
+if race $q 'podrikev'
+  mob damage $q 600 700 lethal show pierce
+  break
+endif
+if race $q 'draconian'
+  mob damage $q 600 700 lethal show pierce
+  break
+endif
+if race $q 'thri'
+  mob damage $q 600 700 lethal show pierce
+  break
+endif
+if race $q 'titan'
+  mob damage $q 600 700 lethal show slice
+  break
+endif
+if race $q 'giant'
+  mob damage $q 600 700 lethal show shock
+  break
+endif
+if race $q 'heucuva'
+  mob damage $q 600 700 lethal show smash
+  break
+endif
+mob damage $q 600 700 lethal show charge
+~
+#58572
+{CClass Call Race 58573 (2/1){x~
+if class $q 'mercenary'
+  mob call 58573
+  mob call 58573
+  break
+endif
+if class $q 'gladiator'
+  mob call 58573
+  mob call 58573
+  break
+endif
+if class $q 'strider'
+  mob call 58573
+  mob call 58573
+  break
+endif
+if class $q 'wizard'
+  mob call 58573
+  break
+endif
+if class $q 'priest'
+  mob call 58573
+  break
+endif
+if class $q 'lich'
+  mob call 58573
+  break
+endif
+if class $q 'sage'
+  mob call 58573
+  break
+endif
+if class $q 'monk'
+  mob call 58573
+  mob call 58573
+  break
+endif
+~
+#58573
+{CRace DMG (150) $q{x~
+if race $q 'drow'
+  mob damage $q 950 1100 lethal show divine
+  break
+endif
+if race $q 'goblin'
+  mob damage $q 950 1100 lethal show divine
+  break
+endif
+if race $q 'halforc'
+  mob damage $q 950 1100 lethal show divine
+  break
+endif  
+if race $q 'gnoll'
+  mob damage $q 950 1100 lethal show divine
+  break
+endif
+if race $q 'satyr'
+  mob damage $q 950 1100 lethal show chill
+  break
+endif
+if race $q 'podrikev'
+  mob damage $q 950 1100 lethal show pierce
+  break
+endif
+if race $q 'draconian'
+  mob damage $q 950 1100 lethal show pierce
+  break
+endif
+if race $q 'thri'
+  mob damage $q 950 1100 lethal show pierce
+  break
+endif
+if race $q 'titan'
+  mob damage $q 950 1100 lethal show slice
+  break
+endif
+if race $q 'giant'
+  mob damage $q 950 1100 lethal show shock
+  break
+endif
+if race $q 'heucuva'
+  mob damage $q 950 1100 lethal show smash
+  break
+endif
+mob damage $q 950 1100 lethal show charge
+~
+#58574
+{CClass Call Race 58575 (2/1){x~
+if class $q 'mercenary'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'gladiator'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'strider'
+  mob call 58575
+  mob call 58575
+  break
+endif
+if class $q 'wizard'
+  mob call 58575
+  break
+endif
+if class $q 'priest'
+  mob call 58575
+  break
+endif
+if class $q 'lich'
+  mob call 58575
+  break
+endif
+if class $q 'sage'
+  mob call 58575
+  break
+endif
+if class $q 'monk'
+  mob call 58575
+  mob call 58575
+  break
+endif
+~
+#58575
+{CRace DMG (200) $q{x~
+if race $q 'drow'
+  mob damage $q 1300 1500 lethal show divine
+  break
+endif
+if race $q 'goblin'
+  mob damage $q 1300 1500 lethal show divine
+  break
+endif
+if race $q 'halforc'
+  mob damage $q 1300 1500 lethal show divine
+  break
+endif  
+if race $q 'gnoll'
+  mob damage $q 1300 1500 lethal show divine
+  break
+endif
+if race $q 'satyr'
+  mob damage $q 1300 1500 lethal show chill
+  break
+endif
+if race $q 'podrikev'
+  mob damage $q 1300 1500 lethal show pierce
+  break
+endif
+if race $q 'draconian'
+  mob damage $q 1300 1500 lethal show pierce
+  break
+endif
+if race $q 'thri'
+  mob damage $q 1300 1500 lethal show pierce
+  break
+endif
+if race $q 'titan'
+  mob damage $q 1300 1500 lethal show slice
+  break
+endif
+if race $q 'giant'
+  mob damage $q 1300 1500 lethal show shock
+  break
+endif
+if race $q 'heucuva'
+  mob damage $q 1300 1500 lethal show smash
+  break
+endif
+mob damage $q 1300 1500 lethal show charge
+~
+#58576
+{CClass Call Race 58577 (2/1){x~
+if class $q 'mercenary'
+  mob call 58577
+  mob call 58577
+  break
+endif
+if class $q 'gladiator'
+  mob call 58577
+  mob call 58577
+  break
+endif
+if class $q 'strider'
+  mob call 58577
+  mob call 58577
+  break
+endif
+if class $q 'wizard'
+  mob call 58577
+  break
+endif
+if class $q 'priest'
+  mob call 58577
+  break
+endif
+if class $q 'lich'
+  mob call 58577
+  break
+endif
+if class $q 'sage'
+  mob call 58577
+  break
+endif
+if class $q 'monk'
+  mob call 58577
+  mob call 58577
+  break
+endif
+~
+#58577
+{CRace DMG (250) $q{x~
+if race $q 'drow'
+  mob damage $q 1700 1900 lethal show divine
+  break
+endif
+if race $q 'goblin'
+  mob damage $q 1700 1900 lethal show divine
+  break
+endif
+if race $q 'halforc'
+  mob damage $q 1700 1900 lethal show divine
+  break
+endif  
+if race $q 'gnoll'
+  mob damage $q 1700 1900 lethal show divine
+  break
+endif
+if race $q 'satyr'
+  mob damage $q 1700 1900 lethal show chill
+  break
+endif
+if race $q 'podrikev'
+  mob damage $q 1700 1900 lethal show pierce
+  break
+endif
+if race $q 'draconian'
+  mob damage $q 1700 1900 lethal show pierce
+  break
+endif
+if race $q 'thri'
+  mob damage $q 1700 1900 lethal show pierce
+  break
+endif
+if race $q 'titan'
+  mob damage $q 1700 1900 lethal show slice
+  break
+endif
+if race $q 'giant'
+  mob damage $q 1700 1900 lethal show shock
+  break
+endif
+if race $q 'heucuva'
+  mob damage $q 1700 1900 lethal show smash
+  break
+endif
+mob damage $q 1700 1900 lethal show charge
+~
+#58578
+{CClass Call Race 58579 (2/1){x~
+if class $q 'mercenary'
+  mob call 58579
+  mob call 58579
+  break
+endif
+if class $q 'gladiator'
+  mob call 58579
+  mob call 58579
+  break
+endif
+if class $q 'strider'
+  mob call 58579
+  mob call 58579
+  break
+endif
+if class $q 'wizard'
+  mob call 58579
+  break
+endif
+if class $q 'priest'
+  mob call 58579
+  break
+endif
+if class $q 'lich'
+  mob call 58579
+  break
+endif
+if class $q 'sage'
+  mob call 58579
+  break
+endif
+if class $q 'monk'
+  mob call 58579
+  mob call 58579
+  break
+endif
+~
+#58579
+{CRace DMG (300) $q{x~
+if race $q 'drow'
+  mob damage $q 2150 2350 lethal show divine
+  break
+endif
+if race $q 'goblin'
+  mob damage $q 2150 2350 lethal show divine
+  break
+endif
+if race $q 'halforc'
+  mob damage $q 2150 2350 lethal show divine
+  break
+endif  
+if race $q 'gnoll'
+  mob damage $q 2150 2350 lethal show divine
+  break
+endif
+if race $q 'satyr'
+  mob damage $q 2150 2350 lethal show chill
+  break
+endif
+if race $q 'podrikev'
+  mob damage $q 2150 2350 lethal show pierce
+  break
+endif
+if race $q 'draconian'
+  mob damage $q 2150 2350 lethal show pierce
+  break
+endif
+if race $q 'thri'
+  mob damage $q 2150 2350 lethal show pierce
+  break
+endif
+if race $q 'titan'
+  mob damage $q 2150 2350 lethal show slice
+  break
+endif
+if race $q 'giant'
+  mob damage $q 2150 2350 lethal show shock
+  break
+endif
+if race $q 'heucuva'
+  mob damage $q 2150 2350 lethal show smash
+  break
+endif
+mob damage $q 2150 2350 lethal show charge
+~
+#58580
+{CGlad Equip!{x~
+if isimmort $n
+  remove all
+  mob junk all
+  mob oload 54397
+  mob oload 93
+  mob oload 93
+  mob oload 32551
+  mob oload 32551
+  mob oload 18092
+  mob oload 51647
+  mob oload 51647
+  mob oload 31372
+  mob oload 31372
+  mob oload 19316
+  mob oload 92
+  mob oload 12520
+  mob oload 24470
+  mob oload 19321
+  mob oload 19227
+  mob oload 58503
+  wear all
+else
+  mob say You're not the boss of me!
+  whap $n
+endif
+~
+#58581
+{CGAX Fight Call 58578{x~
+mob remember $r
+if rand 50
+  mob call 58578
+  mob call 58578
+  mob call 58578
+  mob call 58578
+else
+  mob call 58529
+  mob call 58534
+endif
+~
+#58582
+{CGA9 Fight Call 58576{x~
+mob remember $r
+if rand 30
+  mob call 58576
+  mob call 58576
+  mob call 58576
+else
+  mob call 58534
+endif
+~
+#58583
+{CGA8 Fight Call 58574{x~
+mob remember $r
+if rand 80
+  mob call 58574
+  mob call 58574
+  mob call 58574
+else
+  mob call 58529
+endif
+~
+#58584
+{CGA7 Fight Call 58572{x~
+mob remember $r
+mob call 58572
+mob call 58572
+mob call 58572
+~
+#58585
+{CGA6 Fight Call 58570{x~
+mob remember $r
+mob call 58570
+mob call 58570
+mob call 58570
+~
+#58599
+UNUSED~
+~
+#0
+
+#$

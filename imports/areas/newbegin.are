@@ -1,0 +1,7219 @@
+#AREADATA
+Name New Beginnings~
+Builders None~
+VNUMs 17100 17199
+Credits [01 FR 30] New Beginnings~
+Security 10
+Recall 17114
+Faction ~
+AQpoints 0
+Realm 4
+Zone 0
+End
+
+
+
+#MOBILES
+#17100
+Aiden Grimlaw dwarf man short stocky~
+Aiden Grimlaw, Pawnmaster General~
+A short, stocky dwarf stands here, looking over his merchandise.
+~
+Aiden Grimlaw is a short dwarf, carrying on his small frame a 
+hefty 200 pounds.  He grunts with effort as he moves about, a
+sheen of sweat glistening from his brow.  With gray eyes he
+scans the room, pushing back his greasy gray hair from his
+view.
+~
+dwarf~
+AB JZ 0 0 0
+1 1 1d5+8 1d5+8 1d3+0 bite
+1 1 1 1
+0 ABa FLQ R
+stand stand male 1000000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17101
+joe man friendly well groomed~
+Friendly Joe~
+A tall, well-groomed man leans on the counter.
+~
+Though dressed casually, his clothes are meticulously clean.  His
+tan complexion is flawless, and his dusty brown hair is trimmed short.
+There always seems to be a smile on his face to match his warm green
+eyes.  
+~
+human~
+AB 0 0 0 0
+1 0 99d99+99 0d0+0 0d0+0 crush
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17102
+Ranaugh gnome man short~
+Ranaugh Tulls~
+A red-headed gnome stands behind a bar on a step-stool, polishing glasses.
+~
+Ranaugh Tulls is a sturdy looking gnome who, from his smile lines, has
+seen a lot of good tales come his way.  His red hair hangs to his small
+shoulders in waves.  Green eyes scan the room as he polishes every glass
+in his bar, interrupted only by the request for a cold one from his 
+patrons.
+~
+gnome~
+ABG 0 0 0 0
+1 0 1d5+8 1d5+8 1d3+0 none
+1 1 1 1
+0 ABCDQa 0 0
+stand stand male 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+F aff Jc
+F res JL
+F vul R
+M greet 17108 100~
+#17103
+Essam Huver gnome assistant boy blonde short~
+Essam Huver~
+A blonde gnome boy obediently sweeps the floor, his eyes down.
+~
+Essam Huver looks like a meek and humble servant to Ranaugh.  He
+sweeps the floor in silence, his green eyes cast to the floor.  Each
+sweep pulls up saturated sawdust after which he spreads a handful
+fresh sawdust from his apron.  He scarcely stands over two feet.
+~
+gnome~
+ABG Jc 0 0 0
+6 0 4d5+35 4d5+35 2d3+3 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+F imm Q
+F res JL
+F vul R
+M give 17109 17195~
+#17104
+Corr Mays man male human~
+Corr Mays~
+A tall man stands behind a spinning whetstone, sharpening a blade.
+~
+Corr Mays intently looks down over his whetstone.  His light brown
+hair hangs around his face, framing his brown eyes as they stare at
+the blade before him.  He is muscle-bound and very hard at work.
+~
+human~
+ABG 0 0 0 0
+5 0 3d5+26 2d3+2 2d3+2 beating
+0 0 0 0
+EFJ ABa 0 0
+stand stand male 1231231231
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M greet 17110 100~
+#17105
+street sweeper cleaner thrall~
+a {8str{ye{ge{8t sw{ye{8eper{x~
+A street sweeper shuffles along, clearing the road of debris.
+~
+A simple human being, doing their job.
+~
+human~
+ACHW 0 0 0 0
+4 0 2d6+21 2d6+21 1d4+2 beating
+0 0 0 0
+EFJ 0 IQ R
+stand stand either 132
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M random 17111 1~
+#17106
+scurvy mangy dog~
+a {8mangy{w, {yscurvy {wdog{x~
+A mangy dog roves the streets, looking for food.
+~
+This curr looks as though its last meal was months ago.
+Its hair hangs grows in patches, the bald spots gnawed
+away by a mighty infestation of mange.  It might be 
+best to keep distance between yourself and this wretch.
+~
+dog~
+AGW X 0 0 0
+1 0 1d5+8 1d5+8 1d3+0 bite
+1 1 1 1
+H 0 IQ RT
+stand stand either 33
+AGHMV ABCDEFGHIJKUV medium unknown
+D ~
+T ~
+#17107
+Marissa Glyden woman female~
+{RMa{rri{wssa {RGl{ryd{wen~
+A slender woman stands here, tending her lamps.
+~
+Marissa Glyden is a slender woman with red hair that seems
+almost like fire.  Her fingers are narrow, perfect for tending
+the various lamps that light her shop.  Her green eyes gaze
+with affection at her creations and a smile comes to her
+small mouth easily.
+~
+human~
+ABG 0 H 0 0
+6 0 4d5+35 4d5+35 2d3+3 beating
+0 0 0 0
+EFJ ABQa 0 0
+stand stand female 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M greet 17175 100~
+#17108
+Korra Sarrin woman elven elf healer cleric~
+{CKo{crr{wa Sa{crr{Cin{x~
+A middle-aged elven woman paces by the fountain, offering healing and spells.
+~
+She is one of the ancient races, but not quite ancient yet.  Her black
+hair is streaked with white and at the edges of her brown eyes are
+deepening crow's feet.  She is slender and holds about herself an air
+of kindness, compassion, and dignity.
+{x
+To see the healing she offers, type 'heal'
+To see the spells she offers, type 'look scroll'
+~
+elf~
+ABQa FJc H 0 0
+101 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+EFJ ABa BG 0
+stand stand female 5000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M grall 17112 100~
+M speech 17177 want iceshield~
+M speech 17178 want fireshield~
+M speech 17179 want shockshield~
+M speech 17180 want elemental shields~
+M speech 17181 want sanctuary~
+M speech 17182 want haste~
+M speech 17183 want farsight~
+M speech 17184 want giant strength~
+M speech 17185 want armor~
+M speech 17186 want fly~
+M speech 17187 want shield~
+M speech 17188 want it all~
+#17109
+Drezfin Bimblebuss gnome man male~
+{MD{Gr{Ye{Wz{Cf{Ri{Wn {GB{Yi{Cm{Wb{Rl{Ye{Mb{Ru{Cs{Ws{x~
+A gnome man stands behind the counter, happily tinkering away on a toy.
+~
+He stands no taller than three feet, but Drezfin is a giant
+when it comes to tinkering.  His red eyebrows are bushy and 
+large, and his goatee flames just as brightly.  He is balding,
+but unlike many who try to hide it, what remains of Drezfin's 
+hair looks as though he put his finger into a socket.  Always
+chipper, always excited, Drezfin loves nothing more than 
+creating.
+~
+gnome~
+ABG Jc 0 0 0
+5 0 3d5+26 2d3+2 2d3+2 beating
+0 0 0 0
+EFJ ABa JL R
+stand stand male 500000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+F imm Q
+#17110
+cleric priest guildmaster man~
+the {8Gu{wil{Wdma{wst{8er{x~
+The {*Gu{wil{Wdma{wst{*er{w sits in his chair upon a dais, perusing an ancient tome. 
+~
+{x
+{WA man of kindness and benevolence, the Cleric and Priest Guildmaster
+{Wlooks out over the room with an air of kindness.  He appears to be in
+{Whis early seventies, with white hair that falls to his shoulders and
+{Wbushy white eyebrows that hover over a pair of sparkling green eyes.
+{WHe is dressed in white robes, covered over with glyphs stitched in
+{Wgold.  Beneath his robes, he wears yet another robe of black.  A book
+{Wrests comfortably in his lap, his constant companion, for one never
+{Wstops learning.{x
+~
+human~
+ABJKQb 0 0 0 0
+101 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+EFJ ABa 0 0
+stand stand male 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17111
+cleric priest woman healer~
+{wMere{8dith {WWalk{wer{x~
+A beautiful older woman walks around the guild, offering her healing
+~
+{WMeredith Walker is a woman who is beautiful for her sixty-plus
+{Wyears.  Her white hair hangs to her waist, straight as a pin.
+{WHer brown eyes sparkle with kindness and her smile is light, 
+{Wbut warm.  She stands nearly 5'5" tall and wears a eggshell 
+{Wcolor robe that extends to the ground and covers her feet.{x
+~
+human~
+ABZa 0 0 0 0
+101 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+EFJ ABa 0 0
+stand stand female 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17112
+druid sage guildmaster woman~
+Your {GGu{gil{Gdm{gast{Ger{x~
+The {GGu{gil{Gdm{gast{Ger{w sits on her root-chair, meditating in the midst of ivy.
+~
+{gThe {GGu{gil{Gdm{gast{Ger {gsits on her root seat with a permanent smile
+{gupon her face.  Her long hair hangs to the floor over the back
+{gof her seat like a river of golden-brown.  Her tan skin glows
+{gwith health and vitality and her eyes are of a deep gold color.
+{gShe seems perfectly at peace and ever willing to assist those in
+{gneed of a good education.{x
+~
+human~
+ABJKLb 0 0 0 0
+101 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+EFJ ABa 0 0
+sit sit female 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17113
+Amirna Leothas elf woman shop female~
+{BA{cmirna {BL{ceothas{x~
+An elven woman stands behind a counter, mixing a potion.
+~
+{cAmirna stands roughly 5'8" tall and has long black
+{chair that falls to her elbows.  She is slender and
+{cher cheeks are light pink.  Her clothing is made of
+{cthe finest silks and her smile is soft and gentle.{x
+~
+elf~
+ABG FJc 0 0 0
+5 0 3d5+26 2d3+2 2d3+2 none
+0 0 0 0
+0 ABQa BG 0
+stand stand female 500000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M greet 17176 100~
+#17114
+nocross guildguard~
+Nocross Guildguard, imp invis, level 104~
+Nocross Guildguard, imp invis, level 104
+~
+~
+human~
+AB 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 17196 5~
+M exall 17117 3~
+M exall 17116 1~
+M exall 17115 0~
+M exall 17114 4~
+#17115
+nocross2 guildguard2~
+Nocross2 Guildguard2, imp invis, level 104~
+Nocross2 Guildguard2, imp invis, level 104
+~
+~
+human~
+A 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M exall 17120 4~
+M exall 17119 3~
+M exall 17118 1~
+#17116
+guildmaster thief mercenary man male~
+Your {CG{8uildmaste{Cr{x~
+The {CG{8uildmaste{Cr{w stands in the center of the room with a grin.
+~
+{*Some would describe him as dashing, others as debonair, but whatever
+{8the description, this man has flair, speed, agility, wits, and courage
+{8in spades.  He is a slender man, standing slightly above 6'0".  His
+{8black hair is curled at the ends, hand hangs to his shoulders.  A thin
+{8yet long moustache sits above his ever grinning mouth, along with a 
+{8goatee under his lower lip.  Bright blue eyes scan everyone with a
+{8mischevous, yet calculating glance.  From the rich silk shirt and 
+{8embroidered leather breeches he wears, it's clear that if you want to
+{8know anything about being a thief or mercenary, you've come to the right
+{8man.{x
+~
+human~
+ABJKSb 0 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABQa 0 0
+stand stand male 100000
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#17117
+guildmaster gladiator warrior man male~
+Your {YGu{yil{8dma{yst{Yer{x~
+Your {YGu{yil{*dma{yst{Yer{w stands here, proud and strong.
+~
+{yStanding nearly 6'5", the Guildmaster is an imposing figure.
+{yMuscles ripple and flex nearly to bursting, finely oiled and
+{yglistening.  He wears leather practice armor that has seen its
+{yfair share of practice combat, too.  His hair is blonde and
+{ypulled back into a tight braid.  Brown eyes size up every 
+{ynewcomer - assessing not only his or her strength, but fortitude,
+{ycourage, and valor.{x
+~
+human~
+ABJKTb 0 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABQa 0 0
+stand stand male 100000
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#17118
+guildmaster ranger strider man male~
+Your {GG{guildmaste{Gr{x~
+The {GG{guildmaste{Gr {wstands at the center archery target, practicing his aim.{x
+~
+{gA man of few words, the Guildmaster gives off an aura of kindness
+{gand patience.  His face is weathered from years in the woods, and
+{gthough he looks to be in his sixties, his figure is lean and strong.
+{gHis brown hair is streaked through with gray, as are his eyebrows.
+{gHis eyes are brown and seem to sparkle with wisdom and intelligence.
+{gHe wears linens beneath his padded armor, with a pair of soft leather
+{gboots and a massive bow at his side.{x
+~
+human~
+ABEJKb 0 0 0 0
+0 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABQa 0 0
+stand stand male 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17119
+Harwick Marlew dwarf male man shop~
+{*Ha{wrw{Wick Ma{wrl{*ew{x~
+A stocky, burly dwarf sits on a stool, polishing armor.
+~
+{wHarwick looks utterly irritated and disgusted ninety-nine
+{wpercent of the time.  His beard is long and braided into
+{wseven different black braids, as is his tuft of black hair
+{wthat falls from his scalp.  His arms are very thickly 
+{wmuscled and his jaw is permanently flexing.{x
+~
+dwarf~
+ABG JZ 0 0 0
+5 0 3d5+26 2d3+2 2d3+2 none
+0 0 0 0
+0 ABLQa FLQ R
+stand stand male 500000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M greet 17168 100~
+#17120
+Haurich Querod centaur male banker~
+{YHa{8ur{yich Qu{8er{Yod{x~
+A centaur male stands behind a barred window, counting coins.
+~
+{yHaurich Querod is a fine centaur - his muscles are on full display
+{yfor all to see.  His torso melds into a strapping black stallion
+{ybody, just as well muscled as his humanoid half.  He appears to have
+{ya pair of shrewd yellow eyes that almost glow against the dark ebony
+{yof his hair.  Clearly, he is out of his element, but that doesn't
+{yseem to bother him in the slightest.{x
+~
+centaur~
+ABGc CGc 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABa N M
+stand stand male 1000000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+F imm Q
+#17121
+chef Maurice Nourriture man male~
+{CMa{Wur{cice {CNou{crri{Wtu{Cre{X~
+A very tall man with a very stern face paces the kitchen.
+~
+{cMaurice Nourriture is a beast of a man who knows everything
+{cthat can be known about cooking the perfect souffle or leg
+{cof venison.  He stands nearly 6'5" and is absolutely fit.
+{cBrown hair peeks out from beneath his chef's hat, which
+{ctowers above his head.  His white chef's uniform is crisply
+{cironed and impeccably clean.  His blue eyes constantly look
+{cover his kitchen, calling out the slightest error.{x
+~
+human~
+ABG a 0 0 0
+10 0 5d8+67 5d8+67 2d5+4 none
+0 0 0 0
+EFKO AB FGHPTXZ IL
+stand stand male 1000
+AHMV ABCDEFGHIJK medium unknown
+D NO!  What about my souffle!!~
+T ~
+M give 17138 17164~
+M speech 17137 running~
+M grall 17136 100~
+M random 17121 3~
+#17122
+cook~
+a cook~
+A cook stands here, slaving away under the direction of the chef.
+~
+A human being, a cog in the wheel, a slave to the kitchen and
+laden with a sweat that drips into nearly every dish created.
+~
+human~
+AB V D 0 0
+3 0 2d4+16 2d4+16 1d3+1 slap
+0 0 0 0
+HN AB FGHTXZ EP
+stand stand either 100
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17123
+waiter Edmond Merriweather man male~
+{BEdmond Merriweather{x~
+A waiter stands here, patiently waiting to take your order.
+~
+{BEdmond Merriweather looks as though his nose couldn't reach
+{Bany higher into the air.  He is very slim and only stands
+{B5'7" tall.  His black hair is slicked back and parted to the
+{Bside, and his hazel eyes barely look at you but notice
+{Beverything.  He wear a half apron and holds a tiny notebook.{x
+~
+human~
+ABG V 0 0 0
+10 0 5d8+67 5d8+67 2d5+4 slap
+0 0 0 0
+0 ABa 0 0
+stand stand none 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M grall 17123 100~
+M speech 17124 specials~
+M speech 17125 souffle~
+M speech 17128 venison~
+M speech 17130 chef~
+M delay 17127 100~
+M bribe 17126 500~
+M bribe 17129 1000~
+M bribe 17131 1500~
+#17124
+Robert Conrad food vendor man male~
+{RRo{wber{Rt Co{wnr{Rad{x~
+A man stands here behind a food cart, selling his concoctions.
+~
+{RRobert {ris a simple man selling what appears to be
+{rvery odd things.  He stands at 6 feet even with sandy
+{rblonde hair, day-old scruff on his jaw, and blue eyes
+{rthat are more the color of deep cyan than anything
+{relse.  He is of average weight and seems to be of
+{raverage mentality, too.{x
+~
+human~
+ABG DFJL 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABLQa 0 0
+stand stand male 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M speech 17133 fast~
+M grall 17132 100~
+#17125
+baby bunny rabbit~
+{ya {wb{yaby bunn{wy ra{ybbit{x~
+A baby bunny hops along, nibbling on a blade of grass.
+~
+{ySuch a tiny bunny and so very cute!  You could pick it
+{yup and cuddle it and love it and squeeze it and make it
+{yyours!{x
+~
+rabbit~
+AGHW V 0 0 0
+10 0 5d8+67 5d8+67 2d5+4 bite
+0 0 0 0
+FH 0 0 RT
+stand stand either 0
+AGV ACDEFHJK small unknown
+D ~
+T ~
+#17126
+bunny rabbit~
+{ya {wb{yunn{wy ra{ybbit{x~
+A bunny rabbit sits very still, its ears turning at every sound.
+~
+{yA bunny!  It has long ears, a nub of a tail,
+{ylong whiskers, and eyes so dark brown they 
+{ylook like chocolate!{x
+~
+rabbit~
+AGHW V 0 0 0
+12 0 7d7+82 7d7+82 3d4+5 none
+0 0 0 0
+FH 0 0 RT
+stand stand either 0
+AGV ACDEFHJK small unknown
+D ~
+T ~
+M death 17122 100~
+#17127
+large bunny rabbit~
+{ya lar{wg{ye {wb{yunn{wy ra{ybbit{x~
+A rather large rabbit bounds through the grass with incredible speed.
+~
+{yOne of the larger of the rabbits that bound through
+{ythe grasses of the gulch.  It looks fat and quite
+{ywell fed.{x
+~
+rabbit~
+AGHW V 0 0 0
+14 0 6d10+99 6d10+99 3d4+5 bite
+0 0 0 0
+FH 0 0 RT
+stand stand either 0
+AGV ACDEFHJK small unknown
+D ~
+T ~
+#17128
+juvenile bunny rabbit~
+{ya juv{wen{yile {wb{yunn{wy ra{ybbit{x~
+A young rabbit hops about, playing in the grass.
+~
+{yThis bunny looks as if it might be just a few months old.
+{yIt is bigger than a baby, but too small to be an adult.
+{yRegardless, it bounds about, playing happily with the
+{yunfettered energy of a little one.{x
+~
+rabbit~
+AGHW V 0 0 0
+11 0 4d12+75 4d12+75 3d3+4 bite
+0 0 0 0
+FH 0 0 RT
+stand stand either 0
+AGV ACDEFHJK small unknown
+D ~
+T ~
+#17129
+giant bunny rabbit rabid zazagabunny~
+{8a gi{wan{8t {Rrabid {8bun{wn{8y rabb{wi{8t{x~
+A giant rabid bunny rabbit stares at {RYOU{X!
+~
+{8This rabbit looks as if it's been rolling around in its
+{8own crap for years, and smells like it too.  Its fur
+{8hangs in clumps, matted and caked with mud and poo.  Its
+{8eyes are bright {Rred {8and it drools as its nose wiggles
+{8up and down, sniffing the air.{x
+~
+rabbit~
+ABFG DFIVXZa 0 -300 0
+25 0 7d19+223 7d19+223 4d5+10 bite
+0 0 0 0
+FH ABLQ 0 NRST
+stand stand either 0
+AGV ACDEFHJK medium unknown
+D ~
+T ~
+M death 17135 100~
+#17130
+Noisemaker 3000~
+Noisemaker 3000, imp invis, level 104~
+Noisemaker 3000, imp invis, level 104
+~
+~
+human~
+ABG 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M grall 17134 25~
+#17131
+helga healer woman lady~
+{GH{gelga {wthe {GH{gealer{x~
+{GH{gelga {wthe {GH{gealer {wkneels by the fire, tending a boiling pot of soup.{x
+~
+{GH{gelga appears to be approximately 45 years old.  Her brown
+{ghair hangs to her shoulders in a large pouf of curls.  Brown
+{geyes look at everything with kindness and knowing and patience,
+{gas though she has been healing for many years now.  Her skin
+{gis a deep tan, testament to the fact that though she may be
+{gin a hut, she does get outside every now and again.  She is
+{gwrapped in a saffron-colored robe upon which are stitched
+{grunes of healing in black, white, and green.{x
+~
+human~
+ABGZa DFJLc 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 beating
+-4 -4 -4 -4
+0 ABLQa 0 0
+stand stand female 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M grall 17139 100~
+M speech 17177 want iceshield~
+M speech 17178 want fireshield~
+M speech 17179 want shockshield~
+M speech 17180 want elemental shields~
+M speech 17181 want sanctuary~
+M speech 17182 want haste~
+M speech 17183 want farsight~
+M speech 17184 want giant strength~
+M speech 17185 want armor~
+M speech 17186 want fly~
+M speech 17187 want shield~
+M speech 17188 want it all~
+#17132
+Noisemaker2~
+Noisemaker2, imp invis, level 104~
+Noisemaker2, imp invis, level 104
+~
+~
+human~
+AG 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 17141 2~
+M random 17140 2~
+M grall 17142 2~
+#17133
+deer doe~
+{ya d{wee{yr{x~
+A magnificent deer stands stock still, looking in your direction.
+~
+{yShe is a beautiful mule deer, with a black nose surrounded
+{yby white which dissolves into a dark tan hide.  She scans 
+{yover the area with dark brown eyes that are almost black in
+{ythe darkness of the forest.{x
+~
+dog~
+AGW V 0 200 0
+25 0 7d19+223 7d19+223 4d5+10 pound
+0 0 0 0
+H AB CNX FYZ
+stand stand female 0
+AGV ACDEFHJK medium unknown
+D ~
+T ~
+F par UV
+M death 17143 75~
+#17134
+frog~
+{ga f{yr{gog{x~
+A frog sits at the edge of the pond, croaking loudly.
+~
+{gIt is a simple species of frog, small and
+{gvery, very loud.  It sings to announce its
+{gpresence, to call for mates, and to simply
+{ghear itself sing.{x
+~
+lizard~
+ABGW 0 0 0 0
+20 0 9d10+157 9d10+157 4d4+8 thwack
+0 0 0 0
+0 R L I
+stand stand either 0
+AGXc ACDEFHK tiny unknown
+D ~
+T ~
+F par QV
+#17135
+healer forest unicorn ~
+{Wa beautiful white unicorn{x~
+A beautiful {Wwhite {wunicorn stands in the dappled sunlight, looking at you.
+~
+{WIt is beautiful - its coat is the purest white as are its
+{Wlong mane.  It's tail is like a lion's, long with a stark
+{w{Wwhite tuft of long hair on its end.  It stands patiently
+{Won hooves of gold, the same color of its shining horn.  It
+{Wlooks upon you with kindness.{x
+~
+centaur~
+ABQa CDFGJLW H 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABQa N M
+stand stand none 100000
+AHMV ABCDEFJK medium unknown
+D ~
+T ~
+F aff c
+F par GHI
+M grall 17144 10~
+M grall 17145 5~
+#17136
+green forest dragon~
+{ga l{8ar{gge {Gg{gree{8n {gdra{Gg{gon{x~
+A large green dragon lets out a earsplitting roar towards {RYOU!{x
+~
+{gIts maw drips with poisonous spit that hangs in long ropes down
+{gto the ground.  Blood red eyes glare in your direction from sunken
+{gsockets.  Hornlets run down the entire length of its body from snout
+{gto tail and large clawed feet dig in the ground for traction.  Muscles
+{gripple beneath its scaled hide as it lets forth a bloodcurdling roar.{x
+~
+dragon~
+ABFT JTc 0 0 0
+45 0 8d65+1221 8d65+1221 5d11+24 wrath
+0 0 0 0
+MO LPX BEH FI
+stand stand female 5000
+AHZ ACDEFGHIJKPQUVX huge unknown
+D ~
+T ~
+M fight 17146 15~
+M fight 17147 15~
+M death 17149 10~
+M death 17150 10~
+#17137
+forest troll~
+{8a {yf{gor{8est {gt{8ro{yll{x~
+A very large troll stands here, drooling.
+~
+{yThey aren't very smart, but you can't fault them for that.
+{yThis troll stands nearly 9 feet tall.  It has a set of 
+{ybeady, but somewhat intelligent eyes that look about.  It 
+{yholds a club over its heavily muscled shoulder and drools
+{yin the way that only a troll can - constantly.{x
+~
+troll~
+AFG FJc 0 -100 0
+35 0 7d33+411 7d33+411 5d6+17 smash
+0 0 0 0
+D 0 BE HK
+stand stand either 200
+ABHMV ABCDEFGHIJKUV large unknown
+D ~
+T ~
+#17138
+bear~
+{ya big be{8a{yr{X~
+A big bear sniffs at the ground, foraging for food.
+~
+{yIt's a bear.   It's big.  Luckily it's not looking
+{yin your direction... yet.
+{x
+~
+bear~
+AGW 0 0 0 0
+30 0 12d14+307 12d14+307 5d5+12 claw
+0 0 0 0
+DEO 0 EI 0
+stand stand either 0
+AGV ABCDEFHJKUV medium unknown
+D ~
+T ~
+M death 17148 25~
+#17139
+deer buck 10 point~
+{ya buck{x~
+A ten point buck moves silently through the trees.
+~
+{yA beautiful deer, proud and strong, silent and
+{ygentle.{x
+~
+pig~
+AGW V 0 0 0
+27 0 11d13+254 11d13+254 4d5+10 pierce
+0 0 0 0
+I A N HQ
+stand stand male 0
+AGV ACDEFHJK medium unknown
+D ~
+T ~
+#17140
+badger~
+{ya {8ba{wdg{8er{x~
+A badger waddles along, rooting through the undergrowth.
+~
+Careful...
+{8Badgers are dangerous when disturbed.{x
+~
+bear~
+AGW V 0 0 0
+25 0 7d19+223 7d19+223 4d5+10 claw
+0 0 0 0
+0 AI IQ S
+stand stand either 0
+AGV ABCDEFHJKUV small unknown
+D ~
+T ~
+F off DEO
+F res E
+#17141
+puma~
+{ya p{wu{8m{ya{x~
+A puma stalks silently through the woods.
+~
+{yMountain lion, puma, cougar - all are the same and
+{yit's right here in this sleek, strong, and lithe
+{yanimal.{x
+~
+cat~
+AG Z 0 0 0
+29 0 7d24+289 7d24+289 4d6+11 claw
+0 0 0 0
+FH AB 0 0
+stand stand either 0
+AGV ACDEFHJKQUV medium unknown
+D ~
+T ~
+#17142
+giant beetle~
+{8a giant beetle{x~
+A giant beetle lumbers along, gliding under the ferns.
+~
+{8It is the size of a dog with a set of massive
+{8pinchers on its head.  Its carapace is shiny
+{8and black, as are its six long legs.{x
+~
+bat~
+AG TZ 0 0 0
+24 0 6d21+208 6d21+208 4d5+10 bite
+0 0 0 0
+U AB E S
+stand stand either 0
+AGV ACDEFHJKP small unknown
+D ~
+T ~
+F off FH
+#17143
+wolf~
+{8a {wwol{8f{x~
+A wolf pads through the trees at a trot, looking for an easy meal.
+~
+{8Lean {wand lanky, this wolf is a member of a highly
+{8organized {wpack.  It's eyes are a deep shade of amber,
+{8and {wits coat is heavy and thick.{x
+~
+wolf~
+AG Z 0 0 0
+28 0 7d23+271 7d23+271 4d6+11 none
+0 0 0 0
+FHU AB I H
+stand stand either 0
+AGV ACDEFJKQV medium unknown
+D ~
+T ~
+#17144
+snake~
+{ya {gsna{8k{ge{x~
+A snake slithers along beneath the cover of fallen leaves.
+~
+{gYep.  It is, in fact, a long tube of muscle
+{gand bone, covered in scales with a brain and
+{gbeating heart and one wicked toxic bite.{x
+~
+snake~
+AG Q 0 0 0
+23 0 10d11+194 10d11+194 4d5+9 bite
+0 0 0 0
+H A L I
+stand stand either 0
+AGXYc ADEFKLQVX small unknown
+D ~
+T ~
+#17145
+squirrel~
+{ya squirrel{x~
+A squirrel sits high in the tree, flicking its tail as it nibbles an acorn.
+~
+{yFluffy tail, tiny hands, and a penchant for climbing -
+{yit's a squirrel through and through.  Might even be tasty.{x
+~
+fox~
+AG Z 0 0 0
+21 0 9d11+168 9d11+168 4d4+8 bite
+0 0 0 0
+FH A B 0
+stand stand either 0
+AGV ACDEFHJKQ small unknown
+D ~
+T ~
+F par V
+#17146
+kobold~
+{ga {wk{8o{gb{wo{gl{wd{x~
+A kobold moves through the trees holding a spear and shield in hand.
+~
+{gReptilian in appearance, this humanoid obviously contains some
+{gintelligence.  Its eyes shift, constantly on the look for game
+{gor intruders.  It is dressed in light armor and holds a long
+{gspear and a slightly rusted shield.{x
+~
+kobold~
+AFG J 0 -200 0
+26 0 6d24+238 6d24+238 4d5+10 beating
+0 0 0 0
+EU AB L C
+stand stand either 500
+ABHMV ABCDEFGHIJKQ medium unknown
+D ~
+T ~
+#17147
+birds~
+{ga {Wb{Ri{Mr{Bd{x~
+A beautiful songbird sits up in the tree, singing a chirping tune.
+~
+{gThey come in every color and sing as though the
+{gentire world needs to hear what they are saying.
+{gThese little birds are beautiful.{x
+~
+song bird~
+AG T 0 0 0
+22 0 3d39+181 3d39+181 4d5+9 peck
+0 0 0 0
+FH A MT 0
+stand stand either 0
+AGW ACDEFHKP tiny unknown
+D ~
+T ~
+#17148
+small child girl~
+{ma small {Mgirl{x~
+A small girl runs along bursting with laughter.
+~
+{MOne of many of the village children that run about
+{Mfrom hillside to hillside with complete and utter
+{Mfreedom.{x
+~
+human~
+AG V 0 0 0
+58 0 15d18+534 15d18+534 5d7+16 slap
+-1 -1 -1 -1
+I AB IT Q
+stand stand female 1320
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17149
+small boy~
+{ca small {Bboy{x~
+A small boy runs along picking his nose.
+~
+{cOne of the young villagers that call this tiny place
+{chome.  He seems happy, healthy, and absolutely carefree.{x
+~
+human~
+AG V 0 200 0
+60 0 7d44+589 7d44+589 5d7+17 punch
+-1 -1 -1 -1
+I AB I Q
+stand stand male 1386
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17150
+tall villager male man~
+{ca tall villager{x~
+A tall villager sits by the stove, tending to his cooking.
+~
+{cThis man is tall, lanky, and his skin is a deep bronze.
+{cHe sits by his stove, intently stirring the pot, shirtless,
+{cbut wearing a pair of leather breeches.  His skin bears
+{ctribal tatoos and scars.{x
+~
+human~
+ABG 0 0 0 0
+61 0 14d21+623 14d21+623 5d7+17 beating
+-1 -1 -1 -1
+EK AB I LQ
+sit sit male 1419
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17151
+short villager woman female~
+{Wa short villager{x~
+A short villager sits on the floor grinding corn meal.
+~
+{WA village woman sits on the floor, topless and a 
+{Wbeautiful copper color, grinding corn meal for
+{Wcorn cakes.{x
+~
+human~
+ABG 0 0 0 0
+62 0 17d17+658 17d17+658 5d8+17 beating
+-1 -1 -1 -1
+EK AB I LQ
+sit sit female 1500
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17152
+hefty villager man male~
+{Ba hefty villager{x~
+A hefty villager lays in a hammock sleeping.
+~
+{BA rather big guy and rather important too, this
+{Bvillager spends his days as a politician among
+{Bthe people of his village.  During his off time
+{Bhe catches what sleep he can.{x
+~
+human~
+ABG d H 0 0
+63 0 5d65+687 5d65+687 5d8+18 beating
+-1 -1 -1 -1
+O AB I LQ
+sleep sleep male 2000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17153
+beautiful villager woman~
+{ga beautiful villager{x~
+A beautiful villager sits here, humming as she shucks corn.
+~
+{gShe is a glorious vision of beauty.  Long brown hair,
+{gcopper skin, slender waist, and bare breasts.  She sits
+{ghumming a tune as she shucks her corn for meal.{x
+~
+human~
+ABG 0 0 0 0
+59 0 13d22+561 13d22+561 5d7+16 slap
+-1 -1 -1 -1
+N AB I LQ
+stand stand female 1353
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17154
+village chief man male~
+{gthe {GVillage Chief{x~
+The Village Chief sits in a raised chair, his face pensive.
+~
+{gThis man is it.  Upon his head is a large head dress full of
+{gfeathers from forest birds.  Furs adorn his body, but leave 
+{ghis heavily muscled chest exposed.  His skin is of a deep 
+{gcopper and his brown eyes are highly expressive.{x
+~
+human~
+ABG DFJLV 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 beating
+-4 -4 -4 -4
+0 ABLQa IP 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M give 17189 17171~
+M speech 17155 disk~
+M grall 17151 100~
+M speech 17152 saddened~
+M speech 17153 tools~
+M speech 17154 exotic~
+M speech 17156 yes~
+M speech 17157 no~
+M speech 17158 have~
+#17155
+Darymus Tanner satyr man male~
+{gDa{Gr{gymus Tan{Gn{ger{x~
+A satyr sits on a stool, sewing together pelts as he creates a bag.
+~
+{gDa{Gr{gymus Tan{Gn{ger sits here concocting his latest creation.
+{gHe is covered in thick hair on his legs which trail down
+{gto a pair of cloven hooves.  He harbors a short tail, and
+{gupon his head, in the midst of his tangle of black hair,
+{gsits a pair of curved horns.  His eyes are bright yellow
+{gand oval in shape.  He smiles warmly at all who enter his
+{ghome.{x
+~
+satyr~
+ABG CDFG 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 charge
+-4 -4 -4 -4
+0 ABLQa EHLM INS
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M speech 17163 pack~
+M speech 17163 armors~
+M speech 17164 rat~
+M speech 17165 deer~
+M speech 17166 rabbit~
+M speech 17167 bear~
+M give 17169 17196~
+M speech 17170 make~
+M give 17171 17161~
+M give 17172 17170~
+M give 17173 17172~
+M give 17174 17173~
+M grall 17162 100~
+#17156
+hembolo~
+{MH{8em{Mb{8olo{w, the gem cutter{x~
+A thin villager stands here, head bowed deeply.
+~
+{MH{8em{Mb{8olo {wis a thin waif of a man.  His eyes bulge and
+{whis back is bent, testament to his many years bent
+{wa cutting wheel.  He keeps his head bowed in reverence
+{wto his chief.{x
+~
+human~
+ABG 0 0 0 0
+101 0 22d59+6184 22d59+6184 5d20+40 none
+-4 -4 -4 -4
+0 ABLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M give 17159 17171~
+M give 17160 17165~
+M speech 17161 return~
+#17157
+fox~
+{ra f{wo{8x{x~
+A fox slips silently through the grasses beside the path.
+~
+{rA pretty red fox - it has a long bushy tail and very
+{rthin legs and a very intelligent face.{x
+~
+fox~
+AGW Z 0 0 0
+17 0 7d11+125 7d11+125 4d4+7 bite
+0 0 0 0
+FH AB 0 0
+stand stand either 0
+AGV ACDEFHJKQV medium unknown
+D ~
+T ~
+#17160
+guildmaster wizard mage woman~
+Your {BGu{bil{Cdma{bst{Ber{x~
+The {BGu{bil{Cdma{bst{Ber{w sits behind a desk, overseeing her guild.
+~
+{BT{bhe {BGu{bil{Cdma{bst{Ber {bsits behind a desk, her bright blue
+{beyes staring out over the guild, sensing and seeing
+{beverything.  Her fingers are long and thin, as is her
+{bwhole body, which is wrapped in a deep blue robe offset
+{bwith white runes.  Her hair is black with a shock of 
+{bwhite and hangs over her shoulders.{x
+~
+human~
+ABJKb 0 0 0 0
+101 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+EFJ ABQa 0 0
+sit sit female 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17162
+guildmaster vampire lich man male~
+Your {RGu{ril{8dma{rst{Rer{x~
+{*The {RGu{ril{*dma{rst{Rer{* sits in the center of the room, perfectly still.{x
+~
+{rHe is dressed in a long, blood-red robe, its cowl pulled up to
+{rcover his face.  Only his chin seems to peek out, stark white 
+{rand scarred.  Nebulous hands creep from the sleeves of his robe,
+{rclasped together before him, donned with spider rings.  A glow
+{remanates from beneath the cowl, a blood-red glow, the only 
+{rindication that the eyes beneath it are filled with murder and
+{rknowing.{x
+~
+human~
+ABJKb 0 0 0 0
+101 0 1d1+999 1d1+99 1d8+20 beating
+-15 -15 -15 -15
+EFJ ABa 0 0
+sit sit male 100000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M random 17113 1~
+#17163
+makincopiesofbunnies_baby~
+makincopiesofbunnies_baby, imp invis, level 104~
+Makincopiesofbunnies_baby, imp invis, level 104
+~
+Making babies... awwww yeah.
+~
+human~
+A 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 17190 99~
+#17164
+makincopiesofbunnies_juve~
+makincopiesofbunnies_juve, imp invis, level 104~
+Makincopiesofbunnies_juve, imp invis, level 104
+~
+Making Juvi bunnies
+~
+human~
+A 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 17191 99~
+#17165
+makincopiesofbunnies_regular~
+makincopiesofbunnies_regular, imp invis, level 104~
+Makincopiesofbunnies_regular, imp invis, level 104
+~
+Making regular bunnies.
+~
+human~
+A 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 17192 99~
+#17166
+makincopiesofbunnies_large~
+makincopiesofbunnies_large, imp invis, level 104~
+Makincopiesofbunnies_large, imp invis, level 104
+~
+Makin' large bunnies.
+~
+human~
+A 0 P 0 0
+104 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M random 17193 99~
+#17167
+worthless scheming lying bum~
+{wa {ywo{wr{rt{whl{yess, {gs{rc{yhem{wing{y, ly{Ri{wn{yg b{8u{ym{x~
+A bum begs for money here...
+~
+{8Hmmm... at least he "looks" like a bum, but looks
+{8can be deceiving.  He has a very nice haircut and
+{8a pretty solid shave for being a beggar... not to
+{8mention a brand new pair of shoes.{x
+~
+human~
+AGH 0 0 0 0
+5 0 1d5+8 1d5+8 1d3+0 slap
+1 1 1 1
+0 AB 0 0
+stand stand male 2000
+AHMV ABCDEFGHIJK medium unknown
+D {wsays, '{8No!  I'll never fly my airship again!'~
+T ~
+M greet 17194 100~
+M bribe 17195 1~
+#17197
+large zombie rat~
+a {8di{ys{ge{8a{yse{8d {rzo{8mb{rie {yr{8a{yt{x~
+A {8di{ys{ge{8a{yse{8d {rzo{8mb{rie {yr{8a{yt{w walks along here, hissing continually.
+~
+{RRed{8 eyes peer out of a rat body that is more like a carcass.
+{8It's fur hangs off in mange-ridden tatters and the bones of its
+{8tail are clearly visible.  It hisses continually and roves about,
+{8looking for something... or someone... to eat.{x
+~
+fox~
+ACGO KXZ O -201 0
+2 0 2d2+12 2d2+12 1d3+1 bite
+0 0 0 0
+FH ABPQ 0 FKNRY
+stand stand either 66
+AGV ACDEFHJKQV medium unknown
+D {wscreeches out its last breath.{x~
+T ~
+#17198
+large rat~
+a very large {8r{ya{8t{x~
+A very large rat sits here, gnawing on a leather strap.
+~
+{8It stinks and looks around with beady black eyes.  This rat
+{8continually gnaws on leather pieces from the packs being
+{8assembled in the factory.{x
+~
+fox~
+ACGH XZ 0 0 0
+1 0 1d5+8 1d5+8 1d3+0 bite
+1 1 1 1
+FH ABQ 0 IJR
+stand stand either 33
+AGV ACDEFHJKQV medium unknown
+D Screeches out its last breath before keeling over - {RDEAD!{x~
+T ~
+M death 17100 100~
+#17199
+secretary woman lady receptionist human~
+Janet, the receptionist~
+A secretary sits at her desk busily working on files.
+~
+{x
+Janet is a slender blonde with a perky smile and a curvy
+figure.  Her gray eyes sparkle with an intensity as she
+goes about her job - doing it the best she can and the
+best she knows how.
+~
+human~
+ABG 0 0 0 0
+10 0 5d8+67 5d8+67 2d5+4 none
+0 0 0 0
+0 ABCDa 0 0
+sit sit female 0
+H ABCEFH medium unknown
+D ~
+T ~
+F for AMV
+F par DGIJK
+M give 17107 17196~
+M speech 17106 no~
+M speech 17105 yes~
+M speech 17104 work~
+M speech 17103 infestation~
+M speech 17102 terrible~
+M greet 17101 100~
+#0
+
+
+
+#OBJECTS
+#17100
+rat basher gold coin piece~
+a {Ygold {wpiece{x~
+A small {Ygold {wcoin lays here.{x~
+unknown~
+money 0 A
+100 0 0 0 0
+0 0 100 P
+L Someone battled a rat for this awesome slug!~
+#17101
+table~
+a {ywooden table{x~
+Several wooden tables sit here, surrounded by chairs.~
+wood~
+furniture 0 0
+30 1000000 BDGJ 0 0
+0 3000 0 P
+E
+carving~
+{x
+{r                .-"""-.    .-"""-.
+{r               /       `..'       \
+{r        _     |                    |
+{r     .-' /    |       T I M        |    /////
+{r    <   <======\        &         /====<<<<<
+{r     '-._\      \  N I C O L E   /      \\\\\
+{r                 `\            /'
+{r              jgs  `\        /'
+{r                     `\    /'
+{r                       `\/'{x
+~
+#17102
+bottle beer tulls light~
+a bottle of {W[{GT{Rulls{W] <{YLight{W> {ybeer{x~
+A bottle of beer sits here, still cold to the touch.~
+none~
+drink 0 AO
+6 6 'beer' 0 0
+1 2 30 P
+L Looks like a bottle of microbrewed light-beer.  Probably tastes like piss water.~
+#17103
+bottle ale tulls amber~
+a bottle of {W[{GT{Rulls{W] <{YAmber{W> {yale{x~
+A bottle of ale sits here, still cold to the touch.~
+unknown~
+drink 0 AO
+6 6 'ale' 0 0
+1 0 50 P
+L Looks like a bottle of microbrewed ale.~
+#17104
+bottle dark ale tulls~
+a bottle of {W[{GT{Rulls{W] <{YDark{W> {yale{x~
+A bottle of ale sits here, still cold to the touch.~
+wood~
+drink 0 AO
+6 6 'dark ale' 0 0
+1 2 60 P
+L Looks like a bottle of microbrewed dark ale.~
+#17105
+bowl peanuts~
+a {Yb{yow{Yl {wof {ypea{8n{yuts{x~
+A bowl of peanuts, still in the shell, sits here.~
+none~
+food 0 AO
+-1 4 0 0 0
+1 0 20 P
+L It's a bowl of peanuts... what did you expect?~
+#17106
+bottle special tulls brew~
+a bottle of {W[{GT{Rulls{W] <{YSpecial{W> {yBrew{x~
+A bottle of special brew sits here, still cold to the touch.~
+unknown~
+drink 0 AO
+6 6 'JD' 0 0
+1 0 0 P
+L It has a very strange smell to it... almost like... rat shit...~
+#17107
+black bandanna heroism~
+{wa {8ban{wda{8nna {wof {wh{8e{Wr{wo{Wi{8s{wm{x~
+A long black bandanna lies here steadily moving from the gentle breeze.~
+unknown~
+armor 0 AE
+7 7 7 3 0
+15 10 800 P
+A
+5 2
+A
+1 1
+#17108
+pair odd glasses horn~
+{wa pair of {*horn-rimmed {wglasses{x~
+An odd pair of glasses has been left here.~
+unknown~
+trash A AR
+0 0 0 0 0
+5 0 270 P
+A
+4 1
+A
+3 1
+#17109
+ornate brooch~
+{wan {Mor{mna{rte {mbr{Moo{wch{x~
+An ornate brooch was carelessly left here.~
+unknown~
+jewelry 0 AC
+0 0 0 0 0
+13 1 1140 P
+A
+4 1
+A
+3 1
+#17110
+lightweight shirt~
+{wa {yligh{Wtwe{yight {wshirt{x~
+A thin shirt lies here in a heap.~
+unknown~
+trash 0 AD
+0 0 0 0 0
+16 0 250 P
+A
+3 1
+A
+4 1
+#17111
+translucent robe~
+{8a {wtran{Wslu{wcent {8robe{x~
+A semi-transparent robe lies on the floor.~
+unknown~
+armor I AK
+5 5 5 0 0
+11 0 2000 P
+A
+13 10
+F
+A 5 1 U
+#17112
+Deil bright beaded bracelet~
+a sh{Wi{wny {bb{ge{ya{rd{me{cd {xbracelet~
+A nice and shiny bracelet emits a colorful glow.~
+unknown~
+trash GN AM
+0 0 0 0 0
+10 0 1200 P
+A
+5 1
+A
+1 1
+#17113
+fountain lathander rose~
+{wa {Mrose-colored {wfountain of {RLa{Yt{wh{Wa{wn{Yd{Rer{x~
+A {Mrose-colored{w marble fountain gurgles quietly here.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+0 0 0 P
+#17114
+benches~
+{wa {Wma{8r{wb{Wle {wbench{x~
+Several {Wma{8r{wb{Wle {wbenches lining the perimeter of the fountain are here.~
+unknown~
+furniture 0 0
+100 1000000 BEHK 100 100
+0 0 0 P
+#17115
+A Pair of Cotton Gloves~
+{8a {wpair of {Wcotton {wgloves{x~
+A pair of cotton gloves are scrumpled in the corner.~
+unknown~
+armor 0 AH
+5 5 5 5 0
+10 25 250 P
+A
+3 3
+#17116
+ring earth~
+{8the {Ge{gart{Gh {8ring{x~
+A dark ring which seems to absorb all the light around it lies here.~
+unknown~
+trash I AB
+0 0 0 0 0
+13 50 1140 P
+A
+4 1
+A
+3 1
+#17117
+tiny shoes~
+{wa {Mc{Yh{Wi{Ml{Yd{W's {wtiny {8sh{wo{*es{x~
+A pair of tiny little shoes fit for a child is lying here with untied laces.~
+unknown~
+armor 0 AG
+8 8 8 8 0
+15 15 1200 P
+A
+2 2
+#17118
+fire opal gem~
+{Wa {rFire{w o{Wp{wa{Wl{x~
+A vibrantly colored gem emits a glow from inside the wall.~
+unknown~
+light A A
+0 0 999 0 0
+10 1 1000 P
+A
+18 1
+A
+4 1
+A
+19 2
+A
+3 1
+#17119
+shield island~
+{8an {CIs{Bla{Cnd {wsh{Wie{wld{x~
+An Island Shield has been dropped here.~
+unknown~
+armor G AJ
+6 6 6 1 5
+15 100 2000 G
+E
+shield island~
+You see an Island Shield.  Imprinted on the side is: Gapcio Industries
+~
+#17120
+longsword sword keen-edged~
+{8a {Wke{wen{8-e{wdg{Wed {8lon{Rgs{8word{x~
+A longsword with a razor edge about it lies here on the ground.~
+unknown~
+weapon 0 AN
+sword 5 7 slash 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17121
+jagged knife~
+{8a {Wj{wa{8gg{we{Wd {8knife~
+A knife with a jagged edge has been discarded.~
+unknown~
+weapon 0 AN
+dagger 5 7 stab 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17122
+razor sharp axe small~
+{8a {Wra{wzo{8r s{wha{Wrp {8axe{x~
+A small axe with a keen edge lies here.~
+unknown~
+weapon 0 AN
+axe 5 7 cleave 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17123
+spiked flail~
+{8a {Rs{wp{Wi{Rk{we{Wd {8flail{x~
+A flail lies here, its spikes gleaming in the light.~
+unknown~
+weapon 0 AN
+flail 5 7 smash 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17124
+wicked looking mace~
+{8a {Rwi{rck{we{8d-lo{wo{rki{Rng {8mace{x~
+A wicked-looking mace sits on the ground.~
+unknown~
+weapon 0 AN
+mace 5 7 crush 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17125
+trees tall~
+{ya tall {Gt{gre{Ge{x~
+Tall {Gt{gre{Ges {wline the entirety of the square, swaying in the gentle breeze.~
+unknown~
+furniture 0 0
+20 50000 FIL 0 0
+1 0 0 P
+#17126
+thin wooden staff long~
+{8a {wthin {ywooden {8staff{x~
+A long, thin piece of wood lies on the ground here.~
+unknown~
+weapon 0 AN
+polearm 5 7 thrust 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17127
+barbed whip coiled~
+{8a {rbarbed {8whip{x~
+A coiled whip has been discarded here.~
+unknown~
+weapon 0 AN
+whip 5 7 sting 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17128
+chrome knuckles~
+{Wch{wro{8m{we k{Wnu{wck{8l{wes{x~
+A pair of chrome knuckles have been dropped here.~
+unknown~
+weapon 0 AN
+exotic 5 7 beating 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17129
+silver tipped spear~
+{8a {Wsi{wlv{Wer{8-{Wti{wpp{Wed {8spear~
+A long spear with a silver tip lies on the ground.~
+unknown~
+weapon 0 AN
+staff 5 7 pierce 0
+15 40 1800 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 2
+#17130
+brass dragon lantern~
+a {ybra{wss {yd{wra{Wgon {ylant{wern{x~
+A highly-polished dragon-shaped lantern sits here, casting a bright glow.~
+brass~
+light A A
+0 0 999 0 0
+10 1 1100 P
+A
+3 1
+A
+19 2
+A
+4 1
+A
+18 1
+#17131
+silver wasp lantern machanical~
+a {8si{wlv{Wer wa{wsp {8l{wa{Wnte{wr{8n{x~
+A lantern shaped like a wasp hovers here, shedding its light.~
+silver~
+light A A
+0 0 999 0 0
+10 1 1250 P
+A
+18 1
+A
+4 1
+A
+19 2
+A
+3 1
+L This lantern is mechanized!~
+#17132
+gold eagle lamp lantern~
+a {Ygo{Wld{wen {Yea{Wgle {Ylan{Wte{wrn{x~
+A lamp in the shape of an eagle's head glows brightly here.~
+gold~
+light A A
+0 0 999 0 0
+10 1 1500 P
+A
+3 1
+A
+19 2
+A
+4 1
+A
+18 1
+L It is in the shape of an eagle's head with light that pours from its beak.~
+#17133
+lute~
+a {yla{wcq{Wue{Yred{w 9-string lute{x~
+A beautifully crafted 9-string lute lays on the ground.~
+wood~
+armor B Ab
+1 1 1 1 0
+15 4 2000 P
+A
+2 1
+E
+lute~
+This gorgeous instrument is obviously crafted with pride.  It is
+made from oak and poplar, lacquered to an intense shine, and its
+sound resonates true and clear.
+~
+L Inside the body of the lute can be seen a small insignia, "Proudly made by {MD{Gr{Ye{Wz{Cf{Ri{Wn {GB{Yi{Cm{Wb{Rl{Ye{Mb{Ru{Cs{Ws{x"~
+#17134
+tambor drum~
+{wa {ydeer hide{w and {rredwood {wtambor{x~
+A small-round drum lays here, forgotten.~
+wood~
+armor B Ab
+1 1 1 1 0
+15 10 3000 P
+A
+5 1
+E
+tambor~
+This tambor is made from the finest Myth-Drannor deer hide,
+stretched over a deep redwood frame.  When played, it resonates
+with a medium pitch - perfect for long marches.
+~
+L A very nice drum, solidly built by {MD{Gr{Ye{Wz{Cf{Ri{Wn {GB{Yi{Cm{Wb{Rl{Ye{Mb{Ru{Cs{Ws{w's gifted hands.~
+#17135
+kortholt recorder~
+a six-hole {ykort{8holt{x~
+A beautiful kortholt lays here on the ground, forgotten.~
+wood~
+armor B Ab
+1 1 1 1 0
+15 5 4000 P
+A
+3 1
+E
+kortholt~
+Such time and effort went into the making of this kortholt.
+Similar to a recorder, this instrument has 6 holes and is
+played with the air of your lungs flowing over an internal
+reeded system.  It shines with the heavy coat of lacquer,
+and sounds like a buzzing dream.
+~
+L A beautiful kortholt recorder, made by {MD{Gr{Ye{Wz{Cf{Ri{Wn {GB{Yi{Cm{Wb{Rl{Ye{Mb{Ru{Cs{Ws{x.~
+#17136
+ritual shofar horn~
+a {8ri{wtu{Wal sh{wof{8ar {winlaid with {Wsi{wlv{Wer{x~
+A long horn inlaid with silver pieces lays on the ground, forgotten.~
+horn~
+armor B Ab
+0 0 0 0 0
+16 10 50000 P
+A
+12 5
+A
+13 5
+A
+4 1
+E
+shofar~
+It is unknown exactly what species this horn comes from, but it
+is nearly one and a half feet long and black as night.  A silver
+mouthpiece sits on one end, while the larger side is tipped in
+silver around its edges.  All along the slightly curved surface
+is a pastoral hunting scene, carved and inlaid in pure, glistening
+silver.
+~
+L It appears to be crafted by {MD{Gr{Ye{Wz{Cf{Ri{Wn {GB{Yi{Cm{Wb{Rl{Ye{Mb{Ru{Cs{Ws{x using monster horn and silver...~
+#17137
+sign~
+a street sign~
+A street sign hangs on the lamp post.  {W[{YREAD SIGN{W]{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+To the north is Guild Hall.  Within its walls, you may practice
+your skills, or train your stats.  Type {Y'help stats' {xto see
+what each stat does.  More information is available within the 
+Guild Hall itself.
+~
+#17138
+sign~
+a floating sign~
+A large sign floats in midair.  {W[{YREAD SIGN{W]{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+{CW{celcome to {CG{cuild {CH{call!
+{x
+{YH{yere you will begin your journey in the realms by obtaining
+{ythe training and skills necessary to become a fearsome and
+{yworthy opponent.
+{x
+{YT{yhe following help files will enable you to better understand
+{ywhat things you can do with your practices and trains.  It is
+{yencouraged that you take a moment to look through them in order
+{yto better understand how to maximize your time and reap the
+{ygreatest benefit.{x
+{x
+{GH{gelp {GS{gtats   {w(Explains the stats and how they affect you.)
+{GH{gelp {GT{grain   {w(Explains what and how you can train your stats.)
+{GH{gelp {GG{gain    {w(Explains how you can exchange your practices for
+{w              trains and vice versa.)
+~
+#17139
+map kiosk directions~
+a map~
+A map sits here in an information kiosk.  {W[{YLOOK KIOSK{W]{x~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+kiosk~
+{y                   MAIN FLOOR                               UP                                  DOWN
+{x
+{C                         g {w<--- {WCleric/Priest Guild
+{r                         | 
+{BMage/Wizard Guild {w---> {Cg{r-{C#{r-{Cg {w<--- {GDruid/Sage Guild          {Cg {w<--- {RVampire/Lich Guild            {Cg {w<--- {YM{8onk Guild
+{r                         |                
+{CT{8hief/Merc Guild {w--->  {Cg{r-{RX{r-{Cg {w<--- {GRanger/Strider Guild      {Cg {w<--- {YWarrior/Gladiator Guild
+{x
+{x
+{R                     X {w= YOU ARE HERE.
+{x
+{MEast:    {GR{ganger/Strider Guild
+{mWest:    {CT{8hief/Mercenary Guild
+{YUp:      W{yarrior/Gladiator Guild
+{y 
+{RNorth:   {rTo other guilds.{x
+~
+E
+map~
+{y                   MAIN FLOOR                               UP                                  DOWN
+{x
+{C                         g {w<--- {WCleric/Priest Guild
+{r                         | 
+{BMage/Wizard Guild {w---> {Cg{r-{C#{r-{Cg {w<--- {GDruid/Sage Guild          {Cg {w<--- {RVampire/Lich Guild            {Cg {w<--- {YM{8onk Guild
+{r                         |                
+{CT{8hief/Merc Guild {w--->  {Cg{r-{RX{r-{Cg {w<--- {GRanger/Strider Guild      {Cg {w<--- {YWarrior/Gladiator Guild
+{x
+{x
+{R                     X {w= YOU ARE HERE.
+{x
+{MEast:    {GR{ganger/Strider Guild
+{mWest:    {CT{8hief/Mercenary Guild
+{YUp:      W{yarrior/Gladiator Guild
+{y 
+{RNorth:   {rTo other guilds.{x
+~
+E
+directory~
+{y                   MAIN FLOOR                               UP                                  DOWN
+{x
+{C                         g {w<--- {WCleric/Priest Guild
+{r                         | 
+{BMage/Wizard Guild {w---> {Cg{r-{C#{r-{Cg {w<--- {GDruid/Sage Guild          {Cg {w<--- {RVampire/Lich Guild            {Cg {w<--- {YM{8onk Guild
+{r                         |                
+{CT{8hief/Merc Guild {w--->  {Cg{r-{RX{r-{Cg {w<--- {GRanger/Strider Guild      {Cg {w<--- {YWarrior/Gladiator Guild
+{x
+{x
+{R                     X {w= YOU ARE HERE.
+{x
+{MEast:    {GR{ganger/Strider Guild
+{mWest:    {CT{8hief/Mercenary Guild
+{YUp:      W{yarrior/Gladiator Guild
+{y 
+{RNorth:   {rTo other guilds.{x
+~
+#17140
+map kiosk directions~
+a map~
+A map sits here in an information kiosk.  {W[{YLOOK KIOSK{W]{x~
+unknown~
+trash A 0
+0 0 0 0 0
+0 0 0 P
+E
+map~
+{x
+{y                   MAIN FLOOR                               UP                                  DOWN
+{x
+{C                         g {w<--- {WCleric/Priest Guild
+{r                         | 
+{BMage/Wizard Guild {w---> {Cg{r-{RX{r-{Cg {w<--- {GDruid/Sage Guild          {Cg {w<--- {RVampire/Lich Guild            {Cg {w<--- {YM{8onk Guild
+{r                         |                
+{CT{8hief/Merc Guild {w--->  {Cg{r-{C#{r-{Cg {w<--- {GRanger/Strider Guild      {Cg {w<--- {YWarrior/Gladiator Guild
+{x
+{x
+{R                     X {w= YOU ARE HERE.
+{x
+{MEast:    {GD{gruid/Sage Guild
+{mWest:    {MM{mage/Wizard Guild
+{YUp:      {RV{rampire/Lich Guild
+{yDown:    {YM{8onk Guild
+{RNorth:   {WC{wleric/Priest Guild
+{x
+{rSouth:   To other guilds.{x
+~
+E
+kiosk~
+{x
+{y                   MAIN FLOOR                               UP                                  DOWN
+{x
+{C                         g {w<--- {WCleric/Priest Guild
+{r                         | 
+{BMage/Wizard Guild {w---> {Cg{r-{RX{r-{Cg {w<--- {GDruid/Sage Guild          {Cg {w<--- {RVampire/Lich Guild            {Cg {w<--- {YM{8onk Guild
+{r                         |                
+{CT{8hief/Merc Guild {w--->  {Cg{r-{C#{r-{Cg {w<--- {GRanger/Strider Guild      {Cg {w<--- {YWarrior/Gladiator Guild
+{x
+{x
+{R                     X {w= YOU ARE HERE.
+{x
+{MEast:    {GD{gruid/Sage Guild
+{mWest:    {MM{mage/Wizard Guild
+{YUp:      {RV{rampire/Lich Guild
+{yDown:    {YM{8onk Guild
+{RNorth:   {WC{wleric/Priest Guild
+{x
+{rSouth:   To other guilds.{x
+~
+E
+directory~
+{x
+{y                   MAIN FLOOR                               UP                                  DOWN
+{x
+{C                         g {w<--- {WCleric/Priest Guild
+{r                         | 
+{BMage/Wizard Guild {w---> {Cg{r-{RX{r-{Cg {w<--- {GDruid/Sage Guild          {Cg {w<--- {RVampire/Lich Guild            {Cg {w<--- {YM{8onk Guild
+{r                         |                
+{CT{8hief/Merc Guild {w--->  {Cg{r-{C#{r-{Cg {w<--- {GRanger/Strider Guild      {Cg {w<--- {YWarrior/Gladiator Guild
+{x
+{x
+{R                     X {w= YOU ARE HERE.
+{x
+{MEast:    {GD{gruid/Sage Guild
+{mWest:    {MM{mage/Wizard Guild
+{YUp:      {RV{rampire/Lich Guild
+{yDown:    {YM{8onk Guild
+{RNorth:   {WC{wleric/Priest Guild
+{x
+{rSouth:   To other guilds.{x
+~
+#17141
+pillows cushions silk~
+{Ca {8pile of {-s{-i{-l{-k {-c{-u{-s{-h{-i{-o{-n{-s{x~
+{8A myriad of {-s{-i{-l{-k {F{-c{-u{-s{-h{-i{-o{-n{-s{8 sits along the floor.{x~
+fabric~
+furniture 0 0
+30 1000000 BEHK 0 0
+0 0 0 P
+#17142
+roleplay school sign rpt~
+a sign~
+A sign is on the wall. [exa sign]~
+unknown~
+trash 0 P
+0 0 0 0 0
+1 0 0 P
+E
+teachers~
+{x
+<<------------------------------------->>
+  |                                   |
+  |            The Teachers           |
+  |             ----------            |
+  |                                   |
+  | Each teacher is  listed here with |
+  | "specialty" subjects. However, do |
+  | not think that you can't ask them |
+  | questions outside of their listed |
+  | subjects; each will gladly accept |
+  | any questions you have.           |
+  |                                   |
+  | Eleni                             |
+  | - Description Writing             |
+  | - Keeping it Real                 |
+  |                                   |
+  | Icehawk                           |
+  | - Avoiding Perfection             |
+  | - Roleplay Writing                |
+  |                                   |
+  | Liliandra                         |
+  | - Do's and Don'ts of RP           |
+  |                                   |
+  | Robledo                           |
+  | - Character Creation & Development|
+  |                                   |
+  | Ronin                             |
+  | - Socials, Emotes, and Pmotes     |
+  |                                   |
+<<------------------------------------->>
+~
+E
+sign~
+{x
+<<------------------------------------->>
+  |                                   |
+  |        School of RolePlay         |
+  |         ----------------          |
+  |                                   |
+  | Classes are run by RPTs (RolePlay |
+  | Teachers). They are identified by |
+  | a blue {CT{x in who.  They are always |
+  | available to answer questions you |
+  | may have about RP on Waterdeep or |
+  | RP in general. To find them, type |
+  | "{Ywho rpt{x" at any time.            |
+  |                                   |
+  | Classes are held at various times |
+  | depending on availability.  Watch |
+  | the RoleNews board for posting on |
+  | upcoming classes.  If you want to |
+  | request a class, contact an RPT.  |
+  |                                   |
+  | To see a list of teachers,  type: |
+  | "{Yexa teachers{x."                   |
+  |                                   |
+<<------------------------------------->>
+~
+#17143
+A Book on Shou Life~
+a book on Shou life~
+A thick book on the life of the Shou.~
+unknown~
+treasure 0 AO
+0 0 0 0 0
+15 3 4000 P
+A
+4 2
+#17144
+newbie potion enhanced vision dull grey liquid~
+a {Cpotion {xof {cenh{8a{cnc{8e{cd {Wvision{x~
+A {Cpotion {xlies here, gurgling with a {cdull {8grey {xliquid.~
+glass~
+potion G AO
+5 'detect invis' 'detect hidden' 'farsight' ''
+5 20 150 P
+E
+potion enhanced vision dull grey liquid~
+The label of the "{Cpotion {xof {cenh{8a{cnc{8e{cd {Wvision{x" bears the following inscription:
+{x
+To use this potion, type {Cquaff <potion name>{x
+For example: quaff enhanced
+You can also type: quaff 'potion enhanced vision'
+~
+L A special potion brewed up by Helga the Witch, this potion gives the quaffer enhanced vision, but not for very long.~
+#17145
+newbie scroll identify object spell~
+a {yscroll {xof the {Cspell{x: {Widentify object{x~
+A {yscroll {xlies here, careless discarded.~
+vellum~
+scroll G AO
+5 'identify' '' '' ''
+5 15 100 P
+E
+newbie scroll identify spell~
+On the outside of "the scroll of identify spell" is written the following:
+{x
+To use, type {Crecite <scroll name> <object target>{x
+For example: recite identify bracelet
+~
+L This scroll bears a spell that was jotted down by Helga the Witch during a late night of drinking icewine and smoking pipeweed.~
+#17146
+newbie wand spell magic missile~
+a {gwand {xof the {Cspell{x: {Ymagic missile{x~
+A {gwand {xlies here, carelessly discarded.~
+wood~
+wand G AO
+1 5 3 'magic missile' 0
+10 30 200 P
+E
+wand~
+It has a little note that says 'point this end at target'.
+~
+E
+wand spell magic missile~
+The "{gwand {xof the {Cspell{x: {Ymagic missile{x" bears the following writing along its length:
+{x
+To use this wand, type {Cbrandish <wand name> <target>
+{xFor example: brandish wand rabbit
+Also, you can type: brandish 'wand magic missile' 'white rabbit'
+~
+L This wand was cut by Helga the Witch and imbued with a spell from her "top shelf" spellbooks.~
+#17147
+new adventurer potion shielding~
+{wa {ypotion {wof {CEle{Rmen{Btal {WShielding{x~
+{wA new adventurer {ypotion {wof {CEle{Rmen{Btal{W Shielding{w sits here.{x~
+unknown~
+potion 0 A
+35 'iceshield' 'fireshield' 'shockshield' 'reserved'
+10 1 10 P
+#17148
+new adventurer potion sanctuary bless protection~
+{wA {ypotion {wof {WSanctuary{w, {cBlessing{w and {MProtection{x~
+{wA new adventurer {ypotion {wof {WSanctuary{w, {cBlessing{w and {MProtection{w sits here.{x~
+unknown~
+potion 0 A
+35 'sanctuary' 'bless' 'protection evil' 'protection good'
+10 1 10 P
+#17149
+new adventurer potion detection farsight~
+{wa {ypotion {wof {cDetection{w, {bFarsight{w and invisible{x~
+{wA new adventurer {ypotion{w of {cDetection{w, {8Invisible{w and {bFarsight{w sits here.{x~
+unknown~
+potion 0 A
+35 'detect hidden' 'detect invis' 'invisibility' 'reserved'
+10 1 10 P
+#17150
+new adventurer potion stone shield armor~
+{wa {ypotion {wof {8Stone Skin{w, {rArmor{w and {yShield{x~
+{wA new adventurer {ypotion {wof {8Stone Skin{w, {rArmor{w and {yShield{w sits here.{x~
+unknown~
+potion 0 A
+35 'stone skin' 'shield' 'armor' 'reserved'
+10 1 10 P
+#17151
+new adventurer potion giant frenzy fly~
+{wa {ypotion {wof {RGiant Strength{w, {mFrenzy{w and {CFly{x~
+{wA new adventurer {ypotion {wof {RGiant Strength{w, {mFrenzy{w and {CFly{w sits here.{x~
+unknown~
+potion 0 A
+35 'giant strength' 'frenzy' 'fly' 'reserved'
+10 1 10 P
+#17152
+new adventurer potion haste~
+a {ypotion {wof {YHaste{x~
+{wA new adventurer {ypotion {wof {YHaste{w sits here.{x~
+unknown~
+potion 0 A
+35 'haste' 'reserved' 'reserved' 'reserved'
+10 1 10 P
+#17153
+use me~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#17154
+asparagus souffle~
+an {masp{garagus {ysouffle{x~
+A souffle sits here, abandoned and growing cold.~
+pastry~
+food 0 AO
+3 3 0 0 0
+1 1 500 P
+L Baked to absolute perfection by the kitchen at New Beginnings Cafe.~
+#17155
+leg venison~
+a {rleg {wof {rven{wi{rson{x~
+A roasted leg of venison lays here, cooling off.~
+meat~
+food 0 AO
+5 5 0 0 0
+1 3 1000 P
+L Slow roasted to exquisite tenderness by the kitchen at New Beginnings Cafe.~
+#17156
+chef special~
+the {CCh{cef{W's {BSpe{bcial{x~
+A plate with an odd looking cut of meat lays here.~
+unknown~
+food 0 AO
+10 10 0 0 0
+1 2 1500 P
+L Could be made with rabbit.  Cooked by the kitchen at New Beginnings Cafe.~
+#17157
+manly man concoction~
+{Ym{ra{yn{8l{Yy {Rm{ra{8n {yc{ro{Rn{8c{Yo{yc{rt{8i{ro{Yn{x~
+A bowl of what looks like stew sits here.~
+unknown~
+food 0 AO
+10 10 0 0 0
+1 3 400 P
+E
+manly~
+Yes, anyone can make this stew - because you can see exactly 
+what is in it...
+{x
+{rHot Dogs
+{rBaked Beans
+{rChili
+{rCorn
+{x
+Tastes good going down, comes out with jet propulsion. 
+~
+E
+concoction~
+Yes, anyone can make this stew - because you can see exactly 
+what is in it...
+{x
+{rHot Dogs
+{rBaked Beans
+{rChili
+{rCorn{x
+{x
+Tastes good going down, comes out with jet propulsion. 
+~
+E
+stew~
+Yes, anyone can make this stew - because you can see exactly 
+what is in it...
+{x
+{rHot Dogs
+{rBaked Beans
+{rChili
+{rCorn
+{x
+Tastes good going down, comes out with jet propulsion. 
+~
+L ... wow... just... wow.  This was obviously made by a bachelor.~
+#17158
+snake stick~
+{Gs{gnake {won a {ystick{x~
+A barbecued snake on a stick lays here on the ground with a bite missing.~
+unknown~
+food 0 AO
+3 3 0 0 0
+1 1 300 P
+L Pitifully small creature, run through with a stick to the mouth and barbecued.~
+#17159
+peanut butter jelly sandwich~
+{wa {ypeanut butter {wand {mjelly {wsandwich{x~
+A peanut butter and jelly sandwich lays on the ground, riddled with hungry ants.~
+unknown~
+food 0 AO
+6 6 0 0 0
+1 1 100 P
+L Standard bachelor fare.  Thanks Robert Conrad!~
+#17160
+healing pool~
+a healer pool~
+The NEWBIE HEALING POOL lies here in the middle of the room.~
+unknown~
+furniture 0 0
+100 1000000000 FIL 800 800
+0 0 0 P
+#17161
+rabbit pelt~
+{ya {wb{yunn{wy ra{ybbit {wp{yelt{x~
+A rabbit pelt lays here, rotting away.~
+fur~
+trash 0 AO
+0 0 0 0 0
+1 1 10 P
+L Might make a nice cape if you had enough of them.~
+#17162
+rp meeting pass rpmeetinghallpass~
+a Pass To The {RW{raterdeep {GG{gardren's {CRP {RM{reeting {RH{rall{x~
+A small pass lies on the ground.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#17163
+chair~
+a chair~
+A chair sits here, in a large row of chairs.~
+unknown~
+furniture 0 0
+100 1000 EH 100 100
+0 0 0 P
+#17164
+rabid rabbit flank steak~
+{wa {Rrabid {8rab{wb{8it {rflank steak{x~
+A very large cut of meat lays here, bloody and raw.~
+meat~
+food 0 AO
+30 30 0 0 0
+1 20 0 P
+L Someone might be willing to pay a pretty penny for this...~
+#17165
+gemstone stone rough pink sapphire~
+a {8rough {Mpink {8sapphire{x~
+A stone lays here, shining pink in some places.~
+unknown~
+gem 0 AO
+0 0 0 0 0
+1 1 5000 P
+L Still has some lint on it from {CMa{Wur{cice {CNou{crri{Wtu{Cre's {wcoin pouch.{x~
+#17166
+twin sized bed~
+a {gtwin-sized {wbed~
+A twin-sized bed sits here against the wall.~
+unknown~
+furniture 0 0
+2 100000 EIL 300 300
+1 0 0 P
+#17167
+healing table chairs~
+{ya small table with two chairs{x~
+A small table with two chairs sits against the wall.~
+unknown~
+furniture 0 0
+2 100000 BDGJ 300 300
+1 0 0 P
+#17168
+healing plush chair~
+a {Gp{glus{Gh {wchair by the fireplace~
+A plush chair sits by the fireplace.~
+unknown~
+furniture 0 0
+1 100000 CFIL 300 300
+1 0 0 P
+#17169
+stone well water~
+{8a {bw{ca{bt{ce{br {8well{x~
+A small stone well sits here in the center of the huts.~
+unknown~
+fountain 0 0
+-1 -1 'water' 0 0
+1 9000 0 P
+#17170
+deer hide pelt skin~
+{ya d{we{8e{yr hi{wd{ye{x~
+A beautiful deer hide lays here on the ground.~
+hide~
+trash 0 AO
+0 0 0 0 0
+1 5 0 P
+#17171
+green dragon scale~
+{ga gree{wn {gdra{8g{gon sca{wl{ge{x~
+A large scale lays on the ground, glistening.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 1 0 P
+#17172
+bear pelt hide~
+{ya lar{8g{ye bear p{8e{wl{yt{x~
+A large bear pelt lays on the ground.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 3 0 P
+#17173
+green dragon hide~
+{ga gree{wn {gdra{8g{gon hi{wd{ge{x~
+A large green dragon hide lays here, glistening.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 25 0 P
+#17174
+rat pelt bag patchwork~
+{ya p{wa{8t{gc{yhwo{wr{yk rat p{8e{wl{yt bag{x~
+A patchwork bag lays on the ground.~
+unknown~
+container 0 AX
+1 A 0 25 75
+1 2 100 P
+L It's sewn with expert stitches by Darymus Tanner.~
+#17175
+pink sapphire lip stud~
+{8a {Mpink sapphire {8lip stud{x~
+A small stud with a pink stone lays here.~
+unknown~
+armor 0 Ad
+0 0 0 0 0
+20 0 15000 P
+A
+12 2
+A
+13 2
+L Very tribal looking and hand crafted to boot!~
+#17176
+bear pelt cape~
+{ya b{8e{yar pe{wl{yt cape{x~
+A cape made of a bear pelt lays here.~
+unknown~
+armor 0 AX
+1 1 1 1 0
+5 5 1000 P
+L Crafted by the dexterous hands of {gDar{Gy{gmus Tanner{w.{x~
+#17177
+dragon hide rabbit fur cape~
+{8a {yrab{wbi{yt-fur {8lined {gdr{Ga{ggon {wh{gide {8cape{x~
+A large cape lays here on the ground, slowly dissolving into smoke.~
+unknown~
+armor ABGMUW AX
+2 2 2 2 0
+10 10 300000 P
+A
+5 1
+A
+2 -1
+A
+12 5
+A
+13 5
+L {wMade by {gDar{Gy{gmus Tanner {wwith exacting hands and incredible craftsmanship.{x~
+#17178
+deer skin breeches~
+{ya pair of deer-skin breeches{x~
+A pair of breeches made of deer-skin lay here on the ground.~
+unknown~
+armor 0 AF
+8 8 8 8 0
+10 3 200 P
+A
+3 1
+A
+2 1
+A
+4 1
+A
+12 15
+A
+13 15
+L Crafted by {gDar{Gy{gmus Tanner{x.~
+#17179
+rabbit skin cloak~
+{8a {yra{wbb{yit-skin {8cloak{x~
+A cloak made from rabbit pelts lays here.~
+unknown~
+armor 0 AD
+0 1 1 0 0
+10 5 500 P
+A
+20 -2
+L Made by the talented hands of {gDar{Gy{gmus Tanner{x.~
+#17180
+rattoken1~
+rattoken1~
+Rattoken1~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17181
+rattoken2~
+rattoken2~
+Rattoken2~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17182
+rattoken3~
+rattoken3~
+Rattoken3~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17183
+rabbittoken1~
+rabbittoken1~
+Rabbittoken1~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17184
+rabbittoken2~
+rabbittoken2~
+Rabbittoken2~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17185
+rabbittoken3~
+rabbittoken3~
+Rabbittoken4~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17186
+rabbittoken4~
+rabbittoken4~
+Rabbittoken4~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17187
+deertoken1~
+deertoken1~
+Deertoken1~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17188
+beartoken1~
+beartoken1~
+Beartoken1~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+#17189
+bright beaded anklet~
+{wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wanklet{x~
+A nice and shiny anklet emits a colorful glow~
+unknown~
+trash GN AT
+0 0 0 0 0
+10 0 1250 P
+A
+5 1
+A
+2 1
+#17190
+thin leather leggings~
+{8a {ypair {8of thin {yleather {8leggings{x~
+A pair of leather leggings lays here, forgotten.~
+unknown~
+armor 0 AF
+1 1 1 0 0
+16 2 1300 P
+A
+13 5
+A
+2 2
+#17191
+plush moogle~
+{wa {Wplush {8Mo{Mog{8le{x~
+A plush moogle lays here on the ground getting dirty.~
+unknown~
+treasure 0 AO
+0 0 0 0 0
+10 1 1500 P
+A
+3 1
+L The cutest little mole-bat ever~
+#17192
+plush cactuar~
+{wa {Wplush {gcac{8t{guar{x~
+A plush cactuar lays here on the ground getting dirty.~
+unknown~
+treasure 0 AO
+0 0 0 0 0
+10 1 1500 P
+A
+2 1
+L A most adorable pretender catcus if ever there was one.~
+#17193
+plush tonberry~
+{wa {Wplush {gt{yon{Yb{yerr{gy{x~
+A plush tonberry lays here on the ground getting dirty.~
+unknown~
+treasure 0 AO
+0 0 0 0 0
+10 1 1500 P
+A
+13 5
+A
+12 5
+L Slow and steady wins the race...~
+#17194
+rat basher id badge~
+an {R[official] {8R{ya{8t {YB{yas{8h{yer {YID{x~
+An identification badge for bashing rats sits here, turning into smoke.~
+unknown~
+armor U Aa
+0 0 0 0 0
+1 1 0 P
+L It's an id badge for bashing rats in the Survival Pack Factory.~
+#17195
+rat poop shit feces droppings pile~
+a tiny pile of {yr{8a{yt{w droppings~
+A tiny pile of {yr{8a{yt {wdroppings lays here.~
+unknown~
+food 0 AO
+-1 1 0 0 0
+0 0 0 P
+L Really?  Eww.  Don't even think about eating that...~
+#17196
+large rat pelt~
+a large {yr{8a{yt pe{8l{yt{x~
+A large {yr{8a{yt pe{8l{yt{w lays here in a lump.{x~
+unknown~
+trash 0 A
+0 0 0 0 0
+0 0 0 P
+L Looks like it came off of a very large rat...~
+#17197
+short plush sofa couch~
+a short, {Rp{rlus{Rh {xsofa~
+A short, {Rp{rlus{Rh{w sofa sits against the wall.~
+unknown~
+furniture 0 0
+3 5000 BEHK 0 0
+0 2000 0 P
+#17198
+potted plant fern~
+a {Gp{go{Gtt{ge{Gd p{glan{Gt{x~
+Two {Gp{go{Gtt{ge{Gd p{glan{gts {wsit at each side of the desk.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#17199
+puddle piss rat~
+a {Yp{yuddl{Ye{w of {8r{yat {ypi{8s{ys{x~
+A {Yp{yuddl{Ye {wof {8r{yat pi{8s{ys {wlays drying on the floor.~
+unknown~
+fountain 0 0
+1 1 'liquid acid' 0 0
+0 150 0 P
+#0
+
+
+
+#ROOMS
+#17100
+Lathander Street~
+~
+{x
+Lathander Street ends here at the edge of a swirling portal.  It
+appears one can only exit the portal, leaving the open only the 
+option to follow the cobblestones eastward toward Guild Hall and
+Lathander Square beyond.  
+{x
+~
+0 394244 0 21
+0
+E
+portal~
+{CI{ct {Bs{cw{Wi{wr{Cl{cs {Bw{ci{Ct{Wh {Ce{Bn{ce{Wr{Bg{Cy{W!{x
+~
+D1
+~
+~
+0 0 17101
+S
+#17101
+Lathander Street at Guild Hall~
+~
+{x
+Brick cobblestones line the street that runs east to west.  Between
+each of the stones, stout grasses attempt to grow, but are killed off
+by wagon wheels and booted feet.  To the north are the grand stairs
+of guild hall, while farther to the east is Lathander Square.
+~
+0 394244 0 21
+0
+D0
+~
+~
+0 0 17102
+D1
+~
+~
+0 0 17113
+D3
+~
+~
+0 0 17100
+S
+#17102
+Before Guild Hall~
+~
+{x
+A wide set of stone stairs leads up to a building that is grand and
+magnificent.  Doric columns stretch up toward a large architrave,
+which in turn, gives way to an elaborate frieze.  Warriors in full
+battle poses, mages shooting lightning from their fingertips, druids
+tending a growing vine, vampires pulling life from the neck of a 
+victim, clerics administering healing, thieves picking pockets, and
+rangers tracking an elusive hart.  Ivy runs up the brick walls of the
+building itself, extending almost to the belfry that sits stoically
+atop the hall.
+~
+0 394240 0 21
+0
+D2
+~
+~
+0 0 17101
+D4
+~
+~
+0 0 17103
+S
+#17103
+Beneath the Entablature~
+~
+{x
+A grand double door sits to the north of the wide portico that
+extends beneath the entablature.  Here, one can see just how
+grand the columns truly are, and just how high they reach.  A
+chandelier on a long chain hangs down to offer light when it is 
+dark.  Tall windows stand on each side of the door, their edges
+covered over by ivy.
+~
+0 394244 512 21
+0
+D0
+~
+~
+8 0 17104
+D5
+~
+~
+0 0 17102
+S
+#17104
+Guild Hall~
+~
+{x
+The beautiful and grand double doors open to a massive great hall
+that is domed at the very top and decorated with immaculately
+detailed frescoes.  Doors sit to the east and west, carved out of 
+beautiful mahogany, each bearing the sigil of their respective class.
+A set of spiral stairs leads upward to a balcony where yet another
+door waits for adventurers.
+~
+0 394248 512 0
+0
+E
+fresco~
+{y@B#@@@@@@{cMBMBHAAGGG&AAAGAAAGGABBM#M###########@@@@@####@@@@##M####BHHAAB#{8@@@@@@@@@@@@@@@@@@@@@{cMG2irrrsrrrrr;
+{y@@B@@@@M{cA329AhGh223XXXS5X22222hAAhh&AAAh2Xh259HAHHBHBHG2XGG99AH29HBHAAH#{8@@@@@@@@#@@@@#@@@@@#HB@@@@@{c#A3s:,.,:
+{y@@@@@@@@{c#MMHAAA&939X9322XX233X3AhGAABMMMHA&&&GBAAM####@M@@@#MB#MAGh2S2S23&M#BH##MAM##{8@@@@@@{c###{8@@@@@@@@@@@@Bi
+{y@@@@@@##@{cHS22XX22552225SS2XX2irsi2225222Xh93332Ss5X9hh&B#@@@@H&AHM###MG2SiSsssS2XXSXB@#M#{8@{c#{8@@@{c##{8@{c###{8@@@@@@@@
+{y@##HAB#@@@{c3:;ssrrsiiiissssisir;;rsrs;;;:;;;;;rrss;;;;;;rrrriiissrs529HHAHBAA95Sii2ii5A#@##BBAhhHAGM@#{8@@@@{c#{8@#
+{y@@@###@@@@{c#:;;rr;rr;;rrrrrrrsss{8SX99&h&9X22{csrrirssrrrrrrrriisriSisrr;;;;;;;;;rrssi25ii2GAA2siS5i5X9HM##{8@@@@@{c#
+{y#AA@@#@@@@A{c2r;rr;;r;;i;;rrs{8S52X22ii2XG&A&9392{ciiisrrrrrsrriiiS5SiS22ssrrrr:::;;rsrsSSsiSiSrrr;s2X&MMH99AH#{8@@{c#
+{yGi5@A&MGA993H{ch,;r;;ri3Sh{8X2AAA##@@#@@@@@@@@H9993XS{csssssSisrrrsisssi5SiiSS5Ssrrrrsisisrsssi5isiiS232SX52&&9G&G
+{y2:.ri;:A;A@&@@Sr{c;;;;;;{8si3593523h&H#@BH9hhh5S2935S55S2SS255S{crrrssrssssrisSXX5222SiiisrsirsBisi5sss;riS3XX2X&h
+{yAiX@@G@@@@@@@@#5{c;;;;rsSSissr;;;rrrrr;;;;;;rss;rsiS552isiSSisrrsiSisr;;;rrrrrriXX{89&&&&A{wMH29{8@@{c#B#{8@@M&HAAX222h9
+{yG5G@Ai@@#AB#H@@h{c;:,::;rrsiX&25SiS52isr;;;{r2X2GGi{c;;rsiisrrsrsssisi5Sir;rsis;;r;;;;;;ri3X{wGMA2{8@@@@@@@@@@@@@#&GGX
+{yi;is;i;::r:,s.rsr{cH2i33XXX92SsrssiisSSr:{r@#@@@@@@@@{c#rsisrrsriis2223X25sr;rrsrsiisrr;;rss{wiMA2AA{c::rrsi22552X9M#A
+{y. .  ,: .BArr3@@@@@@{ch9G2isr;:::;;;;rr{r@@@@@@@@@@@@@{cMrissiisrss5Sssriis5&Srriiisrssrrrrr{w5A2;M#{c;;rr;;;;rrrrr;;r
+{yX5i@rh@@@@@H#@#@@@@@@@{cX2isr;::::;:{r2G2@@@@{y#As;rSh{r@@@{c#2iriir;;;r;;r;sr;{8rHAX{c;;rrsrirrsisr{wsG@AB&{c;SSisssrsirsii5s
+{ysX3@r2#HH@BAH@#@#@MB@@@{c2::::;:::;{r&@@:@@{y&r,   ;is5{r@@{cis;s5issss;::::;;;;{8X@#r{c;r;;rrrrsssi{w5X@@&A{csr55sisrrsssssSi
+{yB@@@XH@A9HS5i;r:;rSrA@{c;,,.,:;;::;{r&@Ar@{y9   .i@@SBM#{c;r22X2G##@Bii;r;rr:;{8M@A{chssrsrrrrrrri{wX9@#AG{csrS255sssiS5iiir
+{y9:i@;:ssi;,;;sssM@@@@@{c.,,,,:;;;;:,{rr;3{y#  r,:SX;:@@;{cr2Sirrsrs2B@@i;rrr::{8X@5{c;i555Siir{wsSh3iXG3GhA3S{ciiSiSSisissir
+{yGsX@.X29&@@H@@@@@#MH@@{cr;r;:,::;;,,.;{yX@A.,:r;rs2@s {c:;;;;::,;rh@@r.:;;:;{8rhh{c;:;;;;{wr5A#@2sX2i&&&HhB#h{c229AAHBMAXs
+{y33H@s2S@2SGrB@@Gr3Xi@@@{cs,;&;,,::::,r{y3@G;s;:rs2@& {c:::::;:,::,2XA.,:;;:{82r {c::;::;{w2A@#h:r295SAXh#Ai2@#X{c52h9hh99S
+{y5S&@,2BGs#&rA@rs2@M;A#3@X,MX{c,,,,::,:{yrM:.rh#XrG&{c:;r;;;;;;;,,.:.:,:;;;:{8HG{c.::::{wiMM3i;:5A2iSX2XS5H@2;@@{cH3X5X552s
+{y2,r@ , ;:;;;;:,:SSs::i;r9@@{c.,:::::,:s{yhHAS;{85@@@{c,,;;:;;;;:;,.,;,:;;;;:{8i#A{c:,:{wsG@#9hs.hAHMS5X#@9A#@@X;@@{c#9222i2r
+{y#93@;,i3s#H2; .s2i2X#@@@@M@&{c:;:;{rrrrsrrS{8&@@@@{r@@MXSr{c::,,:,:;S5rirs:,,,{8&&A{c;,{w5Ah&X5S:5@222229hHHB#@@@Sr@@@{c9S522s
+{y#A@@3#@H@@#&M@@@M@HM@@@@Xh@@{c:{rsss5Sirrsr;;{8@@A{rri3AM#M&5r{c;;;SAh9&SS;,:{8r#s{wh@BHhXSsis.@HX2X93G33AAM@@@@:M@@#{cS;rs;
+{y&3M@@@9#@#XX2@@@@@ih@@@#3#Gi{r:;isrsssrrr{8B@@@@@A{rihH#@@@@{c9siS9srXSSX{8M&@@s{wX@h222i22,r@9#M&HA&A#MM##@@@2r@@@{cA::s;
+{y5 :@@#M@@B;2M#@@@9225Xr;:s{r::;;srriisrii{8X@@@@@G{WMisir;s3B;.    .{c#s{8@@@#@h{w&AsGhGX3Xs#@MHMAAAA#@MA&#h&@@B@@@@@{cB3r
+{y@,,@9.rS;rsih.  :rX:  . rA{r;:;risss2iSX2;5{8@@@{r2G@{WriG,::,r    ,  {cA&@{8@AB@#{wX232irrsSXMAGh&&BA@2X@r:@iS@@@@&i@@{c#A2
+{y@5.Bs     ,;    : 2X::2@@&{r,;riisi5Xsi92ri3{8@{rX2&@{W#rr;s;i5, . ,, ;{cH#{8BAH5{w;iXG5i22X99A3XXX5XS@3X@r:hrG@@@@@@@@{c#G2
+{y@h @,S,. ;5SA@#92#@@@@@@@{r.;;rS5sS2&ss9XrS5{8@{rX2A@@{W: :s:iS; :,;;  {cHM{8#MAr{wB3A3h9HA9225rrrrrS3&5i55XSrG@@@@@@@@{cA95
+{y@2:@B9@@@@#@@@2G@@@@@@@@{r::;;rX5ii2GrrG9ri2#X29A@A{W ,r;sX5.,::;, {cX@{8#@#2{w@h3&222X25sr;;rrr5GSiXG393rh@@@@@@@@{cG2X
+{yM3H@@S@@@@@@H;;B@@@@M@@{r;,;;;s9iirX&rr&9rSG9iXXHM@{W .iSiX2: ,..: .{c@9{8#MA{w#h5Ah3X22iXhS5SSi232XBG@G@GX@@@@@@@@{cs5@
+{y@@@@@#r#AM@@Hs@@##@A@@{r;,rssr2hiis3h;rGXr5A9i9XBH@2{W r5sS2s,,.:r: {cAh{8ABA{w#AXhh9X3hhHA93AGhX@@@@#@@@@H@@@@@@@@{c#@@
+{y#@@@@9rr&:s@@##@X r5r{r::;ssii33sss&h;sh3rSA3i92H#@#{W ;irsS{y9AAS{W    ,{cM{8hh3{wAMGXSHBG9A&25S2X33#@@@@@@@@#M@@@@@@@{c@#H
+{ys.,:,r@2r  H@@@X,;BB{r,.rsrrsi&Ssr;&3;r&9rSB9iX5&M@@{W,   .{y5HA@@r{W2GHB{cH{8GA&{wG@B553@@52XSiiS2sA@@@A@X@&@#h@@@@@@@{csrS
+{y.    A@@@2 s@@#XB{8@@@@{rr;siis2AssrrG2;rG3siB9S92&HB@@hBB#{8@@@@@@@@{c#AX{8H&G{wA32Si:@@isXXrSSXr;@@@S&r9iAAs#@@@#@@{criS
+{yss9A3@@@Ar:;5MM{8@@@@@@@{r;ssi2HXrsrr&S;rh3siH9i32AAHM@@@{8@@@@@@BH@@{c#AX{8XA9{wG22Xi;X9iSh9rSi22;r#&rSisrS5r9@@@@@@{cAM3
+{yr;22A2;::sr::{8@@@@@@@@@{r9S229MsrirsGi:sG3sSHGi55AH&AM###@@@@{c#9hH322Sr{8BG{wAA2X22sS5i2Xisrsisr2GiS2X222s3@@@@@@{cAA2
+~
+D0
+~
+~
+0 0 17105
+D1
+~
+~
+8 0 17111
+D2
+~
+~
+8 0 17103
+D3
+~
+~
+8 0 17109
+D4
+~
+~
+0 0 17112
+S
+#17105
+Guild Hall~
+~
+{x
+The massive great hall ends here at three beautifully carved
+mahogany doors.  Another spiral staircase winds up to a balcony
+where another door sits.  The domed ceiling is covered in a 
+beautiful fresco, and every sound seems to echo high into its
+arch.  The marbled floors shine and a kiosk sits in the center
+of the hall with a map inside.
+~
+0 394248 512 0
+0
+D0
+~
+~
+8 0 17106
+D1
+~
+~
+8 0 17108
+D2
+~
+~
+0 0 17104
+D3
+~
+~
+8 0 17107
+D4
+~
+~
+8 0 17110
+D5
+~
+~
+8 0 3767
+S
+#17106
+{WCl{wer{Wic{8/{WPr{wie{Wst {8Guild{x~
+~
+{x
+{8The {wdoor{W ope{wns t{8o a {wroom that is pure {8marb{wle. {W Col{wumns{8 lif{wt upward to
+{wa{8 sma{wll d{Wome {wthat{8 all{wows sunlight to fi{8lter{w dow{Wn to{w the{8 bla{wck and white
+{wfl{8oor {wtile{Ws.  {wEach{8 col{wumn is split into {8hori{wzont{Wal l{wevel{8s, a{wnd it is
+{wrum{8ored{w tha{Wt if{w one{8 tra{wces their hands ov{8er t{whe v{Wario{wus c{8arvi{wngs, one
+{wcan {8lear{wn th{Weir {wspel{8ls w{with great accuracy{8.  T{wo th{We no{wrth,{8 thr{wee stairs
+{wlead {8up t{wo a {Wgran{wd se{8at f{wor the guildmaster{8.  T{whe r{Woom {wsmel{8ls o{wf incense
+{wand ho{8lds {wan a{Wir o{wf ca{8lm a{wnd comfort.{x
+~
+0 394248 512 15
+0
+D2
+~
+~
+8 0 17105
+S
+#17107
+{BM{bage{8/{BW{bizard {8Guild{x~
+~
+{x
+{bT{Bhe e{Cntir{Bety {bof the walls in this {Bro{bom are covered with stacks 
+{bof{B boo{Cks. {B Tom{bes from the modern to{B t{bhe extremely ancient can 
+{bbe {Bfoun{Cd her{Be, {band tables sit in the{B c{benter of the room so that 
+{bany {Bwho {Cwish {Bto {bmay borrow them may r{Bea{bd until their heart's 
+{bconte{Bnt. {C To t{Bhe {bnorth of the room is {Ba {blarge desk for the 
+{bGuildm{Baste{Cr to {Bsit{b and keep watch over {Bth{be guild.  Above the
+{bentire {Broom{C is a{B la{brge dome where shafts{B o{bf sunlight come down,
+{bcolored {Bby t{Che bl{Bue {bstained glass above. {B T{bhe floors are deep
+{bblue lapi{Bs la{Czuli {Band{b reflect the light of{B f{bloating fire orbs.{x
+~
+0 394248 512 15
+0
+E
+desk~
+{yA desk sits here, cluttered with compasses, globes, crystals,
+{ytomes and parchments.  Nothing is dusty, a testament to just
+{yhow frequently everything is used.{x
+~
+D1
+~
+~
+8 0 17105
+S
+#17108
+{GD{grui{Gd{8/{GS{gag{Ge {8Guild{x~
+~
+{x
+{gTh{Ge door o{gpens to a beautiful atr{Gium.  A {glarge dome rises from
+{gthe{G ceiling{g, completely covered in{G ivy, th{gat allows sunlight
+{gto s{Ghine dow{gn through the leaves an{Gd onto t{ghe tiled floor.  The
+{gwalls{G are cov{gered in the same ivy, a{Gnd what {gbare places there
+{gare, a{Gre cover{ged with stone engraving{Gs of pla{gnts, roots, and
+{genchant{Gments.  {gDevil's Ivy hangs from {Gthe vari{gous columns that
+{grise in {Ga circle{g around the center of t{Ghe room.{g  A large chair
+{gmade comp{Gletely f{grom entertwined roots r{Gises in {gthe center of
+{gthe circle{G for the{g guildmaster to sit.{x
+~
+0 394248 512 15
+0
+D3
+~
+~
+8 0 17105
+S
+#17109
+{CT{8hief/{CM{8ercenary Guild{x~
+~
+{x
+{CT{8his room in Guild Hall is strewn with the finest of silk pillows
+{Ca{8nd cushions.  From every wall, richly embroidered tapestries hang
+{Ca{8long with silk brocades.  A large dome, inset with nothing less
+{Ct{8han pure gold sets the room ablaze with the sunlight reflected 
+{Cf{8rom above.  The floors are highly polished marble upon which sit
+{Cm{8yriads of rugs.  It is unclear whether the guildmaster obtained
+{Ca{*ll of these items legally, but his taste is impeccable.{x
+~
+0 394248 512 15
+0
+D1
+~
+~
+8 0 17104
+S
+#17110
+{RV{rampire{8/{RL{rich {8Guild{x~
+~
+{x
+{rI{Rmmed{8iate{Rly u{rpon the door closing, {Rt{8h{re entire room is consumed
+{rby{R a d{8arkn{Ress {rlit only by a few can{Rd{8l{res that float in midair.
+{rAs {Rthe {8cand{Rles {rdrift near the walls{R,{8 {rit is clear that blood
+{rtric{Rkles{8 dow{Rn th{reir lengths, collec{Rt{8i{rng in pools that empty
+{rinto {Rrivu{8lets{R tha{rt snake to the mid{Rd{8l{re of the room.  Black 
+{rpillar{Rs ri{8se i{Rnto {ra dome that is no{Rt{8h{ring but a dark void.  The
+{rcenter {Rof t{8he g{Ruild{r holds a throne {Rc{8r{reated from human skulls
+{rfor the {Rguil{8dmas{Rter {rto sit and rule{R {8t{rhose that enter his realm.
+{rThe inces{Rsant{8 dri{Rppin{rg of water... {Ro{8r{r blood... can be heard in
+{rthe surrou{Rndin{8g da{Rrkne{rss as well as{R {8t{rhe occasional disembodied
+{rlaugh.{x
+~
+0 394248 512 15
+0
+E
+throne~
+{8It is a wicked stack of empty human skulls - their sockets
+{8long void of life.  Thigh bones make up the seat and arms of
+{8this tribute to death.{x
+~
+D5
+~
+~
+8 0 17105
+S
+#17111
+{GR{ganger{8/{GS{gtrider {8Guild{x~
+~
+{x
+{GA{g gray stone floor opens to an enormous room.  {GE{gvery square 
+{Gi{gnch of the walls are painted over with murals {Gd{gepicting 
+{Gf{gorest scenes, types of woodland animals, and G{Gu{gildmasters
+{Gp{gast in full hunting gear.  From the ceiling ha{Gn{gg long
+{Gt{gendrils of ivy, filtering the sunlight that co{Gm{ges in from 
+{Gt{ghe dome overhead.  Pillars line the center of {Gt{ghe room, 
+{Gb{getween each, an archery target.  Along the sou{Gt{ghern wall is 
+{Ga{g short, but long bookshelf, filled with tomes {Go{gn tracking, 
+{Gh{gunting, fighting, and more.{x
+~
+0 394248 512 15
+0
+D3
+~
+~
+8 0 17104
+S
+#17112
+{YW{yarrior{8/{YG{yladiator {8Guild{x~
+~
+{x
+{YS{ywe{Yat, {8le{Yathe{yr, and metal are the smells {Yth{yat hang thick in
+{Yt{yhe{Y air{8 o{Yf th{ye Warrior/Gladiator Guild.  {YTh{ye floor is made
+{Yo{yf {Ypoli{8sh{Yed p{yine, overlaid in places by t{Yhi{yck mats.  A 
+{Yt{yra{Yinin{8g {Ydumm{yy sits in the center of the {Yro{yom, padded over
+{Yf{yor{Y tak{8in{Yg ab{yuse.  Wooden training weapon{Ys {yhang from the
+{Yw{yal{Yls, {8as{Y wel{yl as padding... for those wi{Ymp{yy enough to need
+{Yi{yt.{Y  Ba{8nn{Yers {yhang from the ceiling and do{Yme{y overhead, pro-
+{Yc{yla{Yimin{8g {Ythe {yvarious wins in gladiatorial{Y c{yontests all over
+{Yt{yhe{Y rea{8lm{Ys.{x
+~
+0 394248 512 15
+0
+D5
+~
+~
+0 0 17104
+S
+#17113
+Lathander Street~
+~
+{x
+This street runs east to west and is lined with brick-cobblestones.
+Tiny patches of grass try to grow up between the bricks, but end up
+dying away as they are trod underfoot repeatedly.  To the south is
+the broadside of a shop, while the north is a fenced off vacant lot.
+To the east is Lathander Square.
+~
+0 394244 0 21
+0
+D1
+~
+~
+0 0 17114
+D3
+~
+~
+0 0 17101
+S
+#17114
+{RLa{Yth{wan{Wder {wSq{Yua{Rre{x~
+~
+{x
+{RLa{Yth{wan{Wder {wSq{Yua{Rre{w is much nicer than the surrounding street.  Marble
+cobblestones line the entirety of the square, setting it aglow in the
+{wlight of early morning with a pink-hue.  A rose-colored fountain 
+{wbears a statue with the morning lord himself holding an infant aloft.
+{wBenches line the circumference of the fountain, and large trees line
+{wthe perimeter of the square itself, beneath which are patches of grass
+{wto sit upon and contemplate the wonders of renewal.{x
+~
+0 394244 0 1
+0
+E
+scroll~
+___________________________________________________________________________
+ /\_\                                                                      \_\
+|/\\_\{w                                                                      \_\
+\_/_|_|                                                                     |_|
+    |_|{w                                                                     |_|
+    |_|{w          {GI offer the following spells for your aid:{w                 |_|
+    |_|{w                                                                     |_|
+    |_|{Y               {CIceshield      : {Wsay {YI want iceshield{w                 |_|
+{w    {w|_|{Y               {CFireshield     : {Wsay {YI want fireshield{w                |_|
+{w    {w|_|{Y               {CShockshield    : {Wsay {YI want shockshield{w               |_|
+{w   {w |_|    {Y           {CAll 3 shields{Y  {W: say{Y I want elemental shields{w         |_|
+{w  {w  |_|{Y               {CSanctuary      : {Wsay {YI want sanctuary {w                |_|
+{w    {w|_|{Y               {CHaste          : {Wsay {YI want haste       {w              |_|
+{w   {w |_|   {Y            {CFarsight       : {Wsay {YI want farsight      {w            |_|
+{w    {w|_|{Y               {CGiant Strength : {Wsay{Y I want giant strength{w            |_|
+{w   {w |_| {Y              {CArmor          : {Wsay {YI want armor           {w          |_|
+{w   {w |_|{Y               {CFly            : {Wsay {YI want fly               {w        |_|
+{w   {w |_|   {Y            {CShield {Y        {W: say{Y I want shield            {w        |_|
+{w   {w |_|   {Y            {CEVERYTHING {Y    {W: say{Y I want it all            {w        |_|
+    |_|                                                                     |_|
+ ___|_|                                                                     |_|
+/ \ |_|                                                                     |_|
+|\//_/                                                                      /_/
+ \/_/______________________________________________________________________/_/{x
+~
+D2
+~
+~
+0 0 17115
+D3
+~
+~
+0 0 17113
+S
+#17115
+Lathander Street~
+~
+{X
+Lathander Street makes its turn and runs north to south.
+To the east is a shop with a sign above the door, as well
+as to the west.  North is Lathander Square, where one can
+sit around a fountain and relax.  To the south are more
+shops - just follow the cobblestone road.
+~
+0 393216 0 21
+0
+E
+sign~
+{8________                                              ________
+{8        \                                            /
+{y  -------------------------           -------------------------
+{y  |                       |           |                       |
+{y  |                       |           |                       |
+{y  |  <-- {8Armors{y           |           |     {CMagic Items {y-->   |
+{y  |                       |           |                       |
+{y  |                       |           |                       |
+{y  -------------------------           -------------------------
+{x
+~
+D0
+~
+~
+0 0 17114
+D1
+~
+~
+8 0 17119
+D2
+~
+~
+0 0 17117
+D3
+~
+~
+8 0 17116
+S
+#17116
+Armor Shop~
+~
+{x
+The shop is small and quite hot with the forge that sits at
+the back of the store.  Armor pieces sit on the floor, on the
+counter, and hang on the walls.  The ceiling holds various
+lengths of cured leather, waiting for a customer to place an
+order.  
+~
+0 394248 0 0
+0
+E
+leggings~
+{WI{wt{8e{wm{W:         {8a {ypair {8of thin {yleather {8leggings
+{WL{we{8ve{wl{W:{w        16
+{WA{wC{W:           {wPierce 1/Bash 1/Slash 1
+{WA{wf{8fect{ws{W:      {wdex +2, hp +5{x
+~
+E
+leather~
+{WI{wt{8e{wm{W:         {8a {ypair {8of thin {yleather {8leggings
+{WL{we{8ve{wl{W:{w        16
+{WA{wC{W:           {wPierce 1/Bash 1/Slash 1
+{WA{wf{8fect{ws{W:      {wdex +2, hp +5{x
+~
+E
+thin~
+{WI{wt{8e{wm{W:         {8a {ypair {8of thin {yleather {8leggings
+{WL{we{8ve{wl{W:{w        16
+{WA{wC{W:           {wPierce 1/Bash 1/Slash 1
+{WA{wf{8fect{ws{W:      {wdex +2, hp +5{x
+~
+E
+anklet~
+{WI{wt{8e{wm{W:         {wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wanklet
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wdex +1, con +1{x
+~
+E
+shiny~
+{WI{wt{8e{wm{W:         {wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wbracelet
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wcon +1, str +1{x
+{x
+{WI{wt{8e{wm{W:         {wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wanklet
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wdex +1, con +1{x
+~
+E
+bracelet~
+{WI{wt{8e{wm{W:         {wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wbracelet
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wcon +1, str +1{x
+~
+E
+beaded~
+{WI{wt{8e{wm{W:         {wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wbracelet
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wcon +1, str +1{x
+{x
+{WI{wt{8e{wm{W:         {wa sh{Wi{wny {bb{ge{ya{rd{me{cd {wanklet
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wdex +1, con +1{x
+~
+E
+heroism~
+{WI{wt{8e{wm{W:         {wa {8ban{wda{8nna {wof {wh{8e{Wr{wo{Wi{8s{wm
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 7/Bash 7/Slash 7/Exotic 3
+{WA{wf{8fect{ws{W:      {wcon +2, str +1{x
+~
+E
+bandanna~
+{WI{wt{8e{wm{W:         {wa {8ban{wda{8nna {wof {wh{8e{Wr{wo{Wi{8s{wm
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 7/Bash 7/Slash 7/Exotic 3
+{WA{wf{8fect{ws{W:      {wcon +2, str +1{x
+~
+E
+horn-rimmed~
+{WI{wt{8e{wm{W:         {wa pair of {*horn-rimmed {wglasses{x
+{WL{we{8ve{wl{W:{w        5
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+glasses~
+{WI{wt{8e{wm{W:         {wa pair of {*horn-rimmed {wglasses{x
+{WL{we{8ve{wl{W:{w        5
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+brooch~
+{WI{wt{8e{wm{W:         {wan {Mor{mna{rte {mbr{Moo{wch
+{WL{we{8ve{wl{W:{w        13
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+ornate~
+{WI{wt{8e{wm{W:         {wan {Mor{mna{rte {mbr{Moo{wch
+{WL{we{8ve{wl{W:{w        13
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+shirt~
+{WI{wt{8e{wm{W:         {wa {yligh{Wtwe{yight {wshirt{x
+{WL{we{8ve{wl{W:{w        16
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+lightweight~
+{WI{wt{8e{wm{W:         {wa {yligh{Wtwe{yight {wshirt{x
+{WL{we{8ve{wl{W:{w        16
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+robe~
+{WI{wt{8e{wm{W:         {8a {wtran{Wslu{wcent {8robe{x
+{WL{we{8ve{wl{W:{w        11
+{WA{wC{W:           {wPierce 5/Bash 5/Slash 5/Exotic 0
+{WA{wf{8fect{ws{W:      {wcon +1, hp +10{x
+~
+E
+transclucent~
+{WI{wt{8e{wm{W:         {8a {wtran{Wslu{wcent {8robe{x
+{WL{we{8ve{wl{W:{w        11
+{WA{wC{W:           {wPierce 5/Bash 5/Slash 5/Exotic 0
+{WA{wf{8fect{ws{W:      {wcon +1, hp +10{x
+~
+E
+gloves~
+{WI{wt{8e{wm{W:         {8a {wpair of {Wcotton {wgloves{x
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 5/Bash 5/Slash 5/Exotic 5
+{WA{wf{8fect{ws{W:      {wintelligence +1{x
+~
+E
+cotton~
+{WI{wt{8e{wm{W:         {8a {wpair of {Wcotton {wgloves{x
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 5/Bash 5/Slash 5/Exotic 5
+{WA{wf{8fect{ws{W:      {wintelligence +1{x
+~
+E
+pair~
+{WI{wt{8e{wm{W:         {8a {wpair of {Wcotton {wgloves{x
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 5/Bash 5/Slash 5/Exotic 5
+{WA{wf{8fect{ws{W:      {wintelligence +1{x
+{x
+{WI{wt{8e{wm{W:         {8a {ypair {8of thin {yleather {8leggings
+{WL{we{8ve{wl{W:{w        16
+{WA{wC{W:           {wPierce 1/Bash 1/Slash 1
+{WA{wf{8fect{ws{W:      {wdex +2, hp +5{x
+~
+E
+ring~
+{WI{wt{8e{wm{W:         {8the {Ge{gart{Gh {8ring{x
+{WL{we{8ve{wl{W:{w        15
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+earth~
+{WI{wt{8e{wm{W:         {8the {Ge{gart{Gh {8ring{x
+{WL{we{8ve{wl{W:{w        15
+{WA{wf{8fect{ws{W:      {wwis +1, int +1{x
+~
+E
+shoes~
+{WI{wt{8e{wm{W:         {wa {Mc{Yh{Wi{Ml{Yd{W's {wtiny {8sh{wo{8es
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 8/Bash 8/Slash 8/Exotic 8
+{WA{wf{8fect{ws{W:      {wdexterity +2{x
+~
+E
+tiny~
+{WI{wt{8e{wm{W:         {wa {Mc{Yh{Wi{Ml{Yd{W's {wtiny {8sh{wo{8es
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 8/Bash 8/Slash 8/Exotic 8
+{WA{wf{8fect{ws{W:      {wdexterity +2{x
+~
+E
+child's~
+{WI{wt{8e{wm{W:         {wa {Mc{Yh{Wi{Ml{Yd{W's {wtiny {8sh{wo{8es
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 8/Bash 8/Slash 8/Exotic 8
+{WA{wf{8fect{ws{W:      {wdexterity +2{x
+~
+D1
+~
+~
+8 0 17115
+S
+#17117
+Lathander Street~
+~
+{x
+Lathander Street runs toward the north and turns toward
+east.  To the west is the weapons shop, while the shop
+to the south is practically glowing with the light that
+flows from it.  Back to the north is Lathander Square and
+a few other shops, east is the bank.
+~
+0 393216 0 21
+0
+D0
+~
+~
+0 0 17115
+D1
+~
+~
+0 0 17120
+D2
+~
+~
+8 0 17199
+D3
+~
+~
+8 0 17118
+S
+#17118
+Weapon Shop~
+~
+{x
+This room is littered with metal shavings and stinks of
+the singe of metal and tinny scent of sweat.  It is lit
+by a myriad of floating fire orbs, which seem to add to 
+the sweltering heat that lays over the room like a blanket.
+Weapons line the walls from top to bottom, obviously 
+available for purchase.
+~
+0 394248 0 0
+0
+E
+knuckles~
+{WI{wt{8e{wm{W:         {Wch{wro{8m{we k{Wnu{wck{8l{wes
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wexotic
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+chrome~
+{WI{wt{8e{wm{W:         {Wch{wro{8m{we k{Wnu{wck{8l{wes
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wexotic
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+spear~
+{WI{wt{8e{wm{W:         {8a {Wsi{wlv{Wer{8-{Wti{wpp{Wed {8spear
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wpierce
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+silver-tipped~
+{WI{wt{8e{wm{W:         {8a {Wsi{wlv{Wer{8-{Wti{wpp{Wed {8spear
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wpierce
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+staff~
+{WI{wt{8e{wm{W:         {8a {wthin {ywooden {8staff
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wthrust
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+wooden~
+{WI{wt{8e{wm{W:         {8a {wthin {ywooden {8staff
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wthrust
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+thin~
+{WI{wt{8e{wm{W:         {8a {wthin {ywooden {8staff
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wthrust
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+wicked-looking~
+{WI{wt{8e{wm{W:         {8a {Rwi{rck{we{8d-lo{wo{rki{Rng {8mace
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wcrush
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+mace~
+{WI{wt{8e{wm{W:         {8a {Rwi{rck{we{8d-lo{wo{rki{Rng {8mace
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wcrush
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+spiked~
+{WI{wt{8e{wm{W:         {8a {Rs{wp{Wi{Rk{we{Wd {8flail
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wsmash
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+flail~
+{WI{wt{8e{wm{W:         {8a {Rs{wp{Wi{Rk{we{Wd {8flail
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wsmash
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+island~
+{WI{wt{8e{wm{W:         {8an {CIs{Bla{Cnd {wsh{Wie{wld
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 6/Bash 6/Slash 6/Exotic 1
+{WA{wf{8fect{ws{W:      {wnone{x
+~
+E
+shield~
+{WI{wt{8e{wm{W:         {8an {CIs{Bla{Cnd {wsh{Wie{wld
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{W:           {wPierce 6/Bash 6/Slash 6/Exotic 1
+{WA{wf{8fect{ws{W:      {wnone{x
+~
+E
+sharp~
+{WI{wt{8e{wm{W:         {8a {Wra{wzo{8r s{wha{Wrp {8axe
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wcleave
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+razor~
+{WI{wt{8e{wm{W:         {8a {Wra{wzo{8r s{wha{Wrp {8axe
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wcleave
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+axe~
+{WI{wt{8e{wm{W:         {8a {Wra{wzo{8r s{wha{Wrp {8axe
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wcleave
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+longsword~
+{WI{wt{8e{wm{W:         {8a {Wke{wen{8-e{wdg{Wed {8lon{Rgs{8word
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wslash
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+keen-edged~
+{WI{wt{8e{wm{W:         {8a {Wke{wen{8-e{wdg{Wed {8lon{Rgs{8word
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wslash
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+sword~
+{WI{wt{8e{wm{W:         {8a {Wke{wen{8-e{wdg{Wed {8lon{Rgs{8word
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wslash
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+jagged~
+{WI{wt{8e{wm{W:         {8a {Wj{wa{8gg{we{Wd {8knife
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wstab
+{WA{wf{8fect{ws{W:      {whit roll +2
+~
+E
+knife~
+{WI{wt{8e{wm{W:         {8a {Wj{wa{8gg{we{Wd {8knife
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wstab
+{WA{wf{8fect{ws{W:      {whit roll +2{x
+~
+E
+barbed~
+{WI{wt{8e{wm{W:         {8a {rbarbed {8whip
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wsting
+{WA{wf{8fect{ws{W:      {whit roll +2
+~
+E
+whip~
+{WI{wt{8e{wm{W:{x         {8a {rbarbed {8whip{x
+{WL{we{8ve{wl{W:{w        15
+{WD{wa{8mag{we{W:       {w5d7 (Average 20)
+{WD{wa{8mag{we {8Typ{we{W:  {wsting{x
+{WA{wf{8fect{ws{W:      {whit roll +2
+~
+E
+walls~
+Weapons of all kinds line the walls here.  
+To see them, type 'list.'
+~
+D1
+~
+~
+8 0 17117
+S
+#17119
+Magic Shop~
+~
+{x
+This small shop is filled with all kinds of odd smells -
+from the sharp and biting, to the rank and vile.  The 
+ceiling has scorch marks where other potions have blown 
+sky high.  The counter is lined with small, empty jars 
+and a black cauldron used for mixing.
+~
+0 394248 0 0
+0
+E
+cauldron~
+{w                                 `;
+{w                                ,;'`
+{w                                ':,
+{w                                ,;'
+{8                          _{y,.{8__{woOoO{y.,{8_
+{8                          \-.{wO,o_O{8..-/
+{8                          /          \
+{8                         /            \
+{8                        |      {Y,{8       |
+{8                        \   {Y) (     ){8  /
+{8                        {R,'.{Y({R:,{Y ){R,: {Y(_{R.'.
+{y                         ="`""="="=="= '.
+~
+D3
+~
+~
+8 0 17115
+S
+#17120
+Lathander Street~
+~
+{x
+Lathander Street continues to run east and west here.  Brick
+cobblestones line the road, leading east toward the bank, or 
+west toward the other shops and Lathander Square.  South is 
+shop that looks like it could be a whole lot of fun to visit.
+~
+0 393216 0 21
+0
+D1
+~
+~
+0 0 17122
+D2
+~
+~
+8 0 17121
+D3
+~
+~
+0 0 17117
+S
+#17121
+Toys and Noise~
+~
+{x
+This tiny shop is filled with various toys and instruments.  In
+every nook and cranny, there are fully finished pieces as well as
+toys and instruments still unfinished.  It's clear that the person
+creating these items is a bit on the scattered side.  The entire 
+shop smells like leather and metal.  The walls are paneled wood,
+and the floorboards creak slightly when they are walked upon.  In
+all, it is quite a welcoming spot.
+~
+0 394248 0 0
+0
+E
+plush~
+{WI{wt{8e{wm{W:         {wa {Wplush {8Mo{Mog{8le
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wint +1{x
+{x
+{WI{wt{8e{wm{W:         {wa {Wplush {gcac{8t{guar
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wdex +1{x
+{x
+{WI{wt{8e{wm{W:         {wa {Wplush {gt{yon{Yb{yerr{gy
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whp +5, mana +5{x
+~
+E
+moogle~
+{WI{wt{8e{wm{W:         {wa {Wplush {8Mo{Mog{8le
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wint +1{x
+~
+E
+cactuar~
+{WI{wt{8e{wm{W:         {wa {Wplush {gcac{8t{guar
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {wdex +1{x
+~
+E
+tonberry~
+{WI{wt{8e{wm{W:         {wa {Wplush {gt{yon{Yb{yerr{gy
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whp +5, mana +5{x
+~
+E
+shofar~
+{WI{wt{8e{wm{W:         {wa {8ri{wtu{Wal sh{wof{8ar {winlaid with {Wsi{wlv{Wer
+{WL{we{8ve{wl{W:{w        16
+{WA{wf{8fect{ws{W:      {whp +5, mana +5, wis +1{x
+~
+E
+ritual~
+{WI{wt{8e{wm{W:         {wa {8ri{wtu{Wal sh{wof{8ar {winlaid with {Wsi{wlv{Wer
+{WL{we{8ve{wl{W:{w        16
+{WA{wf{8fect{ws{W:      {whp +5, mana +5, wis +1{x
+~
+E
+kortholt~
+{WI{wt{8e{wm{W:         {wa six-hole {ykort{8holt
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wint +1{x
+~
+E
+six-hole~
+{WI{wt{8e{wm{W:         {wa six-hole {ykort{8holt
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wint +1{x
+~
+E
+redwood~
+{WI{wt{8e{wm{W:         {wa {ydeer hide{w and {rredwood {wtambor
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wcon +1{x
+~
+E
+deer~
+{WI{wt{8e{wm{W:         {wa {ydeer hide{w and {rredwood {wtambor
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wcon +1{x
+~
+E
+tambor~
+{WI{wt{8e{wm{W:         {wa {ydeer hide{w and {rredwood {wtambor
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wcon +1{x
+~
+E
+9-string~
+{WI{wt{8e{wm{W:         {wa {yla{wcq{Wue{Yred{w 9-string lute
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wdex +1
+~
+E
+lacquered~
+{WI{wt{8e{wm{W:         {wa {yla{wcq{Wue{Yred{w 9-string lute
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wdex +1
+~
+E
+lute~
+{WI{wt{8e{wm{W:         {wa {yla{wcq{Wue{Yred{w 9-string lute
+{WL{we{8ve{wl{W:{w        15
+{WA{wC{8:           {wPierce 1/Bash 1/Slash 1/Exotic 1
+{WA{wf{8fect{ws{W:      {wdex +1{x
+~
+D0
+~
+~
+8 0 17120
+S
+#17122
+Lathander Street~
+~
+{x
+Red brick cobblestones lead north and west as Lathander Street
+continues wending its way through town.  To the east is the New
+Beginnings Bank, where one can store their money free of charge.
+North heads toward the pawn shop and factory, while west leads
+back toward the myriad of shops.
+~
+0 393216 0 21
+0
+D0
+~
+~
+0 0 17123
+D1
+~
+~
+8 0 17197
+D3
+~
+~
+0 0 17120
+S
+#17123
+Lathander Street~
+~
+{x
+Lathander Street runs north and south here, the red cobblestones
+well worn from many footsteps and wagons that travel along its 
+length.  To the east is the New Beginnings Cafe, a great place to
+get a bite to eat for hungry adventurers.
+~
+0 393216 0 21
+0
+D0
+~
+~
+0 0 17124
+D1
+~
+~
+8 0 17126
+D2
+~
+~
+0 0 17122
+S
+#17124
+Lathander Street~
+~
+{x
+Lathander Street continues its stretch north and south, its red-
+brick cobblestones well worn with foot traffic.  To the east is
+the pawn shop, while west is the all-Gnome owned pub, Ranaugh's
+Place.  North leads toward the Newbie Pack Factory and beyond.
+~
+0 393224 0 21
+0
+D0
+~
+~
+0 0 17198
+D1
+~
+~
+8 0 17128
+D2
+~
+~
+0 0 17123
+D3
+~
+~
+8 0 17125
+S
+#17125
+Ranaugh's Place~
+~
+{x
+A decent sized pub for a decent sized crowd, Ranaugh's Place offers
+cozy dark corners for clandestine meetings, as well as a highly
+polished mahogany bar lined with several stools.  On the walls hang
+various heads of animals - deer, elk, bear, boar, and wolf.  The
+floor is coated in a fine layer of sawdust, and creaks whenever weight
+is placed upon it.  The smell of stale beer and peanuts resides in the
+air, floating in combination with pipe smoke that filters the neon 
+lights that color the room.
+~
+0 394248 0 0
+0
+D1
+~
+~
+8 0 17124
+S
+#17126
+New Beginnings Cafe~
+~
+{x
+It isn't the most elegant of dining establishments, but the
+New Beginning's Cafe is definitely more upscale than some
+places in the realms.  Large murals of seascapes and under-
+water images are painted on the walls.  Deep blue tiles cover
+the floors, a compliment to the dark wood tables and chairs.
+A door to the east leads to the kitchen but is rarely opened,
+instead, food is delivered through a open window that connects
+the sides.  A magical barrier keeps the sounds of the kitchen
+from spoiling the laid-back atmosphere.  There is a sign by
+the door.  {W[{YREAD SIGN{W]{x
+~
+0 394248 0 0
+0
+E
+sign~
+Welcome to the New Beginnings Cafe.
+{x
+Our waiter, Edmond, needs your patience when you order.
+Though it may appear it takes a long time to get your
+food - trust that our Chef is taking that time to make
+something extra special and well worth the wait.
+~
+D1
+~
+~
+8 0 17127
+D3
+~
+~
+8 0 17123
+S
+#17127
+New Beginnings Kitchen~
+~
+{x
+This room is HOT.  Stoves and ovens are constantly on, cooking up the
+orders and baking the breads and pastries for hungry adventurers.  The
+room itself is tiled in black and white on the walls, while the floor
+is comprised of earthenware tiles.  The stoves and ovens are top of the
+line and are coated in a light covering of grime from so much use.  A 
+bar for making salads sits in the center of the room and in the back is
+a dishwashing station, full of dirty dishes.
+~
+0 393224 0 0
+0
+E
+stove~
+A stove sits here, burning overtime to bring hot meals up to snuff.
+~
+E
+oven~
+An oven sits here, heating up the room as it bakes various foods.
+~
+D3
+~
+~
+8 0 17126
+S
+#17128
+New Beginnings Pawn Shop~
+~
+{x
+This shop is rather small in size, but on every spare inch of wall hangs
+some sort of knick-knack, armor piece, weapon, or trinket.  The entire
+store smells like musty leather and sweat.  Flickering fire orbs hang in
+midair to light the room, growing brighter when night falls.  A few rows 
+of shelves sit in the center of the room, loaded with junk.  A counter at
+the back of the room holds the cash register, which itself is antique in
+appearance.
+~
+0 394248 0 0
+0
+D3
+~
+~
+8 0 17124
+S
+#17129
+Lobby of the Survival Pack Factory~
+~
+{x
+Highly polished wooden walls gleam under the glow of industrial strength
+fluorescent lights.  The floor is a dark marble buffed to a shine.  The
+room itself is rather small, with a short, plush sofa against the wall 
+for people to wait upon.  Two large potted plants sit on either side of
+the secretary's desk, above which hangs the name of the building in gold
+letters: "Survival Pack Factory."  A tall double-door leads into the
+factory itself on the northern wall.
+~
+0 393224 0 0
+0
+E
+desk~
+A secretary's desk sits here, gleaming along with the walls.
+~
+D0
+~
+~
+8 0 17135
+D2
+~
+~
+8 0 17198
+S
+#17130
+Survival Pack Factory~
+~
+{x
+Leather pieces lay abandoned on stalled out machines that have
+remained dormant for some time.  Florescent bulbs flicker on 
+and off, some long dark.  Rat tracks can be discerned in the 
+thick coating of oil that lays on the floor.
+~
+0 393224 0 0
+0
+E
+tracks~
+Definitely some large tracks from a large rat.
+~
+D0
+~
+~
+0 0 17134
+D3
+~
+~
+0 0 17192
+S
+#17131
+Survival Pack Factory~
+~
+{x
+Long stalled machines sit in neat rows, permanently stalled with
+pieces of unassembled survival packs.  Squeaks and screeches of
+rats echo off the walls, and the entire building smells like a
+warm puddle of rat pee. 
+~
+0 393224 0 0
+0
+D0
+~
+~
+8 0 42000
+D1
+~
+~
+0 0 17132
+D2
+~
+~
+0 0 17194
+S
+#17132
+Survival Pack Factory~
+~
+{X
+Dirt and old engine grease coats the floor, and the smell of rat
+piss floats on the air.  Long stalled machines sit unused, still
+holding the remains of unassembled survival packs.  The factory
+is large and echoes with the squeaks and screeches of the rats
+that have infested it and call it home.
+~
+0 393224 0 0
+0
+D1
+~
+~
+0 0 17133
+D2
+~
+~
+0 0 17193
+D3
+~
+~
+0 0 17131
+S
+#17133
+Survival Pack Factory~
+~
+{x
+Long stalled machines sit in neat rows, permanently stalled with
+pieces of unassembled survival packs.  Squeaks and screeches of
+rats echo off the walls, and the entire building smells like a
+warm puddle of rat pee. 
+~
+0 393224 0 0
+0
+D1
+~
+~
+0 0 17134
+D2
+~
+~
+0 0 17192
+D3
+~
+~
+0 0 17132
+S
+#17134
+Survival Pack Factory~
+~
+{x
+Dirt and old engine grease coats the floor, and the smell of rat
+piss floats on the air.  Long stalled machines sit unused, still
+holding the remains of unassembled survival packs.  The factory
+is large and echoes with the squeaks and screeches of the rats
+that have infested it and call it home.
+~
+0 393224 0 0
+0
+D1
+~
+~
+0 0 17135
+D2
+~
+~
+0 0 17130
+D3
+~
+~
+0 0 17133
+S
+#17135
+Survival Pack Factory~
+~
+{x
+Unlike the beautiful lobby, gleaming and polished, the hallway to the
+Survival Pack Factory is dirty with a coat of grease and smells like
+overworked machines that line the factory.  Overlaying it all is the
+scent of rat piss and leather.  Long cylindrical florescent lights 
+flicker on and off in random patterns all along the length of the
+corridor.
+~
+0 393228 0 0
+0
+D2
+~
+~
+8 0 17129
+D3
+~
+~
+0 0 17134
+S
+#17136
+Dirt Path~
+~
+{x
+The hill here descends toward the town and continues to the
+east.  Tall grasses bend and sway in the gentle breezes that
+flow through the terrain, bringing with them the scents of
+various wildflowers that grow everywhere.  A small hut sits
+a little farther off in the distance.
+~
+0 131076 0 28
+0
+D1
+~
+~
+0 0 17137
+D5
+~
+~
+0 0 17196
+S
+#17137
+Dirt Path~
+~
+{x
+The dirt path continues to the east and west, curving gently
+through the grass and flower covered landscape.  To the south,
+a small hut sits, smoke curling lazily from its small chimney.
+Flowers line the small pathway and cluster at the base of a 
+{Ysign{w that leans to the side.{x
+~
+0 131072 0 28
+0
+E
+sign~
+{GH{gelga {wthe {GH{gealer   
+{x
+{gAre you in need of healing?  Please, come
+{ginto my hut and I will help you - I only
+{gask small compensation for my time.  So
+{glong as you are good of intent, you may 
+{grest here for free.  I welcome all into my
+{ghome.{x
+~
+D1
+~
+~
+0 0 17138
+D2
+~
+~
+8 0 17195
+D3
+~
+~
+0 0 17136
+S
+#17138
+Dirt Path~
+~
+{x
+The dirt path forks in three directions here, north, south
+and west.  A {Ysign{w sits at the juncture, informing adventurers
+which direction leads where.  In the north, off in the distance,
+a large forest rises up toward the sky.
+~
+0 131073 0 28
+0
+E
+sign~
+{y                                              S3                                                     
+{y                                             9@@&                                                    
+{y                                             @9@@                                                    
+{y                                            ,@iH@,                                                   
+{y                                            i@2B@5                                                   
+{y                                            i@AB@S                                                    
+{y                                             AB@B            ...,,::;;;rrsi52X9GAABM#@#;             
+{y                                             AB##iAH#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@3          
+{y                                             9#@@M@@@@    {rSOUTH TO RABBIT GULCH    {y####@@;           
+{y                                             h###9AHA#MMMMMMMMMMMMMMMMMBBMMMMMMMMMMMM#@#:            
+{y      .Sirr;::,,..                           X##M&M#B@##########MMMBHHHAA&Gh9XX22SSissr          
+{y     r@@@@@@@@@@@@@@@@@@@@##MHAG325isrr;::,. GHBB;;;;:,..                                            
+{y    S@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@A@X                                                    
+{y    .H@#MMMMM      {RNORTH TO FOREST      {y@@@@@@h@9                                                    
+{y      r################################M######h@A                                                    
+{y                 ..,:::;;rrsiS22X3hGAAHHM@@@@@G@A                                                    
+{y                                             AA@@                                                    
+{y                                             2@@@@Mi,                                                
+{y                                             9@#@@@@@@#5:                                            
+{y                                             h@#@@ {mWEST {y@@@@X:                                        
+{y                                             AMA@@@@@@ {mTO {y@@@i                                       
+{y                                             B#M3.rXM@@ {mTOWN{y @                                       
+{y                                             h@@5      ;5H@@@M                                       
+{y                                             G@@h           r       
+{y                                             G@@A                                                 
+{y                                             G@@H                                         
+{y                                             G@@H             
+{y                                             G@@H            
+{y                                             A@@M                                                                           
+~
+D0
+~
+~
+0 0 17148
+D2
+~
+~
+0 0 17139
+D3
+~
+~
+0 0 17137
+S
+#17139
+Dirt Path to Rabbit Gulch~
+~
+{x
+The dirt path ends at the edge of a small ravine.  From here,
+one can see why it is called Rabbit Gulch - they are everywhere.
+Their ears stick up from the grasses as they eat, hop, and 
+nibble.  There is a {Ysign {wat the edge of the path before it
+disappears into nothing.{x
+~
+0 131077 0 28
+0
+E
+sign~
+{GWELCOME TO RABBIT GULCH!
+{X
+{gThis area is for adventurers who have 
+{gobtained level 3 through level 10.
+{gPlease have fun and don't feed the
+{grabbits.{x
+~
+D0
+~
+~
+0 0 17138
+D5
+~
+~
+0 0 17140
+S
+#17140
+Rabbit Gulch~
+~
+{x
+Grasses and wildflowers grow here nearly as tall as a
+human man's waist.  They sway and bend in the breeze
+that flows through the gulch, though some are bent over
+much farther than the rest, proof that rabbits wend 
+their way through here constantly.
+~
+0 131073 0 4
+0
+D1
+~
+~
+0 0 17141
+D2
+~
+~
+0 0 17147
+D4
+~
+~
+0 0 17139
+S
+#17141
+Rabbit Gulch~
+~
+{x
+Thatch covers the ground in heaps here, making perfect
+places for bunnies to burrow and keep snug and warm at
+night.  Tall grasses and wildflowers grow everywhere,
+providing perfect cover for rabbits to dart to and fro
+without a care in the world.
+~
+0 131073 0 4
+0
+D1
+~
+~
+0 0 17142
+D2
+~
+~
+0 0 17146
+D3
+~
+~
+0 0 17140
+S
+#17142
+Rabbit Gulch~
+~
+{x
+Game trails of rabbit proportions run east, west, and
+south here, proving that rabbits have overrun this 
+gulch.  The grasses are nibbled back in places, as are
+the wildflowers.  Tiny piles of rabbit droppings lay 
+scattered about along the trails.
+~
+0 131073 0 4
+0
+D1
+~
+~
+0 0 17143
+D2
+~
+~
+0 0 17145
+D3
+~
+~
+0 0 17141
+S
+#17143
+Rabbit Gulch~
+~
+{x
+Green grass nearly half the size of a man grows in lush
+patches here, interwoven with a myriad of brightly colored
+wildflowers.  Small game trails cross-cross to the south
+and west, dotted with bunny droppings.
+~
+0 131073 0 4
+0
+D2
+~
+~
+0 0 17144
+D3
+~
+~
+0 0 17142
+S
+#17144
+Rabbit Gulch~
+~
+{x
+The lush grass grows wild here, strewn with wildflowers that
+bloom in the thousands.  Small pathways can be discerned, grass 
+that has been bent to the sides to make way for bunny bodies.
+Thatch is built up heavily along the hillside from years of
+grass death and decay.
+~
+0 131073 0 4
+0
+D0
+~
+~
+0 0 17143
+D2
+~
+thatch~
+32776 0 17184
+D3
+~
+~
+0 0 17145
+S
+#17145
+Rabbit Gulch~
+~
+{x
+Grasses and tall wildflowers reach up to a human male's
+waist in this area, though some have been trampled down
+to the ground to make perfect bunny sunning spots.  Bunny-
+sized game trails run to the north, east, and west.
+~
+0 131073 0 4
+0
+D0
+~
+~
+0 0 17142
+D1
+~
+~
+0 0 17144
+D3
+~
+~
+0 0 17146
+S
+#17146
+Rabbit Gulch~
+~
+{x
+Tall wildflowers grow with reckless abandon here, swaying
+and bending whenever the slightest breeze comes along.  A
+game trail runs east, west, and north here, proof that the
+rabbits that call this gulch home are constantly busy and 
+on the move.
+~
+0 131073 0 4
+0
+D0
+~
+~
+0 0 17141
+D1
+~
+~
+0 0 17145
+D3
+~
+~
+0 0 17147
+S
+#17147
+Rabbit Gulch~
+~
+{x
+Bent and trampled grasses abound here as the rabbits
+have used this very area as a perfect spot to sun.
+The wildflowers continue to thrive, even if all their
+lower buds have been nibbled off.  A rabbit-sized game
+trail heads off to the north and east.
+~
+0 131073 0 4
+0
+D0
+~
+~
+0 0 17140
+D1
+~
+~
+0 0 17146
+S
+#17148
+Dirt Path~
+~
+{x
+The dirt path forks here, heading south toward town, north
+toward a hut in the distance, and east toward a rather large
+forest on a hill.  Tall grass grows in all directions along
+the sides of the path, dotted with wildflowers.
+~
+0 131073 0 28
+0
+D0
+~
+~
+0 0 17149
+D1
+~
+~
+0 0 17153
+D2
+~
+~
+0 0 17138
+S
+#17149
+Dirt Path~
+~
+{x
+The dirt path heads to the north and south here, surrounded
+by wildflowers and tall grasses.  To the west sits a small,
+unassuming hut with a chimney that lets out trails of smoke.
+A light breeze blows gently, bending the grass and wildflowers
+like a sea with living waves.
+~
+0 131073 0 28
+0
+D0
+~
+~
+0 0 17151
+D2
+~
+~
+0 0 17148
+D3
+~
+~
+8 0 17150
+S
+#17150
+Tanner's Hut~
+~
+{x
+This hut is small and filled from floor to ceiling with
+many types of pelts, skins, and tools for creating not 
+only the pelts themselves, but items.  The hut itself 
+smells like a mix of leather and dead animal - the type
+of scent that gets into the nose and doesn't leave.  A
+small stove sits in the corner offering warmth.
+~
+0 132108 512 0
+0
+E
+skin~
+Several pelts hang here - badger, deer, fox, wolf,
+bear, and beaver.  Skins also adorn the walls, including
+exotics such as dragon and wyvern.
+~
+E
+pelt~
+Several pelts hang here - badger, deer, fox, wolf,
+bear, and beaver.  Skins also adorn the walls, including
+exotics such as dragon and wyvern.
+~
+D1
+~
+~
+8 0 17149
+S
+#17151
+Dirt Path~
+~
+{x
+The dirt path forks here, going east which leads to a rather
+tall hill, and to the west toward a smaller hill which appears
+to have huts atop its crest.  To the southwest is a lone hut,
+while to the southeast is a large forest that caps several
+small hills.
+~
+0 131073 0 28
+0
+D1
+~
+~
+0 0 17185
+D2
+~
+~
+0 0 17149
+D3
+~
+~
+0 0 17152
+S
+#17152
+Dirt Path~
+~
+{x
+The dirt path runs east and west here, flanked on both
+sides by gently swaying grasses and wildflowers.  Bees
+and butterflies make their daily rounds as ants trudge 
+along in long marching trails.
+~
+0 131073 0 28
+0
+D1
+~
+~
+0 0 17151
+D3
+~
+~
+0 0 17176
+S
+#17153
+End of the Dirt Path~
+~
+{x
+The dirt path dwindles into grasses that rise up a hill
+and appear to give way to tall trees.  The forest itself
+looks cool and soothing and at the slightest breeze, it
+rattles its leaves gently.  A {Ysign {wsits on the side
+of the path.
+~
+0 131077 0 28
+0
+E
+sign~
+{gFo{8re{gst {wof {RD{Ya{Ww{Yn{x
+ 
+{gThis forest is teeming with life and is
+{gintended for Adventurers that have attained
+{ga level of 10 through 20.  Don't forget -
+{gpacked in - packed out.  Enjoy.{x
+~
+D3
+~
+~
+0 0 17148
+D4
+~
+~
+0 0 17154
+S
+#17154
+Forest of Dawn~
+~
+{x
+The rich smell of humus scents the air and floats along
+with the chirps and trills of birds.  Ancient trees rise
+up from the ground, their trunks covered in thick moss 
+and lichens.  The occasional rustle of leaves can be 
+heard in the bushes and ferns that unfurl from the ground.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17155
+D1
+~
+~
+0 0 17157
+D5
+~
+~
+0 0 17153
+S
+#17155
+Forest of Dawn~
+~
+{x
+The edge of the forest overlooks the dirt path to the west,
+far down the hill.  The vegetation is a bit more sparse
+here, but the scent of humus still wafts on the breeze.
+The occasional bird burst from the treetops and sails down
+over the hill and into the distant horizon.
+~
+0 131073 0 3
+0
+D1
+~
+~
+0 0 17156
+D2
+~
+~
+0 0 17154
+S
+#17156
+Forest of Dawn~
+~
+{x
+Thick, ancient trees grow here - their trunks wide and
+knotted with age - rising high into the sky.  The canopy
+whispers with the breeze, the leaves chattering like the
+birds that sail through them and the various animals that
+make their homes high in the trees.
+~
+0 131073 0 3
+0
+D1
+~
+~
+0 0 17161
+D2
+~
+~
+0 0 17157
+D3
+~
+~
+0 0 17155
+S
+#17157
+Forest of Dawn~
+~
+{x
+The trunks of ancient trees grow thick here, layered in thick
+moss and lichens.  A couple of trees, long since fallen, lay
+in the humus decaying.  Bird trills and chirps can be heard
+in the canopy overhead and their every move can be heard as
+they rustle the leaves.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17156
+D2
+~
+~
+0 0 17158
+D3
+~
+~
+0 0 17154
+S
+#17158
+Forest of Dawn~
+~
+{x
+To the west, if one walks to the very edge of the trees, the
+rooftops of the town can barely be seen over the edge of the
+hill.  Trees and bushes are sparse at the edge of the forest,
+but the scent of moist humus still permeates the air.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17157
+D1
+~
+~
+0 0 17159
+S
+#17159
+Forest of Dawn~
+~
+{x
+The forest gently slopes downhill toward a darker part
+of the wood.  The trees grow a little thicker here,
+providing excellent shelter for the animals that roam
+the woods and call them home.
+~
+0 131073 0 3
+0
+D3
+~
+~
+0 0 17158
+D5
+~
+~
+0 0 17160
+S
+#17160
+Forest of Dawn~
+~
+{x
+The forest grows a bit darker here as the trees are
+thicker and more close together.  The trees are also
+much older and more gnarled.  Bushes rustle occasionally
+with animals darting for cover and foraging for food.
+~
+0 131073 0 3
+0
+D1
+~
+~
+0 0 17165
+D4
+~
+~
+0 0 17159
+S
+#17161
+Forest of Dawn~
+~
+{x
+A gentle slope leads down into an even darker and cooler
+part of the forest.  The trees here are ancient, with 
+trunks covered in hanging mosses and lichens.  The 
+occasional rustle of leaves can be heard from the bushes
+and newborn trees that sparsely line the ground.
+~
+0 131081 0 3
+0
+D3
+~
+~
+0 0 17156
+D5
+~
+~
+0 0 17162
+S
+#17162
+Forest of Dawn~
+~
+{x
+The shadows of the darker forest makes for the
+slightest of chill.  The trees here seem even
+more ancient and closer together, blocking out
+much of the light that could come in from the 
+canopy.
+~
+0 131073 0 3
+0
+D1
+~
+~
+0 0 17163
+D4
+~
+~
+0 0 17161
+S
+#17163
+Pond in the Forest of Dawn~
+~
+{x
+A small pond sits beneath the still shadows of 
+ancient trees.  Its surface is covered by leaves
+that have fallen, lichens that have died, and algae
+that floats in the water.  Bubbles can occasionally
+be seen from fish and frogs that call the pond home.
+~
+0 131073 0 3
+0
+E
+pond~
+It is a small pond with a surface covered over with
+debris.  Bubbles pop up every now and again from the
+life beneath.
+~
+D3
+~
+~
+0 0 17162
+D4
+~
+~
+0 0 17164
+S
+#17164
+Forest of Dawn~
+~
+{x
+The shadows seem to darken as the forest slopes deeper
+into itself.  There are no true discernible pathways
+here - all being overgrown with ferns and vines.  Trees
+seem to huddle close, as though seeking warmth through
+their lichen covered trunks.
+~
+0 131073 0 3
+0
+D2
+~
+~
+0 0 17165
+D5
+~
+~
+0 0 17163
+Q 17170
+S
+#17165
+Forest of Dawn~
+~
+{x
+The forest darkens and deepens here, the smell of
+humus hangs more thickly in the air, unable to be
+reached by anything but rough wind.  Lichens and 
+mosses grow on the trunks of trees, hanging down 
+like beards that touch the ground.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17164
+D2
+~
+~
+0 0 17166
+D3
+~
+~
+0 0 17160
+Q 17165
+S
+#17166
+Forest of Dawn~
+~
+{x
+Deep shadows stretch within the woods here and
+strange bird calls can be heard.  The breeze rarely
+penetrates this stretch of forest as the trees are
+densely packed.  The leaves in the canopy only allow
+a small amount of light through, leaving the ground
+covered in ferns and vines.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17165
+D1
+~
+~
+0 0 17167
+S
+#17167
+Forest of Dawn~
+~
+{x
+A small game trail is the only visible means of
+traveling through the forest at this point.  The
+ancient trees grow very close together, their trunks
+melding in some places to create what looks like one
+large tree.  Lichens and mosses cling to everything
+here.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17168
+D3
+~
+~
+0 0 17166
+Q 17170
+S
+#17168
+Forest of Dawn~
+~
+{x
+The game trail splits here, heading east into more of
+the darker recesses of the forest, and north into a spot
+that seems to have ample light - a place where the trees
+have grown together to form a dome.  South is more of the
+deep forest that is the hallmark of the Forest of Dawn.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17171
+D1
+~
+~
+0 0 17169
+D2
+~
+~
+0 0 17167
+Q 17170
+S
+#17169
+Forest of Dawn~
+~
+{x
+The trees are dense here and the only pathways that
+can be used, are game trails used by the creatures of
+the forest.  Lichens and moss grow on every tree trunk,
+and ferns and vines fill every space on the ground.
+~
+0 131073 0 3
+0
+D0
+~
+~
+0 0 17170
+D1
+~
+~
+0 0 17173
+D3
+~
+~
+0 0 17168
+S
+#17170
+Forest of Dawn~
+~
+{x
+The deep forest grows even darker as it slopes down yet
+another hill.  Ferns here grow as tall as a human man in
+some places, while the ancient trees seem taller and even
+closer together.  To the west, a group of trees have grown
+together to create a dome shimmering with sunlight.
+~
+0 131073 0 3
+0
+D2
+~
+~
+0 0 17169
+D3
+~
+~
+0 0 17171
+D5
+~
+~
+0 0 17172
+S
+#17171
+{ySpot {Gin {gthe {CTree{cs{x~
+~
+{gThe {Cspot{c is {Ya tr{yibut{Ge to{g mot{Cher {cnatu{Yre's{y mag{Gic, {g a c{Comin{cg to{Ygeth{yer{x
+{gof{C sev{cen o{Yf  t{yhe f{Gores{gt's {Ctree{cs to{Y cre{yate {Ga do{gme o{Cf br{canch{Y and{y lea{Gf.{x
+{CSo{cft s{Yun l{yight{G fil{gters{C  th{croug{Yh th{ye do{Gme, {g kis{Csing{c the{Y lea{yves {Ggent{gly{x
+{can{Yd fi{yllin{Gg th{ge ai{Cr wi{cth w{Yarmt{yh.  {GSubt{gle b{Creez{ces r{Yustl{ye ar{Gound{g, ea{Cch{x
+{Ybr{yingi{Gng w{gith {Cit t{che b{Yirds{y' li{Gght {gand {Cjoyf{cul s{Yongs{y.  D{Gew s{ghimm{Cers {con{x
+{yth{Ge br{ganch{Ces t{chat {Yform{y the{G flo{gor a{Cs li{cght {Yand {yshad{Gow d{gance{C pla{cyful{Yly{x
+{Gto{ggeth{Cer. {c A f{Yeeli{yng o{Gf se{greni{Cty i{cs se{Yttle{yd ov{Ger t{ghe d{Come.{x
+~
+0 132100 0 14
+0
+D1
+~
+~
+0 0 17170
+D2
+~
+~
+0 0 17168
+S
+#17172
+Forest of Dawn~
+~
+{x
+The forest darkens to almost black in this portion.  The ferns
+that grow wild elsewhere can't even thrive here, only the canopy
+above gives any indication that life can flourish.  The smell of
+wet humus hangs in the air, along with the distinct scent of 
+mold and fungus.{x
+~
+0 131073 0 3
+0
+D4
+~
+~
+0 0 17170
+S
+#17173
+Forest of Dawn~
+~
+{x
+The forest is incredibly dark here and virtually no
+sunlight comes through the canopy.  It smells wet and
+musky and grows even more so as the forest slopes down-
+hill yet again.  Very large ferns, well adapted to low-
+light conditions, flourish here.
+~
+0 131073 0 3
+0
+D3
+~
+~
+0 0 17169
+D5
+~
+~
+0 0 17174
+S
+#17174
+Forest of Dawn~
+~
+{x
+At the bottom of the hill, suddenly it seems, there is a
+large spot of sunlight.  Trees here have been knocked over
+and there are a myriad of fallen logs laying here and there.
+Large footprints have trampled the ferns down completely.
+~
+0 131073 0 3
+0
+D1
+~
+fallen~
+32776 0 17175
+D4
+~
+~
+0 0 17173
+S
+#17175
+Cavern in the Forest~
+~
+{x
+{8The cavern is very, very large and lined with boughs of
+{8trees.  A very large nest is at the center of the cavern,
+{8lined with thousands of bird feathers.  It smells like
+{8musk and the walls seem to ooze with a slime that shimmers
+{8in the virtual darkness.{x
+~
+0 131081 0 20
+0
+D3
+~
+fallen~
+32776 0 17174
+S
+#17176
+Dirt Path~
+~
+{x
+The path rises upward on a small hill.  At the top a couple
+of huts can be seen with thin wisps of smoke rising from 
+their tops.  The languid breeze that drifts in the air 
+brings with it the gentle scent of flowers and earth.  A 
+{Ysign{w sits on the side of the path.{x
+~
+0 131077 0 28
+0
+E
+sign~
+{CQ{yuail's {CT{yail {CV{yillage {w- ahead.
+{x
+{cQuaint and quiet, we're all you need for a
+{crelaxing moment away from it all.  Please
+{csee the chief if you wish to stay.{x
+{x
+{W({CL{yevels {C20 {w- {C30{W){x
+~
+D1
+~
+~
+0 0 17152
+D4
+~
+~
+0 0 17177
+S
+#17177
+Village Path~
+~
+{x
+A small village sits at the top of this hill.  A total of
+five huts sit along the small dirt path.  The smell of 
+cooking stew drifts on the breeze and the sound of small
+children playing can be heard in the distance.  The largest
+hut sits directly to the north.
+~
+0 131072 0 28
+0
+D0
+~
+~
+0 0 17178
+D1
+~
+~
+8 0 17182
+D3
+~
+~
+8 0 17183
+D5
+~
+~
+0 0 17176
+S
+#17178
+Village Path~
+~
+{x
+This small village is very quaint.  The scent of cooking
+stew drifts on the breeze along with the sounds of small
+children playing.  To the north sits the largest of all
+the huts, spilling smoke into the air from its small
+chimney that rises up through the thatch roof.
+~
+0 131072 0 28
+0
+D0
+~
+~
+8 0 17179
+D1
+~
+~
+8 0 17180
+D2
+~
+~
+0 0 17177
+D3
+~
+~
+8 0 17181
+S
+#17179
+Village Chief's Hut~
+~
+{x
+This is the largest of all the huts on the hill and it is very
+large.  The floors are strewn with pelts from various animals
+and the walls are lined with elaborate woven rugs.  Pottery sits
+along a circular shelf at the top of the hut, while various 
+weapons - ceremonial and otherwise - hang from the rafters.  A
+large firepit sits in the center of the room, its smoke rising
+into a hole at the top of the roof.
+~
+0 132104 512 0
+0
+E
+pottery~
+92&h2srSM@@@#@@#MBBM@@@@@#BM@@@##@@@@3i5r;;;;,.                  ,;5h@@@G3XX32SrsiS2XX2295r23GhSr;;;;:,,:rSr
+Ah@@@@@@@@@#M####BBB#@#@@@BM@@@#@@#S,                ..,,.               .;i235rrrr5hX2X93riXhH#@3;::,:::,rr
+#@@@@@@@@@@#B@@##@@#####@@##@@#@3        .,,::;;rrssiiSSSSS55555Sisr;:,      .ihX5sri22XXhX3AHHHM#3r;:,,,,::
+#@@@@@@@@@@#M@@@@@@@########@@@A    .,:;;;;;;rrrrrrrsssiiS552222XX3h9X22Sr;,   5@#H&93339G&G&GG&ABMBB&X9A@Ms
+##@@@#@@@@@#M@@@@@@#########M#@&.   ,;;;rrr;;;;rrrrrssssssiiS5522X39GAAHAGXr    @@@@@MA&G&h9GhhhGAAHHM##@@@B
+#@@@#@@@@@@#M@@@#@###########@@@hA5;,    .,::;;;rrssiiSS522XXX33XXX2isr:,.      2BX&@@@#MHHAAh999h&&G&AGB@BG
+#@@@@@@@@@@##@##############@@#9GM##MAXi;:..        .......               .,::, :#5;;r2A#32HAHAGhh9GGGGhB#AG
+#@@@@@#@@@@##@##@###M#####@#9ssrS9AAAHMMMBHAhX5ir;;::,,,,...    ..,,::;;;;;;;:,. #@@BXr;rG&XhAAMH&GhGA&hAAh3
+A2S53B#######@###########MXsi@M;sS2XX3X2XXX39939h3XXX255S5Siiissrrrr;;;;:::,,,.. s@#BAAX;iGXi;;iGMHAAA&G&AAX
+i:rsX9A@@@##BB######MM#B3S2M@@rsiiiS52255SSSSSS555555SSSiiisssrrrr;;;::,,...,,,.  M@H##HhA2::rS2&###MBHAAHBA
+3hA&A952#@@@Bh#@#BBMMH32G#@@@;:rsiSS5555Siiisssssssrrrrrrr;;;;;;;:::,,,,,....,,.   B@@AA#@@M2r2#@MM####MBBBA
+XXAH&25rrM@@#2#@@@MBGX&#@##H,.:;rrrsiiSSSisssssrrr;;;;;;;::::::::,,,,,,,,,......    A@@@@##@@@9sXBMMMMMMGHMB
+9i2&939222@@Mi#@@@BhAMBAHMX  ,;;rrrrrrrrrsrrrrrr;;;;;;;::::::::::::,,,,,,.......     i@@@@@@@@@#A@#M##@@#HiX
+95X5Shh9XS3@As#@#&A@@@@@H9r ,::;;;rrrrr;;;;;;;;;;;;;;;;;;::::::,,,,,,,,..........     S@@@@@@@#@@@#B####@@@A
+h9&&5hAGGX;&3rA#&#@@@@@#22H2;,,,:::;;;;;;;;;;;;;;;;;:;;;:::::::,,,,.,,,,.......    :Si::&@@@@##@@#B######@@#
+AHMHXXBHAXSriGAB@@@@@@SsS3A#@A5;,...,::::;;;:;;;::::::::::,,,,,,........       ,r2AA3ir;,;#@################
+&HMB&5&HHGAG9@@@@@@@&:;99hGHB#@@Mh5ir::,,,,,,,,,,,,,,,,,,...            .,:rriGBMAh25iisr  3@########M######
+AH#MA2XAhAMM@@@@@@M;::rX&GG&AAAAH#@@@#MHA9X5ir;;;:::,,,,,::,,,:;rrriS2X9&AAHHAh3X25S555i;.  i@@#####MBBMM###
+&hAG&G2hAMM&@@@&&S ,isrrS3GG&&hG&AAAAHBM####@@@@@####MBHHBMBMBBBHHAAAGh93X2X2222252Sir;,,::, r@@##MBAHB####M
+AA&&GGX9##BB@&rXs .2isssrrsi55X9hG&&&&A&&&AAAAHHHHHHHAAA&GGGhh93XX2522555555Siisrr;:,,,:;;s   ,@@#MAAHBHMB@#
+9GBM#MH9###GrrH9..SSssrrssr;;;rrrsS223hG&G&&&GhGhhhhh9h933X3XXXX225Sisr;;;;::,,,,,:::;;;;rr    r@#BAAAAH#@XA
+5ri2&BM&B@BrsXh,;;9si5222XXXX5irrr;rrrrrrsiiiS552555SSSSSiiiissr;;;;:,,,,,,,,,:;;rrrr;;;;rs     5@HBMM#@@@As
+2S2Ssi9&M@s;X#:r:2XX2s;,...,:sXh2sssrrr;;;;::;;:::;;::::::::::,,,,,,,,,,:,:rsrr;;;;;rrssr;5: ,   A###@#hi;#h
+XXh3XX22sssA@2;9:hhs........   ;3Girrrsrrrrr;;rrssiiiiissr;::::::::::::::ri;           ,riis  ;: r@@@A;.. ;i
+25X3hhSr;:2A3;hir#;,:::::::,,,.  ;A5ssrrrrrrS2s;:,,...,:;sS25s;;;;;;;;;:i;            ,  ,SG;  :; s;:..r,h3s
+XSS5i;;r55r;5i#,GS,;rrrr;;;::,,.. ,A2rsrsr23r.              ,r22s;;;;;:2,        ,:   .;:  rB.  ,r.::;rs@@@M
+X22s::ri5Si;XX#:Hrrrrrrrr;;;;;::.. ,B5iii3r   .......... :r.   ,s2r;;;ii   ...  ..;s:.  ;i. ;h.  ;X:,;i@@@@#
+Sr;,;rssiir29BArHsrrssrr;Gs;rr;;X;, r#is9; .,,.,,,,:,.,.. ,sS,   .s2r;2, ....rS:   ,ri,  ,2, ;h.  G;r@@@####
+s,:riisrrsrG&@XiArsr2hrsr5@;rrr;2B,:.XASr :::ri,,:,;Sr,,,,. :&X.   :3iS. .,,,.;XX, . :3;  .H; :Mr :#@@@###M#
+;,riSiissrrA@@2SHrissBsss;&G;rrr:B2,:,MH,,:;::s2,,:,,i&;.,,,..A#r   ,hA..,,,..  rhr . .3i  ;@; r@2rB@@@##@@#
+r:;sisrrrr;A@@h5HrSir#Xrsrr@i;rr;s@;:,2@::::::,rA:.,:.s@S.,,,..H@X.   AX .,,,,.. ,HG. . MX  X@: h#Xs#BBBBBMM
+r;;;ssrrr;;9M#A5#SX2iA@risr#@;rrr:@@::;@9:s;;;;,S@;.:,.r@A:.,, :@@B;  ,@5.,,,,,,,. A@;  ,@5 ,@H :Brr@@@@##@@
+r;r;;rssrr;XHHBi@522S2@XsirX@A;ss;G@2::2@s;;;;;;,A@s,::.s@#;.:, X###s .:@&.,:,,,,...#@s  2@: M@; 5;s@@@@@BXX
+rr;srrrr;;rrr;5AB@i55sB@Asii@@@rrrr@@H::s@@s;rr;;:r@@h,,,;@@@i.,,MBBM@i  ;@A,.:::::, 9#@; M#iX#B.;s         
+r;rrrr;rsr;sG9Mh2@&i2iA@@5rr#@@Arrr@@@i::#@@S:;rr;,A@@B;,,H#@@X..HBHHM@;..s@#;.,:::, i#MMsAHHAXX,;i    . ,: 
+r;rsrr;rrrri&AHBr@@XiSG@@@irB@@@X;i@@@@r:i@@@9;;;;,3@@@#r.h@##@X.AMHBM@@;..2@@3:.,::.s#HHMAh2sr5::s ..    , 
+r;srrrsiS2XBX2ShS9@@Xr2@@@MrA@@@@rS@@@@B::H@@@Mr:;,X@##@@;X#M##@hBMHAAAMB,..M@@#2;:, i#AAh5sssiX:;; ...  .  
+r;rrrsXH9s, ,hXs&r#@@Xs#@@@39@#@@hi@##@@i:r@@@@@Gr.9@M#@@#BBHHHAAX2SSiSi#&. ;@##@@#&s9A2issisi2S:rr..     ..
+s;i5X2r:     ShihiS@@@H###@@####@@M@###@#;:2@@@@@@hAMAA9XG32SSSiiiiiii555@i. 9#M###M&2sssiii2s:::,2i,;: ..:,
+33; .;  ,:    25i3;AMHBHBBBHHAAAHAA&AAAA#2:;#MAA&HA3255555S52X25SS555522SB@; :M9X5isiiiii5X5:;rr:.,9i;:.,,,.
+s.    ,.,r;...5A5GisH99399h939hGGGGGh9hGA#r:rM93333XXXXXXXX222522222222252#A..h5ssiSSS5X3i;.:r;r::.;Gr:.:;: 
+~
+E
+chair~
+It is a throne made of the sturdiest of saplings and is 
+on a small raised dais at the northern edge of the hut.
+~
+E
+firepit~
+{YA {ylarge {Rf{Yi{rr{ye{Rp{Yi{yt {ysits in the center of the room.{x
+~
+E
+fire~
+{YA {ylarge {Rf{Yi{rr{ye{Rp{Yi{yt {ysits in the center of the room.{x
+~
+D2
+~
+~
+8 0 17178
+S
+#17180
+A Small Hut~
+~
+{x
+This is a very small hut and feels very cramped.  From the 
+ceiling hangs various cooking tools as well as weapons and
+clothing on lines to dry.  The walls are covered in various
+woven tapestries depicting geometric shapes of all colors.
+A small mat lays on the floor to one side, and a stove puffs
+away on the other side.
+~
+0 131080 0 0
+0
+D3
+~
+~
+8 0 17178
+S
+#17181
+A Tiny Hut~
+~
+{x
+The smallest of all the huts, this one has the same dirt
+floor but only enough room for a tiny bed and a few cooking
+implements.  Not even a small stove is here.  Woven blankets
+hang on the walls, more than the other huts have but with
+less space. 
+~
+0 131080 0 0
+0
+D1
+~
+~
+8 0 17178
+S
+#17182
+A Large Hut~
+~
+{x
+This hut is one of the larger ones.  A large bear-skin
+rug lays on the floor beneath a hammock.  The walls are
+made of reeds upon which hang woven tapestries in basic
+geometric shapes.  A small stove sits in the center of
+the room.
+~
+0 131080 0 0
+0
+D3
+~
+~
+8 0 17177
+S
+#17183
+A Medium-Sized Hut~
+~
+{x
+This medium-sized hut has been swept, the dirt on the floor
+now neatly mimicking the bristles of the broom.  A nice bed
+lays on the floor of the north wall, and several cooking tools
+sit on the opposite wall.  Fabrics hang from the ceiling to
+dry and a small stove sits on the western wall.
+~
+0 131080 0 0
+0
+D1
+~
+~
+8 0 17177
+S
+#17184
+{8Ca{wve{8rn {wof the {8Gi{wan{8t Bunn{wy{x~
+~
+{x
+{8This cavern is etched into the side of the hill and is rather
+{8large.  It is also filled with rather large pellets of rabbit
+{8crap and they are everywhere.  It smells like a mix between 
+{8earth, musk, and acrid pee.  The walls are wet, weeping with
+{8condensation that trickles to the ground before mingling with
+{8the dirt to become mud.{x
+~
+0 131081 0 20
+0
+D0
+~
+thatch~
+32776 0 17144
+S
+#17185
+Dirt Path~
+~
+{x
+The dirt path here runs north and west, flanked on each
+side by tall grasses and wildflowers that bend and sway 
+in the breeze.  To the north is a large hill upon which
+this path widens as it climbs.
+~
+0 131073 0 28
+0
+D0
+~
+~
+0 0 17186
+D3
+~
+~
+0 0 17151
+S
+#17186
+Dirt Path~
+~
+{x
+The dirt path widens ever so slightly as it climbs up
+a hill.  Along the sides of the path, the grass grows 
+thick and lush and is dotted with wildflowers.  Many
+butterflies dart here and there, avoiding the path of
+bees that also visit each blossom.
+~
+0 131073 0 28
+0
+D2
+~
+~
+0 0 17185
+D4
+~
+~
+0 0 17187
+S
+#17187
+Dirt Path~
+~
+{x
+The path broadens just a little bit here, the dirt bearing
+the footprints of many an adventurer past.  Butterflies and
+bees dart to and fro in the air, landing on the delicate
+blossoms that dot the hillside.  A light breeze flows over
+the hillside, bringing with it a nice floral fragrance.
+~
+0 131073 0 28
+0
+D0
+~
+~
+0 0 17188
+D5
+~
+~
+0 0 17186
+S
+#17188
+Dirt Path~
+~
+{x
+The pathway turns to run east and south here, flanked on
+both sides by tall grasses and wildflowers.  Footprints 
+left behind tell of the many adventurers who have passed
+this way before.  Hillside ants roam the dirt, crossing 
+back and forth on foraging expeditions.
+~
+0 131073 0 28
+0
+D1
+~
+~
+0 0 17189
+D2
+~
+~
+0 0 17187
+S
+#17189
+Dirt Path~
+~
+{x
+The path climbs upward once again, broadening in its
+ascent.  The grasses and wildflowers are not quite as
+tall here, but still buttress the pathway on each side. 
+A small breeze blows in gentle gusts, bringing the scent
+of flowers as it wisps along.
+~
+0 131077 0 28
+0
+D3
+~
+~
+0 0 17188
+D4
+~
+~
+0 0 17190
+S
+#17190
+Dirt Path~
+~
+{x
+The dirt path comes up the hill and ends at a large stone wall to
+the north, the City of Westbridge.  To the west is a small wooden
+building that has a sign over the door.  To the east is one of the
+main roads in and out of Westbridge.  The grasses and wildflowers 
+here are much more sparse than they are further down the hill, but
+this spot provides a great view of the valley below.
+{x
+~
+0 1 0 28
+0
+E
+sign~
+{R                                                         ''''''                 
+{G          JJJJJJJJJJJ                                    {R'{r::::{R'    
+{G          J{g:::::::::{GJ                                    {R'{r::::{R'    
+{G          J{g:::::::::{GJ                                    {R'{r:::{R''                 
+{G          JJ{g:::::::{GJJ                                   {R'{r:::{R'                   
+{G            J{g:::::{GJ   {Yooooooooooo       {Meeeeeeeeeeee    {R''''       {Cssssssssss   
+{G            J{g:::::{GJ {Yoo{y:::::::::::{Yoo   {Mee{m::::::::::::{Mee           {Css{c::::::::::{Cs  
+{G            J{g:::::{GJ{Yo{y:::::::::::::::{Yo {Me{m::::::{Meeeee{m:::::{Mee       {Css{c:::::::::::::{Cs 
+{G            J{g:::::{Gj{Yo{y:::::{Yooooo:::::{Yo{Me{m::::::{Me     {Me{m:::::{Me       {Cs{c::::::{Cssss{c:::::{Cs
+{G            J{g:::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m:::::::{Meeeee{m::::::e        {Cs{c:::::{Cs  ssssss 
+{GJJJJJJJ     J{g:::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m:::::::::::::::::{Me           {Cs{c::::::{Cs      
+{GJ{g:::::{GJ     J{g:::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m::::::{Meeeeeeeeeee               {Cs{c::::::{Cs   
+{GJ{g::::::{GJ   J{g::::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m:::::::{Me                  {Cssssss   s{c:::::{Cs 
+{GJ{g:::::::{GJJJ{g:::::::{GJ{Yo{y:::::{Yooooo{y:::::{Yo{Me{m::::::::{Me                 {Cs{c:::::{Cssss{c::::::{Cs
+{G JJ{g:::::::::::::{GJJ {Yo{y:::::::::::::::{Yo {Me{m::::::::{Meeeeeeee         {Cs{c::::::::::::::{Cs 
+{G   JJ{g:::::::::{GJJ    {Yoo{y:::::::::::{Yoo   {Mee{m:::::::::::::{Me          {Cs{c:::::::::::{Css  
+{G     JJJJJJJJJ        {Yooooooooooo       {Meeeeeeeeeeeeee           {Csssssssssss 
+{x
+~
+D1
+~
+~
+0 0 3256
+D3
+~
+~
+8 0 17191
+D5
+~
+~
+0 0 17189
+S
+#17191
+Joe's Aspiring Adventurer Shop~
+~
+{x
+A tiny shop, but well kept, Joe's Aspiring Adventurer Shop is the emporium
+for those just beginning the path of adventure and exploration. On each of
+the oak-paneled  walls hang weapons of all  types as well as armor pieces.
+A glass counter contains dozens of fire opals, rings, bracelets, and pairs
+of glasses.  A large  neon sign hangs at the back of the shop, casting its
+multi-colored glow over everything.
+~
+0 263176 512 13
+0
+E
+sign~
+{R                                                         ''''''                 
+{G          JJJJJJJJJJJ                                    {R'{r::::{R'    
+{G          J{g:::::::::{GJ                                    {R'{r::::{R'    
+{G          J{g:::::::::{GJ                                    {R'{r:::{R''                 
+{G          JJ{g:::::::{GJJ                                   {R'{r:::{R'                   
+{G            J{g:::::{GJ   {Yooooooooooo       {Meeeeeeeeeeee    {R''''       {Cssssssssss   
+{G            J{g:::::{GJ {Yoo{y:::::::::::{Yoo   {Mee{m::::::::::::{Mee           {Css{c::::::::::{Cs  
+{G            J{g:::::{GJ{Yo{y:::::::::::::::{Yo {Me{m::::::{Meeeee{m:::::{Mee       {Css{c:::::::::::::{Cs 
+{G            J{g:::::{Gj{Yo{y:::::{Yooooo:::::{Yo{Me{m::::::{Me     {Me{m:::::{Me       {Cs{c::::::{Cssss{c:::::{Cs
+{G            J{g:::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m:::::::{Meeeee{m::::::e        {Cs{c:::::{Cs  ssssss 
+{GJJJJJJJ     J{g:::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m:::::::::::::::::{Me           {Cs{c::::::{Cs      
+{GJ{g:::::{GJ     J{g:::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m::::::{Meeeeeeeeeee               {Cs{c::::::{Cs   
+{GJ{g::::::{GJ   J{g::::::{GJ{Yo{y::::{Yo     o{y::::{Yo{Me{m:::::::{Me                  {Cssssss   s{c:::::{Cs 
+{GJ{g:::::::{GJJJ{g:::::::{GJ{Yo{y:::::{Yooooo{y:::::{Yo{Me{m::::::::{Me                 {Cs{c:::::{Cssss{c::::::{Cs
+{G JJ{g:::::::::::::{GJJ {Yo{y:::::::::::::::{Yo {Me{m::::::::{Meeeeeeee         {Cs{c::::::::::::::{Cs 
+{G   JJ{g:::::::::{GJJ    {Yoo{y:::::::::::{Yoo   {Mee{m:::::::::::::{Me          {Cs{c:::::::::::{Css  
+{G     JJJJJJJJJ        {Yooooooooooo       {Meeeeeeeeeeeeee           {Csssssssssss {x
+~
+E
+counter~
+This counter is filled with glowing fire opals, highly-polished
+earth rings, multi-colored beaded bracelets, and pairs of horn-
+rimmed glasses.
+~
+D1
+~
+~
+8 0 17190
+S
+#17192
+Survival Pack Factory~
+~
+{x
+The smell of stale engine oil and rat hangs thickly in the air.
+Stalled machines, full of leather pieces to make survival packs,
+sit in silence watching the infestation that has overtaken the
+factory.  Florescent bulbs flicker on and off, giving only short
+glimpses of the rats that run rampant.
+~
+0 393228 0 0
+0
+D0
+~
+~
+0 0 17133
+D1
+~
+~
+0 0 17130
+D3
+~
+~
+0 0 17193
+S
+#17193
+Survival Pack Factory~
+~
+{x
+Leather pieces lay abandoned on stalled out machines that have
+remained dormant for some time.  Florescent bulbs flicker on 
+and off, some long dark.  Rat tracks can be discerned in the 
+thick coating of oil that lays on the floor.
+~
+0 393224 0 0
+0
+E
+tracks~
+Definitely some large tracks from a large rat.
+~
+D0
+~
+~
+0 0 17132
+D1
+~
+~
+0 0 17192
+D3
+~
+~
+0 0 17194
+S
+#17194
+Survival Pack Factory~
+~
+{x
+The smell of stale engine oil and rat hangs thickly in the air.
+Stalled machines, full of leather pieces to make survival packs,
+sit in silence watching the infestation that has overtaken the
+factory.  Florescent bulbs flicker on and off, giving only short
+glimpses of the rats that run rampant.
+~
+0 393224 0 0
+0
+D0
+~
+~
+0 0 17131
+D1
+~
+~
+0 0 17193
+S
+#17195
+{GH{gelga {wthe {GH{gealer's {GH{gut{x~
+~
+{x
+{GT{ghis hut is small but offers all the comforts of home away from
+{ghome.  A fire blazes brightly in the small fireplace to the south,
+{gwhile a small table and chairs sits to the west.  The east side of
+{gthe room holds a twin-sized bed and a comfortable chair at its
+{gfoot that sits between the bed and fireplace.  Perfect for enjoying
+{ga book or two.{x
+~
+0 394248 0 14
+0
+E
+sign~
+{GI offer the following spells for your aid:
+{x
+{CIceshield      : {Wsay {YI want iceshield              
+{CFireshield     : {Wsay {YI want fireshield
+{CShockshield    : {Wsay {YI want shockshield
+{CAll 3 shields  : {Wsay {YI want elemental shields
+{CSanctuary      : {Wsay {YI want sanctuary           
+{CHaste          : {Wsay {YI want haste      
+{CFarsight       : {Wsay {YI want farsight     
+{CGiant Strength : {Wsay {YI want giant strength
+{CArmor          : {Wsay {YI want armor           
+{CFly            : {Wsay {YI want fly              
+{CShield         : {Wsay {YI want shield            
+{CEVERYTHING     : {Wsay {YI want it all {x
+~
+D0
+~
+~
+8 0 17137
+M 500 H 500
+S
+#17196
+End of Lathander Street~
+~
+{x
+Lathander Street ends - or begins - here.  The red cobblestones
+that wind through the small city gives way to a dirt path that
+heads uphill.  There is a small sign at the edge of the path
+that begs for passersby to take a moment and read. 
+ 
+{W[{YREAD SIGN{W]{x
+~
+0 393216 0 21
+0
+E
+sign~
+{R        <+><+><+> PLEASE NOTE <+><+><+>
+{X
+{y     You are about to leave the comforts of
+{y     civilization.  Be sure you have a light
+{y     on your person, for it is dark beyond
+{y     confines of the town.  May you find luck
+{y     in your adventures.{x
+~
+D3
+~
+~
+0 0 17198
+D4
+~
+~
+0 0 17136
+S
+#17197
+New Beginnings Bank~
+~
+{x
+The New Beginnings Bank is literally floor to ceiling white marble.
+Everything is highly polished and the room shines beneath the fire
+orb lights that float about.  The smell of coinage is in the air, 
+as is the sound of said coins being counted and moved about.  At the 
+far eastern edge of the room is a single barred window where all 
+transactions take place.
+~
+0 394250 512 0
+0
+E
+window~
+Typical of banks of old, it's the simplest way to keep the money
+safe and would-be thieves OUT.
+~
+D3
+~
+~
+8 0 17122
+S
+#17198
+Lathander Street~
+~
+{x
+The red cobblestones of Lathander Street make a turn here,
+running south toward the larger part of town and the shops,
+and east toward the realms at large.  North lies the Newbie
+Pack Factory, where all brand new packs are made.
+~
+0 393216 0 21
+0
+D0
+~
+~
+8 0 17129
+D1
+~
+~
+0 0 17196
+D2
+~
+~
+0 0 17124
+S
+#17199
+Marissa's Lights and Lanterns~
+~
+{x
+This shop is bright with the light of hundreds of lamps.  It
+is warm and comfortable not to mention small.  The walls are
+made of silver, which makes the shop glow all the more.  The
+floors are made of white marble, as are the ceilings.  Toward
+the rear of the store is a counter lined with scrap metal used
+to make the fine lamps and lanterns within the store.
+~
+0 394248 0 0
+0
+E
+wasp~
+{WI{wt{8e{wm{W:         {wa {8si{wlv{Wer wa{wsp {8l{wa{Wnte{wr{8n
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1
+~
+E
+silver~
+{WI{wt{8e{wm{W:         {wa {8si{wlv{Wer wa{wsp {8l{wa{Wnte{wr{8n
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1
+~
+E
+eagle~
+{WI{wt{8e{wm{W:         {wa {Ygo{Wld{wen {Yea{Wgle {Ylan{Wte{wrn
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1
+~
+E
+golden~
+{WI{wt{8e{wm{W:         {wa {Ygo{Wld{wen {Yea{Wgle {Ylan{Wte{wrn
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1
+~
+E
+dragon~
+{WI{wt{8e{wm{W:         {wa {ybra{wss {yd{wra{Wgon {ylant{wern
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1{x
+~
+E
+brass~
+{WI{wt{8e{wm{W:         {wa {ybra{wss {yd{wra{Wgon {ylant{wern
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1{x
+~
+E
+fire~
+{WI{wt{8e{wm{W:         {Wa {rFire{w o{Wp{wa{Wl
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1{x
+~
+E
+opal~
+{WI{wt{8e{wm{W:         {Wa {rFire{w o{Wp{wa{Wl
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1{x
+~
+E
+lantern~
+{WI{wt{8e{wm{W:         {wa {Ygo{Wld{wen {Yea{Wgle {Ylan{Wte{wrn
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1
+{x
+{WI{wt{8e{wm{W:         {wa {8si{wlv{Wer wa{wsp {8l{wa{Wnte{wr{8n
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1
+{x
+{WI{wt{8e{wm{W:         {wa {ybra{wss {yd{wra{Wgon {ylant{wern
+{WL{we{8ve{wl{W:{w        10
+{WA{wf{8fect{ws{W:      {whit roll +1, dam. roll +2, int +1, wis +1{x
+~
+D0
+~
+~
+8 0 17117
+S
+#0
+
+
+
+#SPECIALS
+M 17198 spec_poison
+S
+
+
+
+#RESETS
+D 0 17103 0 1
+D 0 17104 1 1
+D 0 17104 2 1
+D 0 17104 3 1
+D 0 17105 0 1
+D 0 17105 1 1
+D 0 17105 3 1
+D 0 17105 4 1
+D 0 17105 5 1
+D 0 17106 2 1
+D 0 17107 1 1
+D 0 17108 3 1
+D 0 17109 1 1
+D 0 17110 5 1
+D 0 17111 3 1
+D 0 17115 1 1
+D 0 17115 3 1
+D 0 17116 1 1
+D 0 17117 2 1
+D 0 17117 3 1
+D 0 17118 1 1
+D 0 17119 3 1
+D 0 17120 2 1
+D 0 17121 0 1
+D 0 17122 1 1
+D 0 17123 1 1
+D 0 17124 1 1
+D 0 17124 3 1
+D 0 17125 1 1
+D 0 17126 1 2
+D 0 17126 3 1
+D 0 17127 3 2
+D 0 17128 3 1
+D 0 17129 0 1
+D 0 17129 2 1
+D 0 17131 0 1
+D 0 17135 2 1
+D 0 17137 2 1
+D 0 17144 2 1
+D 0 17149 3 1
+D 0 17150 1 1
+D 0 17174 1 1
+D 0 17175 3 1
+D 0 17177 1 1
+D 0 17177 3 1
+D 0 17178 0 1
+D 0 17178 1 1
+D 0 17178 3 1
+D 0 17179 2 1
+D 0 17180 3 1
+D 0 17181 1 1
+D 0 17182 3 1
+D 0 17183 1 1
+D 0 17184 0 1
+D 0 17190 3 1
+D 0 17191 1 1
+D 0 17195 0 1
+D 0 17197 3 1
+D 0 17198 0 1
+D 0 17199 0 1
+O 0 17137 0 17101
+M 0 17115 1 17104 1
+O 0 17139 0 17104
+O 0 17138 0 17104
+M 0 17114 1 17105 1
+O 0 17140 0 17105
+M 0 17110 1 17106 1
+M 0 17111 1 17106 1
+M 0 17160 1 17107 1
+M 0 17112 1 17108 1
+M 0 17116 1 17109 1
+O 0 17141 0 17109
+M 0 17162 1 17110 1
+M 0 17118 1 17111 1
+M 0 17117 1 17112 1
+M 0 17108 1 17114 1
+O 0 17113 0 17114
+O 0 17114 0 17114
+O 0 17125 0 17114
+M 0 17105 5 17115 5
+M 0 17167 5 17115 1
+M 0 17119 1 17116 1
+G 0 17112 0
+G 0 17189 0
+G 0 17117 0
+G 0 17116 0
+G 0 17115 0
+G 0 17111 0
+G 0 17110 0
+G 0 17190 0
+G 0 17109 0
+G 0 17108 0
+G 0 17107 0
+M 0 17167 5 17117 1
+M 0 17106 6 17117 6
+M 0 17104 1 17118 1
+G 0 17119 0
+G 0 17120 0
+G 0 17121 0
+G 0 17122 0
+G 0 17123 0
+G 0 17124 0
+G 0 17127 0
+G 0 17126 0
+G 0 17129 0
+G 0 17128 0
+M 0 17113 1 17119 1
+G 0 17152 0
+G 0 17151 0
+G 0 17150 0
+G 0 17149 0
+G 0 17148 0
+G 0 17147 0
+M 0 17167 5 17120 1
+M 0 17109 1 17121 1
+G 0 17133 0
+G 0 17134 0
+G 0 17135 0
+G 0 17136 0
+G 0 17193 0
+G 0 17192 0
+G 0 17191 0
+M 0 17167 5 17122 1
+M 0 17105 5 17123 5
+M 0 17124 1 17123 1
+G 0 17157 0
+G 0 17158 0
+G 0 17159 0
+M 0 17103 1 17125 1
+M 0 17102 1 17125 1
+O 0 17101 0 17125
+G 0 17102 0
+G 0 17103 0
+G 0 17104 0
+G 0 17106 0
+G 0 17105 0
+M 0 17123 1 17126 1
+O 0 17101 0 17126
+M 0 17121 1 17127 1
+M 0 17122 4 17127 4
+M 0 17100 1 17128 1
+O 0 17198 0 17129
+O 0 17197 0 17129
+M 0 17199 1 17129 1
+O 0 17199 0 17130
+O 0 17195 0 17131
+M 0 17197 5 17132 5
+O 0 17199 0 17133
+O 0 17195 0 17134
+O 0 17199 0 17135
+M 0 17125 10 17140 10
+M 0 17163 4 17140 1
+M 0 17165 2 17141 1
+M 0 17164 2 17142 1
+M 0 17127 10 17143 10
+M 0 17166 2 17143 1
+M 0 17130 1 17144 1
+M 0 17128 10 17144 10
+M 0 17164 2 17144 1
+M 0 17166 2 17145 1
+M 0 17126 10 17146 10
+M 0 17165 2 17146 1
+M 0 17163 4 17147 1
+M 0 17157 5 17148 5
+M 0 17155 1 17150 1
+M 0 17132 1 17154 1
+M 0 17142 5 17155 5
+M 0 17140 8 17156 8
+M 0 17144 4 17157 4
+M 0 17141 3 17158 3
+M 0 17145 5 17159 5
+M 0 17139 15 17160 15
+M 0 17134 4 17163 4
+M 0 17147 8 17165 8
+M 0 17138 5 17167 5
+M 0 17138 5 17169 5
+M 0 17135 1 17171 1
+M 0 17137 2 17172 2
+M 0 17143 5 17173 5
+M 0 17146 3 17174 3
+M 0 17136 1 17175 1
+M 0 17149 2 17177 2
+M 0 17148 2 17178 2
+O 0 17169 0 17178
+M 0 17154 1 17179 1
+M 0 17150 2 17180 1
+M 0 17151 2 17180 1
+M 0 17153 2 17181 1
+M 0 17150 2 17182 1
+M 0 17152 2 17182 1
+M 0 17153 2 17182 1
+M 0 17151 2 17183 1
+M 0 17152 2 17183 1
+M 0 17129 1 17184 1
+M 0 17101 1 17191 1
+G 0 17189 0
+G 0 17129 0
+G 0 17126 0
+G 0 17128 0
+G 0 17127 0
+G 0 17124 0
+G 0 17123 0
+G 0 17122 0
+G 0 17121 0
+G 0 17120 0
+G 0 17119 0
+G 0 17118 0
+G 0 17117 0
+G 0 17116 0
+G 0 17115 0
+G 0 17112 0
+G 0 17111 0
+G 0 17110 0
+G 0 17109 0
+G 0 17108 0
+G 0 17107 0
+M 0 17198 8 17192 8
+O 0 17195 0 17193
+O 0 17199 0 17194
+M 0 17131 1 17195 1
+O 0 17166 0 17195
+O 0 17167 0 17195
+O 0 17168 0 17195
+M 0 17120 1 17197 1
+M 0 17106 6 17198 6
+M 0 17106 3 17198 3
+M 0 17107 1 17199 1
+G 0 17118 0
+G 0 17130 0
+G 0 17131 0
+G 0 17132 0
+S
+
+
+
+#SHOPS
+17100 9 33 5 8 1 100 100 0 23
+17101 9 5 0 0 0 100 100 0 24
+17102 0 0 0 0 0 100 100 0 23
+17104 5 0 0 0 0 100 100 0 23
+17107 1 0 0 0 0 100 100 0 23
+17109 8 0 0 0 0 100 100 0 23
+17113 0 0 0 0 0 100 100 0 23
+17119 9 0 0 0 0 100 100 0 23
+17124 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#17100
+~
+mob oload 17196 0
+~
+#17101
+~
+if carries $n 17196
+say {cGreat!  You killed some!  Just give me the pelts and I'll reward you!{x
+mob echoat $n Janet smiles brightly at you.
+mob echoaround $n Janet smiles brightly at $n.
+ 
+else
+say {cIt's absolutely {W<terrible>{c.  I don't know how this could have happened.
+mob echo Janet frowns and shakes her head sullenly.  She sighs deeply and rifles through her paperwork.
+ 
+endif
+~
+#17102
+~
+say {cOur factory has been shut down for months because of a rat {W<infestation>{c.  They're so disgusting!{x
+mob echo Janet cringes and makes a small gagging noise.  A shiver runs down her spine.
+~
+#17103
+~
+say {cHey... wait...{x
+mob echo Janet looks up at $n and gets a smile on her face.
+say {cAre you up for a little {W<work>{c?{x
+~
+#17104
+~
+mob echo Janet wiggles in her chair, setting her blonde curls to bouncing.
+say {cIf you go in there and bring me back a pelt for every rat you kill, I'll give you a gold piece.
+mob echo Janet smiles brightly.
+say {cWhat do you say?  Will you do it?  {W<Yes>{c or {W<No>{c?{x
+~
+#17105
+~
+mob oload 17194 0
+say {cThis is wonderful!{x
+mob echo Janet pulls a badge from her desk and hands it to $n.
+give badge $n
+mob force $n wear id
+say {cJust wear that badge.  Head north and take out the little nasties.  Come back here and give me your pelts when you're done.
+mob echo Janet smiles at you and looks back down to her paperwork.
+~
+#17106
+~
+say {cOh... that's too bad.{x
+mob echo Janet sinks down in her chair with pouted lips.  She sighs and shakes her head.
+say {cWe called the exterminator and that was five months ago.{x
+mob echo Janet shrugs and looks back to her paperwork.
+say {cAt least I still have my job intact.{c
+~
+#17107
+~
+if wears $n 'rat basher id badge'
+ say {cThank you!  Payment, as promised.{x
+ mob echo Janet reaches into her desk and pulls out a shiny gold coin.
+ mob echoat $n Janet hands you the coin with a smile.
+ mob echoaround $n Janet hands $n the coin with a smile.
+ mob oload 17100
+ give coin $n
+else
+ if carries $n 'rat basher id badge'
+  say {cI'll still pay you this time, but here, wear your badge so I know.{x
+  mob force $n wear id
+  mob echoat $n Janet hands you the coin with a smile.
+  mob echoaround $n Janet hands $n a coin with a smile.
+  mob oload 17100
+  give coin $n
+ else
+  say {cOh!  I wouldn't feel right taking this unless you {W<work>{c for it.{x
+  mob echoat $n Janet smiles broadly as she hands you back the pelt.
+  mob echoaround $n Janet smiles broadly as she hands $n back the pelt.
+  give pelt $n
+ endif
+endif
+mob junk all
+~
+#17108
+~
+if race $n gnome
+say Welcome to Ranaugh's Place!  Make yourself at home, mate!
+mob echoat $n $I smiles at you broadly and continues cleaning his glasses.
+mob echoaround $n $I smiles at $n broadly as he cleans his glasses.
+else 
+if race $n dwarf
+say Welcome to Ranaugh's Place.  What can I get you stout one?
+mob echoat $n $I smiles at you as he wipes down his glasses.
+mob echoaround $n $I smiles at $n.
+else
+if race $n halfling
+say Welcome to Ranaugh's Place!  Watch your feet!
+mob echoat $n $I winks you with a smile.
+mob echoaround $n $I winks at $n.
+else
+mob echoat $n $I looks up at you with a touch of irritation.
+mob echoaround $n $I looks up at $n with irritation.
+say Something I can get you?
+~
+#17109
+~
+mob echo $I looks around quickly, then to $n.
+say Please don't let anyone find out this is what is in the specialty... 
+mob echoat $n $I gives you a worried stare.
+mob echoaround $n $I stares at $n.
+mob echo $I reaches into his apron pocket and pulls out a gold coin.
+say Please... keep this quiet.
+mob oload 17100 0 none
+give coin $n
+mob echo $I goes back to sweeping the floors after putting something in his apron.
+mob junk all
+~
+#17110
+~
+mob echoat $n $I glances up at you from his work.
+mob echoat $n Corr Mays says, '{mFeel free to examine any of the items to see what they do.{x'
+mob echoat $n Corr Mays says, '{mIf you want somethin', just ask.{x'
+mob echoat $n $I goes back to his work.
+~
+#17111
+~
+mob echo $I stops for a moment and glances around.
+mob echo $I reaches deep into $l mouth and picks $l teeth.
+mob echo $I examines $l finger before putting it back into $l mouth to eat the findings.
+mob echo $I wipes $l wet finger on $l nasty pants and resumes working.
+~
+#17112
+~
+if level $n < 5
+mob echoat $n {x
+mob echoat $n {CKo{crr{wa Sa{crr{Cin{w says, 'I offer healing to the wounded.  To see what services I offer, type <heal>.'{x
+mob echoat $n {CKo{crr{wa Sa{crr{Cin{w says, 'I also offer spells to help adventurers.  To see what spells I offer, look at my scroll.'  {Y<look scroll>{x
+mob echoat $n {CKo{crr{wa Sa{crr{Cin {wsays, 'You should also check out our wiki for leveling help: http://http://wiki.waterdeep.info{x
+ 
+if carries $n 'zubleboobleboo'
+{x
+else
+mob oload 3735
+mob echoat $n {x
+mob echoat $n {CKo{crr{wa Sa{crr{Cin {wsays, 'Here, let me give you a guide to help you out.'{x
+give guide $n 
+ 
+endif
+ 
+else
+mob echoat $n {x
+mob echoat $n {CKo{crr{wa Sa{crr{Cin{w looks up at the fountain and smiles wistfully.
+endif
+~
+#17113
+~
+mob echo {8The sound of {Rma{rni{Rac{ral {8laughter bursts forth from the darkness.{x
+mob echo {R"{rAAAHAHA{8HAHAAAAA{rAAAAAAAAA{R"{x
+~
+#17114
+~
+if isimmort $n
+mob transfer $n 17110
+else
+if class $n vampire
+mob transfer $n 17110
+else
+if class $n lich
+mob transfer $n 17110
+else
+mob echoat $n The sigil above the door glows {RBRIGHT RED{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {RBRIGHT RED{w, preventing $n from entering.
+endif
+endif
+endif
+~
+#17115
+~
+if isimmort $n
+mob transfer $n 17106
+else
+if class $n cleric
+mob transfer $n 17106
+else
+if class $n priest
+mob transfer $n 17106
+else
+mob echoat $n The sigil above the door glows {WBRIGHT WHITE{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {WBRIGHT WHITE{w, preventing $n from entering.
+endif
+endif
+endif
+~
+#17116
+~
+if isimmort $n
+mob transfer $n 17108
+else
+if class $n druid
+mob transfer $n 17108
+else
+if class $n sage
+mob transfer $n 17108
+else
+mob echoat $n The sigil above the door glows {GBRIGHT GREEN{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {GBRIGHT GREEN{w, preventing $n from entering.
+endif
+endif
+endif
+~
+#17117
+~
+if isimmort $n
+mob transfer $n 17107
+else
+if class $n mage
+mob transfer $n 17107
+else
+if class $n wizard
+mob transfer $n 17107
+else
+mob echoat $n The sigil above the door glows {BBRIGHT BLUE{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {BBRIGHT BLUE{w, preventing $n from entering.
+endif
+endif
+endif
+~
+#17118
+~
+if isimmort $n
+mob transfer $n 17111
+else
+if class $n ranger
+mob transfer $n 17111
+else
+if class $n strider
+mob transfer $n 17111
+else
+mob echoat $n The sigil above the door glows {GBRIGHT GREEN{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {GBRIGHT GREEN{w, preventing $n from entering.
+endif
+endif
+~
+#17119
+~
+if isimmort $n
+mob transfer $n 17109
+else
+if class $n thief
+mob transfer $n 17109
+else
+if class $n mercenary
+mob transfer $n 17109
+else
+mob echoat $n The sigil above the door glows {CBRIGHT CYAN{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {CBRIGHT CYAN{w, preventing $n from entering.
+endif
+endif
+endif
+~
+#17120
+~
+if isimmort $n
+mob transfer $n 17112
+else
+if class $n warrior
+mob transfer $n 17112
+else
+if class $n gladiator
+mob transfer $n 17112
+else
+mob echoat $n The sigil above the door glows {YBRIGHT YELLOW{w, preventing you from entering.
+mob echoaround $n The sigil above the door glows {YBRIGHT YELLOW{w, preventing $n from entering.
+endif
+endif
+endif
+~
+#17121
+~
+say {CGet zat souffle out of zee oven now!  NOW!{x
+~
+#17122
+~
+mob oload 17161 1
+~
+#17123
+~
+mob echoat $n {BEdmond Merriweather {wbows to you.
+mob echoaround $n {BEdmond Merriweather {wbows to $n.
+mob echoat $n {BEdmond Merriweather {wsays, "{CWelcome to the The New Beginnings Cafe.{x
+mob echoat $n {CIf you want to know what we have, I can tell you our {Yspecials{C.{w"
+mob echoaround $n {BEdmond Merriweather {wsays, "{CWelcome to the The New Beginnings Cafe.{x
+mob echoaround $n {CIf you want to know what we have, I can tell you our {Yspecials{C.{w"{x
+~
+#17124
+~
+mob echoat $n {BEdmond Merriweather {wstands up straight, looking irritated.
+mob echoat $n He looks up toward the ceiling and begins to recite in a monotone.
+mob echoaround $n {BEdmond Merriweather {wstands up straight, looking irritated.
+mob echoaround $n He looks up toward the ceiling and begins to recite in a monotone.
+mob echoat $n {BEdmond Merriweather {wsays, "{CWe have an asparagus {Ysouffle{C, and{x
+mob echoat $n {Ca slice of roast {Yvenison{C, as well as the {Ychef{C's special, which{x
+mob echoat $n {Che highly recommends.  What may I get you?{x
+mob echoaround $n {BEdmond Merriweather says, "{CWe have an asparagus {Ysouffle{C, and{x
+mob echoaround $n {Ca slice of roast {Yvenison{C, as well as the {Ychef{C's special, which{x
+mob echoaround $n {Che highly recommends.  What may I get you?{x
+~
+#17125
+~
+mob echoat $n {BEdmond {wnods and says, "{CThat will be {Y5 gold{C.{w"{x
+mob echoaround $n {BEdmond {wnods and says, "{CThat will be {Y5 gold{C.{w"{x
+~
+#17126
+~
+mob remember $n
+mob echoat $q {BEdmond {wbows and heads to the kitchen door.  He unlocks it and steps through.{x
+mob echoaround $q {BEdmond {wbows and heads to the kitchen door.  He unlocks it and steps through.{x
+mob goto 17127
+mob oload 17154
+mob delay 5
+~
+#17127
+~
+if carries $i 17154
+mob goto 17126
+mob echoat $q {BEdmond {warrives from the kitchen, carrying an asparagus souffle.
+mob echoaround $q {BEdmond {warrives from the kitchen, carrying an asparagus souffle.
+mob echoat $q He sets the plate on the table and bows deeply.
+mob echoaround $q He sets the plate on the table and bows deeply.
+give souffle $q
+mob forget
+say {CThere you are.  Enjoy.{x
+else
+{x
+if carries $i 17155
+mob goto 17126
+mob echoat $q {BEdmond {warrives from the kitchen, carrying a plate of venison.
+mob echoaround $q {BEdmond {warrives from the kitchen, carrying a plate of venison.
+mob echoat $q He sets the plate on the table and bows deeply.
+mob echoaround $q He sets the plate on the table and bows deeply.
+give venison $q
+mob forget
+say {CThere you are.  Enjoy.{x
+else
+{x
+if carries $i 17156
+mob goto 17126
+mob echoat $q {BEdmond {warrives from the kitchen, carrying the Chef's Special.
+mob echoaround $q {BEdmond {warrives from the kitchen, carrying the Chef's Special.
+mob echoat $q He sets the plate on the table and bows deeply.
+mob echoaround $q He sets the plate on the table and bows deeply.
+give chef $q
+mob forget
+say {CThere you are.  Enjoy.{x
+else
+endif
+endif
+endif
+{x
+mob junk all
+~
+#17128
+~
+mob echoat $n {BEdmond {wnods and says, "{CThat will be {Y10 gold{C.{w"{x
+mob echoaround $n {BEdmond {wnods and says, "{CThat will be {Y10 gold{C.{w"{x
+~
+#17129
+~
+mob remember $n
+mob echoat $q {BEdmond {wbows and heads to the kitchen door.  He unlocks it and steps through.{x
+mob echoaround $q {BEdmond {wbows and heads to the kitchen door.  He unlocks it and steps through.{x
+mob goto 17127
+mob oload 17155
+mob delay 5
+~
+#17130
+~
+mob echoat $n {BEdmond {wnods and says, "{CThat will be {Y15 gold{C.{w"{x
+mob echoaround $n {BEdmond {wnods and says, "{CThat will be {Y15 gold{C.{w"{x
+~
+#17131
+~
+mob remember $n
+mob echoat $q {BEdmond {wbows and heads to the kitchen door.  He unlocks it and steps through.{x
+mob echoaround $q {BEdmond {wbows and heads to the kitchen door.  He unlocks it and steps through.{x
+mob goto 17127
+mob oload 17156
+mob delay 5
+~
+#17132
+~
+mob echoat $n {RRo{wbe{Rrt {wyells, "{rBOYCOTT THE CAFE!  Get {W<fast> {rfood here, not slow food there!{w"{x
+~
+#17133
+~
+mob echoat $n {RRo{wbe{Rrt{w looks at you with a grin and leans in to whisper into your ear.
+mob echoaround $n {RRo{wbe{Rrt {wlooks at $n with a grin and leans in to whisper into $m ear.
+mob echoat $n {RRo{wbe{Rrt {wwhispers, "{rI have it on good authority that the waiter takes so long with the food
+mob echoat $n {rbecause he's busy spitting in it!  Trust me, you should spend your coin here.{w"
+mob echoat $n {RRo{wbe{Rrt {wnods his head at you and pats his cart.
+mob echoaround $n {RRo{wbe{Rrt {wnods his head at $n and pats his cart.
+mob echo {RRo{wbe{Rrt {wsays, "{rWhy not try a bowl of manly man concoction.  Just made it myself today.{w"
+~
+#17134
+~
+if mobexists zazagabunny
+mob echo {8A distinct smell of acrid pee and mud floats through the air,{x
+mob echo {8and a low growl can be heard as though coming from within the{x
+mob echo {8hills themselves...{x
+ 
+else
+ 
+endif
+~
+#17135
+~
+mob oload 17164 1
+~
+#17136
+~
+mob echo {CMa{Wur{cice {CNou{crri{Wtu{Cre{w folds his arms angrily.{x
+say {CHow ze 'ell are vwe to cook ze rabbit zen, eh?  {MRunning {Cout.  Oo 'eard of zuch a zing?!{x
+{x
+~
+#17137
+~
+mob echoat $n {CMa{Wur{cice {CNou{crri{Wtu{Cre {wsnaps his head to you and his lip curls.{x
+mob echoaround $n {CMa{Wur{cice {CNou{crri{Wtu{Cre {wsnaps his head to $n and his lip curls.{x
+say {CHow ze 'ell did joo get in my kitchen?!{x
+mob echo {CMa{Wur{cice {CNou{crri{Wtu{Cre {wscowls deeply and rolls his eyes.{x
+say {CVwe are running out of ze rabbit, 'appy?  Now get out of 'ere, joo vwill contaminate my cooktops!{x
+mob echoat $n The chef forcefully shoves you out the door!
+mob echoaround $n The chef forcefully shoves $n out the door!
+mob echo {x
+mob echo {x
+mob transfer $n 17126
+~
+#17138
+~
+mob echo {CMa{Wur{cice {CNou{crri{Wtu{Cre's {weyes go wide and a giant smile comes over his face.
+say {CZuch an 'efty slab!  Magnifique!  Joo 'ave saved my kitchen!{x
+mob echo {CMa{Wur{cice {CNou{crri{Wtu{Cre {wdigs in his pocket and pulls out a coin purse.
+say {CAllow me to reward jour efforts, eh?{x
+mob echo {CMa{Wur{cice {CNou{crri{Wtu{Cre {wfrowns as he pulls out a small stone.
+say {CAh vwell, the meat is worth giving zis away.{x
+mob oload 17165
+give gem $n
+say {CNow zat joo are repaid... OUT!{x
+mob echoat $n {CMa{Wur{cice {CNou{crri{Wtu{Cre {wshoves you forcefully out of the kitchen.{x
+mob echoaround $n {CMa{Wur{cice {CNou{crri{Wtu{Cre {wshoves $n forcefully out of the kitchen.{x
+mob echo {x
+mob echo {x
+mob transfer $n 17126
+mob junk all
+~
+#17139
+~
+mob echoat $n {GH{gelga {wlooks up at you with a smile.{x
+mob echoat $n {GH{gelga{w says '{gWelcome.  Please, make yourself at home.  I'm just finishing up.{w'{x
+mob echoat $n {GH{gelga {wsays '{gIf you need healing, just type <heal> for a list of what I can do.{w'{x
+mob echoat $n {GH{gelga {wsays '{gIf you would like spells to help you, {Ylook sign {gto see what I can do.{w'{x
+mob echoat $n {GH{gelga {wsmiles once more and goes back to stirring her soup.
+~
+#17140
+~
+mob echo {gThe sound of birds is heard overhead and a brief flash of {Wpl{8um{Wage {gcan be seen.{x
+~
+#17141
+~
+mob echo {gThe rustle of trees is heard as an unseen animal scurries about.{x
+~
+#17142
+~
+mob echo {8A very large rustle is heard and a {yde{we{yr {8bursts from the trees, halting to look at you.{x
+mob mload 17133
+~
+#17143
+~
+mob oload 17170 1
+~
+#17144
+~
+mob echo {gThe joyful sound of {Wb{Ri{Br{Yd{Rs {gbursts forth from the canopy.{x
+~
+#17145
+~
+mob echo {gA {Gso{gft {Cbr{cee{yze {gsets the leaves to fluttering.{x
+~
+#17146
+~
+mob echo {gA l{*ar{gge {Gg{gree{*n {gdra{Gg{gon {*takes in a breath and lets out a bellow!{x
+mob cast gas $n
+~
+#17147
+~
+mob echoat $n {gA l{*ar{gge {Gg{gree{*n {gdra{Gg{gon {8lets loose an earsplitting roar and spins, bringing its tail down on YOU!{x
+mob echoaround $n {gA l{*ar{gge {Gg{gree{*n {gdra{Gg{gon {8lets loose an earsplitting roar and spins, bringing its tail down on $n!{x
+mob asound {8An earsplitting roar is heard echoing through the forest.{x
+mob damage $n 100 300
+~
+#17148
+~
+mob oload 17172 1
+~
+#17149
+~
+mob oload 17171 1
+~
+#17150
+~
+mob oload 17173 1
+~
+#17151
+~
+mob echoat $n The Chief looks up at you.
+mob echoaround $n The Chief looks up at $n.
+say {gWelcome.  Forgive me for not giving more of a greeting.  I'm a bit {W<saddened> {gby recent events.{x
+~
+#17152
+~
+mob echo The Chief frowns.
+say {gYes.  Our skilled craftsman, Hembolo has broken his {W<tools>{g.  Our village cannot create beautiful gems and without beautiful gems, our village cannot flourish.{x
+~
+#17153
+~
+say {gHembolo uses a sharpened round disk to shape his gems.  I don't know exactly what the thing is, but needless to say, without it there are no gems.{x
+mob echo The Chief hangs his head.
+say {gI have ordered him to tell me what it is, but he says his trade is secret and his tools {W<exotic>{g.{x
+~
+#17154
+~
+mob echoat $n The Chief looks at you with a wary eye before continuing.
+mob echoaround $n The Chief looks at $n with a wary eye before continuing.
+say {gHe will only say it comes from the darkest recesses in the forest and only those worthy of great battle may obtain it.{x
+mob echo The Chief shrugs finally and shakes his head.
+say {gI've ordered him to go but he will not budge.  I'd kill him, but he is too valuable.{x
+mob echoat $n The Chief looks at you with a renewed hope in his eyes.
+mob echoaround $n The Chief looks at $n with a renewed hope in his eyes.
+say {gPerhaps you can do it?  Go to the forest, do battle, and find this round {W<disk>{g for Hembolo?{x
+~
+#17155
+~
+mob echo The Chief gives a small frown and returns to his pensive state once more.
+say {gI wish I could tell you - but without Hembolo speaking... this is all I know.  Will you do it?  {W<Yes> {gor {W<no>{g?{x
+~
+#17156
+~
+mob echo The Chief smiles lightly and nods.
+say {gThen go.  Come back with the tool and let me know you {W<have> {git.  I will call Hembolo and we will see if it is the right tool.{x
+mob echoat $n The Chief nods at you.
+mob echoaround $n The Chief nods at $n.
+say {gBe careful on your journey.{x
+~
+#17157
+~
+mob echoat $n The Chief stares at you icily.
+say {gThen get out of my hut and begone from my sight.{x
+mob echoat $n The Chief claps his hands sharply.  Two burly villagers arrive and toss you roughly out of the hut.
+mob echoaround $n The Chief claps his hands sharply.  Two burly villagers arrive and toss $n roughly out of the hut.
+mob transfer $n 17178
+~
+#17158
+~
+if carries $n 17171
+if mobexists hembolo
+say {gBy the Gods!  Hembolo!  Come!{x
+mob echo At the sharp clap of his hands, Hembolo arrives in the hut.
+mob force Hembolo mob echo Hembolo bows deeply.
+mob force Hembolo mob echo {MH{8em{Mb{8olo {wsays, '{cMay I have it?{w'{x
+else
+say {gBy the Gods!  Hembolo!  Come!{x
+mob echo At the sharp clap of his hands, Hembolo arrives in the hut.
+mob mload 17156
+mob force Hembolo mob echo Hembolo bows deeply.
+mob force Hembolo mob echo {MH{8em{Mb{8olo {wsays, '{cMay I have it?{w'{x
+endif
+else
+mob echo The Chief closes his eyes and utters a few words.  Slowly, he shakes his head.
+say {gNo.  I can already tell... you do not carry the right tool.{x
+mob echo The Chief sighs deeply.
+say {gPerhaps this truly is hopeless.{x
+endif
+~
+#17159
+~
+mob remember $n
+if carries $i 17171
+if carries $i 17165
+mob echoat $q Hembolo grins broadly and rushes out of the hut.  In what seems like an instant he is back.
+mob echoaround $q Hembolo grins broadly and rushes out of the hut, only to return in an instant.
+mob oload 17175
+say {cYou have been brave and have saved our village.  This is my thanks.{x
+mob echoat $q Hembolo places a small trinket in your hand.
+mob echoaround $q Hembolo places something in the hand of $q.
+give stud $q
+say {CThank you.  Thank you!{x
+mob echo Hembolo rushes from the hut after bowing to his Chief.
+mob purge $i
+else
+say {cThis is, indeed what I seek, but I do not feel right{x
+mob echo {ctaking it from you without being able to repay you properly.  Bring me a rough{x
+mob echo {cpink stone and I will accept your offering and give you a gift as well.  Shall{x
+mob echo {cI {W<return>{c this to you for now?{x
+endif
+else
+say {cI need the disk.  If you don't have it, I can {W<return>{c this until you do.{x
+endif
+~
+#17160
+~
+mob remember $n
+if carries $i 17171
+if carries $i 17165
+mob echoat $q Hembolo grins broadly and rushes out of the hut.  In what seems like an instant he is back.
+mob echoaround $q Hembolo grins broadly and rushes out of the hut, only to return in an instant.
+mob oload 17175
+say {cYou have been brave and have saved our village.  This is my thanks.{x
+mob echoat $q Hembolo places a small trinket in your hand.
+mob echoaround $q Hembolo places something in the hand of $q.
+give stud $q
+say {CThank you.  Thank you!{x
+mob echo Hembolo rushes from the hut after bowing to his Chief.
+mob purge $i
+else
+say {cI need a pink stone.  If you don't have it, I can {W<return>{c this until you do.{x
+endif
+else
+say {cI need the round disk.  If you don't have it, I can {W<return>{c this until you do.{x
+endif
+~
+#17161
+~
+if carries $i 17171
+mob echoat $q Hembolo gives you back the scale.
+mob echoaround $q Hembolo gives something back to $q.
+give scale $q
+say {cCome back when you have everything so I may repay you properly.{x
+mob echo Hembolo leaves the hut after bowing to his Chief.
+mob purge $i
+else
+if carries $i 17165
+mob echoat $q Hembolo gives you back the rough sapphire.
+mob echoaround $q Hembolo gives something back to $q.
+give pink $q
+say {cCome back when you have everything so I may repay you properly.{x
+mob echo Hembolo leaves the hut after bowing to his Chief.
+mob purge $i
+endif
+~
+#17162
+~
+if carries $n 17173
+mob echo {gDar{Gy{gmus {wstands up, his mouth hanging open.
+say {gBy the Gods!  What is this?  You have the dragon's very hide?!{x
+mob echoat $n {gDar{Gy{gmus {wstumbles over to you.{x
+mob echoaround $n {gDar{Gy{gmus {wstumbles over to $n.{x
+say {gPlease, allow me to work upon it.  If you will but bring me {Gfive {grabbit pelts along with this magnificent piece - I will craft you a {gwonderous cape such that the realms have never seen.{x
+else
+mob echoat $n {gDar{Gy{gmus {wlooks up at you with a grand smile.{x
+mob echoaround $n {gDar{Gy{gmus {wlooks up at $n with a grand smile.{x
+say {gWelcome to my home.  What may I do for you?  {W<Pack>{g? {W<Armors>{g?  You say it, I make it.{x
+mob echo {gDar{Gy{gmus {wgrins.{x
+endif
+~
+#17163
+~
+mob echoat $n {gDar{Gy{gmus {wsmiles and works on his pack as he speaks.{x
+say {gWell now, I make mighty fine things out of just about any skin you can find.  {W<Rat>{g, {W<deer>{g, {W<rabbit>{g, {W<bear>{g - anything.{x
+~
+#17164
+~
+mob echoat $n {gDar{Gy{gmus {wpulls at his stitching and then speaks.
+say {gIf you bring to me {Gthree {grat pelts, I might manage a pack for you to ease your burdens.{x
+~
+#17165
+~
+mob echoat $n {gDar{Gy{gmus {wlooks into his pack and continues to speak.{x
+say {gSome speak of a mystical deer that wanders the forest.  They say she only appears once in a while.{x
+mob echo {gDar{Gy{gmus {wstops and sighs wistfully.{x
+say {gI bet I could make something wonderous with {Gtwo {ghides like that.{x
+~
+#17166
+~
+mob echoat $n {gDar{Gy{gmus {wchuckles deeply as he stitches the closure on his pack.
+say {gThey run wild in the gulch. I need {Gfive {gto make something of value.{x
+~
+#17167
+~
+mob echoat $n {gDar{Gy{gmus {wsmiles as he stitches.
+say {gI'm certain that with {Gtwo {gpelts I could make something grand.{x
+~
+#17168
+~
+mob echoat $n $I looks up as you enter.
+mob echoat $n {8Ha{wrw{Wick Ma{wrl{8ew{w says, '{mFeel free to examine everything in the store.{w'
+mob echoat $n {8Ha{wrw{Wick Ma{wrl{8ew{w says, '{mYou break it, you buy it.{w'
+mob echoat $n $I goes back to his work.
+~
+#17169
+~
+mob remember $n
+if carries $i 17181
+mob junk pelt
+mob oload 17182
+say {gDo you want me to {W<make> {gyour bag?{x
+else
+{x
+if carries $i 17180
+mob junk pelt
+mob oload 17181
+say {gI need {Gone {gmore rat pelt.{x
+else
+{x
+if carries $i 17196
+say {gI need {Gtwo {gmore rat pelts.{x
+mob junk pelt
+mob oload 17180
+{x
+endif
+endif
+endif
+~
+#17170
+~
+if carries $i 17182
+mob junk all
+mob oload 17174 1
+mob echoat $q {gDar{Gy{gmus {wworks in a blur of speed and finally hands you a pack.{x
+give patchwork $q
+say {gAnd there you are.  Don't forget to let them all know where you got that!{x
+else
+{x
+if carries $i 17186
+mob junk all
+mob oload 17179
+mob echoat $q {gDar{Gy{gmus {wworks in a blur of speed and finally hands you a cloak.{x
+give cloak $q
+say {gAnd there you are.  Don't forget to let them all know where you got that!{x
+else
+{x
+if carries $i 17187
+mob junk all
+mob oload 17178
+mob echoat $q {gDar{Gy{gmus {wworks in a blur of speed and finally hands you a pair of breeches.{x
+give deer $q
+say {gAnd there you are.  Don't forget to let them all know where you got that!{x
+else
+{x
+if carries $i 17188
+mob junk all
+mob oload 17176
+mob echoat $q {gDar{Gy{gmus {wworks in a blur of speed and finally hands you a cape.{x
+give cape $q
+say {gAnd there you are.  Don't forget to let them all know where you got that!{x
+else
+{x
+endif
+endif
+endif
+endif
+~
+#17171
+~
+mob remember $n
+if carries $i 17186
+mob junk pelt
+say {gAlright, would you like me to {W<make> {gyour cloak?{x
+else
+{x
+if carries $i 17185
+say {gI need {Gone {gmore rabbit pelt.{x
+mob junk pelt
+mob oload 17186
+else
+{x
+if carries $i 17184
+say {gI need {Gtwo {gmore rabbit pelts.{x
+mob junk pelt
+mob oload 17185
+else
+{x
+if carries $i 17183
+say {gI need {Gthree {gmore rabbit pelts.{x
+mob junk pelt
+mob oload 17184
+else
+{x
+if carries $i 17161
+mob junk pelt
+mob oload 17183
+say {gI need {Gfour {gmore rabbit pelts.{x
+else
+{x
+endif
+endif
+endif
+endif
+endif
+~
+#17172
+~
+mob remember $n
+if carries $i 17187
+mob junk hide
+say {gWould you like me to {W<make> {gyour breeches?{x
+else
+{x
+if carries $i 17170
+mob junk hide
+mob oload 17187
+say {gI need {Gone {gmore deer hide.{x
+else
+{x
+endif
+endif
+~
+#17173
+~
+mob remember $n
+if carries $i 17188
+mob junk pelt
+say {gWould you like me to {W<make> {gyour cape?{x
+else
+{x
+if carries $i 17172
+mob junk hide
+mob oload 17188
+say {gI need {Gone {gmore bear pelt.{x
+else
+{x
+endif
+endif
+~
+#17174
+~
+mob remember $n
+if carries $i 17186
+mob echoat $q {gDar{Gy{gmus {wlooks at you with a broad smile and holds the hide aloft.{x
+say {gSuch magnificence... and you were able to bring down such a beast...{x
+mob echoat $q {gDar{Gy{gmus {wruns a hand over the hide.{x
+say {gThis... will be an honor.{x
+mob echoat $q {gDar{Gy{gmus {wrushes with magical guidance, his fingers hitting every stitch with perfection.{x
+mob echoat $q {wAt last, he turns to you with a beautiful cape.{x
+say {gWear this with pride, for it's my finest work.{x
+mob oload 17177
+give cape $q
+mob forget $q
+mob junk all
+else
+mob echoat $q {gDar{Gy{gmus {wsmile fondly but shakes his head.{x
+say {gNo... there needs to be more.  Bring me {Gfive {grabbit pelts as well.  Give them to me {Gfirst{g, then I will craft something worthy of this fine hide.{x
+give dragon $q
+mob forget $q
+mob junk all
+endif
+~
+#17175
+~
+mob echoat $n $I glances up at you as you enter.
+mob echoat $n {RMa{rri{wssa {RGl{ryd{wen says, '{mFeel free to examine any of my lanterns.{w'
+mob echoat $n $I smiles at you and patiently awaits your selection.
+~
+#17176
+~
+mob echoat $n $I smiles pleasantly at you.
+mob echoat $n $I {wsays, '{mIf you want to know more about the spells in my potions,
+mob echoat $n {mjust type help <spell name> to learn.{w'
+mob echoat $n $I stirs her cauldron.
+mob echoat $n $I {wsays '{mElemental Shielding consists of iceshield, fireshield, and shockshield.
+mob echoat $n {mjust in case you need to know.{w'{x
+~
+#17177
+~
+mob cast iceshield $n
+~
+#17178
+~
+mob cast fireshield $n
+~
+#17179
+~
+mob cast shockshield $n
+~
+#17180
+~
+mob call 17177 $n
+mob call 17178 $n
+mob call 17179 $n
+~
+#17181
+~
+mob cast sanctuary $n
+~
+#17182
+~
+mob cast haste $n
+~
+#17183
+~
+mob cast farsight $n
+~
+#17184
+~
+mob cast 'giant strength' $n
+~
+#17185
+~
+mob cast armor $n
+~
+#17186
+~
+mob cast fly $n
+~
+#17187
+~
+mob cast shield $n
+~
+#17188
+~
+mob call 17177 $n
+mob call 17178 $n
+mob call 17179 $n
+mob call 17181 $n
+mob call 17182 $n
+mob call 17183 $n
+mob call 17184 $n
+mob call 17185 $n
+mob call 17186 $n
+mob call 17187 $n
+~
+#17189
+~
+if mobexists hembolo
+mob echoaround $n The chief beams broadly, but hands the scale back to $n.
+mob echoat $n The chief beams broadly, but hands the scale back to you.
+give scale $n
+say {gNo no, give it to Hembolo.{x
+mob force Hembolo mob echo Hembolo bows deeply.
+mob force Hembolo mob echo {MH{8em{Mb{8olo {wsays, '{cMay I have it?{w'{x
+else
+mob echoaround $n The chief beams broadly, but hands the scale back to $n.
+mob echoat $n The chief beams broadly, but hands the scale back to you.
+give scale $n
+say {gNo no, let me get Hembolo.  You must give him the tool you fought so hard to obtain.{x
+mob echo The chief claps his hands sharply.
+say {gHembolo!  Come!{x
+mob mload 17156
+mob force Hembolo mob echo Hembolo bows deeply.
+mob force Hembolo mob echo {MH{8em{Mb{8olo {wsays, '{cMay I have it?{w'{x
+endif
+~
+#17190
+~
+if mobhere 17125
+ 
+else
+if players == 0
+mob mload 17125
+if rand 50
+mob mload 17125
+if rand 50
+mob mload 17125
+ 
+endif
+endif
+endif
+endif
+~
+#17191
+~
+if mobhere 17128
+{x 
+else
+if players == 0
+mob mload 17128
+if rand 50
+mob mload 17128
+if rand 50
+mob mload 17128
+{x 
+endif
+endif
+endif
+endif
+~
+#17192
+~
+if mobhere 17126
+{x 
+else
+if players == 0
+mob mload 17126
+if rand 50
+mob mload 17126
+{x 
+endif
+endif
+endif
+~
+#17193
+~
+if mobhere 17127
+{x 
+else
+if players == 0
+mob mload 17127
+if rand 50
+mob mload 17127
+if rand 50
+mob mload 17127
+ 
+{x 
+endif
+endif
+endif
+endif
+~
+#17194
+~
+mob echoat $n $I says, '{8Hey, hey... spare some change for a down-on-his-luck hobo?{w'{x
+~
+#17195
+~
+mob echoat $n $I says, '{8Hey, thanks.  I appreciate it.{w'{x
+~
+#17196
+#NewBeginnings Monk Guild entry~
+if isimmort $n
+mob transfer $n 3767
+else
+if class $n monk
+mob transfer $n 3767
+else
+mob echoat $n {wThe sigil above the door glows {YBRIGHT YELLOW{w, preventing you from entering.{x
+mob echoaround $n {wThe sigil above the door glows {YBRIGHT YELLOW{w, preventing $n from entering.{x
+endif
+endif
+~
+#0
+
+#$

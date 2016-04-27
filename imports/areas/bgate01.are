@@ -1,0 +1,4786 @@
+#AREADATA
+Name Baldur's Gate~
+Builders None~
+VNUMs 55800 55949
+Credits [ Public ] Baldur's Gate~
+Security 10
+Recall 55947
+Faction ~
+AQpoints 0
+Realm 1
+End
+
+
+
+#MOBILES
+#55801
+shady merchant~
+a Shady Merchant~
+A Shady Merchant looks over to you and invites you into his shop.
+~
+This man looks fat and wealthy.  He obviously makes a tidy profit
+on his goods.  There is something odd about him though.  He is not the
+most trustworthy of people.  
+~
+human~
+AB 0 0 0 0
+104 0 9d9+9999 9d9+9999 10d10+127 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 50000000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55802
+guild guardian shady man~
+{wA S{Dhady {wM{Dan{x~
+A {wM{Dan{x hiding away in the {wS{Dhadows{x stares at you intently, never taking his eyes off you.
+~
+A tall, gaunt halfelf dress in dark clothes, loosely fitting, but
+not so loose as to get in the way of a fight.
+~
+halfelf~
+AB DFLQVc HO -800 0
+103 3000 100d10+20000 100d1+5900 10d10+444 stab
+-50 -50 -50 -50
+BEFHJK ABL BFG K
+stand stand male 50000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55803
+wise old wizard~
+a Wise Old Wizard~
+A Wise old Wizard rests behind an alchemist's bench preparing potions.
+~
+~
+human~
+AB 0 0 555 0
+103 0 99d99+9999 0d0+0 10d10+101 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand male 999999
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M DELAY 55801 100~
+M GREET 55800 100~
+#55804
+ancient elven mage~
+An {CA{cn{gc{Gi{ge{cn{Ct {WE{wlven {CM{ca{gg{Ge{x~
+An {CA{cn{gc{Gi{ge{cn{Ct {WE{wlven {CM{ca{gg{Ge{x rests here waiting to train wizards.
+~
+You look at an old elf.  He is wearing a dark blue robe with a hood
+covering most of his face.  He appears to be very wise, and willing to
+train younger wizards and mages.  
+~
+elf~
+AB DEFJVZc HR 0 0
+104 5000 999d999+9999 999d999+9999 100d100+1000 magic
+-999 -999 -999 -999
+0 ABCDLQ BG 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M SPEECH 55807 train~
+M SPEECH 55807 practice~
+M GREET 55806 100~
+M FIGHT 55805 100~
+#55805
+black cat familiar~
+A {DBlack Cat{x~
+A {DBlack Cat{x purrs contently.
+~
+{DThis cat is small, but somewhat strong looking.  It has a glint in
+it's eyes making it look distinctly more intelligent than normal
+felines, as it is the familiar of the shopkeeper here.  {x 
+~
+cat~
+ABI Z 0 555 0
+105 0 10d10+100 10d10+100 5d6+1 claw
+0 0 0 0
+FH ABLQ 0 0
+stand stand female 0
+AGV ACDEFHJKQUV medium unknown
+D ~
+T ~
+M RANDOM 55804 10~
+M DELAY 55803 100~
+M GREET 55802 100~
+#55806
+wandshopkeeper enchantress~
+Chalmina the Enchantress~
+Wandmaker, Chalmina the Enchantress is here to sell some of her wands.
+~
+~
+elf~
+AB DFJVc H 555 0
+103 0 99d99+9999 0d0+0 10d10+100 none
+0 0 0 0
+0 ABCDLQa BG 0
+stand stand none 999999
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55807
+mageguildmaster~
+An {CA{cn{gc{Gi{ge{cn{Ct {WE{wlven {CM{ca{gg{Ge{x~
+An {CA{cn{gc{Gi{ge{cn{Ct {WE{wlven {CM{ca{gg{Ge{x rests here waiting to train wizards.
+~
+You look at an old elf.  He is wearing a dark blue robe with a hood
+covering most of his face.  He appears to be very wise, and willing to
+train younger wizards and mages.  
+~
+elf~
+ABJKb FJVc H 0 0
+103 0 999d999+9999 0d0+0 10d10+107 none
+0 0 0 0
+0 ABLQa BG 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M SPEECH 55808 leave~
+#55808
+Brevyre scroll seller~
+Brevyre~
+Brevyre is here selling scrolls.
+~
+Brevyre is a short young woman.  She is fairly gaunt and thin,
+inidcative of a lifetime spent reading and studying rather than
+training in combat.  
+~
+human~
+AB 0 0 444 0
+103 0 99d99+999 0d0+0 10d10+102 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand female 99999
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55809
+tran necromancer trannecromancer~
+{DT{wr{Wa{Dn {rthe {DNe{wcr{Woma{wnc{Der{x~
+{DT{wr{Wa{Dn {rthe {DNe{wcr{Woma{wnc{Der{x beckons you into his abode.
+~
+{DThis man has an evil glint in his eyes.  He is wearing a long
+thick black robe, with a hood pulled over his head.  He is carrying a
+staff that glows green with an evil aura.  Best beware of him.  {x 
+~
+human~
+ABR DEFU HR -800 0
+100 3000 100d100+25000 100d100+25000 100d20+600 drain
+-50 -50 -50 -200
+0 AB 0 KN
+stand stand male 95000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M FIGHT 55809 40~
+#55810
+nemphre nemphrenecromancer man~
+{WN{we{cm{Dp{ch{wr{We{x~
+An old man wearing white robes is here conjuring spells.
+~
+Nemphre is an old man, with a curled white beard.  He is wearing
+white canvass robes, stained in some parts with a little blood.  
+~
+human~
+ABR DF HOR -900 0
+103 8000 200d200+30000 200d200+10000 100d20+700 none
+-50 -50 -50 -200
+H AB M KN
+stand stand none 50000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GIVE 55811 transamulet~
+M FIGHT 55812 30~
+#55811
+nemphre_loader~
+nemphre_loader~
+NEMPHRE_LOADER
+~
+~
+human~
+ABI DF P 0 0
+104 0 10d10+100 0d0+0 10d10+142 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GREET 55810 100~
+#55812
+hel horror~
+{rA {DH{we{Wlm{we{Dd {RH{rorror{x~
+{rA {DH{we{Wlm{we{Dd {RH{rorror{x attacks without remorse.
+~
+~
+heucuva~
+ABFMNOT V CDEH -1000 0
+102 8000 200d200+30000 200d200+30000 100d30+500 magic
+-100 -100 -100 -200
+FK ABLMQ DM ENS
+stand stand none 0
+HIM 0 large unknown
+D ~
+T ~
+F for AV
+F par ABCGHIJK
+#55813
+gatehouse guard~
+a gatehouse guard~
+Standing at alert, a gatehouse guard watches passersby silently.
+~
+Rugged and fit, he stands proudly, eyes scanning the crowd that
+passes through the gatehouse.  He wears a polished breastplate and
+leather breeches, sword hanging at his side.  Though his stance is
+casual, slight tension in his muscles shows that he is ready for
+battle at a moment's notice.  
+~
+human~
+AB 0 0 600 0
+110 20 13d119+8804 13d119+8804 5d23+44 slash
+-45 -45 -45 -17
+FKU AB 0 0
+stand stand male 700
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55814
+gawking tourist male~
+a tourist~
+A tourist is standing here and looking around.
+~
+Wearing a tshirt and shorts, he stands average height and is
+wide-eyed as he wanders the city.  His well groomed hair is dusty
+brown, his features indescript, and he is slightly underweight. 
+Dotted with scars, his complexion is ruddy, pot-marked from
+adolescence.  Looking slightly out of place, in a crowd he would be
+simply another face, pleasant but unmemorable.  
+~
+human~
+A 0 0 0 0
+85 8 19d47+3117 19d47+3117 5d16+34 punch
+-32 -32 -32 -11
+0 0 0 0
+stand stand male 625
+AHMV ABCDEFGHIJK medium unknown
+D {csighs at his bad fortune as he falls to the ground.{x~
+T ~
+#55815
+gawking tourist female~
+a tourist~
+A tourist stands here, looking around.
+~
+With her nose slightly upturned, she tries unsuccessfully to look
+bored at the sights that surround her.  There is not a single red hair
+out of place on her head as it cascades down around her face.  Her
+dress is long, lace-trimming burgundy, and she wears high heels that
+make her look taller than she is.  Somewhat overweight, her arms are
+thick but her waist oddly slender, and she looks as though she is
+having difficult breathing.  
+~
+human~
+A 0 0 0 0
+87 12 25d37+3384 25d37+3384 5d17+34 slap
+-33 -33 -33 -11
+0 0 0 0
+stand stand female 675
+AHMV ABCDEFGHIJK medium unknown
+D {cspits in disgust at the circumstances.{x~
+T ~
+#55816
+drunken beggar~
+a beggar~
+Begging for money, a man crouches in the shadows pitifully.
+~
+Wrapped in a dirty cloak, he crouches in the alley and stares
+bleakly at any who pass with glazed eyes.  His face is drawn, covered
+in unkempt stubble, and his black hair has grown shaggy and hangs in
+grime.  Strong features and a thin build would have made him handsome,
+if the circumstances were different.  There is a shake to his hand and
+an uncertainty to how he crouches, and the stench of beer lingers
+around him.  
+~
+human~
+AB 0 0 0 0
+83 11 24d35+2874 24d35+2874 5d16+33 punch
+-31 -31 -31 -10
+0 0 L D
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D Stumbles and falls against the wall.~
+T ~
+#55817
+wandering sailor~
+a sailor~
+A sailor casually saunters by.
+~
+Dressed in white, he wanders the city enjoying a moment of peace in
+his busy life.  His hair is blonde and his skin richly tanned from
+hours in the sun at sea.  Muscular and fit, he is a large man that
+could not be mistaken for overweight.  Calloused hands hang at his
+sides, thumbs hooked into his pockets, and a dagger is tied to his
+belt.  
+~
+human~
+A 0 0 0 0
+93 18 32d33+4361 32d33+4361 5d18+37 stab
+-36 -36 -36 -13
+KN 0 0 0
+stand stand male 716
+AHMV ABCDEFGHIJK medium unknown
+D Curses lividly and collapses.~
+T ~
+#55818
+drunk sailor~
+a sailor~
+Weaving uncertainly, a sailor stands here.
+~
+Clothes wrinkled and stained, he stands as though he could fall at
+any moment.  Though he is tall, he hunches slightly, waving
+uncertainly on his feet.  His tan complexion is flushed red and his
+broad smile is a little crooked.  Covering his head is a short fuzz of
+black hair, matching his neatly trimmed goatee.  
+~
+human~
+A 0 0 0 0
+90 14 31d31+3848 31d31+3848 5d17+36 stab
+-35 -35 -35 -12
+0 0 B 0
+stand stand male 700
+AHMV ABCDEFGHIJK medium unknown
+D Trips over his own feet, impaling himself on his dagger.~
+T ~
+#55819
+sea captain~
+a captain~
+A tall sea captain wanders past casually.
+~
+A tall and imposing figure, he is hardly a man one would want to
+meet in a dark alley alone.  His arms are thick and muscular, his
+features chiseled, and he holds him self with unspoken confidence. 
+There is warmth in his brown eyes, however, and a slight smile touches
+his lips as he passes strangers with a friendly nod.  A long dagger
+with an ornate handle hangs at his side.  
+~
+human~
+A V 0 0 0
+105 30 27d52+7380 27d52+7380 5d21+42 pierce
+-42 -42 -42 -16
+0 0 E 0
+stand stand male 800
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55820
+iron throne agent~
+an Iron Throne agent~
+An agent of the Iron Throne gives you a cold look.
+~
+With a cold look, he eyes every outsider who makes their way into
+the Iron Throne's seat in Baldur's Gate.  His hair is midnight black,
+cut short and trimmed neatly around his ears.  Slate blue, his eyes
+are calculating and guarded, and a scar cuts below his right eye. 
+Though he is a merchant, he is strongly built, a rugged look to him in
+the scruff bear he wears and the strength in his coiled muscles.  
+~
+human~
+AGS 0 O -600 0
+98 45 30d39+5433 30d39+5433 5d19+39 pound
+-39 -39 -39 -14
+K 0 BE 0
+stand stand male 850
+AHMV ABCDEFGHIJK medium unknown
+D Makes a final, failing attack as he dies.~
+T ~
+#55821
+iron throne guard~
+an Iron Throne guard~
+Standing by the door is a guard for the Iron Throne.
+~
+Red hair pulled back into a tight pony tail, she leans against the
+wall with her arms crossed and watches the crowd casually.  Her
+features are delicate, but nothing of her stubborn expression is. 
+With a barely existant figure, she is well muscled and strongly built,
+her clothes fitting just loosely enough to allow for movement.  A
+sabre hangs at her side, never out of her quick reach.  
+~
+human~
+ABS 0 O -600 0
+101 55 22d29+6184 22d29+6184 5d20+40 slice
+-40 -40 -40 -15
+FH A B 0
+stand stand female 875
+AHMV ABCDEFGHIJK medium unknown
+D Lunges at you with her dying strength and falls short.~
+T ~
+#55822
+dockyard worker~
+a dockyard worker~
+A burly dockyard worker bustles about.
+~
+Large from both muscles and fat, he has a beer gut and arms thick
+as tree trunks.  Sweat and streaks of dirt cover his clean-shaven
+face, and his hands are thickly calloused from hours of work.  He
+wears a stained white shirt and ragged jeans, clunky black boots
+covering his feet.  
+~
+human~
+AB 0 0 0 0
+95 38 28d39+4767 28d39+4767 5d18+38 beating
+-37 -37 -37 -14
+E 0 0 0
+stand stand male 602
+AHMV ABCDEFGHIJK medium unknown
+D Growls a curse and stumbles backward.~
+T ~
+#55823
+Docker~
+Docker~
+Docker stands here promoting his wares.
+~
+Wearing a marked-up fishing vest and a sailor's cap, he grins
+broadly at everyone who comes through the door.  His tousled blonde
+hair and impish face make him look younger than he is, and his dangly
+form looks barely out of adolesence.  He has a deep tan and strong
+features.  
+~
+human~
+AB 0 0 0 0
+104 0 9d9+9999 9d9+9999 10d10+126 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand male 50000000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55824
+seaside style merchant~
+Sally~
+Behind the counter, Sally nods to each new customer entering the store.
+~
+She is a petite elderly woman, her silver hair cut short and styled
+in tight curls.  The lines around her eyes are deep, her lips turned
+up in a friendly smile.  The sun dress she wears is similar to that in
+the front window, sleeveless and bright green.  
+~
+human~
+AB 0 0 0 0
+105 0 9d9+9999 9d9+9999 10d10+122 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55825
+well traveled strider~
+Radasi~
+A well traveled strider rests here, waiting to teach.
+~
+He wears a loose pair of breeches and a plain tunic, his strong
+frame carried easily.  Well muscled, his arms and legs hold implied
+strength, a deep tan coloring his skin.  His eyes, a friendly green,
+are filled with kindness and knowledge as they appraise those who
+enter his abode.  Long and black, his hair is woven in a tight braid
+down his back.  
+~
+human~
+ABJKb 0 0 0 0
+105 0 9d9+9999 9d9+9999 10d10+124 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55826
+aged scholar sage woman meditating~
+Lana~
+A woman sits cross-legged on a matt, meditating.
+~
+Thin and tall, she understates her figure with the loose robes she
+wears.  Her shoulder-length hair is a mud-brown mass of subtle waves
+that tangled if they are looked at the wrong way, and her features of
+strongly defined.  Her eyes are piercing green, and her legs are long
+and leanly muscled.  
+~
+human~
+ABJKb 0 0 0 0
+105 0 9d9+9999 9d9+9999 10d10+123 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55827
+unlikely fight master slender woman~
+Carella~
+Leaning against the wall is a slender woman.
+~
+She is slender yet muscular, her long legs leanly muscled.  Her
+hair is short and spiky, a rich brown that accents her shimmering
+hazel eyes.  To allow her movement, her clothing fits snuggly to her
+athletic figure.  She leans against the wall, her hands tucked into
+her back pockets, and casually appraises everyone who enters the
+academy.  
+~
+human~
+ABJKb 0 0 0 0
+10 0 9d9+9999 9d9+9999 10d10+129 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#55828
+flaming fist cadet~
+a cadet of the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x~
+A cadet stands here bearing the armor of the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x.
+~
+He stands proudly, looking young and eager in the armor that marks
+him a member of the Flaming Fist.  His face has yet to be marked by
+battle, his lips turned up in a friendly smile and his fair short and
+black.  Hanging from a holster on his belt is a club, and he idly
+plays with it from time to time, looking about for an excuse to use it
+and test his skills.  
+~
+human~
+AT 0 0 400 0
+73 10 10d69+1956 10d69+1956 5d14+29 pound
+-26 -26 -26 -8
+0 A 0 0
+stand stand male 798
+AHMV ABCDEFGHIJK medium unknown
+D Tosses his club to the ground in defeat.~
+T ~
+#55829
+traveling merchant~
+a traveling merchant~
+Exploring the city is a traveling merchant.
+~
+There is a foreign beauty to this traveling merchant.  Her skin is
+a rich and golden brown, accented by the soft brown of her eyes.  High
+cheekbones and a petite nose give her a gentle look, and her build is
+slight.  Falling past her shoulders, her black hair hangs in many thin
+braids, each with a bead at its end.  
+~
+human~
+A 0 0 0 0
+77 14 21d35+2272 21d35+2272 5d14+31 slap
+-28 -28 -28 -9
+0 0 0 0
+stand stand female 1025
+AHMV ABCDEFGHIJK medium unknown
+D Clutches her moneypurse protectively as she falls.~
+T ~
+#55830
+young thief boy~
+a thief~
+A young boy is hiding in the shadows.
+~
+Fidgetting nervously, he looks no more than 13 years old.  His face
+is boyish, his blonde hair dirty and rustled, and his figure clings to
+the lankiness of youth.  He wears a ripped shirt and worn breeches,
+and he clutches a dagger tightly in one shaking hand.  There is a hint
+of desperation in his sad, green eyes.  
+~
+human~
+ABS Q 0 -300 0
+80 20 10d81+2552 10d81+2552 5d15+32 punch
+-30 -30 -30 -10
+0 0 0 0
+stand stand male 604
+AHMV ABCDEFGHIJK medium unknown
+D Falls to his knees and punches the ground angrily.~
+T ~
+#55831
+harbour master~
+the harbour master~
+The Harbour Master stands here looking busy.
+~
+In a casual suit, he stands apart from everyone else in the
+building.  He is slightly balding, his dark hair beginning to turn
+silver, and he wears a pair of thin wire spectacles low on his nose. 
+His lips turn up in a friendly smile, and he has a slight pot belly,
+looking jolly.  
+~
+human~
+AB T 0 600 0
+103 35 35d38+6755 35d38+6755 5d20+41 crush
+-41 -41 -41 -16
+0 0 E 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D Calls out for help and stumbles backward.~
+T ~
+#55832
+seaside bard~
+a bard~
+A bard rests here, playing her lute softly.
+~
+She carries her own chair when she goes out to play, a small,
+folding wooden piece scratched and banged and dented.  Her hair is
+long and raven black, her eyes a friendly blue, and her features
+rugged.  Long, delicate fingers play her lute, and she sings from time
+to time, her voice a light soprano.  
+~
+human~
+AB 0 0 0 0
+92 16 21d49+4190 21d49+4190 5d17+37 punch
+-36 -36 -36 -13
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D Stumbles, trying desperately not to fall on her instrument.~
+T ~
+#55833
+knight flaming fist bg~
+a tall Knight~
+A tall knight stands here in full platemail of the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x.
+~
+A strong looking man dressed in full platemail stands here guarding
+the entrance to the fine city of Baldur's Gate.  He looks at you as
+you come closer and hails you.  
+~
+human~
+ABT 0 N 450 0
+110 35 39d39+9201 39d39+9201 5d23+44 pierce
+-45 -45 -45 -17
+0 AB E 0
+stand stand male 1200
+AHMV ABCDEFGHIJK medium unknown
+D Howls in fury as he dies.~
+T ~
+#55834
+wild goose bg~
+a {*w{wild{x {*g{woose{x~
+A wild goose honks at you loudly.
+~
+Chat It's a goose.  But not just any goose, a wild goose!  Running
+around Baldur's Gate, it could be found anywhere, and yet no one has
+any idea how it got here...
+~
+water fowl~
+AG Tb 0 0 0
+101 85 22d59+6184 22d59+6184 5d20+40 bite
+-40 -40 -40 -15
+CF 0 R 0
+stand stand male 0
+AGW ACDEFHKP medium unknown
+D Honks and dives forward, biting its killer's finger.~
+T ~
+#0
+
+
+
+#OBJECTS
+#55800
+cause battle wounds potion~
+a Magical Potion to Cause Battle Wounds~
+A Magical Potion to Cause Battle Wounds lies here.~
+unknown~
+potion B AO
+100 'acid blast' 'divine wrath' 'faerie fire' 'cure light'
+20 1 10000 P
+#55801
+rainbow potion~
+a {Br{Ga{Yi{Mn{Cb{Ro{Ww{x potion of word of rascall~
+A small multicolored potion has carelessly been left here~
+unknown~
+potion G AO
+101 'curse' 'curse' 'curse' ''
+96 1 5000 P
+#55802
+cursed karrickish priest sacrificial dagger~
+a {BKarrickish {xSacrificial Dagger~
+A long jagged {BKarrickish {xsacrificial dagger covered in dried blood lies here.~
+unknown~
+weapon BMZ AN
+dagger 5 9 stab D
+27 6 75000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+4 -1
+A
+2 1
+A
+18 1
+A
+19 -5
+#55803
+rift pendant fake~
+{DThe {BR{bift {CP{cendant{x~
+A fake rift pendant is here, to fool unsuspecting heroes into wearing it.~
+unknown~
+trash HMZ AO
+0 0 0 0 0
+101 500 1500000 P
+A
+13 75
+A
+12 75
+A
+18 -5
+A
+19 -5
+#55804
+amulet teilmon water fake~
+{BAmu{wlet {Wof {wTeil{Bmon{x~
+A large amulet sits here humming lightly.~
+unknown~
+key 0 AO
+0 0 0 0 0
+101 2 150000 P
+#55805
+potion questers delight~
+{CQ{cu{me{ws{Wt{we{mr{c'{Cs {MD{me{cl{wi{cg{mh{Mt{x~
+A frothy brew bubbles and boils here.~
+unknown~
+potion 0 AO
+60 'sanctuary' 'frenzy' 'haste' 'giant strength'
+70 1 7840 P
+#55806
+true seeing potion~
+{WA {rP{Ro{Wti{Ro{rn {Wof {rT{Rr{Wu{we {mSe{we{Wi{Rn{rg{x~
+A very clear potion is here.~
+unknown~
+potion G AO
+50 'detect hidden' 'detect invis' 'farsight' ''
+40 0 6000 P
+#55807
+vial glowing flame~
+{YA {RV{ri{ya{Yl {rof {RF{rl{ya{rm{Re{x~
+A vial of a firey liquid burns here.~
+unknown~
+potion G AO
+50 'fireball' 'fireshield' '' ''
+63 0 21950 P
+#55808
+vial freezing ice~
+{WA {CV{ci{wa{Wl {cof {CF{cr{wo{Ws{Ct{x~
+A chilling vial contains freezing liquid here on the floor.~
+unknown~
+potion 0 AO
+50 'chill touch' 'iceshield' '' ''
+63 0 21950 P
+#55809
+vial crackling lightning~
+{WA {BV{bi{wa{Wl {yof {BL{bi{yg{Wh{Yt{Wn{yi{bn{Bg{x~
+A small vial crackles with electrical energy here.~
+unknown~
+potion 0 AO
+50 'lightning bolt' 'shockshield' '' ''
+63 0 21950 P
+#55810
+beginners blessing potion~
+{YB{ye{wg{Winn{we{yr{Y's Bl{ye{Ws{ws{Wi{yn{Yg{x~
+A wonderful blessing bestows all those who drink this potion.~
+unknown~
+potion AG AO
+14 'cure light' 'cure light' 'cure serious' 'bless'
+4 1 250 P
+#55811
+acid wand~
+{DThe {gW{Ga{Dn{Gd {Dof {GA{Dc{Gi{gd{x~
+A strange and twisted wand lies on the floor oozing an acidic liquid from it.~
+unknown~
+wand G AO
+45 10 8 'acid blast' 0
+49 0 18055 P
+L This item was first designed by an ancient elven mage, devoted to the service of Loviatar, God of pain and torture. It was created to release acid over victims. Since then, it has been copied and produced in Baldur's Gate and is sold readily.~
+#55812
+hand plague talona~
+{bT{Ba{yl{Yo{yn{Ba{b's {DHand{x~
+A dark and flea ridden hand is here, crawling with maggots and disease.~
+unknown~
+wand EGM AO
+34 14 13 'plague' 0
+24 0 800 P
+F
+A 0 0 X
+L This evil item was enchanted by a disease ridden skaven shaman. In his anger, he created an item with the blessings of Talona to bring disease to all who come into contact with it.~
+#55813
+vampires touch wand~
+{RV{ram{Dpi{rre{R's {MT{mou{Dch{x~
+The touch of the vampire, an old evil wand is here eminating a dark aura~
+unknown~
+wand EJ AO
+62 6 4 'energy drain' 0
+59 6 6666 P
+L An old sage bitten by a vampire used the last of his will to enchant an old wand of his with his new found ability to drain life from others. His final revenge would be that any who use the wand could steal life like the vampires.~
+#55814
+ethereal wand~
+{cThe {WE{wt{Dh{We{wr{De{Wa{wl {cWand{x~
+A translucent wand floats about an inch above the ground.~
+unknown~
+wand F AO
+50 3 3 'pass door' 0
+38 5 1750 P
+#55815
+blessing of the gods~
+{rThe {WBlessings {rof the {WGods{x~
+A wand is here with the power of the gods blessing those who wear it.~
+unknown~
+wand 0 AO
+60 5 5 'bless' 0
+20 9 750 P
+A
+5 -2
+A
+4 1
+L this wand will bless anyone at a cost.~
+#55816
+rod of purification~
+{cThe {BR{co{Cd {cof {CP{Bu{cr{Ci{Bf{ci{Cc{Ba{ct{Ci{Bo{cn{x~
+A perfectly clean rod is here, made from a crystal clear liquid.~
+unknown~
+wand AGI AO
+101 2 1 'cure disease' 0
+15 4 3975 P
+L an old gnome created a rod to prove his faithfulness to istishia. It is part liquid in form and will cure diseases, almost any of them.~
+#55817
+helms eye~
+{bH{Bel{bm{B'{bs {yE{Wy{Ye{x~
+The eye of Helm is here watching over you.~
+unknown~
+wand I AO
+27 4 4 'heal' 0
+25 18 9550 P
+#55818
+wooden cabinet~
+a {ywooden{x cabinet~
+An old {ywooden{x cabinet is here storing wands.~
+unknown~
+container 0 0
+0 ABCD 0 0 0
+0 0 0 P
+E
+cabinet~
+{xThrough the glass doors of the cabinet, you can 
+see the following items:
+{x
+{RV{ram{Dpi{rre{R's {MT{mou{Dch
+The {gW{Ga{Dn{Gd {Dof {GA{dc{Gi{gd
+{cThe {WE{wt{Wh{we{Wr{we{Wa{wl {cWand
+{bH{Bel{bm{B'{bs {yE{wy{Ye
+{bT{Ba{yl{Yo{yn{Ba}y's {DHand
+{rThe {WBlessings {rof the {WGods
+{cThe {BR{co{Cd {cof {CP{Bu{cr{Ci{Bf{ci{Cc{Ba{ct{Ci{Bo{cn{x
+~
+#55819
+words of death~
+{WW{words {rof {DDeath{x~
+Some words are scribbled on a piece of tatty paper here.~
+unknown~
+scroll 0 AO
+102 'blindness' 'energy drain' 'weaken' 'sleep'
+101 1 95075 P
+#55820
+words of lightning~
+{BW{Co{cr{Cd{Bs {Wof {bL{Bi{cg{Ch{Wt{Cn{ci{Bn{bg{x~
+Words of lightning are written on a piece of parchment here.~
+unknown~
+scroll Y AO
+60 'chain lightning' 'lightning breath' 'lightning bolt' ''
+65 0 100000 P
+#55821
+words of illusion~
+{DW{wo{Wr{Wd{Ds {wof {DIl{wl{Wus{wi{Don{x~
+Words of illusion are written on translucent parchment here.~
+unknown~
+scroll 0 AO
+30 'invisibility' 'pass door' '' ''
+20 0 8850 P
+#55822
+words of creation~
+{gW{Go{Yr{Gd{gs {yof {gC{Gre{Yat{Gio{gn{x~
+Words of creation are written on fine parchment here.~
+unknown~
+scroll 0 AO
+50 'create food' 'create spring' 'create rose' ''
+10 2 530 P
+#55823
+words of defense~
+{WW{Bo{Dr{Bd{Ws {wof {WD{Be{wf{We{wn{Bs{We{x~
+Words of defense are written on this tough parchment on the floor.~
+unknown~
+scroll Y AO
+50 'armor' 'shield' 'stone skin' ''
+40 1 4500 P
+#55824
+words of mana~
+{CW{co{mr{cd{Cs {mof {MM{ma{cn{Ca{x~
+Words of mana glow on the parchment at your feet.~
+unknown~
+scroll A AO
+101 'restore mana' 'restore mana' '' ''
+96 2 50000 P
+#55825
+words of enhancement~
+{YW{yo{rr{yd{Ys {rof {YE{ynh{ra{Rn{Yc{Re{rm{yen{Yt{x~
+Words of enhancement are written on some scroll paper here.~
+unknown~
+scroll B AO
+77 'giant strength' 'haste' 'frenzy' ''
+69 5 4750 P
+#55826
+transamulet amulet~
+{WT{dr{wa{Dn{W's {DA{wm{Ru{dl{we{Dt{x~
+An evil amulet pulses with an unholy aura.~
+unknown~
+jewelry ACEGY AC
+0 0 0 0 0
+1 9 666 P
+#55827
+necromancers hood~
+{DN{we{Wc{yr{Wo{wm{Da{wn{Wc{ye{wr{D's H{wo{Wo{Dd{x~
+A dark hood lies here.~
+unknown~
+armor AGY AE
+15 15 15 15 0
+48 10 75000 P
+A
+24 -5
+A
+19 7
+A
+18 6
+#55828
+fishing rod~
+a fishing rod~
+An old fishing rod lies on the ground.~
+unknown~
+weapon 0 AN
+exotic 5 7 whip 0
+50 20 3700 P
+~
+~
+~
+~
+~
+#55829
+mounted fish~
+a {Yd{yecorativel{Yy{x mounted fish~
+A fish mounted decoratively to hang on the wall sits here.~
+unknown~
+trash 0 A
+0 0 0 0 0
+1 10 512 P
+L Caught off the coast of Baldur's Coast, this fish was mounted on a wooden plaque and sold to allow bragging rights to anyone who bought it. I swear, the fish was THIS BIG!~
+#55830
+small skiff~
+a small skiff~
+A small skiff rests on the ground.~
+unknown~
+boat 0 A
+0 0 0 0 0
+24 30 900 P
+L Actually, this is just your average tiny boat. It was made for sale in Baldur's Gate by a young boy who loves to build things. They called it a skiff to make it sound impressive.~
+#55831
+sailor cap~
+a {Cs{cailor{x cap~
+A discarded cap lies in a crumpled mess.~
+unknown~
+armor 0 AE
+20 20 20 15 0
+63 25 7250 P
+A
+13 25
+A
+12 25
+A
+3 2
+L Fashioned after the cap worn by many sailors, it is sold to tourists for novelty value - at a good profit, of course. After all, if it makes a tourist happy, and it makes a profit, everyone wins ... right?~
+#55832
+can of worms~
+a can of {yw{*o{yr{*m{ys{x~
+A small metal can has been discarded here.~
+unknown~
+food 0 A
+0 5 0 A 0
+16 5 480 P
+#55833
+thin piece fabric yellow polkadot thong~
+a {Yy{We{Yl{Wl{Yo{Ww {Yp{Wo{Yl{Wk{Ya{Wd{Yo{Wt{x thong~
+A thin piece of yellow fabric lies here.~
+unknown~
+armor A AF
+0 0 0 0 0
+1 1 3250 P
+L Not really something you'd expect to find in an old lady's shop, is it? When asked, she'll say it reminds her of days long past spent on her bicycle...~
+#55834
+long blue sundress dress~
+a long, {Cb{clue{x sundress~
+An ocean blue sundress lies in a pile.~
+unknown~
+armor I AD
+0 0 0 0 0
+1 1 6201 P
+L Hand-sewn by a pleasant old woman, it is sold to young women in Baldur's Gate in hopes it can give them a bit of joy.~
+#55835
+leather sandals~
+{yleather{x sandals~
+A pair of leather sandals sits on the ground.~
+unknown~
+armor 0 AG
+0 0 0 0 0
+1 1 5138 P
+L Sally loves sandals. Wooden bottoms, hand-threaded straps, the clip-clop sound they make when a person walks... It's an obsession, but it warms an old woman's heart.~
+#55836
+pair baggy shorts~
+a pair of {*baggy{x shorts~
+In a pile on the ground if a pair of black shorts.~
+unknown~
+armor 0 AF
+0 0 0 0 0
+1 1 4925 P
+L Those silly kids and their baggy shorts... Even if she doesn't understand the style, Sally is glad to make the shorts for everyone who wants to buy them.~
+#55837
+striped bathing suit~
+a {Gs{gt{Gr{gi{Gp{ge{Gd{x bathing suit~
+A green bathing suit has been discarded here.~
+unknown~
+armor 0 AD
+0 0 0 0 0
+1 1 5007 P
+L Sally's most popular item, her striped bathing suits are worn by most of the people in Baldur's Gate.~
+#55838
+scuffed dagger~
+a {*scuffed{x dagger~
+A dagger lies here, scuffed and dirty.~
+unknown~
+weapon 0 AN
+dagger 11 7 slash 0
+64 10 7125 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+5 -1
+A
+19 3
+A
+18 4
+L Carried by a young thief, it was his prized possession and his only hope. And you took it from him. How could you be so cruel??~
+#55839
+bards lute~
+a lute~
+A lute sits here, decoratively engraved.~
+unknown~
+armor B AO
+0 0 0 0 0
+18 10 774 P
+A
+3 1
+L Found in the back corner of an old shop, the lute was bought and cherished by a bard in Baldur's Gate who hand-carved a decorative pattern onto it.~
+#55840
+tattered rags~
+tattered rags~
+A pile of tattered rags has been discarded here.~
+unknown~
+armor 0 AD
+10 10 10 7 0
+58 5 105 P
+A
+1 -1
+A
+2 2
+#55841
+pearl earring~
+a {wp{Wear{wl{x earring~
+A small earring set with a pearl glimmers on the ground.~
+unknown~
+armor A AS
+0 0 0 0 0
+72 20 4820 P
+A
+13 30
+A
+12 30
+A
+18 3
+A
+19 -2
+L Enchanted by a hired mage, this earring was created specifically for ranking members of the Iron Fist as a symbol of accomplishment.~
+#55842
+stuck shiny silver coin~
+a stuck silver coin~
+One miserable silver coin.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L It's stuck, damnit! No one can get it out!! But I bet they all will try ;)~
+#55843
+small seashell shell~
+a small {yse{washe{yll{x~
+A small seashell rests on the ground.~
+unknown~
+trash B A
+0 0 0 0 0
+1 10 0 P
+L A young girl picked it up at first, finding it washes up by the sea in Baldur's Gate. She dropped it when her mother called and has been wishing for it every since.~
+#55844
+lost rag doll~
+a rag doll~
+A sad looking rag doll sits in the gutter.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 0 0 P
+L In the bustle of the crowded street, a very young girl lost her favorite rag doll. Isn't that so sad???~
+#55845
+lost beaded bracelet~
+a {yb{ge{ya{gd{ye{gd{x bracelet~
+Lying on the ground is a small, beaded bracelet.~
+unknown~
+armor 0 AM
+5 5 5 3 0
+13 0 0 P
+L Guess it was a little too loose for the person wearing it...because this bracelet just fell right off! Darn.~
+#55846
+lost shoe~
+a left shoe~
+A single left shoe is kicked up on the side of the street.~
+unknown~
+armor 0 AG
+10 10 10 6 0
+21 0 0 P
+L Now, could someone tell me how they lose one left shoe????? I don't get it.~
+#55847
+hawaiian shirt~
+a {Rha{Yw{Gai{Yi{Ran{x shirt~
+A color hawaiian shirt lies here.~
+unknown~
+armor 0 AD
+0 0 0 0 0
+1 20 5215 P
+L What seaside clothing shop would be complete without a loud hawaiian shirt?~
+#55857
+decorative bench~
+a bench~
+A decorative bench sits here, facing the sea.~
+wood~
+furniture 0 0
+3 10000 BEHK 300 300
+0 5000 0 P
+#55883
+crate box~
+a crate.~
+A large crate is here gathering dust.~
+unknown~
+container 0 0
+100 CD 0 200 0
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#55800
+{DThe {YE{yastern {YG{yatehouse{x~
+~
+{x
+{WW E L C O M E   T O   B A L D U R 'S   G A T E
+{x
+{Y                       +
+{w                       |
+{R                      /{ro{R\
+{y                      |{R-{y|
+{y                   ,  | |  ,
+{R                   /\/ _ \/\
+{y             .-.-.-|| (_) ||-.-.-.
+{y             | {D# # {y||  _  || {D# # {y|
+{D          ___{y|     || ||| ||     |{D___
+{g             """""""""   """""""""
+{x
+~
+0 12 0 1
+0
+D1
+~
+~
+0 0 50897
+D3
+~
+~
+0 0 55801
+S
+#55801
+{YB{yefore {DThe {YE{yastern {YG{yatehouse{x~
+~
+Stretched out to the west, the city of Baldur's Gate stands vigil
+beside the ocean.  The smell of salt water lingers in the air, and the
+cry of seagulls echoes faintly from a distance.  Tucked between the
+road and the Easter Gatehouse, a small house sits to the north, a sign
+beside the door inviting passers-by.  
+~
+0 5 0 21
+0
+D0
+~
+~
+0 0 55948
+D1
+~
+~
+0 0 55800
+D3
+~
+~
+0 0 55802
+S
+#55802
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+A broad, well-used street, Trademan's Route runs along the city
+wall.  Small cracks scatter the road, but it is well kept.  Small
+trees are planted between the route and the wall.  To the west, a
+number of small houses appear joined together into a large building. 
+Its windows are covered, giving no glimpse inside.  A small path
+branches off toward the Eastern Gatehouse.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55834
+D1
+~
+~
+0 0 55801
+D2
+~
+~
+0 0 55803
+S
+#55803
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+A broad, well-used street, Trademan's Route runs along the city
+wall.  Small cracks scatter the road, but it is well kept.  Small
+trees are planted between the route and the wall.  To the west, a
+number of small houses appear joined together into a large building. 
+Its windows are covered, giving no glimpse inside.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55802
+D2
+~
+~
+0 0 55804
+S
+#55804
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+Here the Tradesman's Route ends, and the road splits into a
+T-junction.  Cloakwood Close runs along the city wall to the east and
+a shadowy alley runs to the west towards the city center.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55803
+D1
+~
+~
+0 0 55805
+D3
+~
+~
+0 0 55832
+S
+#55805
+{YC{yloakwood {YC{ylose{x~
+~
+{g       _
+{g     {G.{g-{G"{g`.-{G'{g-.       {wThis road alongside the eastern city wall
+{g  .-'.-.%_.- {G,{g )  {wof Baldur's Gate is lined with beautiful and
+{g (_{G.{g ){R%{g(  .'{R%{g  ,) {wtall oak trees. They cast an inviting shadow
+{g   (.-, {R%{g)'{G.{g _.)  {wdown on the cobblestone  pathway below.  The
+{g    '-.{y%{g\{y%{g/-{G'     {wroad is named after Cloakwood. This shadowed
+{y        %%        {wand dark  forest is located southwest of the
+{y        %%        {wcity.  The trees are grown from acorns found
+{g      .,{y%%{g._     {win Cloakwood, some say they are magical.{x
+~
+0 0 0 21
+0
+D2
+~
+~
+0 0 55806
+D3
+~
+~
+0 0 55804
+S
+#55806
+{YC{yloakwood {YC{ylose{x~
+~
+{g       _
+{g     {G.{g-{G"{g`.-{G'{g-.       {wThis road alongside the eastern city wall
+{g  .-'.-.%_.- {G,{g )  {wof Baldur's Gate is lined with beautiful and
+{g (_{G.{g ){R%{g(  .'{R%{g  ,) {wtall oak trees. They cast an inviting shadow
+{g   (.-, {R%{g)'{G.{g _.)  {wdown on the cobblestone  pathway below.  The
+{g    '-.{y%{g\{y%{g/-{G'     {wroad is named after Cloakwood. This shadowed
+{y        %%        {wand dark  forest is located southwest of the
+{y        %%        {wcity.  The trees are grown from acorns found
+{g      .,{y%%{g._     {win Cloakwood, some say they are magical.{x
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55805
+D2
+~
+~
+0 0 55807
+S
+#55807
+{YC{yloakwood {YC{ylose{x~
+~
+{g       _
+{g     {G.{g-{G"{g`.-{G'{g-.       {wThis road alongside the eastern city wall
+{g  .-'.-.%_.- {G,{g )  {wof Baldur's Gate is lined with beautiful and
+{g (_{G.{g ){R%{g(  .'{R%{g  ,) {wtall oak trees. They cast an inviting shadow
+{g   (.-, {R%{g)'{G.{g _.)  {wdown on the cobblestone  pathway below.  The
+{g    '-.{y%{g\{y%{g/-{G'     {wroad is named after Cloakwood. This shadowed
+{y        %%        {wand dark  forest is located southwest of the
+{y        %%        {wcity.  The trees are grown from acorns found
+{g      .,{y%%{g._     {win Cloakwood, some say they are magical.{x
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55806
+D2
+~
+~
+0 0 55808
+S
+#55808
+{YC{yloakwood {YC{ylose{x~
+~
+{g       _
+{g     {G.{g-{G"{g`.-{G'{g-.       {wThis road alongside the eastern city wall
+{g  .-'.-.%_.- {G,{g )  {wof Baldur's Gate is lined with beautiful and
+{g (_{G.{g ){R%{g(  .'{R%{g  ,) {wtall oak trees. They cast an inviting shadow
+{g   (.-, {R%{g)'{G.{g _.)  {wdown on the cobblestone  pathway below.  The
+{g    '-.{y%{g\{y%{g/-{G'     {wroad is named after Cloakwood. This shadowed
+{y        %%        {wand dark  forest is located southwest of the
+{y        %%        {wcity.  The trees are grown from acorns found
+{g      .,{y%%{g._     {win Cloakwood, some say they are magical.{x
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55807
+D2
+~
+~
+0 0 55809
+S
+#55809
+{YC{yloakwood {YC{ylose{x~
+~
+{g       _
+{g     {G.{g-{G"{g`.-{G'{g-.       {wThis road alongside the eastern city wall
+{g  .-'.-.%_.- {G,{g )  {wof Baldur's Gate is lined with beautiful and
+{g (_{G.{g ){R%{g(  .'{R%{g  ,) {wtall oak trees. They cast an inviting shadow
+{g   (.-, {R%{g)'{G.{g _.)  {wdown on the cobblestone  pathway below.  The
+{g    '-.{y%{g\{y%{g/-{G'     {wroad is named after Cloakwood. This shadowed
+{y        %%        {wand dark  forest is located southwest of the
+{y        %%        {wcity.  The trees are grown from acorns found
+{g      .,{y%%{g._     {win Cloakwood, some say they are magical.{x
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55808
+D3
+~
+~
+0 0 55810
+S
+#55810
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The Road of Travellers is a cobblestone road on the southeast side
+of Baldur's Gate.  The road continues west and south of here, while
+Cloakwood Close is just to the east.  Tracks in the road indicate it
+is well travelled.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55809
+D2
+~
+~
+0 0 55825
+D3
+~
+~
+0 0 55811
+S
+#55811
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The smoothed and worn cobblestones of the Road of Travellers run
+along from east to west.  To the north is the famous {WE{wlfsong {YT{yavern{x,
+the largest and most popular tavern in all of Baldur's Gate.  It is a
+great place for hearing rumours and gossip about the city.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55980
+D1
+~
+~
+0 0 55810
+D3
+~
+~
+0 0 55812
+S
+#55812
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The smoothed and worn cobblestones of the Road of Travellers run
+along from east to west.  The large building to the north is the
+Elfsong Tavern, its entrance is just east of here.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55811
+D3
+~
+~
+0 0 55813
+S
+#55813
+{YR{yoad {Dof {YT{yravellers{x~
+~
+Many people pass along this road.  The cobblestones look well worn
+by travellers and carts.  There is a couple of barrels left at the
+side of the road here, empty but still smelling of ale.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55812
+D3
+~
+~
+0 0 55814
+S
+#55814
+{YR{yoad {Dof {YT{yravellers{x~
+~
+A small and narrow alleyway branches off the road to the north. 
+Over to the west a large dome can be seen, with a stained glass roof. 
+The Road of Travellers continues east to west.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55826
+D1
+~
+~
+0 0 55813
+D3
+~
+~
+0 0 55815
+S
+#55815
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The road curves round to the south here.  To the north is a great
+dome, with a very beautiful stained glass roof.  A signpost is here
+giving information on the dome.  A lot of the people around this part
+of the road wear mage's robes.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55841
+D1
+~
+~
+0 0 55814
+D2
+~
+~
+0 0 55816
+S
+#55816
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The Road of Travellers runs southward here, towards the far south
+of the city.  That is where dockyards, the harbour and the Blade and
+Stars inn can be found.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55815
+D2
+~
+~
+0 0 55817
+S
+#55817
+{YR{yoad {Dof {YT{yravellers{x~
+~
+Branching off to the west is the beginning of Merchant's Way.  This
+leads along to the Harbour of Baldur's Gate.  The Road of Travellers
+continues to the south towards the dockyards.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55816
+D2
+~
+~
+0 0 55818
+D3
+~
+~
+0 0 55860
+S
+#55818
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The Road of Travellers is now emerging to be a large circle, as it
+turns eastward.  Those who have travelled the whole road will end up
+where they started.  It is used to get around the main southeast
+corner of the big city.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55817
+D1
+~
+~
+0 0 55819
+S
+#55819
+{YR{yoad {Dof {YT{yravellers{x~
+~
+A small path north from the cobblestone road leads to the Blade and
+Stars, a somewhat low price, low life inn.  The road continues east
+towards the city wall.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 39400
+D1
+~
+~
+0 0 55820
+D3
+~
+~
+0 0 55818
+S
+#55820
+{YR{yoad {Dof {YT{yravellers{x~
+~
+This part of the Road of Travellers is the least pleasant.  There
+is much noise coming from the dockyards, and the local drunks from the
+Blade and Stars tend to act a little violently to passers by.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55821
+D3
+~
+~
+0 0 55819
+S
+#55821
+{YR{yoad {Dof {YT{yravellers{x~
+~
+Here lies the junction of the Road of Travellers with Bard's
+Crescent, which lies off to the south.  Over to the east, the city
+walls lie, and there is a fairly large turret just at the end of the
+road.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55822
+D2
+~
+~
+0 0 55851
+D3
+~
+~
+0 0 55820
+S
+#55822
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The city walls run right up to the edge of the road here, forcing
+the path to divert to the north, while the rest of the Road of
+Travellers runs along westward.  There is an old cart here, empty of
+its contents, perhaps abandoned a long time ago.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55823
+D3
+~
+~
+0 0 55821
+S
+#55823
+{YR{yoad {Dof {YT{yravellers{x~
+~
+There is a nasty smell rising from a grate at the edge of the road
+here.  The road runs alongside the large turret in the city walls, now
+to the east.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55824
+D2
+~
+~
+0 0 55822
+D5
+~
+grate~
+65544 0 56105
+S
+#55824
+{YR{yoad {Dof {YT{yravellers{x~
+~
+A tall turret in the city wall stands to the south.  The Road of
+Travellers continues to the west.  There are several tracks in the
+road indicating travel is quite popular here.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55825
+D3
+~
+~
+0 0 55823
+S
+#55825
+{YR{yoad {Dof {YT{yravellers{x~
+~
+The cobblestone road runs southward along the great eastern city
+wall.  There is a small house to the west.  Noise from the Elfsong
+Tavern can be heard coming from the northwest.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55810
+D2
+~
+~
+0 0 55824
+D3
+~
+~
+8 0 55849
+S
+#55826
+{DA{Y N{yarrow{D Alley{x~
+~
+{DThis alleyway is very narrow.  There are tall fences running up
+along both sides of the path.  The back room of the Elfsong is visible
+over one of the fences to the east.  Sorcerous Sundries is over to the
+west behind a stone wall.  {x 
+~
+0 1 0 21
+0
+D0
+~
+~
+0 0 55827
+D2
+~
+~
+0 0 55814
+S
+#55827
+{DA{Y N{yarrow{D Alley{x~
+~
+{DThis alleyway is very narrow.  There are tall fences running up
+along both sides of the path.  The back room of the Elfsong is visible
+over one of the fences to the east.  Sorcerous Sundries is over to the
+west behind a stone wall.  {x 
+~
+0 1 0 21
+0
+D0
+~
+~
+0 0 55828
+D2
+~
+~
+0 0 55826
+S
+#55828
+{DA{Y N{yarrow{D Alley{x~
+~
+{DThis alleyway is very narrow.  There are tall fences running up
+along both sides of the path.  There is a small doorway to the west
+leading to a little house.  It is dark and looks neglected.  {x 
+~
+0 1 0 21
+0
+D0
+~
+~
+0 0 55829
+D2
+~
+~
+0 0 55827
+D3
+~
+~
+8 0 55850
+S
+#55829
+{DShadow's Alley{x~
+~
+The alley ends here, as it joins onto Balduran Way to the west. 
+That street is named after Balduran, the founder of the city.  A small
+narrow passageway leads to another alley south of here, while the
+entrance to a small house is north.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55840
+D1
+~
+~
+0 0 55830
+D2
+~
+~
+0 0 55828
+D3
+~
+~
+0 0 55833
+S
+#55830
+{DShadow's Alley{x~
+~
+Here it is possible to see a large building that looks like lots
+of smaller houses joined together, over to the north.  It is only
+visible here because there is no house to the north unlike the rest of
+the street.  The large set of houses seem to join onto the back of the
+other houses in this alley as though they were terraced.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55831
+D3
+~
+~
+0 0 55829
+S
+#55831
+{DShadow's Alley{x~
+~
+This is Shadow's Alley, a narrow little road, which is kept in
+constant shadow.  Either the high rising elfsong tavern to the south
+or the houses to the north create an obstacle to the sun's light.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55839
+D1
+~
+~
+0 0 55832
+D3
+~
+~
+0 0 55830
+S
+#55832
+{DShadow's Alley{x~
+~
+This is Shadow's Alley, a narrow little road, which is kept in
+constant shadow.  Either the high rising elfsong tavern to the south
+or the houses to the north create an obstacle to the sun's light.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55838
+D1
+~
+~
+0 0 55804
+D3
+~
+~
+0 0 55831
+S
+#55833
+{YB{yalduran {YW{yay{x~
+~
+Making its way north, Balduran Way branches off a T-intersection. 
+Opening to the east is a narrow, dark alley, and to the west is
+Merchant's Way, a bustling street often filled with activity.  There
+is a small building to the south, a dark window facing the
+intersection.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55870
+D1
+~
+~
+0 0 55829
+D3
+~
+~
+0 0 55871
+S
+#55834
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+A broad, well-used street, Trademan's Route runs along the city
+wall.  Small cracks scatter the road, but it is well kept.  Small
+trees are planted between the route and the wall.  To the west, a
+number of small houses appear joined together into a large building. 
+Its windows are covered, giving no glimpse inside.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55835
+D2
+~
+~
+0 0 55802
+S
+#55835
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+A broad, well-used street, Trademan's Route runs along the city
+wall.  Small cracks scatter the road, but it is well kept.  Small
+trees are planted between the route and the wall.  To the west, a
+number of small houses appear joined together into a large building. 
+Its windows are covered, giving no glimpse inside.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55836
+D2
+~
+~
+0 0 55834
+S
+#55836
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+A broad, well-used street, Trademan's Route runs along the city
+wall.  Small cracks scatter the road, but it is well kept.  Small
+trees are planted between the route and the wall.  To the west, a
+number of small houses appear joined together into a large building. 
+Its windows are covered, giving no glimpse inside.  
+~
+0 0 0 21
+0
+D2
+~
+~
+0 0 55835
+D3
+~
+~
+0 0 55837
+S
+#55837
+{YT{yradesman{Y'{ys {YR{youte{x~
+~
+A broad, well-used street, Trademan's Route runs along the city
+wall.  Small cracks scatter the road, but it is well kept.  Small
+trees are planted between the route and the wall.  To the west, a
+number of small houses appear joined together into a large building. 
+Its windows are covered, giving no glimpse inside.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55861
+D1
+~
+~
+0 0 55836
+S
+#55838
+A Small House~
+~
+This small building is typical of the local housing in Baldur's
+Gate.  There is a pair of partitions making walls in the room.  To the
+eastern side, there is a small kitchen with a standard stove.  To the
+western side, are two beds behind the partition.  A small fireplace
+brings warmth to the humble abode.  
+~
+0 8 0 1
+0
+D0
+~
+~
+65544 0 56052
+D2
+~
+~
+8 0 55832
+S
+#55839
+A Small House~
+~
+This small building is typical of the local housing in Baldur's
+Gate.  There is a pair of partitions making walls in the room.  To the
+eastern side, there is a small kitchen with a standard stove.  To the
+western side, are two beds behind the partition.  A small fireplace
+brings warmth to the humble abode.  
+~
+0 8 0 1
+0
+D0
+~
+~
+65544 0 56051
+D2
+~
+~
+8 0 55831
+S
+#55840
+A Small House~
+~
+This small building is typical of the local housing in Baldur's
+Gate.  There is a pair of partitions making walls in the room.  To the
+eastern side, there is a small kitchen with a standard stove.  To the
+western side, are two beds behind the partition.  A small fireplace
+brings warmth to the humble abode.  
+~
+0 8 0 1
+0
+D0
+~
+~
+65544 0 56040
+D2
+~
+~
+8 0 55829
+S
+#55841
+Sorcerous Sundries~
+~
+A damp musky odour greets all who enter this large dome.  Stained
+glass creates a roof to the dome, bringing in a beautiful pattern of
+light and colour.  This is the famous shop, Sorcerous Sundries, where
+many a mage can go to buy ingredients for potions, study secret arcane
+knowledge with one of the local experts, or just browse a selection of
+goods.  
+~
+0 8 0 13
+0
+D0
+~
+~
+0 0 55842
+D2
+~
+~
+8 0 55815
+D3
+~
+~
+0 0 55844
+S
+#55842
+Sorcerous Sundries~
+~
+The musky odour is at its worst here.  There are so many pieces of
+parchment and paper for scroll making that the smell is so pungent. 
+The stained glass dome is reflecting colours down through to the room
+making it look somewhat spectacular.  Sitting at their desk, a young
+lady sells scrolls.  
+~
+0 0 0 13
+0
+D2
+~
+~
+0 0 55841
+D3
+~
+~
+0 0 55843
+S
+#55843
+Sorcerous Sundries~
+~
+Several rows of book cases now line the floor in the northwest
+quadrant of the dome.  The beautiful stained glass roof casts
+colourful and interesting shadows along the rows of book cases.  In
+the centre of the book cases is a small open section where an ancient
+elven mage reads, studies and meditates.  This is obviously a place
+where mages and wizards can train.  
+~
+0 524288 0 13
+0
+D1
+~
+~
+0 0 55842
+D2
+~
+~
+0 0 55844
+S
+#55844
+Sorcerous Sundries~
+~
+This is the southwest corner of Sorcerous Sundries.  Intricate
+patterns of colour shine through the stain glass dome ceiling to
+illuminate the room.  Over to the east is the main entrance to the
+shopping dome while to the north, it is possible to see an ancient
+elven mage resting, ready to teach new recruits the arts of wizardry. 
+There is another large desk in this part of the shop, and behind the
+desk is a tall wooden cabinet, with glass doors, showing an array of
+wands.  
+~
+0 0 0 13
+0
+D0
+~
+~
+0 0 55843
+D1
+~
+~
+0 0 55841
+S
+#55845
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 55846
+D1
+~
+~
+0 0 55847
+D5
+~
+~
+0 0 55919
+S
+#55846
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 55848
+D2
+~
+~
+0 0 55845
+S
+#55847
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 55848
+D3
+~
+~
+0 0 55845
+S
+#55848
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 55847
+D3
+~
+~
+0 0 55846
+S
+#55849
+Nemphre's House~
+~
+This small house is almost set up like a laboratory.  There are
+benches set up with all sorts of arcane objects for study at the rear
+of the house.  A small kitchen unit on the south wall is set up for
+cooking but is more used for magic experiments.  There is a small bed
+along the north wall behind a wooden partition.  There is a strange
+rotting smell coming from somewhere in the house.  
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 55825
+S
+#55850
+Tran's House~
+~
+{DThis small abode is outfitted for the study of necromancy.  A stone
+altar in the center is set up for ritual sacrifice and the raising of
+the dead.  There is a shrine to Orcus, the god of the undead set by
+the altar.  Pictures depict life, death, and the raising of the dead
+into an army of darkness.  {x 
+~
+0 0 0 1
+0
+D1
+~
+~
+8 0 55828
+S
+#55851
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+Running alongside the city wall, a narrow street breaks away from
+the Road of Travelers.  The coast is just to the south, a low wall
+breaking the tide, and to the east a tall turret juts up from the
+wall.  A small building sits to the west, and beyond it the sounds of
+the dockyards echo.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55821
+D2
+~
+~
+0 0 55852
+S
+#55852
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+The city wall comes to an end here, a tall turret reaching skyward.
+A sign hangs above the broad door welcoming wanderers to the Gatehouse
+Tavern, and the windows are draped within by simple curtains.  Lapping
+against the shore, the sea is kept off of the street by a low wall
+that runs along the coastline.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55851
+D1
+~
+~
+8 0 39404
+D3
+~
+~
+0 0 55854
+S
+#55853
+???~
+~
+~
+0 12 0 0
+0
+S
+#55854
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+Bard's Crescent continues alongside the sea, the water stretching
+out for miles to the south.  Small and inviting, a store sits on the
+opposite side of the street.  A small boat is propped up in front of
+the store, tied securely to its stand.  Seagulls often perch on the
+roof of the store, scattering at each echoing crash from the nearby
+dockyards.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55915
+D1
+~
+~
+0 0 55852
+D3
+~
+~
+0 0 55855
+S
+#55855
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+With the dockyards to one side and the sea to the other, the narrow
+street is both scenic and loud.  A tall fence cordons off the
+dockyards to the north, mountains of crates and other goods visible
+through the cracks.  Between the street and fence is a broad stretch
+where bards are known to set up, giving this crescent its name as they
+perform their music and their tales above the sound of the water. 
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55854
+D3
+~
+~
+0 0 55856
+S
+#55856
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+Running along the shore, a low wall separates the street from the
+sea.  A tall fence casts a shadow over this section of Bard's
+Crescent, sounds echoing from the dockyards beyond.  Occaisionally,
+bards will set up between the fence and the road, complementing the
+vast view of the sea with their trade.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55855
+D3
+~
+~
+0 0 55857
+S
+#55857
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+The coastline curves here, the street following it in a gentle arc.
+As it turns, the road becomes wider, opening to accomodate the traffic
+from the nearby dockyards to the harbour and the market.  Stretching
+out to the horizon, the oceans laps against the shore and breaks into
+a low wall that follows the street.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55858
+D1
+~
+~
+0 0 55856
+S
+#55858
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+Starting to narrow to the south, the street is wide and well used. 
+A small path breaks off to the east toward the dockyards, which are
+surrounded by a tall, weathered fence.  A large opening in the fence
+allows crates and cargo to be taken to the harbour.  Breaking against
+the short wall, the tide rolls in and out, and the calls of the
+dockyard workers drift over the fence.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55859
+D1
+~
+~
+0 0 55941
+D2
+~
+~
+0 0 55857
+S
+#55859
+{YB{yard{Y'{ys {YC{yrescent{x~
+~
+Breaking away from Merchant's Way, a broad street leads toward the
+dockyards.  The short wall following along the coast curves with the
+shoreline, running parallel the road, and a tall fence runs around the
+dockyards to the southeast.  Across the harbour, the temple of
+Umberlee can be seen rising on wide pillars out of the water.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55860
+D2
+~
+~
+0 0 55858
+S
+#55860
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+This is the end of Merchant's Way.  The Road of Travellers joins to
+the east, while Bard's Crescent starts to the south.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55817
+D2
+~
+~
+0 0 55859
+D3
+~
+~
+0 0 55878
+S
+#55861
+{YC{yommoner{y'{ys {YP{yassage{x~
+~
+A small intersection connects Trademan's Route with Commoner's
+Road, the smaller passage branching off into the large street.  The
+city wall turns in a sharp corner, running west and south, a small
+grove of trees clustered beside the road.  
+~
+0 0 0 21
+0
+D2
+~
+~
+0 0 55837
+D3
+~
+~
+0 0 55862
+D5
+~
+~
+32776 0 56177
+S
+#55862
+{YC{yommoner{y'{ys {YP{yassage{x~
+~
+Following beside the city wall, the small, unadorned road connects
+two larger routes to each other.  A large building looms over the
+street from the south, looking as though it is made up of many smaller
+houses.  Between the wall and the building, it is well shaded from the
+sun, lit by the lamp posts that run along either side of the road.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55861
+D3
+~
+~
+0 0 55863
+S
+#55863
+{YC{yommoner{y'{ys {YP{yassage{x~
+~
+Following beside the city wall, the small, unadorned road connects
+two larger routes to each other.  A large building looms over the
+street from the south, looking as though it is made up of many smaller
+houses.  Between the wall and the building, it is well shaded from the
+sun, lit by the lamp posts that run along either side of the road.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55862
+D3
+~
+~
+0 0 55864
+S
+#55864
+{YC{yommoner{y'{ys {YP{yassage{x~
+~
+Following beside the city wall, the small, unadorned road connects
+two larger routes to each other.  A large building looms over the
+street from the south, looking as though it is made up of many smaller
+houses.  Between the wall and the building, it is well shaded from the
+sun, lit by the lamp posts that run along either side of the road.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55863
+D3
+~
+~
+0 0 55865
+S
+#55865
+{YB{yalduran {YW{yay{x~
+~
+The large road of Balduran Way comes to an end at the city wall,
+turning off onto Commoner's Road to the east.  A small house sits
+tucked beside the wall, quaint and ordinary though looking a little
+run down.  Sitting on the corner of the intersection is a lam ppost.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55864
+D2
+~
+~
+0 0 55866
+S
+#55866
+{YB{yalduran {YW{yay{x~
+~
+A large thoroughfair for the citizens of Baldur's Gate, Balduran
+Way is a wide and busy street.  The stones of the road are dirty and
+worn but the street is kept even.  Small houses on the east side of
+the road are built together into a large building; to the west is a
+row of small, old homes.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55865
+D1
+~
+~
+66312 0 56053
+D2
+~
+~
+0 0 55867
+S
+#55867
+{YB{yalduran {YW{yay{x~
+~
+A large thoroughfair for the citizens of Baldur's Gate, Balduran
+Way is a wide and busy street.  The stones of the road are dirty and
+worn but the street is kept even.  Small houses on the east side of
+the road are built together into a large building; to the west is a
+row of small, old homes.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55866
+D2
+~
+~
+0 0 55868
+S
+#55868
+{YB{yalduran {YW{yay{x~
+~
+A large thoroughfair for the citizens of Baldur's Gate, Balduran
+Way is a wide and busy street.  The stones of the road are dirty and
+worn but the street is kept even.  Small houses on the east side of
+the road are built together into a large building; to the west is a
+row of small, old homes.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55867
+D2
+~
+~
+0 0 55869
+S
+#55869
+{YB{yalduran {YW{yay{x~
+~
+A large thoroughfair for the citizens of Baldur's Gate, Balduran
+Way is a wide and busy street.  The stones of the road are dirty and
+worn but the street is kept even.  Small houses on the east side of
+the road are built together into a large building; to the west is a
+row of small, old homes.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55868
+D2
+~
+~
+0 0 55870
+S
+#55870
+{YB{yalduran {YW{yay{x~
+~
+A large thoroughfair for the citizens of Baldur's Gate, Balduran
+Way is a wide and busy street.  The stones of the road are dirty and
+worn but the street is kept even.  Small houses on the east side of
+the road are built together into a large building; to the west is a
+row of small, old homes.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55869
+D2
+~
+~
+0 0 55833
+S
+#55871
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+Lined with trees, this broad street is clean but well-used, the
+stones showing only small signs of their wear.  As it winds its way
+across the city, it passes many smaller homes and shops.  At almost
+all hours someone can be found wandering this street, either on their
+way to and from the market or the harbour.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55833
+D2
+~
+~
+0 0 55872
+S
+#55872
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+Lined with trees, this broad street is clean but well-used, the
+stones showing only small signs of their wear.  As it winds its way
+across the city, it passes many smaller homes and shops.  At almost
+all hours someone can be found wandering this street, either on their
+way to and from the market or the harbour.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55871
+D3
+~
+~
+0 0 55873
+S
+#55873
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+Lined with trees, this broad street is clean but well-used, the
+stones showing only small signs of their wear.  As it winds its way
+across the city, it passes many smaller homes and shops.  At almost
+all hours someone can be found wandering this street, either on their
+way to and from the market or the harbour.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55872
+D2
+~
+~
+0 0 55874
+S
+#55874
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+Running from the harbour to the residential part of the city,
+Merchant's Way is a broad and winding street paved with well-kept
+stones.  Within sight of the Market Square, some merchants have been
+known to set their booths up along the fringes of the street in an
+attempt to stand apart from the crowd and be the first to catch
+incoming business.  Lamps also line the street, keeping the busy
+thoroughfare lit at all times of day.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55873
+D2
+~
+~
+0 0 55875
+S
+#55875
+{YB{yaldur{Y'{ys {YG{yate{g: {DMarket Square{x~
+~
+Streets come together here to form a vast, open market.  The air is
+filled with the sounds of the nearby harbour, and during the day the
+calls of merchants lift above the din of a gathered crowd.  As an open
+market, there are no set booths, but travellers and locals alike hock
+their wears to each day's crowd.  Though most is typical, more rare
+finds can be made as merchants from all parts pass through the city,
+and the mix of local and foreign products keeps the crowd coming for
+more.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55874
+D2
+~
+~
+0 0 55876
+D3
+~
+~
+0 0 55888
+S
+#55876
+{YB{yaldur{Y'{ys {YG{yate{g: {DMarket Square{x~
+~
+Streets come together here to form a vast, open market.  The air
+is filled with the sounds of the nearby harbour, and during the day
+the calls of merchants lift above the din of a gathered crowd.  As an
+open market, there are no set booths, but travellers and locals alike
+hock their wears to each day's crowd.  Though most is typical, more
+rare finds can be made as merchants from all parts pass through the
+city, and the mix of local and foreign products keeps the crowd coming
+for more.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55875
+D2
+~
+~
+0 0 55877
+D3
+~
+~
+0 0 55879
+S
+#55877
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+Running from the harbour to the residential part of the city,
+Merchant's Way is a broad and winding street paved with well-kept
+stones.  Within sight of the Market Square, some merchants have been
+known to set their booths up along the fringes of the street in an
+attempt to stand apart from the crowd and be the first to catch
+incoming business.  Lamps also line the street, keeping the busy
+thoroughfare lit at all times of day.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55876
+D2
+~
+~
+0 0 55878
+S
+#55878
+{YM{yerchant{Y'{ys {YW{yay{x~
+~
+The Harbour Road lies to the west of here.  This is where merchants
+can bring their goods from their ships to transport to the rest of the
+city and beyond.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55877
+D1
+~
+~
+0 0 55860
+D3
+~
+~
+0 0 55880
+S
+#55879
+{YB{yaldur{Y'{ys {YG{yate{g: {DMarket Square{x~
+~
+Streets come together here to form a vast, open market.  The air is
+filled with the sounds of the nearby harbour, and during the day the
+calls of merchants lift above the din of a gathered crowd.  As an open
+market, there are no set booths, but travellers and locals alike hock
+their wears to each day's crowd.  Though most is typical, more rare
+finds can be made as merchants from all parts pass through the city,
+and the mix of local and foreign products keeps the crowd coming for
+more.  The Harbour Master's building stands just to the west.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55888
+D1
+~
+~
+0 0 55876
+D3
+~
+~
+8 0 55914
+D5
+~
+~
+32776 0 56157
+S
+#55880
+{YB{yaldur{Y'{ys {YG{yate{g: {DHarbour Road{x~
+~
+At the edge of the city, Harbour Road winds along the shoreline,
+attractive for tourtists and useful for marchants.  The sea goes on
+for miles to the south, spreading out disappearing over the horizon,
+and the constant sound of the waves drifts through the air.  Running
+between the water and the road, a stone wall stands a few feet high
+and keeps the tide from breaking onto the shore.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55878
+D3
+~
+~
+0 0 55881
+S
+#55881
+{YB{yaldur{Y'{ys {YG{yate{g: {DHarbour Road{x~
+~
+At the edge of the city, Harbour Road winds along the shoreline,
+attractive for tourtists and useful for marchants.  The sea goes on
+for miles to the south, spreading out disappearing over the horizon,
+and the constant sound of the waves drifts through the air.  Running
+between the water and the road, a stone wall stands a few feet high
+and keeps the tide from breaking onto the shore.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55880
+D3
+~
+~
+0 0 55882
+S
+#55882
+{YB{yaldur{Y'{ys {YG{yate{g: {DHarbour Road{x~
+~
+At the edge of the city, Harbour Road winds along the shoreline,
+attractive for tourtists and useful for marchants.  The sea goes on
+for miles to the south, spreading out disappearing over the horizon,
+and the constant sound of the waves drifts through the air.  Running
+between the water and the road, a stone wall stands a few feet high
+and keeps the tide from breaking onto the shore.  To the north is the
+Harbour Master's building.
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55911
+D1
+~
+~
+0 0 55881
+D3
+~
+~
+0 0 55883
+S
+#55883
+{YB{yaldur{Y'{ys {YG{yate{g: {DHarbour Road{x~
+~
+Along the beautiful harbour road, the sea spreads out for miles to
+the south.  Along the edge of the road is a stone wall about waist
+height for a human, preventing waves crashing into the shores.  To the
+south, a large temple rests, built on large woodan pillars sunk into
+the sea floor.  That is the temple of Umberlee, one of the largest
+temples in Baldur's Gate.  
+~
+0 4 0 21
+0
+D0
+~
+~
+0 0 55893
+D1
+~
+~
+0 0 55882
+D2
+~
+~
+8 0 55975
+D3
+~
+~
+0 0 55884
+S
+#55884
+{YB{yaldur{Y'{ys {YG{yate{g: {DHarbour Road{x~
+~
+Drifing away from the coastline, the road comes to an end and
+meets with Umberlee's Passage, which winds its way around the large
+temple of Umberlee.  The sound of the sea is still prominent here, the
+water disappearing among the pillars of the temple.  Seagulls are
+often found atop the temple.  To the north sits the Iron Throne, a
+large and impressive building surrounded by an ominous wall.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 55916
+D1
+~
+~
+0 0 55883
+D2
+~
+~
+0 0 55885
+S
+#55885
+{bU{Bm{Db{rer{Dl{Be{be{B'{bs {YP{yassage{x~
+~
+Shielded from the spray of the sea by Umberlee's temple, the narrow
+road follows the wall of the temple along the shore.  Though difficult
+to see, the sound of the sea is easily heard as it laps against the
+far side of the temple.  The air is thick with the scent of salt water
+and the cries of seagulls, and the sounds from the docks can be heard
+in the distance.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55884
+D3
+~
+~
+0 0 55886
+S
+#55886
+{bU{Bm{Db{rer{Dl{Be{be{B'{bs {YP{yassage{x~
+~
+Shielded from the spray of the sea by Umberlee's temple, the narrow
+road follows the wall of the temple along the shore.  Though difficult
+to see, the sound of the sea is easily heard as it laps against the
+far side of the temple.  The air is thick with the scent of salt water
+and the cries of seagulls, and the sounds from the docks can be heard
+in the distance.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55885
+D3
+~
+~
+0 0 55887
+S
+#55887
+{bU{Bm{Db{rer{Dl{Be{be{B'{bs {YP{yassage{x~
+~
+Shielded from the spray of the sea by Umberlee's temple, the narrow
+road follows the wall of the temple along the shore.  Though difficult
+to see, the sound of the sea is easily heard as it laps against the
+far side of the temple.  The air is thick with the scent of salt water
+and the cries of seagulls, and the sounds from the docks can be heard
+in the distance.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55886
+D3
+~
+~
+0 0 55901
+S
+#55888
+{YB{yaldur{Y'{ys {YG{yate{g: {DMarket Square{x~
+~
+Streets come together here to form a vast, open market.  The air is
+filled with the sounds of the nearby harbour, and during the day the
+calls of merchants lift above the din of a gathered crowd.  As an open
+market, there are no set booths, but travellers and locals alike hock
+their wears to each day's crowd.  Though most is typical, more rare
+finds can be made as merchants from all parts pass through the city,
+and the mix of local and foreign products keeps the crowd coming for
+more.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55875
+D2
+~
+~
+0 0 55879
+D3
+~
+~
+0 0 55889
+S
+#55889
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+The South Central Corridor, one of Baldur's Gate's most used
+streets, begins here.  So close to Market Square, the din of the market
+can easily be heard during the day.  Coming and going, merchants and
+patrons often crowd the street, and booths spill out of the square and
+onto the street as merchants hock their wares.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55888
+D3
+~
+~
+0 0 55890
+S
+#55890
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+In the shadow of the Harbour Master's building, a few merchants
+have been known to set up their shop, keeping a bit of distance
+between themselves and the crowd of the nearby market.  The road is
+broad, lined with lamp posts and the odd tree here and there.  A row
+of small, well-kept houses sits to the north.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55889
+D3
+~
+~
+0 0 55891
+S
+#55891
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Distant from the market, the faint sounds of merchants can be heard
+faintly.  To the south, the Iron Throne and the Harbour Master's
+building both stand, a dark alley running between the two toward the
+sea.  The alley is uncluttered, and the shadows seem to shift,
+watching those who pass by.  
+~
+0 4 0 21
+0
+D1
+~
+~
+0 0 55890
+D2
+~
+~
+0 0 55892
+D3
+~
+~
+0 0 55894
+S
+#55892
+{DAssassin's Alley{x~
+~
+This alley is narrow, dark, and aptly named.  This is the place
+dangerous people often hang out, with the protection of the Iron
+Throne close by to the west.  Gang members and drug dealers are
+frequently found in this little alley, just south of the main central
+corridor, in South Baldur's Gate.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55891
+D2
+~
+~
+0 0 55893
+S
+#55893
+{DAssassin's Alley~
+~
+This unpleasant alley between two very tall buildings is not for
+the tourist.  Garbage rots in gutters at the side of the footpath. 
+Beggars and drunks pester people for spare change, or just wander
+around making a nuicence of themselves.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55892
+D2
+~
+~
+0 0 55883
+S
+#55894
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Broad and well kept, the Corridor passes by the tall bulk of the
+Iron Throne, a cold and unwelcoming building.  Makou-powers lamps
+light the street at night, standing at intervals along the street.  To
+the north, the row of houses comes to an end, the Central Gatehouse
+sitting just to the west.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55891
+D3
+~
+~
+0 0 55895
+S
+#55895
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+The bustling South Central Corridor, a wide and clean street, runs
+through this section of Baldur's Gate.  Though often used, the street
+is maintained well, often tidied and well kept.  Lamp posts run along
+the road, useful though undecorative, brightly lit during the night. 
+A path breaks off to the north, leading to the Central Gatehouse.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55947
+D1
+~
+~
+0 0 55894
+D3
+~
+~
+0 0 55896
+S
+#55896
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+The Corridor continues along past the row of houses to the north, a
+tall tree standing in one yard.  Breaking off to the south, a narrow
+alley works its way between the Iron Throne and a small shop, broad
+enough for only a couple humans shoulder to shoulder.  Well shadowed
+from the sun, even on the brightest day the alley is dim and unlit.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55895
+D2
+~
+~
+0 0 55897
+D3
+~
+~
+0 0 55907
+S
+#55897
+{YC{yut{Y-{ythrough {YA{ylley{x~
+~
+{*A dark and cramped alleyway, it is tucked out of the way and yet
+commonly used by locals as a quick route from the Central Gatehouse to
+the harbour.  The walls of the Iron Throne press in close on one side,
+casting a deep shadow over the alley, and garbage clutters the ground.
+Sounds of rats scurrying are common, as is a damp chill in the air
+from never seeing the sun.  {x 
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55896
+D2
+~
+~
+0 0 55898
+D5
+~
+~
+32776 0 56158
+S
+#55898
+{YC{yut{Y-{ythrough {YA{ylley{x~
+~
+{*A dark and cramped alleyway, it is tucked out of the way and yet
+commonly used by locals as a quick route from the Central Gatehouse to
+the harbour.  The walls of the Iron Throne press in close on one side,
+casting a deep shadow over the alley, and garbage clutters the ground.
+Sounds of rats scurrying are common, as is a damp chill in the air
+from never seeing the sun.  {x 
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55897
+D3
+~
+~
+0 0 55899
+S
+#55899
+{DThe {YS{youth {YP{yath{x~
+~
+Not very wide, the South Path is hardly a grand street but it is
+clean and scenic.  Nearby, the sound of the sea floats in the air, and
+the smell of salt lingers in the air.  To the north, a small building
+sits with a model standing in the window wearing a sundress and a
+large hat.  A small alley cuts away to the east.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55920
+D1
+~
+~
+0 0 55898
+D2
+~
+~
+0 0 55900
+S
+#55900
+{DThe {YS{youth {YP{yath{x~
+~
+A scenic side street, the path is made of decorative cobblestone,
+making its ways south toward the sea.  The calls of seagulls echo
+through the air as the surf can be heard in the distance.  Down the
+road the Temple of Umberlee can be seen standing its vigil by the
+water, and a small, boarded up house is just off the path.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55899
+D2
+~
+~
+0 0 55901
+S
+#55901
+{DThe {YS{youth {YP{yath{x~
+~
+Shielded from the spray of the sea by Umberlee's temple, the
+narrow road follows the wall of the temple along the shore.  Though
+difficult to see, the sound of the sea is easily heard as it laps
+against the far side of the temple.  The air is thick with the scent
+of salt water and the cries of seagulls, and the sounds from the docks
+can be heard in the distance.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55900
+D1
+~
+~
+0 0 55887
+D2
+~
+~
+0 0 55902
+S
+#55902
+{DThe {YS{youth {YP{yath{x~
+~
+Shielded from the spray of the sea by Umberlee's temple, the
+narrow road follows the wall of the temple along the shore.  Though
+difficult to see, the sound of the sea is easily heard as it laps
+against the far side of the temple.  The air is thick with the scent
+of salt water and the cries of seagulls, and the sounds from the docks
+can be heard in the distance.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55901
+D2
+~
+~
+0 0 55903
+S
+#55903
+{DThe {YS{youth {YP{yath{x~
+~
+Meeting up with the South Path, the street moves away from the
+Temple of Umberlee and meanders along the shore.  A scenic route by
+the sea and so near the temple, it is kept clean and often frequented
+by sightseers and visitors to the city.  The temple is to the east,
+standing on tall poles that extend down into the water; the surf
+crashes against them, the spray leaping upward toward the street.  
+~
+0 4 0 21
+0
+D0
+~
+~
+0 0 55902
+D1
+~
+~
+66312 55951 55955
+D3
+~
+~
+0 0 55904
+S
+#55904
+{YS{youth {YS{ytreet{x~
+~
+Trailing beside the coast, separated from the water by a low wall,
+South Street is a popular tourist spot.  The view of the sea to the
+south seems to extend forever, the water disappearing over the horizon
+and shimmering with reflected light.  Softly, the sound of the waves
+breaking on the shore echoes, complemented by the occaisional call of
+seagulls.  There is the rich scent of the sea lingering in the air.  
+~
+0 4 0 21
+0
+D1
+~
+~
+0 0 55903
+D3
+~
+~
+0 0 55905
+S
+#55905
+{YS{youth {YS{ytreet{x~
+~
+Running along the coastline, the street is paralleled by a low wall
+breaking the tide before it washes onto the road.  To the south is a
+vast view of the sea; to the north, a log building has been built.  A
+single level, it stretches out, windows and door both outlined by
+engraved woodwork in an intricate pattern.  The windows are opened
+wide, one to each side of the door.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55944
+D1
+~
+~
+0 0 55904
+D3
+~
+~
+0 0 55906
+S
+#55906
+{YS{youth {YS{ytreet{x~
+~
+With the view of the sea stretching out to the south, the narrow
+street is frequented by visitors to Baldur's Gate.  Decorative
+cobblestone makes up the street, kept clean of most debree, and lamp
+posts light the route.  Seagulls are often found perched on the short
+wall that prevents the surf from crashing up onto the road; their
+cries sound high overhead.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55905
+D3
+~
+~
+0 0 55921
+S
+#55907
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Close to the Central Gatehouse, the street sees much use from all
+sorts of people.  At the busiest times of day, the street is packed,
+leading from all areas of the southern city to the connection to the
+north.  A row of houses is to the north, small and quaint homes, and a
+building stands to the south, facing the other direction.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55896
+D3
+~
+~
+0 0 55908
+S
+#55908
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Cutting through the city, the road is broad and carefully
+maintained.  Lamp posts run along the street, powered by Makou; a row
+of quaint homes sits to the north, each with a walk leading to the
+road.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55907
+D3
+~
+~
+0 0 55909
+S
+#55909
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+A long building sits to the north of the road here, windows
+decorated with transparent curtains and the door slightly ajar. 
+Hanging above the door, a wood carved sign reads "Ye Olde Inn." 
+Surrounded by homes, the inn is popular, its location giving patrons
+access to a major thoroughfaire of the city.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 39405
+D1
+~
+~
+0 0 55908
+D3
+~
+~
+0 0 55910
+S
+#55910
+{YB{yaldur{y'{ys {YG{yate{g: {DThe Central Corridor{x~
+~
+The large, carefully-maintained road is lined with lamp posts, a
+long inn building to the north.  Its windows are partly covered by
+transluscent curtains, warm lights glowing in the windows after dark. 
+To the south, a smaller street meets the Corridor in a T intersection,
+the start of Flaming Fist Crescent.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55909
+D2
+~
+~
+0 0 55927
+D3
+~
+~
+0 0 55928
+S
+#55911
+{DThe {YH{yarbour {YM{yaster{Y'{ys {DBuilding{x~
+~
+Jammed with desks, shelves, cabinets and people, the Harbour
+Master's building is never quiet.  Voices cry out as people struggle
+to hold their own conversations over the din of the crowd as captains,
+merchants, clerks, and apprentices all do their business.  Every desk
+in the place is covered with mounds of paper and books, and the walls
+are covered with means of keeping records.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 55912
+D1
+~
+~
+0 0 55913
+D2
+~
+~
+8 0 55882
+S
+#55912
+{DThe {YH{yarbour {YM{yaster{Y'{ys {DBuilding{x~
+~
+Jammed with desks, shelves, cabinets and people, the Harbour
+Master's building is never quiet.  Voices cry out as people struggle
+to hold their own conversations over the din of the crowd as captains,
+merchants, clerks, and apprentices all do their business.  Every desk
+in the place is covered with mounds of paper and books, and the walls
+are covered with means of keeping records.  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 55914
+D2
+~
+~
+0 0 55911
+S
+#55913
+{DThe {YH{yarbour {YM{yaster{Y'{ys {DBuilding{x~
+~
+Jammed with desks, shelves, cabinets and people, the Harbour
+Master's building is never quiet.  Voices cry out as people struggle
+to hold their own conversations over the din of the crowd as captains,
+merchants, clerks, and apprentices all do their business.  Every desk
+in the place is covered with mounds of paper and books, and the walls
+are covered with means of keeping records.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 55914
+D3
+~
+~
+0 0 55911
+S
+#55914
+{DThe {YH{yarbour {YM{yaster{Y'{ys {DBuilding{x~
+~
+Jammed with desks, shelves, cabinets and people, the Harbour
+Master's building is never quiet.  Voices cry out as people struggle
+to hold their own conversations over the din of the crowd as captains,
+merchants, clerks, and apprentices all do their business.  Every desk
+in the place is covered with mounds of paper and books, and the walls
+are covered with means of keeping records.  
+~
+0 8 0 0
+0
+D1
+~
+~
+8 0 55879
+D2
+~
+~
+0 0 55913
+D3
+~
+~
+0 0 55912
+S
+#55915
+{YD{yocker's {GG{general {GS{gtore{x~
+~
+Every bit the shack by the sea, the walls are littered with fishing
+nets and boating gear.  A broad display case toward the back shows off
+various smaller items, a large fish mounted on the wall behind it. 
+When the weather is nice, the door is kept open, letting in the sound
+of the surf and the rich tang of salt water in the air.  A small door
+on the back wall is propped open, giving a glimpse into a cluttered
+stockroom.  
+~
+0 0 0 13
+0
+D2
+~
+~
+0 0 55854
+S
+#55916
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 1
+0
+D0
+~
+~
+0 0 55917
+D2
+~
+~
+8 0 55884
+D3
+~
+~
+0 0 55919
+S
+#55917
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 1
+0
+D2
+~
+~
+0 0 55916
+D3
+~
+~
+0 0 55918
+S
+#55918
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 1
+0
+D1
+~
+~
+0 0 55917
+D2
+~
+~
+0 0 55919
+S
+#55919
+{8The {yI{rr{yo{rn {8Throne{x~
+~
+Despite being well lit, there is a feeling of secrecy in the air. 
+A building of much business, there are files and desks everywhere. 
+The building seems smaller from within than it did outside, though
+this may be from the number of filing cabinets set along the walls. 
+Weapons along with records adorn the walls, a reminder that the Iron
+Throne is not an average mercantile organization.  
+~
+0 0 0 1
+0
+D0
+~
+~
+0 0 55918
+D1
+~
+~
+0 0 55916
+D4
+~
+~
+0 0 55845
+S
+#55920
+{YS{yeaside {YS{ytyles{x~
+~
+The small room is packed with clothing for all ages, from
+children's shorts to adults' swimsuits.  A large window facing the
+street is decorated with a single dummy wearing a sundress, and
+similar dummies stand in the corners demonstrating various styles. 
+Clothes hang on hangers on the wall and on racks scattered around the
+room.  A long counter runs along one wall, and a door leads off the
+wall opposite the entrance.  
+~
+0 8 0 13
+0
+D2
+~
+~
+0 0 55899
+S
+#55921
+{YS{youth {YS{ytreet{x~
+~
+The street turns here, breaking away from the sea shore.  Tapering
+slowly, the wall that separated street from surf angles downward and
+comes to an end.  A small beach has been left untouched by the city, a
+popular draw for many tourists, and it is often found crowded.  Not
+far to the north, the headquarters of the Flaming Fist can be seen at
+the end of the road.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55922
+D1
+~
+~
+0 0 55906
+S
+#55922
+{YS{youth {YS{ytreet{x~
+~
+Near to the water, South Street is a narrow cobblestone road that
+is both scenic and useful.  Lamp posts dot both sides of the road, and
+more often than not, at least one person can be found wandering this
+path.  To the west, a small building sits with its double-doors open;
+from within echoes the sound of clashing metal and the shouts of
+voices.  A sign on the door is marked with a crossed staff and sword. 
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55923
+D2
+~
+~
+0 0 55921
+D3
+~
+~
+0 0 55949
+S
+#55923
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55924
+D2
+~
+~
+0 0 55922
+D3
+~
+~
+0 0 55940
+S
+#55924
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55925
+D3
+~
+~
+0 0 55923
+S
+#55925
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55926
+D2
+~
+~
+0 0 55924
+S
+#55926
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55927
+D2
+~
+~
+0 0 55925
+S
+#55927
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55910
+D2
+~
+~
+0 0 55926
+S
+#55928
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Lined with trees and small homes to the north, the South Central
+Corridor runs through the center of the city.  The street blocks are
+maintained well, scuffed but clean, barely showing the amount of use
+put to the road.  To the south stands the headquarters of the Flaming
+Fist, a large building dotted with windows that face over the
+corridor.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55910
+D3
+~
+~
+0 0 55929
+S
+#55929
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Lined with trees and small homes to the north, the South Central
+Corridor runs through the center of the city.  The street blocks are
+maintained well, scuffed but clean, barely showing the amount of use
+put to the road.  To the south stands the headquarters of the Flaming
+Fist, a large building dotted with windows that face over the
+corridor.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55928
+D3
+~
+~
+0 0 55930
+S
+#55930
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Lined with trees and small homes to the north, the South Central
+Corridor runs through the center of the city.  The street blocks are
+maintained well, scuffed but clean, barely showing the amount of use
+put to the road.  To the south stands the headquarters of the Flaming
+Fist, a large building dotted with windows that face over the
+corridor.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55929
+D3
+~
+~
+0 0 55931
+S
+#55931
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Lined with trees and small homes to the north, the South Central
+Corridor runs through the center of the city.  The street blocks are
+maintained well, scuffed but clean, barely showing the amount of use
+put to the road.  To the south stands the headquarters of the Flaming
+Fist, a large building dotted with windows that face over the
+corridor.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55930
+D3
+~
+~
+0 0 55932
+S
+#55932
+{DThe {YS{youth {DCentral {YC{yorridor{x~
+~
+Coming to a corner, the South Central Corridor meets with the
+beginning of Flaming Fist Crescent.  Broad large roads, they break off
+of each other, running along the edges of the large building sitting
+just to the southeast.  The city wall runs north and south here,
+following along the edge of the crescent and casting its shadow on the
+road.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55931
+D2
+~
+~
+0 0 55933
+S
+#55933
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55932
+D2
+~
+~
+0 0 55934
+S
+#55934
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55933
+D2
+~
+~
+0 0 55935
+S
+#55935
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55934
+D2
+~
+~
+0 0 55936
+S
+#55936
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 55935
+D1
+~
+~
+0 0 55937
+S
+#55937
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+A broad and tree-lined street, the crescent runs around the
+headquarters of the Flaming Fist, mercenary company and unofficial
+army of Baldur's Gate.  In the center of the crescent, the large
+building stands two stories tall, crossed windows dotting its walls
+and overlooking the road.  Despite being so near the Fist's
+headquarters, the street is peaceful, used by few other than those of
+the company and the odd tourist seeking out the home of the well known
+band of mercenaries.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 55939
+D2
+~
+~
+520 0 39407
+D3
+~
+~
+0 0 55936
+S
+#55938
+{RSTORAGE{x~
+~
+~
+0 557068 0 0
+0
+S
+#55939
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+North of this wide thoroughfaire sits the headquarters of the
+Flaming Fist.  A short path leads up to its double entrances, small
+shrubs standing to either side of the pair of doors.  Over the doors,
+a large sign is engraved with the name of the company, and second
+floor windows open above the sign.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 56011
+D1
+~
+~
+0 0 55940
+D3
+~
+~
+0 0 55937
+S
+#55940
+{RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x {YC{yrescent{x~
+~
+North of this wide thoroughfaire sits the headquarters of the
+Flaming Fist.  A short path leads up to its double entrances, small
+shrubs standing to either side of the pair of doors.  Over the doors,
+a large sign is engraved with the name of the company, and second
+floor windows open above the sign.  
+~
+0 0 0 21
+0
+D0
+~
+~
+8 0 56010
+D1
+~
+~
+0 0 55923
+D3
+~
+~
+0 0 55939
+S
+#55941
+{wD{Dockyards~
+~
+A small path from Bard's Crescent leads into the dockyards of
+Baldur's Gate.  Here, many dock workers work to keep the shipping
+system in the harbour working efficiently.  Crates are processed,
+goods are prepared for loading onto the ships and many dock workers
+busily move about the road.  
+~
+0 0 0 1
+0
+D1
+~
+~
+0 0 55942
+D3
+~
+~
+0 0 55858
+S
+#55942
+{wD{Dockyards~
+~
+The dockyards come to a fairly abrupt ending here.  The only path
+is the path back west to Bard's Crescent.  Many crates are piled high
+here, storing many supplies, foods, gems, trinkets, clothing and
+possibly even weapons or armour.  Sounds come from all around; the
+constant cries of seagulls, the noise of crates being loaded and
+unloaded, and the dock workers occasionally shouting or yelling
+something to eachother.  
+~
+0 0 0 1
+0
+D3
+~
+~
+0 0 55941
+S
+#55943
+The {CA{cn{gc{Gi{ge{cn{Ct {WE{wlven {CM{ca{gg{Ge's {BTraining Chamber{x~
+~
+All around you energy swirls and crackles.  This place has an aura
+of power in it.  You are floating in a powerful mantic current that
+makes it hard to move properly, as though you are floating inside some
+kind of underwater lava, cold to the touch.  Sparks of energy arc
+towards you and towards you and all around.  Floating near you is the
+ancient elven mage, ready to train you.  
+~
+0 67633196 0 15
+0
+S
+#55944
+{YN{yature{Y'{ys {GS{ganctum{x~
+~
+Made entirely out of logs, the room is close.  A large fireplace
+sits against one wall, remnants of a burned down fire in the hearth,
+and a large painting is on the wall above it.  In the painting is a
+vast forest, lush and green with a path leading off into the distance.
+On either side of the room is a closed door, and a pair of comfortable
+looking chairs sit in front of the fireplace.  
+~
+0 0 0 1
+0
+D1
+~
+~
+0 0 55946
+D2
+~
+~
+0 0 55905
+D3
+~
+~
+0 0 55945
+S
+#55945
+{DDruidic {GT{geachings{x~
+~
+A second, smaller fireplace is central to this room.  Tables and
+chairs sit everywhere, covered in scrolls and books and bottles of
+ink.  Bookshelves line the walls, tomes of assorted sizes and ages
+gracing them; there are obvious spots where books are missing.  Piled
+in the corner is a small collection of matts used for meditation, the
+pile untidy and much used.  
+~
+0 0 0 15
+0
+D1
+~
+~
+0 0 55944
+S
+#55946
+{DThe {GR{ganger{G'{gs {DGrove{x~
+~
+The scent of a forest is strong here, the wooden logs of the walls
+giving off a distinct aroma.  Narrow but long, the room has a good
+deal of open floor space, and a training dummy sits off to one side. 
+Furniture fashioned of wood sits around the room, chairs, benches, and
+tables scattered near the walls.  A large map is framed against one
+wall, detailing the Realms.  
+~
+0 0 0 15
+0
+D3
+~
+~
+0 0 55944
+S
+#55947
+{DThe {YC{yentral {YG{yatehouse{x~
+~
+Separating the northern and south sections of the city, the Central
+Gatehouse is large but simplistic.  During the day, there is little
+restriction to passing between the two halves of Baldur's Gate, and
+the guards treat the post as a simple assignment.  
+~
+0 1032 0 1
+0
+D0
+~
+~
+0 0 39250
+D2
+~
+~
+0 0 55895
+S
+#55948
+Folly's Famous Discount Dealings~
+~
+This small house has been converted into a shop.  The front room
+has had shelves and cabinets added so that the stock can be displayed.
+The stock is very varied and most of it looks like it is a pile of
+junk.  However, a few nice trinkets attract the attention of most
+greedy bargain hunters.  
+~
+0 12 0 13
+0
+D2
+~
+~
+0 0 55801
+S
+#55949
+{DThe {YF{yighter{Y'{ys {YT{yraining {DAcedemy{x~
+~
+Other than a single chair in the corner, there is no furniture in
+the room.  It is wide open, the floor marked and scuffed from much
+use.  A row of training targets and dummies lines one wall, and the
+other is covered with cabinets filled with a variety of weaponry.  On
+the wall opposite the door, a mounted sword catches the light; though
+polished, there are signs telling of the use the weapon has been put
+to.  
+~
+0 8 0 15
+0
+D1
+~
+~
+0 0 55922
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 55811 0 1
+D 0 55815 0 1
+D 0 55823 5 1
+D 0 55825 3 2
+D 0 55828 3 1
+D 0 55829 0 1
+D 0 55831 0 1
+D 0 55832 0 1
+D 0 55838 0 1
+D 0 55838 2 1
+D 0 55839 0 1
+D 0 55839 2 1
+D 0 55840 0 1
+D 0 55840 2 1
+D 0 55841 2 1
+D 0 55849 1 2
+D 0 55850 1 1
+D 0 55852 1 1
+D 0 55861 5 1
+D 0 55866 1 2
+D 0 55879 3 2
+D 0 55879 5 1
+D 0 55882 0 1
+D 0 55883 2 1
+D 0 55884 0 1
+D 0 55897 5 1
+D 0 55903 1 2
+D 0 55909 0 1
+D 0 55911 2 1
+D 0 55914 1 2
+D 0 55916 2 1
+D 0 55937 2 2
+D 0 55939 0 1
+D 0 55940 0 1
+M 0 55813 4 55800 4
+M 0 55813 4 55800 4
+M 0 55819 9 55801 9
+M 0 55829 9 55803 9
+M 0 55814 9 55806 9
+M 0 55817 9 55808 9
+M 0 55833 9 55808 9
+M 0 55828 9 55812 9
+M 0 55829 9 55816 9
+M 0 55818 9 55819 9
+M 0 55833 9 55820 9
+M 0 55815 9 55821 9
+M 0 55819 9 55824 9
+M 0 55818 7 55827 7
+M 0 55828 9 55831 9
+M 0 55818 7 55832 7
+M 0 55833 9 55833 9
+M 0 55814 9 55835 9
+M 0 55833 9 55836 9
+M 0 55815 9 55837 9
+M 0 55802 1 55840 1
+M 0 55803 1 55841 1
+G 0 55810 0
+G 0 55809 0
+G 0 55808 0
+G 0 55807 0
+G 0 55806 0
+G 0 55805 0
+M 0 55808 1 55842 1
+G 0 55825 0
+G 0 55824 0
+G 0 55823 0
+G 0 55822 0
+G 0 55821 0
+G 0 55820 0
+G 0 55819 0
+M 0 55804 1 55843 1
+M 0 55805 1 55844 1
+O 0 55818 0 55844
+M 0 55820 6 55846 6
+M 0 55820 6 55847 6
+M 0 55820 6 55848 6
+M 0 55811 1 55849 1
+M 0 55810 1 55849 1
+M 0 55809 1 55850 1
+E 0 55826 0 3
+M 0 55814 9 55851 9
+M 0 55832 1 55855 1
+G 0 55839 0
+M 0 55815 9 55856 9
+O 0 55857 0 55857
+M 0 55818 7 55860 7
+M 0 55819 9 55861 9
+O 0 55846 0 55862
+M 0 55828 9 55864 9
+M 0 55817 9 55867 9
+O 0 55845 0 55869
+M 0 55829 9 55870 9
+M 0 55828 9 55872 9
+M 0 55829 9 55874 9
+O 0 55842 0 55876
+M 0 55814 9 55877 9
+M 0 55829 9 55879 9
+M 0 55819 9 55881 9
+M 0 55833 9 55882 9
+M 0 55817 9 55883 9
+M 0 55821 1 55884 1
+E 0 55841 0 6
+M 0 55834 1 55885 1
+M 0 55814 9 55886 9
+M 0 55817 9 55888 9
+M 0 55816 1 55892 1
+E 0 55840 0 5
+M 0 55815 9 55894 9
+M 0 55833 9 55894 9
+M 0 55830 1 55898 1
+E 0 55838 0 16
+M 0 55828 9 55899 9
+M 0 55817 9 55901 9
+M 0 55815 9 55902 9
+M 0 55833 9 55903 9
+O 0 55843 0 55904
+M 0 55817 9 55905 9
+O 0 55844 0 55907
+M 0 55819 9 55910 9
+M 0 55819 9 55911 9
+M 0 55831 1 55912 1
+M 0 55819 9 55914 9
+M 0 55823 1 55915 1
+G 0 55828 0
+G 0 55831 0
+G 0 55829 0
+G 0 55832 0
+G 0 55830 0
+M 0 55820 6 55916 6
+M 0 55820 6 55918 6
+M 0 55820 6 55919 6
+M 0 55824 1 55920 1
+G 0 55833 0
+G 0 55834 0
+G 0 55835 0
+G 0 55836 0
+G 0 55837 0
+G 0 55847 0
+M 0 55828 9 55923 9
+M 0 55829 9 55924 9
+M 0 55814 9 55926 9
+M 0 55833 9 55926 9
+M 0 55817 9 55928 9
+M 0 55828 9 55930 9
+M 0 55829 9 55932 9
+M 0 55833 9 55932 9
+M 0 55806 1 55938 1
+G 0 55817 0
+G 0 55816 0
+G 0 55815 0
+G 0 55814 0
+G 0 55813 0
+G 0 55812 0
+G 0 55811 0
+M 0 55815 9 55939 9
+M 0 55822 3 55941 3
+M 0 55822 3 55942 3
+M 0 55822 3 55942 3
+M 0 55807 1 55943 1
+M 0 55826 1 55945 1
+M 0 55825 1 55946 1
+M 0 55813 4 55947 4
+M 0 55813 4 55947 4
+M 0 55801 1 55948 1
+G 0 55804 0
+G 0 55803 0
+G 0 55802 0
+G 0 55801 0
+G 0 55800 0
+M 0 55827 1 55949 1
+S
+
+
+
+#SHOPS
+55801 0 0 0 0 0 110 30 0 23
+55803 0 0 0 0 0 100 100 0 23
+55806 0 0 0 0 0 100 100 0 23
+55808 0 0 0 0 0 100 100 0 23
+55823 0 0 0 0 0 120 25 6 20
+55824 0 0 0 0 0 125 25 6 20
+0
+
+
+
+#MOBPROGS
+#55800
+~
+mob delay 1
+mob remember $n
+~
+#55801
+wise wizard - sorcerous sundries - greeting after delay~
+mob echo A Wise Old Wizard raises his eyes up from his potions towards you.
+if class $q wizard
+  say Oh, greetings fellow wizard. We have a few good potions for sale if you are interested.
+  mob echo A Wise Old Wizard stands up from behind his bench.
+  say Here, Let me use a little wizardry to aid a fellow mage.
+  mob cast 'giant strength' $q
+  mob cast refresh $q
+  say Oh, and we sell good healing potions for new and inexperienced adventurers.
+  smile $q
+  mob forget
+else
+  say Oh, can I interest you in a potion of some kind? We do specials on healing potions for young adventurers.
+end if
+~
+#55802
+black cat - sorcerous sundries - fetch master~
+if mobhere 55806
+  mob echo $I contently brushes against the leg of her master.
+else
+  mob echo $I scurries off down under the desk.
+  mob delay 1
+  mob goto 55938
+end if
+~
+#55803
+black cat - sorcerous sundries - fetch master delay~
+mob goto 55844
+mob transfer wandshopkeeper
+mob echo $I arrives back through a secret pannel in the shop, bringing his master.
+mob force wandshopkeeper say Hello there. Perhaps I can be of service to you. Need any wands?
+~
+#55804
+~
+if mobhere 55806
+  if players == 0
+    mob transfer wandshopkeeper 55938
+  else
+    break
+  end if
+else
+  break
+end if
+~
+#55805
+~
+mob echoat $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {Byou! -{R={C1184{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {Byou! -{R={C995{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {Byou! -{R={C1031{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {Byou! -{R={C786{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {Byou! -{R={C685{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {Byou! -{R={C712{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {Byou! -{R={C613{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {Byou! -{R={C752{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {Byou! -{R={C931{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {Byou! -{R={C809{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {Byou! -{R={C497{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {Byou! -{R={C458{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {Byou! -{R={C490{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {Byou! -{R={C452{R={B-
+mob echoat $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {Byou! -{R={C479{R={B-
+
+mob echoaround $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {B$n! -{R={C1184{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {B$n! -{R={C995{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {B$n! -{R={C1031{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {B$n! -{R={C786{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {B$n! -{R={C685{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {B$n! -{R={C712{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {B$n! -{R={C613{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm does {RU{rNS{wPE{WA{wKA{rBL{RE {Bthings to {B$n! -{R={C752{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {B$n! -{R={C931{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {yCO{YM{DP{wLET{WELY T{wRA{DS{YH{yES {B$n! -{R={C809{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {B$n! -{R={C497{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {B$n! -{R={C458{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {B$n! -{R={C490{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {B$n! -{R={C452{R={B-
+mob echoaround $n $I{c's Chain - Meteor Swarm {b-{B+{b- {BDE{bS{DS{wIC{DA{bT{BES {b-{B+{b- {B$n! -{R={C479{R={B-
+mob damage $n 300000 300000 lethal
+~
+#55806
+~
+if class $n wizard
+  say Welcome fellow arcane student. If you want to train or practice, you just need to ask.
+else
+  say I only train wizards. Kindly leave my chamber.
+end if
+~
+#55807
+~
+sage
+say We will go to my 'chamber' and study there. If you wish to {Mleave{m, simply say so.{x
+mob echoat $n $I creates a swirling vortex of mantic energy which pulls you in!
+mob echoaround $n $I creates a swirling vortex of mantic energy which pulls $n in!
+mob transfer $n 55943
+~
+#55808
+~
+say As you wish.
+mob echoat $n $I conjures a wormhole in the mantic currents, and he flies through, pulling you with him.
+mob echoaround $n $I conjures a wormhole in the mantic currents, and he flies through, pulling $n with him.
+mob transfer $n 55843
+mob echo $I arrives back through the wormhole.
+~
+#55809
+tarn - tarn's house - finger of death~
+if rand 50
+  mob echoat $n $I {wraises his finger at you and drains away your life force.{x
+  mob echoaround $n $I {wraises his finger at $n and drains away $s life force.{x
+  mob damage $n 6000 8000 lethal
+  mob cast heal
+  mob cast heal
+else
+  mob echoat $n $I {wraises his finger at you but nothing happens{x
+  mob echoaround $n $I {wraises his finger at $n but nothing happens{x
+end if
+~
+#55810
+nemphre_loader - nemphre's house - fake greeting from nemphre~
+if mobhere 55810
+  mob echo {WN{we{cm{Dp{ch{wr{We {Msays {W'{mOh, an adventurer. You could help me and save Baldur's Gate in the process.{w'{x
+  mob echo {WN{we{cm{Dp{ch{wr{We {xsmiles wryly.
+  mob echo {WN{we{cm{Dp{ch{wr{We {Msays {W'{mAn evil necromancer, Tran, is plotting to bring death to the city. Bring me his amulet and I will reward you greatly.{W'{x
+else
+  break
+end if
+~
+#55811
+~
+say Excellent! he is DEAD! Now I am the only powerful necromancer in all the city!
+say Sorry, but you have to die. I have much work to do, andcan't have you in my way.
+mob echo $I {xconjures a {Ddark portal{x.
+say Don't worry, I shall not leave you alone. My creations will keep you busy.
+mob echo $I {xraises his arms, and conjures 3 Helmed Horrors!
+mob mload 55812
+mob mload 55812
+mob mload 55812
+mob junk transamulet
+mob echo $I {xsteps into the portal, and it closes behind him.
+mob goto 39407
+mob oload 55827
+wear hood
+~
+#55812
+~
+mob cast 'creeping doom'
+mob cast 'divine wrath' $n
+~
+#0
+
+#$

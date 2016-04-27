@@ -1,0 +1,2460 @@
+#AREADATA
+Name Baldur's Gate Sewers~
+Builders None~
+VNUMs 56100 56199
+Credits [ Public ] Baldur's Gate Sewers~
+Security 10
+Recall 55947
+Faction ~
+AQpoints 0
+Realm 1
+End
+
+
+
+#MOBILES
+#56100
+sewerfeldorn~
+sewerfeldorn~
+SEWERFELDORN
+~
+used to check if feldorn is in the sewers for his mprog to be rescued
+~
+human~
+A DF P 0 0
+103 0 9d9+9999 0d0+0 10d10+128 none
+0 0 0 0
+0 ABLQa 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GREET 56100 100~
+#56104
+zombie~
+{cA {rRotting {bZombie{x~
+{cA {rRotting {bZombie{x wanderers around, looking for nothing in particular.
+~
+{cBefore you stands what was once a {rHuman{c, but now is nothing more
+than a pile of heaping flesh, slowly decomposing before you.  It walks
+around searching for nothing in particular.{x
+~
+human~
+ABFGU DXZcd 0 0 0
+60 0 8d65+1221 0d0+0 5d11+24 thwack
+-2 -2 -2 -5
+CO ABLPQ I HS
+stand stand either 0
+IM ABCF medium 0
+D Collapses into a heap of rotting flesh.~
+T Ugggghhh~
+F for AHV
+F par DEGHIJK
+#56114
+mass monster tenticle~
+{rThe {wS{*ewer {cMonster{x~
+{cA large hulking mass of tenticles sits here in a pool of {wS{*ewer {cwater.{x
+~
+{cBefore you sits a large mass of {rtenticles{c.  It's body breaks the surface
+of the {wpool{c of {ws{*ewer{b water{c.  It's body is well of six feet long, and
+each writhing tenticle is at least 10 feet long.{x
+~
+human~
+ABFG FJQVZc 0 -400 0
+60 2 8d65+1221 0d0+0 5d11+24 slap
+-2 -2 -2 -5
+CDFHMNO ABR ELPQ HOS
+stand stand none 0
+Gbc EF large 0
+D ~
+T Grrrrrrrr...~
+F for AHMV
+F par ABCDGHIJK
+#56126
+thief guard~
+{8The {*Thieves {rGuild {8Guard{x~
+{*Hiding in the {8shadows{* is a short figure.{x
+~
+{*You see before a short figure, dressed in black.  He hides in the
+shadows and behind the boxes and crates scattered all over the room.  He
+look elven from his height and build.  You can also see he has pointed
+ears, just like an elfs.  He is armed with a dagger.{x
+~
+elf~
+ABFS FJQVc 0 -500 0
+70 0 23d27+1752 0d0+0 5d13+28 stab
+-2 -2 -2 -7
+BFN AB BG Z
+stand stand male 2310
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#56127
+Sewer Bum~
+a sewer bum~
+A bum lounges here, covered in filth.
+~
+Disgusting!  He is covered in slime and muck from the sewer.  His
+hair is long and shaggy and his beard hangs in knotted strings. 
+Wrapped around him are his tattered rags, dirty and filled with holes.
+~
+human~
+AB 0 0 0 0
+10 6 10d10+100 9d59+1266 10d10+147 scratch
+-20 -20 -20 -5
+0 0 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D Blood gurgle~
+T ~
+#56174
+ghost wraith~
+{cOskar {bStrakeln's {wGhost{x~
+A {bGhost{x of a dwarven mason floats here, looking lost.
+~
+{wThis is the ghost of {cOskar {bStrakeln{w.  He was once a handsome dwarf,
+very proud looking with a rather muscular build and taller than your average
+dwarf.  He floats here in front of you, looking lost.{x
+~
+dwarf~
+ABMNOT DFJZc 0 0 0
+75 1 14d51+2107 0d0+0 5d14+30 crush
+-2 -2 -2 -8
+GH ABMPS CFLQ ORS
+stand stand male 2475
+HMV ABCDEFGHIJK medium 0
+D ~
+T ~
+F for A
+#56183
+wererat rat~
+{wThe {rWere{bRat{x~
+{wThe {rWere{bRat {wstands here chewing on a bone.{x
+~
+{wBent over a bone, you see a humanoid creature trying to enjoy it's meal.  It
+is covered in fur, with red eyes and whiskers. It has a long white tail lashing
+about.  It stands just over 5 feet, with a hunch.{x
+~
+human~
+ABFT QVZc 0 -1000 0
+65 0 23d24+1463 0d0+0 5d12+26 claw
+-2 -2 -2 -6
+BDM BQ FGIL HJP
+stand stand male 2145
+HMVc 0 medium 0
+D Yells "{-S{-Q{-U{-E{-A{-K{-!{-!{-!{x"~
+T ~
+F for A
+F par ABCDEFGHIJK
+#0
+
+
+
+#OBJECTS
+#56114
+leggings amphibious~
+a {bPair{x of {cAmphibious {rLeggings{x~
+A pair of slick leggings sits in front of you.~
+monsterskin~
+armor BIT AF
+13 13 13 9 0
+60 20 6500 P
+A
+13 20
+A
+5 1
+A
+2 1
+#56126
+dagger dark~
+{*A dark dagger.{x~
+{*A dark dagger that vaguely resembles shadow sits here.{x~
+metal~
+weapon CG AN
+dagger 6 20 pierce D
+70 5 5000 P
+~
+~
+~
+~
+~
+A
+19 1
+A
+18 3
+A
+2 1
+#56174
+hammer thunder~
+{*The {bHammer {8of {WThunder{x~
+{*A larger hammer sits here, radiating energy.{x~
+unknown~
+weapon SY AN
+mace 15 5 crush FGJ
+75 50 10000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+19 3
+A
+18 3
+#56183
+tail whip wererat~
+{wThe {rWere{brats {cTail{x~
+A very large tail sits before you.~
+flesh~
+weapon SY AN
+whip 10 6 slap CD
+65 40 6500 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 4
+#0
+
+
+
+#ROOMS
+#56100
+{wT{Dhe {wS{Dewer {wE{Dntrance{x~
+~
+{cBelow the Elfsong is a ladder leading down into the sewers.  The
+walls are made of stone blocks, and are slimy and smelly.  Down below
+in the darkness, there is the faint sound of running water in the
+sewers, and the scurrying of various creatures.  There is a grate
+above you hidden in the darkness of the cellar entrance.  {x 
+~
+0 67108877 0 18
+0
+D0
+~
+~
+0 0 56120
+D2
+~
+~
+0 0 56101
+D4
+~
+~
+65544 0 55996
+S
+#56101
+{wT{Dhe {wS{Doutheast {wS{Dewer {wP{Dassage{x~
+~
+{cHere the sewer truly begins, with the dank tunnel extending to the
+south.  Cast continual streams in through an opening in the top of the
+tunnel, far too high to be jumped, and far too high to fall safely. 
+Voices from the streets waft down upon reeking air currents.  On the
+floor is an inch of raw sewage, making the footing unsure and
+slippery.  The smell is overbearing, assaulting the nose with almost
+maniacal force.  {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56100
+D2
+~
+~
+0 0 56102
+S
+#56102
+{wT{Dhe {wS{Doutheast {wS{Dewer {wP{Dassage{x~
+~
+{cThe sewer continues along, raw sewege covers the entire sewer
+floor.  Sewer water streams through it, heading north.  Small holes in
+the walls are now home to spiders, bugs, and rats, all denizens of the
+sewers.  {x 
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56101
+D2
+~
+~
+0 0 56103
+D3
+~
+~
+0 0 56148
+S
+#56103
+{wT{Dhe {wS{Doutheast {wS{Dewer {wP{Dassage{x~
+~
+{cThe sewer continues along to the north and south.  The air seems 
+to get colder and thicker, and it stars to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56102
+D2
+~
+~
+0 0 56104
+S
+#56104
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cA small bend in the pipes shows much the same as was in the last 
+passage.  Refuge of all types.  Bits of bone, a trinket here, a lost bobble 
+there.  But at the heart, the stench remains, over whelming and noxious.  
+The passage splits 3 ways, north, south, and west.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56103
+D2
+~
+~
+0 0 56127
+D3
+~
+~
+0 0 56106
+D4
+~
+~
+8 0 56105
+S
+#56105
+{wT{Dhe {wS{Dewer {wE{Dntrance{x~
+~
+{cYou hear the streets of the city above you.  The city seems so alive 
+from the sewer, all the people walking, talking, and just living out their
+lives.  From up here you can smell the stench of the sewer waste and 
+filth from under the grate barring you to the sewers beneath you. {x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+65544 0 55823
+D5
+~
+~
+8 0 56104
+S
+#56106
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cThe sewer continues on, the air feels thick and wet.  It clings to 
+your body as you try to pass through the sewer.  The walls are
+covered with grime and all sorts of waste from above.  The sounds 
+of dripping and running water come from all around you, and your 
+nose is constantly filled with the retched smell of sewage.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56147
+D1
+~
+~
+0 0 56104
+D3
+~
+~
+0 0 56107
+S
+#56107
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems 
+to get colder and thicker, and it starts to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56106
+D3
+~
+~
+0 0 56108
+S
+#56108
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cThe sewer continues along, raw sewege covers the entire sewer floor.
+Sewer water streams through, heading towards no where in particular. 
+Small holes in the walls are now home to spiders, bugs, and rats, all 
+denizens of the sewers.  {x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56107
+D3
+~
+~
+0 0 56109
+S
+#56109
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench 
+of the sewers contnues to overwhelm your nose as you continue 
+trecking through the sewer passage. The noise of the streets becomes
+slightly less. {x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56108
+D3
+~
+~
+0 0 56110
+S
+#56110
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cSewer filth covers the walls and floor.  The stream of water flows
+through and continues going east and west.  A smaller stream breaks
+off and flows north right into the wall.  As you pass by the small
+stream, a rat scurries across the floor and hides in a crack in the
+northern wall.  You look at the crack and notice it runs up about 5
+feet, then over a couple feet, and back down to the ground, making a
+rectangluar outline the size of a man.  {x 
+~
+0 67108873 0 18
+0
+D0
+~
+~
+32776 0 56117
+D1
+~
+~
+0 0 56109
+D3
+~
+~
+0 0 56111
+S
+#56111
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{c The sounds of laughter, shouting and music can be heard from way 
+above, perhaps it is a tavern..  Water runs down the walls, and collects 
+into a big puddle in the middle of the passage.  You see a rat scurry and 
+swim across the puddle, making a big splash and more noise than the 
+whole sewer.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56110
+D3
+~
+~
+0 0 56112
+S
+#56112
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems 
+to get colder and thicker, and it stars to cling to your body.  The 
+ceiling seems nonexistent in the darkness, the only way you know it 
+is there is from the drips of water from above.  Well, you think its water.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56111
+D3
+~
+~
+0 0 56113
+S
+#56113
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cAs you travel through the passage, you see to the side a pile of what
+remains to be some street urchin's possessions, and his old decaying
+corpse.  Flies, maggots, rats, and other sewer dwelling creatures have 
+taken haven in the pile.  The smell of the sewer covers up any hint of
+corpse rot.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56112
+D3
+~
+~
+0 0 56114
+S
+#56114
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cYou notice that the stream of sewer water floods at the drain at the base 
+of the wall.  Filth floats around the surface of the pool.  You see a small 
+snake slither across the pool after a small rat, apparently trying to catch
+its next meal.  As you pass the sewer drain, you hear a loud growl.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56113
+D3
+~
+~
+0 0 56115
+S
+#56115
+{wT{Dhe {wS{Dewer {wS{Douth {wP{Dassage{x~
+~
+{cAs you pass through, you see that the sewer becomes a four way
+intersection.  To the south you see the ceiling start to slant down and
+create a stairway going down, but it appears to be flooded with raw 
+sewage.  To the west the tunnel looks to be collapsed from large
+stones from a building of sorts and much debris.  A skeleton lies half 
+crushed by a boulder.  You see an opening above you that you can 
+climb through.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56122
+D1
+~
+~
+0 0 56114
+D4
+~
+~
+0 0 56116
+S
+#56116
+{wT{Dhe {wS{Dewer {wE{Dntrance{x~
+~
+{cYou hear the streets of the city above you.  The city seems so alive 
+from the sewer, all the people walking, talking, and just living out their
+lives.  From up here you can smell the stench of the sewer waste and 
+filth from under the grate barring you to the sewers beneath you. {x
+~
+0 67108877 0 18
+0
+D4
+~
+~
+65544 0 39407
+D5
+~
+~
+0 0 56115
+S
+#56117
+{wS{Decret {wP{Dassage{x~
+~
+{cAs you enter this room, the smell of the sewer become increasingly less
+foul, but more stagnant.  All the sewage and filth from these sewer that
+made its way in here has been decayed to dirt.  Dirt and mud cakethe floor
+of this forgot room.  Foot prints can be barely made out, but you cannot
+tell how old they are.  All sounds of the sewer seem to disappear, no 
+dripping, rats running, or flowing water.  They all are vacant.  The secret
+passage continues east.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56118
+D2
+~
+~
+32776 0 56110
+S
+#56118
+{wS{Decret {wP{Dassage{x~
+~
+{cThe hallway is dank and oppressive here.  Pungent and stagnated
+water collects here in puddles.  Dark and reeking water drips from the
+ceiling and slides down the walls.  Slime collects in dark corners of
+the room, and some of it seems to move on its own.  A pair of
+guttering torches flicker on either side of the door, held in place by
+iron sconces.  The door is sturdy, though it should be rotting off its
+hinges in such a place.  Despite such sturdiness, the bottom of the
+door has been chewed some by something...  Rats most likely.{x
+~
+0 67108877 0 18
+0
+D1
+~
+~
+520 0 56119
+D3
+~
+~
+0 0 56117
+S
+#56119
+{wT{Dhe C{Dell{x~
+~
+{cHere a figure lies against the wall, chained by their wrists.  This
+skeletal figure's legs are splayed apart and a dark stain is between
+them all the way to the knees.  Sores and leasions adorn it's legs
+like demonic badges of honor.  It's head lolls from side to side, as
+if in a drunken stupor, and a moment later some skin somewhere splits,
+releasing noxious gasses, as if the body was dead.  An ichor flows
+from the open wounds, with puss and dead plasma mixed in.  The smell
+is horrid, and things become worse as the figure moans quietly.  It
+stirs a bit, and that is when it becomes apparent that it is either a
+person or a zombie.  The race is indeterminate, save for it being
+humanoid.  The flesh of the hands have nearly rotted off leaving
+exposed muscle and bone.  The ears have been eaten off by something. 
+The toes are gone as well.  The clothes it is wearing have worn to
+nothing but grey, the bland color of despair.   {x
+~
+0 67108873 0 18
+0
+D3
+~
+~
+520 0 56118
+S
+#56120
+{wT{*he {wN{*ortheast {wS{*ewer {wP{*assage{x~
+~
+{c As you move north, the water level starts to become thinner and 
+thinner.  The horrid smell of the sewer is not as potent in this part. 
+It is still just as dark, you can barely make out a small rat on the 
+ground where you were about to step.  The only obvious exits are 
+north, south, and west.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56121
+D2
+~
+~
+0 0 56100
+D3
+~
+~
+0 0 56165
+S
+#56121
+{wT{*he {wN{*ortheast {wS{*ewer {wP{*assage{x~
+~
+{c The passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+the sewers contnues to overwhelm your nose as you continue trecking 
+through the sewer passage. The noise of the streets becomes slightly less. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56125
+D2
+~
+~
+0 0 56120
+S
+#56122
+{wS{*ewer {wP{*assage~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56123
+D2
+~
+~
+0 0 56115
+S
+#56123
+{wS{*ewer {wP{*assage~
+~
+{cAs you travel along the dark corridor, the sound of dripping enters
+your ears.  It seems to be coming from the north, and is oddly the 
+only sound you hear.  You see a large pool of brown liquid in the middle
+of the passage.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56124
+D1
+~
+~
+0 0 56156
+D2
+~
+~
+0 0 56122
+S
+#56124
+{wS{*ewer {wP{*assage~
+~
+{cAs you travel along the corridor, the smell of filth and waste become 
+stronger.  The stream of water starts to get a little deeper, and it is 
+moving a little bit faster.  The ceiling droops down an extra couple
+of feet, where water drips.  The sounds of the streets are almost vacant
+here.{x 
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56144
+D2
+~
+~
+0 0 56123
+S
+#56125
+{wT{*he {wN{*ortheast {wS{*ewer {wP{*assage{x~
+~
+{cA small bend in the pipes shows much the same as was in the last 
+passage.  Refuge of all types.  Bits of bone, a trinket here, a lost bobble 
+there.  But at the heart, the stench remains, over whelming and noxious. A 
+grate sits above you, waiting to be moved.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56175
+D2
+~
+~
+0 0 56121
+D3
+~
+~
+0 0 56132
+D4
+~
+~
+8 0 56126
+S
+#56126
+{*Secret Room~
+~
+{c As you enter this dark room, your nose is hit with a firm scent of dust.  Towers 
+made from crates and boxes scatter the room.  The floor is littered with tatered
+rags, broken weapons, and other assorted items.  There is a grate leading down. {x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 56046
+D5
+~
+~
+8 0 56125
+S
+#56127
+{wT{*he {wS{*outheast {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues on, the air feels thick and wet.  It clings to 
+your body as you try to pass through the sewer.  The walls are
+covered with grime and all sorts of waste from above.  The sounds 
+of dripping and running water come from all around you, and your 
+nose is constantly filled with the retched smell of sewage.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56104
+D2
+~
+~
+0 0 56128
+S
+#56128
+{wT{*he {wS{*outheast {wS{*ewer {wP{*assage{x~
+~
+{cYou come across a bend in the sewer.  There is no real change in 
+this part of the sewer.  Sewer water still drips from above, and it
+still streams under you.  Waste carried in the stream piles against
+the wall, and mold grows on the walls.  The only exits and north
+and east. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56127
+D1
+~
+~
+0 0 56129
+S
+#56129
+{wT{*he {wS{*ecret {wS{*ewer {wP{*assageway{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. A grate rests above you.{x
+~
+0 67108873 0 18
+0
+D3
+~
+~
+0 0 56128
+D4
+~
+~
+8 0 56130
+S
+#56130
+{wA {wS{*ecret {wP{*assage{x~
+~
+{cThe smell of mold and sewage overwhelms your nose as you enter the
+passage.  The air is wet and warm.  The sounds of music and laughter
+can be heard from above.  Mold grows on all of the walls and waste
+covers the floor.  A small grate sits under you.{x
+~
+0 67108873 0 18
+0
+D3
+~
+~
+0 0 56131
+D5
+~
+~
+8 0 56129
+S
+#56131
+{wU{*nder {wT{*he {wG{*atehouse {wT{*avern{x~
+~
+{cLight from the tavern creeps through the floor and into this small 
+hidden passageway.  The floor is littered with forks, knives and 
+other utensils.  Crumbs and pieces of food also make home down on 
+the floor.  The smell of alcohol is inheritantly strong from down 
+here.  One board to the side is not bolted in, and looks loose enough
+to move.{x
+~
+0 67108872 0 18
+0
+D1
+~
+~
+0 0 56130
+D4
+~
+~
+32776 0 39404
+S
+#56132
+{wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues along, raw sewege covers the entire sewer floor.
+Sewer water streams through, heading towards no where in particular.  
+Small holes in the walls are now home to spiders, bugs, and rats, all 
+denizens of the sewers.  {x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56125
+D3
+~
+~
+0 0 56133
+S
+#56133
+{wS{*ewer {wP{*assage{x~
+~
+{cAt the beginning of the passage, the stones that make up the sewer
+are rounded and crudely put together.  But as you pass, the stone 
+becomes square and neatly worked.  All of the lines match up and 
+all of the stone blocks are identical and nearly perfect.  A signature
+can be barely read at the base of the wall, Oskar Strakeln, the head
+stone mason.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56132
+D3
+~
+~
+0 0 56134
+S
+#56134
+{wS{*ewer {wP{*assage{x~
+~
+{cThis portion of the passage is different than the rest of the sewers,
+it is much cleaner and dry than the other portions.  The bricks on the 
+walls are neatly constructed, all are in straight columns and rows.  The 
+walls stand up straight, and form perfect right angles with the ceiling
+and floor.  The sounds of the streets and dripping water are vacant
+here.  The stream of sewer water is almost non existent too.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56133
+D3
+~
+~
+0 0 56135
+S
+#56135
+{wS{*ewer {wP{*assage{x~
+~
+{cAs you enter this portion of the sewer, the first thing you notice
+is that the corridor becomes larger.  The walls spread apart about
+an extra 10 feet.  Four different passageways connect here, each
+wall is perfectly straight, each row and column of bricks are 
+symmetrical.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56199
+D1
+~
+~
+0 0 56134
+D2
+~
+~
+0 0 56174
+D3
+~
+~
+0 0 56136
+S
+#56136
+{wS{*ewer {wP{*assage{x~
+~
+{cThis portion of the passage is different than the rest of the sewers,
+it is much cleaner and dry than the other portions.  The bricks on the 
+walls are neatly constructed, all are in straight columns and rows.  The 
+walls stand up straight, and form perfect right angles with the ceiling
+and floor.  The sounds of the streets and dripping water are vacant
+here.  The stream of sewer water is almost non existent too.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56135
+D3
+~
+~
+0 0 56137
+S
+#56137
+{wS{*ewer {wP{*assage{x~
+~
+{cAt the beginning of the passage, the stones that make up the sewer
+are rounded and crudely put together.  But as you pass, the stone 
+becomes square and neatly worked.  All of the lines match up and 
+all of the stone blocks are identical and nearly perfect.  A signature
+can be barely read at the base of the wall, Oskar Strakeln, the head
+stone mason.  A middle sized grate sits above your head.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56136
+D3
+~
+~
+0 0 56138
+D4
+~
+~
+8 0 56145
+S
+#56138
+{wS{*ewer {wP{*assage{x~
+~
+{cAs you travel through the passage, you see to the side a pile of what
+remains to be some street urchin's possessions, and his old decaying
+corpse.  Flies, maggots, rats, and other sewer dwelling creatures have 
+taken haven in the pile.  The smell of the sewer covers up any hint of
+corpse rot.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56179
+D1
+~
+~
+0 0 56137
+D2
+~
+~
+0 0 56173
+D3
+~
+~
+0 0 56139
+S
+#56139
+{wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues on, the air feels thick and wet.  It clings to 
+your body as you try to pass through the sewer.  The walls are
+covered with grime and all sorts of waste from above.  The sounds 
+of dripping and running water come from all around you, and your 
+nose is constantly filled with the retched smell of sewage.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56138
+D3
+~
+~
+0 0 56140
+S
+#56140
+{wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56139
+D3
+~
+~
+0 0 56141
+S
+#56141
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems 
+to get colder and thicker, and it starts to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56146
+D1
+~
+~
+0 0 56140
+D2
+~
+~
+0 0 56142
+S
+#56142
+{wS{*ewer {wP{*assage{x~
+~
+{cYou notice that the stream of sewer water floods at the drain at the base 
+of the wall.  Filth floats around the surface of the pool.  You see a small 
+snake slither across the pool after a small rat, apparently trying to catch
+its next meal.  As you pass the sewer drain, you hear a loud growl.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56141
+D2
+~
+~
+0 0 56143
+S
+#56143
+{wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues along, raw sewege covers the entire sewer floor.
+Sewer water streams through, heading towards no where in particular.  
+Small holes in the walls are now home to spiders, bugs, and rats, all 
+denizens of the sewers.  {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56142
+D1
+~
+~
+0 0 56170
+D2
+~
+~
+0 0 56144
+S
+#56144
+{wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems
+to get colder and thicker, and it starts to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56143
+D2
+~
+~
+0 0 56124
+S
+#56145
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThis small room is very neatly constructed.  The bricks on the
+walls and floor are in perfect unison, evenly spaced and they 
+are perfectly cut into rectangles.  A large pipe jets down a foot 
+from the ceiling and snakes to the side of the wall and disappears
+into the floor.  A trapdoor above you hides in the shadows, and
+a square grate sits under you.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 39428
+D5
+~
+~
+8 0 56137
+S
+#56146
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cYou notice that the stream of sewer water floods at the drain at the base 
+of the wall.  Filth floats around the surface of the pool.  You see a small 
+snake slither across the pool after a small rat, apparently trying to catch
+its next meal.  As you pass the sewer drain, you hear a loud growl.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56189
+D2
+~
+~
+0 0 56141
+S
+#56147
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56148
+D2
+~
+~
+0 0 56106
+S
+#56148
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe sewer stops here and what appears to be a crypt starts 
+begins.  The sounds of dripping water are less, and the musty 
+smell of dust starts to enter your nose.  Dust and mold cover 
+broken bones littered on the floor.  Burial niches are dug in the 
+walls, all of them half filled with skeletons.{x 
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56102
+D2
+~
+~
+0 0 56147
+D3
+~
+~
+0 0 56149
+S
+#56149
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe crypt continues.  Burial niches cover the walls.  Bones 
+litter the floor, and mold grows over them.  This sewer crypt 
+is almost vacant of all of the sewer noises.  The air is dry
+and musty.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56148
+D3
+~
+~
+0 0 56150
+S
+#56150
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cBurial niches cover the walls of the crypt, and sarcophaguses litter
+the passage.  The musty smell fills your nose.  Bones litter the floor 
+between each sarcophagus, and mold grows everywhere.  You notice
+that some of the sarcophaguses are open, revealing empty coffins.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56149
+D3
+~
+~
+0 0 56151
+S
+#56151
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThis portion of the crypt becomes much wider as three 
+passageways converge at this one spot.  Burial niches
+still cover the walls, and the floor is still littered with bones
+and mold.  A musty smell fills the air, making it very 
+difficult to breath.  A large wood door sits above you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56159
+D1
+~
+~
+0 0 56150
+D3
+~
+~
+0 0 56152
+D4
+~
+~
+8 0 56157
+S
+#56152
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe crypt continues.  Burial niches cover the walls.  Bones 
+litter the floor, and mold grows over them.  This sewer crypt 
+is almost vacant of all of the sewer noises.  The air is dry
+and musty.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56151
+D3
+~
+~
+0 0 56153
+S
+#56153
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cBurial niches cover the walls of the crypt, and sarcophaguses litter
+the passage.  The musty smell fills your nose.  Bones litter the floor 
+between each sarcophagus, and mold grows everywhere.  You notice
+that some of the sarcophaguses are open, revealing empty coffins.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56152
+D3
+~
+~
+0 0 56154
+S
+#56154
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThis portion of the crypt becomes much wider as three 
+passageways converge at this one spot.  The burial niches
+become less on the walls.  Bones and mold cover the floor
+and the musty smell remains in the air.  A large wood door
+that is falling apart rests above you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56172
+D1
+~
+~
+0 0 56153
+D3
+~
+~
+0 0 56155
+D4
+~
+~
+8 0 56158
+S
+#56155
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe crypt continues.  Burial niches cover the walls.  Bones 
+litter the floor, and mold grows over them.  This sewer crypt 
+is almost vacant of all of the sewer noises.  The air is dry
+and musty.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56154
+D3
+~
+~
+0 0 56156
+S
+#56156
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe sewer stops here and what appears to be a crypt starts 
+begins.  The sounds of dripping water are less, and the musty 
+smell of dust starts to enter your nose.  Dust and mold cover 
+broken bones littered on the floor.  Burial niches are dug in the 
+walls, all of them half filled with skeletons.{x 
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56155
+D3
+~
+~
+0 0 56123
+S
+#56157
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThis small room is covered with dust and mold.  The air is 
+ stagnant and dry, making it difficult to breath.  Bits and pieces
+of wood are littered all over the floor.  A musty smell emanates
+from under a large wooden door on the floor, and a trapdoor hides
+above you in the shadows.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 55879
+D5
+~
+~
+8 0 56151
+S
+#56158
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThis small room is covered with dust and mold.  The air is 
+stagnant and dry, making it difficult to breath.  Bits and pieces
+of wood are littered all over the floor.  A musty smell emanates
+from under a large wooden door on the floor, and a trapdoor hides  
+above you in the shadows.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 55897
+D5
+~
+~
+8 0 56154
+S
+#56159
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer crypt and the sewer converge together in this passage.
+The crypt stones become square and neatly worked.  All of the lines 
+match up and all of the stone blocks are identical and nearly perfect.  
+A signature can be barely read at the base of the wall, Oskar Strakeln, 
+the head stone mason.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56160
+D2
+~
+~
+0 0 56151
+S
+#56160
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThis portion of the passage is different than the rest of the sewers,
+it is much cleaner and dry than the other portions.  The bricks on the 
+walls are neatly constructed, all are in straight columns and rows.  The 
+walls stand up straight, and form perfect right angles with the ceiling
+and floor.  The sounds of the streets and dripping water are vacant
+here.  The stream of sewer water is almost non existent too.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56161
+D2
+~
+~
+0 0 56159
+S
+#56161
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThis portion of the sewers looks as if 2 different builders work 
+collided together.  Moving north and south the walls are neatly
+constructed and evenly placed.  To the east and west are crudely
+dug entranceways.  Above you sits a perfect square grate.{x 
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56174
+D1
+~
+~
+0 0 56163
+D2
+~
+~
+0 0 56160
+D3
+~
+~
+0 0 56166
+D4
+~
+~
+8 0 56162
+S
+#56162
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThis small room is very neatly constructed.  The bricks on the
+walls and floor are in perfect unison, evenly spaced and they 
+are perfectly cut into rectangles.  The smell of the sewers 
+emanates from a square grate sits under you.  A trapdoor above 
+you hides in the shadows.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 39256
+D5
+~
+~
+8 0 56161
+S
+#56163
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems 
+to get colder and thicker, and it starts to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56164
+D3
+~
+~
+0 0 56161
+S
+#56164
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cAs you travel along the corridor, the smell of filth and waste become 
+stronger.  The stream of water starts to get a little deeper, and it is 
+moving a little bit faster.  The ceiling droops down an extra couple
+of feet, where water drips.  The sounds of the streets are almost vacant
+here.{x 
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56165
+D3
+~
+~
+0 0 56163
+S
+#56165
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cYou notice that the stream of sewer water floods at the drain at the base 
+of the wall.  Filth floats around the surface of the pool.  You see a small 
+snake slither across the pool after a small rat, apparently trying to catch
+its next meal.  As you pass the sewer drain, you hear a loud growl.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56120
+D3
+~
+~
+0 0 56164
+S
+#56166
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues on, the air feels thick and wet.  It clings to 
+your body as you try to pass through the sewer.  The walls are
+covered with grime and all sorts of waste from above.  The sounds 
+of dripping and running water come from all around you, and your 
+nose is constantly filled with the retched smell of sewage.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56161
+D3
+~
+~
+0 0 56167
+S
+#56167
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues along, raw sewage covers the entire sewer floor.
+sewer water streams through, heading towards no where in particular
+small holes in the walls are now home to spiders, bugs, and rats, all 
+denizens of the sewers.  {x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56166
+D3
+~
+~
+0 0 56168
+S
+#56168
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cAs you start to pass through, you notice that the passage starts to
+become wider, and eventually connects to 3 other passages.  The sound 
+of dripping enters your ears, it appears to be comming from the north.
+Moans are heard comming from the south, and to the east you think you
+hear a growling.  Your only exits are north, south, east, and west.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56173
+D1
+~
+~
+0 0 56167
+D2
+~
+~
+0 0 56171
+D3
+~
+~
+0 0 56169
+S
+#56169
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less.  A small wooden door sits above you.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56168
+D3
+~
+~
+0 0 56170
+D4
+~
+~
+8 0 56178
+S
+#56170
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cA small bend in the pipes shows much the same as was in the last 
+passage.  Refuge of all types.  Bits of bone, a trinket here, a lost bobble 
+there.  But at the heart, the stench remains, over whelming and noxious.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56169
+D3
+~
+~
+0 0 56143
+S
+#56171
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe sewer stops here and what appears to be a crypt starts 
+begins.  The sounds of dripping water are less, and the musty 
+smell of dust starts to enter your nose.  Dust and mold cover 
+broken bones littered on the floor.  Burial niches are dug in the 
+walls, all of them half filled with skeletons.{x 
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56168
+D2
+~
+~
+0 0 56172
+S
+#56172
+{wT{*he {wS{*ewer {wC{*rypt{x~
+~
+{cThe crypt continues.  Burial niches cover the walls.  Bones 
+litter the floor, and mold grows over them.  This sewer crypt 
+is almost vacant of all of the sewer noises.  The air is dry
+and musty.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56171
+D2
+~
+~
+0 0 56154
+S
+#56173
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56138
+D2
+~
+~
+0 0 56168
+S
+#56174
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe corridor remains relatively the same.  The walls are still 
+neatly constructed, and the floors and walls remain relatively 
+dry and clean.  On the eastern wall is an inscribed message:
+ 
+"Here lies Oskar Strakeln, head stone mason of the Baldur's
+Gate Sewer Project."{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56135
+D2
+~
+~
+0 0 56161
+S
+#56175
+{wT{*he {wN{*ortheast {wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56176
+D2
+~
+~
+0 0 56125
+S
+#56176
+{wT{*he {wN{*ortheast {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues on, the air feels thick and wet.  It clings to 
+your body as you try to pass through the sewer.  The walls are
+covered with grime and all sorts of waste from above.  The sounds 
+of dripping and running water come from all around you, and your 
+nose is constantly filled with the retched smell of sewage.  A
+grate lies closed above you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56190
+D2
+~
+~
+0 0 56175
+D4
+~
+~
+8 0 56177
+S
+#56177
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThe sounds of the streets are vacant from here.  The noxious smell
+of the sewers becomes far less from up here, but not gone.  The room
+is covered in mold and grime from the street above.  Above you sits
+a manhole, letting in a couple of rays of light, but not enough to
+illuminate the room.  Footsteps can be heard from above.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 55861
+D5
+~
+~
+8 0 56176
+S
+#56178
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThis small room is covered with dust and mold.  The air is 
+stagnant and dry, making it difficult to breath.  Bits and pieces
+of wood are littered all over the floor.  The smell of the sewers
+emanates from under a grate under the floor, and a trapdoor 
+hides above you in the shadows.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 39284
+D5
+~
+~
+8 0 56169
+S
+#56179
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues along, raw sewage covers the entire sewer floor.
+sewer water streams through, heading towards no where in particular.  
+small holes in the walls are now home to spiders, bugs, and rats, all 
+denizens of the sewers.  {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56180
+D2
+~
+~
+0 0 56138
+S
+#56180
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cYou notice that the stream of sewer water floods at the drain at the base 
+of the wall.  Filth floats around the surface of the pool.  You see a small 
+snake slither across the pool after a small rat, apparently trying to catch
+its next meal.  As you pass the sewer drain, you hear a loud growl.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56181
+D2
+~
+~
+0 0 56179
+S
+#56181
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{c Vague sounds of people can be heard from above.  The 
+sounds of a market emanates from above.  This portion 
+of the sewers is wider than the rest, yet it still has the 
+rank smell.  Water drips from above into a stream under
+you.  The sewer walls are covered in mold.  There is a 
+grate sitting above you.  The only visible exits are north,
+south, and east.{x 
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56183
+D1
+~
+~
+0 0 56197
+D2
+~
+~
+0 0 56180
+D4
+~
+~
+8 0 56182
+S
+#56182
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cYou hear the streets of the city above you.  The city seems so alive 
+from the sewer, all the people walking, talking, and just living out their
+lives.  From up here you can smell the stench of the sewer waste and 
+filth from under the grate barring you to the sewers beneath.  You can
+see the outline of a manhole in the ceiling through the shadows.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 39332
+D5
+~
+~
+8 0 56181
+S
+#56183
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cA dead end...  In the corner, where no light shines, glow a pair of red
+eyes.  Sounds of nails clicking along stone.  Echoing in the background 
+is the sound of a rat scurrying.  Piles of bone and tattered clothe lie all
+over the floor.{x
+~
+0 67108873 0 18
+0
+D2
+~
+~
+0 0 56181
+D3
+~
+~
+0 0 56184
+S
+#56184
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cA small bend in the pipes shows much the same as was in the last 
+passage.  Refuge of all types.  Bits of bone, a trinket here, a lost bobble 
+there.  But at the heart, the stench remains, over whelming and noxious.{x  
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56183
+D3
+~
+~
+0 0 56185
+S
+#56185
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues on, the air feels thick and wet.  It clings to 
+your body as you try to pass through the sewer.  The walls are
+covered with grime and all sorts of waste from above.  The sounds 
+of dripping and running water come from all around you, and your 
+nose is constantly filled with the retched smell of sewage.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56184
+D3
+~
+~
+0 0 56186
+S
+#56186
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{c The sounds of laughter, shouting and music can be heard from way 
+above, perhaps it is a tavern..  Water runs down the walls, and collects 
+into a big puddle in the middle of the passage.  You see a rat scurry and 
+swim across the puddle, making a big splash and more noise than the 
+whole sewer.  A grate sits above your head.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56185
+D2
+~
+~
+0 0 56188
+D4
+~
+~
+8 0 56187
+S
+#56187
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThis small room is covered with dust and mold.  The air is 
+stagnant and dry, making it difficult to breath.  Bits and pieces
+of wood are littered all over the floor.  The smell of the sewers
+emanates from under a grate under the floor, and a trapdoor 
+hides above you in the shadows.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 39436
+D5
+~
+~
+8 0 56186
+S
+#56188
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems 
+to get colder and thicker, and it starts to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56186
+D2
+~
+~
+0 0 56189
+S
+#56189
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56188
+D2
+~
+~
+0 0 56146
+S
+#56190
+{wT{*he {wN{*ortheast {wS{*ewer {wP{*assage{x~
+~
+{cA dead end...  In the corner, where no light shines, glow a pair of red
+eyes.  Sounds of nails clicking along stone.  Echoing in the background 
+is the sound of a rat scurrying.  Piles of bone and tattered clothe lie all
+over the floor.{x
+~
+0 67108873 0 18
+0
+D2
+~
+~
+0 0 56176
+D3
+~
+~
+0 0 56191
+S
+#56191
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues in the direction you travel.  The air seems 
+to get colder and thicker, and it starts to cling to your body.  The 
+ceiling seems nonexistent in the darkness.  Water drips from 
+above you and lands in the stream under you.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56190
+D3
+~
+~
+0 0 56192
+S
+#56192
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe sewer continues along, raw sewege covers the entire sewer floor.
+Sewer water streams through, heading towards no where in particular.  
+Small holes in the walls are now home to spiders, bugs, and rats, all 
+denizens of the sewers.  Above you is a grate.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56191
+D3
+~
+~
+0 0 56193
+D4
+~
+~
+8 0 56194
+S
+#56193
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThe passage continues along, becoming more narrow and shorter.  Water
+still streams under your feet, but not as much as before.  The stench of
+sewage and waste continues to overwhelm your nose as you continue 
+trekking through the sewer passage. The noise of the streets becomes 
+slightly less. {x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56192
+D3
+~
+~
+0 0 56195
+S
+#56194
+{wT{*he {wS{*ecret {wS{*ewer {wE{*ntrance{x~
+~
+{cThe streets above you are quiet, there are almost no sounds of footsteps
+or any other city sounds.  Mold grows on the walls and water drips from
+the ceiling and runs down the walls.  Dirt and other filth rests on the
+floor.  A ray of light shines through a hole in the ceiling, and a circular
+outline can be made out.{x
+~
+0 67108873 0 18
+0
+D4
+~
+~
+32776 0 39295
+D5
+~
+~
+8 0 56192
+S
+#56195
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{c The sounds of laughter, shouting and music can be heard from way 
+above, perhaps it is a tavern..  Water runs down the walls, and collects 
+into a big puddle in the middle of the passage.  You see a rat scurry and 
+swim across the puddle, making a big splash and more noise than the 
+whole sewer.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56193
+D2
+~
+~
+0 0 56198
+D3
+~
+~
+0 0 56196
+S
+#56196
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cYou notice that the stream of sewer water floods at the drain at the base 
+of the wall.  Filth floats around the surface of the pool.  You see a small 
+snake slither across the pool after a small rat, apparently trying to catch
+its next meal.  As you pass the sewer drain, you hear a loud growl.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56195
+D3
+~
+~
+0 0 56197
+S
+#56197
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cWith each breath, those who survive on oxygen suffer.  The littered bones 
+and bloated parts of bodies, mixed with the refuse,  only help to suffocate 
+those foolish enough to walk these passages.  Rats hop along the top of 
+feces while looking for pray.{x
+~
+0 67108873 0 18
+0
+D1
+~
+~
+0 0 56196
+D3
+~
+~
+0 0 56181
+S
+#56198
+~
+~
+{cAt the beginning of the passage, the stones that make up the sewer
+are rounded and crudely put together.  But as you pass, the stone 
+becomes square and neatly worked.  All of the lines match up and 
+all of the stone blocks are identical and nearly perfect.  A signature
+can be barely read at the base of the wall, Oskar Strakeln, the head
+stone mason.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56195
+D2
+~
+~
+0 0 56199
+S
+#56199
+{wT{*he {wS{*ewer {wP{*assage{x~
+~
+{cThis portion of the passage is different than the rest of the sewers,
+It is much cleaner and dry than the other portions.  The bricks on the 
+walls are neatly constructed, all are in straight columns and rows.  The 
+walls stand up straight, and form perfect right angles with the ceiling
+and floor.  The sounds of the streets and dripping water are vacant
+here.  The stream of sewer water is almost non existent too.{x
+~
+0 67108873 0 18
+0
+D0
+~
+~
+0 0 56198
+D2
+~
+~
+0 0 56135
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 56100 4 1
+D 0 56104 4 1
+D 0 56105 4 1
+D 0 56105 5 1
+D 0 56110 0 1
+D 0 56116 4 1
+D 0 56117 2 1
+D 0 56118 1 2
+D 0 56119 3 2
+D 0 56125 4 1
+D 0 56126 4 1
+D 0 56126 5 1
+D 0 56129 4 1
+D 0 56130 5 1
+D 0 56131 4 1
+D 0 56137 4 1
+D 0 56145 4 1
+D 0 56145 5 1
+D 0 56151 4 1
+D 0 56154 4 1
+D 0 56157 4 1
+D 0 56157 5 1
+D 0 56158 4 1
+D 0 56158 5 1
+D 0 56161 4 1
+D 0 56162 4 1
+D 0 56162 5 1
+D 0 56169 4 1
+D 0 56176 4 1
+D 0 56177 4 1
+D 0 56177 5 1
+D 0 56178 4 1
+D 0 56178 5 1
+D 0 56181 4 1
+D 0 56182 4 1
+D 0 56182 5 1
+D 0 56186 4 1
+D 0 56187 4 1
+D 0 56187 5 1
+D 0 56192 4 1
+D 0 56194 4 1
+D 0 56194 5 1
+M 0 56104 50 56104 1
+M 0 56104 50 56113 1
+M 0 56104 1 56113 1
+M 0 56114 50 56114 1
+E 0 56114 0 7
+M 0 56100 1 56119 1
+M 0 56104 50 56125 1
+M 0 56104 1 56125 1
+M 0 56126 1 56126 1
+E 0 56126 0 16
+M 0 56104 50 56138 1
+M 0 56114 50 56142 1
+E 0 56114 0 7
+M 0 56114 50 56146 1
+E 0 56114 0 7
+M 0 56104 50 56148 1
+M 0 56104 50 56149 1
+M 0 56104 50 56151 1
+M 0 56104 50 56153 1
+M 0 56104 50 56155 1
+M 0 56104 50 56159 1
+M 0 56114 50 56165 1
+E 0 56114 0 7
+M 0 56104 50 56171 1
+M 0 56174 1 56174 1
+E 0 56174 0 16
+M 0 56114 50 56180 1
+E 0 56114 0 7
+M 0 56183 3 56183 1
+G 0 56183 0
+M 0 56183 3 56190 1
+G 0 56183 0
+M 0 56114 50 56196 1
+E 0 56114 0 7
+M 0 56114 40 56196 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#56100
+~
+if mobhere feldorn
+  mob echo {MFeldorn says {w'{mOh, thankyou for rescuing me!{w'
+  mob echo {MFeldorn says {w'{mI followed you down into the cellar when something grabbed me, knocked me unconscious and left me here.{w'
+  mob force feldorn follow $n
+  mob echo {MFeldorn says {w'{mI must get back to the {WE{wlfsong{m. Please lead the way back.{w'{x
+  mob force feldorn mob remember $n
+else
+  break
+end if
+~
+#0
+
+#$

@@ -1,0 +1,1318 @@
+#AREADATA
+Name Barbarian Stronghold~
+Builders None~
+VNUMs 51650 51699
+Credits [15 FR 40] Barbarian Stronghold~
+Security 10
+Recall 55774
+Faction ~
+AQpoints 0
+Realm 1
+End
+
+
+
+#MOBILES
+#51650
+crag cat~
+{*a {WC{yrag {WC{yat{w ~
+{*A {WC{yrag {WC{yat{w {*silently prowls in the shadows, hunting for prey.{w
+~
+{wTwo large teeth protrude down from the roof the crag cat's mouth.  
+An iridescent glow shines in the cat's eyes as it pounces on you!{w
+~
+cat~
+AF FPQVZ 0 -1000 0
+42 5 14d21+623 14d21+623 5d6+17 claw
+-18 -18 -18 -16
+FH B I H
+stand stand either 430
+AV ACDEFHJKQUV medium 0
+D ~
+T ~
+F for G
+#51651
+wolf~
+{*a {WW{winter {WW{wolf{w ~
+{*A {WW{winter {WW{wolf{w {*roams the tunnels, guarding it's den.{w
+~
+{wThis wolf in enveloped by a coat of fur as white as the purest snow.    
+It's ears twitch as it detects movement and smells an unfamiliar scent.{w
+~
+wolf~
+A FJZ C -400 0
+48 5 15d25+802 15d25+802 5d10+22 frbite
+-18 -18 -18 -16
+FH B I H
+stand stand either 540
+AV ACDEFJKQV medium 0
+D ~
+T ~
+F for G
+#51652
+greater wolf~
+{*a {WG{wre{*a{wte{Wr {WW{winter {WW{wolf{w ~
+{*A {WG{wre{*a{wte{Wr {WW{winter {WW{wolf{w {*patrols it's den.{w
+~
+{wThis wolf is much larger than the majority of the pack, with a more dense coat, 
+larger teeth, and thicker muscles.  It's pitch black eyes are focused and unflinching.{w
+~
+wolf~
+A FJZ C -400 0
+57 6 17d28+1136 17d28+1136 5d12+26 frbite
+-18 -18 -18 -16
+0 B I H
+stand stand either 720
+AV ACDEFJKQV medium 0
+D ~
+T ~
+F off FH
+F for G
+#51653
+frost barbarian~
+{*a {BF{br{Wo{bs{Bt {BB{ba{*r{Wba{*ri{ba{Bn{w ~
+{*A {BF{br{Wo{bs{Bt {BB{ba{*r{Wba{*ri{ba{Bn{* roams the caverns.{w
+~
+{wThis large humanoid with a wild look in his eyes does not seem to 
+appreciate the fact that you have entered his domain.  He's large, dirty, and upset.{w
+~
+human~
+ACT a 0 0 0
+57 6 6d81+1095 6d81+1095 5d12+26 smash
+-18 -18 -18 -16
+CEFI B I H
+stand stand either 1120
+AHV ABCDEFGHIJK large 0
+D ~
+T ~
+F for M
+#51654
+jurram frost barbarian leader~
+{BJ{bu{Wrr{ba{Bm{w ~
+{*{BJ{bu{Wrr{ba{Bm{*, the leader of the frost barbarians stands here, wrapped in a {Wf{wu{Wr{* cloak.{w
+~
+{wJurram is the ruler of the barbarians and oversees the stronghold.  His 
+balding head and bushy beard complement his posture and stature among 
+his people.  He holds a mace with a large bone handle and obsidian head in 
+his hand, and he certainly knows how to use it.{w
+~
+human~
+ABCT a H 0 0
+72 8 10d69+1956 10d69+1956 5d14+29 crush
+-18 -18 -18 -16
+CEFIK B EI H
+stand stand male 4460
+AHV ABCDEFGHIJK large 0
+D ~
+T ~
+F for M
+#51655
+elite frost barbarian~
+{*an {BE{bl{*i{bt{Be {BF{br{Wo{bs{Bt {BB{ba{*r{Wba{*ri{ba{Bn{w ~
+{*A large {BE{bl{*i{bt{Be {BF{br{Wo{bs{Bt {BB{ba{*r{Wba{*ri{ba{Bn{* keeps watch to protect Jurram.{w
+~
+{wAs one of the larger and more gifted barbarian warriors, he has been one of the chosen to protect Jurram.{w
+~
+human~
+ABCFT Va H 0 0
+64 7 22d24+1418 22d24+1418 5d13+27 smash
+-18 -18 -18 -16
+CEFIK B I H
+stand stand either 1120
+AHV ABCDEFGHIJK large 0
+D ~
+T ~
+F for M
+#0
+
+
+
+#OBJECTS
+#51650
+smelly fur pelt~
+{wa fur pelt{w~
+{wA smelly fur pelt is on the ground.{w~
+fur~
+trash 0 A
+0 0 0 0 0
+1 1 0 P
+#51651
+small wooden crate~
+{wa small wooden crate~
+{wA small {ywooden crate{w rests on the floor of the cavern.{w~
+wood~
+container 0 0
+1 AC 0 10 90
+0 1 10 P
+#51652
+dried salted meat food~
+{*a slab of dried {ws{*a{wlt{*e{wd {rmeat{w~
+{*a slab of dried {ws{*a{wlt{*e{wd {rmeat{w~
+food~
+food 0 A
+10 10 0 0 0
+1 0 25 P
+#51653
+blood stained spear~
+{wa {Rb{rlood{*-{Rs{rtained{w spear{w~
+{wA spear covered with blood stains is on the ground.{w~
+metal~
+weapon 0 AN
+staff 3 7 thrust 0
+23 2 420 P
+~
+~
+~
+~
+~
+A
+1 1
+A
+19 1
+#51654
+crude spear~
+{wa crude spear{w~
+{wA crudely made spear rests here.{w~
+metal~
+weapon 0 AN
+staff 2 5 thrust 0
+10 1 160 P
+~
+~
+~
+~
+~
+#51655
+bone club~
+{*a {WB{*one {wC{*lub{w~
+{wA large jointed animal bone lays here.{w~
+bone~
+weapon 0 AN
+mace 4 6 crush 0
+25 3 340 P
+~
+~
+~
+~
+~
+A
+19 2
+A
+18 2
+A
+1 1
+#51656
+white fur cloak~
+{WW{wh{Wi{wt{We {WF{wu{Wr {*C{Wl{*o{Wa{*k{w~
+{wA {Ww{wh{Wi{wt{We {Wf{wu{Wr {*c{Wl{*o{Wa{*k{w created from the pelt of a magical beast glows softly.{w~
+fur~
+armor ABGIY AD
+16 14 16 18 0
+69 4 8760 P
+A
+13 90
+A
+18 5
+A
+20 -3
+#51657
+crude handtool tool~
+{wa crude handtool{w~
+{wA crudely made handtool lies on the ground.{w~
+metal~
+weapon 0 AN
+mace 1 6 smash 0
+1 1 30 P
+~
+~
+~
+~
+~
+#51658
+wooden crate~
+{wa wooden crate{w~
+{wA {ywooden crate{w rests on the floor of the cavern.{w~
+wood~
+container 0 0
+3 AC 0 15 90
+0 3 10 P
+#51659
+obsidian bone mace~
+{*an {*O{Wb{*s{Wi{*d{Wi{*a{Wn{*-{WH{*e{Wa{*d {WB{wone {WM{*ace{w~
+{wA large {Wbone-handled{w mace with a {*jet-black{w crown sits here.{w~
+bone~
+weapon AIM AN
+mace 9 13 none 0
+68 5 340 P
+~
+~
+~
+~
+~
+A
+19 5
+A
+1 2
+#51660
+vadose flow water stream~
+{*a warm {Cv{ca{Cd{co{Cs{ce {Cf{cl{Co{cw{w~
+{*A warm {Cv{ca{Cd{co{Cs{ce {Cf{cl{Co{cw {*runs along the cavern floor.{w~
+water~
+fountain AG 0
+99 99 'water' 0 0
+1 0 1 P
+#51661
+pile bones~
+{wa pile of {Wg{wnawed {Wb{wones{w~
+{wA pile of {Wg{wnawed {Wb{wones.{w~
+bone~
+container 0 0
+1 0 0 3 100
+0 1 1 P
+#0
+
+
+
+#ROOMS
+#51650
+{cC{*ave {cE{*ntrance {cT{*o {cT{*he {cS{*tronghold{w~
+~
+{wM{*oving the boulders to the side and digging through the snowpack,
+an opening to a cave is revealed.  The cave is much bigger than it
+appears from the outside having been concealed, and a short tunnel
+going in only one direction lies ahead.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51651
+D3
+~
+~
+0 0 51713
+S
+#51651
+{cS{*hort {cT{*unnel{w~
+~
+{wT{*he tunnel burrows into the mountain in a straightforward
+direction.  As the cave swallows more of the natural sunlight with
+each step, the cold black surroundings become almost disorienting.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51652
+D3
+~
+~
+0 0 51650
+S
+#51652
+{cE{*ntry {cC{*hamber{w~
+~
+{wA {*large open-aired cavern offers an unobstructed view of the inside
+of {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{*.  On the ground are indications that this cave may
+be inhabited.  Piles of animal bones are strewn about, and wooden logs
+lay randomly on the cavern floor.  There are openings, large and
+small, heading in all directions.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51653
+D1
+~
+~
+0 0 51666
+D2
+~
+~
+0 0 51673
+D3
+~
+~
+0 0 51651
+S
+#51653
+{cN{*orthern {cC{*rawlspace{w~
+~
+{wT{*he opening to the north requires cautious navigation.  An upwards
+slope, combined with an ice covered surface, requires sure footing to
+avoid sliding down the surface back to the entry chamber.  {w 
+~
+0 13 0 20
+0
+D0
+~
+~
+0 0 51654
+D2
+~
+~
+0 0 51652
+S
+#51654
+{cM{*inor {cS{*ide {cC{*hamber{w~
+~
+{wT{*his naturally formed smaller cavern has walls made of
+mineral-laced rock, covered by a thin layer of ice.  There is an eerie
+silence, and the shadows seem to move.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51657
+D2
+~
+~
+0 0 51653
+D3
+~
+~
+0 0 51655
+S
+#51655
+{cM{*inor {cS{*ide {cC{*hamber{w~
+~
+{wS{*mall stalactites hang down from the ceiling capped off with
+icicles.  There is nothing particularly special about this corner of
+the room.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51656
+D1
+~
+~
+0 0 51654
+S
+#51656
+{cM{*inor {cS{*ide {cC{*hamber{w~
+~
+{wT{*he far corner of the chamber holds a large pile of wood of all
+sizes.  Small piles of bones and animal feces are visible on the
+ground, confirming that these caves are indeed inhabited.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51657
+D2
+~
+~
+0 0 51655
+S
+#51657
+{cC{*hamber {cJ{*unction{w~
+~
+{wA {*narrowing throughway forms a natural doorway, joining the two
+side chambers to each other.  Small rock outcroppings jut out, which
+would have been removed if this were a high traffic passageway.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51660
+D1
+~
+~
+0 0 51658
+D2
+~
+~
+0 0 51654
+D3
+~
+~
+0 0 51656
+S
+#51658
+{cM{*ajor {cS{*ide {cC{*hamber{w~
+~
+{wT{*his area does not appear to be frequently used.  There are more
+piles of animal feces on the ground and the air carries a heavy musty
+smell.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51661
+D1
+~
+~
+0 0 51659
+D3
+~
+~
+0 0 51657
+S
+#51659
+{cM{*ajor {cS{*ide {cC{*hamber{w~
+~
+{wC{*rude handmade tools, which could double as weapons, lean up
+against the wall here.  They have started to deteriorate and are also
+covered with a layer of ice.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51662
+D3
+~
+~
+0 0 51658
+S
+#51660
+{cM{*ajor {cS{*ide {cC{*hamber{w~
+~
+{wP{*iles of bones and shredded animal carcasses litter the floor. 
+Fissures on the ground in this corner of the chamber make this area
+impractical for any other use.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51661
+D2
+~
+~
+0 0 51657
+S
+#51661
+{cM{*ajor {cS{*ide {cC{*hamber{w~
+~
+{wA {*decent sized quarry of rocks lie on the floor here.  They seem a
+bit odd and out of place, surely they were placed here on purpose. 
+This is the first indication that intelligent creatures must inhabit
+this cavern.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51662
+D2
+~
+~
+0 0 51658
+D3
+~
+~
+0 0 51660
+S
+#51662
+{cM{*ajor {cS{*ide {cC{*hamber{w~
+~
+{wT{*he corner of the room contains disorganized piles of rubbish and
+other junk.  Peering upwards there is an opening leading to what
+appears to be another room.  {w 
+~
+0 9 0 20
+0
+D2
+~
+~
+0 0 51659
+D3
+~
+~
+0 0 51661
+D4
+~
+~
+0 0 51663
+S
+#51663
+{cS{*torage {cA{*lcove{w~
+~
+{wT{*his appears to be an artificially made storage area, which would
+explain the pile of rocks in the other room.  It is not particularly
+large, but serves its purpose by preventing access by any stray
+creatures.  {w 
+~
+0 13 0 20
+0
+D1
+~
+~
+0 0 51664
+D2
+~
+~
+0 0 51665
+D5
+~
+~
+0 0 51662
+S
+#51664
+{cS{*torage {cA{*lcove{w~
+~
+{wS{*mall wooden crates are tightly stacked up against the wall.  The
+freezing temperatures provide for ideal storage for any number of
+items.  {w 
+~
+0 9 0 20
+0
+D3
+~
+~
+0 0 51663
+S
+#51665
+{cS{*torage {cA{*lcove{w~
+~
+{wT{*his part of the alcove contains numerous fur pelts of all colors
+and sizes.  They are both stacked on top of one another on the ground,
+and hanging from taught ropes strung across the room where newly
+skinned pelts are stretched and dried.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51663
+S
+#51666
+{cE{*astern {cT{*unnel{w~
+~
+{wT{*his appears to be a major artery in the network of surrounding
+tunnels.  Just a short distance to the east is a large open cavern,
+while to the west is the entrance to the cave.  {w 
+~
+0 13 0 20
+0
+D1
+~
+~
+0 0 51667
+D3
+~
+~
+0 0 51652
+S
+#51667
+{cM{*ain {cC{*avern{w~
+~
+{wE{*ntering this cavern, a 40 foot column laced with selenite extends
+from the floor of the cavern to the top, forming an impressive pillar
+of support.  A light glow can be seen around the column on either
+side.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51670
+D1
+~
+~
+0 0 51668
+D3
+~
+~
+0 0 51666
+S
+#51668
+{cB{*arbarian {cE{*ncampment{w~
+~
+{wA{*ncient stalagmites hundreds of years old have been cleared out,
+leaving a relatively flat surface for the barbarians to establish a
+small camp.  Boulders, used as makeshift seats, have been placed here
+around a small fire.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51671
+D1
+~
+~
+0 0 51669
+D2
+~
+~
+0 0 51676
+D3
+~
+~
+0 0 51667
+S
+#51669
+{cB{*arbarian {cE{*ncampment{w~
+~
+{wS{*labs of dried meat are spiked into the soft limestone, hanging to
+dry.  Strips of grisly fur covered skin have been carelessly tossed on
+the ground.  Though unsanitary, it makes little difference in
+temperatures as cold as this.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51672
+D2
+~
+~
+0 0 51677
+D3
+~
+~
+0 0 51668
+S
+#51670
+{cM{*ain {cC{*avern{w~
+~
+{wT{*he spongework walls of the northwest corner of the room rise up
+from the floor of the cavern all the way up to the top.  Hues of red,
+orange, and yellow form an intricate pattern only nature could create.
+It is truly a magnificent sight.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51671
+D2
+~
+~
+0 0 51667
+S
+#51671
+{cB{*arbarian {cE{*ncampment{w~
+~
+{wT{*his area is covered with layers of large fur pelts which the
+barbarians use for bedding.  A nauseating stench emanates from the
+pelts that many couldn't stomach in passing, more or less spend the
+night in.  {w 
+~
+0 8 0 20
+0
+D1
+~
+~
+0 0 51672
+D2
+~
+~
+0 0 51668
+D3
+~
+~
+0 0 51670
+S
+#51672
+{cB{*arbarian {cE{*ncampment{w~
+~
+{wB{*lood-stained spears and hammers lean up against the wall, and
+tools are strewn about the floor.  It is not organized or well kept,
+but functional.  Calcium deposits have also been extracted from
+limestone rocks and collected into a small pile.  {w 
+~
+0 8 0 20
+0
+D2
+~
+~
+0 0 51669
+D3
+~
+~
+0 0 51671
+S
+#51673
+{cS{*outhern {cP{*assageway~
+~
+{wT{*his tunnel is wide, but not particularly high, requiring anyone
+who wants to get through to get on their knees and through.  Just
+further to the south there appears to be a bend in the passageway
+heading east.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51652
+D2
+~
+~
+0 0 51678
+S
+#51674
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wT{*his room seems like an open graveyard with gnawed animal bones
+stacked about a foot high on the ground.  With such a large collection
+, it would appear this is a den of some sort.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51675
+D2
+~
+~
+0 0 51679
+S
+#51675
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wM{*ore splintered animal bones litter the floor here, requiring
+careful foot placement to avoid falling onto what amounts to a
+veritable bed of spikes.  {w 
+~
+0 9 0 20
+0
+D2
+~
+~
+0 0 51680
+D3
+~
+~
+0 0 51674
+S
+#51676
+{cB{*arbarian {cE{*ncampment{w~
+~
+{wW{*ith the freezing temperatures, a most unusual sight is seen on the
+ground here.  A small vadose flow makes it's way along the edge,
+providing a source of water in these extreme temperatures.  It is warm
+to the touch, highly unusual, perhaps even magical in nature.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51668
+D1
+~
+~
+0 0 51677
+S
+#51677
+{cM{*ain {cC{*avern{w~
+~
+{wT{*o south is a naturally formed rock bridge leading to an exit. 
+Below the bridge are clusters of gypsum flowers , giving off an eerie
+luminescent glow.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51669
+D2
+~
+~
+0 0 51682
+D3
+~
+~
+0 0 51676
+S
+#51678
+{cB{*end {cI{*n {cT{*he {cS{*outhern {cP{*assageway{w~
+~
+{wR{*ounding the bend the passage widens towards the east and blends
+into another cavern.  In that direction there appears to be movement
+in the shadows, and faint rustling noises.  Something is there...  {w 
+~
+0 13 0 20
+0
+D0
+~
+~
+0 0 51673
+D1
+~
+~
+0 0 51679
+S
+#51679
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wT{*he western end of this cavern carries a light draft, dropping the
+freezing temperatures even further.  Directly to the west the room
+narrows to a low passageway and an exit out.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51674
+D1
+~
+~
+0 0 51680
+D2
+~
+~
+0 0 51683
+D3
+~
+~
+0 0 51678
+S
+#51680
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wT{*his end of the room leads to yet another fairly large sized
+opening to the east.  Heavy movement can be sensed throughout this
+central cavern.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51675
+D1
+~
+~
+0 0 51681
+D2
+~
+~
+0 0 51684
+D3
+~
+~
+0 0 51679
+S
+#51681
+{cS{*outheast {cP{*assage~
+~
+{wT{*his passage appears to have been artificially widened to
+accommodate something about the size of a small ogre.  It continues to
+the east.  {w 
+~
+0 9 0 20
+0
+D1
+~
+~
+0 0 51682
+D3
+~
+~
+0 0 51680
+S
+#51682
+{cS{*outheast {cJ{*unction{w~
+~
+{wT{*he passages continue to spread out in different directions, but
+they don't appear to go any deeper into the mountain.  Tunnels lead
+north and west, and a steep decline can be see to the south.  {w 
+~
+0 13 0 20
+0
+D0
+~
+~
+0 0 51677
+D2
+~
+~
+0 0 51685
+D3
+~
+~
+0 0 51681
+S
+#51683
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wA {*pack of large wolves occupy this room, which are startled at the
+sight of intruders into their den.  This is perhaps not the safest
+room to be in.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51679
+D1
+~
+~
+0 0 51684
+S
+#51684
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wE{*ndless streaks of frozen blood can be seen across the floor
+leading to small alcoves to the east and south.  Many creatures have
+found their final resting place here.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51680
+D1
+~
+~
+0 0 51687
+D2
+~
+~
+0 0 51692
+D3
+~
+~
+0 0 51683
+S
+#51685
+{cD{*ownward {cS{*lope{w~
+~
+{wT{*his sharp decline descends further down into the mountain. 
+Footholds have been carved into the floor, and makeshift handhold have
+been chiseled into the side walls.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51682
+D5
+~
+~
+0 0 51686
+S
+#51686
+{cU{*pward {cS{*lope{w~
+~
+{wT{*he bottom of a steep slope takes you deeper into the mountain.  To
+the south is a corridor that obviously was not naturally created.  Low
+flame torches along the sides light the path.  {w 
+~
+0 8 0 20
+0
+D2
+~
+~
+0 0 51691
+D4
+~
+~
+0 0 51685
+S
+#51687
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wT{*his hollowed out area holds the bodies of several wolves, frozen
+solid.  These would be the weaker wolves that have been weeded out by
+the rest of the pack.  {w 
+~
+0 9 0 20
+0
+D3
+~
+~
+0 0 51684
+S
+#51688
+{cI{*nner {cS{*tronghold{w~
+~
+{wA {*cache of supplies for Jurram's personal use are here, including a
+few weapons, a crate of food, extra torches, and extra fur pelts.  The
+barbarians here subsist on the bare necessities for survival.  {w 
+~
+0 8 0 20
+0
+D1
+~
+~
+0 0 51689
+D2
+~
+~
+0 0 51693
+S
+#51689
+{cI{*nner {cS{*tronghold{w~
+~
+{wF{*ive torches have been placed on the wall in a pentagram array, and
+inside the pentagram are undecipherable writings more strange symbols.
+This appears to be a primitive shrine for the god they worship,
+whoever that may be.  {w 
+~
+0 8 0 20
+0
+D1
+~
+~
+0 0 51690
+D2
+~
+~
+0 0 51694
+D3
+~
+~
+0 0 51688
+S
+#51690
+{cI{*nner {cS{*tronghold{w~
+~
+{wU{*nlike the rest of the cavern, this area has been meticulously
+refined.  The walls are smooth, and a low rock outcropping has been
+sanded down and polished.  Though not overly ornate, a lot of work has
+been put into cleaning out this area.  {w 
+~
+0 8 0 20
+0
+D2
+~
+~
+0 0 51695
+D3
+~
+~
+0 0 51689
+S
+#51691
+{cC{*arved {cP{*assageway{w~
+~
+{wT{*his passageway was carved out by hand, and judging by the
+dimensions, was made for something larger than the average human.  It
+continues towards the north and south.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51686
+D2
+~
+~
+0 0 51696
+S
+#51692
+{cD{*en {cO{*f {cT{*he {cW{*inter {cW{*olves{w~
+~
+{wA {*recently slain animal lays on the ground, ready to be devoured. 
+Rustling and heavy panting reinforce thoughts that this area is also
+inhabited.  {w 
+~
+0 9 0 20
+0
+D0
+~
+~
+0 0 51684
+S
+#51693
+{cI{*nner {cS{*tronghold{w~
+~
+{wT{*he passageway opens up to a medium sized cave that's been
+converted to some sort of inner sanctum for this barbarian tribe.  It
+well lit with numerous torches placed on the walls.  The only exit
+from this room is to the south.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51688
+D1
+~
+~
+0 0 51694
+D2
+~
+~
+0 0 51698
+S
+#51694
+{cI{*nner {cS{*tronghold{w~
+~
+{wA {*large sculpture, carved from a single piece of rock, stands here.
+It is about the size of an human and heavily adorned with rhinestones,
+crystal, and other gems.  The head of the sculpture has a dragonlike
+resemblance.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51689
+D1
+~
+~
+0 0 51695
+D3
+~
+~
+0 0 51693
+S
+#51695
+{cI{*nner {cS{*tronghold{w~
+~
+{wT{*he limestone flooring has been chipped out to make baseholds for
+three wooden posts which have been driven into the ground here.  The
+posts have been carved and painted with more strange markings to
+create a set of idols with odd expressions.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51690
+D3
+~
+~
+0 0 51694
+S
+#51696
+{cC{*arved {cP{*assageway{w~
+~
+{wT{*he passage takes a sharp turn and bends around the corner.  Low
+burning torches continue to light the way.  {w 
+~
+0 8 0 20
+0
+D0
+~
+~
+0 0 51691
+D1
+~
+~
+0 0 51697
+S
+#51697
+{cC{*arved {cP{*assageway{w~
+~
+{wT{*he passage continues to the east and west.  The walls here are
+covered with strange symbols and markings.  {w 
+~
+0 8 0 20
+0
+D1
+~
+~
+0 0 51698
+D3
+~
+~
+0 0 51696
+S
+#51698
+{cC{*arved {cP{*assageway{w~
+~
+{wT{*hey passageway ends here and to the north opens up to a well-lit
+room.  Voices can be heard up ahead, this is likely the last
+opportunity to turn around.  {w 
+~
+0 12 0 20
+0
+D0
+~
+~
+0 0 51693
+D3
+~
+~
+0 0 51697
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 51650 5 51654 2
+M 0 51650 5 51656 1
+M 0 51650 5 51658 2
+O 0 51657 0 51659
+O 0 51661 0 51660
+O 0 51651 0 51664
+P 0 51652 1 51651 2
+O 0 51650 0 51665
+M 0 51653 5 51668 1
+G 0 51653 0
+M 0 51653 5 51669 1
+O 0 51650 0 51671
+M 0 51653 5 51672 1
+G 0 51653 0
+O 0 51654 0 51672
+O 0 51661 0 51674
+M 0 51651 4 51675 1
+O 0 51661 0 51675
+O 0 51660 0 51676
+M 0 51652 2 51679 1
+M 0 51651 4 51679 1
+M 0 51651 4 51683 1
+M 0 51651 4 51684 1
+M 0 51652 2 51684 1
+O 0 51658 0 51688
+P 0 51652 1 51658 2
+P 0 51650 1 51658 2
+M 0 51653 5 51689 1
+M 0 51655 2 51689 1
+G 0 51655 0
+M 0 51654 1 51690 1
+E 0 51656 0 5
+E 0 51659 0 16
+M 0 51653 5 51694 1
+M 0 51655 2 51695 1
+G 0 51655 0
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

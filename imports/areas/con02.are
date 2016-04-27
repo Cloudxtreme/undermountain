@@ -1,0 +1,3188 @@
+#AREADATA
+Name The Church of Nightmares~
+Builders None~
+VNUMs 12300 12399
+Credits [ ClnHll ] New CoN Clanhall~
+Security 10
+Recall 3005
+Faction ~
+AQpoints 0
+Realm 4
+End
+
+
+
+#MOBILES
+#12300
+nightmare guard warrior~
+{8a {bN{8ightmare {RG{ruard{x~
+{8A guard stands in the shadows protecting an ancient seal.{x
+~
+{8A brother of the {bN{8ightmare {RG{ruard {8stands a vigilant watch over the
+sole entrance into the {RC{rhurch {8of {bN{8ightmares.  Grasped firmly in his
+hands is a great two-handed maul, capable of smashing your skull in.  {x
+~
+human~
+ABFGOT c H -1000 0
+110 110 1d1+19999 1d1+499 20d40+80 crush
+-40 -40 -40 -30
+ACDEFHIKLNOT ABP CD 0
+stand stand male 0
+AHMV ABCDEFGHIJK large unknown
+D ~
+T ~
+M DEATH 12309 100~
+#12301
+nightmare archmage wizard~
+{Da {bN{Dightmare {RA{rrchmage{x~
+{DA robed wizard observes all that transpires around him.{x
+~
+{DWearing a simple black hooded robe, this spellcaster hides his face
+from the light.  He seems to stare off in the distance {Das if he was
+watching something else...  {x 
+~
+human~
+ABCGOR c HP -1000 0
+110 30 15d101+8425 1d1+4999 5d20+42 magic
+-30 -30 -30 -50
+AFHKT ABP CD 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M DEATH 12304 100~
+M FIGHT 12300 85~
+M GRALL 12301 100~
+M EXALL 12308 5~
+#12302
+church catacombs trap~
+{RC{rhurch {bC{Datacombs {YT{yrap{x~
+{RC{rhurch {bC{Datacombs {YT{yrap{x
+~
+~
+human~
+ABIMN DFJZ P 0 0
+102 0 1d1+99 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M GRALL 12302 100~
+#12303
+nightmare chorus trap~
+{bN{Dightmare {RC{rhorus{x~
+{bN{Dightmare {RC{rhorus{x
+~
+~
+human~
+ABIMN DFJZ P 0 0
+102 0 1d1+99 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M GRALL 12303 100~
+#12304
+aeoin dreamcrafter dream crafter~
+{wAeoin the {CD{cr{we{ca{Cmc{cr{wa{8f{wt{ce{Cr{x~
+{xAeoin the {CD{cr{we{ca{Cmc{cr{wa{Df{wt{ce{Cr, {xdistills potions in the {Cd{cr{wea{cm{Cy {wm{Di{wst.{x
+~
+{xDressed in white robes of the purest silk is {wAeoin the
+{CD{cr{we{ca{Cmc{cr{wa{8f{wt{ce{Cr{x.  She serves {RN{risstyre{x in a way that most cannot
+comprehend.  She worships the same {bN{8ightmares {xthat you do, but she has
+a respect towards the pleasant dreams that oppose our faith.  It is a
+duality that comes with much power.  {x 
+~
+human~
+ABM DFJZ H -1000 0
+102 0 1d1+999 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand female 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#12305
+hendor nightmare crafter~
+{*Hendor the {bN{*ightmare {RC{rrafter{x~
+{DHendor stands here making your dreams and fears into reality.{x
+~
+{8Hendor the {4N{8ightmare {!C{1rafter{8 shows his feirce undying loyalty to the
+{!C{1hurch{x {8by constantly being show his worst fears and {4N{8ightmares as he
+creates equipment to aid you.  This man is not one to triffle with,
+{!N{1isstyre's{8 power flows from him.  
+ 
+~
+human~
+ABM DFJZ H -1000 0
+102 0 1d1+99 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDELQa 0 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T I set it~
+F for AHMV
+F par ABCDEFGHIJK
+#12306
+elemental nightmares~
+{DAn {RE{rlemental {Dof {bN{Dightmares{x~
+{DA {bN{Dightmare {RE{rlemental {Deminates an aura of pure terror.{x
+~
+{DOne instant it is your worst fear.  The next it makes the person
+next to you cringe, as it assumes the form of thier deepest terror. 
+Endlessly the {bN{Dightmare {RE{rlemental {Dshifts it's form to scare those
+around it.  {x 
+~
+dragon~
+AVdf FJT 0 -1000 0
+101 0 30d60+6200 30d60+6200 9d19+67 bite
+-20 -20 -20 -20
+FHK 0 BHK CFINQ
+stand stand either 10000
+AHZ ACDEFGHIJKPQUVX medium unknown
+D ~
+T ~
+F res E
+#12307
+sindalis nightmare clergy~
+{RS{rindalis{D, the {bN{Dightmare {RP{rriestess{x~
+{RS{rindalis{D, the {bN{Dightmare {RP{rriestess {Dstands ready to aide those in need.{x
+~
+{DGarbed in a midnight black robe with red and blue trim {RS{rindalis{x
+{Dstands ready to aide the {RC{rhurch {Dof {bN{Dightmares.  She has been a{x
+{Dpriestess for many decades, and has served the {RC{rhurch{D since birth.{x
+~
+human~
+ABMNXZa 0 0 -1000 0
+102 0 1d1+999 0d0+0 1d1+10 none
+0 0 0 0
+0 ABCDLPQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 12347 grant me plague~
+M SPEECH 12346 grant me plaque~
+#12308
+bloody mess man~
+{DA {Rb{rlood{Ry {Dmess{x~
+{DSlumped in the darkness is a {Rb{rlood{Ry {Dmess that was once a man.{x
+~
+{DDefy {RL{rord {bN{Disstyre {Dand this will be you...  {x {DBetray the {RC{rhuch {Dof
+{bN{Dightmares and this is your fate...  {x {DFor all of eternity this fool
+will be punished.  Every day he prays for a death that will not come. 
+Forever will he suffer his worst {RF{rears {Dand {bN{Dightmares.  {x 
+~
+human~
+ABO V 0 0 0
+50 0 1d1+99 0d0+0 1d1+10 none
+0 0 0 0
+H ABCDLPQ 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#12309
+thunder bound immortal dummy~
+{DAn immortal{x~
+{DBound by {RL{rord {bN{Disstyre {Dan immortal is held in place.{x
+~
+{DNo one can escape the {RL{rord {Dof {bN{Dightmares wrath, not even other
+immortals.  This fool was once know as {YT{yhunder {Dbut now he is nothing
+more than {Da vessel for the amusement of the {RC{rhurch {Dof {bN{Dightmares.  {x 
+~
+human~
+ABO V 0 0 0
+101 0 1d1+99 0d0+0 1d1+10 none
+0 0 0 0
+H ABCDPa 0 0
+stand stand female 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#12310
+statue niss nightmare lord~
+{8The statue of {RL{rord {bN{8isstyre{x~
+{DAn obsidian life-like statue of {RL{rord {bN{Disstyre stands atop the altar.{x
+~
+{8{x {DThe statue is made of an obsidian that is so black that no light
+can seem to reflect off of the statues inky black surface.  It seems
+that the statue seems to absorb the light.  The resemblence of the
+statue to {RL{rord {bN{Disstyre is uncanny.  {x 
+~
+human~
+ABJKMNb DFJZ 0 -1000 0
+110 0 1d1+99 0d0+0 1d1+10 none
+0 0 0 0
+0 ABCDPa 0 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 12306 bless me~
+#12311
+venerik nightmare elemental summoner~
+{bV{Denerik the {RE{rlemenal {bS{Dummoner{x~
+{DDeep within an arcane trance, {bV{Denerik communes with unseen forces.{x
+~
+{DChanting and motioning inside a glowing summoning circle, {bV{Denerik
+{Dcalls forth the {RE{rlementals {Dof {bN{Dightmares.  Being 203 years old, he is
+an ancient man.  {DMore than one hundred years of his life was spent
+learning the summoning, and another fifty was used in mastering his
+skill.  {x 
+~
+human~
+AB 0 0 -1000 0
+102 100 1d9999+10 1d9999+10 1d9999+10 thwack
+-10 -10 -10 -10
+0 ABCDLQa 0 0
+stand stand male 0
+0 0 medium unknown
+D ~
+T {X~
+F for AHMV
+F par ABCDEFGHIJK
+#12312
+gortan nightmare cook figure~
+{RG{rortan{D, the {bN{Dightmare {RC{rook{x~
+{DA figure leans against the wall, reeking of grease and filth.{x
+~
+{RG{rortan's {Dhands are caked with dirt and {Rb{rloo{Rd{D, and all of his food
+seems to stink as if it were rotten.  Alas, he is the only chef that
+would dare enter into the eternal service of the {RC{rhurch {Dof {bN{Dightmares.
+{x 
+~
+human~
+ABMN DFJZ H -1000 0
+101 0 5d5+100 0d0+0 1d1+10 none
+0 0 0 0
+0 ABCDLQa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#12313
+con flagroom alarm guard~
+the CoN Flagroom Alarm Guard~
+({WWizi{x) A {RC{ro{bN{x Flagroom Alarm Guard keeps clannies out of the flagroom.
+~
+~
+human~
+ABGMNO DFJPWZc BPR 0 0
+110 0 1d1+5000 1d1+5000 1d1+2 none
+0 0 0 0
+0 ABCDa 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M EXALL 12307 1~
+#12343
+Phantom Ferret~
+{*Ph{&ant{*om{x~
+{*A jet {&black {*ferret {Gd{gart{Gs{* about the area.{x
+~
+{*Before you stands a slim {&weasel{* type rodent, with sharp piercing
+eyes.  {*It scuttles around the area exploring and searching every
+possible nook {*and cranny.  And stops and looks up at surrounding
+people and beasts, {*checking to see if such a creature could be killed.
+Around its neck {*wraps a {&black{* iron chain, a very small chain.  A tag
+hangs down reading {*"{CPet of Nisstyre{*"{x 
+~
+rabbit~
+AG 0 0 -500 0
+110 500 1d1000+500 1d1000+500 1d1000+500 bite
+0 0 0 0
+FH ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 0
+AGV ACDEFHJK medium unknown
+D ~
+T ~
+M RANDOM 12344 100~
+M SPEECH 12343 follow my precious~
+M SPEECH 12345 go to sleep phantom~
+M SPEECH 12344 asdasdasdasdasdasdasdasdasdasd~
+M GRALL 12344 50~
+#12344
+Weeser Ferret~
+{CW{7e{Bes{7e{Cr{x~
+{&A pure {7white{& ferret scurries around the room.{x
+~
+{&A slim {7weasel{& or polecat type creature stands before you, its furr
+pure white and its eyes blazing red.  It scuttles around the area
+exploring and searching every possible nook and cranny.  And stops
+and looks up at surrounding people and beasts, checking to see if
+such a creature could be killed.  Around its neck wraps a black iron
+chain, a very small chain.  A tag hangs down reading "{CPet of Nisstyre{&"{x
+~
+rabbit~
+AG 0 0 -500 0
+110 500 1d1000+500 1d1000+500 1d1000+500 bite
+0 0 0 0
+FH ABCDEFGHIJKLMNOPQRSTXYZa 0 0
+stand stand none 0
+AGV ACDEFHJK medium unknown
+D ~
+T ~
+#0
+
+
+
+#OBJECTS
+#12300
+tears elven mother~
+{8the {ct{Ce{ca{Cr{cs {8of an {ge{Gl{wv{Ge{gn {cm{Co{wth{Ce{cr{x~
+{RS{rhackled {Dand {cw{Ce{ce{Cp{ci{Cn{cg {Dat the memory of her children is an {ge{Gl{wv{Ge{gn {cm{Co{wth{Ce{cr{D.{x~
+marble~
+fountain 0 P
+100 100 'water' 0 0
+1 0 0 P
+E
+tears elven mother~
+{8
+{cW{Ce{ce{Cp{ci{Cn{cg{8 constantly is an {ge{Gl{wv{Ge{gn {8woman. Her {ct{Ce{ca{Cr{cs {8gather in a pool
+{8before her, supplying the {RC{rhurch {8of {bN{8ightmares with water. She dared
+{8defy {RL{rord {bN{8isstyre, and suffered the wrath of his church. Her eternal
+{8torment is to know her children {Rb{rleed {8and {bs{8uffer endlessly, while she 
+{8can do nothing.{x
+~
+#12301
+black onyx pool blood children~
+{8a pool of {ge{Gl{wv{Ge{gn {Rb{rloo{Rd{x~
+{8Several {bt{8ortured {ge{Gl{wv{Ge{gn {cc{Ch{wi{8ld{wr{Ce{cn {Rb{rlee{Rd {8endlessly into a black onyx pool.{x~
+unknown~
+furniture 0 P
+99 99999 CFIL 350 350
+1 0 0 P
+E
+black onyx pool blood children~
+{8
+{8The {cm{Co{wth{Ce{cr{8's eldest {cc{Ch{wi{Cl{cd {8lays at the northern end of the pool
+{8eternaly clutching at where his {Ri{rntestines {8were.  On the east is her
+{8next {cc{Ch{wi{Cl{cd{8 who suffered an even worse fate than the first, this child
+{8was {Rs{rk{8i{wn{8n{re{Rd {ba{8live.  Resting in the southern regions of the pool, in
+{8five pieces is her middle {cc{Ch{wi{Cl{cd{8, {bd{8rawn and {Rq{ruartered{8.  To west the
+{8fourth {cy{Co{wu{Ct{ch{8 is {Ri{rm{8p{wa{8l{re{Rd{8 on a barbed spike.  And in the center of the
+{8pool is an inverted cross, where the youngest {cc{Ch{wi{Cl{cd{8 was {bc{8rucified, and
+{8had her throat {Rs{rlit{8.{x
+~
+#12302
+mist dreams~
+{wthe M{8i{wst of {CD{cr{wea{cm{Cs{x~
+{wA soft white {Cd{cr{wea{cm{Cy {wm{8i{wst fills the room.{x~
+unknown~
+furniture 0 P
+20 99999 CFIL 0 0
+1 0 0 P
+#12303
+nisstyre essence~
+{bN{8isstyre's {RE{rssence{x~
+{bN{Disstyre's {RE{rssence {Dlays heavily about his crypt.{x~
+unknown~
+furniture A P
+20 99999 CFIL 0 0
+1 0 0 P
+L {x~
+#12304
+deep fried pixie wings~
+{Yf{yrie{Yd {%p{Ci{Gx{Ri{Ye {Dwings{x~
+{YF{yrie{Yd {Dto perfection are a pair of tiny {%p{Ci{Gx{Ri{Ye {Dwings.{x~
+unknown~
+food 0 A
+4 8 0 0 0
+1 0 15 P
+#12305
+jar glowbugs bugs~
+{8a J{wa{8r {wof {GG{gl{wo{8wb{wu{gg{Gs{x~
+{8A j{wa{8r {wof {Gg{gl{wo{8w{wi{gn{Gg {gb{wu{gg{Gs{w illuminates the room.{x~
+unknown~
+light AN A
+0 0 1 0 0
+10 0 1000 P
+A
+18 1
+A
+4 1
+A
+19 1
+A
+3 1
+L {8This j{wa{8r {wof {Gg{gl{wo{8wb{wu{gg{Gs {8looks similar to a fire opal.{x~
+#12306
+bracelet dreamcraft~
+{8a {CD{cr{we{ca{Cmc{cr{wa{cf{Ct {8Bracelet{x~
+{8A braclet {Cc{cr{wa{8f{wt{ce{Cd {8from {Cd{cr{wea{cm{Cs{8 fades in and out of reality.{x~
+unknown~
+jewelry G AM
+0 0 0 0 0
+10 0 2300 P
+A
+5 1
+A
+1 1
+L {8This {Cd{cr{we{ca{Cmc{cr{wa{cf{Ct {8bracelet looks similar to a beaded bracelet.{x~
+#12307
+nightcap~
+{wa {8N{wi{8g{wh{8tc{wa{8p{x~
+{xA {8n{wi{8g{wh{8tc{wa{8p{x lays discarded here.{x~
+unknown~
+armor 0 AE
+8 8 8 8 0
+25 0 2864 P
+A
+4 2
+A
+3 2
+L {wThis {8n{wi{8g{wh{8tc{wa{8p {wlooks similar to a turban of the merchant.{x~
+#12308
+glimmering shirt~
+{8a {YG{yl{Yi{ym{Ym{ye{Yr{yi{Yn{yg {8Shirt{x~
+{8A {Yg{yl{Yi{ym{Ym{ye{Yr{yi{Yn{yg {8shirt reflects the lighting of the room.{x~
+unknown~
+armor N AD
+7 7 7 7 0
+16 0 50 P
+A
+3 1
+A
+4 1
+L {8This {Yg{yl{Yi{ym{Ym{ye{Yr{yi{Yn{yg {8shirt looks like a lightweight shirt.{x~
+#12309
+unused~
+(no description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L {x~
+#12310
+scooby doo pair pajamma pants~
+{wa pair of {3S{8c{woo{8b{3y Doo {8P{wa{8j{wa{8mm{wa {8P{wa{8nts{x~
+{wA pair of {3S{8c{woo{8b{3y Doo {8p{wa{8j{wa{8mm{wa {8p{wa{8nts{x lay crumpled on the floor.{x~
+unknown~
+armor G AF
+6 6 6 6 0
+15 20 3207 P
+A
+17 -5
+A
+1 1
+L {wThis pair of {3S{8c{woo{8b{3y Doo {8p{wa{8j{wa{8mm{wa {8p{wa{8nts{x looks similar to svirfneblin leggings.{x~
+#12311
+nyquill~
+{bN{By{8q{wu{8i{Bl{bl{x~
+{xA bottle of {bN{By{8q{wu{8i{Bl{bl{x lies on the ground tempting your addiction.{x~
+unknown~
+potion 0 A
+70 'restore mana' 'restore mana' 'reserved' 'reserved'
+60 0 8000 P
+#12312
+morphine~
+{RM{ro{8r{wph{8i{rn{Re{x~
+{xA vial of {Rm{ro{8r{wph{8i{rn{Re{x lies here temping your addiction.{x~
+unknown~
+potion 0 A
+65 'heal' 'cure serious' 'cure light' 'cure light'
+22 0 7000 P
+#12313
+nocturnal emmissions~
+{bN{8octurnal {CE{cmm{8i{wss{8i{con{Cs{x~
+A pool of {bn{8octurnal {Ce{cmm{8i{wss{8i{con{Cs{x sticks to the floor here.{x~
+unknown~
+potion 0 A
+65 'sanctuary' 'fireshield' 'iceshield' 'shockshield'
+55 0 8000 P
+#12314
+grain alcohol~
+{YG{yr{wa{yi{Yn {8Alcohol{x~
+{xA discarded bottle of {Yg{yr{wa{yi{Yn {8alcohol{x lies here temping your addiction.{x~
+unknown~
+potion 0 A
+75 'cancellation' 'cancellation' 'remove curse' 'remove curse'
+65 100 8000 P
+#12315
+icecold hands death~
+{CI{wce{CC{co{Cl{cd {bH{8ands of {RD{reath{x~
+{8A pair of dismembered hands lies on the ground bleeding.{x~
+unknown~
+armor 0 AH
+5 5 5 5 0
+10 20 40 P
+A
+3 3
+L {xThese {CI{wce{CC{co{Cl{cd {bH{8ands of {RD{reath{x look similar to cotton gloves.{x~
+#12316
+wrap darkness~
+{RW{rrap {8of {bD{8arkness{x~
+{8A {Rw{rrap {8of {bd{8arkness absorbs the light in the room.{x~
+unknown~
+armor N AC
+6 6 6 6 0
+23 10 2000 P
+A
+5 2
+A
+2 1
+L {wThis {Rw{rrap {8of {bd{8arkness{w looks similar to a spider silk cloak.{x~
+#12317
+silver earring~
+{8a {bS{8ilver {RE{rarring{x~
+{8A {bs{8ilver {rE{rarring{8 glimmers in the light.{x~
+unknown~
+jewelry G AS
+0 0 0 0 0
+23 30 3670 P
+A
+13 10
+A
+3 1
+A
+2 1
+L This silver Earring reminds you of a golden earring.~
+#12318
+unused~
+(no description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+L {x~
+#12319
+stab fear~
+{8a {RS{rtab {8of {bF{8ear{x~
+{8A {Rs{rtab {8of {bf{8ear{8 peirces the room, causing terror.{x~
+unknown~
+weapon BM AN
+dagger 11 16 acbite D
+80 15 10000 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+A
+18 5
+A
+19 5
+L {8This {Rs{rtab {8of {bf{8ear{8 looks similar to a bloodwolf dagger.{x~
+#12320
+spiked manacle~
+{8a {bS{8piked {RM{ranacle{x~
+{8A {bs{8piked {Rm{ranacle {8lies on the ground waiting to restrain someone.{x~
+unknown~
+container CF AT
+5 0 0 5 1
+25 4 300 P
+A
+17 -40
+L {8A {bs{8piked {Rm{ranacle {8looks similar to a dark troll anklet.{x~
+#12321
+-=(N)=- nightmare belt~
+{8a {r-{R={8({bN{8){R={r- {8Belt{x~
+{8A belt marked with a nightmare symbol lays discarded carelessly.{x~
+unknown~
+armor I AL
+4 4 4 0 0
+9 12 999 P
+A
+2 1
+L {8A {r-{R={8({bN{8){R={r- {8belt looks similar to a belt of pleasure.{x~
+#12322
+divine nightmare~
+{8a {RD{rivine {bN{8ightmare{x~
+{8A {Rd{rivine {bn{8ightmare swirls around the room causing fear and chaos.{x~
+unknown~
+treasure E AV
+0 0 0 0 0
+1 0 1000 P
+#12323
+pure fear tattoo~
+{!P{1ure {bF{*ear{X~
+{8A surgically removed tattoo is scabbed onto the ground.{x~
+unknown~
+armor ABGIMPSZd AW
+12 12 12 12 0
+1 0 1000 P
+A
+20 -1
+A
+13 2
+A
+19 2
+A
+18 2
+L {*its a skull tattoo{X~
+#12324
+nightmarish mystery meat~
+{RG{rortan's {bN{Dightmarish {3M{gys{3t{ger{3y {rM{3e{Da{rt{x~
+{DA mound of {3r{got{3t{gin{3g {rm{3e{Da{3t {Dfouls up the air.{x~
+unknown~
+food 0 A
+50 20 0 0 0
+2 0 15 P
+#12325
+bloody stump dummy weapon~
+{DA {Rb{rlood{Ry {Dstump where a hand once was{x~
+{D({RYou shouldn't be seeing this{D){x~
+unknown~
+weapon HMNZ AN
+sword 1 4 beating 0
+1 0 0 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+#12326
+thunder's pathetic wrath dummy weapon~
+{YT{yhunder's {Dpathetic wrath{x~
+{D({RYou shouldn't be seeing this{D){x~
+unknown~
+weapon HMNZ AN
+whip 5 10 wrath 0
+101 0 0 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+#12327
+altar nightmares~
+{DThe {RA{rltar {Dof {bN{Dightmares{x~
+{DThe {RA{rltar {Dof {bN{Dightmares radiates an aura of darkness and fear.{x~
+unknown~
+trash 0 P
+0 0 0 0 0
+0 0 0 P
+E
+altar nightmares~
+{D{x
+{D+------------------------+{x
+{D|                        |{x
+{D|    {RF{raithful{D of the     |{x
+{D|  {RC{rhurch {Dof {bN{Dightmares  |{x
+{D|  have no fear. Speak   |{x
+{D|  the words "{rBless me{D"  |{x
+{D|  to receive the {RK{riss{D   |{x
+{D|   of {RL{rord {bN{Disstyre.    |{x
+{D|                        |{x
+{D+------------------------+{x
+~
+#12328
+raw dragon oysters~
+{Rr{ra{Rw {gd{Gr{Dag{Go{gn {Do{wy{Ds{wt{De{wr{Ds{x~
+{DSeveral large {Rr{ra{Rw {gd{Gr{Dag{Go{gn {Do{wy{Ds{wt{De{wr{Ds lay scattered on the ground.{x~
+unknown~
+food 0 A
+18 12 0 0 0
+1 0 15 P
+E
+raw dragon oyster~
+{DYou know what prairie oysters are right?  Bull testicles!  Use your
+imagination as to what dragon oysters are then.  :){x 
+~
+#12329
+key nightmare CoN~
+{D[{RC{ro{bN{D]------^-^-^>{x~
+{DA key marked with the letters {RC{ro{bN {Dlies here.{x~
+unknown~
+key HMPZ A
+0 0 0 0 0
+1 0 0 P
+#12330
+nightmare CoN chest obsidian~
+{DA chest marked with [{RC{ro{bN{D]{x~
+{DA large chest made of obsidian absorbs all the light.{x~
+none~
+container GHIMPUYZ P
+0 ABCD 12329 1 0
+0 0 0 P
+#12331
+clanflag flag con~
+the {RC{ro{bN {xflag~
+{DA large black flag embroidered with the letters {RC{ro{bN{D.{x~
+unknown~
+trash 0 A
+0 0 0 0 0
+1 0 0 P
+#12332
+throne nightmares~
+{*The {RT{rhrone {*Of {bN{&ightmares{x~
+{*A {&ma{&ssi{&ve {RT{rhrone {*constructed of {7skulls{x sits here.~
+unknown~
+furniture 0 0
+1 10000 BEHK 0 0
+0 0 0 P
+#12333
+midget jukebox~
+{RT{rhe {bM{*idget{x~
+{*A very short {Rm{ridget {*dressed like a {Mj{Ce{Ms{Ct{Me{Cr{* sits on a little chair.{x~
+unknown~
+jukebox 0 0
+0 0 0 0 0
+0 0 0 P
+#12334
+ibtourney prize remadefornewhall~
+{RT{rrophy {Ro{rf {bN{8ighmares{x~
+{8The {RT{rrophy {8dedicated to the members of {RC{ro{bN {8in the valiant battle in the {RB{rattle {bA{8rena.{x~
+unknown~
+treasure AB 0
+0 0 0 0 0
+102 20000 0 P
+E
+trophy~
+{8The plaque reads the following: To those {bN{8ightmares who battled{x
+{8strong and hard that day.  {x 
+ 
+{RS{rylvaniana{x
+{RC{rhalzuz{x
+{RR{rosso{x
+{RF{reilong{x
+{RD{razhel{x
+{RH{rakkefest{x
+{RK{rodiak{x
+ 
+{8To those not mentioned, your thoughts guided us and made our hits fast and hard.{x
+ 
+ 
+___________________________________________________________________________
+ 
+2002 PK Clan Double Elimination Tournament, hosted by Ibrandul
+Church of Nightmares - 3rd Place with a record of 3 wins, 1 loss.
+ 
+lost to Church of Destruction by forfeit (not enough players).
+defeated Seraphic Templars by forfeit (not enough players).
+defeated Church of Destruction 7-0.
+defeated DHPK 7-0.
+ 
+Overall Tournament Points: 33
+ 
+-Trophy Moved to New CoN Hall by Dugmaren
+~
+#12335
+symbol clan nightmare plaque~
+{*A small {xs{wi{xlv{we{xr {bp{*laque inscripted {x'{RC{rhurch {*of {bN{*ightmares{x~
+{WA small silver plaque lies here on the ground, made of your worst nightmares~
+unknown~
+trash GMNPUYZ AU
+0 0 0 0 0
+1 4 0 P
+#12344
+shallow church clan nightmares con donation pit~
+{8The {RC{rhurch {YD{yonation {rPit{x~
+{8A {bshallow {rpit {8lies at the foot of the crypt.{x~
+unknown~
+pit 0 P
+10000 0 0 5000 50
+0 1000 0 P
+#0
+
+
+
+#ROOMS
+#12300
+{bN{8ightmare {RS{ranctum{x~
+~
+{DLarge {Rs{rt{Da{wi{Dn{re{Rd {cg{Cl{wa{Cs{cs {Dwindows depict {RL{rord {bN{Disstyre and the members of the{x
+{RC{rhurch {Dof {bN{Dightmares terrifying the realms.  Each window seems to come alive
+{Din the flickering {cc{Ca{wnd{Cl{ce {yl{Yi{wg{Yh{yt{D.  Even more frightening images are etched
+{Dinto the bl{wa{Dck {yo{8n{yy{8x walls of this sanctum.  Twisting upward from the center
+{Dof the chamber is a spiral staircase which leads to the rest of the {RC{rhurch{D.{x
+~
+0 67118092 0 14
+0
+E
+plaque~
+{R        ____   ____   ____
+{8. .    {R/(  )\ /(  )\ /(  )\
+{8  ::{W.  {r|{R| {8.{R\/.{r|{R| {W.{R|{r|{8.{r|{R| {8.{R|{r| {8.{W.
+{8   :{W:{w:{W:{r||{8:{W:{w:{W:{8:{r||{W:{w:{r||{8:{r||{W:{w:{r||{8:{W:{w:{W:{8:
+{8     . {b|{r| {8.{r/{b\ |{r|{8: {r|{b| |{r| {W:{r|{b|{8   .::. .
+{b       \(__)/ \(__)/ \(  )/      
+{9
+{D     The {RC{rhurch {Dof {bN{Dightmares{x
+{D{x
+{DI would like to give special thanks to Sylvaniana and Hugin for
+{Dthier help and inspiration. To the rest of the {RC{rhurch {Dof {bN{Dightmares,
+{Dthanks for putting up with me while I took my time building the hall.
+{x{D
+{DPandrian Vulchure, {RA{rrchbishop {Dof {bN{Dightmares
+{D[12/12/02]{x
+~
+E
+dirs directions~
+{x
+{DThe {RC{rhurch {Dof {bN{Dightmares Directions{x
+{D
+{DHealer = u
+{DTrainer = un
+{DPortal Room = unu
+{DEquipment Shop = unw
+{DPotion Shop = un2w
+{DMount Shop = une
+{DHealing Room = un2e
+{DSpell Room = u4n
+{DFood Shop = und2n
+{DDummy Room = und3n
+{x
+~
+D4
+~
+~
+0 0 12301
+C Nightmare~
+S
+#12301
+{RC{rlergy {bC{Dhamber{x~
+~
+{DA {Rb{rloo{Rd {rred {Dcarpet runs down the center of the chamber.  Priests,{x
+{Dclerics, and seers of the {RC{rhurch {Dof {bN{Dightmares fill the room with{x
+{Dprayers, vigils, and song.  Along the walls incense laiden torches{x
+{Dburn with dark colored {gf{cl{bam{ce{gs{D, filling the room with an odd light.{x
+~
+0 67641377 0 14
+0
+D0
+~
+~
+0 0 12302
+S
+#12302
+{RA{rltar {Dof {bN{Dightmares{x~
+~
+{DThe focus of the entire {RC{rhurch {Dis in this large ornate altar room. 
+Elaborate and horrific tapestries adorn the walls.  Large pillars
+carved with dark and sinster scenes {Dstand on every side of the {RA{rltar
+{Dof {bN{Dightmares, between the columns are candelabras burning black
+flamed candles.  {x 
+~
+0 67641376 0 14
+0
+D0
+~
+~
+0 0 12308
+D1
+~
+~
+0 0 12334
+D2
+~
+~
+0 0 12301
+D3
+~
+~
+0 0 12305
+D4
+~
+~
+0 0 12311
+D5
+~
+~
+0 0 12317
+S
+#12303
+{RC{rhurch {bC{Datacombs{x~
+~
+{DThe catacombs extend endlessly in all directions.  Puddles of dark
+smelly water pollute the air with thier {gs{3t{Den{3c{gh{D.  {x 
+~
+0 67641377 0 14
+0
+D0
+~
+~
+0 0 12303
+D1
+~
+~
+0 0 12303
+D2
+~
+~
+0 0 12303
+D3
+~
+~
+0 0 12303
+D4
+~
+~
+0 0 12303
+D5
+~
+~
+0 0 12322
+S
+#12304
+{bN{Disstyre's {RC{rrypt{x~
+~
+{RB{rloo{Rd {Dis splattered everywhere, some of it is dried, and some of it
+is fresh.  {wB{Do{wn{De{ws {Dlitter the floor, and mixed in with them are half
+eaten corpses.  {DThe air is heavy with the stench of death and decay.  {x
+{DA dark and powerfull presence fills the room, almost as if these
+remains were still alive.  {x 
+~
+0 67641377 0 14
+0
+D3
+~
+~
+0 0 12334
+M 750 H 750
+S
+#12305
+{bC{Dhurch {RA{rrmory{x~
+~
+{DArmor, shields, swords, and various other garments line the walls
+of the {RA{rrmory{D.  Some items are truely {bN{Dightmarish in thier nature, yet
+others have a soft {Cd{cr{wea{cm{Cy {Dappearance.  A strange aura of tranquility
+radiates from the west tainting the darkness of this room.  {x 
+~
+0 67641377 0 14
+0
+D1
+~
+~
+0 0 12302
+D3
+~
+~
+0 0 12306
+S
+#12306
+{RC{rhurch {bA{Dpothecary{x~
+~
+{DThis corner of the {RC{rhurch {Dreeks of blasphemy, yet it surges with
+the great power of {bN{Dightmares.  Drawn from the {wm{Di{ws{Dt filled air and
+mental power, the elxirs created here are very potent.  It seems that
+every vial {Dis filled the both the essence of {Cd{cr{wea{cm{Cy {Dblasphemy, and the
+darkness of the {RC{rhurch {Dof {bN{Dightmares.  {x 
+~
+0 67641377 0 14
+0
+D1
+~
+~
+0 0 12305
+S
+#12307
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D4
+~
+~
+0 0 12328
+D5
+~
+~
+0 0 12327
+S
+#12308
+{RW{ralk {Dof {bN{Dight{x~
+~
+{DGrated floors lay beneath the rows of pews, contained below is the
+legendary {bN{Dightmare {RC{rhorus{D.  The members were carefully select for
+thier tone of scream when tortured.  When in session the melody
+carries through out the {RC{rhurch {Dof {bN{Dightmares, much to the delight of
+it's members.  Many of the vocalists kept below are people who went
+against {RL{rord {bN{Disstyre{D, or those who entered the {RC{rhurch {Dunwelcomed.  {x {x 
+~
+0 67641377 0 14
+0
+D0
+~
+~
+0 0 12309
+D2
+~
+~
+0 0 12302
+S
+#12309
+{RW{ralk {Dof {bN{Dight{x~
+~
+{DBl{wa{Dck o{ra{3k {Dpews run down both sides of a long onyx walkway that
+leads towards the center of the {RC{rhurch{D.  {DFaint groans and shrieks can
+be heard from the south.  The sounds almost seem organized {Das if a
+choir was warming up for a performance.  {x 
+~
+0 67641377 0 14
+0
+D0
+~
+~
+0 0 12310
+D2
+~
+~
+0 0 12308
+S
+#12310
+{RC{rhamber {Dof {bF{Daith{x~
+~
+{DStanding out in the flickering candle light are statues of each
+leader in the {RC{rhurch{D.  They all face toward the center of the {Dchamber,
+where a statue of {RL{rord {bN{Disstyre towers over them.  {DMurals of battles
+{Dcover every part of the walls, each showing the {RC{rhurch {Dof {bN{Dightmares
+intimidating everyone in thier path.  {x 
+~
+0 67641377 0 14
+0
+D2
+~
+~
+0 0 12309
+D4
+~
+~
+776 12329 12326
+S
+#12311
+{bN{Dightmare {RG{rates{x~
+~
+{DA heavy {Cm{wi{cs{Ct{D clings to every inch of this small room.  Four large
+bl{wa{Dck {Do{wy{Dn{wx {Dgates stand in the cardinal directions.  It would appear
+that the mist flows forth from the {bN{Dightmare {RG{rates{D and into the room. 
+~
+0 67641377 0 14
+0
+E
+directions dirs~
+{D{x
+{D+---------------------------------+
+{D|                                 |
+{D|      {R North:{x Westbridge  {D       |
+{D|   {rSouth: {xMuseum of Creatures{D    |
+{D|  {5West: {xAnarchist Brewers Lobby{D  |
+{D| {%East: {xElevator at Seventh Floor{D |
+{D|                                 |
+{D+---------------------------------+{x
+~
+D0
+~
+~
+0 0 3129
+D1
+~
+~
+0 0 6788
+D2
+~
+~
+0 0 4256
+D3
+~
+~
+0 0 27251
+D5
+~
+~
+0 0 12302
+S
+#12312
+{!T{1he {!O{1ffice {!o{1f {4S{8ylvaniana{x~
+~
+{8The room has a darkness to it, almost a chill, and prying eyes. 
+There's a eerieness to the room.  A mist floats a few feet below the
+ceiling.  The mist is mind-boggling, entrapping, mystifying.  You feel
+drowsy yet alert for you feel danger.  The mist folds around the door
+to the south.  You are trapped!  
+~
+0 67641376 0 14
+0
+D1
+~
+~
+8 0 12313
+S
+#12313
+{DA {bD{Dark {RH{rallway{x~
+~
+{DDank cold air blows up from the old stone stair case leading down
+in to the catacombs beneath the {RC{rhurch{D.  There are doors to the east
+and west, and a simple archway leading to the north.  {x 
+~
+0 67641376 0 14
+0
+D0
+~
+~
+0 0 12323
+D1
+~
+~
+8 0 12324
+D2
+~
+~
+0 0 12314
+D3
+~
+~
+8 0 12312
+D5
+~
+~
+0 0 12318
+S
+#12314
+{DA {bD{Dark {RH{rallway{x~
+~
+{DTwo plain o{ra{3k {Ddoors stand out in the dark barren hallway.  A strong
+stench of mold wafts in from the north.  {x 
+~
+0 67641377 0 14
+0
+D0
+~
+~
+0 0 12313
+D1
+~
+~
+8 0 12316
+D2
+~
+~
+0 0 12317
+D3
+~
+~
+8 0 12315
+S
+#12315
+{bP{Dandrian's {RS{ranctum{x~
+~
+{DLittered all along the floor are scrolls, holy relics, religous
+texts, and research materials.  The air is heavy with {Dthe scent of
+insence.  Resting on a large pedistal in the center of the room is a
+book bound in human {3f{rl{Re{rs{3h{D.  {x 
+~
+0 67641376 0 14
+0
+D1
+~
+~
+8 0 12314
+S
+#12316
+{RV{rassal's {bR{Doost{x~
+~
+{DA single dead tree stands alone in the darkness of a massive
+cavern.  Somewhere the cavern opens to the surface, for fresh air
+mingles with the stench of the feces coating the ground.  {DEntrails of
+various animals hang down from branches, they seem to sway in an
+unseen breeze.  {x 
+~
+0 67641376 0 14
+0
+D3
+~
+~
+8 0 12314
+S
+#12317
+{DA {bD{Dark {RH{rallway{x~
+~
+{DThere is nothing in this hallway except for darkness and spider
+webs.  A damp pungent breeze flows from further down the hall.  {x 
+~
+0 67641377 0 14
+0
+D0
+~
+~
+0 0 12314
+D4
+~
+~
+0 0 12302
+S
+#12318
+{DA {bD{Dark {RS{rtaircase{x~
+~
+{DThe old stone stairs continue deeper down below the surface and in
+to the {RC{rhurch {bC{Datacombs.  Smelling much stronger now, the odor filling
+the hallways above orginates from below.  {x 
+~
+0 67641377 0 14
+0
+D4
+~
+~
+0 0 12313
+D5
+~
+~
+0 0 12319
+S
+#12319
+{RC{rhurch {bC{Datacombs{x~
+~
+{DThe catacombs extend endlessly in all directions.  Puddles of dark
+smelly water pollute the air with thier {gs{3t{Den{3c{gh{D.  {x 
+~
+0 67641381 0 14
+0
+D0
+~
+~
+0 0 12320
+D1
+~
+~
+0 0 12319
+D2
+~
+~
+0 0 12319
+D3
+~
+~
+0 0 12319
+D4
+~
+~
+0 0 12318
+D5
+~
+~
+0 0 12319
+S
+#12320
+{RC{rhurch {bC{Datacombs{x~
+~
+{DThe catacombs extend endlessly in all directions.  Puddles of dark
+smelly water pollute the air with thier {gs{3t{Den{3c{gh{D.  {x 
+~
+0 67641380 0 14
+0
+D0
+~
+~
+0 0 12320
+D1
+~
+~
+0 0 12320
+D2
+~
+~
+0 0 12320
+D3
+~
+~
+0 0 12320
+D4
+~
+~
+0 0 12321
+D5
+~
+~
+0 0 12319
+S
+#12321
+{RC{rhurch {bC{Datacombs{x~
+~
+{DThe catacombs extend endlessly in all directions.  Puddles of dark
+smelly water pollute the air with thier {gs{3t{Den{3c{gh{D.  {x 
+~
+0 67641380 0 14
+0
+D0
+~
+~
+0 0 12320
+D1
+~
+~
+0 0 12321
+D2
+~
+~
+0 0 12321
+D3
+~
+~
+0 0 12321
+D4
+~
+~
+0 0 12321
+D5
+~
+~
+0 0 12322
+S
+#12322
+{RC{rhurch {bC{Datacombs{x~
+~
+{DThe catacombs extend endlessly in all directions.  Puddles of dark
+smelly water pollute the air with their {gs{3t{Den{3c{gh{D.  {x 
+~
+0 67641380 0 14
+0
+D0
+~
+~
+0 0 12322
+D1
+~
+~
+0 0 12303
+D2
+~
+~
+0 0 12322
+D3
+~
+~
+0 0 12322
+D4
+~
+~
+0 0 12321
+D5
+~
+~
+0 0 12322
+S
+#12323
+{RT{rorture {bC{Dhamber{x~
+~
+{DDarkness seems to flow out from the dark black obsidian walls of
+this chamber.  Marring the glassy surface of the walls are deep gouges
+and cracks where it was struck with great force.  {DChunks of {rg{Ro{rr{Re {Dand
+sprays of {Rb{rloo{Rd {Dcoat the floor giving it a sticky feeling.  {x 
+~
+0 67641376 0 14
+0
+D0
+~
+~
+0 0 12343
+D2
+~
+~
+0 0 12313
+S
+#12324
+{RH{rugin's {bN{Dightmare {GD{gojo{x~
+~
+{DMassive {gj{Gad{ge {Ddragon figurines with dark red {Rr{rub{Ry {Deyes stand on
+either side of the door.  Bamboo shoots cover the wall from ceiling to
+floor.  Katanas and {Dother exotic weapons are mounted on the wall.  A
+large pot of burning incense fills the room with a pleasing aroma.  {x 
+~
+0 67641376 0 14
+0
+D3
+~
+~
+8 0 12313
+S
+#12325
+{DA {bS{Decret {RP{rassage{x~
+~
+{DLeading from an undisclosed location in Westbridge this tunnel is a
+direct route from the city to the {RC{rhurch {Dof {bN{Dightmares.  {x 
+~
+0 67642400 0 0
+0
+D0
+~
+~
+0 0 12300
+C Nightmare~
+S
+#12326
+{bN{Dightmare {RS{real{x~
+~
+{DThe caverns end here before a massive seal covered with elborate
+carvings depicting various scenes of {RF{rear {Dand {bN{Dightmares.  Beyond this
+seal is the {RC{rhurch {Dof {bN{Dightmares.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12327
+D5
+~
+~
+776 12329 12310
+S
+#12327
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D2
+~
+~
+0 0 12326
+D4
+~
+~
+0 0 12307
+S
+#12328
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D4
+~
+~
+0 0 12348
+D5
+~
+~
+0 0 12307
+S
+#12329
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12358
+D2
+~
+~
+0 0 12331
+S
+#12330
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D2
+~
+~
+0 0 12332
+D3
+~
+~
+0 0 12358
+S
+#12331
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12329
+D1
+~
+~
+0 0 12333
+D4
+~
+~
+0 0 12337
+S
+#12332
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12330
+D3
+~
+~
+0 0 12333
+D4
+~
+~
+0 0 12339
+S
+#12333
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12358
+D1
+~
+~
+0 0 12332
+D2
+~
+~
+0 0 12336
+D3
+~
+~
+0 0 12331
+S
+#12334
+{RH{rall {Dof {bS{Dummoning{x~
+~
+{DReaching nearly from end to end of this massive hall is a {Rr{ru{Dn{we{D
+covered arch , pulsing with faint red and blue glows.  Etched into the
+center of the bl{wa{Dck m{wa{Drbl{we {Dfloor beneath the arch is a large and well
+worn summoning circle.  {DSpell words echo endlessly off the barren
+walls creating a choatic and maddening mummur.  {x 
+~
+0 604512297 0 14
+0
+D1
+~
+~
+0 0 12304
+D3
+~
+~
+0 0 12302
+S
+#12335
+{RE{rlemental {CP{cl{wa{cn{Ce {Dof {bN{Dightmares{x~
+~
+{bF{Dear and {RC{rhaos{D.  That is all.  {x 
+~
+0 67665964 0 0
+0
+S
+#12336
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12333
+D4
+~
+~
+0 0 12342
+S
+#12337
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12338
+D3
+~
+~
+0 0 12339
+D5
+~
+~
+0 0 12331
+S
+#12338
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12339
+D3
+~
+~
+0 0 12337
+D4
+~
+~
+0 0 12341
+D5
+~
+~
+0 0 12341
+S
+#12339
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12337
+D3
+~
+~
+0 0 12338
+D5
+~
+~
+0 0 12332
+S
+#12340
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12342
+D2
+~
+~
+0 0 12341
+D5
+~
+~
+0 0 12358
+S
+#12341
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12340
+D2
+~
+~
+0 0 12342
+D4
+~
+~
+0 0 12338
+D5
+~
+~
+0 0 12338
+S
+#12342
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12341
+D2
+~
+~
+0 0 12340
+D5
+~
+~
+0 0 12336
+S
+#12343
+{RT{rhe {RT{rhrone {bO{*f {bN{*ightmares{x~
+~
+{*Massive {&marble{* stone pillars stretch high into the rock walls,
+stretching up {*to a ceiling that cannot be seen, only {&p{*itch {&d{*arkness. 
+{YTorches{* burn in {*between each pillar, as massive flags of the {RC{rhurch{*
+and {RT{rri{Bp{bower{* stretch {*down.  To the far north between the two pillars
+stands the {RT{rhrone{* of {bN{*ightmares.  {* On either side of the throne stand
+two statues.  The circular {&marble{* floor shines in the flames of the
+torches, the marble died to colors, {*taking the form of the {R4 B{rars{* of
+the {RT{rri{Bp{bower{*.  A slogan wraps around the {*bars.  {c"{CJuas Ver Zayes Kardar
+Xavr Portok{c",{* its meaning unknown.  In the {*center the marble is
+chipped out, and an iron bar can be seen, looking {*like a trap door.  A
+strange {&w{*in{&d{* tends to be blowing around the room.  {x 
+~
+0 532512 0 0
+0
+D0
+~
+~
+33544 0 12345
+D2
+~
+~
+0 0 12323
+D4
+~
+~
+0 0 1277
+D5
+~
+~
+776 0 12344
+S
+#12344
+{RT{rhe {bD{*ungeon{x~
+~
+{*A small cavern stands before you, large wooden planks stretched
+acrossed {*the rock walls, cut from large trees.  They are roughly
+spaced apart, and {*{Yl{yigh{Yt{* shines from beneath.  Above a large stone
+ceiling, with a square {*in the middle, an opening between the dungeon
+and throne room.  The Dungeon {*represents almost a jail.  A slab of
+{ywood{* hangs down from the rock walls, {*nothing for cusioning.  An old
+dirty {&toilet{* sits to one corner, which does {*not look sanitary.  A
+diseased {7skeleton{* of a human sits next to the toilet, {*a strong smell
+of rot, as open sores ooze with pus.  From the walls hang {*various
+chains and shackles, and a {Rl{rocked {bc{&hest{*...  With devices.  {x 
+~
+0 1275076617 0 0
+0
+D4
+~
+~
+776 0 12343
+D5
+~
+~
+33544 0 12346
+S
+#12345
+Nisstyre's Personal Room~
+~
+Finish this some other day....9/22/02
+- Nisstyre
+~
+0 0 0 0
+0
+D2
+~
+~
+33544 0 12343
+S
+#12346
+{RT{rhe {RA{rbyss {RO{rf {RW{roe{x~
+~
+~
+0 201334784 0 9
+0
+D4
+~
+~
+33544 0 12344
+D5
+~
+~
+0 0 12346
+S
+#12347
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12348
+D3
+~
+~
+0 0 12349
+D4
+~
+~
+0 0 12350
+S
+#12348
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12349
+D3
+~
+~
+0 0 12347
+D5
+~
+~
+0 0 12328
+S
+#12349
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D1
+~
+~
+0 0 12347
+D3
+~
+~
+0 0 12348
+D4
+~
+~
+0 0 12352
+S
+#12350
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12351
+D2
+~
+~
+0 0 12353
+D5
+~
+~
+0 0 12347
+S
+#12351
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12352
+D2
+~
+~
+0 0 12350
+D4
+~
+~
+0 0 12373
+D5
+~
+~
+0 0 12373
+S
+#12352
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12353
+D2
+~
+~
+0 0 12351
+D5
+~
+~
+0 0 12349
+S
+#12353
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12350
+D2
+~
+~
+0 0 12352
+S
+#12354
+{RW{raking {bN{Dightmares{x~
+~
+{CM{ca{Cg{ci{Cc{ca{Cl {Dpowers from a broken spell casting circle have destroyed
+the very fibers of reality in this area of the {RC{rhurch {Dof {bN{Dightmares. 
+There seems to be no end to expanding chaos.  {x 
+~
+0 67641377 0 8
+0
+D0
+~
+~
+0 0 12356
+D1
+~
+~
+0 0 12355
+D2
+~
+~
+0 0 12356
+D3
+~
+~
+0 0 12355
+S
+#12355
+{RW{raking {bN{Dightmares{x~
+~
+{CM{ca{Cg{ci{Cc{ca{Cl {Dpowers from a broken spell casting circle have destroyed
+the very fibers of reality in this area of the {RC{rhurch {Dof {bN{Dightmares. 
+There seems to be no end to expanding chaos.  {x 
+~
+0 67641377 0 8
+0
+D0
+~
+~
+0 0 12357
+D1
+~
+~
+0 0 12354
+D2
+~
+~
+0 0 12357
+D3
+~
+~
+0 0 12354
+S
+#12356
+{RW{raking {bN{Dightmares{x~
+~
+{CM{ca{Cg{ci{Cc{ca{Cl {Dpowers from a broken spell casting circle have destroyed
+the very fibers of reality in this area of the {RC{rhurch {Dof {bN{Dightmares. 
+There seems to be no end to expanding chaos.  {x 
+~
+0 67641377 0 8
+0
+D0
+~
+~
+0 0 12354
+D1
+~
+~
+0 0 12357
+D2
+~
+~
+0 0 12354
+D3
+~
+~
+0 0 12357
+S
+#12357
+{RW{raking {bN{Dightmares{x~
+~
+{CM{ca{Cg{ci{Cc{ca{Cl {Dpowers from a broken spell casting circle have destroyed
+the very fibers of reality in this area of the {RC{rhurch {Dof {bN{Dightmares. 
+There seems to be no end to expanding chaos.  {x 
+~
+0 67641377 0 8
+0
+D0
+~
+~
+0 0 12355
+D1
+~
+~
+0 0 12356
+D2
+~
+~
+0 0 12355
+D3
+~
+~
+0 0 12356
+D5
+~
+~
+0 0 12392
+S
+#12358
+{bP{Dortal {RR{room{x~
+~
+{DHere once stood portals to various locations in the realms, but
+they no longer seem to function.  There several openings into a system
+of cavern tunnels.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12330
+D2
+~
+~
+0 0 12333
+D3
+~
+~
+0 0 12329
+D4
+~
+~
+0 0 12340
+D5
+~
+~
+0 0 12389
+S
+#12359
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12368
+D2
+~
+~
+0 0 12366
+D4
+~
+~
+0 0 12362
+S
+#12360
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12364
+D2
+~
+~
+0 0 12362
+S
+#12361
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12362
+D3
+~
+~
+0 0 12363
+S
+#12362
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12360
+D1
+~
+~
+0 0 12363
+D2
+~
+~
+0 0 12364
+D3
+~
+~
+0 0 12361
+D4
+~
+~
+0 0 12376
+D5
+~
+~
+0 0 12359
+S
+#12363
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12361
+D3
+~
+~
+0 0 12362
+S
+#12364
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12362
+D2
+~
+~
+0 0 12360
+S
+#12365
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12369
+D3
+~
+~
+0 0 12371
+D4
+~
+~
+0 0 12389
+S
+#12366
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 8192 0 0
+0
+D0
+~
+~
+0 0 12359
+D2
+~
+~
+0 0 12367
+S
+#12367
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12366
+D2
+~
+~
+0 0 12368
+S
+#12368
+{RC{rhurch {bC{Datacombs{x~
+~
+{DBeneath the {RC{rhurch {Dthese catacombs extend on for what seems like
+miles, but no matter how far one travels they go no where.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12367
+D2
+~
+~
+0 0 12359
+S
+#12369
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12370
+D3
+~
+~
+0 0 12365
+S
+#12370
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12371
+D3
+~
+~
+0 0 12369
+D4
+~
+~
+0 0 12377
+D5
+~
+~
+0 0 12377
+S
+#12371
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12365
+D3
+~
+~
+0 0 12370
+S
+#12372
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12376
+D2
+~
+~
+0 0 12380
+S
+#12373
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12377
+D2
+~
+~
+0 0 12374
+D4
+~
+~
+0 0 12351
+D5
+~
+~
+0 0 12351
+S
+#12374
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12373
+D2
+~
+~
+0 0 12377
+S
+#12375
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D2
+~
+~
+0 0 12378
+D3
+~
+~
+0 0 12376
+S
+#12376
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12375
+D2
+~
+~
+0 0 12379
+D3
+~
+~
+0 0 12372
+D5
+~
+~
+0 0 12362
+S
+#12377
+{bN{Dightmare {RA{rrena{x~
+~
+{DMassive battles once raged between the {RC{rhurch {Dof {bN{Dightmares on
+these grounds.  Spattered on the walls, and staining the floor is
+{Rb{rloo{Rd{D from the contests held here.  {x 
+~
+0 8192 0 0
+0
+D0
+~
+~
+0 0 12374
+D2
+~
+~
+0 0 12373
+D4
+~
+~
+0 0 12370
+D5
+~
+~
+0 0 12370
+S
+#12378
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12375
+D2
+~
+~
+0 0 12381
+D3
+~
+~
+0 0 12379
+S
+#12379
+{RC{rhurch {bS{Dtorage {DRoom{x~
+~
+{DPresently the only thing stored in this room is dust.  A great
+number of foot prints can be seen going off in each direction.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12376
+D1
+~
+~
+0 0 12378
+D2
+~
+~
+0 0 12382
+D3
+~
+~
+0 0 12380
+S
+#12380
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12372
+D1
+~
+~
+0 0 12379
+D2
+~
+~
+0 0 12383
+S
+#12381
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12378
+D3
+~
+~
+0 0 12382
+S
+#12382
+{DA {bB{Droken {RA{rltar{x~
+~
+{DCracked in half and crumbling to pieces is a large black altar.  It
+once stood as a great place of worship to the {RC{rhurch {Dof {bN{Dightmares,
+but it now stands abandoned like the rest of this building.{x
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12379
+D1
+~
+~
+0 0 12381
+D2
+~
+~
+0 0 12384
+D3
+~
+~
+0 0 12383
+S
+#12383
+{bO{Dutter {RC{rorridor{x~
+~
+{DCircling around the altar, these corridors serve as a passage from
+the {RC{rhurch {Dof {bN{Dightmares to the catacombs beneath it.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12380
+D1
+~
+~
+0 0 12382
+S
+#12384
+{DThe {RC{rhurch {Dof {bN{Dightmares{x~
+~
+{DEmpty and dust covered black pews sit in rows.  Large chucks of the
+marble ceiling have fallen and crushed whole pew sections.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12382
+D2
+~
+~
+8 0 12386
+S
+#12385
+{RUnused Room{x~
+~
+~
+0 67641381 0 0
+0
+S
+#12386
+{DThe {bO{Dnyx {RG{rates{x~
+~
+{DLooming before you to the north is a set of massive onyx gates. 
+Behind those doors is the inner most part of the {RC{rhurch {Dof {bN{Dightmares.
+{DThe doorways to the east and west have both been blocked off by
+collapsing sections of the {RC{rhurch{D.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+8 0 12384
+D2
+~
+~
+0 0 12389
+S
+#12387
+{RUnused Room{x~
+~
+~
+0 67641381 0 0
+0
+S
+#12388
+{RUnused Room{x~
+~
+~
+0 67641381 0 0
+0
+S
+#12389
+{DA {bD{Dark {RH{rallway{x~
+~
+{DThe empty hallway continues to the north, and to the south.  Arched
+doorways stand to the east and west, but {Dlarge chunks of rock have
+sealed off the exit to the east.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12386
+D2
+~
+~
+0 0 12392
+D3
+~
+~
+0 0 12390
+D4
+~
+~
+0 0 12358
+D5
+~
+~
+0 0 12365
+S
+#12390
+{RC{raged {bN{Dightmares{x~
+~
+{DThere are several cages buried beneath the rubble from the
+collapsed northern wall.  The creatures {Dkept inside have long since
+been freed to create terror amongst the realms.  {x 
+~
+0 67641377 0 0
+0
+D1
+~
+~
+0 0 12389
+D2
+~
+~
+0 0 12393
+S
+#12391
+{RUnused Room{x~
+~
+~
+0 67641381 0 0
+0
+S
+#12392
+{DThe {RC{rentral {bW{Dalkway{x~
+~
+{DThe dark hallways of the {RC{rhurch {Dof {bN{Dightmares lie empty.  The walls
+have been striped of all thier valubles.  Your every move echoes all
+through out the hall.  {x {DFilling the exit to the east is rubble and
+debris from the colapsing part of the hall.  Whatever secrets lie
+within will remain forever unknown.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12389
+D2
+~
+~
+0 0 12399
+D3
+~
+~
+0 0 12393
+D4
+~
+~
+0 0 12357
+S
+#12393
+{DThe {RM{rage's {bR{Doom{x~
+~
+{DCovered in rotted clothing the decaying corpse of a mage lays next
+to a broken hearth.  Shattered about the room are vials and potions of
+every shape and color.  {DLining the walls are the tatters of once rare
+drapes that were coveted by the mage.  {x 
+~
+0 67641377 0 0
+0
+D0
+~
+~
+0 0 12390
+D1
+~
+~
+0 0 12392
+S
+#12394
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12395
+S
+#12395
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12396
+D2
+~
+~
+0 0 12394
+S
+#12396
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D2
+~
+~
+0 0 12395
+D5
+~
+~
+0 0 12397
+S
+#12397
+{DA Dark {3C{Da{3ve{Dr{3n{x~
+~
+{DShadows dance on the cavern walls.  In the darkness it is nearly
+impossible to tell if there is an end to the twists and turns.  {x 
+~
+0 67641377 0 20
+0
+D0
+~
+~
+0 0 12398
+D4
+~
+~
+0 0 12396
+S
+#12398
+{DBefore the {RC{rhurch {Dof {bN{Dightmares{x~
+~
+{DSomething seems amiss, there are no guards laying in wait to defend
+the {RC{rhurch{D.  Not a single sound can be heard from inside.  {x 
+~
+0 67641381 0 20
+0
+D0
+~
+~
+0 0 12399
+D2
+~
+~
+0 0 12397
+S
+#12399
+{DEntrance to the {RC{rhurch {Dof {bN{Dightmares{x~
+~
+{DYou stand outside the ruins of the {RC{rhurch {Dof {bN{Dightmares.  Great
+doors once sealed this entrance tight, {Dbut they now lay open.  {x 
+~
+0 67641381 0 20
+0
+D0
+~
+~
+0 0 12392
+D2
+~
+~
+0 0 12398
+S
+#0
+
+
+
+#SPECIALS
+M 12301 spec_cast_mage
+M 12343 spec_thief
+M 12344 spec_thief
+S
+
+
+
+#RESETS
+D 0 12310 4 2
+D 0 12312 1 1
+D 0 12313 1 1
+D 0 12313 3 1
+D 0 12314 1 1
+D 0 12314 3 1
+D 0 12315 1 1
+D 0 12316 3 1
+D 0 12324 3 1
+D 0 12326 5 2
+D 0 12343 0 2
+D 0 12343 5 2
+D 0 12344 4 2
+D 0 12344 5 2
+D 0 12345 2 2
+D 0 12346 4 2
+D 0 12384 2 1
+D 0 12386 0 1
+O 0 12301 0 12300
+M 0 12307 1 12301 1
+O 0 12300 0 12301
+O 0 12334 0 12302
+M 0 12310 1 12302 1
+O 0 12327 0 12302
+O 0 12330 0 12303
+P 0 12331 1 12330 1
+O 0 12303 0 12304
+O 0 12344 0 12304
+M 0 12305 1 12305 1
+G 0 12310 0
+G 0 12305 0
+G 0 12306 0
+G 0 12307 0
+G 0 12308 0
+G 0 12315 0
+G 0 12316 0
+G 0 12317 0
+G 0 12319 0
+G 0 12321 0
+G 0 12322 0
+G 0 12323 0
+M 0 12304 1 12306 1
+G 0 12311 0
+G 0 12312 0
+G 0 12314 0
+G 0 12313 0
+O 0 12302 0 12306
+M 0 12303 1 12308 1
+M 0 12312 1 12313 1
+G 0 12304 0
+G 0 12328 0
+G 0 12324 0
+M 0 12302 1 12318 1
+M 0 12313 1 12322 1
+M 0 12308 1 12323 1
+E 0 12325 0 16
+M 0 12309 1 12323 1
+E 0 12326 0 16
+M 0 12301 1 12326 1
+E 0 12329 0 3
+M 0 12300 2 12326 2
+M 0 12300 2 12326 2
+M 0 12311 1 12334 1
+M 0 12306 1 12335 2
+O 0 12330 0 12335
+P 0 12331 1 12330 1
+M 0 12343 1 12343 1
+O 0 12333 0 12343
+O 0 12332 0 12343
+S
+
+
+
+#SHOPS
+12304 0 10 0 0 0 125 75 0 23
+12305 0 9 8 18 5 125 75 0 23
+12311 0 0 0 0 0 100 100 0 23
+12312 0 19 0 0 0 125 75 0 23
+0
+
+
+
+#MOBPROGS
+#12300
+~
+mob cast 'meteor swarm'
+~
+#12301
+~
+if clan $n 'nightmare'
+else
+mob cecho nightmare {D[{RALERT{D] Raiders have reached the {bN{Dightmare {RS{real {D[{RALERT{D]{x
+endif
+~
+#12302
+~
+if clan $n 'nightmare'
+else
+mob echoat $n {DPainfully slow, an unseen force drains your vital energy away.{x
+mob damage $n 800 1800 lethal
+mob cecho nightmare {D[{RALERT{D] $n is near the {RC{rhurch {bC{Datacombs {D[{RALERT{D]{x
+endif
+~
+#12303
+~
+if clan $n 'nightmare'
+else
+mob echo {DFrom down below the {bN{Dightmare {RC{rhorus {Dbegins to shriek and moan.{x
+mob damage $n 800 1800 lethal
+mob cecho nightmare {DThe {bN{Dightmare {RC{rhorus {Dsounds out the name $n.{x
+endif
+~
+#12304
+~
+mob cecho nightmare {D[{RALERT{D] The {bN{Dightmare {RA{rrchmage {Dhas fallen [{RALERT{D]{x
+~
+#12305
+~
+if pos $i standing
+mob echo {8The {bD{8ominatrix snaps her whip across the back of the {RT{rortured {bS{8oul.{x
+mob echo {8The {RT{rortured {bS{8oul writhes in pain, and whimpers softly.{x
+mob delay 15
+break
+else
+say Pain is my pleasure, so hurt me! Hurt me bad!
+mob delay 15
+break
+endif
+~
+#12306
+~
+if pos $n fighting
+break
+else
+endif
+if clan $n 'nightmare' 
+mob echoat $n The statue of Lord Nisstyre savagely bites down on your neck.
+mob echoaround $n The statue of Lord Nisstyre savagely bites down on the neck of $n.
+mob echoat $n The blood rapidly drains from your body as the statue feeds.
+mob echoaround $n The blood rapidly drains from the body of $n as the statue feeds.
+mob damage $n 20000 30000 lethal
+mob damage $n 20000 30000 lethal
+break
+else
+break
+endif
+~
+#12307
+~
+if clan $n 'MystraClan'
+mob zecho nightmare {GA voice says: {R$n{G of the {BCh{Cur{Bch {Wof {BMy{Csteri{Bes {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'ClanStrife'
+mob zecho nightmare {GA voice says: {R$n{G of the {MCh{murc{8h of S{mtri{Mfe {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'ShadowThievesClan'
+mob zecho nightmare {GA voice says: {R$n{G of the {8Shadow Thieves {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'TalosClan'
+mob zecho nightmare {GA voice says: {R$n{G of the {bC{8h{Yur{8c{bh {Yof {bD{Be{8s{Yt{Wr{yu{Wc{Yt{yi{Bo{bn {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'HaClan'
+mob zecho nightmare {GA voice says: {R$n{G of {wThe {CH{ca{8r{wpe{Wr All{wia{8n{cc{Ce {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'Clancelestia'
+mob zecho nightmare {GA voice says: {R$n{G of the {YC{yh{xur{yc{Yh of {YCe{yl{xes{yt{Yia {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'Zhentarim'
+mob zecho nightmare {GA voice says: {R$n{G of {wThe {yZ{8he{wn{Wt{wa{8ri{ym {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'Nightmare'
+mob gtrans $n 12322
+endif
+if clan $n 'Seraphi'
+mob zecho nightmare {GA voice says: {R$n{G of the {CS{we{Wr{8ap{yh{Yi{yc T{Ye{ym{8p{Wl{wa{Cr {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'Churchtyr'
+mob zecho nightmare {GA voice says: {R$n{G of the {WChur{wch {8of {wJust{Wice {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'Loner'
+mob zecho nightmare {GA voice says: {R$n{G the {RLoner {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'outlaw'
+mob zecho nightmare {GA voice says: {R$n{G the {WO{wu{8t{Wl{wa{8w {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+if clan $n 'Builders'
+mob zecho nightmare {GA voice says: {R$n{G of the {BBui{Cld{Bers {Ghas entered the Flag Room.{x
+mob gtrans $n 12303
+endif
+~
+#12308
+~
+say No one shall pass this point!
+~
+#12309
+~
+mob gecho {8[{RALERT{8] {B$n {wis attempting an attack on the {RC{rhurch {RO{rf {bN{8ightmares{w!{x
+~
+#12343
+~
+if name $n Nisstyre
+follow $n
+else
+growl $n
+~
+#12344
+~
+if rand 75
+mob echoat $n A black ferret runs across the floor.
+else
+if rand 50
+mob echoat $n A black ferret scuttles across in front of you.
+mob echoaround $n A black ferret scuttles past $n and disappears..
+else
+if rand 25
+mob echoat $n A black ferret jumps and crawls up your back.
+mob echoaround $n A black ferret jumps on $n and crawls up their back.
+else
+if rand 10
+mob echoat $n A black ferret runs between your legs.
+mob echoaround $n A black ferret runs between $n's legs.
+break
+else
+endif
+~
+#12345
+~
+stretch
+yawn
+sleep
+~
+#12346
+Sindalis SPEECH 'grant me plaque'~
+if clan $n 'nightmare'
+ say As you wish, I grant you the symbol of our church.
+ mob oload 12335
+ give 'symbol clan nightmare plaque' $n
+ say Wear it with pride, guard it with diligence, protect it with your life.
+ say Cherish it as you would your church, and Lord Nisstyre shall bless you.
+else
+endif
+~
+#12347
+Sindalis SPEECH 'grant me plague'~
+say You wish the plague upon you?
+say Far be it for me to deny the request of my clergy.
+mob echoat $N $I puts her hand upon your forehead.
+mob echoaround $N $I puts her hand upon $N's forehead.
+mob cast 'plague' $n
+mob cast 'plague' $n
+mob cast 'plague' $n
+~
+#0
+
+#$

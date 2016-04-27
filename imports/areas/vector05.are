@@ -1,0 +1,2910 @@
+#AREADATA
+Name Vectorian Airship Fortress 'Geomancer'~
+Builders None~
+VNUMs 6400 6499
+Credits [50 GR 99] The Fortress Of Vector~
+Security 10
+Recall 25037
+Faction ~
+AQpoints 0
+Realm 4
+Zone 0
+End
+
+
+
+#MOBILES
+#6400
+guard~
+a guard of the fortress~
+A guard of the fortress is here ready and alert.
+~
+~
+human~
+ABd DFVac DH -500 0
+120 100 1d1+30000 4d20+9000 20d120+400 cleave
+-45 -45 -45 -45
+ACEFHKU 0 0 0
+stand stand none 4000
+AHMV ABCDEFGHIJK huge unknown
+D {8How could I have failed....{0~
+T ~
+M GRALL 6405 100~
+#6401
+cavalier captain~
+the Captain of the Guards~
+A {#cavalier{x jumps to his feet upon your approach!
+~
+~
+human~
+ABF 0 HO -500 0
+120 100 1d1+30000 0d0+0 20d50+300 wrath
+-50 -50 -50 -50
+EFIKOQ 0 D 0
+stand stand none 6000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GRALL 6430 100~
+#6402
+guard~
+a guard~
+A guard stands here on patrol.
+~
+~
+human~
+AMN V 0 -500 0
+102 80 10d240+1800 10d100+300 10d20+100 slash
+-32 -32 -32 0
+BFIKQ AB CLQ 0
+stand stand none 3000
+AHMV ABCDEFGHIJK medium unknown
+D {&Agghh! Defend the Fortress! Don't let them in!!{0~
+T Hmm~
+M ENTRY 6407 100~
+M GRALL 6406 100~
+#6403
+guard~
+(no short description)~
+(no long description)
+~
+~
+human~
+A 0 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#6404
+murder thief prisoner vector~
+a vectorian prisoner~
+A Vectorian Prisoner looks at you with shifty eyes.
+~
+He is dirty, and loves to steal.
+~
+esper~
+AB EJZc 0 0 0
+0 5 0d0+0 1d1+1 1d1+1 slap
+0 0 0 0
+0 M BCKMOP DZ
+stand stand either 0
+AHMV ABCDEFGHIJKP medium unknown
+D OUCH~
+T ~
+#6405
+vectorian security guard~
+The Gate Security Guard~
+The Security Guard of the main fortress gates stands here.
+~
+You may pass this gate if you are a MagiTek Warrior or
+have a Vectorian Pass. Just say in lower case letters
+'entrance please'.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6408 entrance please~
+M GRALL 6417 100~
+#6406
+Geomancer Vectorian Guard~
+{MT{mhe {MG{meomancer {MG{muard{x~
+A {MG{meomancer {MG{muard{x stands here on patrol.
+~
+~
+human~
+ACGd 0 H 0 0
+109 55 39d39+9201 13d199+8804 5d22+43 crush
+-35 -35 -35 -35
+BEFGHLR 0 0 0
+stand stand none 420
+AHMV ABCDEFGHIJK large unknown
+D ~
+T ~
+#6407
+geomancer work crew member~
+A {MV{mectorian {MC{monstruction {MW{morker{x~
+A {MV{mectorian {MC{monstruction {MW{morker{x stands here, busy.
+~
+~
+human~
+ACGd 0 H 0 0
+109 55 39d39+9201 13d199+8804 5d22+43 crush
+-35 -35 -35 -35
+BEFGHLR 0 0 0
+stand stand none 420
+AHMV ABCDEFGHIJK large unknown
+D ~
+T ~
+#6408
+Geomancer Elite Guard~
+A {MG{meomancer {ME{mlite {MG{muard{x~
+A {MG{meomancer {ME{mlite {MG{muard{x stands here.
+~
+~
+wyvern~
+ABG CDEFG 0 0 0
+110 5 39d39+9201 39d39+9201 5d23+44 none
+-4 -4 -4 -4
+0 0 0 S
+stand stand none 350
+ABGZ ACDEFHJKQVX large unknown
+D ~
+T ~
+F aff T
+F off CFH
+F imm L
+#6440
+gate guard~
+The Security Guard of the Main Gates~
+The Security Guard of the Main Gates stands here.
+~
+You may pass this gate if you are a MagiTek Warrior or
+have a Vectorian Pass. Just say in lower case letters
+'entrance please'.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T Entrance please~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6440 entrance please~
+M GRALL 6417 100~
+#6441
+Gate Guard~
+The Main Gate Guard~
+The Main Gate Guard Stands Here.
+~
+You may pass this gate if you are a MagiTek Warrior or
+have a Vectorian Pass. Just say in lower case letters
+'entrance please'.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO 0 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#6457
+Main Gate Security Guard~
+The Main Gate Security Guard~
+The Main Gate Security Guard stands here.
+~
+You may pass this gate if you are a MagiTek Warrior or
+have a Vectorian Pass. Just say in lower case letters
+'entrance please'.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6457 entrance please~
+M GRALL 6417 100~
+#6458
+Throne Room Guard~
+The Throne Room Guard~
+The Security Guard Of The Throne Room stands here.
+~
+MOB PROGRAM ALERT!
+If you wish to seek audience with Kefka, say the following in lower
+letters....
+"i wish to see kefka"
+ 
+The Mob will either respond yes and transfer you in, or no.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6412 no~
+M SPEECH 6410 i wish to see kefka~
+M GRALL 6409 100~
+M SPEECH 6414 yes sir~
+M SPEECH 6411 yes i will~
+#6459
+personal guard~
+Kefka's Personal Guard stands here.~
+Kefka's Person Guard stands here.
+~
+Mob Prog Alert!
+To Leave This Room say in lower case...
+'i will go now'
+ 
+This mob will follow Kefka too.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO 0 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6415 i will go now~
+M SPEECH 6416 follow me~
+#6462
+Prison Security Guard~
+The Prison Security Guard~
+The Prison Security Guard stands here.
+~
+You may pass this gate if you are a MagiTek Warrior or
+have a Vectorian Pass. Just say in lower case letters
+'entrance please'.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6462 entrance please~
+M GRALL 6417 100~
+#6468
+no name~
+The Prison Guard~
+The Security Guard for the Prison is here.
+~
+You may pass this gate if you are a MagiTek Warrior or
+have a Vectorian Pass. Just say in lower case letters
+'entrance please'.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO AB 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6413 entrance please~
+M GRALL 6417 100~
+#6475
+beast war machine guard~
+THE WAR MACHINE~
+A large beast made from iron stands here, ready to beat the living shit out of YOU.
+~
+A large iron beast stands before you, breathing steam.
+A large creature, made from iron stands ready
+to attack you. It stands two stories tall, and looks
+like a large scorpion. Steams comes out of many
+port holes, and its arms raise to the sky.
+You have meet Vector's Defense against The TriPower.
+Built With Anti-Makou Armor, You See Before You
+The Vectorian War Machine.
+~
+podrikev~
+ABFGOW DFJac CDEHR 0 0
+110 5000 50d1000+1000 50d1000+1000 50d1000+1000 wrath
+-150 -150 -150 -150
+CIM AHILMNQRX DHQ FIJKORX
+stand stand none 342764
+AHMV ABLPQ giant unknown
+D WARNING!! WARNING!! LOOSING STEAM POWER, SHUTTING DOWN, WARNING!!!~
+T Greetings Flesh, Prepare To Get Crushed.~
+#6479
+Magitek Clan Hall Guard~
+The MagiTek Clan Hall Guard~
+The MagiTek Clan Hall Guard stands here.
+~
+If you have a Vectorian Pass or Are a Magitek Member, just say
+in lower case letters 'entrance please' and you will be tranfered
+into the clan hall.
+~
+human~
+AB 0 0 0 0
+0 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+ABCDEFGHIJKNO 0 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+M SPEECH 6479 entrance please~
+M GRALL 6417 100~
+#0
+
+
+
+#OBJECTS
+#6400
+key vector prison gates~
+the Key To The Vector Prison Gates~
+A rather large key lies here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#6401
+map fortress vector~
+{x[{mR{Mo{mV{x] {MT{mhe {MO{mffical {MM{map {MO{mf {MT{mhe {MF{mortress {MO{mf {MV{mector{x~
+A small rolled up map lies here.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+E
+vector fortress map~
+{RD{M--+          {R38         {M+--{RD{x
+                             {M|          |          |{x
+                             {M|          |          |{x
+                             {M+----------+----------+{x
+{YFourth Level{x
+{C38{m:{R Entrance To Kefka's Tower{x
+{m___________________________________________________________________________{x
+          {R30          {R33                               {R35          {R36{x
+      {RD{M---+-----------+---{RU                        {RU{M---+-----------+---{RD{x
+          {R31          {R32                               {R34          {R37{x
+{YThird Level{x
+{C30{m:                              {C34{m:{R Warhammer's Personal Chambers{x
+{C31{m:                              {C35{m:{R Ganon's Personal Chambers{x
+{C32{m:                              {C36{m:{R Kefka's Personal Chambers{x
+{C33{m:                              {C37{m:{R Arvis' Personal Chambers{x
+{m___________________________________________________________________________{x
+                                     {R25    {R26{x
+                               {M+-----+-----+----+{x
+                               {M|     {R27    {R28   {M|{x
+                             {R24{M+    {m+-----+     {M+{R29{x
+                               {M|    {m| {R1 9 {m|     {M|{x
+                  {M |         {R23{M+    {m| {R1 8 {m|     {M|  {R17   {R17{x
+                  {M |       {RU{M---+    {m+--{RD{m--+     {M+--+----+--{RU{x
+                  {M |           {M|                |{x
+                  {M |     {R20  {m+---------{RU{m----------+  {R10{x
+            --{R22{M---+--{R21{M-+---|                    {M|--+----{RD    {R15   {R16{x
+                  {M |         {m|                    |  {R11{M-{R13 \{RU{M--+----+{x
+                  {M |         {m|                    |  {R12{M-{R14     {M|    |{x
+                  {M |         {m|{MThe Lobby  Of Vector|            {M+----+{x
+                  {M |         {m|                    |               {M|{x
+                             {m|                    |               {M|{x
+                             {m|{RD{M                  {RD|               {M+--+{x
+{YSecond Level{x                 {m+--------------------+                  {M|{x
+{C10{m:{R                         {C17{m:{R Jail Cell            {C24{m:{R Tech Research Lab{x
+{C11{m:{R                         {C18{m:{R Throne Room          {C25{m:{R Magitek Hangar{x
+{C12{m:{R                         {C19{m:{R Private Meeting Hall {C26{m:{R Airship Hangar{x
+{C13{m:{R                         {C20{m:{R Guard Barracks       {C27{m:{R Magitek Research{x
+{C14{m:{R                         {C21{m:{R National Prison      {C28{m:{R Transport Research{x
+{C15{m:{R Soldier Hangar          {C22{m:{R Western Gates        {C29{m:{R Lounge{x
+{C16{m:{R Magitek Armor Hangar    {C23{m:{R Magic Research Lab{x
+{m____________________________________________________________________________{x
+                     {m+-----------------------------------+{x
+                     {m|      {R5{M      {R6{M   {R7{M   {R8{M      {R9{M      {m|{x
+                     {m| {RU{M----+------+---{RH{M---+------+----U |{x
+                     {m|      {R1{M      {R2{M   {M|   {R3{M      {R4{M      Pm|{x
+{YFirst Level{x          {m+-----------------{M|{m-----------------+{x
+{C1{m:{R Adv. Research    {C5{m:{R Adv. Weapons  9{m:{R Adv. Towns{x
+{C2{m:{R Adv. War         {C6{m:{R Adv. Ports{x
+{C3{m:{R Adv. Cities      {C7{m:{R Meeting Hall{x
+{C4{m:{R Army Recruiters  {C8{m:{R Adv. Magitek{x
+~
+#6402
+cell key~
+a cell key~
+A cell key lies here.~
+unknown~
+armor 0 AO
+0 0 0 0 0
+0 0 0 P
+#6403
+paper peice~
+a piece of paper~
+A small peice of paper lies here crumpled up.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+E
+paper~
+I write this now, as i was torn away from my family, who i think are dead.
+As Vectorian Guards dragged me away from my home, i saw my wife, stabbed.
+As they dragged me outside, the sky was dark, no moon. I saw, in my village,
+others being dragged out. All of them seem to be of my kinder, espers.
+I protested, which i meet with a blow to the head. I woke up to a dark cell.
+Guards walk by everyday, dragging there swords against the wall, and laughing.
+They like the drink and play games, but i find no fun in this.
+I write this note hoping it will reach the outside of Vector and to some other
+lands. I hope this reaches the Realms Of Balance, where the great government
+The TriPower is, they beat Vector before, and I hope they will again.
+Oh no, someone is unlocking my door.......
+{*.
+~
+#6404
+no name~
+a peice of metal~
+A large jagged peice of burnt metal lies here....~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#6405
+vector fortress prison gate key~
+{MT{mhe {MV{mectorian {MP{mrison {MG{mate {MK{mey{x~
+A key lies here.~
+unknown~
+key 0 AC
+0 0 0 0 0
+0 0 0 P
+#6406
+Geomancer Control Panel Station~
+the Control Panel~
+The Massive Control Helm of the [Geomancer].~
+unknown~
+furniture 0 0
+100 1000 DGJ 100 100
+0 0 0 P
+#6407
+captain chair~
+{*The {BCaptain's {*Throne{x~
+{*The {BCaptain's {*Throne chair stands here.{x~
+unknown~
+furniture 0 0
+1 100 EHK 100 100
+0 0 0 P
+#6408
+warhammer teeth necklace~
+{7A necklace of pure white teeth{x~
+A necklace lies here.~
+unknown~
+armor 0 AC
+500 500 500 500 0
+102 0 0 P
+#6409
+warhammer plated armor~
+{&S{*piked {&I{*ron {&P{*lated {&A{*rmor{x~
+Some iron plated armor lies here.~
+unknown~
+armor 0 AD
+500 500 500 500 0
+102 0 0 P
+#6410
+warhammer gauntlet~
+{&S{*piked {&I{*ron {&W{*rist {&G{*auntlet{x~
+An iron plated guantlet lies here.~
+unknown~
+armor 0 AM
+500 500 500 500 0
+102 0 0 P
+#6411
+warhammer gloves~
+{&S{*piked {&I{*ron {&G{*loves{x~
+A pair of iron gloves lies here.~
+unknown~
+armor 0 AH
+500 500 500 500 0
+102 0 0 P
+#6412
+warhammer plated skirt~
+{&S{*piked {&I{*ron {&P{*lated {&S{*kirt{x~
+An iron metal skirt lies here.~
+unknown~
+armor 0 AF
+500 500 500 500 0
+102 0 0 P
+#6413
+warhammer boots~
+{&S{*piked {&I{*ron {&M{*arching Boots{x~
+A pair of iron marching boots lies here.~
+unknown~
+armor 0 AG
+500 500 500 500 0
+102 0 0 P
+#6414
+warhammer hammer woe~
+{&T{*he {RH{rammer {MO{mf {BW{boe{x~
+A large hammer lies here.~
+unknown~
+weapon 0 AN
+sword 13 22 slash ABDG
+102 0 0 P
+reserved~
+reserved~
+reserved~
+reserved~
+reserved~
+#6415
+warhammer shield~
+{&A S{*hield {&of a {RR{re{Rd {RDr{rag{Ron{x~
+A shield of a dragon lies here.~
+unknown~
+armor 0 AJ
+500 500 500 500 0
+0 0 0 P
+#6456
+key second gate vector~
+the Key To The Second Gates Of Vector~
+A small key lies on the ground here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#6457
+kefka statue~
+a statue of {RK{7e{Yf{Rk{7a{x~
+{MA {ML{marge {C20{cft {MS{mtatue {MO{mf {RK{7e{Yf{Rk{7a{m, {ME{mmperor {mstands here.{x~
+unknown~
+bong 0 0
+0 0 0 0 0
+0 0 0 P
+#6458
+key throne room vector~
+the Key To The Throne Room Of Vector~
+A small key lies here~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#6459
+The Throne Of Vector~
+the throne~
+A large steel throne stands in the middle of the room...~
+unknown~
+furniture 0 0
+1 100 FIL 400 400
+0 0 0 P
+#6460
+dining table~
+the dining table~
+A large dining table that seats 14, stands in the middle of the room.~
+unknown~
+furniture 0 0
+14 10000 BDGK 400 400
+0 0 0 P
+#6468
+key vector prison 2nd gate~
+the Key To The 2nd Prison Gates Of Vector~
+A small key lies here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#6476
+key vault vector~
+the Key To The Vectorian Vault~
+A small key lies here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#6477
+magicite rock stone magic~
+the War Machine's Magicite~
+A large rock stands here glowing...~
+unknown~
+armor 0 AM
+-230 -230 -230 -230 0
+0 3 4200 P
+#6480
+key ganon chambers vector~
+the Key To Ganon's Personal Chambers~
+A small key lies here.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 0 0 P
+#6487
+ganon bed~
+ganon's bed~
+A large bed with red sheets on it.~
+unknown~
+furniture 0 0
+1 100 EIL 400 400
+0 0 0 P
+#6488
+vector pass fortvectorpass~
+a pass to Fort Vector~
+A small slip of paper lies here.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 10000 P
+#6489
+toilet~
+a toilet~
+A large white toilet stands here in the corner.~
+unknown~
+furniture 0 0
+1 100 CEHK 400 400
+0 0 0 P
+#6490
+cell bed~
+a bed~
+A small cot hangs down from the wall.~
+unknown~
+furniture 0 0
+3 100000 BEIL 400 400
+0 0 0 P
+#6499
+control chair~
+the control chair~
+The Control Panel Of {M[{m-{M> {MT{mHE {ML{mIGHT {MO{mF {MJ{mUDGEMENT {M<{m-{M]{x~
+unknown~
+furniture 0 A
+1 1000 EHK 100 100
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#6400
+{MT{mhe {ME{mast {MS{mtairwell {B[3rd Level]{x~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+8 0 6401
+D4
+~
+~
+0 0 6496
+S
+#6401
+{ME{mntrance {MT{mo {MG{meomancer {MC{margo {MH{mold{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6403
+D1
+~
+~
+8 0 6400
+D3
+~
+~
+8 0 6402
+S
+#6402
+{MT{mhe {MW{mest {MS{mtairwell {B[3rd Level]{x~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6401
+D4
+~
+~
+0 0 6413
+S
+#6403
+{MG{meomancer {MC{margo {MH{mold {B[S]{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6406
+D1
+~
+~
+0 0 6405
+D2
+~
+~
+0 0 6401
+D3
+~
+~
+0 0 6404
+S
+#6404
+{MG{meomancer {MC{margo {MH{mold{x~
+~
+~
+0 4 0 0
+0
+D0
+~
+~
+0 0 6407
+D1
+~
+~
+0 0 6403
+S
+#6405
+{MG{meomancer {MC{margo {MH{mold{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6408
+D3
+~
+~
+0 0 6403
+S
+#6406
+{MG{meomancer {MC{margo {MH{mold{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6409
+D1
+~
+~
+0 0 6408
+D2
+~
+~
+0 0 6403
+D3
+~
+~
+0 0 6407
+S
+#6407
+{MG{meomancer {MC{margo {MH{mold {B[W]{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6410
+D1
+~
+~
+0 0 6406
+D2
+~
+~
+0 0 6404
+S
+#6408
+{MG{meomancer {MC{margo {MH{mold {B[E]{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6411
+D2
+~
+~
+0 0 6405
+D3
+~
+~
+0 0 6406
+S
+#6409
+{MG{meomancer {MC{margo {MH{mold {B[N]{x~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 6411
+D2
+~
+~
+0 0 6406
+D3
+~
+~
+0 0 6410
+S
+#6410
+{MG{meomancer {MC{margo {MH{mold{x~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 6409
+D2
+~
+~
+0 0 6407
+S
+#6411
+{MG{meomancer {MC{margo {MH{mold{x~
+~
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 6408
+D3
+~
+~
+0 0 6409
+S
+#6412
+UNUSED~
+~
+~
+0 4 0 3
+0
+S
+#6413
+{MT{mhe {MW{mest {MS{mtairwell {B[2nd Level]{x~
+~
+The stairwell comes down to the second level of the Geomancer. 
+Here once use to be the basement of the old Vectorian Fortress, now
+converted into an on-board prison for the airship.  A hallway leads to
+the east to the main office.  
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6425
+D4
+~
+~
+0 0 6463
+D5
+~
+~
+0 0 6402
+S
+#6414
+The Prison Of Vector~
+~
+You stand inside The Prison Of Vector.  The stench of death hangs in the
+air, and the sounds of moans and screams echo down through the hallways. 
+The Prison is dirty, wet and smells horrid.  To the north you see a long
+hallway, with 6 cells to either side.  The words "Cell Block 1" hangs down
+from the ceiling.  To the south, you see another long hallway, with 6 cells
+to either side.  The words "Cell Block 2" hangs from the ceiling in that
+direction.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6415
+D1
+~
+~
+0 0 6430
+D2
+~
+~
+0 0 6421
+D4
+~
+~
+0 0 6456
+S
+#6415
+Cell Block 1~
+~
+Desc To either side of you are barred doors.  Inside you see very nasty,
+and poorly feed people.  The corridor goes north and south.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6416
+D1
+~
+~
+776 6402 6432
+D2
+~
+~
+0 0 6414
+D3
+~
+~
+776 6402 6431
+S
+#6416
+Cell Block 1~
+~
+To either side of you are barred doors.  Inside you see very nasty, and
+poorly feed people.  The corridor goes north and south.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6417
+D1
+~
+~
+776 6402 6434
+D2
+~
+~
+0 0 6415
+D3
+~
+~
+776 6402 6433
+S
+#6417
+Cell Block 1~
+~
+To either side of you are barred doors.  Inside you see very nasty, and
+poorly feed people.  The corridor goes north and south.  
+~
+0 8 0 0
+0
+D1
+~
+~
+776 6402 6435
+D2
+~
+~
+0 0 6416
+D3
+~
+~
+776 6402 6418
+S
+#6418
+Execution Audience Chamber~
+~
+You stand inside the audience chamber, for executions.  You see a glass
+window looking into the room, which is filled with all kinds of nasty
+things.  A door lies to the north and east.  
+~
+0 8 0 0
+0
+D0
+~
+~
+776 6402 6419
+D1
+~
+~
+776 6402 6417
+S
+#6419
+Exe. Guard Post~
+~
+The Guard Post.  For those who wish to rescue there friends.  A small
+figure sits in one corner.  
+~
+0 8 0 0
+0
+D1
+~
+~
+776 6402 6420
+D2
+~
+~
+776 0 6418
+S
+#6420
+The Execution Chamber~
+~
+The room is filled with whips and chains, axes and maces.  In the center
+of the room, a large rope hangs from the ceiling.  You see other things too.
+Tables and straps, red hot pokes.  A truly cruel place.  
+~
+0 8 0 0
+0
+D3
+~
+~
+776 0 6419
+S
+#6421
+Cell Block 2~
+~
+To either side of you are barred doors.  Inside you see very nasty, and
+poorly feed people.  The corridor goes north and south.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6414
+D1
+~
+~
+776 6402 6428
+D2
+~
+~
+0 0 6422
+D3
+~
+~
+776 6402 6429
+S
+#6422
+Cell Block 2~
+~
+To either side of you are barred doors.  Inside you see very nasty, and
+poorly feed people.  The corridor goes north and south.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6421
+D1
+~
+~
+776 6402 6426
+D2
+~
+~
+776 0 6423
+D3
+~
+~
+776 6402 6427
+S
+#6423
+{MT{mhe {MV{mectorian {MP{mrison{B [Main Office]{x~
+~
+A small office stands here, with barred windows looking north over
+the hallway leading down past all the cells.  A single desk sits in
+the middle of the room covered with papers.  A few chairs sit around
+for guests and other people from the airship.  Two hallways leads out
+to the east and west.  
+~
+0 8 0 0
+0
+D0
+~
+~
+776 0 6422
+D1
+~
+~
+0 6402 6424
+D3
+~
+~
+0 6402 6425
+S
+#6424
+{MT{mo {MT{mhe {MV{mectorian {MP{mrison{x~
+~
+The hallway leads from the Geomancer's Stairwell to the Vectorian
+Prison Office to the west.  
+~
+0 8 0 0
+0
+D1
+~
+~
+8 0 6496
+D3
+~
+~
+0 6402 6423
+S
+#6425
+{MT{mo {MT{mhe {MV{mectorian {MP{mrison{x~
+~
+The hallway leads from the Geomancer's Stairwell to the Vectorian
+Prison Office to the east. 
+~
+0 8 0 0
+0
+D1
+~
+~
+0 6402 6423
+D3
+~
+~
+8 0 6413
+S
+#6426
+Cell 9~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D3
+~
+~
+776 6402 6422
+S
+#6427
+Cell 8~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D1
+~
+~
+776 6402 6422
+S
+#6428
+Cell 7~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D3
+~
+~
+776 6402 6421
+S
+#6429
+Cell 6~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D1
+~
+~
+776 6402 6421
+S
+#6430
+The Prison Office~
+~
+~
+0 8 0 0
+0
+D3
+~
+~
+0 0 6414
+S
+#6431
+Cell 4~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D1
+~
+~
+776 6402 6415
+S
+#6432
+Cell 5~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D3
+~
+~
+776 6402 6415
+S
+#6433
+Cell 2~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D1
+~
+~
+776 6402 6416
+S
+#6434
+Cell 3~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you. 
+~
+0 8 0 0
+0
+D3
+~
+~
+776 6402 6416
+S
+#6435
+Cell 1~
+~
+A cell in the Vector Prison.  It is very cold and wet inside this cell. 
+There is very little light inside here, but you can make out a small cot in
+one corner, and two pales in another.  The sound of dripping water echos
+around you.  
+~
+0 8 0 0
+0
+D3
+~
+~
+776 6402 6417
+S
+#6436
+{MT{mo {MT{mhe {ML{mobby{x~
+~
+A small hallway leads between the Entrance Hall and the Lobby of
+Vector.  The Lobby of Vector is the central part of the ship.  To the
+north is Kefka's Throne Room.  On the outside walls of the lobby are
+offices and other rooms of the Vectorian Government.  Three hallways
+make up the back of the ship, also filled with offices.  Inbetween all
+these rooms are the Airship Engines and other mechanical stuff.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6453
+D2
+~
+~
+0 0 6437
+S
+#6437
+{MT{mhe {ME{mntrance {MO{mf {MT{mhe {MG{meomancer{x~
+~
+A large room opens up inside the airship.  Hallways on either side
+of you go northwards to a location in the ship.  A stairwell goes up
+from here to the main control room of the airship.  A short hallway
+leads north to the main part of the Geomancer.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6436
+D1
+~
+~
+0 0 6439
+D2
+~
+~
+0 0 19487
+D3
+~
+~
+0 0 6454
+D4
+~
+~
+8 0 6438
+S
+#6438
+{MT{mhe {MC{montrol {MH{melm {MO{mf {MT{mhe {MG{meomancer{x~
+~
+Before you stands a massive room.  A huge control panel expands the
+entire length of the room infront of huge windows looking out into the
+world.  Large round stations are setup all over the room, with a large
+throne like chair in the center.  The walls are covered with
+mechanical panels and large pipes.  Some parts are covered in maps of
+the realms.  A large steering helm stands in front of the throne like
+chair.  
+~
+0 8 0 0
+0
+D5
+~
+~
+8 0 6437
+S
+#6439
+{MT{mo {ME{mast {MS{mtairwell{x~
+~
+A small hallway goes northwards towards a stairwell going down.  To
+the west is the Entrance Hall.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6455
+D1
+~
+~
+8 0 6493
+D3
+~
+~
+0 0 6437
+S
+#6440
+UNUSED~
+~
+~
+0 4 0 1
+0
+S
+#6441
+UNUSED~
+~
+~
+0 4 0 1
+0
+S
+#6442
+UNUSED~
+~
+~
+0 4 0 1
+0
+S
+#6443
+UNUSED~
+~
+~
+0 4 0 1
+0
+S
+#6444
+UNUSED~
+~
+~
+0 4 0 1
+0
+S
+#6445
+{MT{mhe {MF{mortress {MO{mf {MV{mector{x~
+~
+Before you stands two large iron doors of Vector, within the inner workings of
+this vast empire. The doors stand 20 feet tall, going into the brown iron building.
+Two guards stand by the sides of the door, standing still and watching you. You turn
+around to see the village of Vector, only a staircase down, but still very far away.
+To the southeast you see the Magitek Factory, and the back lots.
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6446
+S
+#6446
+{MT{mhe {MH{mall {MO{mf {MV{mector{x~
+~
+You stand within the Hall Of Vector.  Above you a large glass dome
+encircles the whole hall.  All around you is white tiled floors, and
+marble walls.  In the center of the hall, a large plant stands, with
+soft benches surrounding it.  You notice other benches are dotting the
+floor of the hall.  To the north, you see a small reception desk. 
+Behind the desk, two huge doors stand, leading into the Great Meeting
+Hall.  To the East and West are hallways.  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 6448
+D2
+~
+~
+0 0 6445
+D3
+~
+~
+0 0 6447
+S
+#6447
+{MF{mirst {ML{mevel {MW{mest {MH{mallway{x~
+~
+You are walking in the lower west wing of Vector.  On either side
+of you is a small door leading into an office type area.  The hallway
+continues to the west for a little, and at the end is stairs leading
+to the second floor of the fortress.  To the north, the door reads
+"Front Advisor Office Of Ports".  To the south, the door reads "Front
+Advisor Office Of War".  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 6446
+D3
+~
+~
+0 0 6450
+S
+#6448
+{MF{mirst {ML{mevel {ME{mast {MH{mallway{x~
+~
+You are walking in the Eastern Hallway of Vector's lower east wing.
+The hallway continues to the east and ends in a stair case.  On either
+side of the hallway is a door.  To the north you see the door is for
+the "Front Advisor Office Of Magitek".  The door to the south reads
+"Front Advisor Office of Cities".  Back west is the Main Hall.  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 6449
+D3
+~
+~
+0 0 6446
+S
+#6449
+{MF{mirst {ML{mevel {ME{mast {MH{mallway{x~
+~
+You are at the end of the Eastern Wing East Hallway.  A large
+staircase goes up leading to the second floor of the fortress.  Back
+west is the hallway, and the Main Hall.  To the north, the door reads
+"Front Advisor Office Of Towns".  To the south the door reads "Army
+Recruiters Office".  
+~
+0 8 0 0
+0
+D3
+~
+~
+0 0 6448
+S
+#6450
+{MF{mirst {ML{mevel {MW{mest {MH{mallway{x~
+~
+The hallway here is at an end.  A large staircase leads up to the
+second floor of the Fortress of Vector.  To the east the hallway
+continues into the main hall, and over to the eastern wing.  To the
+north the door reads "Front Advisor Office Of Weapons" and to the
+south you see the door to the "Front Advisor Office Of Research".  The
+stairs lead up to the second floor.  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 6447
+S
+#6451
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+This is the eastern side of the lobby running along the eastern
+wall.  There is a door going into another part of the ship just above
+every 20 feet.  To the north, west and south is the lobby.  To the
+east is a door.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6480
+D1
+~
+~
+8 0 6491
+D3
+~
+~
+0 0 6453
+S
+#6452
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+This is the western side of the lobby running along the western
+wall.  There is a door going into another part of the ship just above
+every 20 feet.  To the north, east and south is the lobby.  To the
+west is a door.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6479
+D1
+~
+~
+0 0 6453
+D3
+~
+~
+8 0 6476
+S
+#6453
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+You stand near the center of the Lobby.  All around you the lobby
+stands looking the same.  The walls are totally covered in doors
+leading to smaller places around the lobby.  Directly north is a
+Statue of Kefka and the Throne Room.  The Master Control Helm is
+south.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6456
+D1
+~
+~
+0 0 6451
+D2
+~
+~
+0 0 6436
+D3
+~
+~
+0 0 6452
+S
+#6454
+{MT{mo {MW{mest {MS{mtairwell{x~
+~
+A small hallway goes northwards towards a stairwell going down.  To
+the east is the Entrance Hall.
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6463
+D1
+~
+~
+0 0 6437
+D3
+~
+~
+8 0 6474
+S
+#6455
+{MT{mhe {ME{mast {MS{mtairwell {B[1st Level]{x~
+~
+A stairwell here leads down to the next level in the airship.  Back
+south is a hallway leading to the Entrance Hall.  
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6492
+D2
+~
+~
+0 0 6439
+D5
+~
+~
+0 0 6496
+S
+#6456
+{MT{mhe {ML{mobby {MO{mf {MV{mector {B[{RC{renter{B]{x~
+~
+You stand in the center of the vast lobby.  Before you stands a 20
+foot replica of Kefka, emperor, ruler and mightest leader of Vector. 
+He stands in a pose, holding the world in his hands, and a grin on his
+face.  At his feet, stands a model of the Fortress, which more works
+out to be a map.  In all directions stands the Lobby Of Vector.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 6456 6457
+D1
+~
+~
+0 0 6480
+D2
+~
+~
+0 0 6453
+D3
+~
+~
+0 0 6479
+D5
+~
+~
+0 0 6414
+S
+#6457
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+Directly north is the Throne Room Doors.  Two guards stand in front
+of the doors, guarding their lord and master.  To the northeast and
+northwest two hallways extend around the throne room, with the doors
+in the walls, 20 feet from each other.  Directly south is the statue
+of Kefka.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6458
+D1
+~
+~
+0 0 6478
+D2
+~
+~
+0 6456 6456
+D3
+~
+~
+0 0 6461
+S
+#6458
+{MB{mefore {MT{mhe {MT{mhrone {MO{mf {MV{mector{x~
+~
+The guards seem to be shocked by your presense.  One asks why you are
+here.  To the north, a pair of large doors leads into the Throne Room. 
+Looking back, the main hall comes into view, its marble floors, and its iron
+roof.  
+~
+0 8 0 0
+0
+D0
+~
+~
+8 6458 6459
+D2
+~
+~
+0 0 6457
+S
+#6459
+{MT{mhe {MV{mectorian {MT{mhrone {MR{moom {MO{mf {MK{mefka{x~
+~
+The Throne Room Of Vector.  A large throne made from iron stand in the
+center of the room.  Two large guards stand to either side of the throne. 
+The room is made from iron.  On the wall, large curtains showing off the
+Vectorian Symbol hang.  Touches surround the room, burning away.  Behind the
+throne, you see a door leading into a special area.  The way out, is south. 
+~
+0 8 0 0
+0
+D0
+~
+~
+776 6458 6460
+D2
+~
+~
+8 6458 6458
+D4
+~
+~
+33544 0 6477
+S
+#6460
+{MK{mefka's {MM{meeting/{MD{mining {MH{mall{x~
+~
+This room is used to let Ganon meet people, world leaders ect.  A large
+table with 14 chairs around it, stands in the center of the room.  On the
+floor, a large red carpet covers most of the floor.  Along all of the walls
+you see diffrent artifacts.  A statue, a suit of armor, some paintings...  A
+large window over looks the northern courtyard.  
+~
+0 8 0 0
+0
+D2
+~
+~
+776 6458 6459
+S
+#6461
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+You stand on the western side of the Vectorian Lobby.  The lobby
+stands to the south, extending in almost all directions.  Doors line
+the wall, about 20 feet away from each other.  In the center of the
+lobby is a large statue of Kefka.  Direction northeast are the doors
+to the Throne Room.  To the southeast is the statue of Kefka.  To the
+west is a door, and the rest of the directions is lobby.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6473
+D1
+~
+~
+0 0 6457
+D2
+~
+~
+0 0 6479
+D3
+~
+~
+8 0 6482
+S
+#6462
+{ME{mastern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6465
+D1
+~
+~
+8 0 6498
+D2
+~
+~
+0 0 6478
+S
+#6463
+{MT{mhe {MW{mest {MS{mtairwell {B[1st Level]{x~
+~
+A stairwell here leads down to the next level in the airship.  Back
+south is a hallway leading to the Entrance Hall.  
+~
+0 0 0 0
+0
+D2
+~
+~
+0 0 6454
+D3
+~
+~
+8 0 6475
+D5
+~
+~
+0 0 6413
+S
+#6464
+Under Construction~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6495
+D3
+~
+~
+8 0 6467
+S
+#6465
+{ME{mastern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6466
+D1
+~
+~
+8 0 6497
+D2
+~
+~
+0 0 6462
+S
+#6466
+{ME{mastern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6467
+D1
+~
+~
+8 0 6468
+D2
+~
+~
+0 0 6465
+S
+#6467
+{MN{morth{ME{mast {MC{morner of the {MG{meomancer{x~
+~
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6488
+D1
+~
+~
+8 0 6464
+D2
+~
+~
+0 0 6466
+D3
+~
+~
+0 0 6469
+S
+#6468
+{ML{mift {ME{mngine {MR{moom {ME{might{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D3
+~
+~
+8 0 6466
+D5
+~
+~
+520 19500 19505
+S
+#6469
+{MN{morthern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6487
+D1
+~
+~
+0 0 6467
+D3
+~
+~
+0 0 6470
+S
+#6470
+{MN{morth{MW{mest {MC{morner of the {MG{meomancer{x~
+~
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6489
+D1
+~
+~
+0 0 6469
+D2
+~
+~
+0 0 6471
+D3
+~
+~
+8 0 6486
+S
+#6471
+{MW{mestern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6470
+D2
+~
+~
+0 0 6472
+D3
+~
+~
+8 0 6485
+S
+#6472
+{MW{mestern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6471
+D2
+~
+~
+0 0 6473
+D3
+~
+~
+8 0 6484
+S
+#6473
+{MW{mestern {MH{mallway of the {MG{meomancer{x~
+~
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6472
+D2
+~
+~
+0 0 6461
+D3
+~
+~
+8 0 6483
+S
+#6474
+Geomancer Electrical Closet~
+~
+A small room opens up to alot of wires and panels.  Inside this
+room is the technology control and electrical curcuits of the
+Geomancer.  There is nothing else in the room.  
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6454
+S
+#6475
+{ML{mift {ME{mngine {MR{moom {MO{mne{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D1
+~
+~
+8 0 6463
+D5
+~
+~
+520 19500 19514
+S
+#6476
+Under Construction~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6452
+S
+#6477
+{M[{m-{M> {MT{mHE {ML{mIGHT {MO{mF {MJ{mUDGEMENT {M<{m-{M]{x~
+~
+A large control panel sits here, controling the city destroying
+machine known as The Light Of Judgement 
+~
+0 403185677 0 0
+0
+D5
+~
+~
+33544 0 6459
+S
+#6478
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+You stand on the eastern side of the Vectorian Lobby.  The lobby
+stands to the south, extending in almost all directions.  Doors line
+the wall, about 20 feet away from each other.  In the center of the
+lobby is a large statue of Kefka.  Direction northwest are the doors
+to the Throne Room.  To the southwest is the statue of Kefka.  To the
+east is a door, and the rest of the directions is lobby.  
+~
+0 0 0 0
+0
+D0
+~
+~
+0 0 6462
+D1
+~
+~
+8 0 6499
+D2
+~
+~
+0 0 6480
+D3
+~
+~
+0 0 6457
+S
+#6479
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+You stand on the western side of the lobby directly east of the
+center of the lobby itself.  To the west is a 20 foot statue of Kefka,
+and to the northeast is the Throne Room Door.  Far south is the
+Control Helm of the ship, and north, east and south is the main lobby.
+A door stands to the east leading into the ship.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6461
+D1
+~
+~
+0 0 6456
+D2
+~
+~
+0 0 6452
+D3
+~
+~
+8 0 6481
+S
+#6480
+{MT{mhe {ML{mobby {MO{mf {MV{mector{x ~
+~
+You stand on the eastern side of the lobby directly east of the
+center of the lobby itself.  To the west is a 20 foot statue of Kefka,
+and to the northwest is the Throne Room Door.  Far south is the
+Control Helm of the ship, and north, west and south is the main lobby.
+A door stands to the east leading into the ship.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 6478
+D1
+~
+~
+8 0 6490
+D2
+~
+~
+0 0 6451
+D3
+~
+~
+0 0 6456
+S
+#6481
+{ML{mift {ME{mngine {MR{moom {MT{mhree{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 8 0 8
+0
+D1
+~
+~
+8 0 6479
+D5
+~
+~
+520 19500 19513
+S
+#6482
+Under Construction~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6461
+S
+#6483
+{ML{mift {ME{mngine {MR{moom {MF{mive{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D1
+~
+~
+8 0 6473
+D5
+~
+~
+520 19500 19512
+S
+#6484
+Under Construction~
+~
+~
+0 0 0 0
+0
+D1
+~
+~
+8 0 6472
+S
+#6485
+{ML{mift {ME{mngine {MR{moom {MS{meven{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D1
+~
+~
+8 0 6471
+D5
+~
+~
+520 19500 19511
+S
+#6486
+Under Construction~
+~
+~
+0 4 0 0
+0
+D0
+~
+~
+0 0 6494
+D1
+~
+~
+8 0 6470
+S
+#6487
+Under Construction~
+~
+~
+0 8 0 0
+0
+D2
+~
+~
+0 0 6469
+S
+#6488
+Cell 2~
+~
+You stand in a cold cell.  The cell is made from solid metal.  The only
+thing in the cell is a toilet and a small cot.  No windows, and the only
+light coming from a touch.  To the south is the door out.  
+~
+0 67117064 134217728 0
+0
+D2
+~
+~
+0 0 6467
+S
+#6489
+Cell 1~
+~
+You stand in a cold cell.  The cell is made from solid metal.  The only
+thing in the cell is a toilet and a small cot.  No windows, and the only
+light coming from a touch.  To the south is the door out.  
+~
+0 8 134217728 0
+0
+D2
+~
+~
+0 0 6470
+S
+#6490
+{ML{mift {ME{mngine {MR{moom {MF{mour{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D3
+~
+~
+8 0 6480
+D5
+~
+~
+520 19500 19503
+S
+#6491
+UNUSED~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+8 0 6451
+S
+#6492
+{ML{mift {ME{mngine {MR{moom {MT{mwo{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D3
+~
+~
+8 0 6455
+D5
+~
+~
+520 19500 19502
+S
+#6493
+Maintenance Closet~
+~
+This room is filled with shelves.  On the sheleves are varies boxes
+and tools for maintenance on the airship.  There is nothing else in
+the room.  
+~
+0 0 0 0
+0
+D3
+~
+~
+8 0 6439
+S
+#6494
+{MD{mrive {ME{mngine {MR{moom {MO{mne{x~
+~
+~
+0 0 0 8
+0
+D2
+~
+~
+0 0 6486
+S
+#6495
+{MD{mrive {ME{mngine {MR{moom {MT{mwo{x~
+~
+~
+0 0 0 8
+0
+D2
+~
+~
+0 0 6464
+S
+#6496
+{MT{mhe {ME{mast {MS{mtairwell {B[2nd Level]{x~
+~
+The stairwell comes down to the second level of the Geomancer. 
+Here once use to be the basement of the old Vectorian Fortress, now
+converted into an on-board prison for the airship.  A hallway leads to
+the west to the main office.  
+~
+0 4 0 0
+0
+D3
+~
+~
+8 0 6424
+D4
+~
+~
+0 0 6455
+D5
+~
+~
+0 0 6400
+S
+#6497
+Under Construction~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+8 0 6465
+S
+#6498
+{ML{mift {ME{mngine {MR{moom {MS{mix{x~
+~
+You enter through a large hatchway in the floor here.  In this room
+is a metal catwalk leading into the Geomancer.  Directly south of the
+catwalk is a massive engine, use to lift and hover the airship.  
+~
+0 0 0 8
+0
+D3
+~
+~
+8 0 6462
+D5
+~
+~
+520 19500 19504
+S
+#6499
+Under Construction~
+~
+~
+0 0 0 0
+0
+D3
+~
+~
+8 0 6478
+S
+#0
+
+
+
+#SPECIALS
+M 6400 spec_attack_fled
+S
+
+
+
+#RESETS
+D 0 6400 3 1
+D 0 6401 1 1
+D 0 6401 3 1
+D 0 6402 1 1
+D 0 6413 1 1
+D 0 6415 1 2
+D 0 6415 3 2
+D 0 6416 1 2
+D 0 6416 3 2
+D 0 6417 1 2
+D 0 6421 1 2
+D 0 6421 3 2
+D 0 6422 1 2
+D 0 6422 2 2
+D 0 6422 3 2
+D 0 6423 0 2
+D 0 6424 1 1
+D 0 6425 3 1
+D 0 6426 3 2
+D 0 6427 1 2
+D 0 6428 3 2
+D 0 6429 1 2
+D 0 6431 1 2
+D 0 6432 3 2
+D 0 6433 1 2
+D 0 6434 3 2
+D 0 6435 3 2
+D 0 6437 4 1
+D 0 6438 5 1
+D 0 6439 1 2
+D 0 6451 1 1
+D 0 6452 3 1
+D 0 6454 3 2
+D 0 6455 1 1
+D 0 6458 0 1
+D 0 6459 2 1
+D 0 6459 4 2
+D 0 6461 3 1
+D 0 6462 1 1
+D 0 6463 3 1
+D 0 6464 3 1
+D 0 6465 1 1
+D 0 6466 1 1
+D 0 6467 1 1
+D 0 6468 3 1
+D 0 6468 5 2
+D 0 6470 3 1
+D 0 6471 3 1
+D 0 6472 3 1
+D 0 6473 3 1
+D 0 6474 1 2
+D 0 6475 1 1
+D 0 6475 5 2
+D 0 6476 1 1
+D 0 6477 5 2
+D 0 6478 1 1
+D 0 6479 3 1
+D 0 6480 1 1
+D 0 6481 1 1
+D 0 6481 5 2
+D 0 6482 1 1
+D 0 6483 1 1
+D 0 6483 5 2
+D 0 6484 1 1
+D 0 6485 1 1
+D 0 6485 5 2
+D 0 6486 1 1
+D 0 6490 3 1
+D 0 6490 5 2
+D 0 6491 3 1
+D 0 6492 3 1
+D 0 6492 5 2
+D 0 6493 3 2
+D 0 6496 3 1
+D 0 6497 3 1
+D 0 6498 3 1
+D 0 6498 5 2
+D 0 6499 3 1
+M 0 6402 6 6417 3
+M 0 6404 11 6426 1
+M 0 6404 11 6427 1
+M 0 6404 11 6428 1
+M 0 6404 11 6429 1
+M 0 6462 1 6430 1
+M 0 6401 1 6430 1
+E 0 6402 0 17
+M 0 6404 11 6431 1
+M 0 6404 11 6432 1
+M 0 6404 11 6433 1
+M 0 6404 11 6434 1
+M 0 6404 11 6435 1
+O 0 6407 0 6438
+O 0 6406 0 6438
+M 0 6406 20 6439 1
+M 0 6406 20 6451 1
+M 0 6406 20 6452 1
+O 0 6457 0 6456
+M 0 6408 20 6458 2
+M 0 6408 20 6458 2
+M 0 6408 20 6459 2
+M 0 6408 20 6459 2
+O 0 6459 0 6459
+O 0 6460 0 6460
+M 0 6406 20 6461 1
+M 0 6407 20 6462 1
+M 0 6406 20 6465 1
+M 0 6407 20 6466 1
+M 0 6406 20 6467 1
+M 0 6408 20 6468 1
+M 0 6407 20 6469 1
+M 0 6406 20 6470 1
+M 0 6407 20 6471 1
+M 0 6406 20 6472 1
+M 0 6407 20 6473 1
+M 0 6408 20 6475 1
+O 0 6499 0 6477
+M 0 6406 20 6478 1
+M 0 6408 20 6481 1
+M 0 6408 20 6483 1
+M 0 6408 20 6485 1
+O 0 6490 0 6488
+O 0 6489 0 6488
+O 0 6490 0 6489
+O 0 6489 0 6489
+M 0 6408 20 6490 1
+M 0 6408 20 6492 1
+M 0 6408 20 6498 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#6400
+~
+mob zecho A guard of the fotress yells '{1THEY'RE ATTACKING, SOUND THE ALARM!!{x'
+wake guard
+mob force 2.guard wake
+mob force guard wake
+~
+#6401
+~
+mob echo {z{!A loud siren can be heard going off inside! Hurry!{0
+mob zecho A guard of the fortress yells '{1We need reinforcements NOW!{x'
+mob mload 6402
+mob echo A guard hops out from the woods by the walls of the fortress!
+~
+#6402
+~
+mob echoat $n {%The Captain of the Guards says{x '{5ATTACK!!{x'
+~
+#6403
+~
+mob echoat $n {%A guard says {x'{5ATTACK!!{x'
+~
+#6404
+~
+emote glances up at you with glowing, almost dead eyes.
+emote extends a hand out to you....
+say please.........
+say help us.....
+~
+#6405
+~
+if wears $n fortvectorpass
+else
+if clan $n magitek
+else
+if name $n Kefka
+else
+say They are attacking the prison!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mload 6400
+kill $n
+~
+#6406
+~
+if wears $n fortvectorpass
+else
+if clan $n magitek
+else
+if name $n Kefka
+else
+say They are attacking the prison!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mload 6400
+kill $n
+~
+#6407
+~
+scan
+say hmmm
+~
+#6408
+~
+if wears $n fortvectorpass
+say You may go ahead.
+mob transfer $n 6457
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 6457
+else
+if clan $n magitek
+say You may go.
+mob transfer $n 6457
+else
+say You cannot enter unless you have a Vectorian Pass.
+say You can only get a Vectorian Pass by a MagiTek Member or
+say from Lord Kefka himself. Be gone!
+~
+#6409
+~
+if wears $n fortvectorpass
+say You must ask to see Kefka. (Look At Me For Info)
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 6459
+else
+if clan $n magitek
+say You Must ask to see Kefka. (Look At Me For More Info)
+else
+say They Are Tring To Kill Lord Kefka!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mob kill $n
+~
+#6410
+~
+say Please, One Second...
+mob goto 6459
+say My Leigh, $n wishes to see you.
+~
+#6411
+~
+say Yes My Leigh.
+mob goto 6458
+say He will see you.
+say you must say 'yes sir' in lower letters...
+~
+#6412
+~
+say yes My Leigh.
+mob goto 6458
+say I am sorry but Kefka will not see anyone at this time.
+~
+#6413
+~
+if wears $n fortvectorpass
+say You may go.
+mob transfer $n 6430
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 6430
+else
+if clan $n magitek
+say You may go.
+mob transfer $n 6430
+else
+say They Are Tring To Kill Lord Kefka!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mob kill $n
+~
+#6414
+~
+mob transfer $n 6459
+~
+#6415
+~
+mob transfer $n 6458
+~
+#6416
+~
+if name $n Kefka
+say Yes My Leigh.
+else
+Kill $n
+~
+#6417
+~
+if wears $n fortvectorpass
+say I see you have a pass, if you wish to get by this door, look at me.
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+say please use our triggers.
+else
+if clan $n magitek
+say I see you are a fellow MagiTek member, to get by this door, look at me.
+~
+#6430
+~
+if wears $n fortvectorpass
+say I see you have your pass, you may go.
+else
+if clan $n magitek
+say My Fellow Magitek Member....
+tip $n
+else
+if name $n Kefka
+say My Leigh...
+else
+say They are attacking the prison!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mload VNUM
+kill $n
+~
+#6440
+~
+if wears $n fortvectorpass
+say You may go.
+mob transfer $n 19436
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 19436
+else
+if clan $n magitek
+say You may go.
+mob transfer $n 19436
+else
+say They Are Tring To Kill Lord Kefka!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mob kill $n
+~
+#6457
+~
+if wears $n fortvectorpass
+say You may go.
+mob transfer $n 6456
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 6456
+else
+if clan $n magitek
+say You may go.
+mob transfer $n 6456
+else
+say They Are Tring To Kill Lord Kefka!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mob kill $n
+~
+#6462
+~
+if wears $n fortvectorpass
+say You may go.
+mob transfer $n 6467
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 6467
+else
+if clan $n magitek
+say You may go.
+mob transfer $n 6467
+else
+say They Are Tring To Kill Lord Kefka!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mob kill $n
+~
+#6467
+~
+~
+#6468
+~
+~
+#6479
+~
+if wears $n fortvectorpass
+say You may go.
+mob transfer $n 2500
+else
+if name $n Kefka
+say My Leigh.
+bow $n
+mob transfer $n 2500
+else
+if clan $n magitek
+say You may go.
+mob transfer $n 2500
+else
+say They Are Tring To Kill Lord Kefka!
+mob zecho <{MV{mECTOR {YA{RLERT{x> {C$n {msited within the Fortress Walls{x.
+mob kill $n
+~
+#0
+
+#$

@@ -1,0 +1,4217 @@
+#AREADATA
+Name Thalos~
+Builders None~
+VNUMs 5200 5299
+Credits [ Public ] City of Old Thalos~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 4
+End
+
+
+
+#MOBILES
+#5200
+Fen Moxa Shopkeeper~
+Fen Moxa~
+Fen Moxa is here, keeping things organized.
+~
+~
+human~
+ABGR D 0 0 0
+101 0 5d10+500 25d9+100 4d4+6 none
+-6 -6 -6 2
+0 0 0 0
+stand stand none 500000
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#5201
+Aldun the Brewer~
+Aldun the Potion Seller~
+Aldun is here, brewing up another idea.
+~
+You see a young man, he wreaks of herbs and maku gas from brewing potions
+all his life.  
+~
+human~
+ABG 0 0 0 0
+101 0 2d6+110 4d9+100 1d8+2 none
+2 2 2 8
+0 0 0 0
+stand stand male 500000
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#5202
+Wierd Shopkeeper~
+The Shopkeeper~
+A strange little man wanders about the shop.
+~
+A dirty little man, he is too busy to do anything but sell junk.  
+~
+human~
+ABG 0 0 10 0
+101 0 2d8+134 5d9+100 1d10+2 none
+1 1 1 8
+0 0 0 0
+stand stand male 500000
+0 A medium 0
+D ~
+T ~
+F for AHMV
+F par BCDEFGHIJK
+#5203
+Teeler the smoker~
+Teeler the Head Shop owner~
+Teeler is here, rolling a few smokes.
+~
+~
+human~
+ABG 0 0 -200 0
+101 0 2d8+134 5d9+100 1d10+2 none
+1 1 1 8
+0 0 0 0
+stand stand male 500000
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+M GREET 5200 100~
+#5204
+weaponseller wife~
+Elisa wife to Gainer~
+Elisa is here, looking rather bored.
+~
+~
+human~
+ABG 0 0 200 0
+101 0 2d8+134 5d9+100 1d10+2 none
+1 1 1 8
+0 0 0 0
+stand stand female 500000
+AHMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#5205
+Pseudodragon~
+A Pseudodragon~
+A small currious dragon circles its master.
+~
+A small chemeleon-like dragon, dedicated to its loving master.  
+~
+dragon~
+AI JP B 0 0
+20 0 2d8+134 5d9+100 1d10+2 sting
+-1 -1 -1 -8
+EFN 0 BEH 0
+stand stand none 0
+AHMVZ ABCDEFGHIJKPQUVX small flesh
+D ~
+T ~
+F aff T
+F vul FI
+#5206
+tressym cat winged~
+a Tressym~
+A strange but beautiful, winged cat if flying around here.
+~
+A short haired grey cat with wings purrs as he gazes at nothing...  
+~
+cat~
+AI DPVZ 0 0 0
+10 0 1d8+100 5d9+100 1d10+2 bite
+-1 -1 -1 -5
+EFHN 0 0 0
+stand stand none 0
+AGHMV ABCDEFGHIJKQUV small 0
+D ~
+T ~
+#5207
+Osquip~
+An Osquip~
+A long, big toothed, rat is hanging around chewing on everything.
+~
+~
+lizard~
+AI 0 0 0 0
+30 0 5d8+200 1d9+100 2d12+5 bite
+-5 -3 -5 -8
+EFNR 0 0 0
+stand stand none 0
+AGXc ACDEFHKQV small 0
+D ~
+T ~
+F res L
+F vul I
+#5208
+oldstyle golem stone~
+The stone golem~
+A freshly created Stone Golem is standing watch.
+~
+It is a big chunk of rock that has been magically formed into a giant
+stone creature. He stands here still guarding the city.
+ 
+~
+giant~
+AB 0 N 600 0
+80 0 8d10+550 12d9+100 4d10+25 none
+-7 -7 -7 6
+EFNU HIJ EHI JKR
+stand stand none 312
+AHJMV ABCDEFGHIJK medium 0
+D ~
+T ~
+#5209
+homonculous~
+a Homonculous~
+A small winged creature is here, watching his master.
+~
+The Homonculous, ever loyal to his wizard creator, even unto death.  For
+it is their only purpose, to serve.  
+~
+bat~
+AI PTZ 0 0 0
+40 30 40d10+200 40d10+30 8d6+8 magic
+-1 -2 1 -2
+FH ABLQ C H
+stand stand none 0
+AGV ACDEFHJKP small unknown
+D ~
+T ~
+F vul S
+#5210
+Kalorin petseller~
+Kalorin the Pet Seller~
+A frail woman is here feeding a strange animal.
+~
+~
+human~
+ABG 0 0 0 0
+101 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 0 0 0
+stand stand female 500000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5211
+Barkeep Rudus~
+Rudus the Barkeep~
+The Barkeep is here, seeing to everyones order.
+~
+~
+human~
+ABG 0 0 0 0
+101 0 100d100+100 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCDLQ 0 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5212
+greycloak hermit mage~
+Greycloak the Hermit~
+A crusty old man is here, wearing an old {7Grey{x cloak.
+~
+A strange old man, he moves about rather slow, clutching something in his
+left hand.  
+~
+human~
+ACHR K 0 0 0
+75 80 10d200+300 10d200+300 10d10+30 magic
+-22 -22 -22 -26
+AH ABEI C H
+stand stand male 1
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5213
+citizen thalos male~
+A Man of Thalos~
+A man of Thalos is here wandering about.
+~
+~
+human~
+AR 0 0 0 0
+50 20 50d10+200 30d10+30 2d20+10 magic
+-12 -8 -13 -18
+0 0 C E
+stand stand male 150
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5214
+female thalos citizen~
+A woman of Thalos~
+A young woman of Thalos is wandering about.
+~
+~
+human~
+AL 0 0 0 0
+50 20 50d10+300 30d10+30 5d5+30 slap
+-12 -10 -13 -15
+0 0 0 0
+stand stand female 170
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5215
+kid thalos male~
+A young boy~
+A little boy is running about, playing and laughing.
+~
+~
+human~
+AHR 0 H 0 0
+10 10 10d10+100 20d10+20 2d5+2 beating
+-5 -5 -5 -8
+0 0 C E
+stand stand male 40
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5216
+child female thalos~
+A little girl~
+A little girl is here, giggling at you.
+~
+~
+human~
+AHL 0 H 0 0
+30 10 50d10+50 20d10+20 10d3+10 slap
+-5 -5 -5 -5
+0 0 0 0
+stand stand female 30
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5217
+wizard guard thalos~
+A Wizard Guard~
+A wizard stands here, keeping the peace.
+~
+~
+human~
+AR 0 H 0 0
+80 50 30d50+300 30d30+30 4d50+50 wrath
+-20 -20 -20 -22
+Q 0 DE 0
+stand stand none 250
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5218
+street performer~
+A poor Street Performer~
+A street performer is here trying to entertain people.
+~
+~
+human~
+ABC 0 0 0 0
+60 20 60d20+100 50d10+50 0d0+0 thwack
+-12 -8 -13 -6
+0 0 D C
+stand stand male 150
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5219
+Shade of Gordon~
+The Shade of Gordon~
+An old man is here...slowly fading away.
+~
+~
+human~
+ABGMO DFIKTUV CH 0 0
+105 100 20d10+100 0d0+0 100d10+500 none
+-50 -50 -50 -50
+FHK ABDEIJKLQ 0 H
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5220
+Ludanus the Healer~
+Ludanus the Healer~
+A middle aged man is here, preparing some healing herbs.
+~
+~
+human~
+ABGa 0 H 0 0
+105 0 1000d1+1000 2000d1+1000 1d1+500 none
+0 0 0 0
+0 CD 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5221
+mage wandering~
+The Wandering Mage~
+A mage is here wandering about.
+~
+~
+human~
+AR 0 H 0 0
+70 20 60d20+300 30d15+200 20d5+10 magic
+-18 -16 -14 -20
+0 0 C E
+stand stand none 500
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5222
+Gainer the Weaponsmith~
+Gainer the Weaponsmith~
+Gainer is here crafting another fine blade.
+~
+~
+human~
+ABGT 0 D 0 0
+50 50 50d10+200 10d10+10 10d10+50 none
+5 5 5 5
+0 H 0 0
+stand stand male 500
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GIVE 5203 ore~
+M SPEECH 5202 quest~
+M GREET 5201 100~
+#5223
+a dwarf dwarven~
+a Dwarven Mason~
+A dwarven mason is here, on a break.
+~
+One of the many workers of Thalos, he has come from the north, from the
+Dwarven Kingdom.  He carries a small piece of ore with him for some strange
+reason.  
+~
+human~
+AGT 0 0 0 0
+10 10 50d5+5 10d10+10 4d5+2 pound
+0 0 0 0
+0 ABLQ C 0
+stand stand male 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5224
+thalos elite guard~
+An Elite Thalos Guard~
+An Elite Thalos Guard is on duty.
+~
+~
+human~
+ABR Va CDEH 0 0
+90 30 30d100+500 100d5+200 5d30+10 wrath
+0 0 0 0
+QU 0 D C
+stand stand male 50000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5225
+thalos secretary~
+Lola, The Secretary~
+A sweet, young woman is here, waiting to help you.
+~
+~
+human~
+ABG 0 H 0 0
+20 5 100d2+50 1d1+200 2d2+1 slap
+0 0 0 0
+0 0 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5226
+short frail woman old thalos librarian~
+the librarian~
+A short, frail woman is here, watching over the library.
+~
+She is old, short and frail.  She wears long socks that come up to
+her knees, and a long dress that falls to her ankles amidst wide,
+unfasionable leather shoes.  She wears thick, round spectacles that
+sit perched at the end of her crooked nose, next to a large black
+mole.  Her hair is short, blue, and overly curly, as if she had curled
+it with a smithing poker herself.  She has a tendency to hold her
+finger to her lips, closing them with a hiss.  It is incredibly
+annoying.  
+~
+human~
+ABGNOR DEFJZ H 0 0
+30 30 20d20+500 10d20+50 5d8+5 beating
+0 0 0 0
+0 AB 0 0
+stand stand female 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M GIVE 5268 13720~
+M SPEECH 5269 recipes~
+M SPEECH 5270 secrets~
+M SPEECH 5271 spells~
+#5227
+Skywing petseller~
+Eben Skywing~
+Eben Skywing is tending to a warhorse.
+~
+~
+human~
+ABG 0 0 0 0
+101 0 1000d1+1000 1d1+1 1d1+1 slap
+0 0 0 0
+0 0 0 0
+stand stand male 500000
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#5228
+light warhorse~
+A Light Warhorse~
+A well trained war horse is here, waiting for its master.
+~
+~
+human~
+ATf 0 0 0 0
+25 20 50d10+50 10d10+10 5d4+5 charge
+2 2 2 3
+IJ 0 0 0
+stand stand none 200
+G ACDEFJKQ medium unknown
+D ~
+T ~
+F for AHMV
+F par BGHI
+#5229
+Heavy warhorse~
+A Heavy Warhorse~
+A well trained heavily armored warhorse is here.
+~
+~
+human~
+ATf 0 0 0 0
+30 30 60d10+75 10d10+10 6d5+5 charge
+-1 -1 -2 -1
+IJ 0 0 0
+stand stand none 250
+G ACDEFJKQ medium unknown
+D ~
+T ~
+F for AHMV
+F par BGHI
+#5230
+giant lizard~
+A Giant Lizard~
+A large green lizard is here, with a saddle on it's back.
+~
+~
+wyvern~
+Af DF 0 0 0
+40 30 60d12+5 10d10+10 8d6+15 bite
+-1 -1 -2 0
+CFH L 0 S
+stand stand none 300
+ABGZ ACDEFHJKQVX medium unknown
+D ~
+T ~
+F aff T
+#5231
+white pegesus~
+A White Pegesus~
+A white horse with glistening wings, waits for its master.
+~
+~
+human~
+Af T 0 0 0
+50 50 70d12+20 20d20+20 10d5+10 magic
+-3 -3 -3 -5
+0 0 0 0
+stand stand none 500
+G ACDEFJKPQ medium unknown
+D ~
+T ~
+F for AHMV
+F par BGHI
+#5232
+tamed griffon~
+A Tamed Griffon~
+A tamed griffon is laying in the sun.
+~
+~
+avian~
+ATf DFJLT 0 0 0
+60 50 80d12+20 20d20+20 8d10+25 claw
+-5 -5 -5 -3
+0 0 J LQ
+stand stand none 0
+AHMV ABCDEFGHIJKP medium unknown
+D ~
+T ~
+#5249
+thalos bank teller~
+The Thalos Bank Teller~
+The Thalos Bank teller stands here infront of you.
+~
+~
+human~
+ABc 0 0 0 0
+110 5 39d39+9201 39d39+9201 5d23+44 beating
+-4 -4 -4 -4
+0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0
+stand stand none 0
+0 0 medium unknown
+D ~
+T ~
+F for AHMV
+F par ABCDEFGHIJK
+#5265
+phouse onyx gates~
+Onyx Gates~
+Before you stand gates carven of onyx reaching dizzying heights.
+~
+Before you stand gates carven of onyx reaching dizzying heights. 
+Jagged in appearance, and amazingly strong, it occurs to you that a
+breech is next-to-impossible.  
+{x
+Etched into the black iron in very tiny print is the following
+warning:
+{x
+{RThe Gate has been made very unstable due to excessive vandalism.  It is
+poised to fall off its hinges at any moment, and it is strongly advised
+that the vandalism stop, or else...
+{x
+~
+drow~
+ABO JLZ 0 0 0
+25 0 10d60+400 0d0+0 0d0+0 none
+0 0 0 0
+0 ABCD BO NSZ
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+M FIGHT 5267 100~
+M FIGHT 5266 10~
+M SPEECH 5265 jaluk~
+#5268
+descent guard~
+Descent Guard~
+A Guard of the {!De{1sce{xnt is here, poised to strike from the {&sh{*a{&d{*o{&ws{x
+~
+This guard, while alone, appears more than capable to handle any intrudes
+into the compound.  A large black cloak conceals his body, except for two
+sword hilts protruding from within the folds of cloth.  Occasionally he
+draws the weapons and performs a swift attack routine through the air,
+ensuring that his skills are honed to perfection.  
+~
+drow~
+AB JLPQVZ HO -750 0
+75 100 10d170+1000 25d10+150 6d10+40 slash
+-40 -40 -40 -40
+EFIKRS BCD BCLOP NS
+stand stand male 0
+AHMV ABCDEFGHIJK medium skin
+D ~
+T ~
+#5269
+visiting hermit~
+(no short description)~
+(no long description)
+~
+~
+centaur~
+A CGJc 0 0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+0 Q NS M
+stand stand none 0
+AHMV ABCDEFGHIJKLNPUVW medium unknown
+D ~
+T ~
+#5287
+Jertik shopkeeper~
+Jertik the Wanderlust~
+A dirty little elf keeps the shop, neat.
+~
+~
+human~
+ABG D 0 0 0
+101 0 100d100+100 100d100+100 100d100+100 none
+0 0 0 0
+0 CD 0 0
+stand stand none 0
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#0
+
+
+
+#OBJECTS
+#5200
+plaque thalos dedication~
+the Old Thalos Plaque~
+A plaque is bolted to the wall here.~
+oldstyle~
+trash 0 0
+0 0 0 0 0
+51 1 0 P
+E
+plaque~
+This city is dedicated to all its citizens, and the people of The Realms
+of Balance 
+ 
+~
+#5201
+thalos stone helm~
+a {Wm{8a{wrb{8l{We {8stone {whelm{x~
+A heavy {Wwhite {8stone {whelm{x rests here.~
+oldstyle~
+armor GK AE
+8 8 8 2 0
+53 100 3400 P
+A
+18 2
+L The Marble helm was created in Old Thalos, and used by its guards.~
+#5202
+pair leather gauntlets~
+a {mpair {xof {yl{re{yath{re{yr {gga{8untle{gts{x~
+A {mpair {xof {yl{re{yath{re{yr {gga{8untle{gts{x lies here.~
+oldstyle~
+armor GK AH
+8 8 8 2 0
+49 100 2700 P
+A
+20 1
+A
+19 1
+A
+18 1
+L These fine gauntlets where created in Old Thalos.~
+#5203
+bench oldthalos~
+a {ywooden {yb{8enc{yh{x~
+A large {ywooden {yb{8enc{yh{x is here.~
+wood~
+furniture 0 P
+4 1000 EHK 100 100
+1 100 2700 P
+#5204
+strange wooden dwarven toolbox~
+a {Bdw{warv{Ben {ctool{ybox{x~
+A strange, {ywooden {ctool{ybox{x is here, collecting dust.~
+wood~
+container 0 AO
+50 0 0 20 70
+40 20 100 P
+A
+5 2
+A
+13 30
+A
+1 1
+L This toolbox, while imbued with magic, is rather impractical for everyday use, as it is custom made to hold some unknown dwarven tool.~
+#5205
+gazebo white oldthalos newgazebo~
+a {Wwhite {8ga{wze{8bo{x~
+A large {Wwhite {8ga{wze{8bo{x is here, providing a place to rest in the {8shade{x.~
+wood~
+furniture 0 0
+20 10000 CFIL 450 450
+1 0 0 P
+#5206
+wand black fenmoxa~
+a {8black {wwand{x~
+A {8black {wwand{x lies here, discarded.~
+blackwood~
+wand G AO
+35 8 8 'blindness' 0
+20 10 5200 P
+#5207
+shiny grey electrum medallion~
+an {We{Cl{Ge{gct{Gr{Cu{Wm {wm{8edallion{x~
+A {Wshiny {wgrey {wm{8edallion {xhas been dropped here.~
+electrum~
+jewelry PW AC
+0 0 0 0 0
+15 5 1000 P
+A
+12 25
+A
+14 -50
+A
+4 1
+A
+2 -2
+A
+1 -2
+#5208
+strips metal wand striking fenmoxa~
+a {rwand {xof {Rstriking{x~
+A {rwand {xdecorated with {Ws{wt{Wr{wi{Wp{ws{x of {wmetal {xlies here.~
+wood~
+wand G AO
+30 10 10 'magic missile' 0
+10 12 4400 P
+#5209
+old book secrets legendary artifacts~
+a Book Entitled {c"{RL{regendar{Ry {YA{yrt{cifa{yct{Ys{c"{x~
+An old book lies here, coated in a thick layer of dust.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 5 25 P
+E
+legendary artifacts~
+[{cAn Excerpt{x]
+{c
+Perhaps one of the most interesting artifacts that I have come across is the
+legendary "Mistian Crown" which for many years was spoken of only as heresay
+among jewelers and socketers across the realms.  The crown was said to be
+created from the essence of mist, and studded with four beautiful gems such
+that it was emblazoned "as a rainbow of light, as if touched by the gods."
+Many regarded it as yet another empty legend, until one day an explorer told
+of the creatures of a place called Mist, and of a curious blacksmith there
+who not only knew of the Mistian Crown, but could make it!
+{x
+Legends aside, adventurers found this blacksmith of mist and learned that the
+crown did indeed exist, and could still be created by one who knew where and
+how to obtain the components necessary to make it.  That was perhaps the most
+difficult task, for the components proved to be very difficult indeed to find.
+Some had never before been known to exist!  And so to date, while the legends
+seem to be true, no one has verified that the crown could actually be made.
+It is likely no one will ever know until these components can be tracked down
+and discovered (or perhaps rediscovered).
+{x
+~
+#5210
+polished bone wand fenmoxa~
+a {Wb{8o{wn{We {mwand{x~
+A piece of {Wpolished b{8o{wn{We {xfashioned into a {mwand{x lies here.~
+bone~
+wand G AO
+35 5 5 'plague' 0
+25 10 5500 P
+#5211
+thin worn beginner spellbook book fenmoxa~
+a {Bbeginner's {Gs{gpell{Bb{book{x~
+A thin, worn book lies here discarded.~
+papyrus~
+treasure G AO
+0 0 0 0 0
+15 30 15000 P
+A
+3 1
+A
+4 1
+A
+12 25
+#5212
+worn book alchemical principles~
+a Book Entitled {c"{CA{cl{8ch{wem{8ic{ra{Rl {GP{gri{cncip{gle{Gs{c"{x~
+A worn book lies here.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 5 25 P
+E
+alchemical principles~
+[{cAn Excerpt from the Chapter Entitled "Mastery Metals"{x]
+{x
+The alchemist holds the precious metals of platinum, gold and silver to be of
+great value and thus the goal of their pursuits, but the trinity of the rare
+mastery metals holds to the alchemist an affection all its own.
+{x
+The mastery metals are of the rare minerals of mithril, adamantium (sometimes
+called adamantite, from the ore in which it is bleeded), and ebony.  These
+metals are valued for their beauty, their strength, and their ability to bind
+strong magic, respectively.  In the same way, each holds with it an inherent
+ethos that the alchemist must be aware of when working with such.
+{x
+Mithril is a beautiful, white ore, near impossible to refine and equally
+difficult to prepare with success in any alchemical transmutation.  This is
+the case for all the mastery metals.  Like the others, mithril does not wish
+to be anything else but mithril, and so its usefulness is oftentimes reserved
+for more mundane applications as weaponry and armor.  The dwarves are of the
+most successful with refining it from the raw ore, having discovered it long
+ago in their mines.  Mithril's value is further enhanced by the fact that only
+a few dwarven mines produce mithril, and far fewer today than in the ancient
+times, for many of the more productive mines were since abandoned to greedy
+dragons or otherwise lost to war and greed.  Mithril is often linked to a good
+ethos, gleaming as the "truesilver" or "mist-glitter" of the heavenly stars
+above.
+{x
+Adamantium is darker, often with a green hue in its raw ore, and also very
+difficult to refine.  Transmuting adamantium is also near impossible, but some
+success has been made by heating the alloy at near its refining temperature.
+The yields of such efforts is hardly worth the trouble, as many an alchemist
+has died to mishaps of cooking pots exploding or otherwise had things ruined
+with the molten adamantium fell upon things and hardened, never to be remolded
+again.  Adamantium in the refined condition has a shine to it, though dull and
+smoky, lending to it the belief that it is a neutral metal, neither good nor
+evil in design.  Highly prized for weaponry and armor, it suits the stronger
+still, for adamantium is not as light as mithril, and slightly more brittle,
+though in uses where hardness is desired over yielding, this ore is preferred.
+{x
+Ebony is somewhat more mysterious than the other mastery metals.  It is dark
+and almost glows with a deep purple hue in its raw state.  Many sages and
+wizards have concluded that ebony possesses inherent magic within, though the
+blackness of this ore has assigned it the ethos of evil, even though ebony is
+sometimes used in holy objects and in paladin armor and weaponry.  Ebony is
+not as strong as mithril and adamantium, lending its usefulness to the realm
+of decoration, and more recently to the binding of powerful arcane spells
+within inanimate objects.
+~
+#5213
+small journal book brink hell~
+a Book Entitled {c"{xThe {BB{crin{Bk {8of {RH{Ye{Rll{c"{x~
+A small journal lies here.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 5 25 P
+E
+brink hell~
+I am forsaken.  Turn around, lest you be forsaken too...
+{x
+I read these words upon a torn journal, at the Stone Archway of the
+nexus of our realms to the place called simply, Hell.   There I
+pondered its existence, and my own, for that is what the place will
+do to a formerly sane mind.  And in those thoughts, I descended...
+{x
+Hell is a great place to visit, but I sure as realms wouldn't want
+to live there.  It is a journey, time lapsed and sadistic, through
+torture and survival.  And there are secrets about, if you are one
+to go looking.
+{x
+In the Final War of Revelation, there was a blacksmith who supplied
+the Fallen Angel and his minions with all of their armor and weapons.
+Many of Baator's minions were destroyed, but it was not enough to
+prevent the Morningstar from being imprisoned in the lake of ice,
+centering the Well of Giants where titans are banished, in the place
+known as Cocytus.  Keep going down, as the legend says, for the
+landing is just the surface.
+{x
+The blacksmith was spared, or rather fled and was not followed.  His
+smithy is unknown to most mortals, and remains detached for our realm.
+Only by sacrificing oneself in the blood river and wearing the crown
+of torment will one find passage to his domain.  If you see Hephasto,
+don't forget to say, wassup.
+{x
+Sachmed carries the maul of Hephasto, but only expect him to wield it
+at night, and even then, there is great luck involved.
+{x
+The City of Dis also holds a secret.  A demigod remains imprisoned
+there, and his lips are loose and he has a hatred towards those whom
+he once walked among.  One can use this to their advantage, if they
+are cunning in it.
+{x
+Finally, there is a tormenter, the Fallen Angel, though there is also
+the tormented.  Ethos dictates one of two paths, but neither can be
+embarked upon if one is venerated of the land.  That is, if one has
+the title of Hero, forget about it, but that does not necessarily mean
+forget about all hope of saving the tormented.  It only means the
+journey is barred, not the destination.
+~
+#5214
+book thaumaturgy spellbook~
+a Book Entitled {c"{wthe {BStudies {xof {yT{chau{gmat{curg{yy{c"{x~
+A large heavy book seems to have been forgotten.~
+book~
+treasure G AO
+0 0 0 0 0
+40 40 55000 P
+A
+12 75
+A
+3 1
+A
+4 1
+A
+24 10
+#5215
+scroll enchantments fenmoxa~
+a {gscroll {xof {cenchan{Ctments{x~
+A narrow {gscroll {xwith strange writing has been left here.~
+oldstyle~
+scroll G A
+65 'enchant weapon' 'enchant armor' 'continual light' 'bless'
+50 150 1280 P
+#5216
+grey potion golem brew~
+a {ggolem {Cbrew{x~
+A {cgrey {Cpotion {xis here, boiling over the edges of the flask it is in.~
+liquid~
+potion G A
+39 'giant strength' 'stone skin' 'slow' 'reserved'
+39 2 1000 P
+#5217
+glass bottle gargoyle silhouette elixir~
+a {wgarg{yoy{wle's {Cel{Gix{Cir{x~
+A {Wglass {Cbottle{x decorated with a {wgarg{yoy{wle {8silhouette {xis here.~
+liquid~
+potion AG A
+20 'fly' 'detect hidden' 'detect invis' 'detect magic'
+10 2 3300 P
+L this elixir is a rare concoction which instills the quaffer with the awareness of a gargoyle.~
+#5218
+blessed vial holy armor potion~
+a {Cpotion {xof {Yholy {Ra{rrmor{x~
+A {Bblessed {Cvial {xlies here, emitting a {Yholy {Caura{x~
+liquid~
+potion AG A
+20 'armor' 'shield' 'protection evil' 'reserved'
+10 5 5000 P
+#5219
+deep red liquid vial dragon blood~
+a {Cvial {xof {gdr{yag{gon {rbl{Roo{rd{x~
+A {Cvial {xof deep {Rred {xliquid lies here.~
+dragonblood~
+potion A A
+40 'haste' 'frenzy' 'fireshield' 'reserved'
+40 3 35000 P
+#5220
+red glass bubbler~
+a {Rred {Wg{wlas{Ws {rb{cu{rb{cb{rl{ce{rr{x~
+A strange looking {Wglass {rp{Wip{re {xis here.~
+glass~
+bong SY AO
+0 0 0 0 0
+18 5 10000 P
+#5221
+thalos guard issued spetum~
+a {gguard {cissued {8spetum{x~
+A long {8spear{c-{mlike {gweapon {xlies here.~
+oldstyle~
+weapon GK AN
+staff 8 8 charge F
+55 240 3300 P
+~
+~
+~
+~
+~
+A
+19 10
+A
+13 10
+A
+2 -2
+L {x~
+#5222
+green glass tube two foot steamroller bong~
+{2A Glass Two{@-{2Foot Ste{@a{2mr{@o{2ller{x~
+A green glass tube is about to be crushed underfoot.~
+glass~
+bong SY AO
+0 0 0 0 0
+18 15 25000 P
+A
+4 1
+A
+23 1
+#5223
+chrome metal smoker pipe~
+a {Wc{wh{8ro{wm{We {8smoker's {rpipe{x~
+A {Wmetal {8smoking {rpipe {xhas been discarded here.~
+chrome~
+bong Y AO
+0 0 0 0 0
+18 5 12000 P
+A
+13 5
+A
+12 10
+A
+24 1
+#5224
+fat five bag maui waui sticky orange bud~
+a {wfive {xof {Gs{rt{Ric{rk{Gy {yorange {Gbud{x~
+Someone was careless enough to drop a fat bag here.~
+weed~
+weed 0 A
+0 0 0 0 0
+18 1 5000 P
+L Sweet smelling, covered in {!orange{x hairs, mmmmm how sweet it is.~
+#5225
+brickweed dimebag~
+a {wdime {ybag {xof {gbr{yi{gck w{ye{ged{x~
+A small {ybag {xof some shakey {ggreen {yherb {xis here.~
+bunkweed~
+weed P A
+0 0 0 0 0
+18 1 100 P
+L Kinda crappy, but after 10 joints you will feel a little buzz~
+#5226
+thirty bag nugs dank afghan weed~
+a {wthirty {ybag {xof {gdan{Wk {ma{gfgha{mn {Wb{guds{x~
+A bag of nugs has been carelessly forgotten, what a find!~
+weed~
+weed 0 A
+0 0 0 0 0
+18 1 2500 P
+L Interesting bud, smells a little funny, but covered in {&crystals {xand {5purple {xhairs.~
+#5227
+three pronged iron trident~
+an {8ir{wo{8n {yt{wr{yi{wd{ye{wn{yt{x~
+A three pronged, {8ir{wo{8n {yt{wr{yi{wd{ye{wn{yt{x lies here.~
+steel~
+weapon 0 AN
+polearm 4 12 stab D
+30 12 7500 P
+~
+~
+~
+~
+~
+A
+18 -4
+A
+19 8
+#5228
+heavy tempered warhammer hammer~
+a {Rtempered {Ww{war{yhammer{x~
+A {mheavy {yhammer {xlies here, ready for crushing.~
+steel~
+weapon B AN
+mace 20 2 crush 0
+49 9 9000 P
+~
+~
+~
+~
+~
+#5229
+gibberish book X&S%N#O !S&orn~
+a Book Entitled {c"{RX&{mS{M%N{r#O {G!S{C&o{grn{c"{x~
+A book with gibberish on the cover lies here.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 5 25 P
+E
+x&s%n#o !s&orn~
+You open a page, but it is completely indecipherable:
+{x
+WOo- o=o\ %=| /:|@-//  `=#0N .. <-| #[&S% *8\  ((/  o|'  [-\  Q.N%8
+S-% *8\  T/  X*r:,  o%=  R&^   ||  @#n  Rl+=/%  WcxW&#!  SC*^!  #%#
+[!  #%#o|'  [n   o%\ /  X&S% *8\%  ((/  oOo- o=C*^  #%//  `&;#@! cn{x
+#n  R  b6!  Mu3_0 S% *8\%| /:|@@ - o=C 8\ N%W&#!  R`=#0`=#0T/  X*nc
+cr#no RiA=/%  WxW# !#%#[!  #%#o|'  ['n   o%\ /  &S% *8%  (/  O- o=C
+%%#o|'  [n   o%\ /  X&S% *8\%  ((/  oOo- o=C*^  #%//  `&;#@! cnxrld
+cJD &6!  Mu3_0 S% *8\%| /:|@7@ - o=C 8\ N%W&#bd!  R`=#0`=#0T/  X*nc
+W&#!  R`=#0`=#Mu3_0 nc (*8/ @&@K:R  b o#!  R`= #%// %\ `& |o= -_/:z
+~
+#5230
+claymore heavy~
+a {mheavy {Wclay{ymore{x~
+A {mheavy {Wclay{ymore{x lies here.~
+oldstyle~
+weapon G AN
+sword 0 0 cleave F
+58 15 550 P
+~
+~
+~
+~
+~
+A
+1 2
+A
+5 2
+A
+14 20
+A
+13 20
+#5231
+small shield center spiked buckler~
+a {8s{Wp{8ik{We{8d {rb{wuckle{rr{x~
+A small {Bshield {xwith a large, center {8s{Wpi{Wk{8e{x has been left here.~
+metal~
+armor 0 AJ
+10 1 5 5 0
+50 10 7700 P
+A
+19 8
+#5232
+small smooth incandescent blue ion stone~
+an {cin{8ca{wn{Wde{ws{8ce{cnt {Bblue {8stone{x~
+A small yet smooth stone lies here, emitting light.~
+stone~
+gem 0 AQ
+0 0 0 0 0
+9 10 1100 P
+A
+4 1
+#5233
+pair steel greaves~
+a {mpair {xof {8steel {rg{8re{wa{8ve{rs{x~
+A {mpair {xof {rg{8re{wa{8ve{rs{x lies here, seemingly forgotten.~
+oldstyle~
+armor G AF
+7 7 7 8 0
+75 8 63000 P
+A
+2 1
+A
+19 8
+A
+18 8
+#5234
+bright pink stone~
+a {Mbright pink {8s{yt{wo{yn{8e{x~
+A strange, {Mbright pink {8s{yt{wo{yn{8e {xlies here.~
+oldstyle~
+gem G AQ
+0 0 0 0 0
+9 10 550 P
+A
+5 1
+#5235
+stone pearly white~
+a {8p{we{War{wl{8y {Wwhite {8s{yt{wo{yn{8e{x~
+A {8s{yt{wo{yn{8e {xwith a {8p{we{War{wl{8y {Wwhite {xhue lies here.~
+oldstyle~
+gem G AQ
+0 0 0 0 0
+9 10 1100 P
+A
+13 1
+#5236
+dark book homestyle drow recipes~
+a Book Entitled {c"{YHome{Wstyle {mDrow {CR{ge{ccip{ge{Cs{c"{x~
+A dark book lies here, filled with loose pieces of paper and makeshift bookmarks.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+1 5 25 P
+E
+homestyle drow recipes~
+[{cAn Excerpt from the Bookmarked Chapter Entitled "Stews"{x]
+{x
+SLAVER STEW - Named for the reputation of being a favorite among the
+slavers.  This stew is a chunky blend of many exotic ingredients,
+simmered slowly in a special pot.  Rumor is that the pot makes the
+stew, or breaks it.  Traditionally served during the late spring,
+which coincides with the first slave hunt and harvest of the year.
+{x
+Obtain a large pot, big enough to place a good trough's depth of
+liquid.  Ma Wrinkle recommends using the same cauldron that is used
+to make the slave gruel, as the flavors kept within will draw out
+into the stew, adding to its richness.  Fill the cooking pot with
+between one quarter to one half of a brewer's barrel worth of water.
+Skin and gut a freshly killed horse, commonly obtained from enslaved
+humanoid riders, and cleave into manageable pieces.  Alternately,
+any meat will do, as long as it satisfies an army of hungry slave
+traders.  Mince internals into small pieces (heart, lungs, liver
+and stomach).  Place in boiling water with salted reed flats to draw
+out the poisons.  Reed flats soaked from a poisoned well are the
+best, as the poisons will intermingle, leaving a strong but pleasant
+flavour.  Six flats of moderate size will do.  When internals float
+to the surface and a frothy foam develops along the top, add in the
+cleaved meats and seasonings.  For seasonings, use locally obtained
+plants such as hacklo, brillus, and red moss.  Use generously.  Stir
+occasionally to help seperate meat and bone.  Boil until about half
+the water is gone, then add in dried peppers, chopped mushrooms,
+sourroot, and various other vegetables of your choosing. Just before
+serving, sprinkle a little lava ash in each bowl for that added grit.
+Crisps or grubs can be added in last for more flavour.  Serves one
+dozen hungry slavers.
+~
+#5237
+stone lavender green~
+a {mla{Mv{men{Md{mer {xand {Ggr{gee{Gn {8s{yt{wo{yn{8e{x~
+A stunning {mla{Mv{men{Md{mer {xand {Ggr{gee{Gn {8s{yt{wo{yn{8e{x rests on the ground.~
+oldstyle~
+gem G AQ
+0 0 0 0 0
+12 10 1500 P
+A
+20 -1
+#5239
+stone grey dull~
+a {mdull {8grey {8s{yt{wo{yn{8e{x~
+A stone lies here.~
+oldstyle~
+gem 0 A
+0 0 0 0 0
+1 10 1000 P
+#5241
+stone pink green~
+a {Mp{min{Mk {xand {Ggr{gee{Gn {8s{yt{wo{yn{8e{x~
+A strange stone with pink and green swirls lies here.~
+oldstyle~
+gem G AQ
+0 0 0 0 0
+0 10 500 P
+A
+18 -5
+#5243
+odd clear stone~
+a {cc{wlea{cr {ystone{x~
+A odd clear stone lies at your feet.~
+oldstyle~
+gem G AQ
+0 0 0 0 0
+10 10 1000 P
+A
+17 3
+#5250
+large white marble altar oldthalos~
+a large {WWhit{we {8M{wa{Wrble{w Altar{x~
+A Large {WWhit{we {8M{wa{Wrble {wAltar {xfills the middle of the temple.~
+marble~
+furniture AGISY 0
+5 10000 ABEHKN 0 0
+1 100 2500 P
+#5251
+Thalos Fountain Benefactors~
+a Statue of the High Wizard: {@odD{x~
+A Large {&Whit{7e {*M{7a{&rble{x statue stands tall here, built to honor the new lord of Thalos~
+oldstyle~
+fountain G 0
+0 0 'water' 0 0
+13 500 2700 P
+#5252
+long dagger slim~
+a long slim dagger~
+A long slim dagger has been left here.~
+oldstyle~
+weapon G AN
+dagger 2 5 pierce 0
+15 10 590 P
+~
+~
+~
+~
+~
+A
+19 1
+A
+18 1
+#5253
+sign~
+a sign~
+A sign stands here in the bushes.~
+paper~
+furniture 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+{!DANGER!!
+HIGH LEVEL AREA UP
+~
+#5254
+tripower sign~
+the TriPower State Line~
+A large sign stands here, written in big words are "TRIPOWER STATE LINE".~
+wood~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+This Sign Represents The Border Of The TriPower State.
+Beyond This Sign Is Non-TriPower Land, Free From Its
+Rule. May Your Travels Be Well.
+------------------------------------------------------
+##    ##
+## ## ## ##
+## ## ## ##  THE TRIPOWER STATE
+## ## ## ##
+## ## ## ##
+   ##    ##
+~
+#5255
+sign construction~
+a sign~
+A large sign stands here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+sign~
+~
+#5256
+Key Old Thalos~
+key To Old Thalos~
+A large city key lies here.~
+unknown~
+key V AO
+0 0 0 0 0
+1 1 0 P
+#5257
+ioun crown~
+a Ring of Glowing Stones~
+A glowing ring of stones floats in the air.~
+crystal~
+protect ABGSUY AE
+0 0 0 0 0
+50 5 50000 P
+A
+12 25
+A
+18 -5
+A
+19 -5
+A
+13 25
+A
+4 2
+L Hmm, strange, no one knows where this came from.~
+#5258
+wanderer's cafe bar~
+the Wanderer's Cafe Bar~
+The Cafe bar is here, packed with people.~
+wood~
+furniture 0 0
+4 1000 AD 300 300
+0 0 0 P
+#5259
+wanderer's cafe table~
+the only empty table in the place.~
+There is only one empty table here...run for it!~
+wood~
+furniture 0 0
+5 1200 D 300 300
+0 0 0 P
+#5260
+bottle of beer~
+a bottle of {3Beer{x~
+A bottle of beer is here, collecting dust.~
+glass~
+drink 0 A
+4 4 'beer' 0 0
+1 1 5 P
+#5261
+old thalos brew~
+a bottle of {&Ol{7d {*T{7h{&alos {xBrew~
+An odd bottle of beer is here, going to waste.~
+glass~
+drink 0 A
+5 5 'ale' 0 0
+1 1 8 P
+#5262
+whisky shotglass~
+a shot of {3whisky{x~
+A shot of whisky is here, waiting for someone to slam it.~
+glass~
+drink 0 A
+1 1 'whisky' 0 0
+1 1 3 P
+#5263
+coffee cup large~
+a large cup of {*Black Coffee{x~
+A large cup of coffee is here, spilling all over.~
+ceramic~
+drink 0 A
+10 10 'coffee' 0 0
+1 1 4 P
+#5264
+beef jerky~
+a Stick of {1Spicey {3Beef jerky{x~
+A dried hunk of meat is rotting away.~
+unknown~
+food 0 A
+1 1 0 0 0
+1 1 2 P
+#5265
+pickled egg~
+a {&Pick{#le{&d Egg{x~
+A small white egg is hear, and it smells like shit.~
+egg~
+food 0 A
+1 1 0 0 0
+1 1 3 P
+#5266
+house special burger~
+a {3Ho{2u{@s{1e {!Sp{*ecial Bur{3ger{x~
+An extreemly large burger is looking very yummy.~
+beef~
+food 0 A
+2 4 0 0 0
+1 2 10 P
+#5267
+t-boan steak~
+a {3Gri{*l{3led T{*-{3Boan S{*t{3eak{x~
+A steamy steak is here, making you drool.~
+beef~
+food 0 A
+2 4 0 0 0
+5 5 15 P
+#5268
+fried chicken platter~
+a platter of {3Fried Chicken{x~
+A fried chicken is here, smelling wonderful.~
+chicken~
+food 0 A
+2 4 0 0 0
+5 5 15 P
+#5269
+seafood platter~
+a Sea Food Platter~
+A platter of Sea food is going to waste.~
+unknown~
+food 0 A
+2 3 0 0 0
+5 5 25 P
+#5270
+salad chef's~
+a {@Ch{!e{@f's S{!a{@lad{x~
+A large bowl of salad is here, waiting for someone to toss it.~
+salad~
+food 0 A
+1 2 0 0 0
+1 2 8 P
+L Created for wimpy people who refuse to eat meat....fucking vegetarians.~
+#5271
+research desk~
+a Rosewood Desk~
+A heavy desk is here, pilled with books.~
+rosewood~
+furniture 0 0
+1 300 D 0 0
+0 0 0 P
+#5272
+research shelf~
+a shelf full of Books~
+A fully stocked shelf is here, collecting dust.~
+rosewood~
+container 0 0
+30 ABCD 5273 10 10
+0 0 0 P
+#5273
+research key~
+the research key~
+A small key is here, forgotten~
+gold~
+key 0 A
+0 0 0 0 0
+0 1 0 P
+#5283
+Library Key~
+the library key~
+A small key with a book etched on it is here.~
+silver~
+key 0 A
+0 0 0 0 0
+0 0 0 P
+#5284
+Tome Mystic Equations~
+a Tome of Mystic Equations~
+A thick, heavy book is hear, collecting dust.~
+book~
+treasure ABGIY AO
+0 0 0 0 0
+75 12 125000 P
+A
+12 150
+A
+20 5
+#5285
+Blade Gainer Quest~
+the Adventurer's Blade~
+A fine quality sword has started to rust.~
+steel~
+weapon 0 AN
+sword 5 7 slash D
+18 5 10000 P
+~
+~
+~
+~
+~
+#5286
+dwarven ore~
+{7A Pi{*ec{7e O{*f Or{7e{x~
+A heavy looking chuck of raw ore is laying in the dirt.~
+unknown~
+trash 0 A
+0 0 0 0 0
+18 20 0 P
+#5287
+table council thalos~
+the Thalos Council Table~
+A Large round table is here, surrounded by highback chairs.~
+wood~
+furniture 0 0
+5 10000 BDN 3000 3000
+0 1000 0 P
+#5288
+thalos secretary desk~
+the Secretary's Desk~
+A long curved desk rests in the middle of the room.~
+wood~
+furniture 0 0
+1 500 D 50 50
+0 1000 0 P
+#5289
+cursed ring~
+an expensive looking ring~
+A small ring glistens here in the sun.~
+curse~
+armor ABCMOPSY AB
+-5 -5 -5 -5 0
+25 10 5000 P
+A
+13 -50
+A
+12 -50
+A
+20 -1
+A
+17 10
+#5290
+powerbar~
+a {3Powerbar{x~
+A small candybar looking object is laying in the dirt.~
+unknown~
+pill B A
+5 'refresh' 'refresh' 'refresh' 'refresh'
+10 5 80 P
+#5291
+hiking staff~
+a Rugged Hiking Staff~
+A hiking staff is laying in the dirt.~
+unknown~
+wand 0 AO
+35 5 5 'teleport' 0
+30 30 15000 P
+A
+14 50
+A
+13 -25
+A
+12 -25
+#5292
+wanderer's canteen~
+a Wanderer's Canteen~
+A canteen is here, spilling water on the ground.~
+metal~
+drink 0 AC
+20 20 'water' 0 0
+25 25 1800 P
+A
+14 10
+A
+2 1
+A
+5 1
+#5293
+Mist Tent~
+a {&Mi{7s{&t Te{7n{&t{x~
+A bank of mist is here...it looks almost like a tent?~
+mist~
+furniture ABFGPS A
+4 2000 FIL 500 500
+50 20 300000 P
+#5294
+golden bracer~
+{#A Jew{2e{#l{1e{#d {*G{#ol{*d{#e{1n {#B{2r{#acer{x~
+A Shinning gold bracer is glistening in the light.~
+gold~
+jewelry ABSU AM
+0 0 0 0 0
+45 12 63000 P
+A
+9 20
+A
+2 -3
+#5295
+fattony house key~
+[FatTony's House Key]~
+A large key lies here.~
+unknown~
+trash 0 AO
+0 0 0 0 0
+0 0 0 P
+#5296
+couch sofa~
+the couch~
+A couch sits here in the middle of the room.~
+unknown~
+furniture 0 0
+3 10000000 EHK 500 0
+0 0 0 P
+#5297
+kitchen table~
+the kitchen table~
+A kitchen table sits in the middle of the room.~
+unknown~
+furniture 0 0
+4 10000 DHK 500 500
+0 0 0 P
+#5298
+bed~
+the bed~
+A large bed stands in the middle of the room.~
+unknown~
+furniture 0 0
+3 10000 EHK 500 500
+0 0 0 P
+#5299
+desk~
+fatTony's Desk~
+A desk stands in the middle of the room.~
+unknown~
+furniture 0 0
+1 1000 DGK 400 400
+0 0 0 P
+#0
+
+
+
+#ROOMS
+#5200
+{&The Gran{7d {*G{7a{&tes of Ol{7d {*T{7halos{x~
+~
+You stand in a magnificent marble archway.  Shining steel gates are swung
+open to welcome all onto its streets.  A high White Marble wall circles the
+city, strangely if seems to pulsate, glowing with a magical enchantment. 
+You have entered Old Thalos, once great city, destroyed, and newly rebuilt
+to all its former glory. 
+~
+0 4 0 11
+0
+E
+gate~
+You see Old Thalos returned to its former glory.
+~
+D1
+You see a cobblestone trail heading out of the city.  
+~
+~
+0 0 5256
+D3
+You see people running about Old Thalos, kept busy and content.  
+~
+gate~
+776 5256 5201
+D4
+~
+~
+0 0 49439
+S
+#5201
+{&Mai{7n {*S{7t{&reet{x~
+~
+The road here is freshly rebuilt.  {&Mar{*b{&le B{*r{&ic{*k{&s{x make up the
+intersection, while well kept {3dirt roads{x head in all directions.  Many
+people are out and about, doing daily chores, playing and basicly enjoying
+life.  
+~
+0 0 0 21
+0
+D0
+You see people enjoying life.  
+~
+~
+0 0 5239
+D1
+The entrance to the city lies this way.
+~
+gate~
+776 5256 5200
+D2
+You see kids playing.  
+~
+~
+0 0 5255
+D3
+~
+~
+0 0 5238
+S
+#5202
+{&Ma{*i{7n {&Str{*e{&et~
+~
+This is a magnificent street, immaculate all over.  The streets are
+filled with people rushing from building to building The whole city is
+teeming with activity.  Near the center of town you see a large domed
+building, freshly rebuilt with the same {&wh{7i{*t{&e mar{&b{*l{&e{x as much of the city.  
+~
+0 0 0 21
+0
+D0
+The remnants of a store lie this way.
+~
+~
+0 0 5236
+D1
+~
+~
+0 0 5238
+D3
+A withered garden path lies this way.
+~
+~
+0 0 5203
+S
+#5203
+{xIntersection of {7Grey{x and Main~
+~
+The intersection here is the path to The Temple of Thalos.  Many people
+are gathered here, either heading to work, or the temple.  Some people are
+waiting near a large fountain, chating about the weather and their newly
+rebuilt city.  
+~
+0 0 0 21
+0
+D0
+Grey Street runs north.  
+~
+~
+0 0 5204
+D1
+This is the main street leading to the city's entrance
+~
+~
+0 0 5202
+D2
+Grey Street runs south.  
+~
+~
+0 0 5206
+D3
+You see the magnificent marble dome, the Temple of Old Thalos 
+~
+~
+0 0 5250
+S
+#5204
+{7Grey Street~
+~
+The crushed marble chrunches underfoot.  This section of Grey Street
+travels north and south.  A small garden path is off to the west, leading to
+the temple.  
+~
+0 0 0 21
+0
+D0
+A side street leads off to the northern half of the city.
+~
+~
+0 0 5211
+D2
+~
+~
+0 0 5203
+D3
+~
+~
+0 0 5205
+S
+#5205
+{2Th{5e {%G{&a{@rde{&n {%P{5a{2th~
+~
+A circular path surrounds a magnificent domed temple in the center of the
+city.  {5Flo{%w{5ers{x grow on the sides of the path and the lush trees are laden
+with fruit.  {2V{@i{2nes {xand {2i{@v{2y{x snake up the sides of the temple, making this
+temple truly a blend of nature and man's work of art.  
+~
+0 0 0 19
+0
+D1
+The garden path continues around the building.
+~
+~
+0 0 5204
+D2
+Inside the temple, there is peace 
+~
+~
+0 0 5250
+S
+#5206
+{7Grey Street{x~
+~
+Citizens of Thalos wander about, some heading to work or home,
+others to the Temple of Thalos.  The Temple can be seen a little west
+and north of here, a magnificent building, its marble dome is quite a
+sight.  To the east is an older looking building with smoke bellowing
+from the chimney.  Clanking sounds can be heard from inside.  
+~
+0 0 0 21
+0
+D0
+The garden path continues around the building.
+~
+~
+0 0 5203
+D1
+~
+~
+0 0 5230
+D2
+A small side street leads to the southern half of the city.
+~
+~
+0 0 5212
+D3
+~
+~
+0 0 5249
+S
+#5207
+{3Wanderlust{x~
+~
+Wanderlust: The shop for those who adventure, and travel.  Everything you
+need to get up and about the realms.  Walking Sicks, tents, iron rations,
+canteens and boxes of other stuff are pilled everywhere.  A dirty elf
+wanders out from behind the clutter looking to help you.  
+~
+0 0 0 13
+0
+D3
+The market place continues.
+~
+~
+0 0 5208
+S
+#5208
+{WO{8l{xd {WTha{8l{Wos W{xa{Wy{x~
+~
+You stand at the end of the market square.  Stands and carts line
+each side, filled with remnants of fine foods and exquisite goods.  A
+road of {Wwhi{8t{We m{8a{Wrb{8l{We{x extends north and south, accentuated the oldest
+road within the city.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+Tattered carpets and ruined bales of silk sit idly by a run down stand.
+~
+~
+0 0 5222
+D1
+The center of the market lies this way.
+~
+~
+0 0 5207
+D2
+~
+~
+0 0 5286
+S
+#5209
+{@Ol{2d {3T{2h{@alo{2s {3P{@a{@rk{x~
+~
+This is the middle of the park.  Larger {2tr{@e{2es{x grow here, providing {8shade{x
+to cool off in.  A large {&white gazzebo{x is here, in it sits a bard struming
+on his lute, playing a soft sweet song.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+E
+wall~
+The wall is covered with strange runes.  
+~
+D1
+~
+~
+0 0 5243
+D2
+~
+~
+0 0 5210
+D3
+~
+~
+0 0 5291
+S
+#5210
+{7Grey Street~
+~
+You are in the common section of the city.  The street here has been
+named for the left over marble that has been crushed and laid for the road. 
+A few citizens are walking about, heading home or to work.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5209
+D1
+~
+~
+8 -1 5244
+D2
+~
+~
+0 0 5211
+D3
+A small clay dwelling sits here.
+~
+~
+0 0 5226
+S
+#5211
+{7Grey Street~
+~
+This section of town is filled with homes of the cities residents.  Most
+are made from wood and stone, but a handfull of the richer ones have copied
+the cities white marble, unenchanted however.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5210
+D1
+An unusually tall dwelling stands looming over you.
+~
+~
+0 0 5237
+D2
+A garden path circles around the temple.
+~
+~
+0 0 5204
+D3
+Here lies a small stone house with a thatched roof.
+~
+~
+0 0 5227
+S
+#5212
+{7Grey Street{x~
+~
+You walk down grey street, the fresh gravel crunching under your feet. 
+Just to the East is the City Hall of Thalos, day to day operations of the
+city begin here.  
+~
+0 0 0 21
+0
+D0
+A small garden path encircles the temple.
+~
+~
+0 0 5206
+D1
+This possibly could be the city hall.
+~
+~
+0 0 5232
+D2
+~
+~
+0 0 5213
+D3
+~
+~
+0 0 5221
+S
+#5213
+{7Grey Street~
+~
+This avenue is called Grey Street, so named for the crushed marble
+that makes up the road.  The street runs north and south with
+buildings along either side.  To the west is a small building
+fashioned from wood and stone.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5212
+D2
+~
+~
+0 0 5289
+D3
+A small sign on the door reads "{2Teeler's Choice{x" 
+~
+~
+0 0 5219
+S
+#5214
+{WA B{8a{xc{Wk Str{8e{Wet{x~
+~
+You are at the end of a long street leading to the center of the
+city.  A long {ydirt road{x runs east and west.  Building walls lie to the
+north, while to the south stretches the southern walls of Thalos.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D1
+~
+~
+0 0 5289
+D3
+~
+~
+0 0 5218
+S
+#5215
+{7U{*n{&der t{7h{&e So{*u{7t{&h Wes{*t {&To{7w{&er~
+~
+You stand below the newly rebuilt tower.  Fresh cut {&Whi{*t{&e M{*a{&rb{*l{&e{x stones
+make up the tower, a truely impresive sight.  The stones are obviously cut
+and laid by dwarven engeniers, no other could do such an intricate job.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5287
+D1
+~
+~
+0 0 5218
+D4
+~
+~
+0 0 5247
+S
+#5216
+{&O{*l{7d {&Tha{*l{&os W{7a{&y~
+~
+The fresh cobblestone walk is worn here.  Many people have traveled this
+busy street.  More vendors have set up shops and even a street performer is
+juggling for the crowds amusement.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+You see the back-side of the market place meat stand.
+~
+~
+0 0 5217
+D1
+~
+~
+0 0 5293
+D2
+~
+~
+0 0 5287
+S
+#5217
+{&O{*l{7d {&Tha{*l{&os W{7a{&y~
+~
+A large stand has been set up here with metal hooks and wooden racks in
+the background.  Several strips of  meat are drying, some of the exotic
+spices catch you nose, inviting you to taste them.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5286
+D1
+This is a cart full of rotted vegetables and fruits.
+~
+~
+0 0 5220
+D2
+~
+~
+0 0 5216
+S
+#5218
+{&A B{*a{7c{&k St{*r{&eet~
+~
+The narrow street runs east and west here.  To the east is a small
+intersection, and to the west is a watchtower.  A small group of kids
+runs by chasing a stray dog, and laughing.  A quaint little pet shop
+is to the north.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5282
+D1
+A small side street greets you.
+~
+~
+0 0 5214
+D3
+A tall watchtower stands a silent vigil over the city.
+~
+~
+0 0 5215
+S
+#5219
+{2Teeler's Choice~
+~
+You enter a small shop, the first thing you notice is the smell of
+incense, but there is another odor here, like smoke.  Glass counters line
+the room holding varrious pipes of brass, chrome, and glass.  Larger water
+pipes are held in a locked case behind the counter.  There is a sign on the
+wall, read it.  
+~
+0 8 0 13
+0
+E
+sign~
+We do not sell "bongs", we sell Water pipes.  Under age 18 do not bother
+entering.  If your looking for a crack pipe get the fuck out.  
+~
+D1
+A small side street runs past the building.
+~
+~
+0 0 5213
+S
+#5220
+{@Aldun's Brew{x~
+~
+Several vials, and bottles are scattered all over the store here.  A
+young man stands behind a counter patiently watching a beaker boil, and
+adding a pinch of this and that.  He stops only momentaraly, to assist his
+customers.  
+~
+0 0 0 13
+0
+D3
+A strong stench emanates from the meat stand next to you.
+~
+~
+0 0 5217
+S
+#5221
+{3Wanderer's {xCafe~
+~
+A Large cafe, full of travellers and citizens alike.  Roumers have spread
+all over the land of this cafe and its fine food and ale.  Most tables have
+been filled, and the bar remains filled 24 hours a day.  A young woman runs
+by carrying a platter full of food, almost spilling it on you.  Better hurry
+and get a seat.  
+~
+0 8 0 1
+0
+D1
+A small side street runs past the building.
+~
+~
+0 0 5212
+D4
+~
+~
+0 0 5295
+S
+#5222
+{&O{*l{7d {&Tha{*l{&os W{7a{&y~
+~
+All around are shops, small businesses, now thriving under the rebuilt
+city.  The {3dirt road{x extends north and south.  To the east is a small shop. 
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5223
+D1
+A fine jewelry stand lies in ruin next to you.
+~
+~
+0 0 5225
+D2
+The market place is deserted.
+~
+~
+0 0 5208
+S
+#5223
+{&O{*l{7d {&Tha{*l{&os W{7a{&y~
+~
+Several empty vendor stands are here, kind of strange, as the rest of the
+street is booming with traders, and business.  A single man is muttering to
+himself, paying little attention to you as you pass by.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+A tall watchtower stands a silent vigil over the city.
+~
+~
+0 0 5224
+D1
+~
+~
+0 0 5242
+D2
+~
+~
+0 0 5222
+S
+#5224
+{&Und{7e{*r {&th{*e {&Nor{7t{*h {&Wes{7t {&Towe{*r~
+~
+You stand at the base of one of the cities {&Mar{*b{7l{&e{x Watchtowers.  A
+magnificant work of art, the marble seems to pulsate and glow under the
+superb craftsmanship of the dwarves skill.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D1
+~
+~
+0 0 5228
+D2
+~
+~
+0 0 5223
+D4
+Above you looms a tall watchtower.
+~
+~
+0 0 5246
+S
+#5225
+{^Fen Moxa's Wand and Wizardry Shop~
+~
+This small organized shop is full of magic trinkets.  Shelves stocked
+with wands, staves, and talismens line the walls.  A table with several
+tubes holding wands sits in the center of the shop.  Fen Moxa sits behind a
+glass counter, which holds more of the expensive items.  
+~
+0 0 0 13
+0
+D3
+Next to you is a stand full of ruined clothes and rugs.
+~
+~
+0 0 5222
+S
+#5226
+{7A Cl{8ay {7Dwe{8ll{7ing{x~
+~
+A small humble building, and rather poorly constructed.  The home is
+owned a man named Greycloak the Hermit, as he always wears a grey cloak and
+keeps to himself.  Many people about town believe him to be crazy, either
+that or a powerful mage.  
+~
+0 8 0 1
+0
+D1
+Outside is a small side street.
+~
+~
+0 0 5210
+S
+#5227
+{3A Small House{x~
+~
+A rather quaint home.  It is made from logs, and well lit with windows on
+all sides as well as sky lights.  A separate bedroom off the back, and a
+kitchen area.  Several herbs and flowers are hung from the cealing drying. 
+Other varrious items are kept in jars on the wall.  
+~
+0 0 0 1
+0
+D1
+A small side street runs past the house.
+~
+~
+0 0 5211
+S
+#5228
+{yP{Gark {yW{Galk{x~
+~
+{2Lush Gr{@ee{2nery is al{@l a{2round.{x  Small freshly planted trees are begining
+to grow, and the grass is a rich green.  A hand full of people are enjoying
+the new park, having picnics and playing games.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D1
+~
+~
+0 0 5291
+D2
+~
+~
+0 0 5242
+D3
+~
+~
+0 0 5224
+S
+#5229
+{5A Str{@a{5nge S{@h{5op~
+~
+This small shop is packed with all kinds of trinkets.  The shelves are
+packed with junk from floor to cealing, you wonder how anyone can find
+anything here.  
+~
+0 8 0 13
+0
+D2
+~
+~
+0 0 5251
+S
+#5230
+{7Gain{*e{7r's Arm{*o{7ry {#C{3==={#[{7===========> ~
+~
+It is very hot in here.  Piles of swords, axes, and other metal weapons
+are pilled up, hanging off the walls, and in stands.  Gainer, a short stocky
+man, is in the back furriously hammering out another creation.  His wife
+Elisa stands out front waiting to sell her husbands creations.  
+~
+0 0 0 13
+0
+D3
+~
+~
+0 0 5206
+S
+#5231
+{&Sout{7h {*W{7i{&ng of the Cit{7y {*H{7a{&ll{x~
+~
+This is the entrance to the Councils office's.  Pedistals and columns
+have been restored, and line the room.  A large curved desk is here, for the
+clerk of Thalos.  Most people must speak with him before being allowed to
+talk to the council members.  
+~
+0 8 0 1
+0
+D0
+The long hallway leads back to the main reception area of the city hall.
+~
+~
+0 0 5232
+D4
+~
+~
+0 0 5284
+S
+#5232
+{&Cit{7y {*H{7a{&ll{x~
+~
+The city hall is a fair sized building.  Redone in oak, and the white
+marble common throughout the city.  Most of the day to day operations of the
+city begin here.  The lord of Thalos also resides here, so it is guarded
+quiet well.  
+~
+0 8 0 1
+0
+D1
+A hallway leads to the east wing of the city hall.
+~
+~
+0 0 5233
+D2
+A hallway leads to the south wing of the city hall.
+~
+~
+0 0 5231
+D3
+~
+~
+0 0 5212
+S
+#5233
+{&Eas{7t {*W{7i{&ng of the Cit{7y {*H{7a{&ll{x~
+~
+This room is the City councils meeting hall.  A large circular table
+fills the middle of the room, it is surrounded by several high back chairs,
+each carved to the personal tastes of the council member.  Tapestries line
+the wall, depicting scens throughout Thalos's history.  On one wall is a
+small table, which is kept stocked with a plate of pastries and hot coffee,
+reserved for the council members.  
+~
+0 8 0 1
+0
+D3
+~
+~
+0 0 5232
+S
+#5234
+{WA Sid{xe {8S{Wtre{xe{Wt{x~
+~
+These streets are not nearly as busy as those in the rest of the
+city, as newly constructed masonry is still being laid nearby.  No
+shops or houses have yet to be established here, and there is a
+feeling of abandonment all about.  The side street continues north and
+south.  To the north is one of the watchtowers of the city.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5241
+D2
+~
+~
+0 0 5240
+S
+#5235
+Small guard house~
+~
+This is the barracks for Old Thalos' cityguards.  It is a small but
+sturdy building.  A few bunks are pushed up against one wall, while a
+weapons rack is on another.  A post board is listing the daily patrols, and
+who gets to take them.  
+~
+0 0 0 1
+0
+D1
+A side street is to the east.  
+~
+~
+0 0 5255
+S
+#5236
+{3A Small House~
+~
+This is a small, and simple home.  One room, a table in the middle of
+it, and a small bed against the wall.  An old man is cooking a rabit at the
+fireplace, he utters a quick story of how this used to be the site of the
+old protector of thalos: Gordon the brave.  The man gives a quick smile, a
+strange twinkle in his eye.  
+~
+0 0 0 1
+0
+D2
+Main street runs past this ruined home.
+~
+~
+0 0 5202
+S
+#5237
+{&Librar{7y of {*T{7h{&alos{x~
+~
+Shelves upon shelves of books line the walls.  Tables fill the middle of
+the room, also piled up with books.  Several people are sitting at desks,
+reading and studying.  An older woman walks about, trying to sort out the
+many books, and keep them in order.  A staircase leads up, but on closer
+inspection you notice the door is locked, the librarian tells you that it is
+reserved for magical reserch.  
+~
+0 8 0 1
+0
+D3
+A small side street winds past the dwelling.
+~
+~
+0 0 5211
+D4
+This door leads to the Magical Reserch Wing 
+~
+~
+520 5283 5245
+S
+#5238
+{WMai{xn {8S{xt{Wreet{x~
+~
+The road here is freshly rebuilt.  {WMar{8b{Wle B{8r{Wic{8k{Ws{x make up the
+intersection, while well kept {ydirt roads{x head in all directions.  Many
+people are out and about, doing daily chores, playing and basicly
+enjoying life.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 5201
+D3
+~
+~
+0 0 5202
+S
+#5239
+{&A Sid{7e {*S{&tre{7e{&t~
+~
+The {3dirt road{x runs north and south here.  Further to the north is a
+watchtower, while south is an intersection.  A small plaque is here,
+dedicated to the city.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+You see a watchtower to the north.  
+~
+~
+0 0 5240
+D2
+Main street runs past here.
+~
+~
+0 0 5201
+S
+#5240
+{7Constr{&u{*ct{7ion W{*o{&rke{7rs Ha{*n{7gout{x~
+~
+The {&Ma{*r{&ble W{*a{&lls{x here are unfinished, due to a handful of
+lazy construction workers.  Afew benches are here, as well as several tool
+boxes and coolers.  Some dwarven masons are laying about, being lazy.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5234
+D2
+~
+~
+0 0 5239
+S
+#5241
+{&Und{*e{&r th{7e {*N{&orth {*E{&ast {*T{7o{&wer~
+~
+You stand at the base of the North East tower.  People pass you by, busy
+with work or other things.  High moral is about with the people happy to
+have their city back to it's once glorious stature.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D2
+~
+~
+0 0 5234
+D3
+~
+~
+0 0 5292
+D4
+Winds howl high above your head in the tower above.
+~
+~
+0 0 5248
+S
+#5242
+{4Th{6e B{^ath H{6ou{4se~
+~
+A hot spring here heats the water for the public bath house.  Several
+citizens are relaxing in the large pools and saunas.  A few women are
+walking around passing out towels and seeing that peoples needs are met.  
+~
+0 8 0 1
+0
+D0
+~
+~
+0 0 5228
+D3
+~
+~
+0 0 5223
+S
+#5243
+{@Ol{2d {3T{2h{@alo{2s {3P{@a{@rk{x~
+~
+{2Lush {@Gr{2eenery {@i{2s all a{@ro{2und.{x  Small freshly planted trees are begining to
+grow, and the grass is a rich green.  A hand full of people are enjoying the
+new park, having picnics and playing games.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D1
+~
+~
+0 0 5292
+D3
+A side street runs by here.
+~
+~
+0 0 5209
+S
+#5244
+{3Commoner's Home~
+~
+A small house, owned by one of the citizens of Thalos.  The owner is
+currently gone, and the fire has died down.  One can hear the children
+playing in the park nearby.  
+~
+0 8 0 1
+0
+D3
+A small side street runs past the house.
+~
+~
+0 0 5210
+S
+#5245
+{7Library of Magical Research~
+~
+The room here is rather musty.  Several old tomes, librams, and codexes
+have been piled up on shelves, tables, and anything else that will hold
+them.  The room itself is round, and lit up by several balls of continual
+light.  A great deal of magic was used here to block further castings, and
+protect the valuable books.  
+~
+0 201327620 0 1
+0
+D5
+~
+~
+520 0 5237
+M 9000 H 1000
+S
+#5246
+{&No{*r{7t{&h We{*s{7t {&Watc{*h{&to{7w{&er~
+~
+You stand atop one of the city watchtowers. The view is magnificent
+from here and you can see all the way to the western mountains. No wonder
+this place stood for so long.
+~
+0 0 0 1
+0
+D5
+The city lies below.
+~
+~
+0 0 5224
+S
+#5247
+{*S{7o{&uth W{*e{&st Wa{7t{&chto{*w{&er~
+~
+You stand atop one of the city watchtowers. The view is magnificent
+from here and you can see all the way to the western mountains. To the
+south the desert stretches to the horizon. No wonder this place stood
+for so long.
+~
+0 0 0 1
+0
+D5
+The city lies below.
+~
+~
+0 0 5215
+S
+#5248
+{&Nor{*t{7h {&Eas{*t {&Watch{*t{7o{&wer~
+~
+You stand atop one of the city watchtowers. The view is magnificent
+from here and you can see a great floating pyramid to the north-east.
+Desert sand stretches to the horizon. No wonder this place stood for so
+long.
+~
+0 0 0 1
+0
+D5
+The city lies below.
+~
+~
+0 0 5241
+S
+#5249
+The First National Bank Of Thalos~
+~
+You stand in the first national bank of Thalos.  The building is
+somewhat small, but you see the a bank teller's window to the north,
+only one though.  Behind the window you can see the vault, which is
+locked up tight.  People are lined up against this one window waiting
+to deposit or withdraw money.  The Bank Teller stands infront of you,
+waiting....  
+~
+0 2 0 1
+0
+D1
+~
+~
+0 0 5206
+S
+#5250
+{&Tem{7ple of T{7h{*a{7l{&os~
+~
+You stand within one of the most holy places in the realm.  This stunning
+domed temple houses the city's worshipers en masse.  Long benches line the
+aisles and the altar glistens with the {#gold{x and {7platinum{x inlay.  The walls
+and roof are all made of {&whit{7e {*m{7a{&rble{x, making this place reflect the sun
+well.  The {2gre{@en{2ery{x around the temple itself makes this place a great blend
+of {2na{@t{2ure{x and man's works of art.  
+~
+0 1160 0 14
+0
+D0
+A side street leads to the northern half of the city.
+~
+~
+0 0 5205
+D1
+Main street leads out to the main gate of the city.
+~
+~
+0 0 5203
+D3
+~
+~
+0 0 5285
+S
+#5251
+{*A {&Ba{7c{&k S{*t{&ree{7t~
+~
+The road narrows here, to the east is one of the cities
+watchtowers.  To the west the road continues, following the city wall.
+A strange shop is to the north, sparking a bit of curiosity.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5229
+D1
+~
+~
+0 0 5252
+D3
+~
+~
+0 0 5290
+S
+#5252
+{&Und{*e{7r {&the S{*o{&uth E{7a{*s{&t Wat{7c{&h T{*o{&wer~
+~
+You stand at the base of a tall watchtower.  Newly designed to protect
+the city from any invanders.  The road goes north and west from here.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5253
+D3
+~
+~
+0 0 5251
+D4
+~
+~
+0 0 5254
+S
+#5253
+{7Si{&d{*e {&Str{*e{7et~
+~
+The road here leads to a large tower of {&whi{*t{&e ma{*r{&b{*l{&e{x.  A few vendors have
+set up stands selling fruit, dried meat, clay pots and anything else they
+can sell for a silver piece or two.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+~
+~
+0 0 5288
+D2
+A tall watchtower stands a silent vigil over the city.
+~
+~
+0 0 5252
+S
+#5254
+{&Sou{7t{*h {&Eas{*t {&Watch{*t{&owe{7r~
+~
+You stand atop one of the city watchtowers. The view is magnificent
+from here and you can see all the way to the western mountains. To the
+south the desert stretches to the horizon. No wonder this place stood
+for so long.  There is a small plaque on the stones.
+~
+0 0 0 1
+0
+E
+sign plaque~
+This extension to Thalos, along with the dwarf forest, is made by Hatchet for
+any Merc Mud.
+copyright 1992
+~
+D5
+The city lies below.
+~
+~
+0 0 5252
+S
+#5255
+{&S{7i{&de {*S{&tr{*e{7et~
+~
+This was once a back ally.  Now it is a busy street, people are running
+around, going about their daily lives.  To the west is a small sturdy stone
+building, the guard house.  To the south the road continues.  
+~
+0 0 0 21
+0
+E
+wall~
+The wall is covered with strange runes.  
+~
+D0
+You see main street.
+~
+~
+0 0 5201
+D2
+~
+~
+0 0 5288
+D3
+You see a sturdy stone building.  
+~
+~
+0 0 5235
+S
+#5256
+Trail at the end of dwarf forest~
+~
+The trail ends here, with short, dry stumps of trees all around you.
+To the west, you can see the ruins of a huge city.  Something about it gives
+you an uneasy feeling.  To the east is your way back to home and safety.
+~
+0 0 0 11
+0
+D2
+~
+~
+0 0 21555
+D3
+You see Thalos!
+~
+~
+0 0 5200
+D4
+~
+~
+0 0 5257
+S
+#5257
+Trail at the end of dwarf forest~
+~
+A side trail here leads from the dwarf forest.  It is definitely
+drier and hotter here.  The trail continues down and to the west, and
+to the east, you see the T-intersection.  
+~
+0 0 0 2
+0
+D1
+You see the intersection.
+~
+~
+0 0 5258
+D4
+~
+~
+0 0 49539
+D5
+~
+~
+0 0 5256
+S
+#5258
+Dwarf forest~
+~
+You see more stunted trees here.  A side trail leads west from here.
+To the east, you THINK you see a trail, but you can never be sure.
+~
+0 0 0 3
+0
+D0
+You see the trail lead back north.
+~
+~
+0 0 5259
+D1
+You can't see into the gloom of this forest.
+~
+~
+0 0 5262
+D2
+~
+~
+0 0 21038
+D3
+You see the trail branch off.
+~
+~
+0 0 5257
+D4
+~
+~
+0 0 49589
+S
+#5259
+Dwarf forest~
+~
+You see more stunted trees here.  It looks almost as if this place was
+cursed by a god to be short and dry.  The trail leads north and south.
+~
+0 0 0 3
+0
+D0
+You see the trail continue north.
+~
+~
+0 0 5260
+D2
+You see the trail continue south.
+~
+~
+0 0 5258
+D4
+~
+~
+0 0 49588
+S
+#5260
+Dwarf forest~
+~
+You see more stunted trees here.  It looks almost as if this place was
+cursed by a god to be short and dry.  The trail leads north and south.
+~
+0 0 0 3
+0
+D0
+You see the trail continue north.
+~
+~
+0 0 5261
+D2
+You see the trail continue south.
+~
+~
+0 0 5259
+D4
+~
+~
+0 0 49587
+S
+#5261
+Dwarf forest~
+~
+You see many stunted trees here.  You don't see any leaves on these barren
+trees.  No grass grows on the ground.
+~
+0 0 0 3
+0
+D0
+You see the trail continue north.
+~
+~
+0 0 3502
+D1
+~
+~
+776 21375 21375
+D2
+You see the trail continue south.
+~
+~
+0 0 5260
+D3
+~
+~
+0 0 21078
+D4
+~
+~
+0 0 49586
+S
+#5262
+Dwarf forest~
+~
+You see more stunted trees here.  It looks almost as if this place was
+cursed by a god to be short and dry.  The trail leads east and west.  It looks
+dark toward the east.
+~
+0 0 0 3
+0
+D1
+You see a darker part of the forest.
+~
+~
+0 0 5263
+D3
+You see the lighter forest and the T-intersection west.
+~
+~
+0 0 5258
+D4
+~
+~
+0 0 49639
+S
+#5263
+Darker dwarf forest~
+~
+You see a more dense foliage in these stunted trees.  The gloom caused
+by them is enhanced by a draft coming from all around.  The trail turns south
+from the west.
+~
+0 1 0 2
+0
+D2
+You see nothing in the gloom south of you.
+~
+~
+0 0 5264
+D3
+You see the dwarf forest.
+~
+~
+0 0 5262
+D4
+~
+~
+0 0 727
+S
+#5264
+Darker dwarf forest~
+~
+You see a more dense foliage in these stunted trees.  The gloom caused
+by them is enhanced by a draft coming from all around.  The trail turns east
+from the north.
+~
+0 1 0 3
+0
+D0
+You see nothing in the gloom north of you.
+~
+~
+0 0 5263
+D1
+You see nothing in the gloom east of you.
+~
+~
+0 0 5265
+D4
+~
+~
+0 0 49690
+S
+#5265
+Darker dwarf forest~
+~
+You see a more dense foliage in these stunted trees.  The gloom caused
+by them is enhanced by a draft coming from all around.  The trail leads
+east and west.
+~
+0 1 0 3
+0
+D1
+You see nothing in the gloom east of you.
+~
+~
+0 0 5266
+D3
+You see nothing in the gloom west of you.
+~
+~
+0 0 5264
+D4
+~
+~
+0 0 49740
+S
+#5266
+Darker dwarf forest~
+~
+You see a more dense foliage in these stunted trees.  The gloom caused
+by them is enhanced by a draft coming from all around.  The trail leads
+down into a valley and west.
+~
+0 1 0 3
+0
+D3
+You see nothing in the gloom west of you.
+~
+~
+0 0 5265
+D4
+~
+~
+0 0 49790
+D5
+~
+~
+0 0 5267
+S
+#5267
+Valley in the dark dwarf forest~
+~
+You are in a valley in the dark dwarf forest.  Short black grass grows
+around you.  Trails lead in all directions.
+~
+0 1 0 3
+0
+D0
+~
+~
+0 0 5271
+D1
+~
+~
+0 0 1701
+D2
+You see a large mountain on the far side of a canyon.
+~
+~
+0 0 9201
+D3
+You see a dark fox hole.
+~
+hole fox~
+32776 -1 5268
+D4
+~
+~
+0 0 5266
+D5
+~
+~
+0 21445 21445
+S
+#5268
+Small ugly cave~
+~
+You see a small cave.  Skeletons of many types of creatures litter the area.
+Obviously, no fox lives here!  The oppression makes you want to leave and
+vomit.
+~
+0 9 0 3
+0
+E
+skeleton skeletons~
+Something is strange about these skeletons.  Upon further investigation, these
+skeletons appear illusionary.
+~
+D1
+You see the exit from here!
+~
+fox hole~
+32776 -1 5267
+D2
+You see more of the cave.
+~
+~
+0 0 5269
+S
+#5269
+Small ugly cave~
+~
+You are in a small ugly cave.  More skeletons lie around.  It is obvious
+that the owner doesn't want you here.  The exit north is still visible.
+Some writings are on this wall.
+~
+0 1 0 3
+0
+E
+skeleton skeletons~
+Something is strange about these skeletons.  Upon further investigation, these
+skeletons appear illusionary.
+~
+E
+writings writing words~
+This cave along with the valley and dwarf forest is made by Hatchet for any
+Merc Mud.
+copyright 1992
+~
+D0
+You see more of the cave.
+~
+~
+0 0 5268
+D1
+~
+~
+0 0 21182
+D5
+You see a path leading down into the dark gloom.
+~
+~
+0 0 5270
+S
+#5270
+Down the path into a dead end~
+~
+You are down the path.  There is no obvious exit in this place, exit the
+one back up north.  All around you, you see skeletons.
+~
+0 1 0 3
+0
+E
+skeleton skeletons~
+Something is strange about these skeletons.  Upon further investigation, these
+skeletons appear illusionary.  In fact, through the skeletons, you see a
+secret door!!
+~
+D4
+You see your only way back up.
+~
+~
+0 0 5269
+D5
+You see nothing on the floor except skeletons.
+~
+secret~
+65544 -1 5100
+S
+#5271
+Valley in the dark dwarf forest~
+~
+You are in a valley in the forest.  To the north is a trail out of this
+dark valley.  South is more of this valley.
+~
+0 1 0 3
+0
+D0
+You see a trail away from this gloomy valley.
+~
+~
+0 0 5272
+D2
+You see more of this gloomy valley.
+~
+~
+0 0 5267
+S
+#5272
+Dim trail in the dwarf forest~
+~
+You are in a dim trail in the dwarf forest.  Not much light passes through
+here.  To the south is a gloomy valley, while to the north the light grows
+brighter.
+~
+0 1 0 3
+0
+D0
+You can actually see the trail north of you!
+~
+~
+0 0 5273
+D2
+You can barely see the gloomy valley south of you.
+~
+~
+0 0 5271
+S
+#5273
+Dim trail in the dwarf forest~
+~
+You are in a dim trail in the dwarf forest.  Not much light passes through
+here.  The trail runs north and south, and the light seems to come from the
+north.  To the east, you see a small path into darkness.
+~
+0 0 0 3
+0
+D0
+You see the dim trail lead north.
+~
+~
+0 0 5274
+D1
+You see the small path.
+~
+~
+0 0 5280
+D2
+You see the dim trail lead south.
+~
+~
+0 0 5272
+S
+#5274
+Dim trail in the dwarf forest~
+~
+You are in a dim trail in the dwarf forest.  Not much light passes through
+here.  The trail runs north and south, and the light seems to come from the
+north.
+~
+0 0 0 3
+0
+D0
+You see the dim trail lead north.
+~
+~
+0 0 5275
+D2
+You see the dim trail lead south.
+~
+~
+0 0 5273
+S
+#5275
+Bend in the dwarf forest~
+~
+You are on a dim trail in the dwarf forest.  Not much light passes through
+here.  The trail runs south and west.  The trail west looks much friendlier
+than the one leading south.
+~
+0 0 0 3
+0
+D0
+~
+~
+0 -1 15000
+D2
+You see the dim trail lead south.
+~
+~
+0 0 5274
+D3
+You see the trail lead west.
+~
+~
+0 0 5276
+S
+#5276
+Trail in the dwarf forest~
+~
+You are in a trail in the dwarf forest.  The trees are stunted and it
+looks dry around here.  The trail leads east and west.  It looks dimmer to
+the east.
+~
+0 0 0 3
+0
+D1
+The trail continues east to the dimmer parts of the forest.
+~
+~
+0 0 5275
+D3
+The trail continues west.
+~
+~
+0 0 5277
+S
+#5277
+Trail in the dwarf forest~
+~
+You are in a trail in the dwarf forest.  The trees are stunted and it
+looks dry around here.  The trail leads east and west.
+~
+0 0 0 3
+0
+D1
+The trail continues east.
+~
+~
+0 0 5276
+D3
+The trail continues west.
+~
+~
+0 0 5278
+S
+#5278
+Trail in the dwarf forest~
+~
+You are in a trail in the dwarf forest.  The trees are stunted and it
+looks dry around here.  The trail leads east and west.
+~
+0 0 0 3
+0
+D1
+The trail continues east.
+~
+~
+0 0 5277
+D3
+The trail continues west.
+~
+~
+0 0 5279
+S
+#5279
+Bend in the dwarf forest~
+~
+You are on a bend in the trail in the forest.  The trees are stunted, but
+not so dry around here.  The trail leads east, and to the south, you see a
+waterfall.
+~
+0 0 0 3
+0
+D0
+~
+~
+0 21770 21770
+D1
+The trail continues east.
+~
+~
+0 -1 5278
+D2
+You see a beautiful waterfall.
+~
+~
+0 -1 5281
+S
+#5280
+Dark bend in the forest~
+~
+You are in a dark bend in the forest.  To the west, you see the trail
+leading back to the dwarven forest, and to the south, you see a dark and
+dismal path.
+~
+0 0 0 3
+0
+D2
+You see the dark path.
+~
+~
+0 0 2300
+D3
+You see the trail back to the Dwarven Forest.
+~
+~
+0 0 5273
+S
+#5281
+{BBy the {^b{6e{^a{&u{^t{6i{^f{6u{^l {&w{^a{6t{^e{&r{^f{6a{&l{6l{x~
+~
+You see a VERY beautiful waterfall here.  It looks almost as if diamonds
+are falling down the mountain.  (You reach out and grab and no, it IS only
+water.)  It looks so nice here, you feel like taking a nap.  The trail leads
+north back the way you came.  
+~
+0 0 0 4
+0
+D0
+You see the trail leading north.
+~
+~
+0 0 5279
+D4
+~
+~
+32768 0 21470
+S
+#5282
+Kalorin's Exotic Animal Shop~
+~
+Kalorin has travelled all over the realm, seeking out strange and new
+creatures to tame and bring to the general public.  Several cages are
+stacked on top of each other, holding animals one could have a hard time
+imagining.  
+~
+0 4096 0 13
+0
+D2
+~
+~
+0 0 5218
+S
+#5283
+Kalorin's Exotic Pet Shop2~
+~
+This is Kalorin's storage room.  
+~
+0 4 0 0
+0
+S
+#5284
+{&A Hallwa{7y o{*f C{7i{&ty Hall{x~
+~
+This long hallway leads to the offices of the council members.  Its
+smooth walls are covered with tapestries and a few Code of Arms.  
+~
+0 0 0 0
+0
+D5
+~
+~
+0 0 5231
+S
+#5285
+{WMa{8i{xn {WStr{8e{Wet{x~
+~
+The Main Street continues out through the Temple of Thalos just
+east of here, toward the oldest walk in the city: Old Thalos Way. 
+Here there are a few buildings lining the streets, but no entrances
+come out on this end, as this street is mainly used to traverse the
+city.  The sounds of hagglers can be heard to the west.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 5250
+D3
+~
+~
+0 0 5286
+S
+#5286
+{WO{8l{xd {WTha{8l{Wos Sq{8ua{Wre{x~
+~
+This square marks the oldest part of Old Thalos, aside from the
+temple complex which rises just east of here.  The cobblestones are
+worn smooth as deep grooves stretch out all about as far as the eye
+can see.  Street vendors and shops are set all along the street which
+runs north and south, while to the east is the temple and further, the
+eastern gates of the city.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5208
+D1
+~
+~
+0 0 5285
+D2
+~
+~
+0 0 5217
+S
+#5287
+{WO{8l{xd {WTha{8l{Wos W{xa{Wy{x~
+~
+This is the oldest walk of the city, running near the western wall
+and by the many quaint shops that line it.  To the north, the domed
+roof of the temple can be seen between buildings, while to the south
+the walk ends at the base of one of the watchtowers of Old Thalos. 
+The walk continues north and south, by street performers and vendors. 
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5216
+D2
+~
+~
+0 0 5215
+S
+#5288
+{WS{xi{Wde {8S{Wtr{8e{xet~
+~
+This newly paved street has been made generous use of by the
+citizens of the city.  People stroll it safely within the city walls,
+running errands, heading down to the bank or perhaps heading west to
+the Old Thalos Way, where the market district of the city has been
+established.  The city walls are east of here, running north and south
+while just north of here marks the east entrance to the city.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5255
+D2
+~
+~
+0 0 5253
+S
+#5289
+{WA B{8a{xc{Wk Str{8e{Wet I{xn{Wterse{8c{Wtion{x~
+~
+This spot marks a somewhat busy intersection in the city.  A back
+street stretches east and west, while Grey Street runs through the
+city north of here.  There are buildings long both streets, as a few
+people enter and leave them from time to time.  
+~
+0 0 0 21
+0
+D0
+~
+~
+0 0 5213
+D1
+~
+~
+0 0 5290
+D3
+~
+~
+0 0 5214
+S
+#5290
+{WA B{8a{xc{Wk Str{8e{Wet{x~
+~
+You walk along a long street running along the southern wall of the
+city.  A long {ydirt road{x runs east and west.  Building walls lie to the
+north, while to the south stretches the southern walls of Thalos.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 5251
+D3
+~
+~
+0 0 5289
+S
+#5291
+{GOl{gd {yT{gh{Galo{gs {yP{Gark{x~
+~
+The path through the park continues here, through quiet, tall trees
+that grow silently within the walls of the city.  Many people come
+here to relax and enjoy a brief retreat to nature, even if forest
+surround this city on most sides.  It is the peace and safety that
+they come here for, with the greens being a fortunate accessory to
+their security.  
+~
+0 0 0 0
+0
+D1
+~
+~
+0 0 5209
+D3
+~
+~
+0 0 5228
+S
+#5292
+{yP{Gark {yW{Galk{x~
+~
+This dirt road marks the entrance to the {GOl{gd {yT{gh{Galo{gs {yP{Gark{x, which
+runs just west of here.  There is little else nearby, as the newly
+paved road to the east has deterred businesses and patrons from this
+part of town.  
+~
+0 0 0 21
+0
+D1
+~
+~
+0 0 5241
+D3
+~
+~
+0 0 5243
+S
+#5293
+{&Sk{ByWi{&ng{x Exotic Stables{x~
+~
+A large barn, full of stalls and pens.  However the mounts are rare
+breeds, and exotic animals.  In some cases even fantastic.  The owner Eben
+Skywing is an experianced rider, masterful even.  He can tell you anything
+you need to know about any animal that can be mounted 
+~
+0 536870912 0 13
+0
+D3
+~
+~
+0 0 5216
+S
+#5294
+Skywing's Exotic Stables Backroom~
+~
+~
+0 4 0 0
+0
+S
+#5295
+The Doorstep of FatTony~
+~
+You stand inside the apartment above Wanderer's Cafe.  A door
+stands to the north, leading into the only apartment in the building. 
+A large window looks east, outside to the streets of Thalos.  The
+stairs lead back down to the Cafe.  
+~
+0 8 0 0
+0
+D0
+~
+~
+776 5295 5296
+D5
+~
+~
+0 0 5221
+S
+#5296
+The Living Room~
+~
+You stand in a very large living room.  The rug is a dark brown
+color, almost the color of wood.  A chair sets next to the couch, with
+a coffee table infront of it.  Large windows overlook Grey Street, and
+a chair sits facing northwards, towards the intersection of Grey and
+Main Street.  To the west, you see the kitchen.  To the south is the
+front door.  
+~
+0 8 0 0
+0
+D2
+~
+~
+776 0 5295
+D3
+~
+~
+0 0 5297
+Q 5203
+S
+#5297
+The Kitchen~
+~
+You stand in the kitchen of the apartment.  Large cabinets hang
+from the walls, filled with food.  A large iron ice-box sits to one
+corner, humming from the mechanics inside it, and as the makou gas
+burns.  A large makou gas stove stands a few feet from the ice-box,
+and next to that, a sink.  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 5296
+D2
+~
+~
+0 0 5298
+D3
+~
+~
+0 0 5299
+S
+#5298
+The Bed Room Of FatTony~
+~
+You stand in the bedroom of FatTony.  The room is pretty much
+filled with all diffrent types of furniture.  A large bed sits in the
+middle of the room, a desk to one wall, a dresser on the other.  A
+small table sits to one side, facing the alley-way to the south.  A
+bottle and shot glass sits on the table, the bottle is about half
+full.  
+~
+0 8 0 0
+0
+D0
+~
+~
+0 0 5297
+S
+#5299
+The Office Of FatTony~
+~
+You step into a cramp office in the apartment.  The whole office is
+made out of a dark wood.  The walls are nothing but shelves, filled
+with books.  In the middle of the room is FatTony's desk, which is
+somewhat clean.  
+~
+0 8 0 0
+0
+D1
+~
+~
+0 0 5297
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 0 5237 4 2
+D 0 5245 5 2
+D 0 5261 1 2
+D 0 5267 3 1
+D 0 5268 1 1
+D 0 5270 5 1
+D 0 5295 0 2
+D 0 5296 2 2
+M 0 5224 2 5200 2
+M 0 5213 1 5202 1
+M 0 5214 1 5202 1
+M 0 5213 2 5203 2
+M 0 5214 2 5203 2
+O 0 5251 0 5203
+M 0 5213 1 5204 1
+M 0 5214 1 5204 1
+M 0 5287 1 5207 1
+G 0 5290 0
+G 0 5291 0
+G 0 5292 0
+G 0 5293 0
+M 0 5215 1 5208 1
+G 0 5235 0
+M 0 5216 2 5208 2
+M 0 5215 1 5209 1
+G 0 5232 0
+M 0 5216 1 5209 1
+O 0 5205 0 5209
+M 0 5213 2 5210 2
+M 0 5214 2 5210 2
+M 0 5213 2 5212 2
+M 0 5214 2 5212 2
+M 0 5212 1 5213 1
+G 0 5241 0
+M 0 5216 2 5213 2
+M 0 5213 2 5214 2
+M 0 5214 2 5214 2
+M 0 5213 2 5215 2
+M 0 5214 2 5215 2
+M 0 5218 1 5216 1
+G 0 5237 0
+M 0 5215 1 5216 1
+M 0 5216 1 5216 1
+M 0 5213 2 5217 2
+M 0 5214 2 5217 2
+M 0 5215 2 5218 2
+G 0 5239 0
+M 0 5216 1 5218 1
+M 0 5203 1 5219 1
+G 0 5220 0
+G 0 5222 0
+G 0 5223 0
+G 0 5224 0
+G 0 5225 0
+G 0 5226 0
+M 0 5201 1 5220 1
+G 0 5216 0
+G 0 5217 0
+G 0 5218 0
+G 0 5219 0
+O 0 5258 0 5221
+O 0 5259 0 5221
+M 0 5211 1 5221 1
+G 0 5261 0
+G 0 5262 0
+G 0 5260 0
+G 0 5263 0
+G 0 5264 0
+G 0 5265 0
+G 0 5266 0
+G 0 5268 0
+G 0 5267 0
+G 0 5269 0
+G 0 5270 0
+M 0 5213 2 5222 2
+M 0 5214 2 5222 2
+M 0 5221 1 5223 1
+M 0 5213 2 5224 2
+M 0 5214 2 5224 2
+M 0 5200 1 5225 1
+G 0 5210 0
+G 0 5206 0
+G 0 5208 0
+G 0 5211 0
+G 0 5214 0
+G 0 5215 0
+M 0 5212 1 5226 1
+G 0 5273 0
+M 0 5217 1 5227 1
+M 0 5220 1 5227 1
+M 0 5215 2 5228 2
+M 0 5216 1 5228 1
+G 0 5234 0
+M 0 5202 1 5229 1
+G 0 5207 0
+G 0 5257 0
+G 0 5289 0
+G 0 5294 0
+M 0 5204 1 5230 1
+G 0 5227 0
+G 0 5228 0
+G 0 5230 0
+G 0 5231 0
+G 0 5232 0
+G 0 5233 0
+M 0 5222 1 5230 1
+O 0 5288 0 5231
+M 0 5225 1 5231 1
+M 0 5224 2 5232 2
+O 0 5287 0 5233
+M 0 5224 1 5235 1
+G 0 5256 0
+M 0 5226 1 5237 1
+O 0 5271 0 5237
+O 0 5203 0 5240
+O 0 5204 0 5240
+P 0 5286 1 5204 1
+M 0 5223 1 5240 1
+M 0 5213 2 5241 2
+M 0 5214 2 5241 2
+M 0 5215 2 5242 2
+M 0 5216 2 5242 2
+M 0 5213 2 5242 2
+M 0 5214 2 5242 2
+M 0 5213 1 5244 1
+O 0 5271 0 5245
+O 0 5272 0 5245
+M 0 5249 1 5249 1
+O 0 5250 0 5250
+M 0 5200 1 5250 1
+E 0 5208 0 11
+E 0 5223 0 3
+M 0 5215 2 5251 2
+M 0 5213 2 5252 2
+M 0 5214 2 5252 2
+M 0 5216 1 5253 1
+G 0 5243 0
+O 0 5253 0 5263
+P 0 5215 4 5225 1
+P 0 5216 4 5225 1
+M 0 5265 1 5265 1
+O 0 5254 0 5266
+M 0 5111 2 5267 1
+E 0 5100 0 16
+M 0 5268 1 5268 1
+M 0 5110 2 5270 2
+E 0 5100 0 16
+M 0 5110 2 5270 2
+E 0 5100 0 16
+M 0 5111 2 5272 1
+E 0 5100 0 16
+M 0 5210 1 5282 1
+M 0 5206 1 5283 1
+M 0 5205 1 5283 1
+M 0 5207 1 5283 1
+M 0 5209 1 5283 1
+M 0 5224 1 5284 1
+M 0 5227 1 5293 1
+M 0 5228 1 5294 1
+M 0 5229 1 5294 1
+M 0 5230 1 5294 1
+M 0 5231 1 5294 1
+M 0 5232 1 5294 1
+O 0 5296 0 5296
+O 0 5297 0 5297
+O 0 5298 0 5298
+O 0 5299 0 5299
+S
+
+
+
+#SHOPS
+5200 3 8 2 0 0 120 50 8 23
+5201 0 10 0 0 0 120 80 8 21
+5202 0 33 27 9 0 150 10 0 23
+5203 41 40 0 0 0 150 25 7 24
+5204 0 9 5 0 0 130 70 8 18
+5210 0 0 0 0 0 100 100 0 23
+5211 17 19 0 0 0 100 0 0 23
+5227 0 0 0 0 0 100 100 0 23
+5287 0 26 4 17 12 120 80 0 23
+0
+
+
+
+#MOBPROGS
+#5200
+~
+mob echo Teeler rolls up a joint, as he waits for you to make your selection.
+~
+#5201
+~
+say Not now.  No interuptions please, got work to do you know.
+~
+#5202
+~
+say Eh...an adventurer are ya?
+say Well if you can bring me some dwarven ore, I'll make ya a fine blade to start with.
+~
+#5203
+~
+say Ahhh!! Just what I was looking for!!
+say One miniute $n.
+mob echo Gainer heats the ore and begins to pound furriously on it, quickly crafting a fine blade.
+mob oload 5285
+give blade $n
+mob junk 'dwarven ore'
+say Good luck on your journey!!
+mob echo Gainer sighs and returns to work.
+~
+#5265
+~
+MOB TRANSFER $n 21630
+MOB FORCE $n LOOK
+~
+#5266
+Onyx Gates {GFIGHT {ginstakill 10%{x~
+mob echoat $n $I suddenly come off their hinges and falls upon you, causing {RMASSIVE DAMAGE{x!
+mob echoaround $n $I come off its hinges and falls upon $n, crushing $m!
+mob cast blind $n
+mob cast blind $n
+mob cast blind $n
+mob cast blind $n
+mob damage $n 500000 500000 lethal
+~
+#5267
+Onyx Gates {GFIGHT {gblind check{x~
+if affected $I blind
+  mob cast 'cure blindness' $I
+  mob cast 'cure blindness' $I
+  mob cast 'cure blindness' $I
+  mob damage all 20000 30000
+else
+endif
+~
+#5268
+librarian {GGIVE {gbook war gods - new ofcol area quest{x~
+say Mind you, reshelve your own books!
+ mob echoat $n $I is startled as you hand her the book.
+ mob echo $I looks down at the book in her hands.
+ say Oh my.  This book is ancient.
+ mob echo $I begins looking through the book carefully.
+ say Yes, the details of the ancient war is here.
+ say I am very interested in this book.
+ say I can offer you other books in my collection as trade.
+ say A book of {Mspells{m, a book of {Mrecipes{m, and a book of {Msecrets{x
+ say Take your pick.
+~
+#5269
+librarian {GSPEECH {grecipes - new ofcol area quest{x~
+if carries $I 13720
+ say Ah recipes is it?  Well I have a spendid book for you indeed!
+ mob echo $I stacks several large books upon the ground as a stepstool.
+ mob echo $I reaches up to the top of the tallest bookshelf and grabs an old book.
+ mob echo $I brings it down, almost stumbling over in the process.
+ say My yes.  Here it is.
+ mob junk istackbook
+ mob oload 5236
+ give recipe $n
+ say Well, not the most popular selection, but maybe a drow would like it.
+ say Though good luck finding a skilled cook that can take on those concoctions.
+ say The wizards say there's a good cook where they went to school.
+ say I'd try there.
+ smile
+else
+ break
+endif
+~
+#5270
+librarian {GSPEECH {gsecrets - new ofcol area quest{x~
+if carries $I 13720
+ say Secrets interest you eh?  Well I have a spendid book for you indeed!
+ mob echo $I stacks several large books upon the ground as a stepstool.
+ mob echo $I reaches up to the top of the tallest bookshelf and grabs an old book.
+ mob echo $I brings it down, almost stumbling over in the process.
+ say My yes.  Here is one of my many book of secrets!
+ mob junk istackbook
+ if rand 90
+  mob oload 5209
+  give book $n
+  say Enjoy the book.  I will enjoy mine!
+  mob echo $I places $s book upon the desk and begins reading, enthralled.
+  break
+ else
+  if rand 70
+   mob oload 5213
+   give book $n
+   say Enjoy the book.  I will enjoy mine!
+   mob echo $I places $s book upon the desk and begins reading, enthralled.
+   break
+  else
+   mob oload 5212
+   give book $n
+   say I could barely reach the others, but this will do.
+   say Enjoy the book.  I will enjoy mine!
+   mob echo $I places $s book upon the desk and begins reading, enthralled.
+   break
+  endif
+ endif
+else
+ break
+endif
+~
+#5271
+librarian {GSPEECH {gspells - new ofcol area quest{x~
+if carries $I 13720
+ say Spells interest you eh?  Well let me look you over.
+ mob echoat $n $I looks you over.
+ say Yes, well I think you are fluent in arcane runes.
+ say Even the obscure ones that this book is written in.
+ mob echo $I begins rummaging through $s shelves.
+ mob echo $I finds an old book, and pulls it down.
+ mob junk istackbook
+ mob oload 5229
+ give book $n
+ say I'm sure you can decipher those spells.
+ say None of the wizards could.  Good luck!
+else
+ break
+endif
+~
+#0
+
+#$

@@ -1,0 +1,1114 @@
+#AREADATA
+Name Cavern of the Tarrasque~
+Builders None~
+VNUMs 17000 17099
+Credits [80 GR HR] Tarrasque's Lair~
+Security 10
+Recall 3001
+Faction ~
+AQpoints 0
+Realm 4
+End
+
+
+
+#MOBILES
+#17000
+tall bull headed creature angry minotaur~
+{&An {1angry{& minotaur{0~
+{&A tall, bull headed creature stands here, shouldering a hefty axe.{0
+~
+{*These bull headed creatures wander the endless realms of their
+subterranean mazes, searching for something lost to their people for
+countless ages.  {0 
+~
+minotaur~
+ACFG La 0 -1500 1
+109 60 39d39+9201 13d119+8804 5d22+43 none
+-40 -40 -40 -40
+EFKR L E E
+stand stand male 1100
+AHMV ABCDEFGHIJKW medium unknown
+D ~
+T ~
+#17001
+short encloaked figure duergar dark dwarf~
+{*A D{&ue{*rgar Dw{&a{*rf{0~
+{&A short, encloaked figure is here.{0
+~
+~
+dwarf~
+ACGd JVZ 0 -1000 0
+109 55 39d39+9201 13d119+8804 5d22+43 crush
+-35 -35 -35 -35
+BEFGHLR 0 FLQ RS
+stand stand male 340
+AHMV ABCDEFGHIJK medium unknown
+D ~
+T ~
+#17002
+Gargantuan Giant Tarrasque~
+{*The mighty Tarrasque{0~
+A {8gargantuan{x, {yfur {wcovered {gbeast {xtowers here.
+~
+This unspeakably huge creatures great teeth drip with eager juices, and
+its eyes gleam with a feral, unquenchable hunger.  Savage while slumbering,
+this gargantuan is even more vile while awake.  Consuming everything in its
+path merely for the sake of an insatiable appetite, it resembles nothing you
+have ever seen.  Part dragon perhaps, its rippling fleshy body is covered
+with a dark, rusty color.  An odor that defies words surround it, and its
+claws are larger by far than the largest sword wielded by any hero.  
+~
+dragon~
+ACFUd DFJVZac H 0 0
+109 350 2800d280+2800 2800d280+2800 350d50+500 crush
+-90 -90 -90 -90
+ACDEFGHIJKMO ABCLQ BDEH FI
+stand stand male 0
+AHZ ACDEFGHIJKQUV giant unknown
+D ~
+T ~
+F aff T
+F par PX
+M FIGHT 17002 15~
+M FIGHT 17001 15~
+M RANDOM 17003 4~
+M GREET 17004 100~
+M DEATH 17000 100~
+#0
+
+
+
+#OBJECTS
+#17000
+Axe Huge Two-Handed~
+{*A massive, two-handed iron axe{0~
+{*An enormous double bladed axes lies here.{)~
+iron~
+weapon Y AN
+axe 9 15 slash DF
+91 27 8000 P
+~
+~
+~
+~
+~
+E
+axe~
+{*You marvel at the simple, yet deadly nature of this brutal weapon. 
+It's edge is razor sharp, and its enormous weight is finely balanced.  {0 
+~
+#17001
+Sharpened Fang Sword Tarrasque~
+{*The Sharpened {7Fang{* of the Tarrasque{0~
+{&an enormous, gleaming tooth is here.{0~
+Tarrasque~
+weapon GMY AN
+sword 22 14 slash DF
+101 12 23500 P
+~
+~
+~
+~
+~
+A
+24 -4
+A
+19 25
+#17002
+scaled tunic skin hide mighty tarrasque~
+the {gS{Gc{wal{Ge{gd {yS{gki{yn {xof the {rM{Ri{rgh{Rt{ry {8Tarrasque{x~
+A sturdy {mt{Mu{wn{Mi{mc {xlies here, fashioned from the {gs{Gc{wal{Ge{gd {yh{gid{ye {xof some great beast.~
+unknown~
+armor 0 AK
+20 20 20 20 0
+99 300 124800 P
+A
+17 -12
+A
+18 20
+A
+19 10
+A
+1 1
+A
+5 1
+L This tunic was fashioned from the strongest scales of the beast known as the Tarrasque.~
+#0
+
+
+
+#ROOMS
+#17000
+{3In the {2Forest{3 Before a {*Dark Cavern{0~
+~
+{2The branches of nearby trees reach and grope towards you, their
+branches hanging low in the season.  To your east is a large, gaping
+cave, entrenched in shadows, while to the west drapes you deeper into
+the forest.  Few tracks or footsteps lie in the vicinity of the
+cavern, and even fewer come from the cave itself.  {0 
+~
+0 4 0 3
+0
+D1
+~
+~
+0 0 17001
+D3
+~
+~
+0 0 3512
+S
+#17001
+{3An Opening in a Dark Cave{0~
+~
+{*The reassuring light from outside is not so prevailent here, and more
+dark than light now shrouds you.  The rock draws you inward with
+fl{&I{*ck{&e{*rs of light deeper within.  You shudder as you continue on
+your path.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17002
+D3
+~
+~
+0 0 17000
+S
+#17002
+{3Deeper Into the Cave{0~
+~
+{*The cavern twists and turns, and not far from here is total darkness. 
+You can travel into that darkness or back to the comforting embrace of the
+light outside.  Having made your decision, you go on your way.  { 0 
+~
+0 524296 0 20
+0
+D3
+~
+~
+0 0 17001
+D5
+~
+~
+0 0 17003
+S
+#17003
+{3Beneath a Stone Shelf{0~
+~
+{*Already dark, this fold of the cavern is blacker still.  Neither light
+nor cheer have any welcome here.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17004
+D4
+~
+~
+0 0 17002
+S
+#17004
+{3Beneath a Stone Shelf{0~
+~
+{*The cave here is enveloped in darkness, unpenetrated by any glimmer of
+the world you once knew outside.  Every direction is full of the same gloom
+that you have followed these many turns and twists.  A faint
+{6draft{*caresses your skin briefly, and vanishes in a whisp of memory.  {0 
+~
+0 524296 0 20
+0
+D3
+~
+~
+0 0 17003
+D4
+~
+~
+0 0 17005
+S
+#17005
+{3The Edge of a Steep Precipe{0~
+~
+{*Miserable dark, uncompassionate stone walls.  You grow weary of the
+unending boredom of it all.  A vast desert of nothingness, these caves hold
+nothing of the splendor that dwarves create with their magnificent tools. 
+Crude and simple, these are mockeries of subterranean glamour.  {0 
+~
+0 524288 0 20
+0
+D2
+~
+~
+0 0 17006
+D5
+~
+~
+0 0 17004
+S
+#17006
+{3The Edge of a Steep Precipe{0~
+~
+{*Loose pebbles scatter beneath your feet, and clouds of dust reach up to
+embrace your lungs.  The walls stretch endlessly in all directions, marred
+with the occasional cleft, created during some long-forgotten conflict. 
+Light is devoured by the dark of the caves around you.  {0 
+~
+0 524288 0 20
+0
+D0
+~
+~
+0 0 17005
+D5
+~
+~
+0 0 17007
+S
+#17007
+~
+~
+{*A small hole is here, unremarkable except for its inconspicuocy in
+these otherwise conformist halls.  It contains nothing but a brittle,
+{xwhite{* powder, but its presence is somehow disturbing.  From somewhere
+far in the distance, or perhaps close by, a hammer-stroke reverberates
+throughout the caverns, indicating at last that you are not alone, and
+perhaps, not unnoticed.  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17006
+D5
+~
+~
+0 0 17008
+S
+#17008
+{3At the Bottom of a Dangerous Drop{0~
+~
+{*The roof slopes downward, forcing you to walk slightly hunched over. 
+Already weary of the monotony, this effort is an annoyance, but perhaps a
+deadly one.  The hammerwork sounds closer now, but the twists and turns of
+the cavern prevent anyone from finding the origination of the ominous
+sounds.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17009
+D4
+~
+~
+0 0 17007
+S
+#17009
+{3A Curve in the Tunnels of the Cave{0~
+~
+{*Walls close in on you, scraping your shoulders, and making the tedious
+travel notably slower.  Inching forward, you realize the ground beneath your
+feet is not solid, as a small piece of earth breaks away and plummets to
+some unknowable depth and fate.  Looking upwards, you continue on your way. 
+{0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17010
+D3
+~
+~
+0 0 17008
+S
+#17010
+{3A Curve in the Tunnels of the Cave{0~
+~
+{*The stone here breaks the unending darkness with a {#glimmer{* of some
+ore, but in these dark dwellings, even the greediest dwarf would continue on
+his way.  The very air about you is threatening, and breathing is becoming
+more difficult.  The sounds of hammers have faded now, to be replaced by
+some worse, unidentifiable sound.  Worse because you dont know what it is. 
+{0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17011
+D2
+~
+~
+0 0 17009
+S
+#17011
+{3A Curve in the Tunnels of the Cave{0~
+~
+{*The tunnel here twists upon itself.  You wonder if this is the way you
+mean to go, or if the caves have somehow unnaturally moved your feet in a
+new direction.  You glance about, but catch sight of no clues to aid your
+decision.  {0 
+~
+0 524296 0 20
+0
+D2
+~
+~
+0 0 17012
+D3
+~
+~
+0 0 17010
+S
+#17012
+{3Above a Precipe{0~
+~
+{*This hell continues unremarkably.  Nothing but that damnable noise. 
+The occasional scuttering sounds of some insect reach your ears, but you see
+nothing.  The darkness is drawing away your hope, making every step a
+strain.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17011
+D5
+~
+~
+0 0 17013
+S
+#17013
+{3Scaling a Vertical Wall{0~
+~
+{*You scale this dangerous stone wall in almost total darkness.  The
+handholds are old and loose, and pieces of earth crumble away beneath your
+fumbling fingers.  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17012
+D5
+~
+~
+0 0 17014
+S
+#17014
+{3A Chamber Among the Corridors{0~
+~
+{*Continuing your journey, you stumble briefly.  Cursing aloud, you
+suddenly fall silent.  The rumbling noise that has been your companion has
+fallen silent.  Worried, you pause where you stand, but the noise resumes in
+its now familiar rumbling crescendos.  Some great beast sleeps nearby, but
+where?  In this dreary hole, it could be anywhere.  {0 
+~
+0 524296 0 20
+0
+D2
+~
+~
+0 0 17015
+D4
+~
+~
+0 0 17013
+S
+#17015
+{3Among the Twisting Caverns{0~
+~
+{*Walls close in on you, scraping your shoulders, and making the tedious
+travel notably slower.  Inching forward, you realize the ground beneath your
+feet is not solid, as a small piece of earth breaks away and plummets to
+some unknowable depth and fate.  Looking upwards, you continue on your way. 
+{0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17014
+D1
+~
+~
+0 0 17016
+S
+#17016
+{3Among the Twisting Caverns{0~
+~
+{*The stone wall turns sharply, and your feet follow its journey of their
+own accord.  The monotony in itself is almost lethal.  You feel your muscles
+and senses dulling with each step.  {0 
+~
+0 524296 0 20
+0
+D2
+~
+~
+0 0 17017
+D3
+~
+~
+0 0 17015
+S
+#17017
+{3Among the Twisting Caverns{0~
+~
+{*The cavern narrows about you, just a formation of the earth, but you
+nonetheless feel as if it is attempting to clench you in its grasp.  You
+step your pace slightly, and continue quickly on your way.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17016
+D3
+~
+~
+0 0 17018
+S
+#17018
+{3Atop a Stone Shelf{0~
+~
+{*Your travel is paced by the echoing snores, but your mind is clouded by
+the wearying course.  Anger swells up in your chest, only to be crushed
+swiftly by a reminder of where you are.  In these tight walls is barely room
+to swing a sword or cast a spell.  Whatever lurks here holds the advantage,
+and you must be wary.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17017
+D5
+~
+~
+0 0 17019
+S
+#17019
+{3Scaling an Earthen Cliff{0~
+~
+{*You scale this dangerous stone wall in almost total darkness.  The
+handholds are old and loose, and pieces of earth crumble away beneath your
+fumbling fingers.  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17018
+D5
+~
+~
+0 0 17020
+S
+#17020
+{3A Chamber Among the Corridors{0~
+~
+{*The cave here is enveloped in darkness, unpenetrated by any glimmer of
+the world you once knew outside.  Every direction is full of the same gloom
+that you have followed these many turns and twists.  A faint
+{6draft {*caresses your skin briefly, and vanishes in a whisp of memory.  {0 
+~
+0 524296 0 20
+0
+D3
+~
+~
+0 0 17021
+D4
+~
+~
+0 0 17019
+S
+#17021
+{3Among the Twisting Caverns{0~
+~
+{*Loose pebbles scatter beneath your feet, and clouds of dust reach up to
+embrace your lungs.  The walls stretch endlessly in all directions, marred
+with the occasional cleft, created during some long-forgotten conflict. 
+Light is devoured by the dark of the caves around you.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17020
+D2
+~
+~
+0 0 17022
+S
+#17022
+{3A Deceptive Curve in the Caverns{0~
+~
+{*Continuing your journey, you stumble briefly.  Cursing aloud, you
+suddenly fall silent.  The rumbling noise that has been your companion has
+fallen silent.  Worried, you pause where you stand, but the noise resumes in
+its now familiar rumbling crescendos.  Some great beast sleeps nearby, but
+where?  In this dreary hole, it could be anywhere.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17021
+D3
+~
+~
+0 0 17023
+S
+#17023
+{3Among the Winding Corridors{0~
+~
+{*The tunnel here twists upon itself.  You wonder if this is the way you
+mean to go, or if the caves have somehow unnaturally moved your feet in a
+new direction.  You glance about, but catch sight of no clues to aid your
+decision.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17022
+D5
+~
+~
+0 0 17024
+S
+#17024
+{3Scaling a Section of the Caverns{0~
+~
+{*The cavern narrows about you, just a formation of the earth, but you
+nonetheless feel as if it is attempting to clench you in its grasp.  You
+step your pace slightly, and continue quickly on your way.  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17023
+D5
+~
+~
+0 0 17025
+S
+#17025
+{3Beneath a Cliff{0~
+~
+{*Your travel is paced by the echoing snores, but your mind is clouded by
+the wearying course.  Anger swells up in your chest, only to be crushed
+swiftly by a reminder of where you are.  In these tight walls is barely room
+to swing a sword or cast a spell.  Whatever lurks here holds the advantage,
+and you must be wary.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17026
+D4
+~
+~
+0 0 17024
+S
+#17026
+{3A Narrow Curve in the Tunnels{0~
+~
+{*Stumbling feet continue along dull, barren stone.  Oppressive darkness
+swells up around you, and the walls are shaking slightly from the rumble of
+the unknown gargantuan.  How long has his slumber disturbed these aging
+rocks?  {0 
+~
+0 524296 0 20
+0
+D2
+~
+~
+0 0 17025
+D3
+~
+~
+0 0 17027
+S
+#17027
+{3Among the Twisting Corridors{0~
+~
+{*The tunnel turns here, and you have little choice but to continue with
+it.  The consolation that the journey has not needed your course to branch
+off is briefly reassuring.  However, the creatures supreme undeniable
+confidence is eerily disturbing.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17028
+D1
+~
+~
+0 0 17026
+S
+#17028
+{3Among the Twisting Corridors{0~
+~
+{*Loose pebbles scatter beneath your feet, and clouds of dust reach up to
+embrace your lungs.  The walls stretch endlessly in all directions, marred
+with the occasional cleft, created during some long-forgotten conflict. 
+Light is devoured by the dark of the caves around you.  {0 
+~
+0 524296 0 20
+0
+D2
+~
+~
+0 0 17027
+D5
+~
+~
+0 0 17029
+S
+#17029
+{3Scaling a Stone Cliff{0~
+~
+{*Miserable dark, uncompassionate stone walls.  You grow weary of the
+unending boredom of it all.  A vast desert of nothingness, these caves hold
+nothing of the splendor that dwarves create with their magnificent tools. 
+Crude and simple, these are mockeries of subterranean glamour.  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17028
+D5
+~
+~
+0 0 17030
+S
+#17030
+{#Beneath a Stone Shelf{0~
+~
+{*The rocks beneath your feet seem to be moving of their own accord,
+fleeing from the shaking floor and seeking to escape some unknown fate.  {0 
+~
+0 524296 0 20
+0
+D2
+~
+~
+0 0 17031
+D4
+~
+~
+0 0 17029
+S
+#17031
+{3Among the Twisting Caverns{0~
+~
+{*You continue journeying these deep depth.  Why did you come here?  What
+reward did you seek?  Who promised it?  The questions remain unanswered in
+your mind.  That you do not recall these details is disturbing.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17030
+D2
+~
+~
+0 0 17032
+S
+#17032
+{3Among the Twisting Caverns{0~
+~
+{*Taking pains, you attempt to dull your hearing.  The noise emitted from
+that unseen mouth is almost painful now.  The walls are vibrating with a
+disturbing ferociousness.  Your take comfort only in the age of them, surely
+they have endured this tribulation long, and shall for some time continue to
+do as such.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17031
+D1
+~
+~
+0 0 17033
+S
+#17033
+{3A Curve in the Cavern{0~
+~
+{*You walk onward in the dark.  The walls seem to travel with you, so
+little do their features change.  One step is much like the countless steps
+before it, bringing you to some end not yet seen.  {0 
+~
+0 524296 0 20
+0
+D3
+~
+~
+0 0 17032
+D5
+~
+~
+0 0 17034
+S
+#17034
+{3A Dark, Twisting Cavern{0~
+~
+{*Small pebbles and rocks are falling from the ceiling overhead, and a
+faint hammering sound has resumed its beat.  Should you be comforted by the
+resumption of the hammers?  The unanswered question sits in your mind as you
+continue on your path.  {0 
+~
+0 524296 0 20
+0
+D3
+~
+~
+0 0 17035
+D4
+~
+~
+0 0 17033
+S
+#17035
+{3A Fissure in the Wall{0~
+~
+{*Still unchanged, you continue on your path amidst the stone rabble.  A
+small fissure in the wall brings with it some ancient wind to blow across
+your face.  How long since that sour air soared above with the eagles in the
+{7clouds{*?  What secrets does its tragic journey reveal that you yourself
+seek to find?  With a final brush, the breeze dies out again, searching for
+its own freedom.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17034
+D2
+~
+~
+0 0 17036
+S
+#17036
+{3Among the Twisting Caverns{0~
+~
+{*The rock here pivots about you, echoing some ancient sentiments
+perhaps, but the ritualistic beauty eludes you.  Answers are what you seek
+now, and you continue along your journey, leaving the scorned reminders
+behind.  {0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17035
+D1
+~
+~
+0 0 17037
+S
+#17037
+{3A Dark Cavern{0~
+~
+{*You come to a stop.  Here at last is something to break the mind
+dulling quest.  The wall here is carven with some ancient inscription.  Its
+language long forgotten by the world, its message tragically has been lost
+with it.  What hand seeked to tell the world some important thought?  Did he
+bid travellers return, or perhaps it is a plea for help?  You ponder the
+possibilities as you continue along the road set before you.  {0 
+~
+0 524296 0 20
+0
+D3
+~
+~
+0 0 17036
+D5
+~
+~
+0 0 17038
+S
+#17038
+{3Among the Twisting Caverns{0~
+~
+{*More rock.  The walls and stone gracefully run out of your way,
+climbing and folding upon itself as you travel along their course.  Enticing
+you with their exotic lure, you are relieved to realize that the rumbling
+now echos from far away, and the world around you sits still again.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17039
+D4
+~
+~
+0 0 17037
+S
+#17039
+{3Among the Twisting Caverns{0~
+~
+{*The floor spits up its long held dust as your feet disturb its resting
+surface, its hostility running alongside your feet with each hateful step. 
+{0 
+~
+0 524296 0 20
+0
+D0
+~
+~
+0 0 17040
+D3
+~
+~
+0 0 17038
+S
+#17040
+{3Among the Twisting Caverns{0~
+~
+{*As you continue on your way, the floor under you narrows as the wall
+drops away, leaving you travelling along a dangerous precipice, with neither
+a floor nor ceiling in sight, you shy away from that course, something there
+does not wish to be disturbed, and you are happy to oblige whatever it may
+be.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17041
+D2
+~
+~
+0 0 17039
+S
+#17041
+{3At the Edge of a Long Fall{0~
+~
+{*The precipice has ended, and once again you are enclosed on all sides
+by the gloom and dark stone.  With a bitter thought, you realize that you
+had missed their presence.  Damn this place!  You shall be glad indeed to be
+rid of it for good or ill.  {0 
+~
+0 524296 0 20
+0
+D5
+~
+~
+0 0 17042
+S
+#17042
+{#Scaling a Granite Wall{0~
+~
+{*More stones, soil and darkness.  You are almost entranced by the
+repetitive nature of the earthen world about you.  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17041
+D5
+~
+~
+0 0 17043
+S
+#17043
+{#Scaling a Granite Wall{0~
+~
+{*You scale this dangerous stone wall in almost total darkness.  The
+handholds are old and loose, and pieces of earth crumble away beneath your
+fumbling fingers.  {0 {* Beneath you the ledge drops precariously far, and
+enters an enormous natural cavern.  The rumbling is now louder than ever. 
+There are only two choices before you, which will you take?  {0 
+~
+0 524296 0 20
+0
+D4
+~
+~
+0 0 17042
+D5
+~
+~
+0 0 17044
+S
+#17044
+{3Beneath an Enormous Ledge{0~
+~
+{*You stand at the foot of a great stone face.  All around you are
+towering stone walls, climbing to the heights above you.  The unscalable
+wall lies westward, while a deep rumbling noise comes from the east.  {0 
+~
+0 524296 0 20
+0
+D1
+~
+~
+0 0 17045
+S
+#17045
+{3A Rough Stone Cavern{0~
+~
+{*This far end of a great cavern encompasses your sight in a huge
+semicircular form.  The stone here is roughly hewn, and scattered remains
+litter the scenery before you.  In a corner draped in darkness you see a
+small gateway, covered with an ancient iron portculis.  {0 
+~
+0 67641352 0 20
+0
+D3
+~
+~
+0 0 17044
+S
+#17046
+~
+~
+~
+0 201326604 0 0
+0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+M 0 17001 22 17002 2
+M 0 17001 22 17005 2
+M 0 17001 22 17009 2
+M 0 17000 24 17011 3
+E 0 17000 0 16
+M 0 17000 24 17011 3
+E 0 17000 0 16
+M 0 17000 24 17014 3
+E 0 17000 0 16
+M 0 17001 22 17017 2
+M 0 17000 24 17017 1
+E 0 17000 0 16
+M 0 17000 24 17020 1
+M 0 17001 22 17021 2
+M 0 17001 22 17023 2
+M 0 17000 24 17025 2
+M 0 17000 24 17027 2
+E 0 17000 0 16
+M 0 17001 22 17030 2
+M 0 17000 24 17030 2
+M 0 17001 22 17033 2
+M 0 17000 24 17034 2
+M 0 17001 22 17036 2
+M 0 17000 24 17037 2
+M 0 17000 24 17039 1
+M 0 17000 24 17044 4
+M 0 17002 1 17045 1
+E 0 17001 0 16
+M 0 17002 1 17046 1
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#17000
+~
+if rand 90
+ mob oload 17002
+endif
+mob echo $I shudders briefly before collapsing to the ground in a lifeless heap.
+mob zecho A tremendous explosion rocks the earth, knocking you to the ground.
+mob echo 
+mob echo The cavern begins to crumble about you!
+mob echo Perhaps your victory will also spell your doom...
+mob damage all 2000 6000 lethal
+~
+#17001
+~
+mob echoaround $I swings a great fist at $r, knocking the wind from him and sending him 
+mob echoaround $r flying against the far wall!
+mob echoat $r $I pummels you with a great fist, sending you flying through the air!
+mob damage $r 3000 4000 lethal
+mob trans $r 17044
+~
+#17002
+~
+mob echoat $n $I roars loudly, and with a savage bite, closes his great fangs upon you.  
+mob echoat $n Without even time to scream, your world goes black, and night closes upon you.
+mob echoaround $n $I throws his head back and emits a deep, treachorous cry,  then 
+mob echoaround $n lunges forward and savagely tears the head from $ns suddenly
+mob echoaround $n lifeless form.  The brutal speed of his actions are horrifying.
+mob damage $n 100000 100000 lethal
+~
+#17003
+~
+mob zecho {3The earth shakes and rumbles, tossing rocks about you as you shield yourself from the projectiles.
+~
+#17004
+~
+if level $n > 101
+ if rand 50
+  mob echoat $n $i rises up and swings its tail at you!
+  mob echoat $n You are thrown out of the room!
+  mob echoaround $n $I swings its massive tail at $N, knocking them out of the room!
+ else
+  mob echo $I rises up, towering over you!
+  mob echoat $N You should perhaps leave while you can!
+ endif
+else
+ mob cast 'earthquake'
+ mob echo $I stomps his foot, causing the cavern to shake violently.
+endif
+~
+#0
+
+#$
