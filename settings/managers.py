@@ -1,7 +1,9 @@
 """
 MANAGERS
 """
-# from mud.modules.combat import CombatManager
+from mud.managers.combat import CombatManager
+
+
 MANAGER_CLASSES = [
-    # CombatManager,
+    CombatManager,
 ]

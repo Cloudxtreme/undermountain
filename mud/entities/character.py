@@ -31,6 +31,18 @@ class Character(Actor):
         if not self.gender_id:
             self.gender_id = 'm'
 
+    def name_like(self, params):
+        if type(params) is None:
+            return False
+
+        if type(params) is not tuple:
+            params = tuple(params)
+
+        if len(params) > 1:
+            return False
+
+        return self.name.startswith(params[0])
+
     def format_room_name_to(self, other):
         # FIXME handle fighting
         output = self.name if other.can_see(self) else "Someone"

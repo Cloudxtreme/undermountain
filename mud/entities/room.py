@@ -26,6 +26,15 @@ class Room(GameEntity):
 
         return actors
 
+    def find_actor(self, cmp):
+        actors = self.get_actors()
+
+        for actor in actors:
+            if cmp(actor):
+                return actor
+
+        return None
+
     def get_exit(self, direction):
         from mud.entities.room_exit import RoomExit
         data = self.exits.get(direction, None)

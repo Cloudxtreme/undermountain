@@ -1,8 +1,9 @@
 from utils.entity import Entity
+from mud.mixins.get_game import GetGame
 import inspect
 
 
-class GameEntity(Entity):
+class GameEntity(Entity, GetGame):
     """
     GAME ENTITY
     """
@@ -20,28 +21,6 @@ class GameEntity(Entity):
     def __init__(self, game, data=None):
         super(Entity, self).__setattr__('game', game)
         super(GameEntity, self).__init__(data)
-
-    @classmethod
-    def get_game(cls):
-        from mud.game import Game
-
-        caller = cls.get_caller()
-        if type(caller) is Game:
-            return caller
-        return caller.game
-
-    @classmethod
-    def get_caller(cls):
-        try:
-            for frame in inspect.stack():
-                obj = frame[0].f_locals.get('self', None)
-                if obj is not None:
-                    return obj
-
-        except KeyError:
-            return None
-
-        return None
 
     @classmethod
     def check_game_collections(cls, game):

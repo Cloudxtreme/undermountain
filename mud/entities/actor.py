@@ -3,6 +3,31 @@ from mud.entities.object import Object
 from utils.entity import Entity
 
 
+def kill_command(actor, params, *args, **kwargs):
+    if not params:
+        actor.echo("Kill who?")
+        return
+
+    room = actor.get_room()
+    # TODO improve this logic with something like actor.find_visible_target_by_name
+    # FIXME improve this to use query logic
+    target = room.find_actor(cmp=lambda other:
+        other != actor and
+        other.name_like(params) and
+        actor.can_see(other)
+    )
+
+    if not target:
+        actor.echo("You can't kill what you can't find.")
+        return
+
+    if actor.can_attack(target):
+        actor.echo("You can't attack that target.")
+        return
+
+    actor.attack(target)
+
+
 def reload_command(actor, *args, **kwargs):
     import sys
     to_restart = ["mud", "utils"]
@@ -480,6 +505,32 @@ class Actor(RoomEntity):
 
         return None
 
+    def name_like(self, params):
+        if type(params) is None:
+            return False
+
+        # TODO improve this to use mob keywords
+        print("before", params)
+        if type(params) is not tuple:
+            params = tuple(params)
+
+        print("after", params)
+
+        for param in params:
+            matches = False
+            for keyword in self.keywords:
+                if keyword.startswith(param):
+                    matches = True
+                    break
+
+            if not matches:
+                return False
+
+        return True
+
+    def can_attack(self, target):
+        return False
+
     def find_command(self, word):
         from settings.directions import DIRECTIONS
         commands = [
@@ -507,6 +558,10 @@ class Actor(RoomEntity):
                 "keywords": "reload",
                 "handler": reload_command
             },
+            {
+                "keywords": "kill",
+                "handler": kill_command
+            },
         ]
 
         # FIXME use config
@@ -523,3 +578,8 @@ class Actor(RoomEntity):
                 return command
 
         return None
+
+    def attack(self, other):
+        room = self.get_room()
+        battle = Combat.get_by_room(room)
+        if not battle:

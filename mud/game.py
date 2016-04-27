@@ -1,5 +1,6 @@
 from gevent import Greenlet
 from settings.servers import SERVER_CLASSES
+from settings.managers import MANAGER_CLASSES
 import gevent
 import sys
 import traceback
@@ -83,6 +84,7 @@ class Game(Greenlet):
             "id": "westbridge:hogan",
             "area_id": "westbridge",
             "full_id": "westbridge:hogan",
+            "keywords": ["hollywood", "hogan"],
             "name": "Hollywood Hogan",
             "room_name": "Hollywood Hogan is here, looking out for Sting.",
             "room_id": "westbridge:3001",
@@ -188,7 +190,7 @@ class Game(Greenlet):
             gevent.sleep(1.0)
 
     def create_processes(self):
-        for process_class in SERVER_CLASSES:
+        for process_class in SERVER_CLASSES + MANAGER_CLASSES:
             process = process_class(self)
             self.processes.append(process)
             process.start()
