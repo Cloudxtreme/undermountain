@@ -71,24 +71,31 @@ class GameEntity(Entity, GetGame):
             game = cls.get_game()
 
         by_id = game.data[cls.COLLECTION_NAME + "_by_id"]
-        id = data["id"]
-        if not id in by_id:
-            by_id[id] = []
-        by_id[id].append(data)
+        id = data.get("id", None)
+        if id:
+            if not id in by_id:
+                by_id[id] = []
+            by_id[id].append(data)
 
-        uid = data["uid"]
-        game.data[cls.COLLECTION_NAME + "_by_uid"][uid] = data
+        uid = data.get("uid", None)
+        if uid:
+            game.data[cls.COLLECTION_NAME + "_by_uid"][uid] = data
 
     @classmethod
     def deindex(cls, data, game=None):
         if game is None:
             game = cls.get_game()
-        del game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]]
 
-        by_id = game.data[cls.COLLECTION_NAME + "_by_id"][data["id"]]
-        by_id.remove(self)
-        if not by_id:
-            del game.data[cls.COLLECTION_NAME + "_by_id"][data["id"]]
+        uid = data.get("uid", None)
+        if uid:
+            del game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]]
+
+        id = data.get("id", None)
+        if id:
+            by_id = game.data[cls.COLLECTION_NAME + "_by_id"][id]
+            by_id.remove(self)
+            if not by_id:
+                del game.data[cls.COLLECTION_NAME + "_by_id"][id]
 
     @classmethod
     def wrap(cls, game, data):
@@ -126,4 +133,4 @@ class GameEntity(Entity, GetGame):
 
         cls.check_game_collections(game)
 
-        return tuple(game.data[cls.COLLECTION_NAME])
+        return cls.wrap(game, game.data[cls.COLLECTION_NAME])

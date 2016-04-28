@@ -1,5 +1,6 @@
 from mud.room_entity import RoomEntity
 from mud.entities.object import Object
+from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
@@ -171,7 +172,8 @@ def walk_command(actor, command, *args, **kwargs):
     exiting_event = actor.event_to_room(
         "exiting",
         event_data,
-        room=current_room
+        room=current_room,
+        blockable=True
     )
 
     if exiting_event.is_blocked():
@@ -182,7 +184,8 @@ def walk_command(actor, command, *args, **kwargs):
     entering_event = actor.event_to_room(
         "entering",
         event_data,
-        room=target_room
+        room=target_room,
+        blockable=True
     )
 
     if entering_event.is_blocked():
@@ -360,6 +363,35 @@ class Actor(RoomEntity):
     def is_hero(self):
         return self.level == 101
 
+    def get_health_percent(self):
+        """
+        Get this actor's health percentage, as a float representing the
+        percentage of health remaining.  ex: 1.0 = 100%, 0.53 = 53%
+        """
+        return 1.0
+
+    def get_health_color(self):
+        percent = self.get_health_percent()
+        if percent >= (2/3):
+            return "G"
+
+        if percent >= (1/3):
+            return "Y"
+
+        return "R"
+
+    def format_combat_prompt(self):
+        target = self.get_combat_target()
+        if target is None:
+            return ""
+
+        return "{{R{} {{Ris in excellent condition. {{x[{{{}{}%{{x]".format(
+            target.format_name_for(self),
+            target.get_health_color(),
+            int(target.get_health_percent() * 100)
+        )
+        get_combat_target
+
     def format_prompt(self):
         if not self.prompt:
             return "{{R100{{8/{{R100{{Chp {{G100{{8/{{G100{{Cmana {{Y1000{{Cxp {{8{}{{x> ".format(
@@ -510,11 +542,8 @@ class Actor(RoomEntity):
             return False
 
         # TODO improve this to use mob keywords
-        print("before", params)
         if type(params) is not tuple:
             params = tuple(params)
-
-        print("after", params)
 
         for param in params:
             matches = False
@@ -581,5 +610,86 @@ class Actor(RoomEntity):
 
     def attack(self, other):
         room = self.get_room()
-        battle = Combat.get_by_room(room)
-        if not battle:
+        battle = Combat.get_by_actor(self)
+
+        if battle:
+            self.echo("You are already fighting someone.")
+            return
+
+        Combat.initiate_combat(self, other)
+
+    def damage(self, target, amount, skill=None, label=None, type=None, element=None, counterable=False, lethal=True, silent=False):
+        # Your creeping doom COMPLETELY TRASHES a dark elven figure! -=813=-
+        self.echo("Your {} {} {}{} -={}=-".format(
+            label if label is not None else "attack",
+            "COMPLETELY TRASHES",
+            target.format_name_to(self),
+            "!" if amount > 100 else ".",
+            amount
+        ))
+        target.echo("{}'s {} {} you{} -={}=-".format(
+            self.format_name_to(target),
+            label if label is not None else "attack",
+            "COMPLETELY TRASHES",
+            "!" if amount > 100 else ".",
+            amount
+        ))
+
+    def get_combat_target(self):
+        battle = Combat.get_by_actor(self)
+        if battle is None:
+            return None
+
+        for actor in battle.actors:
+            if actor == self:
+                continue
+            return actor
+        return None
+
+    def is_fighting(self):
+        battle = Combat.get_by_actor(self)
+        return battle is not None
+
+    def say(self, message):
+        say_command(self, message.split())
+
+    def tell(self, raw_target, message):
+
+        target = raw_target if isinstance(raw_target, Actor) else \
+            self.game.get_player_by_name(raw_target)
+
+        if not target:
+            self.echo("Target not found.")
+            return
+
+        self.echo("{{gYou tell {}{{g '{{G{}{{g'{{x".format(
+            target.format_name_to(self),
+            message
+        ))
+        if self != target:
+            target.echo("{{g{}{{g tells you '{{G{}{{g'{{x".format(
+                self.format_name_to(target),
+                message
+            ))
+
+    def handle_event(self, event):
+        for trigger in self.get("triggers", []):
+            if trigger["type"] == event.type:
+                compiled = compile(trigger["code"], event.type, "exec")
+
+                import random
+
+                context = {}
+                context.update(event.data)
+                context.update({
+                    "actor": event.data["source"],
+                    "say": self.say,
+                    "tell": self.tell,
+                    "block": event.block,
+                    "randint": random.randint,
+                })
+
+                try:
+                    exec(compiled, context, context)
+                except Exception, e:
+                    self.game.handle_exception(e)

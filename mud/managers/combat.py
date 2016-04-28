@@ -3,7 +3,7 @@ from mud.entities.combat import Combat
 
 
 class CombatManager(Manager):
-    TICK_DELAY = 0.5
+    TICK_DELAY = 5
 
     def tick(self):
         combats = Combat.query()

@@ -44,6 +44,18 @@ class Game(Greenlet):
             if connection.actor
         ]
 
+    def get_player_by_name(self, name):
+        for connection in self.connections:
+            actor = connection.get_actor()
+
+            if not actor:
+                continue
+
+            if actor.name_like(name):
+                return actor
+
+        return None
+
     def get_actor_connection(self, actor=None, actor_id=None, exclude=None):
         for connection in self.connections:
             if connection == exclude:
@@ -96,6 +108,14 @@ class Game(Greenlet):
                     "duration": 100,
                 },
             ],
+            "triggers": [
+                {"type": "entered", "code": """
+say("This is a test, nothing else should run.")
+say("Hello {}!".format(randint(1, 10)))
+tell(actor, "Heyaaaa")
+tell("Kelemv", "Heyaaaa")
+"""},
+            ]
         }
         Actor.add(hogan)
 

@@ -38,13 +38,19 @@ class RoomEntity(GameEntity):
     def format_room_name_to(self, other):
         return self.room_name
 
-    def event_to_room(self, name, data=None, room=None):
-        # TODO broadcast to engine
-        print("TODO: Implement event broadcast for {} with data {}".format(
-            name,
-            repr(data)
-        ))
-        event = Event(name, data)
+    def event_to_room(self, name, data=None, blockable=False, room=None):
+        if data is None:
+            data = {}
+
+        data["source"] = self
+
+        event = Event(name, data, blockable=blockable)
+
+        if room is None:
+            room = self.get_room()
+
+        room.handle_event(event)
+
         return event
 
     def set_room(self, room):

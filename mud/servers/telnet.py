@@ -33,6 +33,9 @@ class TelnetConnection(Greenlet):
         self.color = True
         self.last_command = ""
 
+    def get_actor(self):
+        return self.actor
+
     def toggle_color(self):
         self.color = not self.color
 
@@ -344,6 +347,8 @@ Your choice?: """)
             if self.actor:
                 self.writeln()
                 if self.playing:
+                    if self.actor.is_fighting():
+                        self.writeln(self.actor.format_combat_prompt())
                     self.write(self.actor.format_prompt())
 
             self.last_character_sent = self.output_buffer[-1]

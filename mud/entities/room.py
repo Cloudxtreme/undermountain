@@ -43,3 +43,12 @@ class Room(GameEntity):
             return None
 
         return RoomExit(self.game, data)
+
+    def handle_event(self, event):
+        for actor in self.get_actors():
+            if event.is_blocked():
+                break
+            try:
+                actor.handle_event(event)
+            except Exception, e:
+                self.game.handle_exception(e)

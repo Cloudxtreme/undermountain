@@ -35,7 +35,9 @@ class Character(Actor):
         if type(params) is None:
             return False
 
-        if type(params) is not tuple:
+        if type(params) is str or type(params) is unicode:
+            params = tuple([params])
+        elif type(params) is not tuple:
             params = tuple(params)
 
         if len(params) > 1:
