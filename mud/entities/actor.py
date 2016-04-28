@@ -4,6 +4,12 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def tell_command(actor, params, *args, **kwargs):
+    target = params[0] if len(params) > 0 else None
+    message = ' '.join(params[1:]) if len(params) > 1 else None
+
+    actor.tell(target, message)
+
 def kill_command(actor, params, *args, **kwargs):
     if not params:
         actor.echo("Kill who?")
@@ -12,7 +18,7 @@ def kill_command(actor, params, *args, **kwargs):
     room = actor.get_room()
     # TODO improve this logic with something like actor.find_visible_target_by_name
     # FIXME improve this to use query logic
-    target = room.find_actor(cmp=lambda other:
+    target = room.query_actors(cmp=lambda other:
         other != actor and
         other.name_like(params) and
         actor.can_see(other)
@@ -580,6 +586,10 @@ class Actor(RoomEntity):
                 "handler": save_command
             },
             {
+                "keywords": "tell",
+                "handler": tell_command
+            },
+            {
                 "keywords": "who",
                 "handler": who_command
             },
@@ -654,9 +664,22 @@ class Actor(RoomEntity):
         say_command(self, message.split())
 
     def tell(self, raw_target, message):
+        """
+        Tell another player a message.
 
-        target = raw_target if isinstance(raw_target, Actor) else \
-            self.game.get_player_by_name(raw_target)
+        tell <name> <message>
+        """
+        from mud.entities.character import Character
+
+        target = None
+
+        if isinstance(raw_target, Actor):
+            target = raw_target
+        elif raw_target:
+            def match_tell_player(other):
+                return other.name_like(raw_target) and \
+                    self.can_see(other)
+            target = Character.find(func=match_tell_player)
 
         if not target:
             self.echo("Target not found.")
@@ -666,6 +689,7 @@ class Actor(RoomEntity):
             target.format_name_to(self),
             message
         ))
+
         if self != target:
             target.echo("{{g{}{{g tells you '{{G{}{{g'{{x".format(
                 self.format_name_to(target),
@@ -693,3 +717,12 @@ class Actor(RoomEntity):
                     exec(compiled, context, context)
                 except Exception, e:
                     self.game.handle_exception(e)
+
+    @classmethod
+    def find(cls, func):
+        for actor in cls.query():
+            if func(actor):
+                return actor
+
+        return None
+

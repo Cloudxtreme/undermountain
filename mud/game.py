@@ -38,23 +38,23 @@ class Game(Greenlet):
         self.connections.remove(connection)
 
     def get_characters(self):
-        return [
-            connection.actor
-            for connection in self.connections
-            if connection.actor
-        ]
-
-    def get_player_by_name(self, name):
         for connection in self.connections:
             actor = connection.get_actor()
 
             if not actor:
                 continue
 
-            if actor.name_like(name):
-                return actor
+            yield actor
 
-        return None
+    def query_characters(self, name_like=None, visible_to=None):
+        for character in self.get_characters():
+            if name_like is not None and not character.name_like(name_like):
+                continue
+
+            if visible_to is not None and not visible_to.can_see(character):
+                continue
+
+            yield character
 
     def get_actor_connection(self, actor=None, actor_id=None, exclude=None):
         for connection in self.connections:

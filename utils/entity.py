@@ -8,9 +8,9 @@ class Entity(object):
         if other is None:
             return False
 
-        return self.uid == other.get("uid")
+        return self.get("uid") == other.get("uid")
 
-    def __neq__(self, other):
+    def __ne__(self, other):
         return not self.__eq__(other)
 
     def __setattr__(self, key, value):
