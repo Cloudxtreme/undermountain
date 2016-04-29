@@ -293,6 +293,21 @@ def look_command(actor, *args, **kwargs):
         actor.echo(output)
 
 
+def affects_command(actor, *args, **kwargs):
+    effects = actor.get_effects()
+
+    if not effects:
+        actor.echo("You are not affected by any spells.")
+        return
+
+    actor.echo("You are affected by the following spells:")
+    for effect in effects:
+        line = effect["label"] if effect.get("label") else effect["id"]
+        line += " "
+        line += "for {} seconds".format(effect["seconds"])
+        actor.echo(line)
+
+
 def bash_command(actor, *args, **kwargs):
     actor.echo("But you aren't fighting anyone!")
     actor.delay(2)
@@ -339,6 +354,12 @@ class Actor(RoomEntity):
 
         if not self.level:
             self.level = 1
+
+        if type(self.effects) is not list:
+            self.effects = [
+                {"id": "poison", "seconds": 5, "expire_message": "Your poison fades."},
+                {"id": "poison", "seconds": 10, "expire_message": "Your second poison fades."},
+            ]
 
     def has_flag(self, flag):
         # FIXME to implement
@@ -574,6 +595,14 @@ class Actor(RoomEntity):
                 "handler": look_command
             },
             {
+                "keywords": "affects",
+                "handler": affects_command
+            },
+            {
+                "keywords": "effects",
+                "handler": affects_command
+            },
+            {
                 "keywords": "bash",
                 "handler": bash_command
             },
@@ -718,6 +747,9 @@ class Actor(RoomEntity):
                 except Exception, e:
                     self.game.handle_exception(e)
 
+    def get_effects(self):
+        return self.effects
+
     @classmethod
     def find(cls, func):
         for actor in cls.query():
@@ -726,3 +758,15 @@ class Actor(RoomEntity):
 
         return None
 
+    def tick(self):
+        self.tick_effects()
+
+    def expire_effect(self, effect):
+        self.echo(effect["expire_message"])
+        self.effects.remove(effect)
+
+    def tick_effects(self):
+        for effect in self.effects[:]:
+            effect["seconds"] -= 1
+            if effect["seconds"] <= 0:
+                self.expire_effect(effect)

@@ -213,7 +213,7 @@ tell("Kelemv", "Heyaaaa")
         for process_class in SERVER_CLASSES + MANAGER_CLASSES:
             process = process_class(self)
             self.processes.append(process)
-            process.start()
+            gevent.spawn(process.start)
 
     def get_environment(self):
         return self.environment
