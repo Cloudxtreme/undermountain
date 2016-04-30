@@ -4,11 +4,25 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def title_command(actor, params, *args, **kwargs):
+    # FIXME add truncation
+
+    title = ""
+    if params:
+        title = " ".join(params)
+
+    actor.title = title
+
+    if not params:
+        actor.echo("Your title has been cleared.")
+    else:
+        actor.echo("Your title has been set to: {}{{x".format(title))
+
 def string_command(actor, params, *args, **kwargs):
     remainder = list(params)
 
     CHAR_STRINGS = ["who", "who_class", "who_race", "who_clan", "who_gender",
-                    "who_level", "who_flags"]
+                    "who_level", "who_flags", "bracket", "title"]
 
     def show_string_help(actor):
         actor.echo("string char <name> <field> [value]")
@@ -41,7 +55,7 @@ def string_command(actor, params, *args, **kwargs):
         field = remainder.pop(0)
         if field in CHAR_STRINGS:
             value = " ".join(remainder) if remainder else ""
-            target[field + "_string"] = value
+            target[field] = value
 
             actor.echo("String '{}{{x' set for {}{{x: {}{{x".format(
                 target.name,
@@ -133,8 +147,8 @@ def who_command(actor, *args, **kwargs):
 
         output = ""
 
-        if other.who_level_string:
-            output += Ansi.pad_right(other.who_level_string, 4)
+        if other.who_level:
+            output += Ansi.pad_right(other.who_level, 4)
         elif other.has_role("admin"):
             output += "{RIMP{x "
         elif other.has_role("builder"):
@@ -146,36 +160,36 @@ def who_command(actor, *args, **kwargs):
         else:
             output += Ansi.pad_left("{x" + str(other.level) + "{x", 3) + " "
 
-        if other.who_string:
-            output += Ansi.pad_right(other.who_string, 18) + "{x"
+        if other.who:
+            output += Ansi.pad_right(other.who, 18) + "{x"
         else:
-            if other.who_gender_string:
-                output += Ansi.pad_right(other.who_gender_string, 2)
+            if other.who_gender:
+                output += Ansi.pad_right(other.who_gender, 2)
             else:
                 output += other.format_who_gender() + " "
             output += "{x"
 
-            if other.who_race_string:
-                output += Ansi.pad_right(other.who_race_string, 6)
+            if other.who_race:
+                output += Ansi.pad_right(other.who_race, 6)
             else:
                 output += Ansi.pad_right(other.format_who_race(), 6)
             output += "{x"
 
-            if other.who_class_string:
-                output += Ansi.pad_right(other.who_class_string, 4)
+            if other.who_class:
+                output += Ansi.pad_right(other.who_class, 4)
             else:
                 output += Ansi.pad_right(other.format_who_class(), 4)
             output += "{x"
 
-            if other.who_clan_string:
-                output += Ansi.pad_right(other.who_clan_string, 6)
+            if other.who_clan:
+                output += Ansi.pad_right(other.who_clan, 6)
             else:
                 output += Ansi.pad_right(other.format_who_clan(), 6)
             output += "{x"
 
-        if other.who_flags_string:
+        if other.who_flags:
             flags_length = 10 if other.has_role("immortal") else 8
-            output += "[" + Ansi.pad_right(other.who_flags_string, flags_length, ".") + "{x]"
+            output += "[" + Ansi.pad_right(other.who_flags, flags_length, ".") + "{x]"
 
         elif other.has_role("immortal"):
             output += "[..........]"
@@ -659,6 +673,10 @@ class Actor(RoomEntity):
             {
                 "keywords": "effects",
                 "handler": affects_command
+            },
+            {
+                "keywords": "title",
+                "handler": title_command
             },
             {
                 "keywords": "bash",
