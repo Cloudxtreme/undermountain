@@ -46,8 +46,18 @@ class Game(Greenlet):
 
             yield actor
 
-    def query_characters(self, name_like=None, visible_to=None):
+    # TODO MOVE THIS TO CHARACTER MODEL
+    def find_character(self, *args, **kwargs):
+        for result in self.query_characters(*args, **kwargs):
+            return result
+        return None
+
+    # TODO MOVE THIS TO CHARACTER MODEL
+    def query_characters(self, func=None, name_like=None, visible_to=None):
         for character in self.get_characters():
+            if func is not None and not func(character):
+                continue
+
             if name_like is not None and not character.name_like(name_like):
                 continue
 

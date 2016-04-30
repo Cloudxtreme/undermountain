@@ -43,7 +43,7 @@ class Character(Actor):
         if len(params) > 1:
             return False
 
-        return self.name.startswith(params[0])
+        return self.name.lower().startswith(params[0].lower())
 
     def format_room_name_to(self, other):
         # FIXME handle fighting

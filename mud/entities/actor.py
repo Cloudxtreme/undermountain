@@ -4,6 +4,58 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def string_command(actor, params, *args, **kwargs):
+    remainder = list(params)
+
+    CHAR_STRINGS = ["who", "who_class", "who_race", "who_clan", "who_gender",
+                    "who_level", "who_flags"]
+
+    def show_string_help(actor):
+        actor.echo("string char <name> <field> [value]")
+        actor.echo("Fields: " + (" ".join(CHAR_STRINGS)))
+
+    if not remainder:
+        show_string_help(actor)
+        return
+
+    stringtype = remainder.pop(0)
+    if stringtype == "char":
+
+        if not remainder:
+            actor.echo("Character name not provided.")
+            show_string_help(actor)
+            return
+
+        name = remainder.pop(0)
+        target = actor.game.find_character(func=lambda other: other.name_like(name))
+
+        if not target:
+            actor.echo("Character '{}' not found.".format(name))
+            return
+
+        if not remainder:
+            actor.echo("Field not provided.")
+            show_string_help(actor)
+            return
+
+        field = remainder.pop(0)
+        if field in CHAR_STRINGS:
+            value = " ".join(remainder) if remainder else ""
+            target[field + "_string"] = value
+
+            actor.echo("String '{}{{x' set for {}{{x: {}{{x".format(
+                target.name,
+                field,
+                value
+            ))
+        else:
+            actor.echo("Field '{}' not found.".format(field))
+            show_string_help(actor)
+
+    else:
+        show_string_help(actor)
+
+
 def tell_command(actor, params, *args, **kwargs):
     target = params[0] if len(params) > 0 else None
     message = ' '.join(params[1:]) if len(params) > 1 else None
@@ -81,8 +133,8 @@ def who_command(actor, *args, **kwargs):
 
         output = ""
 
-        if other.level_restring:
-            output += Ansi.pad_left(other.level_restring, 4)
+        if other.who_level_string:
+            output += Ansi.pad_right(other.who_level_string, 4)
         elif other.has_role("admin"):
             output += "{RIMP{x "
         elif other.has_role("builder"):
@@ -94,37 +146,43 @@ def who_command(actor, *args, **kwargs):
         else:
             output += Ansi.pad_left("{x" + str(other.level) + "{x", 3) + " "
 
-        if other.who_restring:
-            output += Ansi.pad_right(other.who_restring, 22)
+        if other.who_string:
+            output += Ansi.pad_right(other.who_string, 18) + "{x"
         else:
-            if other.who_gender_restring:
-                output += Ansi.pad_right(other.who_gender_restring, 2)
+            if other.who_gender_string:
+                output += Ansi.pad_right(other.who_gender_string, 2)
             else:
                 output += other.format_who_gender() + " "
+            output += "{x"
 
-            if other.who_race_restring:
-                output += Ansi.pad_right(other.who_race_restring, 6)
+            if other.who_race_string:
+                output += Ansi.pad_right(other.who_race_string, 6)
             else:
                 output += Ansi.pad_right(other.format_who_race(), 6)
+            output += "{x"
 
-            if other.who_class_restring:
-                output += Ansi.pad_right(other.who_class_restring, 4)
+            if other.who_class_string:
+                output += Ansi.pad_right(other.who_class_string, 4)
             else:
                 output += Ansi.pad_right(other.format_who_class(), 4)
+            output += "{x"
 
-            if other.who_clan_restring:
-                output += Ansi.pad_right(other.who_clan_restring, 6)
+            if other.who_clan_string:
+                output += Ansi.pad_right(other.who_clan_string, 6)
             else:
                 output += Ansi.pad_right(other.format_who_clan(), 6)
+            output += "{x"
 
-        if other.who_flags_restring:
-            Ansi.pad_left(other.who_flags_restring, 11)
-        if other.has_role("immortal"):
+        if other.who_flags_string:
+            flags_length = 10 if other.has_role("immortal") else 8
+            output += "[" + Ansi.pad_right(other.who_flags_string, flags_length, ".") + "{x]"
+
+        elif other.has_role("immortal"):
             output += "[..........]"
         else:
             output += "[........]"
 
-        output += " "
+        output += "{x "
 
         output += other.name
 
@@ -629,6 +687,10 @@ class Actor(RoomEntity):
             {
                 "keywords": "kill",
                 "handler": kill_command
+            },
+            {
+                "keywords": "string",
+                "handler": string_command
             },
         ]
 
