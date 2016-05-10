@@ -4,6 +4,11 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def commands_command(actor, *args, **kwargs):
+    actor.echo("Available commands:")
+    for command in actor.query_command_handlers():
+        actor.echo(command["keywords"])
+
 def title_command(actor, params, *args, **kwargs):
     # FIXME add truncation
 
@@ -708,11 +713,15 @@ class Actor(RoomEntity):
     def can_attack(self, target):
         return False
 
-    def find_command(self, word):
+    def query_command_handlers(self):
         from settings.directions import DIRECTIONS
         from settings.channels import CHANNELS
 
         commands = [
+            {
+                "keywords": "commands",
+                "handler": commands_command,
+            },
             {
                 "keywords": "look",
                 "handler": look_command
@@ -776,6 +785,11 @@ class Actor(RoomEntity):
                 "keywords": channel,
                 "handler": channel_command
             })
+
+        return commands
+
+    def find_command(self, word):
+        commands = self.query_command_handlers()
 
         word = word.lower()
 
