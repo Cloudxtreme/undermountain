@@ -160,7 +160,7 @@ def who_command(actor, *args, **kwargs):
 
         visible_count += 1
 
-        output = ""
+        output = "{x"
 
         if other.who_level:
             output += Ansi.pad_right(other.who_level, 4)
@@ -564,12 +564,14 @@ class Actor(RoomEntity):
         get_combat_target
 
     def format_prompt(self):
-        if not self.prompt:
-            return "{{R100{{8/{{R100{{Chp {{G100{{8/{{G100{{Cmana {{Y1000{{Cxp {{8{}{{x> ".format(
-                self.name
-            )
+        prompt = self.prompt
 
-        return self.prompt
+        if not prompt:
+            prompt = "{R100{8/{R100{{Chp {G100{8/{G100{Cmana {Y1000{Cxp {8%N{x>"
+
+        prompt = prompt.replace("%N", self.name)
+
+        return prompt + " "
 
     def format_who_race(self):
         return "{CH{ceucv{x"
