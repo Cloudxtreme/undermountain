@@ -440,7 +440,10 @@ def bash_command(actor, *args, **kwargs):
     actor.delay(2)
 
 
-def say_command(actor, params, *args, **kwargs):
+def sayooc_command(*args, **kwargs):
+    return say_command(ooc=True, *args, **kwargs)
+
+def say_command(actor, params, ooc=False, *args, **kwargs):
 
     if actor.has_flag("nochan") or actor.has_flag("nosay"):
         actor.echo("You cannot say anything.")
@@ -463,8 +466,16 @@ def say_command(actor, params, *args, **kwargs):
     if event.is_blocked():
         return
 
-    actor.echo("{{MYou say {{x'{{m{}{{x'".format(message))
-    actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(message))
+    ooc_string = "[OOC] " if ooc else ""
+
+    actor.echo("{{MYou say {}{{x'{{m{}{{x'".format(
+        ooc_string,
+        message
+    ))
+    actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(
+        ooc_string,
+        message
+    ))
     actor.event_to_room("said", event_data)
 
 
@@ -756,6 +767,10 @@ class Actor(RoomEntity):
             {
                 "keywords": "say",
                 "handler": say_command
+            },
+            {
+                "keywords": "sayooc",
+                "handler": sayooc_command
             },
             {
                 "keywords": "save",
