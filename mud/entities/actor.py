@@ -4,6 +4,16 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def prompt_command(actor, params, *args, **kwargs):
+    if not params:
+        actor.echo("Prompt set to default.")
+        actor.clear_prompt()
+        return
+
+    prompt = " ".join(params)
+    actor.prompt = prompt
+    actor.echo("Prompt set to: {}{{x".format(prompt))
+
 def commands_command(actor, *args, **kwargs):
     actor.echo("Available commands:")
     for command in actor.query_command_handlers():
@@ -481,6 +491,9 @@ class Actor(RoomEntity):
         if type(self.nochans) is not list:
             self.nochans = []
 
+    def clear_prompt(self):
+        self.prompt = None
+
     def has_flag(self, flag):
         # FIXME to implement
         return False
@@ -545,9 +558,7 @@ class Actor(RoomEntity):
                 self.name
             )
 
-        return "[7999/8101h 8669/12607m 1248v {}(3883) Baths(5/7am) -231] ".format(
-            self.name
-        )
+        return self.prompt
 
     def format_who_race(self):
         return "{CH{ceucv{x"
@@ -759,9 +770,13 @@ class Actor(RoomEntity):
                 "handler": who_command
             },
             {
-                "keywords": "reload",
-                "handler": reload_command
+                "keywords": "prompt",
+                "handler": prompt_command
             },
+            # {
+            #     "keywords": "reload",
+            #     "handler": reload_command
+            # },
             {
                 "keywords": "kill",
                 "handler": kill_command
