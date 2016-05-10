@@ -225,6 +225,46 @@ def save_command(actor, *args, **kwargs):
     actor.echo("Saving happens automatically.  This command does nothing.")
 
 
+def channel_command(actor, command, params, *args, **kwargs):
+    from mud.exceptions import CommandNotFound
+    from settings.channels import CHANNELS
+    channel = CHANNELS[command]
+
+    if not params:
+        actor.echo("Channel toggling not yet implemented.")
+        return
+
+    message = " ".join(params)
+
+    # Check Player can access channel.
+    access_func = channel.get("access")
+    if access_func is not None and not access_func(actor):
+        raise CommandNotFound()
+
+    for target in actor.game.query_characters():
+
+        filter_func = channel.get("filter")
+        if filter_func is not None and not filter_func(actor, target):
+            continue
+
+        replaces = {
+            "[actor.name]":
+                actor.name if channel.get("name_always", False) else
+                actor.format_name_to(target),
+            "[message]": message
+        }
+
+        template = channel[
+            "send_template" if target == actor else
+            "receive_template"
+        ]
+
+        for field, value in replaces.iteritems():
+            template = template.replace(field, value)
+
+        target.echo(template)
+
+
 def walk_command(actor, command, *args, **kwargs):
     # FIXME add actor.can_walk() check
 
@@ -433,6 +473,9 @@ class Actor(RoomEntity):
                 {"id": "poison", "seconds": 10, "expire_message": "Your second poison fades."},
             ]
 
+        if type(self.nochans) is not list:
+            self.nochans = []
+
     def has_flag(self, flag):
         # FIXME to implement
         return False
@@ -604,6 +647,8 @@ class Actor(RoomEntity):
             connection.writeln(message)
 
     def handle_input(self, message):
+        from mud.exceptions import CommandNotFound
+
         parts = message.split(' ')
 
         if not parts:
@@ -624,6 +669,10 @@ class Actor(RoomEntity):
                 params=params,
                 command=match["keywords"].split()[0],
             )
+
+        except CommandNotFound:
+            self.echo("Huh? (Command not found.)")
+
         except Exception, e:
             self.echo("Huh?! (Exception in handler.)")
             self.game.handle_exception(e)
@@ -661,6 +710,8 @@ class Actor(RoomEntity):
 
     def find_command(self, word):
         from settings.directions import DIRECTIONS
+        from settings.channels import CHANNELS
+
         commands = [
             {
                 "keywords": "look",
@@ -717,6 +768,13 @@ class Actor(RoomEntity):
             commands.insert(0, {
                 "keywords": direction,
                 "handler": walk_command
+            })
+
+        # FIXME use config
+        for channel in CHANNELS.keys():
+            commands.insert(0, {
+                "keywords": channel,
+                "handler": channel_command
             })
 
         word = word.lower()
@@ -844,6 +902,9 @@ class Actor(RoomEntity):
     def expire_effect(self, effect):
         self.echo(effect["expire_message"])
         self.effects.remove(effect)
+
+    def has_clan(self):
+        return self.get("clan_id", None) is not None
 
     def tick_effects(self):
         for effect in self.effects[:]:
