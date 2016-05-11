@@ -570,7 +570,7 @@ class Actor(RoomEntity):
         prompt = self.prompt
 
         if not prompt:
-            prompt = "{R100{8/{R100{{Chp {G100{8/{G100{Cmana {Y1000{Cxp {8%N{x>"
+            prompt = "{R100{8/{R100{Chp {G100{8/{G100{Cmana {Y1000{Cxp {8%N{x>"
 
         prompt = prompt.replace("%N", self.name)
 
