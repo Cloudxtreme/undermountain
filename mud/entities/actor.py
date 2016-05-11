@@ -470,7 +470,8 @@ def bash_command(actor, *args, **kwargs):
 
 
 def sayooc_command(*args, **kwargs):
-    return say_command(ooc=True, *args, **kwargs)
+    kwargs["ooc"] = True
+    return say_command(*args, **kwargs)
 
 def say_command(actor, params, ooc=False, *args, **kwargs):
 
@@ -501,7 +502,7 @@ def say_command(actor, params, ooc=False, *args, **kwargs):
         ooc_string,
         message,
     ))
-    actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(
+    actor.act_around("{{M[actor.name] says {}{{x'{{m{}{{x'".format(
         ooc_string,
         message,
     ))
@@ -692,10 +693,10 @@ class Actor(RoomEntity):
             connection.add_delay(seconds)
 
     def get_connection(self):
-        return self.connection
+        return self["$connection"]
 
     def set_connection(self, connection):
-        super(Entity, self).__setattr__('connection', connection)
+        self["$connection"] = connection
 
     def echo(self, message=""):
         message = str(message)
@@ -911,7 +912,7 @@ class Actor(RoomEntity):
         return battle is not None
 
     def say(self, message):
-        say_command(self, message.split())
+        say_command(self, params=message.split())
 
     def tell(self, raw_target, message):
         """

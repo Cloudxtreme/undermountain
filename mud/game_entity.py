@@ -133,4 +133,5 @@ class GameEntity(Entity, GetGame):
 
         cls.check_game_collections(game)
 
-        return cls.wrap(game, game.data[cls.COLLECTION_NAME])
+        results = game.data[cls.COLLECTION_NAME]
+        return cls.wrap(game, results)
