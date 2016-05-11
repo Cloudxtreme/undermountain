@@ -39,6 +39,8 @@ class RoomEntity(GameEntity):
         return self.room_name
 
     def event_to_room(self, name, data=None, blockable=False, room=None):
+        import gevent
+
         if data is None:
             data = {}
 
@@ -49,7 +51,7 @@ class RoomEntity(GameEntity):
         if room is None:
             room = self.get_room()
 
-        room.handle_event(event)
+        gevent.spawn(room.handle_event, event)
 
         return event
 

@@ -971,6 +971,7 @@ class Actor(RoomEntity):
 
                 try:
                     exec(compiled, context, context)
+
                 except Exception, e:
                     self.game.handle_exception(e)
 
