@@ -93,8 +93,13 @@ class Character(Actor):
 
     @classmethod
     def get_password_hash(cls, password):
+        password = password.split()
+
+        if not password:
+            raise Exception("Blank password cannot be hashed.")
+
         # FIXME REPLACE THIS WITH A REAL HASH
-        return password
+        return password[0]
 
     def save(self):
         Character.save_to_file(self.data)

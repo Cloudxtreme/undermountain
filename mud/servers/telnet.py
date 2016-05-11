@@ -95,34 +95,41 @@ Did I get that right, {} (Y/N)? """.format(
     def handle_login_password_input(self, message):
         ch_data = Character.get_from_file(self.username)
         cleaned = message.strip()
-        password = Character.get_password_hash(cleaned)
 
-        if password == ch_data["password"]:
-            connection = self.game.get_actor_connection(actor_id=self.username)
-
-            if connection is None:
-                Character.add(ch_data)
-                ch = Character.get_by_uid(self.username)
-                self.actor = ch
-                self.actor.set_connection(self)
-                self.state = "motd"
-                self.display_motd()
-
-            else:
-                connection.close()
-                self.actor = connection.actor
-                self.actor.set_connection(self)
-                self.server.remove_connection(connection)
-                self.state = "playing"
-                self.playing = True
-
-                self.writeln("Reconnecting..")
-                self.writeln()
-
-                self.actor.handle_input("look")
-        else:
+        if not cleaned:
             self.writeln("Invalid password.")
             self.destroy()
+            return
+
+        password = Character.get_password_hash(cleaned)
+
+        if password != ch_data["password"]:
+            self.writeln("Invalid password.")
+            self.destroy()
+            return
+
+        connection = self.game.get_actor_connection(actor_id=self.username)
+
+        if connection is None:
+            Character.add(ch_data)
+            ch = Character.get_by_uid(self.username)
+            self.actor = ch
+            self.actor.set_connection(self)
+            self.state = "motd"
+            self.display_motd()
+
+        else:
+            connection.close()
+            self.actor = connection.actor
+            self.actor.set_connection(self)
+            self.server.remove_connection(connection)
+            self.state = "playing"
+            self.playing = True
+
+            self.writeln("Reconnecting..")
+            self.writeln()
+
+            self.actor.handle_input("look")
 
     def destroy(self):
         self.playing = False
