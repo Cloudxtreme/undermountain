@@ -33,6 +33,9 @@ class TelnetConnection(Greenlet):
         self.color = True
         self.last_command = ""
 
+    def is_playing(self):
+        return self.playing
+
     def get_actor(self):
         return self.actor
 
@@ -312,6 +315,9 @@ Your choice?: """)
         self.actor = Character.get_by_uid(self.actor.uid)
         self.actor.set_connection(self)
 
+        # First save!
+        self.actor.save()
+
     def handle_motd_input(self, message):
         self.state = "playing"
         self.playing = True
@@ -319,6 +325,10 @@ Your choice?: """)
 
     def handle_playing_input(self, message):
         # FIXME improve this or use constant?
+        if message.strip() == "":
+            self.write(" ")
+            return
+
         if message.startswith("!"):
             self.handle_playing_input(self.last_command)
             return

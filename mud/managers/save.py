@@ -7,4 +7,9 @@ class SaveManager(Manager):
 
     def tick(self):
         for player in self.game.query_characters():
+            connection = player.get_connection()
+
+            if not connection.is_playing():
+                continue
+
             player.save()
