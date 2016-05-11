@@ -236,8 +236,11 @@ def who_command(actor, *args, **kwargs):
         highest_count,
     ))
 
+
 def save_command(actor, *args, **kwargs):
-    actor.echo("Saving happens automatically.  This command does nothing.")
+    actor.echo("Saving..")
+    actor.save()
+    actor.echo("Saved.")
 
 
 def channel_command(actor, command, params, *args, **kwargs):
@@ -951,6 +954,13 @@ class Actor(RoomEntity):
 
     def has_clan(self):
         return self.get("clan_id", None) is not None
+
+    def save(self):
+        """
+        Save Actor.
+        This is a stub, but others can save to files.
+        """
+        pass
 
     def tick_effects(self):
         for effect in self.effects[:]:

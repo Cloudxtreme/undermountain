@@ -96,17 +96,27 @@ class Character(Actor):
         # FIXME REPLACE THIS WITH A REAL HASH
         return password
 
+    def save(self):
+        Character.save_to_file(self.data)
+
     @classmethod
     def save_to_file(cls, data):
         data = dict(data)
 
-        uid = data.get('uid', None)
+        save_data = {}
+
+        for key, val in data.iteritems():
+            if key.startswith("$"):
+                continue
+            save_data[key] = val
+
+        uid = save_data.get('uid', None)
         path = cls.get_file_path(uid)
 
         try:
             with open(path, "w") as fh:
-                del data["uid"]
-                return fh.write(json.dumps(data))
+                del save_data["uid"]
+                return fh.write(json.dumps(save_data))
         except IOError:
             pass
 
