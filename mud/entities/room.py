@@ -51,6 +51,7 @@ class Room(GameEntity):
             if event.is_blocked():
                 break
             try:
-                gevent.spawn(actor.handle_event, event)
+                # gevent.spawn(actor.handle_event, event)
+                actor.handle_event(event)
             except Exception, e:
                 self.game.handle_exception(e)

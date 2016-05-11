@@ -3,6 +3,8 @@ from mud.entities.object import Object
 from mud.entities.combat import Combat
 from utils.entity import Entity
 
+import random
+
 
 def password_command(actor, params, *args, **kwargs):
     from mud.entities.character import Character
@@ -947,33 +949,35 @@ class Actor(RoomEntity):
                 message
             ))
 
-    def handle_event(self, event):
+    def query_triggers_by_type(self, event_type):
         for trigger in self.get("triggers", []):
-            if trigger["type"] == event.type:
+            if trigger["type"] == event_type:
+                yield trigger
 
-                # Only compile on-demand.
-                compiled = trigger.get("compiled", None)
-                if compiled is None:
-                    compiled = compile(trigger["code"], event.type, "exec")
-                    trigger["compiled"] = compiled
+    def handle_event(self, event):
+        context = {}
+        context.update(event.data)
+        context.update({
+            "actor": event.data["source"],
+            "say": self.say,
+            "tell": self.tell,
+            "block": event.block,
+            "randint": random.randint,
+        })
 
-                import random
+        for trigger in self.query_triggers_by_type(event.type):
 
-                context = {}
-                context.update(event.data)
-                context.update({
-                    "actor": event.data["source"],
-                    "say": self.say,
-                    "tell": self.tell,
-                    "block": event.block,
-                    "randint": random.randint,
-                })
+            # Only compile on-demand.
+            compiled = trigger.get("compiled", None)
+            if compiled is None:
+                compiled = compile(trigger["code"], event.type, "exec")
+                trigger["compiled"] = compiled
 
-                try:
-                    exec(compiled, context, context)
+            try:
+                exec(compiled, context, context)
 
-                except Exception, e:
-                    self.game.handle_exception(e)
+            except Exception, e:
+                self.game.handle_exception(e)
 
     def get_effects(self):
         return self.effects

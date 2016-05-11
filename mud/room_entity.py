@@ -51,7 +51,8 @@ class RoomEntity(GameEntity):
         if room is None:
             room = self.get_room()
 
-        gevent.spawn(room.handle_event, event)
+        room.handle_event(event)
+        # gevent.spawn(room.handle_event, event)
 
         return event
 
