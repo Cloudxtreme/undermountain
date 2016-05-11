@@ -950,7 +950,12 @@ class Actor(RoomEntity):
     def handle_event(self, event):
         for trigger in self.get("triggers", []):
             if trigger["type"] == event.type:
-                compiled = compile(trigger["code"], event.type, "exec")
+
+                # Only compile on-demand.
+                compiled = trigger.get("compiled", None)
+                if compiled is None:
+                    compiled = compile(trigger["code"], event.type, "exec")
+                    trigger["compiled"] = compiled
 
                 import random
 
