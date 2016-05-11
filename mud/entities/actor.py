@@ -4,6 +4,13 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def quit_command(actor, *args, **kwargs):
+    actor.echo("Logging you out.")
+    actor.save()
+    connection = actor.get_connection()
+    connection.destroy()
+
+
 def prompt_command(actor, params, *args, **kwargs):
     if not params:
         actor.echo("Prompt set to default.")
@@ -745,6 +752,10 @@ class Actor(RoomEntity):
         from settings.channels import CHANNELS
 
         commands = [
+            {
+                "keywords": "quit",
+                "handler": quit_command,
+            },
             {
                 "keywords": "commands",
                 "handler": commands_command,

@@ -46,18 +46,18 @@ class TelnetConnection(Greenlet):
         self.delay += seconds
 
     def handle_login_username_input(self, message):
-        username = Character.get_clean_name(message)
+        self.username = Character.get_clean_name(message)
 
-        if not username:
+        if not self.username:
             self.write("Sorry, try again: ")
         else:
-            ch_data = Character.get_from_file(username)
+            ch_data = Character.get_from_file(self.username)
 
             if not ch_data:
                 self.actor = Character(self.game, {
-                    "uid": username,
-                    "id": username,
-                    "name": username,
+                    "uid": self.username,
+                    "id": self.username,
+                    "name": self.username,
                     "room_id": "westbridge:3001",
                 })
                 self.actor.set_connection(self)
@@ -82,15 +82,24 @@ class TelnetConnection(Greenlet):
 +--------------[ This MUD is rated R for Mature Audiences ]---------------+
 
 Did I get that right, {} (Y/N)? """.format(
-                    username
+                    self.username
                 ))
                 return
 
-            connection = self.game.get_actor_connection(actor_id=username)
+            self.write("Password: ")
+            self.state = "login_password"
+
+    def handle_login_password_input(self, message):
+        ch_data = Character.get_from_file(self.username)
+        cleaned = message.strip()
+        password = Character.get_password_hash(cleaned)
+
+        if password == ch_data["password"]:
+            connection = self.game.get_actor_connection(actor_id=self.username)
 
             if connection is None:
                 Character.add(ch_data)
-                ch = Character.get_by_uid(username)
+                ch = Character.get_by_uid(self.username)
                 self.actor = ch
                 self.actor.set_connection(self)
                 self.state = "motd"
@@ -108,6 +117,15 @@ Did I get that right, {} (Y/N)? """.format(
                 self.writeln()
 
                 self.actor.handle_input("look")
+        else:
+            self.writeln("Invalid password.")
+            self.destroy()
+
+    def destroy(self):
+        self.playing = False
+        self.flush()
+        self.server.remove_connection(self)
+        self.close()
 
     def clean_input(self, message):
         cleaned = message.lower().strip()
