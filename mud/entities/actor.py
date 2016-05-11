@@ -499,11 +499,11 @@ def say_command(actor, params, ooc=False, *args, **kwargs):
 
     actor.echo("{{MYou say {}{{x'{{m{}{{x'".format(
         ooc_string,
-        message
+        message,
     ))
     actor.act_around("{{M[actor.name] says {{x'{{m{}{{x'".format(
         ooc_string,
-        message
+        message,
     ))
     actor.event_to_room("said", event_data)
 
@@ -692,10 +692,10 @@ class Actor(RoomEntity):
             connection.add_delay(seconds)
 
     def get_connection(self):
-        return self.get("$connection", None)
+        return self.connection
 
     def set_connection(self, connection):
-        self.set("$connection", connection)
+        super(Entity, self).__setattr__('connection', connection)
 
     def echo(self, message=""):
         message = str(message)

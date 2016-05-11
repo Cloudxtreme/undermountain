@@ -16,6 +16,9 @@ monkey.patch_all()
 class TelnetConnection(Greenlet):
     NEWLINE = "\r\n"
 
+    INPUT_AFTER_DELAY = 0.4  # Between commands.
+    INPUT_IDLE_DELAY = 0.05  # No commands lately.
+
     def __init__(self, server, conn, addr):
         super(TelnetConnection, self).__init__()
         self.playing = False
@@ -409,9 +412,9 @@ Your choice?: """)
             if self.input_buffer:
                 next_input = self.input_buffer.pop(0)
                 self.handle_input(next_input)
-                gevent.sleep(0.5)
+                gevent.sleep(self.INPUT_AFTER_DELAY)
             else:
-                gevent.sleep(0.05)
+                gevent.sleep(self.INPUT_IDLE_DELAY)
 
     def _run(self):
         # self.write_from_template("login")

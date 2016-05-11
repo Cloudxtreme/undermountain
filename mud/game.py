@@ -125,7 +125,9 @@ class Game(Greenlet):
                 {"type": "entered", "code": """
 say("This is a test, nothing else should run.")
 say("Hello {}!".format(randint(1, 10)))
+say("First test.")
 tell(actor, "Heyaaaa")
+say("Second test.")
 tell("Kelemv", "Heyaaaa")
 """},
             ]
