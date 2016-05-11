@@ -4,6 +4,25 @@ from mud.entities.combat import Combat
 from utils.entity import Entity
 
 
+def password_command(actor, params, *args, **kwargs):
+    from mud.entities.character import Character
+
+    if len(params) < 2:
+        actor.echo("Usage: password <old> <new>")
+        return
+
+    old = Character.get_password_hash(params[0])
+    new = Character.get_password_hash(params[1])
+
+    if actor.password != old:
+        actor.echo("Invalid old password.")
+        return
+
+    actor.password = new
+    actor.save()
+    actor.echo("Password updated.")
+
+
 def quit_command(actor, *args, **kwargs):
     actor.echo("Logging you out.")
     actor.save()
@@ -752,6 +771,10 @@ class Actor(RoomEntity):
         from settings.channels import CHANNELS
 
         commands = [
+            {
+                "keywords": "password",
+                "handler": password_command,
+            },
             {
                 "keywords": "quit",
                 "handler": quit_command,
