@@ -7,6 +7,9 @@ import traceback
 
 
 class Game(Greenlet):
+    SHUTDOWN_FILENAME = 'SHUTDOWN'
+    REBOOT_FILENAME = 'REBOOT'
+
     """
     GAME
     The single process that runs the game.
@@ -208,16 +211,45 @@ tell("Kelemv", "Heyaaaa")
         }
         Room.add(temple_square)
 
+    def echo(self, message):
+        for actor in self.query_characters():
+            actor.echo(message)
+
     def _run(self):
         """
         Start the Engine.
         """
+        import os
+
         self.running = True
 
         self.create_processes()
 
         while self.running:
-            gevent.sleep(1.0)
+
+            if os.path.isfile(self.REBOOT_FILENAME):
+                try:
+                    os.remove(self.REBOOT_FILENAME)
+                except Exception:
+                    pass
+                self.echo("Rebooting..")
+                break
+
+            if os.path.isfile(self.SHUTDOWN_FILENAME):
+                try:
+                    os.remove(self.SHUTDOWN_FILENAME)
+                except Exception:
+                    pass
+                self.echo("Shutting down..")
+                break
+
+            gevent.sleep(0.5)
+
+        self.shutdown_processes()
+
+    def shutdown_processes(self):
+        for connection in self.connections:
+            connection.destroy()
 
     def create_processes(self):
         for process_class in SERVER_CLASSES + MANAGER_CLASSES:
