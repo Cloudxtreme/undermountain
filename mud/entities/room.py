@@ -16,15 +16,17 @@ class Room(GameEntity):
         from mud.entities.character import Character
 
         # FIXME use some kind of reusable filtering function
-        actors = []
+        for actor in Actor.query_by_room_uid(self.uid):
+            if actor == exclude:
+                continue
 
-        actors += [actor for actor in Actor.query_by_room_uid(self.uid)]
-        actors += [actor for actor in Character.query_by_room_uid(self.uid)]
+            yield actor
 
-        if exclude in actors:
-            actors.remove(exclude)
+        for actor in Character.query_by_room_uid(self.uid):
+            if actor == exclude:
+                continue
 
-        return actors
+            yield actor
 
     def find_actor(self, cmp):
         actors = self.get_actors()
@@ -48,6 +50,9 @@ class Room(GameEntity):
         import gevent
 
         for actor in self.get_actors():
+            if actor is self:
+                continue
+
             if event.is_blocked():
                 break
             try:
