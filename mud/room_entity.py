@@ -5,13 +5,10 @@ from mud.game_entity import GameEntity
 
 class RoomEntity(GameEntity):
     @classmethod
-    def query_by_room_uid(cls, uid, game=None):
-        if not game:
-            game = cls.get_game()
-
+    def query_by_room_uid(cls, uid, game):
         results = [
             cls(game, actor)
-            for actor in cls.query()
+            for actor in cls.query(game=game)
             if actor.get("room_uid", None) == uid
         ]
 
@@ -21,7 +18,7 @@ class RoomEntity(GameEntity):
         return ""
 
     def get_room(self):
-        room = Room.get_by_uid(self.room_uid)
+        room = Room.get_by_uid(self.room_uid, self.game)
         if room is not None:
             return room
 

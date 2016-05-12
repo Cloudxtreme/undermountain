@@ -6,5 +6,5 @@ class TimeManager(Manager):
     TICK_DELAY = 1
 
     def tick(self):
-        for character in Character.query():
+        for character in Character.query(self.game):
             character.tick()

@@ -101,7 +101,7 @@ class Game(Greenlet):
             "level_min": 1,
             "level_max": 10,
         }
-        Area.add(westbridge)
+        Area.add(westbridge, self)
 
         from mud.entities.actor import Actor
         hogan = {
@@ -123,16 +123,16 @@ class Game(Greenlet):
             ],
             "triggers": [
                 {"type": "entered", "code": """
-say("This is a test, nothing else should run.")
-say("Hello {}!".format(randint(1, 10)))
-say("First test.")
-tell(actor, "Heyaaaa")
-say("Second test.")
-tell("Kelemv", "Heyaaaa")
+# say("This is a test, nothing else should run.")
+# say("Hello {}!".format(randint(1, 10)))
+# say("First test.")
+# tell(actor, "Heyaaaa")
+# say("Second test.")
+# tell("Kelemv", "Heyaaaa")
 """},
             ]
         }
-        Actor.add(hogan)
+        Actor.add(hogan, self)
 
         from mud.entities.object import Object
         note = {
@@ -142,7 +142,7 @@ tell("Kelemv", "Heyaaaa")
             "room_uid": "abc123",
             "room_name": "An old piece of paper lies on the floor.",
         }
-        Object.add(note)
+        Object.add(note, self)
 
         from mud.entities.room import Room
         temple_of_life = {
@@ -179,7 +179,7 @@ tell("Kelemv", "Heyaaaa")
                 },
             ],
         }
-        Room.add(temple_of_life)
+        Room.add(temple_of_life, self)
 
         temple_square = {
             "uid": "xyz321",
@@ -211,7 +211,35 @@ tell("Kelemv", "Heyaaaa")
                 },
             ],
         }
-        Room.add(temple_square)
+        Room.add(temple_square, self)
+
+        import time
+        start = time.time()
+        # import gc
+        # gc.disable()
+
+        # rooms
+        for x in xrange(1, 30000):
+            created_id = "room:" + str(x)
+            created = dict(temple_square)
+            created["uid"] = created_id
+            created["id"] = created_id
+            Room.add(created, self)
+            print("Added room.. {}".format(created["uid"]))
+
+        # mobs
+        for x in xrange(1, 10000):
+            created_id = "actor:" + str(x)
+            created = dict(hogan)
+            created["uid"] = created_id
+            created["id"] = created_id
+            created["room_uid"] = "room:3"
+            created["room_id"] = "room:3"
+            Actor.add(created, self)
+            print("Added actor.. {}".format(created["uid"]))
+
+        # gc.enable()
+        print("TOTAL TIME {}".format(time.time() - start))
 
     def echo(self, message):
         for actor in self.query_characters():

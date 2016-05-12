@@ -1,9 +1,7 @@
 from utils.entity import Entity
-from mud.mixins.get_game import GetGame
-import inspect
 
 
-class GameEntity(Entity, GetGame):
+class GameEntity(Entity):
     """
     GAME ENTITY
     """
@@ -39,12 +37,10 @@ class GameEntity(Entity, GetGame):
         cls.COLLECTIONS_CHECKED.append(cls.__name__)
 
     @classmethod
-    def add(cls, data, game=None):
+    def add(cls, data, game):
         """
         Create an Area in the Game.
         """
-        if game is None:
-            game = cls.get_game()
         cls.check_game_collections(game)
 
         game.data[cls.COLLECTION_NAME].append(data)
@@ -56,9 +52,6 @@ class GameEntity(Entity, GetGame):
         """
         Remove an Area from the Game.
         """
-        if game is None:
-            game = cls.get_game()
-
         cls.check_game_collections(game)
 
         cls.deindex(data, game)
@@ -66,7 +59,7 @@ class GameEntity(Entity, GetGame):
         game.data[cls.COLLECTION_NAME].remove(data)
 
     @classmethod
-    def index(cls, data, game=None):
+    def index(cls, data, game):
         if game is None:
             game = cls.get_game()
 
@@ -82,7 +75,7 @@ class GameEntity(Entity, GetGame):
             game.data[cls.COLLECTION_NAME + "_by_uid"][uid] = data
 
     @classmethod
-    def deindex(cls, data, game=None):
+    def deindex(cls, data, game):
         if game is None:
             game = cls.get_game()
 
@@ -109,7 +102,7 @@ class GameEntity(Entity, GetGame):
         return cls(game, data)
 
     @classmethod
-    def query_by_id(cls, id, game=None):
+    def query_by_id(cls, id, game):
         if game is None:
             game = cls.get_game()
 
@@ -118,7 +111,7 @@ class GameEntity(Entity, GetGame):
         return cls.wrap(game, data)
 
     @classmethod
-    def get_by_uid(cls, uid, game=None):
+    def get_by_uid(cls, uid, game):
         if game is None:
             game = cls.get_game()
 
@@ -127,10 +120,7 @@ class GameEntity(Entity, GetGame):
         return cls.wrap(game, data)
 
     @classmethod
-    def query(cls, game=None):
-        if game is None:
-            game = cls.get_game()
-
+    def query(cls, game):
         cls.check_game_collections(game)
 
         results = game.data[cls.COLLECTION_NAME]

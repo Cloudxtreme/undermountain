@@ -16,13 +16,13 @@ class Room(GameEntity):
         from mud.entities.character import Character
 
         # FIXME use some kind of reusable filtering function
-        for actor in Actor.query_by_room_uid(self.uid):
+        for actor in Actor.query_by_room_uid(self.uid, game=self.game):
             if actor == exclude:
                 continue
 
             yield actor
 
-        for actor in Character.query_by_room_uid(self.uid):
+        for actor in Character.query_by_room_uid(self.uid, game=self.game):
             if actor == exclude:
                 continue
 
@@ -47,8 +47,6 @@ class Room(GameEntity):
         return RoomExit(self.game, data)
 
     def handle_event(self, event):
-        import gevent
-
         for actor in self.get_actors():
             if actor is self:
                 continue

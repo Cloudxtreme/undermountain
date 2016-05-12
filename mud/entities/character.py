@@ -65,8 +65,7 @@ class Character(Actor):
         return name
 
     @classmethod
-    def get_file_path(cls, uid):
-        game = cls.get_game()
+    def get_file_path(cls, uid, game):
         env = game.get_environment()
 
         path = "{}/{}/{}".format(
@@ -77,8 +76,8 @@ class Character(Actor):
         return path
 
     @classmethod
-    def get_from_file(cls, uid):
-        path = cls.get_file_path(uid)
+    def get_from_file(cls, uid, game):
+        path = cls.get_file_path(uid, game)
 
         try:
             with open(path, "r") as fh:
@@ -102,10 +101,10 @@ class Character(Actor):
         return password[0]
 
     def save(self):
-        Character.save_to_file(self.data)
+        Character.save_to_file(self.data, game=self.game)
 
     @classmethod
-    def save_to_file(cls, data):
+    def save_to_file(cls, data, game):
         data = dict(data)
 
         save_data = {}
@@ -116,7 +115,7 @@ class Character(Actor):
             save_data[key] = val
 
         uid = save_data.get('uid', None)
-        path = cls.get_file_path(uid)
+        path = cls.get_file_path(uid, game)
 
         try:
             with open(path, "w") as fh:

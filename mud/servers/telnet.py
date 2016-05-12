@@ -57,7 +57,7 @@ class TelnetConnection(Greenlet):
         if not self.username:
             self.write("Sorry, try again: ")
         else:
-            ch_data = Character.get_from_file(self.username)
+            ch_data = Character.get_from_file(self.username, self.game)
 
             if not ch_data:
                 self.actor = Character(self.game, {
@@ -96,7 +96,7 @@ Did I get that right, {} (Y/N)? """.format(
             self.state = "login_password"
 
     def handle_login_password_input(self, message):
-        ch_data = Character.get_from_file(self.username)
+        ch_data = Character.get_from_file(self.username, self.game)
         cleaned = message.strip()
 
         if not cleaned:
@@ -114,8 +114,8 @@ Did I get that right, {} (Y/N)? """.format(
         connection = self.game.get_actor_connection(actor_id=self.username)
 
         if connection is None:
-            Character.add(ch_data)
-            ch = Character.get_by_uid(self.username)
+            Character.add(ch_data, self.game)
+            ch = Character.get_by_uid(self.username, self.game)
             self.actor = ch
             self.actor.set_connection(self)
             self.state = "motd"
@@ -321,7 +321,7 @@ Your choice?: """)
         self.display_motd()
         self.state = "motd"
 
-        Character.add(self.actor.data)
+        Character.add(self.actor.data, self.game)
         self.actor = Character.get_by_uid(self.actor.uid)
         self.actor.set_connection(self)
 

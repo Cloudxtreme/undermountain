@@ -9,11 +9,8 @@ class Combat(GameEntity):
     COLLECTION_NAME = 'combats'
 
     @classmethod
-    def get_by_actor(cls, actor, game=None):
-        if game is None:
-            game = cls.get_game()
-
-        for combat in cls.query():
+    def get_by_actor(cls, actor, game):
+        for combat in cls.query(game=game):
             for actor_uid in combat.actors:
                 if actor_uid == actor.uid:
                     return cls.wrap(combat)
@@ -22,10 +19,7 @@ class Combat(GameEntity):
 
 
     @classmethod
-    def initiate_combat(cls, actor, other, game=None):
-        if game is None:
-            game = cls.get_game()
-
+    def initiate_combat(cls, actor, other, game):
         data = {
             "actors": [
                 actor,

@@ -6,7 +6,7 @@ class CombatManager(Manager):
     TICK_DELAY = 5
 
     def tick(self):
-        combats = Combat.query()
+        combats = Combat.query(self.game)
         print("Number of combats.. {}".format(len(combats)))
         for combat in combats:
             combat.tick()

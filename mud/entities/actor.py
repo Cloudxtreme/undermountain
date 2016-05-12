@@ -6,6 +6,22 @@ from utils.entity import Entity
 import random
 
 
+def nocommand_command(actor, params, command, *args, **kwargs):
+
+    # Nothing provided.
+    if not len(params):
+        actor.echo("Limit a player from being able to use a command.")
+        actor.echo("Usage: {} <name> <command>".format(command))
+        return
+
+    # Show nocommands for a player.
+    elif len(params) == 1:
+        actor.echo("List nocommands.")
+        return
+
+    actor.echo("Implement nocommand.")
+
+
 def password_command(actor, params, *args, **kwargs):
     from mud.entities.character import Character
 
@@ -167,15 +183,13 @@ def reload_command(actor, *args, **kwargs):
 	# del(sys.modules[m])
     actor.echo("Reloaded modules.")
 
-def who_command(actor, *args, **kwargs):
+def who_command(actor, game, *args, **kwargs):
     from utils.ansi import Ansi
 
     actor.echo("""\
 {G                   The Visible Mortals and Immortals of Waterdeep
 {g-----------------------------------------------------------------------------\
     """)
-
-    game = actor.get_game()
 
     total_count = 0
     visible_count = 0
@@ -313,6 +327,8 @@ def channel_command(actor, command, params, *args, **kwargs):
 
 def walk_command(actor, command, *args, **kwargs):
     # FIXME add actor.can_walk() check
+    import time
+    start = time.time()
 
     current_room = actor.get_room()
     exit = current_room.get_exit(command)
@@ -363,8 +379,10 @@ def walk_command(actor, command, *args, **kwargs):
     actor.event_to_room("exited", event_data, room=current_room)
     actor.event_to_room("entered", event_data, room=target_room)
 
+    actor.echo("walking took {} seconds".format(time.time() - start))
 
-def look_command(actor, *args, **kwargs):
+
+def look_command(actor, game, *args, **kwargs):
     from mud.entities.character import Character
     from settings.directions import DIRECTIONS
 
@@ -429,9 +447,9 @@ def look_command(actor, *args, **kwargs):
 
     actor.echo('   '.join(exit_line_parts))
 
-    objects = Object.query_by_room_uid(actor.room_uid)
-    actors = Actor.query_by_room_uid(actor.room_uid)
-    characters = Character.query_by_room_uid(actor.room_uid)
+    objects = Object.query_by_room_uid(actor.room_uid, game=game)
+    actors = Actor.query_by_room_uid(actor.room_uid, game=game)
+    characters = Character.query_by_room_uid(actor.room_uid, game=game)
 
     for other in objects + characters + actors:
         if not actor.can_see(other) or other == actor:
@@ -727,6 +745,7 @@ class Actor(RoomEntity):
         try:
             match["handler"](
                 actor=self,
+                game=self.game,
                 params=params,
                 command=match["keywords"].split()[0],
             )
@@ -793,6 +812,11 @@ class Actor(RoomEntity):
             {
                 "keywords": "affects",
                 "handler": affects_command
+            },
+            {
+                "keywords": "nocommand",
+                "roles": ["admin"],
+                "handler": nocommand_command
             },
             {
                 "keywords": "effects",
@@ -910,7 +934,7 @@ class Actor(RoomEntity):
         return None
 
     def is_fighting(self):
-        battle = Combat.get_by_actor(self)
+        battle = Combat.get_by_actor(self, self.game)
         return battle is not None
 
     def say(self, message):
@@ -932,7 +956,7 @@ class Actor(RoomEntity):
             def match_tell_player(other):
                 return other.name_like(raw_target) and \
                     self.can_see(other)
-            target = Character.find(func=match_tell_player)
+            target = Character.find(func=match_tell_player, game=self.game)
 
         if not target:
             self.echo("Target not found.")
@@ -970,7 +994,7 @@ class Actor(RoomEntity):
             # Only compile on-demand.
             compiled = trigger.get("compiled", None)
             if compiled is None:
-                compiled = compile(trigger["code"], event.type, "exec")
+                compiled = compile(trigger["code"], self.uid + ':' + event.type, "exec")
                 trigger["compiled"] = compiled
 
             try:
@@ -983,10 +1007,12 @@ class Actor(RoomEntity):
         return self.effects
 
     @classmethod
-    def find(cls, func):
-        for actor in cls.query():
+    def find(cls, game, func=None):
+        for actor in cls.query(game=game):
             if func(actor):
                 return actor
+
+            return actor
 
         return None
 
