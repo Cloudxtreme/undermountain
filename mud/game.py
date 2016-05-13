@@ -217,7 +217,7 @@ tell("Kelemv", "Heyaaaa")
         Time.tick('game_start')
 
         # rooms
-        for x in xrange(1, 30000):
+        for x in xrange(1, 100000):
             created_id = "room:" + str(x)
             created = dict(temple_square)
             created["uid"] = created_id
@@ -225,7 +225,7 @@ tell("Kelemv", "Heyaaaa")
             Room.add(created, self)
 
         # mobs
-        for x in xrange(1, 10000):
+        for x in xrange(1, 100000):
             created_id = "actor:" + str(x)
             created = dict(hogan)
             created["uid"] = created_id
