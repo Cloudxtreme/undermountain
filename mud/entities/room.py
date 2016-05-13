@@ -17,9 +17,6 @@ class Room(GameEntity):
         from mud.entities.actor import Actor
         from mud.entities.character import Character
 
-        from utils.time import Time
-        Time.tick("get_actors")
-
         # FIXME use some kind of reusable filtering function
         for actor in Actor.query_by_room_uid(self.uid, game=self.game):
             if actor == exclude:
@@ -32,8 +29,6 @@ class Room(GameEntity):
                 continue
 
             yield actor
-
-        Time.tock("get_actors")
 
     def find_actor(self, cmp):
 
@@ -62,7 +57,6 @@ class Room(GameEntity):
             if event.is_blocked():
                 break
             try:
-                # gevent.spawn(actor.handle_event, event)
                 actor.handle_event(event)
             except Exception, e:
                 self.game.handle_exception(e)

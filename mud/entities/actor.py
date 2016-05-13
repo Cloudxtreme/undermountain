@@ -43,7 +43,9 @@ def password_command(actor, params, *args, **kwargs):
 
 def quit_command(actor, *args, **kwargs):
     actor.echo("Logging you out.")
-    actor.save()
+
+    # TODO Check actor can quit here.
+
     connection = actor.get_connection()
     connection.destroy()
 
@@ -332,8 +334,6 @@ def walk_command(actor, command, *args, **kwargs):
     current_room = actor.get_room()
     exit = current_room.get_exit(command)
 
-    Time.tick("walk")
-
     if not exit:
         actor.echo("Alas, you can't go that way.")
         return
@@ -379,8 +379,6 @@ def walk_command(actor, command, *args, **kwargs):
 
     actor.event_to_room("exited", event_data, room=current_room)
     actor.event_to_room("entered", event_data, room=target_room)
-
-    Time.tock("walk")
 
 
 def look_command(actor, game, *args, **kwargs):
@@ -709,10 +707,10 @@ class Actor(RoomEntity):
             connection.add_delay(seconds)
 
     def get_connection(self):
-        return self["$connection"]
+        return self.connection
 
     def set_connection(self, connection):
-        self["$connection"] = connection
+        super(Entity, self).__setattr__('connection', connection)
 
     def echo(self, message=""):
         message = str(message)

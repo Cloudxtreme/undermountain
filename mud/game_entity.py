@@ -36,11 +36,8 @@ class GameEntity(Entity):
 
         game.data[cls.COLLECTION_NAME] = []
 
-        for key in cls.UNIQUE_INDEXES + cls.STRING_INDEXES:
+        for key in cls.UNIQUE_INDEXES + cls.INDEXES + cls.STRING_INDEXES:
             game.data[cls.COLLECTION_NAME + '_by_' + key] = {}
-
-        for key in cls.INDEXES:
-            game.data[cls.COLLECTION_NAME + '_by_' + key] = []
 
         # TODO HANDLE STRING INDEXES
 
@@ -89,22 +86,26 @@ class GameEntity(Entity):
 
         for key in self.INDEXES:
             full_key = self.COLLECTION_NAME + '_by_' + key
+            value = self.get(key, "")
 
-            self.game.data[full_key].append(self)
+            if value not in self.game.data[full_key]:
+                self.game.data[full_key][value] = []
+
+            self.game.data[full_key][value].append(self)
 
         # TODO String indexes for searching startswith/contains.
 
     def deindex(self):
-
         for key in self.UNIQUE_INDEXES:
             full_key = self.COLLECTION_NAME + '_by_' + key
             value = self.get(key, "")
             # TODO HANDLE BLANKS
-            del self.game.data[full_key][self.get(value)]
+            del self.game.data[full_key][value]
 
         for key in self.INDEXES:
             full_key = self.COLLECTION_NAME + '_by_' + key
-            self.game.data[full_key].remove(self)
+            value = self.get(key, "")
+            self.game.data[full_key][value].remove(self)
 
         # TODO String indexes for searching startswith/contains.
 
@@ -134,7 +135,7 @@ class GameEntity(Entity):
 
         # TODO check index exists
         full_key = cls.COLLECTION_NAME + '_by_' + field
-        for entry in game.data[full_key]:
-            if entry.get(field, None) == value:
+        if value in game.data[full_key]:
+            for entry in game.data[full_key][value]:
                 yield entry
 

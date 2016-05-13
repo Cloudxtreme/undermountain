@@ -60,13 +60,17 @@ class TelnetConnection(Greenlet):
             ch_data = Character.get_from_file(self.username, self.game)
 
             if not ch_data:
+                print(self.game)
+                print(self.username)
                 self.actor = Character(self.game, {
                     "uid": self.username,
                     "id": self.username,
                     "name": self.username,
                     "room_id": "westbridge:3001",
                 })
+                print("MOAR")
                 self.actor.set_connection(self)
+                print("FUFF")
 
                 self.state = "create_confirm_username"
                 self.write("""\
@@ -135,7 +139,12 @@ Did I get that right, {} (Y/N)? """.format(
             self.actor.handle_input("look")
 
     def destroy(self):
+        if self.actor:
+            self.actor.save()
+            self.actor.remove()
+
         self.playing = False
+
         self.flush()
         self.server.remove_connection(self)
         self.close()
@@ -428,7 +437,7 @@ Your choice?: """)
         while self.connected:
             try:
                 raw_message = self.socket.recv(4096)
-            except Exception:
+            except Exception, e:
                 raw_message = None
             if raw_message:
                 lines = raw_message.strip("\r\n").split("\n")
@@ -455,8 +464,8 @@ Your choice?: """)
         try:
             self.socket.shutdown(socket.SHUT_WR)
             self.socket.close()
-        except Exception:
-            pass
+        except Exception, e:
+            self.game.handle_exception(e)
 
 
 class TelnetServer(Greenlet):

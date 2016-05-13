@@ -20,7 +20,7 @@ class RoomEntity(GameEntity):
 
         # TODO Make this figure out if this entity can be present in one
         # of these rooms, otherwise.. return None
-        rooms = Room.query_by_id(self.room_id, game=self.game)
+        rooms = list(Room.query_by_id(self.room_id, game=self.game))
         if rooms:
             room = rooms[0]
             self.room_uid = room.uid
@@ -32,8 +32,6 @@ class RoomEntity(GameEntity):
         return self.room_name
 
     def event_to_room(self, name, data=None, blockable=False, room=None):
-        import gevent
-
         if data is None:
             data = {}
 
@@ -45,7 +43,6 @@ class RoomEntity(GameEntity):
             room = self.get_room()
 
         room.handle_event(event)
-        # gevent.spawn(room.handle_event, event)
 
         return event
 

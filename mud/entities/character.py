@@ -14,13 +14,6 @@ class Character(Actor):
     def __init__(self, *args, **kwargs):
         super(Character, self).__init__(*args, **kwargs)
 
-        room = self.get_room()
-        if not room:
-            # FIXME use some config setting
-            starting_rooms = Room.query_by_id("westbridge:3001")
-            if starting_rooms:
-                self.set_room(starting_rooms[0])
-
         if not self.class_id:
             # FIXME DEFAULTS
             self.class_id = 'vampire'
@@ -87,6 +80,8 @@ class Character(Actor):
                 return data
         except IOError:
             pass
+        except Exception, e:
+            game.handle_exception(e)
 
         return None
 
@@ -105,14 +100,7 @@ class Character(Actor):
 
     @classmethod
     def save_to_file(cls, data, game):
-        data = dict(data)
-
-        save_data = {}
-
-        for key, val in data.iteritems():
-            if key.startswith("$"):
-                continue
-            save_data[key] = val
+        save_data = dict(data)
 
         uid = save_data.get('uid', None)
         path = cls.get_file_path(uid, game)
@@ -123,5 +111,3 @@ class Character(Actor):
                 return fh.write(json.dumps(save_data))
         except IOError:
             pass
-
-        return None
