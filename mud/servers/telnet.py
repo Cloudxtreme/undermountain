@@ -60,17 +60,13 @@ class TelnetConnection(Greenlet):
             ch_data = Character.get_from_file(self.username, self.game)
 
             if not ch_data:
-                print(self.game)
-                print(self.username)
                 self.actor = Character(self.game, {
                     "uid": self.username,
                     "id": self.username,
                     "name": self.username,
                     "room_id": "westbridge:3001",
                 })
-                print("MOAR")
                 self.actor.set_connection(self)
-                print("FUFF")
 
                 self.state = "create_confirm_username"
                 self.write("""\
@@ -140,8 +136,9 @@ Did I get that right, {} (Y/N)? """.format(
 
     def destroy(self):
         if self.actor:
-            self.actor.save()
-            self.actor.remove()
+            if self.playing:
+                self.actor.save()
+                self.actor.remove()
 
         self.playing = False
 
@@ -330,11 +327,11 @@ Your choice?: """)
         self.display_motd()
         self.state = "motd"
 
-        Character.add(self.actor.data, self.game)
-        self.actor = Character.get_by_uid(self.actor.uid)
+        self.actor = Character.get_by_uid(self.actor.uid, self.game)
         self.actor.set_connection(self)
 
         # First save!
+        Character.add(self.actor.data, self.game)
         self.actor.save()
 
     def handle_motd_input(self, message):
@@ -443,6 +440,8 @@ Your choice?: """)
                 lines = raw_message.strip("\r\n").split("\n")
                 self.input_buffer += lines
             else:
+                if not self.playing:
+                    self.destroy()
                 self.connected = False
 
     def read(self):

@@ -196,7 +196,7 @@ def who_command(actor, game, *args, **kwargs):
     total_count = 0
     visible_count = 0
 
-    for other in game.get_characters():
+    for other in game.query_characters():
         total_count += 1
 
         if not actor.can_see(other):
@@ -1003,11 +1003,8 @@ class Actor(RoomEntity):
     @classmethod
     def find(cls, game, func=None):
         for actor in cls.query(game=game):
-            if func(actor):
+            if func and func(actor):
                 return actor
-
-            return actor
-
         return None
 
     def tick(self):

@@ -40,15 +40,6 @@ class Game(Greenlet):
     def remove_connection(self, connection):
         self.connections.remove(connection)
 
-    def get_characters(self):
-        for connection in self.connections:
-            actor = connection.get_actor()
-
-            if not actor:
-                continue
-
-            yield actor
-
     # TODO MOVE THIS TO CHARACTER MODEL
     def find_character(self, *args, **kwargs):
         for result in self.query_characters(*args, **kwargs):
@@ -57,17 +48,25 @@ class Game(Greenlet):
 
     # TODO MOVE THIS TO CHARACTER MODEL
     def query_characters(self, func=None, name_like=None, visible_to=None):
-        for character in self.get_characters():
-            if func is not None and not func(character):
+        for connection in self.connections:
+            if not connection.is_playing():
                 continue
 
-            if name_like is not None and not character.name_like(name_like):
+            actor = connection.get_actor()
+
+            if not actor:
                 continue
 
-            if visible_to is not None and not visible_to.can_see(character):
+            if func is not None and not func(actor):
                 continue
 
-            yield character
+            if name_like is not None and not actor.name_like(name_like):
+                continue
+
+            if visible_to is not None and not visible_to.can_see(actor):
+                continue
+
+            yield actor
 
     def get_actor_connection(self, actor=None, actor_id=None, exclude=None):
         for connection in self.connections:
