@@ -123,12 +123,12 @@ class Game(Greenlet):
             ],
             "triggers": [
                 {"type": "entered", "code": """
-# say("This is a test, nothing else should run.")
-# say("Hello {}!".format(randint(1, 10)))
-# say("First test.")
-# tell(actor, "Heyaaaa")
-# say("Second test.")
-# tell("Kelemv", "Heyaaaa")
+say("This is a test, nothing else should run.")
+say("Hello {}!".format(randint(1, 10)))
+say("First test.")
+tell(actor, "Heyaaaa")
+say("Second test.")
+tell("Kelemv", "Heyaaaa")
 """},
             ]
         }
@@ -213,10 +213,8 @@ class Game(Greenlet):
         }
         Room.add(temple_square, self)
 
-        import time
-        start = time.time()
-        # import gc
-        # gc.disable()
+        from utils.time import Time
+        Time.tick('game_start')
 
         # rooms
         for x in xrange(1, 30000):
@@ -238,8 +236,7 @@ class Game(Greenlet):
             Actor.add(created, self)
             print("Added actor.. {}".format(created["uid"]))
 
-        # gc.enable()
-        print("TOTAL TIME {}".format(time.time() - start))
+        Time.tock('game_start')
 
     def echo(self, message):
         for actor in self.query_characters():

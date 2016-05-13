@@ -326,12 +326,13 @@ def channel_command(actor, command, params, *args, **kwargs):
 
 
 def walk_command(actor, command, *args, **kwargs):
-    # FIXME add actor.can_walk() check
-    import time
-    start = time.time()
+    from utils.time import Time
 
+    # FIXME add actor.can_walk() check
     current_room = actor.get_room()
     exit = current_room.get_exit(command)
+
+    Time.tick("walk")
 
     if not exit:
         actor.echo("Alas, you can't go that way.")
@@ -379,7 +380,7 @@ def walk_command(actor, command, *args, **kwargs):
     actor.event_to_room("exited", event_data, room=current_room)
     actor.event_to_room("entered", event_data, room=target_room)
 
-    actor.echo("walking took {} seconds".format(time.time() - start))
+    Time.tock("walk")
 
 
 def look_command(actor, game, *args, **kwargs):
@@ -447,26 +448,23 @@ def look_command(actor, game, *args, **kwargs):
 
     actor.echo('   '.join(exit_line_parts))
 
-    objects = Object.query_by_room_uid(actor.room_uid, game=game)
-    actors = Actor.query_by_room_uid(actor.room_uid, game=game)
-    characters = Character.query_by_room_uid(actor.room_uid, game=game)
+    for cls in [Object, Actor, Character]:
+        for other in cls.query_by_room_uid(actor.room_uid, game=game):
+            if not actor.can_see(other) or other == actor:
+                continue
 
-    for other in objects + characters + actors:
-        if not actor.can_see(other) or other == actor:
-            continue
+            output = str(other.format_room_flags_to(actor))
 
-        output = str(other.format_room_flags_to(actor))
+            # Only add space if there's a set of flags.
+            if output:
+                output += ' '
 
-        # Only add space if there's a set of flags.
-        if output:
-            output += ' '
+            if type(other) is Object:
+                output = '     ' + output
 
-        if type(other) is Object:
-            output = '     ' + output
+            output += str(other.format_room_name_to(actor))
 
-        output += str(other.format_room_name_to(actor))
-
-        actor.echo(output)
+            actor.echo(output)
 
 
 def affects_command(actor, *args, **kwargs):
@@ -657,9 +655,7 @@ class Actor(RoomEntity):
     def act_around(self, template):
         room = self.get_room()
 
-        actors = [actor for actor in room.get_actors(exclude=self)]
-
-        for other in actors:
+        for other in room.get_actors(exclude=self):
             self.act_to(other, template)
 
     def format_who_gender(self):

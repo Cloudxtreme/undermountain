@@ -15,25 +15,33 @@ class Room(GameEntity):
         from mud.entities.actor import Actor
         from mud.entities.character import Character
 
+        from utils.time import Time
+        Time.tick("get_actors")
+
         # FIXME use some kind of reusable filtering function
         for actor in Actor.query_by_room_uid(self.uid, game=self.game):
             if actor == exclude:
                 continue
 
+            print(actor)
             yield actor
 
         for actor in Character.query_by_room_uid(self.uid, game=self.game):
             if actor == exclude:
                 continue
 
+            print(actor)
             yield actor
 
-    def find_actor(self, cmp):
-        actors = self.get_actors()
+        Time.tock("get_actors")
 
-        for actor in actors:
-            if cmp(actor):
+    def find_actor(self, cmp):
+
+        for actor in self.get_actors():
+            if cmp and cmp(actor):
                 return actor
+
+            return actor
 
         return None
 

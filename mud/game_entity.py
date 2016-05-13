@@ -8,6 +8,10 @@ class GameEntity(Entity):
     COLLECTION_NAME = None
     COLLECTIONS_CHECKED = []
 
+    UNIQUE_INDEXES = ['uid']
+    STRING_INDEXES = ['keywords']
+    INDEXES = ['id']
+
     def __repr__(self):
         return "<{} uid:{} name:{} python:{}>".format(
             self.__class__.__name__,
@@ -31,8 +35,14 @@ class GameEntity(Entity):
             return
 
         game.data[cls.COLLECTION_NAME] = []
-        game.data[cls.COLLECTION_NAME + "_by_id"] = {}
-        game.data[cls.COLLECTION_NAME + "_by_uid"] = {}
+
+        for key in cls.UNIQUE_INDEXES + cls.STRING_INDEXES:
+            game.data[cls.COLLECTION_NAME + '_by_' + key] = {}
+
+        for key in cls.INDEXES:
+            game.data[cls.COLLECTION_NAME + '_by_' + key] = []
+
+        # TODO HANDLE STRING INDEXES
 
         cls.COLLECTIONS_CHECKED.append(cls.__name__)
 
@@ -60,68 +70,71 @@ class GameEntity(Entity):
 
     @classmethod
     def index(cls, data, game):
-        if game is None:
-            game = cls.get_game()
 
-        by_id = game.data[cls.COLLECTION_NAME + "_by_id"]
-        id = data.get("id", None)
-        if id:
-            if not id in by_id:
-                by_id[id] = []
-            by_id[id].append(data)
+        for key in cls.UNIQUE_INDEXES:
+            full_key = cls.COLLECTION_NAME + '_by_' + key
 
-        uid = data.get("uid", None)
-        if uid:
-            game.data[cls.COLLECTION_NAME + "_by_uid"][uid] = data
+            # Check for uniqueness naming collision.
+            if data.get(key, "") in game.data:
+                raise Exception("{} with key '{}' collision".format(
+                    cls.__name__,
+                    key,
+                ))
+
+            value = data.get(key, "")
+            print("INDEXING {} {} '{}'".format(cls.__name__, full_key, value))
+            # TODO HANDLE BLANKS
+            game.data[full_key][value] = data
+
+        for key in cls.INDEXES:
+            full_key = cls.COLLECTION_NAME + '_by_' + key
+
+            game.data[full_key].append(data)
+
+        # TODO String indexes for searching startswith/contains.
 
     @classmethod
     def deindex(cls, data, game):
-        if game is None:
-            game = cls.get_game()
 
-        uid = data.get("uid", None)
-        if uid:
-            del game.data[cls.COLLECTION_NAME + "_by_uid"][data["uid"]]
+        for key in cls.UNIQUE_INDEXES:
+            full_key = cls.COLLECTION_NAME + '_by_' + key
+            value = data.get(key, "")
+            # TODO HANDLE BLANKS
+            del game.data[full_key][data.get(value)]
 
-        id = data.get("id", None)
-        if id:
-            by_id = game.data[cls.COLLECTION_NAME + "_by_id"][id]
-            by_id.remove(self)
-            if not by_id:
-                del game.data[cls.COLLECTION_NAME + "_by_id"][id]
+        for key in cls.INDEXES:
+            full_key = cls.COLLECTION_NAME + '_by_' + key
+            game.data[full_key].remove(data)
 
-    @classmethod
-    def wrap(cls, game, data):
-        if data is None:
-            return None
-
-        # Do not recursively wrap.
-        if type(data) is list:
-            return [cls(game, item) for item in data]
-
-        return cls(game, data)
+        # TODO String indexes for searching startswith/contains.
 
     @classmethod
     def query_by_id(cls, id, game):
-        if game is None:
-            game = cls.get_game()
-
-        data = game.data[cls.COLLECTION_NAME + "_by_id"].get(id, None)
-
-        return cls.wrap(game, data)
+        return cls.query_by("id", id, game)
 
     @classmethod
     def get_by_uid(cls, uid, game):
-        if game is None:
-            game = cls.get_game()
-
-        data = game.data[cls.COLLECTION_NAME + "_by_uid"].get(uid, None)
-
-        return cls.wrap(game, data)
+        full_key = cls.COLLECTION_NAME + "_by_uid"
+        result = game.data[full_key].get(uid, None)
+        if not result:
+            return None
+        return cls(game, result)
 
     @classmethod
     def query(cls, game):
         cls.check_game_collections(game)
 
-        results = game.data[cls.COLLECTION_NAME]
-        return cls.wrap(game, results)
+        # TODO CHECK INDEX EXISTS?
+        for result in game.data[cls.COLLECTION_NAME]:
+            yield cls(game, result)
+
+    @classmethod
+    def query_by(cls, field, value, game):
+        cls.check_game_collections(game)
+
+        # TODO check index exists
+        full_key = cls.COLLECTION_NAME + '_by_' + field
+        for entry in game.data[full_key]:
+            if entry.get(field, None) == value:
+                yield cls(game, entry)
+

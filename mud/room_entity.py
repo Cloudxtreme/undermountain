@@ -4,27 +4,23 @@ from mud.game_entity import GameEntity
 
 
 class RoomEntity(GameEntity):
+    INDEXES = ['id', 'room_uid', 'room_id']
+
     @classmethod
     def query_by_room_uid(cls, uid, game):
-        results = [
-            cls(game, actor)
-            for actor in cls.query(game=game)
-            if actor.get("room_uid", None) == uid
-        ]
-
-        return results
+        return cls.query_by("room_uid", uid, game=game)
 
     def format_room_flags_to(self, other):
         return ""
 
     def get_room(self):
-        room = Room.get_by_uid(self.room_uid, self.game)
+        room = Room.get_by_uid(self.room_uid, game=self.game)
         if room is not None:
             return room
 
         # TODO Make this figure out if this entity can be present in one
         # of these rooms, otherwise.. return None
-        rooms = Room.query_by_id(self.room_id)
+        rooms = Room.query_by_id(self.room_id, game=self.game)
         if rooms:
             room = rooms[0]
             self.room_uid = room.uid
