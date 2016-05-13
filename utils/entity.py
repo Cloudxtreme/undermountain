@@ -16,6 +16,10 @@ class Entity(object):
     def __setattr__(self, key, value):
         self.data[key] = value
 
+    def __delattr__(self, key):
+        if key in self.data:
+            del self.data[key]
+
     def __getattr__(self, key):
         return self.data.get(key, None)
 

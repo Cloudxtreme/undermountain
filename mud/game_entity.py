@@ -12,6 +12,31 @@ class GameEntity(Entity):
     STRING_INDEXES = ['keywords']
     INDEXES = ['id']
 
+    @classmethod
+    def query_index_fields(cls):
+        return cls.UNIQUE_INDEXES + cls.STRING_INDEXES + cls.INDEXES
+
+    # FIXME make this a decorator, the index/deindex
+    def __delattr__(self, key, value):
+        indexes = self.query_index_fields()
+        if key in indexes:
+            self.deindex()
+
+        super(GameEntity, self).__setattr__(key, value)
+
+        if key in indexes:
+            self.index()
+
+    def __setattr__(self, key, value):
+        indexes = self.query_index_fields()
+        if key in indexes:
+            self.deindex()
+
+        super(GameEntity, self).__setattr__(key, value)
+
+        if key in indexes:
+            self.index()
+
     def __repr__(self):
         return "<{} uid:{} name:{} python:{}>".format(
             self.__class__.__name__,
@@ -36,7 +61,7 @@ class GameEntity(Entity):
 
         game.data[cls.COLLECTION_NAME] = []
 
-        for key in cls.UNIQUE_INDEXES + cls.INDEXES + cls.STRING_INDEXES:
+        for key in cls.query_index_fields():
             game.data[cls.COLLECTION_NAME + '_by_' + key] = {}
 
         # TODO HANDLE STRING INDEXES

@@ -38,7 +38,8 @@ class Game(Greenlet):
         self.connections.append(connection)
 
     def remove_connection(self, connection):
-        self.connections.remove(connection)
+        if connection in self.connections:
+            self.connections.remove(connection)
 
     # TODO MOVE THIS TO CHARACTER MODEL
     def find_character(self, *args, **kwargs):

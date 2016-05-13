@@ -327,11 +327,9 @@ Your choice?: """)
         self.display_motd()
         self.state = "motd"
 
-        self.actor = Character.get_by_uid(self.actor.uid, self.game)
-        self.actor.set_connection(self)
-
         # First save!
-        Character.add(self.actor.data, self.game)
+        self.actor = Character.add(self.actor.data, self.game)
+        self.actor.set_connection(self)
         self.actor.save()
 
     def handle_motd_input(self, message):
@@ -436,6 +434,7 @@ Your choice?: """)
                 raw_message = self.socket.recv(4096)
             except Exception, e:
                 raw_message = None
+
             if raw_message:
                 lines = raw_message.strip("\r\n").split("\n")
                 self.input_buffer += lines
@@ -464,7 +463,7 @@ Your choice?: """)
             self.socket.shutdown(socket.SHUT_WR)
             self.socket.close()
         except Exception, e:
-            self.game.handle_exception(e)
+            pass
 
 
 class TelnetServer(Greenlet):
@@ -484,7 +483,8 @@ class TelnetServer(Greenlet):
             gevent.sleep(0.05)
 
     def remove_connection(self, connection):
-        self.connections.remove(connection)
+        if connection in self.connections:
+            self.connections.remove(connection)
         self.game.remove_connection(connection)
 
     def add_connection(self, connection):
