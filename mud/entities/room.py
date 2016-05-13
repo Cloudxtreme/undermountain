@@ -1,4 +1,5 @@
 from mud.game_entity import GameEntity
+from profilehooks import profile
 
 
 class Room(GameEntity):
@@ -8,6 +9,7 @@ class Room(GameEntity):
     """
     COLLECTION_NAME = 'rooms'
 
+    @profile
     def get_actors(self, exclude=None):
         """
         Get all the Actors in this Room.
@@ -23,14 +25,12 @@ class Room(GameEntity):
             if actor == exclude:
                 continue
 
-            print(actor)
             yield actor
 
         for actor in Character.query_by_room_uid(self.uid, game=self.game):
             if actor == exclude:
                 continue
 
-            print(actor)
             yield actor
 
         Time.tock("get_actors")

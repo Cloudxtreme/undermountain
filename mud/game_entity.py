@@ -6,7 +6,7 @@ class GameEntity(Entity):
     GAME ENTITY
     """
     COLLECTION_NAME = None
-    COLLECTIONS_CHECKED = []
+    COLLECTIONS_CHECKED = set()
 
     UNIQUE_INDEXES = ['uid']
     STRING_INDEXES = ['keywords']
@@ -44,67 +44,67 @@ class GameEntity(Entity):
 
         # TODO HANDLE STRING INDEXES
 
-        cls.COLLECTIONS_CHECKED.append(cls.__name__)
+        cls.COLLECTIONS_CHECKED.add(cls.__name__)
 
     @classmethod
     def add(cls, data, game):
         """
-        Create an Area in the Game.
+        Add this Entity to the Game.
         """
+        entity = cls(game, data)
+
         cls.check_game_collections(game)
 
-        game.data[cls.COLLECTION_NAME].append(data)
+        game.data[cls.COLLECTION_NAME].append(entity)
 
-        cls.index(data, game)
+        entity.index()
 
-    @classmethod
-    def remove(cls, data, game=None):
+        return entity
+
+    def remove(self):
         """
-        Remove an Area from the Game.
+        Remove this Entity from the Game.
         """
-        cls.check_game_collections(game)
+        self.check_game_collections(self.game)
 
-        cls.deindex(data, game)
+        self.deindex()
 
-        game.data[cls.COLLECTION_NAME].remove(data)
+        self.game.data[self.COLLECTION_NAME].remove(self)
 
-    @classmethod
-    def index(cls, data, game):
+    def index(self):
 
-        for key in cls.UNIQUE_INDEXES:
-            full_key = cls.COLLECTION_NAME + '_by_' + key
+        for key in self.UNIQUE_INDEXES:
+            full_key = self.COLLECTION_NAME + '_by_' + key
 
             # Check for uniqueness naming collision.
-            if data.get(key, "") in game.data:
+            if self.get(key, "") in self.game.data:
                 raise Exception("{} with key '{}' collision".format(
-                    cls.__name__,
+                    self.__name__,
                     key,
                 ))
 
-            value = data.get(key, "")
-            print("INDEXING {} {} '{}'".format(cls.__name__, full_key, value))
+            value = self.get(key, "")
             # TODO HANDLE BLANKS
-            game.data[full_key][value] = data
+            self.game.data[full_key][value] = self
 
-        for key in cls.INDEXES:
-            full_key = cls.COLLECTION_NAME + '_by_' + key
+        for key in self.INDEXES:
+            full_key = self.COLLECTION_NAME + '_by_' + key
 
-            game.data[full_key].append(data)
+            self.game.data[full_key].append(self)
 
         # TODO String indexes for searching startswith/contains.
 
-    @classmethod
-    def deindex(cls, data, game):
+    def deindex(self):
 
-        for key in cls.UNIQUE_INDEXES:
-            full_key = cls.COLLECTION_NAME + '_by_' + key
-            value = data.get(key, "")
+        for key in self.UNIQUE_INDEXES:
+            full_key = self.COLLECTION_NAME + '_by_' + key
+            value = self.get(key, "")
             # TODO HANDLE BLANKS
-            del game.data[full_key][data.get(value)]
+            del self.game.data[full_key][self.get(value)]
 
-        for key in cls.INDEXES:
-            full_key = cls.COLLECTION_NAME + '_by_' + key
-            game.data[full_key].remove(data)
+        for key in self.INDEXES:
+            full_key = self.COLLECTION_NAME + '_by_' + key
+            self.game.data[full_key].remove(self)
 
         # TODO String indexes for searching startswith/contains.
 
@@ -118,7 +118,7 @@ class GameEntity(Entity):
         result = game.data[full_key].get(uid, None)
         if not result:
             return None
-        return cls(game, result)
+        return result
 
     @classmethod
     def query(cls, game):
@@ -126,7 +126,7 @@ class GameEntity(Entity):
 
         # TODO CHECK INDEX EXISTS?
         for result in game.data[cls.COLLECTION_NAME]:
-            yield cls(game, result)
+            yield result
 
     @classmethod
     def query_by(cls, field, value, game):
@@ -136,5 +136,5 @@ class GameEntity(Entity):
         full_key = cls.COLLECTION_NAME + '_by_' + field
         for entry in game.data[full_key]:
             if entry.get(field, None) == value:
-                yield cls(game, entry)
+                yield entry
 

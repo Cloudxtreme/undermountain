@@ -223,7 +223,6 @@ tell("Kelemv", "Heyaaaa")
             created["uid"] = created_id
             created["id"] = created_id
             Room.add(created, self)
-            print("Added room.. {}".format(created["uid"]))
 
         # mobs
         for x in xrange(1, 10000):
@@ -234,7 +233,6 @@ tell("Kelemv", "Heyaaaa")
             created["room_uid"] = "room:3"
             created["room_id"] = "room:3"
             Actor.add(created, self)
-            print("Added actor.. {}".format(created["uid"]))
 
         Time.tock('game_start')
 
