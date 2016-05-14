@@ -22,7 +22,7 @@ class Character(Actor):
             self.race_id = 'human'
 
         if not self.gender_id:
-            self.gender_id = 'm'
+            self.gender_id = 'male'
 
     def name_like(self, params):
         if type(params) is None:

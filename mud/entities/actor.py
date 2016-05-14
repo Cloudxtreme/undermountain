@@ -863,7 +863,7 @@ class Actor(RoomEntity):
         ]
 
         from mud.commands.sockets import sockets_command
-        commands.append({"keywords": "sockets", "handler": sockets_command})
+        commands.append({"keywords": "sockets", "handler": sockets_command, "role": "admin"})
 
         # FIXME use config
         for direction in DIRECTIONS.keys():
@@ -888,7 +888,18 @@ class Actor(RoomEntity):
 
         for command in commands:
             if command["keywords"].startswith(word):
-                return command
+                roles = command.get("roles", [])
+
+                role = command.get("role", None)
+                if role:
+                    roles.append(role)
+
+                if not roles:
+                    return command
+                else:
+                    for role in roles:
+                        if self.has_role(role):
+                            return command
 
         return None
 
