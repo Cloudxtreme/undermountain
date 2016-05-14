@@ -24,7 +24,9 @@ class TelnetConnection(Greenlet):
         self.playing = False
         self.server = server
         self.socket = conn
-        self.address = addr
+        self.hostname = addr[0]
+        self.port = addr[1]
+        self.ip = addr[0]  # FIXME make this look up IP if hostname not IP
         self.username = ""
         self.input_buffer = []
         self.output_buffer = ''
@@ -35,6 +37,7 @@ class TelnetConnection(Greenlet):
         self.actor = None
         self.color = True
         self.last_command = ""
+        self.id = self.game.get_unique_connection_id()
 
     def is_playing(self):
         return self.playing

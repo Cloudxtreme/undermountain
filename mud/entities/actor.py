@@ -862,6 +862,9 @@ class Actor(RoomEntity):
             },
         ]
 
+        from mud.commands.sockets import sockets_command
+        commands.append({"keywords": "sockets", "handler": sockets_command})
+
         # FIXME use config
         for direction in DIRECTIONS.keys():
             commands.insert(0, {

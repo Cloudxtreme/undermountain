@@ -34,6 +34,10 @@ class Game(Greenlet):
 
         return None
 
+    def query_connections(self):
+        for connection in self.connections:
+            yield connection
+
     def add_connection(self, connection):
         self.connections.append(connection)
 
@@ -82,6 +86,10 @@ class Game(Greenlet):
 
         return None
 
+    def get_unique_connection_id(self):
+        self.unique_connection_id += 1
+        return self.unique_connection_id
+
     def __init__(self, environment, *args, **kwargs):
         """
         Instantiate an Engine for an Environment.
@@ -90,6 +98,7 @@ class Game(Greenlet):
         self.environment = environment
         self.processes = []
         self.connections = []
+        self.unique_connection_id = 0
 
         self.data = {}  # Main memory core, reference relationships by ID only.
 
