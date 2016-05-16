@@ -188,8 +188,13 @@ class GameEntity(Entity):
     def echo(self, *args, **kwargs):
         pass
 
+    def execute_subroutine(self, compiled, context):
+        exec(compiled, context, context)
+
     def handle_event(self, event):
         import random
+        import time
+        import gevent
 
         context = {}
         context.update(event.data)
@@ -203,6 +208,7 @@ class GameEntity(Entity):
             "self": self,
 
             "block": event.block,
+            "wait": time.sleep,
 
             "randint": random.randint,
             "random": random.randint,
@@ -217,7 +223,7 @@ class GameEntity(Entity):
                 trigger["compiled"] = compiled
 
             try:
-                exec(compiled, context, context)
+                gevent.spawn(self.execute_subroutine, compiled, context)
 
             except Exception, e:
                 print("FIXME: better exception handling of this failure")

@@ -136,6 +136,8 @@ say("Hello {}!".format(randint(1, 10)))
 tell(actor, "Heyaaaa")
 tell("Kelemv", "Heyaaaa")
 say("Say {cnote{m or {chogan{m for some more testing.", trigger=False)
+wait(1)
+say("I waited to say something.")
 """},
                 {"type": "saying", "code": """
 if "hogan" in message:
