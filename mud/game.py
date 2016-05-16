@@ -18,7 +18,7 @@ class Game(Greenlet):
         # TODO HANDLE PROPERLY
         exc_type, exc_value, exc_traceback = sys.exc_info()
         traceback.print_exception(exc_type, exc_value, exc_traceback,
-                                  limit=2, file=sys.stdout)
+                                  file=sys.stdout)
 
     @classmethod
     def get_version(cls):
@@ -149,7 +149,11 @@ tell("Kelemv", "Heyaaaa")
             "id": "note",
             "room_id": "westbridge:3001",
             "room_uid": "abc123",
+            "name": "An old note",
             "room_name": "An old piece of paper lies on the floor.",
+            "triggers": [
+                {"type": "entered", "code": """say("Testing out oprogs.")"""},
+            ]
         }
         Object.add(note, self)
 

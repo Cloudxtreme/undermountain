@@ -1,5 +1,4 @@
 from mud.game_entity import GameEntity
-from profilehooks import profile
 
 
 class Room(GameEntity):
@@ -9,7 +8,19 @@ class Room(GameEntity):
     """
     COLLECTION_NAME = 'rooms'
 
-    @profile
+    def query_entities(self, exclude=None):
+        for actor in self.get_actors():
+            yield actor
+
+        for obj in self.query_objects():
+            yield obj
+
+    def query_objects(self):
+        from mud.entities.object import Object
+
+        for obj in Object.query_by_room_uid(self.uid, game=self.game):
+            yield obj
+
     def get_actors(self, exclude=None):
         """
         Get all the Actors in this Room.
@@ -50,13 +61,15 @@ class Room(GameEntity):
         return RoomExit(self.game, data)
 
     def handle_event(self, event):
-        for actor in self.get_actors():
-            if actor is self:
+        for entity in self.query_entities():
+
+            # You cannot fire your own triggers.
+            if entity is self:
                 continue
 
             if event.is_blocked():
                 break
             try:
-                actor.handle_event(event)
+                entity.handle_event(event)
             except Exception, e:
                 self.game.handle_exception(e)

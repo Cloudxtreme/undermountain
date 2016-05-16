@@ -3,9 +3,6 @@ from mud.entities.object import Object
 from mud.entities.combat import Combat
 from utils.entity import Entity
 
-import random
-
-
 def nocommand_command(actor, params, command, *args, **kwargs):
 
     # Nothing provided.
@@ -502,27 +499,7 @@ def say_command(actor, params, ooc=False, *args, **kwargs):
 
     message = ' '.join(params)
 
-    event_data = {
-        "channel": "say",
-        "message": "message",
-    }
-
-    event = actor.event_to_room("saying", event_data)
-
-    if event.is_blocked():
-        return
-
-    ooc_string = "[OOC] " if ooc else ""
-
-    actor.echo("{{MYou say {}{{x'{{m{}{{x'".format(
-        ooc_string,
-        message,
-    ))
-    actor.act_around("{{M[actor.name] says {}{{x'{{m{}{{x'".format(
-        ooc_string,
-        message,
-    ))
-    actor.event_to_room("said", event_data)
+    actor.say(message, ooc=ooc)
 
 
 class Actor(RoomEntity):
@@ -631,31 +608,6 @@ class Actor(RoomEntity):
     def format_who_clan(self):
         return ""
 
-    def format_act_template(self, template, actor, other):
-        message = template
-
-        # FIXME make more efficient
-        replaces = {
-            "actor.name": actor.format_name_to(other),
-        }
-
-        for field, value in replaces.iteritems():
-            if field in message:
-                message = message.replace("[" + field + "]", value)
-
-        return message
-
-    def act_to(self, other, template):
-        message = self.format_act_template(template, actor=self, other=other)
-        other.echo(message)
-        # TODO look for triggers to fire
-
-    def act_around(self, template):
-        room = self.get_room()
-
-        for other in room.get_actors(exclude=self):
-            self.act_to(other, template)
-
     def format_who_gender(self):
         if self.gender == "male":
             return "{BM{x"
@@ -696,7 +648,7 @@ class Actor(RoomEntity):
         return output if has_flags else ""
 
     def format_name_to(self, other):
-        return self.name if other.can_see(self) else "Someone"
+        return self.get("name", "Someone") if other.can_see(self) else "Someone"
 
     def delay(self, seconds):
         """
@@ -945,9 +897,6 @@ class Actor(RoomEntity):
         battle = Combat.get_by_actor(self, self.game)
         return battle is not None
 
-    def say(self, message):
-        say_command(self, params=message.split())
-
     def tell(self, raw_target, message):
         """
         Tell another player a message.
@@ -980,36 +929,6 @@ class Actor(RoomEntity):
                 self.format_name_to(target),
                 message
             ))
-
-    def query_triggers_by_type(self, event_type):
-        for trigger in self.get("triggers", []):
-            if trigger["type"] == event_type:
-                yield trigger
-
-    def handle_event(self, event):
-        context = {}
-        context.update(event.data)
-        context.update({
-            "actor": event.data["source"],
-            "say": self.say,
-            "tell": self.tell,
-            "block": event.block,
-            "randint": random.randint,
-        })
-
-        for trigger in self.query_triggers_by_type(event.type):
-
-            # Only compile on-demand.
-            compiled = trigger.get("compiled", None)
-            if compiled is None:
-                compiled = compile(trigger["code"], self.uid + ':' + event.type, "exec")
-                trigger["compiled"] = compiled
-
-            try:
-                exec(compiled, context, context)
-
-            except Exception, e:
-                self.game.handle_exception(e)
 
     def get_effects(self):
         return self.effects

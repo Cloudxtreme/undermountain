@@ -49,3 +49,53 @@ class RoomEntity(GameEntity):
     def set_room(self, room):
         self.room_id = room.id
         self.room_uid = room.uid
+
+    def say(self, message, ooc=False):
+        event_data = {
+            "channel": "say",
+            "message": "message",
+        }
+
+        event = self.event_to_room("saying", event_data)
+
+        if event.is_blocked():
+            return
+
+        ooc_string = "[OOC] " if ooc else ""
+
+        self.echo("{{MYou say {}{{x'{{m{}{{x'".format(
+            ooc_string,
+            message,
+        ))
+        self.act_around("{{M[actor.name] says {}{{x'{{m{}{{x'".format(
+            ooc_string,
+            message,
+        ))
+        self.event_to_room("said", event_data)
+
+    def format_act_template(self, template, actor, other):
+        message = template
+
+        # FIXME make more efficient
+        name_to_other = actor.format_name_to(other)
+        replaces = {
+            "actor.name": name_to_other,
+            "object.name": name_to_other,
+        }
+
+        for field, value in replaces.iteritems():
+            if field in message:
+                message = message.replace("[" + field + "]", value)
+
+        return message
+
+    def act_to(self, other, template):
+        message = self.format_act_template(template, actor=self, other=other)
+        other.echo(message)
+        # TODO look for triggers to fire
+
+    def act_around(self, template):
+        room = self.get_room()
+
+        for other in room.get_actors(exclude=self):
+            self.act_to(other, template)

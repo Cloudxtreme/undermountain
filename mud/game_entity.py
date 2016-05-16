@@ -164,3 +164,54 @@ class GameEntity(Entity):
             for entry in game.data[full_key][value]:
                 yield entry
 
+    def query_triggers_by_type(self, event_type):
+        for trigger in self.get("triggers", []):
+            if trigger["type"] == event_type:
+                yield trigger
+
+    def nyi(self, thing=None):
+        message = "'{}' not implemented for '{}' entities".format(
+            thing,
+            self.__class__.__name__
+        )
+        raise Exception(message)
+
+    def say(self, *args, **kwargs):
+        self.nyi("say")
+
+    def format_name_to(self, other):
+        return self.get("name", "Something") if other.can_see(self) else "Something"
+
+    def tell(self, *args, **kwargs):
+        self.nyi("say")
+
+    def echo(self, *args, **kwargs):
+        pass
+
+    def handle_event(self, event):
+        import random
+
+        context = {}
+        context.update(event.data)
+        context.update({
+            "actor": event.data["source"],
+            "say": self.say,
+            "tell": self.tell,
+            "block": event.block,
+            "randint": random.randint,
+        })
+
+        for trigger in self.query_triggers_by_type(event.type):
+
+            # Only compile on-demand.
+            compiled = trigger.get("compiled", None)
+            if compiled is None:
+                compiled = compile(trigger["code"], self.uid + ':' + event.type, "exec")
+                trigger["compiled"] = compiled
+
+            try:
+                exec(compiled, context, context)
+
+            except Exception, e:
+                print("FIXME: better exception handling of this failure")
+                self.game.handle_exception(e)
