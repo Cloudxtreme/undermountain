@@ -61,10 +61,10 @@ class Room(GameEntity):
         return RoomExit(self.game, data)
 
     def handle_event(self, event):
-        for entity in self.query_entities():
+        source = event.data["source"]
 
-            # You cannot fire your own triggers.
-            if entity is self:
+        for entity in self.query_entities():
+            if entity == source:
                 continue
 
             if event.is_blocked():

@@ -153,6 +153,8 @@ tell("Kelemv", "Heyaaaa")
             "room_name": "An old piece of paper lies on the floor.",
             "triggers": [
                 {"type": "entered", "code": """say("Testing out oprogs.")"""},
+                {"type": "saying", "code": """say("Reacting to saying.")"""},
+                {"type": "said", "code": """say("Reacting to said.")"""},
             ]
         }
         Object.add(note, self)
