@@ -115,12 +115,12 @@ class Game(Greenlet):
         from mud.entities.actor import Actor
         hogan = {
             "uid": "jahsdf1234",
-            "id": "westbridge:hogan",
+            "id": "westbridge:hagon",
             "area_id": "westbridge",
-            "full_id": "westbridge:hogan",
-            "keywords": ["hollywood", "hogan"],
-            "name": "Hollywood Hogan",
-            "room_name": "Hollywood Hogan is here, looking out for Sting.",
+            "full_id": "westbridge:hagon",
+            "keywords": ["hurlywood", "hagon"],
+            "name": "Hurlywood Hagon",
+            "room_name": "Hurlywood Hagon is here, looking out for Styng.",
             "room_id": "westbridge:3001",
             "room_uid": "abc123",
             "effects": [
@@ -135,12 +135,12 @@ class Game(Greenlet):
 say("Hello {}!".format(randint(1, 10)))
 tell(actor, "Heyaaaa")
 tell("Kelemv", "Heyaaaa")
-say("Say {cnote{m or {chogan{m for some more testing.", trigger=False)
+say("Say {cnote{m or {chagon{m for some more testing.", trigger=False)
 wait(1)
 say("I waited to say something.")
 """},
                 {"type": "saying", "code": """
-if "hogan" in message:
+if "hagon" in message:
     say("I blocked an attempt to say my name.")
     block()
 """}
