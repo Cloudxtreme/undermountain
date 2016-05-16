@@ -197,6 +197,7 @@ class GameEntity(Entity):
             "actor": event.data["source"],
             "say": self.say,
             "tell": self.tell,
+            "data": event.data,
             "block": event.block,
             "randint": random.randint,
         })

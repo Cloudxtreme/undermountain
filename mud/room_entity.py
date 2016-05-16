@@ -31,13 +31,13 @@ class RoomEntity(GameEntity):
     def format_room_name_to(self, other):
         return self.room_name
 
-    def event_to_room(self, name, data=None, blockable=False, room=None):
+    def event_to_room(self, name, data=None, room=None):
         if data is None:
             data = {}
 
         data["source"] = self
 
-        event = Event(name, data, blockable=blockable)
+        event = Event(name, data)
 
         if room is None:
             room = self.get_room()
@@ -50,28 +50,33 @@ class RoomEntity(GameEntity):
         self.room_id = room.id
         self.room_uid = room.uid
 
-    def say(self, message, ooc=False):
-        event_data = {
-            "channel": "say",
-            "message": "message",
-        }
+    def say(self, message, ooc=False, trigger=True):
+        if trigger:
+            event_data = {
+                "channel": "say",
+                "message": message,
+            }
 
-        event = self.event_to_room("saying", event_data)
+            event = self.event_to_room("saying", event_data)
 
-        if event.is_blocked():
-            return
+            if event.is_blocked():
+                return
 
         ooc_string = "[OOC] " if ooc else ""
 
         self.echo("{{MYou say {}{{x'{{m{}{{x'".format(
             ooc_string,
             message,
+            trigger=trigger
         ))
         self.act_around("{{M[actor.name] says {}{{x'{{m{}{{x'".format(
             ooc_string,
             message,
+            trigger=trigger
         ))
-        self.event_to_room("said", event_data)
+
+        if trigger:
+            self.event_to_room("said", event_data)
 
     def format_act_template(self, template, actor, other):
         message = template
@@ -89,13 +94,27 @@ class RoomEntity(GameEntity):
 
         return message
 
-    def act_to(self, other, template):
+    def act_to(self, other, template, trigger=True):
         message = self.format_act_template(template, actor=self, other=other)
+
+        if trigger:
+            event_data = {
+                "message": message,
+            }
+
+            event = self.event_to_room("acting", event_data)
+
+            if event.is_blocked():
+                return
+
         other.echo(message)
         # TODO look for triggers to fire
 
-    def act_around(self, template):
+        if trigger:
+            event = self.event_to_room("acted", event_data)
+
+    def act_around(self, template, trigger=True):
         room = self.get_room()
 
         for other in room.get_actors(exclude=self):
-            self.act_to(other, template)
+            self.act_to(other, template, trigger=trigger)

@@ -357,8 +357,7 @@ def walk_command(actor, command, *args, **kwargs):
     exiting_event = actor.event_to_room(
         "exiting",
         event_data,
-        room=current_room,
-        blockable=True
+        room=current_room
     )
 
     if exiting_event.is_blocked():
@@ -369,8 +368,7 @@ def walk_command(actor, command, *args, **kwargs):
     entering_event = actor.event_to_room(
         "entering",
         event_data,
-        room=target_room,
-        blockable=True
+        room=target_room
     )
 
     if entering_event.is_blocked():

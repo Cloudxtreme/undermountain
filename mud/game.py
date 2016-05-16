@@ -132,13 +132,16 @@ class Game(Greenlet):
             ],
             "triggers": [
                 {"type": "entered", "code": """
-say("This is a test, nothing else should run.")
 say("Hello {}!".format(randint(1, 10)))
-say("First test.")
 tell(actor, "Heyaaaa")
-say("Second test.")
 tell("Kelemv", "Heyaaaa")
+say("Say {cnote{m or {chogan{m for some more testing.", trigger=False)
 """},
+                {"type": "saying", "code": """
+if ("hogan" in data.get("message")):
+    say("I blocked an attempt to say my name.")
+    block()
+"""}
             ]
         }
         Actor.add(hogan, self)
@@ -153,8 +156,11 @@ tell("Kelemv", "Heyaaaa")
             "room_name": "An old piece of paper lies on the floor.",
             "triggers": [
                 {"type": "entered", "code": """say("Testing out oprogs.")"""},
-                {"type": "saying", "code": """say("Reacting to saying.")"""},
-                {"type": "said", "code": """say("Reacting to said.")"""},
+                {"type": "saying", "code": """
+if ("note" in data.get("message")):
+    say("I blocked an attempt to say my name.")
+    block()
+"""}
             ]
         }
         Object.add(note, self)
