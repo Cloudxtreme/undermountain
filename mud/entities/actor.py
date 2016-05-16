@@ -39,7 +39,14 @@ def password_command(actor, params, *args, **kwargs):
 
 
 def quit_command(actor, *args, **kwargs):
-    actor.echo("Logging you out.")
+    actor.act_around("[actor.name] slowly fades into existence.")
+    actor.echo("""\
+{RYou feel a hand grab you, you begin to fly upwards!
+{BYou pass through the clouds and out of the world!
+{GYou have rejoined Reality!
+
+{WFor {RNews{W, {CRoleplaying{W and {MInfo, {WVisit our website!
+{Ch{cttp://{Cw{cww{x.{Cw{caterdeep{x.{Co{crg{x""")
 
     # TODO Check actor can quit here.
 

@@ -336,9 +336,12 @@ Your choice?: """)
         self.actor.save()
 
     def handle_motd_input(self, message):
+        if not self.is_playing():
+            self.actor.act_around("[actor.name] slowly fades into existence.")
+            self.actor.handle_input("look")
+
         self.state = "playing"
         self.playing = True
-        self.actor.handle_input("look")
 
     def handle_playing_input(self, message):
         # FIXME improve this or use constant?
