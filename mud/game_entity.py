@@ -194,12 +194,18 @@ class GameEntity(Entity):
         context = {}
         context.update(event.data)
         context.update({
+            "other": event.data["source"],
+            "source": event.data["source"],
             "actor": event.data["source"],
+
             "say": self.say,
             "tell": self.tell,
-            "data": event.data,
+            "self": self,
+
             "block": event.block,
+
             "randint": random.randint,
+            "random": random.randint,
         })
 
         for trigger in self.query_triggers_by_type(event.type):

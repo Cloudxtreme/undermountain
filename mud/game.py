@@ -138,7 +138,7 @@ tell("Kelemv", "Heyaaaa")
 say("Say {cnote{m or {chogan{m for some more testing.", trigger=False)
 """},
                 {"type": "saying", "code": """
-if ("hogan" in data.get("message")):
+if "hogan" in message:
     say("I blocked an attempt to say my name.")
     block()
 """}
@@ -157,7 +157,7 @@ if ("hogan" in data.get("message")):
             "triggers": [
                 {"type": "entered", "code": """say("Testing out oprogs.")"""},
                 {"type": "saying", "code": """
-if ("note" in data.get("message")):
+if "note" in message:
     say("I blocked an attempt to say my name.")
     block()
 """}
