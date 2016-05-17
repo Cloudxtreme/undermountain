@@ -189,6 +189,16 @@ def reload_command(actor, *args, **kwargs):
 	# del(sys.modules[m])
     actor.echo("Reloaded modules.")
 
+def get_who_level_value(actor):
+    if actor.has_role("admin"):
+        return 110
+
+    if actor.has_role("builder"):
+        return 109
+
+    if actor.has_role("immortal"):
+        return 102
+
 def who_command(actor, game, *args, **kwargs):
     from utils.ansi import Ansi
 
@@ -200,7 +210,8 @@ def who_command(actor, game, *args, **kwargs):
     total_count = 0
     visible_count = 0
 
-    for other in game.query_characters():
+    chars = list(game.query_characters())
+    for other in sorted(chars, key=get_who_level_value, reverse=True):
         total_count += 1
 
         if not actor.can_see(other):
