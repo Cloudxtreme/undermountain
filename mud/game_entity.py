@@ -191,6 +191,11 @@ class GameEntity(Entity):
     def execute_subroutine(self, compiled, context):
         exec(compiled, context, context)
 
+    def handle_wait_in_blockable_event(self):
+        raise Exception("You cannot use 'wait' in blockable event '{}'".format(
+            event.type
+        ))
+
     def handle_event(self, event):
         import random
         import time
@@ -208,7 +213,6 @@ class GameEntity(Entity):
             "self": self,
 
             "block": event.block,
-            "wait": time.sleep,
 
             "randint": random.randint,
             "random": random.randint,
@@ -223,7 +227,16 @@ class GameEntity(Entity):
                 trigger["compiled"] = compiled
 
             try:
-                gevent.spawn(self.execute_subroutine, compiled, context)
+                if event.blockable:
+                    context.update({
+                        "wait": self.handle_wait_in_blockable_event
+                    })
+                    exec(compiled, context, context)
+                else:
+                    context.update({
+                        "wait": time.sleep
+                    })
+                    gevent.spawn(self.execute_subroutine, compiled, context)
 
             except Exception, e:
                 print("FIXME: better exception handling of this failure")

@@ -131,7 +131,7 @@ class Game(Greenlet):
                 },
             ],
             "triggers": [
-                {"type": "entered", "code": """
+                {"type": "entered", "async": True, "code": """
 say("Hello {}!".format(randint(1, 10)))
 tell(actor, "Heyaaaa")
 tell("Kelemv", "Heyaaaa")

@@ -31,13 +31,13 @@ class RoomEntity(GameEntity):
     def format_room_name_to(self, other):
         return self.room_name
 
-    def event_to_room(self, name, data=None, room=None):
+    def event_to_room(self, name, data=None, room=None, blockable=False):
         if data is None:
             data = {}
 
         data["source"] = self
 
-        event = Event(name, data)
+        event = Event(name, data, blockable=blockable)
 
         if room is None:
             room = self.get_room()
@@ -57,7 +57,7 @@ class RoomEntity(GameEntity):
                 "message": message,
             }
 
-            event = self.event_to_room("saying", event_data)
+            event = self.event_to_room("saying", event_data, blockable=True)
 
             if event.is_blocked():
                 return
