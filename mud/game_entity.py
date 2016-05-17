@@ -189,12 +189,13 @@ class GameEntity(Entity):
         pass
 
     def execute_subroutine(self, compiled, context):
-        exec(compiled, context, context)
+        try:
+            exec(compiled, context, context)
+        except Exception, e:
+            self.game.handle_exception(e)
 
-    def handle_wait_in_blockable_event(self):
-        raise Exception("You cannot use 'wait' in blockable event '{}'".format(
-            event.type
-        ))
+    def handle_wait_in_blockable_event(self, event):
+        raise Exception("You cannot use 'wait' in blockable event")
 
     def handle_event(self, event):
         import random
@@ -236,8 +237,7 @@ class GameEntity(Entity):
                     context.update({
                         "wait": time.sleep
                     })
-                    gevent.spawn(self.execute_subroutine, compiled, context)
+                    thread = gevent.spawn(self.execute_subroutine, compiled, context)
 
             except Exception, e:
-                print("FIXME: better exception handling of this failure")
                 self.game.handle_exception(e)

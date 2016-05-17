@@ -14,11 +14,12 @@ class Game(Greenlet):
     GAME
     The single process that runs the game.
     """
-    def handle_exception(self, e):
-        # TODO HANDLE PROPERLY
+    def handle_exception(self, *args, **kwargs):
         exc_type, exc_value, exc_traceback = sys.exc_info()
-        traceback.print_exception(exc_type, exc_value, exc_traceback,
-                                  file=sys.stdout)
+
+        message = ''.join(traceback.format_exception(exc_type, exc_value, exc_traceback))
+        print(message)
+        self.wiznet("exception", message)
 
     @classmethod
     def get_version(cls):
@@ -143,6 +144,8 @@ say("I waited to say something.")
 if "hagon" in message:
     say("I blocked an attempt to say my name.")
     block()
+
+wait(1)
 """}
             ]
         }
@@ -157,7 +160,10 @@ if "hagon" in message:
             "name": "An old note",
             "room_name": "An old piece of paper lies on the floor.",
             "triggers": [
-                {"type": "entered", "code": """say("Testing out oprogs.")"""},
+                {"type": "entered", "code": """
+say("Testing out oprogs.")
+raise Exception("Forcing an exception.")
+                """},
                 {"type": "saying", "code": """
 if "note" in message:
     say("I blocked an attempt to say my name.")
@@ -259,8 +265,19 @@ if "note" in message:
 
         Time.tock('game_start')
 
-    def echo(self, message):
+    def echo(self, message, role=None):
+        print("ROLE", role)
+
+        if type(message) is list:
+            message = ''.join(message)
+            self.echo(message, role=role)
+            return
+
         for actor in self.query_characters():
+            if role is not None:
+                if not actor.has_role(role):
+                    continue
+
             actor.echo(message)
 
     def _run(self):
@@ -307,3 +324,9 @@ if "note" in message:
 
     def get_environment(self):
         return self.environment
+
+    def wiznet(self, channel, message):
+        self.echo("{{Y-->{{x ({}{{x) {}{{x".format(
+            channel,
+            message,
+        ), role="admin")
