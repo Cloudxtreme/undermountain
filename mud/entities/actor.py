@@ -199,6 +199,8 @@ def get_who_level_value(actor):
     if actor.has_role("immortal"):
         return 102
 
+    return actor.get_level()
+
 def who_command(actor, game, *args, **kwargs):
     from utils.ansi import Ansi
 
@@ -959,6 +961,9 @@ class Actor(RoomEntity):
 
     def tick(self):
         self.tick_effects()
+
+    def get_level(self):
+        return self.get("level", 1)
 
     def expire_effect(self, effect):
         self.echo(effect["expire_message"])
