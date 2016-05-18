@@ -191,11 +191,7 @@ if "note" in message:
                 "heads off to the north.",
             ],
             "exits": {
-                "north": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
-                "east": { "room_id": "westbridge:3001", "room_uid": "abc123" },
                 "south": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
-                "west": { "room_id": "westbridge:3001", "room_uid": "abc123" },
-                "up": { "room_id": "westbridge:3001", "room_uid": "abc123" },
             },
             "objects": [
                 {
@@ -224,10 +220,6 @@ if "note" in message:
             ],
             "exits": {
                 "north": { "room_id": "westbridge:3001", "room_uid": "abc123" },
-                "east": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
-                "south": { "room_id": "westbridge:3001", "room_uid": "abc123" },
-                "west": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
-                "up": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
             },
             "objects": [
                 {
