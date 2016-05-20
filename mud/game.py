@@ -203,6 +203,27 @@ if "note" in message:
         }
         Room.add(temple_of_life, self)
 
+        hwi = {
+            "uid": "hwi123",
+            "id": "westbridge:3008",
+            "area_id": "westbridge",
+            "flags": ["city", "indoor", "law", "safe", "noloot"],
+            "name": "Healing Wound Inn",
+            "description": [
+                "People of all kinds can normally be found resting within this",
+                "large inn.  Most will sit around the healer, telling stories about",
+                "their last adventure. The owner of the inn, a former adventurer",
+                "himself, stands here giving and selling spells. A large featherbed",
+                "rests here, just big enough for two. There is a large sofa against",
+                "the east wall and a huge pool with bubbles that looks like ten men",
+                "could fit in it.  A {gsign{x hangs on the wall.",
+            ],
+            "exits": {
+                "west": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
+            },
+        }
+        Room.add(hwi, self)
+
         temple_square = {
             "uid": "xyz321",
             "id": "westbridge:3005",
@@ -216,7 +237,9 @@ if "note" in message:
                 "large cracks in the ground can be seen.",
             ],
             "exits": {
+                "up": { "room_id": "westbridge:3005", "room_uid": "xyz321" },
                 "north": { "room_id": "westbridge:3001", "room_uid": "abc123" },
+                "east": { "room_id": "westbridge:3008", "room_uid": "hwi123" },
             },
             "objects": [
                 {

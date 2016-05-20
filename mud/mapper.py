@@ -58,40 +58,40 @@ class Mapper(object):
                 "id": "north",
                 "coords": (0, 2),
                 "connector_coords": (0, 1),
-                "connector_symbol": "{8|{x",
+                "connector_grid": [["{8|{x"]],
                 "continue": True,
             },
             {
                 "id": "east",
-                "coords": (2, 0),
+                "coords": (3, 0),
                 "connector_coords": (1, 0),
-                "connector_symbol": "{8-{x",
+                "connector_grid": [["{8-{x","{8-{x"]],
                 "continue": True,
             },
             {
                 "id": "south",
                 "coords": (0, -2),
                 "connector_coords": (0, -1),
-                "connector_symbol": "{8|{x",
+                "connector_grid": [["{8|{x"]],
                 "continue": True,
             },
             {
                 "id": "west",
-                "coords": (-2, 0),
-                "connector_coords": (-1, 0),
-                "connector_symbol": "{8-{x",
+                "coords": (-3, 0),
+                "connector_coords": (-2, 0),
+                "connector_grid": [["{8-{x","{8-{x"]],
                 "continue": True,
             },
             {
                 "id": "up",
                 "connector_coords": (1, 1),
-                "connector_symbol": "{Y,{x",
+                "connector_grid": [["{Y,{x"]],
                 "continue": False,
             },
             {
                 "id": "down",
                 "connector_coords": (-1, -1),
-                "connector_symbol": "{y'{x",
+                "connector_grid": [["{y'{x"]],
                 "continue": False,
             },
         ]
@@ -118,11 +118,20 @@ class Mapper(object):
                 connector_x += current_x
                 connector_y += current_y
 
-                # Off the map.
-                if coord_is_invalid(connector_x, connector_y):
-                    continue
+                # Cycle through symbols grid for connector to see what to draw.
+                symbols_grid = direction["connector_grid"]
+                for cy in xrange(0, len(symbols_grid)):
+                    for cx in xrange(0, len(symbols_grid[0])):
+                        cdy = connector_y + cy
+                        cdx = connector_x + cx
 
-                grid[connector_y][connector_x] = direction["connector_symbol"]
+                        # Off the map.
+                        if coord_is_invalid(cdx, cdy):
+                            continue
+
+                        symbol = symbols_grid[cy][cx]
+                        grid[cdy][cdx] = symbol
+
 
                 # This direction does not continue to be mapped.
                 if not direction["continue"]:

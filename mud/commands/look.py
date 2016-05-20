@@ -91,7 +91,7 @@ def look_command(actor, game, *args, **kwargs):
     prefix_with_minimap = True
 
     if prefix_with_minimap:
-        map_width = 12
+        map_width = 11
         map_height = 7
         map_pad_width = 2
 
