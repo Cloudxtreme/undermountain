@@ -397,90 +397,6 @@ def walk_command(actor, command, *args, **kwargs):
     actor.event_to_room("entered", event_data, room=target_room)
 
 
-def look_command(actor, game, *args, **kwargs):
-    from mud.entities.character import Character
-    from settings.directions import DIRECTIONS
-
-    room = actor.get_room()
-
-    title_line = "{}{{x {} ({}) ({}) [Room {}] [ID {}]".format(
-        "{B" + room.name + "{x",
-        "{R[{WNOLOOT{R]{x",
-        room.area_id,
-        "{Wbuilding{x",
-        room.id,
-        room.uid,
-    )
-    actor.echo(title_line)
-
-    for index, line in enumerate(room.description):
-
-        if index == 0:
-            line = "  " + line
-
-        actor.echo(line)
-
-    actor.echo()
-
-    exits = []
-    doors = []
-    secrets = []
-
-    def format_exits(exits):
-        if not exits:
-            return "none"
-        return " ".join([exit["colored_name"] for exit in exits])
-
-    for exit_id, exit in DIRECTIONS.iteritems():
-        room_exit = room.get_exit(exit_id)
-
-        if not room_exit:
-            continue
-
-        if room_exit.has_flag("door") and room_exit.has_flag("closed"):
-            if room_exit.has_flag("secret"):
-                secrets.append(exit)
-            else:
-                doors.append(exit)
-        else:
-            exits.append(exit)
-
-    exit_options = [
-        ("Exits", exits),
-        ("Doors", doors),
-    ]
-    # FIXME Add immortality check.
-    if True:
-        exit_options.append(("Secret", secrets))
-
-    exit_line_parts = []
-    for label, options in exit_options:
-        exit_line_parts.append("{{x[{{G{}{{g:{{x {}{{x]".format(
-            label,
-            format_exits(options)
-        ))
-
-    actor.echo('   '.join(exit_line_parts))
-
-    for cls in [Object, Actor, Character]:
-        for other in cls.query_by_room_uid(actor.room_uid, game=game):
-            if not actor.can_see(other) or other == actor:
-                continue
-
-            output = str(other.format_room_flags_to(actor))
-
-            # Only add space if there's a set of flags.
-            if output:
-                output += ' '
-
-            if type(other) is Object:
-                output = '     ' + output
-
-            output += str(other.format_room_name_to(actor))
-
-            actor.echo(output)
-
-
 def affects_command(actor, *args, **kwargs):
     effects = actor.get_effects()
 
@@ -771,10 +687,6 @@ class Actor(RoomEntity):
                 "handler": commands_command,
             },
             {
-                "keywords": "look",
-                "handler": look_command
-            },
-            {
                 "keywords": "affects",
                 "handler": affects_command
             },
@@ -838,6 +750,9 @@ class Actor(RoomEntity):
 
         from mud.commands.map import map_command
         commands.append({"keywords": "map", "handler": map_command})
+
+        from mud.commands.look import look_command
+        commands.append({"keywords": "look", "handler": look_command})
 
         # FIXME use config
         for direction in DIRECTIONS.keys():
@@ -974,6 +889,10 @@ class Actor(RoomEntity):
 
     def has_clan(self):
         return self.get("clan_id", None) is not None
+
+    def is_maximum_level(self):
+        from mud.settings.game import MAX_LEVEL
+        return self.level == MAX_LEVEL
 
     def save(self):
         """

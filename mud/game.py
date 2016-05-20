@@ -144,8 +144,6 @@ say("I waited to say something.")
 if "hagon" in message:
     say("I blocked an attempt to say my name.")
     block()
-
-wait(1)
 """}
             ]
         }
@@ -162,7 +160,6 @@ wait(1)
             "triggers": [
                 {"type": "entered", "code": """
 say("Testing out oprogs.")
-raise Exception("Forcing an exception.")
                 """},
                 {"type": "saying", "code": """
 if "note" in message:

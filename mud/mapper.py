@@ -5,15 +5,22 @@ class Map(object):
     def __init__(self, grid):
         self.grid = grid
 
-    def echo_to_actor(self, actor):
+    def get_lines(self):
+        lines = []
+
         for row in reversed(self.grid):
             line = ''.join(row)
+            lines.append(line)
 
+        return lines
+
+    def echo_to_actor(self, actor):
+        for line in self.get_lines():
             actor.echo(line)
 
 class Mapper(object):
     @classmethod
-    def generate_map(self, room, actor=None, width=60, height=20, legend=False):
+    def generate_map(self, room=None, actor=None, width=60, height=20, legend=False, border=False):
         INITIAL_CELL_VALUE = " "
 
         grid = []
@@ -35,6 +42,9 @@ class Mapper(object):
         middle_y = int(height / 2)
 
         seen_ids = []
+
+        if room is None:
+            room = actor.get_room()
 
         # From the middle, go outward until you've reached the extremities
         # Fill grid with room objects, and go up/down one level
@@ -132,5 +142,19 @@ class Mapper(object):
 
         # Place your marker.
         grid[middle_y][middle_x] = "{R@{x"
+
+        if border:
+            grid[0][0] = '+'
+            grid[max_y][0] = '+'
+            grid[0][max_x] = '+'
+            grid[max_y][max_x] = '+'
+
+            for y in [0, height - 1]:
+                for x in xrange(1, width - 1):
+                    grid[y][x] = '-'
+
+            for y in xrange(1, height - 1):
+                for x in [0, width - 1]:
+                    grid[y][x] = '|'
 
         return Map(grid)
