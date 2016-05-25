@@ -139,7 +139,11 @@ class GameEntity(Entity):
         return cls.query_by("id", id, game)
 
     @classmethod
-    def get_by_uid(cls, uid, game):
+    def get_by_uid(cls, *args, **kwargs):
+        return cls.find_by_uid(*args, **kwargs)
+
+    @classmethod
+    def find_by_uid(cls, uid, game):
         full_key = cls.COLLECTION_NAME + "_by_uid"
         result = game.data[full_key].get(uid, None)
         if not result:
@@ -159,10 +163,41 @@ class GameEntity(Entity):
         cls.check_game_collections(game)
 
         # TODO check index exists
+
         full_key = cls.COLLECTION_NAME + '_by_' + field
-        if value in game.data[full_key]:
-            for entry in game.data[full_key][value]:
-                yield entry
+
+        if not full_key in game.data:
+            raise Exception("Field '{}' for '{}' not indexed and cannot be queries".format(
+                field,
+                cls.__name__,
+            ))
+
+        index = game.data[full_key]
+
+        if value in index:
+            records = index[value]
+
+            if field in cls.UNIQUE_INDEXES:
+                yield records
+
+            elif field in cls.STRING_INDEXES:
+                # FIXME handle string indexes
+                raise Exception("String indexes not yet handled.")
+
+            elif field in cls.INDEXES:
+                for record in records:
+                    yield record
+
+            else:
+                raise Exception("'{}' index for '{}' GameEntities not yet implemented".format(
+                    field,
+                    cls.__name__,
+                ))
+
+    @classmethod
+    def find_by(cls, *args, **kwargs):
+        for entry in cls.query_by(*args, **kwargs):
+            return entry
 
     def query_triggers_by_type(self, event_type):
         for trigger in self.get("triggers", []):
@@ -179,11 +214,45 @@ class GameEntity(Entity):
     def say(self, *args, **kwargs):
         self.nyi("say")
 
+    def can_see(self, other):
+        return True
+
+    def tell(self, raw_target, message):
+        """
+        Tell another player a message.
+
+        tell <name> <message>
+        """
+        from mud.entities.actor import Actor
+        from mud.entities.character import Character
+
+        target = None
+
+        if isinstance(raw_target, Actor):
+            target = raw_target
+        elif raw_target:
+            def match_tell_player(other):
+                return other.name_like(raw_target) and \
+                    self.can_see(other)
+            target = Character.find(func=match_tell_player, game=self.game)
+
+        if not target:
+            self.echo("Target not found.")
+            return
+
+        self.echo("{{gYou tell {}{{g '{{G{}{{g'{{x".format(
+            target.format_name_to(self),
+            message
+        ))
+
+        if self != target:
+            target.echo("{{g{}{{g tells you '{{G{}{{g'{{x".format(
+                self.format_name_to(target),
+                message
+            ))
+
     def format_name_to(self, other):
         return self.get("name", "Something") if other.can_see(self) else "Something"
-
-    def tell(self, *args, **kwargs):
-        self.nyi("say")
 
     def echo(self, *args, **kwargs):
         pass

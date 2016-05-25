@@ -42,7 +42,6 @@ class Room(GameEntity):
             yield actor
 
     def find_actor(self, cmp):
-
         for actor in self.get_actors():
             if cmp and cmp(actor):
                 return actor
@@ -60,9 +59,29 @@ class Room(GameEntity):
 
         return RoomExit(self.game, data)
 
+    def get_area(self):
+        from mud.entities.area import Area
+        area = Area.find_by("uid", self.area_uid, game=self.game)
+        if area:
+            return area
+
+        return Area.find_by("id", self.area_id, game=self.game)
+
     def handle_event(self, event):
         source = event.data["source"]
 
+        # Area.
+        area = self.get_area()
+        area.handle_event(event)
+        if event.is_blocked():
+            return
+
+        # Handle this Room.
+        super(Room, self).handle_event(event)
+        if event.is_blocked():
+            return
+
+        # Handle the contents of the Room.
         for entity in self.query_entities():
             if entity == source:
                 continue

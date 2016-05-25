@@ -110,6 +110,11 @@ class Game(Greenlet):
             "name": "Westbridge",
             "level_min": 1,
             "level_max": 10,
+            "triggers": [
+                {"type": "entered", "code": """
+tell(actor, "Area aware of your entered")
+                """},
+            ]
         }
         Area.add(westbridge, self)
 
@@ -118,6 +123,7 @@ class Game(Greenlet):
             "uid": "jahsdf1234",
             "id": "westbridge:hagon",
             "area_id": "westbridge",
+            "area_uid": "zxc321",
             "full_id": "westbridge:hagon",
             "keywords": ["hurlywood", "hagon"],
             "name": "Hurlywood Hagon",
@@ -175,6 +181,7 @@ if "note" in message:
             "uid": "abc123",
             "id": "westbridge:3001",
             "area_id": "westbridge",
+            "area_uid": "zxc321",
             "flags": ["city", "indoor", "law", "safe", "noloot"],
             "name": "The Temple of Life",
             "description": [
@@ -200,6 +207,11 @@ if "note" in message:
                     "uid": "jahsdf1234",
                 },
             ],
+            "triggers": [
+                {"type": "entered", "code": """
+tell(actor, "Room aware of your entered")
+                """},
+            ]
         }
         Room.add(temple_of_life, self)
 
@@ -228,6 +240,7 @@ if "note" in message:
             "uid": "xyz321",
             "id": "westbridge:3005",
             "area_id": "westbridge",
+            "area_uid": "zxc321",
             "flags": ["city", "outdoor", "law", "noloot"],
             "name": "Temple Square",
             "description": [

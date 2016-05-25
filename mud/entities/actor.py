@@ -834,47 +834,20 @@ class Actor(RoomEntity):
         battle = Combat.get_by_actor(self, self.game)
         return battle is not None
 
-    def tell(self, raw_target, message):
-        """
-        Tell another player a message.
-
-        tell <name> <message>
-        """
-        from mud.entities.character import Character
-
-        target = None
-
-        if isinstance(raw_target, Actor):
-            target = raw_target
-        elif raw_target:
-            def match_tell_player(other):
-                return other.name_like(raw_target) and \
-                    self.can_see(other)
-            target = Character.find(func=match_tell_player, game=self.game)
-
-        if not target:
-            self.echo("Target not found.")
-            return
-
-        self.echo("{{gYou tell {}{{g '{{G{}{{g'{{x".format(
-            target.format_name_to(self),
-            message
-        ))
-
-        if self != target:
-            target.echo("{{g{}{{g tells you '{{G{}{{g'{{x".format(
-                self.format_name_to(target),
-                message
-            ))
-
     def get_effects(self):
         return self.effects
 
     @classmethod
-    def find(cls, game, func=None):
-        for actor in cls.query(game=game):
-            if func and func(actor):
-                return actor
+    def find(cls, game, id=None, uid=None, func=None):
+        for entry in cls.query(game=game):
+            if id and entry.id == id:
+                return entry
+
+            if uid and entry.uid == uid:
+                return entry
+
+            if func and func(entry):
+                return entry
         return None
 
     def tick(self):
