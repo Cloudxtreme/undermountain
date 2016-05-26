@@ -38,7 +38,7 @@ def look_command(actor, game, *args, **kwargs):
             return "none"
         return " ".join([exit["colored_name"] for exit in exits])
 
-    for exit_id, exit in DIRECTIONS.iteritems():
+    for exit_id, exit in DIRECTIONS.items():
         room_exit = room.get_exit(exit_id)
 
         if not room_exit:
@@ -100,7 +100,7 @@ def look_command(actor, game, *args, **kwargs):
 
         minimapped_output = []
 
-        for y in xrange(0, max(len(map_lines), len(output))):
+        for y in range(0, max(len(map_lines), len(output))):
             prefix_line = ' ' * (map_width + map_pad_width)
             if y < len(map_lines):
                 prefix_line = map_lines[y] + (' ' * map_pad_width)

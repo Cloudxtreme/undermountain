@@ -80,7 +80,7 @@ class Character(Actor):
                 return data
         except IOError:
             pass
-        except Exception, e:
+        except Exception as e:
             game.handle_exception(e)
 
         return None

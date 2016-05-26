@@ -90,5 +90,5 @@ class Room(GameEntity):
                 break
             try:
                 entity.handle_event(event)
-            except Exception, e:
+            except Exception as e:
                 self.game.handle_exception(e)

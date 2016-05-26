@@ -25,9 +25,9 @@ class Mapper(object):
 
         grid = []
 
-        for y in xrange(0, height):
+        for y in range(0, height):
             grid.append([])
-            for x in xrange(0, width):
+            for x in range(0, width):
                 grid[y].append(INITIAL_CELL_VALUE)
 
         max_x = width - 1
@@ -120,8 +120,8 @@ class Mapper(object):
 
                 # Cycle through symbols grid for connector to see what to draw.
                 symbols_grid = direction["connector_grid"]
-                for cy in xrange(0, len(symbols_grid)):
-                    for cx in xrange(0, len(symbols_grid[0])):
+                for cy in range(0, len(symbols_grid)):
+                    for cx in range(0, len(symbols_grid[0])):
                         cdy = connector_y + cy
                         cdx = connector_x + cx
 
@@ -159,10 +159,10 @@ class Mapper(object):
             grid[max_y][max_x] = '+'
 
             for y in [0, height - 1]:
-                for x in xrange(1, width - 1):
+                for x in range(1, width - 1):
                     grid[y][x] = '-'
 
-            for y in xrange(1, height - 1):
+            for y in range(1, height - 1):
                 for x in [0, width - 1]:
                     grid[y][x] = '|'
 

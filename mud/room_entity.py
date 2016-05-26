@@ -88,7 +88,7 @@ class RoomEntity(GameEntity):
             "object.name": name_to_other,
         }
 
-        for field, value in replaces.iteritems():
+        for field, value in replaces.items():
             if field in message:
                 message = message.replace("[" + field + "]", value)
 

@@ -1,5 +1,4 @@
 from utils.runnable import Runnable
-from mud.mixins.get_game import GetGame
 
 
 class Manager(Runnable):

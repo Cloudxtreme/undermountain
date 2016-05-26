@@ -260,7 +260,7 @@ class GameEntity(Entity):
     def execute_subroutine(self, compiled, context):
         try:
             exec(compiled, context, context)
-        except Exception, e:
+        except Exception as e:
             self.game.handle_exception(e)
 
     def handle_wait_in_blockable_event(self, event):
@@ -308,5 +308,5 @@ class GameEntity(Entity):
                     })
                     thread = gevent.spawn(self.execute_subroutine, compiled, context)
 
-            except Exception, e:
+            except Exception as e:
                 self.game.handle_exception(e)

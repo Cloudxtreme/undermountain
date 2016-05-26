@@ -338,7 +338,7 @@ def channel_command(actor, command, params, *args, **kwargs):
             "receive_template"
         ]
 
-        for field, value in replaces.iteritems():
+        for field, value in replaces.items():
             template = template.replace(field, value)
 
         target.echo(template)
@@ -634,7 +634,7 @@ class Actor(RoomEntity):
         except CommandNotFound:
             self.echo("Huh? (Command not found.)")
 
-        except Exception, e:
+        except Exception as e:
             self.echo("Huh?! (Exception in handler.)")
             self.game.handle_exception(e)
 

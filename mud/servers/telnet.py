@@ -368,7 +368,7 @@ Your choice?: """)
         method = getattr(self, method_name)
         try:
             method(message)
-        except Exception, e:
+        except Exception as e:
             self.game.handle_exception(e)
 
     def display_motd(self):
@@ -400,7 +400,7 @@ Your choice?: """)
                     self.write(self.actor.format_prompt())
 
             self.last_character_sent = self.output_buffer[-1]
-            self.socket.sendall(self.output_buffer)
+            self.socket.sendall(bytes(self.output_buffer, encoding="UTF-8"))
             self.output_buffer = ''
 
     def input_loop(self):
@@ -438,11 +438,11 @@ Your choice?: """)
         while self.connected:
             try:
                 raw_message = self.socket.recv(4096)
-            except Exception, e:
+            except Exception as e:
                 raw_message = None
 
             if raw_message:
-                lines = raw_message.strip("\r\n").split("\n")
+                lines = raw_message.decode("UTF-8").strip("\r\n").split("\n")
                 self.input_buffer += lines
             else:
                 if not self.playing:
@@ -468,7 +468,7 @@ Your choice?: """)
         try:
             self.socket.shutdown(socket.SHUT_WR)
             self.socket.close()
-        except Exception, e:
+        except Exception as e:
             pass
 
 

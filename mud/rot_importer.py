@@ -242,7 +242,7 @@ class RotImporter(object):
 
                     else:
                         raise Exception("Unhandled line: " + line)
-                except Exception, e:
+                except Exception as e:
                     print("At line {}: ".format(line_index))
                     print("State: {}".format(state))
                     print(e)

@@ -145,6 +145,7 @@ tell("Kelemv", "Heyaaaa")
 say("Say {cnote{m or {chagon{m for some more testing.", trigger=False)
 wait(1)
 say("I waited to say something.")
+raise Exception("Testing")
 """},
                 {"type": "saying", "code": """
 if "hagon" in message:
@@ -271,7 +272,7 @@ tell(actor, "Room aware of your entered")
         Time.tick('game_start')
 
         # rooms
-        for x in xrange(1, 100000):
+        for x in range(1, 100000):
             created_id = "room:" + str(x)
             created = dict(temple_square)
             created["uid"] = created_id
@@ -279,7 +280,7 @@ tell(actor, "Room aware of your entered")
             Room.add(created, self)
 
         # mobs
-        for x in xrange(1, 100000):
+        for x in range(1, 100000):
             created_id = "actor:" + str(x)
             created = dict(hogan)
             created["uid"] = created_id
