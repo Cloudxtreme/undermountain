@@ -677,6 +677,8 @@ class Actor(RoomEntity):
         from settings.directions import DIRECTIONS
         from settings.channels import CHANNELS
 
+        commands = []
+
         commands = [
             {
                 "keywords": "password",
@@ -696,7 +698,7 @@ class Actor(RoomEntity):
             },
             {
                 "keywords": "nocommand",
-                "roles": ["admin"],
+                "role": "admin",
                 "handler": nocommand_command
             },
             {
@@ -735,10 +737,6 @@ class Actor(RoomEntity):
                 "keywords": "prompt",
                 "handler": prompt_command
             },
-            # {
-            #     "keywords": "reload",
-            #     "handler": reload_command
-            # },
             {
                 "keywords": "kill",
                 "handler": kill_command
@@ -761,16 +759,19 @@ class Actor(RoomEntity):
         from mud.commands.roles import roles_command
         commands.append({"keywords": "roles", "handler": roles_command, "role": "admin"})
 
-        # FIXME use config
+        from mud.commands.equipment import equipment_command
+        commands.append({"keywords": "equipment", "handler": equipment_command})
+
+        # Add walking in directions.
         for direction in DIRECTIONS.keys():
             commands.insert(0, {
                 "keywords": direction,
                 "handler": walk_command
             })
 
-        # FIXME use config
+        # Add channel commands.
         for channel in CHANNELS.keys():
-            commands.insert(0, {
+            commands.append({
                 "keywords": channel,
                 "handler": channel_command
             })
