@@ -23,7 +23,7 @@ A Python-based ROT replacement for Waterdeep.
 
 1. git clone repository
 2. cd undermountain
-3. virtualenv venv
+3. pyvenv venv
 4. source venv/bin/activate
 5. pip install -r requirements.txt
 6. ./undermountain create <environment>
