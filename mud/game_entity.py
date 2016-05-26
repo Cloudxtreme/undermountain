@@ -9,7 +9,7 @@ class GameEntity(Entity):
     COLLECTIONS_CHECKED = set()
 
     UNIQUE_INDEXES = ['uid']
-    STRING_INDEXES = ['keywords']
+    STRING_INDEXES = []
     INDEXES = ['id']
 
     @classmethod
@@ -93,46 +93,156 @@ class GameEntity(Entity):
 
         self.game.data[self.COLLECTION_NAME].remove(self)
 
+    @classmethod
+    def get_string_index_value_variations(cls, value):
+        """
+        Provide all of the combinations that make up the word.
+        Returns a list ordered in highest value to lowest (length).
+        """
+        value = value.lower()
+        variations = []
+
+        for x in range(len(value), 0, -1):
+            variation = value[0:x]
+            variations.append(variation)
+
+        return variations
+
+    @classmethod
+    def get_index_key(cls, key):
+        return cls.COLLECTION_NAME + '_by_' + key
+
+    @classmethod
+    def get_game_index(cls, game, key):
+        full_key = cls.get_index_key(key)
+        index = game.data[full_key]
+        return index
+
+    @classmethod
+    def unique_index_by(cls, key, value, record, game):
+        index = cls.get_game_index(game, key)
+
+        # Check for uniqueness naming collision.
+        if value in index:
+            raise ValueError("{} with key '{}' collision for value '{}'".format(
+                cls.__name__,
+                key,
+                value,
+            ))
+
+        index[value] = record
+
+    @classmethod
+    def normal_index_by(cls, key, value, record, game):
+        index = cls.get_game_index(game, key)
+
+        if value not in index:
+            index[value] = []
+
+        index[value].append(record)
+
+    @classmethod
+    def string_index_by(cls, key, value, record, game):
+        index = cls.get_game_index(game, key)
+
+        values = value
+        if type(values) is str:
+            values = values.split()
+
+        for keyword in values:
+            for variation in cls.get_string_index_value_variations(keyword):
+
+                if variation not in index:
+                    index[variation] = []
+
+                index[variation].append(record)
+
+    @classmethod
+    def index_by(cls, key, value, record, game):
+
+        cls.check_index_value(key, value)
+
+        method = None
+
+        if key in cls.UNIQUE_INDEXES:
+            method = cls.unique_index_by
+
+        elif key in cls.INDEXES:
+            method = cls.normal_index_by
+
+        elif key in cls.STRING_INDEXES:
+            method = cls.string_index_by
+
+        else:
+            raise IndexError("Index for {} key '{}' not defined".format(
+                cls.__name__,
+                key,
+            ))
+
+        method(key, value, record, game)
+
     def index(self):
 
-        for key in self.UNIQUE_INDEXES:
-            full_key = self.COLLECTION_NAME + '_by_' + key
+        for key in self.INDEXES + self.UNIQUE_INDEXES + self.STRING_INDEXES:
+            value = self.get(key, None)
 
-            # Check for uniqueness naming collision.
-            if self.get(key, "") in self.game.data:
-                raise Exception("{} with key '{}' collision".format(
-                    self.__name__,
-                    key,
-                ))
+            self.index_by(key, value, self, self.game)
 
-            value = self.get(key, "")
-            # TODO HANDLE BLANKS
-            self.game.data[full_key][value] = self
+    @classmethod
+    def check_index_value(cls, key, value):
+        if value is None or value == "":
+            raise ValueError("Cannot index {} key '{}' with no value".format(
+                cls.__name__,
+                key,
+            ))
 
-        for key in self.INDEXES:
-            full_key = self.COLLECTION_NAME + '_by_' + key
-            value = self.get(key, "")
+    @classmethod
+    def unique_deindex_by(cls, key, value, record, game):
+        index = cls.get_game_index(game, key)
+        del index[value]
 
-            if value not in self.game.data[full_key]:
-                self.game.data[full_key][value] = []
+    @classmethod
+    def normal_deindex_by(cls, key, value, record, game):
+        index = cls.get_game_index(game, key)
+        index[value].remove(record)
 
-            self.game.data[full_key][value].append(self)
+    @classmethod
+    def string_deindex_by(cls, key, value, record, game):
+        index = cls.get_game_index(game, key)
 
-        # TODO String indexes for searching startswith/contains.
+        values = value
+        if type(values) is str:
+            values = values.split()
+
+        for keyword in values:
+            for variation in cls.get_string_index_value_variations(keyword):
+                index[variation].remove(record)
+
+    @classmethod
+    def deindex_by(cls, key, value, record, game):
+
+        cls.check_index_value(key, value)
+
+        if key in cls.UNIQUE_INDEXES:
+            cls.unique_deindex_by(key, value, record, game)
+
+        elif key in cls.INDEXES:
+            cls.normal_deindex_by(key, value, record, game)
+
+        elif key in cls.STRING_INDEXES:
+            cls.string_deindex_by(key, value, record, game)
+
+        else:
+            raise IndexError("Index for {} key '{}' not defined".format(
+                cls.__name__,
+                key,
+            ))
 
     def deindex(self):
-        for key in self.UNIQUE_INDEXES:
-            full_key = self.COLLECTION_NAME + '_by_' + key
+        for key in self.INDEXES + self.UNIQUE_INDEXES + self.STRING_INDEXES:
             value = self.get(key, "")
-            # TODO HANDLE BLANKS
-            del self.game.data[full_key][value]
 
-        for key in self.INDEXES:
-            full_key = self.COLLECTION_NAME + '_by_' + key
-            value = self.get(key, "")
-            self.game.data[full_key][value].remove(self)
-
-        # TODO String indexes for searching startswith/contains.
+            self.deindex_by(key, value, self, self.game)
 
     @classmethod
     def query_by_id(cls, id, game):
@@ -159,6 +269,40 @@ class GameEntity(Entity):
             yield result
 
     @classmethod
+    def filter_index_by_keywords(cls, index, keywords):
+
+        if type(keywords) is str:
+            keywords = keywords.split()
+
+        # In order to match, it must match all keywords
+        matches_by_uid = {}
+        matches = []
+
+        for keyword_index, keyword in enumerate(keywords):
+            cleaned = keyword.lower()
+
+            if cleaned in index:
+                # Keep track of list to check for final union.
+                results = index[cleaned]
+                for result in results:
+                    matches_by_uid[result.uid] = result
+                matches.append({result.uid for result in results})
+
+            # If any of these indexes do not match, failure.
+            else:
+                return []
+
+        # Intersection of all the matches.
+        for _ in range(1, len(keywords)):
+            matches[0] = matches.pop(0) & matches[0]
+
+        final_matches = []
+        for uid in matches[0]:
+            final_matches.append(matches_by_uid[uid])
+
+        return final_matches
+
+    @classmethod
     def query_by(cls, field, value, game):
         cls.check_game_collections(game)
 
@@ -174,15 +318,18 @@ class GameEntity(Entity):
 
         index = game.data[full_key]
 
-        if value in index:
+        # Keyword-searching.
+        if field in cls.STRING_INDEXES:
+            for record in cls.filter_index_by_keywords(index, value):
+                yield record
+
+        elif value in index:
             records = index[value]
 
+            # Only one value possible, if available.
             if field in cls.UNIQUE_INDEXES:
-                yield records
-
-            elif field in cls.STRING_INDEXES:
-                # FIXME handle string indexes
-                raise Exception("String indexes not yet handled.")
+                record = records
+                yield record
 
             elif field in cls.INDEXES:
                 for record in records:
@@ -231,10 +378,9 @@ class GameEntity(Entity):
         if isinstance(raw_target, Actor):
             target = raw_target
         elif raw_target:
-            def match_tell_player(other):
-                return other.name_like(raw_target) and \
-                    self.can_see(other)
-            target = Character.find(func=match_tell_player, game=self.game)
+            for potential in Character.query_by("name", raw_target, game=self.game):
+                if self.can_see(potential):
+                    target = potential
 
         if not target:
             self.echo("Target not found.")

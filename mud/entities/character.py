@@ -10,6 +10,7 @@ class Character(Actor):
     An Actor that can be controlled by a Player.
     """
     COLLECTION_NAME = 'characters'
+    STRING_INDEXES = ["name"]
 
     def __init__(self, *args, **kwargs):
         super(Character, self).__init__(*args, **kwargs)

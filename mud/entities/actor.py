@@ -135,7 +135,11 @@ def string_command(actor, params, *args, **kwargs):
         show_string_help(actor)
 
 
-def tell_command(actor, params, *args, **kwargs):
+def tell_command(actor, params, command, *args, **kwargs):
+    if len(params) < 2:
+        actor.echo("Tell who what?")
+        return
+
     target = params[0] if len(params) > 0 else None
     message = ' '.join(params[1:]) if len(params) > 1 else None
 
@@ -442,7 +446,7 @@ class Actor(RoomEntity):
     ACTOR
     A creature, monster, person, etc. that is 'alive' in the World.
     """
-    COLLECTION_NAME = 'actors'
+    COLLECTION_NAME = "actors"
 
     def __init__(self, *args, **kwargs):
         super(Actor, self).__init__(*args, **kwargs)
@@ -484,7 +488,7 @@ class Actor(RoomEntity):
         return False
 
     def has_role(self, role):
-        return role in self.get("roles", [])
+        return role in self.get_roles()
 
     def is_immortal(self):
         return this.get("immortal", False)
@@ -754,6 +758,9 @@ class Actor(RoomEntity):
         from mud.commands.look import look_command
         commands.append({"keywords": "look", "handler": look_command})
 
+        from mud.commands.roles import roles_command
+        commands.append({"keywords": "roles", "handler": roles_command, "role": "admin"})
+
         # FIXME use config
         for direction in DIRECTIONS.keys():
             commands.insert(0, {
@@ -770,6 +777,21 @@ class Actor(RoomEntity):
 
         return commands
 
+    def add_role(self, role):
+        roles = self.get_roles()
+        if role not in roles:
+            roles.append(role)
+        self.roles = roles
+
+    def remove_role(self, role):
+        roles = self.get_roles()
+        if role in roles:
+            roles.remove(role)
+        self.roles = roles
+
+    def get_roles(self):
+        return list(self.get("roles", []))
+
     def find_command(self, word):
         commands = self.query_command_handlers()
 
@@ -777,7 +799,7 @@ class Actor(RoomEntity):
 
         for command in commands:
             if command["keywords"].startswith(word):
-                roles = command.get("roles", [])
+                roles = self.get_roles()
 
                 role = command.get("role", None)
                 if role:

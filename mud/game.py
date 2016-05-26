@@ -18,6 +18,7 @@ class Game(Greenlet):
         exc_type, exc_value, exc_traceback = sys.exc_info()
 
         message = ''.join(traceback.format_exception(exc_type, exc_value, exc_traceback))
+        message = message.replace("{", "{{")
         print(message)
         self.wiznet("exception", message)
 

@@ -6,4 +6,5 @@ class Area(GameEntity):
     AREA
     A container that holds a grouping of areas, Actors, etc.
     """
-    COLLECTION_NAME = 'areas'
+    COLLECTION_NAME = "areas"
+    STRING_INDEXES = ["name"]
