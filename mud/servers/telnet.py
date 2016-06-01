@@ -8,6 +8,7 @@ import socket
 from gevent import Greenlet
 from gevent import monkey
 from mud.entities.character import Character
+from mud.entities.room import Room
 from utils.ansi import Ansi
 
 monkey.patch_all()
@@ -63,11 +64,13 @@ class TelnetConnection(Greenlet):
             ch_data = Character.get_from_file(self.username, self.game)
 
             if not ch_data:
+                starting_room = Room.find_by("id", "3001", game=self.game)
                 self.actor = Character(self.game, {
                     "uid": self.username,
                     "id": self.username,
                     "name": self.username,
-                    "room_id": "westbridge:3001",
+                    "room_id": starting_room.id,
+                    "room_uid": starting_room.uid,
                 })
                 self.actor.set_connection(self)
 

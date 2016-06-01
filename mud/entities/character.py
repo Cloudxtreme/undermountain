@@ -109,6 +109,6 @@ class Character(Actor):
         try:
             with open(path, "w") as fh:
                 del save_data["uid"]
-                return fh.write(json.dumps(save_data))
+                return fh.write(json.dumps(save_data, indent=4))
         except IOError:
             pass

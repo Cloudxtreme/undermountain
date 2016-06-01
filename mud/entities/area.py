@@ -27,15 +27,15 @@ class Area(GameEntity):
         with open(path, "r") as input_file:
             area = json.loads(input_file.read())
             area["id"] = uid
+            for room_id, room in area["rooms"].items():
+                room["area_id"] = uid
             return area
 
     def add_children(self):
         from mud.entities.room import Room
         for room_vnum, room in self.data["rooms"].items():
             room["id"] = room_vnum
-            print(room)
             Room.add(room, game=self.game)
 
     def remove_children(self):
-        print("GONNA DEHYDRATE DATA")
-        print(len(self.data["rooms"]))
+        pass

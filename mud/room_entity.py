@@ -23,8 +23,15 @@ class RoomEntity(GameEntity):
         rooms = list(Room.query_by_id(self.room_id, game=self.game))
         if rooms:
             room = rooms[0]
-            self.room_uid = room.uid
-            return room
+            self.set_room(room)
+            return self.get_room()
+
+        # FIXME Make this a fallback configuration setting somewhere
+        tol = Room.find_by("id", "3001", game=self.game)
+        print("tol")
+        if tol:
+            self.set_room(tol)
+            return self.get_room()
 
         return None
 

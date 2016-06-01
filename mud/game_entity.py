@@ -143,6 +143,9 @@ class GameEntity(Entity):
 
     @classmethod
     def unique_index_by(cls, key, value, record, game):
+        if not value:
+            return
+
         index = cls.get_game_index(game, key)
 
         # Check for uniqueness naming collision.
@@ -157,6 +160,9 @@ class GameEntity(Entity):
 
     @classmethod
     def normal_index_by(cls, key, value, record, game):
+        if not value:
+            return
+
         index = cls.get_game_index(game, key)
 
         if value not in index:
@@ -166,6 +172,9 @@ class GameEntity(Entity):
 
     @classmethod
     def string_index_by(cls, key, value, record, game):
+        if not value:
+            return
+
         index = cls.get_game_index(game, key)
 
         values = value
@@ -213,24 +222,34 @@ class GameEntity(Entity):
 
     @classmethod
     def check_index_value(cls, key, value):
-        if value is None or value == "":
-            raise ValueError("Cannot index {} key '{}' with no value".format(
-                cls.__name__,
-                key,
-            ))
+        # if value is None or value == "":
+        #     raise ValueError("Cannot index {} key '{}' with no value".format(
+        #         cls.__name__,
+        #         key,
+        #     ))
+        pass
 
     @classmethod
     def unique_deindex_by(cls, key, value, record, game):
+        if not value:
+            return
+
         index = cls.get_game_index(game, key)
         del index[value]
 
     @classmethod
     def normal_deindex_by(cls, key, value, record, game):
+        if not value:
+            return
+
         index = cls.get_game_index(game, key)
         index[value].remove(record)
 
     @classmethod
     def string_deindex_by(cls, key, value, record, game):
+        if not value:
+            return
+
         index = cls.get_game_index(game, key)
 
         values = value
