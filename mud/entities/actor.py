@@ -770,6 +770,12 @@ class Actor(RoomEntity):
         from mud.commands.recall import recall_command
         commands.append({"keywords": "recall", "handler": recall_command})
 
+        from mud.commands.emote import emote_command
+        commands.append({"keywords": "emote", "handler": emote_command})
+
+        from mud.commands.pmote import pmote_command
+        commands.append({"keywords": "pmote", "handler": pmote_command})
+
         # Add walking in directions.
         for direction in DIRECTIONS.keys():
             commands.insert(0, {
