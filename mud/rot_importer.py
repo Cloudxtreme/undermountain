@@ -44,7 +44,7 @@ class RotImporter(object):
             raise Exception("Unhandled area header line: " + line)
 
     @classmethod
-    def import_area_from_file(cls, path):
+    def import_area_from_file(cls, path, debug=False):
         state = "ready_to_start_section"
         path_parts = path.split("/")
         filename = path_parts[-1]
@@ -67,7 +67,8 @@ class RotImporter(object):
             line_index = 0
             for line in fh:
                 line_index += 1
-                print(line_index, state, line)
+                if debug:
+                    print(line_index, state, line)
                 try:
                     if state == "ready_to_start_section":
                         if line.strip() == "":
@@ -105,31 +106,36 @@ class RotImporter(object):
                             raise Exception("Unhandled section identifier: " + line)
 
                     elif state == "mobprogs_header":
-                        print("SKIP MOBPROGS FOR NOW", line)
+                        if debug:
+                            print("SKIP MOBPROGS FOR NOW", line)
                         if line.strip() == "#0":
                             state = "ready_to_start_section"
                         continue
 
                     elif state == "shops_header":
-                        print("SKIP SHOPS FOR NOW", line)
+                        if debug:
+                            print("SKIP SHOPS FOR NOW", line)
                         if line.strip() == "0":
                             state = "ready_to_start_section"
                         continue
 
                     elif state == "specials_header":
-                        print("SKIP SPECIALS FOR NOW", line)
+                        if debug:
+                            print("SKIP SPECIALS FOR NOW", line)
                         if line.strip() == "S":
                             state = "ready_to_start_section"
                         continue
 
                     elif state == "resets_header":
-                        print("SKIP RESETS FOR NOW", line)
+                        if debug:
+                            print("SKIP RESETS FOR NOW", line)
                         if line.strip() == "S":
                             state = "ready_to_start_section"
                         continue
 
                     elif state == "objects_header":
-                        print("SKIP OBJECTS FOR NOW", line)
+                        if debug:
+                            print("SKIP OBJECTS FOR NOW", line)
                         if line.strip() == "#0":
                             state = "ready_to_start_section"
                         continue
@@ -221,7 +227,8 @@ class RotImporter(object):
                             state = "rooms_header"
                             continue
                         else:
-                            print(state, "UNHANDLED LINE", line)
+                            if debug:
+                                print(state, "UNHANDLED LINE", line)
 
                     elif state == "room_extra_keywords":
                         room_extra = {
@@ -247,7 +254,8 @@ class RotImporter(object):
                             continue
 
                     elif state == "room_exit_description2":
-                        print("UNKNOWN SECTION AFTER EXIT DESCRIPTION", line)
+                        if debug:
+                            print("UNKNOWN SECTION AFTER EXIT DESCRIPTION", line)
                         if "~" in line:
                             state = "room_exit_vnums"
                             continue
@@ -349,8 +357,18 @@ class RotImporter(object):
                         elif parts[0] == "F":
                             if parts[1] == "for":
                                 mobile["raw_form"] = parts[2]
+                            elif parts[1] == "aff":
+                                mobile["raw_affected"] = parts[2]
+                            elif parts[1] == "off":
+                                mobile["raw_off"] = parts[2]
+                            elif parts[1] == "imm":
+                                mobile["raw_immunities"] = parts[2]
+                            elif parts[1] == "res":
+                                mobile["raw_resistances"] = parts[2]
                             elif parts[1] == "par":
                                 mobile["raw_parts"] = parts[2]
+                            elif parts[1] == "act":
+                                mobile["raw_acts"] = parts[2]
                             elif parts[1] == "vul":
                                 mobile["raw_vulns"] = parts[2]
                             else:
@@ -372,11 +390,11 @@ class RotImporter(object):
                     else:
                         raise Exception("Unhandled line: " + line)
                 except Exception as e:
-                    print("At line {}: ".format(line_index))
+                    print("** EXCEPTION **")
+                    print("Filename: {} ".format(path))
                     print("State: {}".format(state))
+                    print("Line: {}".format(line_index))
                     print(e)
-                    print("Current Mobile: ")
-                    print(mobile)
                     break
 
         return area

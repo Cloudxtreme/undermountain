@@ -20,7 +20,7 @@ class Map(object):
 
 class Mapper(object):
     @classmethod
-    def generate_map(self, room=None, actor=None, width=60, height=20, legend=False, border=False):
+    def generate_map(self, room=None, actor=None, width=79, height=20, legend=False, border=False):
         INITIAL_CELL_VALUE = " "
 
         grid = []

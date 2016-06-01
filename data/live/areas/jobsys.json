@@ -1,0 +1,45 @@
+{
+    "name": "Job System Area",
+    "id": "jobsys",
+    "subroutines": [],
+    "rooms": {},
+    "uid": "jobsys",
+    "area_quest_points": 0,
+    "credits": "[ CLOSED ] Job System Area",
+    "faction_id": "tripower",
+    "vnums": [
+        54500,
+        54599
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "54500": {
+            "name": "A Courier Warehouse Boss~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ EHI JR",
+            "raw_flags3": "-25 -25 -25 -25",
+            "vnum": 54500,
+            "raw_flags": "ABTVd CDFJVZe 0 0 0",
+            "race_id": "giant",
+            "raw_flags2": "102 30 1d1+3999 1d1+499 5d4+40 crush",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M SPEECH 54531 cargostart~\n",
+                "M GIVE 54523 job0001acshr50p~\n",
+                "M SPEECH 54524 cargocheck~\n",
+                "M SPEECH 54523 complete~\n",
+                "M SPEECH 54500 job~\n",
+                "M SPEECH 54525 cargotest~\n",
+                "M SPEECH 54530 pirated~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The courier boss walks around his warehouse.\n",
+            "keywords": "Airship Courier Boss~\n"
+        }
+    },
+    "realm_id": 3
+}

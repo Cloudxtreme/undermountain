@@ -1,0 +1,154 @@
+{
+    "name": "Airship Parts",
+    "id": "arshpprt",
+    "subroutines": [],
+    "rooms": {
+        "41000": {
+            "name": "Airship Construction Area",
+            "description": [],
+            "flags_raw": "0 4 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "41000",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "41001"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "27993"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "1205"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "27150"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "27893"
+                }
+            },
+            "extras": {}
+        },
+        "41002": {
+            "name": "Weapons",
+            "description": [
+                "{x",
+                "#define WEAPON_CANNON1          41030",
+                "#define WEAPON_CANNON2          41031",
+                "#define WEAPON_CANNON3          41032",
+                "#define WEAPON_CANNON4          41033",
+                "#define WEAPON_CANNON5          41034",
+                "#define WEAPON_CANNON6          41050",
+                "#define WEAPON_CANNON7          41023",
+                "#define WEAPON_CANNON8          41024",
+                "#define WEAPON_CANNON9          41025",
+                "#define WEAPON_CANNON10         41026",
+                "#define WEAPON_CANNON11         41027",
+                "#define WEAPON_CANNON12         41028",
+                "#define WEAPON_CANNON13         41029   "
+            ],
+            "flags_raw": "0 32768 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "41002",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "41003"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "41001"
+                }
+            },
+            "extras": {}
+        },
+        "41001": {
+            "name": "Engines",
+            "description": [
+                "{x",
+                "#define OBJ_VNUM_V4D 41000",
+                "#define OBJ_VNUM_V6D 41002",
+                "#define OBJ_VNUM_V8D 41004",
+                "#define OBJ_VNUM_V4H 41001",
+                "#define OBJ_VNUM_V6H 41003",
+                "#define OBJ_VNUM_V8H 41005",
+                "#define OBJ_VNUM_TELEPORTER 41010",
+                "/* NOTE: V12 = V10, V10 = V12 */",
+                "#define OBJ_VNUM_V10D 41082",
+                "#define OBJ_VNUM_V10H 41075",
+                "#define OBJ_VNUM_V20D 41086",
+                "#define OBJ_VNUM_V20H 41079",
+                "#define OBJ_VNUM_V40D 41084",
+                "#define OBJ_VNUM_V40H 41077",
+                "#define OBJ_VNUM_V60D 41078",
+                "#define OBJ_VNUM_V60H 41085",
+                "#define OBJ_VNUM_V32D 41088",
+                "#define OBJ_VNUM_V32H 41081 ",
+                "#define OBJ_VNUM_V12D 41052",
+                "#define OBJ_VNUM_V12H 41051"
+            ],
+            "flags_raw": "0 32768 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "41001",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "41002"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "41000"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "arshpprt",
+    "area_quest_points": 0,
+    "credits": "[  IMM   ] Airship Parts",
+    "faction_id": "",
+    "vnums": [
+        41000,
+        41099
+    ],
+    "recall_room_id": 1,
+    "objects": {},
+    "zone_id": 0,
+    "security": 7,
+    "mobiles": {},
+    "realm_id": 0
+}

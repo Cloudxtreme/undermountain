@@ -92,6 +92,9 @@ class Game(Greenlet):
         self.unique_connection_id += 1
         return self.unique_connection_id
 
+    def log(self, *args, **kwargs):
+        print(*args, **kwargs)
+
     def __init__(self, environment, *args, **kwargs):
         """
         Instantiate an Engine for an Environment.
@@ -105,8 +108,15 @@ class Game(Greenlet):
         self.data = {}  # Main memory core, reference relationships by ID only.
 
         from mud.entities.area import Area
-        westbridge = Area.load_from_file("westbridge", game=self)
-        Area.add(westbridge, game=self)
+
+        # FIXME put somewhere better, like an AreaManager
+        for area_name in Area.query_available_uids(game=self):
+            area_data = Area.load_from_file(area_name, game=self)
+            Area.add(area_data, game=self)
+            self.log("Loaded area '{}' with {} rooms".format(
+                area_name,
+                len(area_data["rooms"])
+            ))
 
     def echo(self, message, role=None):
         print("ROLE", role)

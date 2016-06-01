@@ -1,0 +1,340 @@
+{
+    "name": "Raid Zone",
+    "id": "vpraid",
+    "subroutines": [],
+    "rooms": {
+        "58497": {
+            "name": "Dead End",
+            "description": [
+                "The cave ends abruptly due to a massive amount of rubble.  Large",
+                "boulders and a myriad of jagged stones litter the passage.  Claw marks",
+                "in the hard stone floor make each step questionable.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "58497",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58498"
+                }
+            },
+            "extras": {}
+        },
+        "58494": {
+            "name": "Darkened Niche",
+            "description": [
+                "Only the calm trickle of water can be heard echoing off the walls",
+                "of this niche.  The area seems to have been prepared as a living",
+                "quarters, a couple bones and straw mat can be seen in the corner. ",
+                "Several skulls, each donning helms, are stacked precariously upon",
+                "rickety wooden shelves in the opposite corner.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "58494",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58495"
+                }
+            },
+            "extras": {}
+        },
+        "58498": {
+            "name": "Dark Tunnel",
+            "description": [
+                "Gurgling sounds faintly echo from the northern cavern, indicating",
+                "the presence of water somewhere close.  Light barely reaches into this",
+                "tunnel, leaving only faint glints and gleams reflecting off the rock",
+                "walls.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "58498",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58499"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58497"
+                }
+            },
+            "extras": {}
+        },
+        "58495": {
+            "name": "Fungus-Covered Cavern",
+            "description": [
+                "This cavern is illuminated by thousands of small luminscent fungi",
+                "and mycelium strands.  Faint shimmers in the air give way to the",
+                "clouds of spores being released.  Thick stemmed specimens of",
+                "basidiomycetes grow from mounds of foul smelling debris.  Upon a",
+                "closer examination the gills of the mushroom can be seen, harboring",
+                "billions of bio-luminescent dots.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "58495",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58496"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58496"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58494"
+                }
+            },
+            "extras": {}
+        },
+        "58450": {
+            "name": "Holding Room V.IQ",
+            "description": [],
+            "flags_raw": "0 4 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "58450",
+            "exits": {},
+            "extras": {}
+        },
+        "58496": {
+            "name": "Tunnel Fork",
+            "description": [
+                "No light seems to enter this passage, only the foul smell of sweaty",
+                "beasts and piles of refuse.  Water slowly drips at an awkward angle...",
+                "Or is this passage sloped?  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "58496",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58495"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58499"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "58495"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "vpraid",
+    "area_quest_points": 0,
+    "credits": "[ *HERO* ] Vaprak's Church/IQ Azrakol",
+    "faction_id": "",
+    "vnums": [
+        58450,
+        58499
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "zone_id": 0,
+    "security": 7,
+    "mobiles": {
+        "58450": {
+            "name": "{yA lumbering troll {!r{1aider{0~\n",
+            "description": [
+                "{yDraped in almost nothing but a few furs and skins, this lumbering\n",
+                "beast stands a towering 7 feet tall.  He normally carries a small tree\n",
+                "or rock as a weapon of ingenuity, cheap yet effective.  Boils and pock\n",
+                "marks riddle its dark gangrenous skin.  \n"
+            ],
+            "raw_flags5": "stand stand none 42069",
+            "raw_flags6": "ABGHMVZ ABCDEFGHIJKUV giant unknown",
+            "raw_flags4": "ACFHR KL BCDEHI FJR",
+            "raw_flags3": "-50 -50 -50 -50",
+            "vnum": 58450,
+            "raw_flags": "AFT DEFV CDEHR -1000 0",
+            "race_id": "giant",
+            "raw_flags2": "107 15237 210d10+32023 210d5+16011 150d20+4000 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M fight 58461 25~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A massive, lumbering Troll raider swaggers towards you!\n",
+            "keywords": "troll lumbering raider ~\n"
+        },
+        "58451": {
+            "name": "{yA frenzied {!W{1ar {yMammoth{0~\n",
+            "description": [
+                "{*Seemingly disoriented and aggressive, this shaggy beast crashes\n",
+                "through its surroundings without a qualm.  Thick dark fur protects its\n",
+                "even thicker hide, making most weapons impervious.  Bleats of rage\n",
+                "trumpet forth from a waving trunk as its eyes narrow in disdain.  \n"
+            ],
+            "raw_flags5": "stand stand female 13500",
+            "raw_flags6": "ABHMV ABCDEFGHIJKQUV large unknown",
+            "raw_flags4": "BCDEFKMQR ABFGHLQ BEHIJLQ HJKMRS",
+            "raw_flags3": "-60 -60 -60 -90",
+            "vnum": 58451,
+            "raw_flags": "AFT DFJTVZac 0 -1000 0",
+            "race_id": "giant",
+            "raw_flags2": "101 0 10d1000+18000 0d0+0 40d12+50 slash",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M fight 58460 15~\n",
+                "M fight 58452 10~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A massive War Mammoth gets ready to charge you!\n",
+            "keywords": "war mammoth raider~\n"
+        },
+        "58452": {
+            "name": "{yA Blight Ogre {!S{1haman{0~\n",
+            "description": [
+                "Savage expressions crawl in a frenzied motion across its face. \n",
+                "Large and slightly clumsy this hooded monstrosity is capable of an\n",
+                "array of magic.  \n"
+            ],
+            "raw_flags5": "stand stand either 1700",
+            "raw_flags6": "ABCHJMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "FGJO BDEF DEHIK CGJLNQRSY",
+            "raw_flags3": "-25 -25 -25 -25",
+            "vnum": 58452,
+            "raw_flags": "AFR DJTa HR -1000 0",
+            "race_id": "giant",
+            "raw_flags2": "105 26 28d47+6463 27d52+7380 5d19+39 magic",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M fight 58464 20~\n",
+                "M random 58459 25~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Blight Ogre Shaman focuses his attention upon you!\n",
+            "keywords": "blight ogre shaman raider~\n"
+        },
+        "58453": {
+            "name": "{1A {1G{yuardian G{yian{1t{0~\n",
+            "description": [
+                "Large, grim, and ready for war...\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AHMVZ ABCDEFGHIJK giant unknown",
+            "raw_flags4": "QR A BEHI JR",
+            "raw_flags3": "-250 -450 -350 -600",
+            "vnum": 58453,
+            "raw_flags": "AFT DFJTVa CDE -1000 0",
+            "race_id": "giant",
+            "raw_flags2": "115 9124 50d200+7500 12d12+2345 12d24+9000 beating",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M fight 58463 15~\n",
+                "M fight 58462 20~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Giant form looms menacingly above you.\n",
+            "keywords": "guardian giant~\n"
+        },
+        "58454": {
+            "name": "{WA {rF{Rr{8ighten{Re{rd {rW{Ro{8m{Ra{rn{x~\n",
+            "description": [
+                "A small woman stands here, having successfully eluded the raiders\n",
+                "so far.  Her clothes, once the symbol of nobility, are now tattered\n",
+                "and hang like rags from her body.  Dirt and dried blood cake her body\n",
+                "and her eyes are wide with a feral fright.  She trembles\n",
+                "uncontrollably in shock.  All she is able to do is clutch a small sack\n",
+                "to her chest.  \n"
+            ],
+            "raw_flags5": "stand stand none 100",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 0 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 58454,
+            "raw_flags": "AB DFZ HN 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "102 100 10d10+100 10d10+100 10d10+100 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M speech 58451 help~\n",
+                "M greet 58450 90~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{WA {rF{Rr{8ighten{Re{rd {rW{Ro{8m{Ra{rn{W stands here quivering.{x\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "a frightened female human victim~\n"
+        },
+        "58499": {
+            "name": "{&A{7z{8r{1a{8k{7o{&l{0 the {gS{Gw{8a{gm{7p {gT{8r{&o{7l{gl{0~\n",
+            "description": [
+                "{yNot much to this beast, except sinewy muscle, and jagged bone.\n",
+                "It's eyes reflect a vibrant ochre shade, almost similar to \n",
+                "gold that has been left to soil and oxidize in the elements.\n",
+                "The garmets clad upon its body only consist of a myriad\n",
+                "random animal skins, torn and stretched as needed.\n"
+            ],
+            "raw_flags5": "stand stand male 1",
+            "raw_flags6": "AHMV D giant unknown",
+            "raw_flags4": "ABCDFGHJO ABLMQ BCDEFGIJOPXYZ N",
+            "raw_flags3": "-50 -50 -50 -50",
+            "vnum": 58499,
+            "raw_flags": "ABFLNOPRT CDEFGJZ HR -1000 0",
+            "race_id": "drow",
+            "raw_flags2": "200 5500 2500d5000+10000 1d1+30000 20d50+10000 smash",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F par ABCEFGHIJK\n",
+                "M fight 58467 15~\n",
+                "M random 58465 100~\n",
+                "M fight 58453 100~\n",
+                "M death 58458 100~\n",
+                "M greet 58466 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A large, gangly silhouette crouches here.\n",
+            "raw_parts": "ABCEFGHIJK",
+            "keywords": "azrakol iq troll ~\n"
+        }
+    },
+    "realm_id": 1
+}

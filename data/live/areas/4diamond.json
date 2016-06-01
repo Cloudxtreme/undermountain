@@ -1,0 +1,3406 @@
+{
+    "name": "4 Diamond Dungeon",
+    "id": "4diamond",
+    "subroutines": [],
+    "rooms": {
+        "8081": {
+            "name": "Dungeon of the Deepspawn",
+            "description": [
+                "The fear that roams within your spirits has suddenly heightened as",
+                "decapitated body parts, and mutilated corpses lie scattered with blood and",
+                "guts splattered along the walls.  The rugged rocky walls crumble in small",
+                "fragments as strange tremors is felt beneath you.  A huge skull hangs above",
+                "you with a lit candle inside it providing the only source of visibility",
+                "around here.  An aging door exits you out to the west.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8081",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8080"
+                }
+            },
+            "extras": {}
+        },
+        "8075": {
+            "name": "Tunnel",
+            "description": [
+                "You've come upon a short dark tunnel with not much to see but blackness",
+                "all around.  A tightly shut door can be seen to the north while a faint",
+                "glowing can be seen to the south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8075",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8074"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8076"
+                }
+            },
+            "extras": {}
+        },
+        "8017": {
+            "name": "Southern Cross Chamber",
+            "description": [
+                "Doors lead out in all directions leaving you with many possible ways to",
+                "move.  Not much is seen around here but some skulls and skeleton bones lying",
+                "in the southeastern corner of the chamber.  A huge vampire bat of sort hangs",
+                "high above you somewhat making you hesitant of being in here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8017",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8036"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8015"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8016"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8018"
+                }
+            },
+            "extras": {}
+        },
+        "8008": {
+            "name": "Western Cross Chamber",
+            "description": [
+                "The walls around this chamber are layered with ancient rocks as a",
+                "cobweb-filled torch perches on each side of you.  An iron chandelier with",
+                "candles set on each slot hangs high above you in the center of the chamber",
+                "while several shackles attaches itself in the western wall with an old",
+                "skeleton hanging almost shattered in pieces.  An iron door leads out to the",
+                "east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8008",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8009"
+                }
+            },
+            "extras": {}
+        },
+        "8035": {
+            "name": "Darkness!",
+            "description": [
+                "Darkness overwhelms about as you hold out your arms in hopes of not",
+                "running into anything..  Or anyone.  Screaming can be heard to the west of",
+                "you.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8035",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8016"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8034"
+                }
+            },
+            "extras": {}
+        },
+        "8026": {
+            "name": "Darkness!",
+            "description": [
+                "You can't see anything!  A strange door of some kind can be felt to the",
+                "west while darkness continues to the north.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8026",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8025"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8027"
+                }
+            },
+            "extras": {}
+        },
+        "8084": {
+            "name": "Final Encounter!",
+            "description": [
+                "The grate above suddenly closes and locks by itself!  The light coming",
+                "from it is the only form of visibility to be seen.  Looking around, you find",
+                "that there are no walls but total blackness!  You grip your weapon much",
+                "tighter for the coming of the unknown!  No exits are visible as you find",
+                "yourself trapped!  "
+            ],
+            "flags_raw": "0 67108877 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8084",
+            "exits": {},
+            "extras": {}
+        },
+        "8071": {
+            "name": "Passage",
+            "description": [
+                "You are walking along a dark passage heading west and east.  An iron door",
+                "with two strange reddish-orange torches hang beside it to the east.  A",
+                "choice of directions can be seen to the west of you.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8071",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8070"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8072"
+                }
+            },
+            "extras": {}
+        },
+        "8056": {
+            "name": "Southern Cross Chamber",
+            "description": [
+                "Sickening pieces of meat and body parts lie all over the chamber as blood",
+                "is splattered all over the walls here.  Chained cuffs are attached on the",
+                "walls for those who need discipline.  The odor in here is so nauseating that",
+                "you wish to leave here as soon as possible..  A iron door leaves to the",
+                "north.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8056",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8055"
+                }
+            },
+            "extras": {}
+        },
+        "8083": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading north and south here.  An iron door",
+                "with two strange brown torches hang beside it to the north.  From a distance,",
+                "you make out a choice of directions to the south.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8083",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8007"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8010"
+                }
+            },
+            "extras": {}
+        },
+        "8044": {
+            "name": "Outside the Dungeon Doors",
+            "description": [
+                "A shivering rumble is felt beneath you as you arrive outside two huge",
+                "doors that lead inside to the west and east.  A quiet dark passage leads",
+                "away to the south here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8044",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8046"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8043"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8045"
+                }
+            },
+            "extras": {}
+        },
+        "8051": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading west and east here.  An iron door",
+                "with clear torches hang beside it to the west.  A warm breeze flows from the",
+                "east where a choice of directions is also detected.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8051",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8050"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8052"
+                }
+            },
+            "extras": {}
+        },
+        "8005": {
+            "name": "Tightly Fit Room",
+            "description": [
+                "The monstrous steel door to your east suddenly seals SHUT!!  The air",
+                "around you suddenly feels shiverishly cold..  Like silent death.  A small",
+                "white misty cloud begins to surround you..  Almost like a stench of fog. ",
+                "The walls around you are stone-layered and sealed close almost squishing",
+                "you.  The only form of light provided in here is the gray skies high high",
+                "above you where a hole in the cavern is seen about 50 feet up.  A small",
+                "shaft lies in the southwestern corner of the room with a dangling rope",
+                "tightly hanging on a huge steel ring sealed to the floor.  This provides the",
+                "only exit other than the steel door to your east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8005",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8004"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8006"
+                }
+            },
+            "extras": {}
+        },
+        "8050": {
+            "name": "Western Cross Chamber",
+            "description": [
+                "The gentle breeze shivers your spine as you find utter silence in here. ",
+                "The chamber appears to be empty with not much to see but a sealed-shut door",
+                "to the west.  An iron door exits you to the east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8050",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8049"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8051"
+                }
+            },
+            "extras": {}
+        },
+        "8016": {
+            "name": "Darkness!",
+            "description": [
+                "A dying torch stands on the western wall here barely providing you with",
+                "any light here.  You make out a trail headed south.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8016",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8035"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8017"
+                }
+            },
+            "extras": {}
+        },
+        "8078": {
+            "name": "Darkness!",
+            "description": [
+                "You can't see anything!  A dim glow is visible to the east while a huge",
+                "door can be felt to the west here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8078",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8077"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8079"
+                }
+            },
+            "extras": {}
+        },
+        "8057": {
+            "name": "Dark Blue Room",
+            "description": [
+                "The strange dark blue room strikes you cautiously as strange wailings and",
+                "echos of cackling begin to carry around the room.  Strange mists of light",
+                "float about here as a low humming buzz distracts your presence.  The passage",
+                "to the south allows the only way out of here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8057",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8058"
+                }
+            },
+            "extras": {}
+        },
+        "8065": {
+            "name": "Passage",
+            "description": [
+                "This is a dark small passage leading north and south here.  An icy door",
+                "with two strange blue torches hang beside it to the south.  A choice of",
+                "directions is visible to the north.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8065",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8063"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8066"
+                }
+            },
+            "extras": {}
+        },
+        "8054": {
+            "name": "Eastern Cross Chamber",
+            "description": [
+                "The infestation of bugs and pests is horrifying as you notice many snake",
+                "holes of sorts from the walls around you.  An ambush from these little",
+                "critters is possible though the breeze is the only comfort provided for you",
+                "in here.  Strange unknown markings is seen all over here in scribbles while",
+                "rotting pieces of wood lie scattered here.  An exit is visible to the west. "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8054",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8053"
+                }
+            },
+            "extras": {}
+        },
+        "8053": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading west and east.  An iron door with",
+                "two 'clear' torches hang beside it to the east.  A strange hot breeze is",
+                "felt to the west where a choice of directions can also be seen.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8053",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8052"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8054"
+                }
+            },
+            "extras": {}
+        },
+        "8036": {
+            "name": "Lonely Passage",
+            "description": [
+                "This is a short passage headed south.  An iron door is here north of you",
+                "while the passage ends not to far south.  A whispering sound is heard behind",
+                "the walls.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8036",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8017"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8038"
+                }
+            },
+            "extras": {}
+        },
+        "8039": {
+            "name": "Dungeon of Flames",
+            "description": [
+                "Sudden flames rise high above you as you enter!  The intensity of the",
+                "heat makes it unbearable for you to see or do much in this dungeon.  Evil",
+                "cackling echoes from the walls adjacent this dungeon as you ponder to leave",
+                "out the door to the west.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8039",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8038"
+                }
+            },
+            "extras": {}
+        },
+        "8031": {
+            "name": "Darkness!",
+            "description": [
+                "You cant see anything!  A horrid smell from the south carries itself into",
+                "the passage making you nauseated for a moment.  A door is seen to the north."
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8031",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8032"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8030"
+                }
+            },
+            "extras": {}
+        },
+        "8037": {
+            "name": "Dungeon of Water",
+            "description": [
+                "The level of water rises to your ankles as you enter.  Leaky drips of",
+                "water fall from the ceiling above as the darkness in the room makes it hard",
+                "to see around here.  A door out of here is to the east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8037",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8038"
+                }
+            },
+            "extras": {}
+        },
+        "8029": {
+            "name": "Darkness!",
+            "description": [
+                "A very bad smell of some kind can be sensed from the west as a very faint",
+                "light of some kind is seen to the south.  The walls seem a bit close as you",
+                "make your way through here.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8029",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8030"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8028"
+                }
+            },
+            "extras": {}
+        },
+        "8058": {
+            "name": "Tunnel",
+            "description": [
+                "This small dark tunnel leads to a faint glow that can be seen to the",
+                "north.  The darkness here disables you from doing anything..  But rest.  You",
+                "wonder if its safe to rest in a place so dark as this?  A small door to the",
+                "south is possible while the north leaves you in curiousity..  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8058",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8057"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8059"
+                }
+            },
+            "extras": {}
+        },
+        "8079": {
+            "name": "Dimly Lit Room",
+            "description": [
+                "To your horror, you look around and see puddles of blood and sprayed",
+                "blood shots across thedark walls here making you shudder.  A pile of skulls",
+                "lies on the southeastern wall as deep evil laughter can be heard around. ",
+                "Below you is another grate securely locked where all the laughter can be",
+                "heard.  The darkness appears to the east and west here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8079",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8078"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8080"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8084"
+                }
+            },
+            "extras": {}
+        },
+        "8006": {
+            "name": "You Fall!!!!!!!",
+            "description": [
+                "As you rope yourself down..",
+                " ",
+                "                     You suddenly lose grip...",
+                " ",
+                "                                   OHHHH NOOOOOO!!!!!!!",
+                " ",
+                " ",
+                " ",
+                " ",
+                "                                       YOU ARE FALLING!!!!!!!!!",
+                " ",
+                " ",
+                " ",
+                "CCCCRRRRRAAAAAASSSSSSSSSHHHHHHHHHHHHHH!!!!!!!!!!!!!!!!!",
+                " ",
+                "You find yourself at the bottom of this strange dark place of sorts where ",
+                "blood and shattered skeleton bones lie about all over.  A rope hangs high",
+                "above you.. too high to raise you back up from where you came from.  A ",
+                "huge glowing door emits light in this hideous little room",
+                "to the south."
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8006",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8007"
+                }
+            },
+            "extras": {}
+        },
+        "8009": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading west and east here.  An iron door",
+                "with two brown torches hang beside it to the west.  From a distance you make",
+                "out a choice of directions to the east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8009",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8008"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8010"
+                }
+            },
+            "extras": {}
+        },
+        "8002": {
+            "name": "Entrance of the Cave",
+            "description": [
+                "As you stand here..  The disappearance of the light outside suddenly",
+                "darkens a bit as you enter a wide cavern filled with many spiked stalacites",
+                "and drips of water.  A path starts here and veers here and there headed",
+                "westward while the outside of the cave leaves to the east.  An old SIGN has",
+                "been posted here.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8002",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8003"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8001"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "HELP ME...",
+                        " ",
+                        "                              I CANNOT.....",
+                        " ",
+                        "** You stand there in wonder..",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8020": {
+            "name": "Shackles and Flapping",
+            "description": [
+                "Two separate shackles bind itself to the rocky walls on the northern and",
+                "the eastern wall.  Those who were punished for hideous crimes were chained",
+                "here for the rest of their lives in hunger and in tiresome struggle.  A",
+                "flaming torch perches high atop the eastern wall to fill the place with some",
+                "light.  The darkness continues to the west and south.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8020",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8019"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8021"
+                }
+            },
+            "extras": {}
+        },
+        "8052": {
+            "name": "Room of the Southern Diamond",
+            "description": [
+                "Ancient crusty stones furnish the layerings of the walls around you as",
+                "directions head off every which way into the darkness.  A whistling breeze",
+                "flows about everywhere with dust carrying as well.  ",
+                " ",
+                "A dead body can be seen at the corner with a note attached to it.  Maybe you should read it."
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8052",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8055"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8047"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8051"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8053"
+                }
+            },
+            "extras": {
+                "body": {
+                    "description": [
+                        "The body is badly mutilated and letting out a horrible smell.",
+                        ""
+                    ]
+                },
+                "note": {
+                    "description": [
+                        "TO THOSE THAAT REAAAD THIS:",
+                        " ",
+                        "                 LOOK BEHIND YOU....",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        " ",
+                        "** Something just past you headed south!!",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8077": {
+            "name": "Dungeon of the Displacer Beast",
+            "description": [
+                "At the western wall lies a huge open cage where a recent carnage has",
+                "occurred.  A fresh half-eaten body can be seen inside with many skeleton",
+                "bones lying around.  Strange symbolic tapestries are hung on the northern",
+                "and southern wall where several cobwebs fill the corners of the dungeon.  A",
+                "door exits to the east while to the west is a small cage..  Should you enter",
+                "it?  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8077",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8085"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8078"
+                }
+            },
+            "extras": {}
+        },
+        "8047": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading north and south here.  An iron door",
+                "with two \"clear\" torches hang beside it to the north.  A slight breeze",
+                "begins to flow about here as you make out a choice of directions visible to",
+                "the south.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8047",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8027"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8052"
+                }
+            },
+            "extras": {}
+        },
+        "8018": {
+            "name": "Darkness!",
+            "description": [
+                "Obscure blackness is all to be seen as you helplessly are unable to make",
+                "your way around.  The touch of the eastern and northern walls can be felt",
+                "while passage is allowed from the west and the south also.  You trip over",
+                "something in the thick blackness..  Hmm.. your feet has just smushed",
+                "something..  What could it be?  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8018",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8017"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8019"
+                }
+            },
+            "extras": {}
+        },
+        "8061": {
+            "name": "Western Cross Chamber",
+            "description": [
+                "Strangely, the ceiling above opens up here as the whole western wall is",
+                "layered with rocks.  A huge waterfull from above falls and creates a small",
+                "pond of sort that flows into a dark cave at the bottom of the western wall. ",
+                "The color of the water is somewhat dark and eerie.  The capacity of the room",
+                "is somewhat limited for any physical combat to occur in here.  An exit goes",
+                "to the east.  ",
+                " "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8061",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8062"
+                }
+            },
+            "extras": {}
+        },
+        "8040": {
+            "name": "Lonely Passage",
+            "description": [
+                "The tunnel here moves into the darkness to the east where scary noises",
+                "can be heard.  An iron door is here to the west where driplets of water can",
+                "be seen..  Strange.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8040",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8032"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8041"
+                }
+            },
+            "extras": {}
+        },
+        "8004": {
+            "name": "Cavern's End",
+            "description": [
+                "As you move along the many scattered stones about in the cavern, a dead",
+                "end interrupts your passage to move further in.  A huge steel door prevents",
+                "passage to move further west.  The huge door stands about 9-10 feet high",
+                "with the rocky walls layered around you.  The walls are made of ancient hard",
+                "brown chunks of volcanic ash.  The cavern continues back to the east, while",
+                "a SIGN is seen beside the huge door.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8004",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8005"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8003"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        "* SEE NO EVIL...                      *",
+                        "*     HEAR NO EVIL...                 *",
+                        "*            BUT HERE YOU             *",
+                        "*                  WILL FEEL IT ALL!! *",
+                        "*                                     *",
+                        "* MUAHAHHAHAHAHAHAHAHAHAHAHAHAHAHAHA! *",
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8030": {
+            "name": "Terrible Smell",
+            "description": [
+                "A horrible smell of some sort fills the room suddenly making you sick to",
+                "the stomach.  As you look around, several decapitated body parts lie around",
+                "slowly being consumed by some small maggots and several insects as the odor",
+                "stenches off into the darkness to the east and the north.  A torch stands",
+                "high atop the western wall here.  A pair of shackles attach itself to the",
+                "rocky walls on the southern and western walls for those who fell prey to",
+                "their own crimes committed in the realms.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8030",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8031"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8029"
+                }
+            },
+            "extras": {}
+        },
+        "8027": {
+            "name": "Northern Cross Chamber",
+            "description": [
+                "A sudden of rush of air blows about you from the ceiling way above in the",
+                "darkness as your eyes fade from the debris that comes with the wind. ",
+                "Strange torches covered with a crystal-glass hangs on the western and",
+                "eastern wall here.  Nothing else is visible but four iron doors that head",
+                "out in all directions.  A SIGN can be seen here as well.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8027",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8047"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8046"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8028"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8026"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        "* WHISPERS OF FURY BLOW ABOVE & BELOW *",
+                        "* THE HIDDEN LANDS.  THE POWERFUL AIR *",
+                        "* SPAWNS FROM THE UNKNOWN ORIGINS WAY *",
+                        "* AND TOWARDS.. TO VOICE ITS ANGER TO *",
+                        "* THOSE WHO OVERLOOK AND CARE NOT THE *",
+                        "* BEAUTY OF THE ELEMENTS AND NATURE.. *",
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8045": {
+            "name": "Dungeon of Air",
+            "description": [
+                "A blast of hot air suddenly carries you almost off the ground as the",
+                "empty dungeon leaves nothing behind.  The air lifts itself way above the",
+                "darkness above where a dim light is seen headed to the outside world.  An",
+                "exit lies to the west where a door appears.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8045",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8044"
+                }
+            },
+            "extras": {}
+        },
+        "8022": {
+            "name": "Western Cross Chamber",
+            "description": [
+                "Stand fast!  Flames have consumed the entire chamber here!  Everything",
+                "that once was is now charred and scorched into smoldering ashes as it seems",
+                "someone has set this chamber ablaze!  Doors away from here can be seen all",
+                "around..  Where will u go?  A strange SIGN hangs atop of you..  What does it",
+                "say?  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8022",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8023"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8021"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8042"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8069"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        "* THE RUSHING FLAMES OF RAMPANT CHAOS *",
+                        "* OVERFLOWS THE MIND.  TAKE HEED THRU *",
+                        "* YOUR JOURNEYS AHEAD FOR MORE PERILS *",
+                        "* AND DAYS OF DESPAIR ARE NEAR..      *",
+                        "*              THE SOUL WILL BURN..   *",
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8028": {
+            "name": "Darkness!",
+            "description": [
+                "A tiny small campfire of sorts is planted here in the middle of the path.",
+                "Dark smokes smoulder the air as a faint passage into the black unknown head",
+                "to the north.  A door sealed shut is seen to the east.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8028",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8029"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8027"
+                }
+            },
+            "extras": {}
+        },
+        "8074": {
+            "name": "Southern Cross Chamber",
+            "description": [
+                "Gibberish howls can be heard around you as your eyes tend to hallucinate",
+                "weird faces of gibberlings surrounding you laughing evilly.  The room is",
+                "covered with blood and spots suddenly making you feel dizzy.  Several",
+                "torches are hung above to fill some light in the room.  An exit takes you",
+                "out to the north while strange markings are encrypted on the southern wall..",
+                "Or is it a door?  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8074",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8073"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8075"
+                }
+            },
+            "extras": {}
+        },
+        "8041": {
+            "name": "Lonely Passage",
+            "description": [
+                "The tunnel continues west and east here.  A strange grate of some sort is",
+                "stood below you.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8041",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8040"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8042"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8082"
+                }
+            },
+            "extras": {}
+        },
+        "8034": {
+            "name": "Noise and Headaches",
+            "description": [
+                "Sounds of noises and screams fill the room disabling your attention as",
+                "you try to scan about the place thoroughly.  Some shackled chains attach",
+                "itself on the northern and western walls for those who are culprits to",
+                "malicious crimes committed in the realms.  A torch stands high upon the",
+                "western wall giving off some light as total darkness is seen to the south",
+                "and the east.  ",
+                "'",
+                ""
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8034",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8033"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8035"
+                }
+            },
+            "extras": {}
+        },
+        "8032": {
+            "name": "Eastern Cross Chamber",
+            "description": [
+                "A trail of blood flows from the western door to the eastern door here. ",
+                "Strange unknown markings are written along the walls here as ice-torches hang",
+                "across the side walls.  Several icicle-crystals stick amongs the icy walls here",
+                "catching your eye as you make a glimpse of your surroundings.  Doors from",
+                "every direction allow you to move wherever.  An old SIGN hangs here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8032",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8031"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8033"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8064"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8040"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        "* THE ELEMENTS OF THE WATER IS NOT TO *",
+                        "* BE TAKEN WITH CARELESSNESS FOR THEY *",
+                        "* SHALL FEEL THE PAIN THAT RECEIVES!! *",
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8021": {
+            "name": "Darkness!",
+            "description": [
+                "Darkness covers the room in its entirety as you find yourself lost in",
+                "complete blackness.  Noises can be heard to the north while a door of some",
+                "kind can be felt to the south.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8021",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8020"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8022"
+                }
+            },
+            "extras": {}
+        },
+        "8015": {
+            "name": "Passage",
+            "description": [
+                "This is a dark small passage leading north and south here.  An iron door",
+                "with two strange brown torches hang beside it to the south.  From a",
+                "distance, you make out a choice of directions to the north.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8015",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8010"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8017"
+                }
+            },
+            "extras": {}
+        },
+        "8062": {
+            "name": "Passage",
+            "description": [
+                "You are walking along a small dark passage leading west and east here.  A",
+                "huge door with two blue torches hang beside it to the west.  You make out a",
+                "choice of directions somewhat visible to the east.  ",
+                ""
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8062",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8061"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8063"
+                }
+            },
+            "extras": {}
+        },
+        "8000": {
+            "name": "",
+            "description": [],
+            "flags_raw": "0 4 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8000",
+            "exits": {},
+            "extras": {}
+        },
+        "8064": {
+            "name": "Passage",
+            "description": [
+                "A small dark passage leads west and east here.  An old door with two",
+                "strange blue torches hang beside it to the east.  From a distance, you make",
+                "out a choice of directions to the west.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8064",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8063"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8032"
+                }
+            },
+            "extras": {}
+        },
+        "8070": {
+            "name": "Room of the Eastern Diamond",
+            "description": [
+                "The rocky walls lead into here where exits are possible in all",
+                "directions.  Strange fireflies or sparkles of light slowly fly around you as",
+                "total silence is felt in here.  A somewhat warm breeze fills your body as",
+                "the ceiling looms into blackness way high above you where a faint glimpse of",
+                "the gray skies can be seen.  Several small fires blaze along the walls here",
+                "slowly burning the rocks like hot coals.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8070",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8073"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8068"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8069"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8071"
+                }
+            },
+            "extras": {}
+        },
+        "8019": {
+            "name": "Darkness!",
+            "description": [
+                "The struggle to make your way around here in pitch blackness has disabled",
+                "your safety in moving cautiously along this lonely passage.  The rattling of",
+                "chains and cries of wailing can be heard not too far eastward.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8019",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8018"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8020"
+                }
+            },
+            "extras": {}
+        },
+        "8066": {
+            "name": "Southern Cross Chamber",
+            "description": [
+                "Rocky walls layer the northern portion of the chamber while strange",
+                "glossy windows are seen on the western and southern walls.  The cracks",
+                "around these weak-layered bricks spill of water droplets dampening the",
+                "ground beneath your feet.  A door to the north gets you out of here.  ",
+                " ",
+                "Maybe you should look 'WEST' or 'SOUTH'"
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8066",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8065"
+                }
+            },
+            "extras": {
+                "west": {
+                    "description": [
+                        "The shadowy mists of the outside world can be seen in a dark blur.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "description": [
+                        "The distant figure of an unknown entity is standing in a room not far from here.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8014": {
+            "name": "Black Room",
+            "description": [
+                "It is deathly quiet and eerie in this dark room.  Shackled skeletons hang",
+                "along the northern and southern wall here.  Several rats hideously creep",
+                "along the floors as you find a cold feeling about you.  A small tunnel",
+                "carries out to the west as the only possible exit.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8014",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8013"
+                }
+            },
+            "extras": {}
+        },
+        "8049": {
+            "name": "Tunnel",
+            "description": [
+                "This small black tunnel leads to a glowing seen to the west.  The",
+                "darkness disables you from doing anything here.  An iron door is seen to the",
+                "east where a whistling breeze can be felt and heard.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8049",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8048"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8050"
+                }
+            },
+            "extras": {}
+        },
+        "8003": {
+            "name": "Inside A Strange Cavern",
+            "description": [
+                "Stalactites hang from above you as droplets of water began to drip on the",
+                "wet soil here.  Many crusted stones furnish along this cavern as you move",
+                "here and there trying to get further into this huge place.  Several small",
+                "insects and creatures scurry about.  A stop in the cavern can be seen far",
+                "ahead to the west.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8003",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8004"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8002"
+                }
+            },
+            "extras": {}
+        },
+        "8007": {
+            "name": "Northern Cross Chamber",
+            "description": [
+                "The glowing door from the north suddenly takes you into this dark and",
+                "mysterious chamber.  This creepy-looking place is filled with strange misty",
+                "insects swarming around you.  Eerie noises from adjacent rooms can be heard",
+                "as the stench in the air shakes you somewhat.  An aging door to the south",
+                "takes you out of here.  An old SIGN is here for you to read.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8007",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8083"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        "* THE TREMORS OF THE EARTH WILL AGAIN *",
+                        "* RISE TO CONSUME THOSE THAT DWELL IN *",
+                        "*       THE PATH OF THE ROCKS!        *",
+                        "* * * * * * * * * * * * * * * * * * * *",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8068": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading north and south here.  An iron door",
+                "with two strange reddish-orange torches hang beside it to the north.  A",
+                "choice of directions can be seen to the south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8068",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8067"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8070"
+                }
+            },
+            "extras": {}
+        },
+        "8038": {
+            "name": "Outside the Dungeon Doors",
+            "description": [
+                "A steady tremor can be felt below your feet as you arrive outside two",
+                "huge doors that go west and east here.  You gasp momentarily as you notice a",
+                "mutilated body hanging at the southern wall by his head with a nail stuck",
+                "right on his forehead!  A passage disappears to the north.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8038",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8036"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8037"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8039"
+                }
+            },
+            "extras": {}
+        },
+        "8060": {
+            "name": "Passage",
+            "description": [
+                "You walk along a small dark passage headed north and south here.  An iron",
+                "door with two strange blue torches hang beside it to the north.  A choice of",
+                "directions can be visible as you look to the south.  A huge tentacle",
+                "suddenly disappeared behind you!  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8060",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8059"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8063"
+                }
+            },
+            "extras": {}
+        },
+        "8042": {
+            "name": "Lonely Passage",
+            "description": [
+                "The tunnel here moves into the darkness to the west where strange",
+                "screaming noises can be heard.  An iron door is here to the east where",
+                "strange fiery visuals can be seen.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8042",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8041"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8022"
+                }
+            },
+            "extras": {}
+        },
+        "8025": {
+            "name": "Darkness!",
+            "description": [
+                "It is totally dark and you cannot make your way around.  You stretch your",
+                "arms out in hopes of finding some way out of here but find impossible to",
+                "move west or north.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8025",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8026"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8024"
+                }
+            },
+            "extras": {}
+        },
+        "8011": {
+            "name": "Passage",
+            "description": [
+                "This is a small dark passage leading west and east.  An iron door with",
+                "two strange brown torches hang beside it to the east.  From a distance, you",
+                "make out a choice of directions to the west.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8011",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8010"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8012"
+                }
+            },
+            "extras": {}
+        },
+        "8048": {
+            "name": "Gray Room",
+            "description": [
+                "The sudden grayness of the room fills your eyes with confusion or are",
+                "they deceiving you.  Not much can be seen but rotting walls and several",
+                "cobwebs hanging from the corners.  A low droning sound is heard as you",
+                "wonder what it could be.  A passage out of here is seen to the east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8048",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8049"
+                }
+            },
+            "extras": {}
+        },
+        "8023": {
+            "name": "Darkness!",
+            "description": [
+                "Darkness covers the room completely as you are walking about lost amongst",
+                "the blackness.  Noises can be heard to the south while a door of some kind",
+                "is felt to the north.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8023",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8022"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8024"
+                }
+            },
+            "extras": {}
+        },
+        "8046": {
+            "name": "Lonely Passage",
+            "description": [
+                "This is a short path that ends not too far to the north.  An iron door is",
+                "to the south of you.  Several rats gather together gnawing on a piece of",
+                "wood here.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8046",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8044"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8027"
+                }
+            },
+            "extras": {}
+        },
+        "8024": {
+            "name": "Scattered Skeleton Bones",
+            "description": [
+                "Many rotting skeleton bones lie around as you scan around this passage",
+                "that heads west and north into the darkness.  On the southern and eastern",
+                "walls are shiny-chromed shackles for those who committed the worst of crimes",
+                "in the lands of Waterdeep.  A flaming torch stands high atop the eastern",
+                "wall to illuminate the room with some light.  You almost trip over a skull",
+                "as you notice distant screams from around the rocky walls here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8024",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8023"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8025"
+                }
+            },
+            "extras": {}
+        },
+        "8001": {
+            "name": "Approaching a rocky plain",
+            "description": [
+                "You are now headed towards the mouth of a cave where high across both",
+                "directions to your left and right are hills that climb almost 40-50 feet",
+                "above you.  Voices carry inside the cave where echoes of sounds can be",
+                "heard.  An open plain is visible to the east.  "
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8001",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8002"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6157"
+                }
+            },
+            "extras": {}
+        },
+        "8055": {
+            "name": "Passage",
+            "description": [
+                "This is a dark small passage leading north and south here.  An iron door",
+                "with two clear torches hang beside it to the south.  A flowing breeze can be",
+                "felt to the north where a choice of directions lies.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8055",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8052"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8056"
+                }
+            },
+            "extras": {}
+        },
+        "8043": {
+            "name": "Dungeon of Earth",
+            "description": [
+                "A sudden rush of wind and earth flies at your face as the ground is",
+                "furnished with fresh dirt.  The ceiling above you rushes with dust flying",
+                "about your face making it hard to manage in here.  A door exits to the east."
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8043",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8044"
+                }
+            },
+            "extras": {}
+        },
+        "8073": {
+            "name": "Passage",
+            "description": [
+                "This is a small passage that leads north and south here.  An iron door",
+                "with two strange reddish-orange torches hang beside it to the south.  From a",
+                "distance, a choice of directions is visible to the north.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8073",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8070"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8074"
+                }
+            },
+            "extras": {}
+        },
+        "8067": {
+            "name": "Northern Cross Chamber",
+            "description": [
+                "A huge circular window stands high atop the northern wall where dark",
+                "skies are looming.  Strange clanking noises are heard behind the walls",
+                "around you.  The ground is somewhat hot as drips of fire leak from the",
+                "darkness above making you wonder how something like that could happen.  The",
+                "exit out of here lies to the south.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8067",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8068"
+                }
+            },
+            "extras": {}
+        },
+        "8069": {
+            "name": "Passage",
+            "description": [
+                "You are on a small dark passage leading west and east here.  An iron door",
+                "with two reddish-orange torches hang beside it to the west.  A choice of",
+                "directions can be seen to the east.  Several flames burn around you but none",
+                "to threaten or disable movement through here.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8069",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8022"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8070"
+                }
+            },
+            "extras": {}
+        },
+        "8013": {
+            "name": "Tunnel",
+            "description": [
+                "You've come upon a short dark tunnel with not much to be seen but total",
+                "blackness.  Several slops of slimey substances cover the old door to the",
+                "west.  The darkness moves itself eastward where a faint glow can be seen.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8013",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8012"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8014"
+                }
+            },
+            "extras": {}
+        },
+        "8059": {
+            "name": "Northern Cross Chamber",
+            "description": [
+                "The interesting display of decapitated heads hang around the walls of the",
+                "chamber.  The heads of the human, orc, gnoll, ogre, dwarf, hobgoblin, elf,",
+                "bugbear and bullybug hang on wall-sealed boards as an exhibit to those who",
+                "enter.  A table is seated at the western wall where several candles stand",
+                "beside each end.  A portrait of a human in full- clad uniform is laid in the",
+                "center.  A bloody axe is sliced on the table to prevent anybody from taking",
+                "it.  A huge cloth of some sort hangs on the northern wall or door of some",
+                "sort that exits out in that direction.  An exit to the south takes you out",
+                "of here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8059",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8058"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8060"
+                }
+            },
+            "extras": {}
+        },
+        "8033": {
+            "name": "Darkness!",
+            "description": [
+                "Darkness overwhelms about as you find yourself lost in complete",
+                "blackness.  Noises can be heard to the north while a door of some kind can",
+                "be felt to the south.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8033",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8034"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8032"
+                }
+            },
+            "extras": {}
+        },
+        "8080": {
+            "name": "Darkness!",
+            "description": [
+                "You can't see anything!  A dim light can be seen to the west while a huge",
+                "door can be felt to the east.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8080",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8079"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8081"
+                }
+            },
+            "extras": {}
+        },
+        "8072": {
+            "name": "Eastern Cross Chamber",
+            "description": [
+                "The entire eastern wall is layered with mountainous rocks as the chamber",
+                "ends here.  Strange blurred portraits are hung on the northern and southern",
+                "walls each too unfocused to see.  A strange sign is seen on the bottom of",
+                "one portrait.  The exit heads off to the west.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8072",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8071"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "* * * * * * * * * * * * * * * * * * * * *",
+                        "* THE MYSTERIES OF LIFE'S PORTRAITS ARE *",
+                        "* NOT WHAT WE THINK IT IS.. TAKE A LOOK *",
+                        "* AND SEE THAT YOUR OWN EYES MIGHT EVEN *",
+                        "* DECEIVE YOU.. SO WHO DO YOU TRUST NOW *",
+                        "* * * * * * * * * * * * * * * * * * * * *",
+                        ""
+                    ]
+                }
+            }
+        },
+        "8082": {
+            "name": "Blackness",
+            "description": [
+                "You can't see anything!!  The floor underneath you suddenly disappears as",
+                "an open shaft of sort leads down here.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8082",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8079"
+                }
+            },
+            "extras": {}
+        },
+        "8010": {
+            "name": "Room of the Northern Diamond",
+            "description": [
+                "The magma-made stones separate itself in patterns to allow passage in all",
+                "four directions.  Several bats scurry above you here and there with no",
+                "notice.  It is deathly quiet all around you as cautiously you scan for any",
+                "signs of trouble.  "
+            ],
+            "flags_raw": "0 67108873 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8010",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8015"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8083"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8009"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8011"
+                }
+            },
+            "extras": {}
+        },
+        "8012": {
+            "name": "Eastern Cross Chamber",
+            "description": [
+                "You shudder in horror as blotches of blood splatter about in here. ",
+                "Several decapitated heads lie around here almost making you vomit in fear. ",
+                "Broken weapons and pieces of armor lies battered and torn.  An iron door to",
+                "the west allows you to leave here.  Several green blobs of slime smother an",
+                "old aging barricaded door to the east preventing you to exit that way.  "
+            ],
+            "flags_raw": "0 67108873 0 15",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8012",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8011"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8013"
+                }
+            },
+            "extras": {}
+        },
+        "8076": {
+            "name": "Silver Room",
+            "description": [
+                "This completely silver-coated room somewhat trembles with a low bass-like",
+                "zingy sound.  Strange swirling noises like a wind breeze fill your ears as a",
+                "dizziness starts to uprise in your head.  A path headed into darkness is",
+                "seen to the north.  "
+            ],
+            "flags_raw": "0 67108864 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8076",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8075"
+                }
+            },
+            "extras": {}
+        },
+        "8063": {
+            "name": "Room of the Western Diamond",
+            "description": [
+                "Sounds of rushing waters are heard in the passages that lead off in all",
+                "four directions.  Several droplets of water leak from the ceiling high above",
+                "you as it reaches into the darkness above.  The echoes of what seems to be",
+                "the sound of the ocean can be heard in all four passages..  Either that or",
+                "you could be hearing things.  "
+            ],
+            "flags_raw": "0 9 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "8063",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8065"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8060"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8062"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8064"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "4diamond",
+    "area_quest_points": 0,
+    "credits": "[30 FR HR] 4 Diamond Dungeon",
+    "faction_id": "",
+    "vnums": [
+        8000,
+        8099
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "8000": {
+            "name": "A Killer Mimic~\n",
+            "description": [
+                "This large mimic stands about 6' and is mysterious in its attack!  First\n",
+                "they are content.  Then they appear out of nowhere!  \n"
+            ],
+            "raw_flags5": "stand stand none 583",
+            "raw_flags6": "ABGZ ACDEFHJKQVX large sticky",
+            "raw_flags4": "CFH KL L S",
+            "raw_flags3": "-7 -7 -7 6",
+            "vnum": 8000,
+            "raw_flags": "ABF DFT H -344 0",
+            "race_id": "wyvern",
+            "raw_flags2": "50 50 5d10+550 50d10+100 2d10+5 blast",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8000 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A huge treasure chest is here glowing radiantly!\n",
+            "keywords": "killer mimic chest~\n"
+        },
+        "8001": {
+            "name": "A Psionic Flayer~\n",
+            "description": [
+                "It has a beak-like mouth and possesses powers to psychometabolize itself\n",
+                "to enhance power.  \n"
+            ],
+            "raw_flags5": "stand stand none 2584",
+            "raw_flags6": "ABc ABEKNQV medium unknown",
+            "raw_flags4": "0 A 0 S",
+            "raw_flags3": "-1 -1 -1 5",
+            "vnum": 8001,
+            "raw_flags": "ABF CDEJ H -355 0",
+            "race_id": "human",
+            "raw_form": "HMV",
+            "raw_flags2": "30 30 2d10+180 30d10+100 1d10+3 suction",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for HMV\n",
+                "F par CDFGHIJ\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Psionic Flayer waves its tentacles for your brain!\n",
+            "raw_parts": "CDFGHIJ",
+            "keywords": "psionic flayer~\n"
+        },
+        "8002": {
+            "name": "A Mystic Mindflayer~\n",
+            "description": [
+                "It stands about 6 feet tall with the head like an octopus with white eyes\n",
+                "and four tentacles around its mouth.  It also has teeth like that of a\n",
+                "lamprey to suck the blood out of its foes.  \n"
+            ],
+            "raw_flags5": "stand stand none 3804",
+            "raw_flags6": "ACMc ADEFIKNQ medium unknown",
+            "raw_flags4": "0 A 0 S",
+            "raw_flags3": "-1 -1 -1 5",
+            "vnum": 8002,
+            "raw_flags": "ABF DEGJV H -400 0",
+            "race_id": "human",
+            "raw_form": "HV",
+            "raw_flags2": "30 30 2d10+180 30d10+100 1d10+3 suction",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for HV\n",
+                "F par BCGHJ\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A mindflayer swings its tentacles at you to provoke attack!\n",
+            "raw_parts": "BCGHJ",
+            "keywords": "mystic mindflayer~\n"
+        },
+        "8003": {
+            "name": "An Ugly Illithid~\n",
+            "description": [
+                "This ugly 6 and a half foot slimey skinned monster forms many tentacles\n",
+                "about him and delivers damage to any who stand in his way.  \n"
+            ],
+            "raw_flags5": "stand stand none 3088",
+            "raw_flags6": "AHMc ABEGIN medium unknown",
+            "raw_flags4": "0 A 0 0",
+            "raw_flags3": "-1 -1 -1 5",
+            "vnum": 8003,
+            "raw_flags": "ABF DEGJPUV H -444 0",
+            "race_id": "human",
+            "raw_form": "V",
+            "raw_flags2": "30 30 2d10+180 30d10+100 1d10+3 suction",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for V\n",
+                "F par CDFHJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A devious-looking illithid scurries about the room in rage!\n",
+            "raw_parts": "CDFHJK",
+            "keywords": "ugly illithid~\n"
+        },
+        "8004": {
+            "name": "The Black Portal Guardian~\n",
+            "description": [
+                "This shadowy figure stands at about 6'3\" and is cloaked in black to hide\n",
+                "himself from the darkness.  His motionless stand arouses you curiousity as\n",
+                "you wonder if you should try to fight him.  \n"
+            ],
+            "raw_flags5": "stand stand none 9572",
+            "raw_flags6": "ACM ABCDEFGHIJKU medium unknown",
+            "raw_flags4": "CFIKN A 0 0",
+            "raw_flags3": "-15 -15 -14 -2",
+            "vnum": 8004,
+            "raw_flags": "AB DFGJTVZ BCHOR -1000 0",
+            "race_id": "human",
+            "raw_form": "HV",
+            "raw_flags2": "95 75 25d10+3400 95d10+100 6d5+5 wrath",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for HV\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A shadowy figure stands here motionless guarding the premises.\n",
+            "keywords": "shadow figure black guardian~\n"
+        },
+        "8005": {
+            "name": "A Galeb Duhr~\n",
+            "description": [
+                "This huge golem-like creature stands at about 9 feet all and lives among\n",
+                "the elements of the earth.  Their solitary life away from chaos and battle\n",
+                "shows their neutral side of behavior.  Their hard-rock skin allows itself to\n",
+                "be well protected from foes with puny weapons.  \n"
+            ],
+            "raw_flags5": "stand stand male 3055",
+            "raw_flags6": "AGHMV ABCDEFGHIJKUV medium unknown",
+            "raw_flags4": "DFIKM A EHI JPR",
+            "raw_flags3": "-1 -1 -1 5",
+            "vnum": 8005,
+            "raw_flags": "AB GJPVZa H -533 0",
+            "race_id": "giant",
+            "raw_flags2": "30 30 2d10+180 30d10+100 1d10+3 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge golem-like giant stands here eating huge chunks of rocks.\n",
+            "keywords": "golem giant galeb duhr~\n"
+        },
+        "8006": {
+            "name": "A Winged Daemon~\n",
+            "description": [
+                "This huge winged daemon emits huge wings bigger than curtains as a means\n",
+                "of flying from place to place.  It's fangs and hideous appearance glows with\n",
+                "a fiery aura leaving you breathless in fear.  \n"
+            ],
+            "raw_flags5": "stand stand none 5044",
+            "raw_flags6": "AGV ACDEFHJKP medium unknown",
+            "raw_flags4": "FH A 0 S",
+            "raw_flags3": "-7 -7 -7 6",
+            "vnum": 8006,
+            "raw_flags": "ABF TZ DH -755 0",
+            "race_id": "bat",
+            "raw_flags2": "50 50 5d10+550 50d10+100 2d10+5 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8001 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A huge daemon is shackled here trying to free himself by flying!\n",
+            "keywords": "winged daemon~\n"
+        },
+        "8007": {
+            "name": "A Crazed Skeleton~\n",
+            "description": [
+                "This skeleton is nothing but bones but strangely possesses a wide bone\n",
+                "structure thick enough to provide its own body armor from foes.  \n"
+            ],
+            "raw_flags5": "stand stand none 5123",
+            "raw_flags6": "AHMV ABCGHI medium unknown",
+            "raw_flags4": "0 0 0 0",
+            "raw_flags3": "-7 -7 -7 6",
+            "vnum": 8007,
+            "raw_flags": "ABF 0 HR -644 0",
+            "race_id": "human",
+            "raw_flags2": "50 50 5d10+550 50d10+100 2d10+5 beating",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F par DEFJK\n",
+                "M GRALL 8002 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A skeleton hangs here in shackles held from freedom.\n",
+            "raw_parts": "DEFJK",
+            "keywords": "skeleton~\n"
+        },
+        "8008": {
+            "name": "A Screaming Goblin~\n",
+            "description": [
+                "This goblin stands about 5'3\" and is stout in stature.  His smelly green\n",
+                "skin and his tusks shows his true ugliness.  He grunts and roars in anger\n",
+                "from the position he's in right now.  \n"
+            ],
+            "raw_flags5": "stand stand none 5022",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "CFIJK L FKP NSXY",
+            "raw_flags3": "-7 -7 -7 6",
+            "vnum": 8008,
+            "raw_flags": "ABF JP H -582 0",
+            "race_id": "goblin",
+            "raw_flags2": "50 50 5d10+550 50d10+100 2d10+5 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8003 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A smelly goblin struggles to break free from his shackles here.\n",
+            "keywords": "goblin~\n"
+        },
+        "8009": {
+            "name": "The One-Eyed Cyclops~\n",
+            "description": [
+                "This creature stands about 11 feet tall and is somewhat clumsy.  His one\n",
+                "eye allows opponents to confuse and sneak attack him easily.  His height\n",
+                "however can deliver punishing attacks to its opponents despite his low\n",
+                "intelligence.  His rugged yellow skin and hairy self shows the raw visage of\n",
+                "his giant character.  \n"
+            ],
+            "raw_flags5": "stand stand male 5098",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "CJKO 0 EHI JPR",
+            "raw_flags3": "-7 -7 -7 6",
+            "vnum": 8009,
+            "raw_flags": "ABF a H -333 0",
+            "race_id": "giant",
+            "raw_flags2": "50 50 5d10+500 50d10+100 2d10+5 crush",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8004 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A huge one-eyed giant looks down upon you and screams!\n",
+            "keywords": "one eyed cyclops giant~\n"
+        },
+        "8010": {
+            "name": "A Huge Grimlock~\n",
+            "description": [
+                "This huge muscular humanoid is originally from the mountainous caves of\n",
+                "the earth.  Their style of attack is onslaught and brutal.  Their fierce\n",
+                "appearance and hatred to humans allows them to fight with no skills or\n",
+                "tactics but outright rugged.  \n"
+            ],
+            "raw_flags5": "stand stand none 3522",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "CDEFHI ST 0 0",
+            "raw_flags3": "-3 -3 -3 7",
+            "vnum": 8010,
+            "raw_flags": "ABF CDEFJZa H -699 0",
+            "race_id": "human",
+            "raw_flags2": "35 35 3d9+270 35d10+100 2d6+4 charge",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A well-built grimlock roars in rage & approaches for you!\n",
+            "keywords": "grimlock~\n"
+        },
+        "8011": {
+            "name": "The Necrophidius~\n",
+            "description": [
+                "This long slithery thing has the bleached-white skeleton of a giant snake\n",
+                "with a fanged human skull and milky white snaky eyes!  Its ability to move\n",
+                "quietly around without a trace can be used as a reinforcement in attacking\n",
+                "its prey.  \n"
+            ],
+            "raw_flags5": "stand stand none 3555",
+            "raw_flags6": "AGXYc ADEFKLQVX medium unknown",
+            "raw_flags4": "0 0 L I",
+            "raw_flags3": "-3 -3 -3 7",
+            "vnum": 8011,
+            "raw_flags": "ABF JPVZ H -855 0",
+            "race_id": "snake",
+            "raw_flags2": "35 35 3d9+270 35d10+100 2d6+4 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The Death Worm slithers around and suddenly lunges at your throat!\n",
+            "keywords": "necrophidius death worm~\n"
+        },
+        "8012": {
+            "name": "A Short Animated Gibberling~\n",
+            "description": [
+                "This little naked humanoid is a wild fighter.  Its ability to perform\n",
+                "wildly in battles makes it an unintelligent little thing.  They dwell within\n",
+                "the underground and speak gibberishly amongst others but are considered\n",
+                "dangerous even though they usually travel in great numbers.  \n"
+            ],
+            "raw_flags5": "stand stand none 3566",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 L FKP NSX",
+            "raw_flags3": "-3 -3 -3 7",
+            "vnum": 8012,
+            "raw_flags": "ABF JPV DH -895 0",
+            "race_id": "goblin",
+            "raw_flags2": "35 35 3d9+270 35d10+100 2d6+4 slash",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A wild gibberling squats here eyeing you maliciously!\n",
+            "keywords": "gibberling~\n"
+        },
+        "8014": {
+            "name": "A Ferocious Hellhound~\n",
+            "description": [
+                "This large hound glows with wild red-brown fur with fiery red eyes.  The\n",
+                "markings, teeth and soot are pitch black.  It stands about 2-3 feet in\n",
+                "shoulder and has a distinct odor of sulfur and smoke.  The howls that it\n",
+                "makes sends shiver down your spine almost breaking it!  \n"
+            ],
+            "raw_flags5": "stand stand none 3555",
+            "raw_flags6": "AGV ACDEFHJKUV medium unknown",
+            "raw_flags4": "FHM H 0 I",
+            "raw_flags3": "-3 -3 -3 7",
+            "vnum": 8014,
+            "raw_flags": "ABF DEJPVa DH -1000 0",
+            "race_id": "dog",
+            "raw_flags2": "35 35 3d9+270 35d10+100 2d6+4 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge hellhound snarls fire from its nostrils as you enter!\n",
+            "keywords": "hellhound~\n"
+        },
+        "8015": {
+            "name": "A Hunchbacked Feyr~\n",
+            "description": [
+                "This humped creature features a grim and inhuman appearance, and is\n",
+                "created from the inhuman minds of people.  The creature uses two tentacles\n",
+                "as legs to move about and other tentacles as limbs.  Its underside features\n",
+                "massive sharp horizontal jaws with 2 pairs of eyes.  The hide of this\n",
+                "monster is of many different rainbow colors and feels like the surface of a\n",
+                "human brain..  Indeed a disgusting-looking thing.  \n"
+            ],
+            "raw_flags5": "stand stand none 9045",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "CDFIN I 0 S",
+            "raw_flags3": "-15 -15 -15 4",
+            "vnum": 8015,
+            "raw_flags": "ABF CDGJV BCDEHO -833 0",
+            "race_id": "human",
+            "raw_flags2": "90 90 25d10+2800 90d10+100 8d2+5 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A strange-looking feyr twitches for a moment.. then attacks!\n",
+            "keywords": "feyr~\n"
+        },
+        "8016": {
+            "name": "The Aquatic Vodyanoi~\n",
+            "description": [
+                "This aquatic predator is closely related to the umber hulk and lives in\n",
+                "bodies of water.  Though they have only two eyes, they are physically strong\n",
+                "and can even rend the hulls of strong ships and vessels.  Though slimy in\n",
+                "the touch, the creature has a thick, knobby hide underneath all the ooze. \n",
+                "It stands about 8 feet tall and 5 feet wide with powerful arms and legs and\n",
+                "a mandible of ferocious teeth that can claw into anything it pleases.  \n"
+            ],
+            "raw_flags5": "stand stand none 4563",
+            "raw_flags6": "AHV ABCUVX medium unknown",
+            "raw_flags4": "FHMO AIR 0 HS",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 8016,
+            "raw_flags": "ABF JVb CH -438 0",
+            "race_id": "human",
+            "raw_form": "M",
+            "raw_flags2": "45 45 5d10+425 45d10+100 3d5+5 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for M\n",
+                "F par DEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A slimy green monster is here stuck to the wall ready to attack!\n",
+            "raw_parts": "DEFGHIJK",
+            "keywords": "aquatic vodynaoi monster green~\n"
+        },
+        "8017": {
+            "name": "The Umber Hulk~\n",
+            "description": [
+                "This thing is a powerful subterranean predator with ironlike claws that\n",
+                "can tear into solid stone.  This 8 feet tall 5 foot wide monster bulges\n",
+                "muscles underneath his thick scaly hide and arms and legs so powerful to\n",
+                "move place to place swiftly.  The jaws are razor sharp and with four round\n",
+                "eyes..  It illustrates into a very unique looking monster.  \n"
+            ],
+            "raw_flags5": "stand stand male 4582",
+            "raw_flags6": "AGH ABCDEFHNUV medium unknown",
+            "raw_flags4": "FHIKO A 0 S",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 8017,
+            "raw_flags": "ABF LPVZa HO -888 0",
+            "race_id": "human",
+            "raw_form": "MV",
+            "raw_flags2": "45 45 5d10+425 45d10+100 3d5+5 bite",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for MV\n",
+                "F par GIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A massive umber hulk slowly creeps in your direction!\n",
+            "raw_parts": "GIJK",
+            "keywords": "umber hulk~\n"
+        },
+        "8018": {
+            "name": "The Wemic~\n",
+            "description": [
+                "The body of a leonine, the torso of a human, the neck of a lion and the\n",
+                "height of 10 feet..  The wemic is clad in dusky golden fur with a mane that\n",
+                "covers the back of his neck down to its shoulders.  The nose is russet while\n",
+                "the eyes are gold with vertically slit pupils.  They are the masters of\n",
+                "hunting and ambushes with very keen senses.  \n"
+            ],
+            "raw_flags5": "stand stand male 4533",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "FIKMR AQ NS M",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 8018,
+            "raw_flags": "ABF CGPVc H -555 0",
+            "race_id": "centaur",
+            "raw_flags2": "45 45 5d10+425 40d10+100 3d5+5 charge",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An excited wemic gallops about here fixing his eyes on you!\n",
+            "keywords": "wemic~\n"
+        },
+        "8019": {
+            "name": "An Unsightly Mongrelman~\n",
+            "description": [
+                "Existent from the blood of humans, orcs, gnolls, ogres, dwarves,\n",
+                "hobgoblins, elves, and bugbears, mongrelman are extremely unsightful.  They\n",
+                "conceal themselves to be unseen from anybody and go about life doing their\n",
+                "own thing.  Their skills in combat however are not to be taken lightly.  \n"
+            ],
+            "raw_flags5": "stand stand male 4555",
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium unknown",
+            "raw_flags4": "D A 0 HS",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 8019,
+            "raw_flags": "AB FJc H -842 0",
+            "race_id": "troll",
+            "raw_resistances": "BE",
+            "raw_flags2": "45 45 5d10+425 40d10+100 3d5+5 punch",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F res BE\n",
+                "F vul K\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "An ugly mongrelman looks away from you in shame.\n",
+            "raw_vulns": "K",
+            "keywords": "mongrelman~\n"
+        },
+        "8020": {
+            "name": "The Water Elemental Giant~\n",
+            "description": [
+                "This gigantic thing stands about 8 feet tall and uses the forces of water elements to help him survive.\n"
+            ],
+            "raw_flags5": "stand stand none 6024",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 IR EHI HJR",
+            "raw_flags3": "-9 -9 -9 1",
+            "vnum": 8020,
+            "raw_flags": "ABF 0 CH -842 0",
+            "race_id": "giant",
+            "raw_flags2": "60 60 6d12+720 60d10+100 5d3+5 chill",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8005 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "An enormous water giant stands high above you!\n",
+            "keywords": "water elemental giant~\n"
+        },
+        "8021": {
+            "name": "The Fire Elemental Giant~\n",
+            "description": [
+                "This huge gigantic fireball stands about 9-11 feet and is blazing hot\n",
+                "scorching immensely to make you sweat.  \n"
+            ],
+            "raw_flags5": "stand stand none 6044",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 HS EHI IJR",
+            "raw_flags3": "-9 -9 -9 1",
+            "vnum": 8021,
+            "raw_flags": "ABF 0 DH -777 0",
+            "race_id": "giant",
+            "raw_flags2": "60 60 6d12+720 60d10+100 5d3+5 flbite",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8006 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A huge fire elemental stands here glowing hot!\n",
+            "keywords": "fire elemental giant~\n"
+        },
+        "8022": {
+            "name": "The Air Elemental Giant~\n",
+            "description": [
+                "This huge giant stands 10 feet tall and uses his powers of nature to attack all who oppose the force of air.\n"
+            ],
+            "raw_flags5": "stand stand none 6055",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 OT EHIYZ JRX",
+            "raw_flags3": "-9 -9 -9 1",
+            "vnum": 8022,
+            "raw_flags": "ABF 0 H -424 0",
+            "race_id": "giant",
+            "raw_flags2": "60 60 6d12+720 60d10+100 5d3+5 suction",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A giant stands here blowing air at you furiously!\n",
+            "keywords": "air elemental giant~\n"
+        },
+        "8023": {
+            "name": "The Earth Elemental Giant~\n",
+            "description": [
+                "This huge giant stands here 10 feet tall and uses the forces of earth as his\n",
+                "reinforcement in handling his enemies.\n"
+            ],
+            "raw_flags5": "stand stand none 6055",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 QX EHIYZ BCJR",
+            "raw_flags3": "-9 -9 -9 1",
+            "vnum": 8023,
+            "raw_flags": "ABF 0 HR -633 0",
+            "race_id": "giant",
+            "raw_flags2": "60 60 6d12+720 60d10+100 5d3+5 thwack",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A humongous giant stands here flourishing soil at you!\n",
+            "keywords": "earth elemental giant~\n"
+        },
+        "8024": {
+            "name": "A Huge Roper~\n",
+            "description": [
+                "This creature's hide is yellow and tough with a malleable body.  They\n",
+                "stand at 9 feet and 3 feet in diameter in base with one single eye with a\n",
+                "maw ringed with sharp teeth.  The roper resembles a rocky outcropping.  \n"
+            ],
+            "raw_flags5": "stand stand none 4077",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "DFK J EHI JPR",
+            "raw_flags3": "-4 -4 -4 7",
+            "vnum": 8024,
+            "raw_flags": "ABF V HO -444 0",
+            "race_id": "giant",
+            "raw_flags2": "40 40 3d9+320 40d10+100 2d8+3 thwack",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge boulder is lying here blocking your exit.\n",
+            "keywords": "boulder roper~\n"
+        },
+        "8026": {
+            "name": "A Storoper~\n",
+            "description": [
+                "It features the same characteristics and features of a roper but is made of stone.\n"
+            ],
+            "raw_flags5": "stand stand none 4077",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "FK J EHI JR",
+            "raw_flags3": "-3 -3 -3 7",
+            "vnum": 8026,
+            "raw_flags": "ABF V HO -756 0",
+            "race_id": "giant",
+            "raw_flags2": "40 40 3d9+310 40d10+100 2d8+5 suction",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge stone-roper extends its rocky tentacles viciously!\n",
+            "keywords": "stone roper storoper~\n"
+        },
+        "8028": {
+            "name": "A Baby Bugbear~\n",
+            "description": [
+                "This little feisty bugbear is a stocky but vicious little half-bug half-bear\n",
+                "that is known to cause havoc on any that stands in its way.\n"
+            ],
+            "raw_flags5": "stand stand none 4033",
+            "raw_flags6": "AGV ABCDEFHJKUV medium unknown",
+            "raw_flags4": "DEO 0 DEI C",
+            "raw_flags3": "-4 -4 -4 7",
+            "vnum": 8028,
+            "raw_flags": "ABF 0 HR 0 0",
+            "race_id": "bear",
+            "raw_flags2": "40 40 3d10+320 4d10+100 2d8+5 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A stocky little bugbear is here in a crouched position.\n",
+            "keywords": "baby bugbear~\n"
+        },
+        "8029": {
+            "name": "A Baby Drider~\n",
+            "description": [
+                "This half-drow half-spider creature is not to be underestimated and can\n",
+                "cause a huge amount of damage to any that stand in their way.  \n"
+            ],
+            "raw_flags5": "stand stand none 4025",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 C BO NS",
+            "raw_flags3": "-4 -4 -4 7",
+            "vnum": 8029,
+            "raw_flags": "ABF JLZ BH -488 0",
+            "race_id": "drow",
+            "raw_flags2": "40 40 3d10+320 40d10+100 2d8+3 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small drider weaves a huge web as you enter!\n",
+            "keywords": "baby drider~\n"
+        },
+        "8030": {
+            "name": "The Displacer Beast~\n",
+            "description": [
+                "This feline resembles of a black panther with two tentacles extending\n",
+                "from its shoulders.  It is a highly dangerous creature and takes nothing\n",
+                "from anyone!  \n"
+            ],
+            "raw_flags5": "stand stand female 11032",
+            "raw_flags6": "AGV ACDEFHJKQUV medium unknown",
+            "raw_flags4": "FH 0 0 0",
+            "raw_flags3": "-42 -42 -42 -42",
+            "vnum": 8030,
+            "raw_flags": "ACF Z DHPR -1000 0",
+            "race_id": "cat",
+            "raw_flags2": "110 110 50d10+9000 110d10+100 8d5+30 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8009 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A black puma walks back & forth here waiting for its next meal.\n",
+            "keywords": "black puma displacer beast~\n"
+        },
+        "8031": {
+            "name": "The Crypt Thing~\n",
+            "description": [
+                "This undead species is unknown and cannot be described.  Not much has\n",
+                "been mentioned of this fascinating thing.  \n"
+            ],
+            "raw_flags5": "stand stand none 10434",
+            "raw_flags6": "I 0 medium unknown",
+            "raw_flags4": "FIKNO B D N",
+            "raw_flags3": "-20 -20 -20 3",
+            "vnum": 8031,
+            "raw_flags": "ABF PVa HR -444 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "100 100 50d10+4000 100d10+100 5d6+5 bite",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M GRALL 8007 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "An undead entity suddenly appears from nowhere!\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "undead entity crypt thing~\n"
+        },
+        "8032": {
+            "name": "Deepspawn~\n",
+            "description": [
+                "A grey and brown blob with six arms: 3 tentacles, 3 jaw arms, sharp\n",
+                "teeth.  Huge and powerful thru attacking foes.  \n"
+            ],
+            "raw_flags5": "stand stand none 11044",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 IR 0 HS",
+            "raw_flags3": "-30 -30 -30 0",
+            "vnum": 8032,
+            "raw_flags": "ABF 0 CHR -1000 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "110 110 50d10+9000 110d10+100 8d5+30 bite",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M GRALL 8008 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "An ugly sphere-shaped creature with six arms is here!\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "creature deepspawn~\n"
+        },
+        "8033": {
+            "name": "The Mighty Tar-rasque~\n",
+            "description": [
+                "It is the ultimate killing machine!  None can defeat it!!\n"
+            ],
+            "raw_flags5": "stand stand none 13000",
+            "raw_flags6": "AHMV ABCDEFGHIJKLN medium unknown",
+            "raw_flags4": "ABCDEFGHIJKLMNOP BCHIJPQR CDK CDEFGS",
+            "raw_flags3": "-100 -100 -100 -95",
+            "vnum": 8033,
+            "raw_flags": "ABF CDEFGJLPQTVZa CDEHNOR -1000 0",
+            "race_id": "Thri'kreen",
+            "raw_flags2": "130 155 130d10+25840 130d10+1000 130d10+200 divine",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 8010 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Something is moving about here leaving you in wonder..\n",
+            "keywords": "monster tar-rasque tar something~\n"
+        }
+    },
+    "realm_id": 4
+}

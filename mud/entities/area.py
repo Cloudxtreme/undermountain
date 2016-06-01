@@ -31,6 +31,19 @@ class Area(GameEntity):
                 room["area_id"] = uid
             return area
 
+    @classmethod
+    def query_available_uids(cls, game):
+        import glob
+        env = game.get_environment()
+        path = "{}/{}/*.json".format(
+            env.folder,
+            cls.COLLECTION_NAME
+        )
+        for full_path in glob.iglob(path):
+            parts = full_path.split("/")
+            filename = parts[-1]
+            yield filename.split(".json")[0]
+
     def add_children(self):
         from mud.entities.room import Room
         for room_vnum, room in self.data["rooms"].items():

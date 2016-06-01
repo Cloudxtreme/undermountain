@@ -1,0 +1,2135 @@
+{
+    "name": "Haven's Keep",
+    "id": "havnkeep",
+    "subroutines": [],
+    "rooms": {
+        "37947": {
+            "name": "The Top Floor",
+            "description": [
+                "Completely devoid of all natural light, the top level is lit",
+                "only by the lanterns which hang along the walls casting eerie",
+                "shadows along the floor.  Many citizens of the Keep tell that",
+                "it is on this level of the Fort that the secrets of the Keep",
+                "are housed.  While not entirely closed to access, one can see",
+                "that this level is made to look unwelcoming on purpose."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37947",
+            "exits": {
+                "north": {
+                    "flags_raw": "37923",
+                    "description": [
+                        "An office.",
+                        ""
+                    ],
+                    "room_id": "37948"
+                },
+                "south": {
+                    "flags_raw": "37923",
+                    "description": [
+                        "An office.",
+                        ""
+                    ],
+                    "room_id": "37949"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Down the staircase to the main floor.",
+                        ""
+                    ],
+                    "room_id": "37924"
+                }
+            },
+            "extras": {
+                "lanterns": {
+                    "description": [
+                        "Made of brass, these small sources of light",
+                        "beam like pixies, but are not quite enough",
+                        "to overcome the darkness of the room.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37911": {
+            "name": "{8A Dark Cove{x",
+            "description": [
+                "Water slaps along the rocky shore of the cove gently, as if guided",
+                "by a sentient sea.  Tide pools ripple ever so slightly as the smallest",
+                "of breezes flows through the semi cavern encircling the protected cove.",
+                "From the west comes the strong smell of the ocean.  From the east, an",
+                "alluring scent of wood smoke drifts down from the mainland above."
+            ],
+            "flags_raw": "0 1 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37911",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Upwards towards the mainland.",
+                        ""
+                    ],
+                    "room_id": "37912"
+                }
+            },
+            "extras": {}
+        },
+        "37925": {
+            "name": "Pub Basement",
+            "description": [
+                "Small beams of light trickle down from the floorboards above",
+                "creating little light, not nearly enough to see by.  Dust has",
+                "collected thick upon the stone brick of the floor beneath.  A",
+                "plethora of various junk items are neatly stacked about this",
+                "room collecting an equal amount of dust.  On the north end of",
+                "the basement there is a massive mirror hung on the wall."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37925",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Up the stairs towards light.",
+                        ""
+                    ],
+                    "room_id": "37923"
+                }
+            },
+            "extras": {
+                "junk": {
+                    "description": [
+                        "Nothing all that interesting here.",
+                        ""
+                    ]
+                },
+                "mirror": {
+                    "description": [
+                        "Giving a wide reflection of the entire room you see nobody",
+                        "else here but yourself.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37914": {
+            "name": "{YA W{yide {YD{yirt {YP{yath{x",
+            "description": [
+                "Greenery becomes sparse, as dry dirt dominates the road",
+                "in all directions.  Telltale signs such as cart tracks and",
+                "hoofprints show proof that traffic increases quite a bit in",
+                "comparison to the other trails in the vicinity.  A big sign",
+                "has been crudely pounded into the side of this crossroads."
+            ],
+            "flags_raw": "0 5 0 28",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37914",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A dirt path.",
+                        ""
+                    ],
+                    "room_id": "37913"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A heavily travelled road branches off to the north.",
+                        ""
+                    ],
+                    "room_id": "11975"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A large bluff overlooking the sea.",
+                        ""
+                    ],
+                    "room_id": "37915"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The gates of a small keep lie beyond.",
+                        ""
+                    ],
+                    "room_id": "37916"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{Y+{y---------------------------------------{Y+",
+                        "{y|                     {W^                 {y|",
+                        "|                     {8|                 {y|",
+                        "|                     {8|                 {y|",
+                        "|                     {8|                 {y|",
+                        "|             {WThe Lizard Marsh          {y|",
+                        "| {W<{8---{WStormguard Bluff+Haven's Keep{8---{W> {y|",
+                        "|                     {8|                 {y|",
+                        "|                     {8|                 {y|",
+                        "|                     {8|                 {y|",
+                        "|                     {Wv                 {y|",
+                        "|                {WShore Access           {y|",
+                        "{Y+{y---------------------------------------{Y+{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37916": {
+            "name": "Gates of Haven's Keep",
+            "description": [
+                "Torches crackle along the entrance to the small keep,",
+                "lighting the path for those travelling both inside and out",
+                "of the safety of Haven's Keep.  Though easily defensible,",
+                "the gates have remained open for almost as long as anyone",
+                "cares to remember.  The keep's banners fly high over the",
+                "high walls which have guarded this land for years."
+            ],
+            "flags_raw": "0 0 0 28",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37916",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "To a crossroads of sorts.",
+                        ""
+                    ],
+                    "room_id": "37914"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small door is set into the gates.",
+                        ""
+                    ],
+                    "room_id": "37917"
+                }
+            },
+            "extras": {
+                "gates": {
+                    "description": [
+                        "These sturdy gates show sure signs of wear as they",
+                        "have deflected more than a few battles over their",
+                        "long years of use.  A smaller set of doors is built",
+                        "into the gates to allow easy passage.",
+                        ""
+                    ]
+                },
+                "banner": {
+                    "description": [
+                        "{b-={BH  K{b=-{x",
+                        "Flying high over the walls, the deep blue banners",
+                        "flutter lazily in the wind.",
+                        ""
+                    ]
+                },
+                "keep": {
+                    "description": [
+                        "In days of old, Haven's Keep served the Sword Coast",
+                        "as a scouting outpost.  Having the greatest vantage",
+                        "point in all of the region, they were charged twice",
+                        "over with both the duty of being a self-sustaining",
+                        "outpost as well as providing early warning to cities",
+                        "around them in case of impending invasions.  Darkly",
+                        "set into the high cliffs, it has housed many famed",
+                        "warriors despite it's small size.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37917": {
+            "name": "Keep Entrance",
+            "description": [
+                "The flagstones lining the wall are kept to a near shine.",
+                "in contrast to the rough stonework outside, it is clear that",
+                "the people of the fort are proud indeed and work tirelessly",
+                "to keep their home in prime condition.  A small checkpoint",
+                "has been erected here to greet newcomers upon arrival."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37917",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small road lead south.",
+                        ""
+                    ],
+                    "room_id": "37920"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small road leads northward.",
+                        ""
+                    ],
+                    "room_id": "37919"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small door is set into the gates.",
+                        ""
+                    ],
+                    "room_id": "37916"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small street leading down the central part",
+                        "of the keep.",
+                        ""
+                    ],
+                    "room_id": "37918"
+                }
+            },
+            "extras": {
+                "gates": {
+                    "description": [
+                        "These sturdy gates show sure signs of wear as they",
+                        "have deflected more than a few battles over their",
+                        "long years of use.  A smaller set of doors is built",
+                        "into the gates to allow easy passage.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37919": {
+            "name": "Northwest Road",
+            "description": [
+                "Darkly lit though still visible, the torches have been",
+                "set to burn low along this road.  The noise of traffic is",
+                "considerably less along this route.  This quadrant seems",
+                "dedicated to the residents of Haven's Keep as the guards",
+                "lessen and the guard posts give way to housing."
+            ],
+            "flags_raw": "0 4 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37919",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Haven's Keep gates.",
+                        ""
+                    ],
+                    "room_id": "37917"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37926"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "This appears to be a housing unit.",
+                        ""
+                    ],
+                    "room_id": "37943"
+                }
+            },
+            "extras": {}
+        },
+        "37915": {
+            "name": "Stormguard Bluff",
+            "description": [
+                "Wind buffets this tall cliff relentlessly, causing little",
+                "flora to grow along it's bank.  Those who brave the heights",
+                "are ensured the greatest view of the ocean in the region. In",
+                "times past, this bluff was used to provide early warning for",
+                "incoming storms as well as the occasional enemy.  Today only",
+                "a single sentinel stands serving little more than a ceremonial",
+                "service for Haven's Keep."
+            ],
+            "flags_raw": "0 1 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37915",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Towards a large clearing.",
+                        ""
+                    ],
+                    "room_id": "37914"
+                }
+            },
+            "extras": {}
+        },
+        "37948": {
+            "name": "{8The Tower{x",
+            "description": [
+                "Large windows allow a strong breeze to constantly flow in",
+                "the tower. From this tower one can even see the Keep Gates.",
+                "However a sharp wit and even sharper memory would remind an",
+                "adventurer that from the outside the upper levels appear to",
+                "have no windows at all.  Strange symbols {Cpulse{x on the walls",
+                "and floor here creating their own light in the event of the",
+                "night fall.  Strange artifacts rest forgotten on shelves."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37948",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back out to the stairway.",
+                        ""
+                    ],
+                    "room_id": "37947"
+                }
+            },
+            "extras": {
+                "symbols": {
+                    "description": [
+                        "At first nothing...then a dim glow...then so",
+                        "{Wbright{x one must turn away.",
+                        ""
+                    ]
+                },
+                "shelves": {
+                    "description": [
+                        "These house all manner of items, best left",
+                        "uninspected.",
+                        ""
+                    ]
+                },
+                "windows": {
+                    "description": [
+                        "Upon a closer look, small runes are carved into",
+                        "the sides of these windows giving them their one",
+                        "way magical properties.",
+                        ""
+                    ]
+                },
+                "artifacts": {
+                    "description": [
+                        "Is that...a human skull?!?",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37926": {
+            "name": "Northwest Road",
+            "description": [
+                "Lights burn softly in the windows of the houses that are",
+                "inhabiting this sector of the city.  The very air seems to",
+                "have changed.  In place of the regimented order that lays",
+                "claim to the rest of the Keep, people can be seen talking",
+                "freely amongst themselves, having a good time and letting",
+                "their hair down after a hard day's work."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37926",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37919"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An intersection lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37927"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A large area of {Ggreenery{x can be seen here.",
+                        ""
+                    ],
+                    "room_id": "37940"
+                }
+            },
+            "extras": {}
+        },
+        "37929": {
+            "name": "Northern Road",
+            "description": [
+                "Central of the residential district it is quite apparent that",
+                "a great deal of thought went into the comfort of those that are",
+                "living within these walls.  Not the shacks nor smaller houses",
+                "that one would expect to find within a Keep of this nature, it",
+                "boasts living arrangements which rival a large city."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37929",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A homestead lies here.",
+                        ""
+                    ],
+                    "room_id": "37941"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37928"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An intersection lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37930"
+                }
+            },
+            "extras": {}
+        },
+        "37912": {
+            "name": "{YA S{ymall {YS{yandy {YP{yath{x",
+            "description": [
+                "Dirt and rock gives way to soft yellow sand.  The Sea of Swords",
+                "shines as far as the eye can see, sparkling on the vast horizon.",
+                "Though a small path, nearly a trail, this walkway appears to be",
+                "very well used, as an obvious effort has been made to ensure it's",
+                "maintenance.  The sweet smell of burning firewood drifts downwind",
+                "from a small, well built keep which sits due north on the cliff",
+                "overlooking the sea a great distance below."
+            ],
+            "flags_raw": "0 1 0 28",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37912",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The path continues.",
+                        ""
+                    ],
+                    "room_id": "37913"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Downwards to the water.",
+                        ""
+                    ],
+                    "room_id": "37911"
+                }
+            },
+            "extras": {}
+        },
+        "37931": {
+            "name": "Trentis' Office",
+            "description": [
+                "This is the office in which the Lord of Haven's Keep",
+                "presides.  The paperwork and diplomacy which goes along",
+                "with such a task is immense.  As such, the Lord of the",
+                "Keep spends most of his glorious time cooped up within",
+                "this chamber.  A small window from high along the wall",
+                "allows a minute amount of light to trickle in, though",
+                "most of the room's illumination shines from a lantern",
+                "which sits on top of the large desk central of the room."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37931",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The door leads out to the entrance.",
+                        ""
+                    ],
+                    "room_id": "37924"
+                }
+            },
+            "extras": {}
+        },
+        "37943": {
+            "name": "A Small House",
+            "description": [
+                "This structure is simply made up of one room large enough",
+                "to house four people.  Privacy remains the biggest issue to",
+                "boot here as there seems little place for one to hide away.",
+                "Perhaps this belongs to some of the civilian workers here."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37943",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back out to the road.",
+                        ""
+                    ],
+                    "room_id": "37919"
+                }
+            },
+            "extras": {}
+        },
+        "37918": {
+            "name": "Haven Main Street",
+            "description": [
+                "Cobblestones had once lined this street, however it",
+                "quite apparent that these have been abandoned years ago",
+                "in favor of the current packed dirt road which has been",
+                "maintained with the same detail and care as the rest of",
+                "this keep.  Westward, people who are leaving and coming",
+                "migrate.  To the east, activity dies down somewhat."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37918",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A mouth-watering smell comes from this direction.",
+                        ""
+                    ],
+                    "room_id": "37944"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Haven's Keep gates.",
+                        ""
+                    ],
+                    "room_id": "37917"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road opens up this direction.",
+                        ""
+                    ],
+                    "room_id": "37921"
+                }
+            },
+            "extras": {}
+        },
+        "37930": {
+            "name": "Northeast Keep Corner",
+            "description": [
+                "Darnkness envelopes the road once again as the walls to both",
+                "the north and south overshadow this portion of the Keep.  The",
+                "activity seems to lessen considerably, and even the buildings",
+                "themselves even seem to degrade in maintanance along this part",
+                "of the road.  Could it be that such a small fortress may have",
+                "it's own version of the slums??"
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37930",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37929"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A darkened alleyway.",
+                        ""
+                    ],
+                    "room_id": "37933"
+                }
+            },
+            "extras": {}
+        },
+        "37937": {
+            "name": "Southern Road",
+            "description": [
+                "The sounds of training only become increasingly louder as",
+                "the road continues east.  Carts full of supplies move along",
+                "the road adding to the deep ruts that are carved into it's",
+                "surface."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37937",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37936"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An interesction lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37938"
+                }
+            },
+            "extras": {
+                "ruts": {
+                    "description": [
+                        "Careful...don't break a leg.",
+                        ""
+                    ]
+                },
+                "carts": {
+                    "description": [
+                        "All full of god knows what...",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37940": {
+            "name": "{gK{Geep {gG{Gardens{x",
+            "description": [
+                "Constructed in a park-like fashion, this is where the main",
+                "supply of vegetable foods for the Keep are cultivated.  Green",
+                "appears to be the color of choice here, as even the sky view",
+                "is blocked by large trees and hanging plants.  The smell of",
+                "fresh grown produce sweetly hangs in the air here."
+            ],
+            "flags_raw": "0 0 0 19",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37940",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "To the northern road.",
+                        ""
+                    ],
+                    "room_id": "37928"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "To the northwestern road.",
+                        ""
+                    ],
+                    "room_id": "37926"
+                }
+            },
+            "extras": {
+                "sky": {
+                    "description": [
+                        "Your view is blocked by plantlife.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37927": {
+            "name": "Northwest Keep Corner",
+            "description": [
+                "The nexus which separates the northern and western sides",
+                "of the Keep, a dark shadow falls upon this corner as it",
+                "is surrounded by walls on both the north and west edges."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37927",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37926"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37928"
+                }
+            },
+            "extras": {}
+        },
+        "37946": {
+            "name": "{RD{ruelin{Rg G{rround{Rs{x",
+            "description": [
+                "Surrounded on all sides by high walls, the dirt of this",
+                "small field has harbored more blood than any other area in",
+                "Haven's Keep.  Used primarily for training in these modern",
+                "times, many of the old timers can remember when this was a",
+                "prime area to settle disagreements and old scores.  Once in",
+                "a great while some still use it, though generally under the",
+                "watchful eye of a mediator these days."
+            ],
+            "flags_raw": "0 1 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37946",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Into the guard's post.",
+                        ""
+                    ],
+                    "room_id": "37945"
+                }
+            },
+            "extras": {}
+        },
+        "37944": {
+            "name": "Haven's Keep Deli",
+            "description": [
+                "Racks upon racks of various meats hang alongside the wall",
+                "here, all fresh, no more than a day old.  It's a tough job",
+                "feeding an entire Keep, but the Deli so unoriginally named",
+                "has pulled it off for many years now.  A small smokehouse",
+                "built into the floorboards allows the meats to cure."
+            ],
+            "flags_raw": "0 1032 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37944",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back to the Main Street.",
+                        ""
+                    ],
+                    "room_id": "37918"
+                }
+            },
+            "extras": {
+                "smokehouse": {
+                    "description": [
+                        "This is where the meats are prepared.",
+                        ""
+                    ]
+                },
+                "racks": {
+                    "description": [
+                        "Pork...lamb...duck...roast, the list goes on.",
+                        ""
+                    ]
+                },
+                "floorboards": {
+                    "description": [
+                        "Smoke seems to be trickling out?!?",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37935": {
+            "name": "Southwest Keep Corner",
+            "description": [
+                "Overshadowed by the great walls to the south and west,",
+                "light ebbs from this corner but provides a great place to",
+                "cool off.  From this vantage point you can see the guards",
+                "above, walking the wall's edge on continual watch duty."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37935",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37934"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37936"
+                }
+            },
+            "extras": {
+                "guards": {
+                    "description": [
+                        "They must not be afraid of heights...",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37932": {
+            "name": "Fort Antechamber",
+            "description": [
+                "Sparsely decorated, it is clear that somewhere along the",
+                "line, someone made an attempt to make this antechamber one",
+                "notch above the rest.  Crude tapestries hang from the wall",
+                "and stone floors give way to a well worn carpet.  A wooden",
+                "stairway of small size, leads downward into Trentis' rooms",
+                "which are private from public entrance."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37932",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back to the main entrance.",
+                        ""
+                    ],
+                    "room_id": "37924"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        "To the Lord's Chambers.",
+                        ""
+                    ],
+                    "room_id": "37942"
+                }
+            },
+            "extras": {}
+        },
+        "37913": {
+            "name": "{YA S{ymall {YD{yirt {YP{yath{x",
+            "description": [
+                "The sandy ground below grows course, becoming nothing more",
+                "than a fine dirt lining the path.  Faint sounds of civilization",
+                "can be heard coming from the keep ahead.  The trail grows only",
+                "more well worn as it continues on the northern approach."
+            ],
+            "flags_raw": "0 1 0 28",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37913",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A large clearing.",
+                        ""
+                    ],
+                    "room_id": "37914"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The path continues.",
+                        ""
+                    ],
+                    "room_id": "37912"
+                }
+            },
+            "extras": {}
+        },
+        "37941": {
+            "name": "Home of Simion",
+            "description": [
+                "A smaller dwelling than many of the others it makes up",
+                "for in style, what it lacks in size.  Colorful drapes at",
+                "the windows are a hazard to the eyes.  The carpet lining",
+                "the floor isn't much better, a tasteful {ypuke {ggreen{x.  One",
+                "single bed furnishes the lively room, just big enough as",
+                "to allow an adult to squeeze in for the night."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37941",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Outside to the road.",
+                        ""
+                    ],
+                    "room_id": "37929"
+                }
+            },
+            "extras": {
+                "drapes": {
+                    "description": [
+                        "{YB{BY{W...{RT{MH{GE{W...{CG{YO{BD{RS{M!{x",
+                        ""
+                    ]
+                },
+                "bed": {
+                    "description": [
+                        "Simion's bed.",
+                        ""
+                    ]
+                },
+                "carpet": {
+                    "description": [
+                        "Yep...still {ypuke {ggreen{x.",
+                        ""
+                    ]
+                },
+                "floor": {
+                    "description": [
+                        "Yep...still {ypuke {ggreen{x.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37945": {
+            "name": "Keep Guard's Outpost",
+            "description": [
+                "Built with the sole purpose of housing and preparing a unit",
+                "for combat, this has served that purpose since the Keep itself",
+                "was built.  A {8dark stone{x floor meets {8stone{x walls and raises up",
+                "to meet a {8stone{x ceiling.  Coldness envelopes this room but for",
+                "a small forge in the corner which is used to create weapons in",
+                "which to arm the troops.  The age of this building can be told",
+                "within the large cracks where the wall filling has eroded."
+            ],
+            "flags_raw": "0 1032 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37945",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back outside to the road.",
+                        ""
+                    ],
+                    "room_id": "37936"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A wooden door.",
+                        ""
+                    ],
+                    "room_id": "37946"
+                }
+            },
+            "extras": {
+                "forge": {
+                    "description": [
+                        "The {8forge {Rburns {Ybrig{Whtly{x at the ready.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37939": {
+            "name": "Militia Way",
+            "description": [
+                "Should ever Haven's Keep fall under attack, this alleyway",
+                "serves as a muster point for the troops before they march to",
+                "battle through the southern roads.  Though empty most of the",
+                "time, this is usually the first place new recruits come when",
+                "learning their first session of drills."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37939",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An intersection lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37938"
+                }
+            },
+            "extras": {}
+        },
+        "37923": {
+            "name": "Graven's Pub",
+            "description": [
+                "Warmth envelopes this room, originating from the fire",
+                "which roars on the far side of the pub.  Tables are set",
+                "up to provide patrons with a place to sit and swap old",
+                "battle tales whilst drinking the daily special.  A bar",
+                "on the end of the room opposite the door is staffed by",
+                "none other than Graven himself."
+            ],
+            "flags_raw": "0 8 0 12",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37923",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back to the road.",
+                        ""
+                    ],
+                    "room_id": "37921"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small stairway leads down into the basement.",
+                        ""
+                    ],
+                    "room_id": "37925"
+                }
+            },
+            "extras": {
+                "tables": {
+                    "description": [
+                        "The tables here are filled with regulars.",
+                        "You may want to find a spot at the bar.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37920": {
+            "name": "Southwest Road",
+            "description": [
+                "It is not difficult for most to discern where the",
+                "military of the Keep is based out of.  Never do the",
+                "lights burn low here.  Never do the guards cease in",
+                "entering or exiting their compounds.  Like clockwork",
+                "patrolman walk their routes, all while their captains ",
+                "continue to inspect performance and readiness."
+            ],
+            "flags_raw": "0 4 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37920",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Haven's Keep gates.",
+                        ""
+                    ],
+                    "room_id": "37917"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "37934"
+                }
+            },
+            "extras": {}
+        },
+        "37942": {
+            "name": "Haven's Keep Mob Storage",
+            "description": [
+                "This area is not for you to be in.  If you have",
+                "somehow stumbled upon it, please consult an immortal",
+                "for assistance immediately."
+            ],
+            "flags_raw": "0 32768 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37942",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "37932"
+                }
+            },
+            "extras": {}
+        },
+        "37921": {
+            "name": "Haven Circle",
+            "description": [
+                "Main Street opens into a large circle.  Most of the ancient",
+                "cobbles here are still intact, as an extended effort has been",
+                "made to preserve them.  The street continuing deeper into the",
+                "Keep leads directly to a large fort which has been built east",
+                "against the wall, rising slightly over the walls.  A sign has",
+                "been placed here for those unfamiliar with the Keep to read.",
+                "A placard is placed against the fortess wall here."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37921",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small pub sits here.",
+                        ""
+                    ],
+                    "room_id": "37923"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small temple lies here.",
+                        ""
+                    ],
+                    "room_id": "37922"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37918"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A small fort.",
+                        ""
+                    ],
+                    "room_id": "37924"
+                }
+            },
+            "extras": {
+                "placard": {
+                    "description": [
+                        "{R**WARNING**{x",
+                        " ",
+                        "Entrance beyond this point is restricted",
+                        "to Keep miltia only.  Enter at you're own",
+                        "risk.",
+                        ""
+                    ]
+                },
+                "sign": {
+                    "description": [
+                        "Temple of Tempus:  {RNorth{x",
+                        "Fort Haven:  {MEast{x",
+                        "Graven's Pub: {rSouth{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37924": {
+            "name": "Fort Haven Foyer",
+            "description": [
+                "Built not for comfort, this is a construction designed for",
+                "nothing more than to serve it's purpose as the ruling hub of",
+                "Haven's Keep.  Though not an official government of it's own",
+                "and clearly not belonging to any particular government, daily",
+                "decisions ruling the small outpost are made here.  The thick",
+                "stone walls effectively keep out the heat of the sun causing",
+                "the temperature in this complex to be perpetually cold."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37924",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "37931"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The door leading outside.",
+                        ""
+                    ],
+                    "room_id": "37921"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "37932"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A large staircase leads to the upper levels.",
+                        ""
+                    ],
+                    "room_id": "37947"
+                }
+            },
+            "extras": {}
+        },
+        "37936": {
+            "name": "Southern Road",
+            "description": [
+                "As opposed to it's northern cousin, the Southern Street is",
+                "completely devoid of civilain citizens.  It's no secret that",
+                "the business of Haven's Keep is war.  And it is here on this",
+                "street that business is made good.  Loud shouts and the crash",
+                "of metal upon metal can be heard from a training yard off in",
+                "the distance."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37936",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A large stone building lies here.",
+                        ""
+                    ],
+                    "room_id": "37945"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An intersection lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37935"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37937"
+                }
+            },
+            "extras": {}
+        },
+        "37934": {
+            "name": "Southwest Road",
+            "description": [
+                "Regiments march the road in an orderly fashion as they go",
+                "about practicing their drills.  Should the need for battle",
+                "arise, these soldiers are determined to be prepared.  This",
+                "road has been even moreso tightly packed down than the rest",
+                "so as to limit the amount of time soldiers spend cleaning it",
+                "from their armor."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37934",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37920"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An intersection lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37935"
+                }
+            },
+            "extras": {}
+        },
+        "37922": {
+            "name": "Temple Of Tempus",
+            "description": [
+                "Murals of violent battles stretch across the walls of this",
+                "chamber, crudely sketched sparing no bloody images from view.",
+                "The floor is laden with {rdark blood red{x tiles which reflect a",
+                "pale light which shines from an unseen source above.  At the",
+                "far end of the room an alter stands proudly displaying highly",
+                "the symbol of Tempus in tribute to the god of war.  A metal",
+                "plaque hangs on the entrance here for all to view."
+            ],
+            "flags_raw": "0 1032 0 14",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37922",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Back to the road.",
+                        ""
+                    ],
+                    "room_id": "37921"
+                }
+            },
+            "extras": {
+                "alter": {
+                    "description": [
+                        "The symbol of Tempus is depicted here as a",
+                        "{Yblazing {Wsilver{x sword on a {rblood red{x field.",
+                        ""
+                    ]
+                },
+                "plaque": {
+                    "description": [
+                        "\"Though we embrace the battles in which Tempus has",
+                        "destined us to take part in.  There shall be none",
+                        "who engage combat within these temple walls.\"",
+                        ""
+                    ]
+                }
+            }
+        },
+        "37928": {
+            "name": "Northern Road",
+            "description": [
+                "For a road so far off the main street, this seems quite",
+                "well travelled in it's own right.  Packed tightly, this",
+                "road bears the scars of wagon ruts down the center lane.",
+                "The housing units continue to provide shelter for people",
+                "of the Keep along this route."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37928",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A large area of {Ggreenery{x can be seen.",
+                        ""
+                    ],
+                    "room_id": "37940"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "An intersection lies ahead.",
+                        ""
+                    ],
+                    "room_id": "37927"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37929"
+                }
+            },
+            "extras": {}
+        },
+        "37938": {
+            "name": "Southeast Keep Corner",
+            "description": [
+                "The road changes abruptly here from dirt to paved stone to",
+                "the north, to provide additional support to the Keep traffic.",
+                "The smell of sweat is carried in the air, intermingling with",
+                "a faint smell of the sea from just over the cliff."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37938",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37939"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "The road continues.",
+                        ""
+                    ],
+                    "room_id": "37937"
+                }
+            },
+            "extras": {}
+        },
+        "37933": {
+            "name": "{8A Dark Alley{x",
+            "description": [
+                "Little, if nothing can be made out within this small alley.",
+                "The dirt road here is rough and probably hasn't seen the care",
+                "which details the rest of the Keep.  A few discarded items at",
+                "road's side confirm the theory that this alley remains as one",
+                "not used by Keep citizens or military."
+            ],
+            "flags_raw": "0 1 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "37933",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "37930"
+                }
+            },
+            "extras": {
+                "discarded": {
+                    "description": [
+                        "Junk...just junk.",
+                        ""
+                    ]
+                }
+            }
+        }
+    },
+    "uid": "havnkeep",
+    "area_quest_points": 0,
+    "credits": "[15 FR 99] Haven's Keep",
+    "faction_id": "",
+    "vnums": [
+        37911,
+        37949
+    ],
+    "recall_room_id": 56823,
+    "objects": {},
+    "zone_id": 0,
+    "security": 10,
+    "mobiles": {
+        "37911": {
+            "name": "a beach seagull~\n",
+            "description": [
+                "Feasting upon the rich beaches of the Sword Coast has\n",
+                "kept this bird fat and happy.  However one cannot help\n",
+                "but wonder if perhaps the locals have had something to\n",
+                "do with feeding the animals here.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGW ACDEFHKP medium flesh",
+            "raw_flags4": "0 0 R 0",
+            "raw_flags3": "0 0 0 9",
+            "vnum": 37911,
+            "raw_flags": "ABW Tb 0 0 0",
+            "race_id": "water fowl",
+            "raw_flags2": "2 0 2d2+12 2d2+12 1d3+1 peck",
+            "d_flags": "D {cfalls to the ground in a flurry of feathers.{x~",
+            "subroutines": [
+                "M random 37911 30~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A seagull flies about the cove.\n",
+            "keywords": "beach sea gull~\n"
+        },
+        "37912": {
+            "name": "a bluff sentinel~\n",
+            "description": [
+                "While some would consider this to be a meaningless\n",
+                "task, the people of Haven's Keep regard this as one\n",
+                "of the greatest honors that can be bestowed upon a\n",
+                "member of the guard.  As such this man is clearly on\n",
+                "the verge of retirement given his age.\n"
+            ],
+            "raw_flags5": "stand stand male 200",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 0 0 0",
+            "raw_flags3": "0 0 0 7",
+            "vnum": 37912,
+            "raw_flags": "ABE L H 500 0",
+            "race_id": "human",
+            "raw_flags2": "10 0 5d8+67 5d8+67 2d5+4 slash",
+            "d_flags": "D {cdrops dead, clutching at an item inside his pocket.{x~",
+            "subroutines": [
+                "M random 37912 5~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Sentinel of the Bluff scans the horizon.\n",
+            "keywords": "bluff sentinel guard~\n"
+        },
+        "37913": {
+            "name": "Praetor~\n",
+            "description": [
+                "For most of his long years Praetor has kept\n",
+                "a guarded watch on the gates of his homeland.\n",
+                "Scars web across his gnarled face, proving that\n",
+                "he has had need to defend his post on more than\n",
+                "one occasion.\n"
+            ],
+            "raw_flags5": "stand stand male 1600",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "-2 -2 -2 -5",
+            "vnum": 37913,
+            "raw_flags": "ABT C 0 1000 0",
+            "race_id": "human",
+            "raw_flags2": "60 0 8d65+1221 8d65+1221 5d11+24 slash",
+            "d_flags": "D {cgrunts {M'{mI have failed the Keep...{M'{x~",
+            "subroutines": [
+                "M greet 37913 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Guard of Gates, Praetor stands vigilant over the Keep.\n",
+            "keywords": "gate guard praetor~\n"
+        },
+        "37914": {
+            "name": "Simion~\n",
+            "description": [
+                "Though the guardsman outside keeps enemies at\n",
+                "bay, it is the job of Simion to welcome those\n",
+                "wanderers admitted to the Keep.  A young man\n",
+                "whose family served the Keep for generations,\n",
+                "Simion carries the same sense of duty as his\n",
+                "predecessors.  The shoulder length brown hair\n",
+                "and child like facial features have fooled a\n",
+                "great deal of people into believing he is not\n",
+                "a capable warrior.  Care to try?\n"
+            ],
+            "raw_flags5": "stand stand male 600",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "0 0 0 5",
+            "vnum": 37914,
+            "raw_flags": "ABT DF 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "20 1 9d10+157 9d10+157 4d4+8 slash",
+            "d_flags": "D {ccollapses to the ground in a heap.{x~",
+            "subroutines": [
+                "M random 37919 40~\n",
+                "M greet 37914 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Simion, the Keep Greeter waves travellers through.\n",
+            "keywords": "keep greeter simion~\n"
+        },
+        "37915": {
+            "name": "Gloria, Priestess of Tempus~\n",
+            "description": [
+                "Built perhaps a little too tall for battle, Gloria\n",
+                "chose to dedicate her life to Tempus in other ways\n",
+                "than those most conventional within the clergy.  A\n",
+                "seasoned veteran in the ranks of Tempus' followers\n",
+                "she was assigned to Haven's Keep in an attempt to\n",
+                "find a perfect fit for this raven haired mistress\n",
+                "of battle.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 ABCD 0 0",
+            "raw_flags3": "-1 -1 -1 -2",
+            "vnum": 37915,
+            "raw_flags": "ABab DF H 150 0",
+            "race_id": "human",
+            "raw_flags2": "50 4 16d27+835 16d27+835 5d9+20 none",
+            "d_flags": "D {clooks up to the heavens before falling silently to the ground.{x~",
+            "subroutines": [
+                "M greet 37915 50~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A tall thin Priestess of Tempus presides here.\n",
+            "keywords": "gloria healer priest~\n"
+        },
+        "37916": {
+            "name": "Graven~\n",
+            "description": [
+                "Though his hairline has receded since opening his\n",
+                "pub, his service has not.  Slim and standing the\n",
+                "great height of nearly seven feet, he is not one\n",
+                "to be lost in a crowd.\n"
+            ],
+            "raw_flags5": "stand stand male 165",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 ABCD 0 0",
+            "raw_flags3": "0 0 0 8",
+            "vnum": 37916,
+            "raw_flags": "ABC 0 0 700 0",
+            "race_id": "human",
+            "raw_flags2": "5 0 3d5+26 3d5+26 3d2+2 punch",
+            "d_flags": "D {cgags on his own blood.  {M'{mThis never happens in MY pub!{M'{x~",
+            "subroutines": [
+                "M act 37916 sits down~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The owner of the pub, Graven serves up drinks.\n",
+            "keywords": "Graven barkeep~\n"
+        },
+        "37917": {
+            "name": "Zhelbol~\n",
+            "description": [
+                "This man who stands before you, bears a remarkable\n",
+                "resemblance to the pub owner above.  As pale white\n",
+                "as the moon, and catlike in his movements he looks\n",
+                "out upon the world from his strange red eyes with\n",
+                "a hunger that would discomfort even the most brave\n",
+                "of citizens.\n"
+            ],
+            "raw_flags5": "stand stand male 2400",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABQ M HN",
+            "raw_flags3": "-3 -3 -3 -10",
+            "vnum": 37917,
+            "raw_flags": "ABMOPb DFVc 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "80 4 10d81+2552 10d81+2552 5d15+32 claw",
+            "d_flags": "D {cgrimaces as his eyes darken to black before he falls.{x~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A thin pale man narrows his eyes as you enter.\n",
+            "keywords": "zhelbol vampire~\n"
+        },
+        "37918": {
+            "name": "a sentry of the fort~\n",
+            "description": [
+                "Trained for months on end, defenders of Haven's\n",
+                "Keep graduate to this position usually after a\n",
+                "candidate serves more than a few years of patrol\n",
+                "duty.  Toned and ready for combat, this sentry\n",
+                "means business!\n"
+            ],
+            "raw_flags5": "stand stand either 500",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "HU A 0 0",
+            "raw_flags3": "0 0 0 5",
+            "vnum": 37918,
+            "raw_flags": "ABT 0 0 500 0",
+            "race_id": "human",
+            "raw_flags2": "20 2 9d10+157 9d10+157 4d4+8 slash",
+            "d_flags": "D {clashes out once more before tumbling into the road...dead.{x~",
+            "subroutines": [
+                "M greet 37917 90~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A sentry charged with guarding the fort remains alert.\n",
+            "keywords": "fort sentry~\n"
+        },
+        "37919": {
+            "name": "a young child~\n",
+            "description": [
+                "Children such as these belong to the inhabitants\n",
+                "who work here in the keep.  Within this sector of\n",
+                "the Keep they may play and even train to someday\n",
+                "perhaps serve within the keep themselves.\n"
+            ],
+            "raw_flags5": "stand stand either 10",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "1 1 1 9",
+            "vnum": 37919,
+            "raw_flags": "ABH 0 0 800 0",
+            "race_id": "human",
+            "raw_flags2": "1 0 1d5+8 1d5+8 1d3+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M kill 37918 90~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A happy looking child plays in the road.\n",
+            "keywords": "young happy child~\n"
+        },
+        "37920": {
+            "name": "an angry father~\n",
+            "description": [
+                "Someone has pissed this guy off big time!\n",
+                "One can't help to wonder what has driven\n",
+                "this poor man to the state he is now in.\n"
+            ],
+            "raw_flags5": "stand stand male 306",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "CP 0 B 0",
+            "raw_flags3": "0 0 0 5",
+            "vnum": 37920,
+            "raw_flags": "AGTW a 0 700 0",
+            "race_id": "human",
+            "raw_flags2": "17 1 7d11+125 7d11+125 4d4+7 punch",
+            "d_flags": "D {cscreams {M'{mFirst my child...and now me?!?{M'{x~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An angry father seeths, clenching his fists.\n",
+            "keywords": "seething angry father~\n"
+        },
+        "37921": {
+            "name": "Landon~\n",
+            "description": [
+                "The locals tell that this man originally came\n",
+                "from Baldur's Gate.  Why he is here now is up\n",
+                "to now a complete mystery.  Why the leaders of\n",
+                "the Keep have allowed him to stay is a larger\n",
+                "mystery yet.  The foolish grin his face wears\n",
+                "leads one to believe that his days are wasted\n",
+                "drinking within this alley.  The hard glint in\n",
+                "his eyes however, can't help but make on think\n",
+                "that perhaps something else is afoot.\n"
+            ],
+            "raw_flags5": "stand stand male 2250",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "BF AB L 0",
+            "raw_flags3": "-2 -2 -2 -8",
+            "vnum": 37921,
+            "raw_flags": "ABSb 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "75 0 14d51+2107 14d51+2107 5d14+30 stab",
+            "d_flags": "D {cshrugs {M'{mWell...there's a first time for everything.{M'{x~",
+            "subroutines": [
+                "M greet 37920 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A drunk staggers amongst the shadows.\n",
+            "keywords": "drunk thief landon~\n"
+        },
+        "37922": {
+            "name": "a member of the watch~\n",
+            "description": [
+                "Usually the first tour of duty given to newer\n",
+                "recruits, Keep Watch is nonetheless a vital\n",
+                "role here.  They are usually the first to enter\n",
+                "combat, and the last ones to leave it.\n"
+            ],
+            "raw_flags5": "stand stand either 150",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB B 0",
+            "raw_flags3": "0 0 0 7",
+            "vnum": 37922,
+            "raw_flags": "ACGTW 0 0 700 0",
+            "race_id": "human",
+            "raw_flags2": "10 0 5d8+67 5d8+67 2d5+4 slash",
+            "d_flags": "D {cshouts {M'{mProtect the Keep!{M'{x~",
+            "subroutines": [
+                "M greet 37926 100~\n",
+                "M entry 37926 75~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Keep Watch member patrols the road.\n",
+            "keywords": "member keep watch~\n"
+        },
+        "37923": {
+            "name": "Simion~\n",
+            "description": [
+                "Though the guardsman outside keeps enemies at\n",
+                "bay, it is the job of Simion to welcome those\n",
+                "wanderers admitted to the Keep.  A young man\n",
+                "whose family served the Keep for generations,\n",
+                "Simion carries the same sense of duty as his\n",
+                "predecessors.  The shoulder length brown hair\n",
+                "and child like facial features have fooled a\n",
+                "great deal of people into believing he is not\n",
+                "a capable warrior.  Care to try?\n"
+            ],
+            "raw_flags5": "stand stand male 600",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 0 0 0",
+            "raw_flags3": "0 0 0 5",
+            "vnum": 37923,
+            "raw_flags": "ABTY F 0 700 0",
+            "race_id": "human",
+            "raw_flags2": "20 1 9d10+157 9d10+157 4d4+8 slash",
+            "d_flags": "D {ccollapses to the ground in a heap.{x~",
+            "subroutines": [
+                "M random 37921 40~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "An exhausted looking Simion is here.\n",
+            "keywords": "keep greeter simion~\n"
+        },
+        "37924": {
+            "name": "Crystal~\n",
+            "description": [
+                "An earthy woman of short stature and dirty brown\n",
+                "hair, Crystal has tended to the Keep for the past\n",
+                "ten years or so.  Little about her origins is made\n",
+                "public.  Perhaps in her mid-fourties Crystal has\n",
+                "made it her personal quest to keep the small child\n",
+                "down the road out of her garden.\n"
+            ],
+            "raw_flags5": "stand stand female 930",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "-2 -2 -2 -5",
+            "vnum": 37924,
+            "raw_flags": "ABCLb 0 H 500 0",
+            "race_id": "human",
+            "raw_flags2": "62 0 20d26+1313 20d26+1313 5d12+25 beating",
+            "d_flags": "D {cfalls to the ground, her skin turning {ybrown{c as the earth.{x~",
+            "subroutines": [
+                "M greet 37922 100~\n",
+                "M delay 37923 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Gardener of the Keep tends the plants.\n",
+            "keywords": "keep gardener crystal~\n"
+        },
+        "37925": {
+            "name": "Keaton~\n",
+            "description": [
+                "Keaton is a man at one with the ways of combat.\n",
+                "Originally a priest of Tempus, he left the church\n",
+                "at an early point in his career to deal direct\n",
+                "homage in the fields of battle.  A man of about\n",
+                "fourty years of age, Keaton keeps no hair atop\n",
+                "his head.  A large scar runs the course of his\n",
+                "bald pate, ending at the bridge of his nose.\n"
+            ],
+            "raw_flags5": "stand stand male 1775",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "CE AB 0 0",
+            "raw_flags3": "-2 -2 -2 -7",
+            "vnum": 37925,
+            "raw_flags": "ABTb 0 0 800 0",
+            "race_id": "human",
+            "raw_flags2": "71 4 20d32+1817 20d32+1817 5d13+28 beating",
+            "d_flags": "D {csinks to one knee whispering, {M'{mIt cannot be...{M'{x~",
+            "subroutines": [
+                "M greet 37924 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A combat instructor paces the road impatiently.\n",
+            "keywords": "combat instructor keaton~\n"
+        },
+        "37926": {
+            "name": "a keep guard~\n",
+            "description": [
+                "Graduates who perform well as members of the\n",
+                "Keep Watch, will eventually be allowed to try\n",
+                "out for the Keep Guard, which serves as elite\n",
+                "warriors to be trusted to personally ensure a\n",
+                "safe and well trained militia unit.\n"
+            ],
+            "raw_flags5": "stand stand either 200",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "CT 0 0 0",
+            "raw_flags3": "0 0 0 5",
+            "vnum": 37926,
+            "raw_flags": "AGTW 0 0 700 0",
+            "race_id": "human",
+            "raw_flags2": "20 0 9d10+157 9d10+157 4d4+8 slash",
+            "d_flags": "D {cscreams {M'{mI need reinforcements!!{M'{x~",
+            "subroutines": [
+                "M death 37925 5~\n",
+                "M greet 37926 100~\n",
+                "M entry 37926 75~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A guard of the Keep is preparing for patrol here.\n",
+            "keywords": "keep guard~\n"
+        },
+        "37927": {
+            "name": "Gristle~\n",
+            "description": [
+                "Despite that one 'goblin burger' incident over\n",
+                "a year ago, Gristle usually puts out some very\n",
+                "good dishes.  People have been known to travel\n",
+                "great distances (over the next hill) to be the\n",
+                "first to try his latest and greatest.  Gristle\n",
+                "stands an almighty 5'3\" tall and from the round\n",
+                "bulge in his midsection appears to enjoy trying\n",
+                "out his own dishes on a regular basis himself.\n"
+            ],
+            "raw_flags5": "stand stand male 165",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "0 0 0 8",
+            "vnum": 37927,
+            "raw_flags": "ABC 0 0 600 0",
+            "race_id": "human",
+            "raw_flags2": "5 -1 3d5+26 3d5+26 2d3+2 punch",
+            "d_flags": "D {cwonders why you would kill a simple butcher.{x~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Gristle, the butcher hacks at a chunk of meat.\n",
+            "keywords": "butcher gristle~\n"
+        },
+        "37928": {
+            "name": "Lord Trentis~\n",
+            "description": [
+                "A regal and wizened man of large stature, the\n",
+                "Lord of Haven's Keep earned his place by vote\n",
+                "of the support council.  Having worked his way\n",
+                "through the ranks of the guard, he is regarded\n",
+                "as one of the most legendary of diplomats and\n",
+                "politicians along the Sword Coast.  Though at\n",
+                "times offered larger appointments elsewhere he\n",
+                "has turned each down in favor of his homeland.\n"
+            ],
+            "raw_flags5": "stand stand male 2805",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "CQ B 0 0",
+            "raw_flags3": "-3 -3 -3 -11",
+            "vnum": 37928,
+            "raw_flags": "ABQ CD H 1000 0",
+            "race_id": "human",
+            "raw_flags2": "85 7 19d47+3117 19d47+3117 5d16+34 pound",
+            "d_flags": "D {cholds up his arm in protection, the drops dead.{x~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An imposing man with long robes stands here.\n",
+            "keywords": "imposing lord trentis~\n"
+        },
+        "37929": {
+            "name": "the Highmage~\n",
+            "description": [
+                "Aside from his black flowing robes, it is difficult\n",
+                "to discern much else about the mysterious mage who\n",
+                "heads up the magical defenses for Haven's Keep.  A\n",
+                "rumor floats about the Keep that he originally came\n",
+                "from lands far to the west known as the Great Realms.\n",
+                "but aside from that not even his name is known.\n"
+            ],
+            "raw_flags5": "stand stand male 1950",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB C D",
+            "raw_flags3": "-2 -2 -2 -6",
+            "vnum": 37929,
+            "raw_flags": "ABRb DV BCDEH 250 0",
+            "race_id": "human",
+            "raw_flags2": "65 0 23d24+1463 23d24+1463 5d12+26 blast",
+            "d_flags": "D {cmutters a curse as his eyes go blank.{x~",
+            "subroutines": [
+                "M greet 37927 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A man obscured by dark robes gazes out the window.\n",
+            "keywords": "Haven Highmage~\n"
+        },
+        "37930": {
+            "name": "Bartlett~\n",
+            "description": [
+                "Bartlett came from the eastern forests after his\n",
+                "woodland home was destroyed by invading armies.\n",
+                "Now he helps seek out those who would invade his\n",
+                "home with the help of civilization.  A short and\n",
+                "well built man, his red hair and beard reflect a\n",
+                "fiery determination and iron will.\n"
+            ],
+            "raw_flags5": "stand stand male 600",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "HKQ AB 0 0",
+            "raw_flags3": "-2 -2 -2 -5",
+            "vnum": 37930,
+            "raw_flags": "ABEb V N 850 0",
+            "race_id": "human",
+            "raw_flags2": "60 1 8d65+1221 8d65+1221 5d11+24 pound",
+            "d_flags": "D {ccurses you as he falls.{x~",
+            "subroutines": [
+                "M greet 37928 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Commander of the Bluff goes over his reports here.\n",
+            "keywords": "bartlett bluff commander~\n"
+        },
+        "37931": {
+            "name": "the quartermaster of the Keep~\n",
+            "description": [
+                "Not one to fight the battles, this soldier has\n",
+                "taken the cause to preparing his comrades for\n",
+                "the rigors of battle.  Though one might think\n",
+                "it not the most glorious of positions, it still\n",
+                "remains one of the most important.  The lack of\n",
+                "combat clearly shows on this man, as his belly\n",
+                "is the largest part of his body.\n"
+            ],
+            "raw_flags5": "stand stand male 330",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "0 0 0 7",
+            "vnum": 37931,
+            "raw_flags": "ABC 0 0 500 0",
+            "race_id": "human",
+            "raw_flags2": "10 0 5d8+67 5d8+67 2d5+4 slash",
+            "d_flags": "D {cwonders why he is dying...{x~",
+            "subroutines": [
+                "M act 37929 buys~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Keep's quartermaster checklists his stores.\n",
+            "keywords": "keep quartermaster~\n"
+        },
+        "37932": {
+            "name": "Penny, the puppy~\n",
+            "description": [
+                "Perhaps belonging to one of the families\n",
+                "living within the Keep, Penny walks about\n",
+                "the roads looking for affection.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "AGV ACDEFHJKUV medium fur",
+            "raw_flags4": "H AB 0 0",
+            "raw_flags3": "1 1 1 9",
+            "vnum": 37932,
+            "raw_flags": "AGW 0 0 800 0",
+            "race_id": "dog",
+            "raw_flags2": "1 0 1d5+8 1d5+8 1d3+0 bite",
+            "d_flags": "D {cyelps in pain, then lies still.{x~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small puppy roams the roads.\n",
+            "keywords": "penny puppy~\n"
+        },
+        "37949": {
+            "name": "{*Terah{x~\n",
+            "description": [],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "0 ABCDEFGHIJKP small genuine",
+            "raw_flags4": "0 0 ABDEFGHIJKLNOPQRSTXYZ 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 37949,
+            "raw_flags": "ABGa CDEFGTUVc BCDEHNPR 2 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "101 0 1d1+9999 1d1+9999 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{*The exquisite statue of a serene and lovely female human takes your breath away...{x\n",
+            "keywords": "Solitude Terah~\n"
+        }
+    },
+    "realm_id": 1
+}

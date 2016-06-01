@@ -1,0 +1,2027 @@
+{
+    "name": "Dwarven Kingdom",
+    "id": "dwarven",
+    "subroutines": [],
+    "rooms": {
+        "6501": {
+            "name": "Path, base of mountain",
+            "description": [
+                "Now you are at the bottom of a rugged mountain.  The forest around you is",
+                "very dense, and it seems very dark to the north."
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6501",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues up the mountain.",
+                        ""
+                    ],
+                    "room_id": "6502"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path heads toward the main city.",
+                        ""
+                    ],
+                    "room_id": "6500"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49681"
+                }
+            },
+            "extras": {}
+        },
+        "6508": {
+            "name": "Narrow north-south path",
+            "description": [
+                "This path leads to the north and south.  To the north you can see a",
+                "door, and to the south the path continues."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6508",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6509"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6507"
+                }
+            },
+            "extras": {}
+        },
+        "6553": {
+            "name": "The Mazekeeper's Room",
+            "description": [
+                "You have entered the Mazekeeper's room.  There are pictures of",
+                "the Queen with darts thrown in it.  Spray-painted on the wall are",
+                "things like 'the queen shall suffer' and 'Catholics Rule'."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6553",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6552"
+                }
+            },
+            "extras": {}
+        },
+        "6543": {
+            "name": "Path in the mine",
+            "description": [
+                "You are deep inside the mine, and you feel very uncomfortable.  The",
+                "path continues to the east, and leads to the mineshaft to the west."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6543",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6554"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6544"
+                }
+            },
+            "extras": {}
+        },
+        "6513": {
+            "name": "Inside the entrance",
+            "description": [
+                "Everything here is covered in soot and very grimy.  The path continues",
+                "to the east and north, and there is a door to the west."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6513",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The little underground path continues to the north.",
+                        ""
+                    ],
+                    "room_id": "6514"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "This looks like an entrance to some type of store room.",
+                        ""
+                    ],
+                    "room_id": "6526"
+                },
+                "east": {
+                    "flags_raw": "6502",
+                    "description": [
+                        "The path leads outside the entrance.",
+                        ""
+                    ],
+                    "room_id": "6505"
+                }
+            },
+            "extras": {}
+        },
+        "6548": {
+            "name": "Maze",
+            "description": [
+                "You are in a maze."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6548",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6549"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6547"
+                }
+            },
+            "extras": {}
+        },
+        "6511": {
+            "name": "Still on the path to the Castle",
+            "description": [
+                "You are still on the path to the castle, or back to the",
+                "Dwarven village, whichever way you wish to go.  The path",
+                "continues to the north and south."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6511",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6512"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6510"
+                }
+            },
+            "extras": {}
+        },
+        "6527": {
+            "name": "Wine cellar",
+            "description": [
+                "This room smells like wine, and you can only assume it used to be",
+                "a wine cellar at one time."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6527",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6526"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "2065"
+                }
+            },
+            "extras": {}
+        },
+        "6526": {
+            "name": "A store room",
+            "description": [
+                "There is a layer of dust on the floor at least 3 inches thick!  It is",
+                "probable that not many people have been in here for many months."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6526",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A lighted area that looks like a well worn path.",
+                        ""
+                    ],
+                    "room_id": "6513"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6527"
+                }
+            },
+            "extras": {
+                "floor dust": {
+                    "description": [
+                        "After blowing all the dust off the floor, you notice a trapdoor!",
+                        ""
+                    ]
+                }
+            }
+        },
+        "6541": {
+            "name": "Mine entrance",
+            "description": [
+                "The little path here leads down toward the mines, while the worn path",
+                "continues to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6541",
+            "exits": {
+                "west": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6540"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6542"
+                }
+            },
+            "extras": {}
+        },
+        "6500": {
+            "name": "Path to Dwarven Village",
+            "description": [
+                "All around you are the mountains of the southern range, home of dwarves and ",
+                "giants.  You can climb back down the mountains to the west and leave these ",
+                "realms, or seek riches in the northern mineshafts.  A dirt road leads south, ",
+                "towards a small building.  You can hear crying and shrieking coming from it."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6500",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues.",
+                        ""
+                    ],
+                    "room_id": "6501"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A rocky road leads back to Westbridge and the mines of Moria.",
+                        ""
+                    ],
+                    "room_id": "6562"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6601"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49682"
+                }
+            },
+            "extras": {}
+        },
+        "6531": {
+            "name": "Queen's waiting room",
+            "description": [
+                "This is the Queen's waiting room.  Here the men literally",
+                "'wait' for the queen.  You've heard that the queen really likes",
+                "to get to 'know' her people, in the biblical sense.  The queen's",
+                "bedroom is to the north, and you can see stairs to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6531",
+            "exits": {
+                "north": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6532"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6530"
+                }
+            },
+            "extras": {}
+        },
+        "6532": {
+            "name": "Bedroom",
+            "description": [
+                "This is the Queen's bedroom.  The bed is all ruffled, and there",
+                "is a stack of dirty sheets piled in the corner.",
+                "",
+                "A note has been scrawled in lipstick on the mirror:",
+                "",
+                "    I'm out looking for my birth control pills.",
+                "    Why don't you slip into something comfortable while you're waiting?"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6532",
+            "exits": {
+                "south": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6531"
+                }
+            },
+            "extras": {}
+        },
+        "6554": {
+            "name": "Bottom of mineshaft",
+            "description": [
+                "You are at the bottom of the mineshaft.  The air here is very sooty, and",
+                "it is very hard to breath.  The mineshaft leads up and east."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6554",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6543"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6542"
+                }
+            },
+            "extras": {}
+        },
+        "6535": {
+            "name": "Granite Head's Bakery",
+            "description": [
+                "The aroma coming from this room is sensuous.  You can almost taste",
+                "the pastries dissolving in your mouth."
+            ],
+            "flags_raw": "0 8 0 13",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6535",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6517"
+                }
+            },
+            "extras": {}
+        },
+        "6544": {
+            "name": "Mine crossroad",
+            "description": [
+                "You are at a crossroad in the mine.  There is a door to the north,",
+                "and the path continues to the south, east, and west."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6544",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6551"
+                },
+                "north": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6546"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6543"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6545"
+                }
+            },
+            "extras": {}
+        },
+        "6512": {
+            "name": "Door to Castle",
+            "description": [
+                "Here there is a door to the castle to the east.  The castle",
+                "is elegantly designed, and looks much like a roll of toilet paper",
+                "standing on end.  A sign says:",
+                "",
+                "              ******************************************",
+                "              *  WELCOME TO THE CASTLE OF STRANGELOVE  *",
+                "              *      Here, celibacy is uninvited       *",
+                "              ******************************************"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6512",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6511"
+                },
+                "east": {
+                    "flags_raw": "6514",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6525"
+                }
+            },
+            "extras": {}
+        },
+        "6510": {
+            "name": "Path to the Castle",
+            "description": [
+                "You are on a path that will eventually lead to the castle.  It",
+                "continues north to the castle, and there is a door on the western wall."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6510",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6511"
+                },
+                "west": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6509"
+                }
+            },
+            "extras": {}
+        },
+        "6521": {
+            "name": "Entrance to barracks",
+            "description": [
+                "Here there is an entrance to the barracks to the south, and",
+                "the path continues to the west."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6521",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6520"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6523"
+                }
+            },
+            "extras": {}
+        },
+        "6562": {
+            "name": "Mountains of the dwarven kingdom",
+            "description": [
+                "You are standing at the foot of the mountains of the dwarven kingdom, where",
+                "dwarves and giants toil endlessly to pry gems and mithril from the mother ",
+                "earth.  Here lies the palace of the dwarven queen, and untold riches.",
+                "But beware, for the mines are said to be haunted by demon and spirit alike.",
+                "The dwarven kingdom lies to the east."
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6562",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the foothills of this mighty mountain range.",
+                        ""
+                    ],
+                    "room_id": "4000"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dwarven kingdom awaits!",
+                        ""
+                    ],
+                    "room_id": "6500"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49632"
+                }
+            },
+            "extras": {}
+        },
+        "6545": {
+            "name": "Coal Room",
+            "description": [
+                "You are inside the storage area for the raw materials",
+                "that are found down here.  The room is very unsturdy as the",
+                "supports are very rickety."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6545",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6544"
+                }
+            },
+            "extras": {}
+        },
+        "6502": {
+            "name": "Path, middle of mountain",
+            "description": [
+                "Standing on the middle of the mountain, you can easily see the turning",
+                "point to the south, and the top of the mountain is very near to the north."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6502",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The base of the mountain is near.",
+                        ""
+                    ],
+                    "room_id": "6501"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The top of the mountain is easily seen from here.",
+                        ""
+                    ],
+                    "room_id": "6503"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6533"
+                }
+            },
+            "extras": {}
+        },
+        "6533": {
+            "name": "{*Road to the {&D{*warven {&K{*ingdom {RC{rargo {RC{rourier{x",
+            "description": [
+                "A road wanders off the main path leading up the mountain to the",
+                "Dwarven Kingdom, the path leads back down the eastern side towards the",
+                "Dwarven Kingdom's Cargo Courier Building.  To the south the Holy Grove",
+                "can be seen, along with New Thalos and the Sands of Sorrow in the far",
+                "distance.  "
+            ],
+            "flags_raw": "0 1140858916 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6533",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6502"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6536"
+                }
+            },
+            "extras": {}
+        },
+        "6550": {
+            "name": "Maze",
+            "description": [
+                "You are in a maze."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6550",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6552"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6549"
+                }
+            },
+            "extras": {}
+        },
+        "6515": {
+            "name": "Turn in road",
+            "description": [
+                "You are on a path that leads to a Hide & Tooth shop to the west, and the",
+                "path continues to the south."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6515",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The Hide & Tooth shop is seen to the west.",
+                        ""
+                    ],
+                    "room_id": "6516"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6514"
+                }
+            },
+            "extras": {}
+        },
+        "6516": {
+            "name": "Hide & Tooth Shop",
+            "description": [
+                "You are in the Hide & Tooth shop.  Here you may buy the finest in Dwarven",
+                "weapons and armors. The path continues to the north and east."
+            ],
+            "flags_raw": "0 8 0 13",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6516",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6517"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6515"
+                }
+            },
+            "extras": {}
+        },
+        "6504": {
+            "name": "Narrow Path",
+            "description": [
+                "This is a narrow path leading to the Dwarven Kingdom.  It looks less",
+                "travelled than the others, and it is very creepy.  The path opens up",
+                "to the south, and continues to the north."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6504",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6506"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6540"
+                }
+            },
+            "extras": {}
+        },
+        "6520": {
+            "name": "Path next to barracks",
+            "description": [
+                "Here the path continues west, and east to the barracks."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6520",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "3913"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6519"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6521"
+                }
+            },
+            "extras": {}
+        },
+        "6549": {
+            "name": "Maze",
+            "description": [
+                "You are in a maze."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6549",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6550"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6548"
+                }
+            },
+            "extras": {}
+        },
+        "6529": {
+            "name": "Stairs",
+            "description": [
+                "You are still circling around on the stairs.  You are starting to",
+                "get dizzy from going around and around and around and around and",
+                "around.  The stairs continue up and down."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6529",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6530"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6528"
+                }
+            },
+            "extras": {}
+        },
+        "6514": {
+            "name": "Path",
+            "description": [
+                "You are on a path in the dwarven village which leads north to the shops",
+                "and south to the corner of the area."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6514",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6515"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6513"
+                }
+            },
+            "extras": {}
+        },
+        "6530": {
+            "name": "Top of stairs",
+            "description": [
+                "You are at the top of the stairs in the castle.  There is an exit",
+                "to the east, and the stairs lead down."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6530",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6531"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6529"
+                }
+            },
+            "extras": {}
+        },
+        "6519": {
+            "name": "Path by Hospital",
+            "description": [
+                "Here the path passes by the Hospital to the north.  It continues",
+                "to the east to the barracks, and to the west."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6519",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6534"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6518"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6520"
+                }
+            },
+            "extras": {}
+        },
+        "6524": {
+            "name": "Back of Barracks",
+            "description": [
+                "Here is the back of the dwarven barracks.  There are rows",
+                "of beds here, and there is a stench that is unbearable."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6524",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6523"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "2001"
+                }
+            },
+            "extras": {}
+        },
+        "6505": {
+            "name": "Entrance to Mountain",
+            "description": [
+                "Here is an entrance to the mountain.  The door looks very well built,",
+                "and you can hear noise coming from within."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6505",
+            "exits": {
+                "west": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6513"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6503"
+                }
+            },
+            "extras": {}
+        },
+        "6503": {
+            "name": "Top of mountain",
+            "description": [
+                "You are now on the top of the mountain.  To the south you see a path",
+                "leading down the mountain.  To the east and west you see entrances to",
+                "what seems like mines."
+            ],
+            "flags_raw": "0 0 0 5",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6503",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path leads down the mountain to the main city.",
+                        ""
+                    ],
+                    "room_id": "6502"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "There is an entrance to the mountain.",
+                        ""
+                    ],
+                    "room_id": "6505"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "An entrance to the mountain which seems to lead underground.",
+                        ""
+                    ],
+                    "room_id": "6540"
+                }
+            },
+            "extras": {}
+        },
+        "6551": {
+            "name": "Mining equipment room",
+            "description": [
+                "This is the storage room for equipment used by the",
+                "Dwarven miners.  It is very small, and you can tell that",
+                "not many miners actually use any equipment."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6551",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6544"
+                }
+            },
+            "extras": {}
+        },
+        "6507": {
+            "name": "Narrow path",
+            "description": [
+                "This path is very narrow, and it continues to the north and west."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6507",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6508"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6506"
+                }
+            },
+            "extras": {}
+        },
+        "6537": {
+            "name": "{*Road to the {&D{*warven {&K{*ingdom {RC{rargo {RC{rourier{x",
+            "description": [
+                "A road wanders off the main path leading up the mountain to the",
+                "Dwarven Kingdom, the path leads back down the eastern side towards the",
+                "Dwarven Kingdom's Cargo Courier Building.  To the south the Holy Grove",
+                "can be seen, along with New Thalos and the Sands of Sorrow in the far",
+                "distance.  A set of large iron gates stands to the east.  "
+            ],
+            "flags_raw": "0 1140858916 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6537",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6536"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "57399"
+                }
+            },
+            "extras": {}
+        },
+        "6518": {
+            "name": "North of Shops",
+            "description": [
+                "Here the path bends to the east towards the barracks. To the",
+                "south you can see the shops."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6518",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6517"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6519"
+                }
+            },
+            "extras": {}
+        },
+        "6536": {
+            "name": "{*Road to the {&D{*warven {&K{*ingdom {RC{rargo {RC{rourier{x",
+            "description": [
+                "A road wanders off the main path leading up the mountain to the",
+                "Dwarven Kingdom, the path leads back down the eastern side towards the",
+                "Dwarven Kingdom's Cargo Courier Building.  To the south the Holy Grove",
+                "can be seen, along with New Thalos and the Sands of Sorrow in the far",
+                "distance. "
+            ],
+            "flags_raw": "0 1140858916 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6536",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6533"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6537"
+                }
+            },
+            "extras": {}
+        },
+        "6546": {
+            "name": "Mine Maze",
+            "description": [
+                "You have entered the maze of the mines.  To the east you",
+                "can see some inscriptions, and you can exit to the south."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6546",
+            "exits": {
+                "south": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6544"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6547"
+                }
+            },
+            "extras": {}
+        },
+        "6528": {
+            "name": "Stairs in castle",
+            "description": [
+                "The stairs continue to circle up and down here."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6528",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6529"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6525"
+                }
+            },
+            "extras": {}
+        },
+        "6540": {
+            "name": "Dark path",
+            "description": [
+                "This path is very well worn, and there is an entrance to the mines to the",
+                "east, while the path continues to the north and west."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6540",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6504"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6503"
+                },
+                "east": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6541"
+                }
+            },
+            "extras": {}
+        },
+        "6534": {
+            "name": "Hospital",
+            "description": [
+                "You are inside the Dwarven Hospital.  It smells like rubbing",
+                "alcohol, and there is blood all over the walls."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6534",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6519"
+                }
+            },
+            "extras": {}
+        },
+        "6509": {
+            "name": "Door to Kingdom",
+            "description": [
+                "Here the path turns to the west.  You can see a door in front of you,",
+                "and the path continues to the west and south."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6509",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6508"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6522"
+                },
+                "east": {
+                    "flags_raw": "6502",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6510"
+                }
+            },
+            "extras": {}
+        },
+        "6525": {
+            "name": "Inside of Castle Strangelove",
+            "description": [
+                "You are just inside the castle.  It is very tubular in shape,",
+                "and it is very featureless.  There is a set of stairs that lead",
+                "up, and the door leads out of the castle to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6525",
+            "exits": {
+                "west": {
+                    "flags_raw": "6514",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6512"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6528"
+                }
+            },
+            "extras": {}
+        },
+        "6517": {
+            "name": "Path to the north of shop",
+            "description": [
+                "You are on a path to the north of the Hide & Tooth shop.  The path",
+                "continues to the north, and there is Granite Head's bakery to the west.  "
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6517",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6516"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6518"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6535"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6563"
+                }
+            },
+            "extras": {}
+        },
+        "6542": {
+            "name": "Inside the mine",
+            "description": [
+                "There are holes everywhere from the places that the workers blew",
+                "away the rock to get to whatever they were looking for.  A path leads",
+                "down and up."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6542",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6541"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6554"
+                }
+            },
+            "extras": {}
+        },
+        "6547": {
+            "name": "Maze inscription",
+            "description": [
+                "You are inside the maze, but not far enough in that you could get lost."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6547",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6548"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6546"
+                }
+            },
+            "extras": {}
+        },
+        "6523": {
+            "name": "First Barrack room",
+            "description": [
+                "Here is the first of two main rooms of barracks.  The",
+                "barracks continue to the south, and you can leave the room",
+                "to the north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6523",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6521"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6524"
+                }
+            },
+            "extras": {}
+        },
+        "6506": {
+            "name": "Bend in Narrow Path",
+            "description": [
+                "This is a narrow path that bends to the east here.  The trees hang over",
+                "the path, and it is very overgrown.  The narrow path continues to the",
+                "south and to the east."
+            ],
+            "flags_raw": "0 8 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6506",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6504"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6507"
+                }
+            },
+            "extras": {
+                "tree trees": {
+                    "description": [
+                        "They hang over the road in the most ominous of ways.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "6552": {
+            "name": "Solved the Maze.",
+            "description": [
+                "You have solved the maze.  You can tell by the last few moves",
+                "that there is no way that a dumb worker could have figured that",
+                "out.  It seems pretty desolate here.  To the west is a bleak room.",
+                "To the east, you see the maze.  There is a sign above the west exit:",
+                "",
+                "    Those who enter, plan on a timely death.",
+                "    Especially if you're loyal to the queen."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6552",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6553"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6550"
+                }
+            },
+            "extras": {}
+        },
+        "6522": {
+            "name": "Guard House",
+            "description": [
+                "You are in the guard house to the west of the entrance",
+                "to the castle.  There are nude posters covering the walls."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6522",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6509"
+                }
+            },
+            "extras": {
+                "poster": {
+                    "description": [
+                        "There is a wall poster of a nude Minne Pearl.",
+                        ""
+                    ]
+                }
+            }
+        }
+    },
+    "uid": "dwarven",
+    "area_quest_points": 0,
+    "credits": "[19 GR 50] The Dwarven Kingdom",
+    "faction_id": "",
+    "vnums": [
+        6500,
+        6599
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "6500": {
+            "name": "the dwarven guard~\n",
+            "description": [
+                "The guard looks very tough and mean.\n"
+            ],
+            "raw_flags5": "stand stand male 500",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "-4 -4 -4 7",
+            "vnum": 6500,
+            "raw_flags": "ABL DJVZ 0 500 0",
+            "race_id": "dwarf",
+            "raw_flags2": "39 0 3d9+333 10d9+100 2d8+5 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dwarven guard is here.\n",
+            "keywords": "oldstyle dwarf guard~\n"
+        },
+        "6501": {
+            "name": "the dwarven worker~\n",
+            "description": [
+                "He is very dirty, and looks extremely over-worked.\n"
+            ],
+            "raw_flags5": "stand stand male 175",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "0 0 0 8",
+            "vnum": 6501,
+            "raw_flags": "AGL JVZ 0 900 0",
+            "race_id": "dwarf",
+            "raw_flags2": "22 0 2d10+150 6d9+100 1d10+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dwarven mining worker is here.\n",
+            "keywords": "oldstyle dwarf worker miner~\n"
+        },
+        "6502": {
+            "name": "the wraith~\n",
+            "description": [
+                "A black, almost transparent wraith.\n"
+            ],
+            "raw_flags5": "stand stand male 2500",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-9 -9 -9 6",
+            "vnum": 6502,
+            "raw_flags": "AB DF 0 -900 0",
+            "race_id": "human",
+            "raw_flags2": "57 0 6d12+778 14d9+100 2d12+8 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A wraith is awaiting your first move here.\n",
+            "keywords": "oldstyle wraith~\n"
+        },
+        "6503": {
+            "name": "the storekeeper~\n",
+            "description": [
+                "The storekeeper is very rotund, but looks like a sharp guy.\n"
+            ],
+            "raw_flags5": "stand stand male 5000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-11 -11 -11 5",
+            "vnum": 6503,
+            "raw_flags": "ABL 0 0 900 0",
+            "race_id": "human",
+            "raw_flags2": "69 0 10d10+1300 17d9+100 4d7+11 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "There is the Hide & Tooth storekeeper standing here, waiting patiently.\n",
+            "keywords": "oldstyle storekeeper~\n"
+        },
+        "6504": {
+            "name": "the baker~\n",
+            "description": [
+                "Granite Head is covered with flour and grains.\n"
+            ],
+            "raw_flags5": "stand stand male 50",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-11 -11 -11 5",
+            "vnum": 6504,
+            "raw_flags": "ABL 0 0 900 0",
+            "race_id": "human",
+            "raw_flags2": "69 0 10d10+1300 17d9+100 4d7+11 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Granite Head, the baker, is waiting for a customer here.\n",
+            "keywords": "oldstyle baker~\n"
+        },
+        "6505": {
+            "name": "the giant lizard~\n",
+            "description": [
+                "This scaly creature looks like it is well adapted to it's underground\n",
+                "habitat.  He looks very powerful.\n"
+            ],
+            "raw_flags5": "stand stand male 60",
+            "raw_flags6": "AGXc ACDEFHKQV medium 0",
+            "raw_flags4": "EFNR 0 L I",
+            "raw_flags3": "-3 -3 -3 7",
+            "vnum": 6505,
+            "raw_flags": "AG D 0 100 0",
+            "race_id": "lizard",
+            "raw_flags2": "36 0 3d9+283 9d9+100 2d7+4 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A giant lizard is here.\n",
+            "keywords": "oldstyle lizard~\n"
+        },
+        "6506": {
+            "name": "the giant~\n",
+            "description": [
+                "The giant is about 8 feet tall, with arms of steel, and looks very strong.\n"
+            ],
+            "raw_flags5": "stand stand male 100",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 EHI JPR",
+            "raw_flags3": "-2 -2 -2 7",
+            "vnum": 6506,
+            "raw_flags": "AG 0 0 0 0",
+            "race_id": "giant",
+            "raw_flags2": "32 0 3d9+233 8d9+100 2d6+4 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M DEATH 6503 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A giant is here.\n",
+            "keywords": "oldstyle giant~\n"
+        },
+        "6507": {
+            "name": "the dwarven miner~\n",
+            "description": [
+                "The mineworker is very tired, and very dirty, and he has bulging muscles.\n"
+            ],
+            "raw_flags5": "stand stand male 2",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "3 3 3 9",
+            "vnum": 6507,
+            "raw_flags": "ABL JZ 0 0 0",
+            "race_id": "dwarf",
+            "raw_flags2": "15 0 2d7+96 4d9+100 1d7+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dwarven miner is here.\n",
+            "keywords": "oldstyle dwarf miner~\n"
+        },
+        "6508": {
+            "name": "the dwarven mine leader~\n",
+            "description": [
+                "The mine leader is very big and very strong.\n"
+            ],
+            "raw_flags5": "stand stand male 1000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "-5 -5 -5 7",
+            "vnum": 6508,
+            "raw_flags": "ABL JZ 0 0 0",
+            "race_id": "dwarf",
+            "raw_flags2": "41 0 4d10+360 10d9+100 4d4+5 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dwarven mine leader is here.\n",
+            "keywords": "oldstyle dwarf leader~\n"
+        },
+        "6509": {
+            "name": "the dwarven doctor~\n",
+            "description": [
+                "He is a very skilled surgeon, with hands of steel.\n"
+            ],
+            "raw_flags5": "stand stand male 75",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "2 2 2 8",
+            "vnum": 6509,
+            "raw_flags": "ABL DJZ H 1000 0",
+            "race_id": "dwarf",
+            "raw_flags2": "17 0 2d6+110 4d9+100 1d8+2 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 6504 100~\n",
+                "M GIVE 6505 6503~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The dwarven doctor is here.\n",
+            "keywords": "oldstyle dwarf doctor~\n"
+        },
+        "6510": {
+            "name": "the dwarven peon~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 3",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "7 7 7 10",
+            "vnum": 6510,
+            "raw_flags": "ABL JZ 0 500 0",
+            "race_id": "dwarf",
+            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dwarven peon is awaiting help here.\n",
+            "keywords": "oldstyle dwarf peon~\n"
+        },
+        "6511": {
+            "name": "the dwarf~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 62",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "2 2 2 8",
+            "vnum": 6511,
+            "raw_flags": "ABL JZ 0 500 0",
+            "race_id": "dwarf",
+            "raw_flags2": "17 0 2d6+110 4d9+100 1d8+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A grinning dwarf is here.\n",
+            "keywords": "oldstyle dwarf~\n"
+        },
+        "6512": {
+            "name": "the unwanted son~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 2",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "2 2 2 8",
+            "vnum": 6512,
+            "raw_flags": "AG JZ 0 250 0",
+            "race_id": "dwarf",
+            "raw_flags2": "18 0 2d6+110 4d9+100 1d8+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An unwanted son is here.  You feel sorry for the guy.\n",
+            "keywords": "oldstyle dwarf son~\n"
+        },
+        "6513": {
+            "name": "the unwanted daughter~\n",
+            "description": [],
+            "raw_flags5": "stand stand female 2",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "1 1 1 8",
+            "vnum": 6513,
+            "raw_flags": "AG JZ 0 250 0",
+            "race_id": "dwarf",
+            "raw_flags2": "19 0 2d7+121 5d9+100 2d4+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An unwanted daughter is here.  You feel sorry for her.\n",
+            "keywords": "oldstyle dwarf daughter~\n"
+        },
+        "6514": {
+            "name": "the barracks guard~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 150",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNR 0 FLQ RS",
+            "raw_flags3": "-2 -2 -2 7",
+            "vnum": 6514,
+            "raw_flags": "ABL JZ 0 100 0",
+            "race_id": "dwarf",
+            "raw_flags2": "31 0 3d9+233 8d9+100 2d6+4 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A barrack guard is here.\n",
+            "keywords": "oldstyle dwarf guard~\n"
+        },
+        "6515": {
+            "name": "the man in waiting~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 348",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-2 -2 -2 7",
+            "vnum": 6515,
+            "raw_flags": "ABL 0 0 300 0",
+            "race_id": "human",
+            "raw_flags2": "29 0 3d9+208 7d9+100 2d6+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A man in waiting is here.  He looks nervous and unsure of himself.\n",
+            "keywords": "oldstyle man~\n"
+        },
+        "6516": {
+            "name": "the mazekeeper~\n",
+            "description": [
+                "He looks VERY tough.\n"
+            ],
+            "raw_flags5": "stand stand male 4000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-9 -9 -9 6",
+            "vnum": 6516,
+            "raw_flags": "ABFL 0 H -1000 0",
+            "race_id": "human",
+            "raw_flags2": "57 0 6d12+778 14d9+100 2d12+8 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A mazekeeper is here.\n",
+            "keywords": "oldstyle mazekeeper~\n"
+        },
+        "6517": {
+            "name": "the giant snake~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 150",
+            "raw_flags6": "AGXYc ADEFKLQVX medium 0",
+            "raw_flags4": "EFNR 0 L I",
+            "raw_flags3": "-2 -2 -2 7",
+            "vnum": 6517,
+            "raw_flags": "ABF 0 0 -1000 0",
+            "race_id": "snake",
+            "raw_flags2": "29 0 3d9+208 7d9+100 2d6+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "There is a giant snake here.\n",
+            "keywords": "oldstyle snake~\n"
+        },
+        "6518": {
+            "name": "Gurrok~\n",
+            "description": [
+                "This dwarf lives and loves his life as a tattoo artist.  His pride in\n",
+                "his work shows on his walls, elaborately decorated with samples of his work.\n",
+                "A veteran of his trade, he is considered the best at what he does, and will\n",
+                "tell you so.  \n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDLQ FLQ RS",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 6518,
+            "raw_flags": "ABGcd CDEFGJLUVZc 0 0 0",
+            "race_id": "dwarf",
+            "raw_flags2": "120 0 50d100+100 50d100+100 15d15+1000 punch",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M SPEECH 6526 yin-yang~\n",
+                "M SPEECH 6525 unicorn~\n",
+                "M SPEECH 6524 crucifix~\n",
+                "M SPEECH 6523 cobra~\n",
+                "M SPEECH 6522 rose~\n",
+                "M SPEECH 6521 eagle~\n",
+                "M SPEECH 6501 list~\n",
+                "M GRALL 6500 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A short, stocky dwarf is here, smoking a thick cigar.\n",
+            "keywords": "gurrok dwarf~\n"
+        }
+    },
+    "realm_id": 4
+}

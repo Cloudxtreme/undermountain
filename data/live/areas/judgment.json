@@ -1,0 +1,816 @@
+{
+    "name": "Judgment ",
+    "id": "judgment",
+    "subroutines": [],
+    "rooms": {
+        "30408": {
+            "name": "Bubba's Bargain Basement",
+            "description": [
+                "You have entered a well-stocked store.  Stacks of boxes are in the rear,",
+                "and you notice weapons racks and suits of armor too.  You stand before",
+                "a wooden counter, behind which sits the shopkeeper.  This is the place",
+                "you go for all your adventuring needs, and they have everything."
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30408",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30406"
+                }
+            },
+            "extras": {}
+        },
+        "30414": {
+            "name": "Court Room",
+            "description": [
+                "With tall marble pillars and harsh stone walls,  this is a",
+                "grandiose room.  Ornate silver fixtures hang from the walls, ",
+                "alight with makou glow; overhead, a silver chandelier throws",
+                "light around the large hall. Rows of wooden chairs face the,",
+                "separated from the  front of the room by a low wall that has",
+                "a swinging gate in the center.  A tall  judge's stand is the",
+                "focal point of the room.  Marble with decorative trim, it is",
+                "taller than anything in the room,  a simple tapestry hanging",
+                "behind it.  To one side sits a jury box, a door to its side."
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30414",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30414"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30414"
+                }
+            },
+            "extras": {}
+        },
+        "30405": {
+            "name": "Maximum Security Jail Cell",
+            "description": [
+                "You find yourself immersed in near-total darkness..  The only light is",
+                "coming from three narrow slits in the heavy iron door.  The whole room has a",
+                "musty odor, as if it hasn't been cleaned in a long time.  The walls are",
+                "completely bare, constructed of solid stone blocks which offer no hope of",
+                "escape.  You even hear the slow drip-drip sound of water in the distance. ",
+                "All in all, it's the perfect dungeon cell.  Too bad you're in it.  "
+            ],
+            "flags_raw": "0 201335820 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30405",
+            "exits": {
+                "north": {
+                    "flags_raw": "30405",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30413"
+                },
+                "east": {
+                    "flags_raw": "30416",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30404"
+                }
+            },
+            "extras": {}
+        },
+        "30413": {
+            "name": "Prisoner's Walk",
+            "description": [
+                "You walk down a cold dark hallway.  Both sides of you large brick has",
+                "been layed to keep prisoners from running off.  The hall is dark, and the",
+                "sound of water dripping echos all the way through it.  To the south is a",
+                "barred door.  Many locks and bolts are attached to the door, making sure no",
+                "one runs out.  "
+            ],
+            "flags_raw": "0 268435456 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30413",
+            "exits": {
+                "south": {
+                    "flags_raw": "30405",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30405"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30412"
+                }
+            },
+            "extras": {}
+        },
+        "30415": {
+            "name": "Visitor's Center",
+            "description": [
+                "You stand at the Visitor's Center of the Order Of Judgement.  To the",
+                "north, a large glass window stands, looking into the prison cell itself.  A",
+                "small chair stands infront of the glass, and behind it, you see a small",
+                "room, with a guard standing against the wall.  "
+            ],
+            "flags_raw": "0 268435464 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30415",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30400"
+                }
+            },
+            "extras": {}
+        },
+        "30400": {
+            "name": "Entrance to the Hall of Judgement",
+            "description": [
+                "As you step into the Hall of Judgement, you are greeted by the",
+                "Officer of the Day.  He looks at you and smiles, wondering if he can",
+                "be of service to you.  "
+            ],
+            "flags_raw": "0 268435456 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30400",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "2907"
+                },
+                "north": {
+                    "flags_raw": "30420",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30401"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30415"
+                }
+            },
+            "extras": {}
+        },
+        "30404": {
+            "name": "Guard room",
+            "description": [
+                "This room has a small desk and simple wooden chair. A guard stands",
+                "here looking bored and waiting for trouble. He is not one to mess ",
+                "with. To the west you see a door with a small window in it. You",
+                "wonder if anyone is inside. You are glad it's not you."
+            ],
+            "flags_raw": "0 469762056 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30404",
+            "exits": {
+                "south": {
+                    "flags_raw": "30415",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30401"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30412"
+                },
+                "west": {
+                    "flags_raw": "30416",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30405"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30402"
+                }
+            },
+            "extras": {}
+        },
+        "30410": {
+            "name": "General's Office and Quarters",
+            "description": [
+                "You Stand in the General's office and quarters.  There is a desk here",
+                "with many parchments scattered atop it.  On the wall beside the desk are",
+                "hung many sketches of people wanted for various crimes, some of them you",
+                "think you recognize.  To the other side of the room is a simple but",
+                "comfortable bunk, and a footlocker for holding the General's belongings. ",
+                "Better not let him catch you snooping.  To the north, a large doorway, with",
+                "a very well carved doorframe stands.  In the doorway, a swirling portal",
+                "leads to the AccoMaxx Base of The Legion.  "
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30410",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30406"
+                }
+            },
+            "extras": {}
+        },
+        "30412": {
+            "name": "Prisoner's Walk",
+            "description": [
+                "Welcome to Prisoner's Walk.  Many criminals have walk this path, going in",
+                "and out of jail.  To the north is a large iron door, with the letters",
+                "painted on it \"Order Of Judgement\" >Private<.  To the south is another iron",
+                "door, which says \"Outter Cell Block\".  The hallway goes to the west.  "
+            ],
+            "flags_raw": "0 268435456 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30412",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30413"
+                },
+                "south": {
+                    "flags_raw": "30405",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30404"
+                }
+            },
+            "extras": {}
+        },
+        "30407": {
+            "name": "Order's Training Room",
+            "description": [
+                "You have entered a plain stone walled room.  Strewn about the room are",
+                "the devices which the Order's members use to train their abilities.",
+                "There are weights for strength training, and spellbooks for those who",
+                "are more inclined towards that type of combat.  There are even a few",
+                "trainers here willing to spar you."
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30407",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30409"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30406"
+                }
+            },
+            "extras": {}
+        },
+        "30403": {
+            "name": "Cold stone cell",
+            "description": [
+                "You are in a barren concrete cell.  The only light is from a small",
+                "opening in the door.  The opening has several steel bars blocking your",
+                "attempts to escape.  There is a small cot here with tattered blankets",
+                "to keep you covered.  There is no escape.  "
+            ],
+            "flags_raw": "0 469771272 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30403",
+            "exits": {
+                "east": {
+                    "flags_raw": "30421",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30401"
+                }
+            },
+            "extras": {}
+        },
+        "30402": {
+            "name": "Cold stone cell",
+            "description": [
+                "You are in a barren concrete cell.  The only light is from a small",
+                "opening in the door.  The opening has several steel bars blocking your",
+                "attempts to escape.  There is a small cot here with tattered blankets",
+                "to keep you covered.  There is no escape.  "
+            ],
+            "flags_raw": "0 268435464 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30402",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30404"
+                }
+            },
+            "extras": {}
+        },
+        "30409": {
+            "name": "Order's Practice Room",
+            "description": [
+                "You have entered another plain, stone-walled room.  This is where the",
+                "members of the Order come to practice their combat skills.  The practice",
+                "dummies in the room are used to train skills in fighting.  You notice",
+                "that there are sword marks on the walls, and part of the floor is",
+                "scorched from a missed spell.  The dummies are in much worse shape than",
+                "the rest of the room, and one is even decapitated."
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30409",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30407"
+                }
+            },
+            "extras": {}
+        },
+        "30416": {
+            "name": "Jailer's Visitor's Center",
+            "description": [
+                "You stand in the Jailer's Visitor Center.  A small glass window looks to",
+                "the south into the public visiting center.  Behind you, a jail guard stands,",
+                "watching your every move.  "
+            ],
+            "flags_raw": "0 201337868 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30416",
+            "exits": {},
+            "extras": {}
+        },
+        "30498": {
+            "name": "Tyr's Personal Room",
+            "description": [
+                "You are in Tyr's meditation room.  Piles and stacks of books and issues",
+                "of law surround a mat ready to be written down in the life of man.  A aura",
+                "of magnificance vibrates throughout the room making it hum in holiness.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30498",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30499"
+                }
+            },
+            "extras": {}
+        },
+        "30406": {
+            "name": "Barracks in the Hall of Judgement",
+            "description": [
+                "You see an enormous open-bay room. There are many sets of bunk beds ",
+                "lining the walls. There is a pool for healing wounds located in the",
+                "center of the room. Stop and heal yourself...then get back to ",
+                "work, for there is much to be done."
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30406",
+            "exits": {
+                "south": {
+                    "flags_raw": "30405",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30412"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30410"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30407"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30408"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30411"
+                }
+            },
+            "extras": {}
+        },
+        "30411": {
+            "name": "Portals of Judgement",
+            "description": [
+                "The portals you see here will take you quickly to many places to dispatch",
+                "justice upon those criminal elements we are sworn to punish.",
+                "Portal exits lead in all directions, and down takes you back to the ",
+                "main hall."
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30411",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "19988"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6788"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "3014"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30406"
+                }
+            },
+            "extras": {}
+        },
+        "30401": {
+            "name": "Hallway",
+            "description": [
+                "You stand in a stone cold concrete hallway.  There are no frills",
+                "here, for comfort is not the intent.  You notice a barren cell on",
+                "either side, and you try to see if they are currently occupied.  There",
+                "is a guard stationed here, hoping for a jail break.  "
+            ],
+            "flags_raw": "0 268435464 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "30401",
+            "exits": {
+                "north": {
+                    "flags_raw": "30415",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30404"
+                },
+                "west": {
+                    "flags_raw": "30421",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30403"
+                },
+                "south": {
+                    "flags_raw": "30420",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30400"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "judgment",
+    "area_quest_points": 0,
+    "credits": "[ ClnHll ] Order of Judgement",
+    "faction_id": "",
+    "vnums": [
+        30400,
+        30499
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "30400": {
+            "name": "Officer of the Day~\n",
+            "description": [
+                "A uniformed officer stands here, ready to assist you.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "DEFKO A HJO 0",
+            "raw_flags3": "-50 -50 -50 -50",
+            "vnum": 30400,
+            "raw_flags": "AB DFVc 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "140 300 50d10+30000 10d10+140 5d7+80 beating",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M RANDOM 30420 20~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A uniformed officer stands here, ready to assist you.\n",
+            "keywords": "uniformed officer~\n"
+        },
+        "30401": {
+            "name": "a prison guard~\n",
+            "description": [],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX giant flesh",
+            "raw_flags4": "ACEIN CHJNO BCDEGHIJKLMNS F",
+            "raw_flags3": "-150 -150 -150 -150",
+            "vnum": 30401,
+            "raw_flags": "A EFJTVa CDEHN 1000 0",
+            "race_id": "dragon",
+            "raw_flags2": "106 10000 100d200+15000 60d622+16271 60d20+4607 wrath",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F vul I\n",
+                "M RANDOM 30420 20~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A guard stands here, waiting for touble.\n",
+            "raw_vulns": "I",
+            "keywords": "prison guard~\n"
+        },
+        "30402": {
+            "name": "prisoner~\n",
+            "description": [
+                "You see a frail old man here. He is begging for some food, or maybe death, just something to stop his pain.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 A 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 30402,
+            "raw_flags": "AG 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "30 0 1d1+100 1d1+100 1d1+100 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A frail prisoner is here, forgotten to all\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "prisoner~\n"
+        },
+        "30403": {
+            "name": "dummy~\n",
+            "description": [
+                "I am a practice dummy KILL ME !\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "EFK ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 30403,
+            "raw_flags": "AB 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "0 0 2d2+100 0d0+0 0d0+0 beating",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Practice Dummy stands here.\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "practice dummy~\n"
+        },
+        "30404": {
+            "name": "{&Ja-Aron {*the {#S{3o{#lar {6Aa{&s{6i{&m{6o{&n{0~\n",
+            "description": [
+                "{&This {6Aa{&s{6i{&m{6o{&n stands over 20 feet tall, his muscular\n",
+                "physique dominating your presence.  An {5Au{%r{5a{& of power radiats from\n",
+                "his body, and you feel it would be wise to not anger him.  He carries a\n",
+                "large sword, its edge {*gl{&ea{*m{&i{*ng{& and {*razor{& sharp.  Slung over\n",
+                "his shoulder is a two-handed {7dragonbone{& bow, with a quiver of\n",
+                "{6sh{^i{6mm{^e{6r{^i{6ng{& arrows at his waist.  {0 \n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "ACHMV ABCDEFGHIJKP giant unknown",
+            "raw_flags4": "CFGHJKQ ABLNQRS CDFGHIJK M",
+            "raw_flags3": "-130 -130 -130 -130",
+            "vnum": 30404,
+            "raw_flags": "Ad CDFGJLTUVZbc HNO 1000 0",
+            "race_id": "human",
+            "raw_flags2": "105 750 25000d25+0 25000d25+0 20d20+500 slice",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GRALL 30403 25~\n",
+                "M FIGHT 30402 80~\n",
+                "M FIGHT 30401 10~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{*A {5M{%a{5jest{%i{5c {6Aa{&s{6i{&m{6o{&n{* stands inches above the ground.{0\n",
+            "keywords": "Ja-Aron the Solar Aasimon~\n"
+        },
+        "30405": {
+            "name": "Sammath, the leper jailkeeper~\n",
+            "description": [
+                "{&He peers at you vacantly with pus-filled eyes, making sure you will not\n",
+                "{&attempt an escape from this stagnant hole.  His job is to nourish you with\n",
+                "{&the goodies in his lice-infested bag.{x\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 CD 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 30405,
+            "raw_flags": "ABGd 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "105 0 1d1+1 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M SPEECH 30407 thirsty~\n",
+                "M SPEECH 30405 food~\n",
+                "M SPEECH 30405 hungry~\n",
+                "M ACT 30406 gods fall down laughing~\n",
+                "M ACT 30408 drops a stale and mold-covered piece of crust~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A form scarcely recognizable as human stands here oozing pus from open sores.\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "sammath leper jailkeeper~\n"
+        },
+        "30406": {
+            "name": "Bubba the shop keeper~\n",
+            "description": [],
+            "raw_flags5": "sit sit none 0",
+            "raw_flags6": "0 ACEFGKQUW medium unknown",
+            "raw_flags4": "0 ABCD 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 30406,
+            "raw_flags": "A 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "0 0 10000d10+-31072 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par BDHIJ\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Bubba the shopkeeper of justice.\n",
+            "raw_parts": "BDHIJ",
+            "keywords": "bubba shopkeeper~\n"
+        },
+        "30408": {
+            "name": "Bubba~\n",
+            "description": [
+                "Bubba is a large, broad-shouldered fellow of about forty.  He's retired\n",
+                "from actual fighting, but he stays in the clan hall to sell supplies\n",
+                "to those who need them.\n"
+            ],
+            "raw_flags5": "stand stand male 1000000",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 ABCD 0 0",
+            "raw_flags3": "-100 -100 -100 -100",
+            "vnum": 30408,
+            "raw_flags": "AB 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "101 0 1d1+29999 2d10+100 1d1+99 punch",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Bubba, the store owner, paces back and forth behind the counter.\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "bubba shopkeeper~\n"
+        },
+        "30414": {
+            "name": "the judge~\n",
+            "description": [
+                "Clad in a black robe, he sit with a sense of confidence than makes\n",
+                "him an inposing figure.  He is elderly, wrinkles creasing his ruddy\n",
+                "skin, and a hint of white hair peeks out from under his white, rolled\n",
+                "wig.  One crooked hand clasps his gravel, and his eyes are hard and\n",
+                "cold, as though he has already decided the fate of the next person who\n",
+                "comes before him.  \n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 30414,
+            "raw_flags": "ABV 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "100 0 1d1+1 1d1+1 1d1+1 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A regal-looking judge stares down from the stand.\n",
+            "keywords": "regal judge~\n"
+        },
+        "30415": {
+            "name": "a jury member~\n",
+            "description": [
+                "He looks rather bland and unassuming.  There is not much of note,\n",
+                "and he stares back at you silently, waiting to decide some poor soul's\n",
+                "fate.  \n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 30415,
+            "raw_flags": "ABV 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "100 0 1d1+1 1d1+1 1d1+1 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M RANDOM 30414 40~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The jury stands here stoically.\n",
+            "keywords": "jury member~\n"
+        }
+    },
+    "realm_id": 4
+}

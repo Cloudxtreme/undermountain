@@ -1,0 +1,4948 @@
+{
+    "name": "Divided Souls",
+    "id": "divsouls",
+    "subroutines": [],
+    "rooms": {
+        "11615": {
+            "name": "Quiet Tunnel",
+            "description": [
+                "A narrow north-south tunnel has been carved from the packed clay here.  Light",
+                "filters in through an opening in the ceiling.  The rhythmic dripping of water",
+                "is audible to the north, where the tunnel widens into a large cave."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11615",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A large cave is visible to the north.",
+                        ""
+                    ],
+                    "room_id": "11616"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Light filters through a hole in the low ceiling.",
+                        ""
+                    ],
+                    "room_id": "11606"
+                }
+            },
+            "extras": {}
+        },
+        "11672": {
+            "name": "Shadowy Clearing",
+            "description": [
+                "Tall pine trees frame a dark circular clearing here.  A path crosses the",
+                "clearing and bends north and east.  Two ancient trees, one black oak and one",
+                "white, face each other to the east and west, casting long shadows across",
+                "the earthen floor."
+            ],
+            "flags_raw": "0 1 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11672",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dirt path winds into the trees to the north.",
+                        ""
+                    ],
+                    "room_id": "11673"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dirt path winds into the forest to the east.",
+                        ""
+                    ],
+                    "room_id": "11674"
+                }
+            },
+            "extras": {}
+        },
+        "11679": {
+            "name": "Meeting Chamber",
+            "description": [
+                "A huge chamber has been carved from the packed clay here.  A semicircular",
+                "stone table dominates the center of the floor.  Along the inner edge of",
+                "the table stands a grey oak chair flanked by two chairs of white and black",
+                "oak.  Plainer redwood chairs line the outer edge.  A narrow tunnel exits",
+                "the chamber to the west."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11679",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a narrow tunnel to the west.",
+                        ""
+                    ],
+                    "room_id": "11678"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You notice the dark edges of an opening beneath the round base of the",
+                        "stone table.",
+                        ""
+                    ],
+                    "room_id": "11680"
+                }
+            },
+            "extras": {
+                "semicircular stone table": {
+                    "description": [
+                        "A huge semicircular table made of dark grey stone.  Closer inspection",
+                        "reveals a dark opening beneath the round base of the table.",
+                        ""
+                    ]
+                },
+                "white grey black chair": {
+                    "description": [
+                        "Three large chairs of white, grey, and black oak line are set along the",
+                        "inside edge of the table.  Engraved in the back of each chair, you notice",
+                        "the insignia of a diving hawk.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11614": {
+            "name": "Hole",
+            "description": [
+                "The center of the floor drops away into a churning multicolored void.",
+                "Go down if you dare.."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11614",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A bone ladder leads up.",
+                        ""
+                    ],
+                    "room_id": "11613"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A hole drops away into a churning void below.",
+                        ""
+                    ],
+                    "room_id": "11685"
+                }
+            },
+            "extras": {
+                "multicolored void": {
+                    "description": [
+                        "A mass of multiple color churns and spins below.  Your guts twist, and you",
+                        "are forced to look away.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11697": {
+            "name": "Down a Mole Hole",
+            "description": [
+                "Something has dug a narrow north-south tunnel here.  Light streams in",
+                "through the opening above, drying the fresh dirt."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11697",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The mole hole continues north.",
+                        ""
+                    ],
+                    "room_id": "11698"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the red brick road above.",
+                        ""
+                    ],
+                    "room_id": "11690"
+                }
+            },
+            "extras": {}
+        },
+        "11647": {
+            "name": "Inside the Mouth",
+            "description": [
+                "You stand on the stone tongue inside the cavernous mouth of the sculpture.",
+                "The shape of the slippery tongue seems to writhe even as you stand on it,",
+                "preventing both exit from the mouth and movement farther into it.  A",
+                "weighted rope, vaguely tonsil-shaped, ascends through an opening above."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11647",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A rope leads up to an opening above.",
+                        ""
+                    ],
+                    "room_id": "11648"
+                }
+            },
+            "extras": {}
+        },
+        "11690": {
+            "name": "Another Intersection.",
+            "description": [
+                "Oh god.. not another intersection.  The road loops around itself so many",
+                "times that it's amazing it ever goes anywhere.  As you watch, the intersection",
+                "rearranges itself again, nearly taking your lunch with it.  The bricks at one",
+                "edge of the road have been torn out, revealing a dark hole leading down."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11690",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "More brick road.",
+                        ""
+                    ],
+                    "room_id": "11689"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "More brick road.",
+                        ""
+                    ],
+                    "room_id": "11691"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a small white office.",
+                        ""
+                    ],
+                    "room_id": "11694"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dark hole leads beneath the road.",
+                        ""
+                    ],
+                    "room_id": "11697"
+                }
+            },
+            "extras": {}
+        },
+        "11650": {
+            "name": "Damp Cavern",
+            "description": [
+                "A rhythmic dripping echoes through the large stone chamber.  Rivulets ",
+                "of water run down the stalagtites clinging to the ceiling, collecting to",
+                "form a large, round pool in the center of the cave.  A narrow passage",
+                "exits the cave to the north."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11650",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A passage leads north out of the cave.",
+                        ""
+                    ],
+                    "room_id": "11649"
+                }
+            },
+            "extras": {}
+        },
+        "11627": {
+            "name": "Mossy Cave",
+            "description": [
+                "A small natural cave is set into the grey-white rocks of the lake here.  ",
+                "Patches of phosphorescent green blue moss dot the slick cave walls, glowing",
+                "eerily in the mist.  A clump of large bushes to the east shields the cave",
+                "from the rest of the lake."
+            ],
+            "flags_raw": "0 8 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11627",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The misty lake is visible through the bushes to the east.",
+                        ""
+                    ],
+                    "room_id": "11626"
+                }
+            },
+            "extras": {
+                "bushes": {
+                    "description": [
+                        "Large bushes shield the cave from the misty lake to the east.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11687": {
+            "name": "Entrance to the Funny Farm",
+            "description": [
+                "Brilliant purple fences wall off rows of animal pens.  Aside from the",
+                "barking cats and flying pigs, this could be a cosy little farm..",
+                "A purple farmhouse is visible in the distance."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11687",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A red brick road runs north.",
+                        ""
+                    ],
+                    "room_id": "11686"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The farm continues east.",
+                        ""
+                    ],
+                    "room_id": "11688"
+                }
+            },
+            "extras": {}
+        },
+        "11648": {
+            "name": "Beneath the churning void",
+            "description": [
+                "You hang suspended on a heavy rope halfway up a narrow stone chute.",
+                "The rope disappears into the center of what appears to be a churning",
+                "multicolored void.  Who know where it may lead.."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11648",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The rope disappears into a multicolored void above.",
+                        ""
+                    ],
+                    "room_id": "11692"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The rope descends to a dark cavern below.",
+                        ""
+                    ],
+                    "room_id": "11647"
+                }
+            },
+            "extras": {}
+        },
+        "11696": {
+            "name": "Inside the Toilet",
+            "description": [
+                "Oh yuck.. what are you doing inside the toilet?  The stench is awful, and",
+                "what's worse.. claw marks on the walls indicate that something has made",
+                "its home here."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11696",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the toilet seat above.",
+                        ""
+                    ],
+                    "room_id": "11695"
+                }
+            },
+            "extras": {}
+        },
+        "11654": {
+            "name": "Damp Stairwell",
+            "description": [
+                "Slippery stone stairs wind down into the darkness.  Threads of light filter",
+                "in from above, where a wide trapdoor is set into the ceiling."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11654",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The stairwell ends at a trapdoor above.",
+                        ""
+                    ],
+                    "room_id": "11652"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The stairwell continues down into darkness.",
+                        ""
+                    ],
+                    "room_id": "11655"
+                }
+            },
+            "extras": {}
+        },
+        "11692": {
+            "name": "Checkered Clearing",
+            "description": [
+                "Patches of alternating blue and yellow flowers cover the wide clearing",
+                "with a checkered carpet.  The ground dips and rises, forming shallow hills",
+                "and valleys across the clearing.  As you watch, the ground moves, and a hill",
+                "forms beneath your feet.  "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11692",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A twisting red brick road leads north.",
+                        ""
+                    ],
+                    "room_id": "11691"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The clearing continues west.",
+                        ""
+                    ],
+                    "room_id": "11693"
+                }
+            },
+            "extras": {}
+        },
+        "11662": {
+            "name": "Deep among the haunted hills",
+            "description": [
+                "The icy winds batter at you like vengeful ghosts.  You can almost make out",
+                "words in the howling gusts..  The path branches east and west here and",
+                "continues south out of the hills."
+            ],
+            "flags_raw": "0 8193 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11662",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues south.",
+                        ""
+                    ],
+                    "room_id": "11660"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues west.",
+                        ""
+                    ],
+                    "room_id": "11665"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues east.",
+                        ""
+                    ],
+                    "room_id": "11663"
+                }
+            },
+            "extras": {}
+        },
+        "11665": {
+            "name": "Dead end",
+            "description": [
+                "The narrow path ends abruptly at a sheer rock face.  To the north, stunted",
+                "grey shrubs grow from between huge, stacked boulders."
+            ],
+            "flags_raw": "0 8193 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11665",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "One of the boulders near the bottom appears to be slightly separate from the",
+                        "others.",
+                        ""
+                    ],
+                    "room_id": "11666"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path returns east.",
+                        ""
+                    ],
+                    "room_id": "11662"
+                }
+            },
+            "extras": {
+                "boulder boulders stone huge rock face shrubs": {
+                    "description": [
+                        "One of the boulders near the bottom appears to be slightly separate from the",
+                        "others.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11659": {
+            "name": "Open Courtyard",
+            "description": [
+                "Tall marble pillars frame a wide circular courtyard of black granite.  A",
+                "forbidding archway enters into a dark, sprawling building to the south.",
+                "To the north, a narrow path winds away from the courtyard into a range of",
+                "low, dark hills."
+            ],
+            "flags_raw": "0 8193 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11659",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hills to the north seem somehow grey and dead.  A path disappears into ",
+                        "their midst.",
+                        ""
+                    ],
+                    "room_id": "11660"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A huge, dark building looms to the south.  An open archway enters the building",
+                        "from the southern end of the courtyard.",
+                        ""
+                    ],
+                    "room_id": "11658"
+                }
+            },
+            "extras": {}
+        },
+        "11670": {
+            "name": "Tunnel of Darkness",
+            "description": [
+                "You find yourself in a dark tunnel.  Shafts of dim light enter the through",
+                "the tunnel mouth to the east, to be absorbed as soon as they touch the",
+                "black walls."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11670",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Dim light is visible to the west.",
+                        ""
+                    ],
+                    "room_id": "11671"
+                }
+            },
+            "extras": {}
+        },
+        "11607": {
+            "name": "Hippo Fountain",
+            "description": [
+                "A tall marble fountain, carved in the form of two frolicking white hippos cuts",
+                "the path here.  Water spews from one hippo's mouth into the basin below.",
+                "While the sculpture is evidently someone's idea of artistry, it seems almost",
+                "grotesque, especially since the hippo acting as the fountain appears to be ",
+                "barfing on the other..  Marble steps lead into the gazebo to the south.  ",
+                "The dirt path continues west and east around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11607",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Steps enter a white gazebo to the south.  Some vague forms are visible within",
+                        "the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11611"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues west around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11608"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues east around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11606"
+                }
+            },
+            "extras": {
+                "white gazebo": {
+                    "description": [
+                        "Some vague forms are visible within the gazebo to the south.",
+                        ""
+                    ]
+                },
+                "marble fountain hippos": {
+                    "description": [
+                        "Though seemingly innocent, a shadow of depravity hangs about the white",
+                        "fountain.. or maybe it's just your imagination.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11600": {
+            "name": "Intersection on a Pebbled Path",
+            "description": [
+                "Shiny white pebbles form a narrow path between tall hedges running",
+                "north and south.  A large well is visible through a break in the",
+                "hedges to the east.  Above swirls the planescape of the galaxy,",
+                "strangely accessible from this room.  A brass plaque rests against the",
+                "hedges at the edge of the path.  "
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11600",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Tendrils of mist snake across the path to the south.",
+                        ""
+                    ],
+                    "room_id": "11624"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The pebbled path follows the hedges north.",
+                        ""
+                    ],
+                    "room_id": "11601"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A well rises from the center of a clearing in the hedges to the east.",
+                        ""
+                    ],
+                    "room_id": "11622"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9302"
+                }
+            },
+            "extras": {
+                "well": {
+                    "description": [
+                        "A large granite well is visible to the east.",
+                        ""
+                    ]
+                },
+                "brass plaque": {
+                    "description": [
+                        "It reads:",
+                        "",
+                        "Remember:",
+                        "  Life consists of a balance of forces, and nothing can exist without contrast.",
+                        "                                                             ",
+                        "  Where there is light, there is shadow                   {B+++++{x",
+                        "  Where there is friendship, there is loneliness         {B+{W+    {B+{x",
+                        "  Where there is joy, there is pain                     {B+{W+   +  {B+{x",
+                        "  Where there is hope, there is despair                {B+{W+++      {B+{x",
+                        "  Where there is life, there is death.                 {B+{W+++++    {B+{x",
+                        "                                                       {B+{W++ +++   {B+{x",
+                        "  Be careful.                                           {B+{W+++++  {B+{x",
+                        "                                                         {B+{W+++  {B+{x",
+                        "--                                                        {B+++++{x",
+                        "  {GDivided Souls written by Ydri.  3/96{x                      ",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11641": {
+            "name": "Dark corridor",
+            "description": [
+                "The dark corridor runs west and east here.  To the north, black marble steps",
+                "lead up to a pair of bloodstained bronze doors."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11641",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Streaks of dried blood spatter the bronze doors to the north.",
+                        ""
+                    ],
+                    "room_id": "11645"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues west.",
+                        ""
+                    ],
+                    "room_id": "11640"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues east.",
+                        ""
+                    ],
+                    "room_id": "11642"
+                }
+            },
+            "extras": {}
+        },
+        "11638": {
+            "name": "Dark corridor",
+            "description": [
+                "The dark corridor runs east and south here.  A feeling of forboding permeates",
+                "the air.  It seems like the walls are watching.."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11638",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues south.",
+                        ""
+                    ],
+                    "room_id": "11639"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues east.",
+                        ""
+                    ],
+                    "room_id": "11637"
+                }
+            },
+            "extras": {}
+        },
+        "11691": {
+            "name": "Red Brick Road",
+            "description": [
+                "The brick road twists east and south through the void."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11691",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The road enters a wide, checkered clearing to the south.",
+                        ""
+                    ],
+                    "room_id": "11692"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see an intersection to the east.",
+                        ""
+                    ],
+                    "room_id": "11690"
+                }
+            },
+            "extras": {}
+        },
+        "11667": {
+            "name": "Dark Cavern",
+            "description": [
+                "Darkness envelopes the cavern, seeming to soak up even the dim light as",
+                "if a vacuum..  A glimmer of light is visible to the east."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11667",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A glimmer of light filters through an opening to the east.",
+                        ""
+                    ],
+                    "room_id": "11666"
+                }
+            },
+            "extras": {}
+        },
+        "11661": {
+            "name": "Sheltered valley",
+            "description": [
+                "The hills rise steeply on all sides, forming a small valley protected from",
+                "the chilling winds.  Grey brush, leafless and dead-looking, ring the valley,",
+                "casting eerie shadows along the grassy floor.  A path exits the valley to",
+                "the east."
+            ],
+            "flags_raw": "0 8193 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11661",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A narrow path leads out of the valley to the east.",
+                        ""
+                    ],
+                    "room_id": "11660"
+                }
+            },
+            "extras": {}
+        },
+        "11613": {
+            "name": "Inside Artwork",
+            "description": [
+                "The green of a lush garden is visible through the twisting lattice of bones",
+                "forming the walls of this structure.  A ladder disappears into a hole in the",
+                "center of the ground."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11613",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The writhing bones of the floor part in the center, leaving a large hole.",
+                        "A white bone ladder disappears into the darkness.",
+                        ""
+                    ],
+                    "room_id": "11614"
+                }
+            },
+            "extras": {
+                "ladder": {
+                    "description": [
+                        "A bone ladder leads into the hole in the floor.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11694": {
+            "name": "Clinic",
+            "description": [
+                "You stand in a little white office.  A window faces east onto the churning",
+                "void outside.  A long leather couch dominates the center of the office."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11694",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a twisting red brick road to the north.",
+                        ""
+                    ],
+                    "room_id": "11690"
+                }
+            },
+            "extras": {}
+        },
+        "11636": {
+            "name": "Chamber of the High Priest",
+            "description": [
+                "Black marble walls frame a large circular room and a high stone ceiling",
+                "supported by marble pillars.  Dull brownish patches dot the polished walls",
+                "where spattered blood has dried."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11636",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A black door is set into the east wall.",
+                        ""
+                    ],
+                    "room_id": "11635"
+                }
+            },
+            "extras": {}
+        },
+        "11649": {
+            "name": "Narrow Passageway",
+            "description": [
+                "You find yourself in a narrow stone passageway leading south.  The low",
+                "ceiling forces all but the shortest to stoop in order to pass through.",
+                "A skeleton is embedded in the rock below."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11649",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues south.",
+                        ""
+                    ],
+                    "room_id": "11650"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The white bones of a skeleton gleam sharply against the dark stone floor.",
+                        ""
+                    ],
+                    "room_id": "11642"
+                }
+            },
+            "extras": {}
+        },
+        "11685": {
+            "name": "",
+            "description": [
+                "You find yourself standing on a wooden platform floating in the middle of",
+                "a multicolored void.  What looks like a shimmering rip in the void hovers ",
+                "within reach overhead.  A ribbon of white light twists into the void to ",
+                "the east."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11685",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Though apparently made solely of white light, the ribbon appears sturdy ",
+                        "enough to walk on.",
+                        ""
+                    ],
+                    "room_id": "11684"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A rip in the fabric of the void shimmers overhead.",
+                        ""
+                    ],
+                    "room_id": "11614"
+                }
+            },
+            "extras": {
+                "ribbon white light": {
+                    "description": [
+                        "Though apparently made solely of white light, the ribbon appears sturdy ",
+                        "enough to walk on.",
+                        ""
+                    ]
+                },
+                "rip": {
+                    "description": [
+                        "A rip in the fabric of the void shimmers overhead.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11695": {
+            "name": "Inside an Outhouse",
+            "description": [
+                "You find yourself inside a narrow, white walled outhouse, wedged between",
+                "the door and a really Big toilet.  Probably one of those times when you",
+                "reeally don't want to look down.."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11695",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A red brick road leads west.",
+                        ""
+                    ],
+                    "room_id": "11683"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "so that's what I had for lunch..",
+                        ""
+                    ],
+                    "room_id": "11696"
+                }
+            },
+            "extras": {}
+        },
+        "11622": {
+            "name": "Stone Well",
+            "description": [
+                "You stand in a wide grassy clearing framed by high hedges.  To one side,",
+                "a stone well rises from the turf."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11622",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A pebbled path is visible to the west.",
+                        ""
+                    ],
+                    "room_id": "11600"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A ladder affixed to the side of the well descends into darkness.",
+                        ""
+                    ],
+                    "room_id": "11623"
+                }
+            },
+            "extras": {
+                "stone well": {
+                    "description": [
+                        "Blocks of smooth grey stone have been fitted and mortared together to form",
+                        "a wide well.  A ladder attached to one stone side descends into the darkness.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11616": {
+            "name": "Mirror Pool",
+            "description": [
+                "Wet walls of packed clay frame a huge circular cave.  Water drips from crevices",
+                "in the ceiling and walls, flowing in rivulets and small streams to form a ",
+                "clear, flat pool in the center of the cavern."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11616",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A narrow tunnel leads south.",
+                        ""
+                    ],
+                    "room_id": "11615"
+                }
+            },
+            "extras": {}
+        },
+        "11644": {
+            "name": "Dark corridor",
+            "description": [
+                "The dark corridor runs west and south here.  A narrow marble archway opens",
+                "east into a large room."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11644",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues south.",
+                        ""
+                    ],
+                    "room_id": "11643"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor intersects an onyx hallway to the west.",
+                        ""
+                    ],
+                    "room_id": "11637"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A twisting black figure is visible through the archway to the east.",
+                        ""
+                    ],
+                    "room_id": "11646"
+                }
+            },
+            "extras": {}
+        },
+        "11664": {
+            "name": "Shadowed Clearing",
+            "description": [
+                "The dark brush grows thickly here, forming a shadowed clearing between the",
+                "hills.  Silent shapes seem to flicker among the brush in your peripheral",
+                "vision, but are never visible when you turn to look.  A narrow path leads",
+                "south out of the clearing."
+            ],
+            "flags_raw": "0 8193 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11664",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A path exits the clearing to the south.",
+                        ""
+                    ],
+                    "room_id": "11663"
+                }
+            },
+            "extras": {}
+        },
+        "11688": {
+            "name": "Amidst the Animal Pens",
+            "description": [
+                "You stand among the purple animal pens.  Closer up, you notice that the",
+                "farmhouse is tilted to one side, as if part of the foundation has sunken in.",
+                "You also notice the corner of a bed sticking out of the outhouse door..",
+                "and judging from the odor of the house, people are living in the outhouse",
+                "and using the farmhouse for um..  "
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11688",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The farm continues west.",
+                        ""
+                    ],
+                    "room_id": "11687"
+                }
+            },
+            "extras": {}
+        },
+        "11640": {
+            "name": "Dark corridor",
+            "description": [
+                "The corridor branches north and east here.  A stone archway leads west into",
+                "a large hall.  Huge, forbidding double doors loom over the corridor to the ",
+                "south."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11640",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A pair of huge black steel doors are set into the southern wall.",
+                        ""
+                    ],
+                    "room_id": "11651"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues north.",
+                        ""
+                    ],
+                    "room_id": "11639"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A stone archway opens onto a large hall to the west.",
+                        ""
+                    ],
+                    "room_id": "11652"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues east.",
+                        ""
+                    ],
+                    "room_id": "11641"
+                }
+            },
+            "extras": {}
+        },
+        "11626": {
+            "name": "Misty Lake",
+            "description": [
+                "Cool, dense mist swirls around you, limiting vision to less than a meter.",
+                "The lake bottom is dotted with large grey-white boulders and clumps of ",
+                "slippery grass.  To the north, the lakeshore ascends above the mist.  The ",
+                "lake continues south."
+            ],
+            "flags_raw": "0 1 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11626",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You can exit the lake to the north.",
+                        ""
+                    ],
+                    "room_id": "11625"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A clump of large bushes is nestled between the boulders to the west.  There",
+                        "appears to be an opening behind the bushes.",
+                        ""
+                    ],
+                    "room_id": "11627"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "An opening between clumps of boulders is visible to the south.",
+                        ""
+                    ],
+                    "room_id": "11628"
+                }
+            },
+            "extras": {
+                "bushes": {
+                    "description": [
+                        "Two large bushes grow out of the boulders to the west.  There appears to be",
+                        "an opening behind them.",
+                        ""
+                    ]
+                },
+                "boulders stones": {
+                    "description": [
+                        "Large white-streaked grey boulders dot the lake floor.  An opening between",
+                        "the boulders is visible to the south.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11686": {
+            "name": "Something Like an Intersection",
+            "description": [
+                "The brick road loops under and over itself, shooting off in various",
+                "directions.  It would resemble a knot more than an intersection except",
+                "that this is supposed to lead somewhere.  Then again..",
+                "As you watch, the intersection seems to twist and change."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11686",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Twisting red brick road.",
+                        ""
+                    ],
+                    "room_id": "11683"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Twisting red brick road.",
+                        ""
+                    ],
+                    "room_id": "11689"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Twisting red brick road.",
+                        ""
+                    ],
+                    "room_id": "11687"
+                }
+            },
+            "extras": {}
+        },
+        "11645": {
+            "name": "Bloody Altar",
+            "description": [
+                "A black marble dais dominates the room.  Mounted in the center of the dais,",
+                "an obsidian altar gleams dully with fresh blood.  Lit copper braziers ",
+                "mounted on either side of the altar fill the room with a cloying smoke."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11645",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A pair of bronze doors open south.",
+                        ""
+                    ],
+                    "room_id": "11641"
+                }
+            },
+            "extras": {}
+        },
+        "11666": {
+            "name": "Rocky Cave",
+            "description": [
+                "You find yourself in a dark, rocky cave.  Dim light seeps in through an ",
+                "opening to the south.  The cave darkens to the west."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11666",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The cave continues west.",
+                        ""
+                    ],
+                    "room_id": "11667"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A boulder leans against an opening to the south.",
+                        ""
+                    ],
+                    "room_id": "11665"
+                }
+            },
+            "extras": {}
+        },
+        "11633": {
+            "name": "Shadowy Cavern",
+            "description": [
+                "Dark granite walls form a large cavern here.  Darkness and shadows seem to ",
+                "deepen here, as if attracted by some unseen force.  Barely visible through",
+                "the darkness, a tunnel exits the cave to the east."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11633",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dark, misty tunnel exits the cave to the east.",
+                        ""
+                    ],
+                    "room_id": "11632"
+                }
+            },
+            "extras": {}
+        },
+        "11668": {
+            "name": "Shimmering Tunnel",
+            "description": [
+                "Flickering white light arcs above to form a long tunnel leading east.",
+                "Streaks of green energy lance intermittently through the tunnel walls,",
+                "lighting the area with a pulsing green glow."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11668",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The tunnel opens into a large white room to the east.",
+                        ""
+                    ],
+                    "room_id": "11669"
+                }
+            },
+            "extras": {}
+        },
+        "11631": {
+            "name": "",
+            "description": [
+                "A dark opening, partially obscured by a clump of green weeds, cuts into the ",
+                "lake wall to the south.  The lake floor continues east."
+            ],
+            "flags_raw": "0 1 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11631",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dark mouth of a shadowy tunnel enters the lake wall to the south.",
+                        ""
+                    ],
+                    "room_id": "11632"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The misty lake continues east.",
+                        ""
+                    ],
+                    "room_id": "11628"
+                }
+            },
+            "extras": {}
+        },
+        "11681": {
+            "name": "Inside the Tree Base",
+            "description": [
+                "You stand in the hollow base of a large pine tree.  A wooden platform is",
+                "visible far above."
+            ],
+            "flags_raw": "0 9 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11681",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Light filters through a rectangular opening in the trunk wall to the south.",
+                        ""
+                    ],
+                    "room_id": "11674"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A wooden platform is visible above.",
+                        ""
+                    ],
+                    "room_id": "11682"
+                }
+            },
+            "extras": {
+                "wooden platform": {
+                    "description": [
+                        "A wooden platform cuts across the space above.  An opening to one side of",
+                        "the platform allows entrance to those who can reach it..",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11655": {
+            "name": "Cellar",
+            "description": [
+                "The slick granite walls of a cold, dank cellar rise up around you.  Shelves,",
+                "stacked with cases of stored foods and beverages, line the walls.  Some",
+                "form of magical containment glimmers faintly above the shelves, both preserving",
+                "their contents and keeping nosy adventurers out..  Then again, considering",
+                "putrid odor permeating the cellar, you're not sure you really want to know",
+                "anymore about the contents.."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11655",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A slimy stairwell leasd up into darkness.  A faint light is visible farther",
+                        "up.",
+                        ""
+                    ],
+                    "room_id": "11654"
+                }
+            },
+            "extras": {}
+        },
+        "11684": {
+            "name": "Ribbon of Light",
+            "description": [
+                "You stand balanced on a meter wide ribbon of pure white light twisting",
+                "west and south through a churning multicolored void.  Just glancing at",
+                "the void is enough to twist your guts inside out, which doesn't help",
+                "your precarious balance at all...  but maybe if you don't look up you'll",
+                "be okay.  You notice that you can see right through the path at your feet."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11684",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The ribbon continues west.",
+                        ""
+                    ],
+                    "room_id": "11685"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A brick road is visible to the south.",
+                        ""
+                    ],
+                    "room_id": "11683"
+                }
+            },
+            "extras": {}
+        },
+        "11677": {
+            "name": "Dead End",
+            "description": [
+                "The forest path dead ends here in a stand of tall pines.  Large boulders",
+                "dot the earthen floor.  The huge, severed stump of what must have been",
+                "an impressive oak tree rises from the pines to the south."
+            ],
+            "flags_raw": "0 1 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11677",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Scratches and light footprints mark the earth around the stump.",
+                        ""
+                    ],
+                    "room_id": "11678"
+                }
+            },
+            "extras": {
+                "huge oak stump": {
+                    "description": [
+                        "Scratches and light footprints mark the earth around the stump.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11680": {
+            "name": "Shadowy Lair",
+            "description": [
+                "You find yourself in a large, dark cavern.  Bits of wood and gleaming",
+                "white bones litter the earthen floor.  Leaves and vines are piled in one",
+                "corner to form a large nest."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11680",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a dark opening in the ceiling above.",
+                        ""
+                    ],
+                    "room_id": "11679"
+                }
+            },
+            "extras": {
+                "leaves vines nest": {
+                    "description": [
+                        "Glossy dark green scales glint from within the leaves and vines at the",
+                        "base of the nest.  ",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11632": {
+            "name": "Dark Tunnel",
+            "description": [
+                "A high, narrow granite tunnel has been hewn from the granite lake wall.  White",
+                "mist seeps in from the opening to the north, leaving the rock walls slippery",
+                "and cold.  The darkness seems to deepen to the west, where the tunnel widens",
+                "into a cave."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11632",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A lake of mist is visible through the opening to the north.",
+                        ""
+                    ],
+                    "room_id": "11631"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, the tunnel widens into a dark cave.",
+                        ""
+                    ],
+                    "room_id": "11633"
+                }
+            },
+            "extras": {}
+        },
+        "11693": {
+            "name": "Checkered Clearing",
+            "description": [
+                "You stand at the east end of a wide clearing carpeted by alternating squares",
+                "of yellow and blue flowers.  The ground occasionally shifts, forming",
+                "the clearing into scattered hills and valleys."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11693",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The clearing continues east.",
+                        ""
+                    ],
+                    "room_id": "11692"
+                }
+            },
+            "extras": {}
+        },
+        "11620": {
+            "name": "Up a Large Oak Tree",
+            "description": [
+                "You stand on a low branch near the huge trunk of the oak tree.  The thick",
+                "network of branches above makes it impossible to climb higher.  The base",
+                "of an enormous birdfeeder is visible along the branch to the west."
+            ],
+            "flags_raw": "0 8 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11620",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "An opening in the birdfeeder is visible to the west.",
+                        ""
+                    ],
+                    "room_id": "11621"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A lush green garden is visible below.",
+                        ""
+                    ],
+                    "room_id": "11618"
+                }
+            },
+            "extras": {
+                "birdfeeder": {
+                    "description": [
+                        "An opening in the near face looks large enough to enter.. though one might ",
+                        "wonder what kind of bird would need a birdfeeder this big..",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11624": {
+            "name": "Misty Pathway",
+            "description": [
+                "Tendrils of cool mist creep across the pathway from the south, leaving the",
+                "white pebbles of the path cool and shiny.  Tall hedges frame the path to the",
+                "north.  The mist thickens to the south."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11624",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path disappears between tall hedges to the north.",
+                        ""
+                    ],
+                    "room_id": "11600"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path widens to the south into a mist covered lakeshore.",
+                        ""
+                    ],
+                    "room_id": "11625"
+                }
+            },
+            "extras": {}
+        },
+        "11669": {
+            "name": "Globe of Light",
+            "description": [
+                "You find yourself floating in what appears to be a globe formed of pure",
+                "white light.  Green energy streaks through the globe like lances of ",
+                "colored lightning.  A long silk carpet stretches from the mouth of the",
+                "tunnel to the west to a tall white throne in the center of the globe."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11669",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A tunnel exits the globe to the west.",
+                        ""
+                    ],
+                    "room_id": "11668"
+                }
+            },
+            "extras": {
+                "silk carpet": {
+                    "description": [
+                        "Though floating without any visible supports, it appears to be quite sturdy.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11676": {
+            "name": "Forest Path",
+            "description": [
+                "The silent forms of tall pine trees frame the narrow dirt path.  The path",
+                "branches north and east here."
+            ],
+            "flags_raw": "0 1 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11676",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues north.",
+                        ""
+                    ],
+                    "room_id": "11674"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues east.",
+                        ""
+                    ],
+                    "room_id": "11677"
+                }
+            },
+            "extras": {}
+        },
+        "11634": {
+            "name": "Onyx Hallway",
+            "description": [
+                "Chill air from the north causes the torches to gutter occassionally,",
+                "picking out eerie shadows against the dark onyx walls.  A plain oaken door",
+                "is set into the east wall."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11634",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hallway continues south.",
+                        ""
+                    ],
+                    "room_id": "11635"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The onyx hallway continues north.",
+                        ""
+                    ],
+                    "room_id": "11658"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "An oaken door is set into the east wall.",
+                        ""
+                    ],
+                    "room_id": "11656"
+                }
+            },
+            "extras": {}
+        },
+        "11658": {
+            "name": "Onyx Hallway",
+            "description": [
+                "The dark onyx walls gleam eerily in the dim torchlight.  A chill breeze",
+                "wafts in through the archway to the north.  The hallway continues south."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11658",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A courtyard is visible through the archway to the north.",
+                        ""
+                    ],
+                    "room_id": "11659"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hallway continues south.",
+                        ""
+                    ],
+                    "room_id": "11634"
+                }
+            },
+            "extras": {}
+        },
+        "11674": {
+            "name": "Path Through the Dark Forest",
+            "description": [
+                "Tall, silent pines loom on all sides, filling the air with the scent of",
+                "fresh wood and pine needles.  The narrow path on which you stand runs ",
+                "west and south here.  One particularly large pine grows at the near the path",
+                "to the north."
+            ],
+            "flags_raw": "0 1 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11674",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A thin crack, barely visible in the rough tree bark, outlines a rectangular",
+                        "area in the face of the large pine to the north.",
+                        ""
+                    ],
+                    "room_id": "11681"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, the path opens onto a shadowy clearing.",
+                        ""
+                    ],
+                    "room_id": "11672"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues south through the forest.",
+                        ""
+                    ],
+                    "room_id": "11676"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The lower branches of the large pine appear climbable.",
+                        ""
+                    ],
+                    "room_id": "11675"
+                }
+            },
+            "extras": {
+                "large pine tree": {
+                    "description": [
+                        "You notice a thin crack, barely visible against the rough tree bark,",
+                        "outlining a rectangular area in the face of the large pine to the north.",
+                        "The lower branches of the pine appear climbable.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11617": {
+            "name": "Redwood Platform",
+            "description": [
+                "A pentagonal redwood platform rises from the multicolored clusters of flowers ",
+                "and shrubbery.  An granite tome is mounted in the center of the pentagon.",
+                "Two low marbles pedestals, grey and white, stand on either side of the tome."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11617",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Steps lead down into the garden to the south.",
+                        ""
+                    ],
+                    "room_id": "11608"
+                }
+            },
+            "extras": {
+                "grey": {
+                    "description": [
+                        "The grey pedestal looks shiny and new, marked only by foot-shaped indentations",
+                        "in the center.",
+                        ""
+                    ]
+                },
+                "marble pedestals": {
+                    "description": [
+                        "Square marble pedestals are set into the redwood.  The white is slightly larger",
+                        "than the grey.  Indentations mark the centers of both.",
+                        ""
+                    ]
+                },
+                "white": {
+                    "description": [
+                        "A crack runs down the edge of the white pedestal.",
+                        ""
+                    ]
+                },
+                "granite tome": {
+                    "description": [
+                        "An open book has been sculpted from polished granite.  A paragraph on the ",
+                        "lefthand page catches your eye:",
+                        "",
+                        "\".. From our wisdom",
+                        "    to know",
+                        "    From our mistakes",
+                        "    to grow..",
+                        "",
+                        "    .. that each generation shall be better, stronger, wiser ",
+                        "    than the one before..\"",
+                        " ",
+                        "A crack runs across the edge of the page where weather has broken the granite.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11656": {
+            "name": "Storage Closet",
+            "description": [
+                "You stand in a narrow closet, stacked with various cleaning utensils and",
+                "other odds and ends.  A thin layer of dust coats the assorted objects, as",
+                "if they haven't been used in a while.  However, footprints mark the grit",
+                "of the floor, and a thin line of darkness picks out a square in the dusty",
+                "ceiling.  An oaken door opens into the west wall."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11656",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A thick oaken door is set into the west wall.",
+                        ""
+                    ],
+                    "room_id": "11634"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The square outline of a trapdoor is visible in the ceiling.",
+                        ""
+                    ],
+                    "room_id": "11657"
+                }
+            },
+            "extras": {
+                "utensils objects": {
+                    "description": [
+                        "Just some more blood-drenched mops and such..  All those sacrifices must",
+                        "be messy.  Just be glad you're not the janitor.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11643": {
+            "name": "Dark corridor",
+            "description": [
+                "The dark corridor runs north and south here."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11643",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues north.",
+                        ""
+                    ],
+                    "room_id": "11644"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues south.",
+                        ""
+                    ],
+                    "room_id": "11642"
+                }
+            },
+            "extras": {}
+        },
+        "11619": {
+            "name": "Ash Grove",
+            "description": [
+                "A ring of ash trees form a small, shaded grove here.  Glints of light filter",
+                "through the overlapping branches to flicker in the shadows like fireflies.",
+                "A narrow dirt path exits the grove to the north."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11619",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dirt path disappears north into a lush garden.",
+                        ""
+                    ],
+                    "room_id": "11618"
+                }
+            },
+            "extras": {}
+        },
+        "11609": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the east.",
+                "The dirt path you are on continues north and south around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11609",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues north around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11608"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues south around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11610"
+                }
+            },
+            "extras": {}
+        },
+        "11612": {
+            "name": "Strange Artwork",
+            "description": [
+                "A ring of bluish-green shrubbery encircles a grassy clearing dominated by",
+                "the hulking white.. thing (?) rising up from the center.  The grass surrounding",
+                "the object is charred and seems to smolder as if newly burned.  The object",
+                "itself is unburned."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11612",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dirt path winds around a white gazebo to the west.",
+                        ""
+                    ],
+                    "room_id": "11604"
+                }
+            },
+            "extras": {}
+        },
+        "11618": {
+            "name": "Base of a Large Tree",
+            "description": [
+                "The dirt path curves east and south here.  A huge oak tree looms to the",
+                "northwest, its lower branches shading a large section of the path.  "
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11618",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, the dirt path disappears into a grove of trees.",
+                        ""
+                    ],
+                    "room_id": "11619"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds east through the flower beds.",
+                        ""
+                    ],
+                    "room_id": "11608"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The huge oak rises skyward.  Its lower branches appear sturdy and climbable.",
+                        ""
+                    ],
+                    "room_id": "11620"
+                }
+            },
+            "extras": {
+                "oak tree branches": {
+                    "description": [
+                        "The huge oak rises skyward.  Its lower branches appear sturdy and climbable.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11608": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the southeast.",
+                "The dirt path you are on continues east and south around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11608",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds south through the garden.",
+                        ""
+                    ],
+                    "room_id": "11609"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Redwood steps lead up to a large platform to the north.",
+                        ""
+                    ],
+                    "room_id": "11617"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds east through the garden.",
+                        ""
+                    ],
+                    "room_id": "11607"
+                }
+            },
+            "extras": {}
+        },
+        "11610": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the northeast.",
+                "The dirt path you are on continues north and east around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11610",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues north around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11609"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues east around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11603"
+                }
+            },
+            "extras": {}
+        },
+        "11628": {
+            "name": "Misty Lake",
+            "description": [
+                "The chill mist of the lake tingles damply against your skin.  Through the",
+                "white haze, you can make out a path heading east and west between the large",
+                "boulders littering the lake floor.  The lake floor continues north."
+            ],
+            "flags_raw": "0 1 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11628",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The lake floor continues north.",
+                        ""
+                    ],
+                    "room_id": "11626"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A path leads west along the lake bottom.",
+                        ""
+                    ],
+                    "room_id": "11631"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A path leads east along the lake bottom.",
+                        ""
+                    ],
+                    "room_id": "11629"
+                }
+            },
+            "extras": {}
+        },
+        "11673": {
+            "name": "Dark Thicket",
+            "description": [
+                "You stand in a dark thicket encircled by tall pines.  The twisted pine",
+                "boughs above resemble the waiting claws of some huge predator.  A narrow",
+                "dirt path exits the thicket to the south."
+            ],
+            "flags_raw": "0 1 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11673",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dirt path winds into the shadows to the south.",
+                        ""
+                    ],
+                    "room_id": "11672"
+                }
+            },
+            "extras": {}
+        },
+        "11611": {
+            "name": "Inside the Gazebo",
+            "description": [
+                "You stand inside a large, white gazebo.  A lacework of white painted ",
+                "ashwood arcs overhead, marking the grey marble floor with strips of dark",
+                "shadow.  A carved white altar rises out of the center of the floor."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11611",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, marble steps open into a lush garden.",
+                        ""
+                    ],
+                    "room_id": "11607"
+                }
+            },
+            "extras": {}
+        },
+        "11602": {
+            "name": "Bright Clearing",
+            "description": [
+                "Light seems to focus on this clearing as if attracted by some invisible magnet.",
+                "Large bushes dot the ground, hacked into strange, somewhat recognizable forms",
+                "reminiscient of a child's daydreams."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11602",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A white pebbled path is visible to the east.",
+                        ""
+                    ],
+                    "room_id": "11601"
+                }
+            },
+            "extras": {}
+        },
+        "11682": {
+            "name": "Heart of the Tree",
+            "description": [
+                "You find yourself balanced on a wide wooden platform in the dark heart of",
+                "the pine tree.  The wood of the tree, somehow fresh and very alive despite",
+                "the hollow inside, fills the air with the sharp scent of pine.  An opening",
+                "to one side of the platform allows descent to the earthen floor below."
+            ],
+            "flags_raw": "0 9 0 9",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11682",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hollow base of the tree is visible far below.",
+                        ""
+                    ],
+                    "room_id": "11681"
+                }
+            },
+            "extras": {}
+        },
+        "11635": {
+            "name": "Onyx Hallway",
+            "description": [
+                "The smooth black walls are broken by streaks of blood, both new and old.",
+                "Distant screams echo through the hallway.  To the south, the hall intersects",
+                "a dark corridor.  A solid black door is set into the west wall."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11635",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hallway continues north.",
+                        ""
+                    ],
+                    "room_id": "11634"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A forbidding black door opens into the west wall.",
+                        ""
+                    ],
+                    "room_id": "11636"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dark corridor crosses the hallway to the south.",
+                        ""
+                    ],
+                    "room_id": "11637"
+                }
+            },
+            "extras": {}
+        },
+        "11642": {
+            "name": "Dark corridor",
+            "description": [
+                "The corridor branches north and west here.  A humanoid skeleton has been",
+                "entombed in the corridor ceiling.  The bones gleam whitely against the ",
+                "dark stone, and the hollow eyesockets seem to glare accusingly at you."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11642",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues north.",
+                        ""
+                    ],
+                    "room_id": "11643"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues west.",
+                        ""
+                    ],
+                    "room_id": "11641"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A skeleton lies embedded in the ceiling above.",
+                        ""
+                    ],
+                    "room_id": "11649"
+                }
+            },
+            "extras": {}
+        },
+        "11604": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the northwest.",
+                "The dirt path you are on continues west and north around the gazebo.",
+                "To the east, the path opens into a large clearing."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11604",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds north around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11605"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds west around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11603"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A strange white form is visible in the clearing to the east.",
+                        ""
+                    ],
+                    "room_id": "11612"
+                }
+            },
+            "extras": {}
+        },
+        "11605": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the west.",
+                "The dirt path you are on continues north and south around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11605",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues north around through the flower beds.",
+                        ""
+                    ],
+                    "room_id": "11606"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues south around through the flower beds.",
+                        ""
+                    ],
+                    "room_id": "11604"
+                }
+            },
+            "extras": {}
+        },
+        "11652": {
+            "name": "Dining Hall",
+            "description": [
+                "You stand in a long, black tiled hall.  A stone table dominates the center ",
+                "of the room, stretching nearly the length of the hall.  Half-eaten carcasses ",
+                "litter the table and floor, surrounded by sticky puddles of blood and other ",
+                "less recognizable fluids.  A trapdoor is set into the corner of the floor.",
+                "Foul odors and smoke drift into the room from the doorway to the north."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11652",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dining hall continues northward.",
+                        ""
+                    ],
+                    "room_id": "11653"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A stone archway opens east onto a dark corridor.",
+                        ""
+                    ],
+                    "room_id": "11640"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A trapdoor is set into the floor.",
+                        ""
+                    ],
+                    "room_id": "11654"
+                }
+            },
+            "extras": {
+                "rotting half-eaten carcasses": {
+                    "description": [
+                        "The carcasses appear to have been half-raw when eaten.  The remains of some",
+                        "sort of slimy stuffing oozes from the uneaten cavities.  While most of the",
+                        "meal is unrecognizable you notice some humanoid bones, still trailing white",
+                        "tendons, among the remains.",
+                        ""
+                    ]
+                },
+                "stone table": {
+                    "description": [
+                        "A table made of solid granite.  The rotting remains of what must have been",
+                        "a meal are scattered across the bloody table top.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11601": {
+            "name": "Between the Hedges",
+            "description": [
+                "The pebbles gleam brightly in the sunlight pouring in from a clearing in the",
+                "hedges to the west.  The path opens north onto a lush garden and continues",
+                "south into the hedges."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11601",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hedges part to reveal a colorful garden to the north.",
+                        ""
+                    ],
+                    "room_id": "11603"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Bushes dot the bright clearing to the west",
+                        ""
+                    ],
+                    "room_id": "11602"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The pebbled path continues south.",
+                        ""
+                    ],
+                    "room_id": "11600"
+                }
+            },
+            "extras": {}
+        },
+        "11630": {
+            "name": "Pool of Mist",
+            "description": [
+                "The lake walls curve here to form a large misty pool.  A moss-covered marble",
+                "pedestal rests in a depression in the center of the pool.  To the north, a",
+                "path leads back into the lake."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11630",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The lake of mist is visible to the north.",
+                        ""
+                    ],
+                    "room_id": "11629"
+                }
+            },
+            "extras": {
+                "marble pedestal depression": {
+                    "description": [
+                        "A round pedestal of white marble is set into a depression in the center of the",
+                        "pool.  Patches of grey-green moss cling to the white stone.  Marks in the ",
+                        "center of the pedestal indicate that something has recently stood on the",
+                        "pedestal.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11651": {
+            "name": "Pentagram Chamber",
+            "description": [
+                "Engraved across the center of the stone floor is a large pentagram.  At",
+                "the center of the star rests a large grey tome, apparently mounted to",
+                "the floor of the room.  A pair of black steel doors are set into the",
+                "north wall."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11651",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Black steel doors loom to the north.",
+                        ""
+                    ],
+                    "room_id": "11640"
+                }
+            },
+            "extras": {
+                "grey tome book": {
+                    "description": [
+                        "Splashes of blood dot the worn vellum pages.  A paragraph on the right hand",
+                        "page catches your eye:",
+                        "",
+                        "\"Cycle of hate",
+                        " That I shall make it",
+                        " Cycle of hate",
+                        " That you shall break it..",
+                        "",
+                        "  .. Else my guilt shall be your pain",
+                        "     and my payment your pennance.\"",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11623": {
+            "name": "Inside the Well",
+            "description": [
+                "The smooth stone walls of the well tower above you on all sides.  The stone",
+                "appears rough and unworn, as if the well has never been used.  A broken",
+                "humanoid skeleton lies sprawled across the bottom of the well.  A dark wooden",
+                "ladder ascends to the top of the well."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11623",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A wooden ladder leads to the edge of the well above.",
+                        ""
+                    ],
+                    "room_id": "11622"
+                }
+            },
+            "extras": {
+                "skeleton": {
+                    "description": [
+                        "It looks as though something (someone?) has fallen into the well.  The bones",
+                        "are strangely clean and gleam a coldly in the light.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11657": {
+            "name": "Narrow Crawlspace",
+            "description": [
+                "Claw marks and blood scar the stone walls framing the narrow crawlspace.",
+                "A trapdoor is set into one corner, nearly invisible in the shadows."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11657",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A trapdoor opens into the floor.",
+                        ""
+                    ],
+                    "room_id": "11656"
+                }
+            },
+            "extras": {}
+        },
+        "11698": {
+            "name": "Ouch!",
+            "description": [
+                "You are momentarily blinded as a glaring array of colors assaults your eyes.",
+                "Gaudy mauve curtains decorate the earthen walls, clashing with the loud",
+                "chartreuse carpet.  A neon green throne and a short, thick perch dominate",
+                "the center of the room."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11698",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A tunnel exits the room to the south.",
+                        ""
+                    ],
+                    "room_id": "11697"
+                }
+            },
+            "extras": {}
+        },
+        "11683": {
+            "name": "Twisting Brick Road",
+            "description": [
+                "You stand on a road paved of red bricks which seems to twist and turn at",
+                "impossible angles, like the rails of a roller coaster ride.  Off the edge",
+                "of the road is a churning multicolored void.  A neat white outhouse rests",
+                "off the side of the road to the east, and a ribbon of white light winds",
+                "into the void to the north.  The brick road continues west to a crossroads."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11683",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A wide ribbon of light twists north into the churning void.  Despite its",
+                        "form, the light appears quite solid enough to walk on.",
+                        ""
+                    ],
+                    "room_id": "11684"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A signpost is visible to the west.",
+                        ""
+                    ],
+                    "room_id": "11686"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A white painted outhouse stands on the east side of the road.",
+                        ""
+                    ],
+                    "room_id": "11695"
+                }
+            },
+            "extras": {
+                "ribbon white light": {
+                    "description": [
+                        "Though apparently made solely of light, it looks sturdy enough to walk on.",
+                        ""
+                    ]
+                },
+                "white outhouse": {
+                    "description": [
+                        "A neat white outhouse stands to the east.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11675": {
+            "name": "Birdnest",
+            "description": [
+                "You stand perched on the edge of a large nest which stretches at least ",
+                "five meters from side to side.  The bowl of the nest appears to be formed",
+                "of large sticks and bits of hair and other odds and ends, woven together",
+                "to form a sturdy base.  The curved white fragments of what must have been",
+                "a good sized shell are scattered across the bottom of the nest, intermixed",
+                "with black-brown feathers and what pieces of what look like humanoid bones..",
+                "The tree branches below appear sturdy and climbable."
+            ],
+            "flags_raw": "0 1 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11675",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A narrow path is visible through the branches below.",
+                        ""
+                    ],
+                    "room_id": "11674"
+                }
+            },
+            "extras": {}
+        },
+        "11660": {
+            "name": "Path among the haunted hills",
+            "description": [
+                "You stand on a narrow dirt path winding between dark, rolling hills.  Icy",
+                "winds howl across the hilltops, and dark shapes seem to flit among the",
+                "scattered brush.  The path branches west and north here."
+            ],
+            "flags_raw": "0 8193 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11660",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues deeper into the hills to the north.",
+                        ""
+                    ],
+                    "room_id": "11662"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path enters a sheltered clearing to the west.",
+                        ""
+                    ],
+                    "room_id": "11661"
+                }
+            },
+            "extras": {
+                "dark shapes": {
+                    "description": [
+                        "They seem to appear out of the corner of your vision, but when you turn to",
+                        "look, they are gone.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11678": {
+            "name": "Quiet tunnel",
+            "description": [
+                "You find yourself in a narrow earthen tunnel.  Thin shafts of light enter",
+                "the tunnel through the opening above.  To the east, the tunnel opens into",
+                "a dark chamber."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11678",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A dark chamber is visible to the east.",
+                        ""
+                    ],
+                    "room_id": "11679"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A huge stump leans against an opening in the ceiling above.  A wooden ladder",
+                        "affixed to the northern wall of the tunnel leads up to the opening.",
+                        ""
+                    ],
+                    "room_id": "11677"
+                }
+            },
+            "extras": {}
+        },
+        "11653": {
+            "name": "Kitchen",
+            "description": [
+                "The dark stone floor is slippery with blood and pieces of raw flesh and ",
+                "intestines.  A long spit in the center of the floor bears a the roasting",
+                "form of a headless human body.  Shiny cleavers of varying lengths and sizes",
+                "lie on the bloody chopping board, one still half embedded in a chunk of meat."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11653",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A long black hall is visible through the doorway to the south.",
+                        ""
+                    ],
+                    "room_id": "11652"
+                }
+            },
+            "extras": {}
+        },
+        "11637": {
+            "name": "Dark corridor",
+            "description": [
+                "Walls of dark stone line a corridor running east and west here.  Shadows,",
+                "almost invisible against the stone, flicker eerily in the dim torchlight.",
+                "An onyx hallway intersects the corridor here and continues north."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11637",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "An onyx hallway leads north.",
+                        ""
+                    ],
+                    "room_id": "11635"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues west.",
+                        ""
+                    ],
+                    "room_id": "11638"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues east.",
+                        ""
+                    ],
+                    "room_id": "11644"
+                }
+            },
+            "extras": {}
+        },
+        "11671": {
+            "name": "Darkness",
+            "description": [
+                "You find yourself floating in what appears to be an endless expanse of",
+                "darkness. A blood red carpet stretches between the tunnel mouth to the east ",
+                "and a forbidding black throne suspended upright at the opposite end.  The",
+                "throne seems to glow with a light of its own, filling the area with a dim",
+                "greyish glow."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11671",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The mouth of a narrow tunnel is barely visible to the east.",
+                        ""
+                    ],
+                    "room_id": "11670"
+                }
+            },
+            "extras": {
+                "blood red carpet": {
+                    "description": [
+                        "A silk carpet the color of blood runs from the base of the throne to the",
+                        "tunnel to the east.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11639": {
+            "name": "Dark corridor",
+            "description": [
+                "The dark corridor runs north and south here.  Distant screams echo eerily",
+                "against the stone walls."
+            ],
+            "flags_raw": "0 8201 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11639",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues north.",
+                        ""
+                    ],
+                    "room_id": "11638"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The corridor continues south.",
+                        ""
+                    ],
+                    "room_id": "11640"
+                }
+            },
+            "extras": {}
+        },
+        "11629": {
+            "name": "Misty Lake",
+            "description": [
+                "The path along the lake floor leads west and south here.  To the south, the",
+                "path opens onto a wide misty pool."
+            ],
+            "flags_raw": "0 1 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11629",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The lake floor continues west.",
+                        ""
+                    ],
+                    "room_id": "11628"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A misty pool is visible to the south.",
+                        ""
+                    ],
+                    "room_id": "11630"
+                }
+            },
+            "extras": {}
+        },
+        "11663": {
+            "name": "Cold and dark path",
+            "description": [
+                "The path winds north and west here, in a momentary shelter against the raging",
+                "winds.  To the north, the brush thickens, casting eerie shadows across the",
+                "path."
+            ],
+            "flags_raw": "0 8193 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11663",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues north.",
+                        ""
+                    ],
+                    "room_id": "11664"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues west.",
+                        ""
+                    ],
+                    "room_id": "11662"
+                }
+            },
+            "extras": {}
+        },
+        "11625": {
+            "name": "Shore of the Lake of Mist",
+            "description": [
+                "You stand on the rocky shore of a lake which seems to be composed entirely of",
+                "mist.  Dense white vapor from the lake overflows up and over the path to the",
+                "north.  Below, the shore dips into the lake."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11625",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A white pebbled path leads north.",
+                        ""
+                    ],
+                    "room_id": "11624"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The lake shore dips gently into the lake to the south here.",
+                        ""
+                    ],
+                    "room_id": "11626"
+                }
+            },
+            "extras": {}
+        },
+        "11621": {
+            "name": "Inside the Birdfeeder",
+            "description": [
+                "You find yourself at the edge of an enormous octagonal room.  Thick wooden",
+                "walls disapppear out of sight above.  Blue sky and oaken branches are visible",
+                "through 3 huge doorways cut into the walls.  The floor is littered with",
+                "tan and grey egg-shaped spheres.  Between the spheres are clusters of birdseed."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11621",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A huge doorway opens onto the branch of a large oak tree.",
+                        ""
+                    ],
+                    "room_id": "11620"
+                }
+            },
+            "extras": {
+                "birdseed": {
+                    "description": [
+                        "Little piles of birdseed litter wooden floor.",
+                        ""
+                    ]
+                },
+                "tan grey spheres": {
+                    "description": [
+                        "Closer up, these appear to be huge seed pods, oversized versions of the ",
+                        "birdseed clustered at their bases.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "11689": {
+            "name": "Red Brick Road",
+            "description": [
+                "The red brick road twists east and south here."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11689",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The road continues south.",
+                        ""
+                    ],
+                    "room_id": "11690"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A signpost is visible to the east.",
+                        ""
+                    ],
+                    "room_id": "11686"
+                }
+            },
+            "extras": {}
+        },
+        "11646": {
+            "name": "Room of Faces",
+            "description": [
+                "Hideous stone faces protrude from the black walls and ceiling, their ",
+                "polished surfaces partly obscured by the smoke from the copper braziers",
+                "set into the four corners.  Rising from the center of the room is a huge",
+                "demonic face, sculpted of grey-streaked black marble.  A marble archway",
+                "opens west."
+            ],
+            "flags_raw": "0 9 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11646",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A narrow marble archway opens west onto a dark corridor.",
+                        ""
+                    ],
+                    "room_id": "11644"
+                }
+            },
+            "extras": {}
+        },
+        "11603": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the north.",
+                "The dirt path you are on continues east and west around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11603",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds west through the flower beds.",
+                        ""
+                    ],
+                    "room_id": "11610"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path winds east through the flower beds.",
+                        ""
+                    ],
+                    "room_id": "11604"
+                }
+            },
+            "extras": {}
+        },
+        "11606": {
+            "name": "Garden Path",
+            "description": [
+                "A huge variety of multicolored plants surrounds you in a rainbow of exotic",
+                "beauty.  Their mingled fragrance fills the air with a sweet, slightly tangy",
+                "perfume.  A large white gazebo rises from the flower beds to the southwest.",
+                "The dirt path you are on continues south and west around the gazebo."
+            ],
+            "flags_raw": "0 0 0 1",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "11606",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues west around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11607"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The dirt path continues south around the gazebo.",
+                        ""
+                    ],
+                    "room_id": "11605"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "11615"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "divsouls",
+    "area_quest_points": 0,
+    "credits": "[45 GR 85] Divided Souls",
+    "faction_id": "",
+    "vnums": [
+        11600,
+        11699
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "11648": {
+            "name": "a sub gardener~\n",
+            "description": [
+                "He appears to be taking good care of the garden.\n"
+            ],
+            "raw_flags5": "stand stand male 180",
+            "raw_flags6": "ACHMV ABCDEFGHIJK small 0",
+            "raw_flags4": "DFJ Q BIJLMNP EPR",
+            "raw_flags3": "-15 -14 -16 -13",
+            "vnum": 11648,
+            "raw_flags": "ACG Jc 0 0 0",
+            "race_id": "gnome",
+            "raw_flags2": "65 0 10d10+1100 1d10+500 6d4+9 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A little gnome whistles merrily as he prunes.\n",
+            "keywords": "sub gardener gnome~\n"
+        },
+        "11649": {
+            "name": "a ghostly servant~\n",
+            "description": [
+                "Strange, you can see right through it..  It appears to be keeping the area\n",
+                "clean.\n"
+            ],
+            "raw_flags5": "stand stand either 100",
+            "raw_flags6": "DHILM 0 medium mist",
+            "raw_flags4": "FG 0 E 0",
+            "raw_flags3": "-19 -18 -16 -14",
+            "vnum": 11649,
+            "raw_flags": "ACG ITU B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "65 0 10d10+1100 1d10+6700 6d4+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A transparent form floats here, cleaning up.\n",
+            "keywords": "ghostly servant transparent form~\n"
+        },
+        "11650": {
+            "name": "Ykres~\n",
+            "description": [
+                "Wary green eyes glow like a cat's amidst the deep shadow. \n"
+            ],
+            "raw_flags5": "stand stand female 500",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "BEFHJ B BGMN HIZ",
+            "raw_flags3": "-25 -24 -24 -24",
+            "vnum": 11650,
+            "raw_flags": "ACFGS FJPQVZc 0 0 0",
+            "race_id": "elf",
+            "raw_flags2": "82 1 25d10+2000 1d10+850 4d8+14 pierce",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A silent figure melts into the shadows.\n",
+            "keywords": "ykres silent figure~\n"
+        },
+        "11651": {
+            "name": "an assassin~\n",
+            "description": [
+                "The dark eyes seem to measure you, searching for weakness.\n"
+            ],
+            "raw_flags5": "stand stand either 405",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "BEFJ 0 BGMN JZ",
+            "raw_flags3": "-8 -8 -7 -6",
+            "vnum": 11651,
+            "raw_flags": "ACFGS DFJPQVZc 0 0 0",
+            "race_id": "elf",
+            "raw_flags2": "51 0 5d10+600 1d10+510 2d10+7 pierce",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An assassin stalks in the shadows, looking for prey.\n",
+            "keywords": "assassin~\n"
+        },
+        "11652": {
+            "name": "the night lynx~\n",
+            "description": [
+                "Slitted silver eyes glint menacingly.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGHV ACDEFJKQU large 0",
+            "raw_flags4": "EFH HI M J",
+            "raw_flags3": "-17 -18 -16 -15",
+            "vnum": 11652,
+            "raw_flags": "ACGS DFPQZ 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "66 0 10d10+1100 1d10+660 6d4+10 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge, dark cat form prowls in the darkness.\n",
+            "keywords": "night lynx cat form~\n"
+        },
+        "11653": {
+            "name": "a figment of your imagination~\n",
+            "description": [
+                "You think you see something there.. but maybe it's just your imagination.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "DHL 0 medium mist",
+            "raw_flags4": "EFGH J HI MNP",
+            "raw_flags3": "-13 -14 -14 -13",
+            "vnum": 11653,
+            "raw_flags": "AGMNS TU B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "62 0 6d12+928 1d10+650 4d6+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dark shape seems to flit through the trees in the corner of your eye.\n",
+            "keywords": "figment imagination dark shape~\n"
+        },
+        "11654": {
+            "name": "the dark owl~\n",
+            "description": [
+                "Beneath the glimmering ice blue eyes, a cruel beak pokes out of the shadow\n",
+                "black feathers forming the avian face.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "ACHW ACDEFIJKPU huge 0",
+            "raw_flags4": "ADEFK EJ K F",
+            "raw_flags3": "-16 -17 -17 -15",
+            "vnum": 11654,
+            "raw_flags": "ABCG DFTZ 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "67 0 10d10+1200 1d10+670 6d4+10 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge black owl roosts here.\n",
+            "keywords": "dark black owl~\n"
+        },
+        "11655": {
+            "name": "the owl hatchling~\n",
+            "description": [
+                "Dark grey down covers a large owl shape and semiformed wings.  Long, cruel\n",
+                "black talons betray a natural predator behind the seeming vulnerability.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "ACHW ACDEFIJKPU large 0",
+            "raw_flags4": "EF 0 EJ B",
+            "raw_flags3": "-8 -9 -8 -7",
+            "vnum": 11655,
+            "raw_flags": "ACG Z 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "60 0 6d12+853 1d10+600 4d6+8 peck",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An owl hatchling hops about clumsily.\n",
+            "keywords": "owl hatchling~\n"
+        },
+        "11656": {
+            "name": "the nightling~\n",
+            "description": [
+                "Dark eyes glower hungrily from a translucent wraith form.  Long claws \n",
+                "extend before the form.  You notice a piece of rotting flesh dangling\n",
+                "from one claw.\n"
+            ],
+            "raw_flags5": "stand stand none 325",
+            "raw_flags6": "CHIL ABDEFJKU medium mist",
+            "raw_flags4": "DEFG 0 G HO",
+            "raw_flags3": "-16 -17 -17 -15",
+            "vnum": 11656,
+            "raw_flags": "ACFG TUZ B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "67 0 10d10+1200 1d10+670 6d4+10 drain",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A gaunt shape hovers here.\n",
+            "keywords": "nightling gaunt shape~\n"
+        },
+        "11657": {
+            "name": "a sillouhette~\n",
+            "description": [
+                "A dark sillouhette of a humanoid form.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "CHIL ABDEFJKU medium mist",
+            "raw_flags4": "EFGN 0 D C",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11657,
+            "raw_flags": "AG ITV B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "70 0 10d10+1300 1d10+1000 4d7+11 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A sillouhette floats here.\n",
+            "keywords": "sillouhette~\n"
+        },
+        "11658": {
+            "name": "the nightblade~\n",
+            "description": [
+                "The slim form seems almost a part of the surrounding darkness.\n"
+            ],
+            "raw_flags5": "stand stand either 255",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFGJ 0 BG Z",
+            "raw_flags3": "-14 -14 -15 -13",
+            "vnum": 11658,
+            "raw_flags": "ACGS FJPQVZc 0 0 0",
+            "race_id": "elf",
+            "raw_flags2": "72 1 10d10+1400 1d10+720 3d10+11 pierce",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dark elf waits silently in the darkness.\n",
+            "keywords": "nightblade night blade dark elf drow~\n"
+        },
+        "11659": {
+            "name": "the shadowblade~\n",
+            "description": [
+                "The figure seems to move constantly, eluding your focus.\n"
+            ],
+            "raw_flags5": "stand stand either 450",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFGH 0 BG Z",
+            "raw_flags3": "-15 -16 -14 -12",
+            "vnum": 11659,
+            "raw_flags": "ACGS FJPQVZc 0 0 0",
+            "race_id": "elf",
+            "raw_flags2": "72 1 10d10+1400 1d10+720 3d10+11 pierce",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A lithe sinister form slips through the shadows.\n",
+            "keywords": "shadowblade shadow blade sinister form~\n"
+        },
+        "11660": {
+            "name": "the grey assassin~\n",
+            "description": [
+                "The grey figure seems to blend in with its surroundings.\n"
+            ],
+            "raw_flags5": "stand stand either 625",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "DEFGHJ 0 BG Z",
+            "raw_flags3": "-23 -22 -22 -21",
+            "vnum": 11660,
+            "raw_flags": "ABCGS FJPQVZc 0 0 0",
+            "race_id": "elf",
+            "raw_flags2": "80 2 15d10+1850 1d10+850 4d8+13 wrath",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Wary green eyes glint menacingly from the hood of a grey cloaked form.\n",
+            "keywords": "grey assassin cloaked form~\n"
+        },
+        "11661": {
+            "name": "the black assassin~\n",
+            "description": [
+                "Raven black hair frames a dark elven face and the slitted yellow eyes of a\n",
+                "cat.\n"
+            ],
+            "raw_flags5": "stand stand female 520",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFGJ I BG HZ",
+            "raw_flags3": "-19 -20 -20 -17",
+            "vnum": 11661,
+            "raw_flags": "ABCGS FJPQVZc 0 0 0",
+            "race_id": "elf",
+            "raw_flags2": "78 1 15d10+1700 1d10+780 5d6+13 chill",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A black clothed figure watches from the shadows.\n",
+            "keywords": "black assassin figure~\n"
+        },
+        "11662": {
+            "name": "the white assassin~\n",
+            "description": [
+                "He seems to blur and shimmer like a living flame.\n"
+            ],
+            "raw_flags5": "stand stand male 520",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFGJ H BG IZ",
+            "raw_flags3": "-21 -20 -19 -18",
+            "vnum": 11662,
+            "raw_flags": "ABCGS FJPVZc B 0 0",
+            "race_id": "elf",
+            "raw_flags2": "78 1 15d10+1700 1d10+780 5d6+13 flame",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A figure clothed in white stands here.\n",
+            "keywords": "white assassin figure~\n"
+        },
+        "11663": {
+            "name": "the shadow serpent~\n",
+            "description": [
+                "Dark green scales gleam in the dim light.  A long forked tongue snakes\n",
+                "out from between sharp white fangs as the serpent hisses warningly.\n"
+            ],
+            "raw_flags5": "stand stand either 325",
+            "raw_flags6": "AGXYc ADEFKLQVX large 0",
+            "raw_flags4": "EFM J L I",
+            "raw_flags3": "-15 -16 -17 -14",
+            "vnum": 11663,
+            "raw_flags": "AFG DFPZ 0 0 0",
+            "race_id": "snake",
+            "raw_flags2": "75 0 10d10+1600 1d10+750 3d10+12 shbite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge, powerful serpent coils here, preparing to strike.\n",
+            "keywords": "shadow serpent~\n"
+        },
+        "11664": {
+            "name": "Yllias~\n",
+            "description": [
+                "The silver eyes gleam menacingly, like twin daggers in the darkness.\n"
+            ],
+            "raw_flags5": "stand stand female 677",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "DEFK 0 BGMN IPZ",
+            "raw_flags3": "-27 -27 -26 -25",
+            "vnum": 11664,
+            "raw_flags": "ABCFGS DFJPQVZc 0 0 11664",
+            "race_id": "elf",
+            "raw_flags2": "85 2 25d10+2500 1d10+900 3d12+14 wrath",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Slitted silver eyes glint from the shadows.\n",
+            "keywords": "yllias silver eyes~\n"
+        },
+        "11665": {
+            "name": "Reykas~\n",
+            "description": [
+                "Peering into the shadows, you can barely make out the looming form of a\n",
+                "dark hawk.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "ACHW ACDEFJKPU large 0",
+            "raw_flags4": "ACDEFG 0 MN P",
+            "raw_flags3": "-20 -19 -20 -18",
+            "vnum": 11665,
+            "raw_flags": "ABCFG DFQTZ 0 0 11664",
+            "race_id": "unique",
+            "raw_flags2": "80 0 15d10+1850 1d10+820 4d8+13 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Raven black wings gleam darkly.\n",
+            "keywords": "reykas raven black wings~\n"
+        },
+        "11666": {
+            "name": "Menx~\n",
+            "description": [
+                "The little gnome bounces energetically around the room, giggling madly the\n",
+                "entire time.  You wonder momentarily whether he's completely insane or \n",
+                "incredibly hyper..\n"
+            ],
+            "raw_flags5": "stand stand male 340",
+            "raw_flags6": "ACHMV ABCDEFGHIJK small 0",
+            "raw_flags4": "EFGJ Q JLP R",
+            "raw_flags3": "-16 -15 -13 -11",
+            "vnum": 11666,
+            "raw_flags": "ACGS IJVc 0 0 0",
+            "race_id": "gnome",
+            "raw_flags2": "81 0 25d10+2000 1d10+900 4d8+13 thwack",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A jester balances on one hand, giggling.\n",
+            "keywords": "menx jester~\n"
+        },
+        "11667": {
+            "name": "the boggled brain~\n",
+            "description": [
+                "It appears to be a bodiless brain, boggling..\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "DH 0 medium 0",
+            "raw_flags4": "CDEF 0 P D",
+            "raw_flags3": "-12 -13 -14 -12",
+            "vnum": 11667,
+            "raw_flags": "AG T 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "65 0 10d10+1100 1d10+650 6d4+9 charge",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A brain boggles along.\n",
+            "keywords": "boggled brain~\n"
+        },
+        "11668": {
+            "name": "the flying pig~\n",
+            "description": [
+                "It snuffles your armpit.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJK large 0",
+            "raw_flags4": "CDEFJ 0 K 0",
+            "raw_flags3": "-10 -12 -11 -10",
+            "vnum": 11668,
+            "raw_flags": "ABGH T 0 0 0",
+            "race_id": "pig",
+            "raw_flags2": "62 0 6d12+928 1d10+620 4d6+9 crush",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A large winged pig flutters here.\n",
+            "keywords": "flying pig winged~\n"
+        },
+        "11669": {
+            "name": "the mooo cow~\n",
+            "description": [
+                "Muh-oOoOOoo..\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJK large 0",
+            "raw_flags4": "CDEF 0 L 0",
+            "raw_flags3": "-13 -14 -12 -11",
+            "vnum": 11669,
+            "raw_flags": "ABG 0 0 0 0",
+            "race_id": "pig",
+            "raw_flags2": "63 0 10d10+1000 1d10+630 4d6+9 chomp",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A mooo cow stands here, munching on an effigy of barney.\n",
+            "keywords": "mooo cow~\n"
+        },
+        "11670": {
+            "name": "Stress~\n",
+            "description": [
+                "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARGGGGGGHHHHHHH!!!\n"
+            ],
+            "raw_flags5": "stand stand none 250",
+            "raw_flags6": "DHL 0 medium mist",
+            "raw_flags4": "ADEJ B D JP",
+            "raw_flags3": "-15 -15 -15 -13",
+            "vnum": 11670,
+            "raw_flags": "ACG T 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "65 0 10d10+1100 1d10+650 6d4+10 suction",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Stress is here, trying to drive you up the wall.\n",
+            "keywords": "stress~\n"
+        },
+        "11671": {
+            "name": "Insanity~\n",
+            "description": [
+                "It giggles and bonks you on the head.\n"
+            ],
+            "raw_flags5": "stand stand none 178",
+            "raw_flags6": "DHL 0 medium mist",
+            "raw_flags4": "DFGH B HI MN",
+            "raw_flags3": "-18 -17 -18 -16",
+            "vnum": 11671,
+            "raw_flags": "ADEG Q 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "67 0 10d10+1200 1d10+800 6d4+10 peck",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Someone's twisted idea of insanity is here, bouncing off the walls.\n",
+            "keywords": "insanity~\n"
+        },
+        "11672": {
+            "name": "the fool~\n",
+            "description": [
+                "He looks completely and utterly clueless.  Why not give him a hand?  Or\n",
+                "better yet, a brain?\n"
+            ],
+            "raw_flags5": "stand stand male 10",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "FJ 0 0 P",
+            "raw_flags3": "-10 -10 -10 -10",
+            "vnum": 11672,
+            "raw_flags": "ACG I 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "60 0 6d12+853 1d10+10 4d6+8 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A fool is here, searching for a brain.\n",
+            "keywords": "fool~\n"
+        },
+        "11673": {
+            "name": "the psychiatrist~\n",
+            "description": [
+                "She peers down her nose at you and mumbles something about ids and egos.\n"
+            ],
+            "raw_flags5": "stand stand female 475",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "DEF 0 P MN",
+            "raw_flags3": "-18 -19 -20 -17",
+            "vnum": 11673,
+            "raw_flags": "ABG J 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "70 -1 10d10+1300 1d10+1000 4d7+11 slap",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A woman in a white coat is here, trying to analyze you.\n",
+            "keywords": "psychiatrist woman~\n"
+        },
+        "11674": {
+            "name": "a normal person~\n",
+            "description": [
+                "It's a normal person, with neat blond hair and a trendy suit.  How boring..\n"
+            ],
+            "raw_flags5": "stand stand either 340",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "F 0 0 0",
+            "raw_flags3": "-11 -11 -11 -10",
+            "vnum": 11674,
+            "raw_flags": "ABG 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "61 0 6d12+928 1d10+10 4d6+8 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A normal person stands here, looking boring.\n",
+            "keywords": "normal person~\n"
+        },
+        "11675": {
+            "name": "the toilet monster~\n",
+            "description": [
+                "Gross..\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "BHJ ABCDEFHIJKU large 0",
+            "raw_flags4": "ACD LQ 0 0",
+            "raw_flags3": "-15 -15 -16 -14",
+            "vnum": 11675,
+            "raw_flags": "ABCFGU Z NO 0 0",
+            "race_id": "unique",
+            "raw_flags2": "65 0 10d10+1100 1d10+650 6d4+9 suction",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A smelly mound of... stuff... squishes here.\n",
+            "keywords": "toilet monster mound stuff~\n"
+        },
+        "11676": {
+            "name": "the mole~\n",
+            "description": [
+                "It's a furry brown mole.  Beady black eyes glance at you as sharp claws tunnel\n",
+                "into the dirt at a tremendous pace.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGV ACDEFHJK large 0",
+            "raw_flags4": "CDJ 0 GO PR",
+            "raw_flags3": "-15 -14 -14 -13",
+            "vnum": 11676,
+            "raw_flags": "ABCGH Z 0 0 0",
+            "race_id": "pig",
+            "raw_flags2": "75 0 10d10+1600 1d10+650 3d10+12 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A mole is here, tunneling.\n",
+            "keywords": "mole~\n"
+        },
+        "11677": {
+            "name": "Xyrist~\n",
+            "description": [
+                "The swirling light continuously forms and reforms.  At the moment, it\n",
+                "resembles a giant rabbit.\n"
+            ],
+            "raw_flags5": "stand stand male 674",
+            "raw_flags6": "ACHL ABCDEFGHIJK large mist",
+            "raw_flags4": "ACDEFG ST OP J",
+            "raw_flags3": "-27 -27 -28 -26",
+            "vnum": 11677,
+            "raw_flags": "ABCGR TUVZ 0 0 11677",
+            "race_id": "unique",
+            "raw_flags2": "86 0 25d10+2500 1d10+1000 3d12+15 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Multicolored light coallesces here.\n",
+            "keywords": "xyrist multicolored light colored~\n"
+        },
+        "11678": {
+            "name": "Fax~\n",
+            "description": [
+                "He looks back at you.  You boggle, he boggles.  Argh..\n"
+            ],
+            "raw_flags5": "stand stand male 11",
+            "raw_flags6": "AGW ACDEFHKP large 0",
+            "raw_flags4": "CDEFHJ 0 J K",
+            "raw_flags3": "-20 -20 -19 -18",
+            "vnum": 11678,
+            "raw_flags": "ABCG T 0 0 11677",
+            "race_id": "song bird",
+            "raw_flags2": "80 0 15d10+1850 1d10+900 4d8+13 peckb",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A bright red parrot perches here, mimicking your movements.\n",
+            "keywords": "fax parrot~\n"
+        },
+        "11600": {
+            "name": "Sym~\n",
+            "description": [
+                "A cartwheeling flurry slows momentarily to resolve itself into a slim,\n",
+                "green-clad figure crowned by a tassled jester's hat.  Stitched in gold\n",
+                "across the right and left breast pockets you notice the words:\n",
+                "\"Sym\"\n",
+                "and\n",
+                "\"To wonder is to grow\"\n",
+                "The left pocket is partially tinted with grass stains.\n"
+            ],
+            "raw_flags5": "stand stand either 400",
+            "raw_flags6": "AHMQV ABCDEFGHIJK medium 0",
+            "raw_flags4": "FGJN 0 BCGN MZ",
+            "raw_flags3": "-13 -13 -13 -11",
+            "vnum": 11600,
+            "raw_flags": "ACGR FJQVc B 900 0",
+            "race_id": "elf",
+            "raw_flags2": "80 0 15d10+1850 1d10+850 4d8+13 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A lithe jester frolicks in the shadows.\n",
+            "keywords": "sym jester~\n"
+        },
+        "11601": {
+            "name": "Roc~\n",
+            "description": [
+                "An enormous white bird with white-streaked grey wings towers above you,\n",
+                "peering down at you as if examining a possible meal.  Of course, from that\n",
+                "height, you probably do resemble a bug..  yumm...\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGW ACDEFHKP huge 0",
+            "raw_flags4": "FH 0 CE H",
+            "raw_flags3": "-11 -11 -11 -9",
+            "vnum": 11601,
+            "raw_flags": "ABCG T 0 0 0",
+            "race_id": "song bird",
+            "raw_flags2": "65 0 10d10+1100 1d10+650 6d4+10 peck",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge grey-winged bird eyes you hungrily.\n",
+            "keywords": "roc bird~\n"
+        },
+        "11602": {
+            "name": "nightingale~\n",
+            "description": [
+                "Light glints off the shiny black feathers of the tiny dark nightingale.\n",
+                "The little bird cocks its head and returns your gaze, then chirps musically\n",
+                "and returns to its lunch.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGW ACDEFHKP tiny 0",
+            "raw_flags4": "FH 0 F O",
+            "raw_flags3": "-6 -6 -6 -6",
+            "vnum": 11602,
+            "raw_flags": "ACG T 0 0 0",
+            "race_id": "song bird",
+            "raw_flags2": "45 0 5d10+450 1d10+450 3d6+6 peck",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A little black nightingale hops around, pecking at seed pods.\n",
+            "keywords": "nightingale bird~\n"
+        },
+        "11603": {
+            "name": "the teacher~\n",
+            "description": [
+                "A stone statue of a tall woman garbed in flowing grey robes is poised with\n",
+                "one hand above the book, pointing as if to emphasize one paragraph.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "HJM ABCEGHIJK large stone",
+            "raw_flags4": "DJK CHIR FLQ NP",
+            "raw_flags3": "-9 -9 -9 -7",
+            "vnum": 11603,
+            "raw_flags": "ABG 0 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "60 0 6d12+853 1d10+600 4d6+8 crush",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A statue of a tall woman stands on the white pedestal, bending over the book.\n",
+            "keywords": "teacher woman statue~\n"
+        },
+        "11604": {
+            "name": "the student~\n",
+            "description": [
+                "A white marble statue of a young girl stands next to the book, one foot on\n",
+                "grey pedestal.  Her attention seems half focused on the book, half gazing at\n",
+                "the teacher.  The stone eyes seem bright and curious, yet shadowed.  A\n",
+                "puzzled frown mars the otherwise smooth young face.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "HJM ABCDEFGHIJK small stone",
+            "raw_flags4": "F N 0 BL",
+            "raw_flags3": "-7 -7 -6 -5",
+            "vnum": 11604,
+            "raw_flags": "ABCG V 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "52 0 5d10+600 1d10+520 3d7+7 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A statue of a young girl stands half on the grey pedestal.\n",
+            "keywords": "student girl statue~\n"
+        },
+        "11605": {
+            "name": "a statue of the Mage~\n",
+            "description": [
+                "Grey-streaked white marble has been carved into the form of a short man\n",
+                "draped with long, flowing robes.  His arms are raised before him, and the \n",
+                "stone mouth is open, as if frozen in the middle of an incantation.\n"
+            ],
+            "raw_flags5": "stand stand male 500",
+            "raw_flags6": "HJM ABCEGIJK small stone",
+            "raw_flags4": "FJ LQ CHIMN P",
+            "raw_flags3": "-10 -9 -10 -13",
+            "vnum": 11605,
+            "raw_flags": "AB 0 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "61 0 6d12+928 1d10+1800 4d6+9 crush",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A stone statue of a robed figure stands here, arms raised as if casting.\n",
+            "keywords": "mage statue figure man~\n"
+        },
+        "11606": {
+            "name": "the Unicorn~\n",
+            "description": [
+                "A single blue horn emerges from the white forehead, glowing with an\n",
+                "eerie inner light.  The clear eyes seem timelessly wise, yet shadowed\n",
+                "with a strange, innocent vacancy.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "ACHV ACDEFHK large 0",
+            "raw_flags4": "EFIK LNS BGI M",
+            "raw_flags3": "-13 -13 -13 -13",
+            "vnum": 11606,
+            "raw_flags": "AG CDEFG HN 1000 0",
+            "race_id": "unique",
+            "raw_flags2": "70 2 10d10+1300 1d10+800 4d7+11 cleave",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A white horse with a glowing blue horn regards you serenely.\n",
+            "keywords": "unicorn white horse~\n"
+        },
+        "11607": {
+            "name": "statue of the Dreamer~\n",
+            "description": [
+                "A female figure of indeterminate age has been sculpted from white marble.\n",
+                "The chiseled face is upturned, the stone eyes gazing at nothing, as if lost\n",
+                "in either the past or the future.  The statue gleams in the light, untouched\n",
+                "by time or weather.  But then, it doesn't look like the Dreamer will ever\n",
+                "belong to the present.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "HJ ABCGHIJK medium stone",
+            "raw_flags4": "F LQ EGHI B",
+            "raw_flags3": "-9 -10 -9 -7",
+            "vnum": 11607,
+            "raw_flags": "ABGU T 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "57 0 6d12+778 1d10+570 2d12+8 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A marble statue of the Dreamer stands here.\n",
+            "keywords": "white statue dreamer~\n"
+        },
+        "11608": {
+            "name": "a White Knight~\n",
+            "description": [
+                "A knight clad in shining white armor towers above like some hulking steel\n",
+                "giant.  Light reflects off the burnished metal, surrounding the knight with\n",
+                "a near blinding aurora.  Emblazoned in the center of the chest plate is a\n",
+                "gleaming cross... white, of course.\n"
+            ],
+            "raw_flags5": "stand stand either 500",
+            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
+            "raw_flags4": "DEFIK N EG KMOP",
+            "raw_flags3": "-17 -18 -16 -17",
+            "vnum": 11608,
+            "raw_flags": "AGT C N 900 0",
+            "race_id": "human",
+            "raw_flags2": "65 3 10d10+1200 1d10+250 4d7+10 cleave",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An imposing figure in gleaming white armor stands here.\n",
+            "keywords": "white knight figure~\n"
+        },
+        "11609": {
+            "name": "Lady Justice~\n",
+            "description": [
+                "A fair lady of indeterminate age has been sculpted of ivory.  One hand \n",
+                "extends before her, holding a set of ivory scales.  The ivory seems to have\n",
+                "chipped on one side, causing the scales to tilt slightly.\n"
+            ],
+            "raw_flags5": "stand stand female 400",
+            "raw_flags6": "HJM ABCGHIJK medium stone",
+            "raw_flags4": "EFK HILQ F B",
+            "raw_flags3": "-17 -18 -18 -15",
+            "vnum": 11609,
+            "raw_flags": "ABG G 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "68 0 10d10+1200 1d10+680 4d7+10 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An ivory statue of a lady is poised here, balancing a set of iron scales.\n",
+            "keywords": "ivory statue lady justice~\n"
+        },
+        "11610": {
+            "name": "Mad Gardener~\n",
+            "description": [
+                "The little gnome appears to be a gardener.. that is, he dances around snipping\n",
+                "at things with no apparent plan or reason..  Surprisingly, the garden looks\n",
+                "well cared for, although those shears he's waving around look sort of lethal \n",
+                "to anything living that might get in the way..\n"
+            ],
+            "raw_flags5": "stand stand male 160",
+            "raw_flags6": "ACHMV ABCDEFGHIJK small 0",
+            "raw_flags4": "DFJ Q BIJLMNP EPR",
+            "raw_flags3": "-20 -19 -20 -18",
+            "vnum": 11610,
+            "raw_flags": "ACS JVc 0 0 0",
+            "race_id": "gnome",
+            "raw_flags2": "70 0 10d10+1300 1d10+620 4d7+11 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A little gnome capers around, waving a set of pruning shears.\n",
+            "keywords": "mad gardener gnome~\n"
+        },
+        "11611": {
+            "name": "Babbling Sculptor~\n",
+            "description": [
+                "Oblivious to your scrutiny, the little man continues to pace about, babbling\n",
+                "incoherently.  Judging from the chisel marks on the walls, he seems to\n",
+                "be the creator of this artwork..\n"
+            ],
+            "raw_flags5": "stand stand male 250",
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "raw_flags4": "DEFJ 0 Q LO",
+            "raw_flags3": "-13 -12 -10 -10",
+            "vnum": 11611,
+            "raw_flags": "ACGS 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "65 0 10d10+1100 1d10+500 6d4+10 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A short, disheveled man is here, muttering to himself.\n",
+            "keywords": "babbling sculptor~\n"
+        },
+        "11612": {
+            "name": "Denebi~\n",
+            "description": [
+                "A white cross, seeming to glow with a light of its own, is emblazoned across\n",
+                "the front of the priest's robes.  Both arms are raised in front of the figure,\n",
+                "as if in prayer.\n"
+            ],
+            "raw_flags5": "rest stand either 0",
+            "raw_flags6": "HJM ABCDGHIJK medium stone",
+            "raw_flags4": "FK N HKL NP",
+            "raw_flags3": "-10 -9 -11 -8",
+            "vnum": 11612,
+            "raw_flags": "ABGQ 0 N 800 0",
+            "race_id": "unique",
+            "raw_flags2": "60 0 6d12+853 1d10+1000 4d6+8 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A bush has been pruned in the form of a kneeling priest.\n",
+            "keywords": "bush denebi priest white cross~\n"
+        },
+        "11613": {
+            "name": "the Believer~\n",
+            "description": [
+                "Funny.. when you try to look where the Believer is gazing so faithfully, all \n",
+                "you see is thin air.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "HJM ABCDGHIJK medium stone",
+            "raw_flags4": "EF 0 D BC",
+            "raw_flags3": "-7 -8 -5 -6",
+            "vnum": 11613,
+            "raw_flags": "ABG 0 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "57 0 6d12+778 1d10+500 2d12+8 scratch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A statue of the Believer stands here, eyes raised to the sky.\n",
+            "keywords": "statue believer~\n"
+        },
+        "11614": {
+            "name": "a white rabbit~\n",
+            "description": [
+                "Aww, isn't it cute?\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJK small 0",
+            "raw_flags4": "DFH 0 L R",
+            "raw_flags3": "-5 -6 -5 -5",
+            "vnum": 11614,
+            "raw_flags": "ACG 0 0 0 0",
+            "race_id": "rabbit",
+            "raw_flags2": "50 0 5d10+450 0d0+0 3d6+6 scratch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A fluffy white rabbit crouches here, nibbling on something.\n",
+            "keywords": "white rabbit~\n"
+        },
+        "11615": {
+            "name": "Druid of Peace~\n",
+            "description": [
+                "He seems at peace with himself and the world around him.  This form is\n",
+                "evidently in need of pruning, as uncut leaves protrude from the area where\n",
+                "his mouth would be, making him the appear to be sticking his tongue out\n",
+                "at you.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "HJM ABCDGHIJK medium stone",
+            "raw_flags4": "F N BHI KO",
+            "raw_flags3": "-8 -9 -8 -7",
+            "vnum": 11615,
+            "raw_flags": "ABG 0 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "55 0 6d12+703 1d10+700 2d12+8 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A bush pruned into the form of a tall man dressed in simple robes is here.\n",
+            "keywords": "druid peace statue~\n"
+        },
+        "11616": {
+            "name": "the crying spirit~\n",
+            "description": [
+                "It seems to be the spirit of a young girl, bound to this world by an \n",
+                "untimely death.  Oblivious to your presence, she hovers here rocking and\n",
+                "weeping quietly.  You can make out a few whispered words.. \n",
+                "\".. been different... couldn't.. i had to...\"\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "HLS 0 medium mist",
+            "raw_flags4": "FG HIKLQR CD MNOP",
+            "raw_flags3": "-6 -7 -7 -6",
+            "vnum": 11616,
+            "raw_flags": "ABG TU B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "51 0 5d10+600 1d10+600 3d7+7 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A translucent figure hovers here, crying bitterly.\n",
+            "keywords": "crying spirit translucent figure~\n"
+        },
+        "11617": {
+            "name": "a bit of faith~\n",
+            "description": [
+                "It seems to grow more solid as you look at it.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFG BKP D MNO",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11617,
+            "raw_flags": "AGMNS TU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "62 0 6d12+928 1d10+620 4d6+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A bit of faith floats here, thriving on your belief in its existence.\n",
+            "keywords": "faith~\n"
+        },
+        "11618": {
+            "name": "a stray thought~\n",
+            "description": [
+                "Weird.  You can see right through it.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFG BKP D MNO",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11618,
+            "raw_flags": "AGMNS TU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "61 0 6d12+928 1d10+610 4d6+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A stray thought floats around aimlessly.\n",
+            "keywords": "stray thought~\n"
+        },
+        "11619": {
+            "name": "some memories~\n",
+            "description": [
+                "They remind you of something.. but you can't quite recall what..\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFG BKP D MNO",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11619,
+            "raw_flags": "AGMNS TU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "64 0 10d10+1000 1d10+640 6d4+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Some memories hover here, reminiscing.\n",
+            "keywords": "memories~\n"
+        },
+        "11620": {
+            "name": "an idea~\n",
+            "description": [
+                "You are blinded by a flash of insight!\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFG BKP D MNO",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11620,
+            "raw_flags": "AGMNS TU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "62 0 6d12+928 1d10+620 4d6+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An idea pops in and out of view.\n",
+            "keywords": "idea~\n"
+        },
+        "11621": {
+            "name": "Gabrian~\n",
+            "description": [
+                "Despite the silence of its movements, powerful muscles controlled by a smooth\n",
+                "feline grace betray the danger beneath the quiet.  Slitted silver eyes seem\n",
+                "to watch your every move.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AGV ACDEFHJKQUV large 0",
+            "raw_flags4": "DFHKM INQ E H",
+            "raw_flags3": "-20 -24 -22 -21",
+            "vnum": 11621,
+            "raw_flags": "ABGT PZ 0 0 11621",
+            "race_id": "cat",
+            "raw_flags2": "80 2 15d10+1850 1d10+850 4d8+13 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge white panther pads silently across the room.\n",
+            "keywords": "white panther gabrian~\n"
+        },
+        "11622": {
+            "name": "Lonari~\n",
+            "description": [
+                "Cascades of shimmering golden hair frame a fine boned elfin face and clear\n",
+                "blue eyes.  The pale blue irises seem almost white.. as if blind.  Yet the\n",
+                "lady can clearly see.. though what she is looking at is not visible to you.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFGK BGKN BEGHJ MZ",
+            "raw_flags3": "-20 -23 -25 -23",
+            "vnum": 11622,
+            "raw_flags": "ABGQ DFGJTVc HN 1000 11621",
+            "race_id": "elf",
+            "raw_flags2": "85 0 25d10+2500 1d10+2000 3d12+15 crush",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A beautiful lady clad in spotless white is here, smiling serenely.\n",
+            "keywords": "lonari white lady~\n"
+        },
+        "11623": {
+            "name": "Myrl~\n",
+            "description": [
+                "Clothed in a darkness not entirely physical, this character seems like\n",
+                "an extension of the surrounding shadows.  White teeth flash momentarily\n",
+                "against the black in a cynical grin.  Tattooed along the left and right\n",
+                "arms are the words:\n",
+                "\"In this world built of lies\n",
+                " believe in nothing\n",
+                " and trust in no one\"\n",
+                "and\n",
+                "\"Myrl\"\n"
+            ],
+            "raw_flags5": "stand stand either 1000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFHJ 0 BCMO ENSZ",
+            "raw_flags3": "-20 -23 -22 -21",
+            "vnum": 11623,
+            "raw_flags": "ACGR DFJLPQZ 0 -900 0",
+            "race_id": "drow",
+            "raw_flags2": "80 0 15d10+1850 1d10+1050 4d8+13 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A grinning figure wrapped all in black watches you with amusement.\n",
+            "keywords": "myrl figure cynic~\n"
+        },
+        "11624": {
+            "name": "the hellhawk~\n",
+            "description": [
+                "Fiery green eyes glow against the dark avian face with a bottomless hunger\n",
+                "that makes you shiver inside.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AHW ACDEFK huge 0",
+            "raw_flags4": "FH BH M I",
+            "raw_flags3": "-15 -13 -14 -10",
+            "vnum": 11624,
+            "raw_flags": "ABCFG DFT 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "65 2 10d10+1100 1d10+650 6d4+10 peck",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A giant, black-winged hawk perches here.\n",
+            "keywords": "hellhawk hawk~\n"
+        },
+        "11625": {
+            "name": "a silent stalker~\n",
+            "description": [
+                "The dark figure moves in and out of the shadows with the graceful power of\n",
+                "a cat.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "BEFJ 0 K P",
+            "raw_flags3": "-7 -8 -7 -8",
+            "vnum": 11625,
+            "raw_flags": "ACFGS PQ 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "52 1 5d10+600 1d10+100 3d7+7 pierce",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A silent black-clothed figure blends in with the shadows.\n",
+            "keywords": "silent stalker~\n"
+        },
+        "11626": {
+            "name": "a Twisted Being~\n",
+            "description": [
+                "A horrorific construction of bones and flesh shambles around the room.  The\n",
+                "dull grey eyes flash restlessly from side to side searchingly.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "ABHIM ABCDEFGHIJK large 0",
+            "raw_flags4": "CDEFJ LQ K EN",
+            "raw_flags3": "-13 -14 -14 -12",
+            "vnum": 11626,
+            "raw_flags": "ABCFG 0 O -500 0",
+            "race_id": "unique",
+            "raw_flags2": "64 0 10d10+1000 1d10+500 6d4+9 digestion",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A twisted being stalks about looking for souls to corrupt.\n",
+            "keywords": "twisted being~\n"
+        },
+        "11627": {
+            "name": "a screaming soul~\n",
+            "description": [
+                "Flesh has been stripped off the body in long chunks, revealing bloody white\n",
+                "bones beneath.  As the soul writhes with pain, larger chunks peel off and\n",
+                "fall to the floor.\n"
+            ],
+            "raw_flags5": "rest rest either 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "F 0 0 D",
+            "raw_flags3": "-10 -8 -7 -5",
+            "vnum": 11627,
+            "raw_flags": "ABG IU 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "52 0 5d10+600 1d10+520 3d7+7 scratch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A tortured soul writhes here, screaming in agony.\n",
+            "keywords": "screaming soul~\n"
+        },
+        "11628": {
+            "name": "Dark Necromancer~\n",
+            "description": [
+                "Fierce red eyes flash eerily from within the dark cowl.  One arm raises, and\n",
+                "you notice that the fingers are clawed and bloody..\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "FG M I HNY",
+            "raw_flags3": "-10 -12 -11 -10",
+            "vnum": 11628,
+            "raw_flags": "ACFGR DFG O -800 0",
+            "race_id": "human",
+            "raw_flags2": "64 0 10d10+1000 1d10+2000 6d4+9 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A tall, cowled figure stands here, radiating an aura of power.\n",
+            "keywords": "dark necromancer cowled figure~\n"
+        },
+        "11629": {
+            "name": "the Nightmare~\n",
+            "description": [
+                "A tall, fierce horse with blood red eyes stands before you, seeming to twist\n",
+                "in and out of being even as you look at it.  All light is repelled from the\n",
+                "vicinity of the beast, surrounding it with an aura of blackness, pierced\n",
+                "only by the hellish red lights of its eyes.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "ACHV ACDEFHK large 0",
+            "raw_flags4": "DEFGI KM CH NOP",
+            "raw_flags3": "-15 -15 -15 -15",
+            "vnum": 11629,
+            "raw_flags": "AGQ CDEFG HN 1000 0",
+            "race_id": "unique",
+            "raw_flags2": "70 2 10d10+1300 1d10+800 4d7+11 cleave",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The darkness writhes and coallesces into the form of a pitch black horse.\n",
+            "keywords": "nightmare black horse darkness~\n"
+        },
+        "11630": {
+            "name": "the Anti-Bishop~\n",
+            "description": [
+                "Long black robes, stained with blood both old and new, outline the figure of\n",
+                "a beautiful woman.  However, as the woman raises her head, the thin lips \n",
+                "part in a ghastly parody of a smile, twisting her face into something\n",
+                "terribly evil and entirely inhuman.\n"
+            ],
+            "raw_flags5": "stand stand female 875",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "FGI EM B JNP",
+            "raw_flags3": "-10 -11 -9 -8",
+            "vnum": 11630,
+            "raw_flags": "ABFG Z O -800 0",
+            "race_id": "human",
+            "raw_flags2": "60 0 6d12+853 1d10+700 4d6+8 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A tall woman in bloodied black robes prepares to make a sacrifice.\n",
+            "keywords": "anti-bishop bishop woman~\n"
+        },
+        "11631": {
+            "name": "the Wraith Knight~\n",
+            "description": [
+                "An aura of evil and death hangs about the dark wraith.  It turns its head, \n",
+                "and the blood red eyes seem to bore into yours with an insatiable hunger..\n"
+            ],
+            "raw_flags5": "stand stand either 400",
+            "raw_flags6": "DHIM 0 medium nothingness",
+            "raw_flags4": "DEFK I KM HNO",
+            "raw_flags3": "-17 -18 -16 -7",
+            "vnum": 11631,
+            "raw_flags": "ACGMNOT TUZ O -400 0",
+            "race_id": "unique",
+            "raw_flags2": "65 3 10d10+1100 1d10+250 6d4+9 drain",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A ghastly humanoid form floats here, reeking of death.\n",
+            "keywords": "wraith knight humanoid~\n"
+        },
+        "11632": {
+            "name": "the Bloody Sadist~\n",
+            "description": [
+                "Though the form is human enough, disheveled black hair and bloody, taloned\n",
+                "hands give the figure a ghastly, inhuman appearance.  The wild dark eyes\n",
+                "flicker searchingly around the room.\n"
+            ],
+            "raw_flags5": "stand stand either 350",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "DF 0 NQ HNS",
+            "raw_flags3": "-17 -18 -18 -15",
+            "vnum": 11632,
+            "raw_flags": "ACFG V 0 -600 0",
+            "race_id": "human",
+            "raw_flags2": "68 0 10d10+1200 1d10+680 4d7+10 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A bloody sadist searches madly for someone to torture.\n",
+            "keywords": "bloody sadist~\n"
+        },
+        "11633": {
+            "name": "the fanatic cultist~\n",
+            "description": [
+                "A black-robed cultist is attempting to keep the onyx walls spotless.  He's \n",
+                "doing a remarkable good job, considering that his tongue is only so long..\n"
+            ],
+            "raw_flags5": "stand stand either 160",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "F 0 0 0",
+            "raw_flags3": "-18 -19 -20 -18",
+            "vnum": 11633,
+            "raw_flags": "ACG 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "70 0 10d10+1300 1d10+630 4d7+11 chomp",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A cultist is here, cleaning the walls.\n",
+            "keywords": "fanatic cultist~\n"
+        },
+        "11634": {
+            "name": "the Grinner~\n",
+            "description": [
+                "A set of gleaming white teeth hover in midair, fixed in a wide grin bordering\n",
+                "on insane.  Then again.. floating teeth?  Maybe you're not entirely all there\n",
+                "yourself...  <g>\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 large 0",
+            "raw_flags4": "DEF BCFPT EL FK",
+            "raw_flags3": "-13 -12 -10 -10",
+            "vnum": 11634,
+            "raw_flags": "ACG TV 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "65 1 10d10+1100 0d0+0 6d4+9 chomp",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge grin floats here.. grinning.\n",
+            "keywords": "grinner~\n"
+        },
+        "11635": {
+            "name": "the Cultist High Priest~\n",
+            "description": [
+                "A cruel smile twists the dark human face into something hellish and cold.\n",
+                "Powerful taloned hands grasp a sacrificial dagger still grimy with blood.\n",
+                "The ghastly face turns towards you and licks its lips.\n"
+            ],
+            "raw_flags5": "stand stand either 620",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "DEFG ILQ M NSY",
+            "raw_flags3": "-15 -14 -15 -13",
+            "vnum": 11635,
+            "raw_flags": "ACFGQ Z O -900 0",
+            "race_id": "human",
+            "raw_flags2": "65 0 10d10+1100 1d10+1300 6d4+9 wrath",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A cold humanoid form stands here, radiating evil and decay.\n",
+            "keywords": "cultist high priest~\n"
+        },
+        "11636": {
+            "name": "a patch of Nothingness~\n",
+            "description": [
+                "Your guts wrench as you attempt to look at.. nothing at all.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "DL 0 medium 0",
+            "raw_flags4": "FG BD 0 HIJKMNOP",
+            "raw_flags3": "-8 -9 -7 -5",
+            "vnum": 11636,
+            "raw_flags": "AGMNO T B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "57 0 6d12+778 1d10+500 2d12+8 drain",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "All matter has disappeared in a square area in the center of the room.\n",
+            "keywords": "nothingness square area~\n"
+        },
+        "11637": {
+            "name": "the furry lemming~\n",
+            "description": [
+                "This furry little creature would be pretty cute if it didn't seem so bent\n",
+                "on self destruction.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJK small 0",
+            "raw_flags4": "FH 0 0 E",
+            "raw_flags3": "-5 -6 -5 -5",
+            "vnum": 11637,
+            "raw_flags": "ACG 0 0 0 0",
+            "race_id": "rabbit",
+            "raw_flags2": "45 0 5d10+450 0d0+0 4d4+6 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A cute little lemming is here, trying to kill itself.\n",
+            "keywords": "furry lemming~\n"
+        },
+        "11638": {
+            "name": "the Warlord~\n",
+            "description": [
+                "Wary, intelligent eyes combine with honed muscles and reflexive grace to\n",
+                "make this man a very dangerous enemy.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
+            "raw_flags4": "ADEFIK 0 D P",
+            "raw_flags3": "-21 -22 -21 -20",
+            "vnum": 11638,
+            "raw_flags": "AGT CV 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "70 5 10d10+1300 1d10+400 3d10+12 cleave",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge muscular man glowers at you.\n",
+            "keywords": "warlord man~\n"
+        },
+        "11639": {
+            "name": "the vampire janitor~\n",
+            "description": [
+                "It could almost be a part of the shadows, if it weren't for the telltale\n",
+                "red eyes gleaming sadistically against the blackness.\n"
+            ],
+            "raw_flags5": "stand stand either 565",
+            "raw_flags6": "CHI ABCDEFGHIJKU medium 0",
+            "raw_flags4": "FG B GJK NO",
+            "raw_flags3": "-20 -22 -21 -19",
+            "vnum": 11639,
+            "raw_flags": "AFG DFTZ BO -700 0",
+            "race_id": "unique",
+            "raw_flags2": "70 0 10d10+1300 1d10+700 4d7+11 drain",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "White fangs gleam in the darkness as a scream of insane rage shatters the air!\n",
+            "keywords": "vampire janitor white fangs~\n"
+        },
+        "11640": {
+            "name": "some lost dreams~\n",
+            "description": [
+                "Some dreams have been left here, forgotten.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "DHL 0 medium nothingness",
+            "raw_flags4": "FG 0 0 S",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11640,
+            "raw_flags": "AGMN TU B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "62 0 6d12+928 1d10+620 4d6+9 magic",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Some dreams drift aimlessly.\n",
+            "keywords": "lost dreams~\n"
+        },
+        "11641": {
+            "name": "Tainted knowledge~\n",
+            "description": [
+                "You feel wiser, yet somehow dirty..\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFG N G KLPQ",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11641,
+            "raw_flags": "AGMN ITU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "61 0 6d12+928 1d10+610 4d6+8 digestion",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A bit of knowledge, tattered and grey, floats in midair.\n",
+            "keywords": "tainted knowledge~\n"
+        },
+        "11642": {
+            "name": "some forgotten lies~\n",
+            "description": [
+                "As you attempt to look at them, they bury deeper into the shadows.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFGJ 0 F JPS",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11642,
+            "raw_flags": "AGHMNS PQTU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "64 0 10d10+1000 1d10+640 6d4+9 drain",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Some lies have been hidden here.\n",
+            "keywords": "forgotten lies~\n"
+        },
+        "11643": {
+            "name": "some lost hopes~\n",
+            "description": [
+                "An overwhelming feeling of hopelessness washes over you.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "HL 0 medium nothingness",
+            "raw_flags4": "EFG I 0 FJPS",
+            "raw_flags3": "-15 -14 -13 -11",
+            "vnum": 11643,
+            "raw_flags": "AGMN TU B 0 0",
+            "race_id": "unique",
+            "raw_flags2": "62 0 6d12+928 1d10+620 4d6+9 scratch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Some hopes have been left here to drift.\n",
+            "keywords": "lost hopes~\n"
+        },
+        "11644": {
+            "name": "Daemias~\n",
+            "description": [
+                "Slitted silver eyes gleam warily from the powerful cat form as she prowls\n",
+                "silently, like a living shadow.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "AGV ACDEFHJKQUV large 0",
+            "raw_flags4": "DEFGH HMQ G I",
+            "raw_flags3": "-22 -21 -19 -20",
+            "vnum": 11644,
+            "raw_flags": "ABFGT PQVZ 0 0 11644",
+            "race_id": "cat",
+            "raw_flags2": "80 2 15d10+1850 1d10+850 4d8+13 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A black panther stalks restlessly through the shadows.\n",
+            "keywords": "black panther daemias~\n"
+        },
+        "11645": {
+            "name": "Dierek~\n",
+            "description": [
+                "Raven black hair frames handsome, chiseled features and a powerful human\n",
+                "build.  The dark silver eyes, shadowed with pain, are strangely at odds with\n",
+                "the cruel smile that seems to have permanently twisted the human lips.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EIK BEJM GIK N",
+            "raw_flags3": "-20 -23 -25 -23",
+            "vnum": 11645,
+            "raw_flags": "ABFGRT CD HO -1000 11644",
+            "race_id": "human",
+            "raw_flags2": "85 0 25d10+2500 1d10+1000 3d12+14 smash",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A darkly handsome man stands here, radiating evil.\n",
+            "keywords": "dierek black man~\n"
+        },
+        "11646": {
+            "name": "a shadow of Reality~\n",
+            "description": [
+                "It leers at you mockingly.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "DHL 0 medium nothingness",
+            "raw_flags4": "ACDEF B C DP",
+            "raw_flags3": "-28 -26 -29 -27",
+            "vnum": 11646,
+            "raw_flags": "ABCGMN QU 0 0 0",
+            "race_id": "unique",
+            "raw_flags2": "58 0 6d12+778 1d10+580 2d12+8 shbite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A shadow of reality has been stuffed into a corner.\n",
+            "keywords": "shadow reality~\n"
+        },
+        "11647": {
+            "name": "a terrified victim~\n",
+            "description": [
+                "This person is completely rigid with fear.\n"
+            ],
+            "raw_flags5": "rest rest either 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "DFJ 0 0 P",
+            "raw_flags3": "-22 -20 -21 -16",
+            "vnum": 11647,
+            "raw_flags": "ABG I 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "58 0 6d12+778 1d10+180 2d12+0 scratch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A sacrifice victim lies here, too terrified to scream.\n",
+            "keywords": "terrified victim~\n"
+        }
+    },
+    "realm_id": 4
+}

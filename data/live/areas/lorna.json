@@ -1,0 +1,283 @@
+{
+    "name": "Lorna's Realm",
+    "id": "lorna",
+    "subroutines": [],
+    "rooms": {
+        "14901": {
+            "name": "{cThe {DIron {cMaiden{x",
+            "description": [
+                "{DWelcome to the Iron {cMaiden{D.  It is here you will find a slow and",
+                "painful death.  You've been locked into a tight space.  The interior",
+                "is lined with sharp {wspikes {Dand {yr{Ru{ys{Rt{yy{D nails.  Please, enjoy your stay. ",
+                "{x "
+            ],
+            "flags_raw": "0 202121292 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "14901",
+            "exits": {},
+            "extras": {}
+        },
+        "14900": {
+            "name": "Lorna's Do-Nothing Room",
+            "description": [],
+            "flags_raw": "0 4 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "14900",
+            "exits": {},
+            "extras": {}
+        }
+    },
+    "uid": "lorna",
+    "area_quest_points": 0,
+    "credits": "[  IMM   ] Lorna's Realm",
+    "faction_id": "",
+    "vnums": [
+        14900,
+        14999
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "zone_id": 0,
+    "security": 7,
+    "mobiles": {
+        "14900": {
+            "name": "{DThe {yGreased {MPig{x~\n",
+            "description": [
+                "{M         ___\n",
+                "{M         ',_`\"\"\\        .---,\n",
+                "{M            \\   :-\"\"``/`    |\n",
+                "{M             `;'     /{m/`{M\\   /\n",
+                "{M             /   {w__{M     |   ('.\n",
+                "{M            |_ .{w/{WO{B){w\\{M     \\  `) \\\n",
+                "{M           _/{m-.{M    `      `\"`  |`-.\n",
+                "{M       .-=; `                  /   `-.\n",
+                "{M      /{Do o{M \\   {m,_,{M           .        '.\n",
+                "{M      L._._;{m_.-'{M           .            `'-.\n",
+                "{M        `'-.`             '                 `'-.\n",
+                "{M            `.         '                        `-._\n",
+                "{M              '-._. -'                              '.\n",
+                "{M                 \\                                    `\\\n",
+                "{M                  |                                     \\\n",
+                "{M                  |    |                                 ;   _.\n",
+                "{M                  \\    |           |                     |-.((\n",
+                "{M                   ;.  \\           /    /                |-.`\\)\n",
+                "{M                   | '. ;         /    |                 |(_) )\n",
+                "{M                   |   \\ \\       /`    |                 ;'--'\n",
+                "{M                    \\   '.\\    /`      |                /\n",
+                "{M                     |   /`|  ;        \\               /\n",
+                "{M                     |  |  |  |-._      '.           .'\n",
+                "{M                     /  |  |  |__.`'---\"_;'-.     .-'\n",
+                "{M                    //__/  /  |    .-'``     _.-'`\n",
+                "{M                          //__/   //___.--''`{x\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJK medium unknown",
+            "raw_flags4": "0 ABC DEFGHIJKLMNOPQRSTXYZ 0",
+            "raw_flags3": "-100 -100 -100 -100",
+            "vnum": 14900,
+            "raw_flags": "AHd PQ HNO 0 0",
+            "race_id": "pig",
+            "raw_flags2": "109 1 10000d600+30000 10000d600+30000 1d1+1 chomp",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M fight 14900 75~\n",
+                "M act 14905 closes the door~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{ySQUUU{MEEEEEEEEEEEEEEEEEEEEEEEEEE{w!!!!{x\n",
+            "keywords": "greased pig lormob~\n"
+        },
+        "14901": {
+            "name": "{cThe {DIron {cMaiden{x~\n",
+            "description": [],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "J 0 medium unknown",
+            "raw_flags4": "A ABCDEFGHIJKLNOPQRSTXYZ 0 0",
+            "raw_flags3": "-990 -990 -990 -990",
+            "vnum": 14901,
+            "raw_flags": "AFN DF CDEHNO 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "350 2500 10000d600+30000 10000d600+30000 1d1+1 pierce",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Iron Maiden closes around you.\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "iron maiden lormob~\n"
+        },
+        "14902": {
+            "name": "a {RG{riant {MN{masty {YK{yiller {GO{gvary{x~\n",
+            "description": [
+                "A {RG{riant {MN{masty {YK{yiller {GO{gvary hates all things {Dmale.{x\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "ACDEFGHJKNO AB CDE 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 14902,
+            "raw_flags": "A DFVac CDEH 0 0",
+            "race_id": "human",
+            "raw_flags2": "109 555 10000d600+30000 10000d600+30000 550d550+550 slime",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M grall 14901 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A {RG{riant {MN{masty {YK{yiller {GO{gvary hates all things {Dmale.{x\n",
+            "keywords": "giant killer ovary lormob~\n"
+        },
+        "14903": {
+            "name": "{D.{mo{MO{mo{D.a DiSpLaCeR BeAsT.{mo{MO{mo{D.{x~\n",
+            "description": [
+                "{DShrouded in the mists of shade, the Displacer Beast is a nightmare\n",
+                "to behold.  A mass of tendrils thrash about the muscular body of a\n",
+                "sleek black panther.  Little is known about these beasts, other than\n",
+                "that they are greatly feared amongst the lesser races that tred in\n",
+                "dark places.  {x \n"
+            ],
+            "raw_flags5": "stand stand none 1000",
+            "raw_flags6": "AHMV ABCDEFGHIJK huge unknown",
+            "raw_flags4": "ABEFGHKN ABCM DEFGHIJKLNOPQS 0",
+            "raw_flags3": "-325 -325 -325 -325",
+            "vnum": 14903,
+            "raw_flags": "AFGPW DFJPQUVZac EHO -1000 0",
+            "race_id": "human",
+            "raw_flags2": "107 5 10000d375+30000 10000d600+30000 130d87+850 suction",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M act 14902 recites~\n",
+                "M fight 14902 20~\n",
+                "M fight 14903 14~\n",
+                "M fight 14904 10~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{D.{mo{MO{mo{D.a DiSpLaCeR BeAsT.{mo{MO{mo{D roars in fury.{x\n",
+            "keywords": "beast aeqmob~\n"
+        },
+        "14904": {
+            "name": "{D<<{y<{D==+--u{yM{DbR{yA{Dl Ro{yC{D----{x~\n",
+            "description": [
+                "{D                               /T /I\n",
+                "{D                              / |/ | .--/\n",
+                "{D                          T\\ Y  I  |/  /  _\n",
+                "{D         /T               | \\I  |  I  Y.--/\n",
+                "{D        I l   /I       T\\ |  |  l  |  T  /\n",
+                "{D     T\\ |  \\ Y l  /T   | \\I  l   \\ `  l Y\n",
+                "{D __  | \\l   \\l  \\I l __l  l   \\   `  _. |\n",
+                "{D \\ --l  `\\   `\\  \\  \\\\ -\\  \\   `. .--   |\n",
+                "{D  \\   --. \"-.  `  \\  ^._ ^. \"-.  /  \\   |\n",
+                "{D.----._  --  `  _  --_.-\"-.\" ._ /._ .\" ./\n",
+                "{D >--.  --.   ._  ->-\"    \"\\\\   7   7   ]\n",
+                "{D^.___-\"--._    --[  .-- .  `\\ Y . /    |\n",
+                "{D <__ -\"-.  -       /_/   \\   \\I  Y   : |\n",
+                "{D   ^-.__           -(_/   \\   >._:   | l______\n",
+                "{D       ^--.,___.--\"  /_/   !  `-.-\"--l_ /     -\"-.\n",
+                "{D              (_/ .  -(   /'     \"-\"--,Y   -=b-. _){y\n",
+                "{D               (_/ .  \\  :           / l      c\"{y-{Do{y \\\n",
+                "{D                \\ /    `.    .     .^   \\_.--\"{y---.  )\n",
+                "{D                 (_/ .   `  /     /       !     {y  )/\n",
+                "{D                  / / _.   '.   .':      /        '\n",
+                "{D                  -(_/ .   /    _  `  .-<_{y\n",
+                "{D                    /_/ . ' .--\" `.  / \\  \\{y          ,z=.\n",
+                "{D                    -( /   '  :   | K   \"-.--.{y______//\n",
+                "{D                      \"-,.    l   I/ \\_    __[{y--->._(==.\n",
+                "{D                       //(     \\  <    -\"-\"{y     //\n",
+                "{D                      /' /\\     \\  \\    {y ,v=.  ((\n",
+                "{D                    .^. / /\\     \"  }{y__ //===-  `\n",
+                "{D                   / / ' '  \"-.,__ [{y---(==-\n",
+                "{D                 .^ '       :  T  -\"{y   ll\n",
+                "{D                / .  .  . : | :!    {y    \\\\\n",
+                "{D               (_/  /   | | j-\"     {y     -^\n",
+                "{D                 --<_(_.^--\"{x\n"
+            ],
+            "raw_flags5": "stand stand either 1000",
+            "raw_flags6": "AH ABCDEFGHIJKP huge unknown",
+            "raw_flags4": "ABCEFGHKN ABLMPQ CDEFGHIJKNOS 0",
+            "raw_flags3": "-325 -325 -325 -325",
+            "vnum": 14904,
+            "raw_flags": "AFGSTW DFJPQTUVZac CEHN 1000 0",
+            "race_id": "human",
+            "raw_form": "MV",
+            "raw_flags2": "107 1 10000d450+30000 10000d600+30000 130d75+750 drain",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for MV\n",
+                "M fight 14909 25~\n",
+                "M act 14906 recites~\n",
+                "M fight 14906 22~\n",
+                "M fight 14907 20~\n",
+                "M fight 14908 15~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{DA massive Ro{yC{D screeches in anger.{x\n",
+            "keywords": "umbral roc aeqmob~\n"
+        },
+        "14905": {
+            "name": "{Da {Yg{Do{yl{Yd{D-sp{ye{Yc{Dkle{Yd {Ds{Yn{yi{Dpe{x~\n",
+            "description": [
+                "{DA bird, if defined under loose terms, the likes of which has never\n",
+                "been seen before.  Surely it must be quite a rare find.  Its plumage\n",
+                "is beautiful, dark feathers covered in sparkling golden motes.  {x \n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGHMVW ABCDEFGHIJKPU small unknown",
+            "raw_flags4": "0 ABC DEFGHIJKLMNOPQRSTXYZ 0",
+            "raw_flags3": "-100 -100 -100 -100",
+            "vnum": 14905,
+            "raw_flags": "AHd FJLPQT HN 0 0",
+            "race_id": "kenku",
+            "raw_flags2": "110 10 100d100+25000 10000d600+30000 10d25+75 peck",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F vul R\n",
+                "M act 14910 closes the door~\n",
+                "M fight 14911 75~\n",
+                "M speech 14912 snipehunt teleport~\n",
+                "M scrye 14912 95~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{DAn odd flighty {Yb{yi{Drd flits about wildly.{x\n",
+            "raw_vulns": "R",
+            "keywords": "gold-speckled snipe aeqmob~\n"
+        },
+        "14906": {
+            "name": "{DSe{Wxu{Dal Har{Wass{Dment P{Wan{Dda{x~\n",
+            "description": [
+                "{DEnter the dreaded Panda, bane of the Sexual Harassing befuddlers of\n",
+                "the world.  It is his job to police the pinching, groping, fondling\n",
+                "and all around deviance that runs unchecked in the world.  A grown man\n",
+                "is enveloped by an overstuffed panda suit.  One should remember to\n",
+                "NEVER point out that he isn't a real Panda, for he is sensitive to the\n",
+                "fact that he has a zip up pelt.  {x \n"
+            ],
+            "raw_flags5": "stand stand male 10000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "BCEFHIJKNOQ ABJLMNQ CDHI 0",
+            "raw_flags3": "-300 -300 -300 -300",
+            "vnum": 14906,
+            "raw_flags": "ABEGNTV CDEFG CH 0 0",
+            "race_id": "human",
+            "raw_flags2": "109 500 900d1200+15000 1500d1500+15000 15d30+100 wrath",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M fight 14915 20~\n",
+                "M act 14914 goose~\n",
+                "M act 14914 poke~\n",
+                "M act 14914 fondle~\n",
+                "M act 14914 pinch~\n",
+                "M act 14914 grope~\n",
+                "M speech 14913 croon~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{xA repressed {DP{Wan{Dda {xtakes up a vigilant watch, masticating some bamboo.{x\n",
+            "keywords": "sexual harassment panda lormob~\n"
+        }
+    },
+    "realm_id": 0
+}

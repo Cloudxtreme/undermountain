@@ -1,0 +1,783 @@
+{
+    "name": "Day Care",
+    "id": "daycare",
+    "subroutines": [],
+    "rooms": {
+        "6601": {
+            "name": "The Dwarven Drop Off",
+            "description": [
+                "This is where the dwarven mommies and daddies come to drop off their",
+                "annoying little brats.  You have the urge to leave.  There is a sign here."
+            ],
+            "flags_raw": "0 12 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6601",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6500"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6603"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "This is an area for newbies, so have fun.  -- Sandman",
+                        ""
+                    ]
+                }
+            }
+        },
+        "6614": {
+            "name": "Mini-Maze",
+            "description": [
+                "You are in a small passage that looks just like every other one."
+            ],
+            "flags_raw": "0 9 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6614",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6613"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6616"
+                }
+            },
+            "extras": {}
+        },
+        "6600": {
+            "name": "",
+            "description": [],
+            "flags_raw": "0 4 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6600",
+            "exits": {},
+            "extras": {}
+        },
+        "6626": {
+            "name": "Messy Kitchen",
+            "description": [
+                "You stand in the kitchen and eating area of the day care center.  Pots and",
+                "pans are everywhere, while the toddlers continue to create chaos."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6626",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6602"
+                }
+            },
+            "extras": {}
+        },
+        "6616": {
+            "name": "Mini-Maze",
+            "description": [
+                "You are in a small passage that looks just like every other one."
+            ],
+            "flags_raw": "0 9 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6616",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6614"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6615"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6624"
+                }
+            },
+            "extras": {}
+        },
+        "6608": {
+            "name": "The Playground",
+            "description": [
+                "You are in the north-west corner of the playground."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6608",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6610"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6609"
+                }
+            },
+            "extras": {}
+        },
+        "6609": {
+            "name": "The Playground",
+            "description": [
+                "You are in the north-east corner of the playground."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6609",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6608"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6611"
+                }
+            },
+            "extras": {}
+        },
+        "6624": {
+            "name": "End of the Mini-Maze",
+            "description": [
+                "You stand at the end of your journey.  There is a big sign here and you had",
+                "better read it!"
+            ],
+            "flags_raw": "0 9 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6624",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6616"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6631"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "If you are not level 6 or above, then don't go south!!!!  It is a dangerous",
+                        "area, but congrats for getting this far - Sandman",
+                        ""
+                    ]
+                }
+            }
+        },
+        "6611": {
+            "name": "The Playground",
+            "description": [
+                "You are in the south-east corner of the playground."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6611",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6609"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6610"
+                }
+            },
+            "extras": {}
+        },
+        "6604": {
+            "name": "Day Care Center",
+            "description": [
+                "You are in the south-east corner of the main part of the center.  Toys and",
+                "toddlers are all over the room.  There is a playground to the east."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6604",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6602"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6605"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6610"
+                }
+            },
+            "extras": {}
+        },
+        "6613": {
+            "name": "Mini-Maze",
+            "description": [
+                "You are in a small passage that looks just like every other one."
+            ],
+            "flags_raw": "0 9 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6613",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6614"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6612"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6615"
+                }
+            },
+            "extras": {}
+        },
+        "6602": {
+            "name": "Day Care Center",
+            "description": [
+                "You are in the north-east corner of the main part of the center.  Toys and",
+                "toddlers are all over the room.  There is a kitchen to the east."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6602",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6626"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6603"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6604"
+                }
+            },
+            "extras": {}
+        },
+        "6605": {
+            "name": "Day Care Center",
+            "description": [
+                "You are in the south-west corner of the main part of the center.  Toys and",
+                "toddlers are all over the room.  There is a staircase to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6605",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6603"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a staircase leading down.",
+                        ""
+                    ],
+                    "room_id": "6607"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6604"
+                }
+            },
+            "extras": {}
+        },
+        "6612": {
+            "name": "Entrance to the Mini-Maze",
+            "description": [
+                "You stand in the entrance to a small, but confusing maze.  You really hope",
+                "that you don't get lost."
+            ],
+            "flags_raw": "0 13 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6612",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6613"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see some stairs.",
+                        ""
+                    ],
+                    "room_id": "6607"
+                }
+            },
+            "extras": {}
+        },
+        "6610": {
+            "name": "The Playground",
+            "description": [
+                "You are in the south-west corner of the playground."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6610",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6608"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6604"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the playground.",
+                        ""
+                    ],
+                    "room_id": "6611"
+                }
+            },
+            "extras": {}
+        },
+        "6615": {
+            "name": "Mini-Maze",
+            "description": [
+                "You are in a small passage that looks just like every other one."
+            ],
+            "flags_raw": "0 9 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6615",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6613"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6616"
+                }
+            },
+            "extras": {}
+        },
+        "6603": {
+            "name": "Day Care Center",
+            "description": [
+                "You are in the north-west corner of the main part of the center.  Toys and",
+                "toddlers are all over the room.  There is a bathroom to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6603",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6605"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "6601"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a messy bathroom.",
+                        ""
+                    ],
+                    "room_id": "6606"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6602"
+                }
+            },
+            "extras": {}
+        },
+        "6606": {
+            "name": "The Messy Bathroom",
+            "description": [
+                "You hold your nose as you realize you have made the worst mistake of your",
+                "life.  The air is rancid and the walls are stained."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6606",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6603"
+                }
+            },
+            "extras": {}
+        },
+        "6607": {
+            "name": "The Staircase",
+            "description": [
+                "You stand on top of a staircase leading down, and wonder what mystery could",
+                "lie down under.  Beware!"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "6607",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a large room full of noisy brats.",
+                        ""
+                    ],
+                    "room_id": "6605"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the entrance to something.",
+                        ""
+                    ],
+                    "room_id": "6612"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "daycare",
+    "area_quest_points": 0,
+    "credits": "[01 GR 05] Dwarven Day Care",
+    "faction_id": "",
+    "vnums": [
+        6600,
+        6699
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "6608": {
+            "name": "the spoiled brat~\n",
+            "description": [
+                "You see a little tyke who has always gotten what he wanted.  You have the\n",
+                "biggest urge to put him out of his misery.\n"
+            ],
+            "raw_flags5": "stand stand male 50",
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "raw_flags4": "IJN 0 FLQ RS",
+            "raw_flags3": "8 8 8 10",
+            "vnum": 6608,
+            "raw_flags": "ABC JZ 0 -400 0",
+            "race_id": "dwarf",
+            "raw_flags2": "1 0 2d4+15 1d1+199 2d2+1 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A spoiled brat is crying here.\n",
+            "keywords": "brat spoiled~\n"
+        },
+        "6600": {
+            "name": "the dwarven youth~\n",
+            "description": [
+                "This is a young but not totally harmless creature.\n"
+            ],
+            "raw_flags5": "sit stand either 10",
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "raw_flags4": "DJR 0 FLQ RS",
+            "raw_flags3": "7 6 7 10",
+            "vnum": 6600,
+            "raw_flags": "ACGT JZ 0 -5 0",
+            "race_id": "dwarf",
+            "raw_flags2": "5 0 1d4+30 1d1+99 1d4+2 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A young dwarf plays with a toy axe.\n",
+            "keywords": "youth dwarven dwarf~\n"
+        },
+        "6601": {
+            "name": "a teddy bear~\n",
+            "description": [
+                "This is a tiny little bear with a heart on his chest.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "EJMc ABCGHK small cloth",
+            "raw_flags4": "NR ILMNPQR ES GHJKO",
+            "raw_flags3": "8 5 9 10",
+            "vnum": 6601,
+            "raw_flags": "ACG 0 0 500 0",
+            "race_id": "doll",
+            "raw_flags2": "1 0 1d10+10 1d1+99 1d4+0 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A cute and fuzzy teddy bear stands here.\n",
+            "keywords": "teddy bear~\n"
+        },
+        "6602": {
+            "name": "a raggedy anne doll~\n",
+            "description": [
+                "You see a small little cute rag doll.\n"
+            ],
+            "raw_flags5": "sit stand female 0",
+            "raw_flags6": "EJMc ABCGHK small cloth",
+            "raw_flags4": "FHR ILMNPQR ES GHJKO",
+            "raw_flags3": "7 4 8 10",
+            "vnum": 6602,
+            "raw_flags": "ACG 0 0 300 0",
+            "race_id": "doll",
+            "raw_flags2": "3 0 2d5+19 1d1+99 1d5+0 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A raggedy anne doll is sitting here.\n",
+            "keywords": "doll raggedy anne~\n"
+        },
+        "6603": {
+            "name": "a toy soldier~\n",
+            "description": [
+                "The toy is looking for target practice.\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "EJMc ABCGHK small tin",
+            "raw_flags4": "IR ILMNPQR EGS EGHJKO",
+            "raw_flags3": "6 7 6 9",
+            "vnum": 6603,
+            "raw_flags": "ACGT 0 0 -300 0",
+            "race_id": "doll",
+            "raw_flags2": "6 1 3d5+36 1d1+99 1d4+3 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A toy soldier is standing here.\n",
+            "keywords": "soldier toy~\n"
+        },
+        "6604": {
+            "name": "the ugly bear~\n",
+            "description": [
+                "This is obviously a reject from the factory.\n",
+                "He snarls and growls at you.\n"
+            ],
+            "raw_flags5": "stand stand male 5",
+            "raw_flags6": "EJMc ABCGHK small cloth",
+            "raw_flags4": "DJNR ILMNPQR ES GHJKO",
+            "raw_flags3": "6 3 7 10",
+            "vnum": 6604,
+            "raw_flags": "ACF 0 0 -400 0",
+            "race_id": "doll",
+            "raw_flags2": "5 0 3d4+29 1d1+99 1d6+1 chomp",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An ugly stuffed bear stands here.\n",
+            "keywords": "bear ugly~\n"
+        },
+        "6605": {
+            "name": "an old doll~\n",
+            "description": [
+                "This doll has been hugged and played with until there is almost nothing left.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "EJMc ABCGHK small cloth",
+            "raw_flags4": "R ILMNPQR ES GHJKO",
+            "raw_flags3": "8 5 9 10",
+            "vnum": 6605,
+            "raw_flags": "ACG 0 0 -2 0",
+            "race_id": "doll",
+            "raw_flags2": "1 0 1d10+1 1d1+99 1d4+0 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An abused and old doll is here.\n",
+            "keywords": "doll old~\n"
+        },
+        "6606": {
+            "name": "the nanny~\n",
+            "description": [
+                "You see an old dwarven lady who has been hunched over with age.  However, it\n",
+                "appears that there is still some fight left in her.\n"
+            ],
+            "raw_flags5": "stand stand female 50",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CDR 0 FLQ RS",
+            "raw_flags3": "5 5 5 10",
+            "vnum": 6606,
+            "raw_flags": "AG JZ 0 10 0",
+            "race_id": "dwarf",
+            "raw_flags2": "9 1 4d4+50 5d4+100 1d6+1 slap",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An old wrinkled nanny stands here, looking over the little ones.\n",
+            "keywords": "nanny~\n"
+        },
+        "6607": {
+            "name": "the armed guard~\n",
+            "description": [
+                "This is a big mean bully who is tired of being lost in this maze.\n",
+                "You suddenly think that you had better flee.\n"
+            ],
+            "raw_flags5": "stand stand male 120",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CDJR 0 FLQ RS",
+            "raw_flags3": "3 2 3 8",
+            "vnum": 6607,
+            "raw_flags": "ABCT DJZ 0 -800 0",
+            "race_id": "dwarf",
+            "raw_flags2": "16 1 3d10+100 8d4+100 1d7+3 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An armed guard stands here looking lost.\n",
+            "keywords": "guard~\n"
+        }
+    },
+    "realm_id": 4
+}

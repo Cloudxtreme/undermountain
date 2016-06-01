@@ -1,0 +1,4235 @@
+{
+    "name": "New Beginning Sewers",
+    "id": "nbsewers",
+    "subroutines": [],
+    "rooms": {
+        "42057": {
+            "name": "A Curve in the Passageway",
+            "description": [
+                "{x",
+                "The passageway curves here, the rough-hewn stone walls jutting",
+                "haphazardly in the dim light.  Stone, sweat, and earth mingle ",
+                "together to create a musky scent that fills the tunnel.  A chill",
+                "sits in the air, owing to the depth at which this passageway ",
+                "has been built."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42057",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42058"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42056"
+                }
+            },
+            "extras": {}
+        },
+        "42058": {
+            "name": "A Stretch in the Stone Corridor",
+            "description": [
+                "{x",
+                "The passageway extends here, seeming to retain the same level",
+                "walking surface as the rest of the tunnel.  There is no telling",
+                "whether one is making any kind of headway.  The underground",
+                "chill hangs in the air, accompanied by the scent of earth, ",
+                "stone, and sweat."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42058",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42059"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42057"
+                }
+            },
+            "extras": {}
+        },
+        "42093": {
+            "name": "Flambard's Hole Cul-de-Sac",
+            "description": [
+                "{x",
+                "This cul-de-sac leads to houses that look so run down and",
+                "dirty as to look as though they are unlivable.  A few of",
+                "the street lamps are out, casting shadows on the road.  The",
+                "bricks in the street are shabby, old, and covered in trash.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42093",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42094"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42095"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42090"
+                }
+            },
+            "extras": {}
+        },
+        "42020": {
+            "name": "A Bend in the Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnel smells faintly of beer here, overriding",
+                "only by an impossible margin the rank odor of raw sewage.",
+                "Debris and excrement flow in the center of the large pipe,",
+                "and various rodents, insects, and other beasts happily",
+                "scurry along in their sewer home."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42020",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42021"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42008"
+                }
+            },
+            "extras": {}
+        },
+        "42084": {
+            "name": "Smuggler's Den Road",
+            "description": [
+                "{x",
+                "Smuggler's Den Road is the main thoroughfare in the town and",
+                "is lined with bricks that are broken, cracked, and dirty.  Trash",
+                "lays scattered on the ground and along the walls of the buildings",
+                "long faded posters and flyers curl and hang lopsided off the ",
+                "walls.  A {Ysign {wsits above the doorway of the building to the",
+                "east.{x",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42084",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42086"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42083"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42085"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{8+------------------------------------------+",
+                        "{8|                                          |",
+                        "{8|                                          |",
+                        "{8|               {WFlambard's{8                 |",
+                        "{8|               {W   Pub   {8                  |",
+                        "{8|                                          |",
+                        "{8|                                          |",
+                        "{8+------------------------------------------+{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42035": {
+            "name": "T-Junction in the Deeper Sewers",
+            "description": [
+                "{x",
+                "Yet another T-junction exists here in the sewers, the massive",
+                "tunnels going north, east, and west.  In the center of the ",
+                "tunnels a channel full of raw sewage flows, carrying with it ",
+                "the scent of waste, garbage, and decay.  The brick walls weep",
+                "with the condensation from not only the sewage, but the ground",
+                "beyond."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42035",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42036"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42038"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42034"
+                }
+            },
+            "extras": {}
+        },
+        "42025": {
+            "name": "End of the Sewer Tunnel",
+            "description": [
+                "{x",
+                "The tunnel comes to an abrupt end here at a brick wall that",
+                "weeps with water, slime, and algae.  The darkness here is just",
+                "as thick as the rest of the sewer system and smells just as ",
+                "foul.  A channel in the center of the tunnel serves to rush ",
+                "sewage away toward a grate and onward to the river."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42025",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42024"
+                }
+            },
+            "extras": {}
+        },
+        "42063": {
+            "name": "A Curve in the Sub-Sewer Tunnel",
+            "description": [
+                "{x",
+                "The subterranean corridor curves here, jutting out super-sharp",
+                "stone that looks as though it has been roughly carved by a ",
+                "wickedly large set of claws.  A deep chill settles over the",
+                "corridor, made even deeper by the lack of light that creates",
+                "dim patches and dark shadows."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42063",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42064"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42062"
+                }
+            },
+            "extras": {}
+        },
+        "42050": {
+            "name": "A Curve in the Tunnel",
+            "description": [
+                "{x",
+                "The tunnel curves here and grows slightly darker as the",
+                "lights grow farther apart.  The rough-hewn stone gives off",
+                "a slight chill, adding to the air with the scent of earth,",
+                "and sweat.  The ground is littered with rubble and dirt."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42050",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42049"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42051"
+                }
+            },
+            "extras": {}
+        },
+        "42024": {
+            "name": "A Bend in the Sewers",
+            "description": [
+                "{x",
+                "The massive sewer tunnel bends here to the north and east.  The",
+                "sewage from above runs into a channel in the center of the tunnel",
+                "where not only does bodily waste flow, but garbage, and dead ",
+                "animals from the topside.  The sounds of the sewer echo off the ",
+                "walls and float upon the air with the stench of sewage."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42024",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42012"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42025"
+                }
+            },
+            "extras": {}
+        },
+        "42090": {
+            "name": "Smuggler's Den Junction",
+            "description": [
+                "{x",
+                "Smuggler's Den Road comes to an end here, spreading out to",
+                "the east and west and leading toward several shacks and",
+                "houses.  The road is dingy and dirty, filled with trash that",
+                "covers the bricks.  Overhead, the cavern reaches high enough",
+                "to disappear into darkness.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42090",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42089"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42093"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42096"
+                }
+            },
+            "extras": {}
+        },
+        "42017": {
+            "name": "End of the Tunnel",
+            "description": [
+                "{x",
+                "The tunnel ends here at a bricked over wall that weeps with",
+                "the condensation of sewage and water.  Algae clings to the ",
+                "bricks, loaded down with the slime of raw sewage.  The smell",
+                "that fills the air is that of bodily waste, garbage, and ",
+                "things long dead and decayed."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42017",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42016"
+                }
+            },
+            "extras": {}
+        },
+        "42094": {
+            "name": "A Ramshackle Residence",
+            "description": [
+                "{x",
+                "This house, if it can be called that, is deplorable.  Stacks of",
+                "newspapers fill the room, leaving only a narrow walkway to get",
+                "anywhere.  One match and the place would flame to the sky.  The",
+                "smell of rotting food and perhaps a decaying rat or two fills the",
+                "space."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42094",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42093"
+                }
+            },
+            "extras": {}
+        },
+        "42012": {
+            "name": "Quadruple Junction in the Sewer",
+            "description": [
+                "{x",
+                "In the spreading blanket of darkness the massive sewer tunnel",
+                "branches in four directions, north, east, south, and west.  The",
+                "sewage in the center of the tunnels runs to this point and down",
+                "a steel grate that takes it to further reaches of the sewer",
+                "system.  The smell of the conjoining channels is overwhelming and",
+                "almost seems alive with its palpability."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42012",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42024"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42013"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42022"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42011"
+                }
+            },
+            "extras": {}
+        },
+        "42045": {
+            "name": "End of the Tunnel in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnel comes to an end here at a solid brick",
+                "wall that weeps with sewer condensation.  To the south",
+                "a group of misshapen bricks sits in a pile.  Algae and",
+                "slime coat the walls in long strands and the scent of ",
+                "raw sewage hangs in the darkness."
+            ],
+            "flags_raw": "0 67108873 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42045",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42042"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42046"
+                }
+            },
+            "extras": {}
+        },
+        "42033": {
+            "name": "A Massive Tunnel in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnel runs north to south, flowing with a channel",
+                "of sewage at its very heart.  The brick walls are coated with",
+                "the condensation of waste material, and echo with the sounds ",
+                "of roaches, rodents, and dripping water."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42033",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42032"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42034"
+                }
+            },
+            "extras": {}
+        },
+        "42001": {
+            "name": "Opening to the Sewers",
+            "description": [
+                "{x",
+                "A long steel ladder reaches up toward a manhole cover.  Drips",
+                "of an unknown liquid fall from the cover above, causing the ",
+                "ladder to rust in many places.  The smell is dank and sour and",
+                "no light penetrates from above.  Sewage runs in a deep rivulet",
+                "in the center of the tunnel, populated by a myriad of different",
+                "types of debris.  A {Rsign {wsits off to the side of the ladder",
+                "lit by a tiny floating flame."
+            ],
+            "flags_raw": "0 131085 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42001",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42002"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42000"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{RWARNING:",
+                        "{x",
+                        "{8You have entered the sewers of New Beginnings, where only",
+                        "{8those who have obtained knowledge through adventure may",
+                        "{8tread.  If you have not obtained level 15 in your studies,",
+                        "{8you may wish to leave now.  {RYOU HAVE BEEN WARNED!{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42006": {
+            "name": "Large Tunnel in the Sewers",
+            "description": [
+                "{x",
+                "The tunnel follows a north-south line here in utter darkness.",
+                "Sounds of scurrying rat feet echo off the walls as well as the",
+                "stippled sound of cockroaches scattering to and fro.  The smell",
+                "is like a wet blanket that lays over everything, smothering all",
+                "with its stench."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42006",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42005"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42007"
+                }
+            },
+            "extras": {}
+        },
+        "42005": {
+            "name": "Bend in the Tunnel",
+            "description": [
+                "{x",
+                "There is a bend here in the massive sewer tunnel that runs",
+                "beneath the Survival Pack Factory.  A channel sits in the ",
+                "center of the floor of the tunnel where sewage collects and",
+                "flows away.  The thick stench of sewage and debris clogs the",
+                "air and sticks to every surface it comes in contact with.  To",
+                "the south stretches nothing but darkness."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42005",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42004"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42006"
+                }
+            },
+            "extras": {}
+        },
+        "42092": {
+            "name": "Flambard's Residence",
+            "description": [
+                "{x",
+                "This residence is a tiny hovel, a single room that is run-down",
+                "and smells of unwashed body.  Cigarette butts lay on the carpet,",
+                "on the table, and overflow the ash trays.  Porn magazines lay",
+                "all around, some of their pages stuck together.  The walls are",
+                "a dingy color of blue, offset by the ratty couch that sits on",
+                "eastern wall."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42092",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42089"
+                }
+            },
+            "extras": {}
+        },
+        "42043": {
+            "name": "End of the Tunnel in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The massive tunnel comes to an end here at a brick wall that",
+                "sweats with the condensation of bodily waste and water.  The",
+                "slime that lines the wall hangs down in long tendrils, looking",
+                "much like greenish-brown snot."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42043",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42040"
+                }
+            },
+            "extras": {}
+        },
+        "42095": {
+            "name": "A Run-down Hovel",
+            "description": [
+                "{x",
+                "This single room house is scarcely more clean than the other",
+                "homes in this row.  The carpet is a nasty shade of foot-traffic",
+                "gray, and is almost identical to the nasty couch that sits along",
+                "the western wall.  A blanket and pillow sit on the couch, a make-",
+                "shift bed for the owner of the residence.  The smell of cigarette",
+                "smoke fills the dingy room."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42095",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42093"
+                }
+            },
+            "extras": {}
+        },
+        "42069": {
+            "name": "Within the Corridor",
+            "description": [
+                "{x",
+                "Crates and wooden barrels litter the sides of this corridor and",
+                "create long shadows that seem to dance in the flickering torch-",
+                "light.  A chill breeze wafts lazily through the tunnel that seems",
+                "to linger on the bricks that line the walls."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42069",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42068"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42070"
+                }
+            },
+            "extras": {}
+        },
+        "42048": {
+            "name": "A Tunnel Beneath the Sewers",
+            "description": [
+                "{x",
+                "The sewer smell is far behind as the smell of earth, stone",
+                "and sweat drifts through the rough-hewn corridor.  Lights",
+                "line the walls at a distance which leaves shadows between",
+                "each sconce.  The ground is a mix of rubble and dirt, full",
+                "of the footprints of small humanoid feet."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42048",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42047"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42049"
+                }
+            },
+            "extras": {}
+        },
+        "42039": {
+            "name": "End of the Tunnel in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnel dead ends here at a brick wall that is thick",
+                "with the slime of algae and sewage.  Water trickles down its",
+                "surface, joining with the sewage that exits through a grate and",
+                "leaves the sewer system to join the river beyond.  This grate",
+                "is the only hint of fresh air this system ever receives."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42039",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9714"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42099"
+                }
+            },
+            "extras": {}
+        },
+        "42046": {
+            "name": "A Secret Passageway in the Sewers",
+            "description": [
+                "{x",
+                "The pile of bricks has given way to a room that is no larger",
+                "than a closet.  Bricks along the walls hang out, haphazardly",
+                "creating walls with jutting edges.  A single lightbulb hangs",
+                "in the center of the room, illuminating a manhole on the ground",
+                "and a sign that leans against the wall."
+            ],
+            "flags_raw": "0 67641357 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42046",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42045"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42047"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{RTREAD CAREFULLY:",
+                        "{x",
+                        "{8If you are not one of our own, and we find",
+                        "{8you in the bowels of our territory, your death",
+                        "{8will be the mercy for which you beg.{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42003": {
+            "name": "Beneath the Factory",
+            "description": [
+                "{x",
+                "This massive tunnel runs beneath the Survival Pack Factory and",
+                "is dark as pitch.  The stench of sewage and trash is thick in",
+                "the air and threatens to permeate any fabric for eternity.  A",
+                "tube sits to the north, a flume for the waste from the factory",
+                "above.  In the center of the tunnel is a channel for all waste",
+                "to collect and be funneled away."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42003",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42002"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42004"
+                }
+            },
+            "extras": {}
+        },
+        "42040": {
+            "name": "T-Junction in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The massive tunnels split into three directions, heading north,",
+                "east, and west.  The darkness is palpable, and accentuated by ",
+                "the sound of dripping water, running sewage, and vermin that",
+                "populate the tunnels.  The smell that sits over everything is",
+                "nearly enough to choke even the most stalwart of adventurers."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42040",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42041"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42034"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42043"
+                }
+            },
+            "extras": {}
+        },
+        "42015": {
+            "name": "A Tunnel in the Sewers",
+            "description": [
+                "{x",
+                "Darkness stretches like a wet blanket to the east and west in",
+                "the sewer tunnel, intertwined with the stench of raw sewage. ",
+                "A channel in the center of the tunnel flows with waste, garbage,",
+                "and dead rodents.  Water and sewage drips from the very walls",
+                "and echoes off of everything."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42015",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42016"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42014"
+                }
+            },
+            "extras": {}
+        },
+        "42087": {
+            "name": "{8F{wlam{8b{ward's {8C{waf{8e{x",
+            "description": [
+                "{x",
+                "{8T{whis cafe is so far from what an actual cafe is, it is a",
+                "{8w{wonder it's considered an eating establishment at all.",
+                "{8T{whe floor is carpeted, but the carpet is nothing more than",
+                "{8a {wdirty mat of tramped down fibers.  The thick stench of",
+                "{8o{wld cooking grease seems to sweat from the pores of the",
+                "{8b{wuilding and lingers on the wooden walls in a sticky ",
+                "{8r{wesidue.  A window sits to the north for patrons to place",
+                "{8t{wheir orders.{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42087",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42088"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42086"
+                }
+            },
+            "extras": {}
+        },
+        "42009": {
+            "name": "In a Massive Sewer Tunnel",
+            "description": [
+                "{x",
+                "The sound of scurrying rodent and roach feet echoes off the ",
+                "walls with the sound of dripping and running sewage.  The ",
+                "stench of bodily waste and garbage sits heavily in the air,",
+                "threatening to choke airways.  Darkness spreads in both dir-",
+                "ections like a wet wool blanket."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42009",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42008"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42010"
+                }
+            },
+            "extras": {}
+        },
+        "42075": {
+            "name": "Along the Corridor",
+            "description": [
+                "{x",
+                "The corridor here isn't quite as long as other sections,",
+                "but it is certainly much colder.  Flickering torches line",
+                "the walls, casting shadows against the dried mortar that",
+                "sticks out from the bricks.  Broken crates lay on the floor,",
+                "littering the walkway.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42075",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42076"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42074"
+                }
+            },
+            "extras": {}
+        },
+        "42042": {
+            "name": "T-Junction in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The tunnels diverge here, creating a T-junction in the sewer",
+                "system that goes north, east, and west.  Echoes of the vermin",
+                "that populate the tunnels come from everywhere at once, blended",
+                "together with the stench of raw sewage that hangs thickly in ",
+                "the air."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42042",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42044"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42041"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42045"
+                }
+            },
+            "extras": {}
+        },
+        "42068": {
+            "name": "The Long Corridor",
+            "description": [
+                "{x",
+                "A curve in the brick corridor opens up to a southern direction",
+                "and a slight breeze that brings with it a chill.  Torches hang",
+                "on the wall, their flames flickering and causing dancing shadows",
+                "along the length of the tunnel.  Crates and barrels sit along the",
+                "sides, some broken and empty."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42068",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42067"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42069"
+                }
+            },
+            "extras": {}
+        },
+        "42030": {
+            "name": "End of the Tunnel",
+            "description": [
+                "{x",
+                "The massive tunnel terminates here.  Above is a manhole",
+                "that is accessed by a long steel ladder.  Droplets of ",
+                "water seep down from the hole above and drip into the ",
+                "stream of sewage and debris that runs in the center of ",
+                "the sewer."
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42030",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42007"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "17196"
+                }
+            },
+            "extras": {}
+        },
+        "42038": {
+            "name": "A Bend in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The massive sewer tunnel curves to the north and east here, the",
+                "darkness that fills it making it nearly impossible to determine",
+                "even that bit of information.  A channel of raw sewage runs along ",
+                "to the north, filled with bodily waste, garbage, and dead animals.",
+                "The echoes of falling water, rats, and roaches can be heard."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42038",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42037"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42035"
+                }
+            },
+            "extras": {}
+        },
+        "42051": {
+            "name": "A Shift Beneath the Sewers",
+            "description": [
+                "{x",
+                "The very tunnel itself seems to shift and the sound of ",
+                "grating stone can be heard loudly echoing off the walls.",
+                "The smell of stone, sweat, and earth fills the air and a",
+                "slight chill drifts through the dimly lit corridor."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42051",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42050"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42052"
+                }
+            },
+            "extras": {}
+        },
+        "42077": {
+            "name": "Along in the Deep Corridor",
+            "description": [
+                "{x",
+                "Torches along these walls flicker a bit more than the ",
+                "rest as a chill breeze blows through.  Broken barrels",
+                "and crates lay scattered on the ground, covered in a ",
+                "light dust.  Footprints can be seen as well, most fresh.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42077",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42076"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42078"
+                }
+            },
+            "extras": {}
+        },
+        "42023": {
+            "name": "End of the Sewer Tunnel",
+            "description": [
+                "{x",
+                "The sewer tunnel ends here at a weeping brick wall, wet with",
+                "water, sewage condensation, and algae.  The stench of sewage ",
+                "sits in the air along with a darkness so thick it is palpable.",
+                "Echoes of dripping water and vermin feet come from everywhere."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42023",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42022"
+                }
+            },
+            "extras": {}
+        },
+        "42028": {
+            "name": "End of the Sewer Tunnel",
+            "description": [
+                "{x",
+                "A heavily brick and mortared wall sits here, seeping with",
+                "water and slime from algae.  Echoes of water and the scurry",
+                "of vermin seems to come from all directions.  Raw sewage",
+                "collects in a channel at the center of the tunnel to be",
+                "funnelled away to the river."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42028",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42027"
+                }
+            },
+            "extras": {}
+        },
+        "42062": {
+            "name": "A Curve in the Passageway",
+            "description": [
+                "{x",
+                "The corridor curves here, the walls jutting out haphazardly,",
+                "the stone precariously sharp.  Rubble lays over the ground",
+                "mixed with the earth and full of tiny humanoid footprints.",
+                "A chill hangs in the air, growing colder as one travels ",
+                "through the tunnel."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42062",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42061"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42063"
+                }
+            },
+            "extras": {}
+        },
+        "42055": {
+            "name": "A Dimly Lit Tunnel Passageway",
+            "description": [
+                "{x",
+                "The tunnel extends to the east and west here, the rough-hewn",
+                "stone hanging out in jagged teeth-like formations.  The lights",
+                "in the corridor are spaced very far apart as to make the whole",
+                "of the tunnel dimly lit with sharp shadows between each sconce."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42055",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42054"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42056"
+                }
+            },
+            "extras": {}
+        },
+        "42037": {
+            "name": "T-Junction in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The massive tunnels run east, south, and west here in",
+                "utter darkness.  Echoes of rodents and roaches bounce",
+                "off the walls, along with an occasional rumbling growl",
+                "that can be heard from the bowels of the sewer itself."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42037",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42038"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42099"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42036"
+                }
+            },
+            "extras": {}
+        },
+        "42014": {
+            "name": "A Bend in the Sewer Tunnel",
+            "description": [
+                "{x",
+                "The massive brick tunnel curves here from the south and west",
+                "in the darkness.  Echoes of vermin feet can be heard scurrying",
+                "here and there, as well as the drips of water and sewage.  A",
+                "metal ladder leans against a wall leading up to a manhole",
+                "above."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42014",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42015"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42013"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "17114"
+                }
+            },
+            "extras": {}
+        },
+        "42067": {
+            "name": "Farther Into the Corridor",
+            "description": [
+                "{x",
+                "The corridor littered with crates and barrels runs east and",
+                "west here.  Occasionally, the sound of feet can be heard, but",
+                "it is uncertain whether the be that of rat, halfling, or...",
+                "something else.  The chill in the air is deep and clings to",
+                "the brick-lined walls."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42067",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42066"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42068"
+                }
+            },
+            "extras": {}
+        },
+        "42007": {
+            "name": "T-Junction in the Sewers",
+            "description": [
+                "{x",
+                "The sewers go in opposing directions, north, east, and south",
+                "here.  The darkness is still thick and coupled with the pungent",
+                "scent of the sewage that runs in a stream down the center of",
+                "the tunnel.  The sound of dripping water, scurrying rodent feet,",
+                "and the swift sextupled-beat of roach feet echoes from every-",
+                "where at once."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42007",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42008"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42006"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42030"
+                }
+            },
+            "extras": {}
+        },
+        "42064": {
+            "name": "End of the Subterranean Passageway",
+            "description": [
+                "{x",
+                "The passageway comes to an abrupt end where, over a steep ledge,",
+                "a ladder leads downward.  Dim light comes up from the abyss, casting",
+                "long shadows over the jagged edges of the walls.  The chill in ",
+                "the air is palpable, and lingers with the scent of earth, sweat,",
+                "and stone."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42064",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42063"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42065"
+                }
+            },
+            "extras": {}
+        },
+        "42016": {
+            "name": "A T-Junction in the Sewers",
+            "description": [
+                "{x",
+                "There is a T-Junction in the sewers here, where the three",
+                "directions of tunnels come together.  A channel is in the",
+                "center of the tunnel where sewage collects and runs toward",
+                "a grate further down the system.  The stench here is nearly",
+                "unbearable."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42016",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42018"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42017"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42015"
+                }
+            },
+            "extras": {}
+        },
+        "42041": {
+            "name": "A Bend in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnel curves to the south and east here in the",
+                "darkness that covers everything.  The smell of raw sewage",
+                "hangs thickly in the air, owing to the channel that runs in",
+                "the center of the tunnel, funnelling away the bodily waste",
+                "of the citizens that live above."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42041",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42040"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42042"
+                }
+            },
+            "extras": {}
+        },
+        "42002": {
+            "name": "Bend in the Tunnel",
+            "description": [
+                "{x",
+                "The massive sewer tunnel bends here, known only by the single floating",
+                "orb of fire that lights the curve.  A deep channel of sewage runs in ",
+                "the center of the tunnel, full of debris from above and from the bowels",
+                "of the citizenry.  The darkness grows as the tunnel travels to the east."
+            ],
+            "flags_raw": "0 131080 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42002",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42001"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42003"
+                }
+            },
+            "extras": {
+                "orb": {
+                    "description": [
+                        "{YA br{Wig{Yht orb of {Rfi{Wr{Re {Ylights the curve of the sewer tunnel.{x",
+                        ""
+                    ]
+                },
+                "fire": {
+                    "description": [
+                        "{YA br{Wig{Yht orb of {Rfi{Wr{Re {Ylights the curve of the sewer tunnel.{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42078": {
+            "name": "A Turn in the Deep Corridor",
+            "description": [
+                "{x",
+                "The brick corridor gets quite narrow at this point and",
+                "the bricks seem haphazardly placed.  The mortar has dried",
+                "in sloppy patterns on the walls, looking as though no one",
+                "ever bothered to consider a neat job.  Very few torches",
+                "light the rest of the way.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42078",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42077"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42079"
+                }
+            },
+            "extras": {}
+        },
+        "42073": {
+            "name": "Midway in the Corridor",
+            "description": [
+                "{x",
+                "Bricks line the walls, the mortar holding them together once",
+                "oozing now dry.  Torches flicker in the presence of a chill",
+                "breeze and cast shadows along the walls.  Broken crate pieces",
+                "line the walkway, covered in a very light dust.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42073",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42074"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42072"
+                }
+            },
+            "extras": {}
+        },
+        "42026": {
+            "name": "A Bend in the Tunnel",
+            "description": [
+                "{x",
+                "The massive sewer tunnel curves here to the north and the west",
+                "in the darkness.  Sewage runs in channels in the center of the ",
+                "tunnel, raising an incredible stench.  Echoes of water and the",
+                "scurrying of rodent feet can be heard as though coming from",
+                "everywhere at once."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42026",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42027"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42010"
+                }
+            },
+            "extras": {}
+        },
+        "42022": {
+            "name": "A Bend in the Sewers",
+            "description": [
+                "{x",
+                "A large bend in the brick and mortar sewer tunnel curves from",
+                "the north to the east.  In the center of the bend is a channel",
+                "that funnels sewage toward a grate and the river beyond.  The",
+                "darkness and stench of waste bends the atmosphere to its will,",
+                "threatening to choke airways and blind adventurers."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42022",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42023"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42012"
+                }
+            },
+            "extras": {}
+        },
+        "42086": {
+            "name": "Smuggler's Den Road",
+            "description": [
+                "{x",
+                "Bricks that line this road that are broken and cracked, and",
+                "some are missing in places.  Trash lays along the road, every-",
+                "thing from old papers to used condoms.  To the west is a ram-",
+                "shackle building with a {Ysign {wabove the door.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42086",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42084"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42087"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42089"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{8+------------------------------------------+",
+                        "{8|                                          |",
+                        "{8|                                          |",
+                        "{8|               {WFlambard's{8                 |",
+                        "{8|               {W  Cafe   {8                  |",
+                        "{8|                                          |",
+                        "{8|                                          |",
+                        "{8+------------------------------------------+{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42010": {
+            "name": "A T-Junction in the Sewers",
+            "description": [
+                "{x",
+                "A darkness hangs within this massive sewer tunnel as it exits",
+                "north, east, and west.  Raw sewage floats in the center of the",
+                "tunnel, breeding a stench so thick it threatens to fill up lungs",
+                "and choke airways.  Roaches and rats scurry to and fro, their ",
+                "legs tapping along the bricks, echoing in the dark."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42010",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42009"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42011"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42026"
+                }
+            },
+            "extras": {}
+        },
+        "42065": {
+            "name": "Start of a Long Winding Corridor",
+            "description": [
+                "{x",
+                "The ladder from above enters into a long corridor which, unlike",
+                "the one above, is lined with red bricks.  Mortar long dried hangs",
+                "out from the brickwork, making the walls rough and uneven.  Iron",
+                "sconces line the walls, laden with torches which light the way.",
+                "Wooden crates and barrels can be seen along the walls."
+            ],
+            "flags_raw": "0 67117068 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42065",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42066"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42064"
+                }
+            },
+            "extras": {
+                "crate": {
+                    "description": [
+                        "{yA wooden crate sits here, dusty from disuse and empty.{x",
+                        ""
+                    ]
+                },
+                "barrel": {
+                    "description": [
+                        "{yA large wooden barrel sits here, full of an unknown liquid.{x",
+                        ""
+                    ]
+                },
+                "wooden": {
+                    "description": [
+                        "{yA wooden crate sits here, dusty from disuse and empty.{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42013": {
+            "name": "A Tunnel in the Sewer",
+            "description": [
+                "{x",
+                "The massive sewer tunnel spreads to the north and south, filled",
+                "to the limit with the stench of raw sewage, garbage, and the",
+                "smell of death and decay.  A channel runs in the center of the",
+                "tunnel for the sewage to collect and be funnelled out and to the",
+                "rivers beyond."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42013",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42014"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42012"
+                }
+            },
+            "extras": {}
+        },
+        "42032": {
+            "name": "A Bend in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnel bends here, heading south and west.  An",
+                "occasional growl can be heard as though coming from the ",
+                "bowels of the sewer itself.  The stench of sewage and decay",
+                "hangs on the very air, making it difficult to breathe."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42032",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42031"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42033"
+                }
+            },
+            "extras": {}
+        },
+        "42047": {
+            "name": "Beneath the Sewers",
+            "description": [
+                "{x",
+                "The smell of sewage miraculously vanishes here, replaced with the",
+                "smell of earth, stone, and sweat.  Lights line the walls of rough-",
+                "hewn stone walls.  It looks as though large claws have carved the",
+                "stone.  The ground is a mix of rubble and dirt, impacted by the",
+                "passage of small humanoid feet..."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42047",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42048"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42046"
+                }
+            },
+            "extras": {}
+        },
+        "42036": {
+            "name": "Sewage Falls...",
+            "description": [
+                "{x",
+                "This room literally has a sewagefall in the center that starts",
+                "at the top of the tunnel where a grate from the upper level of",
+                "the sewer releases its contents.  Droplets of raw sewage spray",
+                "outward, landing on the walls and in the channel beneath.  The",
+                "stench here is thick and nearly unbearable."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42036",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42037"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42035"
+                }
+            },
+            "extras": {}
+        },
+        "42061": {
+            "name": "A Passageway Deep Beneath the Sewers",
+            "description": [
+                "{x",
+                "This passageway beneath the sewers is dimly lit - each light",
+                "separated so far as to create deep shadows between each.  The",
+                "smell of earth, sweat, and stone fills the air, accompanied by",
+                "a very deep chill that seems to grow colder the farther one",
+                "progresses."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42061",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42060"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42062"
+                }
+            },
+            "extras": {}
+        },
+        "42004": {
+            "name": "Beneath the Factory",
+            "description": [
+                "{x",
+                "This black tunnel of darkness and degradation runs beneath the ",
+                "Survival Pack Factory.  The stench of sewage and trash is just",
+                "as thick as the darkness that hangs in the air.  A tube sits to",
+                "the north, a flume for the waste from the factory above.  In the",
+                "middle of the tunnel is a channel for waste to collect and be",
+                "banished to the river."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42004",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42003"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42005"
+                }
+            },
+            "extras": {}
+        },
+        "42053": {
+            "name": "A Turn in the Tunnel",
+            "description": [
+                "{x",
+                "The stone tunnel curves here with dim light shining on the rough-",
+                "hewn walls.  The chill in the air is more palpable here as the ",
+                "tunnel winds farther into the earth.  The ground is littered with ",
+                "rubble from the walls mixed with the footprints of halfling feet."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42053",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42054"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42052"
+                }
+            },
+            "extras": {}
+        },
+        "42098": {
+            "name": "A Medium-Sized Shack",
+            "description": [
+                "{x",
+                "Made of random boards that appear to have come from the",
+                "myriad of crates in the upper levels of the sewers, this",
+                "house barely holds together.  A couple of chairs sit off",
+                "to the side at a table that is propped up with sugar pack-",
+                "ets.  The smell of body odor and stale beer is strong here."
+            ],
+            "flags_raw": "0 67108872 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42098",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42096"
+                }
+            },
+            "extras": {}
+        },
+        "42029": {
+            "name": "End of the Sewer Tunnel",
+            "description": [
+                "{x",
+                "The tunnel ends here in a brick wall coated by a thick",
+                "sludge of water and algae and who knows what else.  The",
+                "stench of sewage and garbage clings to the air and sits",
+                "heavily with the darkness that sits over everything like",
+                "a funeral pall."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42029",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42027"
+                }
+            },
+            "extras": {}
+        },
+        "42031": {
+            "name": "Deeper into the Sewers",
+            "description": [
+                "{x",
+                "A steel ladder leads downward from a manhole at the top of the",
+                "tunnel and terminates here - in a very dank, dark, cess-filled",
+                "sewer pipe.  It is just as massive as its counterpart above, and",
+                "smells very much the same.  An occasional rumble can be heard from",
+                "some unknown source."
+            ],
+            "flags_raw": "0 67117069 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42031",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42032"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42021"
+                }
+            },
+            "extras": {}
+        },
+        "42074": {
+            "name": "A Turn in the Corridor",
+            "description": [
+                "{x",
+                "The passageway curves from the east to the north here, the",
+                "chill growing ever so cooler here.  Barrels line the walkway,",
+                "some broken, others still filled with some unknown liquid.",
+                "Torches line the walls, dimly lighting the way with their fires.",
+                "{x"
+            ],
+            "flags_raw": "0 67108872 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42074",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42075"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42073"
+                }
+            },
+            "extras": {}
+        },
+        "42096": {
+            "name": "Flambard's Cove Cul-de-Sac",
+            "description": [
+                "{x",
+                "The cul-de-sac here is filthy dirty, bricks from the road are",
+                "missing, and the ones that aren't are cracked and stained.  The",
+                "homes that are on the road are more like hovels, run down and ",
+                "dirty.  The air is a little chilly and smells very slightly of",
+                "sewage.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42096",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42098"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42090"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42097"
+                }
+            },
+            "extras": {}
+        },
+        "42054": {
+            "name": "A Bending Turn in the Tunnel",
+            "description": [
+                "{x",
+                "The tunnel of rough-hewn stone bends here, the small cones of ",
+                "light from the distantly spaced sconces reflecting off the sides",
+                "and making deep shadows.  The ground is comprised of rubble from",
+                "eroding walls as well as dirt from the earth itself, and is full",
+                "of footprints from halfling-sized feet."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42054",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42053"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42055"
+                }
+            },
+            "extras": {}
+        },
+        "42088": {
+            "name": "{8F{wlam{8b{ward's {8C{waf{8e K{wit{8ch{we{8n{x",
+            "description": [
+                "{x",
+                "{8W{what a cesspit!  To say this kitchen is nasty is an understatement.",
+                "{8I{wt reeks of the scent of rancid cooking oil and squadrons of roaches",
+                "{8s{weem to patrol the walls, floors, counter surfaces, and even end up",
+                "{8o{wn the wrong side of the spatula.  The floor is red tile that looks",
+                "{8b{wlack with the thick layer of grease and grime.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42088",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42087"
+                }
+            },
+            "extras": {}
+        },
+        "42000": {
+            "name": "Behind the Survival Pack Factory",
+            "description": [
+                "{x",
+                "The back of the Survival Pack Factory looks as expected.  Palattes ",
+                "that are rotting and broken are strewn helter-skelter.  A large",
+                "green dumpster sits out here, filled to the brim with stinking ",
+                "garbage and pack pieces that have been rejected.  Water sits in ",
+                "stagnant puddles on the ground, collecting around a manhole that ",
+                "sits partially open."
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42000",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "17131"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42001"
+                }
+            },
+            "extras": {
+                "manhole": {
+                    "description": [
+                        "It is a disk of very heavy steel made to cover the",
+                        "entrance to what looks and smells like a dank, nasty",
+                        "sewer.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42085": {
+            "name": "{8F{wlam{8b{ward's {8P{wu{8b{x",
+            "description": [
+                "{x",
+                "{8T{whis pub is nothing more than a hole in the wall, full of",
+                "{8s{wawdust and peanut shells.  The plank wood walls are dark",
+                "{8a{wnd dingy and the entire place smells of stale beer.  A",
+                "{8c{wouple of tables sit in the middle of the bar.{x",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42085",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42084"
+                }
+            },
+            "extras": {}
+        },
+        "42018": {
+            "name": "A Tunnel in the Sewers",
+            "description": [
+                "{x",
+                "The sewer runs from the north to the south in a massive",
+                "brick-lined tunnel.  A channel sits in the center to ",
+                "collect waste and funnel it to a grate farther in the",
+                "system.  The echoes of rat and roach feet seem to come",
+                "from everywhere at once, accompanied by the smell of raw",
+                "sewage."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42018",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42019"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42016"
+                }
+            },
+            "extras": {}
+        },
+        "42052": {
+            "name": "An Ever Deepening Tunnel",
+            "description": [
+                "{x",
+                "The tunnel made of rough-hewn stone seems to stretch",
+                "even longer here.  The chill grows just a bit deeper,",
+                "filling the air along with the scent of earth and sweat.",
+                "The ground is littered with rubble that has fallen from ",
+                "the stone crafting as well as erosion."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42052",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42053"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42051"
+                }
+            },
+            "extras": {}
+        },
+        "42089": {
+            "name": "Smuggler's Den Road",
+            "description": [
+                "{x",
+                "Trash lays all along the road here, filling in the holes that",
+                "are left behind from the missing bricks.  The whole lane is",
+                "dirty and is dimly lit by the street lights along the sides.",
+                "A shack of a house sits to the east.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42089",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42090"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42086"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42092"
+                }
+            },
+            "extras": {}
+        },
+        "42081": {
+            "name": "Entrance to Flambard's Cavity",
+            "description": [
+                "{x",
+                "The ladder extends down the wall to the end of a brick-lined",
+                "street.  The cavern it opens to is enormous and contains a ",
+                "myriad of buildings.  Streetlamps light the way in the chilly",
+                "subterranean air.  Everything is dirty, dark, and muted. ",
+                "{x",
+                "An {Yarch {wspans the street with the name of the town in iron.{x"
+            ],
+            "flags_raw": "0 67108876 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42081",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42082"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42080"
+                }
+            },
+            "extras": {
+                "arch": {
+                    "description": [
+                        "{8Welcome to Flambard's Cavity{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42060": {
+            "name": "A Sub-Sewer Passageway",
+            "description": [
+                "{x",
+                "The tunnel here curves, causing the rough-hewn stone to jut out",
+                "in various directions.  The walls are sharp and look as though",
+                "they have been carved out by a massive beast with massive claws.",
+                "The smell of earth, sweat, and stone fill the air, coupled with ",
+                "chill that seems to get deeper."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42060",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42059"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42061"
+                }
+            },
+            "extras": {}
+        },
+        "42097": {
+            "name": "A Tiny Halfing Shanty",
+            "description": [
+                "{x",
+                "There isn't much to look at in this one-room shanty.  A",
+                "couch sits off to the side, it's middle sagging.  On the",
+                "walls are drawings of halfling thieves in various stages",
+                "of concealment.  The smell of rotting vegetation is heavy",
+                "in the air, as though the owner is hoarding food and not",
+                "eating it."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42097",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42096"
+                }
+            },
+            "extras": {}
+        },
+        "42083": {
+            "name": "Grotto Street at Smuggler's Den Road",
+            "description": [
+                "{x",
+                "Grotto Street and Smuggler's Den Road intersect here.  Bricks",
+                "line the streets, broken and cracked and covered over with",
+                "trash.  Street lamps line the roads, the glass on their posts",
+                "dark with the soot from the flames within.  A building with a",
+                "{Ysign{x sits to the north.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42083",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42091"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42082"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42084"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{8+------------------------------------------+",
+                        "{8|                                          |",
+                        "{8|                                          |",
+                        "{8|               {WFlambard's{8                 |",
+                        "{8|               {W  Cache  {8                  |",
+                        "{8|                                          |",
+                        "{8|                                          |",
+                        "{8+------------------------------------------+{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42071": {
+            "name": "A Curve in the Corridor",
+            "description": [
+                "{x",
+                "The corridor curves back toward the west here, going to the",
+                "north as well.  A chill breeze seems to come from the very ",
+                "bricks that line the way, the mortar dried in oozing patterns.",
+                "Torches flicker with dim firelight along the length of the",
+                "walkway."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42071",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42070"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42072"
+                }
+            },
+            "extras": {}
+        },
+        "42076": {
+            "name": "Curve in the Corridor",
+            "description": [
+                "{x",
+                "The corridor curves here and bends into an even smaller ",
+                "section.  The bricks seem haphazardly laid here, as though",
+                "the original builder grew tired of even stacking them ",
+                "decently.  The chill is a bit deeper here and fills the",
+                "whole of the walkway.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42076",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42075"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42077"
+                }
+            },
+            "extras": {}
+        },
+        "42027": {
+            "name": "A T-Junction in the Sewers",
+            "description": [
+                "{x",
+                "The massive tunnel branches in three directions here, north, east,",
+                "and south.  The smell of sewage hangs in the air thickly along with",
+                "the darkness that infects every square inch of the space.  Echoes of",
+                "drips and scurrying feet come from all directions."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42027",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42026"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42029"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42028"
+                }
+            },
+            "extras": {}
+        },
+        "42072": {
+            "name": "Within the Corridor",
+            "description": [
+                "{x",
+                "The corridor seems to run on endlessly.  The torches that ",
+                "line the walls flicker in the chill breeze that oozes down",
+                "the walls and rolls along the floors.  Broken barrels and",
+                "crates line the way, as though there were once a lot of",
+                "deliveries that were made long, long ago.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42072",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42073"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42071"
+                }
+            },
+            "extras": {}
+        },
+        "42059": {
+            "name": "Part of the Stone Passageway",
+            "description": [
+                "{x",
+                "The rough-hewn stone sticks out at sharp angles and offers",
+                "a deep chill to the air.  The scent of earth and stone and",
+                "sweat hangs in the air, hanging thickly over the dimly lit",
+                "ground that consists of rubble and earth.  The footprints ",
+                "of halflings fill the tunnel."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42059",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42060"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42058"
+                }
+            },
+            "extras": {}
+        },
+        "42008": {
+            "name": "T-Junction in the Sewers",
+            "description": [
+                "{x",
+                "The massive sewer tunnels go to the north, south, and west",
+                "here, sewage running from all directions to the center",
+                "channel.  The darkness is palpable here and punctuated with",
+                "the scent of raw sewage and the sound of vermin scurrying",
+                "as quickly as they can."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42008",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42007"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42020"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42009"
+                }
+            },
+            "extras": {}
+        },
+        "42019": {
+            "name": "End of the Tunnel",
+            "description": [
+                "{x",
+                "The massive tunnel comes to an end here at a large brick",
+                "wall that weeps with the condensation of sewage.  Algae ",
+                "sits upon the bricks like a slime, thick with the stench",
+                "of the bodily waste that fills the channel in the center ",
+                "of the tunnel."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42019",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42018"
+                }
+            },
+            "extras": {}
+        },
+        "42056": {
+            "name": "A Passageway Carved in Stone",
+            "description": [
+                "{x",
+                "The stone corridor runs east and west here, lined dimly with",
+                "far-spaced sconces.  Deep shadows sit between each light - a",
+                "perfect ambush point.  The smell of earth and sweat and stone",
+                "line the tunnel and the walls are filled with sharp edges of",
+                "rock."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42056",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42055"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42057"
+                }
+            },
+            "extras": {}
+        },
+        "42021": {
+            "name": "End of the Sewer Tunnel",
+            "description": [
+                "{x",
+                "The massive sewer tunnel ends here.  A manhole sits off to",
+                "one side of the tunnel, wet with raw sewage.  Rodents and",
+                "roaches make this corner of the sewer home, and their feet",
+                "can be heard in the echoes of the tunnel.  A {Rsign{w sits",
+                "off to the side of the manhole cover."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42021",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42020"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42031"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{RWARNING:",
+                        "{x",
+                        "{8Below this manhole are horrors untold.  If you",
+                        "{8plan to adventure in this cess pit of despair, ",
+                        "{8be warned that there is no way to return to the",
+                        "{8world above, save through finding your own way",
+                        "{8back.  If you have not obtained an adventuring",
+                        "{8level of at least 25, you may wish to stay clear",
+                        "{8of the depths of darkness that will unfold here.",
+                        "{x",
+                        "{RYOU HAVE BEEN WARNED!{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42091": {
+            "name": "{8F{wlam{8b{ward's {8C{wac{8he{x",
+            "description": [
+                "{x",
+                "{8T{whis store is small, but that better not be said aloud.",
+                "{8A {wsmall counter sits to the north of the shop.  In the",
+                "{8o{wpen floor a few shelves are set up with trinkets.  On",
+                "{8t{whe walls are sketches of halflings with their faces",
+                "{8h{widden behind masks.{x",
+                "{x",
+                "{8A {Ysign {whangs at the back of the store.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42091",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42083"
+                }
+            },
+            "extras": {
+                "dreadlock": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8dr{ye{8adl{wo{8ck ext{we{8nsions",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 0/Bash 3/Slash 3/Exotic 3",
+                        "{8Affects:      {wStrength 1",
+                        "{w              Damroll 1{x",
+                        "{w              Hitroll 1{x",
+                        "{w              HP 20{x",
+                        ""
+                    ]
+                },
+                "boots": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a pa{wi{8r of hal{wf{8ling {wr{8unn{wi{8ng bo{wo{8ts",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 2/Bash 2/Slash 2/Exotic 2",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              HP 60{x",
+                        "{w              Strength 2{x",
+                        ""
+                    ]
+                },
+                "wyvern": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a bel{wt {8made of {Rw{wy{8ve{wr{Rn {8hide",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 1/Bash 1/Slash 1/Exotic 1",
+                        "{8Affects:      {wStrength 2",
+                        "{w              Mana 20",
+                        "{w              HP 40{x",
+                        ""
+                    ]
+                },
+                "running": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a pa{wi{8r of hal{wf{8ling {wr{8unn{wi{8ng bo{wo{8ts",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 2/Bash 2/Slash 2/Exotic 2",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              HP 60{x",
+                        "{w              Strength 2{x",
+                        ""
+                    ]
+                },
+                "smuggler's": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a pair of {ws{8muggl{we{8r's gl{wo{8ves",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 1/Bash 1/Slash 1/Exotic 1",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              HP 50{x",
+                        ""
+                    ]
+                },
+                "mask": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a bla{wc{8k hal{wf{8lin{wg {8mas{wk",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 1/Bash 0/Slash 1/Exotic 1",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              Mana 50",
+                        "{w              HP 50{x",
+                        ""
+                    ]
+                },
+                "dagger": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-{x",
+                        "{x",
+                        "{8Item:         {8a {wsa{Ww{wto{8oth {Wd{wa{8gg{we{Wr",
+                        "{8Level:        {w50",
+                        "{8Damage:       {w10d9 (Average 50)",
+                        "{8Dam. Type:    {wstab",
+                        "{8Affects:      {wDamroll 2/Hitroll 1/HP 20/Saves -20{x",
+                        ""
+                    ]
+                },
+                "belt": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a bel{wt {8made of {Rw{wy{8ve{wr{Rn {8hide",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 1/Bash 1/Slash 1/Exotic 1",
+                        "{8Affects:      {wStrength 2",
+                        "{w              Mana 20",
+                        "{w              HP 40{x",
+                        ""
+                    ]
+                },
+                "extensions": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8dr{ye{8adl{wo{8ck ext{we{8nsions",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 0/Bash 3/Slash 3/Exotic 3",
+                        "{8Affects:      {wStrength 1",
+                        "{w              Damroll 1",
+                        "{w              Hitroll 1",
+                        "{w              HP 20",
+                        "{x",
+                        ""
+                    ]
+                },
+                "sign": {
+                    "description": [
+                        "{8+-----------------------------------------------+",
+                        "{8|                                               |",
+                        "{8|     You may examine any piece of armor or     |",
+                        "{8|     weapon.  Just type: exa <name> to see     |",
+                        "{8|     it.  Remember, you break it, you buy it.  |",
+                        "{8|                                               |",
+                        "{8+-----------------------------------------------+",
+                        "{x",
+                        ""
+                    ]
+                },
+                "halfling": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a pa{wi{8r of hal{wf{8ling {wr{8unn{wi{8ng bo{wo{8ts",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 2/Bash 2/Slash 2/Exotic 2",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              HP 60{x",
+                        "{w              Strength 2{x",
+                        ""
+                    ]
+                },
+                "sawtooth": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a {wsa{Ww{wto{8oth {Wd{wa{8gg{we{Wr",
+                        "{8Level:        {w50",
+                        "{8Damage:       {w10d9 (Average 50)",
+                        "{8Dam. Type:    {wstab",
+                        "{8Affects:      {wDamroll 2/Hitroll 1/HP 20/Saves -20{x",
+                        ""
+                    ]
+                },
+                "gloves": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a pair of {ws{8muggl{we{8r's gl{wo{8ves",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 1/Bash 1/Slash 1/Exotic 1",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              HP 50{x",
+                        ""
+                    ]
+                },
+                "black": {
+                    "description": [
+                        "{w              -{8={WFOR SALE{8={w-",
+                        "{x",
+                        "{8Item:         {8a bla{wc{8k hal{wf{8lin{wg {8mas{wk",
+                        "{8Level:        {w55",
+                        "{8AC:           {wPierce 1/Bash 0/Slash 1/Exotic 1",
+                        "{8Affects:      {wDexterity 2",
+                        "{w              Mana 50",
+                        "{w              HP 50{x",
+                        ""
+                    ]
+                }
+            }
+        },
+        "42066": {
+            "name": "A Long Winding Corridor",
+            "description": [
+                "{x",
+                "The red-brick corridor stretches east and west and holds within",
+                "it a chill not unlike that of a cellar.  Mortar hangs out of the",
+                "brickwork in thickly dried clumps which cast shadows in the light",
+                "of the torches.  Crates and Barrels litter the corridor."
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42066",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42065"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42067"
+                }
+            },
+            "extras": {}
+        },
+        "42034": {
+            "name": "T-Junction in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The sewer tunnels split here, going north, east, and west.",
+                "Sewage in the center channel flows toward the west with",
+                "gathering speed - full of waste, garbage, and dead rats.",
+                "The smell here is thick and foul enough to choke any un-",
+                "familiar with its scent."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42034",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42033"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42035"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42040"
+                }
+            },
+            "extras": {}
+        },
+        "42049": {
+            "name": "A Tunnel Beneath the Sewers",
+            "description": [
+                "{x",
+                "The smell of earth, stone, and sweat floats along this",
+                "corridor.  Lights line the walls at a distance far enough",
+                "apart to leave shadows between each sconce.  The corridor",
+                "is rough-hewn, looking as if a massive set of claws ",
+                "belonging to an animal that is, hopefully, long gone."
+            ],
+            "flags_raw": "0 67117064 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42049",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42048"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42050"
+                }
+            },
+            "extras": {}
+        },
+        "42080": {
+            "name": "End of the Corridor!",
+            "description": [
+                "{x",
+                "The corridor ends here at a hole in the ground.  A rusty and",
+                "rickety ladder pokes out from the depths and a constant stir",
+                "of chill air flows along the ground.  A single torch lights",
+                "the area, flickering in the breeze.",
+                "{x"
+            ],
+            "flags_raw": "0 67117068 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42080",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42079"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42081"
+                }
+            },
+            "extras": {}
+        },
+        "42079": {
+            "name": "Final Turn in the Corridor",
+            "description": [
+                "{x",
+                "The corridor seems to turn into nothing more than a tunnel",
+                "here - the bricks only randomly placed as though the builder",
+                "finally ran out.  A rank scent floats along the chilly breeze",
+                "that wafts from the west.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42079",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42078"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42080"
+                }
+            },
+            "extras": {}
+        },
+        "42011": {
+            "name": "In a Massive Sewer Tunnel",
+            "description": [
+                "{x",
+                "The massive tunnel that runs east to west here is steeped",
+                "in pitch black darkness.  A channel runs in the middle of ",
+                "the tunnel, full of raw sewage and garbage from the citizens",
+                "above.  Sounds of scurrying feet and dripping water seems to",
+                "come from everywhere at once."
+            ],
+            "flags_raw": "0 131081 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42011",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42012"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42010"
+                }
+            },
+            "extras": {}
+        },
+        "42044": {
+            "name": "End of the Tunnel in the Deeper Sewers",
+            "description": [
+                "{x",
+                "The tunnel comes to an abrupt halt here at a brick wall that",
+                "weeps with sewer condensation, algae, and slime.  Rats and",
+                "roaches populate this small outlet, the sounds of their feet",
+                "echoing off of the brick walls along with the sound of running",
+                "sewage."
+            ],
+            "flags_raw": "0 67117065 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42044",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42042"
+                }
+            },
+            "extras": {}
+        },
+        "42070": {
+            "name": "In a Long Corridor",
+            "description": [
+                "{x",
+                "The brick-lined corridor stretches north and south, lined with",
+                "flickering torches that light the way with dim firelight.  Along",
+                "the walls are empty crates and barrels, some smashed and broken",
+                "open.  A chill breeze seems to flow from the bricks themselves.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 18",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42070",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42069"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42071"
+                }
+            },
+            "extras": {}
+        },
+        "42082": {
+            "name": "Grotto Street",
+            "description": [
+                "{x",
+                "Grotto Street is a narrow, brick-lined road that is lined",
+                "with trash along the sides of the road.  The bricks are old",
+                "and dirty and some are missing.  Overhead the cavern yawns",
+                "into an abyss of darkness.  Street lamps light the way.",
+                "{x"
+            ],
+            "flags_raw": "0 67117064 0 21",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "42082",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42081"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "42083"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "nbsewers",
+    "area_quest_points": 0,
+    "credits": "[15 FR 60] New Beginning Sewers",
+    "faction_id": "",
+    "vnums": [
+        42000,
+        42099
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "zone_id": 0,
+    "security": 10,
+    "mobiles": {
+        "42000": {
+            "name": "a {8gi{wa{8nt {ycock{rroa{ych{x~\n",
+            "description": [
+                "{yThey will survive Toril's annihilation, and may\n",
+                "{ywell be there for yours.{x\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "ABGO ACK small unknown",
+            "raw_flags4": "H A FILPQ ES",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42000,
+            "raw_flags": "ACGH Z 0 0 0",
+            "race_id": "centipede",
+            "raw_flags2": "20 0 9d10+157 9d10+157 4d4+8 chomp",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A giant cockroach scurries along in the darkness of the sewers.\n",
+            "keywords": "cockroach roach insect~\n"
+        },
+        "42001": {
+            "name": "{ya {Rh{rug{Re {8r{ya{8t{x~\n",
+            "description": [
+                "{8Seriously... I don't think they could get any larger\n",
+                "{8and still be called \"rats.\"  Black beady eyes search\n",
+                "{8hungrily in the darkness for any spare food - including\n",
+                "{8live food.{x\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJKUV huge unknown",
+            "raw_flags4": "H AQ IPR ST",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42001,
+            "raw_flags": "ACG DFJX 0 0 0",
+            "race_id": "dog",
+            "raw_flags2": "30 0 12d14+307 12d14+307 5d5+12 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A huge rat paces along the tunnels, looking for food.\n",
+            "keywords": "huge rat~\n"
+        },
+        "42002": {
+            "name": "{ya {ggel{Ga{gti{yno{wu{gs sl{yi{gme of al{Gg{ya{we{x~\n",
+            "description": [
+                "{gSmells like {8se{ww{ya{8ge {gand looks like snot.\n",
+                "{x\n"
+            ],
+            "raw_flags5": "stand stand none 10",
+            "raw_flags6": "AH D medium unknown",
+            "raw_flags4": "O ABE Q FS",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42002,
+            "raw_flags": "ABG Jcd R 0 0",
+            "race_id": "orc",
+            "raw_form": "MV",
+            "raw_flags2": "26 0 6d24+238 6d24+238 4d5+10 slime",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for MV\n",
+                "F par ABCEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A long gelatinous slimy strand of algae hangs from the wall.\n",
+            "raw_parts": "ABCEFGHIJK",
+            "keywords": "slime gelatinous algae~\n"
+        },
+        "42003": {
+            "name": "{ga sm{8al{gl all{Gi{Yg{gato{8r{x~\n",
+            "description": [
+                "{gIt is nearly 4-feet in length and looks young, but\n",
+                "{gstill packs enough of a punch to be deadly.{x\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGXc ADEFKQVX small unknown",
+            "raw_flags4": "U AB GLPR EFI",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42003,
+            "raw_flags": "AFG JVZa 0 0 0",
+            "race_id": "snake",
+            "raw_form": "Y",
+            "raw_flags2": "24 0 6d21+208 6d21+208 4d5+10 chomp",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for Y\n",
+                "F par L\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A small alligator floats in the sewage as still as a log.\n",
+            "raw_parts": "L",
+            "keywords": "alligator gator small~\n"
+        },
+        "42004": {
+            "name": "fallinswewersmob, imp_invis, level 104~\n",
+            "description": [
+                "Here to take you down.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42004,
+            "raw_flags": "ABGM 0 P 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "104 0 0d0+0 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M grall 42000 5~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Fallinswewersmob, imp_invis, level 104\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "fallinsewersmob~\n"
+        },
+        "42005": {
+            "name": "{ya {8ma{wssi{8ve {yr{8a{yt{x~\n",
+            "description": [
+                "{8It's big and nasty and looks at you with hungry black eyes.{x\n",
+                " \n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGV ACDEFHJKUV huge unknown",
+            "raw_flags4": "H ABQ IPR JST",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42005,
+            "raw_flags": "ACG DFJMVZ 0 0 0",
+            "race_id": "dog",
+            "raw_flags2": "35 0 7d33+411 7d33+411 5d6+17 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A massive rat lumbers along the passageway, nearly filling the entire tunnel.\n",
+            "keywords": "massive rat~\n"
+        },
+        "42006": {
+            "name": "{ga la{8rg{ge all{Gi{Yg{gato{8r{x~\n",
+            "description": [
+                "{gIt is nearly 8-feet in length and looks like it\n",
+                "{gpacks enough of a punch to be deadly.{x\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGXc ADEFKQVX medium unknown",
+            "raw_flags4": "U AB GLPR EFI",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42006,
+            "raw_flags": "AFG JVZa 0 0 0",
+            "race_id": "snake",
+            "raw_form": "Y",
+            "raw_flags2": "32 0 4d51+347 4d51+347 5d5+16 chomp",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for Y\n",
+                "F par L\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A large alligator floats in the sewage as still as a log.\n",
+            "raw_parts": "L",
+            "keywords": "alligator gator large~\n"
+        },
+        "42007": {
+            "name": "{ya {ggel{Ga{gti{yno{wu{gs sl{yi{gme of al{Gg{ya{we{x~\n",
+            "description": [
+                "{gSmells like {8se{ww{ya{8ge {gand looks like snot.{x\n"
+            ],
+            "raw_flags5": "stand stand none 20",
+            "raw_flags6": "AH D large unknown",
+            "raw_flags4": "O ABE Q FS",
+            "raw_flags3": "-1 -1 -1 -1",
+            "vnum": 42007,
+            "raw_flags": "ABG Jcd R 0 0",
+            "race_id": "orc",
+            "raw_form": "MV",
+            "raw_flags2": "40 0 15d18+534 15d18+534 5d7+16 slime",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for MV\n",
+                "F par ABCEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A long gelatinous slimy strand of algae hangs from the wall.\n",
+            "raw_parts": "ABCEFGHIJK",
+            "keywords": "slime gelatinous algae~\n"
+        },
+        "42008": {
+            "name": "{ya {8di{wr{8e {ycock{rroa{ych{x~\n",
+            "description": [
+                "{yThey will survive Toril's annihilation, and may well be there for yours.{x\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "ABGO ACK medium unknown",
+            "raw_flags4": "H A FILPQ ES",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42008,
+            "raw_flags": "ACGH Z 0 0 0",
+            "race_id": "centipede",
+            "raw_flags2": "37 0 14d17+458 14d17+5458 5d6+18 chomp",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dire cockroach scuttles through the darkness of the sewers.\n",
+            "keywords": "dire cockroach roach~\n"
+        },
+        "42009": {
+            "name": "fallinswewersmob2, imp_invis, level 104~\n",
+            "description": [
+                "Here to take you down.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42009,
+            "raw_flags": "ABGM 0 P 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "104 0 0d0+0 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M grall 42000 5~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Fallinswewersmob2, imp_invis, level 104\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "fallinsewersmob2~\n"
+        },
+        "42010": {
+            "name": "{8a sp{wea{Wr-w{wield{8ing {yhal{8f{yling{x~\n",
+            "description": [
+                "{8Dressed in black leather with jet-black dreads, this halfling \n",
+                "{8means business.  He holds a long spear, tipped with a razor-\n",
+                "{8sharp point.  A black mask covers his face and a thick hide\n",
+                "{8protects him from harm.{x\n"
+            ],
+            "raw_flags5": "stand stand male 2000",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "R ABF LNQ ES",
+            "raw_flags3": "-1 -1 -1 -1",
+            "vnum": 42010,
+            "raw_flags": "AGSY QUb 0 -200 0",
+            "race_id": "halfling",
+            "raw_flags2": "40 0 15d18+534 15d18+534 5d7+16 pierce",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M greet 42001 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A halfling wielding a long spear helps to defend its home!\n",
+            "keywords": "spear-wielding halfling ~\n"
+        },
+        "42011": {
+            "name": "{8an ax{we-w{Wie{wldi{8ng {yhal{8f{yling{x~\n",
+            "description": [
+                "{8Dressed in black leather with jet-black dreads, this halfling\n",
+                "{8means business.  She holds a broad axe, the sides glimmering\n",
+                "{8with a high shine.  A black mask covers her face and a thick\n",
+                "{8hide protects her from harm.{x\n"
+            ],
+            "raw_flags5": "stand stand female 4000",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "R AB LNQ S",
+            "raw_flags3": "-1 -1 -1 -1",
+            "vnum": 42011,
+            "raw_flags": "AGSY QUb 0 -200 0",
+            "race_id": "halfling",
+            "raw_flags2": "42 0 7d44+589 7d44+589 5d7+17 cleave",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M greet 42001 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A halfling wielding a broad axe helps to defend its home!\n",
+            "keywords": "axe-wielding halfling~\n"
+        },
+        "42012": {
+            "name": "{8a sw{word-w{Wie{wldi{8ng {yhal{8f{yling{x~\n",
+            "description": [
+                "{8Dressed in tight black leather with jet-black dreads pulled into\n",
+                "{8a ponytail, this halfling means business.  He holds a sharp sword,\n",
+                "{8the edges glinting maliciously.  A black mask covers his face and\n",
+                "{8a thick hide protects him from harm.{x\n"
+            ],
+            "raw_flags5": "stand stand male 6000",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "R AB LNQ S",
+            "raw_flags3": "-1 -1 -1 -1",
+            "vnum": 42012,
+            "raw_flags": "AGSY QUb 0 -200 0",
+            "race_id": "halfling",
+            "raw_flags2": "55 0 17d26+1015 17d26+1015 5d10+22 slash",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M greet 42001 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A halfling wielding a long sword helps to defend its home!\n",
+            "keywords": "sword-wielding halfing~\n"
+        },
+        "42013": {
+            "name": "{8a ma{wce-w{Wie{wldi{8ng {yhal{8f{yling{x~\n",
+            "description": [
+                "{8Dressed in tight black leather with tiny black dreads, this\n",
+                "{8halfling means business.  She holds a mace that looks as if\n",
+                "{8it is capable of delivering a hearty beating.  A black mask\n",
+                "{8covers her face and a thick hide protects her from harm.{x\n"
+            ],
+            "raw_flags5": "stand stand female 7500",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "R AB LNQ S",
+            "raw_flags3": "-2 -2 -2 -2",
+            "vnum": 42013,
+            "raw_flags": "AGSY QUb 0 -200 0",
+            "race_id": "halfling",
+            "raw_flags2": "60 0 8d65+1221 8d65+1221 5d11+24 crush",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M greet 42001 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A halfling wielding a mace helps to defend its home!\n",
+            "keywords": "mace-wielding halfling~\n"
+        },
+        "42014": {
+            "name": "{ya la{8rg{we{y ma{8l{ye et{wt{8i{yn{x~\n",
+            "description": [
+                "{yThis stinking hideous monstrosity is an ettin and it stands\n",
+                "{yroughly 10 feet tall.  It's legs are as thick as tree trunks,\n",
+                "{yand its arms are just as thick.  On its shoulders sit two\n",
+                "{yheads that look almost orcish in appearance, jutted tusks, pig-\n",
+                "{ylike snouts, and four beady black eyes that have an uncanny\n",
+                "{yknack for seeing everything.  The stench of this foul beast\n",
+                "{yis so heavy it threatens to choke, and the filth on its skin\n",
+                "{yis so thick it almost looks like a hide.{x\n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV large unknown",
+            "raw_flags4": "CD AB EI HP",
+            "raw_flags3": "-2 -2 -2 -2",
+            "vnum": 42014,
+            "raw_flags": "ABG DFJZ 0 -450 0",
+            "race_id": "troll",
+            "raw_resistances": "B",
+            "raw_flags2": "70 0 23d27+1752 23d27+1752 5d13+28 crush",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F aff c\n",
+                "F res B\n",
+                "F vul K\n",
+                "M exall 42002 5~\n",
+                "M grall 42003 100~\n"
+            ],
+            "raw_affected": "c",
+            "t_flags": "T ~",
+            "room_name": "A two-headed ettin stands here, chained to the wall and jibbering to itself incessantly.\n",
+            "raw_vulns": "K",
+            "keywords": "ettingobrah~\n"
+        },
+        "42015": {
+            "name": "Nowayjose100~\n",
+            "description": [
+                "Not letting you up in case you are down.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 42015,
+            "raw_flags": "ABG 0 P 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "104 0 0d0+0 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M exall 42004 4~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Nowayjose100, imp_invis, level 104\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "Nowayjose100~\n"
+        },
+        "42016": {
+            "name": "{8T{wo{8lman La{wv{8inhand{x~\n",
+            "description": [
+                "{8Tolman stands roughly three feet tall.  His hair is pulled back\n",
+                "{8into dreadlocks and his green eyes peer out at every customer\n",
+                "{8that comes in.  It's no far stretch to realize he knows a lot\n",
+                "{8that goes on in these parts, and might part with information for\n",
+                "{8a price.{x\n"
+            ],
+            "raw_flags5": "stand stand male 1000000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDLQa LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42016,
+            "raw_flags": "ABG QUb 0 -500 0",
+            "race_id": "halfling",
+            "raw_flags2": "80 0 10d81+2552 10d81+2552 5d15+32 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A halfling man stands behind the counter, eyeing you.\n",
+            "keywords": "Tolman Lavinhand halfling man male~\n"
+        },
+        "42017": {
+            "name": "{8Po{wt{8sdan {wB{8ee{wr{8hand{x~\n",
+            "description": [
+                "{8Obviously this \"little man\" doesn't take kindly to strangers,\n",
+                "{8especially not those that wander into his place of business\n",
+                "{8and expect a drink.  But he loves coin a little too much to\n",
+                "{8outright turn them away...{x\n"
+            ],
+            "raw_flags5": "stand stand male 100000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDLQa LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42017,
+            "raw_flags": "ABG Ub 0 0 0",
+            "race_id": "halfling",
+            "raw_flags2": "80 0 10d81+2552 10d81+2552 5d15+32 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F aff Q\n"
+            ],
+            "raw_affected": "Q",
+            "t_flags": "T ~",
+            "room_name": "A halfling barkeep stands behind the bar, glaring at you.\n",
+            "keywords": "Potsdan Beerhand man male halfling barkeep~\n"
+        },
+        "42018": {
+            "name": "{8A{wlice {8W{waitinghand{x~\n",
+            "description": [
+                "{8All the halflings of Flambard's Cavity know Alice because,\n",
+                "{8frankly, she's a little easy.  It doesn't bother the many\n",
+                "{8customers, however, as Alice doesn't discriminate.  She is\n",
+                "{8a no-nonsense halfing with a quick wit and a keen eye.{x\n"
+            ],
+            "raw_flags5": "stand stand female 100000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDLQa LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42018,
+            "raw_flags": "ABG QUb 0 -500 0",
+            "race_id": "halfling",
+            "raw_flags2": "80 0 10d81+2552 10d81+2552 5d15+32 slap",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A stocky halfling woman chews gum and waits for your order.\n",
+            "keywords": "waitinghand female woman halfling alic~\n"
+        },
+        "42019": {
+            "name": "{8a ha{wl{8fli{wn{8g co{wo{8k{x~\n",
+            "description": [
+                "{8Short in both height and temper.  This halfling doesn't\n",
+                "{8seem happy with this life at all.{x\n"
+            ],
+            "raw_flags5": "stand stand either 2640",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "EIR ABHP LNQ F",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42019,
+            "raw_flags": "ABG Ub O -500 0",
+            "race_id": "halfling",
+            "raw_flags2": "80 0 10d81+2552 10d81+2552 5d15+32 punch",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F aff Q\n"
+            ],
+            "raw_affected": "Q",
+            "t_flags": "T {8Work and slave, slave and work... where's my life, huh?{x~",
+            "room_name": "A halfling cook stands here, sweating into the food.\n",
+            "keywords": "halfling cook~\n"
+        },
+        "42020": {
+            "name": "{8Fra{wn{8k Bak{we{8hand{x~\n",
+            "description": [
+                "{8If ever there were a portly, stocky, hairy halfing,\n",
+                "{8Frank would be it.  He actually sports a beard that\n",
+                "{8is braided.  He has a cigarette in his mouth that \n",
+                "{8leaves ashes everywhere, including in the food.  His\n",
+                "{8white apron is soiled with grease and food bits.{x\n"
+            ],
+            "raw_flags5": "stand stand none 3000",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "EIR ABHP LNQ F",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42020,
+            "raw_flags": "ABG Ub O -500 0",
+            "race_id": "halfling",
+            "raw_flags2": "90 0 31d31+3848 31d31+3848 5d17+36 beating",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F aff Q\n",
+                "M give 42014 3810~\n",
+                "M give 42013 1578~\n",
+                "M give 42012 17164~\n",
+                "M give 42011 42011~\n",
+                "M speech 42010 spatula~\n",
+                "M speech 42009 iron~\n",
+                "M speech 42008 rabbit~\n",
+                "M speech 42007 flour~\n",
+                "M speech 42006 delivery~\n",
+                "M speech 42006 package~\n",
+                "M grall 42005 100~\n"
+            ],
+            "raw_affected": "Q",
+            "t_flags": "T ~",
+            "room_name": "A very portly halfling stands overseeing his kitchen.\n",
+            "keywords": "Frank Bakehand halfing male chef man~\n"
+        },
+        "42021": {
+            "name": "{8Fla{wmb{8ar{wd{8 W{wa{8rha{wn{8d{x~\n",
+            "description": [
+                "{8Flambard is dressed in jet black leathers and sports a\n",
+                "{8black bandana over his long dreads.  One of his eyes is\n",
+                "{8missing, but he doesn't bother covering it up, letting its\n",
+                "{8bright pink scar tissue peer out at all who visit.  He \n",
+                "{8looks like a biker in miniature, but his raging temper is\n",
+                "{8far from tiny.{x\n"
+            ],
+            "raw_flags5": "sit sit male 5000",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "BEFIKN AB LNQ C",
+            "raw_flags3": "-4 -4 -4 -4",
+            "vnum": 42021,
+            "raw_flags": "ABFGS QUb O -800 0",
+            "race_id": "halfling",
+            "raw_flags2": "101 0 22d59+6184 22d59+6184 5d20+40 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A halfling man named Flambard sits here on the couch, counting money.\n",
+            "keywords": "flambard halfling man thief male~\n"
+        },
+        "42022": {
+            "name": "{8a hal{wf{8li{wn{8g thi{we{8f{x~\n",
+            "description": [
+                "{8Mean, lean, short, and wearing a head full of dreadlocks.\n",
+                "{8Watch your wallets and purses...{x\n"
+            ],
+            "raw_flags5": "stand stand either 2475",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "EFIR AB LNQ 0",
+            "raw_flags3": "-2 -2 -2 -2",
+            "vnum": 42022,
+            "raw_flags": "AFGS QUb 0 -300 0",
+            "race_id": "halfling",
+            "raw_flags2": "75 0 14d15+2107 14d15+2107 5d14+30 stab",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A halfling thief walks the streets with a very swift pace.\n",
+            "keywords": "halfling thief~\n"
+        },
+        "42023": {
+            "name": "{8a ha{wl{8fli{wn{8g ho{war{8der{x~\n",
+            "description": [
+                "{8Yep... he's all about newspapers.  Newspapers and money.{x\n"
+            ],
+            "raw_flags5": "stand stand male 3000",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "0 AB LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42023,
+            "raw_flags": "ABFGS QUb 0 -300 0",
+            "race_id": "halfling",
+            "raw_flags2": "85 0 19d47+3117 19d47+3117 5d16+34 stab",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A halfing hoarder stands here, stacking his newspapers.\n",
+            "keywords": "halfing hoarder~\n"
+        },
+        "42024": {
+            "name": "{8a ha{wlf{8ling w{wom{8an{x~\n",
+            "description": [
+                "{8She looks rather tired, but that could just be\n",
+                "{8part of her disguise...{x\n"
+            ],
+            "raw_flags5": "sit sit female 3500",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "0 AB LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42024,
+            "raw_flags": "ABFGS QUb 0 0 0",
+            "race_id": "halfling",
+            "raw_flags2": "83 0 24d35+2874 24d35+2874 5d16+33 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A halfling woman rests on her couch, reading a book.\n",
+            "keywords": "halfling woman~\n"
+        },
+        "42025": {
+            "name": "{8a dr{wu{8nk ha{wlf{8lin{wg{x~\n",
+            "description": [
+                "{8Whew!  Who knows when the last time this halfling had a\n",
+                "{8bath was, but the stench is nearly unbearable.  He sits\n",
+                "{8in what could presumably be his own vomit, muttering to\n",
+                "{8himself about exploits long past.{x\n"
+            ],
+            "raw_flags5": "sit sit male 3500",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "R AB LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42025,
+            "raw_flags": "ABGS QUbd 0 -500 0",
+            "race_id": "halfling",
+            "raw_flags2": "84 0 26d33+2992 26d33+2992 5d16+33 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A halfling sits at the table, drunk off his ass.\n",
+            "keywords": "halfling drunk~\n"
+        },
+        "42026": {
+            "name": "{8a sma{wll {8hal{wfl{8ing ch{wi{8ld{x~\n",
+            "description": [
+                "{8Feed the children... ah, this poor little halfling has never\n",
+                "{8seen a feast, never seen a fresh piece of food.  But if you\n",
+                "{8had to hedge your bets, you might consider the fact that your\n",
+                "{8wallet could certainly feed the children... and this kid knows\n",
+                "{8it, too.{x\n"
+            ],
+            "raw_flags5": "stand stand either 3050",
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "raw_flags4": "FHIR AB LNQ 0",
+            "raw_flags3": "-3 -3 -3 -3",
+            "vnum": 42026,
+            "raw_flags": "ABFG QUb 0 -500 0",
+            "race_id": "halfling",
+            "raw_flags2": "81 0 16d51+2654 16d51+2654 5d15+32 stab",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small halfling child stands here, eating stale bread.\n",
+            "keywords": "small halfling child~\n"
+        },
+        "42027": {
+            "name": "{ya sc{8u{rr{yvy d{wo{yg{x~\n",
+            "description": [
+                "{yIt looks pretty sick... its hair is gone in patches,\n",
+                "{yits eyes are milky with cataracts, and it might even\n",
+                "{ybe missing a tooth or three...{x\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGV ACDEFHJKUV small unknown",
+            "raw_flags4": "DH AB 0 HOST",
+            "raw_flags3": "-2 -2 -2 -2",
+            "vnum": 42027,
+            "raw_flags": "ACGH X 0 0 0",
+            "race_id": "dog",
+            "raw_flags2": "65 0 23d24+1463 23d24+1463 5d12+26 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A dog roams the streets, eating what garbage it can find.\n",
+            "keywords": "scurvy dog~\n"
+        },
+        "42028": {
+            "name": "{8an {ral{rl{8ey {wca{8t{x~\n",
+            "description": [
+                "{8It's a cat, it looks half starved.\n",
+                "{x\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGV ACDEFHJKQUV tiny unknown",
+            "raw_flags4": "FH AB 0 R",
+            "raw_flags3": "-2 -2 -2 -2",
+            "vnum": 42028,
+            "raw_flags": "AGH 0 0 -100 0",
+            "race_id": "cat",
+            "raw_flags2": "70 0 23d27+1752 23d27+1752 5d13+28 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F aff Z\n"
+            ],
+            "raw_affected": "Z",
+            "t_flags": "T ~",
+            "room_name": "An alley cat quickly slinks along the street.\n",
+            "keywords": "alley cat~\n"
+        }
+    },
+    "realm_id": 1
+}

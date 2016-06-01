@@ -1,0 +1,230 @@
+{
+    "name": "The Tradeskill Zone",
+    "id": "tsbzone",
+    "subroutines": [],
+    "rooms": {
+        "90302": {
+            "name": "THE SMELTER-POT MACHINE",
+            "description": [
+                "{x",
+                "- SMELTER POT MACHINE - (ITEM_TS_SMELTERPOT)",
+                "1. Smelter Frame................[N].....90304...(ITEM_TS_PART_SMELTERFRAME",
+                "2. Makou Furnace Engine.........[N].....90305...(ITEM_TS_PART_MAKOUFURNACEENGINE",
+                "3. Vat Cooking Chamber..........[N].....90306...(ITEM_TS_PART_VATCOOKINGCHAMBER",
+                "4. Vat Mold Bucket..............[N].....90307...(ITEM_TS_PART_VATMOLDBUCKET"
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "90302",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90301"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90304"
+                }
+            },
+            "extras": {}
+        },
+        "90301": {
+            "name": "THE SAW-MILL MACHINE",
+            "description": [
+                "{x",
+                "- SAW MILL MACHINE - (ITEM_TS_MILLMACHINE)",
+                "1. Saw Machine Frame............[N].....90300...(ITEM_TS_PART_SAWMACHINEFRAME",
+                "2. Makou Machine Engine.........[N].....90301...(ITEM_TS_PART_MAKOUMACHINEENGINE",
+                "3. Belts........................[N].....90302...(ITEM_TS_PART_BELTS",
+                "4. Saw Blade....................[N].....90303...(ITEM_TS_PART_SAWBLADE"
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "90301",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90300"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90302"
+                }
+            },
+            "extras": {}
+        },
+        "90305": {
+            "name": "AIRSHIP LOADER",
+            "description": [
+                "{x",
+                "- AIRSHIP LOADER - (ITEM_TS_LOADER)",
+                "1. Winch........................[N].....90316...(ITEM_TS_PART_WINCH",
+                "2. Cable........................[N].....90317...(ITEM_TS_PART_CABLE",
+                "3. Grappler Hand................[N].....90318...(ITEM_TS_PART_GRAPPLERHAND"
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "90305",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90304"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90303"
+                }
+            },
+            "extras": {}
+        },
+        "90304": {
+            "name": "MACHINERY MOTORS",
+            "description": [
+                "{x",
+                "- MAKOU MACHINE ENGINE",
+                "1. Engine Block.................[N].....90308...(ITEM_TS_PART_ENGINEBLOCK",
+                "2. Pistons......................[N].....90309...(ITEM_TS_PART_PISTONS",
+                "3. Crank Shaft..................[N].....90310...(ITEM_TS_PART_CRANKSHAFT",
+                "4. Makou Filiment...............[N].....90311...(ITEM_TS_PART_MAKOUFILIMENT",
+                "{x",
+                "- MAKOU FURNACE MOTOR",
+                "1. Burning Chamber..............[N].....90312...(ITEM_TS_PART_BURNINGCHAMBER",
+                "2. Radiator.....................[N].....90313...(ITEM_TS_PART_RADIATOR",
+                "3. Exhaust......................[N].....90314...(ITEM_TS_PART_EXHAUST",
+                "4. Makou Filiment...............[N].....90315...(Already Made"
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "90304",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90302"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90305"
+                }
+            },
+            "extras": {}
+        },
+        "90300": {
+            "name": "The Tradeskill Object Zone [ TYPES ]",
+            "description": [
+                "{x",
+                "[EAST] ---> ITEM_TYPES"
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "90300",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90301"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "91107"
+                }
+            },
+            "extras": {}
+        },
+        "90303": {
+            "name": "MACHINE MOLDS",
+            "description": [
+                "{x",
+                "- MOLDS -",
+                "1 . Saw Machine Frame...........[N].....90319...(ITEM_TS_MOLD_SAWMACHINEFRAME",
+                "2 . Saw Blade...................[N].....90320...(ITEM_TS_MOLD_SAWBLADE",
+                "3 . Smelter Frame...............[N].....90321...(ITEM_TS_MOLD_SMELTERFRAME",
+                "4 . Vat Cooking Chamber.........[N].....90322...(ITEM_TS_MOLD_VATCOOKINGCHAMBER",
+                "5 . Vat Mold Bucket.............[N].....90323...(ITEM_TS_MOLD_VATMOLDBUCKET",
+                "6 . Engine Block................[N].....90324...(ITEM_TS_MOLD_ENGINEBLOCK",
+                "7 . Pistons.....................[N].....90325...(ITEM_TS_MOLD_PISTONS",
+                "8 . Crank Shaft.................[N].....90326...(ITEM_TS_MOLD_CRANKSHAFT",
+                "9 . Makou Filiment..............[N].....90327...(ITEM_TS_MOLD_MAKOUFILIMENT",
+                "10. Burning Chamber.............[N].....90328...(ITEM_TS_MOLD_BURNINGCHAMBER",
+                "11. Radiator....................[N].....90329...(ITEM_TS_MOLD_RADIATOR",
+                "12. Exhaust.....................[N].....90330...(ITEM_TS_MOLD_EXHAUST",
+                "13. Winch.......................[N].....90332...(ITEM_TS_MOLD_WINCH",
+                "14. Cable.......................[N].....90333...(ITEM_TS_MOLD_CABLE",
+                "15. Grappler Hand...............[N].....90334...(ITEM_TS_MOLD_GRAPPLERARM",
+                "16. Crowbar.....................[{GY{x].....90335...(ITEM_TS_CROWBAR)",
+                "17. Axe.........................[{GY{x].....90336...(ITEM_TS_AXE",
+                "18. Hardhat.....................[{GY{x].....90337...(ITEM_TS_HARDHAT",
+                "19. Punch Clock.................[{GY{x].....90338...(ITEM_TS_PUNCHCLOCK)",
+                "20. Fuel Container..............[{GY{x].....90339...(ITEM_TS_FUELCONTAINER)"
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "90303",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90305"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "90306"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "tsbzone",
+    "area_quest_points": 0,
+    "credits": "[ CLOSED ] Tradeskill Objects",
+    "faction_id": "",
+    "vnums": [
+        90300,
+        90499
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "zone_id": 0,
+    "security": 6,
+    "mobiles": {},
+    "realm_id": 3
+}

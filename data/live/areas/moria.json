@@ -1,0 +1,335 @@
+{
+    "name": "Moria",
+    "id": "moria",
+    "subroutines": [],
+    "rooms": {},
+    "uid": "moria",
+    "area_quest_points": 0,
+    "credits": "[09 GR 30] Moria Mines",
+    "faction_id": "",
+    "vnums": [
+        3900,
+        4199
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "4000": {
+            "name": "the huge python~\n",
+            "description": [
+                "It sways back and forth contemplating whether or not to eat you.\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGXYc ADEFKLQVX large 0",
+            "raw_flags4": "FHNOR 0 FL I",
+            "raw_flags3": "-1 0 3 6",
+            "vnum": 4000,
+            "raw_flags": "ABF D 0 -200 0",
+            "race_id": "snake",
+            "raw_flags2": "22 2 11d9+110 1d1+99 3d4+2 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The huge python rears its head and hisses at you. \n",
+            "keywords": "python snake~\n"
+        },
+        "4001": {
+            "name": "the garter snake~\n",
+            "description": [
+                "It looks harmless enough.  Or is it?\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGXYc ADEFKLQVX small 0",
+            "raw_flags4": "FHR 0 EL I",
+            "raw_flags3": "2 3 5 8",
+            "vnum": 4001,
+            "raw_flags": "ABU 0 0 -100 0",
+            "race_id": "snake",
+            "raw_flags2": "13 0 7d7+60 1d1+99 1d10+1 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small green garter snake slithers along the floor.\n",
+            "keywords": "garter snake~\n"
+        },
+        "4002": {
+            "name": "the centipede~\n",
+            "description": [
+                "It looks completely harmless but who knows for sure?\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "ABGO ACK tiny 0",
+            "raw_flags4": "FR 0 FI E",
+            "raw_flags3": "6 7 9 10",
+            "vnum": 4002,
+            "raw_flags": "ABU Z 0 100 0",
+            "race_id": "centipede",
+            "raw_flags2": "5 0 3d3+30 1d1+99 1d6+0 sting",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small centipede here is looking for vegetation.\n",
+            "keywords": "centipede~\n"
+        },
+        "4003": {
+            "name": "the kobold~\n",
+            "description": [
+                "It looks ugly enough to scare its own mother.\n"
+            ],
+            "raw_flags5": "stand stand either 18",
+            "raw_flags6": "ABHMV ABCDEFGHIJKQ small 0",
+            "raw_flags4": "R 0 L C",
+            "raw_flags3": "7 7 7 10",
+            "vnum": 4003,
+            "raw_flags": "ACGT J 0 -100 0",
+            "race_id": "kobold",
+            "raw_flags2": "7 0 4d4+40 1d1+99 1d4+1 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An ugly kobold mumbles something under its breath.\n",
+            "keywords": "kobold~\n"
+        },
+        "4004": {
+            "name": "the orc~\n",
+            "description": [
+                "You notice a slight tinge of madness in his eyes.\n"
+            ],
+            "raw_flags5": "stand stand male 60",
+            "raw_flags6": "ABHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CDNR 0 CQ S",
+            "raw_flags3": "7 7 7 10",
+            "vnum": 4004,
+            "raw_flags": "ACFGT J 0 -400 0",
+            "race_id": "orc",
+            "raw_flags2": "10 2 6d5+50 1d1+199 1d6+3 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "This orc is frothing around the mouth.  Better stay away.\n",
+            "keywords": "orc~\n"
+        },
+        "4005": {
+            "name": "the large orc~\n",
+            "description": [
+                "The orc says, \"Whatcha look'n at?\"\n"
+            ],
+            "raw_flags5": "stand stand either 120",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CJR 0 Q S",
+            "raw_flags3": "4 5 5 8",
+            "vnum": 4005,
+            "raw_flags": "ACGT J 0 -500 0",
+            "race_id": "orc",
+            "raw_flags2": "13 1 6d7+70 1d1+99 1d8+2 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "This large orc is looking for someone small to pick on.\n",
+            "keywords": "orc~\n"
+        },
+        "4050": {
+            "name": "the warrior~\n",
+            "description": [
+                "He's surely a strong, brainless fighter.  Like you.\n"
+            ],
+            "raw_flags5": "stand stand male 300",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CIQR 0 0 0",
+            "raw_flags3": "1 -1 2 5",
+            "vnum": 4050,
+            "raw_flags": "ABCFT 0 0 -300 0",
+            "race_id": "human",
+            "raw_flags2": "24 3 10d12+120 1d1+149 1d8+4 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "This tall warrior has more scars than even you!\n",
+            "keywords": "warrior~\n"
+        },
+        "4051": {
+            "name": "the warrior~\n",
+            "description": [
+                "He seems to know his way with weapons.  And he wants\n",
+                "to show you what he can do!\n"
+            ],
+            "raw_flags5": "stand stand male 140",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CIQR 0 0 C",
+            "raw_flags3": "4 5 4 8",
+            "vnum": 4051,
+            "raw_flags": "ACFT 0 0 -400 0",
+            "race_id": "human",
+            "raw_flags2": "14 2 8d7+70 1d1+99 1d7+2 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "This veteran warrior is old enough to be your father.\n",
+            "keywords": "warrior~\n"
+        },
+        "4052": {
+            "name": "the hobgoblin~\n",
+            "description": [
+                "Looking into the eyes of this poor soul makes you feel\n",
+                "sad as you see the terror and fear in its eyes.  Why\n",
+                "don't you put it out of its misery?\n"
+            ],
+            "raw_flags5": "stand stand male 12",
+            "raw_flags6": "AHMV ABCDEFGHIJKY medium 0",
+            "raw_flags4": "N 0 LQ C",
+            "raw_flags3": "6 5 5 8",
+            "vnum": 4052,
+            "raw_flags": "ACGHT J 0 -300 0",
+            "race_id": "hobgoblin",
+            "raw_flags2": "11 0 6d6+40 1d1+99 1d6+1 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small beat-up hobgoblin cringes in the corner.\n",
+            "keywords": "hobgoblin~\n"
+        },
+        "4053": {
+            "name": "the snake~\n",
+            "description": [
+                "A closer look reveals a hungry demeanor.  Don't get too close!\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGXYc ADEFKLQVX medium 0",
+            "raw_flags4": "FGNR 0 EFL I",
+            "raw_flags3": "0 2 2 5",
+            "vnum": 4053,
+            "raw_flags": "ABFU 0 0 -600 0",
+            "race_id": "snake",
+            "raw_flags2": "19 1 4d10+100 1d1+99 2d6+1 bite",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A sickly brown snake watches you with caution.\n",
+            "keywords": "snake~\n"
+        },
+        "4054": {
+            "name": "the centipede~\n",
+            "description": [
+                "The centipede doesn't really seem to notice you.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "ABGO ACK small 0",
+            "raw_flags4": "FR 0 FI E",
+            "raw_flags3": "4 7 5 10",
+            "vnum": 4054,
+            "raw_flags": "ABU Z 0 -100 0",
+            "race_id": "centipede",
+            "raw_flags2": "9 0 5d5+50 1d1+99 1d8+0 sting",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A white centipede crawls along the cave floors randomly.\n",
+            "keywords": "centipede~\n"
+        },
+        "4055": {
+            "name": "the large hobgoblin~\n",
+            "description": [
+                "Red, bloodshot eyes and drool dripping from its mouth makes you\n",
+                "wonder just how far away you should be.\n"
+            ],
+            "raw_flags5": "stand stand male 210",
+            "raw_flags6": "AHMV ABCDEFGHIJKY medium 0",
+            "raw_flags4": "CDJR 0 CLQ 0",
+            "raw_flags3": "2 2 1 5",
+            "vnum": 4055,
+            "raw_flags": "ACGT J 0 -500 0",
+            "race_id": "hobgoblin",
+            "raw_flags2": "20 2 2d10+120 1d1+149 2d4+3 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A large hobgoblin is here wondering if he should tear you apart.\n",
+            "keywords": "hobgoblin~\n"
+        },
+        "4056": {
+            "name": "the orc~\n",
+            "description": [
+                "As you already know, orcs have quite a ravenous appetite.  \n",
+                "Care to be dinner?\n"
+            ],
+            "raw_flags5": "stand stand either 60",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CNR 0 Q S",
+            "raw_flags3": "3 3 2 5",
+            "vnum": 4056,
+            "raw_flags": "ACFGT J 0 -800 0",
+            "race_id": "orc",
+            "raw_flags2": "15 1 3d10+90 1d1+99 1d8+2 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An orc is here, looking for something (or perhaps someone) to eat.\n",
+            "keywords": "orc~\n"
+        },
+        "4057": {
+            "name": "the mountain lion~\n",
+            "description": [
+                "Huge claws and big teeth make quite a fearsome opponent for\n",
+                "the weary.  Are you next?\n"
+            ],
+            "raw_flags5": "stand stand either 0",
+            "raw_flags6": "AGV ACDEFHJKQUV large 0",
+            "raw_flags4": "EFHR 0 E 0",
+            "raw_flags3": "0 0 0 4",
+            "vnum": 4057,
+            "raw_flags": "AFG Z 0 -100 0",
+            "race_id": "cat",
+            "raw_flags2": "18 2 4d10+100 1d1+99 2d6+1 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A mountain lion bears its teeth at the sight of more food.\n",
+            "keywords": "lion mountain~\n"
+        },
+        "4058": {
+            "name": "the hill giant~\n",
+            "description": [
+                "The hill giant looks like he's about 9 feet tall. By his actions you\n",
+                "come to the conclusion that he's not very intelligent.  A perfect\n",
+                "playmate for you.\n"
+            ],
+            "raw_flags5": "stand stand male 500",
+            "raw_flags6": "AHMV ABCDEFGHIJK huge 0",
+            "raw_flags4": "DOR 0 DEHI JPR",
+            "raw_flags3": "0 -2 0 4",
+            "vnum": 4058,
+            "raw_flags": "AGT 0 0 0 0",
+            "race_id": "giant",
+            "raw_flags2": "25 2 10d10+150 10d10+100 2d6+6 smash",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A hill giant is here tossing rocks around.  Marbles perhaps?\n",
+            "keywords": "giant hill~\n"
+        },
+        "3900": {
+            "name": "(no short description)~\n",
+            "description": [],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 0 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 3900,
+            "raw_flags": "A 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "(no long description)\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "no name~\n"
+        }
+    },
+    "realm_id": 4
+}

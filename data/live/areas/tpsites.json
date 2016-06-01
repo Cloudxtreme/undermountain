@@ -1,0 +1,3591 @@
+{
+    "name": "The Torrgiano Rail System",
+    "id": "tpsites",
+    "subroutines": [],
+    "rooms": {
+        "31870": {
+            "name": "Westbridge Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the southern passage up",
+                "through the ceiling.  Transportation is to the south, or exit to Westbridge",
+                "to the north.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31870",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31800"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "402"
+                }
+            },
+            "extras": {}
+        },
+        "31875": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31875",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31876"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31874"
+                }
+            },
+            "extras": {}
+        },
+        "31800": {
+            "name": "Westbridge Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the eastern passage up",
+                "through the ceiling and continue on to the west here.  You can board cars",
+                "bound for the south, east and west from the docks here, or exit to",
+                "Westbridge to the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31800",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31826"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31870"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31813"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31801"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31839": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31839",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31840"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31898": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31898",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31899"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31897"
+                }
+            },
+            "extras": {}
+        },
+        "31887": {
+            "name": "The Torregiano Roadway {&[{RR{x37{&]{x",
+            "description": [
+                "The mountains, a group of mountains that extends from the Sea Of Swords",
+                "to the unknown world to the west, are known as the \"High Mountains\".  They",
+                "seem to be the largest mountains in the Realms Of Balance.  The Stardust",
+                "Trailway, makes it way passed these mountains, by a large mountain pass. ",
+                "The road goes between a flat part, between two high mountains.  A large",
+                "forest surrounds the path.  To either side you can see the trees going up",
+                "the mountain slop.  "
+            ],
+            "flags_raw": "0 4 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31887",
+            "exits": {},
+            "extras": {}
+        },
+        "31854": {
+            "name": "End of Southern Service",
+            "description": [
+                "An extensively worked cavern, looks like a lot more work had to go into",
+                "cutting out the southern wall of this room, you can see the dock of Figaro",
+                "Castle just to the south.  Cars here are stopping for just a moment and then",
+                "moving on back to the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31854",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31855"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "5767"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31831": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31831",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31832"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31862": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31862",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31863"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31856": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31856",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31857"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31857": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31857",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31858"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31860": {
+            "name": "Connection Terminal",
+            "description": [
+                "A short walkway between the main line and the Ofcal connection line. ",
+                "Pipes run along the ceiling, and stones have been carefully laid here to",
+                "provide a nice walkway to the dock, you can board now for the cars leaving",
+                "for Ofcal to the west, or exit to the Main line to the East.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31860",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31861"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31845"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31851": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31851",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31852"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31824": {
+            "name": "Camalot Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the northern passage up",
+                "through the ceiling here.  Transportation is to the north and Camalot is to",
+                "the south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31824",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31820"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "3808"
+                }
+            },
+            "extras": {}
+        },
+        "31826": {
+            "name": "North-Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the cars from other direction here, you can probably switch back and forth",
+                "if you are quick.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31826",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31800"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31827"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31807": {
+            "name": "New Thalos Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the western passage up",
+                "through the ceiling here.  You can board for the cars leaving west and",
+                "south, or New Thalos is to the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31807",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31808"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31829"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9848"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31840": {
+            "name": "Torregiano Station",
+            "description": [
+                "A large cavern cut out of the stone, extensive stoneworked flooring has",
+                "been placed here to provide a foundation and flooring, marble pillars hold",
+                "up the ceiling, and a beautifully decorated.  Far up in the ceiling you can",
+                "see Large pipes enter from all directions and maze around, finally leaving",
+                "along the ceilings of the northbound and southbound tunnels.  You can leave",
+                "on the southbound cars, or Torregiano is to the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31840",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31841"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "27645"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31863": {
+            "name": "Ofcal Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the eastern passage up",
+                "through the ceiling here.  You can leave on the eastbound connection to the",
+                "Main Line to east and Ofcal is to the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31863",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31864"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "601"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31845": {
+            "name": "Ofcal/Polaris Southbound Dock",
+            "description": [
+                "A large cavern, docks on either side of the room serve as boarding gates",
+                "to the North or South Bound cars, a bridge over the underground river and",
+                "transportation works allows you to change directions.  Polaris is to the",
+                "east, and the connection service to Ofcal is to the west.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31845",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31846"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31860"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31835"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31804": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31804",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31805"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31896": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31896",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31897"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31879"
+                }
+            },
+            "extras": {}
+        },
+        "31813": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31813",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31814"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31884": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos. "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31884",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31885"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31883"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49930"
+                }
+            },
+            "extras": {}
+        },
+        "31842": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31842",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31843"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31877": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31877",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31878"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31876"
+                }
+            },
+            "extras": {}
+        },
+        "31816": {
+            "name": "Camalot Westbound Dock",
+            "description": [
+                "A large cavern, docks on either side of the room serve as boarding gates",
+                "to the West or East Bound cars, a bridge over the underground river and",
+                "transportation works allows you to change directions.  Camalot is to the",
+                "south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31816",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31817"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31820"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31830": {
+            "name": "Bloodstoner Mansion Dock",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the northern passage up",
+                "through the ceiling here.  Transportation is to the north, and Bloodstoner",
+                "Mansion is to the south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31830",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31829"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "14752"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31883": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos. "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31883",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31884"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31882"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49931"
+                }
+            },
+            "extras": {}
+        },
+        "31814": {
+            "name": "Shire Westbound Dock",
+            "description": [
+                "A large cavern, docks on either side of the room serve as boarding gates",
+                "to the West or East Bound cars, a bridge over the underground river and",
+                "transportation works allows you to change directions.  The Shire is to the",
+                "north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31814",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31825"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31815"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31822"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31832": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31832",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31833"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31861": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31861",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31862"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31837": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31837",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31838"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31867": {
+            "name": "Inside the cart",
+            "description": [
+                "A Tripower cart, the interior of the cart is very plush and comfortable",
+                "almost as if it wasn't really meant to be driven, you can see the east and ",
+                "west bound cars passing to either side of you through the tinted glass."
+            ],
+            "flags_raw": "0 1029 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31867",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31808"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31806"
+                }
+            },
+            "extras": {}
+        },
+        "31846": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31846",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31847"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31820": {
+            "name": "Camalot Eastbound Dock",
+            "description": [
+                "A large cavern, docks on either side of the room serve as boarding gates",
+                "to the West or East Bound cars, a bridge over the underground river and",
+                "transportation works allows you to change directions.  Camalot is to the",
+                "south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31820",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31824"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31816"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31821"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31872": {
+            "name": "{CT{che {CM{cassive {CS{cpiral {CS{ctaircase{x",
+            "description": [],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31872",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31871"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "27759"
+                }
+            },
+            "extras": {}
+        },
+        "31833": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31833",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31834"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31885": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos. "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31885",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31884"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31886"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "14705"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49929"
+                }
+            },
+            "extras": {}
+        },
+        "31879": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31879",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31896"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31878"
+                }
+            },
+            "extras": {}
+        },
+        "31886": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos. "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31886",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31888"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31885"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49928"
+                }
+            },
+            "extras": {}
+        },
+        "31865": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31865",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31860"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31828": {
+            "name": "Stonebow Dale Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the northern passage up",
+                "through the ceiling here.  You can board the northbound cars here, and",
+                "Stonebow Dale is to the south.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31828",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31827"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "13193"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31871": {
+            "name": "{yD{*ee{yp D{*ee{yp Und{*erne{yath {RT{rorregiano{x",
+            "description": [
+                "You stand under the Torregiano Station, part of the Rail System.  This",
+                "area is very much like a cave, the walls are roughly cut out, and the only",
+                "thing here is a lantern, and a ladder going up and down.  Down, you can see",
+                "a strange glow, and to the north, a large cave leads into the depth of the",
+                "world.  "
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31871",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31873"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "25607"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31872"
+                }
+            },
+            "extras": {}
+        },
+        "31889": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "The cobble stone road of the Torregiano Roadway continues north and",
+                "south through the valley within the mountains.  On either side of you",
+                "trees line the valley floor, and up the mountains.  The mountains",
+                "known as the \"High Mountains\" cuts across the continent and into",
+                "unkown parts.  To the east a large road cuts into the woods, and goes",
+                "deep within.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31889",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31890"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31888"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49927"
+                }
+            },
+            "extras": {}
+        },
+        "31825": {
+            "name": "Shire Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the southern passage up",
+                "through the ceiling here.  Transportation is to the south, and the Shire",
+                "is to the north."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31825",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31814"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "1126"
+                }
+            },
+            "extras": {}
+        },
+        "31849": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31849",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31803"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31878": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31878",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31879"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31877"
+                }
+            },
+            "extras": {}
+        },
+        "31822": {
+            "name": "Shire Eastbound Dock",
+            "description": [
+                "A large cavern, docks on either side of the room serve as boarding gates",
+                "to the West or East Bound cars, a bridge over the underground river and",
+                "transportation works allows you to change directions.  The Shire is to the",
+                "north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31822",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31814"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31823"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31873": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light.  "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31873",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31874"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31871"
+                }
+            },
+            "extras": {}
+        },
+        "31881": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos. "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31881",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30502"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31880"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49933"
+                }
+            },
+            "extras": {}
+        },
+        "31829": {
+            "name": "South-Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the cars from other direction here, you can probably switch back and forth",
+                "if you are quick.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31829",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31807"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31830"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31843": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31843",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31844"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31810": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31810",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31803"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31852": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31852",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31853"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31882": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos. "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31882",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31883"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31881"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49932"
+                }
+            },
+            "extras": {}
+        },
+        "31850": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31850",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31851"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31844": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31844",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31845"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31815": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31815",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31816"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31897": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31897",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31898"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31896"
+                }
+            },
+            "extras": {}
+        },
+        "31888": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "The mountains, a group of mountains that extends from the Sea Of Swords",
+                "to the unknown world to the west, are known as the \"High Mountains\".  They",
+                "seem to be the largest mountains in the Realms Of Balance.  The Stardust",
+                "Trailway, makes it way passed these mountains, by a large mountain pass. ",
+                "The road goes between a flat part, between two high mountains.  A large",
+                "forest surrounds the path.  To either side you can see the trees going up",
+                "the mountain slop.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31888",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31889"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31886"
+                }
+            },
+            "extras": {}
+        },
+        "31869": {
+            "name": "Inside the Cart",
+            "description": [
+                "A Tripower cart, the interior of the cart is very plush and comfortable",
+                "almost as if it wasn't really meant to be driven, you can see the east and",
+                "west bound cars passing to either side of you through the tinted glass.  "
+            ],
+            "flags_raw": "0 1029 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31869",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31817"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31819"
+                }
+            },
+            "extras": {}
+        },
+        "31838": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31838",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31839"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31802": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31802",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31803"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31895": {
+            "name": "The Torregiano Roadway {&[{RR{x37{&]{x",
+            "description": [
+                "The mountain pass is to the south, leading pass the \"High Mountains\" to",
+                "the forest, and then the road between Westbridge and Torregiano.  To the",
+                "north, a lush plain of fields stands before you.  To the north, a large wall",
+                "of a very very large city stands.  Large towers stand on either end of the",
+                "wall, a green glow rises from the large towers.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31895",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31894"
+                }
+            },
+            "extras": {}
+        },
+        "31811": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31811",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31812"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31805": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31805",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31806"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31891": {
+            "name": "The Torregiano Roadway {&[{RR{x37{&]{x",
+            "description": [
+                "The mountains, a group of mountains that extends from the Sea Of Swords",
+                "to the unknown world to the west, are known as the \"High Mountains\".  They",
+                "seem to be the largest mountains in the Realms Of Balance.  The Stardust",
+                "Trailway, makes it way passed these mountains, by a large mountain pass. ",
+                "The road goes between a flat part, between two high mountains.  A large",
+                "forest surrounds the path.  To either side you can see the trees going up",
+                "the mountain slop.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31891",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31892"
+                }
+            },
+            "extras": {}
+        },
+        "31876": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31876",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31877"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31875"
+                }
+            },
+            "extras": {}
+        },
+        "31868": {
+            "name": "Inside the cart",
+            "description": [
+                "A Tripower cart, the interior of the cart is very plush and comfortable",
+                "almost as if it wasn't really meant to be driven, you can see the north and",
+                "south bound cars passing to either side of you through the tinted glass.  "
+            ],
+            "flags_raw": "0 1029 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31868",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31841"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31839"
+                }
+            },
+            "extras": {}
+        },
+        "31823": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31823",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31800"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31801": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31801",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31802"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31818": {
+            "name": "Hilp Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the eastern passage up",
+                "through the ceiling here.  You can board the eastbound cars here or Hilp is",
+                "to the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31818",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31819"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9922"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31853": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31853",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31854"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31893": {
+            "name": "The Torregiano Roadway {&[{RR{x37{&]{x",
+            "description": [
+                "The mountain pass is to the south, leading pass the \"High Mountains\" to",
+                "the forest, and then the road between Westbridge and Torregiano.  To the",
+                "north, a lush plain of fields stands before you.  To the north, a large wall",
+                "of a very very large city stands.  Large towers stand on either end of the",
+                "wall, a green glow rises from the large towers.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31893",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31894"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31892"
+                }
+            },
+            "extras": {}
+        },
+        "31858": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31858",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31803"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31808": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31808",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31809"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31841": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31841",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31842"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31890": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "The mountains, a group of mountains that extends from the Sea Of Swords",
+                "to the unknown world to the west, are known as the \"High Mountains\".  They",
+                "seem to be the largest mountains in the Realms Of Balance.  The Stardust",
+                "Trailway, makes it way passed these mountains, by a large mountain pass. ",
+                "The road goes between a flat part, between two high mountains.  A large",
+                "forest surrounds the path.  To either side you can see the trees going up",
+                "the mountain slop.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31890",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "27018"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31889"
+                }
+            },
+            "extras": {}
+        },
+        "31894": {
+            "name": "The Torregiano Roadway {&[{RR{x37{&]{x",
+            "description": [
+                "The mountain pass is to the south, leading pass the \"High Mountains\" to",
+                "the forest, and then the road between Westbridge and Torregiano.  To the",
+                "north, a lush plain of fields stands before you.  To the north, a large wall",
+                "of a very very large city stands.  Large towers stand on either end of the",
+                "wall, a green glow rises from the large towers.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31894",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31895"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31893"
+                }
+            },
+            "extras": {}
+        },
+        "31847": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31847",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31848"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31874": {
+            "name": "The Tunnel To Accomaxx",
+            "description": [
+                "This cave leads under the Istar Sea, from Torregiano to The Legion Base",
+                "known as AccoMaxx, an island in the sea of Istar.  The tunnel goes to the",
+                "north and south, water drips from the ceiling and runs down the wall.  To",
+                "either side of the cave, you see a small trench which holds the water. ",
+                "Makou Gas Lanterns hang from the walls, giving off a dark, green light. "
+            ],
+            "flags_raw": "0 8 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31874",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31875"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31873"
+                }
+            },
+            "extras": {}
+        },
+        "31864": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31864",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31865"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31835": {
+            "name": "Ofcal/Polaris Northbound Dock",
+            "description": [
+                "A large cavern, docks on either side of the room serve as boarding gates",
+                "to the North or South Bound cars, a bridge over the underground river and",
+                "transportation works allows you to change directions.  Polaris is to the",
+                "east, and the connection service to Ofcal is to the west.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31835",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31836"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31845"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31859"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31821": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31821",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31822"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31827": {
+            "name": "North-Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the cars from other direction here, you can probably switch back and forth",
+                "if you are quick.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31827",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31826"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31828"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31859": {
+            "name": "Polaris Station",
+            "description": [
+                "A cavern cut out of the stone, pipes run from the eastern passage up",
+                "through the ceiling here.  Transportation is to the west, and Polaris is to",
+                "the north.  "
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31859",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31835"
+                },
+                "up": {
+                    "flags_raw": "25008",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "7539"
+                }
+            },
+            "extras": {}
+        },
+        "31836": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31836",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31837"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31892": {
+            "name": "The Torregiano Roadway {&[{RR{x37{&]{x",
+            "description": [
+                "The mountain pass is to the south, leading pass the \"High Mountains\" to",
+                "the forest, and then the road between Westbridge and Torregiano.  To the",
+                "north, a lush plain of fields stands before you.  To the north, a large wall",
+                "of a very very large city stands.  Large towers stand on either end of the",
+                "wall, a green glow rises from the large towers.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31892",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31893"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31891"
+                }
+            },
+            "extras": {}
+        },
+        "31817": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31817",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31818"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31834": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31834",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31835"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31812": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31812",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31800"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31806": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31806",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31807"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31819": {
+            "name": "Eastbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the eastbound cars to the north, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31819",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31820"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31880": {
+            "name": "The {RT{rorregiano {7R{&o{*adw{&a{7y{x",
+            "description": [
+                "You are walking on the Stardust Trailway, a proud road built by the",
+                "TriPower.  The road extends north through the forest, which is a very thick",
+                "forest.  To the north, large mountains rise above the tree line, leading to",
+                "the unknown.  From the trees, large orbs of light hang down, lighting the",
+                "way of the road.  This road leads directly to Torregiano, going north, or",
+                "south to the road that is between Westbridge and New Thalos.  ",
+                "{R+{r-----------------------{R+",
+                "{G<{g------ {MP{motsdam {CQ{Buick{CM{bart{x",
+                "{R+{r-----------------------{R+{x"
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31880",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31881"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "30500"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "3531"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49934"
+                }
+            },
+            "extras": {}
+        },
+        "31848": {
+            "name": "Southbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the northbound cars to the east, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31848",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31849"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31855": {
+            "name": "Northbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the southbound cars to the west, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31855",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31856"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31809": {
+            "name": "Westbound Passage",
+            "description": [
+                "A natural water cavern, cut out by the rushing water over millions of",
+                "years, now slightly enlarged by the workcrews to make way for the cars. ",
+                "Pipes run along the ceiling on the way to thier destination.  You can see",
+                "the westbound cars to the south, but just out of range to switch directions."
+            ],
+            "flags_raw": "0 0 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31809",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31810"
+                }
+            },
+            "extras": {
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31803": {
+            "name": "Gearworks Cavern",
+            "description": [
+                "A large room, with reinforced walls, large pipes come in from the North",
+                "and split off in all directions, supplying Gas and Power to all the realms. ",
+                "Chains wrap themselves around large gears all about, driving the cars both",
+                "east and west, north and south.  An Awe inspiring sight.  Steam and fumes",
+                "are exhausted from the ceiling.  A sign here directs you of your options.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31803",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31850"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31831"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31811"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31804"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "North - Torregiano, Ofcal, Polaris",
+                        "South - Figaro Castle, Mako",
+                        "East  - New Thalos, Bloodstoner Mansion",
+                        "West  - Westbridge, Shire, Camalot, Hilp Village, Stonebow Dale",
+                        "c",
+                        "{!North {0- {BTorregiano, Ofcal, Polaris",
+                        "{1South {0- {BFigaro Castle, Mako{0",
+                        "{MEast  {0- {BNew Thalos, Bloodstoner Mansion{0",
+                        "{mWest  {0- {BWestbridge, Shire, Camalot, Hilp Village, Stonebow Dale{0",
+                        ""
+                    ]
+                },
+                "cars": {
+                    "description": [
+                        "a set of three cars chained together, and a larger chain running to",
+                        "the next set of three, they are wooden on the outside and well cushoined ",
+                        "within. They move along at a fairly good pace and stop for a few seconds ",
+                        "at every stop.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "31866": {
+            "name": "Inside the Cart",
+            "description": [
+                "A Tripower cart, the interior of the cart is very plush and comfortable",
+                "almost as if it wasn't really meant to be driven, you can see the east and",
+                "west bound cars passing to either side of you through the tinted glass.  "
+            ],
+            "flags_raw": "0 1029 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "31866",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31812"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "31801"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "tpsites",
+    "area_quest_points": 0,
+    "credits": "[ Public ] The TP Underground Railways",
+    "faction_id": "",
+    "vnums": [
+        31800,
+        31899
+    ],
+    "recall_room_id": 25037,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "31800": {
+            "name": "a Tri-Power Gate Guard~\n",
+            "description": [
+                "A large Guard, he looks to be very formable, best just show your pass \n",
+                "and move on. He is dressed sharply in the Tri-Power Uniform, and refections\n",
+                "of the room can be seen in his polished boots.\n",
+                " \n",
+                "This man will hurt you .... Don't doubt it for a second.\n"
+            ],
+            "raw_flags5": "stand stand male 500000",
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium unknown",
+            "raw_flags4": "CDEFHJKLNOR ABLQ CE 0",
+            "raw_flags3": "60 60 60 60",
+            "vnum": 31800,
+            "raw_flags": "ABT DFJVZac H 0 5",
+            "race_id": "troll",
+            "raw_resistances": "B",
+            "raw_flags2": "102 1000 511d111+5000 12d10+50 311d25+300 crush",
+            "d_flags": "D {!You will pay for that with you life!!!!{0~",
+            "subroutines": [
+                "F res B\n",
+                "F vul HK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Gate Guard is here guarding the entrance\n",
+            "raw_vulns": "HK",
+            "keywords": "Tri-power Gate Guard~\n"
+        },
+        "31801": {
+            "name": "a Tri-Power Priest~\n",
+            "description": [
+                "A portly man, he looks wise beyond his years, he is dressed in the\n",
+                "Tri-Power Priest's Garments. He examines everyone as they pass through\n",
+                "the gates to the cars.\n"
+            ],
+            "raw_flags5": "stand stand male 500000",
+            "raw_flags6": "ABHMV ABCDEFGHIJKPUV medium unknown",
+            "raw_flags4": "DEFHKR ABLQ CEP 0",
+            "raw_flags3": "60 60 60 70",
+            "vnum": 31801,
+            "raw_flags": "AB EFJZc HPR 0 0",
+            "race_id": "troll",
+            "raw_resistances": "B",
+            "raw_flags2": "102 800 311d111+5000 311d511+5000 500d8+500 thwack",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F res B\n",
+                "F vul HK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Priest is here to assist the guard in his duties.\n",
+            "raw_vulns": "HK",
+            "keywords": "Tri-Power Gate Priest~\n"
+        },
+        "31802": {
+            "name": "a Tri-Power Guard~\n",
+            "description": [
+                "A large man, not as sharp as the master he trains under, and sports a\n",
+                "few bruises where he didn't learn fast enuf. He looks a bit unattentive\n",
+                "at the moment, but you can't be sure\n"
+            ],
+            "raw_flags5": "stand stand male 40000",
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium unknown",
+            "raw_flags4": "DEFHJKNR ABLQ E 0",
+            "raw_flags3": "50 50 50 40",
+            "vnum": 31802,
+            "raw_flags": "ABC DFJVZac 0 0 0",
+            "race_id": "troll",
+            "raw_resistances": "B",
+            "raw_flags2": "109 700 211d111+9999 12d10+50 311d18+200 pound",
+            "d_flags": "D {!I lived to Serve!!!!{0~",
+            "subroutines": [
+                "F res B\n",
+                "F vul HK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A Guard-in-Training Stands here learning from one of the best\n",
+            "raw_vulns": "HK",
+            "keywords": "Tri-Power Guard-in-Training~\n"
+        },
+        "31804": {
+            "name": "(no short description)~\n",
+            "description": [],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 0 BF 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 31804,
+            "raw_flags": "A DFL 0 0 0",
+            "race_id": "halfelf",
+            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "(no long description)\n",
+            "keywords": "no name~\n"
+        },
+        "31820": {
+            "name": "(no short description)~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "HMV 0 giant unknown",
+            "raw_flags4": "BCDEFHJKNO BC CDEGL 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 31820,
+            "raw_flags": "AFGSTX DFTVZa HNOR 0 0",
+            "race_id": "human",
+            "raw_form": "A",
+            "raw_flags2": "109 6000 16000d12000+15000 10d10+1000 50d50+100 crush",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for A\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "(no long description)\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "red knight tempan~\n"
+        }
+    },
+    "realm_id": 4
+}

@@ -1,0 +1,2137 @@
+{
+    "name": "Nirvana",
+    "id": "nirvana",
+    "subroutines": [],
+    "rooms": {
+        "9018": {
+            "name": "A Tertain's lair",
+            "description": [
+                "You quite possibly have made a terrible mistake coming in here.",
+                "Exits lead east and west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9018",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage leads west where you can see a bright light ahead.",
+                        ""
+                    ],
+                    "room_id": "9020"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues to the east",
+                        ""
+                    ],
+                    "room_id": "9016"
+                }
+            },
+            "extras": {}
+        },
+        "9038": {
+            "name": "Office of a Secundus",
+            "description": [
+                "You are standing in a office of one of the Viceroys of the Plane of Nirvana.  ",
+                "The occupant doesn't look real thrilled with your presence.  The only exits is ",
+                "west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9038",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking west you can see a long hallway",
+                        ""
+                    ],
+                    "room_id": "9035"
+                }
+            },
+            "extras": {}
+        },
+        "9039": {
+            "name": "A Junction in the hallway",
+            "description": [
+                "Your are standing in a junction, exits lead in all the cardinal directions."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9039",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you see a small room",
+                        ""
+                    ],
+                    "room_id": "9041"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, you spy a small room",
+                        ""
+                    ],
+                    "room_id": "9040"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, the passageway continues",
+                        ""
+                    ],
+                    "room_id": "9042"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, you see a quadruple junction",
+                        ""
+                    ],
+                    "room_id": "9025"
+                }
+            },
+            "extras": {}
+        },
+        "9012": {
+            "name": "Door to the Tower of Nirvana",
+            "description": [
+                "You stand on the plane where a mighty door lies to the west.",
+                "The plane also continues north and southward.  There is a large sign on the ",
+                "door."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9012",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues northward as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9014"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9062"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues southward as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9005"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "The sign reads:",
+                        "                     WARNING",
+                        "Only those brave of heart and high of level should",
+                        "enter the Tower of Nirvana.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "9005": {
+            "name": "North-South direction of the plane",
+            "description": [
+                "The plane continues to the north and south"
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9005",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, the plane stretches as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9012"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, the plane stretches as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9003"
+                }
+            },
+            "extras": {}
+        },
+        "9002": {
+            "name": "The Plane of Nirvana",
+            "description": [
+                "You are on a western strech of the plane.  Boundaries to the east and",
+                "west seem nonexistent.  "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9002",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues to the west where is appears to change direction",
+                        ""
+                    ],
+                    "room_id": "9004"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane seems to strech forever to the east",
+                        ""
+                    ],
+                    "room_id": "9000"
+                }
+            },
+            "extras": {}
+        },
+        "9020": {
+            "name": "The Lair of Primus",
+            "description": [
+                "You are in a large hall, with a massive pool of what appears to be pure energy ",
+                "in the center of the room.  Exits lead in all the cardinal directions.  From ",
+                "the pool rises the master of the Plane of Nirvana...."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9020",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A passage leads south into the unknown.",
+                        ""
+                    ],
+                    "room_id": "9021"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A passage leads north into the unknown.",
+                        ""
+                    ],
+                    "room_id": "9024"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A passage leads west into the unknown.",
+                        ""
+                    ],
+                    "room_id": "9019"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "A passage leads east into the unknown.",
+                        ""
+                    ],
+                    "room_id": "9018"
+                }
+            },
+            "extras": {}
+        },
+        "9052": {
+            "name": "Chamber of the Secudus",
+            "description": [
+                "A large canvernous room, this chamber serves as the sleeping quarters for the ",
+                "third Secudus, Viceroy to Primus. The only exit lies to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9052",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west you can see a passageway.",
+                        ""
+                    ],
+                    "room_id": "9049"
+                }
+            },
+            "extras": {}
+        },
+        "9016": {
+            "name": "Dead End",
+            "description": [
+                "You stand at a dead end where the only exit appears to be west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9016",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continue to the west.",
+                        ""
+                    ],
+                    "room_id": "9018"
+                }
+            },
+            "extras": {}
+        },
+        "9046": {
+            "name": "A Passageway",
+            "description": [
+                "You are in a well lit passage.  A sense of forboding danger envelopes you.  ",
+                "Exits lead in all cardinal directions."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9046",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, a chamber can be seen",
+                        ""
+                    ],
+                    "room_id": "9048"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you can see a small chamber",
+                        ""
+                    ],
+                    "room_id": "9047"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, a large tunnel can be found.",
+                        ""
+                    ],
+                    "room_id": "9022"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, the passage continues,.",
+                        ""
+                    ],
+                    "room_id": "9049"
+                }
+            },
+            "extras": {}
+        },
+        "9045": {
+            "name": "The chamber of the second Secundus",
+            "description": [
+                "This huge room is furnished with the finest, and a personal legion guards the ",
+                "Secundus. the only exit is to the east."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9045",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east you can see a junction",
+                        ""
+                    ],
+                    "room_id": "9042"
+                }
+            },
+            "extras": {}
+        },
+        "9000": {
+            "name": "Entrance to the Plane of Nirvana",
+            "description": [
+                "You stand before the entrance to a plane of absolute balance and order. ",
+                "It is equally hot and cold, equally light and dark, and made of equal parts",
+                "of solid and liquid.  The plane extends to the west and east, while an exit",
+                "lies downward.  "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9000",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, the plane extends for what seems to be forever.",
+                        ""
+                    ],
+                    "room_id": "9002"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, the plane extends for what seems to be forever.",
+                        ""
+                    ],
+                    "room_id": "9001"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Downwards, you see the portal leading back to home.",
+                        ""
+                    ],
+                    "room_id": "8905"
+                }
+            },
+            "extras": {}
+        },
+        "9058": {
+            "name": "Chamber of The First Secundus",
+            "description": [
+                "You have disturbed the rest of the First Viceroy to Primus the Prime, The ",
+                "Secundus.  He does not look like a happy camper. The only exit lies to the ",
+                "east."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9058",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east you can spot a hallway",
+                        ""
+                    ],
+                    "room_id": "9059"
+                }
+            },
+            "extras": {}
+        },
+        "9050": {
+            "name": "Chamber of a Hexton",
+            "description": [
+                "You have entered the chamber of a Hexton.  Trophies adorn the walls, some of ",
+                "which are human. the only exit is to the south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9050",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can see a passageway.",
+                        ""
+                    ],
+                    "room_id": "9049"
+                }
+            },
+            "extras": {}
+        },
+        "9007": {
+            "name": "In the Tower of Nirvana",
+            "description": [
+                "Entering the tower, there seems to be enough light to see by, but",
+                "no source is visible.  A hallway runs to the east while down below the",
+                "stairway touches the ground.  "
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9007",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hall continues east into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9010"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9060"
+                }
+            },
+            "extras": {}
+        },
+        "9051": {
+            "name": "Chamber of a Hexton",
+            "description": [
+                "You have entered a room where you are not very popular. The only exit lies ",
+                "northbound."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9051",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you can see a passage.",
+                        ""
+                    ],
+                    "room_id": "9049"
+                }
+            },
+            "extras": {}
+        },
+        "9024": {
+            "name": "A Tertian's lair",
+            "description": [
+                "You find yourself in a lair of a Tertian.  Exits lead north and south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9024",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, you can make out a intersection of tunnels.",
+                        ""
+                    ],
+                    "room_id": "9025"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, you can see a bright light.",
+                        ""
+                    ],
+                    "room_id": "9020"
+                }
+            },
+            "extras": {}
+        },
+        "9015": {
+            "name": "NS area on the Plane of Nirvana",
+            "description": [
+                "the plane continues to the north and south"
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9015",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues endlessly to the north",
+                        ""
+                    ],
+                    "room_id": "9028"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues endlessly to the south",
+                        ""
+                    ],
+                    "room_id": "9013"
+                }
+            },
+            "extras": {}
+        },
+        "9001": {
+            "name": "The Plane of Nirvana",
+            "description": [
+                "You are traveling the Plane of Nirvana.  It has endless boundaries to the",
+                "east and west "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9001",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, the plane seems to extend forever.",
+                        ""
+                    ],
+                    "room_id": "9000"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, there seems to be a bend in direction of travel.",
+                        ""
+                    ],
+                    "room_id": "9003"
+                }
+            },
+            "extras": {}
+        },
+        "9009": {
+            "name": "EW hallway in the Tower of Nirvana",
+            "description": [
+                "The hallway continues to the east, and stretches to the west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9009",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The Hallway continues west into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9011"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The hallway continues east into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9008"
+                }
+            },
+            "extras": {}
+        },
+        "9014": {
+            "name": "NS area of the Plane of Nirvana",
+            "description": [
+                "The plane continues to the north and southward."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9014",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues endlessly to the north.",
+                        ""
+                    ],
+                    "room_id": "9027"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues endlessly to the south.",
+                        ""
+                    ],
+                    "room_id": "9012"
+                }
+            },
+            "extras": {}
+        },
+        "9010": {
+            "name": "EW passage in the Tower of Nirvana",
+            "description": [],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9010",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The Hallway contiues west into oblivion",
+                        ""
+                    ],
+                    "room_id": "9007"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The Hallway contiues east into oblivion",
+                        ""
+                    ],
+                    "room_id": "9011"
+                }
+            },
+            "extras": {}
+        },
+        "9017": {
+            "name": "Dead End",
+            "description": [
+                "You are at what appears to be a dead end.  The only exit is back east."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9017",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues to the east.",
+                        ""
+                    ],
+                    "room_id": "9019"
+                }
+            },
+            "extras": {}
+        },
+        "9021": {
+            "name": "A Tertian's lair",
+            "description": [
+                "Maybe coming here wasn't such a hot idea.  You feel very unwelcome here.  ",
+                "Exits lead north and south"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9021",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage leads north where you can see a bright light.",
+                        ""
+                    ],
+                    "room_id": "9020"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage leads south into the unknown.",
+                        ""
+                    ],
+                    "room_id": "9022"
+                }
+            },
+            "extras": {}
+        },
+        "9029": {
+            "name": "EW route on the Plane of Nirvana",
+            "description": [
+                "Exits lead east and west."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9029",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking west, in the distance you can spy a curve south.",
+                        ""
+                    ],
+                    "room_id": "9028"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking east, you spy a door far off in the distance.",
+                        ""
+                    ],
+                    "room_id": "9031"
+                }
+            },
+            "extras": {}
+        },
+        "9057": {
+            "name": "A room",
+            "description": [
+                "You have entered a room where there was obviously a hurried move going on.  ",
+                "The only exit lies to the north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9057",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you can make out a passageway.",
+                        ""
+                    ],
+                    "room_id": "9059"
+                }
+            },
+            "extras": {}
+        },
+        "9042": {
+            "name": "An east-west passage",
+            "description": [
+                "In east west passage is here with exits in all of the cardinal directions."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9042",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can make out a averaged sized room.",
+                        ""
+                    ],
+                    "room_id": "9044"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You can see a room to the north.",
+                        ""
+                    ],
+                    "room_id": "9043"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west you can see what appears to be a cavernous room.",
+                        ""
+                    ],
+                    "room_id": "9045"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east you can see a junction",
+                        ""
+                    ],
+                    "room_id": "9039"
+                }
+            },
+            "extras": {}
+        },
+        "9019": {
+            "name": "A Tertian's lair",
+            "description": [
+                "You might have made a terrible mistake coming into here.",
+                "Exits lead east and west."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9019",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues westward into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9017"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues eastward where you can see a bright light.",
+                        ""
+                    ],
+                    "room_id": "9020"
+                }
+            },
+            "extras": {}
+        },
+        "9044": {
+            "name": "The Commander's Post",
+            "description": [
+                "You have stumbled on to the office of the Commander of the forces in the Plane ",
+                "Of Nirvana.  The room is well furnished and a sense of courage and bravery ",
+                "overtakes you as you enter the room.  The only exit lies to the north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9044",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you can visualize a junction of passages.",
+                        ""
+                    ],
+                    "room_id": "9042"
+                }
+            },
+            "extras": {}
+        },
+        "9028": {
+            "name": "A change of direction",
+            "description": [
+                "Here, the plane takes a turm from the south to heading east."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9028",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking south, you view the plane extending for miles.",
+                        ""
+                    ],
+                    "room_id": "9015"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane heads east from here. You can't see the end of it.",
+                        ""
+                    ],
+                    "room_id": "9029"
+                }
+            },
+            "extras": {}
+        },
+        "9054": {
+            "name": "A small chamber",
+            "description": [
+                "You are in a small cramped chamber.  The only exit lies to the south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9054",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can see a passage",
+                        ""
+                    ],
+                    "room_id": "9053"
+                }
+            },
+            "extras": {}
+        },
+        "9013": {
+            "name": "Door to the Tower of Nirvana",
+            "description": [
+                "The plane continue to the north and south, while a mighty door lies to the ",
+                "east.  There is a sign on the door."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9013",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues to the south as far as the eye can see",
+                        ""
+                    ],
+                    "room_id": "9006"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane stretches to the north as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9015"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9060"
+                }
+            },
+            "extras": {
+                "sign": {
+                    "description": [
+                        "The sign reads:",
+                        "                  WARNING!",
+                        "Only those brave of heart and high of level",
+                        "should attempt to enter the Tower of Nirvana.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "9059": {
+            "name": "Junction in the hallway",
+            "description": [
+                "Exits lead off in all of the cardinal directions"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9059",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, a small chamber can be found.",
+                        ""
+                    ],
+                    "room_id": "9057"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north lies a large chamber",
+                        ""
+                    ],
+                    "room_id": "9056"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, lies a monstrous room.",
+                        ""
+                    ],
+                    "room_id": "9058"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east , the passage continues.",
+                        ""
+                    ],
+                    "room_id": "9053"
+                }
+            },
+            "extras": {}
+        },
+        "9004": {
+            "name": "A Change in Direction",
+            "description": [
+                "Here, the plane goes to the north and bends to the east"
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9004",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The vast plane seems to have no end to the north",
+                        ""
+                    ],
+                    "room_id": "9006"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, the plane has no visible end",
+                        ""
+                    ],
+                    "room_id": "9002"
+                }
+            },
+            "extras": {}
+        },
+        "9034": {
+            "name": "A small room",
+            "description": [
+                "The only exit is north"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9034",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking north, you spy an intersection.",
+                        ""
+                    ],
+                    "room_id": "9032"
+                }
+            },
+            "extras": {}
+        },
+        "9035": {
+            "name": "A passageway",
+            "description": [
+                "Exits lead in all cardinal directions."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9035",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking south, you can see an average room.",
+                        ""
+                    ],
+                    "room_id": "9037"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking north you spy a average sized room.",
+                        ""
+                    ],
+                    "room_id": "9036"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking west, you can see an intersection ahead.",
+                        ""
+                    ],
+                    "room_id": "9032"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking east, you can make out a large room",
+                        ""
+                    ],
+                    "room_id": "9038"
+                }
+            },
+            "extras": {}
+        },
+        "9043": {
+            "name": "The Barracks",
+            "description": [
+                "A dusty room, with a almost untolerable odor, the barracks are being inspected ",
+                "by a Hexton and his personal enterage.",
+                "The only exit lies to the south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9043",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can see junction",
+                        ""
+                    ],
+                    "room_id": "9042"
+                }
+            },
+            "extras": {}
+        },
+        "9041": {
+            "name": "Office of a Septon",
+            "description": [
+                "A neat and tidy room, it appear to be inhabited my a neatenss freak.  The only ",
+                "exit lies to the north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9041",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you see a junction.",
+                        ""
+                    ],
+                    "room_id": "9039"
+                }
+            },
+            "extras": {}
+        },
+        "9036": {
+            "name": "Lair of a Hexton",
+            "description": [
+                "You are in a room that is in complete disrepair.  Items are thrown throughout ",
+                "the room making them worthless piles of junk.",
+                "The only exit is back south"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9036",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking south, you can make out a passage.",
+                        ""
+                    ],
+                    "room_id": "9035"
+                }
+            },
+            "extras": {}
+        },
+        "9049": {
+            "name": "End of the passageway",
+            "description": [
+                "You have reached the end of a long east-west passage.  The passage contiues to ",
+                "the west, and rooms lie to the north, south, and east."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9049",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, a room can be seen.",
+                        ""
+                    ],
+                    "room_id": "9051"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you can see a room",
+                        ""
+                    ],
+                    "room_id": "9050"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "to the west, the passageway continues",
+                        ""
+                    ],
+                    "room_id": "9046"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east you can make out a large chamber",
+                        ""
+                    ],
+                    "room_id": "9052"
+                }
+            },
+            "extras": {}
+        },
+        "9037": {
+            "name": "Office of a Hexton",
+            "description": [
+                "A makeshift desk forms the center of this room.  The only exit is north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9037",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking north, you can make out a hallway.",
+                        ""
+                    ],
+                    "room_id": "9035"
+                }
+            },
+            "extras": {}
+        },
+        "9023": {
+            "name": "A wide north-south passageway",
+            "description": [
+                "you find yourself in a passage where the exits are north and south"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9023",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, you spy an intersection of tunnels.",
+                        ""
+                    ],
+                    "room_id": "9022"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can barely make out a junction of passageways.",
+                        ""
+                    ],
+                    "room_id": "9011"
+                }
+            },
+            "extras": {}
+        },
+        "9053": {
+            "name": "A passageway",
+            "description": [
+                "You are in a passagway where you may go in any cardinal direction."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9053",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, you can spot a small room",
+                        ""
+                    ],
+                    "room_id": "9055"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north lies a small chamber",
+                        ""
+                    ],
+                    "room_id": "9054"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west, the passageway continues",
+                        ""
+                    ],
+                    "room_id": "9059"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, a main passage forms a junction.",
+                        ""
+                    ],
+                    "room_id": "9022"
+                }
+            },
+            "extras": {}
+        },
+        "9030": {
+            "name": "EW route on The Plane of Nirvana",
+            "description": [
+                "Exits lead east and west"
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9030",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "glancing west, you can spy a door far off in the distance.",
+                        ""
+                    ],
+                    "room_id": "9031"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking east, you can see a bend in the distance.",
+                        ""
+                    ],
+                    "room_id": "9027"
+                }
+            },
+            "extras": {}
+        },
+        "9026": {
+            "name": "An intersection of passages",
+            "description": [
+                "You stand at an intersection.  Exits lead off to the east and south. ",
+                "A door lies to the north"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9026",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you stare into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9025"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east, you spy a dark passage",
+                        ""
+                    ],
+                    "room_id": "9032"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9061"
+                }
+            },
+            "extras": {}
+        },
+        "9011": {
+            "name": "Intersection in Tower of Nirvana",
+            "description": [
+                "You are at an intersection where the east-west passage continues, but a large ",
+                "passage leads to the north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9011",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues to the north where it seems to get wider.",
+                        ""
+                    ],
+                    "room_id": "9009"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage continues westward into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9010"
+                }
+            },
+            "extras": {}
+        },
+        "9003": {
+            "name": "A Change in Direction",
+            "description": [
+                "Here, the plane seems to direct you to the north.  Also, the plane",
+                "continues to the west.  "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9003",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane continues to the north with no end in sight",
+                        ""
+                    ],
+                    "room_id": "9005"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plane contiues to the west with no end in sight",
+                        ""
+                    ],
+                    "room_id": "9001"
+                }
+            },
+            "extras": {}
+        },
+        "9047": {
+            "name": "Chamber of the Octon",
+            "description": [
+                "A small room, sparsely furnished, it leaves you with a sense of fear.  The ",
+                "only exit is to the south"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9047",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can see a passage.",
+                        ""
+                    ],
+                    "room_id": "9046"
+                }
+            },
+            "extras": {}
+        },
+        "9055": {
+            "name": "A cramped room",
+            "description": [
+                "You are in a small, crowded room.  The only exit appears to lie to the north."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9055",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, you can see a passageway.",
+                        ""
+                    ],
+                    "room_id": "9053"
+                }
+            },
+            "extras": {}
+        },
+        "9006": {
+            "name": "A North-South stretch of the plane",
+            "description": [
+                "The plane continues to the north and the south"
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9006",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, the plane stretches as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9013"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south, the plane stretches as far as the eye can see.",
+                        ""
+                    ],
+                    "room_id": "9004"
+                }
+            },
+            "extras": {}
+        },
+        "9025": {
+            "name": "A north south tunnel",
+            "description": [
+                "You are in a passage where the only exits are north and south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9025",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Far to the north you can see a door.",
+                        ""
+                    ],
+                    "room_id": "9026"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you stare into darkness.",
+                        ""
+                    ],
+                    "room_id": "9024"
+                }
+            },
+            "extras": {}
+        },
+        "9060": {
+            "name": "Up a Spiraling Staircase",
+            "description": [
+                "Before you stretches a magnificent staircase, wider than some of",
+                "the widest streets in the largest cities in all the realms.  It is",
+                "paved in marble and covered in thick growth of ivy and briarwood.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9060",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9013"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9007"
+                }
+            },
+            "extras": {}
+        },
+        "9032": {
+            "name": "A Junction in the passage",
+            "description": [
+                "Here, passages lead off in all cardinal directions."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9032",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "South of here is a small room.",
+                        ""
+                    ],
+                    "room_id": "9034"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Looking north, you spy a small room in the distance",
+                        ""
+                    ],
+                    "room_id": "9033"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "West, you spy an intersection.",
+                        ""
+                    ],
+                    "room_id": "9026"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Eastward, the passage continues in the darkness.",
+                        ""
+                    ],
+                    "room_id": "9035"
+                }
+            },
+            "extras": {}
+        },
+        "9022": {
+            "name": "The office of a Quinton",
+            "description": [
+                "You have stumbled upon the office of a page to Primus.",
+                "Scrolls lie about the room along with many strange objects...you can't imagine ",
+                "what kind of creature would use them.  Exits lead in all the cardinal ",
+                "directions."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9022",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage goes south into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9023"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage heads northward where you can see nothing.",
+                        ""
+                    ],
+                    "room_id": "9021"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage heads westward into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9053"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The passage goes east where you feel it might be bad to go.",
+                        ""
+                    ],
+                    "room_id": "9046"
+                }
+            },
+            "extras": {}
+        },
+        "9040": {
+            "name": "Office of an Octon",
+            "description": [
+                "You see a messy room with papers scattered everywhere.",
+                "The only exit leads back to the south"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9040",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can make out a junction.",
+                        ""
+                    ],
+                    "room_id": "9039"
+                }
+            },
+            "extras": {}
+        },
+        "9048": {
+            "name": "Chamber of the Nonaton",
+            "description": [
+                "You have entered the chamber of the principal law and order overseers.  The ",
+                "only exit lies to the north"
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9048",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north you can see a passageway.",
+                        ""
+                    ],
+                    "room_id": "9046"
+                }
+            },
+            "extras": {}
+        },
+        "9056": {
+            "name": "A large room",
+            "description": [
+                "You have entered a room where you are not wanted.  The only exit lies to the ",
+                "south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9056",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can visualize a east-west passage.",
+                        ""
+                    ],
+                    "room_id": "9059"
+                }
+            },
+            "extras": {}
+        },
+        "9027": {
+            "name": "A change of direction",
+            "description": [
+                "The plane curves from the south to west"
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9027",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking west, you can't fathom how far the plane extends.",
+                        ""
+                    ],
+                    "room_id": "9030"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking south, you see the plane extending beyond view.",
+                        ""
+                    ],
+                    "room_id": "9014"
+                }
+            },
+            "extras": {}
+        },
+        "9008": {
+            "name": "A hallway in the Tower of Nirvana",
+            "description": [
+                "You are in a east-west hallway in the tower.  To the west, the hall",
+                "continues and a door lies to the east.  "
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9008",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "the hallway continues west into oblivion.",
+                        ""
+                    ],
+                    "room_id": "9009"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9062"
+                }
+            },
+            "extras": {}
+        },
+        "9033": {
+            "name": "The office of the Octon",
+            "description": [
+                "you are in a small room, the only exit is south."
+            ],
+            "flags_raw": "0 8 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9033",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking south, you see an intersection.",
+                        ""
+                    ],
+                    "room_id": "9032"
+                }
+            },
+            "extras": {}
+        },
+        "9061": {
+            "name": "Up a Spiraling Staircase",
+            "description": [
+                "Before you stretches a magnificent staircase, wider than some of",
+                "the widest streets in the largest cities in all the realms.  It is",
+                "paved in marble and covered in thick growth of ivy and briarwood.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9061",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9031"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9026"
+                }
+            },
+            "extras": {}
+        },
+        "9031": {
+            "name": "A large door in the passage",
+            "description": [
+                "The passages goes east and west, with a large door to the south."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "9031",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "9061"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking west, you see more of the passage.",
+                        ""
+                    ],
+                    "room_id": "9029"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "looking east, you see more of the passage.",
+                        ""
+                    ],
+                    "room_id": "9030"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "nirvana",
+    "area_quest_points": 0,
+    "credits": "[59 GR 70] Nirvana",
+    "faction_id": "",
+    "vnums": [
+        9000,
+        9099
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "9000": {
+            "name": "the tridrone~\n",
+            "description": [
+                "You see what appears to be a 3 sided pyramid with spidery arms and legs.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "H ABCGHIJK medium 0",
+            "raw_flags4": "NQR BMNPQ HIK 0",
+            "raw_flags3": "4 3 4 5",
+            "vnum": 9000,
+            "raw_flags": "ACG J 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "16 0 3d20+80 1d1+99 2d5+3 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A tridrone is here doing a menial task.\n",
+            "keywords": "tridrone~\n"
+        },
+        "9001": {
+            "name": "the quadrone~\n",
+            "description": [
+                "A cubic creature, with spiny arms and legs.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "H ABCGHIJK medium 0",
+            "raw_flags4": "CEKQR BMNPQ HIK 0",
+            "raw_flags3": "1 0 1 2",
+            "vnum": 9001,
+            "raw_flags": "AFGT DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "21 3 14d10+70 1d1+99 3d4+2 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A quadrone is here watching for trespassers.\n",
+            "keywords": "quadrone~\n"
+        },
+        "9002": {
+            "name": "the pentadrone~\n",
+            "description": [
+                "A five-armed creature which resembles a starfish on thin stilt-like legs.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "H ABCGHJKN medium 0",
+            "raw_flags4": "CEFLNQR BMNPQR HIK 0",
+            "raw_flags3": "-2 -2 0 -1",
+            "vnum": 9002,
+            "raw_flags": "ABFGT DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "27 3 15d12+110 1d1+99 4d4+3 slap",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The pentadrone is here policing the area.\n",
+            "keywords": "pentadrone~\n"
+        },
+        "9003": {
+            "name": "the decaton~\n",
+            "description": [
+                "The decaton is a large, ten-tentacled sphere on stumpy legs.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHJKN medium 0",
+            "raw_flags4": "ACEKNQR BMNPQR HIK 0",
+            "raw_flags3": "-4 -4 0 -2",
+            "vnum": 9003,
+            "raw_flags": "ABFGQT DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "34 4 25d10+70 17d8+50 4d5+3 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A decaton is here overseeing the other modrons.\n",
+            "keywords": "decaton~\n"
+        },
+        "9004": {
+            "name": "the nonaton~\n",
+            "description": [
+                "A cylidrical modron with 9 tentacles and stubby legs.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHJKN large 0",
+            "raw_flags4": "AEFNQR BMNPQR HIK G",
+            "raw_flags3": "-4 -4 -2 -3",
+            "vnum": 9004,
+            "raw_flags": "ABFGQT DJ H 300 0",
+            "race_id": "modron",
+            "raw_flags2": "40 5 11d8+250 20d8+75 4d6+4 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A nonaton is here preserving law and order.\n",
+            "keywords": "nonaton~\n"
+        },
+        "9005": {
+            "name": "the octon~\n",
+            "description": [
+                "The octon has a collar at shoulder level with 8 tentacled arms growing out of\n",
+                "it.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHJKN large 0",
+            "raw_flags4": "ACEHKQR BMNPQR HIK G",
+            "raw_flags3": "-5 -5 -3 -4",
+            "vnum": 9005,
+            "raw_flags": "ABFGQ DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "43 5 25d10+300 18d10+75 4d6+5 crush",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An octon is here governing his ward of responsilbility.\n",
+            "keywords": "octon~\n"
+        },
+        "9006": {
+            "name": "the septon~\n",
+            "description": [
+                "The septon appears as a human with a large bald head. It has a shoulder collar\n",
+                "with 7 tentacles coming from it.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHIJKN medium 0",
+            "raw_flags4": "AFKOQR BMNPQR HIK 0",
+            "raw_flags3": "-6 -6 -6 -4",
+            "vnum": 9006,
+            "raw_flags": "ABFGQR DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "48 5 30d10+350 20d10+100 6d4+5 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A septon is here preserving order.\n",
+            "keywords": "septon~\n"
+        },
+        "9007": {
+            "name": "the hexton~\n",
+            "description": [
+                "A hexton appears as a humanoid with 6 arms: 2 large human arms with 6 fingers,\n",
+                "and 4 tentacles below tipped with sharp claws.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHIJKNP large 0",
+            "raw_flags4": "ACEFHIKLNQR ABMNPQR CHIK 0",
+            "raw_flags3": "-8 -8 -8 -4",
+            "vnum": 9007,
+            "raw_flags": "ABFGQT DFJ H 300 0",
+            "race_id": "modron",
+            "raw_flags2": "52 7 35d20+300 20d10+75 4d8+6 slash",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A hexton is here watching over his armies.\n",
+            "keywords": "hexton~\n"
+        },
+        "9008": {
+            "name": "the quinton~\n",
+            "description": [
+                "Quintons look like tall, stocky humanoids with 4 flexible arms jutting from the\n",
+                "shoulders.  A prehensile tail serves as the creature's 5th arm, and they have\n",
+                "fan-like wings attached to their shoulders.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHIJKNPQ large 0",
+            "raw_flags4": "AKMOQR ABMNPQR HIK 0",
+            "raw_flags3": "-7 -8 -6 -8",
+            "vnum": 9008,
+            "raw_flags": "ABFGQ DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "56 6 10d100+150 20d12+100 4d8+7 beating",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A quinton is here keeping records.\n",
+            "keywords": "quinton~\n"
+        },
+        "9009": {
+            "name": "the tertian~\n",
+            "description": [
+                "Tertians look very human, save for their 12 foot size, the horns jutting from\n",
+                "the sides of their bald heads, and the long prehensile tail ending in a mace-\n",
+                "like ball.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHIJKW huge 0",
+            "raw_flags4": "CEFQR ABMNPQR CHIK 0",
+            "raw_flags3": "-11 -13 -10 -9",
+            "vnum": 9009,
+            "raw_flags": "ABFGQRT DJ 0 300 0",
+            "race_id": "modron",
+            "raw_flags2": "66 12 1d1+999 20d20+50 8d6+12 pound",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A tertian is here administering the law.\n",
+            "keywords": "tertian~\n"
+        },
+        "9010": {
+            "name": "secundus~\n",
+            "description": [
+                "The secundi is an incredibly thin, tall humanoids with long, narrow faces\n",
+                "and deepset eyes. It radiates intense power.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHIJK huge 0",
+            "raw_flags4": "EFHIKNQR ABHIKMNPQR CHIK 0",
+            "raw_flags3": "-11 -14 -11 -12",
+            "vnum": 9010,
+            "raw_flags": "ABFGQRT DFJ H 0 0",
+            "race_id": "modron",
+            "raw_flags2": "71 15 1d1+1599 40d20+50 7d8+15 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A Secundus, one of the Viceroys of Nirvana, is here.\n",
+            "keywords": "secundus~\n"
+        },
+        "9011": {
+            "name": "Primus~\n",
+            "description": [
+                "Primus is a huge being who rises out of the energy pool and glares at you with\n",
+                "violet eyes. His right hand is wreathed in darkness, his left in light, and\n",
+                "he looks very displeased to see you.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "HM ABCGHIJK giant 0",
+            "raw_flags4": "AHQR ABHIKMNPQRS CHIK 0",
+            "raw_flags3": "-15 -15 -15 -15",
+            "vnum": 9011,
+            "raw_flags": "ABFGQRT DFJ H 0 0",
+            "race_id": "modron",
+            "raw_flags2": "80 20 1d1+3999 1d1+3999 6d10+25 wrath",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Primus, ruler of the Plane of Nirvana, forms out of an energy pool.\n",
+            "keywords": "Primus~\n"
+        }
+    },
+    "realm_id": 4
+}

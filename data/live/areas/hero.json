@@ -1,0 +1,829 @@
+{
+    "name": "Heroes",
+    "id": "hero",
+    "subroutines": [],
+    "rooms": {
+        "512": {
+            "name": "Hall of Heroes` Warehouse",
+            "description": [
+                "Before you lies a large room with crates and boxes stacked up.  There is",
+                "just enough light to see, and who knows what lurks in the shadows.  The",
+                "only apparent exit is back up the stairs."
+            ],
+            "flags_raw": "0 599048 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "512",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see a doorway to the south.",
+                        ""
+                    ],
+                    "room_id": "513"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A stairway leads up.",
+                        ""
+                    ],
+                    "room_id": "500"
+                }
+            },
+            "extras": {}
+        },
+        "516": {
+            "name": "Under the Hall of Heroes",
+            "description": [
+                "This room is completely dark.  If it wasn`t for your light source, you",
+                "could see nothing.  Eerie noises can be heard, and the shadows seem",
+                "to twist and turn.  Exits lies north and east."
+            ],
+            "flags_raw": "0 598025 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "516",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies to the north.",
+                        ""
+                    ],
+                    "room_id": "515"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies to the east.",
+                        ""
+                    ],
+                    "room_id": "514"
+                }
+            },
+            "extras": {}
+        },
+        "515": {
+            "name": "Under the Hall of Heroes",
+            "description": [
+                "This room is almost pitch black.  Things can barely be seen, but",
+                "there are many sounds.  Shapes twist and turn in the shadows.  Exits",
+                "lie east and south."
+            ],
+            "flags_raw": "0 598025 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "515",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies to the south.",
+                        ""
+                    ],
+                    "room_id": "516"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies to the east.",
+                        ""
+                    ],
+                    "room_id": "513"
+                }
+            },
+            "extras": {}
+        },
+        "505": {
+            "name": "Sparring Grounds, Northwest",
+            "description": [
+                "You are standing on the northwestern corner of the sparring grounds.  Screams",
+                "of battle can be heard from the rest of the grounds.  The smell of blood is strong",
+                "here."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "505",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the western sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "508"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "503"
+                }
+            },
+            "extras": {}
+        },
+        "503": {
+            "name": "Sparring Grounds, North",
+            "description": [
+                "You are standing on the northern section of the Sparring Grounds.  You see blood ",
+                "stains and bones on the ground.  Screams of battle can be heard coming from the",
+                "rest of the grounds."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "503",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the center of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "506"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the entrance hall.",
+                        ""
+                    ],
+                    "room_id": "500"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northwestern sparring grounds. ",
+                        ""
+                    ],
+                    "room_id": "505"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northeastern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "504"
+                }
+            },
+            "extras": {}
+        },
+        "501": {
+            "name": "Hall of Heroes` Healing Room",
+            "description": [
+                "Before you lies a large room, with stone walls and a low ceiling.  You see",
+                "your fellow comrades resting and talking amongst themselves. A healer",
+                "wanders around selling spells to the wounded.  The only exit is back west",
+                "where you came from."
+            ],
+            "flags_raw": "0 599048 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "501",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the entrance hall to the west.",
+                        ""
+                    ],
+                    "room_id": "500"
+                }
+            },
+            "extras": {}
+        },
+        "510": {
+            "name": "Sparring Grounds, Southeast",
+            "description": [
+                "You are standing on the southeast corner of the sparring grounds.  You",
+                "see other heroes battling each other.  Screams of war can be heard from",
+                "the rest of the grounds."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "510",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the eastern section of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "507"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southern section of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "509"
+                }
+            },
+            "extras": {}
+        },
+        "500": {
+            "name": "Hall of Heroes",
+            "description": [
+                "You stand in a large entrance hall, with stone walls and an arched ceiling. Before",
+                "you lie wall hangings and tapestries, showing glorious scenes of mortals ",
+                "becoming heroes.  There are wonderful sights and smells almost hypnotizing",
+                "you.  This must be the Hall of Heroes!"
+            ],
+            "flags_raw": "0 599048 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "500",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "To the south you see the Sparring Grounds.",
+                        ""
+                    ],
+                    "room_id": "503"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see a large archway north.",
+                        ""
+                    ],
+                    "room_id": "3170"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see an archway west. ",
+                        ""
+                    ],
+                    "room_id": "502"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see an archway east.",
+                        ""
+                    ],
+                    "room_id": "501"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        "A stairway leads down.",
+                        ""
+                    ],
+                    "room_id": "512"
+                }
+            },
+            "extras": {}
+        },
+        "502": {
+            "name": "Hall of Heroes` Lounge",
+            "description": [
+                "You have entered the Hall of Heroes Lounge.  This place if by far the most",
+                "comfortable! You see you fellow heroes kicking back and having a cold one.",
+                "There is a large couch against the western wall, and a bar to the south.  The ",
+                "bartender says, '{^Sit down and have a drink, pal!{7' The only exit is back east.{0"
+            ],
+            "flags_raw": "0 599048 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "502",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the entrance hall to the east.",
+                        ""
+                    ],
+                    "room_id": "500"
+                }
+            },
+            "extras": {}
+        },
+        "509": {
+            "name": "Sparring Grounds, South",
+            "description": [
+                "You are standing on the southern section of the sparring grounds.  You",
+                "are lucky that you made it here alive.  Ever had the feeling that you`re",
+                "being watched?"
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "509",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the center of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "506"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southwestern corner of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "511"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southeastern corner of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "510"
+                }
+            },
+            "extras": {}
+        },
+        "514": {
+            "name": "Under the Hall of Heroes",
+            "description": [
+                "You stand below the Hall of Heroes.  Voices can barely be heard",
+                "from above.  Darkness covers almost all of the room.  Exits lie",
+                "north and west."
+            ],
+            "flags_raw": "0 598025 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "514",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies to the north.",
+                        ""
+                    ],
+                    "room_id": "513"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies to the west.",
+                        ""
+                    ],
+                    "room_id": "516"
+                },
+                "east": {
+                    "flags_raw": "528",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "518"
+                }
+            },
+            "extras": {}
+        },
+        "504": {
+            "name": "Sparring Grounds, Northeast",
+            "description": [
+                "You are standing on the northeastern corner of the sparring grounds.  Screams",
+                "of battle can be heard from across the grounds.  This looks like the perfect",
+                "place for an ambush..."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "504",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "503"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the eastern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "507"
+                }
+            },
+            "extras": {}
+        },
+        "508": {
+            "name": "Sparring Grounds, West",
+            "description": [
+                "You are standing on the western section of the sparring grounds.  You see",
+                "bones strewn about the ground.  Screams of battle can be heard coming ",
+                "from the rest of the grounds."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "508",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southwest corner of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "511"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northwest corner of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "505"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the center of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "506"
+                }
+            },
+            "extras": {}
+        },
+        "517": {
+            "name": "Westbridge Pawn Shop Refund Center",
+            "description": [
+                "You enter a small room off of the pawn shop.  You see this room is",
+                "very small, and very tight.  The only thing in here is a counter, with",
+                "a small dwarf behind it, waiting for you to speak.  "
+            ],
+            "flags_raw": "0 0 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "517",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "3170"
+                }
+            },
+            "extras": {}
+        },
+        "511": {
+            "name": "Sparring Grounds, Southwest",
+            "description": [
+                "You are standing on the southwestern corner of the sparring grounds.  Bones",
+                "and blood stains clutter the ground.  You can hear screams of battle from the",
+                "rest of the grounds."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "511",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the western sparring grounds. ",
+                        ""
+                    ],
+                    "room_id": "508"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "509"
+                }
+            },
+            "extras": {}
+        },
+        "507": {
+            "name": "Sparring Grounds, East",
+            "description": [
+                "You are standing on the eastern section of the sparring grounds.  The smell ",
+                "of blood is strong here.  Screams of battle can be heard from the rest of the",
+                "grounds."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "507",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northeast corner of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "504"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the center of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "506"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southeast cornern of the sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "510"
+                }
+            },
+            "extras": {}
+        },
+        "513": {
+            "name": "Under the Hall of Heroes",
+            "description": [
+                "You stand in a room below the Hall of Heroes.  There is very little light,",
+                "and there are crates stcked all over.  The shadows look deep in one ",
+                "corner, who knows what could be lurking in them."
+            ],
+            "flags_raw": "0 598025 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "513",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see a doorway to the north.",
+                        ""
+                    ],
+                    "room_id": "512"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "Darkness lies the the west.",
+                        ""
+                    ],
+                    "room_id": "515"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see darkness to the south.",
+                        ""
+                    ],
+                    "room_id": "514"
+                }
+            },
+            "extras": {}
+        },
+        "506": {
+            "name": "Center of the Sparring Grounds",
+            "description": [
+                "You are standing in the very center of the sparring grounds.  You see your fellow ",
+                "heroes fighting each other, and others trying to hide.  Screams of battle can be",
+                "heard from all directions."
+            ],
+            "flags_raw": "0 598016 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "506",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the southern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "509"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the northern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "503"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the western sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "508"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see the eastern sparring grounds.",
+                        ""
+                    ],
+                    "room_id": "507"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "hero",
+    "area_quest_points": 0,
+    "credits": "[01 GR HR] The Hall Of Heroes",
+    "faction_id": "",
+    "vnums": [
+        500,
+        549
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "500": {
+            "name": "Spitshine~\n",
+            "description": [
+                "You see a man of average height, in his late forties.  He looks at you and smiles,  \n",
+                "and asks what he can get you.  Might just want to get something bottled, after\n",
+                "all, they don`t call him Spitshine for nothing.\n"
+            ],
+            "raw_flags5": "stand stand male 200",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "CEFJ ABCD 0 0",
+            "raw_flags3": "-15 -15 -15 -5",
+            "vnum": 500,
+            "raw_flags": "ABTV DF E 1000 500",
+            "race_id": "human",
+            "raw_flags2": "50 0 16d24+835 15d18+534 7d7+31 punch",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Spitshine the bartender is here, cleaning his shotglasses.\n",
+            "keywords": "Spitshine the Bartender~\n"
+        },
+        "501": {
+            "name": "the Healer~\n",
+            "description": [
+                "Before you stands an old man, in his seventies.  He is the Heroes`\n",
+                "Healer, once a great mortal.  Type 'heal' to get a list of spells that he\n",
+                "offers.  \n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 AB 0 0",
+            "raw_flags3": "-4 -4 -4 -3",
+            "vnum": 501,
+            "raw_flags": "Aa 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "0 0 1d1+20000 1d1+20000 7d16+300 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The Heroes` Healer is here, selling spells.\n",
+            "keywords": "Heroes' Healer~\n"
+        },
+        "502": {
+            "name": "The Combat Master~\n",
+            "description": [
+                "You see a gigantic human here, in his mid thirties.  He appears to be well\n",
+                "trained in all forms of combat, so you should think twice before you piss\n",
+                "him off.\n"
+            ],
+            "raw_flags5": "stand stand male 70",
+            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
+            "raw_flags4": "ADEFHI IJL C G",
+            "raw_flags3": "-60 -60 -60 -50",
+            "vnum": 502,
+            "raw_flags": "AGTW DV EO -1000 500",
+            "race_id": "human",
+            "raw_flags2": "107 20 1d1+24999 1d1+9999 10d15+69 crush",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A large warrior stands here, looking for a fight.\n",
+            "keywords": "The Combat Master~\n"
+        },
+        "503": {
+            "name": "the Mercenary~\n",
+            "description": [
+                "You see a large man in his late thirties.  He looks like he`s been a\n",
+                "mercenary for a while, so you shouldn`t take him on alone.  \n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "raw_flags4": "0 0 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 503,
+            "raw_flags": "AB 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "107 200 1d1+24999 1d1+9000 10d13+70 pierce",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A large hooded figure stands here.\n",
+            "keywords": "the master mercenary~\n"
+        },
+        "504": {
+            "name": "the warehouse keeper~\n",
+            "description": [
+                "You see a medium sized man, in his late fourties.  He eyes you\n",
+                "cautiously, and hopes you try something funny.  He doesn`t look like he\n",
+                "approves of shoplifters.  \n"
+            ],
+            "raw_flags5": "stand stand none 900000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "raw_flags4": "0 ABCDLQ 0 0",
+            "raw_flags3": "0 0 0 0",
+            "vnum": 504,
+            "raw_flags": "A 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "0 0 1d1+30000 0d0+0 0d0+0 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The Warehouse Keeper stands here, taking inventory.\n",
+            "keywords": "warehouse keeper~\n"
+        },
+        "505": {
+            "name": "a stone harpy~\n",
+            "description": [
+                "A fearsome creature to behold, the stone harpy is designed for two\n",
+                "things only - to protect an area, and to destroy its foes.  This one\n",
+                "appears equipped to do so.  \n"
+            ],
+            "raw_flags5": "stand stand none 100000",
+            "raw_flags6": "AHMV ABCDEFGHIJK giant stone",
+            "raw_flags4": "ABCEFHIJKN AB DFGHJMNOPQRSTXYZ EGIKRT",
+            "raw_flags3": "-80 -80 -80 -80",
+            "vnum": 505,
+            "raw_flags": "ABFRT DFTVac CDEHNOR 0 0",
+            "race_id": "titan",
+            "raw_flags2": "130 2500 15000d1+20000 100d100+1000 40d40+0 claw",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A stone harpy sits here, perched on a {Wm{Da{Wr{Db{Wl{De{x pillar\n",
+            "keywords": "stone harpy marble pillar~\n"
+        },
+        "506": {
+            "name": "a mutated mime~\n",
+            "description": [
+                "A pathetic-looking figure, this creature looks as if it was\n",
+                "formerly a mime.  Now though, it has been twisted into something... \n",
+                "Else.  Gnarled claws end its hands, the skin a dark green color, and\n",
+                "teeth which extend too far past its mouth, this creature looks twisted\n",
+                "- and dangerous.  \n"
+            ],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "CDFIJKN ABKLMQ C HN",
+            "raw_flags3": "50 50 50 50",
+            "vnum": 506,
+            "raw_flags": "ABGPT DFJKV 0 -1000 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "145 2000 15000d1+20000 1000d1000+1000 40d40+40 claw",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "A pathetic figure is curled in the corner, wearing a striped shirt.\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "mutated mime mutant twisted creature pathetic curled~\n"
+        },
+        "517": {
+            "name": "The Refund Dwarf~\n",
+            "description": [],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
+            "raw_flags3": "-4 -4 -4 -4",
+            "vnum": 517,
+            "raw_flags": "AB DEFLZ 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M GIVE 518 ornate brooch~\n",
+                "M GRALL 517 100~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "The Refund Dwarf sits behind his counter, greeting you.\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "refund dwarf~\n"
+        }
+    },
+    "realm_id": 4
+}

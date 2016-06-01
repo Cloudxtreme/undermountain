@@ -1,0 +1,147 @@
+{
+    "name": "Faction Fortress",
+    "id": "facfort",
+    "subroutines": [],
+    "rooms": {
+        "94803": {
+            "name": "Defend Portal Room",
+            "description": [],
+            "flags_raw": "0 67108908 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "94803",
+            "exits": {},
+            "extras": {}
+        },
+        "94804": {
+            "name": "Southern Path",
+            "description": [],
+            "flags_raw": "0 335552544 0 19",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "94804",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "94805"
+                }
+            },
+            "extras": {}
+        },
+        "94801": {
+            "name": "Wrong Room",
+            "description": [
+                "If you found yourself here, something has gone wrong,",
+                "so go ahead and recall away or walk south."
+            ],
+            "flags_raw": "0 67108904 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "94801",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "94800"
+                }
+            },
+            "extras": {}
+        },
+        "94805": {
+            "name": "Southern Path",
+            "description": [],
+            "flags_raw": "0 335552544 0 19",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "94805",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "94806"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "94804"
+                }
+            },
+            "extras": {}
+        },
+        "94800": {
+            "name": "Faction War Entry Point",
+            "description": [],
+            "flags_raw": "0 67108908 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "94800",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "94801"
+                }
+            },
+            "extras": {}
+        },
+        "94802": {
+            "name": "Attack Portal Room",
+            "description": [],
+            "flags_raw": "0 67108908 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "94802",
+            "exits": {},
+            "extras": {}
+        }
+    },
+    "uid": "facfort",
+    "area_quest_points": 0,
+    "credits": "[ CLOSED ] Faction Fortress Template",
+    "faction_id": "",
+    "vnums": [
+        94800,
+        94899
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "zone_id": 0,
+    "security": 6,
+    "mobiles": {
+        "94800": {
+            "name": "{8High Officer {1of {8Faction {1W{!ar{0~\n",
+            "description": [],
+            "raw_flags5": "stand stand male 0",
+            "raw_flags6": "0 0 medium unknown",
+            "raw_flags4": "0 CDa 0 0",
+            "raw_flags3": "-10 -10 -10 -10",
+            "vnum": 94800,
+            "raw_flags": "AB 0 0 0 0",
+            "race_id": "human",
+            "raw_form": "AHMV",
+            "raw_flags2": "110 0 100d100+100 100d100+100 100d100+100 slash",
+            "d_flags": "D ~",
+            "subroutines": [
+                "F for AHMV\n",
+                "F par ABCDEFGHIJK\n",
+                "M exall 94800 0~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "{8A tall officer {7suited {8in {8pl{1at{!e{8-{!m{1a{8il {8stands here.{0\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "keywords": "high officer factionwar~\n"
+        }
+    },
+    "realm_id": 0
+}

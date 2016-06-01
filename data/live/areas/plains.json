@@ -1,0 +1,2098 @@
+{
+    "name": "Plains",
+    "id": "plains",
+    "subroutines": [],
+    "rooms": {
+        "315": {
+            "name": "Gallow hill",
+            "description": [
+                "You walk in the grassy plains. On this little hill you can see",
+                "three gallows, with rotting human tissue hanging from the ropes.",
+                "",
+                "   The rotting corpse swinging on one of the ropes seems familiar.",
+                "   There is a sign here."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "315",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south you can see a small path in the plains.",
+                        ""
+                    ],
+                    "room_id": "300"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the north.",
+                        ""
+                    ],
+                    "room_id": "320"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the west.",
+                        ""
+                    ],
+                    "room_id": "318"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "304"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49281"
+                }
+            },
+            "extras": {
+                "corpse funky": {
+                    "description": [
+                        "Though the vultures and parasites have wreaked havoc on this corpse,",
+                        "you can still make out the recognizable features of the legendary",
+                        "Funky.",
+                        ""
+                    ]
+                },
+                "tabor wyatt": {
+                    "description": [
+                        "Nothing is left of this corpse but a few strands of skin still clinging",
+                        "to the rope, and a few scattered bones on the ground.",
+                        ""
+                    ]
+                },
+                "sign": {
+                    "description": [
+                        "The sign says:",
+                        "",
+                        "  Loyal citizens of Midgaard.  These are the earthly remains of the",
+                        "  three heretics 'Tabor', 'Wyatt' and 'Funky' of this world.",
+                        "  Having forged themselves to immortality, they called upon themselves",
+                        "  the anger of the cat walke cat walke implementators.",
+                        "                Let this be a lesson to all .....",
+                        "",
+                        "                                    -- the Powers that Be.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "321": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in the grassy plains. The wind is fairly strong."
+            ],
+            "flags_raw": "0 4 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "321",
+            "exits": {},
+            "extras": {}
+        },
+        "317": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in the grassy plains among the herbs which grow here. The wind is",
+                "strong and rough. Far to the north you can see the foothills and further on",
+                "mountain peaks are visible. City of Westbridge is to the south but so are some",
+                "VERY steep slopes."
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "317",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Some VERY steep slopes prevent you from going this way, it might kill you.",
+                        ""
+                    ],
+                    "room_id": "345"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "304"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the east.",
+                        ""
+                    ],
+                    "room_id": "338"
+                }
+            },
+            "extras": {}
+        },
+        "305": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you watch the",
+                "beautiful landscaping here. To the east and west you see the grassy plains.",
+                "The path extends into small foothills to the north and also continues south."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "305",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues into the small foothills.",
+                        ""
+                    ],
+                    "room_id": "306"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "320"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues towards Westbridge.",
+                        ""
+                    ],
+                    "room_id": "304"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49329"
+                }
+            },
+            "extras": {}
+        },
+        "345": {
+            "name": "Steep slope",
+            "description": [
+                "You try to climb down the slope.",
+                ">",
+                "You slip!",
+                "You fall and tumble.",
+                "You hit your head HARD.",
+                "You die.",
+                "",
+                "You've fallen, and you can't get up!"
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "345",
+            "exits": {},
+            "extras": {}
+        },
+        "333": {
+            "name": "Ancient path",
+            "description": [
+                "You are standing on the ancient path which runs north and south.",
+                "The path is hardly visible here."
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "333",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the ancient path.",
+                        ""
+                    ],
+                    "room_id": "332"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You trace the path carefully and see no immediate dangers.",
+                        ""
+                    ],
+                    "room_id": "334"
+                }
+            },
+            "extras": {}
+        },
+        "328": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The path continues north leading",
+                "to plains and you see the gate of Westbridge to the south."
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "328",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "300"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "3904"
+                }
+            },
+            "extras": {}
+        },
+        "318": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in the beautiful grassy plains. The wind is strong and rough.",
+                "Far to the north you can see the foothills and further on mountain peaks",
+                "are visible."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "318",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the south.",
+                        ""
+                    ],
+                    "room_id": "316"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the north.",
+                        ""
+                    ],
+                    "room_id": "319"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "329"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the east.",
+                        ""
+                    ],
+                    "room_id": "315"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49231"
+                }
+            },
+            "extras": {}
+        },
+        "349": {
+            "name": "A Small Forest",
+            "description": [
+                "The path wanders its way through a small forest between The Shire",
+                "and The Northern Plains.  The Northern Plains are located back east. ",
+                "The Shire and Hilp Village are located to the west.  "
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "349",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "352"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "348"
+                }
+            },
+            "extras": {}
+        },
+        "339": {
+            "name": "Stones of G'harne",
+            "description": [
+                "You are in the center of a 15-foot tall monolith like black stones.",
+                "In the center of the ring formed by the monolith you can't help",
+                "noticing a big sacrifice altar. The ground is covered with dirt, but the",
+                "altar shows no sign of such. West of here is the ancient path."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "339",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the ancient path and the wooden bridge here.",
+                        ""
+                    ],
+                    "room_id": "337"
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a tunnel down there.",
+                        ""
+                    ],
+                    "room_id": "340"
+                }
+            },
+            "extras": {
+                "altar sacrifice": {
+                    "description": [
+                        "You move closer to examine the sacrifice altar of G'harne.",
+                        "The altar is about 3 feet high, 10 feet long and 4 feet wide.",
+                        "It has engraved pictures of death rituals and horrifying worms.",
+                        ""
+                    ]
+                },
+                "stones g'harne monolith": {
+                    "description": [
+                        "The stones of G'harne tower fifteen feet over you.",
+                        "The giant stones are made of a material you haven't seen before.",
+                        "It resembles black marble, but somehow feels different.",
+                        ""
+                    ]
+                },
+                "death rituals worms engraving picture": {
+                    "description": [
+                        "The pictures are depicting evil rituals.",
+                        "You see druids pouring blood over herbs on an altar like this one.",
+                        "There are people calling giant worms into existence with dark spells.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "351": {
+            "name": "A Small Forest",
+            "description": [
+                "The path wanders its way through a small forest between The Shire",
+                "and The Northern Plains.  The Northern Plains are located back east. ",
+                "The Shire and Hilp Village are located to the west.  "
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "351",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "353"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "1109"
+                }
+            },
+            "extras": {}
+        },
+        "342": {
+            "name": "Dark smelly tunnels",
+            "description": [
+                "You are standing in a gloomy tunnel leading east and west.",
+                "The walls are covered with a smelly slime, and small rotting pieces of a",
+                "meat like substance fills the air with an unbearable stench."
+            ],
+            "flags_raw": "0 265 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "342",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The tunnel continues in this direction.",
+                        ""
+                    ],
+                    "room_id": "343"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The tunnel continues in this direction.",
+                        ""
+                    ],
+                    "room_id": "340"
+                }
+            },
+            "extras": {
+                "meat rotting slime substance": {
+                    "description": [
+                        "You try to examine the substance closer, but must refrain from this",
+                        "as all you really want to do is puke.",
+                        "You puke.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "341": {
+            "name": "Dead end of tunnel",
+            "description": [
+                "The tunnel comes to an abrupt end here. It simply looks like it",
+                "hasn't been excavated further.  North of here the tunnel makes a turn east."
+            ],
+            "flags_raw": "0 265 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "341",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "340"
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "21252"
+                }
+            },
+            "extras": {}
+        },
+        "312": {
+            "name": "Path Intersection",
+            "description": [
+                "You are standing on an intersection between 4 paths.  To the west you can",
+                "follow a long, narrow path through the foothills.  To the north a wide path",
+                "leads to the Village of Ofcol and an ancient path leads towards the south. ",
+                "To the east, a small road leads into the woods.  "
+            ],
+            "flags_raw": "0 0 0 11",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "312",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Here is a partially hidden, ancient looking path.",
+                        ""
+                    ],
+                    "room_id": "332"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "5575"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You can see the long narrow path running through the foothills.",
+                        ""
+                    ],
+                    "room_id": "311"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "13800"
+                }
+            },
+            "extras": {}
+        },
+        "322": {
+            "name": "Grassy foothills",
+            "description": [
+                "You walk in the grassy foothills north of the plains. The wind is rough.",
+                "To the north you can see foothills and just behind them mountain peaks",
+                "are visible."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "322",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The small foothills extend into plains far to the south.",
+                        ""
+                    ],
+                    "room_id": "320"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The small foothills extend into foothills far to the north.",
+                        ""
+                    ],
+                    "room_id": "324"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The small foothills extend far to the west.",
+                        ""
+                    ],
+                    "room_id": "330"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "306"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49279"
+                }
+            },
+            "extras": {}
+        },
+        "346": {
+            "name": "Overlooking the Plains",
+            "description": [
+                "Atop the steep hill lies a trail that twists north into a tall",
+                "grassy plain.  The wind blows gently here and overlooks the vast",
+                "plains to the east which surround the northern side of westbridge.  "
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "346",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "32001"
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "323"
+                }
+            },
+            "extras": {}
+        },
+        "324": {
+            "name": "Steep foothills",
+            "description": [
+                "You are walking in the steep foothills. It is rather hard to move here.",
+                "To the north you can see the mountains towering over you.  Pine trees",
+                "grow here."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "324",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The foothills extend downwards to the south. In the horizon you can",
+                        "see the City Of Westbridge.",
+                        ""
+                    ],
+                    "room_id": "322"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues up the mountain.",
+                        ""
+                    ],
+                    "room_id": "901"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The foothills extend far to the west.",
+                        ""
+                    ],
+                    "room_id": "323"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "326"
+                }
+            },
+            "extras": {
+                "pine tree trees pines": {
+                    "description": [
+                        "The all too quiet trees suggest that something roams these woods.",
+                        ""
+                    ]
+                },
+                "mountains": {
+                    "description": [
+                        "The mountains seems dark and all most alive, as they contrast against",
+                        "the sky.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "335": {
+            "name": "Ancient path",
+            "description": [
+                "The path runs north and east from here.  You notice some markers placed",
+                "along the side of the path."
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "335",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the ancient path winding its way north from here. Looks safe.",
+                        ""
+                    ],
+                    "room_id": "334"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Further ahead you see a bridge over a small creak.",
+                        ""
+                    ],
+                    "room_id": "336"
+                }
+            },
+            "extras": {
+                "markers": {
+                    "description": [
+                        "The markers seems like normal stones, but the way they are",
+                        "arranged makes you think there is something special about them.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "309": {
+            "name": "Path in the foothills",
+            "description": [
+                "You are walking on a path situated in foothills.",
+                "To the west you sense a certain freshness and the path continues",
+                "south and east."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "309",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "326"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the path continues in the foothills.",
+                        ""
+                    ],
+                    "room_id": "310"
+                }
+            },
+            "extras": {}
+        },
+        "308": {
+            "name": "Path in the foothills",
+            "description": [
+                "You are walking on a narrow path in the foothills.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The path goes north and west."
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "308",
+            "exits": {},
+            "extras": {}
+        },
+        "306": {
+            "name": "Path in the foothills",
+            "description": [
+                "You are on the path leading through the small foothills.",
+                "The wind blow through your hair as you study the beautiful",
+                "landscaping here. From the north you sense a certain freshness.",
+                "The path continues east and south. You smell freshness from north."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "306",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see grassy plains and perhaps some crystal clear water.",
+                        ""
+                    ],
+                    "room_id": "326"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "322"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path in the plains wind through the small foothills.",
+                        ""
+                    ],
+                    "room_id": "305"
+                }
+            },
+            "extras": {}
+        },
+        "313": {
+            "name": "Road to Ofcol",
+            "description": [
+                "You are walking on a wide road with trail marks on it.  To the north",
+                "you see the village of Ofcol and to the south there is the T intersection.",
+                "You can enter the foothills west.  The foothills to your east are too",
+                "steep to climb."
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "313",
+            "exits": {},
+            "extras": {}
+        },
+        "301": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The path continues east and west."
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "301",
+            "exits": {},
+            "extras": {}
+        },
+        "325": {
+            "name": "Steep foothills",
+            "description": [
+                "You are walking in the steep foothills. It is rather hard to move here.",
+                "Further to the north you can see the mountains towering over you.",
+                "Several pinetrees grow here."
+            ],
+            "flags_raw": "0 4 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "325",
+            "exits": {},
+            "extras": {}
+        },
+        "338": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in the grassy plains among the herbs which grow here. The wind is",
+                "strong and rough. Far to the north you can see the foothills and farther on",
+                "mountain peaks are visible."
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "338",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the west.",
+                        ""
+                    ],
+                    "room_id": "317"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "8855"
+                }
+            },
+            "extras": {}
+        },
+        "352": {
+            "name": "A Small Stream",
+            "description": [
+                "A small stream trickles across the small dirt path in the forest. ",
+                "The crick runs south to north, and have very little water, or at least",
+                "looks like it has very little water.  "
+            ],
+            "flags_raw": "0 0 0 6",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "352",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "350"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "349"
+                }
+            },
+            "extras": {}
+        },
+        "343": {
+            "name": "Dark smelly tunnels",
+            "description": [
+                "You are standing in a small smelly tunnel under the plains.",
+                "The smell is growing stronger to the west, and so is the density of the",
+                "slime and other undeterminable substances ..."
+            ],
+            "flags_raw": "0 256 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "343",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The tunnel seems to extend into some kind of cave.",
+                        ""
+                    ],
+                    "room_id": "344"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The unbearable stench is less intensive in this direction.",
+                        ""
+                    ],
+                    "room_id": "342"
+                }
+            },
+            "extras": {
+                "slime substance": {
+                    "description": [
+                        "BWADR! ...",
+                        ""
+                    ]
+                }
+            }
+        },
+        "334": {
+            "name": "Ancient path",
+            "description": [
+                "You are standing on the ancient path which runs north and south.",
+                "The path is hardly visible here."
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "334",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the ancient path.",
+                        ""
+                    ],
+                    "room_id": "333"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You trace the path carefully and see no immediate dangers.",
+                        ""
+                    ],
+                    "room_id": "335"
+                }
+            },
+            "extras": {}
+        },
+        "330": {
+            "name": "In front of hut in foothills",
+            "description": [
+                "You are standing in the foothills. To the west, well hidden among the small",
+                "foothills and pines, you see a small hut. To the north you can see",
+                "the foothills, and some pine forest. Further on mountain peaks are visible."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "330",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south the foothills extend into plains far to the south.",
+                        ""
+                    ],
+                    "room_id": "319"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The steep foothills seems hard to climb",
+                        ""
+                    ],
+                    "room_id": "323"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a small crumbled hut here, must be a hermit living here.",
+                        ""
+                    ],
+                    "room_id": "331"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The foothills extend far to the east.",
+                        ""
+                    ],
+                    "room_id": "322"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49229"
+                }
+            },
+            "extras": {}
+        },
+        "326": {
+            "name": "Pool in the foothills",
+            "description": [
+                "You are standing by a pool in the small foothills. It is clear and cold.",
+                "A dock extends out over the water to the north."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "326",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south a path winds its way south into the plains.",
+                        ""
+                    ],
+                    "room_id": "306"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see a small dock with a shack in the middle.",
+                        ""
+                    ],
+                    "room_id": "13619"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "324"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "309"
+                }
+            },
+            "extras": {
+                "pool": {
+                    "description": [
+                        "The pool is crystal clear, but as you look into it you notice that",
+                        "you can't see the bottom of it ... it must be pretty deep.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "336": {
+            "name": "Wooden bridge",
+            "description": [
+                "You have stepped upon a wooden bridge. It looks old but safe to cross.",
+                "It is made of a wood you haven't seen before."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "336",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The ancient path leads west and turns north further ahead.",
+                        ""
+                    ],
+                    "room_id": "335"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues, further ahead you notice some rock formations.",
+                        ""
+                    ],
+                    "room_id": "337"
+                }
+            },
+            "extras": {
+                "rock formation formations": {
+                    "description": [
+                        "The rock formations are made of 7 huge, monolith like stones, placed",
+                        "in a symbolic circle.",
+                        "You notice it's possible to enter the ring.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "332": {
+            "name": "Ancient path",
+            "description": [
+                "You are moving on an ancient path. The path is slightly covered with",
+                "leaves and branches.",
+                "To the north you can see the T-crossing and the path continues south."
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "332",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "As you look to the north you see a T-intersection.",
+                        ""
+                    ],
+                    "room_id": "312"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The ancient path continues through the plains.",
+                        ""
+                    ],
+                    "room_id": "333"
+                }
+            },
+            "extras": {}
+        },
+        "347": {
+            "name": "Grassy Plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.  You feel",
+                "the strong winds blow through your hair as you study the beautiful",
+                "landscaping here.  The path continues east, north and west leads to",
+                "plains.  "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "347",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "348"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "329"
+                }
+            },
+            "extras": {}
+        },
+        "327": {
+            "name": "Foothills",
+            "description": [
+                "You are walking in some foothills. It is rather hard to move here.",
+                "Further to the north you can see the mountains towering over you.",
+                "Several pinetrees grow here."
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "327",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the south a steep slope runs down to a small path in the foothills.",
+                        ""
+                    ],
+                    "room_id": "310"
+                }
+            },
+            "extras": {}
+        },
+        "320": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in some grassy plains. The wind is strong and rough. To the",
+                "north you can see the foothills and further on mountain peaks are visible."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "320",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the south.",
+                        ""
+                    ],
+                    "room_id": "315"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend into small foothills to the north.",
+                        ""
+                    ],
+                    "room_id": "322"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the west.",
+                        ""
+                    ],
+                    "room_id": "319"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "305"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49280"
+                }
+            },
+            "extras": {}
+        },
+        "314": {
+            "name": "Outside Ofcol",
+            "description": [
+                "You are standing outside the village of Ofcol.",
+                "The village looks very small, but still a nice and safe place to stay.",
+                "You may enter the city to the north or journey towards the",
+                "T-intersection in the southern direction."
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "314",
+            "exits": {},
+            "extras": {}
+        },
+        "310": {
+            "name": "Path in the foothills",
+            "description": [
+                "You are walking on a long path in the east-west direction.",
+                "The surroundings are green, vegetated foothills.",
+                "You are able to force your way through some dense plants to the north."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "310",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You can't really see much through the vegetation on the foothills.",
+                        ""
+                    ],
+                    "room_id": "327"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You just see the path through the foothills.",
+                        ""
+                    ],
+                    "room_id": "309"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east you notice that the path continues towards a T-intersection.",
+                        ""
+                    ],
+                    "room_id": "311"
+                }
+            },
+            "extras": {}
+        },
+        "300": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The path continues east, north",
+                "and west leads to plains and you see the path towards the north",
+                "gate of Westbridge to the south."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "300",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "328"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the grassy plains.",
+                        ""
+                    ],
+                    "room_id": "315"
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You see the grassy plains.",
+                        ""
+                    ],
+                    "room_id": "316"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "303"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49282"
+                }
+            },
+            "extras": {}
+        },
+        "316": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in the grassy plains among the herbs that grow here. The wind is",
+                "strong and rough. Far to the north you can see the foothills and further on",
+                "mountain peaks are visible."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "316",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the north.",
+                        ""
+                    ],
+                    "room_id": "318"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "When you look to the east you notice at small path.",
+                        ""
+                    ],
+                    "room_id": "300"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49232"
+                }
+            },
+            "extras": {}
+        },
+        "348": {
+            "name": "Western Hills",
+            "description": [
+                "A few large hills rise up, looking down on a small forest to the",
+                "west, and the much larger Northern Shire Forest to the north.  A path",
+                "runs over one hill down to the small forest to the west, coming from",
+                "the Northern Plains to the east.  "
+            ],
+            "flags_raw": "0 0 0 4",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "348",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "349"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "347"
+                }
+            },
+            "extras": {}
+        },
+        "307": {
+            "name": "Path in the foothills",
+            "description": [
+                "You are walking on a path situated in the small foothills.",
+                "The winds are more than average here but it feels nice. You can follow",
+                "the path east or west."
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "307",
+            "exits": {},
+            "extras": {}
+        },
+        "319": {
+            "name": "Grassy plains",
+            "description": [
+                "You walk in the grassy plains among the herbs which grow here. The wind is",
+                "strong and rough. To the north you can see the foothills and just behind",
+                "mountain peaks are visible."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "319",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the south.",
+                        ""
+                    ],
+                    "room_id": "318"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the north, the plains extend into small foothills, behind a small hill",
+                        "you notice something ...",
+                        ""
+                    ],
+                    "room_id": "330"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "21061"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The plains extend far to the east.",
+                        ""
+                    ],
+                    "room_id": "320"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49230"
+                }
+            },
+            "extras": {}
+        },
+        "344": {
+            "name": "Hall of G'harne",
+            "description": [
+                "You stand in the hall of G'harne. The walls are dressed with strange",
+                "carvings, symbolizing human sacrifice and people worshipping giant worms.",
+                "Disgusting slime and gore are also very dominant in your view of this room."
+            ],
+            "flags_raw": "0 265 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "344",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "It looks like a good idea just to run in this direction.",
+                        ""
+                    ],
+                    "room_id": "343"
+                }
+            },
+            "extras": {
+                "slime gore": {
+                    "description": [
+                        "You puke.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "304": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The Path leads north and south."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "304",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path leads south towards the town.",
+                        ""
+                    ],
+                    "room_id": "303"
+                },
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The path continues north as small foothills begins to appear.",
+                        ""
+                    ],
+                    "room_id": "305"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "315"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "317"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49330"
+                }
+            },
+            "extras": {}
+        },
+        "311": {
+            "name": "Path in the foothills",
+            "description": [
+                "You are walking on the long, narrow path through the foothills.",
+                "To your east you see a T-intersection and to the west the path",
+                "continues far."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "311",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You can see the long path through the plains.",
+                        ""
+                    ],
+                    "room_id": "310"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You can go to the T-intersection this way.",
+                        ""
+                    ],
+                    "room_id": "312"
+                }
+            },
+            "extras": {}
+        },
+        "337": {
+            "name": "Ancient path",
+            "description": [
+                "You find yourself located between the bridge and the rock formations.",
+                "As you approach the formations you begin to realize the true size of",
+                "them, about 15 feet tall and almost perfect rectangular shape.",
+                "You feel impressed with the awesome sight."
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "337",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the west the ancient path leads across the wooden bridge.",
+                        ""
+                    ],
+                    "room_id": "336"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "To the east you enter the ring of stones. You wonder if it's safe.",
+                        ""
+                    ],
+                    "room_id": "339"
+                }
+            },
+            "extras": {
+                "rock formation formations": {
+                    "description": [
+                        "The rock formations are made of seven huge monolith placed in a circle.",
+                        "You notice it's possible to enter the ring.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "302": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The path continues north and west."
+            ],
+            "flags_raw": "0 4 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "302",
+            "exits": {},
+            "extras": {}
+        },
+        "329": {
+            "name": "Grassy Plains",
+            "description": [
+                "The Grassy Plain continues to the west towards large forests and a",
+                "few hills.  The path continues over the hills to whatever lies beyond",
+                "it.  The path leads back east to the Northern Plains, and Westbridge. "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "329",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "347"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "318"
+                }
+            },
+            "extras": {}
+        },
+        "340": {
+            "name": "Dark smelly tunnels",
+            "description": [
+                "You are standing in a gloomy tunnel leading south and west, right under",
+                "the altar of G'harne.  The walls are covered with a smelly slime, and small",
+                "rotting pieces of a meat like substance fills the air with an unbearable",
+                "stench.  You might be able to force your way up into fresh air from here."
+            ],
+            "flags_raw": "0 265 0 20",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "340",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "342"
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "341"
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You welcome the sight of fresh air.",
+                        ""
+                    ],
+                    "room_id": "339"
+                }
+            },
+            "extras": {
+                "meat rotting slime substance": {
+                    "description": [
+                        "You try to examine the substance closer, but must refrain from this",
+                        "as all you really want to do is puke.",
+                        "You puke.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "323": {
+            "name": "Steep foothills",
+            "description": [
+                "You walk in the steep foothills.  It is rather hard to move here. ",
+                "To the north you can see a grassy valley with wildflowers.  A rather",
+                "large hill looms directly to the west with a pretty steep climb.  "
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "323",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "On the horizon you can see the City of Westbridge.",
+                        ""
+                    ],
+                    "room_id": "330"
+                },
+                "north": {
+                    "flags_raw": "0",
+                    "description": [
+                        "You see a path toward the valley.",
+                        ""
+                    ],
+                    "room_id": "7800"
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "The foothills extend far to the east.",
+                        ""
+                    ],
+                    "room_id": "324"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "346"
+                }
+            },
+            "extras": {}
+        },
+        "303": {
+            "name": "Path in the plains",
+            "description": [
+                "You are walking on a path situated in the rough plains.",
+                "You feel the strong winds blow through your hair as you study",
+                "the beautiful landscaping here. The path leads north and south.",
+                "To the east and the west you have the grassy plains."
+            ],
+            "flags_raw": "0 0 0 2",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "303",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "You notice nothing special, except that the path in the plains continues.",
+                        ""
+                    ],
+                    "room_id": "304"
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "300"
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "49331"
+                }
+            },
+            "extras": {}
+        },
+        "331": {
+            "name": "Smokey's hut",
+            "description": [
+                "You are inside Smokey's hut. It is rather old, but serves it purpose.",
+                "The walls are covered with jars, and all kinds of weird stuff. Large",
+                "green plants grow all over the room. You feel like you're in heaven.",
+                "It keeps its habitant from the rough winds and dangerous beasts of the",
+                "plains and foothills. There is a small fireplace here."
+            ],
+            "flags_raw": "0 67108872 0 0",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "331",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "description": [
+                        "Through the door you can see the foothills.",
+                        ""
+                    ],
+                    "room_id": "330"
+                }
+            },
+            "extras": {
+                "fireplace": {
+                    "description": [
+                        "The hermit cooks here.",
+                        ""
+                    ]
+                }
+            }
+        },
+        "350": {
+            "name": "A Small Forest",
+            "description": [
+                "The path wanders its way through a small forest between The Shire",
+                "and The Northern Plains.  The Northern Plains are located back east. ",
+                "The Shire and Hilp Village are located to the west.  "
+            ],
+            "flags_raw": "0 0 0 3",
+            "wanted_area_vnum": "",
+            "flags2_raw": "0",
+            "vnum": "350",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "353"
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "description": [
+                        ""
+                    ],
+                    "room_id": "352"
+                }
+            },
+            "extras": {}
+        }
+    },
+    "uid": "plains",
+    "area_quest_points": 0,
+    "credits": "[01 GR 04] Westbridge Northern Plains",
+    "faction_id": "",
+    "vnums": [
+        300,
+        399
+    ],
+    "recall_room_id": 3001,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "304": {
+            "name": "the citizen~\n",
+            "description": [
+                "She seems like a nice person with no interest in harming you or others.\n",
+                "She wears a minimum of clothing and has big ... eyes.\n"
+            ],
+            "raw_flags5": "stand stand female 5",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "5 5 5 9",
+            "vnum": 304,
+            "raw_flags": "ACG 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "10 0 2d6+60 2d9+100 1d6+1 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "There is a citizen of Ofcol here glaring at you ... stranger!\n",
+            "keywords": "oldstyle citizen~\n"
+        },
+        "305": {
+            "name": "Shudde-M'ell~\n",
+            "description": [
+                "Shudde-M'ell is about 15 ft long and is surrounded by an evil stench,\n",
+                "The worm is the protector of the treasure of G'harne and has been so\n",
+                "for as long anyone can remember.\n"
+            ],
+            "raw_flags5": "stand stand male 683",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 305,
+            "raw_flags": "ABF D 0 -1000 0",
+            "race_id": "human",
+            "raw_flags2": "48 0 5d10+500 12d9+100 2d10+6 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Shudde-M'ell the Giant worm of G'harne is guarding his treasure.\n",
+            "keywords": "oldstyle worm Shudde-M'ell~\n"
+        },
+        "306": {
+            "name": "Luxan~\n",
+            "description": [
+                "Luxan is dressed in a strange jacket.\n",
+                "He looks like a mean trader from the outskirts of Westbridge.\n",
+                "His life is seems to be totally occupied with trading.\n",
+                "He looks very fit and capable of protecting his goods.\n"
+            ],
+            "raw_flags5": "stand stand male 400",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 306,
+            "raw_flags": "ABC 0 0 400 0",
+            "race_id": "human",
+            "raw_flags2": "45 0 5d10+450 11d9+100 3d6+6 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Luxan the Shopkeeper is here, eager to sell you anything.\n",
+            "keywords": "oldstyle luxan shopkeeper~\n"
+        },
+        "308": {
+            "name": "the Innkeeper~\n",
+            "description": [
+                "The Innkeeper looks skilled in brewing different beers and mixing the\n",
+                "wierdest drinks known. He also looks very big.\n"
+            ],
+            "raw_flags5": "stand stand male 5",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 308,
+            "raw_flags": "AB 0 0 -100 0",
+            "race_id": "human",
+            "raw_flags2": "45 0 5d10+450 11d9+100 3d6+6 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "An Innkeeper is here waiting for your order.\n",
+            "keywords": "oldstyle keeper innkeeper~\n"
+        },
+        "309": {
+            "name": "the cute rabbit~\n",
+            "description": [
+                "It is a small, furry creature with long ears and big feet.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AGV ACDEFHJK medium 0",
+            "raw_flags4": "EFHNR 0 0 0",
+            "raw_flags3": "9 9 9 10",
+            "vnum": 309,
+            "raw_flags": "AG 0 0 0 0",
+            "race_id": "rabbit",
+            "raw_flags2": "1 0 2d6+10 0d9+100 1d4+0 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A cute rabbit is here.\n",
+            "keywords": "oldstyle rabbit~\n"
+        },
+        "300": {
+            "name": "Aruncus the Druid~\n",
+            "description": [
+                "Aruncus is a tall, skinny druid with a face marked by nature.\n",
+                "He seems to be in peace with himself and his surroundings.\n"
+            ],
+            "raw_flags5": "stand stand male 25",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-1 -1 -1 8",
+            "vnum": 300,
+            "raw_flags": "AGH D 0 -500 0",
+            "race_id": "human",
+            "raw_flags2": "25 0 2d10+170 6d9+100 2d5+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Aruncus the Druid is walking around here, searching for herbs.\n",
+            "keywords": "oldstyle druid Aruncus~\n"
+        },
+        "301": {
+            "name": "Smokey JR~\n",
+            "description": [
+                "Smokey has everything you need. He looks totaly wated and\n",
+                "smells of ref. He sits in the middle of the room, smoken\n",
+                "another one, waiting for his rabbit to be done cooking.\n"
+            ],
+            "raw_flags5": "sit sit male 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "6 6 6 9",
+            "vnum": 301,
+            "raw_flags": "AB 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
+            "d_flags": "D ~",
+            "subroutines": [
+                "M GIVE 330 bundletorrquest~\n",
+                "M GIVE 331 drugdealershipring~\n"
+            ],
+            "t_flags": "T ~",
+            "room_name": "Smokey JR stands here, doing his thing.\n",
+            "keywords": "Smokey~\n"
+        },
+        "350": {
+            "name": "the pet dragon~\n",
+            "description": [
+                "Ravan's pet dragon is about 3 ft. tall with small pointy teeth.\n",
+                "The small wings are eagerly trying to lift her from the ground,\n",
+                "but so far they haven't succeeded.\n"
+            ],
+            "raw_flags5": "stand stand female 0",
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "raw_flags4": "FR 0 BEH FI",
+            "raw_flags3": "2 2 2 6",
+            "vnum": 350,
+            "raw_flags": "ABHR DJT H 1000 0",
+            "race_id": "dragon",
+            "raw_flags2": "20 0 2d6+110 10d9+100 1d8+1 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Ravan's pet dragon is bouncing around here flapping her cute wings.\n",
+            "keywords": "oldstyle dragon pet~\n"
+        },
+        "303": {
+            "name": "the citizen~\n",
+            "description": [
+                "He seems like a nice person with no interest in harming you or others.\n",
+                "He wears normal, light clothing and has an anonymous face.\n"
+            ],
+            "raw_flags5": "stand stand male 10",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "4 4 4 9",
+            "vnum": 303,
+            "raw_flags": "ACG 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "12 0 2d7+71 3d9+100 1d7+1 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "There is a citizen of Ofcol here glaring at you ... stranger!\n",
+            "keywords": "oldstyle citizen~\n"
+        }
+    },
+    "realm_id": 4
+}

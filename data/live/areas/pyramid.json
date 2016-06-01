@@ -1,0 +1,354 @@
+{
+    "name": "Pyramid",
+    "id": "pyramid",
+    "subroutines": [],
+    "rooms": {},
+    "uid": "pyramid",
+    "area_quest_points": 0,
+    "credits": "[10 GR HR] The Great Pyramid",
+    "faction_id": "",
+    "vnums": [
+        8700,
+        8799
+    ],
+    "recall_room_id": 5350,
+    "objects": {},
+    "security": 10,
+    "mobiles": {
+        "8704": {
+            "name": "A tomb thief~\n",
+            "description": [
+                "The thief brushes against you briefly, then slinks back into the shadows.\n"
+            ],
+            "raw_flags5": "stand stand male 25",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "BEFJNU 0 0 0",
+            "raw_flags3": "2 2 2 8",
+            "vnum": 8704,
+            "raw_flags": "AGHS DFP 0 -250 0",
+            "race_id": "human",
+            "raw_flags2": "19 0 2d6+110 5d9+100 1d8+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A sneaky tomb thief moves about in search of treasure.\n",
+            "keywords": "oldstyle thief tomb~\n"
+        },
+        "8705": {
+            "name": "Ali Baba~\n",
+            "description": [
+                "You see a tall, full-bearded man with a mischevious glint in his eye.  Ali Baba\n",
+                "has made his life from stealing things from others, including many items stolen\n",
+                "recently from under the nose of the hapless guardians of this pyramid.  Someday\n",
+                "he might get caught, but not today...\n"
+            ],
+            "raw_flags5": "stand stand male 50",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "BEFJNU 0 0 0",
+            "raw_flags3": "-3 -3 -3 6",
+            "vnum": 8705,
+            "raw_flags": "ACGS DFP 0 -300 0",
+            "race_id": "human",
+            "raw_flags2": "35 0 3d9+258 9d9+100 3d4+4 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "Ali Baba is here, hunting for the pharoah's tomb.\n",
+            "keywords": "oldstyle ali baba thief~\n"
+        },
+        "8706": {
+            "name": "The magic carpet~\n",
+            "description": [
+                "The carpet is simply beautiful, made from intricately woven silken material.  \n",
+                "It seems to rise up at the touch of your feet.  Wait, it is rising, a few feet\n",
+                "above the ground!  In fact, it seems to be ALIVE!\n"
+            ],
+            "raw_flags5": "stand stand none 12",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "2 2 2 8",
+            "vnum": 8706,
+            "raw_flags": "AB DJ 0 500 0",
+            "race_id": "human",
+            "raw_flags2": "17 0 2d6+110 4d9+100 1d8+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small woven carpet lies under your feet.\n",
+            "keywords": "oldstyle magic carpet~\n"
+        },
+        "8707": {
+            "name": "A mummy~\n",
+            "description": [
+                "You only see the disfigured, rotting features of decaying human flesh,\n",
+                "animated by the distempered spirit of a long-deceased person.\n"
+            ],
+            "raw_flags5": "stand stand none 37",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "0 0 0 8",
+            "vnum": 8707,
+            "raw_flags": "AG J 0 -600 0",
+            "race_id": "human",
+            "raw_flags2": "23 0 2d10+150 6d9+100 1d10+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A mummy reaches for you, disturbed by your presence.\n",
+            "keywords": "oldstyle mummy corpse~\n"
+        },
+        "8708": {
+            "name": "A sandman~\n",
+            "description": [
+                "The sandman is exactly that -- some sort of strange being formed from the sands\n",
+                "of the desert floor.  It seems quite large and strong and at home in the heat\n",
+                "and sandy winds.\n"
+            ],
+            "raw_flags5": "stand stand male 75",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-1 -1 -1 8",
+            "vnum": 8708,
+            "raw_flags": "AG J 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "28 0 2d10+190 7d9+100 1d12+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A sandman rises up from the desert floor.\n",
+            "keywords": "oldstyle sand man sandman~\n"
+        },
+        "8709": {
+            "name": "The efreeti~\n",
+            "description": [
+                "The efreeti is a mighty being formed from living fire.  He gazes down at you \n",
+                "with disdain and scorn, arms folded across his mighty chest.\n"
+            ],
+            "raw_flags5": "stand stand male 550",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-4 -4 -4 7",
+            "vnum": 8709,
+            "raw_flags": "ABFMN DJ 0 -600 0",
+            "race_id": "human",
+            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The efreeti stands here, sheathed in a column of fire.\n",
+            "keywords": "oldstyle efreeti efreet~\n"
+        },
+        "8710": {
+            "name": "A caryatid~\n",
+            "description": [
+                "The column has been carved into a set of four shapely women, each facing\n",
+                "outward into the room.  The sandstone of the caryatid is smooth with age,\n",
+                "but you can still make out a deadly stone sword in the hands of each figure.\n"
+            ],
+            "raw_flags5": "stand stand female 1750",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-6 -6 -6 6",
+            "vnum": 8710,
+            "raw_flags": "AB J 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "47 0 5d10+500 12d9+100 2d10+6 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A sandstone column stands here, carved into a feminine figure.\n",
+            "keywords": "oldstyle caryatid column~\n"
+        },
+        "8711": {
+            "name": "The djinn~\n",
+            "description": [
+                "The djinn is a mighty being formed from the air itself and frequently\n",
+                "imprisoned in a small lamp, used to do the bidding of those who find him.\n",
+                "He smiles down at you congenially, arms folded across his blue-tinged \n",
+                "skin, and strokes his goatee.\n"
+            ],
+            "raw_flags5": "stand stand male 3000",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "FU 0 0 0",
+            "raw_flags3": "-8 -8 -8 1",
+            "vnum": 8711,
+            "raw_flags": "ABR J 0 600 0",
+            "race_id": "human",
+            "raw_flags2": "56 0 5d10+650 28d9+100 2d10+7 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The djinn issues forth from the confines of a small lamp.\n",
+            "keywords": "oldstyle djinn genie~\n"
+        },
+        "8712": {
+            "name": "A hieracosphinx~\n",
+            "description": [
+                "The hieracosphinx are cunning, small, but nasty creatures, having the heads\n",
+                "of birds, mighty wingspans, and a full set of four paws to rend their victims\n",
+                "to pieces.  They tend to be quite jealous of the sharper wits of their older\n",
+                "cousins.\n"
+            ],
+            "raw_flags5": "stand stand none 375",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "-2 -2 -2 7",
+            "vnum": 8712,
+            "raw_flags": "AFG J 0 -200 0",
+            "race_id": "human",
+            "raw_flags2": "30 0 3d9+208 7d9+100 2d6+3 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A hieracosphinx looks at you cunningly.\n",
+            "keywords": "oldstyle hieracosphinx sphinx~\n"
+        },
+        "8713": {
+            "name": "A gynosphinx~\n",
+            "description": [
+                "The gynosphinx is a crafty but gentle creature, having the body of a\n",
+                "beautiful dark-skinned woman from the waist up, a feathery set of wings\n",
+                "and the hind legs of a mighty cat.  Right now she is confused, having \n",
+                "just heard a puzzling riddle from a cousin criosphinx.\n"
+            ],
+            "raw_flags5": "stand stand female 500",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EIKU 0 0 0",
+            "raw_flags3": "-4 -4 -4 6",
+            "vnum": 8713,
+            "raw_flags": "ABQ D 0 100 0",
+            "race_id": "human",
+            "raw_flags2": "37 0 3d9+308 19d9+100 3d4+5 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A gynosphinx sits here, befuddled by a riddle.\n",
+            "keywords": "oldstyle gynosphinx sphinx~\n"
+        },
+        "8714": {
+            "name": "A criosphinx~\n",
+            "description": [
+                "The criosphinx is a calm and friendly creature, having the head of a ram atop\n",
+                "the body of a well-furred feline with eagle-like wings.  He delights in riddles,\n",
+                "and in poking occasional fun at his easily confused lesser cousins.\n"
+            ],
+            "raw_flags5": "stand stand male 1250",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EIKU 0 0 0",
+            "raw_flags3": "-6 -6 -6 5",
+            "vnum": 8714,
+            "raw_flags": "ABQ D 0 300 0",
+            "race_id": "human",
+            "raw_flags2": "46 0 5d10+450 23d9+100 4d4+6 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A criosphinx calmly watches you.\n",
+            "keywords": "oldstyle criosphinx sphinx~\n"
+        },
+        "8715": {
+            "name": "An androsphinx~\n",
+            "description": [
+                "The mighty androsphinx is a huge creature, with the body of a lion whose\n",
+                "face  is quite man-like, perhaps even handsome, and a massive pair of feathered\n",
+                "wings.  Tales are told of pharoahs that were rendered permanently deaf by the \n",
+                "mighty roar of this sphinx.\n"
+            ],
+            "raw_flags5": "stand stand none 2500",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EIKU 0 0 0",
+            "raw_flags3": "-8 -8 -8 4",
+            "vnum": 8715,
+            "raw_flags": "ABQ D 0 400 0",
+            "race_id": "human",
+            "raw_flags2": "54 0 5d10+650 27d9+100 2d10+7 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A mighty androsphinx tosses its lion-like mane.\n",
+            "keywords": "oldstyle androsphinx sphinx~\n"
+        },
+        "8700": {
+            "name": "A horrible asp~\n",
+            "description": [
+                "The asp is a small, smooth-scaled snake the color of worn pottery.\n",
+                "The poison bite of this snake has felled many a mighty pharoah.\n"
+            ],
+            "raw_flags5": "stand stand none 0",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "5 5 5 9",
+            "vnum": 8700,
+            "raw_flags": "AFG 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "9 0 2d6+60 2d9+100 1d6+1 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small, poisonous asp slithers over your feet.\n",
+            "keywords": "oldstyle asp snake~\n"
+        },
+        "8701": {
+            "name": "A hooded cobra snake~\n",
+            "description": [
+                "The cobra snake waves back and forth before you, its hood displaying brilliant\n",
+                "colors designed to serve notice to its prey that it is about to strike.\n"
+            ],
+            "raw_flags5": "stand stand none 1",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "4 4 4 9",
+            "vnum": 8701,
+            "raw_flags": "AFG 0 0 0 0",
+            "race_id": "human",
+            "raw_flags2": "13 0 2d6+85 3d9+100 1d8+1 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A cobra snake rears up and opens its fearsome hood.\n",
+            "keywords": "oldstyle cobra snake~\n"
+        },
+        "8702": {
+            "name": "A wily little mongoose~\n",
+            "description": [
+                "The mongoose is a wily rodent, a quick hunter of nasty poisonous snakes.\n",
+                "She sniffs you and appears to be looking for food in your hand.\n"
+            ],
+            "raw_flags5": "stand stand female 5",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "1 1 1 8",
+            "vnum": 8702,
+            "raw_flags": "AG J 0 10 0",
+            "race_id": "human",
+            "raw_flags2": "21 0 2d8+134 5d9+100 1d10+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "A small mongoose slinks along the ground, hunting snakes.\n",
+            "keywords": "oldstyle mongoose~\n"
+        },
+        "8703": {
+            "name": "A pyramid watcher~\n",
+            "description": [
+                "The pyramid watcher has made a pledge to destroy any would-be looters of\n",
+                "the tombs of the pharoahs.  He is clad from head to foot in utilitarian\n",
+                "sand-colored clothing.\n"
+            ],
+            "raw_flags5": "stand stand male 10",
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "raw_flags4": "EFNU 0 0 0",
+            "raw_flags3": "3 3 3 9",
+            "vnum": 8703,
+            "raw_flags": "AB 0 0 250 0",
+            "race_id": "human",
+            "raw_flags2": "15 0 2d7+96 4d9+100 1d7+2 none",
+            "d_flags": "D ~",
+            "subroutines": [],
+            "t_flags": "T ~",
+            "room_name": "The pyramid watcher protects the tombs from intruders.\n",
+            "keywords": "oldstyle pyramid watcher~\n"
+        }
+    },
+    "realm_id": 4
+}
