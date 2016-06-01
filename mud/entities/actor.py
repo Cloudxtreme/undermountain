@@ -403,7 +403,6 @@ def walk_command(actor, command, *args, **kwargs):
     actor.event_to_room("exited", event_data, room=current_room)
     actor.event_to_room("entered", event_data, room=target_room)
 
-
 def affects_command(actor, *args, **kwargs):
     effects = actor.get_effects()
 
@@ -645,6 +644,9 @@ class Actor(RoomEntity):
             self.echo("Huh?! (Exception in handler.)")
             self.game.handle_exception(e)
 
+    def force(self, *args, **kwargs):
+        return self.handle_input(*args, **kwargs)
+
     def find_command_handler(self, word):
         command = self.find_command(word)
 
@@ -764,6 +766,9 @@ class Actor(RoomEntity):
 
         from mud.commands.equipment import equipment_command
         commands.append({"keywords": "equipment", "handler": equipment_command})
+
+        from mud.commands.recall import recall_command
+        commands.append({"keywords": "recall", "handler": recall_command})
 
         # Add walking in directions.
         for direction in DIRECTIONS.keys():
