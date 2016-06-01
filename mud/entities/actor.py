@@ -365,6 +365,11 @@ def walk_command(actor, command, *args, **kwargs):
                 actor.echo("The door is closed.")
                 return
 
+    target_room = exit.get_room()
+    if not target_room:
+        actor.echo("That room appears to not exist.")
+        return
+
     event_data = {
         "exit": command
     }
@@ -380,8 +385,6 @@ def walk_command(actor, command, *args, **kwargs):
 
     if exiting_event.is_blocked():
         return
-
-    target_room = exit.get_room()
 
     entering_event = actor.event_to_room(
         "entering",

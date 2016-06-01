@@ -102,6 +102,8 @@ class Mapper(object):
             entry = stack.pop(0)
 
             current_x, current_y, current_room = entry
+            if not current_room:
+                continue
 
             # FIXME use symbols appropriately
             grid[current_y][current_x] = '{C#{x'

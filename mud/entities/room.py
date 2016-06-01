@@ -72,9 +72,10 @@ class Room(GameEntity):
 
         # Area.
         area = self.get_area()
-        area.handle_event(event)
-        if event.is_blocked():
-            return
+        if area:
+            area.handle_event(event)
+            if event.is_blocked():
+                return
 
         # Handle this Room.
         super(Room, self).handle_event(event)

@@ -53,11 +53,15 @@ class RotImporter(object):
         area = {
             "uid": uid,
             "id": uid,
-            "mobiles": [],
-            "objects": [],
+            "mobiles": {},
+            "objects": {},
+            "rooms": {},
             "subroutines": []
         }
         mobile = None
+        room = None
+        exit = None
+        room_extra = None
 
         with open(path, "r") as fh:
             line_index = 0
@@ -68,6 +72,8 @@ class RotImporter(object):
                     if state == "ready_to_start_section":
                         if line.strip() == "":
                             continue
+                        elif line.startswith("#$"):
+                            return area
                         elif line.startswith("#AREADATA"):
                             state = "area_header"
                             continue
@@ -129,17 +135,140 @@ class RotImporter(object):
                         continue
 
                     elif state == "rooms_header":
-                        print("SKIP ROOMS FOR NOW", line)
                         if line.strip() == "#0":
                             state = "ready_to_start_section"
+                        elif line.startswith("#"):
+                            if room:
+                                area["rooms"][room["vnum"]] = room
+                            room = {
+                                "vnum": line.strip("\n#"),
+                                "extras": {},
+                                "exits": {}
+                            }
+                            state = "room_name"
+                        continue
+
+                    elif state == "room_name":
+                        room["name"] = line.strip("\n~")
+                        state = "room_wanted"
+
+# Name.............[Market Square]
+# Area.............[   30] Westbridge
+# SpyVnum..........[    0]
+# Sector...........[cityst]
+# Room flags.......[law]
+# Room 2 flags.....[none]
+# Region...........[none]
+# Health recovery..[100]
+# Mana recovery....[100]
+# Clan.............[0] none
+# Owner............[]
+# Faction..........[]
+# Deed Owner.......[]
+# Business.........[]
+# Renter...........[]
+# Rent Cost........[0]
+# Rent Due.........[0]
+# Property Value...[0]
+# Desc Kwds........[sign]
+# Characters.......[kelemvor westbridgian westbridge]
+# Objects..........[portal fountain bench plaque statue airship]
+# -north to [ 3107] Key: [    0]  Exit flags: [none]
+# -east to [ 3015] Key: [    0]  Exit flags: [none]
+# -south to [ 2889] Key: [    0]  Exit flags: [none]
+# -west to [ 3013] Key: [    0]  Exit flags: [none]
+# -up to [34803] Key: [    0]  Exit flags: [none]
+# -down to [  430] Key: [    0]  Exit flags: [door closed]
+                    elif state == "room_wanted":
+                        room["wanted_area_vnum"] = line.strip("\n~")
+                        room["description"] = []
+                        state = "room_description"
+                        continue
+
+                    elif state == "room_description":
+                        cleaned = line.strip("\n~")
+
+                        if "~" not in line or cleaned:
+                            room["description"].append(cleaned)
+
+                        if "~" in line:
+                            state = "room_flags"
+
+                        continue
+
+                    elif state == "room_flags":
+                        room["flags_raw"] = line.strip()
+                        state = "room_flags2"
+                        continue
+
+                    elif state == "room_flags2":
+                        room["flags2_raw"] = line.strip()
+                        state = "room_exit_or_extra"
+                        continue
+
+                    elif state == "room_exit_or_extra":
+                        if line.strip() == "E":
+                            state = "room_extra_keywords"
+                            continue
+                        elif line.startswith("D"):
+                            state = "room_exit_description"
+                            exit = {
+                                "direction": ["north", "east", "south", "west", "up", "down"][int(line[1])],
+                                "description": []
+                            }
+                            continue
+                        elif line.strip("~\n") == "S":
+                            state = "rooms_header"
+                            continue
+                        else:
+                            print(state, "UNHANDLED LINE", line)
+
+                    elif state == "room_extra_keywords":
+                        room_extra = {
+                            "keywords": line.strip("\n~"),
+                            "description": []
+                        }
+                        state = "room_extra_description"
+
+                    elif state == "room_extra_description":
+                        room_extra["description"].append(line.strip("\n~"))
+                        if "~" in line:
+                            room["extras"][room_extra["keywords"]] = room_extra
+                            if "keywords" in room_extra:
+                                del room_extra["keywords"]
+                            room_extra = None
+                            state = "room_exit_or_extra"
+                            continue
+
+                    elif state == "room_exit_description":
+                        exit["description"].append(line.strip("\n~"))
+                        if "~" in line:
+                            state = "room_exit_description2"
+                            continue
+
+                    elif state == "room_exit_description2":
+                        print("UNKNOWN SECTION AFTER EXIT DESCRIPTION", line)
+                        if "~" in line:
+                            state = "room_exit_vnums"
+                            continue
+
+                    elif state == "room_exit_vnums":
+                        parts = line.strip("\n~").split()
+                        exit["flags_raw"] = parts[1]
+                        exit["room_id"] = parts[2]
+                        room["exits"][exit["direction"]] = exit
+                        if "direction" in exit:
+                            del exit["direction"]
+                        exit = None
+                        state = "room_exit_or_extra"
                         continue
 
                     elif state == "mobiles_header" or \
                         state == "mobile_attachments" and line.startswith("#"):
                         index = 0
                         if line.startswith("#"):
-                            if mobile is not None:
-                                area["mobiles"].append(mobile)
+                            if mobile:
+                                area["mobiles"][mobile["vnum"]] = mobile
 
                             mobile_id = int(line.lstrip("#"))
                             if mobile_id == 0:
@@ -149,7 +278,7 @@ class RotImporter(object):
                                 state = "mobile_header"
                                 index = 0
                                 mobile = {
-                                    "id": mobile_id,
+                                    "vnum": mobile_id,
                                     "description": [],
                                     "subroutines": []
                                 }

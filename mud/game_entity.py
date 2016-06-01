@@ -69,10 +69,19 @@ class GameEntity(Entity):
         cls.COLLECTIONS_CHECKED.add(cls.__name__)
 
     @classmethod
+    def get_unique_hash(cls):
+        import random
+        hash = random.getrandbits(128)
+        return "%032x" % hash
+
+    @classmethod
     def add(cls, data, game):
         """
         Add this Entity to the Game.
         """
+        if not "uid" in data:
+            data["uid"] = cls.get_unique_hash()
+
         entity = cls(game, data)
 
         cls.check_game_collections(game)
@@ -80,6 +89,7 @@ class GameEntity(Entity):
         game.data[cls.COLLECTION_NAME].append(entity)
 
         entity.index()
+        entity.add_children()
 
         return entity
 
@@ -89,9 +99,22 @@ class GameEntity(Entity):
         """
         self.check_game_collections(self.game)
 
+        self.remove_children()
         self.deindex()
 
         self.game.data[self.COLLECTION_NAME].remove(self)
+
+    def add_children(self):
+        """
+        Add the child entities into the game too.
+        """
+        pass
+
+    def remove_children(self):
+        """
+        Remove the child entities out of the game too.
+        """
+        pass
 
     @classmethod
     def get_string_index_value_variations(cls, value):
