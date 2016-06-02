@@ -763,6 +763,9 @@ class Actor(RoomEntity):
             from mud.commands.look import look_command
             commands.append({"keywords": "look", "handler": look_command})
 
+            from mud.commands.goto import goto_command
+            commands.append({"keywords": "goto", "handler": goto_command, "role": "admin"})
+
             from mud.commands.roles import roles_command
             commands.append({"keywords": "roles", "handler": roles_command, "role": "admin"})
 
