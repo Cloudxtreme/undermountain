@@ -1,67 +1,373 @@
 {
-    "name": "Casino Night",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "extra2",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "extra2",
     "rooms": {
-        "4608": {
-            "name": "A Hallway",
-            "description": [
-                "You are outside the second bathroom.  To the north is a great view of the",
-                "living room and the other hallway.  To the south is the bedroom.  The",
-                "landing here is cluttered with all kinds of Forgotten Realms books.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
+        "4521": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
             "flags2_raw": "0",
-            "vnum": "4608",
+            "description": [],
+            "name": "Casino Nights [Employee Lounge]",
             "exits": {
-                "south": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "4519",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4609"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4607"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4611": {
-            "name": "Stairs going up to the livingroom.",
-            "description": [
-                "You are at the stairs that go up to the living room.  To the north is the",
-                "bathroom and the third bedroom.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
             "wanted_area_vnum": "",
+            "vnum": "4521"
+        },
+        "4602": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
             "flags2_raw": "0",
-            "vnum": "4611",
+            "description": [
+                "You are in the hallway.  To the south are the stairs going down and to",
+                "the west is to the first bedroom.  "
+            ],
+            "name": "A Hallway",
             "exits": {
-                "north": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "4605",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4612"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4601",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4602"
+        },
+        "4503": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You enter Casino Nights, the best casino around.  The lights, and",
+                "sounds drown you into the night life.  The sounds of buzzers, alarms,",
+                "money, and coins bumping each other just roars forth, and the crowds",
+                "of people speaking all at once.  Before you stands the Casino, and all",
+                "its glory.  "
+            ],
+            "name": "Casino Nights [Main Walk]",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4505",
+                    "description": [
+                        ""
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "4523",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4610"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4504",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4506",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4503"
         },
-        "4513": {
-            "name": "Casino Nights [West Slot Row]",
+        "4537": {
+            "extras": {},
+            "flags_raw": "0 1544 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a warm hot room. A large fireplace stands in one corner,",
+                "a large hot fire burns giving the room heat. Above you a large skylight",
+                "gives view to the sky above. The walls are made out of logs and you see",
+                "pictures and other wierd stuff hanging from them. A nice large warm",
+                "bed lies right infront of the fireplace."
+            ],
+            "name": "Room 2",
+            "exits": {
+                "north": {
+                    "flags_raw": "4537",
+                    "room_id": "4535",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4537"
+        },
+        "4506": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk up to a Dice Table.  A man stands there, placing his bet",
+                "on the table, and the guy in dressed in a uniform rolls the dice.  The",
+                "man looses.  Before you stands the whole casino, slot machines and",
+                "dice dealers in all directions.  "
+            ],
+            "name": "Casino Nights [Dice Table]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4503",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4508",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4507",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4509",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4506"
+        },
+        "4557": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is filled with curtains and cloths and silk.  A large bed sits",
+                "in the center of the room, covered by silk curtains.  A dresser stands to",
+                "one side and a table with a water dish for cleaning up.  "
+            ],
+            "name": "Room 1",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4556",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4557"
+        },
+        "4558": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is filled with curtains and cloths and silk.  A large bed sits",
+                "in the center of the room, covered by silk curtains.  A dresser stands to",
+                "one side and a table with a water dish for cleaning up.  "
+            ],
+            "name": "Room 2",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4556",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4558"
+        },
+        "4514": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand on the Main Walk in the Casino.  All around you are the",
+                "dice dealers, and slot machines.  A large slot machine, with five",
+                "slots stands before you, its large sum of money stands before you,",
+                "shall you pump your money into it, or walk away.  "
+            ],
+            "name": "Casino Nights [Main Walk]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4511",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4516",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4515",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4517",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4514"
+        },
+        "4540": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the Dressing Room.  The walls are covered by little",
+                "tables, with all diffrent kinds of make-up and other beauty products. ",
+                "Mirrors surround these small tables, allowing people to do things.  To",
+                "the north is the door to the Stage Area.  "
+            ],
+            "name": "Dressing Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4541",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4539",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4540"
+        },
+        "4511": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk up to a Dice Table.  A man stands there, placing his bet",
+                "on the table, and the guy in dressed in a uniform rolls the dice.  The",
+                "man looses.  Before you stands the whole casino, slot machines and",
+                "dice dealers in all directions.  "
+            ],
+            "name": "Casino Nights [Dice Table]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4509",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4512",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4513",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4514",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4511"
+        },
+        "4551": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the best seat in the house.  A perfect view of the glass windows",
+                "that shine out onto the street.  Below you see the street full of activity. ",
+                "Across the way you see the Map Shop.  To the west you see a leather smith,",
+                "making leather coats and other things to wear.  "
+            ],
+            "name": "The Blue Moon Tavern",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4550",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4552",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4554",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4551"
+        },
+        "4504": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand infont of the slot machine.  Pretty lights and colors",
                 "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
@@ -72,90 +378,810 @@
                 "and the someone looses out on the money.  The machine makes a cackling",
                 "noise."
             ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4513",
+            "name": "Casino Nights [West Slot Row]",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4503",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4507",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4515"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4504"
+        },
+        "4608": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are outside the second bathroom.  To the north is a great view of the",
+                "living room and the other hallway.  To the south is the bedroom.  The",
+                "landing here is cluttered with all kinds of Forgotten Realms books.  "
+            ],
+            "name": "A Hallway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4607",
+                    "description": [
+                        ""
+                    ]
                 },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4609",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4608"
+        },
+        "4512": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise."
+            ],
+            "name": "Casino Nights [East Slot Row]",
+            "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4510",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4600"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4511",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4516",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4512"
+        },
+        "4614": {
+            "extras": {},
+            "flags_raw": "0 67641352 134217728 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the batter bathroom.  A large black toilet sits here and a",
+                "shower to the east.  A large smilie face poster sits here.  "
+            ],
+            "name": "Bathroom",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4613",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4614"
+        },
+        "4607": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are going to the second bedroom.  To the north is the stairs going",
+                "down.  "
+            ],
+            "name": "A Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4601",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4608",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4607"
+        },
+        "4555": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Welcome to the Blue Moon Bar.  Here every kind of drink can be served. ",
+                "Behind the bar you see nothing but bottles of all diffrent kinds of drinks,",
+                "ales and beer.  The bartender Greets You.  "
+            ],
+            "name": "The Blue Moon Tavern",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4550",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4554",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4555"
+        },
+        "4510": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise.  To the east is the hallway to the dressing rooms of the Comedy",
+                "Lounge.  "
+            ],
+            "name": "Casino Nights [East Slot Row]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4508",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "4539",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4511"
-                }
-            },
-            "extras": {}
-        },
-        "4500": {
-            "name": "Welcome To {BC{ba{Cs{Bi{bn{Co {!N{@i{#g{%h{!t{@s{x",
-            "description": [
-                "This is the opulent lobby of Casino Nights.  The lobby has been",
-                "recently redone in a bright white marble.  Gold rails line the white",
-                "marble walls, going around the whole lobby.  In the center, a large",
-                "white marble fountain stands, pouring fresh booze from the basement. ",
-                "Around the edges of the bowls, gold lining shines in the Makou Gas",
-                "Lights.  To the west, the Elite Lounge can be found, large windows",
-                "overlooking the streets of Westbridge.  To the east is the main bar",
-                "of the casino.  To the south, is the fun.  ",
-                "{x",
-                "Up from here is the Pax Lotto Area."
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4500",
-            "exits": {
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4509",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4512",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4523"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4510"
+        },
+        "4601": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at the top of the stairs.  You see a large knife sticking in",
+                "the wall.  To the north is the first bedroom, and to the south is the second",
+                "bedroom.  "
+            ],
+            "name": "The Second Stoop",
+            "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4602",
                     "description": [
                         ""
-                    ],
-                    "room_id": "3044"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "4604",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4607",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4601"
+        },
+        "4605": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Outside the first bedroom.  To the north you see two door ways that lead",
+                "into it.  To the south overlooks the kitchen and the living room.  North is",
+                "the bedroom.  "
+            ],
+            "name": "A Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4606",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4602",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4605"
+        },
+        "4604": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at the bottom of the stairs in the living room.  You see you",
+                "can sit here.  Up is to the bedrooms and west is to the living room.  "
+            ],
+            "name": "The Stoop",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "4601",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4603",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4604"
+        },
+        "4612": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a small dark hallway.  To the north you see the bathroom. ",
+                "To the east is a room that looks like it has no windows.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4613",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4615",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4611",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4612"
+        },
+        "4535": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You step into the the guest room section. The owner stands behind",
+                "a large desk, writing in the log book of travelers who have gone",
+                "by. You see 3 large keys directly behind him. Above you a large",
+                "glass skylight shines in the sky above. To the west is the",
+                "bar section of the inn."
+            ],
+            "name": "The Dancing Daemon Inn ",
+            "exits": {
+                "north": {
+                    "flags_raw": "4536",
+                    "room_id": "4536",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "4538",
+                    "room_id": "4538",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9500",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4501"
+                    ]
                 },
-                "east": {
-                    "flags_raw": "-1",
+                "south": {
+                    "flags_raw": "4537",
+                    "room_id": "4537",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4502"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4535"
+        },
+        "4611": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are at the stairs that go up to the living room.  To the north is the",
+                "bathroom and the third bedroom.  "
+            ],
+            "name": "Stairs going up to the livingroom.",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4612",
+                    "description": [
+                        ""
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "4610",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54608"
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "4611"
+        },
+        "4513": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise."
+            ],
+            "name": "Casino Nights [West Slot Row]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4600",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4511",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4515",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4513"
+        },
+        "4508": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise.  To the East you see the \"{-C{-o{-M{-e{-D{-y {-L{-o{-U{-n{-G{-e{x\" to the east.  "
+            ],
+            "name": "Casino Nights [East Slot Row]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4505",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4542",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4506",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4510",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4508"
+        },
+        "4516": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise.  "
+            ],
+            "name": "Casino Nights [East Slot Row]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4512",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4514",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4516"
+        },
+        "4554": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is directly in the back of the Tavern.  You get a good full view of",
+                "the whole place, and the people who are in here.  A hall leads back into the",
+                "small rentable rooms that the tavern has.  "
+            ],
+            "name": "The Blue Moon Tavern",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4551",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4555",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4553",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4556",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4554"
+        },
+        "4518": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Casino Nights [Party Hall]",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4517",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4518"
+        },
+        "4609": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is total burnt to shit.  Everything is destroyed and the",
+                "ceiling is every burned away.  What a fucking mess!!!  "
+            ],
+            "name": "A Bedroom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4608",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4609"
+        },
+        "4536": {
+            "extras": {},
+            "flags_raw": "0 1544 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a warm hot room. A large fireplace stands in one corner,",
+                "a large hot fire burns giving the room heat. Above you a large skylight",
+                "gives view to the sky above. The walls are made out of logs and you see",
+                "pictures and other wierd stuff hanging from them. A nice large warm",
+                "bed lies right infront of the fireplace."
+            ],
+            "name": "Room 1",
+            "exits": {
+                "south": {
+                    "flags_raw": "4536",
+                    "room_id": "4535",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4536"
+        },
+        "4505": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise.  "
+            ],
+            "name": "Casino Nights [East Slot Row]",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4503",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4508",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4505"
+        },
+        "4603": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the living room.  You see the walls covered in posters and",
+                "everything dirty, ripped and torn.  A large couch and a chair sits here,",
+                "covered in bottles.  A large bean bag sits in the floor.  A large stereo",
+                "sits in the corner, it has never been shut off.  To the north you see 3",
+                "steps leading down.  To the east you see a short flight of stairs that split",
+                "into two more, going diffrent ways.  "
+            ],
+            "name": "The Living Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4610",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4604",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "1257",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4603"
+        },
+        "4515": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infont of the slot machine.  Pretty lights and colors",
+                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
+                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
+                "the three wheels spin around, CERCHING the first one stops... ",
+                "CERCHING...  The second one stops.  You stare at it, watching the",
+                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
+                "and the someone looses out on the money.  The machine makes a cackling",
+                "noise."
+            ],
+            "name": "Casino Nights [West Slot Row]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4513",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4514",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4515"
+        },
+        "4541": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The stage hand yells at you, as you stumble onto the stage.  A",
+                "crowd awaits you to speak.....  "
+            ],
+            "name": "[Casino Night's Comedy Lounge]",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4540",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4541"
+        },
+        "4610": {
+            "extras": {},
+            "flags_raw": "0 67117064 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are at the stairs that lead down to the third bedroom and the",
+                "bathroom.  To the south is the living room.  "
+            ],
+            "name": "Stairs going to the bathroom",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "4611",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4603",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4610"
+        },
+        "4500": {
             "extras": {
                 "sign": {
                     "description": [
@@ -176,154 +1202,66 @@
                         ""
                     ]
                 }
-            }
-        },
-        "4607": {
-            "name": "A Hallway",
-            "description": [
-                "You are going to the second bedroom.  To the north is the stairs going",
-                "down.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4607",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4601"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4608"
-                }
             },
-            "extras": {}
-        },
-        "4506": {
-            "name": "Casino Nights [Dice Table]",
-            "description": [
-                "You walk up to a Dice Table.  A man stands there, placing his bet",
-                "on the table, and the guy in dressed in a uniform rolls the dice.  The",
-                "man looses.  Before you stands the whole casino, slot machines and",
-                "dice dealers in all directions.  "
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
+            "flags_raw": "0 1032 0 0",
             "flags2_raw": "0",
-            "vnum": "4506",
+            "description": [
+                "This is the opulent lobby of Casino Nights.  The lobby has been",
+                "recently redone in a bright white marble.  Gold rails line the white",
+                "marble walls, going around the whole lobby.  In the center, a large",
+                "white marble fountain stands, pouring fresh booze from the basement. ",
+                "Around the edges of the bowls, gold lining shines in the Makou Gas",
+                "Lights.  To the west, the Elite Lounge can be found, large windows",
+                "overlooking the streets of Westbridge.  To the east is the main bar",
+                "of the casino.  To the south, is the fun.  ",
+                "{x",
+                "Up from here is the Pax Lotto Area."
+            ],
+            "name": "Welcome To {BC{ba{Cs{Bi{bn{Co {!N{@i{#g{%h{!t{@s{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4509"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "3044",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4503"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4507"
+                    ]
                 },
                 "east": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "4502",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4508"
-                }
-            },
-            "extras": {}
-        },
-        "4542": {
-            "name": "Comedy Lounge",
-            "description": [
-                "You stand in the {-C{-o{-M{-e{-D{-y {-L{-o{-U{-n{-G{-e{x.  The room is filled with a thick",
-                "smoke, and laughter.  You see a stage to the east, with a comedian on",
-                "it.  Little round tables line the room, on diffrent levels.  You see",
-                "the floor goes down by one level, as it reaches towards the stage. ",
-                "Waitresses walk around, handing out drinks, and taking orders.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4542",
-            "exits": {
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "54608",
+                    "description": [
+                        ""
+                    ]
+                },
                 "west": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "4501",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4508"
-                }
-            },
-            "extras": {}
-        },
-        "4508": {
-            "name": "Casino Nights [East Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise.  To the East you see the \"{-C{-o{-M{-e{-D{-y {-L{-o{-U{-n{-G{-e{x\" to the east.  "
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4508",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4523",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4510"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4505"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4506"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4542"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4500"
         },
         "4507": {
-            "name": "Casino Nights [West Slot Row]",
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand infont of the slot machine.  Pretty lights and colors",
                 "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
@@ -334,579 +1272,172 @@
                 "and the someone looses out on the money.  The machine makes a cackling",
                 "noise."
             ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4507",
+            "name": "Casino Nights [West Slot Row]",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4600"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4504",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4504"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "4506",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4506"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4600",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4518": {
-            "name": "Casino Nights [Party Hall]",
-            "description": [],
-            "flags_raw": "0 1036 0 0",
             "wanted_area_vnum": "",
+            "vnum": "4507"
+        },
+        "4550": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
             "flags2_raw": "0",
-            "vnum": "4518",
+            "description": [
+                "There are a flight of stairs leading down right here, into what looks",
+                "like to be a bar.  North large glass windows look out into the street.  From",
+                "here you can see Market Square and the Festival Square.  You see the great",
+                "fountain flow with the waters of the river.  "
+            ],
+            "name": "The Blue Moon Tavern",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "4551",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4517"
-                }
-            },
-            "extras": {}
-        },
-        "4603": {
-            "name": "The Living Room",
-            "description": [
-                "You stand in the living room.  You see the walls covered in posters and",
-                "everything dirty, ripped and torn.  A large couch and a chair sits here,",
-                "covered in bottles.  A large bean bag sits in the floor.  A large stereo",
-                "sits in the corner, it has never been shut off.  To the north you see 3",
-                "steps leading down.  To the east you see a short flight of stairs that split",
-                "into two more, going diffrent ways.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4603",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1257"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4610"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4604"
-                }
-            },
-            "extras": {}
-        },
-        "4511": {
-            "name": "Casino Nights [Dice Table]",
-            "description": [
-                "You walk up to a Dice Table.  A man stands there, placing his bet",
-                "on the table, and the guy in dressed in a uniform rolls the dice.  The",
-                "man looses.  Before you stands the whole casino, slot machines and",
-                "dice dealers in all directions.  "
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4511",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4514"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4509"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4513"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4512"
-                }
-            },
-            "extras": {}
-        },
-        "4537": {
-            "name": "Room 2",
-            "description": [
-                "You stand in a warm hot room. A large fireplace stands in one corner,",
-                "a large hot fire burns giving the room heat. Above you a large skylight",
-                "gives view to the sky above. The walls are made out of logs and you see",
-                "pictures and other wierd stuff hanging from them. A nice large warm",
-                "bed lies right infront of the fireplace."
-            ],
-            "flags_raw": "0 1544 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4537",
-            "exits": {
-                "north": {
-                    "flags_raw": "4537",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4535"
-                }
-            },
-            "extras": {}
-        },
-        "4601": {
-            "name": "The Second Stoop",
-            "description": [
-                "You stand at the top of the stairs.  You see a large knife sticking in",
-                "the wall.  To the north is the first bedroom, and to the south is the second",
-                "bedroom.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4601",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4602"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4607"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "4502",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4604"
-                }
-            },
-            "extras": {}
-        },
-        "4609": {
-            "name": "A Bedroom",
-            "description": [
-                "This room is total burnt to shit.  Everything is destroyed and the",
-                "ceiling is every burned away.  What a fucking mess!!!  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4609",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4608"
-                }
-            },
-            "extras": {}
-        },
-        "4605": {
-            "name": "A Hallway",
-            "description": [
-                "Outside the first bedroom.  To the north you see two door ways that lead",
-                "into it.  To the south overlooks the kitchen and the living room.  North is",
-                "the bedroom.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4605",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4606"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "4555",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4602"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4556": {
-            "name": "The Back Room",
-            "description": [
-                "This back room is very nice.  A large pair of chairs sit here, infront of",
-                "a fire place, and to each side of this room you see a door with a number on",
-                "it.  Over the fire place a large picture of the city hangs, and fine pottery",
-                "sits on the mantle.  The fire burns warm and produces great heat.  "
-            ],
-            "flags_raw": "0 1032 0 0",
             "wanted_area_vnum": "",
+            "vnum": "4550"
+        },
+        "4542": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "4556",
+            "description": [
+                "You stand in the {-C{-o{-M{-e{-D{-y {-L{-o{-U{-n{-G{-e{x.  The room is filled with a thick",
+                "smoke, and laughter.  You see a stage to the east, with a comedian on",
+                "it.  Little round tables line the room, on diffrent levels.  You see",
+                "the floor goes down by one level, as it reaches towards the stage. ",
+                "Waitresses walk around, handing out drinks, and taking orders.  "
+            ],
+            "name": "Comedy Lounge",
             "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4554"
-                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "4508",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4557"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4558"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4541": {
-            "name": "[Casino Night's Comedy Lounge]",
-            "description": [
-                "The stage hand yells at you, as you stumble onto the stage.  A",
-                "crowd awaits you to speak.....  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "4542"
+        },
+        "4606": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
             "flags2_raw": "0",
-            "vnum": "4541",
+            "description": [
+                "You stand in the first bedroom.  A large queen size bed sits here, worn",
+                "and bent.  A couch sits in here, kinda cutting the room in two.  You see a",
+                "pair of desks.  The room is very very cluttered and filled with junk.  "
+            ],
+            "name": "The Bedroom",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4605",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4540"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4606"
+        },
+        "4501": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Smoke makes this room dark and quiet.  There are many people sitting around",
+                "smoking pipes and cigars.  Men chatter about how much money they have lost",
+                "to the dice dealers and others sit back and drink.  Large feather sofas and",
+                "chairs are placed all around the room.  A large hot tub sits to one side of",
+                "the room."
+            ],
+            "name": "Elite [Smokers] Lounge",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "4500",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4501"
         },
         "4613": {
-            "name": "Bathroom",
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are in the bathroom.  Here a sink sits, with a cuboard under it.  All",
                 "kinds of stuff sits here.  There is a door to th east.  "
             ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4613",
+            "name": "Bathroom",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4612"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "4614",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4614"
-                }
-            },
-            "extras": {}
-        },
-        "4503": {
-            "name": "Casino Nights [Main Walk]",
-            "description": [
-                "You enter Casino Nights, the best casino around.  The lights, and",
-                "sounds drown you into the night life.  The sounds of buzzers, alarms,",
-                "money, and coins bumping each other just roars forth, and the crowds",
-                "of people speaking all at once.  Before you stands the Casino, and all",
-                "its glory.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4503",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4506"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4504"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4505"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4523"
-                }
-            },
-            "extras": {}
-        },
-        "4517": {
-            "name": "Casino Nights [Lobby-Party Hall]",
-            "description": [],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4517",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4519"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4514"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4518"
-                }
-            },
-            "extras": {}
-        },
-        "4505": {
-            "name": "Casino Nights [East Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise.  "
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4505",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4503"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4612",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4508"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4536": {
-            "name": "Room 1",
-            "description": [
-                "You stand in a warm hot room. A large fireplace stands in one corner,",
-                "a large hot fire burns giving the room heat. Above you a large skylight",
-                "gives view to the sky above. The walls are made out of logs and you see",
-                "pictures and other wierd stuff hanging from them. A nice large warm",
-                "bed lies right infront of the fireplace."
-            ],
-            "flags_raw": "0 1544 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4536",
-            "exits": {
-                "south": {
-                    "flags_raw": "4536",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4535"
-                }
-            },
-            "extras": {}
-        },
-        "4510": {
-            "name": "Casino Nights [East Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise.  To the east is the hallway to the dressing rooms of the Comedy",
-                "Lounge.  "
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4510",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4512"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4508"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4509"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4539"
-                }
-            },
-            "extras": {}
-        },
-        "4551": {
-            "name": "The Blue Moon Tavern",
-            "description": [
-                "This is the best seat in the house.  A perfect view of the glass windows",
-                "that shine out onto the street.  Below you see the street full of activity. ",
-                "Across the way you see the Map Shop.  To the west you see a leather smith,",
-                "making leather coats and other things to wear.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4551",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4554"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4552"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4550"
-                }
-            },
-            "extras": {}
-        },
-        "4538": {
-            "name": "Room 3",
-            "description": [
-                "You stand in a warm hot room. A large fireplace stands in one corner,",
-                "a large hot fire burns giving the room heat. Above you a large skylight",
-                "gives view to the sky above. The walls are made out of logs and you see",
-                "pictures and other wierd stuff hanging from them. A nice large warm",
-                "bed lies right infront of the fireplace."
-            ],
-            "flags_raw": "0 1544 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4538",
-            "exits": {
-                "west": {
-                    "flags_raw": "4538",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4535"
-                }
-            },
-            "extras": {}
+            "vnum": "4613"
         },
         "4530": {
-            "name": "The 1st Nation Bank Of New Thalos",
+            "extras": {},
+            "flags_raw": "0 1034 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You step into a large marble building. You see three lines",
                 "of people standing, waiting in line to talk to the person",
@@ -915,593 +1446,162 @@
                 "the whole area, with small lambs and pens on them. You see",
                 "the banker behind his window, waiting for you to speak."
             ],
-            "flags_raw": "0 1034 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4530",
+            "name": "The 1st Nation Bank Of New Thalos",
             "exits": {
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9518",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9518"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4610": {
-            "name": "Stairs going to the bathroom",
-            "description": [
-                "You are at the stairs that lead down to the third bedroom and the",
-                "bathroom.  To the south is the living room.  "
-            ],
-            "flags_raw": "0 67117064 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4610",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4603"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4611"
-                }
-            },
-            "extras": {}
+            "vnum": "4530"
         },
-        "4557": {
-            "name": "Room 1",
-            "description": [
-                "The room is filled with curtains and cloths and silk.  A large bed sits",
-                "in the center of the room, covered by silk curtains.  A dresser stands to",
-                "one side and a table with a water dish for cleaning up.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
+        "4538": {
+            "extras": {},
+            "flags_raw": "0 1544 0 0",
             "flags2_raw": "0",
-            "vnum": "4557",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4556"
-                }
-            },
-            "extras": {}
-        },
-        "4602": {
-            "name": "A Hallway",
             "description": [
-                "You are in the hallway.  To the south are the stairs going down and to",
-                "the west is to the first bedroom.  "
+                "You stand in a warm hot room. A large fireplace stands in one corner,",
+                "a large hot fire burns giving the room heat. Above you a large skylight",
+                "gives view to the sky above. The walls are made out of logs and you see",
+                "pictures and other wierd stuff hanging from them. A nice large warm",
+                "bed lies right infront of the fireplace."
             ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4602",
+            "name": "Room 3",
             "exits": {
                 "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4605"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4601"
-                }
-            },
-            "extras": {}
-        },
-        "4515": {
-            "name": "Casino Nights [West Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise."
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4515",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4513"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4514"
-                }
-            },
-            "extras": {}
-        },
-        "4604": {
-            "name": "The Stoop",
-            "description": [
-                "You stand at the bottom of the stairs in the living room.  You see you",
-                "can sit here.  Up is to the bedrooms and west is to the living room.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4604",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4603"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4601"
-                }
-            },
-            "extras": {}
-        },
-        "4523": {
-            "name": "Casino Nights",
-            "description": [
-                "This is the southern section of the lobby of Casino Nights.  It lies",
-                "just above all the action.  Gold rails line the white marble walls going",
-                "down into the pit.  Around the edges of the bowl, the gold lining shines",
-                "in the Makou Gas Lights.  Down a few steps is the fun."
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4523",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4500"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4503"
-                }
-            },
-            "extras": {}
-        },
-        "4550": {
-            "name": "The Blue Moon Tavern",
-            "description": [
-                "There are a flight of stairs leading down right here, into what looks",
-                "like to be a bar.  North large glass windows look out into the street.  From",
-                "here you can see Market Square and the Festival Square.  You see the great",
-                "fountain flow with the waters of the river.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4550",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4551"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4555"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4502"
-                }
-            },
-            "extras": {}
-        },
-        "4535": {
-            "name": "The Dancing Daemon Inn ",
-            "description": [
-                "You step into the the guest room section. The owner stands behind",
-                "a large desk, writing in the log book of travelers who have gone",
-                "by. You see 3 large keys directly behind him. Above you a large",
-                "glass skylight shines in the sky above. To the west is the",
-                "bar section of the inn."
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4535",
-            "exits": {
-                "south": {
-                    "flags_raw": "4537",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4537"
-                },
-                "north": {
-                    "flags_raw": "4536",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4536"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9500"
-                },
-                "east": {
                     "flags_raw": "4538",
+                    "room_id": "4535",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4538"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4538"
         },
-        "4514": {
-            "name": "Casino Nights [Main Walk]",
+        "4519": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Casino Nights [Back Room]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4517",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4521",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4520",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4522",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4519"
+        },
+        "4517": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Casino Nights [Lobby-Party Hall]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4514",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4518",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4519",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4517"
+        },
+        "4509": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand on the Main Walk in the Casino.  All around you are the",
                 "dice dealers, and slot machines.  A large slot machine, with five",
                 "slots stands before you, its large sum of money stands before you,",
                 "shall you pump your money into it, or walk away.  "
             ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4514",
+            "name": "Casino Nights [Main Walk]",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4517"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4506",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4511"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4510",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "4600",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4515"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4516"
-                }
-            },
-            "extras": {}
-        },
-        "4540": {
-            "name": "Dressing Room",
-            "description": [
-                "You stand in the Dressing Room.  The walls are covered by little",
-                "tables, with all diffrent kinds of make-up and other beauty products. ",
-                "Mirrors surround these small tables, allowing people to do things.  To",
-                "the north is the door to the Stage Area.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4540",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4541"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4539"
-                }
-            },
-            "extras": {}
-        },
-        "4519": {
-            "name": "Casino Nights [Back Room]",
-            "description": [],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4519",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4522"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4517"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4520"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4521"
-                }
-            },
-            "extras": {}
-        },
-        "4501": {
-            "name": "Elite [Smokers] Lounge",
-            "description": [
-                "Smoke makes this room dark and quiet.  There are many people sitting around",
-                "smoking pipes and cigars.  Men chatter about how much money they have lost",
-                "to the dice dealers and others sit back and drink.  Large feather sofas and",
-                "chairs are placed all around the room.  A large hot tub sits to one side of",
-                "the room."
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4501",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4500"
-                }
-            },
-            "extras": {}
-        },
-        "4520": {
-            "name": "Casino Nights [Manager's Office]",
-            "description": [],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4520",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4519"
-                }
-            },
-            "extras": {}
-        },
-        "4521": {
-            "name": "Casino Nights [Employee Lounge]",
-            "description": [],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4521",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4519"
-                }
-            },
-            "extras": {}
-        },
-        "4553": {
-            "name": "The Blue Moon Tavern",
-            "description": [
-                "This seat is in the back of the Tavern.  The only window is very small",
-                "and overlooks the Pawn Shop roof.  But you still have a view of the western",
-                "wall and the forest pass it.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4553",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4552"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4554"
-                }
-            },
-            "extras": {}
-        },
-        "4600": {
-            "name": "Casino Nights [West Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise."
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4600",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4513"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4507"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4509"
-                }
-            },
-            "extras": {}
-        },
-        "4504": {
-            "name": "Casino Nights [West Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise."
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4504",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4507"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4503"
-                }
-            },
-            "extras": {}
-        },
-        "4512": {
-            "name": "Casino Nights [East Slot Row]",
-            "description": [
-                "You stand infont of the slot machine.  Pretty lights and colors",
-                "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
-                "hefty amount of cash, and they pull the lever.  The machine whirls, as",
-                "the three wheels spin around, CERCHING the first one stops... ",
-                "CERCHING...  The second one stops.  You stare at it, watching the",
-                "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
-                "and the someone looses out on the money.  The machine makes a cackling",
-                "noise."
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4512",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4510"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4511"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4511",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4516"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4509"
         },
         "4502": {
-            "name": "The Bar Of {BC{ba{Cs{Bi{bn{Co {!N{@i{#g{%h{!t{@s{x",
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Welcome to Casino Nights bar.  There is a large old fasion wooden",
                 "bar that wrapes itself around the far corner.  Behind it, a large",
@@ -1510,212 +1610,137 @@
                 "is working here. Small round tables line the walls as a show singer",
                 "stands in the middle of the room singing out to the drunken crowd."
             ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4502",
+            "name": "The Bar Of {BC{ba{Cs{Bi{bn{Co {!N{@i{#g{%h{!t{@s{x",
             "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4500"
-                },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "4550",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4550"
-                }
-            },
-            "extras": {}
-        },
-        "4558": {
-            "name": "Room 2",
-            "description": [
-                "The room is filled with curtains and cloths and silk.  A large bed sits",
-                "in the center of the room, covered by silk curtains.  A dresser stands to",
-                "one side and a table with a water dish for cleaning up.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4558",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4556"
-                }
-            },
-            "extras": {}
-        },
-        "4554": {
-            "name": "The Blue Moon Tavern",
-            "description": [
-                "This is directly in the back of the Tavern.  You get a good full view of",
-                "the whole place, and the people who are in here.  A hall leads back into the",
-                "small rentable rooms that the tavern has.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4554",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4556"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4551"
+                    ]
                 },
                 "west": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "4500",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4553"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4555"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4502"
         },
         "4552": {
-            "name": "The Blue Moon Tavern",
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is the far western part of the Tavern.  From here you even get a",
                 "better view of the Festival Square and Market Square.  From here you can see",
                 "donw the street that goes by the building.  You can also see Westbridge Way",
                 "running out into the wilds that surround the town.  "
             ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4552",
+            "name": "The Blue Moon Tavern",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4553"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "4551",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4551"
-                }
-            },
-            "extras": {}
-        },
-        "4614": {
-            "name": "Bathroom",
-            "description": [
-                "You stand in the batter bathroom.  A large black toilet sits here and a",
-                "shower to the east.  A large smilie face poster sits here.  "
-            ],
-            "flags_raw": "0 67641352 134217728 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4614",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4613"
-                }
-            },
-            "extras": {}
-        },
-        "4509": {
-            "name": "Casino Nights [Main Walk]",
-            "description": [
-                "You stand on the Main Walk in the Casino.  All around you are the",
-                "dice dealers, and slot machines.  A large slot machine, with five",
-                "slots stands before you, its large sum of money stands before you,",
-                "shall you pump your money into it, or walk away.  "
-            ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4509",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4553",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4511"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4552"
+        },
+        "4539": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a small, dimly lite hallway.  To the east is the",
+                "dressing room and the door to the stage in the Comedy Lounge.  Back",
+                "west is the wounders of the Casino.  "
+            ],
+            "name": "Dressing Room Hallway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4540",
+                    "description": [
+                        ""
+                    ]
                 },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "4510",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4539"
+        },
+        "4523": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the southern section of the lobby of Casino Nights.  It lies",
+                "just above all the action.  Gold rails line the white marble walls going",
+                "down into the pit.  Around the edges of the bowl, the gold lining shines",
+                "in the Makou Gas Lights.  Down a few steps is the fun."
+            ],
+            "name": "Casino Nights",
+            "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4500",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4506"
+                    ]
                 },
-                "west": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "4503",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4600"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4523"
+        },
+        "4520": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Casino Nights [Manager's Office]",
+            "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "4519",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4510"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4606": {
-            "name": "The Bedroom",
-            "description": [
-                "You stand in the first bedroom.  A large queen size bed sits here, worn",
-                "and bent.  A couch sits in here, kinda cutting the room in two.  You see a",
-                "pair of desks.  The room is very very cluttered and filled with junk.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4606",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4605"
-                }
-            },
-            "extras": {}
+            "vnum": "4520"
         },
-        "4516": {
-            "name": "Casino Nights [East Slot Row]",
+        "4600": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand infont of the slot machine.  Pretty lights and colors",
                 "flash off it, and it makes buzzing noises at you.  Someone pumps in a",
@@ -1724,394 +1749,370 @@
                 "CERCHING...  The second one stops.  You stare at it, watching the",
                 "third wheel turn..  Waiting for it to strike...  CERCHING..  It hits,",
                 "and the someone looses out on the money.  The machine makes a cackling",
-                "noise.  "
+                "noise."
             ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4516",
+            "name": "Casino Nights [West Slot Row]",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4507",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4512"
+                    ]
                 },
-                "west": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "4509",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4514"
-                }
-            },
-            "extras": {}
-        },
-        "4522": {
-            "name": "Casino Nights [Loading Docks]",
-            "description": [],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4522",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4519"
-                }
-            },
-            "extras": {}
-        },
-        "4612": {
-            "name": "Hallway",
-            "description": [
-                "You stand in a small dark hallway.  To the north you see the bathroom. ",
-                "To the east is a room that looks like it has no windows.  "
-            ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4612",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4513",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4611"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4613"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4615"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "4539": {
-            "name": "Dressing Room Hallway",
-            "description": [
-                "You are in a small, dimly lite hallway.  To the east is the",
-                "dressing room and the door to the stage in the Comedy Lounge.  Back",
-                "west is the wounders of the Casino.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4539",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4510"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4540"
-                }
-            },
-            "extras": {}
+            "vnum": "4600"
         },
-        "4555": {
-            "name": "The Blue Moon Tavern",
-            "description": [
-                "Welcome to the Blue Moon Bar.  Here every kind of drink can be served. ",
-                "Behind the bar you see nothing but bottles of all diffrent kinds of drinks,",
-                "ales and beer.  The bartender Greets You.  "
-            ],
+        "4556": {
+            "extras": {},
             "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "4555",
+            "description": [
+                "This back room is very nice.  A large pair of chairs sit here, infront of",
+                "a fire place, and to each side of this room you see a door with a number on",
+                "it.  Over the fire place a large picture of the city hangs, and fine pottery",
+                "sits on the mantle.  The fire burns warm and produces great heat.  "
+            ],
+            "name": "The Back Room",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "4554",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4550"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4558",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "4557",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4554"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "4556"
+        },
+        "4522": {
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Casino Nights [Loading Docks]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4519",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4522"
+        },
+        "4553": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This seat is in the back of the Tavern.  The only window is very small",
+                "and overlooks the Pawn Shop roof.  But you still have a view of the western",
+                "wall and the forest pass it.  "
+            ],
+            "name": "The Blue Moon Tavern",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4552",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "4554",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "4553"
         }
     },
-    "uid": "extra2",
-    "area_quest_points": 0,
     "credits": "[ Public ] Casino Night",
     "faction_id": "",
+    "name": "Casino Night",
     "vnums": [
         4500,
         4999
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "4550": {
-            "name": "Gokzus The Bartender~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-100 -100 -100 -100",
             "description": [],
             "raw_flags5": "stand stand male 2147483647",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
-            "raw_flags3": "-100 -100 -100 -100",
             "vnum": 4550,
             "raw_flags": "ABG 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
+            "room_name": "Gokzus The Bartender stands here, cleaning the glasses and smiling.\n",
+            "name": "Gokzus The Bartender~\n",
             "raw_flags2": "110 0 99d99+9999 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Gokzus the bartender~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Gokzus The Bartender stands here, cleaning the glasses and smiling.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Gokzus the bartender~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4535": {
-            "name": "The Inn Keeper~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "He Runs The Dancing Daemon Inn.\n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDF ABCD 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 4535,
             "raw_flags": "ABV 0 0 900 0",
-            "race_id": "human",
-            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDF ABCD 0 0",
             "room_name": "The Dancing Daemon Inn Keeper stands here selling rooms.\n",
-            "keywords": "Inn Keeper~\n"
+            "name": "The Inn Keeper~\n",
+            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
+            "keywords": "Inn Keeper~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4557": {
-            "name": "(no short description)~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 4557,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "(no long description)\n",
+            "name": "(no short description)~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "no name~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "(no long description)\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "no name~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4558": {
-            "name": "(no short description)~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 4558,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "(no long description)\n",
+            "name": "(no short description)~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "no name~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "(no long description)\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "no name~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4536": {
-            "name": "A Healer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FHIK ABCD 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 4536,
             "raw_flags": "ABQVa DF H 1000 0",
-            "race_id": "human",
-            "raw_flags2": "103 0 1d1+999 1d1+999 2d4+30 divine",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FHIK ABCD 0 0",
             "room_name": "~\n",
-            "keywords": "healer~\n"
+            "name": "A Healer~\n",
+            "raw_flags2": "103 0 1d1+999 1d1+999 2d4+30 divine",
+            "keywords": "healer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4530": {
-            "name": "Rosco The Banker~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "He is a bank, and he can't die.\n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDF ABCD 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 4530,
             "raw_flags": "ABVc 0 0 900 0",
-            "race_id": "human",
-            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDF ABCD 0 0",
             "room_name": "Rosco The Banker stands here behind his tight small window.\n",
-            "keywords": "Bank Banker~\n"
+            "name": "Rosco The Banker~\n",
+            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
+            "keywords": "Bank Banker~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4500": {
-            "name": "the dice dealer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "He is dressed in Casino Nights suits. A white shirt with\n",
                 "a red vest, and black pants. He seems very good with his\n",
                 "job.\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4500,
             "raw_flags": "ABe 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "The Dice Dealer stands here, rolling his dice to compare.\n",
-            "keywords": "dice dealer~\n"
+            "name": "the dice dealer~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "dice dealer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4501": {
-            "name": "A casino player~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "They are a Casino Freak. They seem to live here all day.\n"
             ],
             "raw_flags5": "stand stand either 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4501,
             "raw_flags": "ACGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "You see a casino player standing here, tring to make the big time.\n",
-            "keywords": "casino night player~\n"
+            "name": "A casino player~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "casino night player~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4502": {
-            "name": "The Casino Welcomer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [],
             "raw_flags5": "stand stand either 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4502,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
+            "raw_flags4": "CDEKLTU 0 C 0",
+            "room_name": "The Casino Welcomer stands here, welcoming you.\n",
+            "name": "The Casino Welcomer~\n",
             "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
+            "keywords": "Casino Welcomer~\n",
             "subroutines": [
                 "M grall 4503 50~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Casino Welcomer stands here, welcoming you.\n",
-            "keywords": "Casino Welcomer~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4503": {
-            "name": "the casino janitor~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "He is dressed in Casino Nights suits. A white shirt with\n",
                 "a red vest, and black pants. He seems very good with his\n",
                 "job.\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4503,
             "raw_flags": "ACGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "You see a very well dressed janitor here cleaning.\n",
-            "keywords": "casino janitor~\n"
+            "name": "the casino janitor~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "casino janitor~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4504": {
-            "name": "A guy puking~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "Why the hell do you want a better description of this?\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4504,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "A guy stands here, slumped over the toilet puking out his lunch.\n",
-            "keywords": "puke puking guy~\n"
+            "name": "A guy puking~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "puke puking guy~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4505": {
-            "name": "The Bartender~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [],
             "raw_flags5": "stand stand female 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4505,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "The Comedy Lounge Bartender stands here, passing out drinks.\n",
-            "keywords": "Comedy Lounge Bartender~\n"
+            "name": "The Bartender~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "Comedy Lounge Bartender~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4506": {
-            "name": "Filthy the Bartender~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "Filthy looks like SHIT! He's tattoed from head to foot,\n",
                 "looks like he has not bathed in a week. He lost his\n",
@@ -2120,109 +2121,109 @@
                 "casino.\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4506,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "Filthy is standing here, spit polishing some bar glasses.\n",
-            "keywords": "filthy bartender~\n"
+            "name": "Filthy the Bartender~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "filthy bartender~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4507": {
-            "name": "The Lounge Healer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "He is healing the people in the lounge.\n",
                 "Type 'Heal' for a list of his spells.\n",
                 "Type 'heal' to see a listing of spells.\n"
             ],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FHIK ABCD 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 4507,
             "raw_flags": "ABQVa DF H 1000 0",
-            "race_id": "human",
-            "raw_flags2": "103 0 1d1+999 1d1+999 2d4+30 divine",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FHIK ABCD 0 0",
             "room_name": "The Lounge Healer stands here, casting spells on the weak.\n",
-            "keywords": "Lounge Healer~\n"
+            "name": "The Lounge Healer~\n",
+            "raw_flags2": "103 0 1d1+999 1d1+999 2d4+30 divine",
+            "keywords": "Lounge Healer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4508": {
-            "name": "A Casino Lookout~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "He is dressed in Casino Nights suits. A white shirt with\n",
                 "a red vest, and black pants. He seems very good with his\n",
                 "job.\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4508,
             "raw_flags": "ACGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "A Casino Lookout is here, watching for cheaters.\n",
-            "keywords": "casino lookout~\n"
+            "name": "A Casino Lookout~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "casino lookout~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4509": {
-            "name": "The Keg Dwarf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "He is dressed in Casino Nights suits. A white shirt with\n",
                 "a red vest, and black pants. He seems very good with his\n",
                 "job.\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4509,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "The Keg Dwarf stands here selling his brew.\n",
-            "keywords": "keg dwarf~\n"
+            "name": "The Keg Dwarf~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "keg dwarf~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4510": {
-            "name": "Jay~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "He is wearing a gwar t-shirt and a long black trench coat.\n",
                 "He wears a tooke on his head and talks to his cubby silent\n",
                 "partner here...nooch!\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4510,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
+            "raw_flags4": "CDEKLTU 0 C 0",
+            "room_name": "Jay stands here dancing and abusing the players.\n",
+            "name": "Jay~\n",
             "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
+            "keywords": "Jay~\n",
             "subroutines": [
                 "M grall 4500 10~\n",
                 "M grall 4501 10~\n",
                 "M grall 4502 10~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Jay stands here dancing and abusing the players.\n",
-            "keywords": "Jay~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4511": {
-            "name": "Silent Bob~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "Silent Bob stands here all quiet. He is wearing a baseball\n",
                 "cap turned backwards, a long leather trench coat and a\n",
@@ -2230,19 +2231,18 @@
                 "make a cigarette float in the air.\n"
             ],
             "raw_flags5": "stand stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEKLTU 0 C 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 4511,
             "raw_flags": "ABCGT 0 0 1000 3000",
-            "race_id": "human",
-            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEKLTU 0 C 0",
             "room_name": "Silent Bob stands here, tring to levitate a cigarette.\n",
-            "keywords": "Silent Bob~\n"
+            "name": "Silent Bob~\n",
+            "raw_flags2": "30 3 15d15+160 1d1+149 2d4+4 punch",
+            "keywords": "Silent Bob~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

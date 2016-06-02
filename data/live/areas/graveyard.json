@@ -1,970 +1,971 @@
 {
-    "name": "The Graveyard",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "graveyard",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "graveyard",
     "rooms": {
-        "26023": {
-            "name": "In a Dusty Tomb",
+        "26031": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You are in a dark burial chamber beneath a large tomb stone.",
                 "The only exit appears to be up."
             ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26023",
+            "name": "In a Dusty Tomb",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "26002",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26011"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26031"
         },
-        "26019": {
-            "name": "In a Dusty Tomb",
+        "26026": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You are in a dark burial chamber beneath a large tomb stone.",
                 "The only exit appears to be up."
             ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26019",
+            "name": "In a Dusty Tomb",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "26007",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26000"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "26017": {
-            "name": "Gravel Road in the Graveyard",
-            "description": [
-                "You are on a well-kept gravel road that leads north-south through the",
-                "graveyard.  On both sides of the road grow dark evergreen trees."
-            ],
-            "flags_raw": "0 0 0 2",
             "wanted_area_vnum": "",
+            "vnum": "26026"
+        },
+        "26008": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
             "flags2_raw": "0",
-            "vnum": "26017",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads north and west.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "26007",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26016"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26018"
-                }
-            },
-            "extras": {}
-        },
-        "26009": {
-            "name": "In front of the Chapel",
-            "description": [
-                "You are on an open space before a small chapel.  A gravel road leads north",
-                "through the graveyard and the chapel entrance is to the south."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26009",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3405"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26018"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "26009",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26010"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26008"
-                }
-            },
-            "extras": {}
-        },
-        "26002": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads south and west.  An old tomb is here."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26002",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26001"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26003"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "26025",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26031"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "26018": {
-            "name": "Gravel Road in the Graveyard",
-            "description": [
-                "You are on a well-kept gravel road that leads north-south through the",
-                "graveyard.  On both sides of the road grow dark evergreen trees."
-            ],
-            "flags_raw": "0 0 0 2",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26018",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26017"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26009"
-                }
-            },
-            "extras": {}
+            "vnum": "26008"
         },
-        "26003": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads north and east.  An old tomb is here."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
+        "26027": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
             "flags2_raw": "0",
-            "vnum": "26003",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
             "exits": {
-                "north": {
+                "up": {
                     "flags_raw": "0",
+                    "room_id": "26006",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26002"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26004"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26030"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26027"
         },
         "26010": {
-            "name": "Gravel Path on the Graveyard",
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are on a gravel path winding its way between dark evergreen trees on",
                 "the graveyard.  The path leads north and east.  An old tomb is here."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26010",
+            "name": "Gravel Path on the Graveyard",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "26011",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26011"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "26009",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "41161",
                     "description": [
                         ""
-                    ],
-                    "room_id": "41161"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26009"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "26024",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26024"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "26029": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26029",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26004"
-                }
-            },
-            "extras": {}
+            "vnum": "26010"
         },
-        "26000": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  An old tomb is here."
-            ],
+        "26007": {
+            "extras": {},
             "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "26000",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26015"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26001"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26019"
-                }
-            },
-            "extras": {}
-        },
-        "26021": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26021",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26014"
-                }
-            },
-            "extras": {}
-        },
-        "26016": {
-            "name": "Gravel Road in the Graveyard",
-            "description": [
-                "You are on a well-kept gravel road that leads north-south through the",
-                "graveyard.  On both sides of the road grow dark evergreen trees."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26016",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26001"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26017"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "21138"
-                }
-            },
-            "extras": {}
-        },
-        "26028": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26028",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26005"
-                }
-            },
-            "extras": {}
-        },
-        "26020": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26020",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26015"
-                }
-            },
-            "extras": {}
-        },
-        "26011": {
-            "name": "Gravel Path on the Graveyard",
             "description": [
                 "You are on a gravel path winding its way between dark evergreen trees on",
                 "the graveyard.  The path leads north and south.  An old tomb is here."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26011",
+            "name": "Gravel Path on the Graveyard",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "26006",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26012"
+                    ]
                 },
-                "west": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "26026",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26032"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "26008",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26010"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26023"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "26015": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads north and west.  An old tomb is here."
-            ],
-            "flags_raw": "0 0 0 2",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26015",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26000"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26014"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26020"
-                }
-            },
-            "extras": {}
-        },
-        "26008": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads north and west.  An old tomb is here."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26008",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26007"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26009"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26025"
-                }
-            },
-            "extras": {}
-        },
-        "26022": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26022",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26012"
-                }
-            },
-            "extras": {}
-        },
-        "26030": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26030",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26003"
-                }
-            },
-            "extras": {}
-        },
-        "26013": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads north and east.  A small shed is to the west."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26013",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26014"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26012"
-                }
-            },
-            "extras": {}
-        },
-        "26004": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads south and west.  An old tomb is here."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26004",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26003"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26005"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26029"
-                }
-            },
-            "extras": {}
-        },
-        "26027": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26027",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26006"
-                }
-            },
-            "extras": {}
+            "vnum": "26007"
         },
         "26014": {
-            "name": "Gravel Path on the Graveyard",
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are on a gravel path winding its way between dark evergreen trees on",
                 "the graveyard.  The path leads east and south.  An old tomb is here."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26014",
+            "name": "Gravel Path on the Graveyard",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26013"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "26015",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26015"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "26021",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26021"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26013",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "26007": {
-            "name": "Gravel Path on the Graveyard",
-            "description": [
-                "You are on a gravel path winding its way between dark evergreen trees on",
-                "the graveyard.  The path leads north and south.  An old tomb is here."
-            ],
-            "flags_raw": "0 0 0 2",
             "wanted_area_vnum": "",
+            "vnum": "26014"
+        },
+        "26016": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
             "flags2_raw": "0",
-            "vnum": "26007",
+            "description": [
+                "You are on a well-kept gravel road that leads north-south through the",
+                "graveyard.  On both sides of the road grow dark evergreen trees."
+            ],
+            "name": "Gravel Road in the Graveyard",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "26001",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26006"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "21138",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "26017",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26008"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26026"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26016"
         },
-        "26031": {
-            "name": "In a Dusty Tomb",
+        "26025": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You are in a dark burial chamber beneath a large tomb stone.",
                 "The only exit appears to be up."
             ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26031",
+            "name": "In a Dusty Tomb",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "26008",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26002"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26025"
+        },
+        "26011": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads north and south.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26012",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "26032",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "26023",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26010",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26011"
+        },
+        "26020": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26015",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26020"
+        },
+        "26023": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26011",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26023"
+        },
+        "26028": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26005",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26028"
         },
         "26012": {
-            "name": "Gravel Path on the Graveyard",
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are on a gravel path winding its way between dark evergreen trees on",
                 "the graveyard.  The path leads south and west.  An old tomb is here."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26012",
+            "name": "Gravel Path on the Graveyard",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "26013",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26013"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26011"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "26022",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26022"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26011",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26012"
+        },
+        "26005": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads north and west.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26004",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "26006",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "26028",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26005"
         },
         "26001": {
-            "name": "Gravel Road in the Graveyard",
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are on a well-kept gravel road that leads north-south through the",
                 "graveyard.  On both sides of the road grow dark evergreen trees.  An iron",
                 "grate is to the north and narrow gravel paths lead east and west."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26001",
+            "name": "Gravel Road in the Graveyard",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26016"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "3503",
                     "description": [
                         ""
-                    ],
-                    "room_id": "3503"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26000"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "26002",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26002"
-                }
-            },
-            "extras": {}
-        },
-        "26026": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26026",
-            "exits": {
-                "up": {
+                    ]
+                },
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "26000",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26007"
-                }
-            },
-            "extras": {}
-        },
-        "26024": {
-            "name": "In a Dusty Tomb",
-            "description": [
-                "You are in a dark burial chamber beneath a large tomb stone.",
-                "The only exit appears to be up."
-            ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26024",
-            "exits": {
-                "up": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "26016",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26010"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26001"
         },
-        "26005": {
-            "name": "Gravel Path on the Graveyard",
+        "26015": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are on a gravel path winding its way between dark evergreen trees on",
                 "the graveyard.  The path leads north and west.  An old tomb is here."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26005",
+            "name": "Gravel Path on the Graveyard",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "26000",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26004"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "26014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26006"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "26020",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26028"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26015"
         },
-        "26025": {
-            "name": "In a Dusty Tomb",
+        "26021": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You are in a dark burial chamber beneath a large tomb stone.",
                 "The only exit appears to be up."
             ],
-            "flags_raw": "0 9 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26025",
+            "name": "In a Dusty Tomb",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "26014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26008"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26021"
+        },
+        "26004": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads south and west.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "26003",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "26029",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26005",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26004"
+        },
+        "26002": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads south and west.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "26001",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "26031",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26003",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26002"
+        },
+        "26000": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "26001",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "26019",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26015",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26000"
+        },
+        "26029": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26004",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26029"
+        },
+        "26030": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26003",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26030"
+        },
+        "26009": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on an open space before a small chapel.  A gravel road leads north",
+                "through the graveyard and the chapel entrance is to the south."
+            ],
+            "name": "In front of the Chapel",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26018",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "26008",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "26010",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "3405",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26009"
+        },
+        "26003": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads north and east.  An old tomb is here."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26002",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "26004",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "26030",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26003"
+        },
+        "26013": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a gravel path winding its way between dark evergreen trees on",
+                "the graveyard.  The path leads north and east.  A small shed is to the west."
+            ],
+            "name": "Gravel Path on the Graveyard",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26014",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "26012",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26013"
+        },
+        "26017": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a well-kept gravel road that leads north-south through the",
+                "graveyard.  On both sides of the road grow dark evergreen trees."
+            ],
+            "name": "Gravel Road in the Graveyard",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26016",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26018",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26017"
+        },
+        "26022": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26012",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26022"
         },
         "26006": {
-            "name": "Gravel Path on the Graveyard",
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are on a gravel path winding its way between dark evergreen trees on",
                 "the graveyard.  The path leads east and south.  An old tomb is here."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26006",
+            "name": "Gravel Path on the Graveyard",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26007"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "26005",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26005"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "26027",
                     "description": [
                         ""
-                    ],
-                    "room_id": "26027"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26007",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "26006"
+        },
+        "26018": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a well-kept gravel road that leads north-south through the",
+                "graveyard.  On both sides of the road grow dark evergreen trees."
+            ],
+            "name": "Gravel Road in the Graveyard",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "26017",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "26009",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26018"
+        },
+        "26019": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26000",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26019"
+        },
+        "26024": {
+            "extras": {},
+            "flags_raw": "0 9 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a dark burial chamber beneath a large tomb stone.",
+                "The only exit appears to be up."
+            ],
+            "name": "In a Dusty Tomb",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "26010",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26024"
         }
     },
-    "uid": "graveyard",
-    "area_quest_points": 0,
     "credits": "[09 GR 20] Westbridge Graveyard",
     "faction_id": "",
+    "name": "The Graveyard",
     "vnums": [
         26000,
         26050
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "26048": {
-            "name": "{MG{meneral {RK{Ye{Rf{Yk{Ra{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "{RH{mere in his mortal form, Kefka has donned the Magitek Armor\n",
                 "{Yt{mo do battle with the peons of Kefkaburg that have dared to\n",
@@ -974,14 +975,13 @@
                 "{Ys{muffering.{x\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "ABCEFHIJKN ABLQ 0 O",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 26048,
             "raw_flags": "ABFGT DFJLa 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "ABCEFHIJKN ABLQ 0 O",
+            "room_name": "{MG{meneral {RK{Ye{Rf{Yk{Ra {8stands here, barking orders and doing battle!{x\n",
+            "name": "{MG{meneral {RK{Ye{Rf{Yk{Ra{x~\n",
             "raw_flags2": "150 50 1000d2000+20000 100d100+9000 400d10+200 crush",
-            "d_flags": "D ~",
+            "keywords": "Vector General Kefka man male human #yyzzyyz~\n",
             "subroutines": [
                 "M hpcnt 26038 10~\n",
                 "M hpcnt 26039 25~\n",
@@ -990,12 +990,13 @@
                 "M fight 26042 10~\n",
                 "M fight 26043 30~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{MG{meneral {RK{Ye{Rf{Yk{Ra {8stands here, barking orders and doing battle!{x\n",
-            "keywords": "Vector General Kefka man male human #yyzzyyz~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26049": {
-            "name": "{8a {RR{rad{yia{rnt {RH{re{ya{rrt {RR{rein{yforc{rement {RS{rol{ydi{rer{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -30",
             "description": [
                 "{RT{rhis soldier is dressed in the resilient red armor of\n",
                 "{Rt{rhe {RO{rr{yd{re{Rr {cof the {RR{rad{yi{rant {RH{re{ya{rr{Rt{r.  He wears a full-face\n",
@@ -1004,14 +1005,13 @@
                 "{rpational forces.{x\n"
             ],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "BCDEFIKN AB GM 0",
-            "raw_flags3": "-30 -30 -30 -30",
             "vnum": 26049,
             "raw_flags": "AGT DFJa D 0 2101",
-            "race_id": "human",
+            "raw_flags4": "BCDEFIKN AB GM 0",
+            "room_name": "{8A {RR{rad{yia{rnt {RH{re{ya{rrt {RR{rein{yforc{rement {RS{rol{ydi{rer {8is ready for battle!!{x\n",
+            "name": "{8a {RR{rad{yia{rnt {RH{re{ya{rrt {RR{rein{yforc{rement {RS{rol{ydi{rer{x~\n",
             "raw_flags2": "120 100 10d60+15000 10d60+15000 30d30+50 pierce",
-            "d_flags": "D ~",
+            "keywords": "#RH Radiant Heart Reinforcement soldier man male human~\n",
             "subroutines": [
                 "M random 26031 100~\n",
                 "M grall 26047 100~\n",
@@ -1021,12 +1021,13 @@
                 "M fight 26045 99~\n",
                 "M random 26044 99~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8A {RR{rad{yia{rnt {RH{re{ya{rrt {RR{rein{yforc{rement {RS{rol{ydi{rer {8is ready for battle!!{x\n",
-            "keywords": "#RH Radiant Heart Reinforcement soldier man male human~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26050": {
-            "name": "{8a {MV{mectorian {MR{meinforcement {MS{moldier{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -30",
             "description": [
                 "{MT{mhis solder is dressed in heavy Vectorian platemail that\n",
                 "{Mc{mrackles with charged energy.  He wears a full-face helm\n",
@@ -1035,14 +1036,13 @@
                 "{RNOT {mend anytime soon.{x\n"
             ],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "BCDEFIKN AB GM 0",
-            "raw_flags3": "-30 -30 -30 -30",
             "vnum": 26050,
             "raw_flags": "AGT DFJa E -400 2100",
-            "race_id": "human",
+            "raw_flags4": "BCDEFIKN AB GM 0",
+            "room_name": "{8A {MV{mectorian {MR{meinforcement {MS{moldier {8is ready for battle!!{x\n",
+            "name": "{8a {MV{mectorian {MR{meinforcement {MS{moldier{x~\n",
             "raw_flags2": "120 100 10d60+15000 10d60+15000 30d30+50 slash",
-            "d_flags": "D ~",
+            "keywords": "Vectorian Reinforcement soldier man male human #VR~\n",
             "subroutines": [
                 "M random 26031 99~\n",
                 "M entry 26031 99~\n",
@@ -1052,131 +1052,132 @@
                 "M death 26049 100~\n",
                 "M grall 26050 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8A {MV{mectorian {MR{meinforcement {MS{moldier {8is ready for battle!!{x\n",
-            "keywords": "Vectorian Reinforcement soldier man male human #VR~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26000": {
-            "name": "Henry the Gardener~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "He is a tall but bulky man in his late fifties.  His features are worn with\n",
                 "decades of hard work and his somewhat crouched expression is one of deep\n",
                 "sorrow and depression.  He is haunted by a memory of a lost paradise.\n"
             ],
             "raw_flags5": "sit sit male 2",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 26000,
             "raw_flags": "AG 0 0 350 0",
-            "race_id": "human",
-            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "Henry the Gardener is sitting here, looking drunk.\n",
-            "keywords": "oldstyle henry gardener~\n"
+            "name": "Henry the Gardener~\n",
+            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle henry gardener~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26001": {
-            "name": "the rotting zombie~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "Maggots crawl all over its decaying body.\n"
             ],
             "raw_flags5": "stand stand male 2",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 26001,
             "raw_flags": "ABF J 0 -750 0",
-            "race_id": "human",
-            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A rotting zombie is staggering towards you with outstretched hands.\n",
-            "keywords": "oldstyle zombie~\n"
+            "name": "the rotting zombie~\n",
+            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle zombie~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26002": {
-            "name": "the ghastly ghoul~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 9",
             "description": [
                 "It is a walking corpse with long fangs and long, sharp nails that most of\n",
                 "resemble claws.  Its eyes are a dark yellow colour and glare hungrily at you.\n"
             ],
             "raw_flags5": "stand stand male 5",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "4 4 4 9",
             "vnum": 26002,
             "raw_flags": "ABF J 0 -750 0",
-            "race_id": "human",
-            "raw_flags2": "11 0 2d7+71 3d9+100 1d7+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A ghastly ghoul is here.\n",
-            "keywords": "oldstyle ghoul~\n"
+            "name": "the ghastly ghoul~\n",
+            "raw_flags2": "11 0 2d7+71 3d9+100 1d7+1 none",
+            "keywords": "oldstyle ghoul~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26003": {
-            "name": "a dusty skeleton~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "The dusty bones are almost brown.  It must have been buried for a very long\n",
                 "time.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 26003,
             "raw_flags": "ABF J 0 -750 0",
-            "race_id": "human",
-            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A dusty skeleton lies here.\n",
-            "keywords": "oldstyle skeleton~\n"
+            "name": "a dusty skeleton~\n",
+            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle skeleton~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26004": {
-            "name": "a dusty skeleton~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "The dusty bones are almost brown.  It must have been buried for a very long\n",
                 "time.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 26004,
             "raw_flags": "AF J 0 -750 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A dusty skeleton lies here.\n",
-            "keywords": "oldstyle skeleton~\n"
+            "name": "a dusty skeleton~\n",
+            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle skeleton~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26005": {
-            "name": "the rotting zombie~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "Maggots crawl all over its decaying body.\n"
             ],
             "raw_flags5": "stand stand male 5",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 26005,
             "raw_flags": "AF J 0 -750 0",
-            "race_id": "human",
-            "raw_flags2": "7 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A rotting zombie is staggering towards you with outstretched hands.\n",
-            "keywords": "oldstyle zombie~\n"
+            "name": "the rotting zombie~\n",
+            "raw_flags2": "7 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle zombie~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26045": {
-            "name": "{8Buxbaum{r, {RR{rad{yia{rnt {RH{re{ya{rrt {RG{ren{yer{ral{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "{RB{ruxbaum is a man of few words and all action.  He stands for\n",
                 "{Re{rverything righteous in the world, for absolute good must be\n",
@@ -1184,14 +1185,13 @@
                 "{Ri{rs embellished with the crest of the Radiant Heart.{x\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "ABCEFHIJKN ABLQ H O",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 26045,
             "raw_flags": "AGT DFJLV DN 1000 0",
-            "race_id": "human",
+            "raw_flags4": "ABCEFHIJKN ABLQ H O",
+            "room_name": "{8Buxbaum{w, the {RR{rad{yia{rnt {RH{re{ya{rrt {RG{ren{yer{ral {wstands here, giving orders and doing battle.{x\n",
+            "name": "{8Buxbaum{r, {RR{rad{yia{rnt {RH{re{ya{rrt {RG{ren{yer{ral{x~\n",
             "raw_flags2": "150 50 1000d2000+20000 100d100+9000 400d10+100 slice",
-            "d_flags": "D ~",
+            "keywords": "#RHG Radiant Heart General Buxbaum~\n",
             "subroutines": [
                 "M fight 26025 40~\n",
                 "M grall 26026 100~\n",
@@ -1199,33 +1199,34 @@
                 "M fight 26029 20~\n",
                 "M entry 26027 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8Buxbaum{w, the {RR{rad{yia{rnt {RH{re{ya{rrt {RG{ren{yer{ral {wstands here, giving orders and doing battle.{x\n",
-            "keywords": "#RHG Radiant Heart General Buxbaum~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26046": {
-            "name": "Impinvis, level 104, soldier loader~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [
                 "Here to load up the solders for the ImmQuest!\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQa 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 26046,
             "raw_flags": "ABG PQ BP 0 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "room_name": "Impinvis, level 104, soldier loader.\n",
+            "name": "Impinvis, level 104, soldier loader~\n",
             "raw_flags2": "104 0 35d35+6145 35d35+6145 5d9+22 beating",
-            "d_flags": "D ~",
+            "keywords": "impinvis #soldier creator~\n",
             "subroutines": [
                 "M random 26032 99~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Impinvis, level 104, soldier loader.\n",
-            "keywords": "impinvis #soldier creator~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "26047": {
-            "name": "{YL{RO{YR{RD {RK{YE{RF{YK{RA{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -50 -50 -50",
             "description": [
                 "{RT{mhe stench of his mortal coil has been thrown off, and now\n",
                 "{Yb{mefore you, hovers the embodiment of the evils to which the\n",
@@ -1237,24 +1238,23 @@
                 "{Yt{mime marks the end of all who oppose him and Vector.{x\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "ABCEFHIJKN ABLQ CM FN",
-            "raw_flags3": "-50 -50 -50 -50",
             "vnum": 26047,
             "raw_flags": "ABFGT DFJLTa H -1000 0",
-            "race_id": "human",
+            "raw_flags4": "ABCEFHIJKN ABLQ CM FN",
+            "room_name": "{YL{RO{YR{RD {RK{YE{RF{YK{RA {whovers here, ready to end lives for {MV{mector{M!{x\n",
+            "name": "{YL{RO{YR{RD {RK{YE{RF{YK{RA{x~\n",
             "raw_flags2": "150 50 2700d3000+20000 100d100+9000 400d10+400 wrath",
-            "d_flags": "D ~",
+            "keywords": "Vector General Kefka God Godform Lord #zzxxyyz~\n",
             "subroutines": [
                 "M death 26033 100~\n",
                 "M hpcnt 26034 100~\n",
                 "M fight 26036 30~\n",
                 "M fight 26035 30~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{YL{RO{YR{RD {RK{YE{RF{YK{RA {whovers here, ready to end lives for {MV{mector{M!{x\n",
-            "keywords": "Vector General Kefka God Godform Lord #zzxxyyz~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

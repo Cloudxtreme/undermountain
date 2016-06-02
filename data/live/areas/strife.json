@@ -1,370 +1,99 @@
 {
-    "name": "The Shattered Keep",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "strife",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "strife",
     "rooms": {
-        "20070": {
-            "name": "Cold..Dank..Cell",
-            "description": [
-                "You stand in a void of nothingness.  No light reaches your eyes, no sound",
-                "your ears.  You have been forsaken.  "
-            ],
-            "flags_raw": "0 134751240 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20070",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20059"
-                }
-            },
-            "extras": {}
-        },
-        "20052": {
-            "name": "Just Inside the Shattered Keep",
-            "description": [
-                "This small, smokey room is lit with guttering torches, and reeks of",
-                "ale and filth.  A bored looking guard snaps to attention and moves to",
-                "block the door leading into the Keep.  \"Only the faithful of our Lord",
-                "Cyric may enter,\" he snarls.  "
-            ],
+        "20098": {
+            "extras": {},
             "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20052",
+            "description": [
+                "This simple hallway opens up before a large oval shaped metal door.",
+                "The door bears the bull, and sunburst standard of the Order of the ",
+                "Ebon Spur."
+            ],
+            "name": "{&Pathway to the {8E{7b{8on {1Sp{!u{1r{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "38545",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20053"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20051"
-                }
-            },
-            "extras": {}
-        },
-        "20062": {
-            "name": "Gateways of Strife",
-            "description": [
-                "You stand in an empty room, a tall archway centered in each wall.  The",
-                "arches themselves crackle with arcane might, waiting to carry you away on",
-                "missions of Strife and Murder..  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20062",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20060"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4256"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "6788"
-                }
-            },
-            "extras": {}
-        },
-        "20086": {
-            "name": "Setzer's Casting Chamber",
-            "description": [
-                "You step into a circular {*black{x marble room with savage motiffs of",
-                "animals on the walls.  There is a strange circle of dried {!  Blood{x on the",
-                "floor tracing a carved etching ...  The bittersweet smell of {!  Blood{x",
-                "lingers in the air as you note the runes around the circle.  Each Rune",
-                "depicts a different animal, but all are twisted and savage...  "
-            ],
-            "flags_raw": "0 67641385 0 15",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20086",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20072"
-                }
-            },
-            "extras": {}
-        },
-        "20058": {
-            "name": "Pit",
-            "description": [
-                "Yoy find yourself in a empty pit, far below the Keep.  The fieldstone walls bear",
-                "hundreds of nicks and gouges, along with splotches of dried blood and bit of flesh."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20058",
-            "exits": {
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20057"
-                }
-            },
-            "extras": {}
-        },
-        "20075": {
-            "name": "Saint's Office",
-            "description": [
-                "As you enter the room, you smell the stench of {3beer{0 and the smell",
-                "of dry {!  Blood{0.  On the Wall, you see a {3Dart{#Board and a group picture",
-                "of every {!  SUR{0 Member to date, and you also see a gread war painting",
-                "of Saint, slaying {1everyone{0 in the battlefield, slaying all of the",
-                "{$fucking {!  Sad {^heritics!!  {0 "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20075",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20073"
-                }
-            },
-            "extras": {}
-        },
-        "20065": {
-            "name": "Rastlin's Unholy Workshop",
-            "description": [
-                "Thos room is the Magical hub of the {%C{5hurch {8of {5Strif{%e{x.  You",
-                "see various bodyparts and spell components scattered around the room.  Along",
-                "the walls you see various voodoos of heretics with pins sticking out of",
-                "where there {!  Hearts{x should be, You are in the office of",
-                "{%R{5as{8t{5li{%n{x, Archmage of the {%C{5hurch {8of {5Strif{%e{x!  ",
-                ""
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20065",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20064"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20071"
-                }
-            },
-            "extras": {}
-        },
-        "20081": {
-            "name": "Behind the Tapestry",
-            "description": [
-                "This barren room is totally empty, save for a few bits of garbage that",
-                "blow around on the floor.  A heavy looking grate lies in the center of the",
-                "rough stone floor, and you notice the slight sound of trickling water rises",
-                "from the {*darnkess{x.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20081",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20079"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38514"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20082"
-                }
-            },
-            "extras": {}
-        },
-        "20054": {
-            "name": "Hall of Lies",
-            "description": [
-                "This vast hall has been carved from seamless {8black marble{7 that seems ",
-                "to absorb the  very light, sending thick shadows dancing across the ",
-                "chamber.  The darkness shifts and undulates, seeming almost alive.  A ",
-                "soft murmur rustles through the room, for  every lie that has ever been",
-                "spoken echos here for eternity, an unholy chorus to serenade the One ",
-                "and All."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20054",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "a guilded archway leads to the north"
-                    ],
-                    "room_id": "20064"
-                },
-                "south": {
-                    "flags_raw": "20050",
-                    "description": [
-                        "a guilded archway lead to the west"
-                    ],
-                    "room_id": "20053"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "a wide stairwell leads up into the shadows"
-                    ],
-                    "room_id": "20060"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "a guilded archway leads to the east"
-                    ],
-                    "room_id": "20056"
+                    ]
                 },
                 "west": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "20056",
                     "description": [
-                        "a guilded archway leads to the south"
-                    ],
-                    "room_id": "20057"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "a trap door leads down into the darkness"
-                    ],
-                    "room_id": "20059"
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20098"
+        },
+        "20097": {
+            "extras": {},
+            "flags_raw": "0 524292 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Stables Mob Load Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "20097"
         },
         "20066": {
-            "name": "{&Council Room of the {8E{7b{8on {1Sp{!u{1r{x",
+            "extras": {},
+            "flags_raw": "0 67641389 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This circular room is very plain, and poorly decorated.  The bare stone",
                 "walls are dull.  In the center of the room there is a large table.",
                 "Crafted from oak, a large picture depicting a bull set into a",
                 "dark sunburst."
             ],
-            "flags_raw": "0 67641389 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20066",
+            "name": "{&Council Room of the {8E{7b{8on {1Sp{!u{1r{x",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20082",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20082"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20066"
         },
-        "20078": {
+        "20055": {
+            "extras": {},
+            "flags_raw": "0 532488 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a dimly lit hallway that leads straight back into the keep. Torches",
+                "gutter in sconces along the walls and in their yellow light you see that many doors ",
+                "line both sides of the hallway."
+            ],
             "name": "Path of the True Believer",
-            "description": [
-                "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
-                "eastern and western walls."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20078",
             "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20079"
-                },
                 "south": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "20054",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20077"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20096": {
-            "name": "Stables",
-            "description": [
-                "{3Upon entering the stables, you are immediately overwhelmed by the",
-                "stench of hay and maneur.  This large poorly tended wooden stable,",
-                "house all of the Churchs mounts.  The only peculiar stall is",
-                "one which {&'{8Abyss{&'{3is enscribed on a plaque hanging above it.",
-                "That one stall appears to be very dark."
-            ],
-            "flags_raw": "0 604512297 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20096",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20057"
-                }
-            },
-            "extras": {}
+            "vnum": "20055"
         },
         "20072": {
-            "name": "Hall of Shadows",
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You step into a large {^cold{x chamber, its high ceiling held up by tall",
                 "stone columns.  Close examination of the columns finds that {*skulls{x have",
@@ -375,156 +104,875 @@
                 "non-believers.  At the end of the chamber you see a huge bed, carved in the",
                 "image of a pair of cupped, skeletal hands.  "
             ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20072",
+            "name": "Hall of Shadows",
             "exits": {
                 "west": {
                     "flags_raw": "20089",
+                    "room_id": "20064",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20064"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "20086",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20086"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20072"
         },
-        "20077": {
-            "name": "Path of the True Believer",
+        "20056": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a vast chamber of black stone, lit with a dim purple light wiht no",
+                "apparent source.  Huge statues of the One and All line the room, each seeming",
+                "to stare at you with malice filled eyes.  You make out a massive black altar",
+                "has been placed in the center of the room, a silver sacrificial platter set atop ",
+                "it.  Looking closer you notice the still heart of Cyric's latest victim,",
+                "cooling in the still air."
+            ],
+            "name": "Black Altar",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38506",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20098",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "20054",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20085",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20056"
+        },
+        "20053": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Stepping through the door you find yourself surrounded by thick fog.",
+                "The moist smell of a fresh grave fills the air, and you hear moaning",
+                "and shuffling coming from all around you, accompanied by the cold clank",
+                "of a captive's chains."
+            ],
+            "name": "Courtyard of Pain",
+            "exits": {
+                "north": {
+                    "flags_raw": "20050",
+                    "room_id": "20054",
+                    "description": [
+                        "a heavy oaken door banded with thick iron bars hanngs here"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20052",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20053"
+        },
+        "20093": {
+            "extras": {},
+            "flags_raw": "0 532484 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Tomb of Optimus Prime",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20082",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20093"
+        },
+        "20064": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
                 "eastern and western walls."
             ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20077",
+            "name": "Path of the True Believer",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20073",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20078"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "20089",
+                    "room_id": "20072",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20065",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20054",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20076"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20064"
+        },
+        "20079": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "the {*dark{x hallway ends abruptly, and u notice a massive tapestry hanging on the northern wall. A heavy door lies to the east and west, and looking up your see a small trap door in the ceiling."
+            ],
+            "name": "Path of the True Believer",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20081",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20080",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20078",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20079"
+        },
+        "20094": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8You stand in a vast room, the black marble walls {5polished and hung",
+                "thick with tapestries.  {8Torches line the chamber, their warm light",
+                "reflected in a thousand glittering amethests {5that guild the high, domed",
+                "ceiling.  On the east wall a skull {8has been sculpted out of the stone",
+                "itself, {5its soulless eyes vacant and staring.  A {8silver basin has been",
+                "placed under this strange {5monument, collecting the steady stream of blood",
+                "colored {8liquid the pours from its gaping jaws....  {0 "
+            ],
+            "name": "Evilynn's Rendezvous",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20076",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20094"
+        },
+        "20062": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in an empty room, a tall archway centered in each wall.  The",
+                "arches themselves crackle with arcane might, waiting to carry you away on",
+                "missions of Strife and Murder..  "
+            ],
+            "name": "Gateways of Strife",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "20060",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "6788",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "4256",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20062"
+        },
+        "20083": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "After walking for what seems like hours, the cold, dark tunnel seems to",
+                "have no end as the miles begin to add up.  "
+            ],
+            "name": "Secret Tunnel",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20082",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20083"
+        },
+        "20060": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The crackling fire that roars in a massive hearth, throws flickering",
+                "light across the polished oaken walls of this huge chamber.  Massive",
+                "reliefs, depicting the greatest feats of the One and All, have been carved",
+                "into the panels with the utmost care...  As if the artist's life depended on",
+                "the quality of his workmanship.....  "
+            ],
+            "name": "Chamber of Intrigue",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38505",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "20063",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38501",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "20054",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "20062",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20060"
+        },
+        "20071": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Rastlin's Spellcasting Chamber",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20065",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20071"
+        },
+        "20050": {
+            "extras": {},
+            "flags_raw": "0 67641377 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand atop a high hill, looking down apon the feet of a mighty",
+                "mountain range.  The high stone soars thousands of feet above to jagged",
+                "pinacles, ice and snow still clinging in those great elevations.  Looking",
+                "down, to the north you see the high stone walls of a massive black keep",
+                "rising from the base of the nearest peek.  Guards walk the parapets,",
+                "sunlight glinting off their ready arrows as they scan the horizon for",
+                "intruders.  "
+            ],
+            "name": "Outside the Shattered Keep",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "20051",
+                    "description": [
+                        "to the north lies the gatehouse of the Shattered Keep"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20050"
+        },
+        "20077": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
+                "eastern and western walls."
+            ],
+            "name": "Path of the True Believer",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20078",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20076",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20077"
+        },
+        "20052": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This small, smokey room is lit with guttering torches, and reeks of",
+                "ale and filth.  A bored looking guard snaps to attention and moves to",
+                "block the door leading into the Keep.  \"Only the faithful of our Lord",
+                "Cyric may enter,\" he snarls.  "
+            ],
+            "name": "Just Inside the Shattered Keep",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20053",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20051",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20052"
+        },
+        "20085": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Once the strongest of Dracoliches, {@Dank{2nu{8g{2gi{@ttis{x has now come to",
+                "serve the faithful of {%L{5or{%d {%C{5y{8r{5i{%c{x.  After countless battles and",
+                "hundreds of thousands of years of existance, only the great wyrms",
+                "{8skull{x remains, this held together by little more than foul magics. ",
+                "Black fires burn within his eyes though, and his hissing voice seems",
+                "to come from nowhere inparticular as it addresses you...  \"{$I smell the",
+                "might of our Dark Lord in you little mortal, come...  Let me teach you",
+                "the ways of the One and All.  {x "
+            ],
+            "name": "Lair of Danknuggittis the Profane",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20056",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20085"
+        },
+        "20065": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Thos room is the Magical hub of the {%C{5hurch {8of {5Strif{%e{x.  You",
+                "see various bodyparts and spell components scattered around the room.  Along",
+                "the walls you see various voodoos of heretics with pins sticking out of",
+                "where there {!  Hearts{x should be, You are in the office of",
+                "{%R{5as{8t{5li{%n{x, Archmage of the {%C{5hurch {8of {5Strif{%e{x!  ",
+                ""
+            ],
+            "name": "Rastlin's Unholy Workshop",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20064",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20071",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20065"
+        },
+        "20087": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is filled with the {2rotting {3corpses{x of dead",
+                "{^H{6a{^r{6p{^e{6r{^s{x, scattered before an {8obsidian{x statue of Cyric,",
+                "as an offering to the {%O{5ne {8and {5Al{%l{x.  Dried {!  Blood{x covers the",
+                "floor, and has been splattered on the {#torch{x lined walls.  A coffin lies",
+                "to the right side of the statue so, as {%A{5sm{8od{5eu{%s{x rests, he can be",
+                "close to his god.  Cracked and bashed in {*skulls{x line the far wall,",
+                "victims who happened to wonder across the mad lich.  "
+            ],
+            "name": "Asmodeus' Crypt",
+            "exits": {
+                "south": {
+                    "flags_raw": "20091",
+                    "room_id": "20080",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20087"
+        },
+        "20092": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{7This small hut smells heavily of stale {3co{2r{8p{2s{3es{7.  The walls are lined ",
+                "with various body parts.  There is a large table in the center of the",
+                "room covered with {!blood{7, and gore.  Shelves, and baskets have",
+                "been placed along the outside permiter of the hut, their contents are",
+                "a mystery.{x"
+            ],
+            "name": "{1R{2a{1s{2h{1a{2k{1a{2'{1s {3Hut Of {%Vo{5o{8do{5o{%'s{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20057",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20092"
+        },
+        "20081": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This barren room is totally empty, save for a few bits of garbage that",
+                "blow around on the floor.  A heavy looking grate lies in the center of the",
+                "rough stone floor, and you notice the slight sound of trickling water rises",
+                "from the {*darnkess{x.  "
+            ],
+            "name": "Behind the Tapestry",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38514",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20082",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20079",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20081"
         },
         "20084": {
-            "name": "Secret Tunnel",
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The tunnel ends suddenly in a wall of jagged rock.  Glancing around you",
                 "notice a ladder has been attached to the wall here, leading up into the",
                 "gloom.  "
             ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20084",
+            "name": "Secret Tunnel",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20083"
-                },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "212",
                     "description": [
                         ""
-                    ],
-                    "room_id": "212"
-                }
-            },
-            "extras": {}
-        },
-        "20079": {
-            "name": "Path of the True Believer",
-            "description": [
-                "the {*dark{x hallway ends abruptly, and u notice a massive tapestry hanging on the northern wall. A heavy door lies to the east and west, and looking up your see a small trap door in the ceiling."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20079",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20081"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20083",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20078"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20080"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20084"
         },
-        "20076": {
-            "name": "Path of the True Believer",
+        "20073": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
                 "eastern and western walls."
             ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20076",
+            "name": "Path of the True Believer",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20073"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20076",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20077"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20074",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20094"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20075",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20064",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20073"
+        },
+        "20063": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a small round chamber constructed from smoky grey granite.",
+                "In the center of each wall hangs a giant silver skull shaped doorway. ",
+                "Arcane energy swirls within their frame, filling the air with a slight",
+                "hum...  "
+            ],
+            "name": "Chamber of Skulls",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "212",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "27251",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "20060",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20067",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20063"
+        },
+        "20069": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "As you step into this vast chamber you wonder if you have",
+                "accidentally entered the 9 Hells..  A massive forge belches flame and",
+                "soot scorching your exposed flesh.  Several small forms scurry about",
+                "the chaos, pushing carts of ore and stoking the fires, and you notice",
+                "a stout, well muscled dwarf standing next to a huge anvil.  \"what can",
+                "i do fer ye\" he grunts as he turns his attention away from his",
+                "apprentices, \"if ye got the gold i got the steel...\"  "
+            ],
+            "name": "Dagna's Forge",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20057",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20069"
+        },
+        "20054": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This vast hall has been carved from seamless {8black marble{7 that seems ",
+                "to absorb the  very light, sending thick shadows dancing across the ",
+                "chamber.  The darkness shifts and undulates, seeming almost alive.  A ",
+                "soft murmur rustles through the room, for  every lie that has ever been",
+                "spoken echos here for eternity, an unholy chorus to serenade the One ",
+                "and All."
+            ],
+            "name": "Hall of Lies",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "20064",
+                    "description": [
+                        "a guilded archway leads to the north"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "20056",
+                    "description": [
+                        "a guilded archway leads to the east"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "20059",
+                    "description": [
+                        "a trap door leads down into the darkness"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "20050",
+                    "room_id": "20053",
+                    "description": [
+                        "a guilded archway lead to the west"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "20060",
+                    "description": [
+                        "a wide stairwell leads up into the shadows"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "20057",
+                    "description": [
+                        "a guilded archway leads to the south"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20054"
+        },
+        "20095": {
+            "extras": {},
+            "flags_raw": "0 532488 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Alisten's Office",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20066",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20095"
+        },
+        "20078": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
+                "eastern and western walls."
+            ],
+            "name": "Path of the True Believer",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20079",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20077",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20078"
+        },
+        "20096": {
+            "extras": {},
+            "flags_raw": "0 604512297 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{3Upon entering the stables, you are immediately overwhelmed by the",
+                "stench of hay and maneur.  This large poorly tended wooden stable,",
+                "house all of the Churchs mounts.  The only peculiar stall is",
+                "one which {&'{8Abyss{&'{3is enscribed on a plaque hanging above it.",
+                "That one stall appears to be very dark."
+            ],
+            "name": "Stables",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20057",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20096"
+        },
+        "20058": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Yoy find yourself in a empty pit, far below the Keep.  The fieldstone walls bear",
+                "hundreds of nicks and gouges, along with splotches of dried blood and bit of flesh."
+            ],
+            "name": "Pit",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "20057",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20058"
         },
         "20088": {
-            "name": "Chamber of the Crayon Man",
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Great stone walls surround you as you enter this chamber.  To the left",
                 "you see a window with a view of a pit that holds the {3co{2rps{3e's{x of the",
@@ -536,123 +984,260 @@
                 "pool.  Behind them stands a large statue of the great Methan.  There is a",
                 "large stone tablet at its feet that reads: \"The {!  C{@r{#a{$y{%o{^n{x Man\"."
             ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20088",
+            "name": "Chamber of the Crayon Man",
             "exits": {
                 "north": {
                     "flags_raw": "20092",
+                    "room_id": "20080",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20080"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20074": {
-            "name": "Trip's Office",
-            "description": [
-                "You are instantly {!  M{#e{%s{&m{@e{$r{^i{1z{3e{5d{7 by the mere existence of this room. ",
-                "The walls are designed in a {%s{!  W{&i{#r{@l{7 of {#s{1c{^i{%n{4t{@i{6l{!  A{$t{5i{3n{2g{7 colors.  At",
-                "first you lose your depth perception and are reeling through a {!  V{#o{%i{@d{7.",
-                "But as {%T{8r{%i{8p{7 hands you a bottle of liquid {#L{!  S{%D{^2{@5{7, you realize it will",
-                "be okay.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20074",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20073"
-                }
-            },
-            "extras": {}
+            "vnum": "20088"
         },
-        "20057": {
-            "name": "Armoury",
-            "description": [
-                "You stand in a small stone room, lined with weapons of all makes and sizes.  The",
-                "wicked steel gleams in razor-like beauty, as they each wait to bite into the ",
-                "flesh of Non-Believers."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
+        "20091": {
+            "extras": {},
+            "flags_raw": "0 67641389 0 0",
             "flags2_raw": "0",
-            "vnum": "20057",
+            "description": [
+                "Haunting shrieks of the most umaginable pain assail you as you gaze upon",
+                "this room of misery.  Here hang those who once breathed life, but were",
+                "foolish enough to cross the {%Pr{5in{8ce of {5Li{%es{x ... it proved to be their fatal",
+                "mistake.  You wonder who would be brazen enough to anger one who can",
+                "extinguish life with one cold gaze, and his satisfaction in having destroyed",
+                "these insolent mortals is almost tangible.  "
+            ],
+            "name": "Cyric's Palace of {!P{8a{1i{8n {$& {!Suffering{0",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "20091"
+        },
+        "20067": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8  This tower is constructed purely of onyx.  All of which was stolen",
+                "from a faithless Duergar Hold.  Small beams of light shine in only ",
+                "to bounce off the many faceted gems, creating a dim ebony aura.",
+                "The center of the room contains a large, summoning circle.  It has",
+                "been intricatly drawn up, outlined in virgins blood spinkled with diamond dust."
+            ],
+            "name": "{8Black Spire{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20092"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20063",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20069"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20067"
+        },
+        "20051": {
+            "extras": {},
+            "flags_raw": "0 67641377 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand outside the high gatehouse of the shattered keep.  Set within the thick",
+                "stone walls, a solid steel gate glints in the sparse light.  Looking closer you ",
+                "notice hundreds of tiny skulls have been etched into the metal.  The guard here looks",
+                "at you warily, as he reaches for his weapon."
+            ],
+            "name": "Outside the Shattered Keep",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20052",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "20050",
+                    "description": [
+                        "the trail leads away to the south..."
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20051"
+        },
+        "20059": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This small chamber it empty, save for a ratty table that has been pushed",
+                "against the eastern wall.  A few guards sit around the table, throwing dice",
+                "and drinking bitter ale, as you enter the room they look up and reach for",
+                "their weapons....  "
+            ],
+            "name": "Guard Chamber",
+            "exits": {
+                "north": {
+                    "flags_raw": "20097",
+                    "room_id": "20070",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20054",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20059"
+        },
+        "20080": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand on the first landing of the infamous Tower of Faith.  Doors",
+                "exit the room in all directions, and a winding iron staircast leads up into",
+                "the {8darkness{x.  "
+            ],
+            "name": "Tower of Faith",
+            "exits": {
+                "north": {
+                    "flags_raw": "20091",
+                    "room_id": "20087",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "20097",
+                    "room_id": "20089",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "20090",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20096"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20054"
+                    ]
                 },
                 "down": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "20079",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20058"
-                }
-            },
-            "extras": {}
-        },
-        "20087": {
-            "name": "Asmodeus' Crypt",
-            "description": [
-                "This room is filled with the {2rotting {3corpses{x of dead",
-                "{^H{6a{^r{6p{^e{6r{^s{x, scattered before an {8obsidian{x statue of Cyric,",
-                "as an offering to the {%O{5ne {8and {5Al{%l{x.  Dried {!  Blood{x covers the",
-                "floor, and has been splattered on the {#torch{x lined walls.  A coffin lies",
-                "to the right side of the statue so, as {%A{5sm{8od{5eu{%s{x rests, he can be",
-                "close to his god.  Cracked and bashed in {*skulls{x line the far wall,",
-                "victims who happened to wonder across the mad lich.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20087",
-            "exits": {
+                    ]
+                },
                 "south": {
-                    "flags_raw": "20091",
+                    "flags_raw": "20092",
+                    "room_id": "20088",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20080"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20080"
+        },
+        "20082": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You find yourself in a roughly carved tunnel that leads north into",
+                "{*darkness{x.  A tiny stream of rank {^water{x flows down the middle of the",
+                "tunnel.  "
+            ],
+            "name": "Secret Tunnel",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20083",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20081",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20099",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20082"
+        },
+        "20089": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room smells of Jasmine and Myrhh quite in contrast to the {2gore{0",
+                "filled {!  Bleeding{0 walls.  The room is dome shaped with some twisted",
+                "demon orgy mosaic adorning the ceiling.  Candles are burning endlessly but",
+                "despite the soft {#light{0 they add no warmth and in fact make the room",
+                "seems {8darker{0.  You melt from need as you settle yourself on the {1red",
+                "{0satin and {8bone{0 canopy before you.  There is a Hot tub filled with the",
+                "sweet {!  Red{0 wine that bleeds from the walls.  "
+            ],
+            "name": "Saucey Wench",
+            "exits": {
+                "west": {
+                    "flags_raw": "20097",
+                    "room_id": "20080",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20089"
+        },
+        "20075": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "As you enter the room, you smell the stench of {3beer{0 and the smell",
+                "of dry {!  Blood{0.  On the Wall, you see a {3Dart{#Board and a group picture",
+                "of every {!  SUR{0 Member to date, and you also see a gread war painting",
+                "of Saint, slaying {1everyone{0 in the battlefield, slaying all of the",
+                "{$fucking {!  Sad {^heritics!!  {0 "
+            ],
+            "name": "Saint's Office",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20073",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20075"
         },
         "20090": {
-            "name": "Kocheese's Room of Death",
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{#To{3rch{#es{& line the walls of this dimly lit, disgusting room.  They",
                 "throw just enough light across the chamber to see the {!  Severed{& limbs",
@@ -663,325 +1248,23 @@
                 "disturbing.  Along the left wall sits a pool of {0boiling{& bong water. ",
                 "The dank stench wafting from this pool is overwhelming.  {0 "
             ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20090",
+            "name": "Kocheese's Room of Death",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20080",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20080"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20091": {
-            "name": "Cyric's Palace of {!P{8a{1i{8n {$& {!Suffering{0",
-            "description": [
-                "Haunting shrieks of the most umaginable pain assail you as you gaze upon",
-                "this room of misery.  Here hang those who once breathed life, but were",
-                "foolish enough to cross the {%Pr{5in{8ce of {5Li{%es{x ... it proved to be their fatal",
-                "mistake.  You wonder who would be brazen enough to anger one who can",
-                "extinguish life with one cold gaze, and his satisfaction in having destroyed",
-                "these insolent mortals is almost tangible.  "
-            ],
-            "flags_raw": "0 67641389 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20091",
-            "exits": {},
-            "extras": {}
-        },
-        "20098": {
-            "name": "{&Pathway to the {8E{7b{8on {1Sp{!u{1r{x",
-            "description": [
-                "This simple hallway opens up before a large oval shaped metal door.",
-                "The door bears the bull, and sunburst standard of the Order of the ",
-                "Ebon Spur."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20098",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38545"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20056"
-                }
-            },
-            "extras": {}
-        },
-        "20073": {
-            "name": "Path of the True Believer",
-            "description": [
-                "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
-                "eastern and western walls."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20073",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20064"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20076"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20075"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20074"
-                }
-            },
-            "extras": {}
-        },
-        "20067": {
-            "name": "{8Black Spire{x",
-            "description": [
-                "{8  This tower is constructed purely of onyx.  All of which was stolen",
-                "from a faithless Duergar Hold.  Small beams of light shine in only ",
-                "to bounce off the many faceted gems, creating a dim ebony aura.",
-                "The center of the room contains a large, summoning circle.  It has",
-                "been intricatly drawn up, outlined in virgins blood spinkled with diamond dust."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20067",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20063"
-                }
-            },
-            "extras": {}
-        },
-        "20053": {
-            "name": "Courtyard of Pain",
-            "description": [
-                "Stepping through the door you find yourself surrounded by thick fog.",
-                "The moist smell of a fresh grave fills the air, and you hear moaning",
-                "and shuffling coming from all around you, accompanied by the cold clank",
-                "of a captive's chains."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20053",
-            "exits": {
-                "north": {
-                    "flags_raw": "20050",
-                    "description": [
-                        "a heavy oaken door banded with thick iron bars hanngs here"
-                    ],
-                    "room_id": "20054"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20052"
-                }
-            },
-            "extras": {}
-        },
-        "20093": {
-            "name": "The Tomb of Optimus Prime",
-            "description": [],
-            "flags_raw": "0 532484 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20093",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20082"
-                }
-            },
-            "extras": {}
-        },
-        "20085": {
-            "name": "Lair of Danknuggittis the Profane",
-            "description": [
-                "Once the strongest of Dracoliches, {@Dank{2nu{8g{2gi{@ttis{x has now come to",
-                "serve the faithful of {%L{5or{%d {%C{5y{8r{5i{%c{x.  After countless battles and",
-                "hundreds of thousands of years of existance, only the great wyrms",
-                "{8skull{x remains, this held together by little more than foul magics. ",
-                "Black fires burn within his eyes though, and his hissing voice seems",
-                "to come from nowhere inparticular as it addresses you...  \"{$I smell the",
-                "might of our Dark Lord in you little mortal, come...  Let me teach you",
-                "the ways of the One and All.  {x "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20085",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20056"
-                }
-            },
-            "extras": {}
-        },
-        "20082": {
-            "name": "Secret Tunnel",
-            "description": [
-                "You find yourself in a roughly carved tunnel that leads north into",
-                "{*darkness{x.  A tiny stream of rank {^water{x flows down the middle of the",
-                "tunnel.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20082",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20083"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20081"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20099"
-                }
-            },
-            "extras": {}
-        },
-        "20083": {
-            "name": "Secret Tunnel",
-            "description": [
-                "After walking for what seems like hours, the cold, dark tunnel seems to",
-                "have no end as the miles begin to add up.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20083",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20082"
-                }
-            },
-            "extras": {}
-        },
-        "20055": {
-            "name": "Path of the True Believer",
-            "description": [
-                "You stand in a dimly lit hallway that leads straight back into the keep. Torches",
-                "gutter in sconces along the walls and in their yellow light you see that many doors ",
-                "line both sides of the hallway."
-            ],
-            "flags_raw": "0 532488 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20055",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20054"
-                }
-            },
-            "extras": {}
-        },
-        "20097": {
-            "name": "Stables Mob Load Room",
-            "description": [],
-            "flags_raw": "0 524292 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20097",
-            "exits": {},
-            "extras": {}
-        },
-        "20089": {
-            "name": "Saucey Wench",
-            "description": [
-                "The room smells of Jasmine and Myrhh quite in contrast to the {2gore{0",
-                "filled {!  Bleeding{0 walls.  The room is dome shaped with some twisted",
-                "demon orgy mosaic adorning the ceiling.  Candles are burning endlessly but",
-                "despite the soft {#light{0 they add no warmth and in fact make the room",
-                "seems {8darker{0.  You melt from need as you settle yourself on the {1red",
-                "{0satin and {8bone{0 canopy before you.  There is a Hot tub filled with the",
-                "sweet {!  Red{0 wine that bleeds from the walls.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20089",
-            "exits": {
-                "west": {
-                    "flags_raw": "20097",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20080"
-                }
-            },
-            "extras": {}
+            "vnum": "20090"
         },
         "20061": {
-            "name": "Mad Eddy's Shop o' Wonders",
+            "extras": {},
+            "flags_raw": "0 532492 0 13",
+            "flags2_raw": "0",
             "description": [
                 "This tiny room is cramed with thousands of shelves holding a vast variety",
                 "of dust covered treasures.  Potion bottles, arcane scrolls, gleaming",
@@ -990,525 +1273,243 @@
                 "he cackles as you approach, \"and have I got a deal for thee...\"  ",
                 "ex"
             ],
-            "flags_raw": "0 532492 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20061",
+            "name": "Mad Eddy's Shop o' Wonders",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20082",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20082"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20095": {
-            "name": "Alisten's Office",
-            "description": [],
-            "flags_raw": "0 532488 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20095",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20066"
-                }
-            },
-            "extras": {}
-        },
-        "20059": {
-            "name": "Guard Chamber",
-            "description": [
-                "This small chamber it empty, save for a ratty table that has been pushed",
-                "against the eastern wall.  A few guards sit around the table, throwing dice",
-                "and drinking bitter ale, as you enter the room they look up and reach for",
-                "their weapons....  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20059",
-            "exits": {
-                "north": {
-                    "flags_raw": "20097",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20070"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20054"
-                }
-            },
-            "extras": {}
+            "vnum": "20061"
         },
         "20068": {
-            "name": "Summon Vortex",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 532484 0 13",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20068",
+            "description": [],
+            "name": "Summon Vortex",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20082",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20082"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20068"
         },
-        "20064": {
-            "name": "Path of the True Believer",
+        "20086": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 15",
+            "flags2_raw": "0",
+            "description": [
+                "You step into a circular {*black{x marble room with savage motiffs of",
+                "animals on the walls.  There is a strange circle of dried {!  Blood{x on the",
+                "floor tracing a carved etching ...  The bittersweet smell of {!  Blood{x",
+                "lingers in the air as you note the runes around the circle.  Each Rune",
+                "depicts a different animal, but all are twisted and savage...  "
+            ],
+            "name": "Setzer's Casting Chamber",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20072",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20086"
+        },
+        "20076": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The {*dark{x hallway continues on, and you notice a heavy door here on both the",
                 "eastern and western walls."
             ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20064",
+            "name": "Path of the True Believer",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20054"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20077",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20073"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20065"
-                },
-                "east": {
-                    "flags_raw": "20089",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20072"
-                }
-            },
-            "extras": {}
-        },
-        "20056": {
-            "name": "Black Altar",
-            "description": [
-                "You stand in a vast chamber of black stone, lit with a dim purple light wiht no",
-                "apparent source.  Huge statues of the One and All line the room, each seeming",
-                "to stare at you with malice filled eyes.  You make out a massive black altar",
-                "has been placed in the center of the room, a silver sacrificial platter set atop ",
-                "it.  Looking closer you notice the still heart of Cyric's latest victim,",
-                "cooling in the still air."
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20056",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20085"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38506"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20054"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20094",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20098"
-                }
-            },
-            "extras": {}
-        },
-        "20069": {
-            "name": "Dagna's Forge",
-            "description": [
-                "As you step into this vast chamber you wonder if you have",
-                "accidentally entered the 9 Hells..  A massive forge belches flame and",
-                "soot scorching your exposed flesh.  Several small forms scurry about",
-                "the chaos, pushing carts of ore and stoking the fires, and you notice",
-                "a stout, well muscled dwarf standing next to a huge anvil.  \"what can",
-                "i do fer ye\" he grunts as he turns his attention away from his",
-                "apprentices, \"if ye got the gold i got the steel...\"  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20069",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20073",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20057"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20080": {
-            "name": "Tower of Faith",
-            "description": [
-                "You stand on the first landing of the infamous Tower of Faith.  Doors",
-                "exit the room in all directions, and a winding iron staircast leads up into",
-                "the {8darkness{x.  "
-            ],
-            "flags_raw": "0 67641385 0 0",
             "wanted_area_vnum": "",
+            "vnum": "20076"
+        },
+        "20074": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
             "flags2_raw": "0",
-            "vnum": "20080",
+            "description": [
+                "You are instantly {!  M{#e{%s{&m{@e{$r{^i{1z{3e{5d{7 by the mere existence of this room. ",
+                "The walls are designed in a {%s{!  W{&i{#r{@l{7 of {#s{1c{^i{%n{4t{@i{6l{!  A{$t{5i{3n{2g{7 colors.  At",
+                "first you lose your depth perception and are reeling through a {!  V{#o{%i{@d{7.",
+                "But as {%T{8r{%i{8p{7 hands you a bottle of liquid {#L{!  S{%D{^2{@5{7, you realize it will",
+                "be okay.  "
+            ],
+            "name": "Trip's Office",
             "exits": {
-                "south": {
-                    "flags_raw": "20092",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20088"
-                },
-                "north": {
-                    "flags_raw": "20091",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20087"
-                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "20073",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20090"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20074"
+        },
+        "20057": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a small stone room, lined with weapons of all makes and sizes.  The",
+                "wicked steel gleams in razor-like beauty, as they each wait to bite into the ",
+                "flesh of Non-Believers."
+            ],
+            "name": "Armoury",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20069",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
-                    "flags_raw": "20097",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20089"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20079"
-                }
-            },
-            "extras": {}
-        },
-        "20051": {
-            "name": "Outside the Shattered Keep",
-            "description": [
-                "You stand outside the high gatehouse of the shattered keep.  Set within the thick",
-                "stone walls, a solid steel gate glints in the sparse light.  Looking closer you ",
-                "notice hundreds of tiny skulls have been etched into the metal.  The guard here looks",
-                "at you warily, as he reaches for his weapon."
-            ],
-            "flags_raw": "0 67641377 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20051",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20052"
-                },
-                "south": {
                     "flags_raw": "-1",
-                    "description": [
-                        "the trail leads away to the south..."
-                    ],
-                    "room_id": "20050"
-                }
-            },
-            "extras": {}
-        },
-        "20071": {
-            "name": "Rastlin's Spellcasting Chamber",
-            "description": [],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20071",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
+                    "room_id": "20054",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20065"
-                }
-            },
-            "extras": {}
-        },
-        "20050": {
-            "name": "Outside the Shattered Keep",
-            "description": [
-                "You stand atop a high hill, looking down apon the feet of a mighty",
-                "mountain range.  The high stone soars thousands of feet above to jagged",
-                "pinacles, ice and snow still clinging in those great elevations.  Looking",
-                "down, to the north you see the high stone walls of a massive black keep",
-                "rising from the base of the nearest peek.  Guards walk the parapets,",
-                "sunlight glinting off their ready arrows as they scan the horizon for",
-                "intruders.  "
-            ],
-            "flags_raw": "0 67641377 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20050",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "to the north lies the gatehouse of the Shattered Keep"
-                    ],
-                    "room_id": "20051"
-                }
-            },
-            "extras": {}
-        },
-        "20063": {
-            "name": "Chamber of Skulls",
-            "description": [
-                "You stand in a small round chamber constructed from smoky grey granite.",
-                "In the center of each wall hangs a giant silver skull shaped doorway. ",
-                "Arcane energy swirls within their frame, filling the air with a slight",
-                "hum...  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20063",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "27251"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20067"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "212"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20060"
-                }
-            },
-            "extras": {}
-        },
-        "20060": {
-            "name": "Chamber of Intrigue",
-            "description": [
-                "The crackling fire that roars in a massive hearth, throws flickering",
-                "light across the polished oaken walls of this huge chamber.  Massive",
-                "reliefs, depicting the greatest feats of the One and All, have been carved",
-                "into the panels with the utmost care...  As if the artist's life depended on",
-                "the quality of his workmanship.....  "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20060",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38505"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "20096",
                     "description": [
                         ""
-                    ],
-                    "room_id": "38501"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20062"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20063"
+                    ]
                 },
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "20058",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20054"
-                }
-            },
-            "extras": {}
-        },
-        "20094": {
-            "name": "Evilynn's Rendezvous",
-            "description": [
-                "{8You stand in a vast room, the black marble walls {5polished and hung",
-                "thick with tapestries.  {8Torches line the chamber, their warm light",
-                "reflected in a thousand glittering amethests {5that guild the high, domed",
-                "ceiling.  On the east wall a skull {8has been sculpted out of the stone",
-                "itself, {5its soulless eyes vacant and staring.  A {8silver basin has been",
-                "placed under this strange {5monument, collecting the steady stream of blood",
-                "colored {8liquid the pours from its gaping jaws....  {0 "
-            ],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20094",
-            "exits": {
-                "west": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "20092",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20076"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20092": {
-            "name": "{1R{2a{1s{2h{1a{2k{1a{2'{1s {3Hut Of {%Vo{5o{8do{5o{%'s{x",
-            "description": [
-                "{7This small hut smells heavily of stale {3co{2r{8p{2s{3es{7.  The walls are lined ",
-                "with various body parts.  There is a large table in the center of the",
-                "room covered with {!blood{7, and gore.  Shelves, and baskets have",
-                "been placed along the outside permiter of the hut, their contents are",
-                "a mystery.{x"
-            ],
-            "flags_raw": "0 67641385 0 0",
             "wanted_area_vnum": "",
+            "vnum": "20057"
+        },
+        "20070": {
+            "extras": {},
+            "flags_raw": "0 134751240 0 0",
             "flags2_raw": "0",
-            "vnum": "20092",
+            "description": [
+                "You stand in a void of nothingness.  No light reaches your eyes, no sound",
+                "your ears.  You have been forsaken.  "
+            ],
+            "name": "Cold..Dank..Cell",
             "exits": {
-                "north": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "20059",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20057"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20070"
         }
     },
-    "uid": "strife",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] Arena Of Strife II",
     "faction_id": "",
+    "name": "The Shattered Keep",
     "vnums": [
         20050,
         20099
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "20096": {
-            "name": "(no short description)~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 B D GR",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20096,
             "raw_flags": "A Da 0 0 0",
-            "race_id": "titan",
-            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 B D GR",
             "room_name": "(no long description)\n",
-            "keywords": "no name~\n"
+            "name": "(no short description)~\n",
+            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
+            "keywords": "no name~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "20097": {
-            "name": "Aramak the Betrayer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
-            "raw_flags4": "0 AB CD X",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 20097,
             "raw_flags": "AB 0 CDEH -1000 0",
-            "race_id": "human",
+            "raw_flags4": "0 AB CD X",
+            "room_name": "Captain Aramak is here making his rounds...\n",
+            "name": "Aramak the Betrayer~\n",
             "raw_flags2": "1 500 100d10+5000 1d1+6666 10d10+60 none",
-            "d_flags": "D ~",
+            "keywords": "Aramak the Betrayer~\n",
             "subroutines": [
                 "M act 20097 mists swirl up from nowhere~\n",
                 "M act 20097 two dimensional black~\n",
                 "M act 20097 has arrived through a~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Captain Aramak is here making his rounds...\n",
-            "keywords": "Aramak the Betrayer~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20098": {
-            "name": "Rashaka~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{7Before you stands an {8ebon{7 skinned dark-elf.  He is not quite \n",
                 "six feet tall, and walks around in a gracious manner.  He is \n",
@@ -1517,38 +1518,38 @@
                 "has decorated his face with {1red{7, and {2green{7 paint.{x\n"
             ],
             "raw_flags5": "stand stand male 20",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABa BDO NS",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20098,
             "raw_flags": "AB DJLZa 0 -1000 0",
-            "race_id": "drow",
-            "raw_flags2": "101 10 5d5+100 5d5+100 5d5+100 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABa BDO NS",
             "room_name": "{1R{2a{1s{2h{1a{2k{1a{7, the {%v{5o{8od{5o{%o {7maker stands here, {8skull {7in one hand, knife in the other.{x\n",
-            "keywords": "Rashaka~\n"
+            "name": "Rashaka~\n",
+            "raw_flags2": "101 10 5d5+100 5d5+100 5d5+100 claw",
+            "keywords": "Rashaka~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "drow",
+            "t_flags": "T ~"
         },
         "20099": {
-            "name": "(no short description)~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 BIL DHQ RX",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20099,
             "raw_flags": "A DFJa 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 BIL DHQ RX",
             "room_name": "(no long description)\n",
-            "keywords": "no name~\n"
+            "name": "(no short description)~\n",
+            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
+            "keywords": "no name~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20050": {
-            "name": "a {8Black {%G{5u{8a{5r{%d{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -30",
             "description": [
                 "A burly warrior dressed in heavy, {8black{x mail stand here.\n",
                 "An Unholy Fevor {!b{1u{#r{1n{!s{x behind his eyes, and you notice the \n",
@@ -1556,24 +1557,24 @@
                 "cheeks.\n"
             ],
             "raw_flags5": "stand stand male 237",
-            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
-            "raw_flags4": "ACDEFHIKLNOT ABP CD 0",
-            "raw_flags3": "-40 -40 -40 -30",
             "vnum": 20050,
             "raw_flags": "ABFOT c H -1000 0",
-            "race_id": "human",
+            "raw_flags4": "ACDEFHIKLNOT ABP CD 0",
+            "room_name": "An elite warrior of the {8Black{x Guard stand here.\n",
+            "name": "a {8Black {%G{5u{8a{5r{%d{x~\n",
             "raw_flags2": "110 110 1d1+19999 1d1+499 20d40+80 crush",
-            "d_flags": "D ~",
+            "keywords": "black guard clanstrife~\n",
             "subroutines": [
                 "M death 20053 100~\n",
                 "M fight 20050 45~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An elite warrior of the {8Black{x Guard stand here.\n",
-            "keywords": "black guard clanstrife~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20051": {
-            "name": "{^M{$y{8st{$r{^a{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "HIT ME!! THRASH ME!! HACK ME DOWN!!\n",
                 "I AM NOTHING NEXT TO THE ONE AND HIS FOLLOWERS!!\n",
@@ -1581,40 +1582,41 @@
                 "HIT ME!!\n"
             ],
             "raw_flags5": "stand stand male 1300",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFJ ABCD 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 20051,
             "raw_flags": "ABOV 0 0 900 0",
-            "race_id": "human",
-            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFJ ABCD 0 0",
             "room_name": "A perfect replica of {^M{$y{8st{$r{^a{x, Whore of the Weave, stands here.\n",
-            "keywords": "dummy~\n"
+            "name": "{^M{$y{8st{$r{^a{x~\n",
+            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
+            "keywords": "dummy~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20052": {
-            "name": "Mad Eddy~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "....\n"
             ],
             "raw_flags5": "stand stand male 2147483647",
-            "raw_flags6": "AHMV ABCDEFGHIJKP medium 0",
-            "raw_flags4": "EFJ ABCDLQ J LQ",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 20052,
             "raw_flags": "ABVZe DFJLT 0 900 0",
-            "race_id": "avian",
-            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFJ ABCDLQ J LQ",
             "room_name": "Mad Eddy stands here drinking spirits and cackling to himself...\n",
-            "keywords": "Mad Eddy~\n"
+            "name": "Mad Eddy~\n",
+            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
+            "keywords": "Mad Eddy~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKP medium 0",
+            "race_id": "avian",
+            "t_flags": "T ~"
         },
         "20053": {
-            "name": "Deathbringer, Keeper of the Book~\n",
+            "raw_parts": "BCDGHIJ",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 -1",
             "description": [
                 "This gaunt madman has completely given himself over Cyric.  Bloodred eyes\n",
                 "peer out at your from beneath the deep hood of royal purple robes and he\n",
@@ -1622,26 +1624,25 @@
                 "the Sacred Truth set you free.... \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "C AEFK medium flesh",
-            "raw_flags4": "BDEQ AC D N",
-            "raw_flags3": "-2 -2 -2 -1",
             "vnum": 20053,
             "raw_flags": "ABGXYZa DEFGVc 0 -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BDEQ AC D N",
+            "room_name": "Deathbringer stands behind the altar, holding the sacred {%Cy{5ri{8ni{5sh{%ad{x high as he praises the {%O{5ne{8 and {5Al{%l{x.\n",
+            "name": "Deathbringer, Keeper of the Book~\n",
             "raw_flags2": "102 0 9d12+64 28d47+6184 28d47+6184 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Deathbringer~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par BCDGHIJ\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Deathbringer stands behind the altar, holding the sacred {%Cy{5ri{8ni{5sh{%ad{x high as he praises the {%O{5ne{8 and {5Al{%l{x.\n",
-            "raw_parts": "BCDGHIJ",
-            "keywords": "Deathbringer~\n"
+            "raw_flags6": "C AEFK medium flesh",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20054": {
-            "name": "{8Dagna {@O{2rc{!Ju{1ic{!er{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "Though short in stature, Dagna Orcjuicer is no laughing matter when it\n",
                 "comes to the ways of battle Seemingly built from the mountain stone, this\n",
@@ -1651,21 +1652,21 @@
                 "over the world....  \n"
             ],
             "raw_flags5": "stand stand none 3000000",
-            "raw_flags6": "AHMV ABCDEFGHIJKP medium unknown",
-            "raw_flags4": "CDEFHIJKNO ABCDLQ J LQ",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 20054,
             "raw_flags": "ABYZ DEFGJLTZc HO 900 0",
-            "race_id": "avian",
-            "raw_flags2": "46 0 1d1+999 1d1+100 1d1+500 charge",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEFHIJKNO ABCDLQ J LQ",
             "room_name": "A broad, wild looking dwarf stands here, muttering to under his breath..\n",
-            "keywords": "Dagna Orcjuicer~\n"
+            "name": "{8Dagna {@O{2rc{!Ju{1ic{!er{x~\n",
+            "raw_flags2": "46 0 1d1+999 1d1+100 1d1+500 charge",
+            "keywords": "Dagna Orcjuicer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKP medium unknown",
+            "race_id": "avian",
+            "t_flags": "T ~"
         },
         "20055": {
-            "name": "{3Ke{2ze{8f t{3h{2e C{2h{3ao{8s H{2ou{3nd{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{3Mag{#gots {8wri{1the {!in {3pl{#ace {8of {1fur {!on {3th{#is {8formi{1dable {!bea{3st.{x\n",
                 "{#He {8patr{1ols {!and {3ba{#res {8its {1fa{!ngs {3mal{#icio{8usly {1at {!yo{3u, {x\n",
@@ -1673,15 +1674,14 @@
                 " \n"
             ],
             "raw_flags5": "sit stand male 0",
-            "raw_flags6": "GV ACDEFHJKUV giant maggots",
-            "raw_flags4": "H ABCDN 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20055,
             "raw_flags": "ABCGd DEFJVac HO -1000 0",
-            "race_id": "dog",
-            "raw_form": "A",
+            "raw_flags4": "H ABCDN 0 0",
+            "room_name": "You immediately recoil as a filthy, maggot-infested hound snarls at you.\n",
+            "name": "{3Ke{2ze{8f t{3h{2e C{2h{3ao{8s H{2ou{3nd{x~\n",
             "raw_flags2": "102 7000 1d1+11059 100d100+100 666d666+666 digestion",
-            "d_flags": "D ~",
+            "raw_form": "A",
+            "keywords": "Kezef the Chaos Hound~\n",
             "subroutines": [
                 "F for A\n",
                 "M fight 20056 100~\n",
@@ -1689,60 +1689,61 @@
                 "M act 20057 arrives from a puff of smoke~\n",
                 "M grall 20054 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "You immediately recoil as a filthy, maggot-infested hound snarls at you.\n",
-            "keywords": "Kezef the Chaos Hound~\n"
+            "raw_flags6": "GV ACDEFHJKUV giant maggots",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "20056": {
-            "name": "{7Ozjin~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{7Dressed in white robes, Ozjin has large {Bopal {7eyes, that glare\n",
                 "everywhere, and nowhere at once.  He is a fairly tall human, and bears\n",
                 "a large Skull, and Sunburst Pendant.  Marking him one of Cyrics faithfull.\n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20056,
             "raw_flags": "ABCZ 0 0 -199 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "{7Ozjin stands here ready to summon whatever you desire.{x\n",
+            "name": "{7Ozjin~\n",
             "raw_flags2": "105 100 9999d9999+1 1d1+1 9999d9999+1 slash",
-            "d_flags": "D ~",
+            "keywords": "Ozjin~\n",
             "subroutines": [
                 "M grall 20067 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{7Ozjin stands here ready to summon whatever you desire.{x\n",
-            "keywords": "Ozjin~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20057": {
-            "name": "An Imp~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "This is a two foot humanoid with leathery, bat-like wings, a barbed\n",
                 "tail, and shar, twisted horns.  Its skin is a dark red and its horns\n",
                 "and jagged teeth are a gleaming white.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKP medium flesh",
-            "raw_flags4": "FH AM BCKMOP DZ",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20057,
             "raw_flags": "A EJZc 0 -800 0",
-            "race_id": "esper",
+            "raw_flags4": "FH AM BCKMOP DZ",
+            "room_name": "A small Devilish Imp, flitters about the room.\n",
+            "name": "An Imp~\n",
             "raw_flags2": "50 40 10d13+3500 100d100+1000 9d9+5 sting",
-            "d_flags": "D ~",
+            "keywords": "Imp~\n",
             "subroutines": [
                 "M speech 20064 you here?~\n",
                 "M fight 20063 5~\n",
                 "M act 20062 glare~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A small Devilish Imp, flitters about the room.\n",
-            "keywords": "Imp~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKP medium flesh",
+            "race_id": "esper",
+            "t_flags": "T ~"
         },
         "20058": {
-            "name": "A Balor ~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "This Balor is repulsice and loathsome to behold.  It is a towering\n",
                 "humanoid with deep, dark red skin.  It has huge wings which propel it\n",
@@ -1751,82 +1752,82 @@
                 "searing flames \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "CFHK A BEHK CFINQ",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20058,
             "raw_flags": "A FJT 0 -1000 0",
-            "race_id": "dragon",
+            "raw_flags4": "CFHK A BEHK CFINQ",
+            "room_name": "With {!fury{x in its eyes, a Balor waits for combat.\n",
+            "name": "A Balor ~\n",
             "raw_flags2": "101 6 30d60+6200 30d60+6200 9d19+67 bite",
-            "d_flags": "D ~",
+            "keywords": "Balor~\n",
             "subroutines": [
                 "M fight 20066 10~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "With {!fury{x in its eyes, a Balor waits for combat.\n",
-            "keywords": "Balor~\n"
+            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "20059": {
-            "name": "Pug~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 ": No\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 Aa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20059,
             "raw_flags": "AB 0 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "15 5 1d1+1 1d1+1 1d1+1 slice",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 Aa 0 0",
             "room_name": "Pug the stableboy is sweeping out a stall.\n",
-            "keywords": "Pug~\n"
+            "name": "Pug~\n",
+            "raw_flags2": "15 5 1d1+1 1d1+1 1d1+1 slice",
+            "keywords": "Pug~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20060": {
-            "name": "A Horse~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGV ACDEFJKQV medium unknown",
-            "raw_flags4": "FH A 0 0",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20060,
             "raw_flags": "Af Z 0 0 0",
-            "race_id": "wolf",
-            "raw_flags2": "15 50 1d1+4000 1d1+1 9d19+5 bite",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FH A 0 0",
             "room_name": "A Horse trods in the dirt.\n",
-            "keywords": "Horse~\n"
+            "name": "A Horse~\n",
+            "raw_flags2": "15 50 1d1+4000 1d1+1 9d19+5 bite",
+            "keywords": "Horse~\n",
+            "subroutines": [],
+            "raw_flags6": "AGV ACDEFJKQV medium unknown",
+            "race_id": "wolf",
+            "t_flags": "T ~"
         },
         "20061": {
-            "name": "A Ghoul~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-25 -25 -25 -25",
             "description": [
                 "This once human undead villian, has become horribly disfigured.\n",
                 "It's long slobbery tongue, sharp teeth, and talon-like nails;\n",
                 "all show that dark magic is at work here.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCGHIJK medium unknown",
-            "raw_flags4": "0 ALMQ DM ESY",
-            "raw_flags3": "-25 -25 -25 -25",
             "vnum": 20061,
             "raw_flags": "AOP Z 0 -800 0",
-            "race_id": "heucuva",
+            "raw_flags4": "0 ALMQ DM ESY",
+            "room_name": "A feindish {6G{bh{6oul {xswooshes in the shadows.\n",
+            "name": "A Ghoul~\n",
             "raw_flags2": "80 80 12d23+10 12d12+100 12d23+10 drain",
-            "d_flags": "D ~",
+            "keywords": "Ghoul ghoul~\n",
             "subroutines": [
                 "M fight 20077 75~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A feindish {6G{bh{6oul {xswooshes in the shadows.\n",
-            "keywords": "Ghoul ghoul~\n"
+            "raw_flags6": "AHMV ABCGHIJK medium unknown",
+            "race_id": "heucuva",
+            "t_flags": "T ~"
         },
         "20062": {
-            "name": "A Nightmare~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "This creature resembles a horse in all espects except it has a\n",
                 "sheen black coat, like no other horse before.  Its teeth are pointy\n",
@@ -1834,117 +1835,117 @@
                 "creature is surounded by flame, and its hoofs appear to be burning.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "FHK A BEHK CFINQ",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20062,
             "raw_flags": "Af FJT 0 -1000 0",
-            "race_id": "dragon",
+            "raw_flags4": "FHK A BEHK CFINQ",
+            "room_name": "{1F{!l{3a{#m{3i{!n{1g {xhoofs and all, a {8Nightmare {xwhinnies with discontent.\n",
+            "name": "A Nightmare~\n",
             "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 bite",
-            "d_flags": "D ~",
+            "keywords": "Nightmare nightmare stallion~\n",
             "subroutines": [
                 "M fight 20078 20~\n",
                 "M fight 20079 20~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{1F{!l{3a{#m{3i{!n{1g {xhoofs and all, a {8Nightmare {xwhinnies with discontent.\n",
-            "keywords": "Nightmare nightmare stallion~\n"
+            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "20063": {
-            "name": "Guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -59 -59 -59",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB 0 0",
-            "raw_flags3": "-50 -59 -59 -59",
             "vnum": 20063,
             "raw_flags": "ABT 0 0 -200 0",
-            "race_id": "human",
+            "raw_flags4": "0 AB 0 0",
+            "room_name": "A burly looking guard of the Ebon Spur stands before the door.\n",
+            "name": "Guard~\n",
             "raw_flags2": "91 300 100d10+30000 1d1+1 20d25+45 wrath",
-            "d_flags": "D ~",
+            "keywords": "Guard Order~\n",
             "subroutines": [
                 "M exall 20081 0~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A burly looking guard of the Ebon Spur stands before the door.\n",
-            "keywords": "Guard Order~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20064": {
-            "name": "A War Bull~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-60 -60 -60 -60",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKW medium unknown",
-            "raw_flags4": "CFH AL E 0",
-            "raw_flags3": "-60 -60 -60 -60",
             "vnum": 20064,
             "raw_flags": "AITf DFLVac 0 0 0",
-            "race_id": "minotaur",
+            "raw_flags4": "CFH AL E 0",
+            "room_name": "A large {3B{#u{3ll {xstammers, always ready for the charge.\n",
+            "name": "A War Bull~\n",
             "raw_flags2": "95 200 1d1+9000 1d1+1 9d21+25 charge",
-            "d_flags": "D ~",
+            "keywords": "War Bull war bull~\n",
             "subroutines": [
                 "M fight 20080 35~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A large {3B{#u{3ll {xstammers, always ready for the charge.\n",
-            "keywords": "War Bull war bull~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKW medium unknown",
+            "race_id": "minotaur",
+            "t_flags": "T ~"
         },
         "20065": {
-            "name": "an invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20065,
             "raw_flags": "ABINd 0 P -1000 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDLQ 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "an invisable specter~\n",
             "raw_flags2": "102 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis alarm~\n",
             "subroutines": [
                 "M exall 20051 0~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis alarm~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20066": {
-            "name": "an invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20066,
             "raw_flags": "ABINd 0 P -1000 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDLQ 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "an invisable specter~\n",
             "raw_flags2": "102 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis alarm~\n",
             "subroutines": [
                 "M exall 20052 5~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis alarm~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20069": {
-            "name": "A lizard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGXc ACDEFHKQV medium unknown",
-            "raw_flags4": "FHM A L I",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20069,
             "raw_flags": "AIf 0 0 -200 0",
-            "race_id": "lizard",
-            "raw_flags2": "80 75 13d23+5000 100d10+1000 9d13+25 bite",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T There not bad~",
+            "raw_flags4": "FHM A L I",
             "room_name": "Flicking its pointy {1t{!o{1ngue{x, a menicingly large lizard is here.\n",
-            "keywords": "Giant Lizard~\n"
+            "name": "A lizard~\n",
+            "raw_flags2": "80 75 13d23+5000 100d10+1000 9d13+25 bite",
+            "keywords": "Giant Lizard~\n",
+            "subroutines": [],
+            "raw_flags6": "AGXc ACDEFHKQV medium unknown",
+            "race_id": "lizard",
+            "t_flags": "T There not bad~"
         },
         "20070": {
-            "name": "A Skeleton~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-6 -6 -6 -6",
             "description": [
                 "Assembled from the bones of the undead.  This animated abomination \n",
                 "resembles something that was closely human.  It shows no emotion, \n",
@@ -1952,21 +1953,22 @@
                 "an endless void.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCGHIJK medium unknown",
-            "raw_flags4": "0 ALMQ DM ESY",
-            "raw_flags3": "-6 -6 -6 -6",
             "vnum": 20070,
             "raw_flags": "A Z 0 -240 0",
-            "race_id": "heucuva",
-            "raw_flags2": "25 24 12d12+2500 1d1+1 5d5+15 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ALMQ DM ESY",
             "room_name": "A rickety {8Skeleton {xsways with the wind.\n",
-            "keywords": "Skeleton~\n"
+            "name": "A Skeleton~\n",
+            "raw_flags2": "25 24 12d12+2500 1d1+1 5d5+15 claw",
+            "keywords": "Skeleton~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCGHIJK medium unknown",
+            "race_id": "heucuva",
+            "t_flags": "T ~"
         },
         "20080": {
-            "name": "{@Da{2nk{8nu{8ggi{2tt{@is{0 the Profane~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1000 -1000 -1000 -1000",
+            "raw_resistances": "B",
             "description": [
                 "At first you mistake this skull for just that... the remains of a dead dragon. Stepping\n",
                 "  closer you r stunned as sinister energies suddenly erupt from its empth eye sockets.\n",
@@ -1975,193 +1977,191 @@
                 "A slave to the power of Danknuggittis.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "CEHN ABCDN EH FI",
-            "raw_flags3": "-1000 -1000 -1000 -1000",
             "vnum": 20080,
             "raw_flags": "ABJKZb JT H -1000 0",
-            "race_id": "dragon",
-            "raw_resistances": "B",
+            "raw_flags4": "CEHN ABCDN EH FI",
+            "room_name": "A huge dragon's skull dominates the center of the room, an aura of evil clinging to the bleached bone.\n",
+            "name": "{@Da{2nk{8nu{8ggi{2tt{@is{0 the Profane~\n",
             "raw_flags2": "109 2000 1000d1000+10000 100d100+300 100d100+300 divine",
-            "d_flags": "D ~",
+            "keywords": "danknuggittis the profane~\n",
             "subroutines": [
                 "F res B\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A huge dragon's skull dominates the center of the room, an aura of evil clinging to the bleached bone.\n",
-            "keywords": "danknuggittis the profane~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "20081": {
-            "name": "{7A {%R{5o{8b{5e{%d {7Man{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-150 -150 -150 -150",
             "description": [],
             "raw_flags5": "stand stand none 200",
-            "raw_flags6": "AHMV ABCDEFGHIJKP giant unknown",
-            "raw_flags4": "FKT AB BCDNPZ GRZ",
-            "raw_flags3": "-150 -150 -150 -150",
             "vnum": 20081,
             "raw_flags": "AB DEJTVac ACDEHOPR -500 0",
-            "race_id": "titan",
-            "raw_flags2": "106 250 50d90+10000 100d15+1500 125d15+50 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FKT AB BCDNPZ GRZ",
             "room_name": "{7A man veiled in {8dark {%r{5o{8b{5e{%s{7, is hovering here.{x\n",
-            "keywords": "Wizard Guard~\n"
+            "name": "{7A {%R{5o{8b{5e{%d {7Man{x~\n",
+            "raw_flags2": "106 250 50d90+10000 100d15+1500 125d15+50 none",
+            "keywords": "Wizard Guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKP giant unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "20082": {
-            "name": "The Clan Guard~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-160 -160 -160 -160",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-160 -160 -160 -160",
             "vnum": 20082,
             "raw_flags": "AB 0 0 -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A clan guard stands here protecting the gates.\n",
+            "name": "The Clan Guard~\n",
             "raw_flags2": "150 600 200d10+23000 200d10+10000 5d15+400 wrath",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "clan guard~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 20082 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A clan guard stands here protecting the gates.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "clan guard~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20083": {
-            "name": "An arrow trap~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20083,
             "raw_flags": "ABa 0 P -500 0",
-            "race_id": "human",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A concealed arrow trap.\n",
+            "name": "An arrow trap~\n",
             "raw_flags2": "101 1 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "keywords": "Arrow Trap~\n",
             "subroutines": [
                 "M grall 20083 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A concealed arrow trap.\n",
-            "keywords": "Arrow Trap~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20084": {
-            "name": "Wall of Force~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20084,
             "raw_flags": "ABa 0 P -500 0",
-            "race_id": "human",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A Wall of Force is blocking the exit.\n",
+            "name": "Wall of Force~\n",
             "raw_flags2": "110 0 1d1+1 1d1+1 1d1+2 slice",
-            "d_flags": "D ~",
+            "keywords": "Wall of Force~\n",
             "subroutines": [
                 "M exall 20084 0~\n"
             ],
-            "t_flags": "T Doesn't exist~",
-            "room_name": "A Wall of Force is blocking the exit.\n",
-            "keywords": "Wall of Force~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T Doesn't exist~"
         },
         "20085": {
-            "name": "{&A Giant {8S{7k{&u{7l{8l~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -30",
             "description": [],
             "raw_flags5": "stand stand none 10",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "ACDEFHIKLNOT ABP CD 0",
-            "raw_flags3": "-40 -40 -40 -30",
             "vnum": 20085,
             "raw_flags": "AGNT c H -500 0",
-            "race_id": "human",
+            "raw_flags4": "ACDEFHIKLNOT ABP CD 0",
+            "room_name": "{&A Giant {8S{7k{&u{7l{*l {&is hovering above you.\n",
+            "name": "{&A Giant {8S{7k{&u{7l{8l~\n",
             "raw_flags2": "110 110 1d1+19999 1d1+499 20d40+80 crush",
-            "d_flags": "D ~",
+            "keywords": "Giant Skull~\n",
             "subroutines": [
                 "M fight 20085 50~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{&A Giant {8S{7k{&u{7l{*l {&is hovering above you.\n",
-            "keywords": "Giant Skull~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20086": {
-            "name": "{8A {%R{5o{8b{5e{%d {8Figure{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -50",
             "description": [
                 "The tall wizard is garbed in a dark purple robe.  All of his features\n",
                 "are covered and he reveals nothing.\n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "FHKQT ABP CD 0",
-            "raw_flags3": "-30 -30 -30 -50",
             "vnum": 20086,
             "raw_flags": "ABR c CDEHPR -1000 0",
-            "race_id": "human",
+            "raw_flags4": "FHKQT ABP CD 0",
+            "room_name": "{8A {%R{5o{8b{5e{%d {8Figure {8is floating here.\n",
+            "name": "{8A {%R{5o{8b{5e{%d {8Figure{x~\n",
             "raw_flags2": "110 30 15d101+8425 1d1+4999 5d20+42 magic",
-            "d_flags": "D ~",
+            "keywords": "Robed Guard~\n",
             "subroutines": [
                 "M fight 20059 85~\n",
                 "M death 20060 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8A {%R{5o{8b{5e{%d {8Figure {8is floating here.\n",
-            "keywords": "Robed Guard~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20087": {
-            "name": "Vatts of Boiling Lead~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 300",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCD CD 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20087,
             "raw_flags": "ABI 0 P 0 0",
-            "race_id": "human",
-            "raw_flags2": "101 100 1d1+10000 1d1+1 1d1+1 slice",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABCD CD 0",
             "room_name": "Vatts of Boiling Lead are hanging here.\n",
-            "keywords": "Boiling Lead~\n"
+            "name": "Vatts of Boiling Lead~\n",
+            "raw_flags2": "101 100 1d1+10000 1d1+1 1d1+1 slice",
+            "keywords": "Boiling Lead~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20088": {
-            "name": "Wizards of Fire~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB ABCD 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20088,
             "raw_flags": "ABI 0 P 0 0",
-            "race_id": "human",
-            "raw_flags2": "101 101 1d1+1 1d1+1 1d1+1 slice",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 AB ABCD 0",
             "room_name": "Atop the battlement, several wizards are ready to hurl fireballs.\n",
-            "keywords": "trap fire~\n"
+            "name": "Wizards of Fire~\n",
+            "raw_flags2": "101 101 1d1+1 1d1+1 1d1+1 slice",
+            "keywords": "trap fire~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20089": {
-            "name": "A great man~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 100",
-            "raw_flags6": "AHMV ABCDEFGHIJKUV medium unknown",
-            "raw_flags4": "0 ABCD 0 Y",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20089,
             "raw_flags": "ABZ FZ P -1000 0",
-            "race_id": "human",
-            "raw_flags2": "4 500 1d1+1 1d1+1 100d100+100 wrath",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABCD 0 Y",
             "room_name": "A Great Man\n",
-            "keywords": "Optimus Prime~\n"
+            "name": "A great man~\n",
+            "raw_flags2": "4 500 1d1+1 1d1+1 100d100+100 wrath",
+            "keywords": "Optimus Prime~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKUV medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }

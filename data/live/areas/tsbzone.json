@@ -1,42 +1,15 @@
 {
-    "name": "The Tradeskill Zone",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "tsbzone",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "tsbzone",
     "rooms": {
-        "90302": {
-            "name": "THE SMELTER-POT MACHINE",
-            "description": [
-                "{x",
-                "- SMELTER POT MACHINE - (ITEM_TS_SMELTERPOT)",
-                "1. Smelter Frame................[N].....90304...(ITEM_TS_PART_SMELTERFRAME",
-                "2. Makou Furnace Engine.........[N].....90305...(ITEM_TS_PART_MAKOUFURNACEENGINE",
-                "3. Vat Cooking Chamber..........[N].....90306...(ITEM_TS_PART_VATCOOKINGCHAMBER",
-                "4. Vat Mold Bucket..............[N].....90307...(ITEM_TS_PART_VATMOLDBUCKET"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "90302",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90301"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90304"
-                }
-            },
-            "extras": {}
-        },
         "90301": {
-            "name": "THE SAW-MILL MACHINE",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "- SAW MILL MACHINE - (ITEM_TS_MILLMACHINE)",
@@ -45,30 +18,90 @@
                 "3. Belts........................[N].....90302...(ITEM_TS_PART_BELTS",
                 "4. Saw Blade....................[N].....90303...(ITEM_TS_PART_SAWBLADE"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "90301",
+            "name": "THE SAW-MILL MACHINE",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90300"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "90302",
                     "description": [
                         ""
-                    ],
-                    "room_id": "90302"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "90300",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "90301"
+        },
+        "90302": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "- SMELTER POT MACHINE - (ITEM_TS_SMELTERPOT)",
+                "1. Smelter Frame................[N].....90304...(ITEM_TS_PART_SMELTERFRAME",
+                "2. Makou Furnace Engine.........[N].....90305...(ITEM_TS_PART_MAKOUFURNACEENGINE",
+                "3. Vat Cooking Chamber..........[N].....90306...(ITEM_TS_PART_VATCOOKINGCHAMBER",
+                "4. Vat Mold Bucket..............[N].....90307...(ITEM_TS_PART_VATMOLDBUCKET"
+            ],
+            "name": "THE SMELTER-POT MACHINE",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "90304",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "90301",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "90302"
+        },
+        "90300": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "[EAST] ---> ITEM_TYPES"
+            ],
+            "name": "The Tradeskill Object Zone [ TYPES ]",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "90301",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "91107",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "90300"
         },
         "90305": {
-            "name": "AIRSHIP LOADER",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "- AIRSHIP LOADER - (ITEM_TS_LOADER)",
@@ -76,30 +109,30 @@
                 "2. Cable........................[N].....90317...(ITEM_TS_PART_CABLE",
                 "3. Grappler Hand................[N].....90318...(ITEM_TS_PART_GRAPPLERHAND"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "90305",
+            "name": "AIRSHIP LOADER",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90304"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "90303",
                     "description": [
                         ""
-                    ],
-                    "room_id": "90303"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "90304",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "90305"
         },
         "90304": {
-            "name": "MACHINERY MOTORS",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "- MAKOU MACHINE ENGINE",
@@ -114,58 +147,30 @@
                 "3. Exhaust......................[N].....90314...(ITEM_TS_PART_EXHAUST",
                 "4. Makou Filiment...............[N].....90315...(Already Made"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "90304",
+            "name": "MACHINERY MOTORS",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "90305",
+                    "description": [
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "90302",
                     "description": [
                         ""
-                    ],
-                    "room_id": "90302"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90305"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "90300": {
-            "name": "The Tradeskill Object Zone [ TYPES ]",
-            "description": [
-                "{x",
-                "[EAST] ---> ITEM_TYPES"
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "90300",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90301"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "91107"
-                }
-            },
-            "extras": {}
+            "vnum": "90304"
         },
         "90303": {
-            "name": "MACHINE MOLDS",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "- MOLDS -",
@@ -190,41 +195,36 @@
                 "19. Punch Clock.................[{GY{x].....90338...(ITEM_TS_PUNCHCLOCK)",
                 "20. Fuel Container..............[{GY{x].....90339...(ITEM_TS_FUELCONTAINER)"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "90303",
+            "name": "MACHINE MOLDS",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "90305"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "90306",
                     "description": [
                         ""
-                    ],
-                    "room_id": "90306"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "90305",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "90303"
         }
     },
-    "uid": "tsbzone",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] Tradeskill Objects",
     "faction_id": "",
+    "name": "The Tradeskill Zone",
     "vnums": [
         90300,
         90499
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {},
-    "realm_id": 3
+    "area_quest_points": 0
 }

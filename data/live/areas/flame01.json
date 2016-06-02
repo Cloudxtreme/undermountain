@@ -1,350 +1,29 @@
 {
-    "name": "Flame Faction Area",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "flame01",
-    "subroutines": [],
+    "objects": {},
+    "uid": "flame01",
     "rooms": {
-        "20200": {
-            "name": "{RE{rntrance to the {rH{Ra{Yng{Ra{rr{x",
-            "description": [
-                "{RThe entrance to the hangar is barred by a huge gate.  Standing at",
-                "operation of the gate is a large fiery golem, ready to swing the",
-                "seemingly unmovable gates open at command of a proper authority.  {x {RA",
-                "large sign stands here, explaining the procedure to open the gates to",
-                "the north and the way back to the Polaris airship port lies south.  {x "
-            ],
-            "flags_raw": "0 524288 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20200",
-            "exits": {
-                "north": {
-                    "flags_raw": "20202",
-                    "description": [
-                        "A large airship gate.",
-                        ""
-                    ],
-                    "room_id": "20201"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "49628"
-                }
-            },
-            "extras": {}
-        },
-        "20226": {
-            "name": "{RL{reader {rO{Rf{Yfi{Rc{re{x",
-            "description": [
-                "{rThe room teems with energy.  There is an {Runusual heat in the air. ",
-                "It does {Ynot feel to be a normal type of {rwarmth, but coming from",
-                "{Rsomewhere unusual.  There is a {Ylarge desk in the distant middle of the",
-                "room.  {r There are a few sofas and chairs {Rstrung about, for those with",
-                "official {Ybusiness.  {x "
-            ],
-            "flags_raw": "0 67633160 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20226",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20224"
-                }
-            },
-            "extras": {}
-        },
-        "20230": {
-            "name": "{BP{Wol{Ca{Wri{Bs {RT{Yo{rw{yn {rO{Rf{Yfi{Rc{re{x",
-            "description": [
-                "{bA{Bside from a{wn odd chill in th{Ce roo{wm like someone left {Ba windo{bw",
-                "o{Bpen, there is{w only a large cou{Cnter {wagainst the far wall {Bof the roo{bm. ",
-                "A {Bsmall bell wi{wth a broken ring{Cer a{wnd a sign are set on {Bthe counte{br.  {x"
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20230",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20222"
-                }
-            },
-            "extras": {}
-        },
-        "20207": {
-            "name": "{rH{Ra{Yng{Ra{rr {B[{Y5{B]{x",
-            "description": [],
+        "20211": {
+            "extras": {},
             "flags_raw": "0 524296 0 23",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20207",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20206"
-                }
-            },
-            "extras": {}
-        },
-        "20222": {
-            "name": "{rH{Ra{Yllw{Ra{ry{x",
-            "description": [
-                "{RThis flaming hot hallway of the second floor leads to the Polaris",
-                "Town Office to the east and the staff recruitment office to the west. ",
-                "Back north is the staircase.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20222",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20220"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20229"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20230"
-                }
-            },
-            "extras": {}
-        },
-        "20223": {
-            "name": "{RO{rf{Yfi{rc{Re{x",
             "description": [],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20223",
+            "name": "{rH{Ra{Yng{Ra{rr {B[{Y1{B]{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20204",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20213"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20202": {
-            "name": "{rH{Ra{Yng{Ra{rr {RI{rntersection{x",
-            "description": [
-                "{RThe room is huge, big enough to fit more than one airship.  Exits",
-                "on this level branch to the hangars to the north, west and east.  The",
-                "exit is south and a staircase leads to the offices on the second",
-                "floor.  {x ",
-                " ",
-                "{YWest: Hangars 1 and 2 {B|{Y North: Hangar 3 {B|{Y East: Hangars 4 and 5{Y"
-            ],
-            "flags_raw": "0 524296 0 22",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20202",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20201"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20209"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20203"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20205"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20217"
-                }
-            },
-            "extras": {}
-        },
-        "20204": {
-            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
-            "description": [
-                "{YNorth: Hangar 1 {B|{Y East: Hangars 2, 3, 4 and 5{Y"
-            ],
-            "flags_raw": "0 524296 0 22",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20204",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20211"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20203"
-                }
-            },
-            "extras": {}
-        },
-        "20214": {
-            "name": "{rH{Ra{Yllw{Ra{ry{x",
-            "description": [
-                "{RThe hot and flaming hallway ends here.  The ladies' lavatory lies",
-                "south and gentlement can relieve themselves to the north.  The rest of",
-                "the facilities lies to the west.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20214",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20218"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20217"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20219"
-                }
-            },
-            "extras": {}
-        },
-        "20231": {
-            "name": "{RT{ro{Yw{re{Rr {RT{Yo{rp{x",
-            "description": [
-                "{rYou stand in a large {rstone circle.  Flowing below you is a sea of",
-                "{Rfiery magma underneath, what appears to be, a sheet of pure {Rdiamond. ",
-                "{YCentered here, is a flowing stone altar.  It appears to be made of",
-                "{ylava, Yet it is cool to the touch.  The pillars around you reach high",
-                "{Yinto the air, with little flames dancing in the pools of lava at the",
-                "{Rtop.  As you watch the molten rock below your feet, you notice several",
-                "{rsolid points, which seem to be supporting the structure.  {x "
-            ],
-            "flags_raw": "0 67634176 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20231",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20224"
-                }
-            },
-            "extras": {}
+            "vnum": "20211"
         },
         "20220": {
-            "name": "{rH{Ra{Yllw{Ra{ry{x",
-            "description": [
-                "{RThis is the center of the second floor of the tower.  The hallway",
-                "branches to the north and south, bringing the visitors and workers to",
-                "the facilities of the town hall.  The staircase continues upwards to",
-                "the higher levels of the tower, where only members of the faction may",
-                "go.  A few windows offer a nice view of the city of Polaris.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20220",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20221"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20234"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20222"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20224"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20215"
-                }
-            },
             "extras": {
                 "window": {
                     "description": [
@@ -356,28 +35,475 @@
                         ""
                     ]
                 }
-            }
-        },
-        "20210": {
-            "name": "{rH{Ra{Yng{Ra{rr {B[{Y2{B]{x",
-            "description": [],
-            "flags_raw": "0 524296 0 23",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 524296 0 0",
             "flags2_raw": "0",
-            "vnum": "20210",
+            "description": [
+                "{RThis is the center of the second floor of the tower.  The hallway",
+                "branches to the north and south, bringing the visitors and workers to",
+                "the facilities of the town hall.  The staircase continues upwards to",
+                "the higher levels of the tower, where only members of the faction may",
+                "go.  A few windows offer a nice view of the city of Polaris.  {x "
+            ],
+            "name": "{rH{Ra{Yllw{Ra{ry{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20221",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20224",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20234",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20215",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20222",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20220"
+        },
+        "20224": {
+            "extras": {},
+            "flags_raw": "0 67633160 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThis is the staircase of the third floor of the tower.  There are",
+                "offices to the east and west, whereas only members of the faction may",
+                "enter.  The {YTemple of {rK{Ro{Yssu{Rt{rh{R is at the top of the tower.  {x "
+            ],
+            "name": "{rS{Rt{Yairca{Rs{re{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20237",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20226",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20220",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20233",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20231",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20225",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20224"
+        },
+        "20229": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{rThe walls are a warm tone of {Rorange and seem the most simple of the",
+                "{Yarea.  There is a long table here, surrounded by {rsturdy yet small",
+                "chairs.  {RBooks and a large map are embedded {Yinto the far end of the",
+                "table.  There{r is a short clipboard with a sign-in {Rsheet hanging to the",
+                "left of the door.  {x "
+            ],
+            "name": "{RR{recruitment {rO{Rf{Yfi{Rc{re{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20222",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20229"
+        },
+        "20212": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RStanding at the entrance of what seems to be a high tower one can",
+                "feel great heat coming from inside, a rather pleasant change from the",
+                "cold air of Polaris.  A huge golem-like being shaped entirely of",
+                "burning flames stands at guard of the tower.  {x "
+            ],
+            "name": "{RF{rl{Ya{rm{Re {RH{Ya{rl{Rl{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20215",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20232",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "7588",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20212"
+        },
+        "20207": {
+            "extras": {},
+            "flags_raw": "0 524296 0 23",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{rH{Ra{Yng{Ra{rr {B[{Y5{B]{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20206",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20203"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20207"
+        },
+        "20208": {
+            "extras": {},
+            "flags_raw": "0 524296 0 23",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{rH{Ra{Yng{Ra{rr {B[{Y4{B]{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20205",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20208"
+        },
+        "20214": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThe hot and flaming hallway ends here.  The ladies' lavatory lies",
+                "south and gentlement can relieve themselves to the north.  The rest of",
+                "the facilities lies to the west.  {x "
+            ],
+            "name": "{rH{Ra{Yllw{Ra{ry{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20218",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20217",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20219",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20214"
+        },
+        "20226": {
+            "extras": {},
+            "flags_raw": "0 67633160 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{rThe room teems with energy.  There is an {Runusual heat in the air. ",
+                "It does {Ynot feel to be a normal type of {rwarmth, but coming from",
+                "{Rsomewhere unusual.  There is a {Ylarge desk in the distant middle of the",
+                "room.  {r There are a few sofas and chairs {Rstrung about, for those with",
+                "official {Ybusiness.  {x "
+            ],
+            "name": "{RL{reader {rO{Rf{Yfi{Rc{re{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20224",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20226"
+        },
+        "20231": {
+            "extras": {},
+            "flags_raw": "0 67634176 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{rYou stand in a large {rstone circle.  Flowing below you is a sea of",
+                "{Rfiery magma underneath, what appears to be, a sheet of pure {Rdiamond. ",
+                "{YCentered here, is a flowing stone altar.  It appears to be made of",
+                "{ylava, Yet it is cool to the touch.  The pillars around you reach high",
+                "{Yinto the air, with little flames dancing in the pools of lava at the",
+                "{Rtop.  As you watch the molten rock below your feet, you notice several",
+                "{rsolid points, which seem to be supporting the structure.  {x "
+            ],
+            "name": "{RT{ro{Yw{re{Rr {RT{Yo{rp{x",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20224",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20231"
+        },
+        "20230": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{bA{Bside from a{wn odd chill in th{Ce roo{wm like someone left {Ba windo{bw",
+                "o{Bpen, there is{w only a large cou{Cnter {wagainst the far wall {Bof the roo{bm. ",
+                "A {Bsmall bell wi{wth a broken ring{Cer a{wnd a sign are set on {Bthe counte{br.  {x"
+            ],
+            "name": "{BP{Wol{Ca{Wri{Bs {RT{Yo{rw{yn {rO{Rf{Yfi{Rc{re{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20222",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20230"
+        },
+        "20221": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThis is the north end of the second floor of the tower, the hallway",
+                "ends here, the Cafeteria to the east and the Bank to the west.  There",
+                "is a staircase here, spiraling downward to the lower, more accessable,",
+                "parts of the tower.  {x "
+            ],
+            "name": "{rH{Ra{Yllw{Ra{ry{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20228",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20227",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20220",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20221"
+        },
+        "20218": {
+            "extras": {},
+            "flags_raw": "0 524296 134217728 0",
+            "flags2_raw": "0",
+            "description": [
+                "{BShining brightly in the light, the marble toilet gleams in the",
+                "florescent lights of this lavatory.  The walls are a soft blue and the",
+                "floor, a blue marbled tile.  Across to the left is a large sink for",
+                "handwashing.  To the close right is the toilet stalls, for any other",
+                "'business'.  {X "
+            ],
+            "name": "{rL{Ra{Yvato{Rr{ry {B(Gentlemen){x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20214",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20218"
+        },
+        "20216": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RPeacefully relaxing flames dance illusively on the walls, pleasing",
+                "the eye.  A comfortable sofa stands here, ready to offer rest for",
+                "those tired of office work and airship piloting alike.  The exit from",
+                "this room to the rest of the facilities lies to the north.  {x "
+            ],
+            "name": "{rL{Ro{Yun{Rg{re{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20213",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20216"
+        },
+        "20201": {
+            "extras": {},
+            "flags_raw": "0 524296 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "{RThe exit from the hangar is barred by a huge gate. Standing at",
+                "operation of the gate is a large fiery golem, ready to swing the",
+                "seemingly unmovable gates open at command of a proper authority. A",
+                "large sign stands here, explaining the procedure to open the gates to",
+                "the south and the Flame Air Ordinance hangar is back north.{x"
+            ],
+            "name": "{RE{rntrance to the {rH{Ra{Yng{Ra{rr{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20202",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "20202",
+                    "room_id": "20200",
+                    "description": [
+                        "A large airship gate.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20201"
+        },
+        "20222": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThis flaming hot hallway of the second floor leads to the Polaris",
+                "Town Office to the east and the staff recruitment office to the west. ",
+                "Back north is the staircase.  {x "
+            ],
+            "name": "{rH{Ra{Yllw{Ra{ry{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20220",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20230",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20229",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20222"
         },
         "20232": {
-            "name": "{rG{Ra{Ytheri{Rn{rg {rP{Rl{Ya{Rc{re{x",
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{RHere is a beautiful, grand room.  Made for a hundred people or",
                 "more.  A large staircase leads farther up, into the tower.  While the",
@@ -386,186 +512,247 @@
                 "there are a few chairs and stray tables, for the weary that wish to do",
                 "nothing more then rest.  {w "
             ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20232",
+            "name": "{rG{Ra{Ytheri{Rn{rg {rP{Rl{Ya{Rc{re{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20213"
-                },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20212",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20212"
-                }
-            },
-            "extras": {}
-        },
-        "20215": {
-            "name": "{rS{Rt{Yairca{Rs{re{x",
-            "description": [
-                "{RThe walls themselves seem to emmit heat as one ventures deeper into",
-                "the tower.  Mysteriously shaped flames visualize all around as if they",
-                "were hallucinations.  It seems to get hotter closer to the staircase",
-                "that leads upwards.  Cooler Polaris air still finds it's way in from",
-                "the southern direction.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20215",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20213",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20212"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20220"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20232"
         },
-        "20208": {
-            "name": "{rH{Ra{Yng{Ra{rr {B[{Y4{B]{x",
-            "description": [],
+        "20209": {
+            "extras": {},
             "flags_raw": "0 524296 0 23",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20208",
+            "description": [],
+            "name": "{rH{Ra{Yng{Ra{rr {B[{Y3{B]{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20202",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20205"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20224": {
-            "name": "{rS{Rt{Yairca{Rs{re{x",
-            "description": [
-                "{RThis is the staircase of the third floor of the tower.  There are",
-                "offices to the east and west, whereas only members of the faction may",
-                "enter.  The {YTemple of {rK{Ro{Yssu{Rt{rh{R is at the top of the tower.  {x "
-            ],
-            "flags_raw": "0 67633160 0 0",
             "wanted_area_vnum": "",
+            "vnum": "20209"
+        },
+        "20204": {
+            "extras": {},
+            "flags_raw": "0 524296 0 22",
             "flags2_raw": "0",
-            "vnum": "20224",
+            "description": [
+                "{YNorth: Hangar 1 {B|{Y East: Hangars 2, 3, 4 and 5{Y"
+            ],
+            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20211",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20237"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20233"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20231"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20203",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20226"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20225"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20220"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20201": {
-            "name": "{RE{rntrance to the {rH{Ra{Yng{Ra{rr{x",
-            "description": [
-                "{RThe exit from the hangar is barred by a huge gate. Standing at",
-                "operation of the gate is a large fiery golem, ready to swing the",
-                "seemingly unmovable gates open at command of a proper authority. A",
-                "large sign stands here, explaining the procedure to open the gates to",
-                "the south and the Flame Air Ordinance hangar is back north.{x"
-            ],
-            "flags_raw": "0 524296 0 11",
             "wanted_area_vnum": "",
+            "vnum": "20204"
+        },
+        "20202": {
+            "extras": {},
+            "flags_raw": "0 524296 0 22",
             "flags2_raw": "0",
-            "vnum": "20201",
+            "description": [
+                "{RThe room is huge, big enough to fit more than one airship.  Exits",
+                "on this level branch to the hangars to the north, west and east.  The",
+                "exit is south and a staircase leads to the offices on the second",
+                "floor.  {x ",
+                " ",
+                "{YWest: Hangars 1 and 2 {B|{Y North: Hangar 3 {B|{Y East: Hangars 4 and 5{Y"
+            ],
+            "name": "{rH{Ra{Yng{Ra{rr {RI{rntersection{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20209",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20202"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20205",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20217",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20203",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
-                    "flags_raw": "20202",
+                    "flags_raw": "0",
+                    "room_id": "20201",
                     "description": [
-                        "A large airship gate.",
                         ""
-                    ],
-                    "room_id": "20200"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20209": {
-            "name": "{rH{Ra{Yng{Ra{rr {B[{Y3{B]{x",
-            "description": [],
-            "flags_raw": "0 524296 0 23",
             "wanted_area_vnum": "",
+            "vnum": "20202"
+        },
+        "20205": {
+            "extras": {},
+            "flags_raw": "0 524296 0 22",
             "flags2_raw": "0",
-            "vnum": "20209",
+            "description": [
+                "{YWest: Hangars 1, 2 and 3 {B|{Y North: Hangar 4 {B|{Y East: Hangar 5{Y"
+            ],
+            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20208",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20206",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20202",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20205"
+        },
+        "20225": {
+            "extras": {},
+            "flags_raw": "0 67633160 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{rThis room is oddly shaped and {Rtapers from the walls to the center. ",
+                "It has multiple {Ytiers lined with chairs and {rdesks.  There is a {rbalcony",
+                "set into the far wall, {Rfor the seat of the elders.  There are many",
+                "{Ychairs here, for many ears.  A {rlarge desk is resting in the pit of {Rthe",
+                "room covered, almost {Ycompletely, in papers and memories.  {x "
+            ],
+            "name": "{rC{Ro{Ynferen{Rc{re {RR{room{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20224",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20225"
+        },
+        "20228": {
+            "extras": {},
+            "flags_raw": "0 525322 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{BA cool breeze hits you as you pass through the door, into the Bank",
+                "Office.  The iced over {wsurfaces of the tables and counters gleam an",
+                "almost eerie light.  There is a short, {Wchubby man in the corner",
+                "dressed in the common robes of a banker.  It seems {byou should take",
+                "your time here, the floors look of ice and appear to be quite",
+                "slippery.  {x "
+            ],
+            "name": "{BP{Wol{Ca{Wri{Bs {RB{rank {rO{Rf{Yfi{Rc{re{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20221",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20228"
+        },
+        "20210": {
+            "extras": {},
+            "flags_raw": "0 524296 0 23",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{rH{Ra{Yng{Ra{rr {B[{Y2{B]{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20203",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20202"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20210"
+        },
+        "20223": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RO{rf{Yfi{rc{Re{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20213",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20223"
         },
         "20234": {
-            "name": "{RP{ret{Ys{rho{Rp{X",
+            "extras": {},
+            "flags_raw": "0 604505096 0 13",
+            "flags2_raw": "0",
             "description": [
                 "{RBeautifully carved doorways and edgin{Yg {Ymark this place as part of",
                 "{rthe Flame HeadQuarters.  There is /one/{y thing that sets it apart from",
@@ -575,417 +762,33 @@
                 "{ranimals.  It smells alot like a wet cho{ycobo in this place, ",
                 "{X"
             ],
-            "flags_raw": "0 604505096 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20234",
+            "name": "{RP{ret{Ys{rho{Rp{X",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20220",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20220"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20218": {
-            "name": "{rL{Ra{Yvato{Rr{ry {B(Gentlemen){x",
-            "description": [
-                "{BShining brightly in the light, the marble toilet gleams in the",
-                "florescent lights of this lavatory.  The walls are a soft blue and the",
-                "floor, a blue marbled tile.  Across to the left is a large sink for",
-                "handwashing.  To the close right is the toilet stalls, for any other",
-                "'business'.  {X "
-            ],
-            "flags_raw": "0 524296 134217728 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20218",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20214"
-                }
-            },
-            "extras": {}
-        },
-        "20221": {
-            "name": "{rH{Ra{Yllw{Ra{ry{x",
-            "description": [
-                "{RThis is the north end of the second floor of the tower, the hallway",
-                "ends here, the Cafeteria to the east and the Bank to the west.  There",
-                "is a staircase here, spiraling downward to the lower, more accessable,",
-                "parts of the tower.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20221",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20220"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20227"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20228"
-                }
-            },
-            "extras": {}
-        },
-        "20236": {
-            "name": "Flame Mount Shop",
-            "description": [],
-            "flags_raw": "0 524292 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20236",
-            "exits": {},
-            "extras": {}
-        },
-        "20225": {
-            "name": "{rC{Ro{Ynferen{Rc{re {RR{room{x",
-            "description": [
-                "{rThis room is oddly shaped and {Rtapers from the walls to the center. ",
-                "It has multiple {Ytiers lined with chairs and {rdesks.  There is a {rbalcony",
-                "set into the far wall, {Rfor the seat of the elders.  There are many",
-                "{Ychairs here, for many ears.  A {rlarge desk is resting in the pit of {Rthe",
-                "room covered, almost {Ycompletely, in papers and memories.  {x "
-            ],
-            "flags_raw": "0 67633160 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20225",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20224"
-                }
-            },
-            "extras": {}
-        },
-        "20216": {
-            "name": "{rL{Ro{Yun{Rg{re{x",
-            "description": [
-                "{RPeacefully relaxing flames dance illusively on the walls, pleasing",
-                "the eye.  A comfortable sofa stands here, ready to offer rest for",
-                "those tired of office work and airship piloting alike.  The exit from",
-                "this room to the rest of the facilities lies to the north.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20216",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20213"
-                }
-            },
-            "extras": {}
-        },
-        "20205": {
-            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
-            "description": [
-                "{YWest: Hangars 1, 2 and 3 {B|{Y North: Hangar 4 {B|{Y East: Hangar 5{Y"
-            ],
-            "flags_raw": "0 524296 0 22",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20205",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20208"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20202"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20206"
-                }
-            },
-            "extras": {}
-        },
-        "20229": {
-            "name": "{RR{recruitment {rO{Rf{Yfi{Rc{re{x",
-            "description": [
-                "{rThe walls are a warm tone of {Rorange and seem the most simple of the",
-                "{Yarea.  There is a long table here, surrounded by {rsturdy yet small",
-                "chairs.  {RBooks and a large map are embedded {Yinto the far end of the",
-                "table.  There{r is a short clipboard with a sign-in {Rsheet hanging to the",
-                "left of the door.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20229",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20222"
-                }
-            },
-            "extras": {}
-        },
-        "20211": {
-            "name": "{rH{Ra{Yng{Ra{rr {B[{Y1{B]{x",
-            "description": [],
-            "flags_raw": "0 524296 0 23",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20211",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20204"
-                }
-            },
-            "extras": {}
-        },
-        "20203": {
-            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
-            "description": [
-                "{YWest: Hangar 1 {B|{Y North: Hangar 2 {B|{Y East: Hangars 3, 4 and 5{Y"
-            ],
-            "flags_raw": "0 524296 0 22",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20203",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20210"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20204"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20202"
-                }
-            },
-            "extras": {}
+            "vnum": "20234"
         },
         "20235": {
-            "name": "pet storage",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 524292 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20235",
+            "description": [],
+            "name": "pet storage",
             "exits": {},
-            "extras": {}
-        },
-        "20217": {
-            "name": "{rH{Ra{Yllw{Ra{ry{x",
-            "description": [
-                "{RThe walls of the hallway emmit great heat and illusive images of",
-                "burning flames on them blur your mind...  {x {RThe lavatories are to the",
-                "west, a staircase leads down to the hangars and the exit and the",
-                "office is to the west.  {x "
-            ],
-            "flags_raw": "0 524300 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20217",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20213"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20214"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20202"
-                }
-            },
-            "extras": {}
-        },
-        "20219": {
-            "name": "{rL{Ra{Yvato{Rr{ry {M(Ladies){x",
-            "description": [
-                "{MLilacs and honeysuckle freshen the air, as the gold framed mirrors",
-                "shine.  The white marble toilet is topped with a soft pink fuzzy cover",
-                "and the sweet air is circulated wonderfully in this well kept",
-                "facility.  {X "
-            ],
-            "flags_raw": "0 524296 134217728 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20219",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20214"
-                }
-            },
-            "extras": {}
-        },
-        "20212": {
-            "name": "{RF{rl{Ya{rm{Re {RH{Ya{rl{Rl{x",
-            "description": [
-                "{RStanding at the entrance of what seems to be a high tower one can",
-                "feel great heat coming from inside, a rather pleasant change from the",
-                "cold air of Polaris.  A huge golem-like being shaped entirely of",
-                "burning flames stands at guard of the tower.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20212",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20215"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "7588"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20232"
-                }
-            },
-            "extras": {}
-        },
-        "20227": {
-            "name": "{rC{Ra{Yfeter{Ri{ra{x",
-            "description": [
-                "{RMmmmm,...  There is a {Ywonderfully sp{Ricy scent in the air.  The",
-                "smell of hot, tasty food {Yattracts your{R attention.  A lady, in the far",
-                "corner of the Cafeteria, {Yis bent over{R a stove looking into the oven",
-                "door.  A large table and {Ya few booths{R litter the Cafe.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20227",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20221"
-                }
-            },
-            "extras": {}
-        },
-        "20213": {
-            "name": "{rH{Ra{Yllw{Ra{ry{x",
-            "description": [
-                "{RThis end of the flaming hallway leads to the lounge to the south",
-                "and the Ordinance office to the north.  The lavatories are far east",
-                "and and the staircase leading to the hangars nearby to the east.  {x "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20213",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20216"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20232"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20217"
-                }
-            },
-            "extras": {}
+            "vnum": "20235"
         },
         "20233": {
-            "name": "{*Lost in Darkness{x",
+            "extras": {},
+            "flags_raw": "0 1141376001 0 18",
+            "flags2_raw": "0",
             "description": [
                 "{&This is the portal room of the Flame Faction.  Used as a quicker",
                 "way around the realms.  Noone outside of Flame knows of this place.  {x ",
@@ -997,281 +800,479 @@
                 "{#Up    {*- Drakyri Isle",
                 "{3Down  {*- Market Square{x"
             ],
-            "flags_raw": "0 1141376001 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20233",
+            "name": "{*Lost in Darkness{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20224",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20224"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1955"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11701"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "32216",
                     "description": [
                         ""
-                    ],
-                    "room_id": "32216"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31086"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "3014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "3014"
-                }
-            },
-            "extras": {}
-        },
-        "20228": {
-            "name": "{BP{Wol{Ca{Wri{Bs {RB{rank {rO{Rf{Yfi{Rc{re{x",
-            "description": [
-                "{BA cool breeze hits you as you pass through the door, into the Bank",
-                "Office.  The iced over {wsurfaces of the tables and counters gleam an",
-                "almost eerie light.  There is a short, {Wchubby man in the corner",
-                "dressed in the common robes of a banker.  It seems {byou should take",
-                "your time here, the floors look of ice and appear to be quite",
-                "slippery.  {x "
-            ],
-            "flags_raw": "0 525322 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20228",
-            "exits": {
-                "west": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "1955",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20221"
-                }
-            },
-            "extras": {}
-        },
-        "20206": {
-            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
-            "description": [
-                "{YWest: Hangars 1, 2, 3 and 4 {B|{Y North: Hangar 5"
-            ],
-            "flags_raw": "0 524296 0 22",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20206",
-            "exits": {
-                "north": {
+                    ]
+                },
+                "up": {
                     "flags_raw": "0",
+                    "room_id": "11701",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20207"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "31086",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20205"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20233"
+        },
+        "20203": {
+            "extras": {},
+            "flags_raw": "0 524296 0 22",
+            "flags2_raw": "0",
+            "description": [
+                "{YWest: Hangar 1 {B|{Y North: Hangar 2 {B|{Y East: Hangars 3, 4 and 5{Y"
+            ],
+            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20210",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20202",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20204",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20203"
+        },
+        "20213": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThis end of the flaming hallway leads to the lounge to the south",
+                "and the Ordinance office to the north.  The lavatories are far east",
+                "and and the staircase leading to the hangars nearby to the east.  {x "
+            ],
+            "name": "{rH{Ra{Yllw{Ra{ry{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20232",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20217",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20216",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20213"
+        },
+        "20215": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThe walls themselves seem to emmit heat as one ventures deeper into",
+                "the tower.  Mysteriously shaped flames visualize all around as if they",
+                "were hallucinations.  It seems to get hotter closer to the staircase",
+                "that leads upwards.  Cooler Polaris air still finds it's way in from",
+                "the southern direction.  {x "
+            ],
+            "name": "{rS{Rt{Yairca{Rs{re{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20220",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20212",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20215"
+        },
+        "20200": {
+            "extras": {},
+            "flags_raw": "0 524288 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "{RThe entrance to the hangar is barred by a huge gate.  Standing at",
+                "operation of the gate is a large fiery golem, ready to swing the",
+                "seemingly unmovable gates open at command of a proper authority.  {x {RA",
+                "large sign stands here, explaining the procedure to open the gates to",
+                "the north and the way back to the Polaris airship port lies south.  {x "
+            ],
+            "name": "{RE{rntrance to the {rH{Ra{Yng{Ra{rr{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "20202",
+                    "room_id": "20201",
+                    "description": [
+                        "A large airship gate.",
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "49628",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20200"
+        },
+        "20236": {
+            "extras": {},
+            "flags_raw": "0 524292 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Flame Mount Shop",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "20236"
+        },
+        "20219": {
+            "extras": {},
+            "flags_raw": "0 524296 134217728 0",
+            "flags2_raw": "0",
+            "description": [
+                "{MLilacs and honeysuckle freshen the air, as the gold framed mirrors",
+                "shine.  The white marble toilet is topped with a soft pink fuzzy cover",
+                "and the sweet air is circulated wonderfully in this well kept",
+                "facility.  {X "
+            ],
+            "name": "{rL{Ra{Yvato{Rr{ry {M(Ladies){x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20214",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20219"
+        },
+        "20206": {
+            "extras": {},
+            "flags_raw": "0 524296 0 22",
+            "flags2_raw": "0",
+            "description": [
+                "{YWest: Hangars 1, 2, 3 and 4 {B|{Y North: Hangar 5"
+            ],
+            "name": "{rH{Ra{Yng{Ra{rr {BWay{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20207",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20205",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20206"
+        },
+        "20227": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RMmmmm,...  There is a {Ywonderfully sp{Ricy scent in the air.  The",
+                "smell of hot, tasty food {Yattracts your{R attention.  A lady, in the far",
+                "corner of the Cafeteria, {Yis bent over{R a stove looking into the oven",
+                "door.  A large table and {Ya few booths{R litter the Cafe.  {x "
+            ],
+            "name": "{rC{Ra{Yfeter{Ri{ra{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20221",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20227"
+        },
+        "20217": {
+            "extras": {},
+            "flags_raw": "0 524300 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{RThe walls of the hallway emmit great heat and illusive images of",
+                "burning flames on them blur your mind...  {x {RThe lavatories are to the",
+                "west, a staircase leads down to the hangars and the exit and the",
+                "office is to the west.  {x "
+            ],
+            "name": "{rH{Ra{Yllw{Ra{ry{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20214",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20213",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20202",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20217"
         }
     },
-    "uid": "flame01",
-    "area_quest_points": 0,
     "credits": "[ Public ] The Flame Faction",
     "faction_id": "",
+    "name": "Flame Faction Area",
     "vnums": [
         20200,
         20249
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "20200": {
-            "name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMVZ ABCDEFGHIJK large unknown",
-            "raw_flags4": "0 ABLQa BEHI FIJR",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20200,
             "raw_flags": "ABGT JT DH 0 0",
-            "race_id": "giant",
+            "raw_flags4": "0 ABLQa BEHI FIJR",
+            "room_name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x stands here, guarding the town hall\n",
+            "name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x~\n",
             "raw_flags2": "102 0 17d26+1015 17d26+1015 5d10+22 none",
-            "d_flags": "D ~",
+            "keywords": "infernal golem~\n",
             "subroutines": [
                 "M GRALL 20200 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x stands here, guarding the town hall\n",
-            "keywords": "infernal golem~\n"
+            "raw_flags6": "AHMVZ ABCDEFGHIJK large unknown",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "20201": {
-            "name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "0 ABLQa EHI JR",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20201,
             "raw_flags": "ABGNT 0 DH 0 0",
-            "race_id": "giant",
+            "raw_flags4": "0 ABLQa EHI JR",
+            "room_name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x guards the way upwards\n",
+            "name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x~\n",
             "raw_flags2": "102 0 17d26+1015 17d26+1015 5d10+22 flame",
-            "d_flags": "D ~",
+            "keywords": "infernal golem~\n",
             "subroutines": [
                 "M EXALL 20201 4~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An {RI{Yn{yf{Re{Yr{rn{ya{Rl {YG{ru{Ra{yr{Rd{Yi{ra{Rn {RG{ro{Yl{re{Rm{x guards the way upwards\n",
-            "keywords": "infernal golem~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "20202": {
-            "name": "{BThe P{Wol{Ca{Wri{Bs {RB{ra{Ynk{re{Rr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Here stands a goofy lookin person, a number of piercings in his\n",
                 "face.  He's wearing a shirt that says \"Give me all your Money, Fool!\" \n",
                 "Should you really trust him with your cash?  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ALQa I 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20202,
             "raw_flags": "ABGc 0 DH 0 0",
-            "race_id": "human",
-            "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ALQa I 0",
             "room_name": "{BThe P{Wol{Ca{Wri{Bs {RB{ra{Ynk{re{Rr{x stands here, handling deposits and withdrawls\n",
-            "keywords": "polaris banker~\n"
+            "name": "{BThe P{Wol{Ca{Wri{Bs {RB{ra{Ynk{re{Rr{x~\n",
+            "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
+            "keywords": "polaris banker~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20203": {
-            "name": "{RA{rn {RI{Ym{rm{ye{Rn{Ys{re {RF{rl{Ya{rm{Ye {rE{Rl{Ye{*m{We{*n{Yt{ra{Rl{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "0 ALQa EHI JR",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20203,
             "raw_flags": "ABGT DFJLTc DH 0 0",
-            "race_id": "giant",
+            "raw_flags4": "0 ALQa EHI JR",
+            "room_name": "{RA{rn {RI{Ym{rm{ye{Rn{Ys{re {RF{rl{Ya{rm{Ye {rE{Rl{Ye{*m{We{*n{Yt{ra{Rl{x stands here, watching over Polaris\n",
+            "name": "{RA{rn {RI{Ym{rm{ye{Rn{Ys{re {RF{rl{Ya{rm{Ye {rE{Rl{Ye{*m{We{*n{Yt{ra{Rl{x~\n",
             "raw_flags2": "102 0 17d26+1015 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "keywords": "flame elemental~\n",
             "subroutines": [
                 "M GRALL 20202 100~\n",
                 "M SPEECH 20203 weapon~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{RA{rn {RI{Ym{rm{ye{Rn{Ys{re {RF{rl{Ya{rm{Ye {rE{Rl{Ye{*m{We{*n{Yt{ra{Rl{x stands here, watching over Polaris\n",
-            "keywords": "flame elemental~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "20204": {
-            "name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20204,
             "raw_flags": "AB D DH 0 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "room_name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x stands here, guarding the entrance to the hangar\n",
+            "name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x~\n",
             "raw_flags2": "102 0 1d1+1 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "keywords": "gate golem gatemob~\n",
             "subroutines": [
                 "M SPEECH 20204 open gate~\n",
                 "M SPEECH 20205 close gate~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x stands here, guarding the entrance to the hangar\n",
-            "keywords": "gate golem gatemob~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20205": {
-            "name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ALQa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20205,
             "raw_flags": "AB DF DH 0 0",
-            "race_id": "human",
+            "raw_flags4": "0 ALQa 0 0",
+            "room_name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x stands here, guarding the entrance to the hangar\n",
+            "name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x~\n",
             "raw_flags2": "102 0 1d1+1 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "keywords": "gate golem gatemob2~\n",
             "subroutines": [
                 "M SPEECH 20206 open gate~\n",
                 "M SPEECH 20207 close gate~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {RG{ra{Yt{ye {rG{Ro{Yl{Re{rm{x stands here, guarding the entrance to the hangar\n",
-            "keywords": "gate golem gatemob2~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20206": {
-            "name": "The cooking lady~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A good-looking lady stands at the stove, cooking up some yummy food.  \n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABHLQa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20206,
             "raw_flags": "ABG DF DH 0 0",
-            "race_id": "human",
-            "raw_flags2": "102 0 20d20+20 20d20+20 20d20+20 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABHLQa 0 0",
             "room_name": "A good-looking lady stands here at the stove, cooking up meals\n",
-            "keywords": "cook~\n"
+            "name": "The cooking lady~\n",
+            "raw_flags2": "102 0 20d20+20 20d20+20 20d20+20 none",
+            "keywords": "cook~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20207": {
-            "name": "{RA {-Sexy {rF{Ri{Yr{re {RN{Yy{rm{Rp{Yh{X~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -18",
             "description": [
                 "{RA ball of fire floats a few inches off the ground.  A good look\n",
                 "inside and you can see the faint body of a being.  {x \n"
             ],
             "raw_flags5": "stand stand female 10000",
-            "raw_flags6": "AHMV ABCDEFGHIJK small Fire",
-            "raw_flags4": "0 H BGX I",
-            "raw_flags3": "-18 -18 -18 -18",
             "vnum": 20207,
             "raw_flags": "AIV FJTVc 0 0 0",
-            "race_id": "elf",
-            "raw_flags2": "85 0 27d50+5220 27d50+5220 5d9+42 wrath",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 H BGX I",
             "room_name": "{RA {-sexy {Rn{ry{Ym{Rp{rh {Rfloats here, swallowed by fire.{x\n",
-            "keywords": "nymph fire sexy beautiful~\n"
+            "name": "{RA {-Sexy {rF{Ri{Yr{re {RN{Yy{rm{Rp{Yh{X~\n",
+            "raw_flags2": "85 0 27d50+5220 27d50+5220 5d9+42 wrath",
+            "keywords": "nymph fire sexy beautiful~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small Fire",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "20208": {
-            "name": "{RA {-F{-u{-n{-k{-y {RF{ri{Yr{Re{rf{Yl{Ry{X~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "{RA small glimmering ball of fire folds in on itself.  Upon closer\n",
                 "inspection, you see a small bug, resembling a fire fly, floating\n",
@@ -1279,24 +1280,24 @@
                 "of flame can be seen the emblem of the Flame Faction.  {X \n"
             ],
             "raw_flags5": "stand stand either 10000",
-            "raw_flags6": "AZ ACDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "FHK 0 BHK CFINQ",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20208,
             "raw_flags": "AVdf FJT 0 1000 0",
-            "race_id": "song bird",
-            "raw_form": "GW",
+            "raw_flags4": "FHK 0 BHK CFINQ",
+            "room_name": "{RA {-f{-u{-n{-k{-y {Rlittle {rf{Rir{Ye{Rfl{ry {Rfloats around it's masters head.{X\n",
+            "name": "{RA {-F{-u{-n{-k{-y {RF{ri{Yr{Re{rf{Yl{Ry{X~\n",
             "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 bite",
-            "d_flags": "D ~",
+            "raw_form": "GW",
+            "keywords": "funky firefly fire fly~\n",
             "subroutines": [
                 "F for GW\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{RA {-f{-u{-n{-k{-y {Rlittle {rf{Rir{Ye{Rfl{ry {Rfloats around it's masters head.{X\n",
-            "keywords": "funky firefly fire fly~\n"
+            "raw_flags6": "AZ ACDEFGHIJKPQUVX medium unknown",
+            "race_id": "song bird",
+            "t_flags": "T ~"
         },
         "20209": {
-            "name": "{RP{ryroki{X~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{RHere stands an {-amazing{R looking creature.  Long {*black{R hair and eyes\n",
                 "that glint an amazing {ggreen{R.  Her lips, the color of {rS{Re{Wx{R, lined in\n",
@@ -1306,87 +1307,86 @@
                 "if she were a {Wpearl{R, and they, the clam shell.  {X \n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AEHJMVc ABCDEFGHIJKPV huge unknown",
-            "raw_flags4": "0 ABILMNPQRa ES GHJKO",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20209,
             "raw_flags": "ABNU 0 0 100 0",
-            "race_id": "doll",
-            "raw_flags2": "101 0 20d20+10 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABILMNPQRa ES GHJKO",
             "room_name": "{rA beautiful demon, {RP{ryroki, is here playing with the pets{X\n",
-            "keywords": "pyroki demon beautiful shoppe pet owner~\n"
+            "name": "{RP{ryroki{X~\n",
+            "raw_flags2": "101 0 20d20+10 0d0+0 0d0+0 none",
+            "keywords": "pyroki demon beautiful shoppe pet owner~\n",
+            "subroutines": [],
+            "raw_flags6": "AEHJMVc ABCDEFGHIJKPV huge unknown",
+            "race_id": "doll",
+            "t_flags": "T ~"
         },
         "20210": {
-            "name": "{RA {YS{rm{Ro{Yl{rd{Re{Yr{ri{Rn{Yg {RS{Ya{Rl{Ya{rma{Yn{Rd{Ye{Rr{X~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-8 -8 -8 -8",
             "description": [
                 "{RHard red scales line this beast.  It appears almost as a large\n",
                 "lizard, except for all the spines on its body.  {X {R It is aptly fitted\n",
                 "with a collar and a leash, so that its master can walk it around.  {X \n"
             ],
             "raw_flags5": "stand stand either 0",
-            "raw_flags6": "AGXc ACDEFHKQV medium fire",
-            "raw_flags4": "0 BFHNX L I",
-            "raw_flags3": "-8 -8 -8 -8",
             "vnum": 20210,
             "raw_flags": "AIVd FJ 0 0 0",
-            "race_id": "lizard",
-            "raw_flags2": "55 0 20d20+2000 20d20+2000 4d10+25 thwack",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 BFHNX L I",
             "room_name": "{RA {Ygl{Ro{rw{Ri{Yng {rs{Rc{Ya{Rl{ry {Rsalamander is here, awaiting its masters commands.{X\n",
-            "keywords": "fire salamander pet~\n"
+            "name": "{RA {YS{rm{Ro{Yl{rd{Re{Yr{ri{Rn{Yg {RS{Ya{Rl{Ya{rma{Yn{Rd{Ye{Rr{X~\n",
+            "raw_flags2": "55 0 20d20+2000 20d20+2000 4d10+25 thwack",
+            "keywords": "fire salamander pet~\n",
+            "subroutines": [],
+            "raw_flags6": "AGXc ACDEFHKQV medium fire",
+            "race_id": "lizard",
+            "t_flags": "T ~"
         },
         "20211": {
-            "name": "{RA {*S{wh{ra{wd{ro{ww{*y {RB{Ya{Rl{Yr{ro{Rg{X~\n",
+            "raw_parts": "ACDEFGHIJKPQUVX",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{R A huge creature slowly forms, between shadow and flame.  Magically\n",
                 "fitted with a collar and tagged to its owner.  {X \n"
             ],
             "raw_flags5": "stand stand male 10000",
-            "raw_flags6": "AHK 0 medium shadow",
-            "raw_flags4": "0 HM BEH FINS",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20211,
             "raw_flags": "AIVd JT 0 0 0",
-            "race_id": "dragon",
-            "raw_form": "Z",
+            "raw_flags4": "0 HM BEH FINS",
+            "room_name": "{RA giant creature of {*s{wh{*a{wd{*o{ww{R and f{Yl{ra{Rm{Ye{R stands here.{x\n",
+            "name": "{RA {*S{wh{ra{wd{ro{ww{*y {RB{Ya{Rl{Yr{ro{Rg{X~\n",
             "raw_flags2": "30 0 5d10+200 5d10+200 3d9+15 none",
-            "d_flags": "D ~",
+            "raw_form": "Z",
+            "keywords": "balrog giant shadow fire~\n",
             "subroutines": [
                 "F for Z\n",
                 "F par ACDEFGHIJKPQUVX\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{RA giant creature of {*s{wh{*a{wd{*o{ww{R and f{Yl{ra{Rm{Ye{R stands here.{x\n",
-            "raw_parts": "ACDEFGHIJKPQUVX",
-            "keywords": "balrog giant shadow fire~\n"
+            "raw_flags6": "AHK 0 medium shadow",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "20212": {
-            "name": "{!a {#t{1i{3n{!y {1p{3h{!o{#e{1n{3i{!x{x~\n",
+            "raw_parts": "BCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [],
             "raw_flags5": "stand stand none 10",
-            "raw_flags6": "W APQ medium unknown",
-            "raw_flags4": "CIKN H I 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 20212,
             "raw_flags": "AB TV DR 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "CIKN H I 0",
+            "room_name": "{!A {#t{1i{3n{!y {1p{3h{!o{#e{1n{3i{!x {#g{1l{3i{!d{#e{1s {3t{!h{#r{1o{3u{!g{#h {1t{3h{!e {#a{1i{3r{x\n",
+            "name": "{!a {#t{1i{3n{!y {1p{3h{!o{#e{1n{3i{!x{x~\n",
             "raw_flags2": "70 2500 50d50+50 50d50+50 50d50+50 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "fire phoenix relomob tiny~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par BCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{!A {#t{1i{3n{!y {1p{3h{!o{#e{1n{3i{!x {#g{1l{3i{!d{#e{1s {3t{!h{#r{1o{3u{!g{#h {1t{3h{!e {#a{1i{3r{x\n",
-            "raw_parts": "BCDEFGHIJK",
-            "keywords": "fire phoenix relomob tiny~\n"
+            "raw_flags6": "W APQ medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

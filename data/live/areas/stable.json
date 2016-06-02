@@ -1,10 +1,430 @@
 {
-    "name": "Stables",
+    "security": 10,
+    "recall_room_id": 25037,
     "id": "stable",
-    "subroutines": [],
+    "objects": {},
+    "uid": "stable",
     "rooms": {
+        "13851": {
+            "extras": {},
+            "flags_raw": "0 67665924 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Stables Of Westbridge (Holding)",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "13851"
+        },
+        "13853": {
+            "extras": {},
+            "flags_raw": "0 604536836 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Stables Of New Thalos (Holding)",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "13853"
+        },
+        "13839": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The woods creek as the wind passes through the large oak branches. ",
+                "Deep behind the grass and shrugs on the side of this old farm road,",
+                "the woods are thick and cannot be seen into.  Within the woods there",
+                "is sure to be the usual wild life of the eastern realms, but there",
+                "could be more.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13840",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13804",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13839"
+        },
+        "13807": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The yard is very bare.  There is only some grass, where a few",
+                "chickens peck for worms.  You hear noises coming from the barn to the",
+                "north, the sounds of metal against metal.  To the west you see the",
+                "farmhouse, which looks very cozy.  To the east is a workshed.  "
+            ],
+            "name": "The Yard Of Airship Inc",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13846",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13822",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13845",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13807"
+        },
+        "13866": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The Operation.  This room has been build for comfort.  A large table with",
+                "several chairs stands in the middle of the room.  On the wall behind the",
+                "head of the table, a map of the known world hangs.  To the right side of the",
+                "map, The TriPower flag hangs, to the left, the Legion Flag hangs.  Against",
+                "one wall, a large couch sits, next to it, an old wizard sitting in a chair,",
+                "with his feet up.  "
+            ],
+            "name": "Operation",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13864",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13866"
+        },
+        "13868": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Northeast Gravel Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13869",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13832",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13868"
+        },
+        "13864": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at the bottom of the ship, also the main platform.  To the",
+                "south, the control room to the whole ship stands, to the east, a room marked",
+                "\"Operation\", and to the west, the \"Holding Stable\".  As you move acrossed",
+                "the floor, you feet clank on the grating below.  Under the grating, you see",
+                "many pipes traveling to diffrent places.  "
+            ],
+            "name": "Platform C",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13866",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "13862",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13865",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13867",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13864"
+        },
+        "13844": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The old farm road continues deeper into the forest, all around the",
+                "trees grow thicker, sight of the inner woods now disappears behind the",
+                "shrubs and grass growing on the sides of the road.  The road suddenly",
+                "ends, as a dirt path leads north towards a pair of gates.  Beyond the",
+                "gates can be seen a farm courtyard, and a large barn.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13805",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13843",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13844"
+        },
+        "13820": {
+            "extras": {},
+            "flags_raw": "0 0 0 15",
+            "flags2_raw": "0",
+            "description": [
+                "You stand by the corner of the barn.  Many iron parts lie around here, in",
+                "crates and on the ground.  A chicken stands on one, looking at you.  To the",
+                "west is the farmhouse, and to the east is the entrace to the barn.  "
+            ],
+            "name": "The Southwest Corner Of The Barn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13821",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13819",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13820"
+        },
+        "13817": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The Library here is filled with diffrent books.  The desk that sits in",
+                "the middle of the room is covered with small models and blueprints.  A small",
+                "device sits in the corner, which looks like an engine of some sort.  On the",
+                "walls more blueprints hang.  "
+            ],
+            "name": "The Library",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13814",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13817"
+        },
+        "13841": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The woods creek as the wind passes through the large oak branches. ",
+                "Deep behind the grass and shrugs on the side of this old farm road,",
+                "the woods are thick and cannot be seen into.  Within the woods there",
+                "is sure to be the usual wild life of the eastern realms, but there",
+                "could be more.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13842",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13840",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13841"
+        },
+        "13838": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "13838"
+        },
+        "13816": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The bedroom here is very cozy.  A large featherbed sits to one corner.  A",
+                "desk filled with blueprints stands next to the bed.  A dresser sits in",
+                "another corner and a warm chair in the oposite side of the bed.  A window",
+                "looks out onto the courtyard.  "
+            ],
+            "name": "A Bedroom",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13815",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13816"
+        },
+        "13834": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at the southeast corner of the barn.  A gravel road leads",
+                "north and turns to the east, going towards a large group of airships. ",
+                "To the east you see the stable barn, a place to purchase horses and",
+                "chocobo.  "
+            ],
+            "name": "The Southeast Corner Of The Barn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13828",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13821",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13834"
+        },
+        "13822": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This shed is filled to the ceiling with crates of all sizes.  You",
+                "see many parts and tools all around you.  Also many parchments of",
+                "paper rolled up sit up against one wall.  A workbench also sits, a",
+                "large ship with a ballon attached to the top floats just above the",
+                "bench.  "
+            ],
+            "name": "The Workshed",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13807",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13822"
+        },
+        "13824": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The Workarea.  A large steam engine sits in the middle of the room, and a",
+                "large container sits next to it, with hoses running into the steam engine. ",
+                "On the canister you see the famour four bars of the TriPower.  The engine is",
+                "chained down to the floor of the barn, and a few control levers stand to the",
+                "side.  A workbench is covered in parts, a blueprint hands on the wall.  Also",
+                "various books and notepads line some mark-shift shelves.  "
+            ],
+            "name": "The Construction Area",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13823",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13824"
+        },
         "13827": {
-            "name": "The Western Side Of The Barn",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are walking along side of the barn.  More crates and boxes line the",
                 "side of the barn.  A drainage pipe also jults out from the side of the barn.",
@@ -12,52 +432,337 @@
                 "much taller than the old wooden barn.  Two armed Legionaires stand, watching",
                 "you walk.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13827",
+            "name": "The Western Side Of The Barn",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "13831",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13831"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13874": {
-            "name": "Airship Lot: The Event Horizon",
-            "description": [
-                "Above you stands the black airship of the Bloodstoners, and the",
-                "president of the TriPower Company.  A large docking tower stretches",
-                "up towards it, and to the outter deck.  Back west is the airship lot."
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "13827"
+        },
+        "13833": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "13874",
+            "description": [
+                "You stand on the eastern side of the barn.  There is nothing much",
+                "on this side.  To the southeast you see the stables, and workshed.  To",
+                "the north is the fields and mountains.  To the northeast is a group of",
+                "airships.  "
+            ],
+            "name": "The Eastern Side Of The Barn",
             "exits": {
-                "west": {
+                "north": {
                     "flags_raw": "0",
+                    "room_id": "13832",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13872"
+                    ]
                 },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13828",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13833"
+        },
+        "13802": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You walk on a small road that goes into the woods.  The path leads",
+                "to the east, deeper into the forest.  From within the trees something",
+                "red flashes, but as you look, nothing is there.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13803",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13801",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13802"
+        },
+        "13819": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand on the backlawn.  Some chickens stand here pecking away at the",
+                "ground.  To the east is the barn, and south the farmhouse.  "
+            ],
+            "name": "Outside the backside of the house",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13820",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13818",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13819"
+        },
+        "13875": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Above you stands a large iron beast, known as The Highwind.  A",
+                "large ladder leads up to the outter decks.  This ship is known to have",
+                "carried many people, like Nisstyre Bloodstoner, but is now owned by",
+                "Hathorne Judge.  A large iron tower goes upwards, and connects to the",
+                "upper deck.  "
+            ],
+            "name": "Airship Lot: The Highwind",
+            "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "13876",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13877"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13872",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13875"
+        },
+        "13821": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand infront of the barn.  At the top of the barn large white",
+                "letters spell out \"Airship Inc\".  The barn doors are closed, and a large",
+                "lock holds them shut.  A smaller door on the two huge doors is slightly",
+                "open.  A Watcher's Orb hands infront of the door, and a protectors orb",
+                "floats next to the door.  The barn is very heavly guarded, protecting",
+                "whatever is in the barn.  "
+            ],
+            "name": "Outside The Barn",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13823",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13834",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13820",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13849",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13821"
+        },
+        "13825": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand outside the barn.  A large platform stands, it looks like",
+                "something someone would use to get on something.  To the south you see",
+                "the barn doors.  The doors are shut with a lock hanging.  Above the",
+                "door a Watcher's Orb hangs, watching for intruders.  A Protector's Orb",
+                "also floats next to the door.  "
+            ],
+            "name": "The Northern End Of The Barn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13832",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13826",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13825"
+        },
+        "13873": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A large wooden airship hovers above you, parked and ready to go.  A",
+                "large ladder leads up onto the top desk, which is somewhat a long",
+                "distance from the ground.  Back east is the Airship Field.  "
+            ],
+            "name": "Airship Lot: The Blackjack",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13872",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "11800",
+                    "room_id": "27058",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13873"
+        },
+        "13801": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "Deep into the woods, the light is shutup, all except for the",
+                "clearing of the road, which exposes the sky.  The wind blows through",
+                "the trees.  Something red moves quickly behind a tree, but as you look",
+                "it is gone.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13802",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13800",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13801"
+        },
+        "13857": {
+            "extras": {},
+            "flags_raw": "0 67674116 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Stables Of Stonebow (Holding)",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "13857"
+        },
+        "13808": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Outside the small farmhouse, it looks very cozy and old.  It sits",
+                "back to the side of the farmyard, shadowed by a tree.  A small front",
+                "porch stands, with a few chairs on it, and a small table and swing. ",
+                "To the south the view shows the forest, that is just south of here. ",
+                "The door to the farmhouse is slightly open.  A sign swings in the",
+                "wind, gently, with the worlds \"Airship Inc.\"  "
+            ],
+            "name": "Outside The Farmhouse",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13809",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13845",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13808"
+        },
+        "13835": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Above Airship INC.",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "13836",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13835"
         },
         "13867": {
-            "name": "Control Room",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand in the control room of \"The Dark Lord\".  A large window, the",
                 "expands about the whole room, looks out over the front of the ship.  In the",
@@ -68,302 +773,33 @@
                 "the table a shelve stands, with other maps rolled up in each slot.  To the",
                 "back of the room, a large bench expands acrossed the wall.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13867",
+            "name": "Control Room",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13864",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13864"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13867"
         },
-        "13845": {
+        "13829": {
+            "extras": {},
+            "flags_raw": "0 67108868 0 0",
+            "flags2_raw": "0",
+            "description": [],
             "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
+            "exits": {},
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13845",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13808"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13807"
-                }
-            },
-            "extras": {}
-        },
-        "13863": {
-            "name": "Engine Control Room",
-            "description": [
-                "You stand in the engine control room, that controls the ship.  Three",
-                "large containers stand, bolted to the wall.  The TriPower symbol once again",
-                "appears on them.  Also the symbol of the \"Makou Gas Company\" is stamped",
-                "under the TriPower.  A large control board stands in the middle of the room,",
-                "you look at it.  You see three switches, three gages, and a large red lever.",
-                "Above each switch reads \"Engine 1, Engine 2 and Engine 3\".  To the back of",
-                "the room, you see a large mechanical thing running, must be a Makou Engine. ",
-                "You see a large shaft going out from the engine, out of the hull.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13863",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13862"
-                }
-            },
-            "extras": {}
-        },
-        "13809": {
-            "name": "The Entry Hallway",
-            "description": [
-                "The inside of the farmhouse just looks like it sounds.  Small peices of",
-                "old furniture line the wall, some shoes lie on a carpet.  A small hallway",
-                "goes to the north, doors to either side.  To the west a parlor can be seen,",
-                "and to the north a backdoor.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13809",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13808"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13815"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13810"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13811"
-                }
-            },
-            "extras": {}
-        },
-        "13835": {
-            "name": "Above Airship INC.",
-            "description": [],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13835",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13836"
-                }
-            },
-            "extras": {}
-        },
-        "13864": {
-            "name": "Platform C",
-            "description": [
-                "You stand at the bottom of the ship, also the main platform.  To the",
-                "south, the control room to the whole ship stands, to the east, a room marked",
-                "\"Operation\", and to the west, the \"Holding Stable\".  As you move acrossed",
-                "the floor, you feet clank on the grating below.  Under the grating, you see",
-                "many pipes traveling to diffrent places.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13864",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13867"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13865"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13866"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13862"
-                }
-            },
-            "extras": {}
-        },
-        "13816": {
-            "name": "A Bedroom",
-            "description": [
-                "The bedroom here is very cozy.  A large featherbed sits to one corner.  A",
-                "desk filled with blueprints stands next to the bed.  A dresser sits in",
-                "another corner and a warm chair in the oposite side of the bed.  A window",
-                "looks out onto the courtyard.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13816",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13815"
-                }
-            },
-            "extras": {}
-        },
-        "13808": {
-            "name": "Outside The Farmhouse",
-            "description": [
-                "Outside the small farmhouse, it looks very cozy and old.  It sits",
-                "back to the side of the farmyard, shadowed by a tree.  A small front",
-                "porch stands, with a few chairs on it, and a small table and swing. ",
-                "To the south the view shows the forest, that is just south of here. ",
-                "The door to the farmhouse is slightly open.  A sign swings in the",
-                "wind, gently, with the worlds \"Airship Inc.\"  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13808",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13809"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13845"
-                }
-            },
-            "extras": {}
-        },
-        "13812": {
-            "name": "The Dining Room",
-            "description": [
-                "A long table stretchs in the middle of the room.  Several chairs line the",
-                "table to each side.  A large picture window looks out into the fields that",
-                "are to the west of the house.  There is a door to the north, south and east."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13812",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13810"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13813"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13815"
-                }
-            },
-            "extras": {}
-        },
-        "13873": {
-            "name": "Airship Lot: The Blackjack",
-            "description": [
-                "A large wooden airship hovers above you, parked and ready to go.  A",
-                "large ladder leads up onto the top desk, which is somewhat a long",
-                "distance from the ground.  Back east is the Airship Field.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13873",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13872"
-                },
-                "down": {
-                    "flags_raw": "11800",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "27058"
-                }
-            },
-            "extras": {}
+            "vnum": "13829"
         },
         "13806": {
-            "name": "Outside a Farm",
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [
                 "A large wooden gate stands infront of you.  North of the gate you",
                 "see what looks like a large farm.  A small one story farm house sits",
@@ -373,237 +809,73 @@
                 "ramp slowing pointing up.  Behind you is the road leading back to the",
                 "mainroad.  "
             ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13806",
+            "name": "Outside a Farm",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13807",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13807"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "13805",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13805"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13806"
         },
-        "13849": {
-            "name": "",
+        "13831": {
+            "extras": {},
+            "flags_raw": "0 470294537 0 0",
+            "flags2_raw": "0",
             "description": [],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13849",
+            "name": "Project Marlboro",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "13827",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13821"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13848"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13831"
         },
-        "13837": {
-            "name": "Above Airship INC.",
+        "13870": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13837",
+            "name": "The Northeast Gravel Road",
             "exits": {
-                "down": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "13871",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13836"
-                }
-            },
-            "extras": {}
-        },
-        "13832": {
-            "name": "The Northeast Corner Of The Barn",
-            "description": [
-                "You stand in the northeast corner of the barn.  To the north you",
-                "see the old testing fields, where many airships crashed during the",
-                "testing days.  Now the field has regained its hay, and is yellow and",
-                "long.  The mountains to the north are visable, and makes a good view. ",
-                "A gravel road leads off to the east, towards a group of airships.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13832",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13833"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "13869",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13825"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13868"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13805": {
-            "name": "A Small Road",
-            "description": [
-                "You stand outside what looks to be is a farm.  A small wooden gate leads",
-                "into the farm, where a house, a barn and a shed can be seen.  Above the gate",
-                "two letters stands in a sign.  The letters on the sign make out \"A.  I.\"  As",
-                "you get closer to the gate, a red orb jumps out from the woods.  It is a",
-                "Guarding Orb, which is used to keep an eye on people getting closer to its",
-                "domain, which must be the farmhouse.  "
-            ],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13805",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13806"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13844"
-                }
-            },
-            "extras": {}
+            "vnum": "13870"
         },
-        "13823": {
-            "name": "Inside The Barn",
-            "description": [
-                "The inside of the barn is very huge.  In the middle of the barn, a large",
-                "ship stands, in a cradle.  Above the ship a large cloth and iron ballon",
-                "floats, suspending the ship in mid-air.  The ships looks like something that",
-                "would be on the sea, except it floats.  Some tools lie on the ground, and",
-                "diffrent iron parts lie on the ground.  This must be an airship, the newest",
-                "invention to the realms.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
+        "13850": {
+            "extras": {},
+            "flags_raw": "0 536870924 0 0",
             "flags2_raw": "0",
-            "vnum": "13823",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13821"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13826"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13824"
-                }
-            },
-            "extras": {}
-        },
-        "13810": {
-            "name": "The Parlor",
-            "description": [
-                "The Parlor is filled with couches and chairs.  A large fireplace stands",
-                "to the west.  To the north a door leads into the Dining Room.  Windows cover",
-                "each wall, looking out into the fields and trees.  In the fireplace a fire",
-                "burns, heating the room.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13810",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13812"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13809"
-                }
-            },
-            "extras": {}
-        },
-        "13846": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13846",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13847"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13807"
-                }
-            },
-            "extras": {}
-        },
-        "13852": {
-            "name": "The Stables Of New Thalos",
             "description": [
                 "You stand in a dusty stable.  You see several creatures in pens along the",
                 "wall.  An old stablemaster sits by a table, picking through papers.  Some",
@@ -612,349 +884,448 @@
                 "rare breed of riding animal called \"Chocobo\".  In the third stable you see",
                 "an old mule.  In The Fourth Stable a large Mustange stands, snorting at you."
             ],
-            "flags_raw": "0 536870924 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13852",
+            "name": "The Stables Of Westbridge",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "36899",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9519"
-                }
-            },
-            "extras": {}
-        },
-        "13819": {
-            "name": "Outside the backside of the house",
-            "description": [
-                "You stand on the backlawn.  Some chickens stand here pecking away at the",
-                "ground.  To the east is the barn, and south the farmhouse.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13819",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "3101",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13818"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13820"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13820": {
-            "name": "The Southwest Corner Of The Barn",
-            "description": [
-                "You stand by the corner of the barn.  Many iron parts lie around here, in",
-                "crates and on the ground.  A chicken stands on one, looking at you.  To the",
-                "west is the farmhouse, and to the east is the entrace to the barn.  "
-            ],
-            "flags_raw": "0 0 0 15",
             "wanted_area_vnum": "",
+            "vnum": "13850"
+        },
+        "13843": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "13820",
+            "description": [
+                "The woods creek as the wind passes through the large oak branches. ",
+                "Deep behind the grass and shrugs on the side of this old farm road,",
+                "the woods are thick and cannot be seen into.  Within the woods there",
+                "is sure to be the usual wild life of the eastern realms, but there",
+                "could be more.  "
+            ],
+            "name": "The Old Farm Road",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13844",
+                    "description": [
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "13842",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13819"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13821"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13844": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The old farm road continues deeper into the forest, all around the",
-                "trees grow thicker, sight of the inner woods now disappears behind the",
-                "shrubs and grass growing on the sides of the road.  The road suddenly",
-                "ends, as a dirt path leads north towards a pair of gates.  Beyond the",
-                "gates can be seen a farm courtyard, and a large barn.  "
-            ],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
+            "vnum": "13843"
+        },
+        "13848": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "13844",
+            "description": [],
+            "name": "",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13849",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13805"
+                    ]
                 },
-                "west": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "13847",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13843"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13869": {
-            "name": "The Northeast Gravel Road",
-            "description": [],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13869",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13868"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13870"
-                }
-            },
-            "extras": {}
+            "vnum": "13848"
         },
         "13818": {
-            "name": "The Back Porch",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "A cool breeze blows across the porch.  A few chairs and rockers sit back",
                 "here.  To the north there is great view of the fields and barn.  A path",
                 "leaders to the north away from the house and towards the barn.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13818",
+            "name": "The Back Porch",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13819",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13819"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "13814",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13814"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13857": {
-            "name": "Stables Of Stonebow (Holding)",
-            "description": [],
-            "flags_raw": "0 67674116 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13857",
-            "exits": {},
-            "extras": {}
+            "vnum": "13818"
         },
-        "13851": {
-            "name": "Stables Of Westbridge (Holding)",
-            "description": [],
-            "flags_raw": "0 67665924 0 0",
-            "wanted_area_vnum": "",
+        "13865": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "13851",
-            "exits": {},
-            "extras": {}
-        },
-        "13824": {
-            "name": "The Construction Area",
             "description": [
-                "The Workarea.  A large steam engine sits in the middle of the room, and a",
-                "large container sits next to it, with hoses running into the steam engine. ",
-                "On the canister you see the famour four bars of the TriPower.  The engine is",
-                "chained down to the floor of the barn, and a few control levers stand to the",
-                "side.  A workbench is covered in parts, a blueprint hands on the wall.  Also",
-                "various books and notepads line some mark-shift shelves.  "
+                "You enter a small room.  Inside this room, a single people sits in a",
+                "chair, sleeping.  The floor is covered in hay, and bags of food sits next to",
+                "the guy.  To one side, you see several chocobo resting.  This is where the",
+                "mounts are brought in to ride the airship.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13824",
+            "name": "Holding Stable",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13823"
-                }
-            },
-            "extras": {}
-        },
-        "13872": {
-            "name": "The Airship Field",
-            "description": [
-                "You stand in the Airship Field, the holding area for most of the",
-                "completed airships.  You notice it is somewhat empty, because most of",
-                "the ships have been moved to the TriPower's Hangars in Torregiano, and",
-                "on the Legion Accomaxx Island Base.  To the either side of you, stands",
-                "two large airships.  The gravel road is to the south.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13872",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13871"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13875"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13873"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "13864",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13874"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13821": {
-            "name": "Outside The Barn",
-            "description": [
-                "You stand infront of the barn.  At the top of the barn large white",
-                "letters spell out \"Airship Inc\".  The barn doors are closed, and a large",
-                "lock holds them shut.  A smaller door on the two huge doors is slightly",
-                "open.  A Watcher's Orb hands infront of the door, and a protectors orb",
-                "floats next to the door.  The barn is very heavly guarded, protecting",
-                "whatever is in the barn.  "
-            ],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13821",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13849"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13823"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13820"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13834"
-                }
-            },
-            "extras": {}
+            "vnum": "13865"
         },
-        "13801": {
+        "13803": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A large shack stands here, with smoke coming out the top of it.  A",
+                "large lock is on the door, so you cannot enter.  Some words carved",
+                "into the wood of the builder give a hint to what it is.  The words",
+                "read \"Smoke House\".  "
+            ],
             "name": "The Old Farm Road",
-            "description": [
-                "Deep into the woods, the light is shutup, all except for the",
-                "clearing of the road, which exposes the sky.  The wind blows through",
-                "the trees.  Something red moves quickly behind a tree, but as you look",
-                "it is gone.  "
-            ],
-            "flags_raw": "0 0 0 11",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13804",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13802",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "13803"
+        },
+        "13852": {
+            "extras": {},
+            "flags_raw": "0 536870924 0 0",
             "flags2_raw": "0",
-            "vnum": "13801",
+            "description": [
+                "You stand in a dusty stable.  You see several creatures in pens along the",
+                "wall.  An old stablemaster sits by a table, picking through papers.  Some",
+                "doves above in the ceiling make some noice.  In The First Stable you see a",
+                "strong riding horse.  In The Second Stable, you see a large yellow bird, a",
+                "rare breed of riding animal called \"Chocobo\".  In the third stable you see",
+                "an old mule.  In The Fourth Stable a large Mustange stands, snorting at you."
+            ],
+            "name": "The Stables Of New Thalos",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "9519",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13800"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13852"
+        },
+        "13809": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The inside of the farmhouse just looks like it sounds.  Small peices of",
+                "old furniture line the wall, some shoes lie on a carpet.  A small hallway",
+                "goes to the north, doors to either side.  To the west a parlor can be seen,",
+                "and to the north a backdoor.  "
+            ],
+            "name": "The Entry Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13815",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "13811",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13802"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13810",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13808",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13831": {
-            "name": "Project Marlboro",
-            "description": [],
-            "flags_raw": "0 470294537 0 0",
             "wanted_area_vnum": "",
+            "vnum": "13809"
+        },
+        "13869": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "13831",
+            "description": [],
+            "name": "The Northeast Gravel Road",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "13870",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13827"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13868",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13869"
+        },
+        "13845": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13807",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13808",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13845"
+        },
+        "13823": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The inside of the barn is very huge.  In the middle of the barn, a large",
+                "ship stands, in a cradle.  Above the ship a large cloth and iron ballon",
+                "floats, suspending the ship in mid-air.  The ships looks like something that",
+                "would be on the sea, except it floats.  Some tools lie on the ground, and",
+                "diffrent iron parts lie on the ground.  This must be an airship, the newest",
+                "invention to the realms.  "
+            ],
+            "name": "Inside The Barn",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13826",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13824",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13821",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13823"
+        },
+        "13855": {
+            "extras": {},
+            "flags_raw": "0 604537860 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Stables Of Ocol (Holding)",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "13855"
+        },
+        "13860": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Welcome to \"The Dark Lord\", the most advanced Airship in the world.  You",
+                "look around the deck, which is kinda oval shaped, squared.  To the rear of",
+                "the airship, you notice several large fans swinging around, and then a large",
+                "airfin on the back, to stear the ship.  Overhead, the hull of the ship",
+                "passes by your head.  The sounds of several engines running echos around. ",
+                "To the south you see a door leading into the airship.  "
+            ],
+            "name": "On The Deak Of \"The Event Horizon\"",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13861",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13860"
+        },
+        "13813": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The smell of home cooking fills the air.  The kitchen is filled with",
+                "cooking utilities.  A Makou-Gas stove sits in one corner, an icebox and a",
+                "cutting table.  Pots and pans hang down from the ceiling.  The Dining Room",
+                "is to the south, and a sitting room to the east.  "
+            ],
+            "name": "The Kitchen",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13812",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13813"
+        },
+        "13805": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand outside what looks to be is a farm.  A small wooden gate leads",
+                "into the farm, where a house, a barn and a shed can be seen.  Above the gate",
+                "two letters stands in a sign.  The letters on the sign make out \"A.  I.\"  As",
+                "you get closer to the gate, a red orb jumps out from the woods.  It is a",
+                "Guarding Orb, which is used to keep an eye on people getting closer to its",
+                "domain, which must be the farmhouse.  "
+            ],
+            "name": "A Small Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13806",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13844",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13805"
+        },
+        "13836": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Above Airship INC.",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "13837",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "13835",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13836"
         },
         "13830": {
-            "name": "The Airship \"The Last Hope\"",
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand on the great, first and only airship in the whole world.  From",
                 "what the ship looks like, it looks like a regular sailing ship.  To the rear",
@@ -965,311 +1336,40 @@
                 "you and to the sides propellars spin.  Far off in the distance of the rear,",
                 "a brown black smoke pours out of a pipe.  "
             ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13830",
+            "name": "The Airship \"The Last Hope\"",
             "exits": {},
-            "extras": {}
-        },
-        "13861": {
-            "name": "Platform A",
-            "description": [
-                "You stand on Platform A.  There is nothing special here, except for a",
-                "stairwell going down into the ship itself.  Below you see two more levels,",
-                "and crew members walking around.  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13861",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13860"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13862"
-                }
-            },
-            "extras": {}
-        },
-        "13841": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The woods creek as the wind passes through the large oak branches. ",
-                "Deep behind the grass and shrugs on the side of this old farm road,",
-                "the woods are thick and cannot be seen into.  Within the woods there",
-                "is sure to be the usual wild life of the eastern realms, but there",
-                "could be more.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13841",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13840"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13842"
-                }
-            },
-            "extras": {}
-        },
-        "13853": {
-            "name": "Stables Of New Thalos (Holding)",
-            "description": [],
-            "flags_raw": "0 604536836 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13853",
-            "exits": {},
-            "extras": {}
-        },
-        "13860": {
-            "name": "On The Deak Of \"The Event Horizon\"",
-            "description": [
-                "Welcome to \"The Dark Lord\", the most advanced Airship in the world.  You",
-                "look around the deck, which is kinda oval shaped, squared.  To the rear of",
-                "the airship, you notice several large fans swinging around, and then a large",
-                "airfin on the back, to stear the ship.  Overhead, the hull of the ship",
-                "passes by your head.  The sounds of several engines running echos around. ",
-                "To the south you see a door leading into the airship.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13860",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13861"
-                }
-            },
-            "extras": {}
-        },
-        "13875": {
-            "name": "Airship Lot: The Highwind",
-            "description": [
-                "Above you stands a large iron beast, known as The Highwind.  A",
-                "large ladder leads up to the outter decks.  This ship is known to have",
-                "carried many people, like Nisstyre Bloodstoner, but is now owned by",
-                "Hathorne Judge.  A large iron tower goes upwards, and connects to the",
-                "upper deck.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13875",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13872"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13876"
-                }
-            },
-            "extras": {}
-        },
-        "13842": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The old farm road continues deeper into the forest, all around the",
-                "trees grow thicker, sight of the inner woods now disappears behind the",
-                "shrubs and grass growing on the sides of the road.  The only path is",
-                "very clear.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13842",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13841"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13843"
-                }
-            },
-            "extras": {}
-        },
-        "13813": {
-            "name": "The Kitchen",
-            "description": [
-                "The smell of home cooking fills the air.  The kitchen is filled with",
-                "cooking utilities.  A Makou-Gas stove sits in one corner, an icebox and a",
-                "cutting table.  Pots and pans hang down from the ceiling.  The Dining Room",
-                "is to the south, and a sitting room to the east.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13813",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13812"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13814"
-                }
-            },
-            "extras": {}
-        },
-        "13815": {
-            "name": "Hallway",
-            "description": [
-                "The hallway is filled with rolls of papers and books.  To the east a",
-                "closed door stands, probably leading to one of the bedrooms of the house. ",
-                "To the south is the front door and the entry hallway.  To the north there is",
-                "a sitting room.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13815",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13809"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13814"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13812"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13816"
-                }
-            },
-            "extras": {}
+            "vnum": "13830"
         },
         "13847": {
-            "name": "",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "13847",
+            "description": [],
+            "name": "",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13848",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13848"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "13846",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13846"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13855": {
-            "name": "Stables Of Ocol (Holding)",
-            "description": [],
-            "flags_raw": "0 604537860 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13855",
-            "exits": {},
-            "extras": {}
-        },
-        "13825": {
-            "name": "The Northern End Of The Barn",
-            "description": [
-                "You stand outside the barn.  A large platform stands, it looks like",
-                "something someone would use to get on something.  To the south you see",
-                "the barn doors.  The doors are shut with a lock hanging.  Above the",
-                "door a Watcher's Orb hangs, watching for intruders.  A Protector's Orb",
-                "also floats next to the door.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13825",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13826"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13832"
-                }
-            },
-            "extras": {}
+            "vnum": "13847"
         },
         "13856": {
-            "name": "The Stables Of Stonebow",
+            "extras": {},
+            "flags_raw": "0 536871948 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand in a dusty stable.  You see several creatures in pens along the",
                 "wall.  An old stablemaster sits by a table, picking through papers.  Some",
@@ -1278,192 +1378,635 @@
                 "rare breed of riding animal called \"Chocobo\".  In the third stable you see",
                 "an old mule.  In The Fourth Stable a large Mustange stands, snorting at you."
             ],
-            "flags_raw": "0 536871948 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13856",
+            "name": "The Stables Of Stonebow",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "13132",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13132"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13856"
         },
-        "13870": {
-            "name": "The Northeast Gravel Road",
-            "description": [],
+        "13840": {
+            "extras": {},
             "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "13870",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13869"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13871"
-                }
-            },
-            "extras": {}
-        },
-        "13811": {
-            "name": "A Bedroom",
             "description": [
-                "This room has been changed into a bunk room.  Three beds line against the",
-                "wall.  Each bed has a bedside table, filled with books and lamps.  A large",
-                "dresser with several drawers stands in the other corner.  A window looks out",
-                "into the courtyard.  "
+                "The old farm road continues deeper into the forest, all around the",
+                "trees grow thicker, sight of the inner woods now disappears behind the",
+                "shrubs and grass growing on the sides of the road.  The only path is",
+                "very clear.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13811",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13809"
-                }
-            },
-            "extras": {}
-        },
-        "13800": {
             "name": "The Old Farm Road",
-            "description": [
-                "You walk on a small road that goes into the woods.  The path leads",
-                "to the east, deeper into the forest.  From within the trees something",
-                "red flashes, but as you look, nothing is there.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13800",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "312"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "13841",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13801"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13839",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13848": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
+            "vnum": "13840"
+        },
+        "13810": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "13848",
+            "description": [
+                "The Parlor is filled with couches and chairs.  A large fireplace stands",
+                "to the west.  To the north a door leads into the Dining Room.  Windows cover",
+                "each wall, looking out into the fields and trees.  In the fireplace a fire",
+                "burns, heating the room.  "
+            ],
+            "name": "The Parlor",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13812",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13849"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13809",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13810"
+        },
+        "13837": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Above Airship INC.",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "13836",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13837"
+        },
+        "13871": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Northeast Gravel Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13872",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13870",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13871"
+        },
+        "13812": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A long table stretchs in the middle of the room.  Several chairs line the",
+                "table to each side.  A large picture window looks out into the fields that",
+                "are to the west of the house.  There is a door to the north, south and east."
+            ],
+            "name": "The Dining Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13813",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13815",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "13810",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13847"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13817": {
-            "name": "The Library",
-            "description": [
-                "The Library here is filled with diffrent books.  The desk that sits in",
-                "the middle of the room is covered with small models and blueprints.  A small",
-                "device sits in the corner, which looks like an engine of some sort.  On the",
-                "walls more blueprints hang.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "13812"
+        },
+        "13861": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "13817",
+            "description": [
+                "You stand on Platform A.  There is nothing special here, except for a",
+                "stairwell going down into the ship itself.  Below you see two more levels,",
+                "and crew members walking around.  "
+            ],
+            "name": "Platform A",
             "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13860",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "13862",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13861"
+        },
+        "13874": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Above you stands the black airship of the Bloodstoners, and the",
+                "president of the TriPower Company.  A large docking tower stretches",
+                "up towards it, and to the outter deck.  Back west is the airship lot."
+            ],
+            "name": "Airship Lot: The Event Horizon",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "13877",
+                    "description": [
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "13872",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13814"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13874"
+        },
+        "13862": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand on Platform C, the Cargo Hold.  Diffrent crates of all sizes",
+                "stand here, marked with the symbol of the TriPower.  Above you the first",
+                "platform stands, below you, the main platform.  To the north you see a door",
+                "marked \"Engine Control Room\".  You look out into the ship, you see nothing",
+                "but steal and pipes.  "
+            ],
+            "name": "Platform B \"Cargo Hold\"",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13863",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "13861",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "13864",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13862"
+        },
+        "13849": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13821",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13848",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13849"
+        },
+        "13872": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the Airship Field, the holding area for most of the",
+                "completed airships.  You notice it is somewhat empty, because most of",
+                "the ships have been moved to the TriPower's Hangars in Torregiano, and",
+                "on the Legion Accomaxx Island Base.  To the either side of you, stands",
+                "two large airships.  The gravel road is to the south.  "
+            ],
+            "name": "The Airship Field",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13875",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13874",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13873",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13871",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13872"
         },
         "13814": {
-            "name": "The Sitting Room",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The Sitting Room.  A large round table sits in the middle of the room,",
                 "and several chairs are against the wall.  A screen door leads outback.  To",
                 "the east through the door you can see many books, and a desk in the middle",
                 "of the room.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13814",
+            "name": "The Sitting Room",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13815"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13818",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13818"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13813"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "13817",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13817"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13813",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13815",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "13814"
+        },
+        "13854": {
+            "extras": {},
+            "flags_raw": "0 536870924 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Stables Of Ofcol",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "13854"
+        },
+        "13800": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You walk on a small road that goes into the woods.  The path leads",
+                "to the east, deeper into the forest.  From within the trees something",
+                "red flashes, but as you look, nothing is there.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13801",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "312",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13800"
+        },
+        "13832": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the northeast corner of the barn.  To the north you",
+                "see the old testing fields, where many airships crashed during the",
+                "testing days.  Now the field has regained its hay, and is yellow and",
+                "long.  The mountains to the north are visable, and makes a good view. ",
+                "A gravel road leads off to the east, towards a group of airships.  "
+            ],
+            "name": "The Northeast Corner Of The Barn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13868",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13825",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13833",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13832"
+        },
+        "13842": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The old farm road continues deeper into the forest, all around the",
+                "trees grow thicker, sight of the inner woods now disappears behind the",
+                "shrubs and grass growing on the sides of the road.  The only path is",
+                "very clear.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13843",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13841",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13842"
+        },
+        "13863": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the engine control room, that controls the ship.  Three",
+                "large containers stand, bolted to the wall.  The TriPower symbol once again",
+                "appears on them.  Also the symbol of the \"Makou Gas Company\" is stamped",
+                "under the TriPower.  A large control board stands in the middle of the room,",
+                "you look at it.  You see three switches, three gages, and a large red lever.",
+                "Above each switch reads \"Engine 1, Engine 2 and Engine 3\".  To the back of",
+                "the room, you see a large mechanical thing running, must be a Makou Engine. ",
+                "You see a large shaft going out from the engine, out of the hull.  "
+            ],
+            "name": "Engine Control Room",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13862",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13863"
+        },
+        "13815": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The hallway is filled with rolls of papers and books.  To the east a",
+                "closed door stands, probably leading to one of the bedrooms of the house. ",
+                "To the south is the front door and the entry hallway.  To the north there is",
+                "a sitting room.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13816",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13812",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13809",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13815"
+        },
+        "13826": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the northwest corner of the barn.  Before you stands a",
+                "large field of hay, extending all the way to the mountains.  Blazier",
+                "Mountain is visable from here, the home of Crucifiction Hill.  To the",
+                "east you see the rear end of the barn, and another pair of doors.  "
+            ],
+            "name": "The Northwest Corner Of The Barn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13825",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13823",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13826"
+        },
+        "13804": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The old farm road continues deeper into the forest, all around the",
+                "trees grow thicker, sight of the inner woods now disappears behind the",
+                "shrubs and grass growing on the sides of the road.  The only path is",
+                "very clear.  "
+            ],
+            "name": "The Old Farm Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13839",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "13803",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13804"
+        },
+        "13846": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "13847",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "13807",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13846"
         },
         "13828": {
-            "name": "The Stables",
+            "extras": {},
+            "flags_raw": "0 536870920 0 11",
+            "flags2_raw": "0",
             "description": [
                 "You walk into a small stable that stans on one side of the courtyard.  As",
                 "you walk in, you see piles of hay, and the smell of animals around.  To the",
@@ -1475,774 +2018,231 @@
                 "at the bird creature next to him.  To the north, you see a man sitting at a",
                 "table, smoking a tobacco pipe, and looks up as you enter.  "
             ],
-            "flags_raw": "0 536870920 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13828",
+            "name": "The Stables",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13833",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13833"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "13834",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13834"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13871": {
-            "name": "The Northeast Gravel Road",
-            "description": [],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13871",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13872"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13870"
-                }
-            },
-            "extras": {}
+            "vnum": "13828"
         },
-        "13807": {
-            "name": "The Yard Of Airship Inc",
-            "description": [
-                "The yard is very bare.  There is only some grass, where a few",
-                "chickens peck for worms.  You hear noises coming from the barn to the",
-                "north, the sounds of metal against metal.  To the west you see the",
-                "farmhouse, which looks very cozy.  To the east is a workshed.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13807",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13806"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13846"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13845"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13822"
-                }
-            },
-            "extras": {}
-        },
-        "13804": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The old farm road continues deeper into the forest, all around the",
-                "trees grow thicker, sight of the inner woods now disappears behind the",
-                "shrubs and grass growing on the sides of the road.  The only path is",
-                "very clear.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13804",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13803"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13839"
-                }
-            },
-            "extras": {}
-        },
-        "13840": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The old farm road continues deeper into the forest, all around the",
-                "trees grow thicker, sight of the inner woods now disappears behind the",
-                "shrubs and grass growing on the sides of the road.  The only path is",
-                "very clear.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13840",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13839"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13841"
-                }
-            },
-            "extras": {}
-        },
-        "13850": {
-            "name": "The Stables Of Westbridge",
-            "description": [
-                "You stand in a dusty stable.  You see several creatures in pens along the",
-                "wall.  An old stablemaster sits by a table, picking through papers.  Some",
-                "doves above in the ceiling make some noice.  In The First Stable you see a",
-                "strong riding horse.  In The Second Stable, you see a large yellow bird, a",
-                "rare breed of riding animal called \"Chocobo\".  In the third stable you see",
-                "an old mule.  In The Fourth Stable a large Mustange stands, snorting at you."
-            ],
-            "flags_raw": "0 536870924 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13850",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "36899"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3101"
-                }
-            },
-            "extras": {}
-        },
-        "13854": {
-            "name": "The Stables Of Ofcol",
-            "description": [],
-            "flags_raw": "0 536870924 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13854",
-            "exits": {},
-            "extras": {}
-        },
-        "13866": {
-            "name": "Operation",
-            "description": [
-                "The Operation.  This room has been build for comfort.  A large table with",
-                "several chairs stands in the middle of the room.  On the wall behind the",
-                "head of the table, a map of the known world hangs.  To the right side of the",
-                "map, The TriPower flag hangs, to the left, the Legion Flag hangs.  Against",
-                "one wall, a large couch sits, next to it, an old wizard sitting in a chair,",
-                "with his feet up.  "
-            ],
+        "13811": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "13866",
+            "description": [
+                "This room has been changed into a bunk room.  Three beds line against the",
+                "wall.  Each bed has a bedside table, filled with books and lamps.  A large",
+                "dresser with several drawers stands in the other corner.  A window looks out",
+                "into the courtyard.  "
+            ],
+            "name": "A Bedroom",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "13809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13864"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13865": {
-            "name": "Holding Stable",
-            "description": [
-                "You enter a small room.  Inside this room, a single people sits in a",
-                "chair, sleeping.  The floor is covered in hay, and bags of food sits next to",
-                "the guy.  To one side, you see several chocobo resting.  This is where the",
-                "mounts are brought in to ride the airship.  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13865",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13864"
-                }
-            },
-            "extras": {}
-        },
-        "13803": {
-            "name": "The Old Farm Road",
-            "description": [
-                "A large shack stands here, with smoke coming out the top of it.  A",
-                "large lock is on the door, so you cannot enter.  Some words carved",
-                "into the wood of the builder give a hint to what it is.  The words",
-                "read \"Smoke House\".  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13803",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13802"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13804"
-                }
-            },
-            "extras": {}
-        },
-        "13839": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The woods creek as the wind passes through the large oak branches. ",
-                "Deep behind the grass and shrugs on the side of this old farm road,",
-                "the woods are thick and cannot be seen into.  Within the woods there",
-                "is sure to be the usual wild life of the eastern realms, but there",
-                "could be more.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13839",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13804"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13840"
-                }
-            },
-            "extras": {}
-        },
-        "13862": {
-            "name": "Platform B \"Cargo Hold\"",
-            "description": [
-                "You stand on Platform C, the Cargo Hold.  Diffrent crates of all sizes",
-                "stand here, marked with the symbol of the TriPower.  Above you the first",
-                "platform stands, below you, the main platform.  To the north you see a door",
-                "marked \"Engine Control Room\".  You look out into the ship, you see nothing",
-                "but steal and pipes.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13862",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13863"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13861"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13864"
-                }
-            },
-            "extras": {}
-        },
-        "13802": {
-            "name": "The Old Farm Road",
-            "description": [
-                "You walk on a small road that goes into the woods.  The path leads",
-                "to the east, deeper into the forest.  From within the trees something",
-                "red flashes, but as you look, nothing is there.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13802",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13801"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13803"
-                }
-            },
-            "extras": {}
-        },
-        "13822": {
-            "name": "The Workshed",
-            "description": [
-                "This shed is filled to the ceiling with crates of all sizes.  You",
-                "see many parts and tools all around you.  Also many parchments of",
-                "paper rolled up sit up against one wall.  A workbench also sits, a",
-                "large ship with a ballon attached to the top floats just above the",
-                "bench.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13822",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13807"
-                }
-            },
-            "extras": {}
-        },
-        "13833": {
-            "name": "The Eastern Side Of The Barn",
-            "description": [
-                "You stand on the eastern side of the barn.  There is nothing much",
-                "on this side.  To the southeast you see the stables, and workshed.  To",
-                "the north is the fields and mountains.  To the northeast is a group of",
-                "airships.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13833",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13832"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13828"
-                }
-            },
-            "extras": {}
-        },
-        "13834": {
-            "name": "The Southeast Corner Of The Barn",
-            "description": [
-                "You stand at the southeast corner of the barn.  A gravel road leads",
-                "north and turns to the east, going towards a large group of airships. ",
-                "To the east you see the stable barn, a place to purchase horses and",
-                "chocobo.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13834",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13821"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13828"
-                }
-            },
-            "extras": {}
-        },
-        "13838": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13838",
-            "exits": {},
-            "extras": {}
-        },
-        "13836": {
-            "name": "Above Airship INC.",
-            "description": [],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13836",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13837"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13835"
-                }
-            },
-            "extras": {}
-        },
-        "13826": {
-            "name": "The Northwest Corner Of The Barn",
-            "description": [
-                "You stand in the northwest corner of the barn.  Before you stands a",
-                "large field of hay, extending all the way to the mountains.  Blazier",
-                "Mountain is visable from here, the home of Crucifiction Hill.  To the",
-                "east you see the rear end of the barn, and another pair of doors.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13826",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13823"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13825"
-                }
-            },
-            "extras": {}
-        },
-        "13868": {
-            "name": "The Northeast Gravel Road",
-            "description": [],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13868",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13832"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13869"
-                }
-            },
-            "extras": {}
-        },
-        "13843": {
-            "name": "The Old Farm Road",
-            "description": [
-                "The woods creek as the wind passes through the large oak branches. ",
-                "Deep behind the grass and shrugs on the side of this old farm road,",
-                "the woods are thick and cannot be seen into.  Within the woods there",
-                "is sure to be the usual wild life of the eastern realms, but there",
-                "could be more.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13843",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13842"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13844"
-                }
-            },
-            "extras": {}
+            "vnum": "13811"
         },
         "13876": {
-            "name": "The Docking Tower",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand ontop of the large iron tower.  To the east is the upper",
                 "outter deck of the Highwind.  Back down is the Airship Field.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13876",
+            "name": "The Docking Tower",
             "exits": {
                 "east": {
                     "flags_raw": "13876",
+                    "room_id": "10",
                     "description": [
                         ""
-                    ],
-                    "room_id": "10"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "13875",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13875"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "13829": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 67108868 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13829",
-            "exits": {},
-            "extras": {}
+            "vnum": "13876"
         }
     },
-    "uid": "stable",
-    "area_quest_points": 0,
     "credits": "[ Public ] Airship Incorperated",
     "faction_id": "",
+    "name": "Stables",
     "vnums": [
         13800,
         13899
     ],
-    "recall_room_id": 25037,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "13860": {
-            "name": "The Airship Healer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "He is wise in his ways, dressed in ancient robes, he sits in a chair\n",
                 "waiting to heal the needed.  His eyes show his wisdom, and his hands show\n",
                 "that he has done battle in his time.  Also on his lap, a deck of cards sit..\n"
             ],
             "raw_flags5": "sit sit none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 13860,
             "raw_flags": "ABZae 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "110 1 1d1+1 1d1+1 1d1+1 wrath",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 0 0 0",
             "room_name": "The airship healer sits in a large chair.\n",
-            "keywords": "airship healer~\n"
+            "name": "The Airship Healer~\n",
+            "raw_flags2": "110 1 1d1+1 1d1+1 1d1+1 wrath",
+            "keywords": "airship healer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "13800": {
-            "name": "the stablemaster~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 13800,
             "raw_flags": "ABf 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "0 0 5d10+30000 5d10+30000 5d10+50 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 0 0 0",
             "room_name": "The stablemaster is here.\n",
-            "keywords": "Stable Storage~\n"
+            "name": "the stablemaster~\n",
+            "raw_flags2": "0 0 5d10+30000 5d10+30000 5d10+50 none",
+            "keywords": "Stable Storage~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "13801": {
-            "name": "a riding horse~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [],
             "raw_flags5": "stand stand either 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 13801,
             "raw_flags": "Af 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A riding horse stands here.\n",
+            "name": "a riding horse~\n",
             "raw_flags2": "60 0 50d40+200 0d0+0 5d10+10 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "horse~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A riding horse stands here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "horse~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "13802": {
-            "name": "a {Yc{yho{&c{Yob{Yo{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [],
             "raw_flags5": "stand stand either 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 13802,
             "raw_flags": "ABf 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A big strong {Yc{yho{&c{Yob{Yo{x stands here by its master.\n",
+            "name": "a {Yc{yho{&c{Yob{Yo{x~\n",
             "raw_flags2": "70 0 60d100+300 60d100+300 1d5+6 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "chocobo~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A big strong {Yc{yho{&c{Yob{Yo{x stands here by its master.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "chocobo~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "13803": {
-            "name": "a mule~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand either 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 13803,
             "raw_flags": "Af 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A rather large mule stands here.\n",
+            "name": "a mule~\n",
             "raw_flags2": "50 0 50d10+500 0d0+0 5d10+20 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "mule~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A rather large mule stands here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "mule~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "13804": {
-            "name": "a mustange~\n",
-            "description": [],
-            "raw_flags5": "stand stand either 0",
-            "raw_flags6": "AGV ACDEFHJKQ medium unknown",
-            "raw_flags4": "H 0 0 0",
-            "raw_off": "F",
+            "raw_parts": "UV",
+            "d_flags": "D ~",
             "raw_flags3": "0 0 0 0",
+            "description": [],
+            "raw_off": "F",
+            "raw_flags5": "stand stand either 0",
             "vnum": 13804,
             "raw_flags": "Af Z 0 0 0",
-            "race_id": "cat",
+            "raw_flags4": "H 0 0 0",
+            "room_name": "A {8dark grey{x mustang stands here.\n",
+            "name": "a mustange~\n",
             "raw_flags2": "40 0 5d50+300 0d0+0 2d10+10 beating",
-            "d_flags": "D ~",
+            "keywords": "grey mustang~\n",
             "subroutines": [
                 "F off F\n",
                 "F par UV\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {8dark grey{x mustang stands here.\n",
-            "raw_parts": "UV",
-            "keywords": "grey mustang~\n"
+            "raw_flags6": "AGV ACDEFHJKQ medium unknown",
+            "race_id": "cat",
+            "t_flags": "T ~"
         },
         "13805": {
-            "name": "A {*w{Ra{*r {*st{Ralli{*on{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-17 -17 -17 -17",
             "description": [],
             "raw_flags5": "stand stand either 5000",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "CFHK 0 BEH CFINQ",
-            "raw_flags3": "-17 -17 -17 -17",
             "vnum": 13805,
             "raw_flags": "AVdf FJT 0 1000 0",
-            "race_id": "dragon",
-            "raw_flags2": "50 0 13d31+869 13d31+869 5d9+20 bite",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CFHK 0 BEH CFINQ",
             "room_name": "A mighty {*w{Ra{*r {*st{Ralli{*on{x stands here by its master.\n",
-            "keywords": "war horse stallion~\n"
+            "name": "A {*w{Ra{*r {*st{Ralli{*on{x~\n",
+            "raw_flags2": "50 0 13d31+869 13d31+869 5d9+20 bite",
+            "keywords": "war horse stallion~\n",
+            "subroutines": [],
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

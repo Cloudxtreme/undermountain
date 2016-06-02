@@ -3,6 +3,16 @@ from mud.rot_importer import RotImporter
 import json
 import glob
 
+
+socials = RotImporter.import_socials_from_file("imports/areas/social.are")
+for keyword, social in socials.items():
+    with open("data/live/socials/{}.json".format(keyword), "w") as output_file:
+        output_file.write(json.dumps(social, indent=4))
+        print("Imported social '{}' to '{}'".format(
+            keyword,
+            "{}.json".format(keyword),
+        ))
+
 SKIPS = [
     "social.are",
     "helps.are",

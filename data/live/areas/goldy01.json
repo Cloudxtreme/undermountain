@@ -1,53 +1,101 @@
 {
-    "name": "Artifacts & Misc Items Zone",
+    "security": 7,
+    "recall_room_id": 3365,
     "id": "goldy01",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "goldy01",
     "rooms": {
-        "5187": {
-            "name": "The Meeting Hall of Jihad",
-            "description": [
-                "This is the meeting room of Jihad.  Bright light desends down upon",
-                "you from the enormous chandelere overhead.  The light is almost",
-                "blinding after being in the dark confines of the observatory.  A long",
-                "oak table rests in the center of the room surrounded by numerous",
-                "chairs.  The table is cluttered up with official Jihad documents and",
-                "memos.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
+        "5198": {
+            "extras": {},
+            "flags_raw": "0 32768 0 0",
             "flags2_raw": "0",
-            "vnum": "5187",
+            "description": [],
+            "name": "{8The {rR{Doo{rm {Dof {rE{Dterna{rl D{Damnatio{rn{x",
             "exits": {
-                "east": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "5199",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5185"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "5198"
+        },
+        "5159": {
+            "extras": {},
+            "flags_raw": "0 4 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "d"
+            ],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5159"
         },
         "5155": {
-            "name": "Immortal Pet Shop",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 604504076 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "5155",
+            "description": [],
+            "name": "Immortal Pet Shop",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "5199",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5199"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "5155"
+        },
+        "5153": {
+            "extras": {},
+            "flags_raw": "0 67641357 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{W{RBBOOOOOOOOOOOMM!!{x You've struck bottom and that really did hurt!{x",
+                " ",
+                "You sit in the bottom of a huge pit. Smooth stone walls surround you",
+                "keeping you from trying to climb out. There is no light source here ",
+                "at all so you can barely see anything at all. The dirt floor is littered",
+                "with skeletal remains and old equipment of the poor souls that rotted here",
+                "long ago."
+            ],
+            "name": "{*The bottom of the pit.{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5153"
+        },
+        "5197": {
+            "extras": {
+                "vassago": {
+                    "description": [
+                        "The head of Vassago is here, {Rbleeding{x from his eyes.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1140851757 0 18",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a {wstone{x room , on the walls are the mounted heads of the defeated.",
+                " "
+            ],
+            "name": "The {YTreasure{x Room of {8Myrkuls Unholy Death{x {mKnight{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5197"
         },
         "5156": {
-            "name": "",
+            "extras": {},
+            "flags_raw": "0 1141407781 0 9",
+            "flags2_raw": "0",
             "description": [
                 "The following resets were deleted, one of them was attracting quests",
                 "[ 1] X[ 5153] The R         in room             R[ 5156]  2- 1                ",
@@ -57,15 +105,98 @@
                 "{X",
                 "-Toby"
             ],
-            "flags_raw": "0 1141407781 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5156",
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "5156"
+        },
+        "5186": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is a long and narrow torch lit hallway.  This is a long and",
+                "narrow torch lit hallway made of stone.  The torches throw off just",
+                "enough light to make out what looks like a large room at the far end",
+                "of the coridoor.  "
+            ],
+            "name": "The Entrance to an Observatory",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "5185",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "5186"
+        },
+        "5195": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5195"
+        },
+        "5160": {
+            "extras": {},
+            "flags_raw": "0 4 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": ".",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5160"
+        },
+        "5161": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5161"
+        },
+        "5165": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Chamber of the Iron Maiden",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5165"
+        },
+        "5170": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "key souls",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5170"
+        },
+        "5157": {
+            "extras": {},
+            "flags_raw": "0 4 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5157"
         },
         "5151": {
-            "name": "{wThrone Room of the {RT{ro{Wr{Dtur{Wo{ru{Rs{w King{x",
+            "extras": {},
+            "flags_raw": "0 336076808 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{DThe walls of this room are created of blood, quivering{x",
                 "{Dpa{Rrapets of{D li{Rquid gor{De. {RTaking a{D clo{Rser{D look yo{Ru{D can {x",
@@ -78,122 +209,75 @@
                 "{Dca{Rn {Dbe heard r{Re{Dsonati{Rn{Dg f{Rrom ever{Dy su{Rr{Dface in t{Rhe{D room.{x",
                 "{DThis room makes you feel as if you should'nt be here.{x"
             ],
-            "flags_raw": "0 336076808 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5151",
+            "name": "{wThrone Room of the {RT{ro{Wr{Dtur{Wo{ru{Rs{w King{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "5154",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5154"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20403",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20403"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "5152",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "5152"
-                }
-            },
-            "extras": {}
-        },
-        "5164": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5164",
-            "exits": {},
-            "extras": {}
-        },
-        "5152": {
-            "name": "{BIn mid air!!!{x",
-            "description": [
-                "{YOH SHIT!!{w... Youf falling through the air.......",
-                "   You cant see anythig below you... just the sound of rushing air",
-                "    The bottom starts to become visable and is rushing toward you...{x"
-            ],
-            "flags_raw": "0 67641352 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5152",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5151"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5153"
-                }
-            },
-            "extras": {
-                "window": {
-                    "description": [
-                        "This GIAGANTIC window overlooks the plush green lawn that surrounds",
-                        "the house, and the forrest beyond it.  ",
                         ""
                     ]
                 }
-            }
-        },
-        "5163": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 67641344 0 0",
+            },
             "wanted_area_vnum": "",
+            "vnum": "5151"
+        },
+        "5187": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "5163",
+            "description": [
+                "This is the meeting room of Jihad.  Bright light desends down upon",
+                "you from the enormous chandelere overhead.  The light is almost",
+                "blinding after being in the dark confines of the observatory.  A long",
+                "oak table rests in the center of the room surrounded by numerous",
+                "chairs.  The table is cluttered up with official Jihad documents and",
+                "memos.  "
+            ],
+            "name": "The Meeting Hall of Jihad",
             "exits": {
-                "down": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "5185",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5164"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "5162": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5162",
-            "exits": {},
-            "extras": {}
-        },
-        "5165": {
-            "name": "Chamber of the Iron Maiden",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5165",
-            "exits": {},
-            "extras": {}
+            "vnum": "5187"
         },
         "5185": {
-            "name": "An Observatory",
+            "extras": {
+                "engravings": {
+                    "description": [
+                        "You see extremely detailed engravings on the walls and cieling depicting that of \"The Prophecy\".",
+                        ""
+                    ]
+                },
+                "hole": {
+                    "description": [
+                        "You stare up at the moon lit sky.  There is not a cloud in sight.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand in a HUGE circular room with intricate engravings on the",
                 "cold stone walls.  There is little light in this room, just small",
@@ -203,354 +287,272 @@
                 "circular hole in the ceiling are more carvings and what looks like",
                 "small gems sparkling in the torchlight.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5185",
+            "name": "An Observatory",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "5188",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5188"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "5187",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5187"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "5186",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5186"
+                    ]
                 }
             },
-            "extras": {
-                "hole": {
+            "wanted_area_vnum": "",
+            "vnum": "5185"
+        },
+        "5162": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5162"
+        },
+        "5163": {
+            "extras": {},
+            "flags_raw": "0 67641344 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "5164",
                     "description": [
-                        "You stare up at the moon lit sky.  There is not a cloud in sight.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "5163"
+        },
+        "5158": {
+            "extras": {},
+            "flags_raw": "0 4 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5158"
+        },
+        "5152": {
+            "extras": {
+                "window": {
+                    "description": [
+                        "This GIAGANTIC window overlooks the plush green lawn that surrounds",
+                        "the house, and the forrest beyond it.  ",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 67641352 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "{YOH SHIT!!{w... Youf falling through the air.......",
+                "   You cant see anythig below you... just the sound of rushing air",
+                "    The bottom starts to become visable and is rushing toward you...{x"
+            ],
+            "name": "{BIn mid air!!!{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "5151",
+                    "description": [
                         ""
                     ]
                 },
-                "engravings": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "5153",
                     "description": [
-                        "You see extremely detailed engravings on the walls and cieling depicting that of \"The Prophecy\".",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "5152"
         },
         "5188": {
-            "name": "A Summoning Circle",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "A large circle mad of diamond dust is outlined on the floor.  Four",
                 "small fires burn at the north, south, east and west edges of the",
                 "circle.  Shelving line the walls of the chamber providing storage for",
                 "many books and scrolls.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5188",
+            "name": "A Summoning Circle",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "5185",
                     "description": [
                         ""
-                    ],
-                    "room_id": "5185"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "5188"
         },
         "5154": {
-            "name": "{*Audience Chamber of the {MF{*a{mi{*t{Mh{*f{mu{*l{x",
+            "extras": {},
+            "flags_raw": "0 67641384 0 20",
+            "flags2_raw": "0",
             "description": [
                 "The ceiling of this chamber glows in a purple aura.  The pale color",
                 "of the aura casts a dull hue over everything under it.  Large murals",
                 "were carfully painted in extreme detail depicting the rise of the",
                 "Church of Cyric.  "
             ],
-            "flags_raw": "0 67641384 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5154",
+            "name": "{*Audience Chamber of the {MF{*a{mi{*t{Mh{*f{mu{*l{x",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "5151",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "5151"
-                }
-            },
-            "extras": {}
-        },
-        "5159": {
-            "name": "",
-            "description": [
-                "d"
-            ],
-            "flags_raw": "0 4 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5159",
-            "exits": {},
-            "extras": {}
-        },
-        "5195": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5195",
-            "exits": {},
-            "extras": {}
-        },
-        "5157": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5157",
-            "exits": {},
-            "extras": {}
-        },
-        "5160": {
-            "name": ".",
-            "description": [],
-            "flags_raw": "0 4 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5160",
-            "exits": {},
-            "extras": {}
-        },
-        "5170": {
-            "name": "key souls",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5170",
-            "exits": {},
-            "extras": {}
-        },
-        "5198": {
-            "name": "{8The {rR{Doo{rm {Dof {rE{Dterna{rl D{Damnatio{rn{x",
-            "description": [],
-            "flags_raw": "0 32768 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5198",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5199"
-                }
-            },
-            "extras": {}
-        },
-        "5197": {
-            "name": "The {YTreasure{x Room of {8Myrkuls Unholy Death{x {mKnight{x",
-            "description": [
-                "You have entered a {wstone{x room , on the walls are the mounted heads of the defeated.",
-                " "
-            ],
-            "flags_raw": "0 1140851757 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5197",
-            "exits": {},
-            "extras": {
-                "vassago": {
-                    "description": [
-                        "The head of Vassago is here, {Rbleeding{x from his eyes.",
                         ""
                     ]
                 }
-            }
-        },
-        "5153": {
-            "name": "{*The bottom of the pit.{x",
-            "description": [
-                "{W{RBBOOOOOOOOOOOMM!!{x You've struck bottom and that really did hurt!{x",
-                " ",
-                "You sit in the bottom of a huge pit. Smooth stone walls surround you",
-                "keeping you from trying to climb out. There is no light source here ",
-                "at all so you can barely see anything at all. The dirt floor is littered",
-                "with skeletal remains and old equipment of the poor souls that rotted here",
-                "long ago."
-            ],
-            "flags_raw": "0 67641357 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5153",
-            "exits": {},
-            "extras": {}
-        },
-        "5186": {
-            "name": "The Entrance to an Observatory",
-            "description": [
-                "This is a long and narrow torch lit hallway.  This is a long and",
-                "narrow torch lit hallway made of stone.  The torches throw off just",
-                "enough light to make out what looks like a large room at the far end",
-                "of the coridoor.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5186",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5185"
-                }
             },
-            "extras": {}
-        },
-        "5158": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 9",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5158",
-            "exits": {},
-            "extras": {}
+            "vnum": "5154"
         },
-        "5161": {
-            "name": "",
-            "description": [],
+        "5164": {
+            "extras": {},
             "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "5161",
+            "description": [],
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "5164"
         }
     },
-    "uid": "goldy01",
-    "area_quest_points": 0,
     "credits": "[  IMM   ] Artifacts $ Misc",
     "faction_id": "None",
+    "name": "Artifacts & Misc Items Zone",
     "vnums": [
         5151,
         5199
     ],
-    "recall_room_id": 3365,
-    "objects": {},
-    "zone_id": 0,
-    "security": 7,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "5188": {
-            "name": "a starving rat~\n",
+            "raw_parts": "DGIJ",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 1",
-            "raw_flags6": "GM ABCEFHKQU small unknown",
-            "raw_flags4": "FHM L 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5188,
             "raw_flags": "A 0 H 0 0",
-            "race_id": "human",
-            "raw_form": "AHV",
+            "raw_flags4": "FHM L 0 0",
+            "room_name": "A starving rat is is here sniffing around the bones in search of food.\n",
+            "name": "a starving rat~\n",
             "raw_flags2": "0 500 400d200+100 1d1+1 25d10+1 claw",
-            "d_flags": "D ~",
+            "raw_form": "AHV",
+            "keywords": "starving rat~\n",
             "subroutines": [
                 "F for AHV\n",
                 "F par DGIJ\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A starving rat is is here sniffing around the bones in search of food.\n",
-            "raw_parts": "DGIJ",
-            "keywords": "starving rat~\n"
+            "raw_flags6": "GM ABCEFHKQU small unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5190": {
-            "name": "obsidian scythe~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5190,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "One of Myrkuls legendary Scythes lies here waiting to deliver the next person to the Gray Wastes\n",
+            "name": "obsidian scythe~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "no name~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "One of Myrkuls legendary Scythes lies here waiting to deliver the next person to the Gray Wastes\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "no name~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5196": {
-            "name": "The ghost of a long dead pharaoh~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPRSTXYZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5196,
             "raw_flags": "ABMN DFJZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPRSTXYZa 0 0",
+            "room_name": "The ghost of a long dead pharaoh shimmers here.\n",
+            "name": "The ghost of a long dead pharaoh~\n",
             "raw_flags2": "102 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "pharoahghost~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M act 5196 make the necklace~\n",
                 "M grall 5197 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The ghost of a long dead pharaoh shimmers here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "pharoahghost~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5197": {
-            "name": "(Invis) The ancient mummy quest starter is here for Gond~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Simply say \"start the quest\" to get it started\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ACDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5197,
             "raw_flags": "A DFJTZ P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ACDa 0 0",
+            "room_name": "(Invis) The ancient mummy quest starter is here for Gond\n",
+            "name": "(Invis) The ancient mummy quest starter is here for Gond~\n",
             "raw_flags2": "110 0 1d1+100 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ancientmummy queststarter~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 5199 start the quest~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "(Invis) The ancient mummy quest starter is here for Gond\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ancientmummy queststarter~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5198": {
-            "name": "{wA large {Dme{wchan{Wical {Dg{wol{Wem{x~\n",
+            "raw_parts": "DEFPQUVX",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "{DStanding before you is a large machine in the form\n",
                 "of a golem.  Its about eight foot tall body has been\n",
@@ -562,28 +564,29 @@
                 "any who dare attack it.{x\n"
             ],
             "raw_flags5": "stand stand male 10000",
-            "raw_flags6": "AHZ ACGHIJK medium unknown",
-            "raw_flags4": "FHK A BEH IJ",
-            "raw_parts": "DEFPQUVX",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 5198,
+            "raw_affected": "T",
             "raw_flags": "AVd FJZ 0 0 0",
-            "race_id": "dragon",
+            "raw_flags4": "FHK A BEH IJ",
+            "room_name": "{wA large {Dme{wchan{Wical {Dg{wol{Wem{w stands beside Gond{x\n",
+            "raw_vulns": "F",
+            "name": "{wA large {Dme{wchan{Wical {Dg{wol{Wem{x~\n",
             "raw_flags2": "106 0 30d60+6200 30d60+6200 9d19+67 crush",
-            "d_flags": "D ~",
+            "keywords": "golemgond large steel~\n",
             "subroutines": [
                 "F aff T\n",
                 "F vul F\n",
                 "F par DEFPQUVX\n"
             ],
-            "raw_affected": "T",
-            "t_flags": "T ~",
-            "room_name": "{wA large {Dme{wchan{Wical {Dg{wol{Wem{w stands beside Gond{x\n",
-            "raw_vulns": "F",
-            "keywords": "golemgond large steel~\n"
+            "raw_flags6": "AHZ ACGHIJK medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "5199": {
-            "name": "{DA huge {wpl{Wat{win{Wum {wgo{Wle{wm{x~\n",
+            "raw_parts": "ACDEFGHIJKPQUVX",
+            "d_flags": "D ~",
+            "raw_flags3": "-200 -200 -200 -200",
+            "raw_resistances": "B",
             "description": [
                 "{DBefore you stands a huge mechanical golem covered{x\n",
                 "{Dfrom head to toe in seemingly impenetrable armor{x\n",
@@ -597,52 +600,50 @@
                 "and harm his master.{x\n"
             ],
             "raw_flags5": "stand stand male 10000",
-            "raw_flags6": "0 0 large platinum",
-            "raw_flags4": "BCFHK A EHI FIJK",
-            "raw_flags3": "-200 -200 -200 -200",
             "vnum": 5199,
+            "raw_affected": "T",
             "raw_flags": "ANSdf FJZ 0 0 0",
-            "race_id": "dragon",
-            "raw_form": "AHZ",
-            "raw_resistances": "B",
+            "raw_flags4": "BCFHK A EHI FIJK",
+            "room_name": "{DA huge {wpl{Wat{win{Wum {wgo{Wle{wm {Dforged by Gond stands here{x\n",
+            "name": "{DA huge {wpl{Wat{win{Wum {wgo{Wle{wm{x~\n",
             "raw_flags2": "106 0 2124d50+30000 30d60+6200 120d40+15214 crush",
-            "d_flags": "D ~",
+            "raw_form": "AHZ",
+            "keywords": "golemgond huge platinum~\n",
             "subroutines": [
                 "F aff T\n",
                 "F res B\n",
                 "F for AHZ\n",
                 "F par ACDEFGHIJKPQUVX\n"
             ],
-            "raw_affected": "T",
-            "t_flags": "T ~",
-            "room_name": "{DA huge {wpl{Wat{win{Wum {wgo{Wle{wm {Dforged by Gond stands here{x\n",
-            "raw_parts": "ACDEFGHIJKPQUVX",
-            "keywords": "golemgond huge platinum~\n"
+            "raw_flags6": "0 0 large platinum",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "5151": {
-            "name": "A lever marked trapped door.~\n",
+            "raw_parts": "DEGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-80 -80 -80 -80",
             "description": [],
             "raw_flags5": "stand stand none 200",
-            "raw_flags6": "0 ABCF large unknown",
-            "raw_flags4": "ACEFKN CDEFGHIJKMNOPRSXYZa 0 I",
-            "raw_flags3": "-80 -80 -80 -80",
             "vnum": 5151,
             "raw_flags": "AB DFTV R -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "ACEFKN CDEFGHIJKMNOPRSXYZa 0 I",
+            "room_name": "{wA lever floats here next to the throne.{x\n",
+            "name": "A lever marked trapped door.~\n",
             "raw_flags2": "101 400 120d900+1000 120d900+1000 90d42+100 pound",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "trapped door lever~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par DEGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wA lever floats here next to the throne.{x\n",
-            "raw_parts": "DEGHIJK",
-            "keywords": "trapped door lever~\n"
+            "raw_flags6": "0 ABCF large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5152": {
-            "name": "{wAn {rA{ync{ri{ye{rnt {WM{wu{Wm{wm{Wy{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-200 -200 -200 -200",
             "description": [
                 "{rI{yt looks around w{wit{Wh b{*lack beady{W ey{wes.{y Thick layers o{rf \n",
                 "{rb{ylood stained ban{wda{Wges{* hang deca{Wyin{wg o{yff its undea{rd \n",
@@ -652,15 +653,14 @@
                 "{rd{yrip quietly.{x\n"
             ],
             "raw_flags5": "stand stand none 1000",
-            "raw_flags6": "AH ABCDEFGHIJKP giant unknown",
-            "raw_flags4": "CEFHIKNO ABGLQ CNP T",
-            "raw_flags3": "-200 -200 -200 -200",
             "vnum": 5152,
             "raw_flags": "ABFNRT CDFJTVZ CDEHR -1000 0",
-            "race_id": "human",
-            "raw_form": "MV",
+            "raw_flags4": "CEFHIKNO ABGLQ CNP T",
+            "room_name": "An enormous figure covered in dusty bandages towers over you.\n",
+            "name": "{wAn {rA{ync{ri{ye{rnt {WM{wu{Wm{wm{Wy{x~\n",
             "raw_flags2": "106 5000 2000d2000+2000 2500d75+20000 250d250+100 smash",
-            "d_flags": "D ~",
+            "raw_form": "MV",
+            "keywords": "enormous figure dusty bandages ancient mummy~\n",
             "subroutines": [
                 "F for MV\n",
                 "M fight 5194 5~\n",
@@ -679,51 +679,53 @@
                 "M act 5183 arrives suddenly~\n",
                 "M act 5184 vanishes into a vortexial rift!~\n"
             ],
-            "t_flags": "T _~",
-            "room_name": "An enormous figure covered in dusty bandages towers over you.\n",
-            "keywords": "enormous figure dusty bandages ancient mummy~\n"
+            "raw_flags6": "AH ABCDEFGHIJKP giant unknown",
+            "race_id": "human",
+            "t_flags": "T _~"
         },
         "5153": {
-            "name": "The {yR{Wa{yc{Wk{x of {RD{*oo{Rm{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-200 -200 -200 -200",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "J 0 large wooden",
-            "raw_flags4": "BCDFIKN FLQRX 0 0",
-            "raw_flags3": "-200 -200 -200 -200",
             "vnum": 5153,
             "raw_flags": "Af DFUac 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BCDFIKN FLQRX 0 0",
+            "room_name": "A torture rack is here ready to sssstttrrreeetttcccchhhh its next victim\n",
+            "name": "The {yR{Wa{yc{Wk{x of {RD{*oo{Rm{x~\n",
             "raw_flags2": "105 500 2124d50+30000 30d60+6200 120d40+15214 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Torture rack~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A torture rack is here ready to sssstttrrreeetttcccchhhh its next victim\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Torture rack~\n"
+            "raw_flags6": "J 0 large wooden",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5154": {
-            "name": "Goldoth's {*black{x dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 10000",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "FHK 0 BEHK FI",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5154,
             "raw_flags": "AVdf DFJT 0 0 0",
-            "race_id": "dragon",
-            "raw_flags2": "102 500 9d19+67 30d60+6200 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FHK 0 BEHK FI",
             "room_name": "A black dragon is perched in the shadows... waiting to strike.\n",
-            "keywords": "dragon black~\n"
+            "name": "Goldoth's {*black{x dragon~\n",
+            "raw_flags2": "102 500 9d19+67 30d60+6200 0d0+0 none",
+            "keywords": "dragon black~\n",
+            "subroutines": [],
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "5155": {
-            "name": "{wA {yD{wu{ys{wt{y F{wi{re{yn{wd{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D {yThe sands of the world will forever hunt you!!{x~",
+            "raw_flags3": "-300 -300 -300 -700",
             "description": [
                 "{yD{8ust clouds float off its body as it moves. Making the ai{yr\n",
                 "{yb{8oth difficult to breath and leaving a burning in one{ys\n",
@@ -731,15 +733,14 @@
                 "{yi{8ntent as it detects movement around it.{x\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AH 0 giant unknown",
-            "raw_flags4": "JK ABLQ 0 C",
-            "raw_flags3": "-300 -300 -300 -700",
             "vnum": 5155,
             "raw_flags": "ABFRT DFTV CDE -1000 0",
-            "race_id": "human",
-            "raw_form": "MV",
+            "raw_flags4": "JK ABLQ 0 C",
+            "room_name": "A living mass of sand and dirt stands before you... its a dust fiend!\n",
+            "name": "{wA {yD{wu{ys{wt{y F{wi{re{yn{wd{x~\n",
             "raw_flags2": "115 4000 1d1+30000 1d1+4000 50d70+100 blast",
-            "d_flags": "D {yThe sands of the world will forever hunt you!!{x~",
+            "raw_form": "MV",
+            "keywords": "living mass sand dirt fiend~\n",
             "subroutines": [
                 "F for MV\n",
                 "F par ABCDEFGHIJK\n",
@@ -751,38 +752,39 @@
                 "M exall 5167 4~\n",
                 "M exall 5168 5~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A living mass of sand and dirt stands before you... its a dust fiend!\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "living mass sand dirt fiend~\n"
+            "raw_flags6": "AH 0 giant unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5156": {
-            "name": "{wA {*Black Scarab{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-234 -432 -124 -823",
             "description": [
                 "A small black scarab with an armored shell\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AH 0 medium unknown",
-            "raw_flags4": "FHJK ABLQ 0 C",
-            "raw_flags3": "-234 -432 -124 -823",
             "vnum": 5156,
             "raw_flags": "ABFP DFJTV CDEH -1000 0",
-            "race_id": "human",
-            "raw_form": "MV",
+            "raw_flags4": "FHJK ABLQ 0 C",
+            "room_name": "A tiny insect scurries about the floor here.\n",
+            "name": "{wA {*Black Scarab{x~\n",
             "raw_flags2": "102 4000 1d1+8000 1d1+4000 50d60+200 bite",
-            "d_flags": "D ~",
+            "raw_form": "MV",
+            "keywords": "tiny insect black scarab~\n",
             "subroutines": [
                 "F for MV\n",
                 "F par ABCDEFGHIJK\n",
                 "M act 5158 full heal~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A tiny insect scurries about the floor here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "tiny insect black scarab~\n"
+            "raw_flags6": "AH 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5157": {
-            "name": "A {*Black Scarab{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-234 -432 -124 -823",
             "description": [
                 "{WI{8ts beaded black eyes watch carefully as anything dare{Ws\n",
                 "{Wm{8ove past this ancient beetle. Its black shell gleams i{Wn\n",
@@ -791,136 +793,136 @@
                 "{Wt{8witches in anticipatio{Wn.{x\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AH 0 medium unknown",
-            "raw_flags4": "FHJKN AB 0 C",
-            "raw_flags3": "-234 -432 -124 -823",
             "vnum": 5157,
             "raw_flags": "ABFP DFJTV CDEH -1000 0",
-            "race_id": "human",
-            "raw_form": "MV",
+            "raw_flags4": "FHJKN AB 0 C",
+            "room_name": "A tiny black insect scurries about the floor here.\n",
+            "name": "A {*Black Scarab{x~\n",
             "raw_flags2": "102 4000 1d1+8000 1d1+4000 50d60+200 bite",
-            "d_flags": "D ~",
+            "raw_form": "MV",
+            "keywords": "tiny insect black~\n",
             "subroutines": [
                 "F for MV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A tiny black insect scurries about the floor here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "tiny insect black~\n"
+            "raw_flags6": "AH 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5158": {
-            "name": "Scav Mob 1~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5158,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Scav Mob 1\n",
+            "name": "Scav Mob 1~\n",
             "raw_flags2": "105 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Scav Mob 1~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Scav Mob 1\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Scav Mob 1~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5159": {
-            "name": "Scav Mob 2~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5159,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Scav Mob 2\n",
+            "name": "Scav Mob 2~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Scav Mob 1~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Scav Mob 2\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Scav Mob 1~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5160": {
-            "name": "Scav Mob 3~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5160,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Scav Mob 3\n",
+            "name": "Scav Mob 3~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Scav Mob 3~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Scav Mob 3\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Scav Mob 3~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5161": {
-            "name": "Scav Mob 4~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5161,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Scav Mob 4\n",
+            "name": "Scav Mob 4~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Scav Mob 4~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Scav Mob 4\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Scav Mob 4~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5162": {
-            "name": "Scav Mob 5~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5162,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Scav Mob 5\n",
+            "name": "Scav Mob 5~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Scav Mob 5~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Scav Mob 5\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Scav Mob 5~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5163": {
-            "name": "the old and frail man~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{WT{wi{8nkering along with his cane, this eldery man has ve{wr{Wy\n",
                 "{Wl{wi{8ttle use of his now stubby legs. The viens of h{wi{Ws \n",
@@ -933,15 +935,14 @@
                 "{ww{wi{8thin itself causing his weak limbs to quake and shudd{we{Wr.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5163,
             "raw_flags": "ABd DFJ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCa 0 0",
+            "room_name": "An old and frail man stands here mumbling under his breath\n",
+            "name": "the old and frail man~\n",
             "raw_flags2": "108 0 1d1+100 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "questmaster old frail man~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -950,48 +951,47 @@
                 "M speech 5170 i am interested~\n",
                 "M grall 5169 100~\n"
             ],
-            "t_flags": "T _~",
-            "room_name": "An old and frail man stands here mumbling under his breath\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "questmaster old frail man~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T _~"
         },
         "5164": {
-            "name": "octoganatron~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5164,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Octoganatron\n",
+            "name": "octoganatron~\n",
             "raw_flags2": "105 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "octoganatron~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 5179 blarg~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Octoganatron\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "octoganatron~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5165": {
-            "name": "A {mConjured Death Knight{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-60 -60 -60 -60",
             "description": [
                 "An unerring loyalty to the {8Lord of the Grey Wastes{x keeps this {8Death{x {mKnight{x alive.\n"
             ],
             "raw_flags5": "stand stand none 666",
-            "raw_flags6": "EIJMc ABCGHK medium unknown",
-            "raw_flags4": "CFKU BILMNPQR ES GHJKO",
-            "raw_flags3": "-60 -60 -60 -60",
             "vnum": 5165,
             "raw_flags": "ABFOT DFVXa EHR 0 0",
-            "race_id": "doll",
+            "raw_flags4": "CFKU BILMNPQR ES GHJKO",
+            "room_name": "A {mConjured Death Knight{x stands here protecting its Master.\n",
+            "name": "A {mConjured Death Knight{x~\n",
             "raw_flags2": "101 5000 1d1000+5000 1d1000+1000 3d500+1000 wrath",
-            "d_flags": "D ~",
+            "keywords": "myrku skeleton warrior summ~\n",
             "subroutines": [
                 "M exall 20408 1~\n",
                 "M exall 20408 2~\n",
@@ -1000,54 +1000,54 @@
                 "M exall 20408 5~\n",
                 "M exall 20408 0~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {mConjured Death Knight{x stands here protecting its Master.\n",
-            "keywords": "myrku skeleton warrior summ~\n"
+            "raw_flags6": "EIJMc ABCGHK medium unknown",
+            "race_id": "doll",
+            "t_flags": "T ~"
         },
         "5166": {
-            "name": "One of {8Myrkuls{x personal {8Death{x {mKnights{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{8Myrkuls{x personal {8Death{x {mKnight{x watches you intently, waiting for the silent order from his master to kill you.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCGHIJK medium unknown",
-            "raw_flags4": "0 LQ DM E",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5166,
             "raw_flags": "ABGVa 0 0 0 0",
-            "race_id": "heucuva",
-            "raw_flags2": "101 0 5000d5000+1 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 LQ DM E",
             "room_name": "One of {8Myrkuls{x personal {*Death{x {mKnights{x stands watch over his masters domain.\n",
-            "keywords": "myrkpet deathknight~\n"
+            "name": "One of {8Myrkuls{x personal {8Death{x {mKnights{x~\n",
+            "raw_flags2": "101 0 5000d5000+1 0d0+0 0d0+0 none",
+            "keywords": "myrkpet deathknight~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCGHIJK medium unknown",
+            "race_id": "heucuva",
+            "t_flags": "T ~"
         },
         "5167": {
-            "name": "The ancient pharaoh's spirit~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Death had robbed his body of all but skin and bones, yet he\n",
                 "still looks imposing in his ancient regalia.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 5167,
             "raw_flags": "AB CFG 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXZa 0 0",
+            "room_name": "The shimmering spirit of an ancient pharaoh stands here.\n",
+            "name": "The ancient pharaoh's spirit~\n",
             "raw_flags2": "102 0 100d100+100 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "spirit ancient pharaoh~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The shimmering spirit of an ancient pharaoh stands here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "spirit ancient pharaoh~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }

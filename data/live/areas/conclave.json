@@ -1,56 +1,56 @@
 {
-    "name": "Citadel Addon 1 (Tranquility)",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "conclave",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "conclave",
     "rooms": {
         "36952": {
-            "name": "",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "36952",
+            "description": [],
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "36952"
         }
     },
-    "uid": "conclave",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] Conclave Tranquility",
     "faction_id": "",
+    "name": "Citadel Addon 1 (Tranquility)",
     "vnums": [
         36900,
         37199
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "36904": {
-            "name": "{wa {8black{w cat{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{wThat is one fat cat.  They obviously eat well in T{Ch{we {YIl{ylu{wmi{cna{8ti{w.{x\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 36904,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "{wA {8black{W cat{w lazes here, keeping itself {Rwarm{w it cat-like dreams.{x\n",
+            "name": "{wa {8black{w cat{x~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "kitty cat~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wA {8black{W cat{w lazes here, keeping itself {Rwarm{w it cat-like dreams.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "kitty cat~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }

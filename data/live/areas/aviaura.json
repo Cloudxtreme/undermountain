@@ -1,54 +1,55 @@
 {
-    "name": "Avi-Aura",
+    "security": 6,
+    "recall_room_id": 37600,
     "id": "aviaura",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "aviaura",
     "rooms": {
         "38301": {
-            "name": "",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38301",
+            "description": [],
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "38301"
         },
         "38300": {
-            "name": "",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 536873484 0 13",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38300",
+            "description": [],
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "38300"
         },
         "38302": {
-            "name": "",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 4100 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38302",
+            "description": [],
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "38302"
         }
     },
-    "uid": "aviaura",
-    "area_quest_points": 0,
     "credits": "[Imm Zone] Tenhauser Avi-Aura",
     "faction_id": "",
+    "name": "Avi-Aura",
     "vnums": [
         38300,
         38499
     ],
-    "recall_room_id": 37600,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 0,
+    "subroutines": [],
     "mobiles": {
         "38300": {
-            "name": "{RL{Da{ri{Dn{Ra{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -4 -9 -9",
             "description": [
                 "Laina stands, at full height, an impressive 7'9\" tall, no doubt due\n",
                 "to her lower half.  She's a unique creature, being engineered by the\n",
@@ -66,14 +67,13 @@
                 " \n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKQ large unknown",
-            "raw_flags4": "BCEFGHJKL ABILMPQT CD R",
-            "raw_flags3": "-9 -4 -9 -9",
             "vnum": 38300,
             "raw_flags": "AELNPQRSTUdf DFJLTVa CDEHNOR 0 0",
-            "race_id": "human",
+            "raw_flags4": "BCEFGHJKL ABILMPQT CD R",
+            "room_name": "A half human, half scorpion is here. watching over her Master.\n",
+            "name": "{RL{Da{ri{Dn{Ra{x~\n",
             "raw_flags2": "101 450 2500d35+5555 5000d25+7500 30d25+50 slice",
-            "d_flags": "D ~",
+            "keywords": "Laina~\n",
             "subroutines": [
                 "M fight 38330 50~\n",
                 "M fight 38300 75~\n",
@@ -92,45 +92,46 @@
                 "M act 38323 hugs you.~\n",
                 "M act 38324 takes you in her arms in a warm and loving~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A half human, half scorpion is here. watching over her Master.\n",
-            "keywords": "Laina~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKQ large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38301": {
-            "name": "Genetic Engineer~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38301,
             "raw_flags": "AI 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "Voidcorp genetic engineer\n",
+            "name": "Genetic Engineer~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Engineer~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Voidcorp genetic engineer\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Engineer~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38302": {
-            "name": "{rD{Re{Dy{Wm{Di{Ra{rn{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-175 -175 -175 -175",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 tiny unknown",
-            "raw_flags4": "FHJKL 0 CD 0",
-            "raw_flags3": "-175 -175 -175 -175",
             "vnum": 38302,
             "raw_flags": "AINT CDEFGJLPTZc DHO -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "FHJKL 0 CD 0",
+            "room_name": "A small {Dblack imp{x with {rb{Rl{Do{Ro{rd{x-{rc{Ro{Dl{Wo{Dr{Re{rd{x wings is hovering here.\n",
+            "name": "{rD{Re{Dy{Wm{Di{Ra{rn{x~\n",
             "raw_flags2": "101 30000 1d1+6599 100d100+100 50d4+101 sting",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "deymian imp black~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -144,33 +145,32 @@
                 "M act 38332 ikako prays for transportation~\n",
                 "M fight 38331 33~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A small {Dblack imp{x with {rb{Rl{Do{Ro{rd{x-{rc{Ro{Dl{Wo{Dr{Re{rd{x wings is hovering here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "deymian imp black~\n"
+            "raw_flags6": "0 0 tiny unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38303": {
-            "name": "Pet Shop Guy~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38303,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Pet Shop Guy\n",
+            "name": "Pet Shop Guy~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Pet shop guy~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Pet Shop Guy\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Pet shop guy~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 0
+    "area_quest_points": 0
 }

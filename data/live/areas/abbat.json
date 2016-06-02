@@ -1,36 +1,15 @@
 {
-    "name": "The Soul Abattoir",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "abbat",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "abbat",
     "rooms": {
-        "40500": {
-            "name": "{yT{8ortu{rr{8e {yG{8ar{rd{8en",
-            "description": [
-                "{8Countless prisoners are arrayed around this vast chamber, bound hand and",
-                "foot to rusted, bloody manacles. They are illuminated only by the fiery",
-                "pits over which they are suspended -- fiery gasses and acids leaping up",
-                "to scald and disfigure their wriggling, ever-healing bodies.",
-                "Dripstones reach from the ceiling and the floor, and all are ringed by these",
-                "hideous beings, all crying out in endless torment. Amorphous, bloblike beings",
-                "wander between the prisoners, their pseudopod limbs carressing them as they pass."
-            ],
-            "flags_raw": "0 12 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40500",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40501"
-                }
-            },
-            "extras": {}
-        },
         "40501": {
-            "name": "The Temple of Life {W[LAW] {R[{WSAFE{R]{x",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is the interior of a large white marble temple.  A pipe organ",
                 "plays in the background as people sing a hymn of peacefulness.  A",
@@ -41,41 +20,62 @@
                 "is the donation room.  To the east is the {RCity Morgue{x and a newer",
                 "section of Main Street heads off to the north.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40501",
+            "name": "The Temple of Life {W[LAW] {R[{WSAFE{R]{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40500",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40500"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40502",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40502"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40501"
+        },
+        "40500": {
+            "extras": {},
+            "flags_raw": "0 12 0 18",
+            "flags2_raw": "0",
+            "description": [
+                "{8Countless prisoners are arrayed around this vast chamber, bound hand and",
+                "foot to rusted, bloody manacles. They are illuminated only by the fiery",
+                "pits over which they are suspended -- fiery gasses and acids leaping up",
+                "to scald and disfigure their wriggling, ever-healing bodies.",
+                "Dripstones reach from the ceiling and the floor, and all are ringed by these",
+                "hideous beings, all crying out in endless torment. Amorphous, bloblike beings",
+                "wander between the prisoners, their pseudopod limbs carressing them as they pass."
+            ],
+            "name": "{yT{8ortu{rr{8e {yG{8ar{rd{8en",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40501",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40500"
         }
     },
-    "uid": "abbat",
-    "area_quest_points": 0,
     "credits": "(null)",
     "faction_id": "",
+    "name": "The Soul Abattoir",
     "vnums": [
         40500,
         40549
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 0,
+    "subroutines": [],
     "mobiles": {},
-    "realm_id": 0
+    "area_quest_points": 0
 }

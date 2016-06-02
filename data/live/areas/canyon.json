@@ -1,465 +1,128 @@
 {
-    "name": "Elemental Canyon",
+    "security": 10,
+    "recall_room_id": 5350,
     "id": "canyon",
-    "subroutines": [],
+    "objects": {},
+    "uid": "canyon",
     "rooms": {
-        "9213": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about.  The canyon floor extends north, south, and west.",
-                "A path follows a stream to the east."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
+        "9223": {
+            "extras": {},
+            "flags_raw": "0 9 0 3",
             "flags2_raw": "0",
-            "vnum": "9213",
+            "description": [
+                "You can barely see your way even with a light source.  The rocks of the cave",
+                "are even darker than the darkness.  You hear a powerful humming all around you.",
+                "Cave paths go north, south and east roughly; it's hard to tell exactly when",
+                "you can't see where you are going."
+            ],
+            "name": "Darker Caves",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9210"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9221",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9216"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9212"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9224",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9228"
-                }
-            },
-            "extras": {}
-        },
-        "9256": {
-            "name": "Floating in Air",
-            "description": [
-                "You look down and see the ground 100 feet below you.  The wind whispering",
-                "in your ear seems to reassure you that this is fine.  To the north aways",
-                "you spy a portal of sorts.  To the west is more thin air."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9256",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9258"
+                    ]
                 },
-                "west": {
+                "south": {
                     "flags_raw": "-1",
+                    "room_id": "9225",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9255"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9223"
         },
-        "9216": {
-            "name": "Floor of the Canyon",
+        "9218": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "Various elemental forms wander the floor of the canyon.  Some seem to be",
                 "going about their business, while others seem to have no business at",
                 "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about.  The Canyon floor extends north, south and west."
+                "things going on about.  The canyon floor extends east, south, and west."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9216",
+            "name": "Floor of the Canyon",
             "exits": {
                 "north": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "9253",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9219"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9219",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9217",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9215"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "9215",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9213"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9218"
         },
-        "9234": {
-            "name": "Elemental Bay",
+        "9231": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
             "description": [
                 "The water is crystal clear here and you can see the bottom of the bay 30 feet",
                 "below you.  Then you realize you are walking on the water itself.  Truly",
                 "magical water indeed.  Though you splash through the bay you do not get wet."
             ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9234",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9231"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9233"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9235"
-                }
-            },
-            "extras": {}
-        },
-        "9253": {
-            "name": "Mesa West",
-            "description": [
-                "An electric path starts to the west.  The mesa continues to the east.",
-                "Or you can climb down to the canyon floor to the south."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9253",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9218"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9246"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9254"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "24230"
-                }
-            },
-            "extras": {}
-        },
-        "9214": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about. The canyon floor extends north, east, and south.",
-                "To the west a garden is on fire."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9214",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9211"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9217"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9237"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9215"
-                }
-            },
-            "extras": {}
-        },
-        "9238": {
-            "name": "Fiery Pathway",
-            "description": [
-                "You tread carefully along a path which dips and turns among pits of fire and",
-                "beds of coals.  A garden to the west glows with an everlasting fire."
-            ],
-            "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9238",
+            "name": "Elemental Bay",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9234",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9237"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9232",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9230",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "9242"
-                }
-            },
-            "extras": {}
-        },
-        "9225": {
-            "name": "Darkest Caves",
-            "description": [
-                "Your light doesn't even seem to work here.  Even magical light sources seem",
-                "only to illuminate about a foot ahead of you.  You suddenly realize that the",
-                "path has descended quite a bit but you didn't notice before because of the",
-                "darkness.  You sense a great presence off to the east aways."
-            ],
-            "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9225",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9223"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9226"
-                }
-            },
-            "extras": {}
-        },
-        "9208": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at all.",
-                "In general, it is calm, yet there is always a incessant buzz of things",
-                "going on about.  The canyon continues north and east."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9208",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9211"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9209"
-                }
-            },
-            "extras": {}
-        },
-        "9252": {
-            "name": "Lightning Chamber",
-            "description": [
-                "There is some sort of control panel here. Apparently the Lightning Ruler",
-                "observes and controls electric forces from here.  A set of steps carved into",
-                "the hill lead down to a causeway."
-            ],
-            "flags_raw": "0 8 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9252",
-            "exits": {
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9251"
-                }
-            },
-            "extras": {}
-        },
-        "9259": {
-            "name": "Windy Tunnel",
-            "description": [
-                "A tunnel leads east.  To the west you can enter a portal. The wind in",
-                "this tunnel is quite fierce, it seems as if it's forced.  "
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9259",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9258"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9260"
-                }
-            },
-            "extras": {
-                "portal": {
-                    "description": [
-                        "Through the portal you see nothing but sky.",
                         ""
                     ]
                 }
-            }
-        },
-        "9202": {
-            "name": "Mountain Path",
-            "description": [
-                "You are on a rocky mountain path leading up and around a steep mountainside.",
-                "You sense a glow from the area beyond the mountain, which you cannot see yet."
-            ],
-            "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9202",
-            "exits": {
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9203"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9201"
-                }
             },
-            "extras": {}
-        },
-        "9222": {
-            "name": "Darker Caves",
-            "description": [
-                "You can barely see your way even with a light source.  The rocks of the cave",
-                "are even darker than the darkness.  You hear a powerful humming all around",
-                "you.  Cave paths go south and west roughly; it's hard to tell exactly when you",
-                "can't see where you are going."
-            ],
-            "flags_raw": "0 9 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9222",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9221"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9224"
-                }
-            },
-            "extras": {}
+            "vnum": "9231"
         },
         "9227": {
-            "name": "Earth Chamber",
-            "description": [
-                "This is the abode of the Earth Ruler.  He decides about earthquakes,",
-                "landslides, and avalanches.  The Earth Ruler sits upon a huge marble throne",
-                "carved into the wall."
-            ],
-            "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9227",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9226"
-                }
-            },
             "extras": {
                 "marble throne": {
                     "description": [
@@ -468,440 +131,917 @@
                         ""
                     ]
                 }
-            }
-        },
-        "9246": {
-            "name": "Electric Pathway",
-            "description": [
-                "The pathway glows and hums because of the electricity pulsing through it.",
-                "It seems almost soothing to your weary feet.  To the north there is a",
-                "sunken-in area.  A path leads east also."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9246",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9217"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9248"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9253"
-                }
             },
-            "extras": {}
-        },
-        "9209": {
-            "name": "Elemental Gateway",
-            "description": [
-                "To the west a path dips and winds among some flowing firepits.  To the",
-                "northeast a path goes toward the river.  Beyond toward the northeast and",
-                "northwest are outcrops which rise up from the canyon floor. To the east there",
-                "is a cave mouth which leads into the canyon wall.  And to the south the path",
-                "leads up, away, and out of the canyon.  Various pure and cross-breeds of",
-                "elemental forms wander the canyon floor, which extends in a wide swath",
-                "northwards."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
+            "flags_raw": "0 9 0 3",
             "flags2_raw": "0",
-            "vnum": "9209",
+            "description": [
+                "This is the abode of the Earth Ruler.  He decides about earthquakes,",
+                "landslides, and avalanches.  The Earth Ruler sits upon a huge marble throne",
+                "carved into the wall."
+            ],
+            "name": "Earth Chamber",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9207"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9212"
-                },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9226",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9208"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9210"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9255": {
-            "name": "Floating in Air",
-            "description": [
-                "Last you knew, you were walking on the mesa.  Abruptly the path dropped",
-                "from beneath your feet much to quick for you to recover.  Instead of",
-                "plunging to your death, you seemingly miss the ground and begin walking",
-                "on air.  The space to the north and east seems just thin air, but you can",
-                "walk there.  The pathway you came from is to the south."
-            ],
-            "flags_raw": "0 0 0 4",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9255",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9254"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9257"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9256"
-                }
-            },
-            "extras": {}
-        },
-        "9230": {
-            "name": "Elemental Bay",
-            "description": [
-                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
-                "below you.  Then you realize you are walking on the water itself.  Truly",
-                "magical water indeed.  Though you splash through the bay you do not get wet."
-            ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9230",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9229"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9233"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9231"
-                }
-            },
-            "extras": {}
-        },
-        "9204": {
-            "name": "Blind Curve on the Mountain Path",
-            "description": [
-                "This looks like a normal mountain path, but it is NOT!  This section of the",
-                "path is habitated by a huge (and of course, man-eating) Cyclops.  The path",
-                "makes its final ascent to an overlook."
-            ],
-            "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9204",
-            "exits": {
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9205"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9203"
-                }
-            },
-            "extras": {}
-        },
-        "9217": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about. The canyon floor extends east and south.  You can",
-                "climb a rise in the canyon floor to the north."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9217",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9214"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9246"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9218"
-                }
-            },
-            "extras": {}
-        },
-        "9218": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about.  The canyon floor extends east, south, and west."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9218",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9215"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9253"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9217"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9219"
-                }
-            },
-            "extras": {}
-        },
-        "9206": {
-            "name": "Overlook",
-            "description": [
-                "You see various elemental servants wandering around the canyon.  The noise of",
-                "humming coming from the canyon gets louder.  The path makes a steep descent",
-                "into the canyon here."
-            ],
-            "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9206",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9205"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9207"
-                }
-            },
-            "extras": {}
+            "vnum": "9227"
         },
         "9242": {
-            "name": "Burning Gardens",
+            "extras": {},
+            "flags_raw": "0 0 0 5",
+            "flags2_raw": "0",
             "description": [
                 "Everywhere around you the landscape is afire; the rocks, the shrubs and even",
                 "the air seems to be aflame.  Curiously, the magical fire does not seem to",
                 "consume its hosts.  A path leads east among some fire pits."
             ],
-            "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9242",
+            "name": "Burning Gardens",
             "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9245"
-                },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9238",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9238"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9245",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9242"
         },
-        "9245": {
-            "name": "Fire Chamber",
-            "description": [
-                "The fire ruler sits upon a throne made of blue flame.  Little flickers of",
-                "flame dance to and fro for the entertainment of the ruler."
-            ],
+        "9212": {
+            "extras": {},
             "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "9245",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9242"
-                }
-            },
-            "extras": {}
-        },
-        "9220": {
-            "name": "Dark Cave",
             "description": [
-                "You notice a path winding east among some huge boulders.  You feel a powerful",
-                "source of energy from that direction."
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always an incessant buzz of",
+                "things going on about.  The canyon floor extends in all directions."
             ],
-            "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9220",
+            "name": "Floor of the Canyon",
             "exits": {
-                "west": {
+                "north": {
                     "flags_raw": "-1",
+                    "room_id": "9215",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9210"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9213",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9221"
-                }
-            },
-            "extras": {}
-        },
-        "9237": {
-            "name": "Fiery Pathway",
-            "description": [
-                "You tread carefully along a path which dips and turns among geysers of fire.",
-                "Miniature volcanoes spew lava in rivers.  The fire is hot but not altogether",
-                "dangerous.  The path extends east and south."
-            ],
-            "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9237",
-            "exits": {
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9211",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "9209",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9238"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9212"
+        },
+        "9213": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always an incessant buzz of",
+                "things going on about.  The canyon floor extends north, south, and west.",
+                "A path follows a stream to the east."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9216",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9228",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9214"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9212",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9210",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9203": {
-            "name": "Mountainside Tombs",
-            "description": [
-                "There are a few stone heaps here and there, the tombs of those who did not",
-                "last the arduous journey up the mountain.  Curiously you notice a few",
-                "uncovered bodies which don't seem to have died of exhaustion.  The path curves",
-                "east around the mountain."
-            ],
-            "flags_raw": "0 0 0 5",
             "wanted_area_vnum": "",
+            "vnum": "9213"
+        },
+        "9225": {
+            "extras": {},
+            "flags_raw": "0 9 0 3",
             "flags2_raw": "0",
-            "vnum": "9203",
+            "description": [
+                "Your light doesn't even seem to work here.  Even magical light sources seem",
+                "only to illuminate about a foot ahead of you.  You suddenly realize that the",
+                "path has descended quite a bit but you didn't notice before because of the",
+                "darkness.  You sense a great presence off to the east aways."
+            ],
+            "name": "Darkest Caves",
             "exits": {
-                "up": {
+                "north": {
                     "flags_raw": "-1",
+                    "room_id": "9223",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9204"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9226",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9225"
+        },
+        "9249": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "Though there is a seemingly carefree atmosphere here, you sense that",
+                "something much more important takes place near by.  The playground continues",
+                "south and east."
+            ],
+            "name": "Electric Playground",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9250",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9247",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9249"
+        },
+        "9219": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always an incessant buzz of",
+                "things going on about.  The canyon floor extends south and west.  You can",
+                "climb a rise in the canyon floor to the north."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9254",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9218",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9216",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9219"
+        },
+        "9247": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "Though there is a seemingly carefree atmosphere here, you sense that",
+                "something much more important takes place near by.  The electric playground",
+                "extends north and east."
+            ],
+            "name": "Electric Playground",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9249",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9248",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9247"
+        },
+        "9226": {
+            "extras": {},
+            "flags_raw": "0 9 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Your light doesn't even seem to work here.  Even magical light sources seem",
+                "only to illuminate about a foot ahead of you.  You suddenly realize that the",
+                "path has descended quite a bit but you didn't notice before because of the",
+                "darkness.  You sense a great presence directly to the east."
+            ],
+            "name": "Darkest Caves",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9224",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9227",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9225",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9226"
+        },
+        "9210": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always a incessant buzz of",
+                "things going on about.  The canyon floor extends north and west.  There is a",
+                "cave mouth set into the canyon wall to the east."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9213",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9220",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9209",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9210"
+        },
+        "9224": {
+            "extras": {},
+            "flags_raw": "0 9 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You can barely see your way even with a light source.  The rocks of the cave",
+                "are even darker than the darkness.  You hear a powerful humming all around you.",
+                "Cave paths go north, south and west roughly, it's hard to tell exactly when you",
+                "can't see where you are going."
+            ],
+            "name": "Darker Caves",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9222",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9223",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9226",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9224"
+        },
+        "9235": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
+                "below you.  Then you realize you are walking on the water itself.  Truly",
+                "magical water indeed.  Though you splash through the bay you do not get wet."
+            ],
+            "name": "Elemental Bay",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9239",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9234",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "9236",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9202"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9232",
+                    "description": [
+                        ""
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "9235"
+        },
+        "9232": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
+                "below you.  Then you realize you are walking on the water itself.  Truly",
+                "magical water indeed.  Though you splash through the bay you do not get wet."
+            ],
+            "name": "Elemental Bay",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9235",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9231",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9232"
+        },
+        "9214": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always an incessant buzz of",
+                "things going on about. The canyon floor extends north, east, and south.",
+                "To the west a garden is on fire."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9217",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9215",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9237",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9211",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9214"
+        },
+        "9236": {
+            "extras": {},
+            "flags_raw": "0 8 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "This chamber was magically created here on the floor of the bay.  It looks",
+                "like it's been here for a long, long time.  Though you are 'under water' there",
+                "is no difficulty breathing normally, and oddly you do not feel the pressure of",
+                "the water above you."
+            ],
+            "name": "Water Chamber",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "9235",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9236"
+        },
+        "9221": {
+            "extras": {},
+            "flags_raw": "0 9 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You can barely see your way even with a light source.  The rocks of the cave",
+                "are even darker than the darkness.  You hear a powerful humming all around",
+                "you.  Cave paths go south and east roughly, its hard to tell exactly when you",
+                "can't see where you are going."
+            ],
+            "name": "Darker Caves",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9222",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9220",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9223",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9221"
+        },
+        "9256": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "You look down and see the ground 100 feet below you.  The wind whispering",
+                "in your ear seems to reassure you that this is fine.  To the north aways",
+                "you spy a portal of sorts.  To the west is more thin air."
+            ],
+            "name": "Floating in Air",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9258",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9255",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9256"
+        },
+        "9207": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You are awed by the sounds and sights of great powers at works here.",
+                "Elemental servants bustle back and forth doing the biddings of the elemental",
+                "rulers.  You see a sort of cross roads to the north, and you can climb up to",
+                "the overlook here."
+            ],
+            "name": "Entrance to Elemental Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9209",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "9206",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9207"
+        },
+        "9251": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "Up a set of stairs carved into the hill you see intermittent flashes of",
+                "lightning.  A continuous hum also comes form that direction.  To the west",
+                "is the electric playground."
+            ],
+            "name": "Lightning Causeway",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "9252",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9250",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9251"
+        },
+        "9248": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "Though there is a seemingly carefree atmosphere here, you sense that",
+                "something much more important takes place near by.  There is an electric",
+                "path heading away south.  The playground extends north and west."
+            ],
+            "name": "Electric Playground",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9250",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9247",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9246",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9248"
+        },
+        "9233": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
+                "below you.  Then you realize you are walking on the water itself.  Truly",
+                "magical water indeed.  Though you splash through the bay you do not get wet."
+            ],
+            "name": "Elemental Bay",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9234",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9230",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9233"
+        },
+        "9205": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This is a stunning vista overlooking a canyon.  There is a sign here that says:",
+                "",
+                "\tBEHOLD -- ELEMENTAL CANYON",
+                "",
+                "Fire leaps up from firepits in the western part of the canyon.  The sky looks",
+                "funny, and the air seems hazy to the northwest.  Electricity sparks",
+                "intermittently in the northeast.  To the east you see a strong, magic-looking",
+                "river flowing through the canyon.  Also to the east you spy a cave entrance",
+                "leading into the canyon wall.  The path descends to the north to another",
+                "overlook."
+            ],
+            "name": "Vista",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9206",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "9204",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9205"
+        },
+        "9253": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "An electric path starts to the west.  The mesa continues to the east.",
+                "Or you can climb down to the canyon floor to the south."
+            ],
+            "name": "Mesa West",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9254",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "24230",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9246",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9218",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9253"
+        },
+        "9258": {
+            "extras": {
+                "portal": {
+                    "description": [
+                        "Through the portal you see a tunnel.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "You look down and see the ground 100 feet below you.  The wind whispering",
+                "in your ear seems to reassure you that this is fine. There is a portal",
+                "hanging in midair here. It is to the east.  You can float south or west",
+                "if you'd like."
+            ],
+            "name": "Floating in Air",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9259",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "5600",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9257",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9256",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9258"
+        },
+        "9200": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "9200"
+        },
+        "9254": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "A path starts to the north.  The mesa continues to the west.",
+                "Or you can climb down to the canyon floor to the south."
+            ],
+            "name": "Mesa East",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9255",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9253",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9219",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9254"
+        },
+        "9206": {
+            "extras": {},
+            "flags_raw": "0 0 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You see various elemental servants wandering around the canyon.  The noise of",
+                "humming coming from the canyon gets louder.  The path makes a steep descent",
+                "into the canyon here."
+            ],
+            "name": "Overlook",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "9207",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9205",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9206"
+        },
+        "9203": {
             "extras": {
                 "heaps stones tombs": {
                     "description": [
@@ -917,913 +1057,657 @@
                         ""
                     ]
                 }
-            }
-        },
-        "9221": {
-            "name": "Darker Caves",
-            "description": [
-                "You can barely see your way even with a light source.  The rocks of the cave",
-                "are even darker than the darkness.  You hear a powerful humming all around",
-                "you.  Cave paths go south and east roughly, its hard to tell exactly when you",
-                "can't see where you are going."
-            ],
-            "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9221",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9223"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9220"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9222"
-                }
             },
-            "extras": {}
-        },
-        "9224": {
-            "name": "Darker Caves",
-            "description": [
-                "You can barely see your way even with a light source.  The rocks of the cave",
-                "are even darker than the darkness.  You hear a powerful humming all around you.",
-                "Cave paths go north, south and west roughly, it's hard to tell exactly when you",
-                "can't see where you are going."
-            ],
-            "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9224",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9222"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9223"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9226"
-                }
-            },
-            "extras": {}
-        },
-        "9210": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always a incessant buzz of",
-                "things going on about.  The canyon floor extends north and west.  There is a",
-                "cave mouth set into the canyon wall to the east."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9210",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9213"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9209"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9220"
-                }
-            },
-            "extras": {}
-        },
-        "9201": {
-            "name": "Mountain Path",
-            "description": [
-                "You are on a mountain path which ascends a steep mountainside.  The trail",
-                "curves around the mountain so that you cannot really see what lies ahead.",
-                "You do sense great power though coming from the area behind the mountain."
-            ],
             "flags_raw": "0 0 0 5",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "9201",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5267"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9202"
-                }
-            },
-            "extras": {}
-        },
-        "9257": {
-            "name": "Floating in Air",
             "description": [
-                "You look down and see the ground 100 feet below you.  The wind whispering",
-                "in your ear seems to reassure you that this is fine.  To the east aways",
-                "you spy a portal of sorts.  To the south is more thin air."
+                "There are a few stone heaps here and there, the tombs of those who did not",
+                "last the arduous journey up the mountain.  Curiously you notice a few",
+                "uncovered bodies which don't seem to have died of exhaustion.  The path curves",
+                "east around the mountain."
             ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9257",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9255"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9258"
-                }
-            },
-            "extras": {}
-        },
-        "9219": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about.  The canyon floor extends south and west.  You can",
-                "climb a rise in the canyon floor to the north."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9219",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9254"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9218"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9216"
-                }
-            },
-            "extras": {}
-        },
-        "9223": {
-            "name": "Darker Caves",
-            "description": [
-                "You can barely see your way even with a light source.  The rocks of the cave",
-                "are even darker than the darkness.  You hear a powerful humming all around you.",
-                "Cave paths go north, south and east roughly; it's hard to tell exactly when",
-                "you can't see where you are going."
-            ],
-            "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9223",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9225"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9221"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9224"
-                }
-            },
-            "extras": {}
-        },
-        "9251": {
-            "name": "Lightning Causeway",
-            "description": [
-                "Up a set of stairs carved into the hill you see intermittent flashes of",
-                "lightning.  A continuous hum also comes form that direction.  To the west",
-                "is the electric playground."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9251",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9250"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9252"
-                }
-            },
-            "extras": {}
-        },
-        "9236": {
-            "name": "Water Chamber",
-            "description": [
-                "This chamber was magically created here on the floor of the bay.  It looks",
-                "like it's been here for a long, long time.  Though you are 'under water' there",
-                "is no difficulty breathing normally, and oddly you do not feel the pressure of",
-                "the water above you."
-            ],
-            "flags_raw": "0 8 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9236",
+            "name": "Mountainside Tombs",
             "exits": {
                 "up": {
                     "flags_raw": "-1",
+                    "room_id": "9204",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9235"
-                }
-            },
-            "extras": {}
-        },
-        "9235": {
-            "name": "Elemental Bay",
-            "description": [
-                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
-                "below you.  Then you realize you are walking on the water itself.  Truly",
-                "magical water indeed.  Though you splash through the bay you do not get wet."
-            ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9235",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9232"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9234"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9239"
+                    ]
                 },
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "9202",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "9236"
-                }
-            },
-            "extras": {}
-        },
-        "9249": {
-            "name": "Electric Playground",
-            "description": [
-                "Though there is a seemingly carefree atmosphere here, you sense that",
-                "something much more important takes place near by.  The playground continues",
-                "south and east."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9249",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9247"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9250"
-                }
-            },
-            "extras": {}
-        },
-        "9250": {
-            "name": "Electric Playground",
-            "description": [
-                "Though there is a seemingly carefree atmosphere here, you sense that",
-                "something much more important takes place near by.  The playground is",
-                "south and west.  Something more important catches your eye to the east."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9250",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9248"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9249"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9251"
-                }
-            },
-            "extras": {}
-        },
-        "9200": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9200",
-            "exits": {},
-            "extras": {}
-        },
-        "9258": {
-            "name": "Floating in Air",
-            "description": [
-                "You look down and see the ground 100 feet below you.  The wind whispering",
-                "in your ear seems to reassure you that this is fine. There is a portal",
-                "hanging in midair here. It is to the east.  You can float south or west",
-                "if you'd like."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9258",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9256"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9257"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9259"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5600"
-                }
-            },
-            "extras": {
-                "portal": {
-                    "description": [
-                        "Through the portal you see a tunnel.",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9203"
         },
         "9229": {
-            "name": "In the River",
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
             "description": [
                 "To continue you had to walk right in the river.  Though you walk along in",
                 "water up to your knees, you do not seem to get wet.  A bay stretches out to",
                 "the north and the river goes south."
             ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9229",
+            "name": "In the River",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9230",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9230"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "9228",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9228"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9212": {
-            "name": "Floor of the Canyon",
-            "description": [
-                "Various elemental forms wander the floor of the canyon.  Some seem to be",
-                "going about their business, while others seem to have no business at",
-                "all.  In general, it is calm, yet there is always an incessant buzz of",
-                "things going on about.  The canyon floor extends in all directions."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9212",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9209"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9215"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9211"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9213"
-                }
-            },
-            "extras": {}
+            "vnum": "9229"
         },
-        "9231": {
-            "name": "Elemental Bay",
-            "description": [
-                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
-                "below you.  Then you realize you are walking on the water itself.  Truly",
-                "magical water indeed.  Though you splash through the bay you do not get wet."
-            ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9231",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9234"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9230"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9232"
-                }
-            },
-            "extras": {}
-        },
-        "9247": {
-            "name": "Electric Playground",
-            "description": [
-                "Though there is a seemingly carefree atmosphere here, you sense that",
-                "something much more important takes place near by.  The electric playground",
-                "extends north and east."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9247",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9249"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9248"
-                }
-            },
-            "extras": {}
-        },
-        "9233": {
-            "name": "Elemental Bay",
-            "description": [
-                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
-                "below you.  Then you realize you are walking on the water itself.  Truly",
-                "magical water indeed.  Though you splash through the bay you do not get wet."
-            ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9233",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9230"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9234"
-                }
-            },
-            "extras": {}
-        },
-        "9239": {
-            "name": "{yEn{Ytran{yce {*to {RC{Bo{Gs{Rm{Bo {YCa{yny{Yon{x",
-            "description": [
-                "On the other side of the bay, the rock walls of the Elemental",
-                "Canyon open up to reveal another canyon running to the east.  Either",
-                "side of the tall rock walls almost touch in this opening, above has",
-                "been carved into an archway.  Cosmo Canyon is the words carved into",
-                "the stone.  "
-            ],
-            "flags_raw": "0 8 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9239",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9235"
-                }
-            },
-            "extras": {}
-        },
-        "9226": {
-            "name": "Darkest Caves",
-            "description": [
-                "Your light doesn't even seem to work here.  Even magical light sources seem",
-                "only to illuminate about a foot ahead of you.  You suddenly realize that the",
-                "path has descended quite a bit but you didn't notice before because of the",
-                "darkness.  You sense a great presence directly to the east."
-            ],
+        "9222": {
+            "extras": {},
             "flags_raw": "0 9 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "9226",
+            "description": [
+                "You can barely see your way even with a light source.  The rocks of the cave",
+                "are even darker than the darkness.  You hear a powerful humming all around",
+                "you.  Cave paths go south and west roughly; it's hard to tell exactly when you",
+                "can't see where you are going."
+            ],
+            "name": "Darker Caves",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9221",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9224",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9222"
+        },
+        "9209": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "To the west a path dips and winds among some flowing firepits.  To the",
+                "northeast a path goes toward the river.  Beyond toward the northeast and",
+                "northwest are outcrops which rise up from the canyon floor. To the east there",
+                "is a cave mouth which leads into the canyon wall.  And to the south the path",
+                "leads up, away, and out of the canyon.  Various pure and cross-breeds of",
+                "elemental forms wander the canyon floor, which extends in a wide swath",
+                "northwards."
+            ],
+            "name": "Elemental Gateway",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9212",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9224"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9225"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9210",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9227"
-                }
-            },
-            "extras": {}
-        },
-        "9248": {
-            "name": "Electric Playground",
-            "description": [
-                "Though there is a seemingly carefree atmosphere here, you sense that",
-                "something much more important takes place near by.  There is an electric",
-                "path heading away south.  The playground extends north and west."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9248",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9250"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9208",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9247"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "9207",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9246"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9254": {
-            "name": "Mesa East",
-            "description": [
-                "A path starts to the north.  The mesa continues to the west.",
-                "Or you can climb down to the canyon floor to the south."
-            ],
-            "flags_raw": "0 0 0 4",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9254",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9255"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9253"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9219"
-                }
-            },
-            "extras": {}
+            "vnum": "9209"
         },
         "9228": {
-            "name": "By the River",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "The water in the river seems to bubble and froth with magic.  Though it",
                 "splashes playfully on you, it does not seem wet.  The path leads north closer",
                 "to the water. To the west you see a T-intersection."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9228",
+            "name": "By the River",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9229",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9229"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9213",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9213"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9228"
         },
-        "9232": {
-            "name": "Elemental Bay",
+        "9220": {
+            "extras": {},
+            "flags_raw": "0 9 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You notice a path winding east among some huge boulders.  You feel a powerful",
+                "source of energy from that direction."
+            ],
+            "name": "Dark Cave",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9221",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9210",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9220"
+        },
+        "9257": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "You look down and see the ground 100 feet below you.  The wind whispering",
+                "in your ear seems to reassure you that this is fine.  To the east aways",
+                "you spy a portal of sorts.  To the south is more thin air."
+            ],
+            "name": "Floating in Air",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9258",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9255",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9257"
+        },
+        "9216": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always an incessant buzz of",
+                "things going on about.  The Canyon floor extends north, south and west."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9219",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9215",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9213",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9216"
+        },
+        "9208": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at all.",
+                "In general, it is calm, yet there is always a incessant buzz of things",
+                "going on about.  The canyon continues north and east."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9211",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9209",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9208"
+        },
+        "9234": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
             "description": [
                 "The water is crystal clear here and you can see the bottom of the bay 30 feet",
                 "below you.  Then you realize you are walking on the water itself.  Truly",
                 "magical water indeed.  Though you splash through the bay you do not get wet."
             ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9232",
+            "name": "Elemental Bay",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "-1",
+                    "room_id": "9235",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9235"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "9233",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9231"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9231",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9234"
+        },
+        "9252": {
+            "extras": {},
+            "flags_raw": "0 8 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "There is some sort of control panel here. Apparently the Lightning Ruler",
+                "observes and controls electric forces from here.  A set of steps carved into",
+                "the hill lead down to a causeway."
+            ],
+            "name": "Lightning Chamber",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "9251",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9252"
+        },
+        "9237": {
+            "extras": {},
+            "flags_raw": "0 0 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You tread carefully along a path which dips and turns among geysers of fire.",
+                "Miniature volcanoes spew lava in rivers.  The fire is hot but not altogether",
+                "dangerous.  The path extends east and south."
+            ],
+            "name": "Fiery Pathway",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9214",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9238",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9237"
         },
         "9215": {
-            "name": "Floor of the Canyon",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "Various elemental forms wander the floor of the canyon.  Some seem to be",
                 "going about their business, while others seem to have no business at",
                 "all.  In general, it is calm, yet there is always an incessant buzz of",
                 "things going on about.  The canyon floor extends in all directions."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9215",
+            "name": "Floor of the Canyon",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9212"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9218",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9218"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9214"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9216",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9216"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9214",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9212",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9205": {
-            "name": "Vista",
-            "description": [
-                "This is a stunning vista overlooking a canyon.  There is a sign here that says:",
-                "",
-                "\tBEHOLD -- ELEMENTAL CANYON",
-                "",
-                "Fire leaps up from firepits in the western part of the canyon.  The sky looks",
-                "funny, and the air seems hazy to the northwest.  Electricity sparks",
-                "intermittently in the northeast.  To the east you see a strong, magic-looking",
-                "river flowing through the canyon.  Also to the east you spy a cave entrance",
-                "leading into the canyon wall.  The path descends to the north to another",
-                "overlook."
-            ],
-            "flags_raw": "0 0 0 2",
             "wanted_area_vnum": "",
+            "vnum": "9215"
+        },
+        "9204": {
+            "extras": {},
+            "flags_raw": "0 0 0 5",
             "flags2_raw": "0",
-            "vnum": "9205",
+            "description": [
+                "This looks like a normal mountain path, but it is NOT!  This section of the",
+                "path is habitated by a huge (and of course, man-eating) Cyclops.  The path",
+                "makes its final ascent to an overlook."
+            ],
+            "name": "Blind Curve on the Mountain Path",
             "exits": {
-                "north": {
+                "up": {
                     "flags_raw": "-1",
+                    "room_id": "9205",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9206"
+                    ]
                 },
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "9203",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9204"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9204"
+        },
+        "9238": {
+            "extras": {},
+            "flags_raw": "0 0 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You tread carefully along a path which dips and turns among pits of fire and",
+                "beds of coals.  A garden to the west glows with an everlasting fire."
+            ],
+            "name": "Fiery Pathway",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9237",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9242",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9238"
+        },
+        "9246": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The pathway glows and hums because of the electricity pulsing through it.",
+                "It seems almost soothing to your weary feet.  To the north there is a",
+                "sunken-in area.  A path leads east also."
+            ],
+            "name": "Electric Pathway",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9248",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9253",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9217",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9246"
+        },
+        "9259": {
+            "extras": {
+                "portal": {
+                    "description": [
+                        "Through the portal you see nothing but sky.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "A tunnel leads east.  To the west you can enter a portal. The wind in",
+                "this tunnel is quite fierce, it seems as if it's forced.  "
+            ],
+            "name": "Windy Tunnel",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9260",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9258",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9259"
+        },
+        "9250": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "Though there is a seemingly carefree atmosphere here, you sense that",
+                "something much more important takes place near by.  The playground is",
+                "south and west.  Something more important catches your eye to the east."
+            ],
+            "name": "Electric Playground",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9251",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "9249",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9248",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9250"
+        },
+        "9230": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "The water is crystal clear here and you can see the bottom of the bay 30 feet",
+                "below you.  Then you realize you are walking on the water itself.  Truly",
+                "magical water indeed.  Though you splash through the bay you do not get wet."
+            ],
+            "name": "Elemental Bay",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9233",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9231",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9229",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9230"
+        },
+        "9202": {
+            "extras": {},
+            "flags_raw": "0 0 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a rocky mountain path leading up and around a steep mountainside.",
+                "You sense a glow from the area beyond the mountain, which you cannot see yet."
+            ],
+            "name": "Mountain Path",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "9203",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "9201",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9202"
         },
         "9211": {
-            "name": "Floor of the Canyon",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "Various elemental forms wander the floor of the canyon.  Some seem to be",
                 "going about their business, while others seem to have no business at",
@@ -1831,807 +1715,923 @@
                 "things going on about.  The canyon floor extends off to the north, east,",
                 "and south."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9211",
+            "name": "Floor of the Canyon",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9208"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "9214",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9214"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "9212",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9212"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9208",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9207": {
-            "name": "Entrance to Elemental Canyon",
-            "description": [
-                "You are awed by the sounds and sights of great powers at works here.",
-                "Elemental servants bustle back and forth doing the biddings of the elemental",
-                "rulers.  You see a sort of cross roads to the north, and you can climb up to",
-                "the overlook here."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
+            "vnum": "9211"
+        },
+        "9239": {
+            "extras": {},
+            "flags_raw": "0 8 0 5",
             "flags2_raw": "0",
-            "vnum": "9207",
+            "description": [
+                "On the other side of the bay, the rock walls of the Elemental",
+                "Canyon open up to reveal another canyon running to the east.  Either",
+                "side of the tall rock walls almost touch in this opening, above has",
+                "been carved into an archway.  Cosmo Canyon is the words carved into",
+                "the stone.  "
+            ],
+            "name": "{yEn{Ytran{yce {*to {RC{Bo{Gs{Rm{Bo {YCa{yny{Yon{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9235",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9239"
+        },
+        "9245": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The fire ruler sits upon a throne made of blue flame.  Little flickers of",
+                "flame dance to and fro for the entertainment of the ruler."
+            ],
+            "name": "Fire Chamber",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9242",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9245"
+        },
+        "9201": {
+            "extras": {},
+            "flags_raw": "0 0 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a mountain path which ascends a steep mountainside.  The trail",
+                "curves around the mountain so that you cannot really see what lies ahead.",
+                "You do sense great power though coming from the area behind the mountain."
+            ],
+            "name": "Mountain Path",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "5267",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9209"
+                    ]
                 },
                 "up": {
                     "flags_raw": "-1",
+                    "room_id": "9202",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9206"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9201"
+        },
+        "9255": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "Last you knew, you were walking on the mesa.  Abruptly the path dropped",
+                "from beneath your feet much to quick for you to recover.  Instead of",
+                "plunging to your death, you seemingly miss the ground and begin walking",
+                "on air.  The space to the north and east seems just thin air, but you can",
+                "walk there.  The pathway you came from is to the south."
+            ],
+            "name": "Floating in Air",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9257",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9256",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9254",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9255"
+        },
+        "9217": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Various elemental forms wander the floor of the canyon.  Some seem to be",
+                "going about their business, while others seem to have no business at",
+                "all.  In general, it is calm, yet there is always an incessant buzz of",
+                "things going on about. The canyon floor extends east and south.  You can",
+                "climb a rise in the canyon floor to the north."
+            ],
+            "name": "Floor of the Canyon",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9246",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "9218",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "9214",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9217"
         }
     },
-    "uid": "canyon",
-    "area_quest_points": 0,
     "credits": "[09 GR 60] Elemental Canyon",
     "faction_id": "",
+    "name": "Elemental Canyon",
     "vnums": [
         9200,
         9299
     ],
-    "recall_room_id": 5350,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "9216": {
-            "name": "a small snowflake~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "It looks a little blue.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 9216,
             "raw_flags": "AG 0 0 520 0",
-            "race_id": "human",
-            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A frozen snowflake water elemental.\n",
-            "keywords": "oldstyle snowflake snow flake ice elemental~\n"
+            "name": "a small snowflake~\n",
+            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle snowflake snow flake ice elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9217": {
-            "name": "a small rock~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "It seems to be a small living pebble!\n"
             ],
             "raw_flags5": "stand stand none 4",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 9217,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A small rock.\n",
-            "keywords": "oldstyle pebble rock earth stone elemental~\n"
+            "name": "a small rock~\n",
+            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle pebble rock earth stone elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9218": {
-            "name": "a small spark~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "Zipping from place to place at the speed of light is tough work.\n"
             ],
             "raw_flags5": "stand stand none 7",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 9218,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A small spark of electricity fizzles here.\n",
-            "keywords": "oldstyle spark lightning energy elemental~\n"
+            "name": "a small spark~\n",
+            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle spark lightning energy elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9219": {
-            "name": "a small blob of acid~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 8",
             "description": [
                 "The magical blob of acid is a cross between lightning and water.\n"
             ],
             "raw_flags5": "stand stand none 50",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "2 2 2 8",
             "vnum": 9219,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "17 0 2d6+110 4d9+100 1d8+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A small blob of acid aimlessly eats away at the stone.\n",
-            "keywords": "oldstyle acid blob elemental~\n"
+            "name": "a small blob of acid~\n",
+            "raw_flags2": "17 0 2d6+110 4d9+100 1d8+2 none",
+            "keywords": "oldstyle acid blob elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9220": {
-            "name": "a lava beast~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "3 3 3 9",
             "description": [
                 "The magical lava beast is a cross between fire and earth.\n"
             ],
             "raw_flags5": "stand stand none 15",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "3 3 3 9",
             "vnum": 9220,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "15 0 2d7+96 4d9+100 1d7+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A lava beast spews from place to place.\n",
-            "keywords": "oldstyle lava elemental~\n"
+            "name": "a lava beast~\n",
+            "raw_flags2": "15 0 2d7+96 4d9+100 1d7+2 none",
+            "keywords": "oldstyle lava elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9221": {
-            "name": "a mud monster~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 9",
             "description": [
                 "The magical mud monster is a cross between water and earth.\n"
             ],
             "raw_flags5": "stand stand none 20",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "4 4 4 9",
             "vnum": 9221,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "14 0 2d6+85 3d9+100 1d8+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A mud monster slops around.\n",
-            "keywords": "oldstyle mud elemental~\n"
+            "name": "a mud monster~\n",
+            "raw_flags2": "14 0 2d6+85 3d9+100 1d8+1 none",
+            "keywords": "oldstyle mud elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9222": {
-            "name": "an elemental mist~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 9",
             "description": [
                 "The magical mist is a cross between water and air.\n"
             ],
             "raw_flags5": "stand stand none 15",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "4 4 4 9",
             "vnum": 9222,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "12 0 2d7+71 3d9+100 1d7+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The air is magically misty here.\n",
-            "keywords": "oldstyle mist elemental~\n"
+            "name": "an elemental mist~\n",
+            "raw_flags2": "12 0 2d7+71 3d9+100 1d7+1 none",
+            "keywords": "oldstyle mist elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9223": {
-            "name": "a particle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 5 9",
             "description": [
                 "The magical manifestation of energy.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "5 5 5 9",
             "vnum": 9223,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "9 0 2d6+60 2d9+100 1d6+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A sub-atomic particle is too small for you to see.\n",
-            "keywords": "oldstyle particle elemental~\n"
+            "name": "a particle~\n",
+            "raw_flags2": "9 0 2d6+60 2d9+100 1d6+1 none",
+            "keywords": "oldstyle particle elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9224": {
-            "name": "a dust cloud~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 5 9",
             "description": [
                 "The magical dust cloud is a cross between air and earth.\n"
             ],
             "raw_flags5": "stand stand none 5",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "5 5 5 9",
             "vnum": 9224,
             "raw_flags": "AGS DF 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "11 0 2d6+60 3d9+100 1d6+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A dust cloud blowing by makes you sneeze.\n",
-            "keywords": "oldstyle dust elemental~\n"
+            "name": "a dust cloud~\n",
+            "raw_flags2": "11 0 2d6+60 3d9+100 1d6+1 none",
+            "keywords": "oldstyle dust elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9225": {
-            "name": "an eddie~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "9 9 9 10",
             "description": [
                 "The magical eddie current is a manifestation of an air elemental.\n"
             ],
             "raw_flags5": "stand stand none 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "9 9 9 10",
             "vnum": 9225,
             "raw_flags": "AGS DF 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "3 0 2d6+10 1d9+100 1d4+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A small eddie current swirls junk around here.\n",
-            "keywords": "oldstyle eddie elemental~\n"
+            "name": "an eddie~\n",
+            "raw_flags2": "3 0 2d6+10 1d9+100 1d4+0 none",
+            "keywords": "oldstyle eddie elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9226": {
-            "name": "the Blue Flame~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-7 -7 -7 6",
             "description": [
                 "As you look you see what seems to be a face and almost a \n",
                 "humanoid figure somehow trapped in the fire.\n"
             ],
             "raw_flags5": "stand stand none 1250",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-7 -7 -7 6",
             "vnum": 9226,
             "raw_flags": "ABG 0 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "52 0 5d10+600 13d9+100 3d7+7 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Blue Flame burns mysteriously here.\n",
-            "keywords": "oldstyle blue flame~\n"
+            "name": "the Blue Flame~\n",
+            "raw_flags2": "52 0 5d10+600 13d9+100 3d7+7 none",
+            "keywords": "oldstyle blue flame~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9227": {
-            "name": "the Magneto~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-5 -5 -5 7",
             "description": [
                 "A humanoid figure seems to be trapped in the field of the Magneto.\n"
             ],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-5 -5 -5 7",
             "vnum": 9227,
             "raw_flags": "ABG 0 0 -150 0",
-            "race_id": "human",
-            "raw_flags2": "44 0 5d10+400 11d9+100 4d4+6 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Magneto considers zapping you for the heck of it.\n",
-            "keywords": "oldstyle magneto~\n"
+            "name": "the Magneto~\n",
+            "raw_flags2": "44 0 5d10+400 11d9+100 4d4+6 none",
+            "keywords": "oldstyle magneto~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9228": {
-            "name": "the Ice Bandit~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-6 -6 -6 6",
             "description": [
                 "A humanoid figure encased in ice but still apparently alive.\n"
             ],
             "raw_flags5": "stand stand none 1500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-6 -6 -6 6",
             "vnum": 9228,
             "raw_flags": "ABGH P 0 -250 0",
-            "race_id": "human",
-            "raw_flags2": "48 0 5d10+500 12d9+100 2d10+6 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Ice Bandit strikes cold fear in your heart.\n",
-            "keywords": "oldstyle ice bandit~\n"
+            "name": "the Ice Bandit~\n",
+            "raw_flags2": "48 0 5d10+500 12d9+100 2d10+6 none",
+            "keywords": "oldstyle ice bandit~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9229": {
-            "name": "the Rock Monster~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-6 -6 -6 6",
             "description": [
                 "A humanoid figure trapped in stone seems alive.\n"
             ],
             "raw_flags5": "stand stand none 950",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-6 -6 -6 6",
             "vnum": 9229,
             "raw_flags": "ABG 0 0 -310 0",
-            "race_id": "human",
-            "raw_flags2": "45 0 5d10+450 11d9+100 3d6+6 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Rock Monster considers you in stoney silence.\n",
-            "keywords": "oldstyle rock monster~\n"
+            "name": "the Rock Monster~\n",
+            "raw_flags2": "45 0 5d10+450 11d9+100 3d6+6 none",
+            "keywords": "oldstyle rock monster~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9230": {
-            "name": "the Hurricane~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-8 -8 -8 6",
             "description": [
                 "A humanoid figure is trapped in the rushing wind.\n"
             ],
             "raw_flags5": "stand stand none 2054",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-8 -8 -8 6",
             "vnum": 9230,
             "raw_flags": "ABG P 0 -10 0",
-            "race_id": "human",
-            "raw_flags2": "55 0 6d12+703 14d9+100 5d4+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Hurricane rages across the sky.\n",
-            "keywords": "oldstyle hurricane~\n"
+            "name": "the Hurricane~\n",
+            "raw_flags2": "55 0 6d12+703 14d9+100 5d4+8 none",
+            "keywords": "oldstyle hurricane~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9231": {
-            "name": "an elemental magician~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 4",
             "description": [
                 "The elemental magician has come here in search of the fabled\n",
                 "Stone of Surrender which can be used to render opponents senseless.\n"
             ],
             "raw_flags5": "stand stand none 400",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FU 0 0 0",
-            "raw_flags3": "-2 -2 -2 4",
             "vnum": 9231,
             "raw_flags": "ABGR 0 B -50 0",
-            "race_id": "human",
-            "raw_flags2": "33 0 3d9+233 17d9+100 1d12+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FU 0 0 0",
             "room_name": "An elemental magician seeks magical stones for a spell.\n",
-            "keywords": "oldstyle magician~\n"
+            "name": "an elemental magician~\n",
+            "raw_flags2": "33 0 3d9+233 17d9+100 1d12+3 none",
+            "keywords": "oldstyle magician~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9232": {
-            "name": "a rainbow warrior~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-3 -3 -3 6",
             "description": [
                 "The Rainbow Cult has received special powers for their service to \n",
                 "the elemental forces.\n"
             ],
             "raw_flags5": "stand stand none 400",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIKU 0 0 0",
-            "raw_flags3": "-3 -3 -3 6",
             "vnum": 9232,
             "raw_flags": "AGQ 0 0 150 0",
-            "race_id": "human",
-            "raw_flags2": "35 0 3d9+283 18d9+100 2d6+4 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIKU 0 0 0",
             "room_name": "A warrior of the Rainbow Cult swears his loyalty.\n",
-            "keywords": "oldstyle rainbow warrior~\n"
+            "name": "a rainbow warrior~\n",
+            "raw_flags2": "35 0 3d9+283 18d9+100 2d6+4 none",
+            "keywords": "oldstyle rainbow warrior~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9233": {
-            "name": "an illusionist~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 1 6",
             "description": [
                 "He seeks their aid for a powerful new spell of deception.\n",
                 "\n",
                 "<wielded>            The Sword of Illusions\n"
             ],
             "raw_flags5": "stand stand none 95",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FU 0 0 0",
-            "raw_flags3": "1 1 1 6",
             "vnum": 9233,
             "raw_flags": "ABGR 0 0 -50 0",
-            "race_id": "human",
-            "raw_flags2": "24 0 2d8+134 12d9+100 1d8+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FU 0 0 0",
             "room_name": "The illusionist seeks the aid of the elemental forces.\n",
-            "keywords": "oldstyle illusionist~\n"
+            "name": "an illusionist~\n",
+            "raw_flags2": "24 0 2d8+134 12d9+100 1d8+2 none",
+            "keywords": "oldstyle illusionist~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9234": {
-            "name": "an alchemist~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 7",
             "description": [
                 "Rare herbs are rumored to grow only in the canyon.\n"
             ],
             "raw_flags5": "stand stand none 95",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "0 0 0 7",
             "vnum": 9234,
             "raw_flags": "AGS DF 0 -50 0",
-            "race_id": "human",
-            "raw_flags2": "26 0 2d10+150 6d9+100 1d10+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "An alchemist wanders by in search of magical herbs.\n",
-            "keywords": "oldstyle alchemist~\n"
+            "name": "an alchemist~\n",
+            "raw_flags2": "26 0 2d10+150 6d9+100 1d10+3 none",
+            "keywords": "oldstyle alchemist~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9235": {
-            "name": "a baby rainbow dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 7",
             "description": [
                 "It's only a baby by dragon standards.\n"
             ],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-2 -2 -2 7",
             "vnum": 9235,
             "raw_flags": "ABG DF 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "32 0 3d9+233 8d9+100 2d6+4 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A baby rainbow dragon plays among the elements here.\n",
-            "keywords": "oldstyle baby rainbow dragon~\n"
+            "name": "a baby rainbow dragon~\n",
+            "raw_flags2": "32 0 3d9+233 8d9+100 2d6+4 none",
+            "keywords": "oldstyle baby rainbow dragon~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9236": {
-            "name": "a little imp~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 5 9",
             "description": [
                 "The little bugger steals stuff and is generally obnoxious.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "5 5 5 9",
             "vnum": 9236,
             "raw_flags": "ACGH PQ 0 -500 0",
-            "race_id": "human",
-            "raw_flags2": "10 0 2d6+60 2d9+100 1d6+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A little imp runs along being annoying.\n",
-            "keywords": "oldstyle imp~\n"
+            "name": "a little imp~\n",
+            "raw_flags2": "10 0 2d6+60 2d9+100 1d6+1 none",
+            "keywords": "oldstyle imp~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9237": {
-            "name": "a HUGE elemental~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 7",
             "description": [
                 "HUGE, need i say more?\n"
             ],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-4 -4 -4 7",
             "vnum": 9237,
             "raw_flags": "ABG 0 0 30 0",
-            "race_id": "human",
-            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A HUGE elemental form stands here.\n",
-            "keywords": "oldstyle HUGE elemental~\n"
+            "name": "a HUGE elemental~\n",
+            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
+            "keywords": "oldstyle HUGE elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9238": {
-            "name": "the elixir vendor~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 1",
             "description": [
                 "I WOULD NOT suggest you attack me ...!\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FU ABCD 0 0",
-            "raw_flags3": "-9 -9 -9 1",
             "vnum": 9238,
             "raw_flags": "ABEGR 0 0 900 0",
-            "race_id": "human",
-            "raw_flags2": "60 0 6d12+778 30d9+100 5d4+7 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FU ABCD 0 0",
             "room_name": "A vendor is willing to sell you elixirs.\n",
-            "keywords": "oldstyle vendor~\n"
+            "name": "the elixir vendor~\n",
+            "raw_flags2": "60 0 6d12+778 30d9+100 5d4+7 none",
+            "keywords": "oldstyle vendor~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9239": {
-            "name": "The {RC{Bo{Gs{Rm{Bo {YCa{yny{Yon{x Guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-7 -7 -7 -2",
             "description": [
                 "He looks like he's about to have dinner (maybe it's you?).\n"
             ],
             "raw_flags5": "stand stand male 600",
-            "raw_flags6": "AHMV ABCDEFGHIJK huge unknown",
-            "raw_flags4": "ACDIO B CDEHI JPR",
-            "raw_flags3": "-7 -7 -7 -2",
             "vnum": 9239,
             "raw_flags": "ABFQT DF 0 -700 0",
-            "race_id": "giant",
-            "raw_flags2": "44 7 10d10+600 10d10+100 6d4+10 smash",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "ACDIO B CDEHI JPR",
             "room_name": "A Guard of {RC{Bo{Gs{Rm{Bo {YCa{yny{Yon{x stands here, keeping watch.\n",
-            "keywords": "cosmo canyon guard~\n"
+            "name": "The {RC{Bo{Gs{Rm{Bo {YCa{yny{Yon{x Guard~\n",
+            "raw_flags2": "44 7 10d10+600 10d10+100 6d4+10 smash",
+            "keywords": "cosmo canyon guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK huge unknown",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "9201": {
-            "name": "the mountain climber~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 8",
             "description": [
                 "He wants to see what's on the other side of the mountain too.\n"
             ],
             "raw_flags5": "stand stand male 30",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "JN 0 HIJR 0",
-            "raw_flags3": "7 7 7 8",
             "vnum": 9201,
             "raw_flags": "ACGT 0 0 500 0",
-            "race_id": "human",
-            "raw_flags2": "6 1 10d5+15 1d1+99 1d4+1 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "JN 0 HIJR 0",
             "room_name": "A mountain climber is making the same trek that you are.\n",
-            "keywords": "mountain climber mountainclimber~\n"
+            "name": "the mountain climber~\n",
+            "raw_flags2": "6 1 10d5+15 1d1+99 1d4+1 punch",
+            "keywords": "mountain climber mountainclimber~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9202": {
-            "name": "the cyclops~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-7 -7 -7 -2",
             "description": [
                 "He looks like he's about to have dinner (maybe it's you?).\n"
             ],
             "raw_flags5": "stand stand male 600",
-            "raw_flags6": "AHMV ABCDEFGHIJK huge 0",
-            "raw_flags4": "ACDIO AB CDEHI JPR",
-            "raw_flags3": "-7 -7 -7 -2",
             "vnum": 9202,
             "raw_flags": "ABFQT DF 0 -700 0",
-            "race_id": "giant",
-            "raw_flags2": "44 7 10d10+600 10d10+100 6d4+10 smash",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "ACDIO AB CDEHI JPR",
             "room_name": "A hungry cyclops snarls at you!\n",
-            "keywords": "cyclops~\n"
+            "name": "the cyclops~\n",
+            "raw_flags2": "44 7 10d10+600 10d10+100 6d4+10 smash",
+            "keywords": "cyclops~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK huge 0",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "9203": {
-            "name": "a tiny elemental~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "9 9 9 10",
             "description": [
                 "Rather small for an elemental form, looks like a reject.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "9 9 9 10",
             "vnum": 9203,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "1 0 2d6+10 0d9+100 1d4+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A tiny elemental form wanders about.\n",
-            "keywords": "oldstyle tiny elemental~\n"
+            "name": "a tiny elemental~\n",
+            "raw_flags2": "1 0 2d6+10 0d9+100 1d4+0 none",
+            "keywords": "oldstyle tiny elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9204": {
-            "name": "the elemental guardian~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 7",
             "description": [
                 "You can't tell which kind of elemental it is, maybe it's a bit o' all of them?\n"
             ],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-4 -4 -4 7",
             "vnum": 9204,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The elemental guardian of the canyon.\n",
-            "keywords": "oldstyle elemental guardian~\n"
+            "name": "the elemental guardian~\n",
+            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
+            "keywords": "oldstyle elemental guardian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9205": {
-            "name": "a small elemental~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 5 9",
             "description": [
                 "A small elemental, a resident of the canyon.\n"
             ],
             "raw_flags5": "stand stand none 12",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "5 5 5 9",
             "vnum": 9205,
             "raw_flags": "ABG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "10 0 2d6+60 2d9+100 1d6+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A small, rather non-descript elemental.\n",
-            "keywords": "oldstyle small elemental~\n"
+            "name": "a small elemental~\n",
+            "raw_flags2": "10 0 2d6+60 2d9+100 1d6+1 none",
+            "keywords": "oldstyle small elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9206": {
-            "name": "a medium elemental~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 1 8",
             "description": [
                 "A medium elemental, a resident of the canyon.\n"
             ],
             "raw_flags5": "stand stand none 37",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "1 1 1 8",
             "vnum": 9206,
             "raw_flags": "ABG 0 0 10 0",
-            "race_id": "human",
-            "raw_flags2": "20 0 2d7+121 5d9+100 2d4+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A medium-sized elemental.\n",
-            "keywords": "oldstyle medium elemental~\n"
+            "name": "a medium elemental~\n",
+            "raw_flags2": "20 0 2d7+121 5d9+100 2d4+2 none",
+            "keywords": "oldstyle medium elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9207": {
-            "name": "a large elemental~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 7",
             "description": [],
             "raw_flags5": "stand stand none 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-2 -2 -2 7",
             "vnum": 9207,
             "raw_flags": "ABG 0 0 20 0",
-            "race_id": "human",
-            "raw_flags2": "30 0 3d9+208 7d9+100 2d6+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A large elemental.\n",
-            "keywords": "oldstyle large elemental~\n"
+            "name": "a large elemental~\n",
+            "raw_flags2": "30 0 3d9+208 7d9+100 2d6+3 none",
+            "keywords": "oldstyle large elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9208": {
-            "name": "the Earth Ruler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 4",
             "description": [
                 "He looks as old as the earth itself.  He seems to know all the \n",
                 "secrets and knowledge of the Earth.  You can't really tell where \n",
                 "he begins and the rock wall ends.\n"
             ],
             "raw_flags5": "stand stand none 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIKU 0 0 0",
-            "raw_flags3": "-9 -9 -9 4",
             "vnum": 9208,
             "raw_flags": "ABQ 0 H 0 0",
-            "race_id": "human",
-            "raw_flags2": "60 0 6d12+853 30d9+100 5d4+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIKU 0 0 0",
             "room_name": "The Ruler of the earth elementals.\n",
-            "keywords": "oldstyle earth elemental ruler~\n"
+            "name": "the Earth Ruler~\n",
+            "raw_flags2": "60 0 6d12+853 30d9+100 5d4+8 none",
+            "keywords": "oldstyle earth elemental ruler~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9209": {
-            "name": "the Fire Ruler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 6",
             "description": [
                 "As you look at him he seems to blend in with the fire in his throne.\n"
             ],
             "raw_flags5": "stand stand none 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-9 -9 -9 6",
             "vnum": 9209,
             "raw_flags": "AB 0 H 0 0",
-            "race_id": "human",
-            "raw_flags2": "59 0 6d12+853 15d9+100 4d6+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Ruler of the fire elementals.\n",
-            "keywords": "oldstyle fire elemental ruler~\n"
+            "name": "the Fire Ruler~\n",
+            "raw_flags2": "59 0 6d12+853 15d9+100 4d6+8 none",
+            "keywords": "oldstyle fire elemental ruler~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9210": {
-            "name": "The Air Ruler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 6",
             "description": [
                 "As you peer at him you seem to be looking at the sky itself.\n"
             ],
             "raw_flags5": "stand stand none 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-9 -9 -9 6",
             "vnum": 9210,
             "raw_flags": "AB 0 H 0 0",
-            "race_id": "human",
-            "raw_flags2": "59 0 6d12+853 15d9+100 4d6+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Ruler of the air elementals.\n",
-            "keywords": "oldstyle air elemental ruler~\n"
+            "name": "The Air Ruler~\n",
+            "raw_flags2": "59 0 6d12+853 15d9+100 4d6+8 none",
+            "keywords": "oldstyle air elemental ruler~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9211": {
-            "name": "The Lightning Ruler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 6",
             "description": [
                 "As you examine him there is a blinding flash of light and a deafening boom!\n",
                 "You rub your eyes and look and the ruler is there grinning at you.\n"
             ],
             "raw_flags5": "stand stand none 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-9 -9 -9 6",
             "vnum": 9211,
             "raw_flags": "AB 0 H 0 0",
-            "race_id": "human",
-            "raw_flags2": "60 0 6d12+853 15d9+100 4d6+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Ruler of the lightning elementals.\n",
-            "keywords": "oldstyle lightning elemental ruler~\n"
+            "name": "The Lightning Ruler~\n",
+            "raw_flags2": "60 0 6d12+853 15d9+100 4d6+8 none",
+            "keywords": "oldstyle lightning elemental ruler~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9212": {
-            "name": "The Water Ruler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 6",
             "description": [
                 "As you look at him he changes to mist, which swirls around you.  Just\n",
                 "as you get scared, it reforms in elemental form.\n"
             ],
             "raw_flags5": "stand stand none 5000",
-            "raw_flags6": "AGW ACDEFHKP medium 0",
-            "raw_flags4": "EFNR 0 R 0",
-            "raw_flags3": "-9 -9 -9 6",
             "vnum": 9212,
             "raw_flags": "AB Tb H 0 0",
-            "race_id": "water fowl",
-            "raw_flags2": "60 0 6d12+853 15d9+100 4d6+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 R 0",
             "room_name": "The Ruler of the water elementals.\n",
-            "keywords": "oldstyle water elemental ruler~\n"
+            "name": "The Water Ruler~\n",
+            "raw_flags2": "60 0 6d12+853 15d9+100 4d6+8 none",
+            "keywords": "oldstyle water elemental ruler~\n",
+            "subroutines": [],
+            "raw_flags6": "AGW ACDEFHKP medium 0",
+            "race_id": "water fowl",
+            "t_flags": "T ~"
         },
         "9214": {
-            "name": "a puddle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "3 3 3 9",
             "description": [
                 "It trickles along the ground and gets your feet wet.\n"
             ],
             "raw_flags5": "stand stand none 11",
-            "raw_flags6": "AGW ACDEFHKP medium 0",
-            "raw_flags4": "EFNR 0 R 0",
-            "raw_flags3": "3 3 3 9",
             "vnum": 9214,
             "raw_flags": "AG Tb 0 0 0",
-            "race_id": "water fowl",
-            "raw_flags2": "16 0 2d7+96 4d9+100 1d7+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 R 0",
             "room_name": "A small puddle of water elemental.\n",
-            "keywords": "oldstyle water puddle elemental~\n"
+            "name": "a puddle~\n",
+            "raw_flags2": "16 0 2d7+96 4d9+100 1d7+2 none",
+            "keywords": "oldstyle water puddle elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AGW ACDEFHKP medium 0",
+            "race_id": "water fowl",
+            "t_flags": "T ~"
         },
         "9215": {
-            "name": "a flame~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "It smolders along the grass aimlessly.\n"
             ],
             "raw_flags5": "stand stand none 7",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 9215,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "7 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A small flickering flame elemental.\n",
-            "keywords": "oldstyle fire flame elemental~\n"
+            "name": "a flame~\n",
+            "raw_flags2": "7 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle fire flame elemental~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

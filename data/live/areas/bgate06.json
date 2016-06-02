@@ -1,147 +1,630 @@
 {
-    "name": "Baldur's Gate Duchal Palace",
+    "security": 10,
+    "recall_room_id": 55947,
     "id": "bgate06",
-    "subroutines": [],
+    "objects": {},
+    "uid": "bgate06",
     "rooms": {
-        "56078": {
+        "56094": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is one bedroom belonging to the royal family.  It is lavishly",
+                "decorated with tapestries, paintings and mosiacs.  "
+            ],
+            "name": "Bedroom",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56093",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56094"
+        },
+        "56095": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is one bedroom belonging to the royal family.  It is lavishly",
+                "decorated with tapestries, paintings and mosiacs.  "
+            ],
+            "name": "Bedroom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56093",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56095"
+        },
+        "56076": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the dining hall.  There are very large and long tables here",
+                "with a lot of chairs as well.  At one table there are two rather",
+                "ornate chairs, one would assume that those are reserved for royalty. ",
+                "Suprisingly, there is very little food scraps laying about and no",
+                "rodents at all.  On the eastern wall there is a door.  "
+            ],
+            "name": "Dining Hall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56077",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56075",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56076"
+        },
+        "56070": {
+            "extras": {},
+            "flags_raw": "0 4 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "Standing at the gateway causes one to stare in awe.  There are",
+                "pillars on either side standing tall and intricately carved with",
+                "designs that just boggle the mind with their sheer beauty and",
+                "perfection.  Not to mention that every few steps there is a miniature",
+                "mosaic on the floor. To the north is the palace itself."
+            ],
+            "name": "Duchal Palace Gateway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56071",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "39254",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56070"
+        },
+        "56093": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The hallway is very ornate and finely designed.  The walls are",
+                "covered with mosiacs and the ceiling has tapestries hanging from it. ",
+                "The walls have drawings carved into them with such detail they look",
+                "real.  The hallway extends to the west, there is a door to the north",
+                "and south and there is a stairway far to the east.  "
+            ],
             "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56094",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56092",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56096",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56095",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56093"
+        },
+        "56071": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The palace itself is filled with wonderous carvings all over the",
+                "columns and walls.  The detail is so intricate it is amazing.  The",
+                "ceiling has a different mosaic every few feet as does the floor.  The",
+                "guards are standing at their posts ready to take action at the",
+                "slightest hint of trouble.  "
+            ],
+            "name": "Duchal Palace",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56074",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56073",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56072",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56070",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56071"
+        },
+        "56086": {
+            "extras": {},
+            "flags_raw": "0 8 0 18",
+            "flags2_raw": "0",
+            "description": [
+                "There is a stairway leading up to the palace.  To the east there is",
+                "a foul stench.  One could only assume that it would be from the",
+                "excrement of the prisoners.  "
+            ],
+            "name": "Stairway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56087",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "56080",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56086"
+        },
+        "56078": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is a rather large hallway.  The ceiling extends at least five",
                 "hundred feet up, and the pillars themselves are simply amazing.  The",
                 "carvings on them are so intricately detailed and so well-done, whoever",
                 "did them had to have the eyes of a hawk.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56078",
+            "name": "Hallway",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "56079",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56079"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "56075",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56075"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "56081": {
-            "name": "Stairway",
-            "description": [
-                "There is a set of stairs here leading up and a doorway to the west.  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56081",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56079"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56091"
-                }
-            },
-            "extras": {}
+            "vnum": "56078"
         },
-        "56089": {
-            "name": "A Cell",
+        "56090": {
+            "extras": {},
+            "flags_raw": "0 8 0 18",
+            "flags2_raw": "0",
             "description": [
                 "This is a very small cell.  Not even long enough for someone to",
                 "sleep comfortably, unless they were a small child.  "
             ],
-            "flags_raw": "0 8 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56089",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56087"
-                }
-            },
-            "extras": {}
-        },
-        "56082": {
-            "name": "Hallway",
-            "description": [
-                "The hallway has gotten only slightly more elaborate as it goes on. ",
-                "There are a few more guards walking and standing about doing their",
-                "guard type duties.  To the south and the north are the ways the hall",
-                "goes.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56082",
+            "name": "A Cell",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "56087",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56083"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56079"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "56086": {
-            "name": "Stairway",
-            "description": [
-                "There is a stairway leading up to the palace.  To the east there is",
-                "a foul stench.  One could only assume that it would be from the",
-                "excrement of the prisoners.  "
-            ],
-            "flags_raw": "0 8 0 18",
             "wanted_area_vnum": "",
+            "vnum": "56090"
+        },
+        "56089": {
+            "extras": {},
+            "flags_raw": "0 8 0 18",
             "flags2_raw": "0",
-            "vnum": "56086",
+            "description": [
+                "This is a very small cell.  Not even long enough for someone to",
+                "sleep comfortably, unless they were a small child.  "
+            ],
+            "name": "A Cell",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56087",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56089"
+        },
+        "56096": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is one bedroom belonging to the royal family.  It is lavishly",
+                "decorated with tapestries, paintings and mosiacs.  "
+            ],
+            "name": "Bedroom",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "56093",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56087"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56096"
+        },
+        "56081": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "There is a set of stairs here leading up and a doorway to the west.  "
+            ],
+            "name": "Stairway",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "56091",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56079",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56081"
+        },
+        "56074": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is a rather large hallway.  The ceiling extends at least five",
+                "hundred feet up, and the pillars themselves are simply amazing.  The",
+                "carvings on them are so intricately detailed and so well-done, whoever",
+                "did them had to have the eyes of a hawk.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56075",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56071",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56074"
+        },
+        "56079": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The hallway does not get less elaborate but it does get a little",
+                "smaller.  The guards do not seem any less serious about their duties. ",
+                "There is a door to the west and there are stairs to the east.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56082",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56081",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56080",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56078",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56079"
+        },
+        "56098": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the tower from which the guards can wath over the",
+                "entranceway and warn the others down below if need be.  "
+            ],
+            "name": "Tower",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "56072",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56098"
+        },
+        "56087": {
+            "extras": {},
+            "flags_raw": "0 8 0 18",
+            "flags2_raw": "0",
+            "description": [
+                "The dungeon is very disgusting and full of filth.  A few gnawed",
+                "bones lay about as if they were dragged by a rodent of some kind.  It",
+                "smells really gross and is very nauseating.  How anyone would be able",
+                "to breath this foul air and not vomit is a mystery in itself.  There",
+                "is a stairway to the west and cells are to the west, east and north.  "
+            ],
+            "name": "Dungeon",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56089",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56088",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56086",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56090",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56087"
+        },
+        "56072": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is a room where the guards are either cleaning or inspecting",
+                "their weapons and/or armor.  They are ready to spring to action if the",
+                "need arises.  Through the window you can see the Gateway.  It would",
+                "seem that is to give them notice if something happens.  There is a",
+                "ladder going up.  "
+            ],
+            "name": "Guard Room",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56071",
+                    "description": [
+                        ""
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "56098",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56080"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "56072"
+        },
+        "56091": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "There is a set of stairs here leading down and a hallway to the",
+                "west.  "
+            ],
+            "name": "Stairwell",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56092",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "56081",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56091"
+        },
+        "56088": {
+            "extras": {},
+            "flags_raw": "0 8 0 18",
+            "flags2_raw": "0",
+            "description": [
+                "This is a very small cell.  Not even long enough for someone to",
+                "sleep comfortably, unless they were a small child.  "
+            ],
+            "name": "A Cell",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56087",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56088"
+        },
+        "56077": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The royal kitchen is a royal mess.  Food is strewn about and flour",
+                "and sugar is all over the floor.  It would appear the either the cook",
+                "is messy or just in a rush.  It looks like it was done recently, so",
+                "maybe there wasn't time to get it cleaned up.  "
+            ],
+            "name": "Kitchen",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56076",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56077"
+        },
+        "56092": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The hallway is very ornate and finely designed.  The walls are",
+                "covered with mosiacs and the ceiling has tapestries hanging from it. ",
+                "The walls have drawings carved into them with such detail they look",
+                "real.  The hallway extends to the west and there is a stairway to the",
+                "east.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56091",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56093",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56092"
         },
         "56083": {
-            "name": "Before the Throne Room",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Here stands a great entrance way.  The doors appear to be made out",
                 "of solid silver, with highly detailed and intricate carvings no less",
@@ -150,352 +633,82 @@
                 "can only be assumed that this would be the way to the throne to the",
                 "royal family.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56083",
+            "name": "Before the Throne Room",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "56084",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56084"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "56082",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56082"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "56096": {
-            "name": "Bedroom",
-            "description": [
-                "This is one bedroom belonging to the royal family.  It is lavishly",
-                "decorated with tapestries, paintings and mosiacs.  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56096",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56093"
-                }
-            },
-            "extras": {}
-        },
-        "56087": {
-            "name": "Dungeon",
-            "description": [
-                "The dungeon is very disgusting and full of filth.  A few gnawed",
-                "bones lay about as if they were dragged by a rodent of some kind.  It",
-                "smells really gross and is very nauseating.  How anyone would be able",
-                "to breath this foul air and not vomit is a mystery in itself.  There",
-                "is a stairway to the west and cells are to the west, east and north.  "
-            ],
-            "flags_raw": "0 8 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56087",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56090"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56089"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56086"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56088"
-                }
-            },
-            "extras": {}
-        },
-        "56098": {
-            "name": "Tower",
-            "description": [
-                "This is the tower from which the guards can wath over the",
-                "entranceway and warn the others down below if need be.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56098",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56072"
-                }
-            },
-            "extras": {}
-        },
-        "56095": {
-            "name": "Bedroom",
-            "description": [
-                "This is one bedroom belonging to the royal family.  It is lavishly",
-                "decorated with tapestries, paintings and mosiacs.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56095",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56093"
-                }
-            },
-            "extras": {}
-        },
-        "56090": {
-            "name": "A Cell",
-            "description": [
-                "This is a very small cell.  Not even long enough for someone to",
-                "sleep comfortably, unless they were a small child.  "
-            ],
-            "flags_raw": "0 8 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56090",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56087"
-                }
-            },
-            "extras": {}
-        },
-        "56088": {
-            "name": "A Cell",
-            "description": [
-                "This is a very small cell.  Not even long enough for someone to",
-                "sleep comfortably, unless they were a small child.  "
-            ],
-            "flags_raw": "0 8 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56088",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56087"
-                }
-            },
-            "extras": {}
-        },
-        "56092": {
-            "name": "Hallway",
-            "description": [
-                "The hallway is very ornate and finely designed.  The walls are",
-                "covered with mosiacs and the ceiling has tapestries hanging from it. ",
-                "The walls have drawings carved into them with such detail they look",
-                "real.  The hallway extends to the west and there is a stairway to the",
-                "east.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56092",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56093"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56091"
-                }
-            },
-            "extras": {}
-        },
-        "56074": {
-            "name": "Hallway",
-            "description": [
-                "This is a rather large hallway.  The ceiling extends at least five",
-                "hundred feet up, and the pillars themselves are simply amazing.  The",
-                "carvings on them are so intricately detailed and so well-done, whoever",
-                "did them had to have the eyes of a hawk.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56074",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56075"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56071"
-                }
-            },
-            "extras": {}
-        },
-        "56073": {
-            "name": "Guard Room",
-            "description": [
-                "This is a room where the guards are either cleaning or inspecting",
-                "their weapons and/or armor.  They are ready to spring to action if the",
-                "need arises.  Through the window you can see the Gateway.  It would",
-                "seem that is to give them notice if something happens.  There is a",
-                "ladder leading up.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56073",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56097"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56071"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56099"
-                }
-            },
-            "extras": {}
-        },
-        "56080": {
-            "name": "Stairway",
-            "description": [
-                "Stairway There is a set of stairs here leading down.  A faint",
-                "moaning can be heard and there is an odor that is not pleasant to",
-                "experience in the air.  There is a doorway to the east leading into",
-                "the hallway.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56080",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56079"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56086"
-                }
-            },
-            "extras": {}
-        },
-        "56085": {
-            "name": "Secret Room",
-            "description": [
-                "This is the secret room for the royal family to flee to were any",
-                "trouble to arise.  The only way out is the way in.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56085",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56084"
-                }
-            },
-            "extras": {}
+            "vnum": "56083"
         },
         "56097": {
-            "name": "Armoury",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Weapons and armor line the walls here.  This is where the guards",
                 "store their weaponry when they are not on patrol or something to that",
                 "extent.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56097",
+            "name": "Armoury",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "56073",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56073"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "56097"
+        },
+        "56082": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The hallway has gotten only slightly more elaborate as it goes on. ",
+                "There are a few more guards walking and standing about doing their",
+                "guard type duties.  To the south and the north are the ways the hall",
+                "goes.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56083",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56079",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56082"
         },
         "56075": {
-            "name": "Hallway",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is a rather large hallway.  The ceiling extends at least five",
                 "hundred feet up, and the pillars themselves are simply amazing.  The",
@@ -503,226 +716,37 @@
                 "did them had to have the eyes of a hawk.  To the east there is a",
                 "doorway, and the aroma of food.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56075",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56074"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56078"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56076"
-                }
-            },
-            "extras": {}
-        },
-        "56076": {
-            "name": "Dining Hall",
-            "description": [
-                "This is the dining hall.  There are very large and long tables here",
-                "with a lot of chairs as well.  At one table there are two rather",
-                "ornate chairs, one would assume that those are reserved for royalty. ",
-                "Suprisingly, there is very little food scraps laying about and no",
-                "rodents at all.  On the eastern wall there is a door.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56076",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56075"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56077"
-                }
-            },
-            "extras": {}
-        },
-        "56091": {
-            "name": "Stairwell",
-            "description": [
-                "There is a set of stairs here leading down and a hallway to the",
-                "west.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56091",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56092"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56081"
-                }
-            },
-            "extras": {}
-        },
-        "56077": {
-            "name": "Kitchen",
-            "description": [
-                "The royal kitchen is a royal mess.  Food is strewn about and flour",
-                "and sugar is all over the floor.  It would appear the either the cook",
-                "is messy or just in a rush.  It looks like it was done recently, so",
-                "maybe there wasn't time to get it cleaned up.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56077",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56076"
-                }
-            },
-            "extras": {}
-        },
-        "56093": {
             "name": "Hallway",
-            "description": [
-                "The hallway is very ornate and finely designed.  The walls are",
-                "covered with mosiacs and the ceiling has tapestries hanging from it. ",
-                "The walls have drawings carved into them with such detail they look",
-                "real.  The hallway extends to the west, there is a door to the north",
-                "and south and there is a stairway far to the east.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56093",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56095"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56094"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56096"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56092"
-                }
-            },
-            "extras": {}
-        },
-        "56072": {
-            "name": "Guard Room",
-            "description": [
-                "This is a room where the guards are either cleaning or inspecting",
-                "their weapons and/or armor.  They are ready to spring to action if the",
-                "need arises.  Through the window you can see the Gateway.  It would",
-                "seem that is to give them notice if something happens.  There is a",
-                "ladder going up.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56072",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56071"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56098"
-                }
-            },
-            "extras": {}
-        },
-        "56070": {
-            "name": "Duchal Palace Gateway",
-            "description": [
-                "Standing at the gateway causes one to stare in awe.  There are",
-                "pillars on either side standing tall and intricately carved with",
-                "designs that just boggle the mind with their sheer beauty and",
-                "perfection.  Not to mention that every few steps there is a miniature",
-                "mosaic on the floor. To the north is the palace itself."
-            ],
-            "flags_raw": "0 4 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56070",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "56078",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56071"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56076",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "56074",
                     "description": [
                         ""
-                    ],
-                    "room_id": "39254"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "56075"
         },
         "56084": {
-            "name": "Throne Room",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Here is the great throne room of the royal family.  Against the",
                 "northern wall there sits the throne for the King and the Queen, and",
@@ -732,316 +756,292 @@
                 "attempt to be made on someone's life, it would be difficult indeed. ",
                 "South is the only way out of the throne room.  "
             ],
+            "name": "Throne Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56085",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56083",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56084"
+        },
+        "56085": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "56084",
+            "description": [
+                "This is the secret room for the royal family to flee to were any",
+                "trouble to arise.  The only way out is the way in.  "
+            ],
+            "name": "Secret Room",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56084",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56085"
+        },
+        "56073": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is a room where the guards are either cleaning or inspecting",
+                "their weapons and/or armor.  They are ready to spring to action if the",
+                "need arises.  Through the window you can see the Gateway.  It would",
+                "seem that is to give them notice if something happens.  There is a",
+                "ladder leading up.  "
+            ],
+            "name": "Guard Room",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "56097",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56085"
+                    ]
                 },
-                "south": {
+                "up": {
                     "flags_raw": "0",
+                    "room_id": "56099",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56083"
-                }
-            },
-            "extras": {}
-        },
-        "56094": {
-            "name": "Bedroom",
-            "description": [
-                "This is one bedroom belonging to the royal family.  It is lavishly",
-                "decorated with tapestries, paintings and mosiacs.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56094",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56093"
-                }
-            },
-            "extras": {}
-        },
-        "56079": {
-            "name": "Hallway",
-            "description": [
-                "The hallway does not get less elaborate but it does get a little",
-                "smaller.  The guards do not seem any less serious about their duties. ",
-                "There is a door to the west and there are stairs to the east.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56079",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56078"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56082"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "56071",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56080"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56081"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "56071": {
-            "name": "Duchal Palace",
-            "description": [
-                "The palace itself is filled with wonderous carvings all over the",
-                "columns and walls.  The detail is so intricate it is amazing.  The",
-                "ceiling has a different mosaic every few feet as does the floor.  The",
-                "guards are standing at their posts ready to take action at the",
-                "slightest hint of trouble.  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "56073"
+        },
+        "56080": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "56071",
+            "description": [
+                "Stairway There is a set of stairs here leading down.  A faint",
+                "moaning can be heard and there is an odor that is not pleasant to",
+                "experience in the air.  There is a doorway to the east leading into",
+                "the hallway.  "
+            ],
+            "name": "Stairway",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56070"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56074"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56072"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "56079",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56073"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "56086",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "56080"
         }
     },
-    "uid": "bgate06",
-    "area_quest_points": 0,
     "credits": "[ Public ] Baldur's Gate Duchal Palace",
     "faction_id": "",
+    "name": "Baldur's Gate Duchal Palace",
     "vnums": [
         56070,
         56099
     ],
-    "recall_room_id": 55947,
-    "objects": {},
-    "security": 10,
+    "realm_id": 1,
+    "subroutines": [],
     "mobiles": {
         "56084": {
-            "name": "The King~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-75 -75 -75 -75",
             "description": [
                 "The king.  Dressed in regal robes, he carries himself like he is\n",
                 "better than everyone else.  \n"
             ],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFGHK B AE IKQ",
-            "raw_flags3": "-75 -75 -75 -75",
             "vnum": 56084,
             "raw_flags": "ABEHT Vc R 750 0",
-            "race_id": "human",
-            "raw_flags2": "101 50 60d75+750 64d71+620 12d12+40 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFGHK B AE IKQ",
             "room_name": "The King sits here on his throne.\n",
-            "keywords": "king~\n"
+            "name": "The King~\n",
+            "raw_flags2": "101 50 60d75+750 64d71+620 12d12+40 punch",
+            "keywords": "king~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "56070": {
-            "name": "a rabbit~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGV ACDEFHJK medium unknown",
-            "raw_flags4": "FH 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 56070,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "rabbit",
-            "raw_flags2": "0 0 1d1+5 1d1+0 1d1+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FH 0 0 0",
             "room_name": "A bunny hops here and there.\n",
-            "keywords": "bunny rabbit~\n"
+            "name": "a rabbit~\n",
+            "raw_flags2": "0 0 1d1+5 1d1+0 1d1+2 none",
+            "keywords": "bunny rabbit~\n",
+            "subroutines": [],
+            "raw_flags6": "AGV ACDEFHJK medium unknown",
+            "race_id": "rabbit",
+            "t_flags": "T ~"
         },
         "56071": {
-            "name": "A Guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -25",
             "description": [
                 "A simple looking male elf standing guard.  \n"
             ],
             "raw_flags5": "stand stand male 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "FHK G ABG E",
-            "raw_flags3": "-30 -30 -30 -25",
             "vnum": 56071,
             "raw_flags": "ABET FJVc HN 500 0",
-            "race_id": "elf",
-            "raw_flags2": "90 39 31d31+3848 31d31+3848 5d17+36 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FHK G ABG E",
             "room_name": "A guard stands vigilant in his duty.\n",
-            "keywords": "duchal palace guard~\n"
+            "name": "A Guard~\n",
+            "raw_flags2": "90 39 31d31+3848 31d31+3848 5d17+36 none",
+            "keywords": "duchal palace guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "56089": {
-            "name": "A Prisoner~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "This guy looks about as healthy as a piece of meat that has been\n",
                 "sitting out in the sun for a month.  His ribs are visible and his\n",
                 "heartbeat can be seen through his chest.  \n"
             ],
             "raw_flags5": "stand rest male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 56089,
             "raw_flags": "A KMXYd 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "20 0 10d10+100 1d1+1 10d10+140 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 0 0 0",
             "room_name": "A wretched soul rots here.\n",
-            "keywords": "soul prisoner~\n"
+            "name": "A Prisoner~\n",
+            "raw_flags2": "20 0 10d10+100 1d1+1 10d10+140 punch",
+            "keywords": "soul prisoner~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "56090": {
-            "name": "A prisoner~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -30",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "DFHIK AB EI LQ",
-            "raw_flags3": "-30 -30 -30 -30",
             "vnum": 56090,
             "raw_flags": "ABCF Lc 0 -750 0",
-            "race_id": "human",
-            "raw_flags2": "98 50 10d10+10 10d10+10 8d8+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DFHIK AB EI LQ",
             "room_name": "A prisoner waits here for chance to escape.\n",
-            "keywords": "bandit prisoner~\n"
+            "name": "A prisoner~\n",
+            "raw_flags2": "98 50 10d10+10 10d10+10 8d8+10 none",
+            "keywords": "bandit prisoner~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "56087": {
-            "name": "a prison guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -50 -50 -50",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFHIK AB FGM HIL",
-            "raw_flags3": "-50 -50 -50 -50",
             "vnum": 56087,
             "raw_flags": "A V HNO 0 0",
-            "race_id": "human",
-            "raw_flags2": "102 75 10d10+850 10d10+20 9d9+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFHIK AB FGM HIL",
             "room_name": "A prison guard is keeping watch.\n",
-            "keywords": "guard~\n"
+            "name": "a prison guard~\n",
+            "raw_flags2": "102 75 10d10+850 10d10+20 9d9+10 none",
+            "keywords": "guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "56077": {
-            "name": "The Royal Cook~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-25 -25 -36 -25",
             "description": [],
             "raw_flags5": "stand stand female 40",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "IK B A KLQ",
-            "raw_flags3": "-25 -25 -36 -25",
             "vnum": 56077,
             "raw_flags": "AB c R 500 0",
-            "race_id": "human",
-            "raw_flags2": "100 30 10d100+500 50d50+500 10d10+111 typo",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "IK B A KLQ",
             "room_name": "The cook scrambles around working.\n",
-            "keywords": "cook chef~\n"
+            "name": "The Royal Cook~\n",
+            "raw_flags2": "100 30 10d100+500 50d50+500 10d10+111 typo",
+            "keywords": "cook chef~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "56078": {
-            "name": "A Guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -25",
             "description": [
                 "The guard looks to be very suspicious of everyone.  \n"
             ],
             "raw_flags5": "stand stand male 200",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CFHK ABE BG GZ",
-            "raw_flags3": "-30 -30 -30 -25",
             "vnum": 56078,
             "raw_flags": "ABET FJVc HN 500 0",
-            "race_id": "elf",
-            "raw_flags2": "90 39 30d30+3748 32d32+3700 4d16+38 pound",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CFHK ABE BG GZ",
             "room_name": "A guard warily patrols the palace.\n",
-            "keywords": "guard~\n"
+            "name": "A Guard~\n",
+            "raw_flags2": "90 39 30d30+3748 32d32+3700 4d16+38 pound",
+            "keywords": "guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "56095": {
-            "name": "The Queen~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -50 -50 -50",
             "description": [
                 "The queen looks at everyone as if they were a piece of meat.  \n"
             ],
             "raw_flags5": "stand stand female 2500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CEFGHIJKN AB 0 IL",
-            "raw_flags3": "-50 -50 -50 -50",
             "vnum": 56095,
             "raw_flags": "AB JV R -250 0",
-            "race_id": "human",
-            "raw_flags2": "100 50 45d45+500 50d50+600 10d10+15 wrath",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CEFGHIJKN AB 0 IL",
             "room_name": "The queen is eyeing the guard.\n",
-            "keywords": "queen~\n"
+            "name": "The Queen~\n",
+            "raw_flags2": "100 50 45d45+500 50d50+600 10d10+15 wrath",
+            "keywords": "queen~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 1
+    "area_quest_points": 0
 }

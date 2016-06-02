@@ -1,217 +1,165 @@
 {
-    "name": "Limbo",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "limbo",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "limbo",
     "rooms": {
-        "2": {
-            "name": "Limbo",
-            "description": [
-                "You are floating in a formless void, detached from all sensation of physical",
-                "matter, surrounded by swirling glowing light, which fades into the relative",
-                "darkness around you without any trace of edges or shadow.",
-                "   There is a \"No Tipping\" notice pinned to the darkness."
-            ],
-            "flags_raw": "0 1141384204 8192 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2",
-            "exits": {},
-            "extras": {}
-        },
-        "38": {
-            "name": "",
-            "description": [],
+        "6": {
+            "extras": {},
             "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38",
-            "exits": {},
-            "extras": {}
-        },
-        "35": {
-            "name": "The Hallway Of Immortals",
             "description": [
-                "[Cyric: NORTH] [Talos: WEST] [Teron: EAST]"
+                "You stand in a large room.  A glowing pool sits in the middle of the",
+                "room.  The Rest Of The Room Is empty.  ",
+                "==IF YOU ARE IN THIS ROOM AN IMPLEMENTOR HAS LOADED YOUR CHARACTER=="
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "35",
+            "name": "Pool Room",
             "exits": {
-                "south": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "3014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "6"
         },
         "12": {
-            "name": "Level B2 On \"The Highwind\"",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are on the bottom level of \"The High Wind\".  Here is kind of a cargo",
                 "area.  To the west you see an iron door with the title \"Chocobo Stable\".  To",
                 "the east you see another iron door with the title \"Operation\", which is like",
                 "a meeting room/dining room.  You see a flight of stairs going up."
             ],
-            "flags_raw": "0 8 0 0",
+            "name": "Level B2 On \"The Highwind\"",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "13",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "11",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "14",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "15",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "12"
+        },
+        "5": {
+            "extras": {},
+            "flags_raw": "0 516 0 0",
             "flags2_raw": "0",
-            "vnum": "12",
+            "description": [],
+            "name": "Room of WebOutPut!",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "5"
+        },
+        "38": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38"
+        },
+        "16": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a large bedroom aboard the ship.  Round port hole windows",
+                "look out to the east overlooking the skies and any other sight in here.  You",
+                "see a large feather bed, with a table next to it against one wall.  A desk",
+                "sits on the western wall and a map hangs from above it.  "
+            ],
+            "name": "Cabin Chambers",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "13",
                     "description": [
                         ""
-                    ],
-                    "room_id": "15"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "14"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "16"
         },
-        "43": {
-            "name": "{&T{*he {&B{*atcave {c[{BIm{bm{*or{bt{Bal {RLo{run{Rge{c]{x",
-            "description": [
-                "{*Welcome to the immortal{& lounge, the p{*lace where immortals come for",
-                "{*their breaks.  The entire{& room is a lar{*ge cavern, which looks like",
-                "{*something from a comic bo{&ok.  Besides t{*he massive cavern this room is,",
-                "{*there is just some furnit{&ure in it.  So{*me couches and chairs make a",
-                "{*circle on a small rug in {&the middle of {*the room.  A coffee table sits",
-                "{*in the middle with magazi{&nes on it.  Ne{*xt to the door you see a",
-                "{*fridge, food and soda mac{&hine.  On the {*other side, a pinball game. ",
-                "{*Next to the soda machine {&is a small tab{*le with a 10 cup coffee maker",
-                "{*on it.{x"
-            ],
+        "30": {
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "43",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "69"
-                }
-            },
-            "extras": {}
-        },
-        "1": {
-            "name": "Limbo",
             "description": [
-                "You are floating in nothing."
+                "You walk along the Halls of Wisdom.  To either side of you, a large",
+                "door stands, leading into another, secret room.  To the north, you see",
+                "ROOM [22], The De-Clanning Room.  To the south, you see ROOM [24], The",
+                "Seventh Layer Of Hell.  "
             ],
-            "flags_raw": "0 12 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1"
-                }
-            },
-            "extras": {}
-        },
-        "10": {
-            "name": "On The Deck Of The Highwind",
-            "description": [
-                "You stand on a large desk.  Above you the massive airship looms as you",
-                "hear the sound of the engines running.  The deck gives you a good view of",
-                "all the surroundings, since it is located towards the bottom.  You see a",
-                "door that leads to the stairs going down.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "10",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11"
-                }
-            },
-            "extras": {}
-        },
-        "13": {
-            "name": "Operation",
-            "description": [
-                "You stand in a large room.  A large square table sits in the middle of",
-                "the floor, with 12 chairs around it.  You see a large map of the surrounding",
-                "areas behind the main chair.  A large long light hangs from above.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "13",
+            "name": "The Halls Of Wisdom",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "22",
                     "description": [
                         ""
-                    ],
-                    "room_id": "16"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "31",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "29",
                     "description": [
                         ""
-                    ],
-                    "room_id": "12"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "24",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "30"
         },
         "75": {
-            "name": "Builder's Ploading Room",
-            "description": [
-                "ATTENTION: If you are reading this, that means Nisstyre, your boss",
-                "on this port has loaded your character so he can change your security",
-                "to the correct number.  Read HELP OLCSECURITY for more information on",
-                "what the numbers say.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "75",
-            "exits": {},
             "extras": {
                 "wdolc": {
                     "description": [
@@ -240,501 +188,456 @@
                         ""
                     ]
                 }
-            }
-        },
-        "36": {
-            "name": "THe Hallway Of Immortals",
+            },
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
-                "[Epsilon: WEST] "
+                "ATTENTION: If you are reading this, that means Nisstyre, your boss",
+                "on this port has loaded your character so he can change your security",
+                "to the correct number.  Read HELP OLCSECURITY for more information on",
+                "what the numbers say.  "
             ],
+            "name": "Builder's Ploading Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "75"
+        },
+        "35": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "36",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "32"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31"
-                }
-            },
-            "extras": {}
-        },
-        "42": {
-            "name": "Immortal Engine Shop",
-            "description": [],
-            "flags_raw": "0 32768 16384 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "19"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "27992"
-                }
-            },
-            "extras": {}
-        },
-        "71": {
-            "name": "{BThe Imm{bortal{C-Mortal Wa{btchi{Bng Room{x",
             "description": [
-                "{B You step into t{bhe immorta{Cl-mortal watc{bhing room.  {B The room stands",
-                "{Bat the top of the{b mountain,{C which is the{b center poi{Bnt for all magic",
-                "{Bflows, life and b{basically w{Chere the worl{bd is ran fr{Bom.  You stand on",
-                "{Bthe outside, befo{bre the cle{Car sky, fille{bd with star{Bs.  A single wooden",
-                "{Bchair sits in the{b middle of{C this room.  {bA single ta{Bble next to it, and",
-                "{Ba Punch Clock on {bthe other {Carm.  "
+                "[Cyric: NORTH] [Talos: WEST] [Teron: EAST]"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "71",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "19"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "69"
-                }
-            },
-            "extras": {}
-        },
-        "18": {
-            "name": "Mass Arena Room",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "18",
-            "exits": {},
-            "extras": {}
-        },
-        "26": {
-            "name": "The Halls Of Wisdom",
-            "description": [
-                "You walk along the Halls of Wisdom.  To either side of you, a large",
-                "door stands, leading into another, secret room.  To the north, you see",
-                "ROOM [1], The Limbo.  To the south, you see ROOM [2], The Linkdead",
-                "Limbo Room.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "26",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "25"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "27"
-                }
-            },
-            "extras": {}
-        },
-        "4": {
-            "name": "Freezer",
-            "description": [
-                "You stand in a deep dark freezer. You try to move, but yet...you",
-                "can't. You feel nothing, all there is your mind. You see",
-                "other mortals in here, standing in place. You have been frozen",
-                "and placed in the Mortal Freezer. Have Fun."
-            ],
-            "flags_raw": "0 40964 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "4",
-            "exits": {},
-            "extras": {}
-        },
-        "69": {
-            "name": "{&The {*Cen{rter {ROf {rWat{*erd{&eep{x",
-            "description": [
-                "{&You stand in {*the center {rof the {Rworld, {rthe heart {*of the w{&orld. ",
-                "{&Before you {*stands a la{rrge cav{Rern, no{rt filled w{*ith lava{&, but with large",
-                "{&steam engin{*es.  The bo{rilers s{Rtand 20{r stories t{*all, and{& little umpa",
-                "{&lumpas stan{*d here, bla{rck as n{Right sh{roveling co{*al into {&the boilers.  To",
-                "{&the north, {*a little ba{rlcony o{Rverlook{ring the cr{*ank shaf{&t of the world. ",
-                "{&Outside the{* balcony, y{rou see {Ra large{r iron shaf{*t, going{& up and down. ",
-                "{&Piston Arms{* jult out o{rf the s{Rides of{r the wall {*and turn{& the shaft,",
-                "{&slowly.  Yo{*u have come{r to the{R center{r of the wo{*rld, and{& now you know",
-                "{&what runs i{*t.  "
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "69",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "72"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "43"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "71"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "70"
-                }
-            },
-            "extras": {}
-        },
-        "27": {
-            "name": "The Halls Of Wisdom",
-            "description": [
-                "You walk along the Halls of Wisdom.  To either side of you, a large",
-                "door stands, leading into another, secret room.  To the north, you see",
-                "ROOM [3], The Corner.  To the south, you see ROOM [4], The Freezer.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "27",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "28"
-                }
-            },
-            "extras": {}
-        },
-        "72": {
-            "name": "{&T{*he {&C{*ourt {&O{*f {BWa{bt{*e{wr{*d{be{Bep {RJu{rsti{Rce{x",
-            "description": [
-                "You stand in a large court room, cut from the very rock that makes",
-                "the core of the planet.  The ceiling is smooth grante, with lights",
-                "hanging down from wires, glowing brightly.  Rows of benchs strech",
-                "towards the west, towards a large wood Judge desk, and the witness",
-                "stand.  On the walls, small alcoves cut into the stone walls, and a",
-                "statue of each god stands, Cyric, Nisstyre, Talos, Teron, Selune,",
-                "Tempus, Moradin, Kossuth, and Hanali.  You are here for justice, and",
-                "justice only.  "
-            ],
-            "flags_raw": "0 201327624 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "72",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "69"
-                }
-            },
-            "extras": {}
-        },
-        "34": {
             "name": "The Hallway Of Immortals",
-            "description": [
-                "[Selune: EAST] [Mielikki: WEST]"
-            ],
-            "flags_raw": "0 8 0 0",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "35"
+        },
+        "32": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "34",
+            "description": [
+                "[Hanali: WEST] [Moradin: EAST]"
+            ],
+            "name": "The Hallway Of Immortals",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "33",
                     "description": [
                         ""
-                    ],
-                    "room_id": "35"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "36",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "5": {
-            "name": "Room of WebOutPut!",
-            "description": [],
-            "flags_raw": "0 516 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "5",
-            "exits": {},
-            "extras": {}
+            "vnum": "32"
         },
-        "31": {
-            "name": "The Center Chamber",
-            "description": [
-                "You stand in the center chamber, a large cavernous opening going to",
-                "the peek of the mountain.  The hallway splits up into two sections,",
-                "north and south.  To the north, you see the personal chambers of the",
-                "gods, and immortals.  To the south, you see a large iron door, leading",
-                "into some kind of room.  To the east, you see the doors to the office",
-                "of Nisstyre Bloodstoner.  "
-            ],
+        "25": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "31",
+            "description": [
+                "You step into a large lounge, filled with all kinds of diffrent,",
+                "interesting furniture.  A large window looks out over the mountain",
+                "side, and below the small city of Westbridge can be seen.  The lounge",
+                "is filled with tables, couches and chairs.  A large bar stretches",
+                "along one wall, with a jukebox on the end.  A pair of large doors lead",
+                "east.  "
+            ],
+            "name": "The Immortal Lounge",
             "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "36"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "30"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "26",
                     "description": [
                         ""
-                    ],
-                    "room_id": "25998"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "25"
         },
-        "11": {
-            "name": "Level B1 On \"The High Wind\"",
-            "description": [
-                "You are on the middle level of \"The High Wind\".  You see a pair of large",
-                "doors to the north, which look to be the cargo doors.  A flight of stairs",
-                "goes either up or down.  Up is to the observation deck, and down is to the",
-                "Flight Control Deck.  "
-            ],
+        "33": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "11",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "10"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12"
-                }
-            },
-            "extras": {}
-        },
-        "9": {
-            "name": "{8Heart of the World",
-            "description": [],
-            "flags_raw": "0 67117068 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9",
-            "exits": {},
-            "extras": {}
-        },
-        "15": {
-            "name": "Control Deck",
             "description": [
-                "Welcome to the control deck of the Highwind.  Here you see two posts",
-                "where controls to all the engines and a large wheel sits.  This is the",
-                "master control of the great airship.  Ahead of all of this is a large dome",
-                "window, looking out into the lands.  From here the view is awesome.  "
+                "[Tempus: WEST] [Kossuth: EAST]"
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "15",
+            "name": "The Hallway Of Immortals",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "34",
                     "description": [
                         ""
-                    ],
-                    "room_id": "12"
-                }
-            },
-            "extras": {}
-        },
-        "6": {
-            "name": "Pool Room",
-            "description": [
-                "You stand in a large room.  A glowing pool sits in the middle of the",
-                "room.  The Rest Of The Room Is empty.  ",
-                "==IF YOU ARE IN THIS ROOM AN IMPLEMENTOR HAS LOADED YOUR CHARACTER=="
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "6",
-            "exits": {
-                "down": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "32",
                     "description": [
                         ""
-                    ],
-                    "room_id": "3014"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "70": {
-            "name": "{GThe Me{gmory Reac{Gtor {&[{RC{rOR{RE{&]{x",
-            "description": [
-                "{G  Before you stand{gs a large {mcylinder, {gstanding u{Gpright.  Many pipes",
-                "{Gand wires run into{g it, and t{mhe thing s{geems to hu{Gm, with no mechanical",
-                "{Gsound.  The Reacto{gr Core sta{mnds 5 stor{gies tall, {Gsitting on a ledge in",
-                "{Gthe center of the {gworld.  To{m the east,{g off the l{Gedge, stands the large",
-                "{Gcrank shaft of the{g world.  A{mbove you, {gthe sound {Gof the steam engines",
-                "{Gvibrates the floor{g beneth yo{mur feet. "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "70",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "69"
-                }
-            },
-            "extras": {}
+            "vnum": "33"
         },
         "7": {
-            "name": "Battle Arena",
+            "extras": {},
+            "flags_raw": "0 33562660 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand in a circular arena with weapons of all types attached to",
                 "the wall all over.  Blood stains the ground and the stench of the",
                 "dead fills your nostrils with every breath.  Only the strong shall",
                 "survive this battle and the weak slaughtered and left to rot."
             ],
-            "flags_raw": "0 33562660 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7",
+            "name": "Battle Arena",
             "exits": {},
-            "extras": {}
-        },
-        "37": {
-            "name": "Immortal Weapon Shop",
-            "description": [],
-            "flags_raw": "0 32768 4096 9",
             "wanted_area_vnum": "",
+            "vnum": "7"
+        },
+        "23": {
+            "extras": {},
+            "flags_raw": "0 32772 0 0",
             "flags2_raw": "0",
-            "vnum": "37",
+            "description": [
+                "{x{RATTENTION!!!  {x If you find yourself frozen and in this room, this",
+                "means that you have been found with more than 100 peices of duplicated",
+                "EQ on your character(s).  We have created a program that allows us to",
+                "process every pfile from the mud, and tells us your address, alts and",
+                "duplicated EQ.  Unless you have a really good excuse, the character",
+                "that is room will likely be destroyed.  Talk to NISSTYRE, TYR or",
+                "MORADIN about the character.  If you are guilty, then do the right",
+                "thing and delete.  "
+            ],
+            "name": "Player Loading Room - DUP EQ CASE",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "23"
+        },
+        "4": {
+            "extras": {},
+            "flags_raw": "0 40964 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a deep dark freezer. You try to move, but yet...you",
+                "can't. You feel nothing, all there is your mind. You see",
+                "other mortals in here, standing in place. You have been frozen",
+                "and placed in the Mortal Freezer. Have Fun."
+            ],
+            "name": "Freezer",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "4"
+        },
+        "24": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand amounst fire and brimestone.  Torutured souls slave away,",
+                "dragging large bolders, and being whipped by a demon.  Flames burn",
+                "everywhere, and molten earth flows around, like a large river. ",
+                "Welcome to hell, mother fucker.  "
+            ],
+            "name": "The Seventh Layer Of Hell",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "24"
+        },
+        "39": {
+            "extras": {},
+            "flags_raw": "0 32768 128 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Immortal Hull Shop",
             "exits": {
-                "west": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "19",
                     "description": [
                         ""
-                    ],
-                    "room_id": "19"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "39"
+        },
+        "8": {
+            "extras": {},
+            "flags_raw": "0 201335820 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A thunderous roar fills the stadium as you clamber to find your seat and",
+                "witness the upcoming arena match.  You see bloodstains on the very front",
+                "benches from particularly gruesome matches of the past, and you try to find",
+                "a clean patch of bench and get comfortable.  For whom will you cheer to",
+                "reign victorious over the corpse of his fallen opponent?  "
+            ],
+            "name": "Arena Stadium",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "3008",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8"
+        },
+        "10": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand on a large desk.  Above you the massive airship looms as you",
+                "hear the sound of the engines running.  The deck gives you a good view of",
+                "all the surroundings, since it is located towards the bottom.  You see a",
+                "door that leads to the stairs going down.  "
+            ],
+            "name": "On The Deck Of The Highwind",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "11",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "10"
+        },
+        "73": {
+            "extras": {},
+            "flags_raw": "0 4 0 17",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating..."
+            ],
+            "name": "Floating...",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "73"
+        },
+        "28": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the Halls of Wisdom.  To either side of you, a large",
+                "door stands, leading into another, secret room.  To the north, you see",
+                "ROOM [5], The Endless Void.  To the south, you see ROOM [6], The",
+                "Immortal Pfile Loading Room.  "
+            ],
+            "name": "The Halls Of Wisdom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "5",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "29",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "27",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "6",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "28"
+        },
+        "14": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a bare part of the ship.  Here you see the room has been",
+                "made into a Stable.  On the north wall a fence has been made to hold some",
+                "live stock.  A chair sits against the west wall for the stable keepers. ",
+                "Bags of grain lie on the floor.  "
+            ],
+            "name": "Chocobo Stables",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "12",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "14"
+        },
+        "42": {
+            "extras": {},
+            "flags_raw": "0 32768 16384 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Immortal Engine Shop",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "27992",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "19",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42"
+        },
+        "29": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the Halls of Wisdom.  To either side of you, a large",
+                "door stands, leading into another, secret room.  To the north, you see",
+                "ROOM [20], The Mortal Interigation Room.  To the south, you see ROOM",
+                "[21], The Pvault Loading Room.  "
+            ],
+            "name": "The Halls Of Wisdom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "30",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "28",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "21",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "29"
+        },
+        "17": {
+            "extras": {},
+            "flags_raw": "0 67117068 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is for storage and counters, if you are here, leave.  "
+            ],
+            "name": "Storage room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "17"
+        },
+        "26": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the Halls of Wisdom.  To either side of you, a large",
+                "door stands, leading into another, secret room.  To the north, you see",
+                "ROOM [1], The Limbo.  To the south, you see ROOM [2], The Linkdead",
+                "Limbo Room.  "
+            ],
+            "name": "The Halls Of Wisdom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "1",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "27",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "25",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "26"
         },
         "21": {
-            "name": "The P-Vault Loading Room",
+            "extras": {},
+            "flags_raw": "0 1036 0 0",
+            "flags2_raw": "0",
             "description": [
                 "NOTICE!!!!",
                 "If you find yourself in this room, then that means you are still appart",
@@ -746,23 +649,23 @@
                 "This is currently Pfile Clean up done on: July 6th 2001 3:25am.",
                 "Next Pfile Clean Up will be done on: August 6th 2001."
             ],
-            "flags_raw": "0 1036 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "21",
+            "name": "The P-Vault Loading Room",
             "exits": {
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "3014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "3014"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "21"
         },
         "40": {
-            "name": "The Arena Locker Room",
+            "extras": {},
+            "flags_raw": "0 67118180 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand inside a large circular shaped room, lined with many",
                 "lockers and various weapons that are used by the masters of several",
@@ -770,330 +673,546 @@
                 "benches and a weight bench for the competitors to utilize while they",
                 "wait to enter the fight.  "
             ],
-            "flags_raw": "0 67118180 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40",
+            "name": "The Arena Locker Room",
             "exits": {},
-            "extras": {}
-        },
-        "30": {
-            "name": "The Halls Of Wisdom",
-            "description": [
-                "You walk along the Halls of Wisdom.  To either side of you, a large",
-                "door stands, leading into another, secret room.  To the north, you see",
-                "ROOM [22], The De-Clanning Room.  To the south, you see ROOM [24], The",
-                "Seventh Layer Of Hell.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "30",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "24"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "22"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "29"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31"
-                }
-            },
-            "extras": {}
-        },
-        "39": {
-            "name": "Immortal Hull Shop",
-            "description": [],
-            "flags_raw": "0 32768 128 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "39",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "19"
-                }
-            },
-            "extras": {}
-        },
-        "24": {
-            "name": "The Seventh Layer Of Hell",
-            "description": [
-                "You stand amounst fire and brimestone.  Torutured souls slave away,",
-                "dragging large bolders, and being whipped by a demon.  Flames burn",
-                "everywhere, and molten earth flows around, like a large river. ",
-                "Welcome to hell, mother fucker.  "
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "24",
-            "exits": {},
-            "extras": {}
-        },
-        "14": {
-            "name": "Chocobo Stables",
-            "description": [
-                "You stand in a bare part of the ship.  Here you see the room has been",
-                "made into a Stable.  On the north wall a fence has been made to hold some",
-                "live stock.  A chair sits against the west wall for the stable keepers. ",
-                "Bags of grain lie on the floor.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "14",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12"
-                }
-            },
-            "extras": {}
-        },
-        "32": {
-            "name": "The Hallway Of Immortals",
-            "description": [
-                "[Hanali: WEST] [Moradin: EAST]"
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "32",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "36"
-                }
-            },
-            "extras": {}
-        },
-        "29": {
-            "name": "The Halls Of Wisdom",
-            "description": [
-                "You walk along the Halls of Wisdom.  To either side of you, a large",
-                "door stands, leading into another, secret room.  To the north, you see",
-                "ROOM [20], The Mortal Interigation Room.  To the south, you see ROOM",
-                "[21], The Pvault Loading Room.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "29",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "21"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "28"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "30"
-                }
-            },
-            "extras": {}
+            "vnum": "40"
         },
         "41": {
-            "name": "Immortal Engine Shop",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 32768 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "41",
+            "description": [],
+            "name": "Immortal Engine Shop",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "19",
                     "description": [
                         ""
-                    ],
-                    "room_id": "19"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8": {
-            "name": "Arena Stadium",
-            "description": [
-                "A thunderous roar fills the stadium as you clamber to find your seat and",
-                "witness the upcoming arena match.  You see bloodstains on the very front",
-                "benches from particularly gruesome matches of the past, and you try to find",
-                "a clean patch of bench and get comfortable.  For whom will you cheer to",
-                "reign victorious over the corpse of his fallen opponent?  "
-            ],
-            "flags_raw": "0 201335820 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3008"
-                }
-            },
-            "extras": {}
+            "vnum": "41"
         },
-        "17": {
-            "name": "Storage room",
-            "description": [
-                "This room is for storage and counters, if you are here, leave.  "
-            ],
-            "flags_raw": "0 67117068 0 0",
-            "wanted_area_vnum": "",
+        "27": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "17",
-            "exits": {},
-            "extras": {}
-        },
-        "28": {
-            "name": "The Halls Of Wisdom",
             "description": [
                 "You walk along the Halls of Wisdom.  To either side of you, a large",
                 "door stands, leading into another, secret room.  To the north, you see",
-                "ROOM [5], The Endless Void.  To the south, you see ROOM [6], The",
-                "Immortal Pfile Loading Room.  "
+                "ROOM [3], The Corner.  To the south, you see ROOM [4], The Freezer.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "28",
+            "name": "The Halls Of Wisdom",
             "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "3",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "28",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "26",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "4",
                     "description": [
                         ""
-                    ],
-                    "room_id": "6"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "5"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "27"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "29"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "19": {
-            "name": "{MThe Im{mmort{Cal's Ai{mrship H{Mangar{x",
-            "description": [],
-            "flags_raw": "0 32768 33554432 9",
             "wanted_area_vnum": "",
+            "vnum": "27"
+        },
+        "3": {
+            "extras": {},
+            "flags_raw": "0 134259716 8192 1",
             "flags2_raw": "0",
-            "vnum": "19",
+            "description": [
+                "You are standing with your nose in the corner.  Every time you try to",
+                "turn around, you get slapped upside the head and quickly resume your",
+                "position."
+            ],
+            "name": "Corner",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "3"
+        },
+        "34": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "[Selune: EAST] [Mielikki: WEST]"
+            ],
+            "name": "The Hallway Of Immortals",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "35",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42"
+                    ]
                 },
-                "west": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "33",
                     "description": [
                         ""
-                    ],
-                    "room_id": "39"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34"
+        },
+        "31": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the center chamber, a large cavernous opening going to",
+                "the peek of the mountain.  The hallway splits up into two sections,",
+                "north and south.  To the north, you see the personal chambers of the",
+                "gods, and immortals.  To the south, you see a large iron door, leading",
+                "into some kind of room.  To the east, you see the doors to the office",
+                "of Nisstyre Bloodstoner.  "
+            ],
+            "name": "The Center Chamber",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "36",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "25998",
                     "description": [
                         ""
-                    ],
-                    "room_id": "37"
+                    ]
                 },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "30",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31"
+        },
+        "70": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{G  Before you stand{gs a large {mcylinder, {gstanding u{Gpright.  Many pipes",
+                "{Gand wires run into{g it, and t{mhe thing s{geems to hu{Gm, with no mechanical",
+                "{Gsound.  The Reacto{gr Core sta{mnds 5 stor{gies tall, {Gsitting on a ledge in",
+                "{Gthe center of the {gworld.  To{m the east,{g off the l{Gedge, stands the large",
+                "{Gcrank shaft of the{g world.  A{mbove you, {gthe sound {Gof the steam engines",
+                "{Gvibrates the floor{g beneth yo{mur feet. "
+            ],
+            "name": "{GThe Me{gmory Reac{Gtor {&[{RC{rOR{RE{&]{x",
+            "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "69",
                     "description": [
                         ""
-                    ],
-                    "room_id": "27336"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "70"
+        },
+        "13": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a large room.  A large square table sits in the middle of",
+                "the floor, with 12 chairs around it.  You see a large map of the surrounding",
+                "areas behind the main chair.  A large long light hangs from above.  "
+            ],
+            "name": "Operation",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "16",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "12",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "13"
+        },
+        "9": {
+            "extras": {},
+            "flags_raw": "0 67117068 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8Heart of the World",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "9"
+        },
+        "20": {
+            "extras": {},
+            "flags_raw": "0 67669004 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a bare room.  Nothing is in here.  The walls are gray, and",
+                "only a single door leads out.  A table sits in the middle of the room.  Only",
+                "4 chairs sit next to the table.  That is all.  "
+            ],
+            "name": "The {RInterrogation {xRoom{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "22",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20"
+        },
+        "18": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Mass Arena Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "18"
+        },
+        "36": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "[Epsilon: WEST] "
+            ],
+            "name": "THe Hallway Of Immortals",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "32",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "36"
+        },
+        "71": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{B You step into t{bhe immorta{Cl-mortal watc{bhing room.  {B The room stands",
+                "{Bat the top of the{b mountain,{C which is the{b center poi{Bnt for all magic",
+                "{Bflows, life and b{basically w{Chere the worl{bd is ran fr{Bom.  You stand on",
+                "{Bthe outside, befo{bre the cle{Car sky, fille{bd with star{Bs.  A single wooden",
+                "{Bchair sits in the{b middle of{C this room.  {bA single ta{Bble next to it, and",
+                "{Ba Punch Clock on {bthe other {Carm.  "
+            ],
+            "name": "{BThe Imm{bortal{C-Mortal Wa{btchi{Bng Room{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "19",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "69",
                     "description": [
                         ""
-                    ],
-                    "room_id": "71"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "71"
+        },
+        "19": {
+            "extras": {},
+            "flags_raw": "0 32768 33554432 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MThe Im{mmort{Cal's Ai{mrship H{Mangar{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "37",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "27336",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "39",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "71",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "19"
+        },
+        "69": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{&You stand in {*the center {rof the {Rworld, {rthe heart {*of the w{&orld. ",
+                "{&Before you {*stands a la{rrge cav{Rern, no{rt filled w{*ith lava{&, but with large",
+                "{&steam engin{*es.  The bo{rilers s{Rtand 20{r stories t{*all, and{& little umpa",
+                "{&lumpas stan{*d here, bla{rck as n{Right sh{roveling co{*al into {&the boilers.  To",
+                "{&the north, {*a little ba{rlcony o{Rverlook{ring the cr{*ank shaf{&t of the world. ",
+                "{&Outside the{* balcony, y{rou see {Ra large{r iron shaf{*t, going{& up and down. ",
+                "{&Piston Arms{* jult out o{rf the s{Rides of{r the wall {*and turn{& the shaft,",
+                "{&slowly.  Yo{*u have come{r to the{R center{r of the wo{*rld, and{& now you know",
+                "{&what runs i{*t.  "
+            ],
+            "name": "{&The {*Cen{rter {ROf {rWat{*erd{&eep{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "43",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "71",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "72",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "70",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "69"
+        },
+        "11": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are on the middle level of \"The High Wind\".  You see a pair of large",
+                "doors to the north, which look to be the cargo doors.  A flight of stairs",
+                "goes either up or down.  Up is to the observation deck, and down is to the",
+                "Flight Control Deck.  "
+            ],
+            "name": "Level B1 On \"The High Wind\"",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "10",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "12",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11"
+        },
+        "2": {
+            "extras": {},
+            "flags_raw": "0 1141384204 8192 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating in a formless void, detached from all sensation of physical",
+                "matter, surrounded by swirling glowing light, which fades into the relative",
+                "darkness around you without any trace of edges or shadow.",
+                "   There is a \"No Tipping\" notice pinned to the darkness."
+            ],
+            "name": "Limbo",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "2"
+        },
+        "72": {
+            "extras": {},
+            "flags_raw": "0 201327624 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in a large court room, cut from the very rock that makes",
+                "the core of the planet.  The ceiling is smooth grante, with lights",
+                "hanging down from wires, glowing brightly.  Rows of benchs strech",
+                "towards the west, towards a large wood Judge desk, and the witness",
+                "stand.  On the walls, small alcoves cut into the stone walls, and a",
+                "statue of each god stands, Cyric, Nisstyre, Talos, Teron, Selune,",
+                "Tempus, Moradin, Kossuth, and Hanali.  You are here for justice, and",
+                "justice only.  "
+            ],
+            "name": "{&T{*he {&C{*ourt {&O{*f {BWa{bt{*e{wr{*d{be{Bep {RJu{rsti{Rce{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "69",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "72"
+        },
+        "37": {
+            "extras": {},
+            "flags_raw": "0 32768 4096 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Immortal Weapon Shop",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "19",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "37"
+        },
+        "1": {
+            "extras": {},
+            "flags_raw": "0 12 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating in nothing."
+            ],
+            "name": "Limbo",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "1",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1"
+        },
+        "15": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Welcome to the control deck of the Highwind.  Here you see two posts",
+                "where controls to all the engines and a large wheel sits.  This is the",
+                "master control of the great airship.  Ahead of all of this is a large dome",
+                "window, looking out into the lands.  From here the view is awesome.  "
+            ],
+            "name": "Control Deck",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "12",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "15"
         },
         "22": {
-            "name": "The DE-Clanning Room",
+            "extras": {},
+            "flags_raw": "0 201359364 0 0",
+            "flags2_raw": "0",
             "description": [
                 "ATTENTION!",
                 "If you are reading this, then the leaders of your clan has",
@@ -1101,273 +1220,155 @@
                 "wipe of members of the clan you where in. Any questions about",
                 "why, approach your leaders, not the immortals."
             ],
-            "flags_raw": "0 201359364 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "22",
+            "name": "The DE-Clanning Room",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20"
-                },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "3014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "3014"
-                }
-            },
-            "extras": {}
-        },
-        "3": {
-            "name": "Corner",
-            "description": [
-                "You are standing with your nose in the corner.  Every time you try to",
-                "turn around, you get slapped upside the head and quickly resume your",
-                "position."
-            ],
-            "flags_raw": "0 134259716 8192 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "3",
-            "exits": {},
-            "extras": {}
-        },
-        "73": {
-            "name": "Floating...",
-            "description": [
-                "You are floating..."
-            ],
-            "flags_raw": "0 4 0 17",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "73",
-            "exits": {},
-            "extras": {}
-        },
-        "16": {
-            "name": "Cabin Chambers",
-            "description": [
-                "You stand in a large bedroom aboard the ship.  Round port hole windows",
-                "look out to the east overlooking the skies and any other sight in here.  You",
-                "see a large feather bed, with a table next to it against one wall.  A desk",
-                "sits on the western wall and a map hangs from above it.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "16",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "13"
-                }
-            },
-            "extras": {}
-        },
-        "20": {
-            "name": "The {RInterrogation {xRoom{x",
-            "description": [
-                "You stand in a bare room.  Nothing is in here.  The walls are gray, and",
-                "only a single door leads out.  A table sits in the middle of the room.  Only",
-                "4 chairs sit next to the table.  That is all.  "
-            ],
-            "flags_raw": "0 67669004 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "22"
-                }
-            },
-            "extras": {}
-        },
-        "25": {
-            "name": "The Immortal Lounge",
-            "description": [
-                "You step into a large lounge, filled with all kinds of diffrent,",
-                "interesting furniture.  A large window looks out over the mountain",
-                "side, and below the small city of Westbridge can be seen.  The lounge",
-                "is filled with tables, couches and chairs.  A large bar stretches",
-                "along one wall, with a jukebox on the end.  A pair of large doors lead",
-                "east.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "25",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "26"
-                }
-            },
-            "extras": {}
-        },
-        "33": {
-            "name": "The Hallway Of Immortals",
-            "description": [
-                "[Tempus: WEST] [Kossuth: EAST]"
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20",
                     "description": [
                         ""
-                    ],
-                    "room_id": "32"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "23": {
-            "name": "Player Loading Room - DUP EQ CASE",
-            "description": [
-                "{x{RATTENTION!!!  {x If you find yourself frozen and in this room, this",
-                "means that you have been found with more than 100 peices of duplicated",
-                "EQ on your character(s).  We have created a program that allows us to",
-                "process every pfile from the mud, and tells us your address, alts and",
-                "duplicated EQ.  Unless you have a really good excuse, the character",
-                "that is room will likely be destroyed.  Talk to NISSTYRE, TYR or",
-                "MORADIN about the character.  If you are guilty, then do the right",
-                "thing and delete.  "
-            ],
-            "flags_raw": "0 32772 0 0",
             "wanted_area_vnum": "",
+            "vnum": "22"
+        },
+        "43": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "23",
-            "exits": {},
-            "extras": {}
+            "description": [
+                "{*Welcome to the immortal{& lounge, the p{*lace where immortals come for",
+                "{*their breaks.  The entire{& room is a lar{*ge cavern, which looks like",
+                "{*something from a comic bo{&ok.  Besides t{*he massive cavern this room is,",
+                "{*there is just some furnit{&ure in it.  So{*me couches and chairs make a",
+                "{*circle on a small rug in {&the middle of {*the room.  A coffee table sits",
+                "{*in the middle with magazi{&nes on it.  Ne{*xt to the door you see a",
+                "{*fridge, food and soda mac{&hine.  On the {*other side, a pinball game. ",
+                "{*Next to the soda machine {&is a small tab{*le with a 10 cup coffee maker",
+                "{*on it.{x"
+            ],
+            "name": "{&T{*he {&B{*atcave {c[{BIm{bm{*or{bt{Bal {RLo{run{Rge{c]{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "69",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "43"
         }
     },
-    "uid": "limbo",
-    "area_quest_points": 0,
     "credits": "[Imm Zone] Limbo",
     "faction_id": "",
+    "name": "Limbo",
     "vnums": [
         1,
         99
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 0,
+    "subroutines": [],
     "mobiles": {
         "1": {
-            "name": "The Immortal Name Placeholder Mobile~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 1,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "The Immortal Name Placeholder Mobile stands here checking names and kicking ass.\n",
+            "name": "The Immortal Name Placeholder Mobile~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Placeholder Mobile VHAERAUN~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Immortal Name Placeholder Mobile stands here checking names and kicking ass.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Placeholder Mobile VHAERAUN~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "3": {
-            "name": "Vanilla Ice~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEGHJKLMNOPQRSTXYZ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 3,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEGHJKLMNOPQRSTXYZ 0 0",
+            "room_name": "Vanilla Ice stands here, bringing in your WORSE NIGHTMARES!!!\n",
+            "name": "Vanilla Ice~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "vanilla ice~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M random 3 25~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Vanilla Ice stands here, bringing in your WORSE NIGHTMARES!!!\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "vanilla ice~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "4": {
-            "name": "Your Brain~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEGHJKLMNOPQRSTXYZ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 4,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEGHJKLMNOPQRSTXYZ 0 0",
+            "room_name": "Your Brain hovers before your eyes.\n",
+            "name": "Your Brain~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Mind~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M random 4 25~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Your Brain hovers before your eyes.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Mind~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "5": {
-            "name": "a decoy~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "10 10 10 10",
             "description": [
                 "This player looks funny... hmm. Maybe its not a player?\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 B 0 0",
-            "raw_flags3": "10 10 10 10",
             "vnum": 5,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "unique",
-            "raw_flags2": "1 0 1d1+10 0d0+0 1d1+1 crush",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 B 0 0",
             "room_name": "A decoy stands here.\n",
-            "keywords": "decoy~\n"
+            "name": "a decoy~\n",
+            "raw_flags2": "1 0 1d1+10 0d0+0 1d1+1 crush",
+            "keywords": "decoy~\n",
+            "subroutines": [],
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "unique",
+            "t_flags": "T ~"
         },
         "6": {
-            "name": "{wthe {CW{cestbridgian {CL{caw {CE{cnforcer{x~\n",
+            "d_flags": "D No! It cannot be!~",
+            "raw_flags3": "-30 -30 -30 -10",
             "description": [
                 "With a stern expression and a slight 5-o'clock shadow, he returns\n",
                 "your look and studies you closely.  His piercing brown eyes are sharp\n",
@@ -1378,25 +1379,25 @@
                 "thick-fingered hands.  Scars adorn him, speaking of past battles won. \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKZ medium unknown",
-            "raw_flags4": "EK AB 0 0",
-            "raw_flags3": "-30 -30 -30 -10",
             "vnum": 6,
             "raw_flags": "AGN DF 0 400 0",
-            "race_id": "human",
+            "raw_flags4": "EK AB 0 0",
+            "room_name": "{wA {CW{cestbridgian {CL{caw {CE{cnforcer {wpatrols the streets of their empire.{x\n",
+            "name": "{wthe {CW{cestbridgian {CL{caw {CE{cnforcer{x~\n",
             "raw_flags2": "80 1000 100d100+5000 10d81+2552 5d15+32 pierce",
-            "d_flags": "D No! It cannot be!~",
+            "keywords": "Westbridgian law enforcer~\n",
             "subroutines": [
                 "M bribe 7 500000~\n",
                 "M random 6 20~\n",
                 "M fight 5 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wA {CW{cestbridgian {CL{caw {CE{cnforcer {wpatrols the streets of their empire.{x\n",
-            "keywords": "Westbridgian law enforcer~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKZ medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "7": {
-            "name": "The [{RO{7O{&J{x] Law Enforcer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -10",
             "description": [
                 "With a stern expression and a slight 5-o'clock shadow, he returns\n",
                 "your look and studies you closely.  His piercing brown eyes are sharp\n",
@@ -1407,389 +1408,389 @@
                 "thick-fingered hands.  Scars adorn him, speaking of past battles won. \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKZ medium unknown",
-            "raw_flags4": "EK AB 0 0",
-            "raw_flags3": "-30 -30 -30 -10",
             "vnum": 7,
             "raw_flags": "AGN DF 0 400 0",
-            "race_id": "human",
-            "raw_flags2": "80 1000 100d100+5000 10d81+2552 5d15+32 pierce",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EK AB 0 0",
             "room_name": "The [{RO{7O{&J{x] Law Enforcer patrols the streets.\n",
-            "keywords": "ooj law enforcer~\n"
+            "name": "The [{RO{7O{&J{x] Law Enforcer~\n",
+            "raw_flags2": "80 1000 100d100+5000 10d81+2552 5d15+32 pierce",
+            "keywords": "ooj law enforcer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKZ medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9": {
-            "name": "Maelys the {8diseased{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand either 0",
-            "raw_flags6": "G 0 giant unknown",
-            "raw_flags4": "CD CD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 9,
             "raw_flags": "A DFXZ 0 -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "CD CD 0 0",
+            "room_name": "A rodent slinks in the corners of the room, its incisors gleaming menacingly.\n",
+            "name": "Maelys the {8diseased{x~\n",
             "raw_flags2": "109 -15536 4000d4000+4000 4000d4000+4000 4000d4000+4000 bite",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "maelys rodent diseased~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M act 9 points excitedly at $n~\n"
             ],
-            "t_flags": "T Then they'd try to guess who i am~",
-            "room_name": "A rodent slinks in the corners of the room, its incisors gleaming menacingly.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "maelys rodent diseased~\n"
+            "raw_flags6": "G 0 giant unknown",
+            "race_id": "human",
+            "t_flags": "T Then they'd try to guess who i am~"
         },
         "10": {
-            "name": "the real King of the Hill~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 10,
             "raw_flags": "ABN 0 P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "The Real King of the Hill is serving his codeduties here.\n",
+            "name": "the real King of the Hill~\n",
             "raw_flags2": "102 0 300d300+300 300d300+300 100d100+100 claw",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "king hill iqmob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Real King of the Hill is serving his codeduties here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "king hill iqmob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "17": {
-            "name": "Mr. Counter~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 17,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABLQ 0 0",
+            "room_name": "This man stands here counting Bomblets, leave him alone.\n",
+            "name": "Mr. Counter~\n",
             "raw_flags2": "104 0 27d51+7060 27d51+7060 5d20+42 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "counter~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 42 count~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "This man stands here counting Bomblets, leave him alone.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "counter~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20": {
-            "name": "an {3Ear{*t{3h Elem{*e{3ntal{0~\n",
+            "raw_parts": "DEFJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "ACDHM ABCGHI giant earth",
-            "raw_flags4": "CDEFIKLO LQ CDE F",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 20,
             "raw_flags": "AIM CDEFGJZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "V",
+            "raw_flags4": "CDEFIKLO LQ CDE F",
+            "room_name": "An elemental formed out of the very rocks stands here impassively.\n",
+            "name": "an {3Ear{*t{3h Elem{*e{3ntal{0~\n",
             "raw_flags2": "101 50 1d100+5900 1d100+0 27d10+300 crush",
-            "d_flags": "D ~",
+            "raw_form": "V",
+            "keywords": "elemental earth~\n",
             "subroutines": [
                 "F for V\n",
                 "F par DEFJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An elemental formed out of the very rocks stands here impassively.\n",
-            "raw_parts": "DEFJK",
-            "keywords": "elemental earth~\n"
+            "raw_flags6": "ACDHM ABCGHI giant earth",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "21": {
-            "name": "a {!F{1i{!re E{1l{!emen{1t{!al{0~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "CDL 0 giant fire",
-            "raw_flags4": "FHK HLQR CD I",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 21,
             "raw_flags": "AIM CDEFGLVZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "FHK HLQR CD I",
+            "room_name": "An elemental formed of living fire flickers and burns here.\n",
+            "name": "a {!F{1i{!re E{1l{!emen{1t{!al{0~\n",
             "raw_flags2": "101 50 1d100+4900 1d100+2900 22d8+140 flame",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "elemental fire~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An elemental formed of living fire flickers and burns here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "elemental fire~\n"
+            "raw_flags6": "CDL 0 giant fire",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "22": {
-            "name": "a {BW{4at{Be{4r El{Be{4menta{Bl{0~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "CDL 0 giant water",
-            "raw_flags4": "CEFKLO LQR CDI H",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 22,
             "raw_flags": "AIM CDEFGJZb 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "CEFKLO LQR CDI H",
+            "room_name": "An elemental formed of the very waves is here.\n",
+            "name": "a {BW{4at{Be{4r El{Be{4menta{Bl{0~\n",
             "raw_flags2": "101 40 1d100+5400 1d100+1900 27d10+280 frbite",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "elemental water~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An elemental formed of the very waves is here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "elemental water~\n"
+            "raw_flags6": "CDL 0 giant water",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "23": {
-            "name": "an A{&i{0r Ele{&m{0ent{&a{0l~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "CDL 0 giant air",
-            "raw_flags4": "EFGHIJKN LNQ CD M",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 23,
             "raw_flags": "AIM CDEFGJLVZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "EFGHIJKN LNQ CD M",
+            "room_name": "An elemental formed out of the very winds floats here.\n",
+            "name": "an A{&i{0r Ele{&m{0ent{&a{0l~\n",
             "raw_flags2": "101 50 1d100+5400 1d100+1900 27d9+150 blast",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "elemental air~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An elemental formed out of the very winds floats here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "elemental air~\n"
+            "raw_flags6": "CDL 0 giant air",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "24": {
-            "name": "{ga {ybrown be{ra{yr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-25 -25 -25 -25",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGV ABCDEFHJKUV huge unknown",
-            "raw_flags4": "DEHMO AH EI 0",
-            "raw_flags3": "-25 -25 -25 -25",
             "vnum": 24,
             "raw_flags": "AI 0 0 0 0",
-            "race_id": "bear",
-            "raw_flags2": "75 0 1d1+3999 0d0+0 22d7+60 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DEHMO AH EI 0",
             "room_name": "{gA huge {ybrown be{ra{yr{g sits here.{x\n",
-            "keywords": "brown bear~\n"
+            "name": "{ga {ybrown be{ra{yr{x~\n",
+            "raw_flags2": "75 0 1d1+3999 0d0+0 22d7+60 claw",
+            "keywords": "brown bear~\n",
+            "subroutines": [],
+            "raw_flags6": "AGV ABCDEFHJKUV huge unknown",
+            "race_id": "bear",
+            "t_flags": "T ~"
         },
         "25": {
-            "name": "{ga {*c{wav{*e {ybe{ra{yr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-45 -45 -45 -45",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGV ABCDEFHJKUV giant unknown",
-            "raw_flags4": "DEFHIMO AH EI 0",
-            "raw_flags3": "-45 -45 -45 -45",
             "vnum": 25,
             "raw_flags": "AI CDEFGLVZc 0 0 0",
-            "race_id": "bear",
-            "raw_flags2": "101 250 1d1+5999 0d0+0 45d45+200 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DEFHIMO AH EI 0",
             "room_name": "{gA {*c{wav{*e {ybe{ra{yr{g sits here awaiting its masters command.{x\n",
-            "keywords": "cave bear~\n"
+            "name": "{ga {*c{wav{*e {ybe{ra{yr{x~\n",
+            "raw_flags2": "101 250 1d1+5999 0d0+0 45d45+200 claw",
+            "keywords": "cave bear~\n",
+            "subroutines": [],
+            "raw_flags6": "AGV ABCDEFHJKUV giant unknown",
+            "race_id": "bear",
+            "t_flags": "T ~"
         },
         "26": {
-            "name": "the healer~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 26,
             "raw_flags": "ABa DF 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "A healer is here, strictly to heal plague in limbo people.\n",
+            "name": "the healer~\n",
             "raw_flags2": "109 0 1d2+2 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "healer plague~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M act 26 writhes~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A healer is here, strictly to heal plague in limbo people.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "healer plague~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "27": {
-            "name": "{ga young {ybe{ra{yr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGV ABCDEFHJKUV large unknown",
-            "raw_flags4": "DEHMO AH EI 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 27,
             "raw_flags": "AI 0 0 0 0",
-            "race_id": "bear",
-            "raw_flags2": "40 0 1d1+2000 0d0+0 10d5+20 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DEHMO AH EI 0",
             "room_name": "{gA large young {ybe{ra{yr{g sits here.{x\n",
-            "keywords": "young bear~\n"
+            "name": "{ga young {ybe{ra{yr{x~\n",
+            "raw_flags2": "40 0 1d1+2000 0d0+0 10d5+20 claw",
+            "keywords": "young bear~\n",
+            "subroutines": [],
+            "raw_flags6": "AGV ABCDEFHJKUV large unknown",
+            "race_id": "bear",
+            "t_flags": "T ~"
         },
         "30": {
-            "name": "The Arena Store~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-100 -100 -100 -100",
             "description": [
                 "He is a large man, holding a large tray infront of him.  The tray has a\n",
                 "strap on it that goes around his neck.  He walks around selling food and\n",
                 "drink.  He looks like he makes alot of money too.  \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-100 -100 -100 -100",
             "vnum": 30,
             "raw_flags": "ABW 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Monty The Arena Store stands here, selling food and other goods.\n",
+            "name": "The Arena Store~\n",
             "raw_flags2": "109 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "arena drink food seller~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Monty The Arena Store stands here, selling food and other goods.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "arena drink food seller~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "31": {
-            "name": "a testing mob~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 31,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "The MobProg Testing Mob Stands Here.\n",
+            "name": "a testing mob~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "mobprog testing mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 1 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The MobProg Testing Mob Stands Here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "mobprog testing mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "32": {
-            "name": "The Vectorian Offical~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [
                 "The figure here is shrowded behind a large hat, his face cannot be\n",
                 "seen.  He wears a suit, and dress clothing, a large gunblade is slung\n",
                 "across his back, he looks as you as you walk by.  \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "ABCDEFGHIJKLMNO AB 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 32,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "ABCDEFGHIJKLMNO AB 0 0",
+            "room_name": "[{mRoV{x] A Vectorian Offical stands here, looking around.\n",
+            "name": "The Vectorian Offical~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "vectorian offical person man~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 32 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "[{mRoV{x] A Vectorian Offical stands here, looking around.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "vectorian offical person man~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "33": {
-            "name": "A Vectorian MagiTek Army Guard [First Class]~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [
                 "He stands in the MagiTek Standard Armor, wielding his standard\n",
                 "issue Gunblade.  He is waiting for the call, and the attack on an\n",
                 "offical.  \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "ABCDEFGHIJKLMNO AB 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 33,
             "raw_flags": "AFG 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "ABCDEFGHIJKLMNO AB 0 0",
+            "room_name": "A MagiTek Army Guard stands here, defending his country.\n",
+            "name": "A Vectorian MagiTek Army Guard [First Class]~\n",
             "raw_flags2": "109 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "magitek army warrior mtw1~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 33 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A MagiTek Army Guard stands here, defending his country.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "magitek army warrior mtw1~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40": {
-            "name": "the {RF{rl{Ra{rm{Re{ra{Rt{re{Rr{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 40,
             "raw_flags": "ABCFGN 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "The {RF{rl{Ra{rm{Re{ra{Rt{re{Rr{x is here, starting FIRES.\n",
+            "name": "the {RF{rl{Ra{rm{Re{ra{Rt{re{Rr{x~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Flameater~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M random 40 5~\n",
                 "M fight 40 20~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The {RF{rl{Ra{rm{Re{ra{Rt{re{Rr{x is here, starting FIRES.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Flameater~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "41": {
-            "name": "A {RB{ro{Rm{rb{Rl{re{Rt{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 41,
             "raw_flags": "AFN 0 0 -300 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A {RB{ro{Rm{rb{Rl{re{Rt{x is here burning up everything it can.\n",
+            "name": "A {RB{ro{Rm{rb{Rl{re{Rt{x~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "bomblet~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -1798,81 +1799,80 @@
                 "M random 38 50~\n",
                 "M fight 41 5~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {RB{ro{Rm{rb{Rl{re{Rt{x is here burning up everything it can.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "bomblet~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "42": {
-            "name": "A {RB{ro{Rm{rb{Rl{re{Rt{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 42,
             "raw_flags": "ACFGN 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A {RB{ro{Rm{rb{Rl{re{Rt{x is here burning up everything it can.\n",
+            "name": "A {RB{ro{Rm{rb{Rl{re{Rt{x~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "bomblet~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {RB{ro{Rm{rb{Rl{re{Rt{x is here burning up everything it can.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "bomblet~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "43": {
-            "name": "A Butler Of The Immortals~\n",
-            "description": [],
-            "raw_flags5": "stand stand either 0",
-            "raw_flags6": "ABGV ACDEFHJKQV small unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_off": "FR",
+            "d_flags": "D ~",
             "raw_flags3": "10 10 10 10",
+            "description": [],
+            "raw_off": "FR",
+            "raw_flags5": "stand stand either 0",
             "vnum": 43,
             "raw_flags": "AGHU 0 0 -200 0",
-            "race_id": "fido",
+            "raw_flags4": "0 A 0 0",
+            "room_name": "A Bulter stands here, awaiting your orders.\n",
+            "raw_vulns": "C",
+            "name": "A Butler Of The Immortals~\n",
             "raw_flags2": "0 0 1d6+4 1d1+99 1d4+0 bite",
-            "d_flags": "D ~",
+            "keywords": "immortal butler~\n",
             "subroutines": [
                 "F off FR\n",
                 "F vul C\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Bulter stands here, awaiting your orders.\n",
-            "raw_vulns": "C",
-            "keywords": "immortal butler~\n"
+            "raw_flags6": "ABGV ACDEFHJKQV small unknown",
+            "race_id": "fido",
+            "t_flags": "T ~"
         },
         "50": {
-            "name": "the imp that runs item/room progs~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "100 100 100 100",
             "description": [
                 "This little imp is summoned and banished when item and room progs\n",
                 "are run.  He is the one cranking the handle and making them work.  Do\n",
                 "not erase him, and modify him at your peril.  \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "L 0 tiny unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_flags3": "100 100 100 100",
             "vnum": 50,
             "raw_flags": "AN DFZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "The imp behind the item and room programs.\n",
+            "name": "the imp that runs item/room progs~\n",
             "raw_flags2": "110 0 1d1+19999 1d1+19999 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "oprog-rprog-imp~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The imp behind the item and room programs.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "oprog-rprog-imp~\n"
+            "raw_flags6": "L 0 tiny unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 0
+    "area_quest_points": 0
 }

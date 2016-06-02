@@ -118,6 +118,15 @@ class Game(Greenlet):
                 len(area_data["rooms"])
             ))
 
+        from mud.entities.social import Social
+
+        # FIXME put somewhere better, like an AreaManager
+        for social_name in Social.query_available_uids(game=self):
+            social = Social.load_from_file(social_name, game=self)
+            Social.add(social, game=self)
+            self.log("Loaded social '{}'".format(social_name))
+
+
     def echo(self, message, role=None):
         print("ROLE", role)
 

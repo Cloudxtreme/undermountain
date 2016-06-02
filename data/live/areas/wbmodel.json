@@ -1,38 +1,40 @@
 {
-    "name": "Westbridge Model",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "wbmodel",
-    "subroutines": [],
-    "rooms": {},
+    "zone_id": 0,
+    "objects": {},
     "uid": "wbmodel",
-    "area_quest_points": 0,
+    "rooms": {},
     "credits": "[ CLOSED ] The Westbridge Model",
     "faction_id": "",
+    "name": "Westbridge Model",
     "vnums": [
         37900,
         37910
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "37900": {
-            "name": "[{mn{MV{mo{x] {MM{magitek {MS{mhock {MT{mrooper{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-60 -60 -60 -60",
+            "raw_resistances": "Q",
             "description": [
                 "Before you stands a soldier of the [nVo] Magitek. He stands tall, fully\n",
                 "armored with a very large sword. You can see he is well built, and was\n",
                 "born to do battle. He stares at you with dark eyes.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CDI L I K",
-            "raw_flags3": "-60 -60 -60 -60",
             "vnum": 37900,
+            "raw_affected": "J",
             "raw_flags": "ABCGHT 0 CDEH -700 0",
-            "race_id": "orc",
-            "raw_resistances": "Q",
+            "raw_flags4": "CDI L I K",
+            "room_name": "The [{mn{MV{mo{x] {MM{magitek {MS{mhock {MT{mrooper{x stands here.\n",
+            "raw_vulns": "S",
+            "name": "[{mn{MV{mo{x] {MM{magitek {MS{mhock {MT{mrooper{x~\n",
             "raw_flags2": "72 75 1d1+8999 1d1+499 28d33+90 chomp",
-            "d_flags": "D ~",
+            "keywords": "magitek shock trooper~\n",
             "subroutines": [
                 "F aff J\n",
                 "F res Q\n",
@@ -46,14 +48,14 @@
                 "M speech 37905 march south~\n",
                 "M speech 37906 march down~\n"
             ],
-            "raw_affected": "J",
-            "t_flags": "T ~",
-            "room_name": "The [{mn{MV{mo{x] {MM{magitek {MS{mhock {MT{mrooper{x stands here.\n",
-            "raw_vulns": "S",
-            "keywords": "magitek shock trooper~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "orc",
+            "t_flags": "T ~"
         },
         "37901": {
-            "name": "[{Mn{mV{Mo{x] {MN{meo{*-{MM{magitek {RA{rrmor{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-80 -80 -80 -80",
+            "raw_resistances": "BE",
             "description": [
                 "A large hulking peice of metal stands before you. You reconize it as Vector's\n",
                 "famed Magitek Armor, a machine of destruction. The armor stands tall, fully\n",
@@ -61,15 +63,15 @@
                 "It hauls ass towards you.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium unknown",
-            "raw_flags4": "DFJ L I 0",
-            "raw_flags3": "-80 -80 -80 -80",
             "vnum": 37901,
+            "raw_affected": "FJc",
             "raw_flags": "ABGP 0 0 -800 0",
-            "race_id": "troll",
-            "raw_resistances": "BE",
+            "raw_flags4": "DFJ L I 0",
+            "room_name": "The [{mn{MV{mo{x] {MM{magitek {MS{moldier {RA{rrmor {YP{yrototype {CA425-109z{x stands here.\n",
+            "raw_vulns": "HK",
+            "name": "[{Mn{mV{Mo{x] {MN{meo{*-{MM{magitek {RA{rrmor{x~\n",
             "raw_flags2": "87 150 1d1+10999 1d1+7999 20d30+75 chomp",
-            "d_flags": "D ~",
+            "keywords": "neo magitek armor prototype a425 109z~\n",
             "subroutines": [
                 "F aff FJc\n",
                 "F res BE\n",
@@ -83,27 +85,25 @@
                 "M speech 37905 march south~\n",
                 "M speech 37906 march down~\n"
             ],
-            "raw_affected": "FJc",
-            "t_flags": "T ~",
-            "room_name": "The [{mn{MV{mo{x] {MM{magitek {MS{moldier {RA{rrmor {YP{yrototype {CA425-109z{x stands here.\n",
-            "raw_vulns": "HK",
-            "keywords": "neo magitek armor prototype a425 109z~\n"
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium unknown",
+            "race_id": "troll",
+            "t_flags": "T ~"
         },
         "37902": {
-            "name": "A {x[{mn{MV{mo{x] {MM{magitek {RP{raratroope{Rr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-45 -45 -45 -45",
             "description": [
                 "Before you stands an elite part of the Magitek Armor, a person\n",
                 "who actually will jump from an airship and land on the ground.\n"
             ],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "ACEFKU 0 0 0",
-            "raw_flags3": "-45 -45 -45 -45",
             "vnum": 37902,
             "raw_flags": "Ad DFa DH -500 0",
-            "race_id": "human",
+            "raw_flags4": "ACEFKU 0 0 0",
+            "room_name": "A {x[{mn{MV{mo{x] {MM{magitek {RP{raratroope{Rr{x stands here rolling up his parachute.\n",
+            "name": "A {x[{mn{MV{mo{x] {MM{magitek {RP{raratroope{Rr{x~\n",
             "raw_flags2": "120 100 1d1+30000 4d20+9000 20d120+400 none",
-            "d_flags": "D ~",
+            "keywords": "magitek paratroopers~\n",
             "subroutines": [
                 "M speech 37900 loadup~\n",
                 "M speech 37901 go!!!~\n",
@@ -114,10 +114,10 @@
                 "M speech 37905 march south~\n",
                 "M speech 37906 march down~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {x[{mn{MV{mo{x] {MM{magitek {RP{raratroope{Rr{x stands here rolling up his parachute.\n",
-            "keywords": "magitek paratroopers~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }

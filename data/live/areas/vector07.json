@@ -1,385 +1,633 @@
 {
-    "name": "MagiTek Stronghold",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "vector07",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "vector07",
     "rooms": {
-        "2517": {
-            "name": "Outside Hangar B",
-            "description": [
-                "You stand outside Hangar B.  This large building extends into the air",
-                "very far.  To the east, you see a large guard tower standing, with a few",
-                "guards keeping watch.  "
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2517",
-            "exits": {},
-            "extras": {}
-        },
-        "2585": {
-            "name": "",
-            "description": [],
+        "2567": {
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2585",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2559",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2567"
+        },
+        "2587": {
+            "extras": {},
+            "flags_raw": "0 0 0 25",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RA{c] {MN{morth{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2510",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2587"
+        },
+        "2580": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2581",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2578"
-                }
-            },
-            "extras": {}
-        },
-        "2577": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2577",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2569"
-                }
-            },
-            "extras": {}
-        },
-        "2515": {
-            "name": "The Guard Tower",
-            "description": [
-                "You stand in the largest Guard Tower of Vector.  From here you can see",
-                "the whole fortress layed out before you.  To the west you can see the main",
-                "complex of Vector, raising up above the guard tower.  To the southwest you",
-                "can see the small courtyard and the buildings there.  To the downward west",
-                "you can see the hangars and the Magitek Complex.  To the south, the Magitek",
-                "Factory.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2515",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2514"
-                }
-            },
-            "extras": {}
-        },
-        "2512": {
-            "name": "{ME{mastern {MH{mallway to the {MH{mangers{x",
-            "description": [
-                "You stand at the bottom of a set of stairs.  You can go up, or down.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2512",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2511"
+                    ]
                 },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2558"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2513"
-                }
-            },
-            "extras": {}
-        },
-        "2573": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2573",
-            "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2579",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2571"
-                }
-            },
-            "extras": {}
-        },
-        "2556": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2556",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2557"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "2582",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2555"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2580"
         },
         "2546": {
-            "name": "The Magitek Tunnel to Strife",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The tunnel here is long and dark.  Only a torch hangs on the wall,",
                 "giving off a little scrap of light.  The floor is made from stone, and",
                 "along the edges of the wall a little ditch lies, carring the dripping",
                 "water away from the tunnel.  The tunnel goes north and south. "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2546",
+            "name": "The Magitek Tunnel to Strife",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2545",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2545"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2547",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2547"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2578": {
-            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2578",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2585"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2586"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2568"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2579"
-                }
-            },
-            "extras": {}
-        },
-        "2580": {
-            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2580",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2581"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2579"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2582"
-                }
-            },
-            "extras": {}
-        },
-        "2531": {
-            "name": "Inside The Warehouse",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2531",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2530"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2532"
-                }
-            },
-            "extras": {}
-        },
-        "2566": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2566",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2559"
-                }
-            },
-            "extras": {}
+            "vnum": "2546"
         },
         "2508": {
-            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RB{c] {MN{morth{x",
+            "extras": {},
+            "flags_raw": "0 8 0 25",
+            "flags2_raw": "0",
             "description": [
                 "You stand in the first hangar.  You can see over the whole thing.  What",
                 "really catches your eye is row after row of Vectorian Magitek Warriors lined",
                 "up, listening to an sargent.  A set of stairs leads down.  "
             ],
-            "flags_raw": "0 8 0 25",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2508",
+            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RB{c] {MN{morth{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2511",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2511"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2508"
         },
-        "2521": {
-            "name": "Guard Post",
+        "2526": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [
-                "You are on the roadway going in and out of the western side of the",
-                "Vectorian Fortress.  You can go north to the hangars and MagTik Facility, or",
-                "south to the Eastern Gates.  To the east you see a few guards standing.  "
+                "You are walking on the East Gate Road, which leads to either the southern",
+                "gates on the way out, or the Eastern Gates of Vector.  The road here curves,",
+                "going to the west or north.  To the west is the South Gates, to the north",
+                "the East Gates.  "
             ],
-            "flags_raw": "0 4 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2521",
-            "exits": {},
-            "extras": {}
-        },
-        "2579": {
-            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2579",
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2584"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2525",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2583"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2529",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2578"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2526"
+        },
+        "2570": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {MN{morth{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2571",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2575",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2580"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2574",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2569",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2570"
+        },
+        "2511": {
+            "extras": {},
+            "flags_raw": "0 8 0 25",
+            "flags2_raw": "0",
+            "description": [
+                "You walk into a room of machinery.  Large iron beasts stand, hooked up to",
+                "hoses and sitting still in here.  Men in black coats walk around with clip",
+                "boards watching the beasts, studing the beasts.  The rest of the hangar is",
+                "made up of boxes and crates, holding unknown items.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RB{c] {MS{mouth{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2508",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2512",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2510",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2518",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2511"
+        },
+        "2513": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "From this point you get a good view of the MagiTek Armor hangar.  You can",
+                "see the beasts standing, hooked up to there hoses, awaiting a driving.  The",
+                "stairs continue up.  "
+            ],
+            "name": "Deck 2B Of The Hangar",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "2514",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2512",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2513"
+        },
+        "2503": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You enter a very large room.  Row after row of bunk beds are against",
+                "either wall.  Each bunk bed holds a wide variety of diffrent nic-nacs and",
+                "personal items.  Magitek Warriors sit on the beds, or sit at the tables in",
+                "the walkway, playing a game of cards.  A door leads off to the east.  "
+            ],
+            "name": "The Bunking Area",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2502",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2504",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2503"
+        },
+        "2559": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {MS{mouth{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2558",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2567",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2566",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2560",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2559"
+        },
+        "2506": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk into a anarchist's paradise.  The walls and floors are covered",
+                "in nothing but diffrent weapons, and crates of explosives.  A large sign on",
+                "the wall says \"Do Not Smoke\".  "
+            ],
+            "name": "The Arms Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2504",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2506"
+        },
+        "2584": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2579",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2584"
+        },
+        "2538": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Outside The Warehouse",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2536",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2539",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2538"
+        },
+        "2519": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You are on the roadway going in and out of the western side of the",
+                "Vectorian Fortress.  You can go north to the hangars and MagTik Facility, or",
+                "south to the Eastern Gates.  "
+            ],
+            "name": "The Roadway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2518",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2520",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2519"
+        },
+        "2520": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You are on the roadway going in and out of the western side of the",
+                "Vectorian Fortress.  You can go north to the hangars and MagTik Facility, or",
+                "south to the Eastern Gates.  "
+            ],
+            "name": "The Roadway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2519",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "2522",
+                    "room_id": "2522",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2520"
+        },
+        "2543": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
+                "giving off a little scrap of light.  The floor is made from stone, and",
+                "along the edges of the wall a little ditch lies, carring the dripping",
+                "water away from the tunnel.  The tunnel goes north and south. "
+            ],
+            "name": "The Magitek Tunnel to Strife",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2542",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2544",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2543"
+        },
+        "2578": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2586",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2579",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2568",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2585",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2578"
+        },
+        "2504": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk into another bare room, except for a ton of lockers.  Row after",
+                "row of lockers are here, lined up next to each other.  Between each row, a",
+                "bench extends the same length as the lockers themselves.  To the east, a",
+                "large iron door leads into an unknown place.  To the north, a open doorway",
+                "leads into a very steamy room.  "
+            ],
+            "name": "The Locker Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2505",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2506",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2503",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2504"
+        },
+        "2576": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2569",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2576"
+        },
+        "2579": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2583",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2580",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2578",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2584",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2579"
         },
         "2500": {
-            "name": "{ME{mntrance to the {MM{magitek {RA{mrm{Ry {MS{mtronghold{x",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The Magitek's Facility, the place where the Magitek Army runs, lives and",
                 "dwells.  You enter this iron catacomb, which is very dull.  To the north you",
@@ -387,299 +635,233 @@
                 "Warriors.  A hallway extends a bit to the east, and through a door, you can",
                 "see a very large building connected here.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2500",
+            "name": "{ME{mntrance to the {MM{magitek {RA{mrm{Ry {MS{mtronghold{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2502"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2501",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2501"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2507",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51335",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51335"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "2502",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2507"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2572": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2572",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2571"
-                }
-            },
-            "extras": {}
+            "vnum": "2500"
         },
-        "2542": {
-            "name": "The Magitek Tunnel to Strife",
+        "2545": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The tunnel here is long and dark.  Only a torch hangs on the wall,",
                 "giving off a little scrap of light.  The floor is made from stone, and",
                 "along the edges of the wall a little ditch lies, carring the dripping",
                 "water away from the tunnel.  The tunnel goes north and south. "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2542",
+            "name": "The Magitek Tunnel to Strife",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2544",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2541"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2546",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2543"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2545"
         },
-        "2526": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+        "2574": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2570",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2574"
+        },
+        "2548": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
+                "giving off a little scrap of light.  The floor is made from stone, and",
+                "along the edges of the wall a little ditch lies, carring the dripping",
+                "water away from the tunnel.  The tunnel goes north and south. "
+            ],
+            "name": "The Magitek Tunnel to Strife",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2547",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2549",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2548"
+        },
+        "2516": {
+            "extras": {},
+            "flags_raw": "0 0 0 26",
+            "flags2_raw": "0",
+            "description": [
+                "You stand outside Hangar A.  This large building extends into the air",
+                "very far.  To the east, you see a large guard tower standing, with a few",
+                "guards keeping watch.  "
+            ],
+            "name": "Outside Hangar A",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2510",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2518",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2516"
+        },
+        "2537": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Portal Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2536",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2537"
+        },
+        "2588": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2509",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2588"
+        },
+        "2525": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [
                 "You are walking on the East Gate Road, which leads to either the southern",
-                "gates on the way out, or the Eastern Gates of Vector.  The road here curves,",
-                "going to the west or north.  To the west is the South Gates, to the north",
-                "the East Gates.  "
+                "gates on the way out, or the Eastern Gates of Vector.  "
             ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2526",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2525"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2529"
-                }
-            },
-            "extras": {}
-        },
-        "2536": {
-            "name": "The Hallway",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2536",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2538"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2533"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2537"
-                }
-            },
-            "extras": {}
-        },
-        "2502": {
-            "name": "Elite Members Lounge",
-            "description": [
-                "You enter the Member's Lounge, a place to rest, and also used to debrief",
-                "people.  On the west wall, you see a large map of the realms, and a desk",
-                "infront of it.  The rest of the room is made out of chairs and couches, but",
-                "there is also a large table with chairs stacked next to it, to the east.  To",
-                "the south, you see a pair of double doors leading into the Bunking Area.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2502",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2500"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2503"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3014"
-                }
-            },
-            "extras": {}
-        },
-        "2509": {
-            "name": "{MW{mestern {MH{mallway to the {MH{mangers{x",
-            "description": [
-                "The bottom floor, you can go either east or up.  There is nothing more of",
-                "interest here.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2509",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2590"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2588"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2507"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2510"
-                }
-            },
-            "extras": {}
-        },
-        "2581": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2581",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2580"
-                }
-            },
-            "extras": {}
-        },
-        "2552": {
             "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2552",
             "exits": {
-                "west": {
+                "north": {
                     "flags_raw": "0",
+                    "room_id": "2524",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2553"
+                    ]
                 },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2551"
-                }
-            },
-            "extras": {}
-        },
-        "2587": {
-            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RA{c] {MN{morth{x",
-            "description": [],
-            "flags_raw": "0 0 0 25",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2587",
-            "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2526",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2510"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2525"
+        },
+        "2572": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2571",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2572"
         },
         "2510": {
-            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RA{c] {MS{mouth{x",
+            "extras": {},
+            "flags_raw": "0 8 0 25",
+            "flags2_raw": "0",
             "description": [
                 "You walk out into the first hanger.  Here soilder after warrior stands",
                 "doing drills, and taking instructions.  There has to be at least 500 people",
@@ -688,735 +870,313 @@
                 "large door leading to the outside stands.  To the east, is a door leading",
                 "into another hangar.  "
             ],
-            "flags_raw": "0 8 0 25",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2510",
+            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RA{c] {MS{mouth{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2516"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2587",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2587"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2509"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2511",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2511"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2509",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "2541",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2541"
-                }
-            },
-            "extras": {}
-        },
-        "2560": {
-            "name": "{MS{mtronghold {MH{mallway {MS{mouth{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2560",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2516",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2561"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2559"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2564"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2565"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2584": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2584",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2579"
-                }
-            },
-            "extras": {}
-        },
-        "2554": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2554",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2555"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2553"
-                }
-            },
-            "extras": {}
-        },
-        "2534": {
-            "name": "The Meeting Room Of The Magitek",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2534",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2533"
-                }
-            },
-            "extras": {}
+            "vnum": "2510"
         },
         "2507": {
-            "name": "{MW{mestern {MH{mallway to the {MH{mangers{x",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are walking in a small iron hallway that leads to the large hanger or",
                 "Magitek Warrior Facility.  A large door is open to the east, leading into",
                 "the hangars.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2507",
+            "name": "{MW{mestern {MH{mallway to the {MH{mangers{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2589",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2589"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2500"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2509",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2509"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2500",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2505": {
-            "name": "The Shower Room",
-            "description": [
-                "You stand in the Shower Room.  This room is filled with naked people and",
-                "hot running water....  A Magitek Warrior drops a bar of soup, and everyone",
-                "just stares...  He doesn't bend over...  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "2507"
+        },
+        "2568": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "2505",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2578",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2558",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2568"
+        },
+        "2509": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The bottom floor, you can go either east or up.  There is nothing more of",
+                "interest here.  "
+            ],
+            "name": "{MW{mestern {MH{mallway to the {MH{mangers{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2588",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2510",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2507",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2590",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2504"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2509"
+        },
+        "2502": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You enter the Member's Lounge, a place to rest, and also used to debrief",
+                "people.  On the west wall, you see a large map of the realms, and a desk",
+                "infront of it.  The rest of the room is made out of chairs and couches, but",
+                "there is also a large table with chairs stacked next to it, to the east.  To",
+                "the south, you see a pair of double doors leading into the Bunking Area.  "
+            ],
+            "name": "Elite Members Lounge",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2500",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "3014",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2503",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2502"
         },
         "2518": {
-            "name": "Between The Hangar",
+            "extras": {},
+            "flags_raw": "0 0 0 26",
+            "flags2_raw": "0",
             "description": [
                 "You stand between the tower hangers.  To the south you see some grass,",
                 "and a large road leading out of this part of Vector.  Some MagiTek Warriors",
                 "stand here smoking, and some are just standing place a game of cards.  The",
                 "road goes south.  "
             ],
-            "flags_raw": "0 0 0 26",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2518",
+            "name": "Between The Hangar",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2511",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2511"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2516",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2516"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2519",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2519"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2530": {
-            "name": "Outside a St.Plattsburg Warehouse",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2530",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2531"
-                }
-            },
-            "extras": {}
-        },
-        "2523": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "You are walking on the East Gate Road, which leads to either the southern",
-                "gates on the way out, or the Eastern Gates of Vector.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2523",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2522"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2524"
-                }
-            },
-            "extras": {}
+            "vnum": "2518"
         },
         "2571": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
             "name": "{MS{mtronghold {MH{mallway {MN{morth{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2571",
             "exits": {
-                "south": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "2573",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2570"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2572",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2572"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2573"
-                }
-            },
-            "extras": {}
-        },
-        "2548": {
-            "name": "The Magitek Tunnel to Strife",
-            "description": [
-                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
-                "giving off a little scrap of light.  The floor is made from stone, and",
-                "along the edges of the wall a little ditch lies, carring the dripping",
-                "water away from the tunnel.  The tunnel goes north and south. "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2548",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2547"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2570",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2549"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2571"
         },
-        "2538": {
-            "name": "Outside The Warehouse",
+        "2540": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2538",
+            "name": "The Docks Of The Warehouse",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2539",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2536"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2539"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2567": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2567",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2559"
-                }
-            },
-            "extras": {}
+            "vnum": "2540"
         },
-        "2555": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2555",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2556"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2554"
-                }
-            },
-            "extras": {}
-        },
-        "2504": {
-            "name": "The Locker Room",
-            "description": [
-                "You walk into another bare room, except for a ton of lockers.  Row after",
-                "row of lockers are here, lined up next to each other.  Between each row, a",
-                "bench extends the same length as the lockers themselves.  To the east, a",
-                "large iron door leads into an unknown place.  To the north, a open doorway",
-                "leads into a very steamy room.  "
-            ],
+        "2512": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2504",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2505"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2503"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2506"
-                }
-            },
-            "extras": {}
-        },
-        "2551": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
             "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
+                "You stand at the bottom of a set of stairs.  You can go up, or down.  "
             ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2551",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2552"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2550"
-                }
-            },
-            "extras": {}
-        },
-        "2516": {
-            "name": "Outside Hangar A",
-            "description": [
-                "You stand outside Hangar A.  This large building extends into the air",
-                "very far.  To the east, you see a large guard tower standing, with a few",
-                "guards keeping watch.  "
-            ],
-            "flags_raw": "0 0 0 26",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2516",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2510"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2518"
-                }
-            },
-            "extras": {}
-        },
-        "2513": {
-            "name": "Deck 2B Of The Hangar",
-            "description": [
-                "From this point you get a good view of the MagiTek Armor hangar.  You can",
-                "see the beasts standing, hooked up to there hoses, awaiting a driving.  The",
-                "stairs continue up.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2513",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2514"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2512"
-                }
-            },
-            "extras": {}
-        },
-        "2574": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2574",
+            "name": "{ME{mastern {MH{mallway to the {MH{mangers{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2558",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2570"
-                }
-            },
-            "extras": {}
-        },
-        "2503": {
-            "name": "The Bunking Area",
-            "description": [
-                "You enter a very large room.  Row after row of bunk beds are against",
-                "either wall.  Each bunk bed holds a wide variety of diffrent nic-nacs and",
-                "personal items.  Magitek Warriors sit on the beds, or sit at the tables in",
-                "the walkway, playing a game of cards.  A door leads off to the east.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2503",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2502"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2504"
-                }
-            },
-            "extras": {}
-        },
-        "2541": {
-            "name": "The Magitek Tunnel to Strife",
-            "description": [
-                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
-                "giving off a little scrap of light.  The floor is made from stone, and",
-                "along the edges of the wall a little ditch lies, carring the dripping",
-                "water away from the tunnel.  The tunnel goes north and south.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2541",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2542"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "2513",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2510"
-                }
-            },
-            "extras": {}
-        },
-        "2525": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "You are walking on the East Gate Road, which leads to either the southern",
-                "gates on the way out, or the Eastern Gates of Vector.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2525",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2524"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2526"
-                }
-            },
-            "extras": {}
-        },
-        "2506": {
-            "name": "The Arms Room",
-            "description": [
-                "You walk into a anarchist's paradise.  The walls and floors are covered",
-                "in nothing but diffrent weapons, and crates of explosives.  A large sign on",
-                "the wall says \"Do Not Smoke\".  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2506",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2504"
-                }
-            },
-            "extras": {}
-        },
-        "2559": {
-            "name": "{MS{mtronghold {MH{mallway {MS{mouth{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2559",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2560"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2558"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2511",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2566"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2567"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2527": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "To the west is the South Gates.  To the east is the Eastern Gates of",
-                "Vector.  Some MagTik Warriors walk along the walls.  "
-            ],
-            "flags_raw": "0 4 0 11",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2527",
-            "exits": {},
-            "extras": {}
+            "vnum": "2512"
         },
         "2549": {
-            "name": "The Magitek Tunnel to Strife",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The tunnel here is long and dark.  Only a torch hangs on the wall,",
                 "giving off a little scrap of light.  The floor is made from stone, and",
@@ -1424,841 +1184,923 @@
                 "water away from the tunnel A ladder leads upwards to the above",
                 "grounds.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2549",
+            "name": "The Magitek Tunnel to Strife",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2548",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2548"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "901",
                     "description": [
                         ""
-                    ],
-                    "room_id": "901"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2511": {
-            "name": "{MM{magitek {MS{mtronghold {MH{manger {c[{RB{c] {MS{mouth{x",
-            "description": [
-                "You walk into a room of machinery.  Large iron beasts stand, hooked up to",
-                "hoses and sitting still in here.  Men in black coats walk around with clip",
-                "boards watching the beasts, studing the beasts.  The rest of the hangar is",
-                "made up of boxes and crates, holding unknown items.  "
-            ],
-            "flags_raw": "0 8 0 25",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2511",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2518"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2508"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2510"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2512"
-                }
-            },
-            "extras": {}
+            "vnum": "2549"
         },
-        "2586": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2586",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2578"
-                }
-            },
-            "extras": {}
-        },
-        "2520": {
-            "name": "The Roadway",
-            "description": [
-                "You are on the roadway going in and out of the western side of the",
-                "Vectorian Fortress.  You can go north to the hangars and MagTik Facility, or",
-                "south to the Eastern Gates.  "
-            ],
+        "2555": {
+            "extras": {},
             "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2520",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2519"
-                },
-                "south": {
-                    "flags_raw": "2522",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2522"
-                }
-            },
-            "extras": {}
-        },
-        "2582": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2582",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2580"
-                }
-            },
-            "extras": {}
-        },
-        "2564": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2564",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2560"
-                }
-            },
-            "extras": {}
-        },
-        "2568": {
-            "name": "{MS{mtronghold {MH{mallway {ME{mast{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2568",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2558"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2578"
-                }
-            },
-            "extras": {}
-        },
-        "2533": {
-            "name": "The Main Hall Of The Magitek",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2533",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2532"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2534"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2536"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2535"
-                }
-            },
-            "extras": {}
-        },
-        "2562": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2562",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2561"
-                }
-            },
-            "extras": {}
-        },
-        "2583": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2583",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2579"
-                }
-            },
-            "extras": {}
-        },
-        "2561": {
-            "name": "{MS{mtronghold {MH{mallway {MS{mouth{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2561",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2560"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2562"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2563"
-                }
-            },
-            "extras": {}
-        },
-        "2550": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
             "description": [
                 "A small dirt road continues along the emptiness of the fields",
                 "surrounding you.  The Fortress of Vector can be seen north, somewhat",
                 "on a hill.  "
             ],
-            "flags_raw": "0 0 0 11",
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2554",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2556",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "2555"
+        },
+        "2532": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "2550",
+            "description": [],
+            "name": "Inside The Magitek Base",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2531",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2551"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "2533",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2529"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2532"
         },
-        "2545": {
-            "name": "The Magitek Tunnel to Strife",
+        "2544": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The tunnel here is long and dark.  Only a torch hangs on the wall,",
                 "giving off a little scrap of light.  The floor is made from stone, and",
                 "along the edges of the wall a little ditch lies, carring the dripping",
                 "water away from the tunnel.  The tunnel goes north and south. "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2545",
+            "name": "The Magitek Tunnel to Strife",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2543",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2544"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2545",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2546"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2589": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "2544"
+        },
+        "2575": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "2589",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2570",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2575"
+        },
+        "2577": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2569",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2577"
+        },
+        "2565": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2560",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2565"
+        },
+        "2551": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2550",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2552",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2551"
+        },
+        "2533": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Main Hall Of The Magitek",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2532",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2534",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2535",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2536",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2533"
+        },
+        "2561": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {MS{mouth{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2560",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2563",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2562",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2561"
+        },
+        "2582": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2580",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2582"
+        },
+        "2583": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2579",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2507"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2583"
+        },
+        "2523": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You are walking on the East Gate Road, which leads to either the southern",
+                "gates on the way out, or the Eastern Gates of Vector.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2522",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2524",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2523"
+        },
+        "2529": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2526",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2550",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2529"
+        },
+        "2527": {
+            "extras": {},
+            "flags_raw": "0 4 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "To the west is the South Gates.  To the east is the Eastern Gates of",
+                "Vector.  Some MagTik Warriors walk along the walls.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "2527"
+        },
+        "2573": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2571",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2573"
+        },
+        "2553": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2600",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2552",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2554",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2553"
         },
         "2514": {
-            "name": "To The Guard Tower",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are now walking in a small tunnel, which is where this ladder goes",
                 "up.  The tunnel continues up, into a guard tower.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2514",
+            "name": "To The Guard Tower",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "2515",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2515"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "2513",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2513"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2576": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "2514"
+        },
+        "2534": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "2576",
+            "description": [],
+            "name": "The Meeting Room Of The Magitek",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2533",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2569"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2532": {
-            "name": "Inside The Magitek Base",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "2534"
+        },
+        "2505": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "2532",
+            "description": [
+                "You stand in the Shower Room.  This room is filled with naked people and",
+                "hot running water....  A Magitek Warrior drops a bar of soup, and everyone",
+                "just stares...  He doesn't bend over...  "
+            ],
+            "name": "The Shower Room",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2531"
-                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2504",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2533"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2519": {
-            "name": "The Roadway",
-            "description": [
-                "You are on the roadway going in and out of the western side of the",
-                "Vectorian Fortress.  You can go north to the hangars and MagTik Facility, or",
-                "south to the Eastern Gates.  "
-            ],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
+            "vnum": "2505"
+        },
+        "2524": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "2519",
+            "description": [
+                "You are walking on the East Gate Road, which leads to either the southern",
+                "gates on the way out, or the Eastern Gates of Vector.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2523",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2518"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2525",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2520"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2524"
         },
         "2528": {
-            "name": "The Portal Room",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "EAST: Portal To Zozo",
                 "NORTH: Near NEW THALOS",
                 "SOUTH: The Vectorian Titan Valley Base"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2528",
+            "name": "The Portal Room",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1957"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9794",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9794"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "6831",
                     "description": [
                         ""
-                    ],
-                    "room_id": "6831"
-                }
-            },
-            "extras": {}
-        },
-        "2570": {
-            "name": "{MS{mtronghold {MH{mallway {MN{morth{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2570",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "1957",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2569"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2571"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2574"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2575"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2528"
         },
-        "2557": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+        "2550": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [
                 "A small dirt road continues along the emptiness of the fields",
                 "surrounding you.  The Fortress of Vector can be seen north, somewhat",
                 "on a hill.  "
             ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2557",
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
             "exits": {
-                "west": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "2529",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51300"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2551",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2550"
+        },
+        "2558": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{ML{mobby of the {MM{magitek {MS{mtronghold {MD{mormitory{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2569",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2568",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2556"
-                }
-            },
-            "extras": {}
-        },
-        "2563": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2563",
-            "exits": {
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2512",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2561"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2559",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2558"
         },
-        "2543": {
-            "name": "The Magitek Tunnel to Strife",
+        "2554": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2553",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2555",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2554"
+        },
+        "2557": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2556",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51300",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2557"
+        },
+        "2547": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The tunnel here is long and dark.  Only a torch hangs on the wall,",
                 "giving off a little scrap of light.  The floor is made from stone, and",
                 "along the edges of the wall a little ditch lies, carring the dripping",
                 "water away from the tunnel.  The tunnel goes north and south. "
             ],
+            "name": "The Magitek Tunnel to Strife",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2546",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2548",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2547"
+        },
+        "2564": {
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2543",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2542"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2544"
-                }
-            },
-            "extras": {}
-        },
-        "2524": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "You are walking on the East Gate Road, which leads to either the southern",
-                "gates on the way out, or the Eastern Gates of Vector.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2524",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2523"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2525"
-                }
-            },
-            "extras": {}
-        },
-        "2569": {
-            "name": "{MS{mtronghold {MH{mallway {MN{morth{x",
             "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2569",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2558"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2570"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2576"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2577"
-                }
-            },
-            "extras": {}
-        },
-        "2522": {
-            "name": "{MT{mhe {ME{mast {MG{mates {MO{mf {MV{mector{x",
-            "description": [
-                "You stand at the Eastern Gates Of Vector.  Several Guards stand here on",
-                "watch.  They are armed to the teeth.  The gates stand above you, made from",
-                "iron, and closed very tightly.  To the south, a road leads along the wall of",
-                "Vector.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2522",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2520"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2523"
-                }
-            },
-            "extras": {}
-        },
-        "2529": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2529",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2550"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2526"
-                }
-            },
-            "extras": {}
-        },
-        "2540": {
-            "name": "The Docks Of The Warehouse",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2540",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2539"
-                }
-            },
-            "extras": {}
-        },
-        "2553": {
-            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
-            "description": [
-                "A small dirt road continues along the emptiness of the fields",
-                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
-                "on a hill.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2553",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2600"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2554"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2552"
-                }
-            },
-            "extras": {}
-        },
-        "2575": {
             "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2575",
             "exits": {
-                "west": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "2560",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2570"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2564"
+        },
+        "2515": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand in the largest Guard Tower of Vector.  From here you can see",
+                "the whole fortress layed out before you.  To the west you can see the main",
+                "complex of Vector, raising up above the guard tower.  To the southwest you",
+                "can see the small courtyard and the buildings there.  To the downward west",
+                "you can see the hangars and the Magitek Complex.  To the south, the Magitek",
+                "Factory.  "
+            ],
+            "name": "The Guard Tower",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2514",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2515"
+        },
+        "2586": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2578",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2586"
+        },
+        "2542": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
+                "giving off a little scrap of light.  The floor is made from stone, and",
+                "along the edges of the wall a little ditch lies, carring the dripping",
+                "water away from the tunnel.  The tunnel goes north and south. "
+            ],
+            "name": "The Magitek Tunnel to Strife",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2541",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2543",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2542"
         },
         "2539": {
-            "name": "Near The Docks",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2539",
+            "description": [],
+            "name": "Near The Docks",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "2538",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2538"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2540",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2540"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2539"
+        },
+        "2556": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2555",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2557",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2556"
+        },
+        "2541": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
+                "giving off a little scrap of light.  The floor is made from stone, and",
+                "along the edges of the wall a little ditch lies, carring the dripping",
+                "water away from the tunnel.  The tunnel goes north and south.  "
+            ],
+            "name": "The Magitek Tunnel to Strife",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "2510",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2542",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2541"
+        },
+        "2517": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand outside Hangar B.  This large building extends into the air",
+                "very far.  To the east, you see a large guard tower standing, with a few",
+                "guards keeping watch.  "
+            ],
+            "name": "Outside Hangar B",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "2517"
+        },
+        "2589": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2507",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2589"
         },
         "2501": {
-            "name": "Command's Office",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You step into the Commander's Office.  The office is very messy, with",
                 "papers and books stacked all around.  On the walls you see plans for the new",
@@ -2266,344 +2108,504 @@
                 "appears at the bottom.  A desk stands in the middle, also cluttered with",
                 "stuff, that is really all that is in here.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2501",
+            "name": "Command's Office",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2500",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2500"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2537": {
-            "name": "The Portal Room",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "2501"
+        },
+        "2530": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "2537",
+            "description": [],
+            "name": "Outside a St.Plattsburg Warehouse",
             "exits": {
-                "west": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "2531",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2536"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2530"
         },
-        "2588": {
+        "2562": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
             "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2588",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2509"
-                }
-            },
-            "extras": {}
-        },
-        "2544": {
-            "name": "The Magitek Tunnel to Strife",
-            "description": [
-                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
-                "giving off a little scrap of light.  The floor is made from stone, and",
-                "along the edges of the wall a little ditch lies, carring the dripping",
-                "water away from the tunnel.  The tunnel goes north and south. "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2544",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2543"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2545"
-                }
-            },
-            "extras": {}
-        },
-        "2565": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2565",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2560"
-                }
-            },
-            "extras": {}
-        },
-        "2558": {
-            "name": "{ML{mobby of the {MM{magitek {MS{mtronghold {MD{mormitory{x",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2558",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2559"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2569"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2512"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2561",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2568"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2562"
+        },
+        "2552": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A small dirt road continues along the emptiness of the fields",
+                "surrounding you.  The Fortress of Vector can be seen north, somewhat",
+                "on a hill.  "
+            ],
+            "name": "{MM{magitek {MS{mtronghold {MA{mccess {MR{moad{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2551",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2553",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2552"
+        },
+        "2585": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2578",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2585"
         },
         "2535": {
-            "name": "The Magitek Armor Shop",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2535",
+            "description": [],
+            "name": "The Magitek Armor Shop",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "2533",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2533"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2547": {
-            "name": "The Magitek Tunnel to Strife",
-            "description": [
-                "The tunnel here is long and dark.  Only a torch hangs on the wall,",
-                "giving off a little scrap of light.  The floor is made from stone, and",
-                "along the edges of the wall a little ditch lies, carring the dripping",
-                "water away from the tunnel.  The tunnel goes north and south. "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "2535"
+        },
+        "2531": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "2547",
+            "description": [],
+            "name": "Inside The Warehouse",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "2530",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2546"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2532",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2531"
+        },
+        "2563": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2561",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2563"
+        },
+        "2569": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {MN{morth{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2570",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2577",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2576",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2558",
                     "description": [
                         ""
-                    ],
-                    "room_id": "2548"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2569"
+        },
+        "2522": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at the Eastern Gates Of Vector.  Several Guards stand here on",
+                "watch.  They are armed to the teeth.  The gates stand above you, made from",
+                "iron, and closed very tightly.  To the south, a road leads along the wall of",
+                "Vector.  "
+            ],
+            "name": "{MT{mhe {ME{mast {MG{mates {MO{mf {MV{mector{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2520",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2523",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2522"
+        },
+        "2536": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "The Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2533",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2537",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2538",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2536"
+        },
+        "2521": {
+            "extras": {},
+            "flags_raw": "0 4 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "You are on the roadway going in and out of the western side of the",
+                "Vectorian Fortress.  You can go north to the hangars and MagTik Facility, or",
+                "south to the Eastern Gates.  To the east you see a few guards standing.  "
+            ],
+            "name": "Guard Post",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "2521"
+        },
+        "2566": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2559",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2566"
+        },
+        "2560": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{MS{mtronghold {MH{mallway {MS{mouth{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2559",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2565",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2564",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2561",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2560"
+        },
+        "2581": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2580",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2581"
         }
     },
-    "uid": "vector07",
-    "area_quest_points": 0,
     "credits": "[75 GR 99] The Magitek Stronghold",
     "faction_id": "",
+    "name": "MagiTek Stronghold",
     "vnums": [
         2500,
         2599
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "2522": {
-            "name": "The MagiTek East Gate Guard~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 AB 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 2522,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB 0 0",
+            "room_name": "A MagiTek Guard stands here keeping watch.\n",
+            "name": "The MagiTek East Gate Guard~\n",
             "raw_flags2": "0 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "MagiTek Fortress Guard~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 2503 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A MagiTek Guard stands here keeping watch.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "MagiTek Fortress Guard~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2500": {
-            "name": "The Vectorian Guard~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [
                 "You can get into the Fortress Of Vector by this guard.\n",
                 "Just say in all lower case letters 'entrance please'\n",
                 "and you should be transfered there. Be sure to be visable.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "ABCDEFGHIJKNO 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 2500,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "ABCDEFGHIJKNO 0 0 0",
+            "room_name": "The Vectorian Guard stands here.\n",
+            "name": "The Vectorian Guard~\n",
             "raw_flags2": "0 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Vectorian Fortress Guard~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 2504 entrance please~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Vectorian Guard stands here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Vectorian Fortress Guard~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2501": {
-            "name": "the punching bag~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 2501,
             "raw_flags": "ABO 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
+            "room_name": "A Punching Bag hangs in one corner of the locker room...\n",
+            "name": "the punching bag~\n",
             "raw_flags2": "101 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "magitek training dummy punching bag~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Punching Bag hangs in one corner of the locker room...\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "magitek training dummy punching bag~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2502": {
-            "name": "A MagiTek Mage~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-90 -90 -90 -90",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-90 -90 -90 -90",
             "vnum": 2502,
             "raw_flags": "ABa 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A MagiTek mage stands here, casting spells on his fellow warriors.\n",
+            "name": "A MagiTek Mage~\n",
             "raw_flags2": "110 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "magitek mage healer~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A MagiTek mage stands here, casting spells on his fellow warriors.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "magitek mage healer~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2503": {
-            "name": "{MT{mhe {ME{mastern {MG{mate {MG{muard{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-35 -35 -35 -35",
             "description": [],
             "raw_flags5": "stand stand none 420",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "BEFGHLR 0 0 0",
-            "raw_flags3": "-35 -35 -35 -35",
             "vnum": 2503,
             "raw_flags": "ABCGd 0 H 0 0",
-            "race_id": "human",
+            "raw_flags4": "BEFGHLR 0 0 0",
+            "room_name": "{MT{mhe {ME{mastern {MG{mate {MG{muard{x stands here on duty.\n",
+            "name": "{MT{mhe {ME{mastern {MG{mate {MG{muard{x~\n",
             "raw_flags2": "109 55 39d39+9201 13d199+8804 5d22+43 crush",
-            "d_flags": "D ~",
+            "keywords": "Magitek Gate Guard East~\n",
             "subroutines": [
                 "M exall 2505 3~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{MT{mhe {ME{mastern {MG{mate {MG{muard{x stands here on duty.\n",
-            "keywords": "Magitek Gate Guard East~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2506": {
-            "name": "the shopkeeper of the MagiTek~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-90 -90 -90 -90",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-90 -90 -90 -90",
             "vnum": 2506,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A man stands here, selling items to the other MagiTek members.\n",
+            "name": "the shopkeeper of the MagiTek~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "magitek shopkeeper~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 2506 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A man stands here, selling items to the other MagiTek members.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "magitek shopkeeper~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2509": {
-            "name": "A Member Of The {MM{magiTek {MA{mrmy{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [
                 "Before you stands the MagiTek Solder, First Class.  They are\n",
                 "dressed in the MagiTek's Best armor, made from lightweight rough iron.\n",
@@ -2611,27 +2613,26 @@
                 "you, watching your every move.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "BCDEFGHIJKLNOU 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 2509,
             "raw_flags": "ABT 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BCDEFGHIJKLNOU 0 0 0",
+            "room_name": "A Member Of The {MM{magiTek {MA{mrmy{x stands here, on duty.\n",
+            "name": "A Member Of The {MM{magiTek {MA{mrmy{x~\n",
             "raw_flags2": "0 5 39d39+9201 39d39+9201 5d23+44 slash",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "vectorian magitek member~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 2509 follow me boys~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Member Of The {MM{magiTek {MA{mrmy{x stands here, on duty.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "vectorian magitek member~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2510": {
-            "name": "MagiTek Armor~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-170 -170 -170 -170",
             "description": [
                 "Before you stands a large, steam breathing beast.  Riding ontop of it,\n",
                 "and inside it, a Vectorian Soldier.  The best stands very tall, on two legs.\n",
@@ -2639,23 +2640,22 @@
                 "mighty, ready to destory anything that gets in its way.  \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV B medium unknown",
-            "raw_flags4": "ABCDEFGHIJKLMNOT ABL CDHQ FIR",
-            "raw_flags3": "-170 -170 -170 -170",
             "vnum": 2510,
             "raw_flags": "ABGd DFac H -1000 0",
-            "race_id": "podrikev",
+            "raw_flags4": "ABCDEFGHIJKLMNOT ABL CDHQ FIR",
+            "room_name": "A large, iron beast, stands here, ready to destroy all.\n",
+            "name": "MagiTek Armor~\n",
             "raw_flags2": "110 5000 1d110+22536 300d20+20000 5d100+1000 acbite",
-            "d_flags": "D ~",
+            "keywords": "magitek armor vector iron beast~\n",
             "subroutines": [
                 "M give 2511 quetok~\n",
                 "M speech 2509 follow me boys~\n",
                 "M grall 2501 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A large, iron beast, stands here, ready to destroy all.\n",
-            "keywords": "magitek armor vector iron beast~\n"
+            "raw_flags6": "AHMV B medium unknown",
+            "race_id": "podrikev",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

@@ -120,8 +120,48 @@ class RoomEntity(GameEntity):
         if trigger:
             event = self.event_to_room("acted", event_data)
 
-    def act_around(self, template, trigger=True):
+    def act_around(self, template, trigger=True, exclude=None):
         room = self.get_room()
 
         for other in room.get_actors(exclude=self):
+            if exclude is not None and (other == exclude or other in exclude):
+                continue
             self.act_to(other, template, trigger=trigger)
+
+    def name_like(self, name):
+        return self.name.lower().startswith(name.lower())
+
+    def query_room_entities(self, types=None, visible=True, keyword=None):
+        """
+        Query the things in the room, using the types provided.
+        Types is a list of GameEntity classes.
+        """
+        # FIXME use setting
+        if keyword == "self":
+            yield self
+
+        else:
+            if type(types) is not list:
+                return None
+
+            room = self.get_room()
+            room_uid = room.uid
+
+            for type_class in types:
+                for result in type_class.query_by("room_uid", room_uid, game=self.game):
+                    if visible and not self.can_see(result):
+                        continue
+
+                    if keyword is not None and not result.name_like(keyword):
+                        continue
+
+                    yield result
+
+    def find_room_entity(self, *args, **kwargs):
+        """
+        Find "something" in the Room, that meets the criteria requested.
+        See query_room_entities for help on parameters.
+        Types is used to define the order
+        """
+        for entity in self.query_room_entities(*args, **kwargs):
+            return entity

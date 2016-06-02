@@ -1,58 +1,888 @@
 {
-    "name": "Talos Cathredral",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "cath02",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "cath02",
     "rooms": {
-        "55301": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
+        "55360": {
+            "extras": {},
             "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55301",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55300"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55306",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55302"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55359",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55360"
         },
-        "55313": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+        "55347": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "1st floor",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55343",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55364",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55348",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55347"
+        },
+        "55376": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
             "description": [
                 "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
                 "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
                 "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
                 "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
             ],
-            "flags_raw": "0 336068640 0 19",
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55375",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "55376"
+        },
+        "55357": {
+            "extras": {},
+            "flags_raw": "0 268435460 0 0",
             "flags2_raw": "0",
-            "vnum": "55313",
+            "description": [],
+            "name": "Path To The Cathedral",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55356",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55358",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55357"
+        },
+        "55344": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Hallway",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55345",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55319"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55337",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55344"
+        },
+        "55367": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Tunnel to catacombs?",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55368",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55343",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55367"
+        },
+        "55318": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Bend In The Fence",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55317",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55321",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55318"
+        },
+        "55322": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Northwest Corner",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55323",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55332",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55322"
+        },
+        "55307": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55308",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55306",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55307"
+        },
+        "55343": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The floor tiles of the Cathedral seem to become chipped here, as",
+                "small flakes appear to scatter as your feet brush up against them. ",
+                "Small portraits line the walls of this hall as well, the faces",
+                "contained within them seeming to leer at you from within their frames.",
+                "The sickening feeling that these paintings were made on canvases of",
+                "human skin does not help to ease this sensation.  The vaulted ceilings",
+                "to the west give way to something of a humbler size to the east, and",
+                "exits can be found in all directions.  "
+            ],
+            "name": "Sanctuary Entrance",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55367",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55342",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55347",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55343"
+        },
+        "55325": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55326",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55324",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55325"
+        },
+        "55338": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Eastern Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55333",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55370",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55339",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55338"
+        },
+        "55392": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55310",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55311",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55392"
+        },
+        "55382": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "West Hall of Sanctuary",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55324",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55374",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55382"
+        },
+        "55379": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "East Hall of Sanctuary",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55329",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55373",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55379"
+        },
+        "55378": {
+            "extras": {},
+            "flags_raw": "0 1141383213 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a whirlwind, where objects fly past you and into you! ",
+                "The great storm pulls at you, tearing at your clothing and equipment",
+                "mercilessly.  As the wind subsides for a moment, you are able to",
+                "examine your surroundings.  The storm continues in all directions",
+                "except below you, where The Sanctuary of the Cathedral lies.  As you",
+                "are about to take action to escape, the storm tugs at you again...!  "
+            ],
+            "name": "Mino Maze",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20293",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20299",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20297",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55378"
+        },
+        "55306": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55307",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55360",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55306"
+        },
+        "55375": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{@T{2he na{@rr{2ow {@p{8at{@h {2between the hawthorn {@f{2e{#n{3c{2e{@s op{2ens to{0",
+                "{8a {@s{2mall {@s{2quar{@e {2here. Old {3wo{#od{3en {8b{7e{2n{7c{8h {2sits at {@t{2he west{0",
+                "{@wa{2l{@l de{3ca{8y{3in{@g {2slowly. Glimpses of {8st{7on{8es {@fro{2m the old{0",
+                "{8p{7a{Wthw{7a{8y {@can {2be seen trought the {@m{#os{@s {2and {@gr{2a{@ss {2on the{0",
+                "{2ground.{0"
+            ],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55376",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38875",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55399",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55375"
+        },
+        "55323": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55324",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55322",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55372",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55323"
+        },
+        "55356": {
+            "extras": {},
+            "flags_raw": "0 335544324 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "At the Cathedral Steps",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55355",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55357",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55356"
+        },
+        "55381": {
+            "extras": {},
+            "flags_raw": "0 0 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "Great blocks of stone and gravel block the way leading down to the",
+                "Catacombs.  Moss grows on the soil here, and the air is still.  Small",
+                "alcoves line the walls, shallowly filled in with dirt from the",
+                "avalanche.  Above, the tunnel continues undaunted by the cave-in that",
+                "must have happened here years ago.  "
+            ],
+            "name": "Rubble Blocking Passage",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "55368",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55381"
+        },
+        "55396": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "1st floor",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "12901",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55362",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55361",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55396"
+        },
+        "55383": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
+                "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
+                "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
+                "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
+            ],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38876",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55383"
+        },
+        "55331": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Northeast Corner",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55330",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55333",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55331"
+        },
+        "55349": {
+            "extras": {},
+            "flags_raw": "0 268967973 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Southern Corner",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55346",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55350",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55349"
+        },
+        "55342": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Hall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55341",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55343",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55342"
+        },
+        "55369": {
+            "extras": {},
+            "flags_raw": "0 67108876 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "An Office",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55334",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55369"
+        },
+        "55328": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55329",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55327",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55328"
+        },
+        "55302": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55301",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38853",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55302"
+        },
+        "55329": {
+            "extras": {},
+            "flags_raw": "0 268435468 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55330",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55328",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55379",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55329"
+        },
+        "55324": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55325",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55323",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55382",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55324"
+        },
+        "55335": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Western Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55334",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55336",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55335"
         },
         "55345": {
-            "name": "Sanctuary Entrance",
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The floor tiles of the Cathedral seem to become chipped here, as",
                 "small flakes appear to scatter as your feet brush up against them. ",
@@ -63,990 +893,431 @@
                 "to the east give way to something of a humbler size to the west, and",
                 "exits can be found in all directions.  "
             ],
+            "name": "Sanctuary Entrance",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55365",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55344",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55346",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55345"
+        },
+        "55353": {
+            "extras": {},
             "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55345",
+            "description": [],
+            "name": "1st Floor",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55350",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55365"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55344"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55346"
-                }
-            },
-            "extras": {}
-        },
-        "55317": {
-            "name": "A Bend In The Fence",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55317",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55316"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55318"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12802"
-                }
-            },
-            "extras": {}
-        },
-        "55368": {
-            "name": "Tunnel Down To Catacombs",
-            "description": [
-                "This side used to lead into the CoD clanhall.  Blocked down from here by rubble"
-            ],
-            "flags_raw": "0 12 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55368",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55367"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55381"
-                }
-            },
-            "extras": {}
-        },
-        "55306": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55306",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55360"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55354",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55307"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55376": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [
-                "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
-                "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
-                "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
-                "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
-            ],
-            "flags_raw": "0 336068640 0 19",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55376",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55375"
-                }
-            },
-            "extras": {}
+            "vnum": "55353"
         },
-        "55333": {
-            "name": "Eastern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55333",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55331"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55338"
-                }
-            },
-            "extras": {}
-        },
-        "55357": {
-            "name": "Path To The Cathedral",
-            "description": [],
-            "flags_raw": "0 268435460 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55357",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55356"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55358"
-                }
-            },
-            "extras": {}
-        },
-        "55388": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55388",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55312"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38867"
-                }
-            },
-            "extras": {}
-        },
-        "55310": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55310",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55300"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55392"
-                }
-            },
-            "extras": {}
-        },
-        "55397": {
-            "name": "Along The Northern Wall",
-            "description": [
-                "The wall opens here into a beautiful passage to",
-                "north. Silver torches decorates the passage on both",
-                "sides, casting light shadows to the black marble",
-                "walls. The hallways continues to east and west."
-            ],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55397",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38896"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55326"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55327"
-                }
-            },
-            "extras": {}
-        },
-        "55319": {
-            "name": "A Bend In The Fence",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55319",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55313"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55320"
-                }
-            },
-            "extras": {}
-        },
-        "55337": {
-            "name": "Southwest Corner",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55337",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55336"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55344"
-                }
-            },
-            "extras": {}
-        },
-        "55372": {
-            "name": "Closet",
-            "description": [],
+        "55370": {
+            "extras": {},
             "flags_raw": "0 67108876 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55372",
+            "description": [],
+            "name": "An Office",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55338",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55370"
+        },
+        "55308": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55309",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55307",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55308"
+        },
+        "55336": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Western Wall",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55335",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55323"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55337",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55336"
         },
         "55326": {
-            "name": "Along The Northern Wall",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55326",
+            "description": [],
+            "name": "Along The Northern Wall",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55325"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55397",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55397"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "12906",
                     "description": [
                         ""
-                    ],
-                    "room_id": "12906"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55325",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55324": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
             "wanted_area_vnum": "",
+            "vnum": "55326"
+        },
+        "55351": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
             "flags2_raw": "0",
-            "vnum": "55324",
+            "description": [],
+            "name": "1st Floor",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55348",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55362",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55352",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55382"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55323"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55325"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55354": {
-            "name": "Cathedral Entrance",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
             "wanted_area_vnum": "",
+            "vnum": "55351"
+        },
+        "55368": {
+            "extras": {},
+            "flags_raw": "0 12 0 0",
             "flags2_raw": "0",
-            "vnum": "55354",
+            "description": [
+                "This side used to lead into the CoD clanhall.  Blocked down from here by rubble"
+            ],
+            "name": "Tunnel Down To Catacombs",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55367",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55353"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "55381",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55368"
+        },
+        "55374": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Western Hall of Sanctuary",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55382",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55390",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55374"
+        },
+        "55314": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "You see a small break in the bars of the fence.  If someone tried,",
+                "they might be able to squeeze through!  "
+            ],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55309",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55387",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55355"
-                }
-            },
-            "extras": {}
-        },
-        "55362": {
-            "name": "Lobby Type Area",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55362",
-            "exits": {
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55386",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55396"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55314"
+        },
+        "55373": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "East Hall of Sanctuary",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55379",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55377",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55373"
+        },
+        "55372": {
+            "extras": {},
+            "flags_raw": "0 67108876 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Closet",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55323",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55372"
+        },
+        "55337": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Southwest Corner",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55336",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55344",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55351"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55337"
         },
         "55311": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55311",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55392"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55312"
-                }
-            },
-            "extras": {}
-        },
-        "55391": {
-            "name": "",
             "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55391",
-            "exits": {},
-            "extras": {}
-        },
-        "55383": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [
-                "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
-                "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
-                "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
-                "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
-            ],
-            "flags_raw": "0 336068640 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55383",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38876"
-                }
-            },
-            "extras": {}
-        },
-        "55387": {
-            "name": "Sacred Glen",
-            "description": [],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55387",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55314"
-                }
-            },
-            "extras": {}
-        },
-        "55316": {
             "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [
-                "{@T{2he na{@rr{2ow {@p{8at{@h {2between the hawthorn {@f{2e{#n{3c{2e{@s op{2ens to{0",
-                "{8a {@s{2mall {@s{2quar{@e {2here. Old {3wo{#od{3en {8b{7e{2n{7c{8h {2sits at {@t{2he east{0",
-                "{@wa{2l{@l de{3ca{8y{3in{@g {2slowly. Glimpses of {8st{7on{8es {@fro{2m the old{0",
-                "{8p{7a{Wthw{7a{8y {@can {2be seen trought the {@m{#os{@s {2and {@gr{2a{@ss {2on the{0",
-                "{2ground.{0"
-            ],
-            "flags_raw": "0 336068640 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55316",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55392",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55315"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55389"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55312",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55317"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55353": {
-            "name": "1st Floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
             "wanted_area_vnum": "",
+            "vnum": "55311"
+        },
+        "55361": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
             "flags2_raw": "0",
-            "vnum": "55353",
+            "description": [],
+            "name": "Lobby Type Area",
             "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55350"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55396",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55354"
-                }
-            },
-            "extras": {}
-        },
-        "55348": {
-            "name": "Southern Corner",
-            "description": [],
-            "flags_raw": "0 336068652 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55348",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55347"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55350",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55351"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55325": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55325",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55324"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55326"
-                }
-            },
-            "extras": {}
+            "vnum": "55361"
         },
-        "55304": {
+        "55359": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
             "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55304",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55303"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55360",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55359"
-                }
-            },
-            "extras": {}
-        },
-        "55371": {
-            "name": "Closet",
-            "description": [],
-            "flags_raw": "0 67108876 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55371",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55330"
-                }
-            },
-            "extras": {}
-        },
-        "55344": {
-            "name": "Hallway",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55344",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55337"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55345"
-                }
-            },
-            "extras": {}
-        },
-        "55396": {
-            "name": "1st floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55396",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12901"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55304",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55361"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55362"
-                }
-            },
-            "extras": {}
-        },
-        "55394": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55394",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55320"
-                }
-            },
-            "extras": {}
-        },
-        "55379": {
-            "name": "East Hall of Sanctuary",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55379",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55329"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "38895",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55373"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55375": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [
-                "{@T{2he na{@rr{2ow {@p{8at{@h {2between the hawthorn {@f{2e{#n{3c{2e{@s op{2ens to{0",
-                "{8a {@s{2mall {@s{2quar{@e {2here. Old {3wo{#od{3en {8b{7e{2n{7c{8h {2sits at {@t{2he west{0",
-                "{@wa{2l{@l de{3ca{8y{3in{@g {2slowly. Glimpses of {8st{7on{8es {@fro{2m the old{0",
-                "{8p{7a{Wthw{7a{8y {@can {2be seen trought the {@m{#os{@s {2and {@gr{2a{@ss {2on the{0",
-                "{2ground.{0"
-            ],
-            "flags_raw": "0 336068640 0 19",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55375",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55399"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55376"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38875"
-                }
-            },
-            "extras": {}
-        },
-        "55382": {
-            "name": "West Hall of Sanctuary",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55382",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55324"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55374"
-                }
-            },
-            "extras": {}
-        },
-        "55335": {
-            "name": "Western Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55335",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55334"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55336"
-                }
-            },
-            "extras": {}
-        },
-        "55349": {
-            "name": "Southern Corner",
-            "description": [],
-            "flags_raw": "0 268967973 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55349",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55346"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55350"
-                }
-            },
-            "extras": {}
-        },
-        "55341": {
-            "name": "Southeast Corner",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55341",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55340"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55342"
-                }
-            },
-            "extras": {}
-        },
-        "55398": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55398",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55321"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38854"
-                }
-            },
-            "extras": {}
-        },
-        "55334": {
-            "name": "Western Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55334",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55335"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55332"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55369"
-                }
-            },
-            "extras": {}
+            "vnum": "55359"
         },
         "55380": {
-            "name": "Mino Maze",
+            "extras": {},
+            "flags_raw": "0 1141383213 0 20",
+            "flags2_raw": "0",
             "description": [
                 "You are in a whirlwind, where objects fly past you and into you! ",
                 "The great storm pulls at you, tearing at your clothing and equipment",
@@ -1056,1045 +1327,415 @@
                 "the west, where a precipitous balcony rests.  As you are about to take",
                 "action to escape, the storm tugs at you again...!  "
             ],
-            "flags_raw": "0 1141383213 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55380",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20295"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20285"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55393"
-                }
-            },
-            "extras": {}
-        },
-        "55308": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55308",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55307"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55309"
-                }
-            },
-            "extras": {}
-        },
-        "55378": {
             "name": "Mino Maze",
-            "description": [
-                "You are in a whirlwind, where objects fly past you and into you! ",
-                "The great storm pulls at you, tearing at your clothing and equipment",
-                "mercilessly.  As the wind subsides for a moment, you are able to",
-                "examine your surroundings.  The storm continues in all directions",
-                "except below you, where The Sanctuary of the Cathedral lies.  As you",
-                "are about to take action to escape, the storm tugs at you again...!  "
-            ],
-            "flags_raw": "0 1141383213 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55378",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20285",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20293"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20297"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55393",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20299"
-                }
-            },
-            "extras": {}
-        },
-        "55356": {
-            "name": "At the Cathedral Steps",
-            "description": [],
-            "flags_raw": "0 335544324 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55356",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55355"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20295",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55357"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55395": {
-            "name": "1st Floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55395",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55355"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55352"
-                }
-            },
-            "extras": {}
-        },
-        "55342": {
-            "name": "Hall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55342",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55343"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55341"
-                }
-            },
-            "extras": {}
-        },
-        "55347": {
-            "name": "1st floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55347",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55343"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55364"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55348"
-                }
-            },
-            "extras": {}
-        },
-        "55340": {
-            "name": "Eastern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55340",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55339"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55341"
-                }
-            },
-            "extras": {}
-        },
-        "55322": {
-            "name": "Northwest Corner",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55322",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55332"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55323"
-                }
-            },
-            "extras": {}
-        },
-        "55331": {
-            "name": "Northeast Corner",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55331",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55330"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55333"
-                }
-            },
-            "extras": {}
-        },
-        "55329": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 268435468 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55329",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55379"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55328"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55330"
-                }
-            },
-            "extras": {}
-        },
-        "55355": {
-            "name": "Cathedral Entrance",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55355",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55356"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55354"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55395"
-                }
-            },
-            "extras": {}
-        },
-        "55305": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55305",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55385"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55315"
-                }
-            },
-            "extras": {}
-        },
-        "55343": {
-            "name": "Sanctuary Entrance",
-            "description": [
-                "The floor tiles of the Cathedral seem to become chipped here, as",
-                "small flakes appear to scatter as your feet brush up against them. ",
-                "Small portraits line the walls of this hall as well, the faces",
-                "contained within them seeming to leer at you from within their frames.",
-                "The sickening feeling that these paintings were made on canvases of",
-                "human skin does not help to ease this sensation.  The vaulted ceilings",
-                "to the west give way to something of a humbler size to the east, and",
-                "exits can be found in all directions.  "
-            ],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55343",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55347"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55367"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55342"
-                }
-            },
-            "extras": {}
-        },
-        "55307": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55307",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55306"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55308"
-                }
-            },
-            "extras": {}
-        },
-        "55315": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55315",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55305"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55316"
-                }
-            },
-            "extras": {}
-        },
-        "55300": {
-            "name": "A Bend In The Fence",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55300",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55310"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55301"
-                }
-            },
-            "extras": {}
-        },
-        "55361": {
-            "name": "Lobby Type Area",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55361",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55350"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55396"
-                }
-            },
-            "extras": {}
-        },
-        "55336": {
-            "name": "Western Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55336",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55335"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55337"
-                }
-            },
-            "extras": {}
-        },
-        "55364": {
-            "name": "Some Spiraling Stairs",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55364",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55347"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12866"
-                }
-            },
-            "extras": {}
-        },
-        "55320": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
-            "flags_raw": "0 336068640 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55320",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55394"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55319"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38882"
-                }
-            },
-            "extras": {}
-        },
-        "55367": {
-            "name": "Tunnel to catacombs?",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55367",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55343"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55368"
-                }
-            },
-            "extras": {}
-        },
-        "55309": {
-            "name": "A Bend In The Fence",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55309",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55308"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55314"
-                }
-            },
-            "extras": {}
-        },
-        "55321": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55321",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55318"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55398"
-                }
-            },
-            "extras": {}
-        },
-        "55386": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55386",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55314"
-                }
-            },
-            "extras": {}
-        },
-        "55377": {
-            "name": "East Hall of Sanctuary",
-            "description": [
-                "The floor tiles of the Cathedral seem to become chipped here, as",
-                "small flakes appear to scatter as your feet brush up against them. ",
-                "Small portraits line the walls of this hall as well, the faces",
-                "contained within them seeming to leer at you from within their frames.",
-                "The sickening feeling that hese paintings were made on canvases of",
-                "human skin does not help to ease this sensation.  The vaulted ceilings",
-                "to the west give way to something of a humbler size to the east, and",
-                "exits can be found to the north and west.  "
-            ],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55377",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55373"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20264"
-                }
-            },
-            "extras": {}
-        },
-        "55332": {
-            "name": "Western Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55332",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55322"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55334"
-                }
-            },
-            "extras": {}
-        },
-        "55330": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55330",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55371"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55329"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55331"
-                }
-            },
-            "extras": {}
-        },
-        "55358": {
-            "name": "Path To The Cathedral of Destruction",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55358",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55357"
-                }
-            },
-            "extras": {}
-        },
-        "55393": {
-            "name": "Mino Maze",
-            "description": [
-                "You are in a whirlwind, where objects fly past you and into you! ",
-                "The great storm pulls at you, tearing at your clothing and equipment",
-                "mercilessly.  As the wind subsides for a moment, you are able to",
-                "examine your surroundings.  The storm continues in all directions",
-                "except below you, where The Sanctuary of the Cathedral lies.  As you",
-                "are about to take action to escape, the storm tugs at you again...!  "
-            ],
-            "flags_raw": "0 1141383213 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55393",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20296"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20286"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55380"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20292"
-                }
-            },
-            "extras": {}
-        },
-        "55323": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55323",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55372"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55322"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55324"
-                }
-            },
-            "extras": {}
-        },
-        "55352": {
-            "name": "1st Floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55352",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55351"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55395"
-                }
-            },
-            "extras": {}
+            "vnum": "55380"
         },
         "55366": {
-            "name": "Tunnel Down To Catacombs",
+            "extras": {},
+            "flags_raw": "0 67108876 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Tunnel down to another area below cathedral.  To be made later."
             ],
-            "flags_raw": "0 67108876 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55366",
+            "name": "Tunnel Down To Catacombs",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55365",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55365"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "12932",
                     "description": [
                         ""
-                    ],
-                    "room_id": "12932"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55303": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55303",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55304"
-                }
-            },
-            "extras": {}
+            "vnum": "55366"
         },
-        "55363": {
-            "name": "Stairwell",
-            "description": [],
+        "55333": {
+            "extras": {},
             "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55363",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55346"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12865"
-                }
-            },
-            "extras": {}
-        },
-        "55302": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
             "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55302",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55301"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38853"
-                }
-            },
-            "extras": {}
-        },
-        "55360": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55360",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55359"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55306"
-                }
-            },
-            "extras": {}
-        },
-        "55373": {
-            "name": "East Hall of Sanctuary",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55373",
+            "name": "Eastern Wall",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55331",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55379"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55338",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55377"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55333"
+        },
+        "55305": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55385",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55315",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55305"
+        },
+        "55354": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Cathedral Entrance",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55355",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55353",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55354"
+        },
+        "55303": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55304",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55303"
+        },
+        "55395": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "1st Floor",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55352",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55355",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55395"
+        },
+        "55317": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Bend In The Fence",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55316",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55318",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "12802",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55317"
+        },
+        "55362": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Lobby Type Area",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55351",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55396",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55362"
+        },
+        "55313": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
+                "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
+                "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
+                "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
+            ],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55319",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55313"
+        },
+        "55309": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Bend In The Fence",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55308",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55314",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55309"
+        },
+        "55388": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38867",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55312",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55388"
+        },
+        "55384": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
+                "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
+                "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
+                "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
+            ],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55385",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55384"
+        },
+        "55394": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55320",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55394"
+        },
+        "55319": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Bend In The Fence",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55313",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55320",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55319"
+        },
+        "55397": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The wall opens here into a beautiful passage to",
+                "north. Silver torches decorates the passage on both",
+                "sides, casting light shadows to the black marble",
+                "walls. The hallways continues to east and west."
+            ],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38896",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55327",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55326",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55397"
         },
         "55390": {
-            "name": "West Hall of Sanctuary",
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The floor tiles of the Cathedral seem to become chipped here, as",
                 "small flakes appear to scatter as your feet brush up against them. ",
@@ -2105,690 +1746,1050 @@
                 "to the east give way to something of a humbler size to the west, and",
                 "exits can be found to the north and east.  "
             ],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55390",
+            "name": "West Hall of Sanctuary",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55374",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55374"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20256",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20256"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55328": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
             "wanted_area_vnum": "",
+            "vnum": "55390"
+        },
+        "55398": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
             "flags2_raw": "0",
-            "vnum": "55328",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55321",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38854",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55398"
+        },
+        "55300": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Bend In The Fence",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55301",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55310",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55300"
+        },
+        "55316": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{@T{2he na{@rr{2ow {@p{8at{@h {2between the hawthorn {@f{2e{#n{3c{2e{@s op{2ens to{0",
+                "{8a {@s{2mall {@s{2quar{@e {2here. Old {3wo{#od{3en {8b{7e{2n{7c{8h {2sits at {@t{2he east{0",
+                "{@wa{2l{@l de{3ca{8y{3in{@g {2slowly. Glimpses of {8st{7on{8es {@fro{2m the old{0",
+                "{8p{7a{Wthw{7a{8y {@can {2be seen trought the {@m{#os{@s {2and {@gr{2a{@ss {2on the{0",
+                "{2ground.{0"
+            ],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55315",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55389",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55317",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55316"
+        },
+        "55340": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Eastern Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55339",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55341",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55340"
+        },
+        "55327": {
+            "extras": {},
+            "flags_raw": "0 335544329 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55328",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "12903",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55397",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55327"
+        },
+        "55364": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Some Spiraling Stairs",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55347",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "12866",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55364"
+        },
+        "55387": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Sacred Glen",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55314",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55327"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55387"
+        },
+        "55320": {
+            "extras": {},
+            "flags_raw": "0 336068640 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55319",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "38882",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55329"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55394",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55370": {
-            "name": "An Office",
-            "description": [],
-            "flags_raw": "0 67108876 0 0",
             "wanted_area_vnum": "",
+            "vnum": "55320"
+        },
+        "55341": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
             "flags2_raw": "0",
-            "vnum": "55370",
+            "description": [],
+            "name": "Southeast Corner",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55340",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55342",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55341"
+        },
+        "55352": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "1st Floor",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55351",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55395",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55352"
+        },
+        "55339": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Eastern Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55338",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55340",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55339"
+        },
+        "55315": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55305",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55316",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55315"
+        },
+        "55355": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Cathedral Entrance",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55395",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55338"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55354",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55356",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55355"
+        },
+        "55330": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Along The Northern Wall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55331",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55329",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55371",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55330"
+        },
+        "55365": {
+            "extras": {},
+            "flags_raw": "0 67108876 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Tunnel Down To Catacombs",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55366",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55345",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55365"
+        },
+        "55363": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Stairwell",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "12865",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55346",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55363"
+        },
+        "55350": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "1st Floor",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55361",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55349",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55353",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55350"
+        },
+        "55377": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The floor tiles of the Cathedral seem to become chipped here, as",
+                "small flakes appear to scatter as your feet brush up against them. ",
+                "Small portraits line the walls of this hall as well, the faces",
+                "contained within them seeming to leer at you from within their frames.",
+                "The sickening feeling that hese paintings were made on canvases of",
+                "human skin does not help to ease this sensation.  The vaulted ceilings",
+                "to the west give way to something of a humbler size to the east, and",
+                "exits can be found to the north and west.  "
+            ],
+            "name": "East Hall of Sanctuary",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55373",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20264",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55377"
         },
         "55312": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
             "description": [
                 "some thistles block the path southward"
             ],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55312",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55311"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55388"
-                }
-            },
-            "extras": {}
-        },
-        "55392": {
             "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55392",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55311",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55310"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55311"
-                }
-            },
-            "extras": {}
-        },
-        "55318": {
-            "name": "A Bend In The Fence",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55318",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55321"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55388",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55317"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55312"
         },
-        "55385": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+        "55391": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
             "description": [],
-            "flags_raw": "0 268435456 0 19",
+            "name": "",
+            "exits": {},
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55385",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55384"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55305"
-                }
-            },
-            "extras": {}
-        },
-        "55381": {
-            "name": "Rubble Blocking Passage",
-            "description": [
-                "Great blocks of stone and gravel block the way leading down to the",
-                "Catacombs.  Moss grows on the soil here, and the air is still.  Small",
-                "alcoves line the walls, shallowly filled in with dirt from the",
-                "avalanche.  Above, the tunnel continues undaunted by the cave-in that",
-                "must have happened here years ago.  "
-            ],
-            "flags_raw": "0 0 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55381",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55368"
-                }
-            },
-            "extras": {}
-        },
-        "55359": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55359",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38895"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55304"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55360"
-                }
-            },
-            "extras": {}
-        },
-        "55339": {
-            "name": "Eastern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55339",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55338"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55340"
-                }
-            },
-            "extras": {}
-        },
-        "55327": {
-            "name": "Along The Northern Wall",
-            "description": [],
-            "flags_raw": "0 335544329 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55327",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55397"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55328"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "12903"
-                }
-            },
-            "extras": {}
-        },
-        "55338": {
-            "name": "Eastern Wall",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55338",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55333"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55370"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55339"
-                }
-            },
-            "extras": {}
-        },
-        "55350": {
-            "name": "1st Floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55350",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55353"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55349"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55361"
-                }
-            },
-            "extras": {}
-        },
-        "55365": {
-            "name": "Tunnel Down To Catacombs",
-            "description": [],
-            "flags_raw": "0 67108876 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55365",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55366"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55345"
-                }
-            },
-            "extras": {}
-        },
-        "55314": {
-            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
-            "description": [
-                "You see a small break in the bars of the fence.  If someone tried,",
-                "they might be able to squeeze through!  "
-            ],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55314",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55309"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55386"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55387"
-                }
-            },
-            "extras": {}
-        },
-        "55374": {
-            "name": "Western Hall of Sanctuary",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55374",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55382"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55390"
-                }
-            },
-            "extras": {}
-        },
-        "55384": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [
-                "{@T{2he {@fe{2nc{@es {2are less {3t{#h{3i{#c{3k {2and {@s{2t{3ro{2n{@g {2in this dead{0",
-                "{2end of the {@p{8at{@h. {2Thick layers of m{3os{2s and dead {#l{3e{8a{3f{#s{0",
-                "{2covers the {3g{#r{8ou{#n{3d {@h{2e{@re. T{2he once beautiful {8s{7ton{8e {2plated{0",
-                "{8p{7a{Wthw{7a{8y {2is now brickled and buried by the wild {@ve{2ge{3t{2at{@ion.{0"
-            ],
-            "flags_raw": "0 336068640 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55384",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55385"
-                }
-            },
-            "extras": {}
-        },
-        "55389": {
-            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
-            "description": [],
-            "flags_raw": "0 268435456 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55389",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38864"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55316"
-                }
-            },
-            "extras": {}
-        },
-        "55369": {
-            "name": "An Office",
-            "description": [],
-            "flags_raw": "0 67108876 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55369",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55334"
-                }
-            },
-            "extras": {}
-        },
-        "55351": {
-            "name": "1st Floor",
-            "description": [],
-            "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55351",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55352"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55362"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55348"
-                }
-            },
-            "extras": {}
+            "vnum": "55391"
         },
         "55346": {
-            "name": "Hall",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 335544332 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "55346",
+            "description": [],
+            "name": "Hall",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55349"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55345",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55345"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55363",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55363"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55349",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55346"
+        },
+        "55334": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Western Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55332",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55369",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55335",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55334"
+        },
+        "55371": {
+            "extras": {},
+            "flags_raw": "0 67108876 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Closet",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55330",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55371"
+        },
+        "55385": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55305",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55384",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55385"
+        },
+        "55321": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55318",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55398",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55321"
+        },
+        "55304": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{W{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55359",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55303",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55304"
+        },
+        "55386": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55314",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55386"
+        },
+        "55310": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55300",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55392",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55310"
+        },
+        "55389": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@G{2a{8rd{2e{@n P{8at{@h{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55316",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38864",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55389"
+        },
+        "55301": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 19",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{@A{3l{#o{2n{@g {8the {@G{2a{8rd{2e{@n F{2e{#n{3c{@e{0",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55302",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55300",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55301"
+        },
+        "55348": {
+            "extras": {},
+            "flags_raw": "0 336068652 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Southern Corner",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55347",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55351",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55348"
+        },
+        "55358": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Path To The Cathedral of Destruction",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55357",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55358"
+        },
+        "55332": {
+            "extras": {},
+            "flags_raw": "0 335544332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Western Wall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55322",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55334",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55332"
+        },
+        "55393": {
+            "extras": {},
+            "flags_raw": "0 1141383213 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a whirlwind, where objects fly past you and into you! ",
+                "The great storm pulls at you, tearing at your clothing and equipment",
+                "mercilessly.  As the wind subsides for a moment, you are able to",
+                "examine your surroundings.  The storm continues in all directions",
+                "except below you, where The Sanctuary of the Cathedral lies.  As you",
+                "are about to take action to escape, the storm tugs at you again...!  "
+            ],
+            "name": "Mino Maze",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20286",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20292",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55380",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20296",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55393"
         }
     },
-    "uid": "cath02",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] Cathedral Of Destruction III",
     "faction_id": "",
+    "name": "Talos Cathredral",
     "vnums": [
         55300,
         55399
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "55393": {
-            "name": "A Whirlwind~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "HK 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55393,
             "raw_flags": "ABGMd DFTZ P 0 0",
-            "race_id": "human",
-            "raw_form": "AMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "A Whirlwind floats here, blowing you about!\n",
+            "name": "A Whirlwind~\n",
             "raw_flags2": "102 0 1d1+5000 1d1+5000 1d1+5000 none",
-            "d_flags": "D ~",
+            "raw_form": "AMV",
+            "keywords": "Whirlwind~\n",
             "subroutines": [
                 "F for AMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 55393 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Whirlwind floats here, blowing you about!\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Whirlwind~\n"
+            "raw_flags6": "HK 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55394": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55394,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55394 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55300": {
-            "name": "{RRedo this mob{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLMPQ DM ES",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55300,
             "raw_flags": "ABGXa DFJTZ 0 1000 0",
-            "race_id": "heucuva",
-            "raw_flags2": "105 0 0d0+0 5000d5000+5000 1d1+100 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABCDLMPQ DM ES",
             "room_name": "A cursed priest of Ilmater stands here, casting healing spells\n",
-            "keywords": "Undead Priest Healer~\n"
+            "name": "{RRedo this mob{x~\n",
+            "raw_flags2": "105 0 0d0+0 5000d5000+5000 1d1+100 claw",
+            "keywords": "Undead Priest Healer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "heucuva",
+            "t_flags": "T ~"
         },
         "55301": {
-            "name": "A scared priest of Talos~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55301,
             "raw_flags": "ABG 0 0 316 0",
-            "race_id": "human",
-            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 0 0 0",
             "room_name": "A shifty priest of Talos paces here, clearly nervous.\n",
-            "keywords": "shifty priest~\n"
+            "name": "A scared priest of Talos~\n",
+            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
+            "keywords": "shifty priest~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55302": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55302,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55302 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55303": {
-            "name": "{7A {*blackened {7thistle bush{x~\n",
-            "description": [],
-            "raw_flags5": "stand stand none 0",
-            "raw_flags6": "BD 0 tiny wood",
-            "raw_flags4": "EN ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_off": "D",
             "raw_parts": "ABCDEFGHIJKUV",
+            "d_flags": "D ~",
             "raw_flags3": "0 0 0 0",
+            "raw_resistances": "BE",
+            "description": [],
+            "raw_off": "D",
+            "raw_flags5": "stand stand none 0",
             "vnum": 55303,
             "raw_flags": "ABGN DFJc HP 0 0",
-            "race_id": "troll",
-            "raw_form": "AHMV",
-            "raw_resistances": "BE",
+            "raw_flags4": "EN ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "{R[IF YOU CAN SEE THIS MOB, REPORT IT TO THE IMMS IMMEDIATELY]{x\n",
+            "raw_vulns": "HK",
+            "name": "{7A {*blackened {7thistle bush{x~\n",
             "raw_flags2": "111 0 50d50+10000 0d0+0 0d0+0 slash",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Thistle Bush~\n",
             "subroutines": [
                 "F off D\n",
                 "F res BE\n",
@@ -2797,211 +2798,210 @@
                 "F par ABCDEFGHIJKUV\n",
                 "M grall 55303 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{R[IF YOU CAN SEE THIS MOB, REPORT IT TO THE IMMS IMMEDIATELY]{x\n",
-            "raw_vulns": "HK",
-            "keywords": "Thistle Bush~\n"
+            "raw_flags6": "BD 0 tiny wood",
+            "race_id": "troll",
+            "t_flags": "T ~"
         },
         "55304": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55304,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55304 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55399": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55399,
             "raw_flags": "ACFGTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55399 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55376": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55376,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55376 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55313": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55313,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "150 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55313 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55378": {
-            "name": "A Whirlwind~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "HK 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55378,
             "raw_flags": "ABGMd DFTZ P 0 0",
-            "race_id": "human",
-            "raw_form": "AMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "A Whirlwind floats here, blowing you about!\n",
+            "name": "A Whirlwind~\n",
             "raw_flags2": "102 0 1d1+5000 1d1+5000 1d1+5000 none",
-            "d_flags": "D ~",
+            "raw_form": "AMV",
+            "keywords": "Whirlwind~\n",
             "subroutines": [
                 "F for AMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M delay 55378 100~\n",
                 "M grall 55392 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Whirlwind floats here, blowing you about!\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Whirlwind~\n"
+            "raw_flags6": "HK 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55380": {
-            "name": "A Whirlwind~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "HK 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55380,
             "raw_flags": "ABGMd DFTZ P 0 0",
-            "race_id": "human",
-            "raw_form": "AMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "A Whirlwind floats here, blowing you about!\n",
+            "name": "A Whirlwind~\n",
             "raw_flags2": "102 0 1d1+5000 1d1+5000 1d1+5000 none",
-            "d_flags": "D ~",
+            "raw_form": "AMV",
+            "keywords": "Whirlwind~\n",
             "subroutines": [
                 "F for AMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M delay 55380 100~\n",
                 "M grall 55393 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Whirlwind floats here, blowing you about!\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Whirlwind~\n"
+            "raw_flags6": "HK 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55383": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55383,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55383 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55384": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55384,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55384 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55386": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55386,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55386 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         },
         "55398": {
-            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
+            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "raw_flags3": "-35 -35 -35 -31",
             "description": [],
             "raw_flags5": "stand stand male 35000",
-            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
-            "raw_flags4": "HR ABP DEN Y",
-            "raw_flags3": "-35 -35 -35 -31",
             "vnum": 55398,
             "raw_flags": "ACFTd DFJPQVZc HR -1000 0",
-            "race_id": "dog",
+            "raw_flags4": "HR ABP DEN Y",
+            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
+            "name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r{x~\n",
             "raw_flags2": "130 800 60d50+8000 50d60+3000 8d30+80 beating",
-            "d_flags": "D {*'s corpse shudders, transforming into the body of a coarse, middle-aged man.{x~",
+            "keywords": "Lycanthrope Hunter~\n",
             "subroutines": [
                 "M fight 55398 40~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {7L{2y{3c{*a{Rnth{*r{3o{2p{7e {@H{3u{*n{7t{3e{*r waits patiently for prey here.{x\n",
-            "keywords": "Lycanthrope Hunter~\n"
+            "raw_flags6": "AGHV ACDEFHJKUV large flesh",
+            "race_id": "dog",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }

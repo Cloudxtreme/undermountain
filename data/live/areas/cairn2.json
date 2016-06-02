@@ -1,561 +1,134 @@
 {
-    "name": "Heart of Kelvin's Cairn",
+    "security": 10,
+    "recall_room_id": 55774,
     "id": "cairn2",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "cairn2",
     "rooms": {
-        "51776": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cAnother obvious characteristic of the internal network of passages",
-                "inside the cairn is their sheer size.  Nary a crawlspace is seen, but",
-                "rather they are huge, open, and deliberate; able to accommodate almost",
-                "any creature.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
+        "51846": {
+            "extras": {},
+            "flags_raw": "0 67117161 512 20",
             "flags2_raw": "0",
-            "vnum": "51776",
+            "description": [
+                "{*Reaching the farthest depths of {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{*, the keepers of the",
+                "mountain await.  The great wyrm {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{*, creator of these tunnels,",
+                "raises her wings and roars.  Next to her is the frost giant {bT{Bh{Wr{By{bm{*. ",
+                "Unfortunately, it appears the stories of {bT{Bh{Wr{By{bm{* falling at the hands of",
+                "the god Tempus were false, as he stands before you ready to fight.  {x "
+            ],
+            "name": "{BD{*e{wn o{*f {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51845",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51775"
+                    ]
                 },
                 "south": {
-                    "flags_raw": "0",
+                    "flags_raw": "51807",
+                    "room_id": "51847",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51777"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51818": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*As the bend straightens out a faint light can be seen hovering in",
-                "the distance to the south.  Visibility is still low and makes",
-                "navigation difficult.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51818",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51817"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51821"
-                }
-            },
-            "extras": {}
+            "vnum": "51846"
         },
-        "51836": {
-            "name": "{WD{we{Wn {wO{Wf {CS{c'r{*a{wa{Wt{x",
+        "51844": {
+            "extras": {},
+            "flags_raw": "0 67117089 512 20",
+            "flags2_raw": "0",
             "description": [
-                "{WThis is the large, crystalline ice covered den of {CS{c'r{*a{wa{Wt, a hulking",
-                "5-headed cryohydra.  Once every 30 years a hydra will carry the rare",
-                "genetic makeup to develop into one of these fearsome beasts, and this",
-                "one serves Kelvin.  {x "
+                "{*The pile of boulders are stacked about 10 high and the climb down",
+                "is precarious.  The floor is a short ways below, while the climb up is",
+                "a daunting but manageable task.  {x "
             ],
-            "flags_raw": "0 67117153 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51836",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51848"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51835"
-                }
-            },
-            "extras": {}
-        },
-        "51781": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe tunnels continue to snake further into the cairn.  An",
-                "intersection is to the west, while this route continues further to the",
-                "south.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51781",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51778"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51782"
-                }
-            },
-            "extras": {}
-        },
-        "51815": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{* The lower depths are ominously quiet and lifeless.  Unlike the",
-                "caverns above, there are few signs that this area is in much use.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51815",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51814"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51817"
-                }
-            },
-            "extras": {}
-        },
-        "51784": {
-            "name": "{8A {cN{8arrow {cP{8assage{x",
-            "description": [
-                "{cThese caverns are not as neatly cut and uniform as the ones above. ",
-                "Cold, smoky black ice covers everything here, including any hints of",
-                "discontinuity that may once have been here.  The way curves sharply",
-                "north and continues around a blind corner.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51784",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51785"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51780"
-                }
-            },
-            "extras": {}
-        },
-        "51837": {
             "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*Reaching down into the depths of the cairn, the soft blue-ish glow",
-                "emanating from the walls of most of the passageways has completely",
-                "disappeared.  What's left is pitch black ice, easily mistaken for",
-                "obsidian, coating the inside of this tunnel in it's entirety.  {x "
-            ],
-            "flags_raw": "0 67117089 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51837",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51838"
-                },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "51843",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51830"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51845",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51844"
         },
         "51810": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "extras": {},
+            "flags_raw": "0 67108901 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{*The short descent leads deeper into the cairn where the glow from",
                 "the walls have softened to a point where the light is so faint it is",
                 "barely noticeable.  An exit can be seen to the north, but it is",
                 "difficult to see what is in the shadows.  {x "
             ],
-            "flags_raw": "0 67108901 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51810",
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51811",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51811"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "51806",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51806"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51840": {
-            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*The previously smooth walls now give way to a more crudely carved",
-                "and unpolished texture.  The path here takes a turn to the south.  {x "
-            ],
-            "flags_raw": "0 67117089 512 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51840",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51839"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51841"
-                }
-            },
-            "extras": {}
+            "vnum": "51810"
         },
-        "51827": {
+        "51825": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*Another change of direction starts here and the cavern continue to",
+                "twist and turn in all directions.  The breeze continues to blow from",
+                "the depths of the heart, almost breathing.  {x "
+            ],
             "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*This part of the lower depths reaches a dead end, with the",
-                "exception of a large hole in the floor to the west.  The air continues",
-                "to flow upwards and out of the vast opening.  {x "
-            ],
-            "flags_raw": "0 67108901 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51827",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51824",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51826"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51828"
-                }
-            },
-            "extras": {}
-        },
-        "51823": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The tunnel dead ends here, but there is a large opening above",
-                "emitting a bright white glow.  It appears as if the walls change from",
-                "their dark composition to a bright white hue.  {x "
-            ],
-            "flags_raw": "0 67108901 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51823",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51822"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51831"
-                }
-            },
-            "extras": {}
-        },
-        "51828": {
-            "name": "{*Dropoff To The Heart{x",
-            "description": [
-                "{*A large hole in the ground leads straight down heart of the cairn. ",
-                "There are no ledges or handholds to hold onto to try to climb down,",
-                "the only way would be to fly.  {x "
-            ],
-            "flags_raw": "0 67117089 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51828",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51827"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51829"
-                }
-            },
-            "extras": {}
-        },
-        "51848": {
-            "name": "{WD{we{Wn {wO{Wf {CS{c'r{*a{wa{Wt{x",
-            "description": [
-                "{WThe back of the den is a smaller room that Kelvin uses to store",
-                "some of his less powerful personal items, and has tasked S'raat to",
-                "guard.  Up against the rear wall is a chest made of pure white ice,",
-                "which also emits a soft {cblue{W glow.  {x "
-            ],
-            "flags_raw": "0 201334880 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51848",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51836"
-                }
-            },
-            "extras": {}
-        },
-        "51787": {
-            "name": "{8A {cN{8arrow {cP{8assage{x",
-            "description": [
-                "{cMany a frost giant have treaded these very steps you take now,",
-                "perhaps less frequent than yours at the moment.  Less care was taken",
-                "to form this network of caverns as there are minor inconsistencies in",
-                "the shapes of the walls, ceiling, and floor.  Maybe the craft was done",
-                "in haste or out of less utilitarian motives.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51787",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51786"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51826",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51788"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51802": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cThe distinction between ice and stone is less obvious here, and the",
-                "whole cave shimmers with an eerie aura.  Along the ground are strewn",
-                "various pieces of bone, dried flesh, sticks, and stones, which have",
-                "not yet merged with the icy layer.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51802",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51801"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51804"
-                }
-            },
-            "extras": {}
-        },
-        "51826": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*Temperatures drop with each step farther into the heart.  The walls",
-                "are now a dull deep black and no longer reflect any light hitting",
-                "their surface.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51826",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51825"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51827"
-                }
-            },
-            "extras": {}
-        },
-        "51790": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe passages begin to take a more natural appearance as they go",
-                "deeper into the heart.  The way up is to the west, or progresses to",
-                "the north.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51790",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51791"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51789"
-                }
-            },
-            "extras": {}
-        },
-        "51793": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cA chilly breeze comes up through a good sized opening in the floor.",
-                "It's not a level gradiation, but more of a giant step, and a short",
-                "climb down.  {x "
-            ],
-            "flags_raw": "0 67108901 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51793",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51792"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51799"
-                }
-            },
-            "extras": {}
-        },
-        "51832": {
-            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
-            "description": [
-                "{WThe tunnel continues, with the exit towards the south, or",
-                "progressing deeper to the east.  A breeze, unusually chilly, can also",
-                "be felt coming from the east.  {x "
-            ],
-            "flags_raw": "0 67117088 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51832",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51831"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51833"
-                }
-            },
-            "extras": {}
+            "vnum": "51825"
         },
         "51785": {
-            "name": "{8A {cN{8arrow {cP{8assage{x",
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{cOnward and downward, this spiraling cavern drops slightly in grade,",
                 "giving the feel that it is descending into another level.  The walls",
@@ -563,77 +136,228 @@
                 "which covers everything, including that which struggles to maintain",
                 "life.  {x "
             ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51785",
+            "name": "{8A {cN{8arrow {cP{8assage{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51786",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51786"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51784",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51784"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51785"
         },
-        "51825": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*Another change of direction starts here and the cavern continue to",
-                "twist and turn in all directions.  The breeze continues to blow from",
-                "the depths of the heart, almost breathing.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
+        "51835": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 20",
             "flags2_raw": "0",
-            "vnum": "51825",
+            "description": [
+                "{WA thick wall of white fog fills the passageway, clouding any",
+                "further visibility.  A chilling gust peridoically shoots through the",
+                "fog and sends a horizontal plume of mist outward, but is immediately",
+                "drawn back in almost a reverse suction.  Beyond the wall of fog",
+                "shuffling and hissing noises can be heard.  {x "
+            ],
+            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51836",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51834",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51835"
+        },
+        "51845": {
+            "extras": {},
+            "flags_raw": "0 67117089 512 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*A cold dead chill and eerie silence is ominously present.  A",
+                "short-distance opening is above, and boulders stacked on the ground",
+                "provide a means climbing up.  {x "
+            ],
+            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51844",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51846",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51845"
+        },
+        "51827": {
+            "extras": {},
+            "flags_raw": "0 67108901 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*This part of the lower depths reaches a dead end, with the",
+                "exception of a large hole in the floor to the west.  The air continues",
+                "to flow upwards and out of the vast opening.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51826",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51824"
+                    ]
                 },
-                "east": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "51828",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51826"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51827"
+        },
+        "51807": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cA slight breeze can be felt here, which burns sharply on the skin. ",
+                "The objects which seemed to be litter the floor just moments ago have",
+                "been reduced to small piles here and there.  Noises can be heard all",
+                "about.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51808",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51807"
+        },
+        "51828": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "{*A large hole in the ground leads straight down heart of the cairn. ",
+                "There are no ledges or handholds to hold onto to try to climb down,",
+                "the only way would be to fly.  {x "
+            ],
+            "name": "{*Dropoff To The Heart{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51827",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51829",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51828"
+        },
+        "51821": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The faint light becomes a little more visible but the discernable",
+                "feature that can be made out at this distance is that it looks like",
+                "it's positioned above eye level.  The walls are a deep black but light",
+                "still reflects off of them with a shiny glow.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51818",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51822",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51821"
+        },
+        "51848": {
+            "extras": {},
+            "flags_raw": "0 201334880 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{WThe back of the den is a smaller room that Kelvin uses to store",
+                "some of his less powerful personal items, and has tasked S'raat to",
+                "guard.  Up against the rear wall is a chest made of pure white ice,",
+                "which also emits a soft {cblue{W glow.  {x "
+            ],
+            "name": "{WD{we{Wn {wO{Wf {CS{c'r{*a{wa{Wt{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51836",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51848"
         },
         "51803": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cThis short side path abrupty comes to an end.  A large pile of",
-                "scrap materials are piles high.  Lengths of wood, swatches of leather,",
-                "and pieces of stone have all accumulated.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51803",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51800"
-                }
-            },
             "extras": {
                 "inscription": {
                     "description": [
@@ -657,645 +381,273 @@
                         ""
                     ]
                 }
-            }
-        },
-        "51789": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe floor starts a slow and steady decline here and it winds it's",
-                "way downward.  Normal cave characteristics of limestone and gases are",
-                "abnormally absent, and the air is almost pure and invigorating.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51789",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51790"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51783"
-                }
             },
-            "extras": {}
-        },
-        "51778": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cAn intersection here forks the passageways into two directions, one",
-                "to the east and another to the west.  , The southern wall is a sheet",
-                "of black ice 40 feet high.  Chiseled into the wall is a large dragon,",
-                "almost life size, and standing next to it is an immense frost giant.  {x"
-            ],
             "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "51778",
+            "description": [
+                "{cThis short side path abrupty comes to an end.  A large pile of",
+                "scrap materials are piles high.  Lengths of wood, swatches of leather,",
+                "and pieces of stone have all accumulated.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51800",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51777"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51803"
+        },
+        "51793": {
+            "extras": {},
+            "flags_raw": "0 67108901 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cA chilly breeze comes up through a good sized opening in the floor.",
+                "It's not a level gradiation, but more of a giant step, and a short",
+                "climb down.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51792",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51799",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51793"
+        },
+        "51836": {
+            "extras": {},
+            "flags_raw": "0 67117153 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{WThis is the large, crystalline ice covered den of {CS{c'r{*a{wa{Wt, a hulking",
+                "5-headed cryohydra.  Once every 30 years a hydra will carry the rare",
+                "genetic makeup to develop into one of these fearsome beasts, and this",
+                "one serves Kelvin.  {x "
+            ],
+            "name": "{WD{we{Wn {wO{Wf {CS{c'r{*a{wa{Wt{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51835",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51848",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51779"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51836"
+        },
+        "51843": {
+            "extras": {},
+            "flags_raw": "0 67117089 512 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*Another large hole in the floor is here, but fortunately large",
+                "boulders are strewn about, providing a path downwards.  The layout",
+                "indicates the drop is not very deep.  {x "
+            ],
+            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51842",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51844",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51843"
+        },
+        "51782": {
+            "extras": {},
+            "flags_raw": "0 67108865 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe walls here are crisscrossed with huge diagonal slashmarks as if",
+                "someone was trying to cut through.  Shards of the wall have",
+                "accumulated into a good sized pile at the base.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51781",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51783",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51781"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51782"
         },
         "51839": {
-            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
+            "extras": {},
+            "flags_raw": "0 67117161 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{*Loose shards underneath make footing slippery and dangerous.  The",
                 "tunnel continues deeper towards the east.  {x "
             ],
-            "flags_raw": "0 67117161 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51839",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51838"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51840"
-                }
-            },
-            "extras": {}
-        },
-        "51783": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe ground has been disturbed here with pieces of wood and animal",
-                "hide tossed off into a pile to the side.  They are coated with a layer",
-                "of ice, as if they have been there for a good period of time.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51783",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51782"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51789"
-                }
-            },
-            "extras": {}
-        },
-        "51842": {
             "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*The tunnel widens like a funnel, and loose rocks litter the floor. ",
-                "Footing is no longer silent and movement is slow.  {x "
-            ],
-            "flags_raw": "0 67117089 512 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51842",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51843"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51840",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51841"
-                }
-            },
-            "extras": {}
-        },
-        "51834": {
-            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
-            "description": [
-                "{WThe ice covered walls extend further back into this tunnel.  Light",
-                "bounces off the walls and brightens the tunnel like daylight.  Just up",
-                "ahead is a bend which curves to the north.  {x "
-            ],
-            "flags_raw": "0 67117089 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51834",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51835"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51838",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51833"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51839"
         },
-        "51801": {
+        "51808": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe smoky ice which layer the walls and ceiling is thick and much",
+                "darker here than previously.  As legend goes, the black ice of a cold",
+                "heart grows strong towards its source.  The rough terrain of the",
+                "ground is hard to navigate without tripping or losing one's footing.  {x"
+            ],
             "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cFurther along the cavern is more of the same dark ice and jagged",
-                "edged walls.  The ice does seem to be getting darker as the cavern",
-                "here branches off.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51801",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51797"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51800"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51802"
-                }
-            },
-            "extras": {}
-        },
-        "51831": {
-            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
-            "description": [
-                "{WClimbing up into this section of the labyrinth, the glowing dark",
-                "walls have been completely covered in a thick layer of pure white ice,",
-                "from top to bottom, and all around.  {x "
-            ],
-            "flags_raw": "0 67117088 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51831",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51832"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51823"
-                }
-            },
-            "extras": {}
-        },
-        "51811": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The uniform size of these tunnels throughout indicate that they",
-                "were created artificially and not by some natural occurance.  To the",
-                "south is a short incline leading higher up, while the path continues",
-                "to the west.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51811",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51812"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "51807",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51810"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51814": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*This is a three way intersection at the lower levels.  Tunnels lead",
-                "off to the east and south, and back up to the north.  It's difficult",
-                "to see beyond the immediate exits as the darkness envelops you.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51814",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51816"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51813"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51815"
-                }
-            },
-            "extras": {}
+            "vnum": "51808"
         },
         "51794": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{cThe cold, dark ice burns to the touch.  Above, the ceiling opens,",
                 "making the upper level accessible by means of several boulders stacked",
                 "in a offset pattern.  Even so, it is still a difficult climb to make. ",
                 "{x "
             ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51794",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51797"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51795"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51788"
-                }
-            },
-            "extras": {}
-        },
-        "51786": {
-            "name": "{8A {cN{8arrow {cP{8assage{x",
-            "description": [
-                "{cThe stone ceiling drops slightly here, and with it drops the grade",
-                "of slope, so that the upcoming straight passage descends into who know",
-                "what.  The ice is thick on the ground, but surprisingly it is not",
-                "difficult to keep one's footing.  Perhaps it is the result of the hold",
-                "heart from wince it came.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51786",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51785"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51787"
-                }
-            },
-            "extras": {}
-        },
-        "51797": {
             "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cThe floor here is covered in small mogul-like hills that are formed",
-                "in a odd-shaped large circle.  The passage continues to head in a",
-                "downward angle to the south.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51797",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "51795",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51794"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51788",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "51797",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51801"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51782": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe walls here are crisscrossed with huge diagonal slashmarks as if",
-                "someone was trying to cut through.  Shards of the wall have",
-                "accumulated into a good sized pile at the base.  {x "
-            ],
-            "flags_raw": "0 67108865 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51782",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51781"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51783"
-                }
-            },
-            "extras": {}
-        },
-        "51830": {
-            "name": "{*Dropoff To The Heart{x",
-            "description": [
-                "{*The drop into the heart continues, and a faint reflection below can",
-                "be seen indicating some solid footing.  There is no visibility above,",
-                "only a washed out pitch black.  {x "
-            ],
-            "flags_raw": "0 67117089 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51830",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51829"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51837"
-                }
-            },
-            "extras": {}
+            "vnum": "51794"
         },
         "51798": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{cThe walls of this cavern are somewhat less uniform in shape than",
                 "the earlier level.  More jagged angles and bumpy contours create an",
                 "strange effect of dancing shadows, which doesn't help to make this",
                 "place feel confortable.  {x "
             ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51798",
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51796",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51796"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51799",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51799"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51777": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe entire tunnel continues to glow with an eerie blue hue.  There",
-                "is a wall just to the south, and what appears a split leading east and",
-                "west.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51777",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51776"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51778"
-                }
-            },
-            "extras": {}
-        },
-        "51780": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cA short walk quickly leads to an exit downwards heading deeper into",
-                "the cairn.  The walls continue to emanate their blue-ish glow.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51780",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51779"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51784"
-                }
-            },
-            "extras": {}
-        },
-        "51821": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The faint light becomes a little more visible but the discernable",
-                "feature that can be made out at this distance is that it looks like",
-                "it's positioned above eye level.  The walls are a deep black but light",
-                "still reflects off of them with a shiny glow.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51821",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51818"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51822"
-                }
-            },
-            "extras": {}
-        },
-        "51847": {
-            "name": "{YT{yr{*e{wa{Wsure H{*o{yar{Yd {*of {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{x",
-            "description": [
-                "{*The treasure hoard of {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{* is strewn on the ground here. ",
-                "Piles of {Yg{yo{Yl{yd{*, {wsilver{*, and {Wp{*l{Wa{*t{Wi{*n{Wu{*m litter the floor, with several",
-                "{Rg{re{Rm{rs{* intermingled within.  There is also a large black chest emitting",
-                "a bright {Bb{blu{*e g{blo{Bw{* in the center of the room.  {x "
-            ],
-            "flags_raw": "0 201334889 512 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51847",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51846"
-                }
-            },
-            "extras": {}
-        },
-        "51791": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe entire tunnel appears to be straining by the number of fissures",
-                "on the walls and flooring.  The slow downward grade continues to the",
-                "north.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51791",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51792"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51790"
-                }
-            },
-            "extras": {}
+            "vnum": "51798"
         },
         "51819": {
-            "name": "{*A {yH{*idden {yE{*ntrance{x ",
+            "extras": {},
+            "flags_raw": "0 67117061 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{yMoving through the thick layer of moss and shrubbery shrouding ",
                 "the entranceway to a small abode, a thick layer of loosely settled ",
@@ -1304,115 +656,960 @@
                 "maintains a cool damp consistency.  Just up ahead is large illuminated ",
                 "room.{x"
             ],
-            "flags_raw": "0 67117061 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51819",
+            "name": "{*A {yH{*idden {yE{*ntrance{x ",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8835"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51820",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51820"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8835",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51807": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cA slight breeze can be felt here, which burns sharply on the skin. ",
-                "The objects which seemed to be litter the floor just moments ago have",
-                "been reduced to small piles here and there.  Noises can be heard all",
-                "about.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
+            "vnum": "51819"
+        },
+        "51822": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
             "flags2_raw": "0",
-            "vnum": "51807",
+            "description": [
+                "{*The twisting routes throughout the mountain straighten out in a",
+                "short north-south segment.  Just to the south a white glow can be seen",
+                "upwards above the floor.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51821",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51808"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51823",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51822"
+        },
+        "51811": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The uniform size of these tunnels throughout indicate that they",
+                "were created artificially and not by some natural occurance.  To the",
+                "south is a short incline leading higher up, while the path continues",
+                "to the west.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51812",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51810",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51811"
+        },
+        "51830": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "{*The drop into the heart continues, and a faint reflection below can",
+                "be seen indicating some solid footing.  There is no visibility above,",
+                "only a washed out pitch black.  {x "
+            ],
+            "name": "{*Dropoff To The Heart{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51829",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51837",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51830"
+        },
+        "51791": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe entire tunnel appears to be straining by the number of fissures",
+                "on the walls and flooring.  The slow downward grade continues to the",
+                "north.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51792",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51790",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51791"
+        },
+        "51815": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{* The lower depths are ominously quiet and lifeless.  Unlike the",
+                "caverns above, there are few signs that this area is in much use.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51817",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51815"
+        },
+        "51786": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe stone ceiling drops slightly here, and with it drops the grade",
+                "of slope, so that the upcoming straight passage descends into who know",
+                "what.  The ice is thick on the ground, but surprisingly it is not",
+                "difficult to keep one's footing.  Perhaps it is the result of the hold",
+                "heart from wince it came.  {x "
+            ],
+            "name": "{8A {cN{8arrow {cP{8assage{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51787",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51785",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51786"
+        },
+        "51781": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe tunnels continue to snake further into the cairn.  An",
+                "intersection is to the west, while this route continues further to the",
+                "south.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51778",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51782",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51781"
+        },
+        "51831": {
+            "extras": {},
+            "flags_raw": "0 67117088 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{WClimbing up into this section of the labyrinth, the glowing dark",
+                "walls have been completely covered in a thick layer of pure white ice,",
+                "from top to bottom, and all around.  {x "
+            ],
+            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51832",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51823",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51831"
+        },
+        "51829": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "{*The large hole continues deeper down.  Up above a ledge can be seen",
+                "which leads to other parts of the cavern.  Down below is nothing but",
+                "pure darkness.  {x "
+            ],
+            "name": "{*Dropoff To The Heart{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51828",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51830",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51829"
+        },
+        "51834": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{WThe ice covered walls extend further back into this tunnel.  Light",
+                "bounces off the walls and brightens the tunnel like daylight.  Just up",
+                "ahead is a bend which curves to the north.  {x "
+            ],
+            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51835",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51833",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51806"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51792": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cContinuing the descent the bright glow of the entrance starts to",
-                "fade a little, but a soft blue glow can still be seen emanating from",
-                "the walls.  Just to the east is a large hole in the floor, with a",
-                "sharp drop off.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
+            "vnum": "51834"
+        },
+        "51841": {
+            "extras": {},
+            "flags_raw": "0 67117089 512 20",
             "flags2_raw": "0",
-            "vnum": "51792",
+            "description": [
+                "{*The tunnel curves and worms it's way sharply around the bend in a",
+                "tight turn.  It now heads towards the west, with the entrance to the",
+                "north.  {x "
+            ],
+            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51840",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51842",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51841"
+        },
+        "51775": {
+            "extras": {},
+            "flags_raw": "0 67108901 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cEntering the portal, you are transported deep inside Kelvin's",
+                "Cairn.  The walls of the caverns are made of black ice that",
+                "paradoxically absorb light yet give off a light bluish glow. ",
+                "Temperatures remain in the sub-zero range, and there is an ominous",
+                "silence, which is only broken by an occasional echo ricocheting",
+                "through the passageways.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "51776",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51791"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51793"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51820": {
-            "name": "{rSecluded {rHome {*of the {gElven {wCourt {bMage{x",
-            "description": [
-                "{yThis large singular room has been shaped and carved with care ",
-                "and purpose, with warm {Wc{wa{Wn{wd{Wl{we{Ws{y placed in the corners {*il{wlum{Win{wati{*ng{y ",
-                "the interior.  A hand-woven mat covers the ground just inside the ",
-                "doorway and various {rp{*e{rl{*t{rs{y of different colors and sizes form a ",
-                "colorful tapestry on the floor.  Pieces of {rw{yo{ro{yd{re{yn{y furniture are ",
-                "generously placed around the room including a large desk and a ",
-                "pair of oversized workbenches in the corner.  Two of the walls ",
-                "are covered with enormous bookcases filled from top to bottom.  ",
-                "In the center of the far wall is a large {Yp{ye{Yd{ye{Ys{yt{Ya{yl, holding an ",
-                "ancient {rt{Rom{re{y, it's pages delicately layered.{x"
-            ],
-            "flags_raw": "0 67118092 0 4",
             "wanted_area_vnum": "",
+            "vnum": "51775"
+        },
+        "51840": {
+            "extras": {},
+            "flags_raw": "0 67117089 512 20",
             "flags2_raw": "0",
-            "vnum": "51820",
+            "description": [
+                "{*The previously smooth walls now give way to a more crudely carved",
+                "and unpolished texture.  The path here takes a turn to the south.  {x "
+            ],
+            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51839",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51819"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51841",
+                    "description": [
+                        ""
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "51840"
+        },
+        "51809": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cAlong the ground are large stones and pieces of wood that seem to",
+                "have been placed here on purpose.  Judging from the size of these",
+                "stones, the hand which movied them must have belonged to a massive",
+                "creature, if it had hands at all.  Torchmarks run in all directions",
+                "along the ceiling.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51799",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51808",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51809"
+        },
+        "51802": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe distinction between ice and stone is less obvious here, and the",
+                "whole cave shimmers with an eerie aura.  Along the ground are strewn",
+                "various pieces of bone, dried flesh, sticks, and stones, which have",
+                "not yet merged with the icy layer.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51801",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51804",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51802"
+        },
+        "51818": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*As the bend straightens out a faint light can be seen hovering in",
+                "the distance to the south.  Visibility is still low and makes",
+                "navigation difficult.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51817",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51821",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51818"
+        },
+        "51804": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe cavern curves slightly here, and seems to open up to an",
+                "intersection.  Along the walls are long grooves, of which their origin",
+                "or intent is unknown.  The ceiling drops slightly here, but is still",
+                "very far up from the floor.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51802",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51805",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51804"
+        },
+        "51816": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*This section of the cavern immediately dips in temperature to well",
+                "below freezing.  A breeze can also be felt coming from the south.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51824",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51816"
+        },
+        "51778": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cAn intersection here forks the passageways into two directions, one",
+                "to the east and another to the west.  , The southern wall is a sheet",
+                "of black ice 40 feet high.  Chiseled into the wall is a large dragon,",
+                "almost life size, and standing next to it is an immense frost giant.  {x"
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51777",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51781",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51779",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51778"
+        },
+        "51824": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The breeze picks chilling the air even even cooler.  The ice",
+                "covering the walls appears the begin to die and it's luster begins to",
+                "fade away to a pale black.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51816",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51825",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51824"
+        },
+        "51787": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cMany a frost giant have treaded these very steps you take now,",
+                "perhaps less frequent than yours at the moment.  Less care was taken",
+                "to form this network of caverns as there are minor inconsistencies in",
+                "the shapes of the walls, ceiling, and floor.  Maybe the craft was done",
+                "in haste or out of less utilitarian motives.  {x "
+            ],
+            "name": "{8A {cN{8arrow {cP{8assage{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51788",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51786",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51787"
+        },
+        "51812": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The path runs to the east and the west, with sharp bends going",
+                "south at both ends.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51811",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51813",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51812"
+        },
+        "51797": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe floor here is covered in small mogul-like hills that are formed",
+                "in a odd-shaped large circle.  The passage continues to head in a",
+                "downward angle to the south.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51794",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51801",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51797"
+        },
+        "51842": {
+            "extras": {},
+            "flags_raw": "0 67117089 512 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The tunnel widens like a funnel, and loose rocks litter the floor. ",
+                "Footing is no longer silent and movement is slow.  {x "
+            ],
+            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51841",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51843",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51842"
+        },
+        "51790": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe passages begin to take a more natural appearance as they go",
+                "deeper into the heart.  The way up is to the west, or progresses to",
+                "the north.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51791",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51789",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51790"
+        },
+        "51776": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cAnother obvious characteristic of the internal network of passages",
+                "inside the cairn is their sheer size.  Nary a crawlspace is seen, but",
+                "rather they are huge, open, and deliberate; able to accommodate almost",
+                "any creature.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51775",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51777",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51776"
+        },
+        "51779": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe walls here have been painted with blood, where various runes",
+                "and a large undecipherable glyph have been frozen into surface of the",
+                "ice.  The only exits here are a short path to the north, or an",
+                "intersection to the east.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51780",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51778",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51779"
+        },
+        "51783": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe ground has been disturbed here with pieces of wood and animal",
+                "hide tossed off into a pile to the side.  They are coated with a layer",
+                "of ice, as if they have been there for a good period of time.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51782",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51789",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51783"
+        },
+        "51826": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*Temperatures drop with each step farther into the heart.  The walls",
+                "are now a dull deep black and no longer reflect any light hitting",
+                "their surface.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51825",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51827",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51826"
+        },
+        "51838": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The walls here seem to absorb light rather than reflect it, as if",
+                "feeding off of it's energy.  Visibility is at a minimum, almost",
+                "restricted to only a step ahead.  The entrance to the tunnel is north,",
+                "and also continues to the east.  {x "
+            ],
+            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51837",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51839",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51838"
+        },
+        "51847": {
+            "extras": {},
+            "flags_raw": "0 201334889 512 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The treasure hoard of {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{* is strewn on the ground here. ",
+                "Piles of {Yg{yo{Yl{yd{*, {wsilver{*, and {Wp{*l{Wa{*t{Wi{*n{Wu{*m litter the floor, with several",
+                "{Rg{re{Rm{rs{* intermingled within.  There is also a large black chest emitting",
+                "a bright {Bb{blu{*e g{blo{Bw{* in the center of the room.  {x "
+            ],
+            "name": "{YT{yr{*e{wa{Wsure H{*o{yar{Yd {*of {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51846",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51847"
+        },
+        "51805": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cCurving sharply here, the cavern becomes a bit more difficult to",
+                "traverse.  Blind corners are along either end from this section, and",
+                "it doesn't help that one cannot see the ceiling from here.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51804",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51805"
+        },
+        "51820": {
             "extras": {
                 "pedestal tome pages": {
                     "description": [
@@ -1436,831 +1633,635 @@
                         ""
                     ]
                 }
-            }
-        },
-        "51795": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cTraversing these caverns takes an intrepid adventurer, as they are",
-                "loaded with blind corners and little niches perfect for creatures to",
-                "hide.  Perhaps the only solace lies in the fact that very few",
-                "creatures would find such sub-zero conditions hospitable.{x"
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 67118092 0 4",
             "flags2_raw": "0",
-            "vnum": "51795",
+            "description": [
+                "{yThis large singular room has been shaped and carved with care ",
+                "and purpose, with warm {Wc{wa{Wn{wd{Wl{we{Ws{y placed in the corners {*il{wlum{Win{wati{*ng{y ",
+                "the interior.  A hand-woven mat covers the ground just inside the ",
+                "doorway and various {rp{*e{rl{*t{rs{y of different colors and sizes form a ",
+                "colorful tapestry on the floor.  Pieces of {rw{yo{ro{yd{re{yn{y furniture are ",
+                "generously placed around the room including a large desk and a ",
+                "pair of oversized workbenches in the corner.  Two of the walls ",
+                "are covered with enormous bookcases filled from top to bottom.  ",
+                "In the center of the far wall is a large {Yp{ye{Yd{ye{Ys{yt{Ya{yl, holding an ",
+                "ancient {rt{Rom{re{y, it's pages delicately layered.{x"
+            ],
+            "name": "{rSecluded {rHome {*of the {gElven {wCourt {bMage{x",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51819",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51794"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51796"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51846": {
-            "name": "{BD{*e{wn o{*f {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{x",
-            "description": [
-                "{*Reaching the farthest depths of {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{*, the keepers of the",
-                "mountain await.  The great wyrm {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{*, creator of these tunnels,",
-                "raises her wings and roars.  Next to her is the frost giant {bT{Bh{Wr{By{bm{*. ",
-                "Unfortunately, it appears the stories of {bT{Bh{Wr{By{bm{* falling at the hands of",
-                "the god Tempus were false, as he stands before you ready to fight.  {x "
-            ],
-            "flags_raw": "0 67117161 512 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51846",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51845"
-                },
-                "south": {
-                    "flags_raw": "51807",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51847"
-                }
-            },
-            "extras": {}
-        },
-        "51808": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cThe smoky ice which layer the walls and ceiling is thick and much",
-                "darker here than previously.  As legend goes, the black ice of a cold",
-                "heart grows strong towards its source.  The rough terrain of the",
-                "ground is hard to navigate without tripping or losing one's footing.  {x"
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51808",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51809"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51807"
-                }
-            },
-            "extras": {}
-        },
-        "51816": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*This section of the cavern immediately dips in temperature to well",
-                "below freezing.  A breeze can also be felt coming from the south.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51816",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51814"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51824"
-                }
-            },
-            "extras": {}
-        },
-        "51813": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The short segment turns to the south.  The way back up is to the",
-                "east.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51813",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51814"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51812"
-                }
-            },
-            "extras": {}
-        },
-        "51817": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*Dead stale air hangs in the room as there is nary a breeze coming",
-                "through this southern section of the heart which continues to the",
-                "south.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51817",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51815"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51818"
-                }
-            },
-            "extras": {}
-        },
-        "51838": {
-            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*The walls here seem to absorb light rather than reflect it, as if",
-                "feeding off of it's energy.  Visibility is at a minimum, almost",
-                "restricted to only a step ahead.  The entrance to the tunnel is north,",
-                "and also continues to the east.  {x "
-            ],
-            "flags_raw": "0 67117089 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51838",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51837"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51839"
-                }
-            },
-            "extras": {}
-        },
-        "51829": {
-            "name": "{*Dropoff To The Heart{x",
-            "description": [
-                "{*The large hole continues deeper down.  Up above a ledge can be seen",
-                "which leads to other parts of the cavern.  Down below is nothing but",
-                "pure darkness.  {x "
-            ],
-            "flags_raw": "0 67117089 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51829",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51828"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51830"
-                }
-            },
-            "extras": {}
-        },
-        "51788": {
-            "name": "{8A {cN{8arrow {cP{8assage{x",
-            "description": [
-                "{cHere, a short dropoff leads into another level of the caverns.  The",
-                "ice here is darker and more intensely cold to the touch.  Along either",
-                "side of this opening are jaggedly sharp corners, which requires care",
-                "to be taken upon traversing the next level.  {x "
-            ],
-            "flags_raw": "0 67108901 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51788",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51787"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51794"
-                }
-            },
-            "extras": {}
-        },
-        "51796": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cThis section of tunnel curves sharply around, and opens up a little",
-                "on the other end.  There are a few articles scattered along the floor,",
-                "but most have been firmly frozen in place.  It does make the steps all",
-                "that more precarious.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51796",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51795"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51798"
-                }
-            },
-            "extras": {}
-        },
-        "51843": {
-            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*Another large hole in the floor is here, but fortunately large",
-                "boulders are strewn about, providing a path downwards.  The layout",
-                "indicates the drop is not very deep.  {x "
-            ],
-            "flags_raw": "0 67117089 512 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51843",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51842"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51844"
-                }
-            },
-            "extras": {}
-        },
-        "51805": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cCurving sharply here, the cavern becomes a bit more difficult to",
-                "traverse.  Blind corners are along either end from this section, and",
-                "it doesn't help that one cannot see the ceiling from here.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51805",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51804"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51806"
-                }
-            },
-            "extras": {}
-        },
-        "51775": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cEntering the portal, you are transported deep inside Kelvin's",
-                "Cairn.  The walls of the caverns are made of black ice that",
-                "paradoxically absorb light yet give off a light bluish glow. ",
-                "Temperatures remain in the sub-zero range, and there is an ominous",
-                "silence, which is only broken by an occasional echo ricocheting",
-                "through the passageways.  {x "
-            ],
-            "flags_raw": "0 67108901 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51775",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51776"
-                }
-            },
-            "extras": {}
-        },
-        "51844": {
-            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*The pile of boulders are stacked about 10 high and the climb down",
-                "is precarious.  The floor is a short ways below, while the climb up is",
-                "a daunting but manageable task.  {x "
-            ],
-            "flags_raw": "0 67117089 512 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51844",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51843"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51845"
-                }
-            },
-            "extras": {}
-        },
-        "51799": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cAbove is the opening to the upper levels, which is accessible by",
-                "means of a gradually declining grade of stone, which has conveniently",
-                "been placed here.  Rocks and sticks are piled in the corners of this",
-                "cavern, most frozen where they stand.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51799",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51798"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51809"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51793"
-                }
-            },
-            "extras": {}
-        },
-        "51833": {
-            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
-            "description": [
-                "{WThe ice has a smooth and even surface, remarkably consistent.  It",
-                "closely resembles the inside of a cocoon or a wasp nest as if the",
-                "white ice is acting as some sort of insulated chamber.  The tunnel",
-                "runs east and west.  {x "
-            ],
-            "flags_raw": "0 67117153 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51833",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51832"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51834"
-                }
-            },
-            "extras": {}
+            "vnum": "51820"
         },
         "51800": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{cThis cavern has square edges which still bear the faint marks of",
                 "cutting tools.  The floor is crudely cut such that it rises and falls",
                 "in levels, like a huge set of stairs.  Everything is coated in a thick",
                 "layer of dark ice, which burns to the touch.  {x "
             ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51800",
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51803"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51801",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51801"
-                }
-            },
-            "extras": {}
-        },
-        "51845": {
-            "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*A cold dead chill and eerie silence is ominously present.  A",
-                "short-distance opening is above, and boulders stacked on the ground",
-                "provide a means climbing up.  {x "
-            ],
-            "flags_raw": "0 67117089 512 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51845",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51846"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51844"
-                }
-            },
-            "extras": {}
-        },
-        "51809": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cAlong the ground are large stones and pieces of wood that seem to",
-                "have been placed here on purpose.  Judging from the size of these",
-                "stones, the hand which movied them must have belonged to a massive",
-                "creature, if it had hands at all.  Torchmarks run in all directions",
-                "along the ceiling.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51809",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51799"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "51803",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51808"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51800"
         },
-        "51804": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
-            "description": [
-                "{cThe cavern curves slightly here, and seems to open up to an",
-                "intersection.  Along the walls are long grooves, of which their origin",
-                "or intent is unknown.  The ceiling drops slightly here, but is still",
-                "very far up from the floor.  {x "
-            ],
+        "51796": {
+            "extras": {},
             "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "51804",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51802"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51805"
-                }
-            },
-            "extras": {}
-        },
-        "51835": {
-            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
             "description": [
-                "{WA thick wall of white fog fills the passageway, clouding any",
-                "further visibility.  A chilling gust peridoically shoots through the",
-                "fog and sends a horizontal plume of mist outward, but is immediately",
-                "drawn back in almost a reverse suction.  Beyond the wall of fog",
-                "shuffling and hissing noises can be heard.  {x "
+                "{cThis section of tunnel curves sharply around, and opens up a little",
+                "on the other end.  There are a few articles scattered along the floor,",
+                "but most have been firmly frozen in place.  It does make the steps all",
+                "that more precarious.  {x "
             ],
-            "flags_raw": "0 67117089 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51835",
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "51795",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51836"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "51798",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51834"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51796"
         },
         "51806": {
-            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{cThis next step is a doozy.  The floor opens up suddenly into a",
                 "large hole, but it doesn't seem like a long way down.  Upon closer",
                 "inspection, some steps have been crudely cut from an outcrop of stone,",
                 "making it even easier.  {x "
             ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51806",
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51805",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51805"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51807",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51807"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "51810",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51810"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51822": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The twisting routes throughout the mountain straighten out in a",
-                "short north-south segment.  Just to the south a white glow can be seen",
-                "upwards above the floor.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
+            "vnum": "51806"
+        },
+        "51784": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
             "flags2_raw": "0",
-            "vnum": "51822",
+            "description": [
+                "{cThese caverns are not as neatly cut and uniform as the ones above. ",
+                "Cold, smoky black ice covers everything here, including any hints of",
+                "discontinuity that may once have been here.  The way curves sharply",
+                "north and continues around a blind corner.  {x "
+            ],
+            "name": "{8A {cN{8arrow {cP{8assage{x",
             "exits": {
-                "north": {
+                "up": {
                     "flags_raw": "0",
+                    "room_id": "51780",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51821"
+                    ]
                 },
-                "south": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "51785",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51823"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "51779": {
-            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
-            "description": [
-                "{cThe walls here have been painted with blood, where various runes",
-                "and a large undecipherable glyph have been frozen into surface of the",
-                "ice.  The only exits here are a short path to the north, or an",
-                "intersection to the east.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
             "wanted_area_vnum": "",
+            "vnum": "51784"
+        },
+        "51814": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
             "flags2_raw": "0",
-            "vnum": "51779",
+            "description": [
+                "{*This is a three way intersection at the lower levels.  Tunnels lead",
+                "off to the east and south, and back up to the north.  It's difficult",
+                "to see beyond the immediate exits as the darkness envelops you.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51813",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51780"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51815",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51778"
-                }
-            },
-            "extras": {}
-        },
-        "51824": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The breeze picks chilling the air even even cooler.  The ice",
-                "covering the walls appears the begin to die and it's luster begins to",
-                "fade away to a pale black.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51824",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51816"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "51816",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51825"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51814"
         },
-        "51841": {
+        "51817": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*Dead stale air hangs in the room as there is nary a breeze coming",
+                "through this southern section of the heart which continues to the",
+                "south.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51815",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51818",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51817"
+        },
+        "51799": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cAbove is the opening to the upper levels, which is accessible by",
+                "means of a gradually declining grade of stone, which has conveniently",
+                "been placed here.  Rocks and sticks are piled in the corners of this",
+                "cavern, most frozen where they stand.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51793",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51798",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51809",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51799"
+        },
+        "51837": {
+            "extras": {},
+            "flags_raw": "0 67117089 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*Reaching down into the depths of the cairn, the soft blue-ish glow",
+                "emanating from the walls of most of the passageways has completely",
+                "disappeared.  What's left is pitch black ice, easily mistaken for",
+                "obsidian, coating the inside of this tunnel in it's entirety.  {x "
+            ],
             "name": "{*Tunnel Of {WP{*u{Wr{*e {WB{*l{Wa{*c{Wk {WI{*c{We{x",
-            "description": [
-                "{*The tunnel curves and worms it's way sharply around the bend in a",
-                "tight turn.  It now heads towards the west, with the entrance to the",
-                "north.  {x "
-            ],
-            "flags_raw": "0 67117089 512 20",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51830",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51838",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "51837"
+        },
+        "51832": {
+            "extras": {},
+            "flags_raw": "0 67117088 0 20",
             "flags2_raw": "0",
-            "vnum": "51841",
+            "description": [
+                "{WThe tunnel continues, with the exit towards the south, or",
+                "progressing deeper to the east.  A breeze, unusually chilly, can also",
+                "be felt coming from the east.  {x "
+            ],
+            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51833",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51831",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51832"
+        },
+        "51813": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The short segment turns to the south.  The way back up is to the",
+                "east.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51812",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51814",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51813"
+        },
+        "51801": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cFurther along the cavern is more of the same dark ice and jagged",
+                "edged walls.  The ice does seem to be getting darker as the cavern",
+                "here branches off.  {x "
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "51797",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51840"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51842"
-                }
-            },
-            "extras": {}
-        },
-        "51812": {
-            "name": "{wT{*he {wL{*ower {wD{*epths{x",
-            "description": [
-                "{*The path runs to the east and the west, with sharp bends going",
-                "south at both ends.  {x "
-            ],
-            "flags_raw": "0 67108897 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "51812",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51813"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "51802",
                     "description": [
                         ""
-                    ],
-                    "room_id": "51811"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51800",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "51801"
+        },
+        "51777": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe entire tunnel continues to glow with an eerie blue hue.  There",
+                "is a wall just to the south, and what appears a split leading east and",
+                "west.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51776",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51778",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51777"
+        },
+        "51823": {
+            "extras": {},
+            "flags_raw": "0 67108901 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{*The tunnel dead ends here, but there is a large opening above",
+                "emitting a bright white glow.  It appears as if the walls change from",
+                "their dark composition to a bright white hue.  {x "
+            ],
+            "name": "{wT{*he {wL{*ower {wD{*epths{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "51822",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51831",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51823"
+        },
+        "51792": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cContinuing the descent the bright glow of the entrance starts to",
+                "fade a little, but a soft blue glow can still be seen emanating from",
+                "the walls.  Just to the east is a large hole in the floor, with a",
+                "sharp drop off.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51793",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51791",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51792"
+        },
+        "51795": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cTraversing these caverns takes an intrepid adventurer, as they are",
+                "loaded with blind corners and little niches perfect for creatures to",
+                "hide.  Perhaps the only solace lies in the fact that very few",
+                "creatures would find such sub-zero conditions hospitable.{x"
+            ],
+            "name": "{cT{*he {cI{*nner {cC{*averns{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51796",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51794",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51795"
+        },
+        "51788": {
+            "extras": {},
+            "flags_raw": "0 67108901 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cHere, a short dropoff leads into another level of the caverns.  The",
+                "ice here is darker and more intensely cold to the touch.  Along either",
+                "side of this opening are jaggedly sharp corners, which requires care",
+                "to be taken upon traversing the next level.  {x "
+            ],
+            "name": "{8A {cN{8arrow {cP{8assage{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51787",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51794",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51788"
+        },
+        "51789": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe floor starts a slow and steady decline here and it winds it's",
+                "way downward.  Normal cave characteristics of limestone and gases are",
+                "abnormally absent, and the air is almost pure and invigorating.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51790",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "51783",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51789"
+        },
+        "51780": {
+            "extras": {},
+            "flags_raw": "0 67108897 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cA short walk quickly leads to an exit downwards heading deeper into",
+                "the cairn.  The walls continue to emanate their blue-ish glow.  {x "
+            ],
+            "name": "{WT{*h{We {*H{We{*a{Wr{*t {WO{*f {cK{*e{wl{Wv{wi{*n{c's {cC{wa{Wi{wr{cn{x",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "51784",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "51779",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51780"
+        },
+        "51833": {
+            "extras": {},
+            "flags_raw": "0 67117153 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{WThe ice has a smooth and even surface, remarkably consistent.  It",
+                "closely resembles the inside of a cocoon or a wasp nest as if the",
+                "white ice is acting as some sort of insulated chamber.  The tunnel",
+                "runs east and west.  {x "
+            ],
+            "name": "{WT{wu{Wn{wn{We{wl {WO{wf {WP{wu{Wr{we {WW{wh{Wi{wt{We {wI{Wc{we{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51834",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "51832",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "51833"
         }
     },
-    "uid": "cairn2",
-    "area_quest_points": 0,
     "credits": "[ *HERO* ] Heart of Kelvin's Cairn",
     "faction_id": "",
+    "name": "Heart of Kelvin's Cairn",
     "vnums": [
         51775,
         51849
     ],
-    "recall_room_id": 55774,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 1,
+    "subroutines": [],
     "mobiles": {
         "51836": {
-            "name": "{CS{c'r{*a{wa{Wt{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-28 -28 -28 -26",
             "description": [
                 "Legends past along generations through taverns in the Frigid\n",
                 "Wastelands become reality as a deadly cryohydra towers above you. \n",
@@ -2268,24 +2269,24 @@
                 "{x \n"
             ],
             "raw_flags5": "stand stand none 52000",
-            "raw_flags6": "AGHMVYc ABCDEFGHIJKLQVX huge 0",
-            "raw_flags4": "CH ABILQ JL I",
-            "raw_flags3": "-28 -28 -28 -26",
             "vnum": 51836,
             "raw_flags": "ABFNOTU DFVZa HO 0 0",
-            "race_id": "human",
+            "raw_flags4": "CH ABILQ JL I",
+            "room_name": "{*The 5-headed cryohydra {CS{c'r{*a{wa{Wt{* stands here, guarding his den.{x\n",
+            "name": "{CS{c'r{*a{wa{Wt{x~\n",
             "raw_flags2": "110 110 700d250+22000 500d100+22000 100d60+2250 bite",
-            "d_flags": "D ~",
+            "keywords": "hydra cryohydra sraat s'raat~\n",
             "subroutines": [
                 "M fight 51836 20~\n",
                 "M death 51837 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*The 5-headed cryohydra {CS{c'r{*a{wa{Wt{* stands here, guarding his den.{x\n",
-            "keywords": "hydra cryohydra sraat s'raat~\n"
+            "raw_flags6": "AGHMVYc ABCDEFGHIJKLQVX huge 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "51848": {
-            "name": "{YL{yir{*ut{yhe{Yl {GF{ghy{*r{gdy{Gm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -30",
             "description": [
                 "One the six Court Mages of Myth Drannor, Liruthel Fhyrdym was \n",
                 "one of the final appointees.  With the fall of the heralded city \n",
@@ -2296,15 +2297,14 @@
                 "elven magics practiced long ago.{x\n"
             ],
             "raw_flags5": "stand stand female 10000",
-            "raw_flags6": "AMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FK ABCLQa BG 0",
-            "raw_flags3": "-30 -30 -30 -30",
             "vnum": 51848,
             "raw_flags": "ABORV DFJVZc AHR 1000 0",
-            "race_id": "elf",
-            "raw_form": "H",
+            "raw_flags4": "FK ABCLQa BG 0",
+            "room_name": "{YL{yir{*ut{yhe{Yl {GF{ghy{*r{gdy{Gm{*, {BC{bourt {BM{bage {*of {GM{gyth {YD{yrannor{x\n",
+            "name": "{YL{yir{*ut{yhe{Yl {GF{ghy{*r{gdy{Gm{x~\n",
             "raw_flags2": "110 110 100d100+20000 100d100+20000 100d100+5200 slash",
-            "d_flags": "D ~",
+            "raw_form": "H",
+            "keywords": "liruthel fhyrdym elf mage~\n",
             "subroutines": [
                 "F for H\n",
                 "M give 51810 24361~\n",
@@ -2324,12 +2324,13 @@
                 "M speech 51821 components~\n",
                 "M speech 51825 finished~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{YL{yir{*ut{yhe{Yl {GF{ghy{*r{gdy{Gm{*, {BC{bourt {BM{bage {*of {GM{gyth {YD{yrannor{x\n",
-            "keywords": "liruthel fhyrdym elf mage~\n"
+            "raw_flags6": "AMV ABCDEFGHIJK medium 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "51846": {
-            "name": "{BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-28 -28 -28 -26",
             "description": [
                 "The frost dragon Icingdeath, spoken only in legend, towers above. \n",
                 "White and black scales interweave over a slender torso and pearly\n",
@@ -2337,15 +2338,15 @@
                 "outward...  Emotionless.  {x \n"
             ],
             "raw_flags5": "stand stand female 52000",
-            "raw_flags6": "AH ACDEFGHIJKPQUVX giant 0",
-            "raw_flags4": "AFHMP ABILQ BEHJ FIN",
-            "raw_flags3": "-28 -28 -28 -26",
             "vnum": 51846,
+            "raw_affected": "T",
             "raw_flags": "ABFNOT DFJVZa AHO -1000 0",
-            "race_id": "dragon",
-            "raw_form": "Z",
+            "raw_flags4": "AFHMP ABILQ BEHJ FIN",
+            "room_name": "{*The mythical {Wf{wr{*o{ws{Wt{* dragon {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{*, defends her sanctuary.{x\n",
+            "name": "{BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{x~\n",
             "raw_flags2": "105 105 800d150+32000 1500d50+12000 150d60+3750 claw",
-            "d_flags": "D ~",
+            "raw_form": "Z",
+            "keywords": "dragon wyrm icingdeath~\n",
             "subroutines": [
                 "F aff T\n",
                 "F for Z\n",
@@ -2354,13 +2355,13 @@
                 "M kill 51826 100~\n",
                 "M death 51808 100~\n"
             ],
-            "raw_affected": "T",
-            "t_flags": "T ~",
-            "room_name": "{*The mythical {Wf{wr{*o{ws{Wt{* dragon {BI{wc{Wi{wn{*g{Bd{We{wa{*t{wh{*, defends her sanctuary.{x\n",
-            "keywords": "dragon wyrm icingdeath~\n"
+            "raw_flags6": "AH ACDEFGHIJKPQUVX giant 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "51847": {
-            "name": "{YK{ye{wlv{yi{Yn{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-28 -28 -28 -26",
             "description": [
                 "Kelvin, the largest and most powerful of the frost giants, holy\n",
                 "worshipper of Thrym.  The cairn is his home where he leads, not rules,\n",
@@ -2368,15 +2369,14 @@
                 "has blessed upon him the spells of his most powerful priest.  {x \n"
             ],
             "raw_flags5": "stand stand male 78000",
-            "raw_flags6": "AMV ABCDEFGHIJK giant 0",
-            "raw_flags4": "FP AB EHIOQ JMR",
-            "raw_flags3": "-28 -28 -28 -26",
             "vnum": 51847,
             "raw_flags": "ABCFNOQT DFVZ AHOR -600 0",
-            "race_id": "giant",
-            "raw_form": "H",
+            "raw_flags4": "FP AB EHIOQ JMR",
+            "room_name": "{YK{ye{wlv{yi{Yn{*, devout follower of {bT{Bh{Wr{By{bm{*, mocks your presence.{x\n",
+            "name": "{YK{ye{wlv{yi{Yn{x~\n",
             "raw_flags2": "108 108 15000d100+10000 1500d60+7000 110d60+3200 crush",
-            "d_flags": "D ~",
+            "raw_form": "H",
+            "keywords": "frost giant kelvin~\n",
             "subroutines": [
                 "F for H\n",
                 "M exall 51776 2~\n",
@@ -2386,140 +2386,141 @@
                 "M fight 51849 15~\n",
                 "M death 51841 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{YK{ye{wlv{yi{Yn{*, devout follower of {bT{Bh{Wr{By{bm{*, mocks your presence.{x\n",
-            "keywords": "frost giant kelvin~\n"
+            "raw_flags6": "AMV ABCDEFGHIJK giant 0",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "51800": {
-            "name": "{WA Wh{*i{Wte I{*c{We Go{*l{Wem{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "{WThe composition of the golem is familiar yet mysterious.  A\n",
                 "mindless, moving mass of dense and pure white ice, it's sole purpose\n",
                 "to do the wishes of it's creator.  {x \n"
             ],
             "raw_flags5": "stand stand male 3000",
-            "raw_flags6": "AHV ABCDEFGHIJK huge ice",
-            "raw_flags4": "CFI ABLPQ CGI 0",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 51800,
             "raw_flags": "ABFOTU 0 H 0 0",
-            "race_id": "human",
-            "raw_form": "M",
+            "raw_flags4": "CFI ABLPQ CGI 0",
+            "room_name": "{*A huge golem of hardened {Wwhite ice{* guards the passageway vigilently.{x\n",
+            "name": "{WA Wh{*i{Wte I{*c{We Go{*l{Wem{x~\n",
             "raw_flags2": "104 11 350d100+22000 50d100+5000 70d25+1500 crush",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "white ice golem~\n",
             "subroutines": [
                 "F for M\n",
                 "M fight 51812 20~\n",
                 "M exall 51801 1~\n",
                 "M exall 51801 1~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A huge golem of hardened {Wwhite ice{* guards the passageway vigilently.{x\n",
-            "keywords": "white ice golem~\n"
+            "raw_flags6": "AHV ABCDEFGHIJK huge ice",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "51801": {
-            "name": "{*A Bl{Wa{*ck I{Wc{*e Go{Wl{*em{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "{*An enormous golem blocks the passageway with it's sheer size and\n",
                 "magically enhanced speed.  This is not the work of simple magics.  It\n",
                 "is fearless, and deadly.  {x \n"
             ],
             "raw_flags5": "stand stand male 3000",
-            "raw_flags6": "AHV ABCDEFGHIJK huge ice",
-            "raw_flags4": "CFI ABLPQ CGI 0",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 51801,
             "raw_flags": "ABFNOTU DVa H 0 0",
-            "race_id": "human",
-            "raw_form": "M",
+            "raw_flags4": "CFI ABLPQ CGI 0",
+            "room_name": "{wA huge golem of hardened {*black ice{w stands sentry, preventing anyone from passing.{x\n",
+            "name": "{*A Bl{Wa{*ck I{Wc{*e Go{Wl{*em{x~\n",
             "raw_flags2": "110 11 500d100+29000 50d100+5000 80d30+1800 crush",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "black ice golem~\n",
             "subroutines": [
                 "F for M\n",
                 "M death 51815 100~\n",
                 "M fight 51814 20~\n",
                 "M exall 51813 1~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wA huge golem of hardened {*black ice{w stands sentry, preventing anyone from passing.{x\n",
-            "keywords": "black ice golem~\n"
+            "raw_flags6": "AHV ABCDEFGHIJK huge ice",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "51802": {
-            "name": "{*a {YC{yr{wu{Wsa{wd{Ye{Yr {*of {bT{Bh{Wr{By{bm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "{wFanatical followers of their god Thrym, the crusaders are fearless\n",
                 "giant warriors whose lone purpose is to serve their god.  {x \n"
             ],
             "raw_flags5": "stand stand male 8000",
-            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
-            "raw_flags4": "CFIN AB EHI HJR",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 51802,
             "raw_flags": "AFOT Va H -1000 0",
-            "race_id": "giant",
-            "raw_form": "M",
+            "raw_flags4": "CFIN AB EHI HJR",
+            "room_name": "{*A huge {Cf{cr{wo{cs{Ct{* giant wielding a {Wwhite{* double-bladed axe stands here.{x\n",
+            "name": "{*a {YC{yr{wu{Wsa{wd{Ye{Yr {*of {bT{Bh{Wr{By{bm{x~\n",
             "raw_flags2": "105 105 200d200+14000 50d100+5000 60d25+1100 pound",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "crusader frost giant~\n",
             "subroutines": [
                 "F for M\n",
                 "M fight 51802 20~\n"
             ],
-            "t_flags": "T Short {*a {YCr{yu{Wsa{yd{Yer {*of {bT{Bh{Wr{By{bm{x~",
-            "room_name": "{*A huge {Cf{cr{wo{cs{Ct{* giant wielding a {Wwhite{* double-bladed axe stands here.{x\n",
-            "keywords": "crusader frost giant~\n"
+            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
+            "race_id": "giant",
+            "t_flags": "T Short {*a {YCr{yu{Wsa{yd{Yer {*of {bT{Bh{Wr{By{bm{x~"
         },
         "51803": {
-            "name": "{*a {YO{yr{Wac{yl{Ye {*of {bT{Bh{Wr{By{bm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "{wThe Oracle is an enlightened sage who speaks to Thrym as an\n",
                 "intermediary.  He is wearing a set of ornate robes that glows yellow. \n",
                 "{x \n"
             ],
             "raw_flags5": "stand stand none 12000",
-            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
-            "raw_flags4": "F AB EHI JNR",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 51803,
             "raw_flags": "AFLNO DFLTZ HOR -1000 0",
-            "race_id": "giant",
-            "raw_form": "M",
+            "raw_flags4": "F AB EHI JNR",
+            "room_name": "{*A {Yo{yr{Yn{ya{Yt{ye{Yl{yy{* decorated {Cf{cr{wo{cs{Ct{* giant levitates in the air.{x\n",
+            "name": "{*a {YO{yr{Wac{yl{Ye {*of {bT{Bh{Wr{By{bm{x~\n",
             "raw_flags2": "109 109 200d200+13000 90d90+7000 50d25+1000 pound",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "oracle frost giant~\n",
             "subroutines": [
                 "F for M\n",
                 "M fight 51803 20~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {Yo{yr{Yn{ya{Yt{ye{Yl{yy{* decorated {Cf{cr{wo{cs{Ct{* giant levitates in the air.{x\n",
-            "keywords": "oracle frost giant~\n"
+            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "51804": {
-            "name": "{*a {RH{ri{Wg{Rh {YP{yr{Wie{ys{Yt {*of {bT{Bh{Wr{By{bm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "{wThe high priests of have been blessed with the highest abilities\n",
                 "that Thrym himself can grant.  Their numbers are few, but each hold\n",
                 "immense power.  {x \n"
             ],
             "raw_flags5": "stand stand male 10000",
-            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
-            "raw_flags4": "F AB EHI JNR",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 51804,
             "raw_flags": "AFNO DFZ HOR -1000 0",
-            "race_id": "giant",
-            "raw_form": "M",
+            "raw_flags4": "F AB EHI JNR",
+            "room_name": "{*A {Cf{cr{wo{cs{Ct{* giant bearing a large tome meditates silently.{x\n",
+            "name": "{*a {RH{ri{Wg{Rh {YP{yr{Wie{ys{Yt {*of {bT{Bh{Wr{By{bm{x~\n",
             "raw_flags2": "101 101 190d190+11000 90d90+9000 50d25+900 pound",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "high priest frost giant~\n",
             "subroutines": [
                 "F for M\n",
                 "M fight 51804 20~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A {Cf{cr{wo{cs{Ct{* giant bearing a large tome meditates silently.{x\n",
-            "keywords": "high priest frost giant~\n"
+            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "51805": {
-            "name": "{*a {YH{yu{Wnt{ye{Yr {*of {bT{Bh{Wr{By{bm{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "{wFocusing more on speed and agility, Thrym's hunters are more\n",
                 "slender and less powerful than most frost giants.  They are trained in\n",
@@ -2527,26 +2528,27 @@
                 "their prey.  {x \n"
             ],
             "raw_flags5": "stand stand none 16000",
-            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
-            "raw_flags4": "EFKN AB EHI HJR",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 51805,
             "raw_flags": "AFNO DFPQVZ H -1000 0",
-            "race_id": "giant",
-            "raw_form": "M",
+            "raw_flags4": "EFKN AB EHI HJR",
+            "room_name": "{*A slender {Cf{cr{wo{cs{Ct{* giant crouches in the shadows.{x\n",
+            "name": "{*a {YH{yu{Wnt{ye{Yr {*of {bT{Bh{Wr{By{bm{x~\n",
             "raw_flags2": "103 103 150d150+15000 90d90+800 70d25+800 pound",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "hunter frost giant~\n",
             "subroutines": [
                 "F for M\n",
                 "M fight 51806 15~\n",
                 "M fight 51805 15~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{*A slender {Cf{cr{wo{cs{Ct{* giant crouches in the shadows.{x\n",
-            "keywords": "hunter frost giant~\n"
+            "raw_flags6": "AHV ABCDEFGHIJK huge flesh",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "51775": {
-            "name": "a section of ice~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Upon closer inspection, the vague form of a sword can be seen\n",
                 "frozen into the ice.  Though frozen over, it does not appear to be\n",
@@ -2554,23 +2556,21 @@
                 "extracted.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV 0 medium unknown",
-            "raw_flags4": "0 ABILQ F EH",
-            "raw_flags3": "0 0 0 0",
             "vnum": 51775,
             "raw_flags": "ABM 0 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABILQ F EH",
+            "room_name": "{wA {Wglint{w of metal of the {*hilt{w of a sword is barely visible in the {Ci{Wc{Ce{x.\n",
+            "name": "a section of ice~\n",
             "raw_flags2": "101 0 1d1+0 1d1+1 1d1+1 chill",
-            "d_flags": "D ~",
+            "keywords": "ice section frozen sword~\n",
             "subroutines": [
                 "F par ABCDEFGHIJK\n",
                 "M death 51775 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wA {Wglint{w of metal of the {*hilt{w of a sword is barely visible in the {Ci{Wc{Ce{x.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ice section frozen sword~\n"
+            "raw_flags6": "AHMV 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 1
+    "area_quest_points": 0
 }

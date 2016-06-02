@@ -1,53 +1,495 @@
 {
-    "name": "RagNaRok II",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "ragnrk1",
-    "subroutines": [],
+    "objects": {},
+    "uid": "ragnrk1",
     "rooms": {
-        "34817": {
+        "34812": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the red surface of the RoK.  Around you is red hills",
+                "and sands, rolling around in a big dust ball.  You see no life on the",
+                "RoK, only dead earth.  The path continues north.  "
+            ],
             "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34813",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "34814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34815",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34819",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34812"
+        },
+        "34807": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "The altitude you are at is insane.  The globe below you begins to",
+                "bend in the distance as the round shape of the planet is becoming very",
+                "noticable.  RagNaRok is above, and the air is thinning....  "
+            ],
+            "name": "Far Above The Clouds",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "11009",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "34806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34807"
+        },
+        "34813": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
             "description": [
                 "You walk along the red surface of the RoK.  Around you is red",
                 "hills and sands, rolling around in a big dust ball.  You see no life",
                 "on the RoK, only dead earth.  The path continues north.  "
             ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34817",
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34814"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "34819",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34820"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34813"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "34817",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34816"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34816",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34812",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "34813"
+        },
+        "34817": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the red surface of the RoK.  Around you is red",
+                "hills and sands, rolling around in a big dust ball.  You see no life",
+                "on the RoK, only dead earth.  The path continues north.  "
+            ],
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34820",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "34816",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34813",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34814",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34817"
+        },
+        "34810": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "You are now in RagNaRok's atmosphere.  Above is the surface of",
+                "RagNaRok, which looks like red sands.  A heavy wind is blowing and the",
+                "RoK seems like it is moving.  "
+            ],
+            "name": "Before the Rok",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "11056",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "34809",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34810"
+        },
+        "34818": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the red surface of the RoK.  Around you is red",
+                "hills and sands, rolling around in a big dust ball.  You see no life",
+                "on the RoK, only dead earth.  The path continues north.  "
+            ],
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34815",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "34819",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34820",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34816",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34818"
+        },
+        "34809": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "Does your race handle \"outer space\" conditions, like zero gravity",
+                "and no air.  RagNaRok is right there, just a little bit further. ",
+                "Below is the world, just barely....  "
+            ],
+            "name": "Outter Atmosphere",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "34810",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "34808",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34809"
+        },
+        "34801": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "The tops of the buildings in Westbridge are now below you.  Above",
+                "is the air, below is Market Square.  ",
+                " ",
+                "{Y[ {RNo Airship Parking {Y]{x"
+            ],
+            "name": "Far Above The Ground",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "34802",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "34800",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34801"
+        },
+        "34850": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "34850"
+        },
+        "34808": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "There is no longer breathable air around you.  You have entered the",
+                "inner Atmosphere which is made up of many....  Explosive....  Gases. ",
+                "RagNaRok is so close you can almost touch it.  Below is the world.  "
+            ],
+            "name": "Inner Atmosphere",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "34809",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "11024",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34808"
+        },
+        "34819": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the red surface of the RoK.  Around you is red",
+                "hills and sands, rolling around in a big dust ball.  You see no life",
+                "on the RoK, only dead earth.  The path continues north.  "
+            ],
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34812",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "34820",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34818",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34813",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34819"
+        },
+        "34816": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the red surface of the RoK.  Around you is red",
+                "hills and sands, rolling around in a big dust ball.  You see no life",
+                "on the RoK, only dead earth.  The path continues north.  "
+            ],
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34818",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "34813",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34817",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34815",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34816"
+        },
+        "34811": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "Your feet touch the red ground of RagNaRok.  All around you there is",
+                "nothing but a large, rocky desert.  The red sand and dust blow by on the",
+                "cold surface.  You notice there is a path leading north on the RoK."
+            ],
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34812",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11056",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34811"
+        },
+        "34800": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating about ten feet above Market Square.  In all",
+                "directions you can see the city.  To the north the healing temples,",
+                "and the park to the south.  There is much air above you, and Market",
+                "Square down.  ",
+                " ",
+                "{Y[ {RNo Airship Parking {Y]{x"
+            ],
+            "name": "Above Market Square",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "34801",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34800"
+        },
+        "34804": {
+            "extras": {},
+            "flags_raw": "0 4 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "You cannot see much except the misty whiteness of the clouds.  You",
+                "can continue up or down.  "
+            ],
+            "name": "In The Clouds",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "34804"
         },
         "34803": {
-            "name": "In The Clouds",
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
             "description": [
                 "{YW E L C O M E    T O{x",
                 "{C##    ## {c###### ###### ###### {C#####  {c#####  ###### ######  ###### ######",
@@ -63,478 +505,194 @@
                 " ",
                 "{Y[ {RNo Airship Parking {Y]{x"
             ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34803",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1038"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1034"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1040"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "49285"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3014"
-                }
-            },
-            "extras": {}
-        },
-        "34813": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "You walk along the red surface of the RoK.  Around you is red",
-                "hills and sands, rolling around in a big dust ball.  You see no life",
-                "on the RoK, only dead earth.  The path continues north.  "
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34813",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34812"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34819"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34816"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34817"
-                }
-            },
-            "extras": {}
-        },
-        "34816": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "You walk along the red surface of the RoK.  Around you is red",
-                "hills and sands, rolling around in a big dust ball.  You see no life",
-                "on the RoK, only dead earth.  The path continues north.  "
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34816",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34815"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34818"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34817"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34813"
-                }
-            },
-            "extras": {}
-        },
-        "34820": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "You walk along the red surface of the RoK.  Around you is red",
-                "hills and sands, rolling around in a big dust ball.  You see no life",
-                "on the RoK, only dead earth.  The path continues north.  "
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34820",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34817"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34814"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34819"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34818"
-                }
-            },
-            "extras": {}
-        },
-        "34810": {
-            "name": "Before the Rok",
-            "description": [
-                "You are now in RagNaRok's atmosphere.  Above is the surface of",
-                "RagNaRok, which looks like red sands.  A heavy wind is blowing and the",
-                "RoK seems like it is moving.  "
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34810",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11056"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34809"
-                }
-            },
-            "extras": {}
-        },
-        "34800": {
-            "name": "Above Market Square",
-            "description": [
-                "You are floating about ten feet above Market Square.  In all",
-                "directions you can see the city.  To the north the healing temples,",
-                "and the park to the south.  There is much air above you, and Market",
-                "Square down.  ",
-                " ",
-                "{Y[ {RNo Airship Parking {Y]{x"
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34800",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34801"
-                }
-            },
-            "extras": {}
-        },
-        "34809": {
-            "name": "Outter Atmosphere",
-            "description": [
-                "Does your race handle \"outer space\" conditions, like zero gravity",
-                "and no air.  RagNaRok is right there, just a little bit further. ",
-                "Below is the world, just barely....  "
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34809",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34810"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34808"
-                }
-            },
-            "extras": {}
-        },
-        "34805": {
             "name": "In The Clouds",
-            "description": [
-                "A cold breeze blows by as you go through the clouds.  The breeze",
-                "pushes mist into your face, a very cold mist.  "
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34805",
             "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34806"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11008"
-                }
-            },
-            "extras": {}
-        },
-        "34814": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "You walk along the red surface of the RoK.  Around you is red",
-                "hills and sands, rolling around in a big dust ball.  You see no life",
-                "on the RoK, only dead earth.  The path continues north.  "
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34814",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34820"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "1038",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34817"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "49285",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "1034",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34812"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34815"
-                }
-            },
-            "extras": {}
-        },
-        "34818": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "You walk along the red surface of the RoK.  Around you is red",
-                "hills and sands, rolling around in a big dust ball.  You see no life",
-                "on the RoK, only dead earth.  The path continues north.  "
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34818",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34816"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34815"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34820"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34819"
-                }
-            },
-            "extras": {}
-        },
-        "34807": {
-            "name": "Far Above The Clouds",
-            "description": [
-                "The altitude you are at is insane.  The globe below you begins to",
-                "bend in the distance as the round shape of the planet is becoming very",
-                "noticable.  RagNaRok is above, and the air is thinning....  "
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34807",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11009"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "3014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34806"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "1040",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "34803"
         },
         "34806": {
-            "name": "Above The Clouds",
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
             "description": [
                 "The clouds now stretch out in all directions.  Below is the realms,",
                 "which is now getting very small.  Above RagNaRok stands in full view,",
                 "giving off a red aura.  You can either go up or down.  "
             ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34806",
+            "name": "Above The Clouds",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "34807",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34807"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "34805",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34805"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "34806"
         },
-        "34819": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+        "34820": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
             "description": [
                 "You walk along the red surface of the RoK.  Around you is red",
                 "hills and sands, rolling around in a big dust ball.  You see no life",
                 "on the RoK, only dead earth.  The path continues north.  "
             ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34819",
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34813"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "34814",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34812"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34818"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "34818",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34820"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34819",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34817",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "34820"
+        },
+        "34814": {
+            "extras": {},
+            "flags_raw": "0 0 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along the red surface of the RoK.  Around you is red",
+                "hills and sands, rolling around in a big dust ball.  You see no life",
+                "on the RoK, only dead earth.  The path continues north.  "
+            ],
+            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "34817",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "34815",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "34812",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "34820",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34814"
+        },
+        "34805": {
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
+            "description": [
+                "A cold breeze blows by as you go through the clouds.  The breeze",
+                "pushes mist into your face, a very cold mist.  "
+            ],
+            "name": "In The Clouds",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "34806",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "11008",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "34805"
         },
         "34802": {
-            "name": "Very Far Up",
+            "extras": {},
+            "flags_raw": "0 0 0 9",
+            "flags2_raw": "0",
             "description": [
                 "The city of Westbridge is now just a large square below you.  All",
                 "around you is the landscape of the Great Realms.  To the north you can",
@@ -544,295 +702,137 @@
                 " ",
                 "{Y[ {RNo Airship Parking {Y]{x"
             ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34802",
+            "name": "Very Far Up",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "1018",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1018"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "1014",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1014"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1020"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "34801",
                     "description": [
                         ""
-                    ],
-                    "room_id": "34801"
-                }
-            },
-            "extras": {}
-        },
-        "34804": {
-            "name": "In The Clouds",
-            "description": [
-                "You cannot see much except the misty whiteness of the clouds.  You",
-                "can continue up or down.  "
-            ],
-            "flags_raw": "0 4 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34804",
-            "exits": {},
-            "extras": {}
-        },
-        "34812": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "You walk along the red surface of the RoK.  Around you is red hills",
-                "and sands, rolling around in a big dust ball.  You see no life on the",
-                "RoK, only dead earth.  The path continues north.  "
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34812",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34819"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34813"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34815"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34814"
-                }
-            },
-            "extras": {}
-        },
-        "34808": {
-            "name": "Inner Atmosphere",
-            "description": [
-                "There is no longer breathable air around you.  You have entered the",
-                "inner Atmosphere which is made up of many....  Explosive....  Gases. ",
-                "RagNaRok is so close you can almost touch it.  Below is the world.  "
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34808",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34809"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11024"
-                }
-            },
-            "extras": {}
-        },
-        "34850": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34850",
-            "exits": {},
-            "extras": {}
-        },
-        "34801": {
-            "name": "Far Above The Ground",
-            "description": [
-                "The tops of the buildings in Westbridge are now below you.  Above",
-                "is the air, below is Market Square.  ",
-                " ",
-                "{Y[ {RNo Airship Parking {Y]{x"
-            ],
-            "flags_raw": "0 0 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34801",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34802"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34800"
-                }
-            },
-            "extras": {}
-        },
-        "34811": {
-            "name": "{RO{*n the {YS{*urface of {*R{Yag{RN{ra{RR{rok{x",
-            "description": [
-                "Your feet touch the red ground of RagNaRok.  All around you there is",
-                "nothing but a large, rocky desert.  The red sand and dust blow by on the",
-                "cold surface.  You notice there is a path leading north on the RoK."
-            ],
-            "flags_raw": "0 0 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "34811",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "34812"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "1020",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11056"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "34802"
         }
     },
-    "uid": "ragnrk1",
-    "area_quest_points": 0,
     "credits": "[90 GR HR] RagNaRok II",
     "faction_id": "",
+    "name": "RagNaRok II",
     "vnums": [
         34800,
         34899
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "34800": {
-            "name": "The RagNaRok Hawk~\n",
-            "description": [],
-            "raw_flags5": "stand stand none 350",
-            "raw_flags6": "ABGZ ACDEFHJKQVX large unknown",
-            "raw_flags4": "0 0 0 S",
-            "raw_off": "CFH",
-            "raw_immunities": "L",
-            "raw_flags3": "-4 -4 -4 -4",
-            "vnum": 34800,
-            "raw_flags": "AFG CDEFG 0 0 0",
-            "race_id": "wyvern",
-            "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 none",
             "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
+            "description": [],
+            "raw_off": "CFH",
+            "raw_flags5": "stand stand none 350",
+            "vnum": 34800,
+            "raw_affected": "T",
+            "raw_immunities": "L",
+            "raw_flags": "AFG CDEFG 0 0 0",
+            "raw_flags4": "0 0 0 S",
+            "room_name": "A large black hawk circles the sky.\n",
+            "name": "The RagNaRok Hawk~\n",
+            "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 none",
+            "keywords": "Ragnarok Hawk~\n",
             "subroutines": [
                 "F aff T\n",
                 "F off CFH\n",
                 "F imm L\n"
             ],
-            "raw_affected": "T",
-            "t_flags": "T ~",
-            "room_name": "A large black hawk circles the sky.\n",
-            "keywords": "Ragnarok Hawk~\n"
+            "raw_flags6": "ABGZ ACDEFHJKQVX large unknown",
+            "race_id": "wyvern",
+            "t_flags": "T ~"
         },
         "34808": {
-            "name": "Ragnarok Strangler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-25 -25 -25 -25",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB EHI JPR",
-            "raw_flags3": "-25 -25 -25 -25",
             "vnum": 34808,
             "raw_flags": "ABTV CDFJVZ 0 0 0",
-            "race_id": "giant",
+            "raw_flags4": "0 AB EHI JPR",
+            "room_name": "{x\n",
+            "name": "Ragnarok Strangler~\n",
             "raw_flags2": "90 30 1d1+3999 1d1+499 5d4+40 crush",
-            "d_flags": "D ~",
+            "keywords": "ragnarok strangler~\n",
             "subroutines": [
                 "M GRALL 34808 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{x\n",
-            "keywords": "ragnarok strangler~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "34803": {
-            "name": "RagNaRok Cloud Demon~\n",
-            "description": [],
-            "raw_flags5": "stand stand none 350",
-            "raw_flags6": "ABGZ ACDEFHJKQVX large unknown",
-            "raw_flags4": "0 0 0 S",
-            "raw_off": "CFH",
-            "raw_immunities": "L",
-            "raw_flags3": "-4 -4 -4 -4",
-            "vnum": 34803,
-            "raw_flags": "AFG CDEFG 0 0 0",
-            "race_id": "wyvern",
-            "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 none",
             "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
+            "description": [],
+            "raw_off": "CFH",
+            "raw_flags5": "stand stand none 350",
+            "vnum": 34803,
+            "raw_affected": "T",
+            "raw_immunities": "L",
+            "raw_flags": "AFG CDEFG 0 0 0",
+            "raw_flags4": "0 0 0 S",
+            "room_name": "A small cloud slowly passes you.\n",
+            "name": "RagNaRok Cloud Demon~\n",
+            "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 none",
+            "keywords": "ragnarok cloud demon~\n",
             "subroutines": [
                 "F aff T\n",
                 "F off CFH\n",
                 "F imm L\n"
             ],
-            "raw_affected": "T",
-            "t_flags": "T ~",
-            "room_name": "A small cloud slowly passes you.\n",
-            "keywords": "ragnarok cloud demon~\n"
+            "raw_flags6": "ABGZ ACDEFHJKQVX large unknown",
+            "race_id": "wyvern",
+            "t_flags": "T ~"
         },
         "34809": {
-            "name": "RagNaRok Strangler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-25 -25 -25 -25",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB EHI JPR",
-            "raw_flags3": "-25 -25 -25 -25",
             "vnum": 34809,
             "raw_flags": "ABTV CDFJVZ 0 0 0",
-            "race_id": "giant",
+            "raw_flags4": "0 AB EHI JPR",
+            "room_name": "{x\n",
+            "name": "RagNaRok Strangler~\n",
             "raw_flags2": "90 30 1d1+3999 1d1+499 5d4+40 crush",
-            "d_flags": "D ~",
+            "keywords": "ragnarok strangler~\n",
             "subroutines": [
                 "M GRALL 34809 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{x\n",
-            "keywords": "ragnarok strangler~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "giant",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

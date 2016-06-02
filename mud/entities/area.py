@@ -8,6 +8,8 @@ class Area(GameEntity):
     A container that holds a grouping of areas, Actors, etc.
     """
     COLLECTION_NAME = "areas"
+    UNIQUE_INDEXES = ["uid"]
+    INDEXES = ["id"]
     STRING_INDEXES = ["name"]
 
     @classmethod

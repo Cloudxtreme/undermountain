@@ -1,180 +1,118 @@
 {
-    "name": "Vectorian Titan Base",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "vector08",
-    "subroutines": [],
+    "objects": {},
+    "uid": "vector08",
     "rooms": {
-        "1973": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
+        "1982": {
+            "extras": {},
+            "flags_raw": "0 32768 0 0",
             "flags2_raw": "0",
-            "vnum": "1973",
+            "description": [],
+            "name": "",
             "exits": {
-                "down": {
+                "up": {
                     "flags_raw": "0",
+                    "room_id": "1978",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1970"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "1963": {
-            "name": "Vectorian Camp Site",
-            "description": [
-                "You stand at a Vectorian Camp Site.  Two tents have been erected to",
-                "either side of this area, to the east or west.  To the north, a large",
-                "wagon stands, some smoke pours out of it, and a cook stands there,",
-                "cooking some strange meat.  In this area, a large camp fire burns, a",
-                "jug of coffee hangs over it, purking.  Some logs have been cut and",
-                "placed next to the fire, some Magitek Warriors sit, warming",
-                "themselves.  The tent to the west looks very fancy compaired to the",
-                "tent to the east.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "1982"
+        },
+        "1970": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "1963",
+            "description": [
+                "You enter the airship hangar here.  The hangar here is built from",
+                "the local wood, and it seems much better than the other hangars on the",
+                "base.  A large Vectorian Airship floats here at bay, a small stair",
+                "case leading up to it.  The hangar continues to the west.  The exit is",
+                "to the south.  "
+            ],
+            "name": "Vectorian Airship Hangar",
             "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1973",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1971",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "1961",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1958"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1965"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1966"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1964"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "1964": {
-            "name": "Vectorian Guard's Tent",
-            "description": [
-                "You stand in a standard Guard's Tent, a place where the guards come",
-                "and sleep.  The tent is somewhat small, and very packed.  Several cots",
-                "line the walls, a trunk at the end.  The cots are neatly made out.  A",
-                "small lantern hangs from the middle of the tent.  "
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1964",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1963"
-                }
-            },
-            "extras": {}
-        },
-        "1979": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 32772 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1979",
-            "exits": {},
-            "extras": {}
+            "vnum": "1970"
         },
         "1965": {
-            "name": "The Food Wagon",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You walk near the food wagon.  The cook peers out from behind his",
                 "stove, and glances at you.  The wagon is very large, a stove extends",
                 "out of one end of it.  The stove is filled with tons of cooking",
                 "equipment.  Pots and pans and all diffrent types of stuff.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1965",
+            "name": "The Food Wagon",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "1963",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1963"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "1972": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1972",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1971"
-                }
-            },
-            "extras": {}
+            "vnum": "1965"
         },
-        "1971": {
-            "name": "Vectorian Airship Hangar",
+        "1966": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
-                "You walk into the western part of the hangar.  Here again you see",
-                "another Vectorian Airship, hovering above the ground, not being used,",
-                "and sitting at bay.  A small stair case leads upwards to the airship. ",
-                "The hangar continues to the east.  "
+                "You walk into a very large tent, the main tent to this camp.  The",
+                "tent is filled with high class stuff.  A large carpet lies on the",
+                "floor, it looks hand woven.  The chairs that line the rug, are very",
+                "fine.  Made from hard wood, and cusioned, they make a circle, and a",
+                "small table sits in the middle of this circle, a single bottle and",
+                "four shot glasses.  Several large beds...  Not cots line the wall.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1971",
+            "name": "Elite Vectorian Tent",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "1963",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1970"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1972"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "1966"
         },
         "1968": {
-            "name": "Magitek Soldier Hangar",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You enter a large hangar.  Here row after row of chairs line the",
                 "floor of this make-shift hangar.  To the south, infront of the chairs",
@@ -183,87 +121,430 @@
                 "quickly.  You almost think if a strong enough wind came along, the",
                 "place would go down.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1968",
+            "name": "Magitek Soldier Hangar",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "1958",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1958"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "1978": {
-            "name": "A Vectorian Bunker",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "1968"
+        },
+        "1974": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "1978",
+            "description": [
+                "You stand at a guard post.  Here a Magitek Armor stands here, on",
+                "guard, waiting for tresspassers or anything that could go wrong. ",
+                "There is nothing else here.  "
+            ],
+            "name": "Guard Post #2",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1956",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1974"
+        },
+        "1972": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
             "exits": {
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "1971",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1982"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "1972"
+        },
+        "1969": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You enter a large tent, which happens to be somewhat empty.  In the",
+                "center of the tent, a large table stands, with a map of the realms. ",
+                "Several chairs line the table, empty.  The walls are covered with",
+                "diffrent maps, and blueprints.  "
+            ],
+            "name": "Titan Valley Headquaters [RoV]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "1957",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1969"
         },
         "1960": {
-            "name": "The Titan Valley Base (E)",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The road leads to the east and west.  To the east, you see a large",
                 "house, with a beautful lawn.  The house is large, and is occupied. ",
                 "Back to the west is the Vectorian Base.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1960",
+            "name": "The Titan Valley Base (E)",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1958"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "18021",
                     "description": [
                         ""
-                    ],
-                    "room_id": "18021"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1958",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "1967",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1967"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "1981": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 32772 0 0",
             "wanted_area_vnum": "",
+            "vnum": "1960"
+        },
+        "1964": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "1981",
+            "description": [
+                "You stand in a standard Guard's Tent, a place where the guards come",
+                "and sleep.  The tent is somewhat small, and very packed.  Several cots",
+                "line the walls, a trunk at the end.  The cots are neatly made out.  A",
+                "small lantern hangs from the middle of the tent.  "
+            ],
+            "name": "Vectorian Guard's Tent",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1963",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1964"
+        },
+        "1958": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along in the base of the Vector, in the Titan Valley.  To",
+                "the north, you see several tents, and a wagon sitting there.  A camp",
+                "fire burns in the middle of the tents, and a few Warriors sit by it,",
+                "warming themselves.  The road here goes to the east and west.  "
+            ],
+            "name": "The Titan Valley Base (E)",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "1963",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1960",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1957",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "1968",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1958"
+        },
+        "1977": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Vectorian Bunker",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "1980",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1977"
+        },
+        "1967": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Vectorian Bunker",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1960",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2668",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1967"
+        },
+        "1971": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk into the western part of the hangar.  Here again you see",
+                "another Vectorian Airship, hovering above the ground, not being used,",
+                "and sitting at bay.  A small stair case leads upwards to the airship. ",
+                "The hangar continues to the east.  "
+            ],
+            "name": "Vectorian Airship Hangar",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1970",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1972",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1971"
+        },
+        "1961": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along a windy road in the Titan Valley.  Here, a very",
+                "LARGE building stands to the north, almost like an oversize barn. ",
+                "Large doors stand closed.  The road goes to the east and west.  Back",
+                "east is the center of the base, Titan Valley is to the west.  "
+            ],
+            "name": "Along A Windy Road [RoV]",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "1970",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1957",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1962",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1961"
+        },
+        "1962": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You find that the forest has lessened remarkably and you are now in",
+                "an open field, following a road.  You notice that not so far ahead,",
+                "the forest starts up again.  You hope that you will find a village",
+                "soon, or you will have to spend the night with those rich people back",
+                "east.  The exits are, again, in an east-west direction.  "
+            ],
+            "name": "In The Open Plains [RoV]",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1961",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "18025",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "1959",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1962"
+        },
+        "1980": {
+            "extras": {},
+            "flags_raw": "0 32768 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1977",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1980"
+        },
+        "1979": {
+            "extras": {},
+            "flags_raw": "0 32772 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "1979"
+        },
+        "1959": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Vectorian Bunker",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1962",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2639",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1959"
+        },
+        "1978": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Vectorian Bunker",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "1982",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1978"
+        },
+        "1975": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at a guard post.  Here a Magitek Armor stands here, on",
+                "guard, waiting for tresspassers or anything that could go wrong. ",
+                "There is nothing else here.  "
+            ],
+            "name": "Guard Post #1",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1956",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1975"
         },
         "1956": {
-            "name": "Back on the Main Road [RoV]",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "Boy, it sure does feel good to be back on hard solid ground once",
                 "again.  This area once held tulips and rose bushes, lining the road. ",
@@ -279,373 +560,107 @@
                 "as though it was formed ages ago, due to earthquakes and storms.  The",
                 "path continues north to the bridge, or south to the main road.  "
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1956",
+            "name": "Back on the Main Road [RoV]",
             "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "18018",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1974",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1975",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "1957",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1957"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1956"
+        },
+        "1973": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "1970",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1973"
+        },
+        "1963": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at a Vectorian Camp Site.  Two tents have been erected to",
+                "either side of this area, to the east or west.  To the north, a large",
+                "wagon stands, some smoke pours out of it, and a cook stands there,",
+                "cooking some strange meat.  In this area, a large camp fire burns, a",
+                "jug of coffee hangs over it, purking.  Some logs have been cut and",
+                "placed next to the fire, some Magitek Warriors sit, warming",
+                "themselves.  The tent to the west looks very fancy compaired to the",
+                "tent to the east.  "
+            ],
+            "name": "Vectorian Camp Site",
+            "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "1965",
                     "description": [
                         ""
-                    ],
-                    "room_id": "18018"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1964",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "1966",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1975"
+                    ]
                 },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1974"
-                }
-            },
-            "extras": {}
-        },
-        "1961": {
-            "name": "Along A Windy Road [RoV]",
-            "description": [
-                "You walk along a windy road in the Titan Valley.  Here, a very",
-                "LARGE building stands to the north, almost like an oversize barn. ",
-                "Large doors stand closed.  The road goes to the east and west.  Back",
-                "east is the center of the base, Titan Valley is to the west.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1961",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1970"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1962"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1957"
-                }
-            },
-            "extras": {}
-        },
-        "1976": {
-            "name": "A Vectorian Bunker",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1976",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1957"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2667"
-                }
-            },
-            "extras": {}
-        },
-        "1967": {
-            "name": "A Vectorian Bunker",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1967",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1960"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2668"
-                }
-            },
-            "extras": {}
-        },
-        "1959": {
-            "name": "A Vectorian Bunker",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1959",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1962"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2639"
-                }
-            },
-            "extras": {}
-        },
-        "1980": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 32768 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1980",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1977"
-                }
-            },
-            "extras": {}
-        },
-        "1982": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 32768 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1982",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1978"
-                }
-            },
-            "extras": {}
-        },
-        "1975": {
-            "name": "Guard Post #1",
-            "description": [
-                "You stand at a guard post.  Here a Magitek Armor stands here, on",
-                "guard, waiting for tresspassers or anything that could go wrong. ",
-                "There is nothing else here.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1975",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1956"
-                }
-            },
-            "extras": {}
-        },
-        "1977": {
-            "name": "A Vectorian Bunker",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1977",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1980"
-                }
-            },
-            "extras": {}
-        },
-        "1966": {
-            "name": "Elite Vectorian Tent",
-            "description": [
-                "You walk into a very large tent, the main tent to this camp.  The",
-                "tent is filled with high class stuff.  A large carpet lies on the",
-                "floor, it looks hand woven.  The chairs that line the rug, are very",
-                "fine.  Made from hard wood, and cusioned, they make a circle, and a",
-                "small table sits in the middle of this circle, a single bottle and",
-                "four shot glasses.  Several large beds...  Not cots line the wall.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1966",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1963"
-                }
-            },
-            "extras": {}
-        },
-        "1958": {
-            "name": "The Titan Valley Base (E)",
-            "description": [
-                "You walk along in the base of the Vector, in the Titan Valley.  To",
-                "the north, you see several tents, and a wagon sitting there.  A camp",
-                "fire burns in the middle of the tents, and a few Warriors sit by it,",
-                "warming themselves.  The road here goes to the east and west.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1958",
-            "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "1958",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1968"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1963"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1957"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1960"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "1969": {
-            "name": "Titan Valley Headquaters [RoV]",
-            "description": [
-                "You enter a large tent, which happens to be somewhat empty.  In the",
-                "center of the tent, a large table stands, with a map of the realms. ",
-                "Several chairs line the table, empty.  The walls are covered with",
-                "diffrent maps, and blueprints.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1969",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1957"
-                }
-            },
-            "extras": {}
+            "vnum": "1963"
         },
         "1957": {
-            "name": "Entrance To The Valley [RoV]",
-            "description": [
-                "You walk into what looks like a camp, but its filled with Vectorian",
-                "Officals, and Warriors and other things.  A few tents dart the",
-                "landscape, and a few large, newly erected buildings stand, about",
-                "hangar size.  You see Vectorian people walking around, keeping an eye",
-                "on you.  The road here splits into two branches.  A large sign is",
-                "here, demanding your attention.  "
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1957",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1969"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1956"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1961"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1958"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1976"
-                }
-            },
             "extras": {
                 "sign": {
                     "description": [
@@ -662,248 +677,233 @@
                         ""
                     ]
                 }
-            }
-        },
-        "1970": {
-            "name": "Vectorian Airship Hangar",
-            "description": [
-                "You enter the airship hangar here.  The hangar here is built from",
-                "the local wood, and it seems much better than the other hangars on the",
-                "base.  A large Vectorian Airship floats here at bay, a small stair",
-                "case leading up to it.  The hangar continues to the west.  The exit is",
-                "to the south.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1970",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1971"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1961"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1973"
-                }
             },
-            "extras": {}
-        },
-        "1962": {
-            "name": "In The Open Plains [RoV]",
-            "description": [
-                "You find that the forest has lessened remarkably and you are now in",
-                "an open field, following a road.  You notice that not so far ahead,",
-                "the forest starts up again.  You hope that you will find a village",
-                "soon, or you will have to spend the night with those rich people back",
-                "east.  The exits are, again, in an east-west direction.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "1962",
+            "description": [
+                "You walk into what looks like a camp, but its filled with Vectorian",
+                "Officals, and Warriors and other things.  A few tents dart the",
+                "landscape, and a few large, newly erected buildings stand, about",
+                "hangar size.  You see Vectorian people walking around, keeping an eye",
+                "on you.  The road here splits into two branches.  A large sign is",
+                "here, demanding your attention.  "
+            ],
+            "name": "Entrance To The Valley [RoV]",
             "exits": {
-                "west": {
+                "north": {
                     "flags_raw": "0",
+                    "room_id": "1956",
                     "description": [
                         ""
-                    ],
-                    "room_id": "18025"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "1958",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1961"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1961",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "1976",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1959"
-                }
-            },
-            "extras": {}
-        },
-        "1974": {
-            "name": "Guard Post #2",
-            "description": [
-                "You stand at a guard post.  Here a Magitek Armor stands here, on",
-                "guard, waiting for tresspassers or anything that could go wrong. ",
-                "There is nothing else here.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "1974",
-            "exits": {
-                "west": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "1969",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1956"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "1957"
+        },
+        "1981": {
+            "extras": {},
+            "flags_raw": "0 32772 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "1981"
+        },
+        "1976": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "A Vectorian Bunker",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "1957",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2667",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "1976"
         }
     },
-    "uid": "vector08",
-    "area_quest_points": 0,
     "credits": "[ ClnHll ] Vectorian Titan Valley Base",
     "faction_id": "",
+    "name": "Vectorian Titan Base",
     "vnums": [
         1956,
         1999
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "1956": {
-            "name": "The [SI] Magitek Guard~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 1956,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
+            "room_name": "A [SI] Magitek Guard stands here on duty.\n",
+            "name": "The [SI] Magitek Guard~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "standard issue magitek guard~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M SPEECH 1957 follow me boys~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A [SI] Magitek Guard stands here on duty.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "standard issue magitek guard~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "1957": {
-            "name": "Leader Of The Guards~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 1957,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
+            "room_name": "The Leader Of The Titan Valley Guards stands here.\n",
+            "name": "Leader Of The Guards~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "leader magitek warrior~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M SPEECH 1957 follow me boys~\n",
                 "M GRALL 1956 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Leader Of The Titan Valley Guards stands here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "leader magitek warrior~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "1958": {
-            "name": "The Vectorian Cook~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 1958,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
+            "room_name": "The Cook stands here grilling some strange meat.\n",
+            "name": "The Vectorian Cook~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "vectorian cook~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Cook stands here grilling some strange meat.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "vectorian cook~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "1959": {
-            "name": "MagiTek Armor [S-I]~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-170 -170 -170 -170",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV B medium unknown",
-            "raw_flags4": "ABCDEFGHIJKLMNOT IL DHQ FIRX",
-            "raw_flags3": "-170 -170 -170 -170",
             "vnum": 1959,
             "raw_flags": "ABGd Jac H -1000 0",
-            "race_id": "podrikev",
+            "raw_flags4": "ABCDEFGHIJKLMNOT IL DHQ FIRX",
+            "room_name": "A Magitek Armor stands here, ready to rock your world.\n",
+            "name": "MagiTek Armor [S-I]~\n",
             "raw_flags2": "110 5000 1d110+22536 300d20+20000 5d100+1000 acbite",
-            "d_flags": "D ~",
+            "keywords": "standard issue magitek armor~\n",
             "subroutines": [
                 "M SPEECH 1957 follow me boys~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Magitek Armor stands here, ready to rock your world.\n",
-            "keywords": "standard issue magitek armor~\n"
+            "raw_flags6": "AHMV B medium unknown",
+            "race_id": "podrikev",
+            "t_flags": "T ~"
         },
         "1960": {
-            "name": "MagiTek Armor [Proto-Type 0001]~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-370 -370 -370 -370",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV B medium unknown",
-            "raw_flags4": "ABCDEFGHIJKLMNOT IL DHQ FIRX",
-            "raw_flags3": "-370 -370 -370 -370",
             "vnum": 1960,
             "raw_flags": "ABGd Jac H -1000 0",
-            "race_id": "podrikev",
+            "raw_flags4": "ABCDEFGHIJKLMNOT IL DHQ FIRX",
+            "room_name": "A Magitek Armor stands here, ready to rock your world.\n",
+            "name": "MagiTek Armor [Proto-Type 0001]~\n",
             "raw_flags2": "110 8000 1d220+22536 400d20+20000 5d300+1000 acbite",
-            "d_flags": "D ~",
+            "keywords": "magitek armor prototype 0001~\n",
             "subroutines": [
                 "M SPEECH 1957 follow me boys~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Magitek Armor stands here, ready to rock your world.\n",
-            "keywords": "magitek armor prototype 0001~\n"
+            "raw_flags6": "AHMV B medium unknown",
+            "race_id": "podrikev",
+            "t_flags": "T ~"
         },
         "1961": {
-            "name": "A Magitek Warrior~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 -4",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
-            "raw_flags3": "-4 -4 -4 -4",
             "vnum": 1961,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "BCDEFGIJNOTU 0 0 0",
+            "room_name": "A Magitek Warrior stands here...\n",
+            "name": "A Magitek Warrior~\n",
             "raw_flags2": "110 5 39d39+9201 39d39+9201 5d23+44 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Magitek Warrior Guard~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Magitek Warrior stands here...\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Magitek Warrior Guard~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

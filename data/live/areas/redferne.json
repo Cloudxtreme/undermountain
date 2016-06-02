@@ -1,78 +1,29 @@
 {
-    "name": "Redferne's",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "redferne",
-    "subroutines": [],
+    "objects": {},
+    "uid": "redferne",
     "rooms": {
-        "7907": {
-            "name": "The Larder",
-            "description": [
-                "You can see food all over. Among the heaps of food you notice HUGE rats",
-                "scuttering around, nibbling pieces off the heaps here and there."
-            ],
+        "7903": {
+            "extras": {},
             "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "7907",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "7906"
-                }
-            },
-            "extras": {}
-        },
-        "7914": {
-            "name": "On the Huge Chain",
             "description": [
-                "This place has quite a good view over Westbridge. Your possibilities of movement",
-                "seems to extend only to up and down. Unless you want to let go of the chain,",
-                "then those are the directions you should take from here."
+                "This is gloomy and dark room with only a faint light radiating from the",
+                "walls. A bunch of funny-looking items fill the center of the room. There are",
+                "no furniture here what-so-ever. The only way out seems to be west, through",
+                "the low steel door."
             ],
-            "flags_raw": "0 4 0 5",
+            "name": "The Artifact room of Naris",
+            "exits": {},
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7914",
-            "exits": {
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Up the way you see the chain disappearing into the clouds above.",
-                        ""
-                    ],
-                    "room_id": "7916"
-                }
-            },
-            "extras": {}
-        },
-        "7916": {
-            "name": "On the Great Chain of Naris",
-            "description": [
-                "You are approximately on the middle of the treacherous Chain. One false step",
-                "and death will come and collect you quickly. The chain leads upwards and down.",
-                "No way are you going to descend now ... you've only just begun your climb.",
-                "Besides it could cost you your life.  Look down and you'll see why."
-            ],
-            "flags_raw": "0 4 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7916",
-            "exits": {
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "There seems to be only one way from here and that's up.",
-                        ""
-                    ],
-                    "room_id": "7918"
-                }
-            },
-            "extras": {}
+            "vnum": "7903"
         },
         "7918": {
-            "name": "The Mighty Chain of Naris",
+            "extras": {},
+            "flags_raw": "0 4 0 5",
+            "flags2_raw": "0",
             "description": [
                 "This place offers a splendid view of the WHOLE COUNTRY SIDE!!! A magnificent",
                 "light shines upon you and the way up through the clouds is opened. Up there",
@@ -80,25 +31,58 @@
                 "The chain beneath you seems to evaporate in the mustering clouds that",
                 "surround you by now."
             ],
-            "flags_raw": "0 4 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7918",
+            "name": "The Mighty Chain of Naris",
             "exits": {
                 "up": {
                     "flags_raw": "-1",
+                    "room_id": "7900",
                     "description": [
                         "You see the sunny top of the clouds. Beyond these, the Mansion towers before",
                         "your eyes. Beautiful!!",
                         ""
-                    ],
-                    "room_id": "7900"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "7918"
+        },
+        "7900": {
+            "extras": {},
+            "flags_raw": "0 516 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A huge cloud forms the plateau on which you are now standing. The wind here",
+                "is absolutely quiet and the sun is shining warmly upon you. From under the",
+                "cloud you can hear the faint sounds of Westbridge. Right before you to the",
+                "north lies the grand Mansion of Naris, the residence of the Greater God",
+                "Redferne."
+            ],
+            "name": "Outside Redferne's residence",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "7901",
+                    "description": [
+                        "You see a HUGE arched gate leading into this magnificent building.",
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "7918",
+                    "description": [
+                        "You see a Huge Chain that anchors the Mansion of Naris to the ground.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7900"
         },
         "7906": {
-            "name": "The Kitchen of Naris",
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This must be the place of food and drink. You can hear the faint noise of ",
                 "rats feasting on meat and bread from somewhere undeterminable. The sound",
@@ -106,40 +90,100 @@
                 "Northern end of the hall. To the north there is a larder, and to the east",
                 "stands a fridge."
             ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7906",
+            "name": "The Kitchen of Naris",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You can see the northern end of the hall.",
-                        ""
-                    ],
-                    "room_id": "7904"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "7907",
                     "description": [
                         "It's dark in there,  but the sounds from there are unmistakably from rats.",
                         ""
-                    ],
-                    "room_id": "7907"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "7908",
                     "description": [
                         "You can see the fridge from here. In it are drinks all over.",
                         ""
-                    ],
-                    "room_id": "7908"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "7904",
+                    "description": [
+                        "You can see the northern end of the hall.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "7906"
+        },
+        "7916": {
+            "extras": {},
+            "flags_raw": "0 4 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You are approximately on the middle of the treacherous Chain. One false step",
+                "and death will come and collect you quickly. The chain leads upwards and down.",
+                "No way are you going to descend now ... you've only just begun your climb.",
+                "Besides it could cost you your life.  Look down and you'll see why."
+            ],
+            "name": "On the Great Chain of Naris",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "7918",
+                    "description": [
+                        "There seems to be only one way from here and that's up.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7916"
+        },
+        "7910": {
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This place is gloomy.  The only visible exit is west, through the oak door."
+            ],
+            "name": "The Treasure room",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "7901",
+                    "description": [
+                        "You see a tall oak door.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7910"
         },
         "7901": {
-            "name": "The Southern end of the hall",
+            "extras": {
+                "letters": {
+                    "description": [
+                        "They read \"LIBRARY\".",
+                        ""
+                    ]
+                },
+                "runes": {
+                    "description": [
+                        "These runes are utterly strange to you, but you are in luck today: Under",
+                        "the runes you can just make out a sentence in Common. It goes : \" Stay out,",
+                        "if you treasure your life. That is if you are mortal.\".",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are standing in a vast hall that is dimly lit, but wherefrom the",
                 "light comes, is a mystery. The walls seem to radiate warmth and give",
@@ -151,244 +195,89 @@
                 "looking iron-wrought door. It looks like this is the only exit from",
                 "this magnificent old house. To the west you can see a large ashen door."
             ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7901",
+            "name": "The Southern end of the hall",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Here you see a REAL door. It would be more proper to call this a",
-                        "\"GATE\", rather than a \"door\". It's really HUGE! On it hangs a large",
-                        "sign with very large letters spelling : \"EMERGENCY EXIT\".",
-                        ""
-                    ],
-                    "room_id": "7900"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "7904",
                     "description": [
                         "The hallway continues that way. You can see more doorways under the",
                         "wooden staircase in that direction.",
                         ""
-                    ],
-                    "room_id": "7904"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "7910",
+                    "description": [
+                        "You see there a tall oak door. It looks quite tightly closed to you.",
+                        "On it little runes are chiselled into the wood.",
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "7909",
+                    "description": [
+                        "You see the staircase extending upwards into the very high tower.",
+                        "It ends in what seems like a large bedroom up there.",
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "7902",
                     "description": [
                         "This looks like a \"door\" in the meaning of the word. The ashen wood",
                         "is painted in a peculiar yellow colour. Small letters are written",
                         "with black on it.",
                         ""
-                    ],
-                    "room_id": "7902"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "-1",
+                    "room_id": "7900",
                     "description": [
-                        "You see there a tall oak door. It looks quite tightly closed to you.",
-                        "On it little runes are chiselled into the wood.",
+                        "Here you see a REAL door. It would be more proper to call this a",
+                        "\"GATE\", rather than a \"door\". It's really HUGE! On it hangs a large",
+                        "sign with very large letters spelling : \"EMERGENCY EXIT\".",
                         ""
-                    ],
-                    "room_id": "7910"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the staircase extending upwards into the very high tower.",
-                        "It ends in what seems like a large bedroom up there.",
-                        ""
-                    ],
-                    "room_id": "7909"
+                    ]
                 }
             },
-            "extras": {
-                "runes": {
-                    "description": [
-                        "These runes are utterly strange to you, but you are in luck today: Under",
-                        "the runes you can just make out a sentence in Common. It goes : \" Stay out,",
-                        "if you treasure your life. That is if you are mortal.\".",
-                        ""
-                    ]
-                },
-                "letters": {
-                    "description": [
-                        "They read \"LIBRARY\".",
-                        ""
-                    ]
-                }
-            }
-        },
-        "7900": {
-            "name": "Outside Redferne's residence",
-            "description": [
-                "A huge cloud forms the plateau on which you are now standing. The wind here",
-                "is absolutely quiet and the sun is shining warmly upon you. From under the",
-                "cloud you can hear the faint sounds of Westbridge. Right before you to the",
-                "north lies the grand Mansion of Naris, the residence of the Greater God",
-                "Redferne."
-            ],
-            "flags_raw": "0 516 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7900",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a HUGE arched gate leading into this magnificent building.",
-                        ""
-                    ],
-                    "room_id": "7901"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a Huge Chain that anchors the Mansion of Naris to the ground.",
-                        ""
-                    ],
-                    "room_id": "7918"
-                }
-            },
-            "extras": {}
+            "vnum": "7901"
         },
         "7909": {
-            "name": "On the stairs",
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You can see up and down the stairway. It seems to take forever, either going",
                 "up OR down. It's just a seemingly insurmountable climb, either way. Up is the ",
                 "bedroom of Redferne, and Down leads to the Southern end of the hall."
             ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7909",
+            "name": "On the stairs",
             "exits": {
                 "up": {
                     "flags_raw": "-1",
+                    "room_id": "7911",
                     "description": [
                         ""
-                    ],
-                    "room_id": "7911"
+                    ]
                 },
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "7901",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "7901"
-                }
-            },
-            "extras": {}
-        },
-        "7913": {
-            "name": "The Monster Pen",
-            "description": [
-                "This looks like the cage in which a large carnivore is being kept. Judging by",
-                "the state the walls are in, this could very well be a large AGGRESSIVE animal. ",
-                "This makes you pretty insecure, this stating your feeling about the place, ",
-                "quite mildly."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7913",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a hallway.",
-                        ""
-                    ],
-                    "room_id": "7904"
-                }
-            },
-            "extras": {}
-        },
-        "7912": {
-            "name": "The Balcony of Redferne's Residence",
-            "description": [
-                "You see a splendid view of the most of this world. The valleys stretch as far",
-                "as the eye can see to the south. Down below you can see the entrance",
-                "of this magnificent building. To the north are the doors to Redferne's Bedroom."
-            ],
-            "flags_raw": "0 516 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7912",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the comfortable bedroom of Naris, the mansion of Redferne the Greater",
-                        "God.",
-                        ""
-                    ],
-                    "room_id": "7911"
-                }
-            },
-            "extras": {}
-        },
-        "7903": {
-            "name": "The Artifact room of Naris",
-            "description": [
-                "This is gloomy and dark room with only a faint light radiating from the",
-                "walls. A bunch of funny-looking items fill the center of the room. There are",
-                "no furniture here what-so-ever. The only way out seems to be west, through",
-                "the low steel door."
-            ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7903",
-            "exits": {},
-            "extras": {}
-        },
-        "7905": {
-            "name": "The Sitting room of Naris",
-            "description": [
-                "You are standing in the middle of a really comfortable place. The walls are",
-                "decorated with paintings of smiling Kings and Queens. The most attractive",
-                "picture is one of a Prince in shiny armour. By one of the walls there is an",
-                "old arm-chair. The only exit is through the aspenwood door to the east."
-            ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7905",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The door seems to be a very HEAVY door, carved completely from the trunk of",
-                        "an Aspen tree.",
-                        ""
-                    ],
-                    "room_id": "7904"
-                }
-            },
-            "extras": {
-                "chair arm-chair": {
-                    "description": [
-                        "This is truly a wonderful relic of the past. In it is a large cushion.",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7909"
         },
         "7919": {
-            "name": "Nowhere",
-            "description": [
-                "You are floating in the far reaches of nothingness.",
-                "Just below you (or is that above you) floats a handpainted sign."
-            ],
-            "flags_raw": "0 12 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7919",
-            "exits": {},
             "extras": {
                 "sign": {
                     "description": [
@@ -399,160 +288,39 @@
                         ""
                     ]
                 }
-            }
+            },
+            "flags_raw": "0 12 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating in the far reaches of nothingness.",
+                "Just below you (or is that above you) floats a handpainted sign."
+            ],
+            "name": "Nowhere",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "7919"
         },
         "7908": {
-            "name": "The Fridge",
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This place is LOADED with drink, water and booze."
             ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7908",
+            "name": "The Fridge",
             "exits": {
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "7906",
                     "description": [
                         ""
-                    ],
-                    "room_id": "7906"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "7911": {
-            "name": "Redferne's Bedroom",
-            "description": [
-                "This is a snugly set bedroom with all the necessities for a romantic evening.",
-                "A large fireplace adorns the east wall, and sizzling away is the wood that",
-                "is ablaze within.  The bed is enormous, covering at least HALF of this great",
-                "room.  This stretches at least 300 square feet, so can you imagine the BED?",
-                "A large staircase leads down to the hall.  A couple of doors open up to a",
-                "broad balcony to the south. "
-            ],
-            "flags_raw": "0 524 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7911",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The sun seems to shine out there, warmly and comforting.",
-                        ""
-                    ],
-                    "room_id": "7912"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "7909"
-                }
-            },
-            "extras": {}
-        },
-        "7904": {
-            "name": "The Northern end of the hall",
-            "description": [
-                "You are standing in the northern end of the huge hall. This part is under",
-                "the grand wooden staircase so the light seems a little less bright here,",
-                "but this doesn't bother your sight at all. To the north lies the kitchen.",
-                "To the south lies the Southern end of the hall. To the east there is a huge",
-                "metal door. To the west there is a large aspenwood door."
-            ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7904",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The rest of the hall lies in that direction, and so does the exit.",
-                        ""
-                    ],
-                    "room_id": "7901"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "7906"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The door has \"SITTING ROOM\" written on it. It is made from Aspenwood and",
-                        "is beautifully carven with small elves as main issue of sculpture.",
-                        ""
-                    ],
-                    "room_id": "7905"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a huge metal door. From it a foul stench emanates. The smell is the",
-                        "most awful experience in your entire life. A thought seeps through this",
-                        "terrible stench and into your mind : \"Monsters\", you feel BAD about opening",
-                        "that door.",
-                        ""
-                    ],
-                    "room_id": "7913"
-                }
-            },
-            "extras": {}
-        },
-        "7910": {
-            "name": "The Treasure room",
-            "description": [
-                "This place is gloomy.  The only visible exit is west, through the oak door."
-            ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7910",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a tall oak door.",
-                        ""
-                    ],
-                    "room_id": "7901"
-                }
-            },
-            "extras": {}
+            "vnum": "7908"
         },
         "7902": {
-            "name": "Redferne's Library",
-            "description": [
-                "This is truly a magnificent place! Books and scrolls lie together on every",
-                "shelf. A large globe, with the map of the Mud-world upon it, stands in the",
-                "dimly lit north-western corner of the room. Two large and comfortable-",
-                "looking leather arm-chairs adorn the center of the library together with",
-                "a huge oak desk. Dim light radiates from an enormous crystal chandelier",
-                "hanging down from the ceiling approximately 10 feet off the floor. To the",
-                "east there is a great old ashen door. A large glass window is set in the",
-                "west wall."
-            ],
-            "flags_raw": "0 524 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "7902",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You can see an old ashen door, painted in a peculiar yellow colour.",
-                        ""
-                    ],
-                    "room_id": "7901"
-                }
-            },
             "extras": {
                 "globe world map": {
                     "description": [
@@ -563,19 +331,12 @@
                         ""
                     ]
                 },
-                "window glass": {
+                "Westbridge town city": {
                     "description": [
-                        "These windows are really BIG! They reach from about 20 inches above the",
-                        "floor to approximately 10 inches under the ceiling. If you try and",
-                        "\"look out\", you might see what might lie beyond these windows.",
-                        ""
-                    ]
-                },
-                "chairs leather arm-chairs": {
-                    "description": [
-                        "These two chair are exactly alike one another. They look incredibly",
-                        "comfortable. They're both made from old leather, and yet they seem so worn",
-                        "that they can be nothing but a perfect place for a long needed rest.",
+                        "You see a small speck with woods on the west from it, plains to the east",
+                        "from it and mountains to the north from it. To the south from it you can",
+                        "see a thin trail lead to a large castle. Finally you notice a rather large",
+                        "river pour in from the east and go through Westbridge in the middle.",
                         ""
                     ]
                 },
@@ -595,68 +356,307 @@
                         ""
                     ]
                 },
-                "Westbridge town city": {
+                "chairs leather arm-chairs": {
                     "description": [
-                        "You see a small speck with woods on the west from it, plains to the east",
-                        "from it and mountains to the north from it. To the south from it you can",
-                        "see a thin trail lead to a large castle. Finally you notice a rather large",
-                        "river pour in from the east and go through Westbridge in the middle.",
+                        "These two chair are exactly alike one another. They look incredibly",
+                        "comfortable. They're both made from old leather, and yet they seem so worn",
+                        "that they can be nothing but a perfect place for a long needed rest.",
+                        ""
+                    ]
+                },
+                "window glass": {
+                    "description": [
+                        "These windows are really BIG! They reach from about 20 inches above the",
+                        "floor to approximately 10 inches under the ceiling. If you try and",
+                        "\"look out\", you might see what might lie beyond these windows.",
                         ""
                     ]
                 }
-            }
+            },
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is truly a magnificent place! Books and scrolls lie together on every",
+                "shelf. A large globe, with the map of the Mud-world upon it, stands in the",
+                "dimly lit north-western corner of the room. Two large and comfortable-",
+                "looking leather arm-chairs adorn the center of the library together with",
+                "a huge oak desk. Dim light radiates from an enormous crystal chandelier",
+                "hanging down from the ceiling approximately 10 feet off the floor. To the",
+                "east there is a great old ashen door. A large glass window is set in the",
+                "west wall."
+            ],
+            "name": "Redferne's Library",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "7901",
+                    "description": [
+                        "You can see an old ashen door, painted in a peculiar yellow colour.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7902"
+        },
+        "7913": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This looks like the cage in which a large carnivore is being kept. Judging by",
+                "the state the walls are in, this could very well be a large AGGRESSIVE animal. ",
+                "This makes you pretty insecure, this stating your feeling about the place, ",
+                "quite mildly."
+            ],
+            "name": "The Monster Pen",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "7904",
+                    "description": [
+                        "You see a hallway.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7913"
+        },
+        "7907": {
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You can see food all over. Among the heaps of food you notice HUGE rats",
+                "scuttering around, nibbling pieces off the heaps here and there."
+            ],
+            "name": "The Larder",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "7906",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7907"
+        },
+        "7905": {
+            "extras": {
+                "chair arm-chair": {
+                    "description": [
+                        "This is truly a wonderful relic of the past. In it is a large cushion.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing in the middle of a really comfortable place. The walls are",
+                "decorated with paintings of smiling Kings and Queens. The most attractive",
+                "picture is one of a Prince in shiny armour. By one of the walls there is an",
+                "old arm-chair. The only exit is through the aspenwood door to the east."
+            ],
+            "name": "The Sitting room of Naris",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "7904",
+                    "description": [
+                        "The door seems to be a very HEAVY door, carved completely from the trunk of",
+                        "an Aspen tree.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7905"
+        },
+        "7904": {
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing in the northern end of the huge hall. This part is under",
+                "the grand wooden staircase so the light seems a little less bright here,",
+                "but this doesn't bother your sight at all. To the north lies the kitchen.",
+                "To the south lies the Southern end of the hall. To the east there is a huge",
+                "metal door. To the west there is a large aspenwood door."
+            ],
+            "name": "The Northern end of the hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "7906",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "7913",
+                    "description": [
+                        "You see a huge metal door. From it a foul stench emanates. The smell is the",
+                        "most awful experience in your entire life. A thought seeps through this",
+                        "terrible stench and into your mind : \"Monsters\", you feel BAD about opening",
+                        "that door.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "7905",
+                    "description": [
+                        "The door has \"SITTING ROOM\" written on it. It is made from Aspenwood and",
+                        "is beautifully carven with small elves as main issue of sculpture.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "7901",
+                    "description": [
+                        "The rest of the hall lies in that direction, and so does the exit.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7904"
+        },
+        "7914": {
+            "extras": {},
+            "flags_raw": "0 4 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "This place has quite a good view over Westbridge. Your possibilities of movement",
+                "seems to extend only to up and down. Unless you want to let go of the chain,",
+                "then those are the directions you should take from here."
+            ],
+            "name": "On the Huge Chain",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "7916",
+                    "description": [
+                        "Up the way you see the chain disappearing into the clouds above.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7914"
+        },
+        "7912": {
+            "extras": {},
+            "flags_raw": "0 516 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You see a splendid view of the most of this world. The valleys stretch as far",
+                "as the eye can see to the south. Down below you can see the entrance",
+                "of this magnificent building. To the north are the doors to Redferne's Bedroom."
+            ],
+            "name": "The Balcony of Redferne's Residence",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "7911",
+                    "description": [
+                        "You see the comfortable bedroom of Naris, the mansion of Redferne the Greater",
+                        "God.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7912"
+        },
+        "7911": {
+            "extras": {},
+            "flags_raw": "0 524 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is a snugly set bedroom with all the necessities for a romantic evening.",
+                "A large fireplace adorns the east wall, and sizzling away is the wood that",
+                "is ablaze within.  The bed is enormous, covering at least HALF of this great",
+                "room.  This stretches at least 300 square feet, so can you imagine the BED?",
+                "A large staircase leads down to the hall.  A couple of doors open up to a",
+                "broad balcony to the south. "
+            ],
+            "name": "Redferne's Bedroom",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "7909",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "7912",
+                    "description": [
+                        "The sun seems to shine out there, warmly and comforting.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "7911"
         }
     },
-    "uid": "redferne",
-    "area_quest_points": 0,
     "credits": "[36 GR 60] Redferne's Residence",
     "faction_id": "",
+    "name": "Redferne's",
     "vnums": [
         7900,
         7999
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "7900": {
-            "name": "the Grand Knight of paladins~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 4",
             "description": [
                 "The Knight is standing here, smiling at you. He is dressed all in\n",
                 "white, blue and silver. He looks VERY strong, as he stands here, ready to\n",
                 "help the innocent.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIKU 0 0 0",
-            "raw_flags3": "-9 -9 -9 4",
             "vnum": 7900,
             "raw_flags": "AGQ D H 1000 0",
-            "race_id": "human",
-            "raw_flags2": "57 0 6d12+778 29d9+100 5d4+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIKU 0 0 0",
             "room_name": "The Grand Knight is standing here, waiting for someone to help.\n",
-            "keywords": "oldstyle grand knight paladin~\n"
+            "name": "the Grand Knight of paladins~\n",
+            "raw_flags2": "57 0 6d12+778 29d9+100 5d4+8 none",
+            "keywords": "oldstyle grand knight paladin~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "7902": {
-            "name": "the Greater God John~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "10 10 10 10",
             "description": [],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
-            "raw_flags4": "EFHNR 0 0 0",
-            "raw_flags3": "10 10 10 10",
             "vnum": 7902,
             "raw_flags": "AG 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "1 -1 1d1+0 1d1+0 1d4+-1 divine",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFHNR 0 0 0",
             "room_name": "The Greater God John is on the phone lambasting a real estate agent for mispelling his name.~\n",
-            "keywords": "john god~\n"
+            "name": "the Greater God John~\n",
+            "raw_flags2": "1 -1 1d1+0 1d1+0 1d4+-1 divine",
+            "keywords": "john god~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

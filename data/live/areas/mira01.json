@@ -1,10 +1,965 @@
 {
-    "name": "Mirage's area",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "mira01",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "mira01",
     "rooms": {
+        "99807": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up?\" {x"
+            ],
+            "name": "{WElevator at the Basement{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99807"
+        },
+        "99812": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
+            ],
+            "name": "{WElevator at the Sixth Floor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99846",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99813",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99811",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99812"
+        },
+        "99825": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{GGreen grass that is l{gu{Gs{gh{G and perfectly manicured, surrounds a large",
+                "{ytree{G that provides shade and cover.  There are various places to sit",
+                "among some {Rroses {Gand {Mwildflowers.  {x "
+            ],
+            "name": "{WA {RQ{Wu{Ri{We{Rt Romantic {WS{Rp{Wo{Rt{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99824",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99825"
+        },
+        "99845": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99844",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99845"
+        },
+        "99836": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{BA waterbed dominates this room.  It sits on the middle of the room",
+                "and it's huge.  On all four sides it leaves only about two feet on",
+                "either side.  Around the edges are {rcherry wood{B edges holding the bed",
+                "in place {*etched {B with beautiful elven writin g.  {BAround the top of the",
+                "room near the ceiling is a netowrk of {Givy.  {BIn each corner of the room",
+                "is an {WOrchid {Bplant.  {x "
+            ],
+            "name": "{cR{Co{Wo{Bm {W6",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99830",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99836"
+        },
+        "99820": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WA large store room stores barrels of beer and bottles upon bottles",
+                "of fine wines and ales.  The whole room is filled to the cieling in",
+                "rows.  The smell is almost as intoxicating as drinking the contents",
+                "there in.  "
+            ],
+            "name": "{yA Large Storeroom{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "99801",
+                    "room_id": "99818",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99821",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99820"
+        },
+        "99834": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{YShiny {wmirrored {Wwalls surround this room.  The bed on the opposite",
+                "side of the room is sorrounded with sheer {Mpink curtains.  {WA down",
+                "comforter lays over the top of the bed, and lots of pillows adorn the",
+                "head of the bed.  {x "
+            ],
+            "name": "{cR{Co{Wo{Bm {W4",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99829",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99834"
+        },
+        "99809": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
+            ],
+            "name": "{WElevator at the Third Floor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99827",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99810",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99808",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99809"
+        },
+        "99826": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WThis balcony is secluded.  Satiny {cblue curtains{W cover the entrance.",
+                "The deck is made with a {Rcherry {Wwood and is {Ypolished {Whighly to a glaze.",
+                "The railing surrounding this balcony is carved {Rcherry {Wwood depicting",
+                "different symbols, some burne {Wned into the wood.  There is a",
+                "comfortable spot for a couple sit and watch the sunrise or just about",
+                "anything else.  ",
+                "{x"
+            ],
+            "name": "{CP{cr{Ci{cv{Ca{ct{Ce {RB{ra{Rl{rc{Ro{rn{Ry{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99803",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99826"
+        },
+        "99803": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WThe comfortable and quiet atmosphere of this room is soothing.  The",
+                "{bblue curtains {Wthat line the walls mesh beautifully with the {ywooden",
+                "floor.  {WPlush sofas are scattered throughout the room, adding a",
+                "welcome to stay awhile and relax.  The {Ylanterns {Wthat line the walls",
+                "all give off a soft glow, slightly {Cilluminating {Wthe polish on the",
+                "floor.  {WEach table holds a various array of flowers and other plants. ",
+                "Giving the room the an intoxicating scent.  "
+            ],
+            "name": "{WThe {CP{cr{Co{cm{Ce{cn{Ca{cd{Ce{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99822",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99826",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99824",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99801",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99808",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99803"
+        },
+        "99848": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{*The roof starts here sloping down sharply on either side.  The",
+                "roofing seems to be slippery and wet.  There is a chimney here with",
+                "smoke billowing out of it.  ",
+                "{x"
+            ],
+            "name": "{*The roof.{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99849",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99813",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99848"
+        },
+        "99831": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cA comfortable and cozy room surrounds you.  On the ceiling are",
+                "painted murals of {wangels {cand the like.  A fireplace warms the room to",
+                "your liking.  {x "
+            ],
+            "name": "{cR{Co{wo{Bm {W1{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99828",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99831"
+        },
+        "99827": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
+                "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
+                "you can see doors leading to various guestrooms along the length of",
+                "the hall.",
+                "{x"
+            ],
+            "name": "{CA Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99828",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99809",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99827"
+        },
+        "99830": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
+                "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
+                "you can see doors leading to various guestrooms along the length of",
+                "the hall."
+            ],
+            "name": "{CA Hallway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99836",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99837",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99835",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99829",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99830"
+        },
+        "99817": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WThese stairs go up to {CS{ct{Ce{cr{Cl{ci{Cn{cg{C'{cs {Woffice and waiting area.  They",
+                "also lead down into what seems to be a dead end.  {x "
+            ],
+            "name": "{WA {yDimly {WLit Stairwell.{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99815",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99818",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99817"
+        },
+        "99814": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{WA Beautiful courtyard is here, {Rcherry {Wtrees blossom here it seems",
+                "year round.  {WThe atmosphere is very relaxing and comfortable.  Why not",
+                "{W take a rest and relax in the {Cs{cp{Cr{ci{Cn{cg{W or rest on a bench?  {x "
+            ],
+            "name": "{WA {RS{rm{Wa{Rl{rl {WC{Ro{ru{Wr{Rt{ry{Wa{Rr{rd{W.{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99815",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99805",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99814"
+        },
+        "99822": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{CAn enclosed {Wroom just bi{cg enough for {Cone sits her{We.  It appear{cs to",
+                "be a boot{Ch of some sor{Wt.  The top of t{chis small ro{Com doesn't e{Wven",
+                "touch th{ce cieling.  A g{Cold counter{W stretches u{cnderneathe{C the glass",
+                "pa{Wnel that sep{carates you f{Crom the vend{Wor.  Tickets f{cor several {Cevents",
+                "are so{Wld here.  Look{cing inside y{Cou see a huge{W poster list{cing the",
+                "even{Cts for the ev{Wening.  {x "
+            ],
+            "name": "{CTi{cck{Cet {YBo{yo{Yth{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99823",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99803",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99822"
+        },
+        "99815": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{*This room has no {ww{Wi{wn{Wd{wo{Ww{ws{* in it, the room is barely {Yl{yi{Yt {*with candles",
+                "that line the walls.  Bookeshelves line the walls with {ydusty books",
+                "{*sitting in them.  The table in the middle of the room is huge, large",
+                "enough for a gathering of at least 15 people.  The chairs are all",
+                "tucked in neatly around it.  A {Yfi{Rre{rp{Rla{Yce {Rburns {*nearby adding warmth to",
+                "the room.  ",
+                "{x"
+            ],
+            "name": "{CA {cM{Ce{ce{Ct{ci{Cn{cg {CR{co{Co{cm.{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99817",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "99801",
+                    "room_id": "99814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99816",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99815"
+        },
+        "99806": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
+            ],
+            "name": "{WElevator at the First Floor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99805",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99808",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99807",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99806"
+        },
+        "99813": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThere is a man standing here.  There is a pully next to him with",
+                "various levers and the like.  He looks at you and asks {C\"Going Down?\"  {x"
+            ],
+            "name": "{WElevator at the Roof{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99848",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99812",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99813"
+        },
+        "99841": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yA set of brass stairs spirals upward.  The steps, the rails and the",
+                "room is all polished brass.  You can see yourself in the brass as a",
+                "reflexion.  {x "
+            ],
+            "name": "{YA Spiraling Brass Staircase.",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99837",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99842",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99841"
+        },
+        "99843": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{*It's dark except for a {wfaint {*light at the end of this corridor.  A",
+                "dripping noise echoes down it.  The smell is more than any normal",
+                "person can bare.  {x "
+            ],
+            "name": "{*A dark, {ynasty {gsmelling corridor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99842",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99844",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99811",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99843"
+        },
+        "99804": {
+            "extras": {},
+            "flags_raw": "0 8 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "{W Here you see a beautiful yet simple bar hosting a great deal of",
+                "exotic and domestic ales and other fine brews behind its counter.  The",
+                "glass on either side of the bar is beautifully etched with {CT{ch{Ce {cH{Ca{cr{Cp{ce{Cr {W",
+                "symbol.  "
+            ],
+            "name": "Bar in the lobby",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99802",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99804"
+        },
+        "99829": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
+                "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
+                "you can see doors leading to various guestrooms along the length of",
+                "the hall.",
+                "{x"
+            ],
+            "name": "{CA Hallway{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99830",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99834",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99833",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99828",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99829"
+        },
+        "99818": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WYou enter, it is dark and dusty.  There are small tables scattered",
+                "throughout the room lit with a single candle on each one giving off a",
+                "faint glow.  In the center of the room sits a long table with maps",
+                "rolled out across it.  Bookshelves that surround it are covered in",
+                "cobwebs.  "
+            ],
+            "name": "{CA Secret Meeting Room.{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "99801",
+                    "room_id": "99819",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99817",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "99801",
+                    "room_id": "99820",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99818"
+        },
+        "99846": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WThis room is dark and smelly.  It smells like moldy cardboard.  You",
+                "can hear dripping noises, apparently there is some sort of leak from",
+                "the roof.  ",
+                "{x"
+            ],
+            "name": "{yAn empty storage area.",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99847",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99812",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99846"
+        },
+        "99805": {
+            "extras": {},
+            "flags_raw": "0 0 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "{bThis kitchen i{Bs quite obviou{csly made for a l{Carge crowd to c{book for.",
+                "In the m{Biddle of the ro{com is a large ki{Cln, one with a po{bt hung inside",
+                "o{Bf it, brewing so{cmething deli{Cghtfully arom{batic and the ot{Bher",
+                "containin{cg spaces to pla{Cce bread perha{bps for baking.  A{Bround the roo{cm",
+                "there are var{Cious tables, ea{bch for a differ{Bent purpose an{cd above each",
+                "of {Cthese tables th{bere are utensi{Bls for each tas{ck gleaming in t{Che",
+                "light.  {x "
+            ],
+            "name": "{bA L{Ba{cr{Cg{We Ki{Ct{cc{Bh{ben.{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99801",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99805"
+        },
+        "99800": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "{WYou have entered Mother Gothal's Lobby.  Before you sit many tables",
+                "obviously for dining purposes.  Each table has a beautiful centerpeice",
+                "and a candle glowing atop it.  The atmosphere in the room is quiet and",
+                "relaxed.  {x "
+            ],
+            "name": "{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99801",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99800"
+        },
+        "99835": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{CThis room emanates a {Ywa{Rrm {Yglow {Cfrom it.  There are tapestries on",
+                "each wall, each one depicting a {mroma{Rntic {Cmoment of its own.  The floor",
+                "is covered with a faux fur rug, {ytan {Cin color.  The bed which is",
+                "centered in the middle on the room is circular in shape and covered in",
+                "satiny sheets.  This room is definently inviting to a pair of {Rlovers.{X"
+            ],
+            "name": "{cR{Co{Wo{Bm {W5",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99830",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99835"
+        },
+        "99816": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThis room appears to be made for a {*small {cgroup of people, perhaps",
+                "maybe four or five {Rmaximum. {cThere are two sofas that {Yinvite {cyou to",
+                "rest during your quiet conversation. There are no {wwindows {Cin",
+                "this room, there are only {Ycandles {clining the walls. The {ybookshelf {cin",
+                "the corner is {*empty.{x "
+            ],
+            "name": "{YA Sitting Room{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99815",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99816"
+        },
+        "99844": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{BThis {Croom {Wis la{Brge w{Cith h{Wigh c{Beili{Cngs.  S{Wuppo{Brt be{Cams r{Wun ac{Bross {Cthe",
+                "t{Wop.  Al{Bl aro{Cund t{Whe wa{Blls a{Cppea{Wr to b{Be cei{Cling {Wto fl{Boor c{Curta{Wins m{Bade",
+                "o{Cf hea{Wvy ve{Blvet {Cmate{Wrial {Bin a d{Cark b{Wlue.  O{Bn eit{Cher e{Wnd of {Bthe",
+                "c{Curta{Wins t{Bhere {Care l{Wong g{Bolde{Cn rop{Wes th{Bat lo{Cok li{Wke pu{Blley{Cs.  The{W",
+                "floo{Br is m{Cade o{Wf pol{Bishe{Cd oak.  {BIn th{Ce mid{Wdle o{Bf thi{Cs roo{Wm app{Bears t{Co",
+                "be a {Wlarg{Be doo{Cr, see{Wming{Bly le{Cadin{Wg to n{Bothi{Cng.  No{Wthin{Bg is o{Cn eit{Wher",
+                "s{Bide o{Cf the {Wdoor.  {BAbov{Ce the {Wdoor, {Bon ei{Cther {Wside, {Bthe f{Crame {Wsays",
+                "{Y\"Dream Gate\"{X "
+            ],
+            "name": "Dream Gate",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99845",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99843",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99844"
+        },
         "99838": {
-            "name": "{MA Guest Room",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x {mA swe{Met sm{rell w{Rafts{r thro{Mugh{m the a{Mir in{r here{R.  It s{rmell{Ms lik{me swe{Met",
                 "ch{rerri{Res.  A{rn inc{Mense{m burn{Mer is{r lit i{Rn all{r four{M corn{mers o{Mf the{r room{R. ",
@@ -17,1364 +972,256 @@
                 "a{mroun{Md it a{m beau{Mtifu{rl glo{Rw.  A d{roe an{Md her{m fawn{M lean{r down{R for a{r drin{Mk",
                 "of w{mater{M, Whi{rle bi{Rrds f{rly up{M over{mhead{M.  {x "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99838",
+            "name": "{MA Guest Room",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "99837",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99837"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "99838"
         },
-        "99833": {
-            "name": "{cR{Co{Wo{Bm {W3",
-            "description": [
-                "{cA barren room is here....  No bed, no furniture, no pictures on the",
-                "walls.  Maybe the room was rented by mistake.  All that is here is a",
-                "{Rfireplace{c.  {x "
-            ],
+        "99808": {
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "99833",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99829"
-                }
-            },
-            "extras": {}
-        },
-        "99813": {
-            "name": "{WElevator at the Roof{x",
-            "description": [
-                "{cThere is a man standing here.  There is a pully next to him with",
-                "various levers and the like.  He looks at you and asks {C\"Going Down?\"  {x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99813",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99848"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99812"
-                }
-            },
-            "extras": {}
-        },
-        "99825": {
-            "name": "{WA {RQ{Wu{Ri{We{Rt Romantic {WS{Rp{Wo{Rt{x",
-            "description": [
-                "{GGreen grass that is l{gu{Gs{gh{G and perfectly manicured, surrounds a large",
-                "{ytree{G that provides shade and cover.  There are various places to sit",
-                "among some {Rroses {Gand {Mwildflowers.  {x "
-            ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99825",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99824"
-                }
-            },
-            "extras": {}
-        },
-        "99815": {
-            "name": "{CA {cM{Ce{ce{Ct{ci{Cn{cg {CR{co{Co{cm.{x",
-            "description": [
-                "{*This room has no {ww{Wi{wn{Wd{wo{Ww{ws{* in it, the room is barely {Yl{yi{Yt {*with candles",
-                "that line the walls.  Bookeshelves line the walls with {ydusty books",
-                "{*sitting in them.  The table in the middle of the room is huge, large",
-                "enough for a gathering of at least 15 people.  The chairs are all",
-                "tucked in neatly around it.  A {Yfi{Rre{rp{Rla{Yce {Rburns {*nearby adding warmth to",
-                "the room.  ",
-                "{x"
-            ],
-            "flags_raw": "0 67108872 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99815",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99816"
-                },
-                "west": {
-                    "flags_raw": "99801",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99814"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99817"
-                }
-            },
-            "extras": {}
-        },
-        "99805": {
-            "name": "{bA L{Ba{cr{Cg{We Ki{Ct{cc{Bh{ben.{x",
-            "description": [
-                "{bThis kitchen i{Bs quite obviou{csly made for a l{Carge crowd to c{book for.",
-                "In the m{Biddle of the ro{com is a large ki{Cln, one with a po{bt hung inside",
-                "o{Bf it, brewing so{cmething deli{Cghtfully arom{batic and the ot{Bher",
-                "containin{cg spaces to pla{Cce bread perha{bps for baking.  A{Bround the roo{cm",
-                "there are var{Cious tables, ea{bch for a differ{Bent purpose an{cd above each",
-                "of {Cthese tables th{bere are utensi{Bls for each tas{ck gleaming in t{Che",
-                "light.  {x "
-            ],
-            "flags_raw": "0 0 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99805",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99806"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99801"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99814"
-                }
-            },
-            "extras": {}
-        },
-        "99827": {
-            "name": "{CA Hallway",
-            "description": [
-                "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
-                "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
-                "you can see doors leading to various guestrooms along the length of",
-                "the hall.",
-                "{x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99827",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99828"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99809"
-                }
-            },
-            "extras": {}
-        },
-        "99829": {
-            "name": "{CA Hallway{x",
-            "description": [
-                "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
-                "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
-                "you can see doors leading to various guestrooms along the length of",
-                "the hall.",
-                "{x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99829",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99828"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99830"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99833"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99834"
-                }
-            },
-            "extras": {}
-        },
-        "99818": {
-            "name": "{CA Secret Meeting Room.{x",
-            "description": [
-                "{WYou enter, it is dark and dusty.  There are small tables scattered",
-                "throughout the room lit with a single candle on each one giving off a",
-                "faint glow.  In the center of the room sits a long table with maps",
-                "rolled out across it.  Bookshelves that surround it are covered in",
-                "cobwebs.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99818",
-            "exits": {
-                "west": {
-                    "flags_raw": "99801",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99820"
-                },
-                "east": {
-                    "flags_raw": "99801",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99819"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99817"
-                }
-            },
-            "extras": {}
-        },
-        "99842": {
-            "name": "{BThe Magic Room{x",
-            "description": [
-                "{cA table with various tubes and flasks of different colored liquids",
-                "bubble and drip here.  A a couple of wands are laid out on the table",
-                "as well.  An open book lies at another end of the table written in",
-                "some sort of cryptic code.  ",
-                "{x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99842",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99843"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99841"
-                }
-            },
-            "extras": {}
-        },
-        "99812": {
-            "name": "{WElevator at the Sixth Floor{x",
             "description": [
                 "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99812",
+            "name": "{WElevator at the Second Floor{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "99803",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99846"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "99809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99813"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "99806",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99811"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "99843": {
-            "name": "{*A dark, {ynasty {gsmelling corridor{x",
-            "description": [
-                "{*It's dark except for a {wfaint {*light at the end of this corridor.  A",
-                "dripping noise echoes down it.  The smell is more than any normal",
-                "person can bare.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "99808"
+        },
+        "99819": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "99843",
+            "description": [],
+            "name": "",
             "exits": {
-                "south": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "99818",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99811"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99842"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99844"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "99819"
         },
         "99832": {
-            "name": "{cR{Co{Wo{Bm {W2",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{cA pair of twin beds are on either side of the room.  A nightstand",
                 "with a single lamp sits at the head inbetween them.  {x "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99832",
+            "name": "{cR{Co{Wo{Bm {W2",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "99828",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99828"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "99819": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99819",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99818"
-                }
-            },
-            "extras": {}
-        },
-        "99804": {
-            "name": "Bar in the lobby",
-            "description": [
-                "{W Here you see a beautiful yet simple bar hosting a great deal of",
-                "exotic and domestic ales and other fine brews behind its counter.  The",
-                "glass on either side of the bar is beautifully etched with {CT{ch{Ce {cH{Ca{cr{Cp{ce{Cr {W",
-                "symbol.  "
-            ],
-            "flags_raw": "0 8 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99804",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99802"
-                }
-            },
-            "extras": {}
-        },
-        "99844": {
-            "name": "Dream Gate",
-            "description": [
-                "{BThis {Croom {Wis la{Brge w{Cith h{Wigh c{Beili{Cngs.  S{Wuppo{Brt be{Cams r{Wun ac{Bross {Cthe",
-                "t{Wop.  Al{Bl aro{Cund t{Whe wa{Blls a{Cppea{Wr to b{Be cei{Cling {Wto fl{Boor c{Curta{Wins m{Bade",
-                "o{Cf hea{Wvy ve{Blvet {Cmate{Wrial {Bin a d{Cark b{Wlue.  O{Bn eit{Cher e{Wnd of {Bthe",
-                "c{Curta{Wins t{Bhere {Care l{Wong g{Bolde{Cn rop{Wes th{Bat lo{Cok li{Wke pu{Blley{Cs.  The{W",
-                "floo{Br is m{Cade o{Wf pol{Bishe{Cd oak.  {BIn th{Ce mid{Wdle o{Bf thi{Cs roo{Wm app{Bears t{Co",
-                "be a {Wlarg{Be doo{Cr, see{Wming{Bly le{Cadin{Wg to n{Bothi{Cng.  No{Wthin{Bg is o{Cn eit{Wher",
-                "s{Bide o{Cf the {Wdoor.  {BAbov{Ce the {Wdoor, {Bon ei{Cther {Wside, {Bthe f{Crame {Wsays",
-                "{Y\"Dream Gate\"{X "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99844",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99843"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99845"
-                }
-            },
-            "extras": {}
-        },
-        "99811": {
-            "name": "{WElevator at the Fifth Floor{x",
-            "description": [
-                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99811",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99843"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99812"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99810"
-                }
-            },
-            "extras": {}
-        },
-        "99839": {
-            "name": "{5 A Suite {x",
-            "description": [
-                "{WThis room is very {bneat {Wand {Cclean.  {WThere are sofas all around the",
-                "room inviting someone to rest their weary heads.  T he lights are {ydim",
-                "{Wand create an atmosphere of coziness and {rwarmth.  {GWreaths {Wand bundles",
-                "of flowers litter the room emitting a sweet and {Rsensual {Ysmell.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99839",
-            "exits": {
-                "north": {
-                    "flags_raw": "99801",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99837"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99810"
-                }
-            },
-            "extras": {}
-        },
-        "99809": {
-            "name": "{WElevator at the Third Floor{x",
-            "description": [
-                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99809",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99827"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99810"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99808"
-                }
-            },
-            "extras": {}
-        },
-        "99840": {
-            "name": "{CS{ce{Cr{cv{Ca{cn{Ct{cs {CQ{cu{Ca{cr{Ct{ce{Cr{cs.{x",
-            "description": [
-                "{WThis {Croom {cis fa{wirly {Wbarr{Cen sa{cve fo{wr a fe{Ww be{Cds an{cd {wa cou{Wple o{Cf",
-                "war{cdrob{wes.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99840",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99837"
-                }
-            },
-            "extras": {}
-        },
-        "99828": {
-            "name": "{CA Hallway",
-            "description": [
-                "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
-                "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
-                "you can see doors leading to various guestrooms along the length of",
-                "the hall.",
-                "{x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99828",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99827"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99829"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99831"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99832"
-                }
-            },
-            "extras": {}
-        },
-        "99820": {
-            "name": "{yA Large Storeroom{x",
-            "description": [
-                "{WA large store room stores barrels of beer and bottles upon bottles",
-                "of fine wines and ales.  The whole room is filled to the cieling in",
-                "rows.  The smell is almost as intoxicating as drinking the contents",
-                "there in.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99820",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99821"
-                },
-                "east": {
-                    "flags_raw": "99801",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99818"
-                }
-            },
-            "extras": {}
-        },
-        "99823": {
-            "name": "{RC{Bh{Gi{Yl{Rd{Br{Ge{Yn{Rs {BS{Gt{Yo{Rr{By {GR{Yo{Ro{Bm{G.{x",
-            "description": [
-                "{YBookshelves line the walls.  Books of all sizes and {Rc{Bo{Gl{Ro{Br{Gs {Yrest",
-                "upon them.  Some with {ygold {Ybinding , some with {wsilver{Y, others dusty",
-                "and torn with browned edges, and some almost brand new.  Couches and",
-                "soft satiny pillows litter the room.  In the center there is a",
-                "{rbeautiful {Yrug, cozy enough for one to relax on while listening to a",
-                "grand tale.{x  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99823",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99822"
-                }
-            },
-            "extras": {}
-        },
-        "99816": {
-            "name": "{YA Sitting Room{x",
-            "description": [
-                "{cThis room appears to be made for a {*small {cgroup of people, perhaps",
-                "maybe four or five {Rmaximum. {cThere are two sofas that {Yinvite {cyou to",
-                "rest during your quiet conversation. There are no {wwindows {Cin",
-                "this room, there are only {Ycandles {clining the walls. The {ybookshelf {cin",
-                "the corner is {*empty.{x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99816",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99815"
-                }
-            },
-            "extras": {}
-        },
-        "99814": {
-            "name": "{WA {RS{rm{Wa{Rl{rl {WC{Ro{ru{Wr{Rt{ry{Wa{Rr{rd{W.{x",
-            "description": [
-                "{WA Beautiful courtyard is here, {Rcherry {Wtrees blossom here it seems",
-                "year round.  {WThe atmosphere is very relaxing and comfortable.  Why not",
-                "{W take a rest and relax in the {Cs{cp{Cr{ci{Cn{cg{W or rest on a bench?  {x "
-            ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99814",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99805"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99815"
-                }
-            },
-            "extras": {}
-        },
-        "99824": {
-            "name": "{YG{yr{Ya{yn{Yd {CB{ca{Cl{cl{Cr{co{Co{cm{x",
-            "description": [
-                "{CThis ballroom is large with high ceilings and hanging {Wchandeliers. ",
-                "{CThe walls are full of floor length windows that are tall and slender. ",
-                "{CThe Curtains draped over them seems to be a {Ygold lace.  {CThe floor is",
-                "shiny and polished.  Off in the corner there is an area where the",
-                "floor isn't so shiny.  It looks like this may be where the musicians",
-                "play and maybe where food is set up.  {X "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99824",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99825"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99803"
-                }
-            },
-            "extras": {}
-        },
-        "99834": {
-            "name": "{cR{Co{Wo{Bm {W4",
-            "description": [
-                "{YShiny {wmirrored {Wwalls surround this room.  The bed on the opposite",
-                "side of the room is sorrounded with sheer {Mpink curtains.  {WA down",
-                "comforter lays over the top of the bed, and lots of pillows adorn the",
-                "head of the bed.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99834",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99829"
-                }
-            },
-            "extras": {}
-        },
-        "99810": {
-            "name": "{WElevator at the Fourth Floor{x",
-            "description": [
-                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99810",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99839"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99811"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99809"
-                }
-            },
-            "extras": {}
-        },
-        "99802": {
-            "name": "{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy{x",
-            "description": [
-                "{WThere are several cofortable chairs here to relax in coupled with",
-                "large tables.  Here you can see a better view of the stage.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99802",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99801"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99804"
-                }
-            },
-            "extras": {}
-        },
-        "99822": {
-            "name": "{CTi{cck{Cet {YBo{yo{Yth{x",
-            "description": [
-                "{CAn enclosed {Wroom just bi{cg enough for {Cone sits her{We.  It appear{cs to",
-                "be a boot{Ch of some sor{Wt.  The top of t{chis small ro{Com doesn't e{Wven",
-                "touch th{ce cieling.  A g{Cold counter{W stretches u{cnderneathe{C the glass",
-                "pa{Wnel that sep{carates you f{Crom the vend{Wor.  Tickets f{cor several {Cevents",
-                "are so{Wld here.  Look{cing inside y{Cou see a huge{W poster list{cing the",
-                "even{Cts for the ev{Wening.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99822",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99823"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99803"
-                }
-            },
-            "extras": {}
+            "vnum": "99832"
         },
         "99847": {
-            "name": "{yAn empty storage area",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{WThis part of the room is even darker and you can barely see the",
                 "elevator from this vantage.  Some squeaking noises are coming from",
                 "nearby, maybe it's a rat.  ",
                 "{x"
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99847",
+            "name": "{yAn empty storage area",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "99846",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99846"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "99836": {
-            "name": "{cR{Co{Wo{Bm {W6",
-            "description": [
-                "{BA waterbed dominates this room.  It sits on the middle of the room",
-                "and it's huge.  On all four sides it leaves only about two feet on",
-                "either side.  Around the edges are {rcherry wood{B edges holding the bed",
-                "in place {*etched {B with beautiful elven writin g.  {BAround the top of the",
-                "room near the ceiling is a netowrk of {Givy.  {BIn each corner of the room",
-                "is an {WOrchid {Bplant.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99836",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99830"
-                }
-            },
-            "extras": {}
+            "vnum": "99847"
         },
-        "99848": {
-            "name": "{*The roof.{x",
-            "description": [
-                "{*The roof starts here sloping down sharply on either side.  The",
-                "roofing seems to be slippery and wet.  There is a chimney here with",
-                "smoke billowing out of it.  ",
-                "{x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99848",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99849"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99813"
-                }
-            },
-            "extras": {}
-        },
-        "99826": {
-            "name": "{CP{cr{Ci{cv{Ca{ct{Ce {RB{ra{Rl{rc{Ro{rn{Ry{x",
-            "description": [
-                "{WThis balcony is secluded.  Satiny {cblue curtains{W cover the entrance.",
-                "The deck is made with a {Rcherry {Wwood and is {Ypolished {Whighly to a glaze.",
-                "The railing surrounding this balcony is carved {Rcherry {Wwood depicting",
-                "different symbols, some burne {Wned into the wood.  There is a",
-                "comfortable spot for a couple sit and watch the sunrise or just about",
-                "anything else.  ",
-                "{x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99826",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99803"
-                }
-            },
-            "extras": {}
-        },
-        "99841": {
-            "name": "{YA Spiraling Brass Staircase.",
-            "description": [
-                "{yA set of brass stairs spirals upward.  The steps, the rails and the",
-                "room is all polished brass.  You can see yourself in the brass as a",
-                "reflexion.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99841",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99837"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99842"
-                }
-            },
-            "extras": {}
-        },
-        "99835": {
-            "name": "{cR{Co{Wo{Bm {W5",
-            "description": [
-                "{CThis room emanates a {Ywa{Rrm {Yglow {Cfrom it.  There are tapestries on",
-                "each wall, each one depicting a {mroma{Rntic {Cmoment of its own.  The floor",
-                "is covered with a faux fur rug, {ytan {Cin color.  The bed which is",
-                "centered in the middle on the room is circular in shape and covered in",
-                "satiny sheets.  This room is definently inviting to a pair of {Rlovers.{X"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99835",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99830"
-                }
-            },
-            "extras": {}
-        },
-        "99845": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99845",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99844"
-                }
-            },
-            "extras": {}
-        },
-        "99801": {
-            "name": "{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy",
-            "description": [
-                "{WYou have entered the midsection of the lobby.  To the north and",
-                "east there is a bar to quench your thirst, and there are plenty of",
-                "cozy places to sit and relax from your travels.  {WThere are stairs",
-                "{Wleading up to the second floor and a {bK{Bi{Ct{Wc{Ch{Be{bn {Wto the east.  "
-            ],
+        "99802": {
+            "extras": {},
             "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "99801",
+            "description": [
+                "{WThere are several cofortable chairs here to relax in coupled with",
+                "large tables.  Here you can see a better view of the stage.  "
+            ],
+            "name": "{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99800"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99802"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "99804",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99805"
+                    ]
                 },
-                "up": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "99801",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99803"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "99802"
         },
-        "99806": {
-            "name": "{WElevator at the First Floor{x",
+        "99811": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
             ],
-            "flags_raw": "0 67108872 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99806",
+            "name": "{WElevator at the Fifth Floor{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "99843",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99805"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "99812",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99808"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "99810",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99807"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "99811"
         },
-        "99830": {
-            "name": "{CA Hallway",
+        "99839": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WThis room is very {bneat {Wand {Cclean.  {WThere are sofas all around the",
+                "room inviting someone to rest their weary heads.  T he lights are {ydim",
+                "{Wand create an atmosphere of coziness and {rwarmth.  {GWreaths {Wand bundles",
+                "of flowers litter the room emitting a sweet and {Rsensual {Ysmell.  "
+            ],
+            "name": "{5 A Suite {x",
+            "exits": {
+                "north": {
+                    "flags_raw": "99801",
+                    "room_id": "99837",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99810",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99839"
+        },
+        "99828": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{MThe hallway you are in seems pretty {wordinary{M.  The walls are a {*dark",
                 "{Mmauve with small oil lamps attached to them dimly {Yl{Ri{rt.  {MOn either side",
                 "you can see doors leading to various guestrooms along the length of",
-                "the hall."
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99830",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99829"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99835"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99836"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99837"
-                }
-            },
-            "extras": {}
-        },
-        "99800": {
-            "name": "{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy",
-            "description": [
-                "{WYou have entered Mother Gothal's Lobby.  Before you sit many tables",
-                "obviously for dining purposes.  Each table has a beautiful centerpeice",
-                "and a candle glowing atop it.  The atmosphere in the room is quiet and",
-                "relaxed.  {x "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99800",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99801"
-                }
-            },
-            "extras": {}
-        },
-        "99821": {
-            "name": "{CCold {cS{Ct{co{Cr{ca{Cg{ce{x",
-            "description": [
-                "{WYou walk down a ramp into a dark musky room.  A small {Ylantern {Wcasts",
-                "a faint glow on what seems to be blocks of ice and more barrels. ",
-                "{WThere are {yshelves{W lining the walls holding jars and other odds and",
-                "ends.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99821",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99820"
-                }
-            },
-            "extras": {}
-        },
-        "99817": {
-            "name": "{WA {yDimly {WLit Stairwell.{x",
-            "description": [
-                "{WThese stairs go up to {CS{ct{Ce{cr{Cl{ci{Cn{cg{C'{cs {Woffice and waiting area.  They",
-                "also lead down into what seems to be a dead end.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99817",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99815"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99818"
-                }
-            },
-            "extras": {}
-        },
-        "99808": {
-            "name": "{WElevator at the Second Floor{x",
-            "description": [
-                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99808",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99803"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99809"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99806"
-                }
-            },
-            "extras": {}
-        },
-        "99846": {
-            "name": "{yAn empty storage area.",
-            "description": [
-                "{WThis room is dark and smelly.  It smells like moldy cardboard.  You",
-                "can hear dripping noises, apparently there is some sort of leak from",
-                "the roof.  ",
+                "the hall.",
                 "{x"
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99846",
+            "name": "{CA Hallway",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "99829",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99847"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99832",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99831",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "99827",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99812"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "99831": {
-            "name": "{cR{Co{wo{Bm {W1{x",
-            "description": [
-                "{cA comfortable and cozy room surrounds you.  On the ceiling are",
-                "painted murals of {wangels {cand the like.  A fireplace warms the room to",
-                "your liking.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99831",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99828"
-                }
-            },
-            "extras": {}
+            "vnum": "99828"
         },
         "99837": {
-            "name": "{YO{yr{Yn{ya{Yt{ye {YH{ya{Yl{yl{Yw{ya{Yy.{x",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{WThe {Yshiny {ybrass {Csta{cirs {wyou {Wjus{Ct cl{cimb{wed l{Wead {Cint{co a v{wery {Yornate",
                 "{Whal{Clwa{cy.  T{whe w{Wall{Cs ar{ce co{wver{Wed i{Cn ta{cpes{wtri{Wes d{Cepi{ccti{wng v{Wari{Cous{c",
@@ -1383,162 +1230,317 @@
                 "t{che w{wall{Ws co{Cver{ced w{with {Wtin{Cy kn{cick{w kna{Wcks {Cand {codd{ws an{Wd en{Cds.  {c To t{whe",
                 "e{Wast{C is a{c Gue{wst R{Woom{C.  {x "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "99837",
+            "name": "{YO{yr{Yn{ya{Yt{ye {YH{ya{Yl{yl{Yw{ya{Yy.{x",
             "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99840",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99838",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "99841",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "99830",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "99801",
+                    "room_id": "99839",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99839"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99840"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99841"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99838"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99830"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "99803": {
-            "name": "{WThe {CP{cr{Co{cm{Ce{cn{Ca{cd{Ce{x",
-            "description": [
-                "{WThe comfortable and quiet atmosphere of this room is soothing.  The",
-                "{bblue curtains {Wthat line the walls mesh beautifully with the {ywooden",
-                "floor.  {WPlush sofas are scattered throughout the room, adding a",
-                "welcome to stay awhile and relax.  The {Ylanterns {Wthat line the walls",
-                "all give off a soft glow, slightly {Cilluminating {Wthe polish on the",
-                "floor.  {WEach table holds a various array of flowers and other plants. ",
-                "Giving the room the an intoxicating scent.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "99837"
+        },
+        "99840": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "99803",
+            "description": [
+                "{WThis {Croom {cis fa{wirly {Wbarr{Cen sa{cve fo{wr a fe{Ww be{Cds an{cd {wa cou{Wple o{Cf",
+                "war{cdrob{wes.  {x "
+            ],
+            "name": "{CS{ce{Cr{cv{Ca{cn{Ct{cs {CQ{cu{Ca{cr{Ct{ce{Cr{cs.{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "99837",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99808"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99840"
+        },
+        "99824": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{CThis ballroom is large with high ceilings and hanging {Wchandeliers. ",
+                "{CThe walls are full of floor length windows that are tall and slender. ",
+                "{CThe Curtains draped over them seems to be a {Ygold lace.  {CThe floor is",
+                "shiny and polished.  Off in the corner there is an area where the",
+                "floor isn't so shiny.  It looks like this may be where the musicians",
+                "play and maybe where food is set up.  {X "
+            ],
+            "name": "{YG{yr{Ya{yn{Yd {CB{ca{Cl{cl{Cr{co{Co{cm{x",
+            "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "99825",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99822"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "99824"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "99803",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99826"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99824"
+        },
+        "99823": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{YBookshelves line the walls.  Books of all sizes and {Rc{Bo{Gl{Ro{Br{Gs {Yrest",
+                "upon them.  Some with {ygold {Ybinding , some with {wsilver{Y, others dusty",
+                "and torn with browned edges, and some almost brand new.  Couches and",
+                "soft satiny pillows litter the room.  In the center there is a",
+                "{rbeautiful {Yrug, cozy enough for one to relax on while listening to a",
+                "grand tale.{x  "
+            ],
+            "name": "{RC{Bh{Gi{Yl{Rd{Br{Ge{Yn{Rs {BS{Gt{Yo{Rr{By {GR{Yo{Ro{Bm{G.{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99822",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99823"
+        },
+        "99821": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WYou walk down a ramp into a dark musky room.  A small {Ylantern {Wcasts",
+                "a faint glow on what seems to be blocks of ice and more barrels. ",
+                "{WThere are {yshelves{W lining the walls holding jars and other odds and",
+                "ends.  "
+            ],
+            "name": "{CCold {cS{Ct{co{Cr{ca{Cg{ce{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99820",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99821"
+        },
+        "99833": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cA barren room is here....  No bed, no furniture, no pictures on the",
+                "walls.  Maybe the room was rented by mistake.  All that is here is a",
+                "{Rfireplace{c.  {x "
+            ],
+            "name": "{cR{Co{Wo{Bm {W3",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99829",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99833"
+        },
+        "99801": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "{WYou have entered the midsection of the lobby.  To the north and",
+                "east there is a bar to quench your thirst, and there are plenty of",
+                "cozy places to sit and relax from your travels.  {WThere are stairs",
+                "{Wleading up to the second floor and a {bK{Bi{Ct{Wc{Ch{Be{bn {Wto the east.  "
+            ],
+            "name": "{CM{co{Ct{ch{Ce{cr {CG{co{Ct{ch{Ca{cl{C'{cs {CL{co{Cb{cb{Cy",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99802",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "99805",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99803",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99800",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "99801"
+        },
+        "99810": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up or Down?\" {x"
+            ],
+            "name": "{WElevator at the Fourth Floor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "99839",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "99811",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "99809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99801"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "99807": {
-            "name": "{WElevator at the Basement{x",
-            "description": [
-                "{cThere is a man standing here. There is a pully next to him with various levers and the like. He looks at you and asks {C\"Going up?\" {x"
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
+            "vnum": "99810"
+        },
+        "99842": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
             "flags2_raw": "0",
-            "vnum": "99807",
+            "description": [
+                "{cA table with various tubes and flasks of different colored liquids",
+                "bubble and drip here.  A a couple of wands are laid out on the table",
+                "as well.  An open book lies at another end of the table written in",
+                "some sort of cryptic code.  ",
+                "{x"
+            ],
+            "name": "{BThe Magic Room{x",
             "exits": {
-                "up": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "99841",
                     "description": [
                         ""
-                    ],
-                    "room_id": "99806"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "99843",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "99842"
         }
     },
-    "uid": "mira01",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] RP and Leveling",
     "faction_id": "",
+    "name": "Mirage's area",
     "vnums": [
         99800,
         99849
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "99800": {
-            "name": "{CGerrit the Bartender{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCa ABC 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 99800,
             "raw_flags": "ABU 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCa ABC 0",
+            "room_name": "{WGerrit the bartender stands here cleaning glasses.{x\n",
+            "name": "{CGerrit the Bartender{x~\n",
             "raw_flags2": "50 0 1d1+100 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "gerrit bartender~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 99800 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{WGerrit the bartender stands here cleaning glasses.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "gerrit bartender~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "99801": {
-            "name": "A bard~\n",
+            "raw_parts": "HJK",
+            "d_flags": "D {RA bard crashes to the ground with a thud. He is dead.{x~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "The bard is a medium built male .  He is hanging out singing and\n",
                 "strumming his guitar, alternating with drinking his ale.  He has long\n",
@@ -1546,24 +1548,22 @@
                 "looks like it was newly bought.  \n"
             ],
             "raw_flags5": "stand stand male 5000",
-            "raw_flags6": "AHV ABCDEFGI medium unknown",
-            "raw_flags4": "DEFK B 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 99801,
             "raw_flags": "ABY DFY 0 1000 0",
-            "race_id": "human",
-            "raw_form": "M",
+            "raw_flags4": "DEFK B 0 0",
+            "room_name": "The Bard sits here singing and drinking ale.\n",
+            "name": "A bard~\n",
             "raw_flags2": "50 10 1d1+1 0d0+0 0d0+0 punch",
-            "d_flags": "D {RA bard crashes to the ground with a thud. He is dead.{x~",
+            "raw_form": "M",
+            "keywords": "bard~\n",
             "subroutines": [
                 "F for M\n",
                 "F par HJK\n"
             ],
-            "t_flags": "T I was only singing!~",
-            "room_name": "The Bard sits here singing and drinking ale.\n",
-            "raw_parts": "HJK",
-            "keywords": "bard~\n"
+            "raw_flags6": "AHV ABCDEFGI medium unknown",
+            "race_id": "human",
+            "t_flags": "T I was only singing!~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }

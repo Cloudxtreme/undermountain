@@ -1,43 +1,286 @@
 {
-    "name": "Malar's Area",
+    "security": 7,
+    "recall_room_id": 3001,
     "id": "malar",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "malar",
     "rooms": {
-        "31451": {
-            "name": "{8A Shadowed F{go{rre{gs{8t Path{x",
-            "description": [
-                "{gA thick forest canopy casts a perpetual gloom about the forest. To the",
-                "south, the portal's {rdar{Rk red g{rlow{g illuminates a narrow path leading to",
-                "the north. To either side of the path lush vegetation grows so thick",
-                "that travel is nigh impossible. Removed are the sounds one would normally",
-                "hear within the woodlands, save the steady chirp of crickets who sing",
-                "in constant harmony to any who would listen.{x "
-            ],
+        "31463": {
+            "extras": {},
             "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "31451",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "31466",
                     "description": [
-                        "{gThe path continues into {8darkness{g.{x",
                         ""
-                    ],
-                    "room_id": "31453"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "31462",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "31460",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31450"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "31463"
+        },
+        "31453": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "{gThe path branches from the south to both northern and easterly directions.",
+                "The northernmost part of the trail disappears into overgrown vegetation.",
+                "To the east comes the hot smell of death and what looks to be dying ",
+                "plants coated in a fine {rr{Re{rd{g mist. Far to the south, the safety of the",
+                "glowing portal still issues the silent reminder that it's not too late",
+                "to turn back.{x "
+            ],
+            "name": "{8Before A L{ga{rr{gg{8e C{gle{rar{gin{8g{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "31459",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "31455",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31451",
+                    "description": [
+                        "{g An odd {rre{Rd g{rlow {gcomes from this direction.{x",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31453"
+        },
+        "31461": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "31464",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "31459",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31461"
+        },
+        "31466": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "31465",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31463",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31466"
+        },
+        "31459": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "31462",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "31461",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "31460",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31459"
+        },
+        "31454": {
+            "extras": {
+                "note": {
+                    "description": [
+                        "{W'{cDeath would have been merciful as opposed to an eternity of damnation{W'{x",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1275600968 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{8The massive cage you've found yourself in, hangs from the side of an",
+                "apparent underground cliff sheer of onyx design. Aside from the side",
+                "of the cliff no other land mass can be discerned, as naught but a dark",
+                "abyss surrounds the cage on all sides. A strong wind of gale proportion",
+                "gusts from below causing even the heavy cage to sway back and forth in",
+                "it's grip. A {Wnote{8 has been scratched into the cage floor near a skeletal",
+                "corpse.{x "
+            ],
+            "name": "{8The {rB{ye{ra{ys{rt {8C{Wa{8g{We{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "31452",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31454"
+        },
+        "31458": {
+            "extras": {},
+            "flags_raw": "0 1140852000 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A crystalline dome of epic proportions makes up both the ceilings and",
+                "walls of this room. The red sky above casts a {Rd{ru{8ll gl{roo{Rm{x within a chamber",
+                "that has no light source of it's own. The floor itself is transparent, ",
+                "and strangely enough displays the ground below it rather than the room",
+                "below it. Were it not for the vague outline of the structure making up",
+                "the VIP room, it would appear as though it's inhabitants were suspended ",
+                "in the air. "
+            ],
+            "name": "{cThe Loo{Cki{Wng Gl{cass {CV{WI{CP{c Room{x",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "31456",
+                    "description": [
+                        "This leads down to the main lookout.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31458"
+        },
+        "31467": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "31465",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31464",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31467"
+        },
+        "31464": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "31467",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "31462",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31461",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31464"
         },
         "31456": {
-            "name": "{cThe Loo{Cki{Wng Gl{cass Overview{x",
+            "extras": {},
+            "flags_raw": "0 1140860192 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Judging from the view outside of it's immense transparent walls, this",
                 "hold appears to be suspended in mid air over the {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e{x, not far",
@@ -49,394 +292,140 @@
                 "end, offers promise of respite from the activity of the world outside",
                 "of the {cLoo{Cki{Wng Gl{cass{x. "
             ],
-            "flags_raw": "0 1140860192 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31456",
+            "name": "{cThe Loo{Cki{Wng Gl{cass Overview{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "31457",
                     "description": [
                         "The smells of cooked food drift from this direction.",
                         ""
-                    ],
-                    "room_id": "31457"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31468"
+                    ]
                 },
                 "up": {
                     "flags_raw": "31453",
+                    "room_id": "31458",
                     "description": [
                         "An ornate stairway ascends to a large arched doorway.",
                         ""
-                    ],
-                    "room_id": "31458"
-                }
-            },
-            "extras": {}
-        },
-        "31465": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31465",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31462"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "31468",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "31466"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31467"
-                }
-            },
-            "extras": {}
-        },
-        "31455": {
-            "name": "{rThe Bl{Roo{rd P{Roo{rls{x",
-            "description": [
-                "{rA steaming stench of {8i{xro{Wn{r assaults the senses in hot waves within this",
-                "murky red hot springs of sorts. Red crusts as though massive scabs form",
-                "around the rims of the several pools which dot the suddenly broken landscape.",
-                "Within these pools a dark crimson ichor bubbles thickly, releasing small",
-                "gouts of steam into the air. In small increments, the pools rise and",
-                "fall in level to the rhythm of some unseen force.{x "
-            ],
-            "flags_raw": "0 1140859168 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31455",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The path looks less {rr{Re{rd{x in this direction.",
-                        ""
-                    ],
-                    "room_id": "31453"
-                }
-            },
-            "extras": {}
-        },
-        "31453": {
-            "name": "{8Before A L{ga{rr{gg{8e C{gle{rar{gin{8g{x",
-            "description": [
-                "{gThe path branches from the south to both northern and easterly directions.",
-                "The northernmost part of the trail disappears into overgrown vegetation.",
-                "To the east comes the hot smell of death and what looks to be dying ",
-                "plants coated in a fine {rr{Re{rd{g mist. Far to the south, the safety of the",
-                "glowing portal still issues the silent reminder that it's not too late",
-                "to turn back.{x "
-            ],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31453",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{g An odd {rre{Rd g{rlow {gcomes from this direction.{x",
-                        ""
-                    ],
-                    "room_id": "31451"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31459"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31455"
-                }
-            },
-            "extras": {}
-        },
-        "31459": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31459",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31462"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31460"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31461"
-                }
-            },
-            "extras": {}
-        },
-        "31460": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31460",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31463"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31459"
-                }
-            },
-            "extras": {}
-        },
-        "31467": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31467",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31465"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31464"
-                }
-            },
-            "extras": {}
-        },
-        "31458": {
-            "name": "{cThe Loo{Cki{Wng Gl{cass {CV{WI{CP{c Room{x",
-            "description": [
-                "A crystalline dome of epic proportions makes up both the ceilings and",
-                "walls of this room. The red sky above casts a {Rd{ru{8ll gl{roo{Rm{x within a chamber",
-                "that has no light source of it's own. The floor itself is transparent, ",
-                "and strangely enough displays the ground below it rather than the room",
-                "below it. Were it not for the vague outline of the structure making up",
-                "the VIP room, it would appear as though it's inhabitants were suspended ",
-                "in the air. "
-            ],
-            "flags_raw": "0 1140852000 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31458",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads down to the main lookout.",
-                        ""
-                    ],
-                    "room_id": "31456"
-                }
-            },
-            "extras": {}
-        },
-        "31466": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31466",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31463"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31465"
-                }
-            },
-            "extras": {}
-        },
-        "31464": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31464",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31467"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31462"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31461"
-                }
-            },
-            "extras": {}
-        },
-        "31454": {
-            "name": "{8The {rB{ye{ra{ys{rt {8C{Wa{8g{We{x",
-            "description": [
-                "{8The massive cage you've found yourself in, hangs from the side of an",
-                "apparent underground cliff sheer of onyx design. Aside from the side",
-                "of the cliff no other land mass can be discerned, as naught but a dark",
-                "abyss surrounds the cage on all sides. A strong wind of gale proportion",
-                "gusts from below causing even the heavy cage to sway back and forth in",
-                "it's grip. A {Wnote{8 has been scratched into the cage floor near a skeletal",
-                "corpse.{x "
-            ],
-            "flags_raw": "0 1275600968 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31454",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31452"
-                }
-            },
-            "extras": {
-                "note": {
-                    "description": [
-                        "{W'{cDeath would have been merciful as opposed to an eternity of damnation{W'{x",
                         ""
                     ]
                 }
-            }
-        },
-        "31461": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
+            },
             "wanted_area_vnum": "",
+            "vnum": "31456"
+        },
+        "31451": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
             "flags2_raw": "0",
-            "vnum": "31461",
+            "description": [
+                "{gA thick forest canopy casts a perpetual gloom about the forest. To the",
+                "south, the portal's {rdar{Rk red g{rlow{g illuminates a narrow path leading to",
+                "the north. To either side of the path lush vegetation grows so thick",
+                "that travel is nigh impossible. Removed are the sounds one would normally",
+                "hear within the woodlands, save the steady chirp of crickets who sing",
+                "in constant harmony to any who would listen.{x "
+            ],
+            "name": "{8A Shadowed F{go{rre{gs{8t Path{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "31453",
+                    "description": [
+                        "{gThe path continues into {8darkness{g.{x",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31450",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31464"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31451"
+        },
+        "31465": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "31467",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "31466",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31459"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31462",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "31450": {
-            "name": "{8R{go{ro{gt{8s of C{gre{rat{gio{8n{x",
-            "description": [
-                "{8Massive {rred roots {8the size of tree trunks snake their way along cavern ",
-                "ceiling and walls alike. They throb in unison, beating with a slow but ",
-                "steady pulse, as if the mechanisms of an enormous heart. With each heartbeat, ",
-                "the roots cast a brilliant {Rreddis{rh l{Right{8 to the far reaches of the cavern.",
-                "Unforgivingly hard black onyx gilds the floor which consists of a large ",
-                "circular dais island. No exits grace this cavern, only the abrupt drop ",
-                "off of the onyx island into the bowels of the planet below. Fresh air ",
-                "pours from below, originating from the deep chasm in gale force torrents ",
-                "of warmth. Resting in the center of the dais, a large forge rests, dispersing ",
-                "waves of intense heat from the center of the platform.{x {8A translucent",
-                "{Rs{rig{Rn{8 floats mid air next to the forge.{x"
-            ],
-            "flags_raw": "0 67665928 0 20",
             "wanted_area_vnum": "",
+            "vnum": "31465"
+        },
+        "31462": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
             "flags2_raw": "0",
-            "vnum": "31450",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "31465",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31451"
+                    ]
                 },
-                "down": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "31464",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31452"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "31463",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "31459",
+                    "description": [
+                        ""
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "31462"
+        },
+        "31450": {
             "extras": {
                 "sign": {
                     "description": [
@@ -451,10 +440,46 @@
                         ""
                     ]
                 }
-            }
+            },
+            "flags_raw": "0 67665928 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{8Massive {rred roots {8the size of tree trunks snake their way along cavern ",
+                "ceiling and walls alike. They throb in unison, beating with a slow but ",
+                "steady pulse, as if the mechanisms of an enormous heart. With each heartbeat, ",
+                "the roots cast a brilliant {Rreddis{rh l{Right{8 to the far reaches of the cavern.",
+                "Unforgivingly hard black onyx gilds the floor which consists of a large ",
+                "circular dais island. No exits grace this cavern, only the abrupt drop ",
+                "off of the onyx island into the bowels of the planet below. Fresh air ",
+                "pours from below, originating from the deep chasm in gale force torrents ",
+                "of warmth. Resting in the center of the dais, a large forge rests, dispersing ",
+                "waves of intense heat from the center of the platform.{x {8A translucent",
+                "{Rs{rig{Rn{8 floats mid air next to the forge.{x"
+            ],
+            "name": "{8R{go{ro{gt{8s of C{gre{rat{gio{8n{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "31451",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "31452",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "31450"
         },
         "31452": {
-            "name": "{8The {rB{ye{ra{ys{rt {8Cave{x",
+            "extras": {},
+            "flags_raw": "0 67665929 0 20",
+            "flags2_raw": "0",
             "description": [
                 "{8Far down within the chasm a large niche is carved into the side of the",
                 "onyx island. It's cave mouths opens to the continued open blackness of",
@@ -462,30 +487,30 @@
                 "carved into the onyx walls which line the cave along the floors, multiples",
                 "summoning circles have been etched as if to contain powerful creatures.{x "
             ],
-            "flags_raw": "0 67665929 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31452",
+            "name": "{8The {rB{ye{ra{ys{rt {8Cave{x",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "31450",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31450"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "31454",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31454"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "31452"
         },
         "31457": {
-            "name": "{cThe Loo{Cki{Wng Gl{cass Lounge{x",
+            "extras": {},
+            "flags_raw": "0 1140860200 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Comfortably removed from the visuals of the chaotic terrain spanning ",
                 "beneath the {cLoo{Cki{Wng Gl{cass{x, this smaller chamber caters more to the comfort ",
@@ -496,109 +521,85 @@
                 "fashion about the room. Their glass eyes seem to gaze with disinterest ",
                 "at the proceedings within the lounge. "
             ],
-            "flags_raw": "0 1140860200 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "31457",
+            "name": "{cThe Loo{Cki{Wng Gl{cass Lounge{x",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "31456",
                     "description": [
                         "Beyond the arched entrance to the lounge lies a larger room.",
                         ""
-                    ],
-                    "room_id": "31456"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "31462": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
             "wanted_area_vnum": "",
+            "vnum": "31457"
+        },
+        "31455": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 0",
             "flags2_raw": "0",
-            "vnum": "31462",
+            "description": [
+                "{rA steaming stench of {8i{xro{Wn{r assaults the senses in hot waves within this",
+                "murky red hot springs of sorts. Red crusts as though massive scabs form",
+                "around the rims of the several pools which dot the suddenly broken landscape.",
+                "Within these pools a dark crimson ichor bubbles thickly, releasing small",
+                "gouts of steam into the air. In small increments, the pools rise and",
+                "fall in level to the rhythm of some unseen force.{x "
+            ],
+            "name": "{rThe Bl{Roo{rd P{Roo{rls{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31459"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31465"
-                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "31453",
                     "description": [
+                        "The path looks less {rr{Re{rd{x in this direction.",
                         ""
-                    ],
-                    "room_id": "31463"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31464"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "31463": {
-            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
-            "description": [],
-            "flags_raw": "0 1140859168 0 3",
             "wanted_area_vnum": "",
+            "vnum": "31455"
+        },
+        "31460": {
+            "extras": {},
+            "flags_raw": "0 1140859168 0 3",
             "flags2_raw": "0",
-            "vnum": "31463",
+            "description": [],
+            "name": "{8T{gh{8e {RC{rri{Rm{rso{Rn {8G{gl{ra{gd{8e's E{gd{rg{8e{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "31460"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "31463",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31466"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "31459",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31462"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "31460"
         }
     },
-    "uid": "malar",
-    "area_quest_points": 0,
     "credits": "[  IMM   ] Malar's Area",
     "faction_id": "",
+    "name": "Malar's Area",
     "vnums": [
         31450,
         31499
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 7,
+    "realm_id": 0,
+    "subroutines": [],
     "mobiles": {
         "31450": {
-            "name": "{rThr{Ra{rxis{x~\n",
+            "d_flags": "D {crears his head, issuing a mighty roar before falling to the ground with a crash.{x~",
+            "raw_flags3": "-4 -4 -4 -15",
             "description": [
                 "{GYou can sense an aura of Malar about it..{x\n",
                 "{rFur matted with dark ichor cover this awesome creature, as if it had climbed\n",
@@ -607,14 +608,13 @@
                 "a humanoid hand clenched in a clawlike fashion.{x\n"
             ],
             "raw_flags5": "stand stand male 3366",
-            "raw_flags6": "AGV ABCDEFHJKUV huge pelt",
-            "raw_flags4": "DEHO AELQ CEGIK 0",
-            "raw_flags3": "-4 -4 -4 -15",
             "vnum": 31450,
             "raw_flags": "ABT DVZc H 0 0",
-            "race_id": "bear",
+            "raw_flags4": "DEHO AELQ CEGIK 0",
+            "room_name": "A massive dire bear with {rblood red{x eyes stalks about.\n",
+            "name": "{rThr{Ra{rxis{x~\n",
             "raw_flags2": "102 11 28d47+20000 28d47+6463 5d20+41 claw",
-            "d_flags": "D {crears his head, issuing a mighty roar before falling to the ground with a crash.{x~",
+            "keywords": "massive bear thraxis~\n",
             "subroutines": [
                 "M grall 31450 100~\n",
                 "M speech 31451 participate~\n",
@@ -622,12 +622,13 @@
                 "M delay 31454 100~\n",
                 "M speech 31452 spectate~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A massive dire bear with {rblood red{x eyes stalks about.\n",
-            "keywords": "massive bear thraxis~\n"
+            "raw_flags6": "AGV ABCDEFHJKUV huge pelt",
+            "race_id": "bear",
+            "t_flags": "T ~"
         },
         "31451": {
-            "name": "{8Gu{xla{8th{x, the abyssal jailer~\n",
+            "d_flags": "D Screams {W'{8How the fuck?!{W'{x~",
+            "raw_flags3": "-4 -4 -4 -17",
             "description": [
                 "{8Before you looms a demon bred for one specific purpose... Pain and suffering.\n",
                 "Summoned from the very bowels of the abyss, Gu{xla{8th's surface glitters\n",
@@ -636,14 +637,14 @@
                 "servitude.  He stands ready to {Cpunish{8 upon command.{x\n"
             ],
             "raw_flags5": "stand stand none 1",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX giant demonflesh",
-            "raw_flags4": "0 ACDFLQa BEH 0",
-            "raw_flags3": "-4 -4 -4 -17",
             "vnum": 31451,
             "raw_flags": "ABNTd DFJT CDEHO -1000 0",
-            "race_id": "dragon",
+            "raw_flags4": "0 ACDFLQa BEH 0",
+            "room_name": "An enormous {8ebon demon{x towers above you.\n",
+            "raw_vulns": "FI",
+            "name": "{8Gu{xla{8th{x, the abyssal jailer~\n",
             "raw_flags2": "102 11 39d39+20000 39d39+20000 5d23+44 drain",
-            "d_flags": "D Screams {W'{8How the fuck?!{W'{x~",
+            "keywords": "gulath abyssal jailer enormous ebon demon~\n",
             "subroutines": [
                 "F vul FI\n",
                 "M speech 31455 punish~\n",
@@ -652,36 +653,35 @@
                 "M speech 31458 die~\n",
                 "M speech 31459 servitude~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An enormous {8ebon demon{x towers above you.\n",
-            "raw_vulns": "FI",
-            "keywords": "gulath abyssal jailer enormous ebon demon~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX giant demonflesh",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "31452": {
-            "name": "The glassbreak program~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "If you can see me, please let an immortal know stat. \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ACa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 31452,
             "raw_flags": "ABMN DF P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ACa 0 0",
+            "room_name": "The glassbreak program is here.\n",
+            "name": "The glassbreak program~\n",
             "raw_flags2": "102 0 100d100+100 100d100+100 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "glassbreak program~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M exall 31460 3~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The glassbreak program is here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "glassbreak program~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 0
+    "area_quest_points": 0
 }

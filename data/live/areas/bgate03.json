@@ -1,211 +1,88 @@
 {
-    "name": "Baldur's Gate Elfsong Tavern",
+    "security": 10,
+    "recall_room_id": 55947,
     "id": "bgate03",
-    "subroutines": [],
+    "objects": {},
+    "uid": "bgate03",
     "rooms": {
-        "56004": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
-            "description": [
-                "The corridor reaches an abrupt end here.  There are another two",
-                "doors.  The north door is labelled, {W'{yMerchant's Room{W'{x while the lavish",
-                "door to the south has the label, {W'{YR{yoyal {YS{yuite{W'{x.  There is a window at",
-                "the east end of the corridor looking down at the streets outside.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56004",
-            "exits": {
-                "north": {
-                    "flags_raw": "55986",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56003"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56005"
-                },
-                "south": {
-                    "flags_raw": "55987",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56008"
-                }
-            },
-            "extras": {}
-        },
-        "56006": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
-            "description": [
-                "This corner of the tavern is not so well lit.  There is a small",
-                "table tucked away in the southwest corner of the corridor with a small",
-                "lantern on the table.  The corridor runs to the west, where people",
-                "with the right amount of money can rent a room.  These rooms are well",
-                "known for their safety and travellers always speak of the good rest",
-                "they get here.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56006",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56001"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56005"
-                }
-            },
-            "extras": {}
-        },
-        "56000": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "{yThis is the northwest corner of the cellar.  Along the north wall",
-                "are many barrels and kegs of various brews, and all around the rest of",
-                "the cellar are several shelves stacked with bottles of wine,",
-                "champagne, and all sorts of other alcohol.  There is a somewhat",
-                "unpleasant odour, that of a rodent infestation.  {x "
-            ],
+        "55995": {
+            "extras": {},
             "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "56000",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55997"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55999"
-                }
-            },
-            "extras": {}
-        },
-        "55988": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
             "description": [
-                "There is a small passageway behind the bar of the Elfsong Tavern. ",
-                "It leads south to a small room where there is a hatch to the cellar. ",
-                "This room is usually reserved for people who are working for the",
-                "tavern and you do not usually find any customers here.  "
+                "{yThe eastern wall of the cellar is cracked and crumbling.  A wooden",
+                "beam supports the ceiling to make sure it is safe, but it is a",
+                "temporary job at best.  To the west, there is a large assortment of",
+                "wine racks, beer barrels and kegs of ale.  {x "
             ],
-            "flags_raw": "0 1036 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55988",
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55989"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55987"
-                }
-            },
-            "extras": {}
-        },
-        "55985": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "This is the centre of the tavern.  From all around, there is a",
-                "general hussle and bussle of a popular tavern.  Laughter and",
-                "conversations are coming from the many locals and travellers in the",
-                "tavern.  To the west you can find the bar, where the barmaid, and",
-                "owner of the tavern will greet you with a smile.  Every now and again,",
-                "there is an eerie voice, that sings a haunting but beautiful melody. ",
-                "Where could it come from?  "
-            ],
-            "flags_raw": "0 1036 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55985",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55980"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55998",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55984"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55996",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55987"
+                    ]
                 },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55994",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55995"
+        },
+        "55999": {
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis is the centre of the north wall in the cellar.  All along the",
+                "wall are barrels and kegs of various alcoholic beverages.  There are",
+                "many racks and shelves around the cellar, stacked high with many dark",
+                "coloured bottles.  {x "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55998",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55982"
-                }
-            },
-            "extras": {}
-        },
-        "56002": {
-            "name": "{WE{wlfsong {BStandard Room{x",
-            "description": [
-                "This is a fairly small room.  There is a small desk and a single",
-                "bed, big enough for a large human, perhaps, in the centre of the back",
-                "wall.  The floor is made from polished wood, and is pretty clean. ",
-                "This is a nice enough room, but doesn't seem to have the luxury of the",
-                "merchant's room or the royal suite.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56002",
-            "exits": {
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56000",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
-                    "flags_raw": "55988",
+                    "flags_raw": "0",
+                    "room_id": "55996",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56005"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55999"
         },
         "55982": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
             "description": [
                 "Laughter and music can be heard through the tavern as many locals",
                 "and travellers of a plethora of races enjoy a drink and good company. ",
@@ -213,539 +90,34 @@
                 "discussing many an inane topic.  Bright lanterns shine light into the",
                 "tavern from the walls here, casting eerie shadows all around.  "
             ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55982",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55983"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55985"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55981"
-                }
-            },
-            "extras": {}
-        },
-        "55990": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "Underneath the Elfsong is a small antechamber with a set of",
-                "battered and worn ash black wooden steps that lead back to the Tavern.",
-                "To the east, the cellar opens out into a large room, with wine racks",
-                "and beer barrels strewn all over the place.  There is a constant",
-                "scurrying noise as well, sounding like many rats running for cover",
-                "somewhere in the dingy cellar.  "
-            ],
-            "flags_raw": "0 5 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55990",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55991"
-                },
-                "up": {
-                    "flags_raw": "55980",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55989"
-                }
-            },
-            "extras": {}
-        },
-        "55993": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "{yThis is the centre of the south wall in the cellar.  All along the",
-                "wall are barrels and kegs of various alcoholic beverages.  There are",
-                "many racks and shelves around the cellar, stacked high with many dark",
-                "coloured bottles.  {x "
-            ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55993",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55996"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55991"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55994"
-                }
-            },
-            "extras": {}
-        },
-        "55983": {
             "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "This corner of the Elfsong is generally used by the more wealthy of",
-                "patrons.  Paintings line the walls, showing images of Baldur's Gate",
-                "from long ago.  One in particular stands out.  It is a beautiful elven",
-                "woman watching as her husband leaves for battle.  "
-            ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55983",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55984"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55982"
-                }
-            },
-            "extras": {}
-        },
-        "55989": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "In this small room at the back of The Elfsong Tavern, there are no",
-                "windows to let in any light.  The walls are made from fine pine wood",
-                "panels, like much of the rest of the Tavern.  There is a hatch in the",
-                "floor leading down into the cellars underneath the elfsong.  The only",
-                "other exit is north through the door leading back to the main bar",
-                "area.  "
-            ],
-            "flags_raw": "0 9 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55989",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55983",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55988"
-                },
-                "down": {
-                    "flags_raw": "55980",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55990"
-                }
-            },
-            "extras": {}
-        },
-        "56003": {
-            "name": "{WE{wlfsong {BMerchant's Room{x",
-            "description": [
-                "This is a high quality room designed for travelling merchants. ",
-                "There is a large footlocker at the end of the bed in this room, so",
-                "that the merchants who use it can store their wares while they sleep",
-                "in safety.  A small window overlooks the alleyways behind the tavern",
-                "to the north.  "
-            ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56003",
-            "exits": {
-                "south": {
-                    "flags_raw": "55986",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56004"
-                }
-            },
-            "extras": {}
-        },
-        "55998": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "{yThis is the northeast corner of the Elfsong Cellar.  Piled high in",
-                "the corner are empty barrels, ready to be taken for refilling by the",
-                "suppliers.  There are many racks of wine and barrels of alcohol",
-                "filling the rest of the cellar.  There is also a distinct smell of",
-                "rats all around the cellar.  {x "
-            ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55998",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55999"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55995"
-                }
-            },
-            "extras": {}
-        },
-        "55980": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "A warm hearth greets all who enter the Elfsong Tavern.  This is the",
-                "largest and most famous tavern in all of Baldur's Gate.  It is famous",
-                "for the ghost that noone can see, and gave the name to this tavern. ",
-                "She is said to sing a haunting melody most nights, but noone knows",
-                "why.  Travellers can rent rooms in the southeast corner of the tavern,",
-                "and buy a drink from the bar over on the west side.  "
-            ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55980",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55811"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55985"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55981"
-                }
-            },
-            "extras": {}
-        },
-        "55987": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "This corner of the Elfsong Tavern is where the bar can be found. ",
-                "Many a weary traveller can be found at the bar, drinking away their",
-                "troubles.  There are also several citizens of Baldur's Gate at the bar",
-                "and are a good source of gossip and information.  To the west, behind",
-                "the bar, there is a small passageway that leads down to the cellars. ",
-                "There are many tables and other patrons of the tavern to the west, and",
-                "over to the north, a staircase leads up to the rooms for rent.  "
-            ],
-            "flags_raw": "0 1024 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55987",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55986"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55985",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55988"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55985"
-                }
-            },
-            "extras": {}
-        },
-        "56007": {
-            "name": "{WE{wlfsong {BStandard Room{x",
-            "description": [
-                "This is a fairly small room.  There is a small desk and a single",
-                "bed, big enough for a large human, perhaps, in the centre of the back",
-                "wall.  The floor is made from polished wood, and is pretty clean. ",
-                "This is a nice enough room, but doesn't seem to have the luxury of the",
-                "merchant's room or the royal suite.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56007",
-            "exits": {
-                "north": {
-                    "flags_raw": "55988",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56005"
-                }
-            },
-            "extras": {}
-        },
-        "55986": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "This corner of the tavern has a spiral staircase leading up to the",
-                "second floor.  There are lanterns on the wooden panelled wall lighting",
-                "the way up in this gloomy corner of the tavern.  There is the general",
-                "hussle of people in the tavern coming from the south and east.  "
-            ],
-            "flags_raw": "0 1036 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55986",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55987"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55984"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56001"
-                }
-            },
-            "extras": {}
-        },
-        "56001": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
-            "description": [
-                "At the top of the stairs is a small chamber, lit by lanterns on the",
-                "wall.  The main corridor to the rooms of the tavern runs to the south",
-                "from here.  The main bar of the tavern is down the stairs.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56001",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56006"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55986"
-                }
-            },
-            "extras": {}
-        },
-        "55984": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "This is the back of the Elfsong Tavern.  There is a window in the",
-                "north wall looking out onto a dimly lit alley.  There is the",
-                "occasional voice coming from somewhere, kind of like someone singing a",
-                "sad song.  Looking southward, it is possible to see the whole of the",
-                "tavern, from the bar at the western side of the inn to the exit at the",
-                "south.  "
-            ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55984",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55985"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55986"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55983"
-                }
-            },
-            "extras": {}
-        },
-        "55981": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
-            "description": [
-                "Over by the corner of the tavern is a large fireplace.  Hanging",
-                "over the top of the fireplace is a large beholder, that has been",
-                "killed, and embalmed, and hung over the fireplace like a statue. ",
-                "There is a sign at this table indicating that the man who is here",
-                "drinking from a jug of mead is the innkeeper.  "
-            ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55981",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55982"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55980"
-                }
-            },
-            "extras": {}
-        },
-        "55995": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "{yThe eastern wall of the cellar is cracked and crumbling.  A wooden",
-                "beam supports the ceiling to make sure it is safe, but it is a",
-                "temporary job at best.  To the west, there is a large assortment of",
-                "wine racks, beer barrels and kegs of ale.  {x "
-            ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55995",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55998"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55996"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55981",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55994"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55982"
         },
         "56005": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
-            "description": [
-                "The corridor runs from west to east.  There are two doors along the",
-                "edge.  To the north, there is a door labelled {W'{yStandard room 1{W'{x.  The",
-                "door to the south is similarly labelled, {W'{yStandard room 2{W'{x.  A sign on",
-                "the wall points to the east, indicating where the other rooms are.  "
-            ],
-            "flags_raw": "0 8 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "56005",
-            "exits": {
-                "south": {
-                    "flags_raw": "55988",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56007"
-                },
-                "north": {
-                    "flags_raw": "55988",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56002"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56006"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56004"
-                }
-            },
             "extras": {
                 "sign": {
                     "description": [
@@ -760,47 +132,92 @@
                         ""
                     ]
                 }
-            }
-        },
-        "55997": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "{yThe west wall of the cellar has several pipes leading up into the",
-                "ceiling.  These obviously take the drinks up to the bar above.  It is",
-                "possible to see all around many wine racks and beer kegs filling the",
-                "cellar.  There is also a vial odour of rats filling the cellar.  {x "
-            ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 8 0 12",
             "flags2_raw": "0",
-            "vnum": "55997",
+            "description": [
+                "The corridor runs from west to east.  There are two doors along the",
+                "edge.  To the north, there is a door labelled {W'{yStandard room 1{W'{x.  The",
+                "door to the south is similarly labelled, {W'{yStandard room 2{W'{x.  A sign on",
+                "the wall points to the east, indicating where the other rooms are.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55991"
-                },
                 "north": {
-                    "flags_raw": "0",
+                    "flags_raw": "55988",
+                    "room_id": "56002",
                     "description": [
                         ""
-                    ],
-                    "room_id": "56000"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "56004",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55996"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56006",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "55988",
+                    "room_id": "56007",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "56005"
+        },
+        "55980": {
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "A warm hearth greets all who enter the Elfsong Tavern.  This is the",
+                "largest and most famous tavern in all of Baldur's Gate.  It is famous",
+                "for the ghost that noone can see, and gave the name to this tavern. ",
+                "She is said to sing a haunting melody most nights, but noone knows",
+                "why.  Travellers can rent rooms in the southeast corner of the tavern,",
+                "and buy a drink from the bar over on the west side.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55985",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55981",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55811",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55980"
         },
         "55994": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{yThis is the southeast corner of the Elfsong Cellar.  Piled high in",
                 "the corner are empty barrels, ready to be taken for refilling by the",
@@ -808,100 +225,30 @@
                 "filling the rest of the cellar.  There is also a distinct smell of",
                 "rats all around the cellar.  {x "
             ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55994",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55995"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55993"
-                }
-            },
-            "extras": {}
-        },
-        "55992": {
-            "name": "EMPTY ROOM",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55992",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55991"
-                }
-            },
-            "extras": {}
-        },
-        "55996": {
             "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
-            "description": [
-                "{yThe centre of the cellar is surrounded by tall racks, filled with",
-                "many bottles.  The isles between the racks are filled with large",
-                "barrels and kegs making it difficult to walk around without bumping",
-                "into one.  A large Barrel in the centre is placed on top of what looks",
-                "like some kind of grate.  {x "
-            ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55996",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55993"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55995",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55999"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55993",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55997"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55995"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56100"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55994"
         },
         "55991": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{yThis is the southwest corner of the cellar.  There is a set of",
                 "steps to the west leading back up to the tavern.  Along the south wall",
@@ -910,112 +257,766 @@
                 "champagne, and all sorts of other alcohol.  There is a somewhat",
                 "unpleasant odour, that of a rodent infestation.  {x "
             ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55991",
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55997",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55997"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55990"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55993",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55993"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55990",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55991"
         },
-        "55999": {
-            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+        "56007": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
             "description": [
-                "{yThis is the centre of the north wall in the cellar.  All along the",
+                "This is a fairly small room.  There is a small desk and a single",
+                "bed, big enough for a large human, perhaps, in the centre of the back",
+                "wall.  The floor is made from polished wood, and is pretty clean. ",
+                "This is a nice enough room, but doesn't seem to have the luxury of the",
+                "merchant's room or the royal suite.  "
+            ],
+            "name": "{WE{wlfsong {BStandard Room{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "55988",
+                    "room_id": "56005",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56007"
+        },
+        "55981": {
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "Over by the corner of the tavern is a large fireplace.  Hanging",
+                "over the top of the fireplace is a large beholder, that has been",
+                "killed, and embalmed, and hung over the fireplace like a statue. ",
+                "There is a sign at this table indicating that the man who is here",
+                "drinking from a jug of mead is the innkeeper.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55982",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55980",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55981"
+        },
+        "55996": {
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThe centre of the cellar is surrounded by tall racks, filled with",
+                "many bottles.  The isles between the racks are filled with large",
+                "barrels and kegs making it difficult to walk around without bumping",
+                "into one.  A large Barrel in the centre is placed on top of what looks",
+                "like some kind of grate.  {x "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55999",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55995",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55997",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "56100",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55993",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55996"
+        },
+        "55984": {
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This is the back of the Elfsong Tavern.  There is a window in the",
+                "north wall looking out onto a dimly lit alley.  There is the",
+                "occasional voice coming from somewhere, kind of like someone singing a",
+                "sad song.  Looking southward, it is possible to see the whole of the",
+                "tavern, from the bar at the western side of the inn to the exit at the",
+                "south.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55983",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55986",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55985",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55984"
+        },
+        "56002": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This is a fairly small room.  There is a small desk and a single",
+                "bed, big enough for a large human, perhaps, in the centre of the back",
+                "wall.  The floor is made from polished wood, and is pretty clean. ",
+                "This is a nice enough room, but doesn't seem to have the luxury of the",
+                "merchant's room or the royal suite.  "
+            ],
+            "name": "{WE{wlfsong {BStandard Room{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "55988",
+                    "room_id": "56005",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56002"
+        },
+        "56001": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "At the top of the stairs is a small chamber, lit by lanterns on the",
+                "wall.  The main corridor to the rooms of the tavern runs to the south",
+                "from here.  The main bar of the tavern is down the stairs.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "55986",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "56006",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56001"
+        },
+        "55989": {
+            "extras": {},
+            "flags_raw": "0 9 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "In this small room at the back of The Elfsong Tavern, there are no",
+                "windows to let in any light.  The walls are made from fine pine wood",
+                "panels, like much of the rest of the Tavern.  There is a hatch in the",
+                "floor leading down into the cellars underneath the elfsong.  The only",
+                "other exit is north through the door leading back to the main bar",
+                "area.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55988",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "55980",
+                    "room_id": "55990",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55989"
+        },
+        "55998": {
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis is the northeast corner of the Elfsong Cellar.  Piled high in",
+                "the corner are empty barrels, ready to be taken for refilling by the",
+                "suppliers.  There are many racks of wine and barrels of alcohol",
+                "filling the rest of the cellar.  There is also a distinct smell of",
+                "rats all around the cellar.  {x "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55999",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55995",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55998"
+        },
+        "56003": {
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This is a high quality room designed for travelling merchants. ",
+                "There is a large footlocker at the end of the bed in this room, so",
+                "that the merchants who use it can store their wares while they sleep",
+                "in safety.  A small window overlooks the alleyways behind the tavern",
+                "to the north.  "
+            ],
+            "name": "{WE{wlfsong {BMerchant's Room{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "55986",
+                    "room_id": "56004",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56003"
+        },
+        "55983": {
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This corner of the Elfsong is generally used by the more wealthy of",
+                "patrons.  Paintings line the walls, showing images of Baldur's Gate",
+                "from long ago.  One in particular stands out.  It is a beautiful elven",
+                "woman watching as her husband leaves for battle.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55984",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55982",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55983"
+        },
+        "55986": {
+            "extras": {},
+            "flags_raw": "0 1036 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This corner of the tavern has a spiral staircase leading up to the",
+                "second floor.  There are lanterns on the wooden panelled wall lighting",
+                "the way up in this gloomy corner of the tavern.  There is the general",
+                "hussle of people in the tavern coming from the south and east.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55984",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "56001",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55987",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55986"
+        },
+        "55992": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "EMPTY ROOM",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55991",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55992"
+        },
+        "55985": {
+            "extras": {},
+            "flags_raw": "0 1036 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This is the centre of the tavern.  From all around, there is a",
+                "general hussle and bussle of a popular tavern.  Laughter and",
+                "conversations are coming from the many locals and travellers in the",
+                "tavern.  To the west you can find the bar, where the barmaid, and",
+                "owner of the tavern will greet you with a smile.  Every now and again,",
+                "there is an eerie voice, that sings a haunting but beautiful melody. ",
+                "Where could it come from?  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55984",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55982",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55987",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55980",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55985"
+        },
+        "56004": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "The corridor reaches an abrupt end here.  There are another two",
+                "doors.  The north door is labelled, {W'{yMerchant's Room{W'{x while the lavish",
+                "door to the south has the label, {W'{YR{yoyal {YS{yuite{W'{x.  There is a window at",
+                "the east end of the corridor looking down at the streets outside.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
+            "exits": {
+                "north": {
+                    "flags_raw": "55986",
+                    "room_id": "56003",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56005",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "55987",
+                    "room_id": "56008",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56004"
+        },
+        "56006": {
+            "extras": {},
+            "flags_raw": "0 8 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This corner of the tavern is not so well lit.  There is a small",
+                "table tucked away in the southwest corner of the corridor with a small",
+                "lantern on the table.  The corridor runs to the west, where people",
+                "with the right amount of money can rent a room.  These rooms are well",
+                "known for their safety and travellers always speak of the good rest",
+                "they get here.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern {WU{wpstairs",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56001",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "56005",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56006"
+        },
+        "55997": {
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThe west wall of the cellar has several pipes leading up into the",
+                "ceiling.  These obviously take the drinks up to the bar above.  It is",
+                "possible to see all around many wine racks and beer kegs filling the",
+                "cellar.  There is also a vial odour of rats filling the cellar.  {x "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "56000",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55996",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55991",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55997"
+        },
+        "55990": {
+            "extras": {},
+            "flags_raw": "0 5 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Underneath the Elfsong is a small antechamber with a set of",
+                "battered and worn ash black wooden steps that lead back to the Tavern.",
+                "To the east, the cellar opens out into a large room, with wine racks",
+                "and beer barrels strewn all over the place.  There is a constant",
+                "scurrying noise as well, sounding like many rats running for cover",
+                "somewhere in the dingy cellar.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55991",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "55980",
+                    "room_id": "55989",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55990"
+        },
+        "55988": {
+            "extras": {},
+            "flags_raw": "0 1036 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "There is a small passageway behind the bar of the Elfsong Tavern. ",
+                "It leads south to a small room where there is a hatch to the cellar. ",
+                "This room is usually reserved for people who are working for the",
+                "tavern and you do not usually find any customers here.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55987",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55989",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55988"
+        },
+        "55987": {
+            "extras": {},
+            "flags_raw": "0 1024 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This corner of the Elfsong Tavern is where the bar can be found. ",
+                "Many a weary traveller can be found at the bar, drinking away their",
+                "troubles.  There are also several citizens of Baldur's Gate at the bar",
+                "and are a good source of gossip and information.  To the west, behind",
+                "the bar, there is a small passageway that leads down to the cellars. ",
+                "There are many tables and other patrons of the tavern to the west, and",
+                "over to the north, a staircase leads up to the rooms for rent.  "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55986",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55985",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55988",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55987"
+        },
+        "56000": {
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis is the northwest corner of the cellar.  Along the north wall",
+                "are many barrels and kegs of various brews, and all around the rest of",
+                "the cellar are several shelves stacked with bottles of wine,",
+                "champagne, and all sorts of other alcohol.  There is a somewhat",
+                "unpleasant odour, that of a rodent infestation.  {x "
+            ],
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55999",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55997",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "56000"
+        },
+        "55993": {
+            "extras": {},
+            "flags_raw": "0 9 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis is the centre of the south wall in the cellar.  All along the",
                 "wall are barrels and kegs of various alcoholic beverages.  There are",
                 "many racks and shelves around the cellar, stacked high with many dark",
                 "coloured bottles.  {x "
             ],
-            "flags_raw": "0 9 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55999",
+            "name": "{YT{yhe {WE{wlfsong {YT{yavern{x {wC{Dellar{x",
             "exits": {
-                "south": {
+                "north": {
                     "flags_raw": "0",
+                    "room_id": "55996",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55996"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "56000"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55994",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55998"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55991",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55993"
         }
     },
-    "uid": "bgate03",
-    "area_quest_points": 0,
     "credits": "[ Public ] Baldur's Gate Elfsong Tavern",
     "faction_id": "",
+    "name": "Baldur's Gate Elfsong Tavern",
     "vnums": [
         55980,
         56009
     ],
-    "recall_room_id": 55947,
-    "objects": {},
-    "security": 10,
+    "realm_id": 1,
+    "subroutines": [],
     "mobiles": {
         "55984": {
-            "name": "a Gnome local drinker~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "This little gnome wears a dark blue robe with a hood, that is down\n",
                 "around his neck.  \n"
             ],
             "raw_flags5": "sit sit male 9583",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABQ JL R",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55984,
             "raw_flags": "ABI Jc 0 0 0",
-            "race_id": "gnome",
+            "raw_flags4": "0 ABQ JL R",
+            "room_name": "A little Gnome sits here, talking of magic and adventure.\n",
+            "name": "a Gnome local drinker~\n",
             "raw_flags2": "17 0 10d10+100 0d0+0 10d10+139 none",
-            "d_flags": "D ~",
+            "keywords": "local gnome drinker~\n",
             "subroutines": [
                 "M DELAY 55990 100~\n",
                 "M GRALL 55991 50~\n",
                 "M RANDOM 55994 10~\n",
                 "M ACT 55996 sits down at a~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A little Gnome sits here, talking of magic and adventure.\n",
-            "keywords": "local gnome drinker~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "gnome",
+            "t_flags": "T ~"
         },
         "55985": {
-            "name": "the Innkeeper~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "This sturdy half elf is about 5ft 5inches tall.  He is wearing a\n",
                 "fine suit made from good quality cotton.  He carries a crossbow\n",
@@ -1023,151 +1024,150 @@
                 "violence in the tavern.  \n"
             ],
             "raw_flags5": "stand stand male 9999",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQa BF 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55985,
             "raw_flags": "AB DFL 0 0 0",
-            "race_id": "halfelf",
+            "raw_flags4": "0 ABCDLQa BF 0",
+            "room_name": "Kreneshiil the Innkeeper sits at his table renting out the rooms.\n",
+            "name": "the Innkeeper~\n",
             "raw_flags2": "109 0 99d99+9999 99d99+9999 99d99+9999 none",
-            "d_flags": "D ~",
+            "keywords": "innkeeper~\n",
             "subroutines": [
                 "M GREET 55992 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Kreneshiil the Innkeeper sits at his table renting out the rooms.\n",
-            "keywords": "innkeeper~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "halfelf",
+            "t_flags": "T ~"
         },
         "55986": {
-            "name": "feldorn~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Feldorn is a stocky man, fairly tall for a human, and wears\n",
                 "standard adventurer's equipment.  He has a large sword that he carries\n",
                 "in a sheath on his back and a few potions in a bag on his belt.  \n"
             ],
             "raw_flags5": "stand stand none 84632",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55986,
             "raw_flags": "AG 0 0 600 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABLQ 0 0",
+            "room_name": "Feldorn, the tavern's best regular is here with a drink.\n",
+            "name": "feldorn~\n",
             "raw_flags2": "104 5000 100d100+10000 100d100+10000 100d50+100 punch",
-            "d_flags": "D ~",
+            "keywords": "feldorn~\n",
             "subroutines": [
                 "M ENTRY 55987 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Feldorn, the tavern's best regular is here with a drink.\n",
-            "keywords": "feldorn~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55980": {
-            "name": "a giant {Drat{x~\n",
+            "raw_parts": "BGI",
+            "d_flags": "D ~",
+            "raw_flags3": "-5 -5 -5 3",
+            "raw_resistances": "L",
             "description": [
                 "{DYou are looking at a giant rat the size of a small halfling.  It\n",
                 "has dark black fur and nasty looking drool around its sharp teeth.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "ABHV ACDEFHJKQU small unknown",
-            "raw_flags4": "H A Q 0",
-            "raw_parts": "BGI",
-            "raw_flags3": "-5 -5 -5 3",
             "vnum": 55980,
             "raw_flags": "AF J 0 -400 0",
-            "race_id": "kobold",
-            "raw_form": "M",
-            "raw_resistances": "L",
+            "raw_flags4": "H A Q 0",
+            "room_name": "A giant {Drat{x scurries towards you.\n",
+            "raw_vulns": "C",
+            "name": "a giant {Drat{x~\n",
             "raw_flags2": "24 0 5d5+150 5d5+150 1d10+5 bite",
-            "d_flags": "D ~",
+            "raw_form": "M",
+            "keywords": "giant rat elfsongrat~\n",
             "subroutines": [
                 "F res L\n",
                 "F vul C\n",
                 "F for M\n",
                 "F par BGI\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A giant {Drat{x scurries towards you.\n",
-            "raw_vulns": "C",
-            "keywords": "giant rat elfsongrat~\n"
+            "raw_flags6": "ABHV ACDEFHJKQU small unknown",
+            "race_id": "kobold",
+            "t_flags": "T ~"
         },
         "55981": {
-            "name": "The Elfsong Tavern Barmaid~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-90 -90 -90 -90",
             "description": [
                 "The barmaid is a beautiful woman, wearing a low cut silk blouse. \n",
                 "Her heaving breasts can distract just about any man.  She gives off a\n",
                 "very friendly aura, making everyone feel welcome.  \n"
             ],
             "raw_flags5": "stand stand female 99999",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQa 0 0",
-            "raw_flags3": "-90 -90 -90 -90",
             "vnum": 55981,
             "raw_flags": "AB 0 H 700 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "room_name": "Raella, {YT{yhe {WE{wlfsong's {YB{yarmaid {xleans over the bar towards you.\n",
+            "name": "The Elfsong Tavern Barmaid~\n",
             "raw_flags2": "115 0 100d100+10000 100d100+10000 100d100+10000 none",
-            "d_flags": "D ~",
+            "keywords": "elfsong barmaid~\n",
             "subroutines": [
                 "M GRALL 55984 100~\n",
                 "M SPEECH 55985 help~\n",
                 "M SPEECH 55988 finished~\n",
                 "M ACT 55986 nods at you in agreement~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Raella, {YT{yhe {WE{wlfsong's {YB{yarmaid {xleans over the bar towards you.\n",
-            "keywords": "elfsong barmaid~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55982": {
-            "name": "A drunk little halfling~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-18 -18 -18 -16",
             "description": [
                 "The halfling is dressed in tight fitting clothes, of a fairly poor\n",
                 "quality, but his manner is much more refined for the poor drunk he\n",
                 "appears to be.  \n"
             ],
             "raw_flags5": "stand stand male 385",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB LNQ S",
-            "raw_flags3": "-18 -18 -18 -16",
             "vnum": 55982,
             "raw_flags": "ABS QUb 0 200 0",
-            "race_id": "halfling",
+            "raw_flags4": "0 AB LNQ S",
+            "room_name": "A Drunk little Halfling staggers around, eyeing the patrons of the tavern.\n",
+            "name": "A drunk little halfling~\n",
             "raw_flags2": "31 10 100d2+500 100d2+500 5d6+23 punch",
-            "d_flags": "D ~",
+            "keywords": "drunk halfling~\n",
             "subroutines": [
                 "M GIVE 55983 teronbrewquest~\n",
                 "M SPEECH 55982 no~\n",
                 "M SPEECH 55981 yes~\n",
                 "M GREET 55980 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Drunk little Halfling staggers around, eyeing the patrons of the tavern.\n",
-            "keywords": "drunk halfling~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "halfling",
+            "t_flags": "T ~"
         },
         "55983": {
-            "name": "an Elven Patron~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "This elf is wearing a woodsman's cloak, and has a longbow over his\n",
                 "shoulder, next to a quiver of fine looking arrows.  Around his waist,\n",
                 "an elven girdle that holds many things magically inside small pockets.\n"
             ],
             "raw_flags5": "sit sit male 847",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB BG 0",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 55983,
             "raw_flags": "ABL FJVc 0 444 0",
-            "race_id": "elf",
+            "raw_flags4": "0 AB BG 0",
+            "room_name": "An Elven local sits at the table merrily drinking with his comrades in arms.\n",
+            "name": "an Elven Patron~\n",
             "raw_flags2": "33 20 20d20+555 20d20+555 10d10+110 punch",
-            "d_flags": "D ~",
+            "keywords": "elven elf patron local~\n",
             "subroutines": [
                 "M DELAY 55996 100~\n",
                 "M GRALL 55995 100~\n",
                 "M RANDOM 55993 10~\n",
                 "M GRALL 55994 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An Elven local sits at the table merrily drinking with his comrades in arms.\n",
-            "keywords": "elven elf patron local~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "elf",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 1
+    "area_quest_points": 0
 }

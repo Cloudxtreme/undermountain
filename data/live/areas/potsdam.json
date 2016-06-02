@@ -1,10 +1,43 @@
 {
-    "name": "Town Of Potsdam",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "potsdam",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "potsdam",
     "rooms": {
+        "30501": {
+            "extras": {},
+            "flags_raw": "0 1032 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{R+{r------------------------------------------------------------------{R+{x",
+                "{R|  {mThe {CWe{Bstbrid{Cge Qu{Bick-{CM{Bar{Ct {x\"{YO{ypen {C24 {BHours {xA Day, {R7 {BDays{x A Week\"  {R|{x",
+                "{R+{r------------------------------------------------------------------{R+{x",
+                "This is a small establishment that sits on the corner of Westbridge",
+                "Way and Coffin Street. Inside, there are big coolers in the back of the",
+                "shop, some lunch tables, a few rows of shelves stocked with junk food,",
+                "and a large counter with a magazine rack in the front. There is also",
+                "a coffee machine, and other drink machines."
+            ],
+            "name": "The {CWe{Bstbrid{Cge Qu{Bick-{CM{Bar{Ct{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2813",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "30501"
+        },
         "30500": {
-            "name": "The Potsdam Quick-Mart",
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "{R+{r--------------------------------------------------------------{R+",
@@ -18,78 +51,45 @@
                 "on a stool behind a large counter, reading a \"Timber Maniacs\"",
                 "Magazine.  "
             ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "30500",
+            "name": "The Potsdam Quick-Mart",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "31880",
                     "description": [
                         ""
-                    ],
-                    "room_id": "31880"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "30501": {
-            "name": "The {CWe{Bstbrid{Cge Qu{Bick-{CM{Bar{Ct{x",
-            "description": [
-                "{x",
-                "{R+{r------------------------------------------------------------------{R+{x",
-                "{R|  {mThe {CWe{Bstbrid{Cge Qu{Bick-{CM{Bar{Ct {x\"{YO{ypen {C24 {BHours {xA Day, {R7 {BDays{x A Week\"  {R|{x",
-                "{R+{r------------------------------------------------------------------{R+{x",
-                "This is a small establishment that sits on the corner of Westbridge",
-                "Way and Coffin Street. Inside, there are big coolers in the back of the",
-                "shop, some lunch tables, a few rows of shelves stocked with junk food,",
-                "and a large counter with a magazine rack in the front. There is also",
-                "a coffee machine, and other drink machines."
-            ],
-            "flags_raw": "0 1032 0 13",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "30501",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2813"
-                }
-            },
-            "extras": {}
+            "vnum": "30500"
         }
     },
-    "uid": "potsdam",
-    "area_quest_points": 0,
     "credits": "[ Public ] Quick Mart Co",
     "faction_id": "",
+    "name": "Town Of Potsdam",
     "vnums": [
         30500,
         30599
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "30500": {
-            "name": "The Quick Mart Dwarf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "A small dwarf sits behind a counter here, reading a \"Timber Maniacs\"\n",
                 "Magazine. The dwarf is surrounded by all kinds of merchandise.\n"
             ],
             "raw_flags5": "stand stand none 500000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFJ 0 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 30500,
             "raw_flags": "ABV 0 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "EFJ 0 0 0",
+            "room_name": "A small dwarf sits on a stool behind the counter.\n",
+            "name": "The Quick Mart Dwarf~\n",
             "raw_flags2": "101 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
+            "keywords": "quick mart dwarf~\n",
             "subroutines": [
                 "M exall 30504 1~\n",
                 "M random 30501 1~\n",
@@ -97,27 +97,27 @@
                 "M random 30503 1~\n",
                 "M grall 30500 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A small dwarf sits on a stool behind the counter.\n",
-            "keywords": "quick mart dwarf~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "30501": {
-            "name": "Candlejack~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [],
             "raw_flags5": "stand stand none 30000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFJ 0 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 30501,
             "raw_flags": "ABV 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "10 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFJ 0 0 0",
             "room_name": "Candlejack sits behind the quickmart counter, reading a magazine.\n",
-            "keywords": "Candlejack Quickmart Employee~\n"
+            "name": "Candlejack~\n",
+            "raw_flags2": "10 0 1d1+999 1d1+99 1d8+20 beating",
+            "keywords": "Candlejack Quickmart Employee~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

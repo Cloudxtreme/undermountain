@@ -1,368 +1,105 @@
 {
-    "name": "The Crossroad's Tavern & Inn",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "taven01",
-    "subroutines": [],
+    "objects": {},
+    "uid": "taven01",
     "rooms": {
-        "11073": {
-            "name": "Hallway To The Inn",
-            "description": [
-                "You walk down a large hallway going towards the Inn Desk.  The",
-                "hallways has been decorated with diffrent trophies and pictures.  A",
-                "few windows look to the east, over the small road that goes to Moria. "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
+        "11093": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "11073",
+            "description": [],
+            "name": "",
             "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11074"
-                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "11091",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "11071"
-                }
-            },
-            "extras": {}
-        },
-        "11078": {
-            "name": "Outside The Stable",
-            "description": [
-                "The path leads farther away from the hills to the east, and towards",
-                "in the Inn to the south.  The Inn to the south sits on the corner of",
-                "the Crossroads.  The door to the stables is up the stairs.  "
-            ],
-            "flags_raw": "0 1140858916 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11078",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11079"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11077"
-                }
-            },
-            "extras": {}
-        },
-        "11089": {
-            "name": "[Crossroad's T/I] Room 1",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11089",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11084"
-                }
-            },
-            "extras": {}
-        },
-        "11071": {
-            "name": "Entrance To The Tavern",
-            "description": [
-                "You stand inside the Crossroad's Tavern & Inn, a hot spot for all",
-                "the diffrent kinds of people.  Two hallways stand here, one going to",
-                "the north, and another one to the west.  On the corner to the",
-                "northwest, you see a large sign.  The Tavern/Inn feels warm, the walls",
-                "made from a fine wood, windows overlooking the road to the south.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11071",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11073"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11094"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11096"
-                }
-            },
-            "extras": {
-                "sign": {
-                    "description": [
-                        "WEST: Tavern, Parlor & Inn Rooms.",
-                        "NORTH: Inn Front Desk.",
                         ""
                     ]
                 }
-            }
-        },
-        "11074": {
-            "name": "The Crossroad's Inn",
-            "description": [
-                "You walk into the Inn part of the building.  A large desk stands to",
-                "the west, with a small dwarf behind it.  The wall behind the desk is",
-                "filled with diffrent smaller boxes, some with a key in them, some with",
-                "a message.  Around the room is some small furniture and a coffee",
-                "table.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11074",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11077"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11073"
-                }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11093"
         },
         "11076": {
-            "name": "Stair To The Inn",
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand on the backside of the Inn.  Here you see stairs leading",
                 "up to the second story of the Inn, where the rentable rooms are.  To",
                 "the north, a door leads out to the stables, where you can store your",
                 "animal.  To the west is the Tavern and Inn.  "
             ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11076",
+            "name": "Stair To The Inn",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "11077",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11077"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11075"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "11084",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11084"
-                }
-            },
-            "extras": {}
-        },
-        "11084": {
-            "name": "[Crossroad's T/I] Hallway",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11084",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11085"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "11075",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11089"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11090"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11076"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "11081": {
-            "name": "Loner's Portal Room",
-            "description": [],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11081",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11080"
-                }
-            },
-            "extras": {}
+            "vnum": "11076"
         },
-        "11080": {
-            "name": "Loner's Hideout",
-            "description": [],
+        "11086": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "11080",
+            "description": [],
+            "name": "[Crossroad's T/I] Room 5",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11083"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "11085",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11081"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11082"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11075"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11086"
         },
-        "11095": {
+        "11092": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
             "name": "",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11095",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11091"
-                }
-            },
-            "extras": {}
-        },
-        "11088": {
-            "name": "[Crossroad's T/I] Room 4",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11088",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11085"
-                }
-            },
-            "extras": {}
-        },
-        "11082": {
-            "name": "Loner's Clan Shop",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11082",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11080"
-                }
-            },
-            "extras": {}
-        },
-        "11083": {
-            "name": "Loner's Training Room",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11083",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "11091",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11080"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11092"
         },
         "11075": {
-            "name": "The Crossroad Parlor",
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The parlor of the Crossroad's Tavern & Inn.  Here you see a very",
                 "warm room.  The walls are made from old stones, like something you see",
@@ -372,37 +109,246 @@
                 "at an angle towards the fire.  A couch sits against the eastern wall,",
                 "next to the opening to the rooms.  A deer head hangs above the couch. "
             ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11075",
+            "name": "The Crossroad Parlor",
             "exits": {
-                "south": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "11076",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11072"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "11080",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11080"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11072",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11075"
+        },
+        "11071": {
+            "extras": {
+                "sign": {
+                    "description": [
+                        "WEST: Tavern, Parlor & Inn Rooms.",
+                        "NORTH: Inn Front Desk.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You stand inside the Crossroad's Tavern & Inn, a hot spot for all",
+                "the diffrent kinds of people.  Two hallways stand here, one going to",
+                "the north, and another one to the west.  On the corner to the",
+                "northwest, you see a large sign.  The Tavern/Inn feels warm, the walls",
+                "made from a fine wood, windows overlooking the road to the south.  "
+            ],
+            "name": "Entrance To The Tavern",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "11073",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11094",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "11096",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11071"
+        },
+        "11090": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "[Crossroad's T/I] Room 2",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11084",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11090"
+        },
+        "11085": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "[Crossroad's T/I] Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "11084",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "11088",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11076"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "11091",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11087",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11086",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11085"
+        },
+        "11073": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk down a large hallway going towards the Inn Desk.  The",
+                "hallways has been decorated with diffrent trophies and pictures.  A",
+                "few windows look to the east, over the small road that goes to Moria. "
+            ],
+            "name": "Hallway To The Inn",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "11074",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11071",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11073"
+        },
+        "11074": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk into the Inn part of the building.  A large desk stands to",
+                "the west, with a small dwarf behind it.  The wall behind the desk is",
+                "filled with diffrent smaller boxes, some with a key in them, some with",
+                "a message.  Around the room is some small furniture and a coffee",
+                "table.  "
+            ],
+            "name": "The Crossroad's Inn",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11077",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11073",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11074"
+        },
+        "11080": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Loner's Hideout",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "11081",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "11075",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11082",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11083",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11080"
         },
         "11072": {
-            "name": "The Crossroad's Tavern",
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You walk into the Crossroad's Tavern.  You see a warm tavern area,",
                 "the walls made from a mid-coloured wood.  The whole tavern looks to be",
@@ -413,84 +359,288 @@
                 "Tavern.  The parlor of the Tavern is to the north, along with the Inn",
                 "Rooms.  "
             ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11072",
+            "name": "The Crossroad's Tavern",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "11075",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11075"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "11094",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11094"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "11092": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "11072"
+        },
+        "11088": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "11092",
+            "description": [],
+            "name": "[Crossroad's T/I] Room 4",
             "exits": {
-                "north": {
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "11085",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11091"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11088"
         },
         "11087": {
-            "name": "[Crossroad's T/I] Room 3",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "11087",
+            "description": [],
+            "name": "[Crossroad's T/I] Room 3",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "11085",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11085"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "11093": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "11087"
+        },
+        "11094": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "11093",
+            "description": [
+                "This narrow hallway connect the entry room to the main tavern area. ",
+                "Drunken adventurers stagger back and forth here, oftentimes bumping into",
+                "trouble in the process. Many scars mark the stone walls here, suggesting",
+                "that numerous scuffles have happened between these very walls. To the",
+                "east is the entrance to tavern while to the west is the tavern itself. "
+            ],
+            "name": "Tavern Hallway",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "11071",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11072",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11094"
+        },
+        "11091": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "11093",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11095",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "11085",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "11092",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11091"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11091"
+        },
+        "11078": {
+            "extras": {},
+            "flags_raw": "0 1140858916 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The path leads farther away from the hills to the east, and towards",
+                "in the Inn to the south.  The Inn to the south sits on the corner of",
+                "the Crossroads.  The door to the stables is up the stairs.  "
+            ],
+            "name": "Outside The Stable",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "11079",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "11077",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11078"
+        },
+        "11084": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "[Crossroad's T/I] Hallway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "11090",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11089",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "11076",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "11085",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11084"
+        },
+        "11095": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "11091",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11095"
+        },
+        "11079": {
+            "extras": {},
+            "flags_raw": "0 1140858916 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a path within the hills in the area.  The path leads",
+                "down back into the valley Westbridge and New Thalos resides.  You see",
+                "a small inn, the road goes towards its stables, located in the back of",
+                "the Inn.  The Inn itself stands on the crossroads.  "
+            ],
+            "name": "To The Back Of The Tavern/Inn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "3536",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "11078",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11079"
+        },
+        "11082": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Loner's Clan Shop",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "11080",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11082"
+        },
+        "11083": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Loner's Training Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "11080",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "11083"
         },
         "11077": {
-            "name": "The Stable",
+            "extras": {},
+            "flags_raw": "0 1140859948 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You stand inside the stables of The Crossroads Tavern & Inn.  You",
                 "see several stalls, filled with diffrent animals.  Chocobo's, You",
@@ -499,268 +649,118 @@
                 "War Mustanges, Chocobos.  To the side you see a large pile of hay,",
                 "waiting for the animals.  A door to the south leads into the Tavern.  "
             ],
-            "flags_raw": "0 1140859948 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11077",
+            "name": "The Stable",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11076"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "11074",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11074"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "11078",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11078"
-                }
-            },
-            "extras": {}
-        },
-        "11094": {
-            "name": "Tavern Hallway",
-            "description": [
-                "This narrow hallway connect the entry room to the main tavern area. ",
-                "Drunken adventurers stagger back and forth here, oftentimes bumping into",
-                "trouble in the process. Many scars mark the stone walls here, suggesting",
-                "that numerous scuffles have happened between these very walls. To the",
-                "east is the entrance to tavern while to the west is the tavern itself. "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11094",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11072"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11071"
-                }
-            },
-            "extras": {}
-        },
-        "11090": {
-            "name": "[Crossroad's T/I] Room 2",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11090",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11084"
-                }
-            },
-            "extras": {}
-        },
-        "11079": {
-            "name": "To The Back Of The Tavern/Inn",
-            "description": [
-                "You are in a path within the hills in the area.  The path leads",
-                "down back into the valley Westbridge and New Thalos resides.  You see",
-                "a small inn, the road goes towards its stables, located in the back of",
-                "the Inn.  The Inn itself stands on the crossroads.  "
-            ],
-            "flags_raw": "0 1140858916 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11079",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11078"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3536"
-                }
-            },
-            "extras": {}
-        },
-        "11091": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "11091",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11093"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11095"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "11076",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11092"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11085"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "11086": {
-            "name": "[Crossroad's T/I] Room 5",
-            "description": [],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "11077"
+        },
+        "11089": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "11086",
+            "description": [],
+            "name": "[Crossroad's T/I] Room 1",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "11084",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11085"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "11085": {
-            "name": "[Crossroad's T/I] Hallway",
-            "description": [],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "11089"
+        },
+        "11081": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "11085",
+            "description": [],
+            "name": "Loner's Portal Room",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "11080",
                     "description": [
                         ""
-                    ],
-                    "room_id": "11086"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11084"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11087"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11088"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "11091"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "11081"
         }
     },
-    "uid": "taven01",
-    "area_quest_points": 0,
     "credits": "[ Public ] The Crossroad's Taven",
     "faction_id": "",
+    "name": "The Crossroad's Tavern & Inn",
     "vnums": [
         11071,
         11099
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "11072": {
-            "name": "The Dwarf Innkeeper~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [],
             "raw_flags5": "stand stand none 20000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFJ 0 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 11072,
             "raw_flags": "ABV 0 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "EFJ 0 0 0",
+            "room_name": "A small dwarf sits here behind the counter.\n",
+            "name": "The Dwarf Innkeeper~\n",
             "raw_flags2": "101 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
+            "keywords": "Crossroad Innkeeper~\n",
             "subroutines": [
                 "M GRALL 11072 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A small dwarf sits here behind the counter.\n",
-            "keywords": "Crossroad Innkeeper~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "11071": {
-            "name": "The Bartender~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [],
             "raw_flags5": "stand stand none 20000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFJ 0 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 11071,
             "raw_flags": "ABV 0 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "EFJ 0 0 0",
+            "room_name": "The Tavern Bartender stands here cleaning the bar.\n",
+            "name": "The Bartender~\n",
             "raw_flags2": "101 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
+            "keywords": "crossroad tavern bartender~\n",
             "subroutines": [
                 "M GRALL 11071 50~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The Tavern Bartender stands here cleaning the bar.\n",
-            "keywords": "crossroad tavern bartender~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

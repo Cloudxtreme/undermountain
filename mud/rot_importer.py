@@ -44,6 +44,69 @@ class RotImporter(object):
             raise Exception("Unhandled area header line: " + line)
 
     @classmethod
+    def import_socials_from_file(cls, path, debug=False):
+        socials = {}
+        state = "ready_to_start_section"
+        path_parts = path.split("/")
+        filename = path_parts[-1]
+        uid = filename.replace(".are", "")
+
+        social = None
+
+        social_states = [
+            "me_room",  # You open your arms, beckoning everyone to join you in a group hug.
+            "actor_room",  # $n opens $s arms, calling for a group hug.
+            "me_actor",  # You overwhelm $N with a great, big, hulking bearhug.
+            "actor_other",  # $n encompasses $N in an ENORMOUS bearhug!
+            "actor_me",  # $n clutches you tightly in an overwhelming bearhug!
+            "me_no_target",  # Perhaps you should shower your affections on someone who is here?
+            "me_self",  # You vainly clutch yourself in a bearhug for consolation.
+            "actor_self",  # $n hugs $mself as tightly as possible.  Looks like $e could use a hand.
+        ]
+
+        with open(path, "r") as fh:
+            line_index = 0
+            for line in fh:
+                line_index += 1
+                cleaned = line.strip()
+                if debug:
+                    print(line_index, state, line)
+                try:
+                    if state == "ready_to_start_section":
+                        if line.strip() == "" or line.startswith("#SOCIALS"):
+                            continue
+                        elif line.startswith("#0"):
+                            return socials
+                        else:
+                            social = {
+                                "keyword": cleaned
+                            }
+                            state = "me_room"
+                            continue
+
+
+                    elif state in social_states:
+                        social[state] = cleaned
+
+                        if state == social_states[-1]:
+                            socials[social["keyword"]] = social
+                            del social["keyword"]
+                            social = None
+                            state = "ready_to_start_section"
+                            continue
+
+                        state_index = social_states.index(state)
+                        state = social_states[state_index + 1]
+                except Exception as e:
+                    print("** EXCEPTION **")
+                    print("Filename: {} ".format(path))
+                    print("State: {}".format(state))
+                    print("Line: {}".format(line_index))
+                    print(e)
+                    break
+
+
+    @classmethod
     def import_area_from_file(cls, path, debug=False):
         state = "ready_to_start_section"
         path_parts = path.split("/")

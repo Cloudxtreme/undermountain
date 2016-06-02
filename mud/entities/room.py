@@ -6,6 +6,8 @@ class Room(GameEntity):
     ROOM
     A container that Actors, Objects, and general "things" can be in.
     """
+    UNIQUE_INDEXES = ["uid"]
+    INDEXES = ["id"]
     COLLECTION_NAME = 'rooms'
 
     def query_entities(self, exclude=None):

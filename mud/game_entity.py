@@ -8,9 +8,9 @@ class GameEntity(Entity):
     COLLECTION_NAME = None
     COLLECTIONS_CHECKED = set()
 
-    UNIQUE_INDEXES = ['uid']
+    UNIQUE_INDEXES = []
     STRING_INDEXES = []
-    INDEXES = ['id']
+    INDEXES = []
 
     @classmethod
     def query_index_fields(cls):

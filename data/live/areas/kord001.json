@@ -1,1281 +1,63 @@
 {
-    "name": "Grand Arena",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "kord001",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "kord001",
     "rooms": {
         "58549": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
             "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58549",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58548"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58550"
-                }
-            },
-            "extras": {}
-        },
-        "58500": {
-            "name": "{DConstruction Room{x",
-            "description": [],
-            "flags_raw": "0 67141644 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58500",
-            "exits": {},
-            "extras": {}
-        },
-        "58566": {
-            "name": "GA Viewing Room",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1024 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58566",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "58550",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58565"
-                }
-            },
-            "extras": {}
-        },
-        "58565": {
-            "name": "Northern Chambers",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58565",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58523"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "58548",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58566"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58524"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "58525": {
-            "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58525",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58526"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58524"
-                }
-            },
-            "extras": {}
-        },
-        "58552": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58552",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58551"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58553"
-                }
-            },
-            "extras": {}
-        },
-        "58546": {
-            "name": "{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x",
-            "description": [],
-            "flags_raw": "0 268435456 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58546",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58545"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58547"
-                }
-            },
-            "extras": {}
-        },
-        "58557": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58557",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58558"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58556"
-                }
-            },
-            "extras": {}
-        },
-        "58512": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58512",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58513"
-                }
-            },
-            "extras": {}
-        },
-        "58520": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58520",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58521"
-                }
-            },
-            "extras": {}
-        },
-        "58526": {
-            "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58526",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58527"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58525"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58532"
-                }
-            },
-            "extras": {}
-        },
-        "58547": {
-            "name": "{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x",
-            "description": [],
-            "flags_raw": "0 268435456 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58547",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58546"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58548"
-                }
-            },
-            "extras": {}
-        },
-        "58544": {
-            "name": "Southern Chamber",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58544",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58543"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "16436"
-                }
-            },
-            "extras": {}
-        },
-        "58504": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle.  "
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58504",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58505"
-                }
-            },
-            "extras": {}
-        },
-        "58501": {
-            "name": "Entrance to the Grand Arena",
-            "description": [
-                "The room is made out of well polished marble, colored a light beige",
-                "with black veins running sporatically throughout.  Along the walls are",
-                "racks and racks of weapons and armor, none of which are for sale.  ",
-                "A massive arced wooden door lies to the north."
-            ],
-            "flags_raw": "0 67118120 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58501",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58523"
-                }
-            },
-            "extras": {}
-        },
-        "58563": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58563",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58562"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58564"
-                }
-            },
-            "extras": {}
-        },
-        "58555": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58555",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58554"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58556"
-                }
-            },
-            "extras": {}
-        },
-        "58543": {
-            "name": "Southern Chamber",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58543",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58528"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58544"
-                }
-            },
-            "extras": {}
-        },
-        "58522": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384236 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58522",
-            "exits": {},
-            "extras": {}
-        },
-        "58569": {
-            "name": "GA Viewing Room 10",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1028 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58569",
-            "exits": {},
-            "extras": {}
-        },
-        "58502": {
-            "name": "{D[{CGA{D]{W The Old Man's Waiting Room{x",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle.  "
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58502",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58503"
-                }
-            },
-            "extras": {}
-        },
-        "58562": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58562",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58560"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58563"
-                }
-            },
-            "extras": {}
-        },
-        "58533": {
-            "name": "Western Chambers",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58533",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58534"
-                }
-            },
-            "extras": {}
-        },
-        "58567": {
-            "name": "GA Viewing Room 8",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1028 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58567",
-            "exits": {},
-            "extras": {}
-        },
-        "58570": {
-            "name": "{D[{CGA{D]{W Annexed Chamber{x",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383208 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58570",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58503"
-                }
-            },
-            "extras": {}
-        },
-        "58515": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58515",
-            "exits": {},
-            "extras": {}
-        },
-        "58574": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58574",
-            "exits": {},
-            "extras": {}
-        },
-        "58531": {
-            "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58531",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58524"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58530"
-                }
-            },
-            "extras": {}
-        },
-        "58553": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58553",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58552"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58554"
-                }
-            },
-            "extras": {}
-        },
-        "58508": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58508",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58509"
-                }
-            },
-            "extras": {}
-        },
-        "58521": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58521",
-            "exits": {},
-            "extras": {}
-        },
-        "58506": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58506",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58507"
-                }
-            },
-            "extras": {}
-        },
-        "58536": {
-            "name": "GA Viewing Room Level 2",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1032 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58536",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58534"
-                }
-            },
-            "extras": {}
-        },
-        "58572": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141385260 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58572",
-            "exits": {},
-            "extras": {}
-        },
-        "58505": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58505",
-            "exits": {},
-            "extras": {}
-        },
-        "58541": {
-            "name": "GA Viewing Room 6",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1032 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58541",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58539"
-                }
-            },
-            "extras": {}
-        },
-        "58529": {
-            "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58529",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58530"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58528"
-                }
-            },
-            "extras": {}
-        },
-        "58560": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58560",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58562"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58561"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58559"
-                }
-            },
-            "extras": {}
-        },
-        "58568": {
-            "name": "GA Viewing Room 9",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1028 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58568",
-            "exits": {},
-            "extras": {}
-        },
-        "58571": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58571",
-            "exits": {},
-            "extras": {}
-        },
-        "58558": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58558",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58559"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58557"
-                }
-            },
-            "extras": {}
-        },
-        "58545": {
-            "name": "{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x",
-            "description": [],
-            "flags_raw": "0 335552544 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58545",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58546"
-                }
-            },
-            "extras": {}
+            "vnum": "58549"
         },
         "58540": {
-            "name": "GA Viewing Room 4",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
+            "extras": {},
             "flags_raw": "0 1032 0 14",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "58540",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58539"
-                }
-            },
-            "extras": {}
-        },
-        "58539": {
-            "name": "Eastern Chambers",
             "description": [
                 "The chamber is made out of well polished marble, colored a light",
                 "beige with black veins running sporatically throughout.  There are",
                 "four columns stretching about twenty feet high in the four corners,",
                 "and the ceiling vaults to a center point in the chamber.  "
             ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58539",
+            "name": "GA Viewing Room 4",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "58539",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58541"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58540"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58538"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58542"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "58530": {
-            "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58530",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58531"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58532"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58529"
-                }
-            },
-            "extras": {}
+            "vnum": "58540"
         },
-        "58538": {
-            "name": "Eastern Chambers",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
+        "58570": {
+            "extras": {},
+            "flags_raw": "0 1141383208 0 0",
             "flags2_raw": "0",
-            "vnum": "58538",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58539"
-                }
-            },
-            "extras": {}
-        },
-        "58524": {
-            "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58524",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58532"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58565"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58525"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58531"
-                }
-            },
-            "extras": {}
-        },
-        "58575": {
-            "name": "{D[{CGA{D]{W Summoning Chamber{x",
-            "description": [],
-            "flags_raw": "0 524332 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58575",
-            "exits": {},
-            "extras": {}
-        },
-        "58561": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58561",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58560"
-                }
-            },
-            "extras": {}
-        },
-        "58551": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58551",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58550"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58552"
-                }
-            },
-            "extras": {}
-        },
-        "58554": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58554",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58553"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58555"
-                }
-            },
-            "extras": {}
-        },
-        "58518": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58518",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58519"
-                }
-            },
-            "extras": {}
-        },
-        "58510": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58510",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58511"
-                }
-            },
-            "extras": {}
-        },
-        "58519": {
-            "name": "UNUSED",
             "description": [
                 "The room is nothing special, just what you would expect to see in",
                 "an arena.  The chamber you enter has no doors, no way out, just",
@@ -1283,458 +65,269 @@
                 "and floor are marble, and the colors are a dark swirling hue, with the",
                 "stain of red blood.  "
             ],
-            "flags_raw": "0 1141383208 0 0",
+            "name": "{D[{CGA{D]{W Annexed Chamber{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58503",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "58570"
+        },
+        "58545": {
+            "extras": {},
+            "flags_raw": "0 335552544 0 18",
             "flags2_raw": "0",
-            "vnum": "58519",
+            "description": [],
+            "name": "{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58546",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58545"
+        },
+        "58567": {
+            "extras": {},
+            "flags_raw": "0 1028 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room 8",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58567"
+        },
+        "58569": {
+            "extras": {},
+            "flags_raw": "0 1028 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room 10",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58569"
+        },
+        "58552": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58551",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58553",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58552"
+        },
+        "58542": {
+            "extras": {},
+            "flags_raw": "0 1032 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room 5",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "58539",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58573"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "58542"
+        },
+        "58559": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58558",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58560",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58559"
+        },
+        "58504": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle.  "
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58505",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58504"
+        },
+        "58515": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58515"
+        },
+        "58557": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58556",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58558",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58557"
         },
         "58523": {
-            "name": "Halls of the Arena",
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
             "description": [
                 "The room is made out of well polished marble, colored a light",
                 "beige with black veins running sporatically throughout.  Along the",
                 "walls are racks and racks of weapons and armor, none of which are for",
                 "sale.  "
             ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58523",
+            "name": "Halls of the Arena",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "58501",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58501"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "58565",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58565"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "58511": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 8",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58511",
-            "exits": {},
-            "extras": {}
+            "vnum": "58523"
         },
-        "58573": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383208 0 0",
-            "wanted_area_vnum": "",
+        "58525": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
             "flags2_raw": "0",
-            "vnum": "58573",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58519"
-                }
-            },
-            "extras": {}
-        },
-        "58542": {
-            "name": "GA Viewing Room 5",
             "description": [
                 "The chamber is made out of well polished marble, colored a light",
                 "beige with black veins running sporatically throughout.  There are",
                 "four columns stretching about twenty feet high in the four corners,",
                 "and the ceiling vaults to a center point in the chamber.  "
             ],
-            "flags_raw": "0 1032 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58542",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58539"
-                }
-            },
-            "extras": {}
-        },
-        "58527": {
             "name": "Hall of the Valiant",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58527",
             "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58526"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "58524",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58528"
-                }
-            },
-            "extras": {}
-        },
-        "58556": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58556",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58557"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58555"
-                }
-            },
-            "extras": {}
-        },
-        "58564": {
-            "name": "Entrance to the Forbiddin Forest",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58564",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58563"
-                }
-            },
-            "extras": {}
-        },
-        "58516": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58516",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58517"
-                }
-            },
-            "extras": {}
-        },
-        "58548": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58548",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58547"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58549"
-                }
-            },
-            "extras": {}
-        },
-        "58537": {
-            "name": "Western Chambers",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 1032 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58537",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58534"
-                }
-            },
-            "extras": {}
-        },
-        "58507": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 8",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58507",
-            "exits": {},
-            "extras": {}
-        },
-        "58534": {
-            "name": "Western Chambers",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58534",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58535"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58537"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58536"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58533"
-                }
-            },
-            "extras": {}
-        },
-        "58509": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 8",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58509",
-            "exits": {},
-            "extras": {}
-        },
-        "58503": {
-            "name": "{D[{CGA{D] {WThe Arena{x",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58503",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58570"
-                }
-            },
-            "extras": {}
-        },
-        "58550": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58550",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58549"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "58526",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58551"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "58517": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383208 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58517",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58598"
-                }
-            },
-            "extras": {}
-        },
-        "58598": {
-            "name": "UNUSED",
-            "description": [
-                "The room is nothing special, just what you would expect to see in",
-                "an arena.  The chamber you enter has no doors, no way out, just",
-                "scoarched marble walls, bones, and some sand on the floor.  The walls",
-                "and floor are marble, and the colors are a dark swirling hue, with the",
-                "stain of red blood.  "
-            ],
-            "flags_raw": "0 1141383208 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58598",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58517"
-                }
-            },
-            "extras": {}
-        },
-        "58514": {
-            "name": "UNUSED",
-            "description": [
-                "This is the room in the Grand Arena where you can rest, re-equip",
-                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
-                "the east and west walls.  A Large wooden door lies to the north, and",
-                "an old man sits here behind a glass counter, ready to sell you his",
-                "wares for your next battle."
-            ],
-            "flags_raw": "0 1141384744 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58514",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58515"
-                }
-            },
-            "extras": {}
+            "vnum": "58525"
         },
         "58513": {
-            "name": "UNUSED",
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The room is nothing special, just what you would expect to see in",
                 "an arena.  The chamber you enter has no doors, no way out, just",
@@ -1742,321 +335,1729 @@
                 "and floor are marble, and the colors are a dark swirling hue, with the",
                 "stain of red blood.  "
             ],
-            "flags_raw": "0 1141383212 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58513",
+            "name": "UNUSED",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "58513"
         },
-        "58535": {
-            "name": "GA Viewing Room level 3",
+        "58533": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
             "description": [
                 "The chamber is made out of well polished marble, colored a light",
                 "beige with black veins running sporatically throughout.  There are",
                 "four columns stretching about twenty feet high in the four corners,",
                 "and the ceiling vaults to a center point in the chamber.  "
             ],
-            "flags_raw": "0 1032 0 14",
+            "name": "Western Chambers",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58534",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "58533"
+        },
+        "58514": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
             "flags2_raw": "0",
-            "vnum": "58535",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "58515",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58534"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "58514"
         },
-        "58559": {
-            "name": "",
-            "description": [],
+        "58548": {
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "58559",
+            "description": [],
+            "name": "",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "58547",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58558"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58560"
-                }
-            },
-            "extras": {}
-        },
-        "58532": {
-            "name": "{CChamber{g of the {YA{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge{x",
-            "description": [
-                "The chamber is made out of well polished marble, colored a light",
-                "beige with black veins running sporatically throughout.  There are",
-                "four columns stretching about twenty feet high in the four corners,",
-                "and the ceiling vaults to a center point in the chamber.  "
-            ],
-            "flags_raw": "0 40 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58532",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58528"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58524"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58526"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "58549",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58530"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "58548"
+        },
+        "58563": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58562",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58564",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58563"
+        },
+        "58531": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Hall of the Valiant",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58524",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58530",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58531"
+        },
+        "58564": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Entrance to the Forbiddin Forest",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58563",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58564"
+        },
+        "58522": {
+            "extras": {},
+            "flags_raw": "0 1141384236 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58522"
+        },
+        "58503": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "{D[{CGA{D] {WThe Arena{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58570",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58503"
+        },
+        "58571": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58571"
+        },
+        "58555": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58554",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58556",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58555"
+        },
+        "58530": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Hall of the Valiant",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58531",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58532",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58529",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58530"
+        },
+        "58598": {
+            "extras": {},
+            "flags_raw": "0 1141383208 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58517",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58598"
+        },
+        "58539": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Eastern Chambers",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58540",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58542",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58538",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58541",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58539"
         },
         "58528": {
-            "name": "Hall of the Valiant",
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
             "description": [
                 "The chamber is made out of well polished marble, colored a light",
                 "beige with black veins running sporatically throughout.  There are",
                 "four columns stretching about twenty feet high in the four corners,",
                 "and the ceiling vaults to a center point in the chamber.  "
             ],
-            "flags_raw": "0 8 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "58528",
+            "name": "Hall of the Valiant",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58543"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "58532",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58532"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "58527"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "58529",
                     "description": [
                         ""
-                    ],
-                    "room_id": "58529"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58527",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58543",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "58528"
+        },
+        "58566": {
+            "extras": {},
+            "flags_raw": "0 1024 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58565",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58566"
+        },
+        "58550": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58549",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58551",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58550"
+        },
+        "58518": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58519",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58518"
+        },
+        "58554": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58553",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58555",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58554"
+        },
+        "58568": {
+            "extras": {},
+            "flags_raw": "0 1028 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room 9",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58568"
+        },
+        "58560": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58559",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58561",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58562",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58560"
+        },
+        "58510": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58511",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58510"
+        },
+        "58547": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58546",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58548",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58547"
+        },
+        "58509": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 8",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58509"
+        },
+        "58562": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58560",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58563",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58562"
+        },
+        "58505": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58505"
+        },
+        "58575": {
+            "extras": {},
+            "flags_raw": "0 524332 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{D[{CGA{D]{W Summoning Chamber{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58575"
+        },
+        "58565": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Northern Chambers",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58523",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58566",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58524",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58565"
+        },
+        "58553": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58554",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58552",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58553"
+        },
+        "58526": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Hall of the Valiant",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58525",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58532",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58527",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58526"
+        },
+        "58556": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58555",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58557",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58556"
+        },
+        "58558": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58557",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58559",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58558"
+        },
+        "58516": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58517",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58516"
+        },
+        "58543": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Southern Chamber",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58528",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58544",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58543"
+        },
+        "58506": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58507",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58506"
+        },
+        "58507": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 8",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58507"
+        },
+        "58538": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Eastern Chambers",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58539",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58538"
+        },
+        "58561": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58560",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58561"
+        },
+        "58535": {
+            "extras": {},
+            "flags_raw": "0 1032 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room level 3",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58534",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58535"
+        },
+        "58544": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Southern Chamber",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58543",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "16436",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58544"
+        },
+        "58541": {
+            "extras": {},
+            "flags_raw": "0 1032 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room 6",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58539",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58541"
+        },
+        "58551": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58550",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58552",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58551"
+        },
+        "58524": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Hall of the Valiant",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58565",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58531",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58525",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58532",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58524"
+        },
+        "58572": {
+            "extras": {},
+            "flags_raw": "0 1141385260 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58572"
+        },
+        "58532": {
+            "extras": {},
+            "flags_raw": "0 40 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "{CChamber{g of the {YA{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58524",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58530",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58526",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58528",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58532"
+        },
+        "58546": {
+            "extras": {},
+            "flags_raw": "0 268435456 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{DThe {DFo{Wr{Db{wi{Dd{Wd{Den {gF{yo{gr{ye{gs{gt{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58545",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58547",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58546"
+        },
+        "58512": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58513",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58512"
+        },
+        "58536": {
+            "extras": {},
+            "flags_raw": "0 1032 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "GA Viewing Room Level 2",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58534",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58536"
+        },
+        "58502": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle.  "
+            ],
+            "name": "{D[{CGA{D]{W The Old Man's Waiting Room{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58503",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58502"
+        },
+        "58521": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58521"
+        },
+        "58537": {
+            "extras": {},
+            "flags_raw": "0 1032 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Western Chambers",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58534",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58537"
+        },
+        "58501": {
+            "extras": {},
+            "flags_raw": "0 67118120 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The room is made out of well polished marble, colored a light beige",
+                "with black veins running sporatically throughout.  Along the walls are",
+                "racks and racks of weapons and armor, none of which are for sale.  ",
+                "A massive arced wooden door lies to the north."
+            ],
+            "name": "Entrance to the Grand Arena",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58523",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58501"
+        },
+        "58534": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Western Chambers",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58537",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58533",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58536",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "58535",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58534"
+        },
+        "58520": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58521",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58520"
+        },
+        "58574": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58574"
+        },
+        "58527": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Hall of the Valiant",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58526",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58528",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58527"
+        },
+        "58508": {
+            "extras": {},
+            "flags_raw": "0 1141384744 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This is the room in the Grand Arena where you can rest, re-equip",
+                "and sooth you wounds.  Rows of blankets, pillows, beds and cots cover",
+                "the east and west walls.  A Large wooden door lies to the north, and",
+                "an old man sits here behind a glass counter, ready to sell you his",
+                "wares for your next battle."
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58509",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58508"
+        },
+        "58511": {
+            "extras": {},
+            "flags_raw": "0 1141383212 0 8",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58511"
+        },
+        "58519": {
+            "extras": {},
+            "flags_raw": "0 1141383208 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58573",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58519"
+        },
+        "58573": {
+            "extras": {},
+            "flags_raw": "0 1141383208 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "58519",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58573"
+        },
+        "58529": {
+            "extras": {},
+            "flags_raw": "0 8 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "The chamber is made out of well polished marble, colored a light",
+                "beige with black veins running sporatically throughout.  There are",
+                "four columns stretching about twenty feet high in the four corners,",
+                "and the ceiling vaults to a center point in the chamber.  "
+            ],
+            "name": "Hall of the Valiant",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "58530",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58528",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58529"
+        },
+        "58500": {
+            "extras": {},
+            "flags_raw": "0 67141644 0 14",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{DConstruction Room{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "58500"
+        },
+        "58517": {
+            "extras": {},
+            "flags_raw": "0 1141383208 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The room is nothing special, just what you would expect to see in",
+                "an arena.  The chamber you enter has no doors, no way out, just",
+                "scoarched marble walls, bones, and some sand on the floor.  The walls",
+                "and floor are marble, and the colors are a dark swirling hue, with the",
+                "stain of red blood.  "
+            ],
+            "name": "UNUSED",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "58598",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "58517"
         }
     },
-    "uid": "kord001",
-    "area_quest_points": 0,
     "credits": "[ *HERO* ] Grand Arena",
     "faction_id": "",
+    "name": "Grand Arena",
     "vnums": [
         58500,
         58599
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 1,
+    "subroutines": [],
     "mobiles": {
         "58564": {
-            "name": "an old man~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58564,
             "raw_flags": "ABGNa 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A old man sits here, smoking his pipe.\n",
+            "name": "an old man~\n",
             "raw_flags2": "101 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "UNUSED~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A old man sits here, smoking his pipe.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "UNUSED~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58501": {
-            "name": "{WT{wh{De {cO{Bl{cd {rM{Dan{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58501,
             "raw_flags": "ABGN DFJZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "An {cO{Bl{cd {rM{Dan{x stands here ready to assist those in need.\n",
+            "name": "{WT{wh{De {cO{Bl{cd {rM{Dan{x~\n",
             "raw_flags2": "111 0 200d20+10000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga old man~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 58501 wish to register~\n",
                 "M greet 58500 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An {cO{Bl{cd {rM{Dan{x stands here ready to assist those in need.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga old man~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58502": {
-            "name": "{gAn {YA{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "30 30 30 30",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "30 30 30 30",
             "vnum": 58502,
             "raw_flags": "ABGN 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "{gAn {Ya{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge sits here, rewarding all those who kill the {DD{re{Dm{Ro{Dn L{wo{Wr{rd{Ds{g in the {CGrand Arena{g.{x\n",
+            "name": "{gAn {YA{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge{x~\n",
             "raw_flags2": "108 50 100d100+30000 0d0+0 1d20+200 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "angel_sage~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 58518 100~\n",
                 "M speech 58516 check tokens~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{gAn {Ya{yn{wg{Ce{wl{yi{Yc {GS{ya{Yg{ge sits here, rewarding all those who kill the {DD{re{Dm{Ro{Dn L{wo{Wr{rd{Ds{g in the {CGrand Arena{g.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "angel_sage~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58503": {
-            "name": "{DB{re{Dl{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -30",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "0 AB 0 0",
-            "raw_flags3": "-30 -30 -30 -30",
             "vnum": 58503,
             "raw_flags": "ABNT V CDEH 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB 0 0",
+            "room_name": "{DB{re{Dl{x, {WLord of the First{w, stands here at the ready.{x\n",
+            "name": "{DB{re{Dl{x~\n",
             "raw_flags2": "105 2000 1d50+15000 1d1+100 10d20+300 claw",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga1 Bel~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M fight 58528 80~\n",
                 "M death 58507 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DB{re{Dl{x, {WLord of the First{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga1 Bel~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58504": {
-            "name": "{WT{wh{De {cO{Bl{cd {rM{Dan{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -55 -50 -50",
             "description": [],
             "raw_flags5": "stand stand none 1000000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "-50 -55 -50 -50",
             "vnum": 58504,
             "raw_flags": "ABGNQVZa DFJZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "{xAn {cO{Bl{cd {rM{Dan{x stands here ready to assist those in need.\n",
+            "name": "{WT{wh{De {cO{Bl{cd {rM{Dan{x~\n",
             "raw_flags2": "110 200 1d20+30000 20d30+25000 200d200+200 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga old man~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M speech 58538 replenish~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{xAn {cO{Bl{cd {rM{Dan{x stands here ready to assist those in need.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga old man~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58505": {
-            "name": "{DDis{rpa{Dter, the {rIron {DDuke{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-45 -45 -45 -45",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "FK AB 0 F",
-            "raw_flags3": "-45 -45 -45 -45",
             "vnum": 58505,
             "raw_flags": "ABNT V CDEH 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "FK AB 0 F",
+            "room_name": "{DDis{rpa{Dter{w,{W Lord of the Second{w, stands here at the ready.{x\n",
+            "name": "{DDis{rpa{Dter, the {rIron {DDuke{x~\n",
             "raw_flags2": "105 2000 1d50+20000 0d0+0 10d20+750 acbite",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga2 Dispater~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58530 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DDis{rpa{Dter{w,{W Lord of the Second{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga2 Dispater~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58506": {
-            "name": "Player Death Mob~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Mob to transfer a player to the morgue to drop thier corpse and\n",
                 "fist when they die.  Then the player will be sent to thier local\n",
                 "recal.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58506,
             "raw_flags": "ABGNV 0 P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "{w({DWizi{w) Player Death Mob\n",
+            "name": "Player Death Mob~\n",
             "raw_flags2": "112 0 1d1+30000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Player Death Mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -2069,52 +2070,52 @@
                 "M act 58526 severed head plops on the ground~\n",
                 "M act 58526 splatters blood on your armor~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{w({DWizi{w) Player Death Mob\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Player Death Mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58507": {
-            "name": "{DMa{rmm{Don, the {rViscount{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -50 -50 -50",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "0 ABJLQ 0 C",
-            "raw_flags3": "-50 -50 -50 -50",
             "vnum": 58507,
             "raw_flags": "ABNT V CDEH 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABJLQ 0 C",
+            "room_name": "{DMa{rmm{Don{w, {WLord of the Third{w, stands here at the ready.{x\n",
+            "name": "{DMa{rmm{Don, the {rViscount{x~\n",
             "raw_flags2": "105 2000 1d50+25000 0d0+0 10d20+850 crush",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga3 Mammon~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58531 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DMa{rmm{Don{w, {WLord of the Third{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga3 Mammon~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58508": {
-            "name": "{wThe {YA{yv{Da{Wt{ya{Yr {wof {YK{yor{Yd{x~\n",
+            "raw_parts": "EFGIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-80 -80 -80 -100",
             "description": [
                 "{wStruck down from the heavens, what stands before you is a\n",
                 "monstrousity of a human the size of a giant.  His armor radiates in\n",
                 "the glory of Good.  {x \n"
             ],
             "raw_flags5": "stand stand male 6000000",
-            "raw_flags6": "M ABCDH giant unknown",
-            "raw_flags4": "ACDEFGHKNO ABLN 0 CDEFGKO",
-            "raw_flags3": "-80 -80 -80 -100",
             "vnum": 58508,
             "raw_flags": "ABMNQT Vac CDEHNR 1000 0",
-            "race_id": "human",
-            "raw_form": "AHV",
+            "raw_flags4": "ACDEFGHKNO ABLN 0 CDEFGKO",
+            "room_name": "{wA massive {Wg{Ri{Dan{Wt{w shaped {YG{yl{Wa{wd{Di{wa{Et{yo{Yr{w stands here in all his {Ca{Brm{Cor{w r{ya{Ydi{Wa{Yti{yn{wg pure {Yg{yl{wo{Yr{yy{w.{x\n",
+            "name": "{wThe {YA{yv{Da{Wt{ya{Yr {wof {YK{yor{Yd{x~\n",
             "raw_flags2": "115 900 2000d12000+636 2000d12000+636 60d35+400 chop",
-            "d_flags": "D ~",
+            "raw_form": "AHV",
+            "keywords": "gladiator_kord~\n",
             "subroutines": [
                 "F for AHV\n",
                 "F par EFGIJK\n",
@@ -2122,287 +2123,287 @@
                 "M speech 58580 equip!~\n",
                 "M death 58560 100~\n"
             ],
-            "t_flags": "T {wA massive {Wg{Ri{Dan{Wt {wshaped {YG{yl{Wa{wd{Di{wa{Rt{yo{Yr{x~",
-            "room_name": "{wA massive {Wg{Ri{Dan{Wt{w shaped {YG{yl{Wa{wd{Di{wa{Et{yo{Yr{w stands here in all his {Ca{Brm{Cor{w r{ya{Ydi{Wa{Yti{yn{wg pure {Yg{yl{wo{Yr{yy{w.{x\n",
-            "raw_parts": "EFGIJK",
-            "keywords": "gladiator_kord~\n"
+            "raw_flags6": "M ABCDH giant unknown",
+            "race_id": "human",
+            "t_flags": "T {wA massive {Wg{Ri{Dan{Wt {wshaped {YG{yl{Wa{wd{Di{wa{Rt{yo{Yr{x~"
         },
         "58509": {
-            "name": "{DFi{rer{Dna{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-60 -60 -60 -60",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "CEFK ABF 0 K",
-            "raw_flags3": "-60 -60 -60 -60",
             "vnum": 58509,
             "raw_flags": "ABNT Va CDEH 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "CEFK ABF 0 K",
+            "room_name": "{DFi{rer{Dna{w, {WLord of the Fourth{w, stands here at the ready.{x\n",
+            "name": "{DFi{rer{Dna{x~\n",
             "raw_flags2": "105 2000 1d50+25000 0d0+0 10d20+1200 slash",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga4 Fierna~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58532 50~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DFi{rer{Dna{w, {WLord of the Fourth{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga4 Fierna~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58510": {
-            "name": "({DWizi{x) Mob Loader and Fail Safe{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "This mob will transport the character to the advancing room should\n",
                 "the death mprog on the GA mob fail.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58510,
             "raw_flags": "ABGNV 0 P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "({DWizi{x) Mob Loader and Fail Safe{x\n",
+            "name": "({DWizi{x) Mob Loader and Fail Safe{x~\n",
             "raw_flags2": "102 0 1d1+20000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "fail safe transfer mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 58535 100~\n",
                 "M speech 58503 advance~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "({DWizi{x) Mob Loader and Fail Safe{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "fail safe transfer mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58511": {
-            "name": "{DPrince Lev{ris{Dtus{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-65 -65 -65 -65",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "0 AB 0 0",
-            "raw_flags3": "-65 -65 -65 -65",
             "vnum": 58511,
             "raw_flags": "ABNT Va CDEH 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB 0 0",
+            "room_name": "{DLev{ris{Dtus{w, {WLord of the Fifth{w, stands here at the ready.{x\n",
+            "name": "{DPrince Lev{ris{Dtus{x~\n",
             "raw_flags2": "105 2000 50d200+30000 0d0+0 1d50+2000 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga5 Levistus~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58533 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DLev{ris{Dtus{w, {WLord of the Fifth{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga5 Levistus~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58512": {
-            "name": "Summon mob Blocker~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58512,
             "raw_flags": "ABGV 0 P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "{w({DWizi{w) Summon Blocker Mob{x\n",
+            "name": "Summon mob Blocker~\n",
             "raw_flags2": "102 0 1d1+10000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga summon mob blocker~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M act 58512 arrives suddenly~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{w({DWizi{w) Summon Blocker Mob{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga summon mob blocker~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58513": {
-            "name": "{DThe Archduchess Gl{ras{Dya{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-70 -70 -70 -70",
             "description": [],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "0 AB H 0",
-            "raw_flags3": "-70 -70 -70 -70",
             "vnum": 58513,
             "raw_flags": "ABNR Va CDEH 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB H 0",
+            "room_name": "{DGl{ras{Dya{w, {WLord of the Sixth{w, stands here at the ready.{x\n",
+            "name": "{DThe Archduchess Gl{ras{Dya{x~\n",
             "raw_flags2": "115 2000 100d200+30000 1d20+10000 10d20+2000 pound",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga6 glasya~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58585 70~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DGl{ras{Dya{w, {WLord of the Sixth{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga6 glasya~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58514": {
-            "name": "{DThe A{Wva{rt{War {Dof {rBane{X~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 58514,
             "raw_flags": "AN 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "{DThe A{Wva{rt{War {Dof {rBane{X\n",
+            "name": "{DThe A{Wva{rt{War {Dof {rBane{X~\n",
             "raw_flags2": "105 400 100d100+10000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "avatar_bane_GLAD~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M random 58568 99~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DThe A{Wva{rt{War {Dof {rBane{X\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "avatar_bane_GLAD~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58515": {
-            "name": "{DBaal{rz{Debul{D, the Slug Archduke{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-75 -75 -75 -75",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "D 0 medium unknown",
-            "raw_flags4": "0 AB IJ H",
-            "raw_flags3": "-75 -75 -75 -75",
             "vnum": 58515,
             "raw_flags": "ABNT Vc CDEHR 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB IJ H",
+            "room_name": "{DBaal{rz{Debul{w,{W Lord of the Seventh{w, stands here at the ready.{x\n",
+            "name": "{DBaal{rz{Debul{D, the Slug Archduke{x~\n",
             "raw_flags2": "115 2000 150d200+30000 1d50+10000 10d20+3000 drain",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga7 Baalzebul~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58584 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DBaal{rz{Debul{w,{W Lord of the Seventh{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga7 Baalzebul~\n"
+            "raw_flags6": "D 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58516": {
-            "name": "UNUSED~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-50 -50 -50 -50",
             "description": [],
             "raw_flags5": "stand stand none 1000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "-50 -50 -50 -50",
             "vnum": 58516,
             "raw_flags": "ABGN DFJZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "An {cO{Bl{cd {rM{Dan{X stands here ready to assist those in need.\n",
+            "name": "UNUSED~\n",
             "raw_flags2": "110 200 1d30+30000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "UNUSED~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An {cO{Bl{cd {rM{Dan{X stands here ready to assist those in need.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "UNUSED~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58517": {
-            "name": "{DMephis{rto{Dpheles{W, Archduke of Cania{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-70 -70 -70 -70",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "V 0 medium unknown",
-            "raw_flags4": "CDFGHK ABE 0 JKO",
-            "raw_flags3": "-70 -70 -70 -70",
             "vnum": 58517,
             "raw_flags": "ABNRT TVa BCDEHNR 0 0",
-            "race_id": "human",
-            "raw_form": "AHM",
+            "raw_flags4": "CDFGHK ABE 0 JKO",
+            "room_name": "{DMephis{rto{Dpheles{w,{W Lord of the Eighth{w, stands here at the ready.{x\n",
+            "name": "{DMephis{rto{Dpheles{W, Archduke of Cania{x~\n",
             "raw_flags2": "120 3000 200d200+30000 1d20+10000 20d30+0 magic",
-            "d_flags": "D ~",
+            "raw_form": "AHM",
+            "keywords": "ga8 Mephistopheles~\n",
             "subroutines": [
                 "F for AHM\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58583 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DMephis{rto{Dpheles{w,{W Lord of the Eighth{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga8 Mephistopheles~\n"
+            "raw_flags6": "V 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58519": {
-            "name": "{DAsm{rod{Deus{W, King of the Nine Hells{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-75 -75 -75 -75",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 small unknown",
-            "raw_flags4": "0 AB 0 CKO",
-            "raw_flags3": "-75 -75 -75 -75",
             "vnum": 58519,
             "raw_flags": "ABGNRT Vac CDEHOR 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB 0 CKO",
+            "room_name": "{DAsm{rod{Deus{W, Lord of the Ninth{w, stands here at the ready.{x\n",
+            "name": "{DAsm{rod{Deus{W, King of the Nine Hells{x~\n",
             "raw_flags2": "120 3000 250d200+30000 1d50+10000 30d30+0 beating",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "ga9 asmodeus~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M death 58507 100~\n",
                 "M fight 58582 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{DAsm{rod{Deus{W, Lord of the Ninth{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "ga9 asmodeus~\n"
+            "raw_flags6": "0 0 small unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58521": {
-            "name": "{DMal{rki{Dzid{W, the Branded King{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-110 -110 -110 -110",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 large unknown",
-            "raw_flags4": "0 AB G CIKO",
-            "raw_flags3": "-110 -110 -110 -110",
             "vnum": 58521,
             "raw_flags": "ABGNPQRT Va CDEHR -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB G CIKO",
+            "room_name": "{DMal{rki{Dzid{W, King of Hell{w, stands here at the ready.{x\n",
+            "name": "{DMal{rki{Dzid{W, the Branded King{x~\n",
             "raw_flags2": "125 4000 300d200+30000 1d10+17000 80d30+200 sting",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "gax malkizid~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M fight 58581 80~\n",
                 "M death 58525 100~\n"
             ],
-            "t_flags": "T {x~",
-            "room_name": "{DMal{rki{Dzid{W, King of Hell{w, stands here at the ready.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "gax malkizid~\n"
+            "raw_flags6": "0 0 large unknown",
+            "race_id": "human",
+            "t_flags": "T {x~"
         },
         "58500": {
-            "name": "Kremlin~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 AB 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58500,
             "raw_flags": "ABNV DF P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 AB 0 0",
+            "room_name": "{w({WWizi{w) Kremlin is here, running the GA.\n",
+            "name": "Kremlin~\n",
             "raw_flags2": "106 0 5d20+10000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "kremlin~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -2414,34 +2415,33 @@
                 "M speech 58514 restart the ga~\n",
                 "M speech 58504 close the ga~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{w({WWizi{w) Kremlin is here, running the GA.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "kremlin~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "58599": {
-            "name": "{DThe {rPo{Rw{rer {Dof {WB{Dane{X~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 58599,
             "raw_flags": "AN 0 P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDa 0 0",
+            "room_name": "(Wizi) Avatar of Bane is here, providing the echos.\n",
+            "name": "{DThe {rPo{Rw{rer {Dof {WB{Dane{X~\n",
             "raw_flags2": "126 0 1d100+1000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "avatar_bane~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M random 58563 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "(Wizi) Avatar of Bane is here, providing the echos.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "avatar_bane~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 1
+    "area_quest_points": 0
 }

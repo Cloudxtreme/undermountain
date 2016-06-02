@@ -1,55 +1,98 @@
 {
-    "name": "Mob Factory",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "mobfact",
-    "subroutines": [],
+    "objects": {},
+    "uid": "mobfact",
     "rooms": {
-        "9406": {
-            "name": "Mob Factory Storage Area",
-            "description": [
-                "This is where the raw materials from which mobs are manufactured are",
-                "stored. You see sacks of sawdust, cans of pink paint, a large box",
-                "containing wigs and a bottle mysteriously labelled \"solution X\". Exits",
-                "are more of storage to the west and north, an inspection room to the",
-                "east and the entrance hallway to the south."
-            ],
+        "9416": {
+            "extras": {},
             "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "9406",
+            "description": [
+                "This is the primary assembly line of the mob factory. Here, all the",
+                "mobs seen roaming around the city of Westbridge are manufactured from",
+                "raw materials. There is a big conveyor belt present which makes a lot",
+                "of noise! It seems that the workers are making drunks today. Exits are",
+                "east to the secondary assembly line, north and south to the primary",
+                "assembly line and west to the inspection room."
+            ],
+            "name": "Primary Assembly Line",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9407"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9415",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9405"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9401"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9421",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9411"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9411",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9417",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9416"
+        },
+        "9401": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is where the raw materials from which mobs are manufactured are",
+                "stored. You see sacks of sawdust, cans of pink paint, a large box",
+                "containing wigs and a bottle mysteriously labelled \"solution x\". Exits",
+                "are more of storage to the east and north, and entrance to the mob",
+                "factory to the south."
+            ],
+            "name": "Mob Factory Storage Area",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9402",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9406",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9400",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9401"
         },
         "9415": {
-            "name": "Primary Assembly Line",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is the primary assembly line of the mob factory. Here, all the",
                 "mobs seen roaming around the city of Westbridge are manufactured from",
@@ -58,107 +101,68 @@
                 "east to the secondary assembly line, south to the primary assembly",
                 "line and west to the inspection room."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9415",
+            "name": "Primary Assembly Line",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9416"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9410"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9420",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9420"
-                }
-            },
-            "extras": {}
-        },
-        "9421": {
-            "name": "Secondary Assembly Line",
-            "description": [
-                "This is the secondary asembly line of the mob factory. You are",
-                "surprised to see cityguard heads come floating on the conveyor belt!",
-                "The very sight is sickening, but the workers seem to be quite",
-                "cheerful about their work. Exits are north and south to the secondary",
-                "assembly line and west to the primary assembly line."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9421",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9420"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "9410",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9416"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "9416",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9422"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9408": {
-            "name": "Mob Factory Cafeteria",
-            "description": [
-                "You find that you have entered the cafeteria of the mob factory. There",
-                "are many workers eating at the numerous tables placed around the room.",
-                "The food doesn't look too appetising, but the factory workers don't",
-                "seem to care. There are many places where food and drink have been",
-                "spilled on the ground. Exits are north to the entrance hallway and",
-                "south to the mob factory cafeteria."
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
+            "vnum": "9415"
+        },
+        "9413": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
             "flags2_raw": "0",
-            "vnum": "9408",
+            "description": [
+                "This is the factory reject room. All the mobs that are manufactured",
+                "incorrectly or have some defect are placed here before subsequent",
+                "destruction. You shudder at the many deformed and grotesque shapes",
+                "present before you. Exits are south to the reject room and north to",
+                "the entrance hallway."
+            ],
+            "name": "Mob Factory Reject Room",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9412",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9407"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "9414",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9409"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9413"
         },
         "9412": {
-            "name": "Entrance Hallway to Mob Factory",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are standing in the entrance hallway of the mob factory. The sound",
                 "of machinery gets louder now, and you can hear people shouting in the",
@@ -167,278 +171,44 @@
                 "east to the primary assembly line, south to the reject room and west",
                 "to the entrance hallway."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9412",
+            "name": "Entrance Hallway to Mob Factory",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9413"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9411",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9411"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9417",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "9407",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9407"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9417"
-                }
-            },
-            "extras": {}
-        },
-        "9418": {
-            "name": "Primary Assembly Line",
-            "description": [
-                "This is the primary assembly line of the mob factory. Here, all the",
-                "mobs seen roaming around the city of Westbridge are manufactured from",
-                "raw materials. There is a big conveyor belt present which makes a lot",
-                "of noise! It seems that the workers are making drunks today. Exits are",
-                "east to the secondary assembly line, north and south to the primary",
-                "assembly line."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9418",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9419"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9417"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9423"
-                }
-            },
-            "extras": {}
-        },
-        "9409": {
-            "name": "Mob Factory Cafeteria",
-            "description": [
-                "You find that you have entered the cafeteria of the mob factory. There",
-                "are many workers eating at the numerous tables placed around the room.",
-                "The food doesn't look too appetising, but the factory workers don't",
-                "seem to care. There are many places where food and drink have been",
-                "spilled on the ground. The only exit is north to the mob factory",
-                "cafeteria."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9409",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9408"
-                }
-            },
-            "extras": {}
-        },
-        "9401": {
-            "name": "Mob Factory Storage Area",
-            "description": [
-                "This is where the raw materials from which mobs are manufactured are",
-                "stored. You see sacks of sawdust, cans of pink paint, a large box",
-                "containing wigs and a bottle mysteriously labelled \"solution x\". Exits",
-                "are more of storage to the east and north, and entrance to the mob",
-                "factory to the south."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9401",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9400"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9402"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9406"
-                }
-            },
-            "extras": {}
-        },
-        "9419": {
-            "name": "Primary Assembly Line",
-            "description": [
-                "This is the primary assembly line of the mob factory. Here, all the",
-                "mobs seen roaming around the city of Westbridge are manufactured from",
-                "raw materials. There is a big conveyor belt present which makes a lot",
-                "of noise! It seems that the workers are making drunks today. Exits are",
-                "east to the secondary assembly line and north to the primary",
-                "assembly line."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9419",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9418"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9424"
-                }
-            },
-            "extras": {}
-        },
-        "9423": {
-            "name": "Secondary Assembly Line",
-            "description": [
-                "This is the secondary asembly line of the mob factory. You are",
-                "surprised to see cityguard heads come floating on the conveyor belt!",
-                "The very sight is sickening, but the workers seem to be quite",
-                "cheerful about their work. Exits are north and south to the secondary",
-                "assembly line and west to the primary assembly line."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9423",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9422"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9418"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "9413",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9424"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9422": {
-            "name": "Secondary Assembly Line",
-            "description": [
-                "This is the secondary asembly line of the mob factory. You are",
-                "surprised to see cityguard heads come floating on the conveyor belt!",
-                "The very sight is sickening, but the workers seem to be quite",
-                "cheerful about their work. Exits are north and south to the secondary",
-                "assembly line and west to the primary assembly line."
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9422",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9421"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9417"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9423"
-                }
-            },
-            "extras": {}
-        },
-        "9404": {
-            "name": "Foreman's Bathroom",
-            "description": [
-                "This is the place where the foreman makes frequent visits. The smell",
-                "here is very strong and reminds you of bovine excrement! There is a",
-                "shower to the back, and a urinal to the left. On the floor you can",
-                "see stains of a very suspicious nature. The only exit leads north to",
-                "the foreman's office."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9404",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9403"
-                }
-            },
-            "extras": {}
+            "vnum": "9412"
         },
         "9411": {
-            "name": "Mob Factory Inspection Room",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You have entered the mob factory inspections room. This is where the",
                 "mobs manufactured on the assembly lines are inspected for defects. A",
@@ -447,44 +217,67 @@
                 "factory inspection room, east to the primary assembly line and west to",
                 "the storage area."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9411",
+            "name": "Mob Factory Inspection Room",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9412"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9410",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9410"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9406"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9416",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9416"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9406",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9412",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9411"
+        },
+        "9414": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the factory reject room. All the mobs that are manufactured",
+                "incorrectly or have some defect are placed here before subsequent",
+                "destruction. You shudder at the many deformed and grotesque shapes",
+                "present before you. The only exit is north to the reject room."
+            ],
+            "name": "Mob Factory Reject Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9413",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9414"
         },
         "9407": {
-            "name": "Entrance Hallway to Mob Factory",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are standing in the entrance hallway of the mob factory. The sound",
                 "of machinery gets louder now, and you can hear people shouting in the",
@@ -493,282 +286,74 @@
                 "to the entrance hallway, south to the cafeteria and west to the mob",
                 "factory entrance."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9407",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9408"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9406"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9400"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9412"
-                }
-            },
-            "extras": {}
-        },
-        "9403": {
-            "name": "Foreman's Office",
-            "description": [
-                "This is the office of the mob factory foreman. The room is sparsely",
-                "furnished with a metal desk, a couple of chairs, a shelf with helmets",
-                "of various sizes and a Sports Illustrated Swimsuit calendar on the west",
-                "wall. Exits lead north to the mob factory entrance and south to the",
-                "foreman's bathroom."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9403",
+            "name": "Entrance Hallway to Mob Factory",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9406",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9400"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9404"
-                }
-            },
-            "extras": {}
-        },
-        "9417": {
-            "name": "Primary Assembly Line",
-            "description": [
-                "This is the primary assembly line of the mob factory. Here, all the",
-                "mobs seen roaming around the city of Westbridge are manufactured from",
-                "raw materials. There is a big conveyor belt present which makes a lot",
-                "of noise! It seems that the workers are making drunks today. Exits are",
-                "east to the secondary assembly line, north and south to the primary",
-                "assembly line and west to the entrance hallway."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9417",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9418"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9416"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9412"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9412",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9422"
-                }
-            },
-            "extras": {}
-        },
-        "9410": {
-            "name": "Mob Factory Inspection Room",
-            "description": [
-                "You have entered the mob factory inspections room. This is where the",
-                "mobs manufactured on the assembly lines are inspected for defects. A",
-                "whole team of inspectors from the Westbridge Inspections Bureau is",
-                "standing around, trying to look busy. Exits are south to the mob",
-                "factory inspection room, east to the primary assembly line and west to",
-                "the storage area."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9410",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9411"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "9400",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9405"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9415"
-                }
-            },
-            "extras": {}
-        },
-        "9413": {
-            "name": "Mob Factory Reject Room",
-            "description": [
-                "This is the factory reject room. All the mobs that are manufactured",
-                "incorrectly or have some defect are placed here before subsequent",
-                "destruction. You shudder at the many deformed and grotesque shapes",
-                "present before you. Exits are south to the reject room and north to",
-                "the entrance hallway."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9413",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9412"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "9408",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9414"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "9405": {
-            "name": "Mob Factory Storage Area",
-            "description": [
-                "This is where the raw materials from which mobs are manufactured are",
-                "stored. You see sacks of sawdust, cans of pink paint, a large box",
-                "containing wigs and a bottle mysteriously labelled \"solution X\". Exits",
-                "are more of storage to the west and south, and an inspection room to",
-                "the east."
-            ],
-            "flags_raw": "0 8 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9405",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9406"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9402"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9410"
-                }
-            },
-            "extras": {}
+            "vnum": "9407"
         },
         "9402": {
-            "name": "Mob Factory Storage Area",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is where the raw materials from which mobs are manufactured are",
                 "stored. You see sacks of sawdust, cans of pink paint, a large box",
                 "containing wigs and a bottle mysteriously labelled \"solution X\". Exits",
                 "are more of storage to the east and south."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9402",
+            "name": "Mob Factory Storage Area",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9401"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9405",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9405"
-                }
-            },
-            "extras": {}
-        },
-        "9414": {
-            "name": "Mob Factory Reject Room",
-            "description": [
-                "This is the factory reject room. All the mobs that are manufactured",
-                "incorrectly or have some defect are placed here before subsequent",
-                "destruction. You shudder at the many deformed and grotesque shapes",
-                "present before you. The only exit is north to the reject room."
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9414",
-            "exits": {
-                "north": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "9401",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9413"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9402"
         },
         "9400": {
-            "name": "Entrance to the Mob Factory",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You find that you have entered a strange factory.  This factory",
                 "doesn't make cars or computers or something - it makes mobs!  (see",
@@ -778,90 +363,509 @@
                 "to the east the entrance hallway, and to the west the familiar paving",
                 "of wall road.  "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9400",
+            "name": "Entrance to the Mob Factory",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9403"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9401",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9401"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3047"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9407",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9407"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "3047",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9403",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9400"
         },
-        "9416": {
+        "9403": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the office of the mob factory foreman. The room is sparsely",
+                "furnished with a metal desk, a couple of chairs, a shelf with helmets",
+                "of various sizes and a Sports Illustrated Swimsuit calendar on the west",
+                "wall. Exits lead north to the mob factory entrance and south to the",
+                "foreman's bathroom."
+            ],
+            "name": "Foreman's Office",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9400",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9404",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9403"
+        },
+        "9410": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered the mob factory inspections room. This is where the",
+                "mobs manufactured on the assembly lines are inspected for defects. A",
+                "whole team of inspectors from the Westbridge Inspections Bureau is",
+                "standing around, trying to look busy. Exits are south to the mob",
+                "factory inspection room, east to the primary assembly line and west to",
+                "the storage area."
+            ],
+            "name": "Mob Factory Inspection Room",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9415",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9405",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9411",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9410"
+        },
+        "9421": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the secondary asembly line of the mob factory. You are",
+                "surprised to see cityguard heads come floating on the conveyor belt!",
+                "The very sight is sickening, but the workers seem to be quite",
+                "cheerful about their work. Exits are north and south to the secondary",
+                "assembly line and west to the primary assembly line."
+            ],
+            "name": "Secondary Assembly Line",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9420",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9416",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9422",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9421"
+        },
+        "9406": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is where the raw materials from which mobs are manufactured are",
+                "stored. You see sacks of sawdust, cans of pink paint, a large box",
+                "containing wigs and a bottle mysteriously labelled \"solution X\". Exits",
+                "are more of storage to the west and north, an inspection room to the",
+                "east and the entrance hallway to the south."
+            ],
+            "name": "Mob Factory Storage Area",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9405",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9411",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9401",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9407",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9406"
+        },
+        "9419": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the primary assembly line of the mob factory. Here, all the",
+                "mobs seen roaming around the city of Westbridge are manufactured from",
+                "raw materials. There is a big conveyor belt present which makes a lot",
+                "of noise! It seems that the workers are making drunks today. Exits are",
+                "east to the secondary assembly line and north to the primary",
+                "assembly line."
+            ],
             "name": "Primary Assembly Line",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9418",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9424",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9419"
+        },
+        "9404": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the place where the foreman makes frequent visits. The smell",
+                "here is very strong and reminds you of bovine excrement! There is a",
+                "shower to the back, and a urinal to the left. On the floor you can",
+                "see stains of a very suspicious nature. The only exit leads north to",
+                "the foreman's office."
+            ],
+            "name": "Foreman's Bathroom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9403",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9404"
+        },
+        "9417": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is the primary assembly line of the mob factory. Here, all the",
                 "mobs seen roaming around the city of Westbridge are manufactured from",
                 "raw materials. There is a big conveyor belt present which makes a lot",
                 "of noise! It seems that the workers are making drunks today. Exits are",
                 "east to the secondary assembly line, north and south to the primary",
-                "assembly line and west to the inspection room."
+                "assembly line and west to the entrance hallway."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9416",
+            "name": "Primary Assembly Line",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9417"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "9416",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9415"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9411"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "9422",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9421"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9412",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9418",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9417"
+        },
+        "9405": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is where the raw materials from which mobs are manufactured are",
+                "stored. You see sacks of sawdust, cans of pink paint, a large box",
+                "containing wigs and a bottle mysteriously labelled \"solution X\". Exits",
+                "are more of storage to the west and south, and an inspection room to",
+                "the east."
+            ],
+            "name": "Mob Factory Storage Area",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9410",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9402",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9406",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9405"
+        },
+        "9408": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You find that you have entered the cafeteria of the mob factory. There",
+                "are many workers eating at the numerous tables placed around the room.",
+                "The food doesn't look too appetising, but the factory workers don't",
+                "seem to care. There are many places where food and drink have been",
+                "spilled on the ground. Exits are north to the entrance hallway and",
+                "south to the mob factory cafeteria."
+            ],
+            "name": "Mob Factory Cafeteria",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9407",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9409",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9408"
+        },
+        "9423": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the secondary asembly line of the mob factory. You are",
+                "surprised to see cityguard heads come floating on the conveyor belt!",
+                "The very sight is sickening, but the workers seem to be quite",
+                "cheerful about their work. Exits are north and south to the secondary",
+                "assembly line and west to the primary assembly line."
+            ],
+            "name": "Secondary Assembly Line",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9422",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9418",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9424",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9423"
+        },
+        "9418": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the primary assembly line of the mob factory. Here, all the",
+                "mobs seen roaming around the city of Westbridge are manufactured from",
+                "raw materials. There is a big conveyor belt present which makes a lot",
+                "of noise! It seems that the workers are making drunks today. Exits are",
+                "east to the secondary assembly line, north and south to the primary",
+                "assembly line."
+            ],
+            "name": "Primary Assembly Line",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9417",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "9423",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9419",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9418"
+        },
+        "9422": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is the secondary asembly line of the mob factory. You are",
+                "surprised to see cityguard heads come floating on the conveyor belt!",
+                "The very sight is sickening, but the workers seem to be quite",
+                "cheerful about their work. Exits are north and south to the secondary",
+                "assembly line and west to the primary assembly line."
+            ],
+            "name": "Secondary Assembly Line",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9421",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "9417",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9423",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9422"
+        },
+        "9409": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You find that you have entered the cafeteria of the mob factory. There",
+                "are many workers eating at the numerous tables placed around the room.",
+                "The food doesn't look too appetising, but the factory workers don't",
+                "seem to care. There are many places where food and drink have been",
+                "spilled on the ground. The only exit is north to the mob factory",
+                "cafeteria."
+            ],
+            "name": "Mob Factory Cafeteria",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "9408",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "9409"
         },
         "9420": {
-            "name": "Secondary Assembly Line",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This is the secondary asembly line of the mob factory. You are",
                 "surprised to see cityguard heads come floating on the conveyor belt!",
@@ -869,183 +873,179 @@
                 "cheerful about their work. Exits are south to the secondary assembly",
                 "line and west to the primary assembly line."
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "9420",
+            "name": "Secondary Assembly Line",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "9415",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9415"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "9421",
                     "description": [
                         ""
-                    ],
-                    "room_id": "9421"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "9420"
         }
     },
-    "uid": "mobfact",
-    "area_quest_points": 0,
     "credits": "[09 GR 30] Mob Factory",
     "faction_id": "",
+    "name": "Mob Factory",
     "vnums": [
         9400,
         9499
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "9401": {
-            "name": "The mutant beastly fido~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 9",
             "description": [
                 "You see a mutant beastly fido, glaring at you with green eyes!  You wonder if\n",
                 "this factory meets ASPCA guidlines....\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "ABGV ACDEFHJKQV medium 0",
-            "raw_flags4": "EFNR 0 0 C",
-            "raw_flags3": "4 4 4 9",
             "vnum": 9401,
             "raw_flags": "AFGH D 0 -700 0",
-            "race_id": "fido",
-            "raw_flags2": "12 0 2d7+71 3d9+100 1d7+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 0 C",
             "room_name": "The mutant beastly fido is here, his eyes glowing green!\n",
-            "keywords": "oldstyle fido mutant dog~\n"
+            "name": "The mutant beastly fido~\n",
+            "raw_flags2": "12 0 2d7+71 3d9+100 1d7+1 none",
+            "keywords": "oldstyle fido mutant dog~\n",
+            "subroutines": [],
+            "raw_flags6": "ABGV ACDEFHJKQV medium 0",
+            "race_id": "fido",
+            "t_flags": "T ~"
         },
         "9402": {
-            "name": "Foreman Floyd~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "You see Foreman Floyd of the Mob factory -- a sterling example of what comes\n",
                 "of dedicated Mudding!  Rewarded for his years of dedication as a monster\n",
                 "slayer, Floyd now creates the beasts for other adventurers to fight.\n"
             ],
             "raw_flags5": "sit stand male 50",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 9402,
             "raw_flags": "ABG DF H 2 0",
-            "race_id": "human",
-            "raw_flags2": "24 0 2d10+150 6d9+100 1d10+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "Foreman Floyd is here, making plans for the factory's future.\n",
-            "keywords": "oldstyle foreman floyd~\n"
+            "name": "Foreman Floyd~\n",
+            "raw_flags2": "24 0 2d10+150 6d9+100 1d10+3 none",
+            "keywords": "oldstyle foreman floyd~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9403": {
-            "name": "The Cityguard head~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 8",
             "description": [
                 "You see a Cityguard head floating around without a care in the world.\n",
                 "Obviously, this one got past quality control!  Careful, those teeth look\n",
                 "sharp...\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHV AEJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "2 2 2 8",
             "vnum": 9403,
             "raw_flags": "AG T 0 0 0",
-            "race_id": "unique",
-            "raw_flags2": "18 0 2d6+110 4d9+100 1d8+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Cityguard head floats around aimlessly.\n",
-            "keywords": "oldstyle cityguard guard head~\n"
+            "name": "The Cityguard head~\n",
+            "raw_flags2": "18 0 2d6+110 4d9+100 1d8+2 none",
+            "keywords": "oldstyle cityguard guard head~\n",
+            "subroutines": [],
+            "raw_flags6": "AHV AEJK medium 0",
+            "race_id": "unique",
+            "t_flags": "T ~"
         },
         "9404": {
-            "name": "The revolving drunk~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "You see and smell a drunk who looks much like other drunks...but he is spinning\n",
                 "in place!  Someone should tell him that he is a REVOLTING drunk.\n"
             ],
             "raw_flags5": "stand stand male 2",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 9404,
             "raw_flags": "ACGH 0 0 1 0",
-            "race_id": "human",
-            "raw_flags2": "3 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Revolving drunk is here, spinning in place.\n",
-            "keywords": "oldstyle revolving drunk~\n"
+            "name": "The revolving drunk~\n",
+            "raw_flags2": "3 0 2d7+21 1d9+100 1d5+0 none",
+            "keywords": "oldstyle revolving drunk~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9405": {
-            "name": "The toxic slime~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "Yick.  Looks like someone had digestion problems!  Either that, or the \n",
                 "hydraulic fluid is leaking again.\n"
             ],
             "raw_flags5": "sit sit none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 9405,
             "raw_flags": "ABC 0 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A pool of toxic slime lies on  the floor.\n",
-            "keywords": "oldstyle toxic slime~\n"
+            "name": "The toxic slime~\n",
+            "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle toxic slime~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9406": {
-            "name": "The factory worker~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "The worker wears a bright orange pair of overalls, with the words \"Mob\n",
                 "Factory\" written in a bright purple starburst.  Fashion plate, he's not.\n"
             ],
             "raw_flags5": "stand stand male 2",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 9406,
             "raw_flags": "AGH 0 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Mob Factory worker is standing here, looking bored.\n",
-            "keywords": "oldstyle worker~\n"
+            "name": "The factory worker~\n",
+            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle worker~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "9407": {
-            "name": "The factory worker~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "If Floyd walks in, you can bet there'll be trouble.  Guess she shouldn't have\n",
                 "worked the late shift!\n"
             ],
             "raw_flags5": "sleep sit female 3",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 9407,
             "raw_flags": "ABH 0 0 150 0",
-            "race_id": "human",
-            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Mob Factory worker is here, asleep in a chair.\n",
-            "keywords": "oldstyle worker~\n"
+            "name": "The factory worker~\n",
+            "raw_flags2": "5 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle worker~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

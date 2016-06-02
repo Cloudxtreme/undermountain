@@ -1,314 +1,107 @@
 {
-    "name": "MoogleTown",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "moogle",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "moogle",
     "rooms": {
-        "127": {
-            "name": "Along a Forgotten Trail",
-            "description": [
-                "You are on a dark and gloomy trail.  The trail seems to have had very",
-                "little use, for it is overgrown with weeds and shows no signs of any",
-                "footprints.  The surrounding woods can only be seen in about a 5' radius",
-                "where it then becomes too dark and thickly grown in by shrubs and trees. ",
-                "Just when you thought the trail did not continue, you notice a small",
-                "{3wooden{0 door to the west covered with vines and overgrown weeds.  "
-            ],
-            "flags_raw": "0 4 0 1",
-            "wanted_area_vnum": "",
+        "104": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
             "flags2_raw": "0",
-            "vnum": "127",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "125"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Path to Gargamel's Castle",
-                        ""
-                    ],
-                    "room_id": "126"
-                }
-            },
-            "extras": {}
-        },
-        "115": {
-            "name": "In a Cave Tunnel",
             "description": [
-                "You have now left the small town of Moogles behind you and are traveling",
-                "inside an old cave which seems to get very little use.  The gravel on the",
-                "ground looks like it has been untouched by anyone for a long time.  Not to",
-                "mention the numerous {7cob{8webs{0 that cover the passageway here as well.  "
+                "You stand at the entrance to a tiny underground village of ...  White",
+                "animals?  You can basically see across the whole village from here.  Little",
+                "white creatures with floppy ears and red noses and little curly tails wiggle",
+                "about.  They dance continuously.  "
             ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "115",
+            "name": "Entrance to MoogleTown",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
-                    "description": [
-                        "Path to Gargamel's Castle",
-                        ""
-                    ],
-                    "room_id": "126"
-                },
-                "east": {
-                    "flags_raw": "-1",
+                    "room_id": "105",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "114"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "130",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "114": {
-            "name": "Main Moogle Road",
-            "description": [
-                "Yet another part of the Moogle Main Road.  East leads back to the main",
-                "road, while west takes you into an Underground tunnel.  "
-            ],
-            "flags_raw": "0 0 0 1",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "114",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "115"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "109"
-                }
-            },
-            "extras": {}
+            "vnum": "104"
         },
         "116": {
-            "name": "Kupo Nut Grove",
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
             "description": [
                 "Delicious {7K{3u{7po {3Nuts{0 grow here.  You could probably eat a year's",
                 "worth of {7K{3u{7po {3nuts{0 in one sitting.  The main road is back to the",
                 "west and the {@grove{0 continues north.  "
             ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "116",
+            "name": "Kupo Nut Grove",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "117",
                     "description": [
                         "Smurfberry Patch",
                         ""
-                    ],
-                    "room_id": "117"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "107",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "107"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "133": {
-            "name": "Moogle's Cubby Hole",
-            "description": [
-                "What a silly moogle...  There's nothing here!  Why was it so protective",
-                "over its cubby hole?  All you see is dust and some old wrappers from food. ",
-                "Sheesh, moogles can be complicated.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "133",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "123"
-                }
-            },
-            "extras": {}
+            "vnum": "116"
         },
-        "118": {
-            "name": "Kupo Nut Grove",
-            "description": [
-                "The northernmost of the {7K{3u{7po {3nut{0 trees grows here.  It looks as",
-                "scrumptious as all the rest.  Just take a few; they'll never know.  The main",
-                "road is to the west and the {7K{3u{7po {3nut {@grove{0 is the south.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "118",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "109"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfberry Patch",
-                        ""
-                    ],
-                    "room_id": "117"
-                }
-            },
-            "extras": {}
-        },
-        "106": {
-            "name": "Main Moogle Road",
-            "description": [
-                "You have come to a crossroads at the center of Moogletown.  Unfortunately",
-                "for you, the music is at its {@LOUDEST{0 here.  Alas though, the music comes",
-                "from no direct source.  It swells around you.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "106",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "105"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "107"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "112"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Home",
-                        ""
-                    ],
-                    "room_id": "120"
-                }
-            },
-            "extras": {}
-        },
-        "131": {
-            "name": "Kupo Nut Grove",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "131",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "132"
-                }
-            },
-            "extras": {}
-        },
-        "144": {
-            "name": "End of the Cherry Park Path",
-            "description": [
-                "Here a deep {cs{Ct{Wr{We{Ca{cm{x flows in from the east and continues on to the",
-                "west.  A small arching {*s{gt{yo{gn{*e {*b{gr{yi{yd{gg{*e{x allows you passage over the",
-                "{cs{Ct{Wre{Ca{cm{x.  On the other side the ground is covered in the {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x from",
-                "the surrounding {rcherry{x trees.  The {%f{Ci{We{Cl{%d{x of {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x comes to a sudden",
-                "halt to the south as if by some {Bm{ya{Bg{yi{Bc{ya{Bl{x force.  "
-            ],
+        "141": {
+            "extras": {},
             "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "144",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "137"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "143"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "145"
-                }
-            },
-            "extras": {}
-        },
-        "129": {
-            "name": "Smurfette's House",
             "description": [
-                "This house is conveniently next to Papa Smurfs.  Makes it easier for Papa",
-                "Smurf to sneak over at night.  I hope he uses protection.  I would hate to",
-                "have little smurfs running around.  The only exit is to the east."
+                "A {%b{Wl{%o{Ws{%s{Wo{%m{Wi{%n{Wg {rcherry {xtree stands here seemingly shorter than the",
+                "rest.  A small {yg{*i{yr{*l{x leans against it's {yt{gr{yu{gn{yk{x sleeping {Bp{We{Ba{Wc{Be{Wf{Bu{Wl{Bl{Wy{x... ",
+                "To the south you hear the faint {*s{6o{*u{6n{*d{x of {Rl{Ya{Ru{Yg{Rh{Yt{Re{Yr{x and even more faint",
+                "the sound of running {Cw{Ba{Wt{Be{Cr...  "
             ],
-            "flags_raw": "0 4 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "129",
+            "name": "Fields of the Cherry Blossoms",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "140",
                     "description": [
                         ""
-                    ],
-                    "room_id": "125"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "142",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "141"
         },
         "135": {
-            "name": "Deneir's Office Entrance",
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [
                 "A set of wooden stairs to the north marks the entrance to Deneir's",
                 "Office.  The office is perched on two foot high posts set on rock",
@@ -318,465 +111,40 @@
                 "several pairs have been left.  It seems like the appropriate custom is",
                 "to leave one's shoes here.  "
             ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "135",
+            "name": "Deneir's Office Entrance",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "134",
                     "description": [
                         ""
-                    ],
-                    "room_id": "134"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "136",
                     "description": [
                         ""
-                    ],
-                    "room_id": "136"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "142": {
-            "name": "Fields of the Cherry Blossoms",
-            "description": [
-                "You have reached a large {yc{gl{*e{ga{yr{gi{*n{gg{x.  A {ybrown{x basket lies here on the",
-                "ground as well as a few {cc{Yr{cu{Ym{cb{Ys{x scattered here and there.  {BS{Wo{Ym{We{Bo{Wn{Ye{x must",
-                "have just left the area.  This open {*s{Yp{*a{Yc{*e{x is meant for {yp{Yi{gc{*n{gi{Yc{ys{x and",
-                "{Br{We{Bl{Wa{Bx{Wa{Bt{Wi{Bo{Wn{x.  A strange {5b{6u{5g{x goes flying by narrowly missing your",
-                "{rn{yo{rs{ye{x...  "
-            ],
-            "flags_raw": "0 0 0 19",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "142",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "143"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "141"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "137"
-                }
-            },
-            "extras": {}
+            "vnum": "135"
         },
         "100": {
-            "name": "",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "100",
-            "exits": {},
-            "extras": {}
-        },
-        "108": {
-            "name": "Main Moogle Road",
-            "description": [
-                "You are travelling directly down the Main Road in Moogle Town.  To the",
-                "east you can see a tree grove of some sort that is outside.  To the west is",
-                "a side road and north and south continue the main road.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "108",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "107"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "109"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "A stone path",
-                        ""
-                    ],
-                    "room_id": "113"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfberry patch",
-                        ""
-                    ],
-                    "room_id": "117"
-                }
-            },
-            "extras": {}
-        },
-        "102": {
-            "name": "Dimly Lit Path",
-            "description": [
-                "This section of the road is badly worn and frequently traversed.  There",
-                "is faint music to the north, and some occasional chirps.  The path back to",
-                "the road lies to the south.  "
-            ],
-            "flags_raw": "0 4 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "102",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The dimly lit path.",
-                        ""
-                    ],
-                    "room_id": "101"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The path continues toward the village.",
-                        ""
-                    ],
-                    "room_id": "103"
-                }
-            },
-            "extras": {}
-        },
-        "150": {
-            "name": "Throne room of Tempus",
-            "description": [
-                "You look around this room and gasp in awe.  All around you there",
-                "are weapons of mundane and exotic nature.  Tapestries depicting",
-                "horrific battles adorn the walls.  Ancient books on strategy and",
-                "warcraft rest on the shelves.  In the center of the room you see a",
-                "throne made of the bones of Heros fallen in honorable battle.  You are",
-                "in the sanctum of Tempus Foehammer God of War!  "
-            ],
-            "flags_raw": "0 1141383684 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "150",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "151"
-                }
-            },
-            "extras": {}
-        },
-        "143": {
-            "name": "Fields of the Cherry Blossoms",
-            "description": [
-                "The {cs{Ct{Wr{We{Ca{cm{x trickles off to the southwest.  A small water {yc{*r{ge{ra{rt{gu{*r{ye{x",
-                "hops up from the {cw{Ca{Wt{Ce{cr{x and sends a splash of {Cc{Wo{Co{Wl{x relaxing {Cl{Wi{Bqu{Wi{Cd{x into",
-                "your face.  The {cw{Ca{Wt{Ce{cr{x seems to be {Yl{Ra{Yu{Rg{Yh{Ri{Yn{Rg{x at you as it continues on",
-                "it's {%w{^a{%y{x.  "
-            ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "143",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "142"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "144"
-                }
-            },
-            "extras": {}
-        },
-        "117": {
-            "name": "Kupo Nut Grove",
-            "description": [
-                "Another grove of trees bearing {7K{3u{7po {3nuts{0 grow here.  The sweet",
-                "taste of the nuts is driving your taste buds crazy.  It almost, ALMOST,",
-                "makes you forget about all the slam dancing going on.  The main road is to",
-                "the west, while {7K{3u{7po {3nut{0 groves are to the north and south.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "117",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfberry Patch",
-                        ""
-                    ],
-                    "room_id": "118"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "108"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfberry Patch",
-                        ""
-                    ],
-                    "room_id": "116"
-                }
-            },
-            "extras": {}
-        },
-        "104": {
-            "name": "Entrance to MoogleTown",
-            "description": [
-                "You stand at the entrance to a tiny underground village of ...  White",
-                "animals?  You can basically see across the whole village from here.  Little",
-                "white creatures with floppy ears and red noses and little curly tails wiggle",
-                "about.  They dance continuously.  "
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "104",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "105"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "130"
-                }
-            },
-            "extras": {}
-        },
-        "107": {
-            "name": "Main Moogle Road",
-            "description": [
-                "The Moogle main road continues north and south here.  To the east you can",
-                "see a tree grove of some sort that is outside.  Of course, the music is",
-                "{#BLARING{0 through your head.  Sheesh, how much can these moogles take?  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "107",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "106"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "108"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfberry Patch",
-                        ""
-                    ],
-                    "room_id": "116"
-                }
-            },
-            "extras": {}
-        },
-        "105": {
-            "name": "Main Moogle Road",
-            "description": [
-                "An average-sized humanoid would be way too big to be using this",
-                "underground road.  But who cares?  Certainly not these little moogles.  The",
-                "music is growing intense as it BLARES through the village.  Your ears are",
-                "starting to ring.  The Underground Road continues to the north, west and",
-                "east.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "105",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Entrance to smurf village",
-                        ""
-                    ],
-                    "room_id": "104"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "106"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "111"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "110"
-                }
-            },
-            "extras": {}
-        },
-        "132": {
-            "name": "Kupo Nut Grove",
             "description": [],
-            "flags_raw": "0 0 0 0",
+            "name": "",
+            "exits": {},
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "132",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "131"
-                }
-            },
-            "extras": {}
-        },
-        "110": {
-            "name": "Underground Road",
-            "description": [
-                "You have come to a corner on the Underground road.  A rockslide has",
-                "blocked the passage to the east and west here.  A doorway is to the north,",
-                "leading into a moogle's home.  The main road is back west.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "110",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Home",
-                        ""
-                    ],
-                    "room_id": "119"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "105"
-                }
-            },
-            "extras": {}
-        },
-        "139": {
-            "name": "Deneir's Garden",
-            "description": [
-                "A feeling of well being flows thru your body as you enter this room. ",
-                "You are surrounded by a rainbow of colors in this miniature garden, brimming",
-                "with flowering trees and bushes.  A clear stream flows under a quaint wooden",
-                "bridge that seemss centuries old.  A leaf from a cherry blossom tree brushes",
-                "your cheek and you are in balance with the world around you.  "
-            ],
-            "flags_raw": "0 1536 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "139",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "134"
-                }
-            },
-            "extras": {}
-        },
-        "124": {
-            "name": "Moogle House",
-            "description": [
-                "As you enter this small home you see numerous little moogles running in",
-                "circles chasing each other with toy weapons while chirping loudly.  This",
-                "place is a mess.  The kids really did a number in here.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "124",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "123"
-                }
-            },
-            "extras": {}
+            "vnum": "100"
         },
         "126": {
-            "name": "Exiting the Underground",
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You are now at the exit to the caves.  Ahead of you is a dark and gloomy",
                 "trail.  The trail as well seems to have had very little use, for it is",
@@ -785,72 +153,1175 @@
                 "and thickly grown in by shrubs and trees.  The overgrown trail starts to the",
                 "north.  "
             ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "126",
+            "name": "Exiting the Underground",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "127",
                     "description": [
                         "Outside Gargamel's Castle",
                         ""
-                    ],
-                    "room_id": "127"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "115",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "115"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "126"
         },
-        "111": {
-            "name": "Underground Road",
+        "133": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
-                "You have come to a corner on the Underground road.  A cave-in has blocked",
-                "the passage to the west here.  A doorway is to the south, leading into a",
-                "moogle's home.  To the north, the road continues, and back east is to the",
+                "What a silly moogle...  There's nothing here!  Why was it so protective",
+                "over its cubby hole?  All you see is dust and some old wrappers from food. ",
+                "Sheesh, moogles can be complicated.  "
+            ],
+            "name": "Moogle's Cubby Hole",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "123",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "133"
+        },
+        "130": {
+            "extras": {},
+            "flags_raw": "0 12 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This section of the cave looks like a hurricane hit it!  The walls",
+                "are smashed in here and there, and the floor is cracked and splintered",
+                "everywhere as if someone took a mallet and swung around wildly.  To",
+                "the north you can hear BLARING music and the south leads back to the",
                 "main road.  "
             ],
-            "flags_raw": "0 0 0 1",
+            "name": "Dimly Lit Passage",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "103",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "104",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "130"
+        },
+        "103": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "111",
+            "description": [
+                "You stad before an cave entrance which is badly worn and frequently",
+                "traversed.  The faint music heard before is now getting stronger to the",
+                "north.  The path back to the road lies to the south.  "
+            ],
+            "name": "Entrance to a Cave",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "130",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "102",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "103"
+        },
+        "119": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered what seems to be a potion lab.  Books and papers litter",
+                "the floor and bookshelves here.  A picture of a cute little moogle with",
+                "spectacles is plastered to the wall here.  And of course, there is this",
+                "music box in here, BLARING out some kick arse tunes.  There are no other",
+                "exits in this room, other than the way you came - south.  "
+            ],
+            "name": "Moogle Lab",
             "exits": {
                 "south": {
                     "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Home",
-                        ""
-                    ],
-                    "room_id": "121"
-                },
-                "north": {
-                    "flags_raw": "-1",
+                    "room_id": "110",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "112"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "119"
+        },
+        "128": {
+            "extras": {},
+            "flags_raw": "0 1028 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is Gargamel's Castle.  His big black kettle is in the middle of the room.",
+                "Where else would he put it?  The place has only one room."
+            ],
+            "name": "Free Room no more you cheap leveling bastards",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "128"
+        },
+        "139": {
+            "extras": {},
+            "flags_raw": "0 1536 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "A feeling of well being flows thru your body as you enter this room. ",
+                "You are surrounded by a rainbow of colors in this miniature garden, brimming",
+                "with flowering trees and bushes.  A clear stream flows under a quaint wooden",
+                "bridge that seemss centuries old.  A leaf from a cherry blossom tree brushes",
+                "your cheek and you are in balance with the world around you.  "
+            ],
+            "name": "Deneir's Garden",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "134",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "139"
+        },
+        "142": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "You have reached a large {yc{gl{*e{ga{yr{gi{*n{gg{x.  A {ybrown{x basket lies here on the",
+                "ground as well as a few {cc{Yr{cu{Ym{cb{Ys{x scattered here and there.  {BS{Wo{Ym{We{Bo{Wn{Ye{x must",
+                "have just left the area.  This open {*s{Yp{*a{Yc{*e{x is meant for {yp{Yi{gc{*n{gi{Yc{ys{x and",
+                "{Br{We{Bl{Wa{Bx{Wa{Bt{Wi{Bo{Wn{x.  A strange {5b{6u{5g{x goes flying by narrowly missing your",
+                "{rn{yo{rs{ye{x...  "
+            ],
+            "name": "Fields of the Cherry Blossoms",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "141",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "137",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "143",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "142"
+        },
+        "147": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "You enter from a {*s{ye{*c{yr{*e{yt{x door to the south and are immediatley taken",
+                "aback by the {Bb{Ce{Wau{Ct{By{x of such a place...  To the right there is a short",
+                "{ys{gw{*i{gn{yg{x hanging from a taller {rb{yr{ra{yn{rc{yh{x of a {rcherry{x tree.  To the left is a",
+                "small {Cp{*o{Cn{*d{x with {YGold{x and {rRuby{x colored fish {xswimming about.  Straight",
+                "ahead you see the {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x from the surrounding {rcherry{x trees hanging",
+                "in {Cm{Wi{Yd a{Wi{Cr{x.  You are in complete {Ba{Yw{Ce{x of this magical place and",
+                "remember the {rp{ba{yi{*n{*t{yi{bn{rg{x you saw earlier.  What could have happened to",
+                "the the artist who could capture such a {Bw{Yo{Wnd{Ye{Br{x on canvas...  {yB{ri{yr{rd{ys{x and",
+                "{Yi{gn{ys{*e{yc{gt{Ys{x fly happily around and you feel at {Cp{We{Ya{Wc{Ce{x with everything.  "
+            ],
+            "name": "Fields of the Cherry Blossoms",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "146",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "147"
+        },
+        "136": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A dirt pathway splits into various directions here.  To the north you can",
+                "make out what appears to be a Japanese style house.  To the south is a field",
+                "of cherry blossom trees, and to the east is back to the bridge.  It looks",
+                "like there is a strange set of stables to the west.  "
+            ],
+            "name": "Crossroads",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "135",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "138",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "140",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "136"
+        },
+        "115": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have now left the small town of Moogles behind you and are traveling",
+                "inside an old cave which seems to get very little use.  The gravel on the",
+                "ground looks like it has been untouched by anyone for a long time.  Not to",
+                "mention the numerous {7cob{8webs{0 that cover the passageway here as well.  "
+            ],
+            "name": "In a Cave Tunnel",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "126",
+                    "description": [
+                        "Path to Gargamel's Castle",
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "114",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "105"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "115"
+        },
+        "102": {
+            "extras": {},
+            "flags_raw": "0 4 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This section of the road is badly worn and frequently traversed.  There",
+                "is faint music to the north, and some occasional chirps.  The path back to",
+                "the road lies to the south.  "
+            ],
+            "name": "Dimly Lit Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "103",
+                    "description": [
+                        "The path continues toward the village.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "101",
+                    "description": [
+                        "The dimly lit path.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "102"
+        },
+        "134": {
+            "extras": {},
+            "flags_raw": "0 67633676 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The walls are decorated with large paper fans resting on mounts. ",
+                "The fans have various images painted on them.  In one corner in a",
+                "small alcove rests two katanas on a stand.  A kotatsu burner is set",
+                "into the floor and a table draped with quilts is placed over it.  The",
+                "floor here is covered with tatami mats.  There are several zabutons",
+                "(cushions) on the floor surrounding the low table.  To the east is",
+                "what appears to be a Japanese-style garden.  There are sliding doors",
+                "on the west and south exists.  "
+            ],
+            "name": "Deneir's Office",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "139",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "135",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "134"
+        },
+        "127": {
+            "extras": {},
+            "flags_raw": "0 4 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a dark and gloomy trail.  The trail seems to have had very",
+                "little use, for it is overgrown with weeds and shows no signs of any",
+                "footprints.  The surrounding woods can only be seen in about a 5' radius",
+                "where it then becomes too dark and thickly grown in by shrubs and trees. ",
+                "Just when you thought the trail did not continue, you notice a small",
+                "{3wooden{0 door to the west covered with vines and overgrown weeds.  "
+            ],
+            "name": "Along a Forgotten Trail",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "125",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "126",
+                    "description": [
+                        "Path to Gargamel's Castle",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "127"
+        },
+        "114": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "Yet another part of the Moogle Main Road.  East leads back to the main",
+                "road, while west takes you into an Underground tunnel.  "
+            ],
+            "name": "Main Moogle Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "109",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "115",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "114"
+        },
+        "124": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "As you enter this small home you see numerous little moogles running in",
+                "circles chasing each other with toy weapons while chirping loudly.  This",
+                "place is a mess.  The kids really did a number in here.  "
+            ],
+            "name": "Moogle House",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "123",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "124"
+        },
+        "143": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "The {cs{Ct{Wr{We{Ca{cm{x trickles off to the southwest.  A small water {yc{*r{ge{ra{rt{gu{*r{ye{x",
+                "hops up from the {cw{Ca{Wt{Ce{cr{x and sends a splash of {Cc{Wo{Co{Wl{x relaxing {Cl{Wi{Bqu{Wi{Cd{x into",
+                "your face.  The {cw{Ca{Wt{Ce{cr{x seems to be {Yl{Ra{Yu{Rg{Yh{Ri{Yn{Rg{x at you as it continues on",
+                "it's {%w{^a{%y{x.  "
+            ],
+            "name": "Fields of the Cherry Blossoms",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "142",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "144",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "143"
+        },
+        "106": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have come to a crossroads at the center of Moogletown.  Unfortunately",
+                "for you, the music is at its {@LOUDEST{0 here.  Alas though, the music comes",
+                "from no direct source.  It swells around you.  "
+            ],
+            "name": "Main Moogle Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "107",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "120",
+                    "description": [
+                        "Smurfy Home",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "112",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "105",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "106"
+        },
+        "132": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Kupo Nut Grove",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "131",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "132"
+        },
+        "137": {
+            "extras": {},
+            "flags_raw": "0 1536 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "Your sense of smell is immediately overwhelmed as you enter this small",
+                "grove of {1cherry{0 trees.  A relaxing, and magical feeling overcomes you as",
+                "you take a few steps in.  The {1cherry{0 trees are at the peak of their",
+                "blossuming stage and {7soft {%pink{0 flowers adorn the branches of them all."
+            ],
+            "name": "Cherry Blossom Viewing Area",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "140",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "146",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "142",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "144",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "137"
+        },
+        "101": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "This path is made of crushed granite that was most likely once a solid",
+                "slab of it.  Wonder what happened here...  The path continues north to a",
+                "cave entrance or south to the eastern road.  "
+            ],
+            "name": "Dimly Lit Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "102",
+                    "description": [
+                        "The path continues toward the village.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "3525",
+                    "description": [
+                        "The path heads back toward the eastern road.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "101"
+        },
+        "138": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A long wooden bridge is here that crosses over a large body of calm",
+                "water.  A few song birds happily pass by and under the bridge post likely to",
+                "their nest.  To the west you can see a small settlement.  "
+            ],
+            "name": "Bridge",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "136",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "138"
+        },
+        "105": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "An average-sized humanoid would be way too big to be using this",
+                "underground road.  But who cares?  Certainly not these little moogles.  The",
+                "music is growing intense as it BLARES through the village.  Your ears are",
+                "starting to ring.  The Underground Road continues to the north, west and",
+                "east.  "
+            ],
+            "name": "Main Moogle Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "106",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "110",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "111",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "104",
+                    "description": [
+                        "Entrance to smurf village",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "105"
+        },
+        "150": {
+            "extras": {},
+            "flags_raw": "0 1141383684 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You look around this room and gasp in awe.  All around you there",
+                "are weapons of mundane and exotic nature.  Tapestries depicting",
+                "horrific battles adorn the walls.  Ancient books on strategy and",
+                "warcraft rest on the shelves.  In the center of the room you see a",
+                "throne made of the bones of Heros fallen in honorable battle.  You are",
+                "in the sanctum of Tempus Foehammer God of War!  "
+            ],
+            "name": "Throne room of Tempus",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "151",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "150"
+        },
+        "140": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "The air is sprinkled with the scent of {6sw{5eetne{6ss{x as you travel",
+                "the cobblestone path through a park.  The path runs north and south, and the",
+                "way is almost hidden by the multitudes of cherry tree branches that beckon",
+                "for you to rest underneath them.  Looking around, you smile and see that the",
+                "only difficulty lies in choosing which blossoms to lay peacefully in...  To",
+                "the east or the west, young traveler?  Or if not too weary, venture on to",
+                "the {#s{3pe{6c{7tac{6u{3la{#r{x viewing area to the south.  "
+            ],
+            "name": "Path Through the Cherry Park",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "136",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "141",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "137",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "140"
+        },
+        "112": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are on the Underground road and the music just hasn't quit.  The",
+                "tunes surround you everywhere and your ears are ringing.  A doorway is to",
+                "the west, while south and east lead out the main road.  ",
+                " "
+            ],
+            "name": "Underground Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "106",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "122",
+                    "description": [
+                        "Smurfy Home",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "111",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "112"
+        },
+        "125": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "It's the home of the leader of the smurfs.  Papa Smurf has a nicely",
+                "decorated home.  He takes pride in his work.  You could get to know him or",
+                "just squash him.  If Papa Smurf is not here he is probably at Smurfette's",
+                "putting the moves on her.  Another door lies to the west from here.  "
+            ],
+            "name": "Papa Smurf's Home",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "127",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "129",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "125"
+        },
+        "117": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "Another grove of trees bearing {7K{3u{7po {3nuts{0 grow here.  The sweet",
+                "taste of the nuts is driving your taste buds crazy.  It almost, ALMOST,",
+                "makes you forget about all the slam dancing going on.  The main road is to",
+                "the west, while {7K{3u{7po {3nut{0 groves are to the north and south.  "
+            ],
+            "name": "Kupo Nut Grove",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "118",
+                    "description": [
+                        "Smurfberry Patch",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "108",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "116",
+                    "description": [
+                        "Smurfberry Patch",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "117"
+        },
+        "145": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "A wonderous {cw{Ca{Wt{Ce{cr{Cf{Wa{Cl{cl{x {Bc{Ca{Ws{Cc{Ba{Cd{We{Bs{x down to a deep {Cp{*o{Co{*l{x.  The {Cp{*o{Co{*l{x flows",
+                "off to the west forming a mid sized {cs{Ct{Wre{Ca{cm{x.  On a {yb{rr{ya{rn{yc{rh{x of a near by",
+                "{rcherry{x tree you see the {Cr{co{yb{ce{Cs{x of some bathing {Yw{*o{gm{*a{Yn{x.  You sense she",
+                "still may be hiding around here somewhere.  "
+            ],
+            "name": "Fields of the Cherry Blossoms",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "146",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "144",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "145"
+        },
+        "149": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Secret Stable Area",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "149"
+        },
+        "120": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "Ok, now this is something you've never seen before.  A whole building",
+                "devoted to closets...?!?  Closets line all four walls here and a big {1red",
+                "{3rug{0 covers the hard stone floor underneath.  "
+            ],
+            "name": "Closet Hall",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "106",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "120"
+        },
+        "121": {
+            "extras": {},
+            "flags_raw": "0 1024 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered the Moogle Dance Studio, where all the little moogles",
+                "learn to dance those ground-shaking dances!  A Moogle Dance instructor does",
+                "a jig around the room while pointing out to little moogles about posture and",
+                "'keeping the beat'.  Perhaps he could you a thing or two too.  "
+            ],
+            "name": "Dance Studio",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "111",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "121"
+        },
+        "108": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are travelling directly down the Main Road in Moogle Town.  To the",
+                "east you can see a tree grove of some sort that is outside.  To the west is",
+                "a side road and north and south continue the main road.  "
+            ],
+            "name": "Main Moogle Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "109",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "117",
+                    "description": [
+                        "Smurfberry patch",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "113",
+                    "description": [
+                        "A stone path",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "107",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "108"
+        },
+        "107": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "The Moogle main road continues north and south here.  To the east you can",
+                "see a tree grove of some sort that is outside.  Of course, the music is",
+                "{#BLARING{0 through your head.  Sheesh, how much can these moogles take?  "
+            ],
+            "name": "Main Moogle Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "108",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "116",
+                    "description": [
+                        "Smurfberry Patch",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "106",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "107"
+        },
+        "113": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is the only alleyway in Moogle Town.  Even nice little quaint towns",
+                "have a place where it's messy.  Actually, now that you stand and listen, this",
+                "is the only place in town where the music isn't heard...  It's actually... ",
+                "Peaceful.  "
+            ],
+            "name": "Side Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "108",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "123",
+                    "description": [
+                        "Smurfy House",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "113"
+        },
+        "122": {
+            "extras": {},
+            "flags_raw": "0 1024 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "YOWZA!  This place is hoppin' and so are you!  Why?  Because the ground",
+                "is shaking beneath you from all the dancing going on in here!  Hundreds of",
+                "Moogles clutter the club here...  And they are all dancing.  And as you",
+                "would guess it, the music is {#BLARING{0!!  "
+            ],
+            "name": "Moogle Dance Club",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "112",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "122"
+        },
+        "110": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have come to a corner on the Underground road.  A rockslide has",
+                "blocked the passage to the east and west here.  A doorway is to the north,",
+                "leading into a moogle's home.  The main road is back west.  "
+            ],
+            "name": "Underground Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "119",
+                    "description": [
+                        "Smurfy Home",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "105",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "110"
+        },
+        "144": {
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "Here a deep {cs{Ct{Wr{We{Ca{cm{x flows in from the east and continues on to the",
+                "west.  A small arching {*s{gt{yo{gn{*e {*b{gr{yi{yd{gg{*e{x allows you passage over the",
+                "{cs{Ct{Wre{Ca{cm{x.  On the other side the ground is covered in the {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x from",
+                "the surrounding {rcherry{x trees.  The {%f{Ci{We{Cl{%d{x of {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x comes to a sudden",
+                "halt to the south as if by some {Bm{ya{Bg{yi{Bc{ya{Bl{x force.  "
+            ],
+            "name": "End of the Cherry Park Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "137",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "145",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "143",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "144"
         },
         "148": {
-            "name": "Deneir's {!B{@e{#d{*r{%o{^o{Bm{x",
+            "extras": {},
+            "flags_raw": "0 9740 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{^This room shines with a nearly blinding light.  There are sex toys",
                 "lying everywhere, and you don't see any walls.  {^The only thing in the room",
@@ -863,28 +1334,163 @@
                 "indeed.  As you {^look around and take in the sights you begin to",
                 "wonder.....  {x "
             ],
-            "flags_raw": "0 9740 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "148",
+            "name": "Deneir's {!B{@e{#d{*r{%o{^o{Bm{x",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "148"
         },
-        "128": {
-            "name": "Free Room no more you cheap leveling bastards",
-            "description": [
-                "This is Gargamel's Castle.  His big black kettle is in the middle of the room.",
-                "Where else would he put it?  The place has only one room."
-            ],
-            "flags_raw": "0 1028 0 1",
-            "wanted_area_vnum": "",
+        "118": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
             "flags2_raw": "0",
-            "vnum": "128",
-            "exits": {},
-            "extras": {}
+            "description": [
+                "The northernmost of the {7K{3u{7po {3nut{0 trees grows here.  It looks as",
+                "scrumptious as all the rest.  Just take a few; they'll never know.  The main",
+                "road is to the west and the {7K{3u{7po {3nut {@grove{0 is the south.  "
+            ],
+            "name": "Kupo Nut Grove",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "109",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "117",
+                    "description": [
+                        "Smurfberry Patch",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "118"
+        },
+        "129": {
+            "extras": {},
+            "flags_raw": "0 4 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This house is conveniently next to Papa Smurfs.  Makes it easier for Papa",
+                "Smurf to sneak over at night.  I hope he uses protection.  I would hate to",
+                "have little smurfs running around.  The only exit is to the east."
+            ],
+            "name": "Smurfette's House",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "125",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "129"
+        },
+        "123": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have hit the end of the alley here and the only exits are back east",
+                "or into a small cubby hole to the west.  Hmmm.  But that moogle standing",
+                "there doesn't seem to want to let you in.  "
+            ],
+            "name": "Dead End",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "113",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "133",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "124",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "123"
+        },
+        "111": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have come to a corner on the Underground road.  A cave-in has blocked",
+                "the passage to the west here.  A doorway is to the south, leading into a",
+                "moogle's home.  To the north, the road continues, and back east is to the",
+                "main road.  "
+            ],
+            "name": "Underground Road",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "112",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "105",
+                    "description": [
+                        "Smurfy Road",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "121",
+                    "description": [
+                        "Smurfy Home",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "111"
+        },
+        "131": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Kupo Nut Grove",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "132",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "131"
         },
         "146": {
-            "name": "Fields of the Cherry Blossoms",
+            "extras": {},
+            "flags_raw": "0 0 0 19",
+            "flags2_raw": "0",
             "description": [
                 "To the north {rcherry{x trees stand side by side blocking your {yp{*a{yt{*h{x. ",
                 "Their {%pink{x and {Wwhite{x {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x giving forth a {Cs{%w{We{%e{Ct{x scent drawing you",
@@ -893,187 +1499,34 @@
                 "lies on the ground here.  {rP{ya{gi{yn{rt{x and {yb{*r{yu{*s{yh{*e{ys{x are scattered on the",
                 "ground around it.  "
             ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "146",
+            "name": "Fields of the Cherry Blossoms",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "147",
                     "description": [
                         ""
-                    ],
-                    "room_id": "147"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "137",
                     "description": [
                         ""
-                    ],
-                    "room_id": "137"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "145",
                     "description": [
                         ""
-                    ],
-                    "room_id": "145"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "101": {
-            "name": "Dimly Lit Path",
-            "description": [
-                "This path is made of crushed granite that was most likely once a solid",
-                "slab of it.  Wonder what happened here...  The path continues north to a",
-                "cave entrance or south to the eastern road.  "
-            ],
-            "flags_raw": "0 0 0 4",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "101",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The path continues toward the village.",
-                        ""
-                    ],
-                    "room_id": "102"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The path heads back toward the eastern road.",
-                        ""
-                    ],
-                    "room_id": "3525"
-                }
-            },
-            "extras": {}
-        },
-        "103": {
-            "name": "Entrance to a Cave",
-            "description": [
-                "You stad before an cave entrance which is badly worn and frequently",
-                "traversed.  The faint music heard before is now getting stronger to the",
-                "north.  The path back to the road lies to the south.  "
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "103",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "102"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "130"
-                }
-            },
-            "extras": {}
-        },
-        "125": {
-            "name": "Papa Smurf's Home",
-            "description": [
-                "It's the home of the leader of the smurfs.  Papa Smurf has a nicely",
-                "decorated home.  He takes pride in his work.  You could get to know him or",
-                "just squash him.  If Papa Smurf is not here he is probably at Smurfette's",
-                "putting the moves on her.  Another door lies to the west from here.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "125",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "129"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "127"
-                }
-            },
-            "extras": {}
-        },
-        "121": {
-            "name": "Dance Studio",
-            "description": [
-                "You have entered the Moogle Dance Studio, where all the little moogles",
-                "learn to dance those ground-shaking dances!  A Moogle Dance instructor does",
-                "a jig around the room while pointing out to little moogles about posture and",
-                "'keeping the beat'.  Perhaps he could you a thing or two too.  "
-            ],
-            "flags_raw": "0 1024 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "121",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "111"
-                }
-            },
-            "extras": {}
+            "vnum": "146"
         },
         "109": {
-            "name": "Main Moogle Road",
-            "description": [
-                "A {7s{8t{7o{8n{7e{0 well lies here in the middle of the underground road.",
-                "A barricade to the north blocks intrusions from anything that might cause",
-                "the mogs harm.  To the east is a small opening leading outside to a grove of",
-                "some sort.  The Main road continues to the south and west.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "109",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "108"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "114"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfberry Patch",
-                        ""
-                    ],
-                    "room_id": "118"
-                }
-            },
             "extras": {
                 "smurfy well": {
                     "description": [
@@ -1082,573 +1535,121 @@
                         ""
                     ]
                 }
-            }
-        },
-        "130": {
-            "name": "Dimly Lit Passage",
-            "description": [
-                "This section of the cave looks like a hurricane hit it!  The walls",
-                "are smashed in here and there, and the floor is cracked and splintered",
-                "everywhere as if someone took a mallet and swung around wildly.  To",
-                "the north you can hear BLARING music and the south leads back to the",
-                "main road.  "
-            ],
-            "flags_raw": "0 12 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "130",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "103"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "104"
-                }
             },
-            "extras": {}
-        },
-        "149": {
-            "name": "Secret Stable Area",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "149",
-            "exits": {},
-            "extras": {}
-        },
-        "120": {
-            "name": "Closet Hall",
-            "description": [
-                "Ok, now this is something you've never seen before.  A whole building",
-                "devoted to closets...?!?  Closets line all four walls here and a big {1red",
-                "{3rug{0 covers the hard stone floor underneath.  "
-            ],
             "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "120",
+            "description": [
+                "A {7s{8t{7o{8n{7e{0 well lies here in the middle of the underground road.",
+                "A barricade to the north blocks intrusions from anything that might cause",
+                "the mogs harm.  To the east is a small opening leading outside to a grove of",
+                "some sort.  The Main road continues to the south and west.  "
+            ],
+            "name": "Main Moogle Road",
             "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "118",
+                    "description": [
+                        "Smurfberry Patch",
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "114",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "106"
-                }
-            },
-            "extras": {}
-        },
-        "138": {
-            "name": "Bridge",
-            "description": [
-                "A long wooden bridge is here that crosses over a large body of calm",
-                "water.  A few song birds happily pass by and under the bridge post likely to",
-                "their nest.  To the west you can see a small settlement.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "138",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "136"
-                }
-            },
-            "extras": {}
-        },
-        "140": {
-            "name": "Path Through the Cherry Park",
-            "description": [
-                "The air is sprinkled with the scent of {6sw{5eetne{6ss{x as you travel",
-                "the cobblestone path through a park.  The path runs north and south, and the",
-                "way is almost hidden by the multitudes of cherry tree branches that beckon",
-                "for you to rest underneath them.  Looking around, you smile and see that the",
-                "only difficulty lies in choosing which blossoms to lay peacefully in...  To",
-                "the east or the west, young traveler?  Or if not too weary, venture on to",
-                "the {#s{3pe{6c{7tac{6u{3la{#r{x viewing area to the south.  "
-            ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "140",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "136"
+                    ]
                 },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "141"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "137"
-                }
-            },
-            "extras": {}
-        },
-        "112": {
-            "name": "Underground Road",
-            "description": [
-                "You are on the Underground road and the music just hasn't quit.  The",
-                "tunes surround you everywhere and your ears are ringing.  A doorway is to",
-                "the west, while south and east lead out the main road.  ",
-                " "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "112",
-            "exits": {
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "108",
                     "description": [
                         "Smurfy Road",
                         ""
-                    ],
-                    "room_id": "111"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Home",
-                        ""
-                    ],
-                    "room_id": "122"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "106"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "145": {
-            "name": "Fields of the Cherry Blossoms",
-            "description": [
-                "A wonderous {cw{Ca{Wt{Ce{cr{Cf{Wa{Cl{cl{x {Bc{Ca{Ws{Cc{Ba{Cd{We{Bs{x down to a deep {Cp{*o{Co{*l{x.  The {Cp{*o{Co{*l{x flows",
-                "off to the west forming a mid sized {cs{Ct{Wre{Ca{cm{x.  On a {yb{rr{ya{rn{yc{rh{x of a near by",
-                "{rcherry{x tree you see the {Cr{co{yb{ce{Cs{x of some bathing {Yw{*o{gm{*a{Yn{x.  You sense she",
-                "still may be hiding around here somewhere.  "
-            ],
-            "flags_raw": "0 0 0 19",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "145",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "146"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "144"
-                }
-            },
-            "extras": {}
-        },
-        "113": {
-            "name": "Side Road",
-            "description": [
-                "This is the only alleyway in Moogle Town.  Even nice little quaint towns",
-                "have a place where it's messy.  Actually, now that you stand and listen, this",
-                "is the only place in town where the music isn't heard...  It's actually... ",
-                "Peaceful.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "113",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy House",
-                        ""
-                    ],
-                    "room_id": "123"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "108"
-                }
-            },
-            "extras": {}
-        },
-        "134": {
-            "name": "Deneir's Office",
-            "description": [
-                "The walls are decorated with large paper fans resting on mounts. ",
-                "The fans have various images painted on them.  In one corner in a",
-                "small alcove rests two katanas on a stand.  A kotatsu burner is set",
-                "into the floor and a table draped with quilts is placed over it.  The",
-                "floor here is covered with tatami mats.  There are several zabutons",
-                "(cushions) on the floor surrounding the low table.  To the east is",
-                "what appears to be a Japanese-style garden.  There are sliding doors",
-                "on the west and south exists.  "
-            ],
-            "flags_raw": "0 67633676 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "134",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "135"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "139"
-                }
-            },
-            "extras": {}
-        },
-        "123": {
-            "name": "Dead End",
-            "description": [
-                "You have hit the end of the alley here and the only exits are back east",
-                "or into a small cubby hole to the west.  Hmmm.  But that moogle standing",
-                "there doesn't seem to want to let you in.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "123",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "124"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "133"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "113"
-                }
-            },
-            "extras": {}
-        },
-        "137": {
-            "name": "Cherry Blossom Viewing Area",
-            "description": [
-                "Your sense of smell is immediately overwhelmed as you enter this small",
-                "grove of {1cherry{0 trees.  A relaxing, and magical feeling overcomes you as",
-                "you take a few steps in.  The {1cherry{0 trees are at the peak of their",
-                "blossuming stage and {7soft {%pink{0 flowers adorn the branches of them all."
-            ],
-            "flags_raw": "0 1536 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "137",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "144"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "140"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "142"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "146"
-                }
-            },
-            "extras": {}
-        },
-        "119": {
-            "name": "Moogle Lab",
-            "description": [
-                "You have entered what seems to be a potion lab.  Books and papers litter",
-                "the floor and bookshelves here.  A picture of a cute little moogle with",
-                "spectacles is plastered to the wall here.  And of course, there is this",
-                "music box in here, BLARING out some kick arse tunes.  There are no other",
-                "exits in this room, other than the way you came - south.  "
-            ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "119",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "110"
-                }
-            },
-            "extras": {}
-        },
-        "141": {
-            "name": "Fields of the Cherry Blossoms",
-            "description": [
-                "A {%b{Wl{%o{Ws{%s{Wo{%m{Wi{%n{Wg {rcherry {xtree stands here seemingly shorter than the",
-                "rest.  A small {yg{*i{yr{*l{x leans against it's {yt{gr{yu{gn{yk{x sleeping {Bp{We{Ba{Wc{Be{Wf{Bu{Wl{Bl{Wy{x... ",
-                "To the south you hear the faint {*s{6o{*u{6n{*d{x of {Rl{Ya{Ru{Yg{Rh{Yt{Re{Yr{x and even more faint",
-                "the sound of running {Cw{Ba{Wt{Be{Cr...  "
-            ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "141",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "142"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "140"
-                }
-            },
-            "extras": {}
-        },
-        "136": {
-            "name": "Crossroads",
-            "description": [
-                "A dirt pathway splits into various directions here.  To the north you can",
-                "make out what appears to be a Japanese style house.  To the south is a field",
-                "of cherry blossom trees, and to the east is back to the bridge.  It looks",
-                "like there is a strange set of stables to the west.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "136",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "140"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "135"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "138"
-                }
-            },
-            "extras": {}
-        },
-        "147": {
-            "name": "Fields of the Cherry Blossoms",
-            "description": [
-                "You enter from a {*s{ye{*c{yr{*e{yt{x door to the south and are immediatley taken",
-                "aback by the {Bb{Ce{Wau{Ct{By{x of such a place...  To the right there is a short",
-                "{ys{gw{*i{gn{yg{x hanging from a taller {rb{yr{ra{yn{rc{yh{x of a {rcherry{x tree.  To the left is a",
-                "small {Cp{*o{Cn{*d{x with {YGold{x and {rRuby{x colored fish {xswimming about.  Straight",
-                "ahead you see the {%b{Wl{%o{Ws{%s{Wo{%m{Ws{x from the surrounding {rcherry{x trees hanging",
-                "in {Cm{Wi{Yd a{Wi{Cr{x.  You are in complete {Ba{Yw{Ce{x of this magical place and",
-                "remember the {rp{ba{yi{*n{*t{yi{bn{rg{x you saw earlier.  What could have happened to",
-                "the the artist who could capture such a {Bw{Yo{Wnd{Ye{Br{x on canvas...  {yB{ri{yr{rd{ys{x and",
-                "{Yi{gn{ys{*e{yc{gt{Ys{x fly happily around and you feel at {Cp{We{Ya{Wc{Ce{x with everything.  "
-            ],
-            "flags_raw": "0 0 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "147",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "146"
-                }
-            },
-            "extras": {}
-        },
-        "122": {
-            "name": "Moogle Dance Club",
-            "description": [
-                "YOWZA!  This place is hoppin' and so are you!  Why?  Because the ground",
-                "is shaking beneath you from all the dancing going on in here!  Hundreds of",
-                "Moogles clutter the club here...  And they are all dancing.  And as you",
-                "would guess it, the music is {#BLARING{0!!  "
-            ],
-            "flags_raw": "0 1024 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "122",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Smurfy Road",
-                        ""
-                    ],
-                    "room_id": "112"
-                }
-            },
-            "extras": {}
+            "vnum": "109"
         }
     },
-    "uid": "moogle",
-    "area_quest_points": 0,
     "credits": "[01 GR 20] MoogleTown",
     "faction_id": "",
+    "name": "MoogleTown",
     "vnums": [
         100,
         199
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "101": {
-            "name": "{0A moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "10 10 10 10",
             "description": [
                 "A cute little white moogle with floppy ears and a red nose seems to be\n",
                 "having a blast.  \n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "10 10 10 10",
             "vnum": 101,
             "raw_flags": "AGHS DF 0 100 0",
-            "race_id": "human",
+            "raw_flags4": "BEFJNU 0 0 0",
+            "room_name": "A moogle is dancing and chirping along.\n",
+            "name": "{0A moogle~\n",
             "raw_flags2": "1 0 2d4+2 0d9+100 1d2+0 none",
-            "d_flags": "D ~",
+            "keywords": "moogle~\n",
             "subroutines": [
                 "M grall 104 80~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A moogle is dancing and chirping along.\n",
-            "keywords": "moogle~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "102": {
-            "name": "a moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "10 10 10 10",
             "description": [
                 "A moogle is quietly, but quickly picking nuts.  He seems to hardly notice\n",
                 "you as he greedily picks them one by one.  \n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "10 10 10 10",
             "vnum": 102,
             "raw_flags": "ABHS DF 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "2 0 2d4+2 0d9+100 1d2+0 thwack",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A moogle is here, picking nuts.\n",
-            "keywords": "moogle~\n"
+            "name": "a moogle~\n",
+            "raw_flags2": "2 0 2d4+2 0d9+100 1d2+0 thwack",
+            "keywords": "moogle~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "103": {
-            "name": "a lab moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "A lab moogle is here holding potions up to the light and peering at them\n",
                 "intently.  Hmm..  Wonder what he's planning..  World domination?  Nah...  \n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 103,
             "raw_flags": "ABGHS DF 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A curious moogle is here experimenting with potions...uh oh..\n",
-            "keywords": "lab moogle~\n"
+            "name": "a lab moogle~\n",
+            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
+            "keywords": "lab moogle~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "104": {
-            "name": "The Dance Instructor~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "What a healthy moogle!  This guy..  Er gal..  Umm, can you tell if\n",
                 "moogles are guys or gals anyhow?  Well anyway, IT is really fit and\n",
@@ -1656,181 +1657,181 @@
                 "ones.  \n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU AB 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 104,
             "raw_flags": "ABHJKSd DF 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU AB 0 0",
             "room_name": "The Moogle Dance Instructor is here, teaching fitness and dance techniques.\n",
-            "keywords": "moogle dance instructor~\n"
+            "name": "The Dance Instructor~\n",
+            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
+            "keywords": "moogle dance instructor~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "105": {
-            "name": "a dancing moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU ABCD 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 105,
             "raw_flags": "ABGHS 0 0 100 0",
-            "race_id": "human",
+            "raw_flags4": "BEFJNU ABCD 0 0",
+            "room_name": "A moogle is here, doing a ground shaking dance!\n",
+            "name": "a dancing moogle~\n",
             "raw_flags2": "102 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
+            "keywords": "dancing moogle~\n",
             "subroutines": [
                 "M grall 102 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A moogle is here, doing a ground shaking dance!\n",
-            "keywords": "dancing moogle~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "106": {
-            "name": "Hefty Smurf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "Hefty is a total health nut.  He lifts weights, eats right, and exercises all\n",
                 "the time.  Won't do him much good when he's DEAD.\n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 106,
             "raw_flags": "AGHS DF 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "5 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "Hefty Smurf is lifting weights here.\n",
-            "keywords": "oldstyle hefty smurf~\n"
+            "name": "Hefty Smurf~\n",
+            "raw_flags2": "5 0 2d7+21 1d9+100 1d5+0 none",
+            "keywords": "oldstyle hefty smurf~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "107": {
-            "name": "a personal moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "This moogle seems intent on keeping you out of his cubby hole!  \n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU A 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 107,
             "raw_flags": "ABGHS 0 0 100 0",
-            "race_id": "human",
+            "raw_flags4": "BEFJNU A 0 0",
+            "room_name": "A moogle is here, making sure no one gets into his cubby hole!\n",
+            "name": "a personal moogle~\n",
             "raw_flags2": "5 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
+            "keywords": "moogle personal~\n",
             "subroutines": [
                 "M exit 103 3~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A moogle is here, making sure no one gets into his cubby hole!\n",
-            "keywords": "moogle personal~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "108": {
-            "name": "a playful moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "Eeeeek! This moogle is pointing a gun right at you! I hope it's a toy!\n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 108,
             "raw_flags": "ABGHS DF 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A playful moogle is here, pointing a gun right at you!\n",
-            "keywords": "playful moogle~\n"
+            "name": "a playful moogle~\n",
+            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
+            "keywords": "playful moogle~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "109": {
-            "name": "Smurfette~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "8 8 8 10",
             "description": [
                 "Smurfette is the cutest little smurf you've ever seen.  If only she were your\n",
                 "size.  I wonder how much she charges the other smurfs.\n"
             ],
             "raw_flags5": "stand stand female 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "8 8 8 10",
             "vnum": 109,
             "raw_flags": "AGHS DF 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "Smurfette is here, looking beautiful.\n",
-            "keywords": "oldstyle smurfette~\n"
+            "name": "Smurfette~\n",
+            "raw_flags2": "6 0 2d7+21 1d9+100 1d5+0 none",
+            "keywords": "oldstyle smurfette~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "110": {
-            "name": "Papa Smurf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 6",
             "description": [
                 "Yep, its Papa Smurf all right.  Red hat and boots and the funny little white\n",
                 "beard.  Papa Smurf treats his fellow smurfs with dignity and respect.  That\n",
                 "is why Papa Smurf is so popular among the ladies.\n"
             ],
             "raw_flags5": "stand stand male 2",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FU 0 0 0",
-            "raw_flags3": "2 2 2 6",
             "vnum": 110,
             "raw_flags": "AGHR 0 0 100 0",
-            "race_id": "human",
-            "raw_flags2": "19 0 2d6+110 10d9+100 1d8+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FU 0 0 0",
             "room_name": "Papa Smurf is practicing magic here.\n",
-            "keywords": "oldstyle papa smurf~\n"
+            "name": "Papa Smurf~\n",
+            "raw_flags2": "19 0 2d6+110 10d9+100 1d8+1 none",
+            "keywords": "oldstyle papa smurf~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "111": {
-            "name": "Gargamel~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 1 7",
             "description": [
                 "Gargamel has never done anything right in his life.  He has caught smurfs\n",
                 "before but always lets them escape.  He brings true meaning to the word moron.\n"
             ],
             "raw_flags5": "stand stand male 2",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIKU 0 0 0",
-            "raw_flags3": "1 1 1 7",
             "vnum": 111,
             "raw_flags": "ABHQ 0 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "19 0 2d7+121 10d9+100 1d7+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIKU 0 0 0",
             "room_name": "Gargamel is here, cursing out the smurfs.\n",
-            "keywords": "oldstyle gargamel~\n"
+            "name": "Gargamel~\n",
+            "raw_flags2": "19 0 2d7+121 10d9+100 1d7+2 none",
+            "keywords": "oldstyle gargamel~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "112": {
-            "name": "Azreal~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "3 3 3 9",
             "description": [
                 "Gargamel's worthless cat.  He is just about as dumb as Gargamel.  He should\n",
                 "just grab a smurf in his teeth and chew away.\n"
             ],
             "raw_flags5": "stand stand male 1",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "3 3 3 9",
             "vnum": 112,
             "raw_flags": "ABH 0 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "16 0 2d7+96 4d9+100 1d7+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "Azreal is here, licking himself.\n",
-            "keywords": "oldstyle azreal cat~\n"
+            "name": "Azreal~\n",
+            "raw_flags2": "16 0 2d7+96 4d9+100 1d7+2 none",
+            "keywords": "oldstyle azreal cat~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "113": {
-            "name": "a cheerful moogle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "10 10 10 10",
             "description": [
                 "What the heck is this thing.....  It looks like a big white\n",
                 "marshmallow...  But kinda like a housepet; a dog or cat.  What a weird\n",
@@ -1838,187 +1839,186 @@
                 "it.  \n"
             ],
             "raw_flags5": "stand stand female 20",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "FGHKOR 0 0 0",
-            "raw_flags3": "10 10 10 10",
             "vnum": 113,
             "raw_flags": "ABG DFJc 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "FGHKOR 0 0 0",
+            "room_name": "A cheerful moogle is here dancing wildy.\n",
+            "name": "a cheerful moogle~\n",
             "raw_flags2": "4 10 4d4+10 0d0+0 2d2+2 crush",
-            "d_flags": "D ~",
+            "keywords": "moogle~\n",
             "subroutines": [
                 "M greet 101 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A cheerful moogle is here dancing wildy.\n",
-            "keywords": "moogle~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "114": {
-            "name": "a baby moogle~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 114,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A baby moogle is here, trying very hard to 'rock the house'.\n",
+            "name": "a baby moogle~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "no name~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A baby moogle is here, trying very hard to 'rock the house'.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "no name~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "115": {
-            "name": "Kaori~\n",
+            "d_flags": "D Sayounara~",
+            "raw_flags3": "-25 -24 -24 -25",
             "description": [],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFGHIKS 0 0 0",
-            "raw_flags3": "-25 -24 -24 -25",
             "vnum": 115,
             "raw_flags": "Ac DEFJZ HR 0 0",
-            "race_id": "human",
+            "raw_flags4": "EFGHIKS 0 0 0",
+            "room_name": "A geisha girl is here.\n",
+            "name": "Kaori~\n",
             "raw_flags2": "110 0 1d2+2500 1d2+3000 10d10+20 punch",
-            "d_flags": "D Sayounara~",
+            "keywords": "Kaori geisha girl~\n",
             "subroutines": [
                 "M grall 115 100~\n",
                 "M speech 116 greentea~\n",
                 "M speech 117 song~\n",
                 "M random 118 5~\n"
             ],
-            "t_flags": "T Konnichi wa!~",
-            "room_name": "A geisha girl is here.\n",
-            "keywords": "Kaori geisha girl~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T Konnichi wa!~"
         },
         "116": {
-            "name": "a horse~\n",
+            "raw_parts": "I",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AH ABCDEFGHJK medium unknown",
-            "raw_flags4": "FNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 116,
             "raw_flags": "ABGf 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "MV",
+            "raw_flags4": "FNU 0 0 0",
+            "room_name": "A horse is here.\n",
+            "name": "a horse~\n",
             "raw_flags2": "8 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
+            "raw_form": "MV",
+            "keywords": "horse~\n",
             "subroutines": [
                 "F for MV\n",
                 "F par I\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A horse is here.\n",
-            "raw_parts": "I",
-            "keywords": "horse~\n"
+            "raw_flags6": "AH ABCDEFGHJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "117": {
-            "name": "A petite girl~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 0",
             "description": [],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AMV 0 medium unknown",
-            "raw_flags4": "EIK ABCDL D 0",
-            "raw_flags3": "-30 -30 -30 0",
             "vnum": 117,
             "raw_flags": "AB CDEFJa 0 500 0",
-            "race_id": "human",
-            "raw_form": "H",
+            "raw_flags4": "EIK ABCDL D 0",
+            "room_name": "A petite girl who has a katana at her side, is ready to sell you a mount.\n",
+            "name": "A petite girl~\n",
             "raw_flags2": "80 0 50d10+6000 1d1+99 6d7+21 slice",
-            "d_flags": "D ~",
+            "raw_form": "H",
+            "keywords": "shop shopkeeper mount girl Kyoko~\n",
             "subroutines": [
                 "F for H\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T Konnichi wa!~",
-            "room_name": "A petite girl who has a katana at her side, is ready to sell you a mount.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "shop shopkeeper mount girl Kyoko~\n"
+            "raw_flags6": "AMV 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T Konnichi wa!~"
         },
         "118": {
-            "name": "A doom dragon~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D Sa Yo Na Ra~",
+            "raw_flags3": "-20 -20 -20 -10",
             "description": [],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AMV 0 medium unknown",
-            "raw_flags4": "EIK CL 0 0",
-            "raw_flags3": "-20 -20 -20 -10",
             "vnum": 118,
             "raw_flags": "Af T 0 500 0",
-            "race_id": "human",
-            "raw_form": "H",
+            "raw_flags4": "EIK CL 0 0",
+            "room_name": "A doom dragon is here.\n",
+            "name": "A doom dragon~\n",
             "raw_flags2": "80 0 50d10+6000 1d10+100 15d10+50 none",
-            "d_flags": "D Sa Yo Na Ra~",
+            "raw_form": "H",
+            "keywords": "mount dragon doom~\n",
             "subroutines": [
                 "F for H\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A doom dragon is here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "mount dragon doom~\n"
+            "raw_flags6": "AMV 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "119": {
-            "name": "An Ancient Golden Dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1450 -1900 -1450 -1500",
             "description": [],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX large unknown",
-            "raw_flags4": "CEFKMNO BEKOPQRX BEH FI",
-            "raw_flags3": "-1450 -1900 -1450 -1500",
             "vnum": 119,
             "raw_flags": "A JT CDER 1000 0",
-            "race_id": "dragon",
-            "raw_flags2": "109 10139 1000d1250+2000 1000d1000+10000 1500d1500+1000 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T Hello, welcome to the Gardens of Deneir. You may wander around, but leave the flowers as you found them, and we will not have any troubles.~",
+            "raw_flags4": "CEFKMNO BEKOPQRX BEH FI",
             "room_name": "An ancient {#G{3o{#l{3d{#e{3n {@Dragon{x rests here{x\n",
-            "keywords": "gold dragon Somithius~\n"
+            "name": "An Ancient Golden Dragon~\n",
+            "raw_flags2": "109 10139 1000d1250+2000 1000d1000+10000 1500d1500+1000 claw",
+            "keywords": "gold dragon Somithius~\n",
+            "subroutines": [],
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX large unknown",
+            "race_id": "dragon",
+            "t_flags": "T Hello, welcome to the Gardens of Deneir. You may wander around, but leave the flowers as you found them, and we will not have any troubles.~"
         },
         "136": {
-            "name": "{CK{ca{yl{*i{ya{cn{Ca{x~\n",
+            "d_flags": "D I just wanted a bloody bath!~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Kaliana sits very still here trying to blend in with her surroundings hoping you wont nitice her\n",
                 "Shes as naked as the day is long and very uncomfortable that you keep staring.....\n"
             ],
             "raw_flags5": "sit stand female 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
-            "raw_flags4": "CFKN ACDEFHIJKLMNOPQRSTXYZ ABCDEFHIJKLMNOPQRSTXYZ 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 136,
             "raw_flags": "AB DFLQ H 500 0",
-            "race_id": "halfelf",
-            "raw_flags2": "80 0 1d1+5000 1d1+5000 1d1+10 none",
-            "d_flags": "D I just wanted a bloody bath!~",
-            "subroutines": [],
-            "t_flags": "T Please dont hurt me, i just want to bathe!~",
+            "raw_flags4": "CFKN ACDEFHIJKLMNOPQRSTXYZ ABCDEFHIJKLMNOPQRSTXYZ 0",
             "room_name": "A dark haired woman sits here fresh out of the {cw{Ca{Wte{*r{Wfa{Cl{cl{x!\n",
-            "keywords": "Kaliana bathing woman girl naked beauty~\n"
+            "name": "{CK{ca{yl{*i{ya{cn{Ca{x~\n",
+            "raw_flags2": "80 0 1d1+5000 1d1+5000 1d1+10 none",
+            "keywords": "Kaliana bathing woman girl naked beauty~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium flesh",
+            "race_id": "halfelf",
+            "t_flags": "T Please dont hurt me, i just want to bathe!~"
         },
         "135": {
-            "name": "{rM{ge{ry{go{rk{go{x~\n",
+            "d_flags": "D IIEEEEE!~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A small japanese girl lies against the trunk of a {rcherry{C tree.{x\n"
             ],
             "raw_flags5": "sleep sleep female 1000",
-            "raw_flags6": "AHMV ABCDEFGHIJK small flesh",
-            "raw_flags4": "E ABCDEFGHIJKLMNOPQRSTXYZ ABCDEFGHIJKLMNOPQRSTXYZ 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 135,
             "raw_flags": "AB Q H 1000 0",
-            "race_id": "human",
-            "raw_flags2": "110 0 1d1+30000 1d1+5000 1d1+30 none",
-            "d_flags": "D IIEEEEE!~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "E ABCDEFGHIJKLMNOPQRSTXYZ ABCDEFGHIJKLMNOPQRSTXYZ 0",
             "room_name": "A small japanese girl lies against the trunk of a {rcherry{x tree.\n",
-            "keywords": "Meyoko small child~\n"
+            "name": "{rM{ge{ry{go{rk{go{x~\n",
+            "raw_flags2": "110 0 1d1+30000 1d1+5000 1d1+30 none",
+            "keywords": "Meyoko small child~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small flesh",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

@@ -1,465 +1,14 @@
 {
-    "name": "Village of Port Llast",
+    "security": 10,
+    "recall_room_id": 55774,
     "id": "llast01",
-    "subroutines": [],
+    "objects": {},
+    "uid": "llast01",
     "rooms": {
-        "55780": {
-            "name": "Staircase in The Alliance Arms",
-            "description": [
-                "This is a small alcove in the Alliance Arms Inn away from the main",
-                "bar area to the west.  It houses a small spiral staircase that leads",
-                "up to the private rooms that are up for rent for any traveller passing",
-                "through the village.  "
-            ],
-            "flags_raw": "0 67108872 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55780",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55779"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55788"
-                }
-            },
-            "extras": {}
-        },
-        "55787": {
-            "name": "{BP{bort {BL{blast {BB{barracks{B: {WB{wunks{x",
-            "description": [
-                "This is where most of the soldiers sleep.  There is a long row of",
-                "beds along the back wall, and a foot locker for each soldier at the",
-                "end of their bed.  There is not much privacy as all the beds are next",
-                "to each other with no curtains or partitions of any kind.  To the",
-                "south is the mess hall and more bunks for additional soldiers are west",
-                "of here.  "
-            ],
-            "flags_raw": "0 67108872 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55787",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55786"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55785"
-                }
-            },
-            "extras": {}
-        },
-        "55752": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "The High Road runs through the centre of Port Llast.  To the",
-                "southwest a small path heads off to the cliffside edge.  The Harbour",
-                "of Port Llast can be seen along the road to the northwest.  Somewhere",
-                "to the south, the sounds of machinery or something like that can be",
-                "heard.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55752",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55759"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55753"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55751"
-                }
-            },
-            "extras": {}
-        },
-        "55756": {
-            "name": "{BP{bort {BL{blast {YB{yeach{x",
-            "description": [
-                "Accross the {YS{yands{x of the {YB{yeach{x, an {cI{Cc{Wy co{Cl{cd{x wind blows from the",
-                "west, the Sea of Swords.  Just over a small stretch of the sea past",
-                "the cliffs it is possible to see the ships docking in the harbour of",
-                "{BP{bort {BL{blast{x.  The {YB{yeach{x runs down to the south.  It doesnt look",
-                "possible to climb back up the cliffs here to the village.  "
-            ],
-            "flags_raw": "0 67108864 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55756",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55755"
-                }
-            },
-            "extras": {}
-        },
-        "55797": {
-            "name": "A ledge on the Cliffside",
-            "description": [
-                "Secluded along the cliffside above the beach of Port Llast, is a",
-                "small ledge.  There is little room to move, and no way back up the",
-                "cliff.  There is a small passageway below the ledge that might just",
-                "facilitate someone climbing down to safety.  "
-            ],
-            "flags_raw": "0 201334820 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55797",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55756"
-                }
-            },
-            "extras": {}
-        },
-        "55759": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "The Coastal Pathway, as the name suggests, runs right along the",
-                "edge of the clifftop, along the sword coast.  As with most of the",
-                "construction in this village, it is made from fine quality stone.  The",
-                "road slopes down to the north, towards the village centre and the",
-                "Harbour.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55759",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55760"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55752"
-                }
-            },
-            "extras": {}
-        },
-        "55794": {
-            "name": "{BU{Bm{Db{rer{Dl{Be{be{B'{bs B{Bl{De{rss{Di{Bn{bg A{Bf{Dt{x",
-            "description": [
-                "{yThis section of the boat is used to carry people accross the seas. ",
-                "Slaves, workers, merchants, anyone who wants cheap passage with no",
-                "questions asked.  There is a small shrine dedicated to {bU{Bm{Db{rer{Dl{Be{be{y, the",
-                "goddess of oceans, waves, and the sea.  Here sailors or passengers can",
-                "offer a prayer of safe voyage for their journey.  A rope ladder leads",
-                "up out of the boat.  {x "
-            ],
-            "flags_raw": "0 67108864 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55794",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55793"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55769"
-                }
-            },
-            "extras": {}
-        },
-        "55778": {
-            "name": "The Cracked Anvil",
-            "description": [
-                "It is quite dark in this shop.  There is much heat coming in from",
-                "the forge out the back of the shop.  Suits of armor fill racks in the",
-                "shop front, along with the occasional weapon.  A small fire lights the",
-                "room, with the smoke escaping through a large stone fireplace set near",
-                "the counter.  This is a good place to pick up some basic armor for",
-                "surviving the perils of the frozen north.  "
-            ],
-            "flags_raw": "0 67108876 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55778",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55776"
-                }
-            },
-            "extras": {}
-        },
-        "55788": {
-            "name": "The Alliance Arms Second Floor",
-            "description": [
-                "At the top of the spiral staircase, is a small corridor that runs",
-                "off to the west.  To the south is one of the rooms in the inn.  It is",
-                "the standard room for general travellers.  The Stone staircase spirals",
-                "back down to the main part of Alliance Arms Inn.  ",
-                " ",
-                "{R  _ {WN{wobleman{W'{ws {WR{woom   {CS{ctandard {CR{coom",
-                "{R |                          {R|",
-                "{R V                          {RV",
-                "{x"
-            ],
-            "flags_raw": "0 67108876 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55788",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55789"
-                },
-                "south": {
-                    "flags_raw": "55770",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55791"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55780"
-                }
-            },
-            "extras": {}
-        },
-        "55751": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "This is the main road running through Port Llast.  It runs along",
-                "the edge of the Sword Coast.  To the south the gates of the village",
-                "are protected by several guards.  The road curves along to the west,",
-                "where it runs closer to the cliff's edge.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55751",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55752"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55750"
-                }
-            },
-            "extras": {}
-        },
-        "55785": {
-            "name": "{BP{bort {BL{blast {BB{barracks{B: {WM{wess {WH{wall{x",
-            "description": [
-                "This is a large room with a long table that could seat over 100 men",
-                "running down the centre.  There are benches attatched to the floor so",
-                "that noone can throw them at someone else should a fight break out at",
-                "the table.  A serving hatch on the eastern wall allows soldiers to",
-                "collect their daily meals when they get hungry.  "
-            ],
-            "flags_raw": "0 67108872 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55785",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55787"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55784"
-                }
-            },
-            "extras": {}
-        },
-        "55754": {
-            "name": "Path to a Beach",
-            "description": [
-                "The pathway twists and turns as it reaches the edge of the",
-                "cliffside.  Looking over the edge, it is possible to see a quiet",
-                "beach, with golden sands, and the waves crashing into the edge.  There",
-                "is quite a chilly breeze on the edge of the cliffside.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55754",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55753"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55796"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55755"
-                }
-            },
-            "extras": {}
-        },
-        "55776": {
-            "name": "Wagon Way",
-            "description": [
-                "{wWagon Way terminates in a large cul-de-sac.  It is a large circle",
-                "used to allow very large wagons to turn round without getting stuck in",
-                "the road, and also leaves room for people to leave their carts while",
-                "they stay in the {Cinn {wwhich lies off road to the {Csouth{w.  A large",
-                "signpost with a {Ccracked anvil {won it points to the {Cnorth{w, showing the",
-                "blacksmith's workshop where armor can be purchased.  Over to the east",
-                "are several residential buildings and pathways that seem of little",
-                "interest to a typical adventurer.  Far off to the east, the edges of",
-                "the Neverwinter Woods can be seen.  "
-            ],
-            "flags_raw": "0 67108868 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55776",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55778"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55775"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55779"
-                }
-            },
-            "extras": {}
-        },
-        "55762": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "The High Road continues to run from south to north, towards the",
-                "gates of the village.  There is a wide road branching off to the east,",
-                "as usual in this village, made from well crafted cobblestones.  The",
-                "road is now quite high and as it rises up along the cliff side to the",
-                "west, ships arriving and departing from the harbour can be seen.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55762",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55761"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55763"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55775"
-                }
-            },
-            "extras": {}
-        },
         "55761": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
             "description": [
                 "The Coastal Pathway continues north towards the village gates.  To",
                 "the northeast, sounds of machinery and the clanging of metal can be",
@@ -467,30 +16,63 @@
                 "slope up to the north again, leading back up to the higher part of the",
                 "High Road.  "
             ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55761",
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55762",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55762"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55760",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55760"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55761"
+        },
+        "55774": {
+            "extras": {},
+            "flags_raw": "0 1032 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "The Jack and Saber is a below average tavern.  The air is filled",
+                "with a hazy smoke that dims the light and creates a darker ambiance. ",
+                "The ceiling is low, and taller patrons have to watch their heads on",
+                "the low oak beams that hold up the ceiling.  There are a few tables",
+                "with a few sorry folk drowning their woes, or quietly socialising with",
+                "a friend or two.  At the back of the tavern, a stocky looking man is",
+                "selling potent brews.  "
+            ],
+            "name": "The Jack and Saber",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55772",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "980",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55774"
         },
         "55790": {
-            "name": "Nobleman's Room",
+            "extras": {},
+            "flags_raw": "0 67109896 0 12",
+            "flags2_raw": "0",
             "description": [
                 "This is a magnificent room.  Paintings line the walls, a woven wool",
                 "carpet lines the floor, and there is a splendid view of Haeromos",
@@ -501,433 +83,242 @@
                 "also a large chest where you can store your valuables in the corner of",
                 "the room.  "
             ],
-            "flags_raw": "0 67109896 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55790",
+            "name": "Nobleman's Room",
             "exits": {
                 "north": {
                     "flags_raw": "55771",
+                    "room_id": "55789",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "55789"
-                }
-            },
-            "extras": {}
-        },
-        "55755": {
-            "name": "{BP{bort {BL{blast {YB{yeach{x",
-            "description": [
-                "At the bottom of a treacherous path down the cliffside is the {YB{yeach{x",
-                "of {BP{bort {BL{blast{x.  It is a small beach, with fine sands, weathered by the",
-                "waves of the Sea of Swords.  The stretch of the {Yb{yeach{x runs north to",
-                "south along the coastline.  "
-            ],
-            "flags_raw": "0 67108864 0 10",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55755",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55756"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55757"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55754"
-                }
-            },
-            "extras": {}
-        },
-        "55795": {
-            "name": "{BP{bort {BL{blast {BN{borth {BG{batehouse {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "Built into a massive stone wall, is a small gatehouse with heavy",
-                "security.  There are seige engines atop the stone wall, and many arrow",
-                "slits so that archers can attack potential enemies from all along the",
-                "walls.  There are also the protective wardstones, to prohibit entrance",
-                "to the village of animals and monsters.  The gatehouse leads north out",
-                "onto the northern heights of the High Road.  Back south is the centre",
-                "of the village, and the harbour.  "
-            ],
-            "flags_raw": "0 1275600900 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55795",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "30945"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55782"
-                }
-            },
-            "extras": {
-                "wardstones": {
-                    "description": [
-                        "{WTh{we {DSt{con{Ces{W a{wre{D p{cer{Cfe{Wct{wly{D r{wou{Wnd{w a{Dnd{c b{Cea{Wut{wif{Dul{wly",
-                        "{Wsm{woo{Dth{c. {CTh{Wey{w g{Dlo{cw {Cwi{Wth{w a{D p{wow{Wer{wfu{Dl {cma{Cgi{Wc {wpr{Dob{wab{Wly",
-                        "{Wcr{wea{Dte{cd {Cby{W s{wom{De {cve{Cry{W p{wow{Der{wfu{Wl {wan{Dd {cel{Cde{Wr {wel{Dve{wn",
-                        "{Wwi{wza{Drd{c. {CNo{W n{won{D-i{cnt{Cel{Wli{wge{Dnt{w c{Wre{wat{Dur{ce {Cma{Wy {wpa{Dss",
-                        "{Wth{wro{Dug{ch {Can{Wy {war{Dea{c p{Cro{Wte{wct{Ded{w b{Wy {wth{Des{ce {Cwa{Wrd{wst{Don{wes{W.",
                         ""
                     ]
                 }
-            }
-        },
-        "55771": {
-            "name": "Cobblestone Road",
-            "description": [
-                "{wThis road is built by the fine stonecutters of Port Llast.  The",
-                "stones are perfectly smooth and the road is lined with tall oak trees.",
-                "It runs east to the town's richly decorated mansion, home of Haeromos",
-                "Dothwintyl.  {x "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55771",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55760"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55772"
-                }
             },
-            "extras": {}
-        },
-        "55791": {
-            "name": "Standard Room",
-            "description": [
-                "This room is fairly nicely decorated with a couple of paintings on",
-                "the wall and animal firs on the floor.  There is a small bed in the",
-                "corner next to a window that overlooks Wagon Way.  There is a small",
-                "desk in the corner and a cupboard to leave equipment in.  The door is",
-                "made of oak, and leads north back to the stairwell.  "
-            ],
-            "flags_raw": "0 67108872 0 12",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55791",
-            "exits": {
-                "north": {
-                    "flags_raw": "55770",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55788"
-                }
-            },
-            "extras": {}
-        },
-        "55758": {
-            "name": "The Stone Quarry",
-            "description": [
-                "Port Llast is famous for it's stone cutters.  This is the main",
-                "entrance to the quarry where the stone is mined.  Wardstones are",
-                "magically placed into the ground in case anymining leads to some",
-                "underground monsters that could invade the village.  The quarry is",
-                "naturally bordered by the cliffs along the sword coast, and to the",
-                "west and the south, the sea of swords.  "
-            ],
-            "flags_raw": "0 1275076676 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55758",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55757"
-                }
-            },
-            "extras": {}
-        },
-        "55774": {
-            "name": "The Jack and Saber",
-            "description": [
-                "The Jack and Saber is a below average tavern.  The air is filled",
-                "with a hazy smoke that dims the light and creates a darker ambiance. ",
-                "The ceiling is low, and taller patrons have to watch their heads on",
-                "the low oak beams that hold up the ceiling.  There are a few tables",
-                "with a few sorry folk drowning their woes, or quietly socialising with",
-                "a friend or two.  At the back of the tavern, a stocky looking man is",
-                "selling potent brews.  "
-            ],
-            "flags_raw": "0 1032 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55774",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55772"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "980"
-                }
-            },
-            "extras": {}
-        },
-        "55764": {
-            "name": "{BP{bort {BL{blast {BH{barbor{x",
-            "description": [
-                "To the west of the High Road is the harbour road.  It is a small",
-                "pathway that runs north to south along the coastline.  There is a",
-                "constant hussle of dockers, sailors and other workmen all around the",
-                "harbour loading and unloading all the ships as they arrive.  A couple",
-                "of fairly large ships are moored along the north side of the harbour,",
-                "and to the south, the harbour master's office sits at the end of the",
-                "road.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55764",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55765"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55767"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55798"
-                }
-            },
-            "extras": {}
-        },
-        "55784": {
-            "name": "{BP{bort {BL{blast {BB{barracks{B: {WE{wntrance {WH{wall{x",
-            "description": [
-                "This is the main entrance hall of the barracks.  There is a large",
-                "stone circle in the centre where warriors can spar with eachother as",
-                "and when they choose.  There is the sound all around of soldiers",
-                "equipping themselves, checking weapons, chatting away with eachother",
-                "and the occasional arguement.  To the north are several bunks, and",
-                "there is a mess hall to the east.  The door to the south leads back",
-                "into the village.  "
-            ],
-            "flags_raw": "0 67108872 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55784",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55783"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55786"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55785"
-                }
-            },
-            "extras": {}
+            "vnum": "55790"
         },
         "55753": {
-            "name": "Path to a Beach",
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
             "description": [
                 "A small path twists off of the main high road running through Port",
                 "Llast.  It slopes down to the south, towards the Sword Coast, and down",
                 "to sea level.  It is possible to see the waves crashing onto the beach",
                 "down the bottom of the path below.  "
             ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55753",
+            "name": "Path to a Beach",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55754"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55752",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55752"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "55756",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55756"
-                }
-            },
-            "extras": {}
-        },
-        "55793": {
-            "name": "{BU{Bm{Db{rer{Dl{Be{be{B'{bs B{Bl{De{rss{Di{Bn{bg{x",
-            "description": [
-                "{yThis boat is a large vessel, capable of carrying over 100 large",
-                "crates.  There are several crates situated throughout this boat, they",
-                "have carried food supplies from the west to Port Llast, and will be",
-                "filled with goods from the quarry when it leaves.  The boat extends",
-                "further southward, into a small room at the aft of the boat.  {x "
-            ],
-            "flags_raw": "0 67108864 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55793",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55754",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55794"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55768": {
-            "name": "{BP{bort {BL{blast {BH{barbor{x",
-            "description": [
-                "The Road reaches its end here.  To the west, a smaller jetty allows",
-                "smaller class sailing vessels to load and unload their cargo.  The",
-                "rest of the harbour can be seen to the southwest, where great ships",
-                "can sail in all their splendour.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
             "wanted_area_vnum": "",
+            "vnum": "55753"
+        },
+        "55763": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
             "flags2_raw": "0",
-            "vnum": "55768",
+            "description": [
+                "The Coastal Pathway continues to follow the edge of the cliffside,",
+                "south to the village centre, and northwest to leave the town and head",
+                "off to the colder less inviting settlements of the north.  "
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55781",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55770"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55762",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55767"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55775": {
-            "name": "Wagon Way",
-            "description": [
-                "{wWagon Way, a smoothly stone cobbled, and rather wide road, runs",
-                "from west to east.  To the {Cnorth{w, a path leads to a large building",
-                "with the symbol of the flaming fist atop the door.  A sign points",
-                "{Csouth {wto {CWhaelgund's Wheelrace{w, the village's workshop for repairing",
-                "carts, wagons, and pretty much any road vehicle.  The only {Cinn {win Port",
-                "Llast is off to the {Ceast{w.  {x "
-            ],
-            "flags_raw": "0 67108864 0 11",
             "wanted_area_vnum": "",
+            "vnum": "55763"
+        },
+        "55796": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
             "flags2_raw": "0",
-            "vnum": "55775",
+            "description": [
+                "The pathway twists and turns as it reaches the edge of the",
+                "cliffside.  Looking over the edge, it is possible to see a quiet",
+                "beach, with golden sands, and the waves crashing into the edge.  There",
+                "is quite a chilly breeze on the edge of the cliffside.  "
+            ],
+            "name": "Path to a Beach",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55777"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55754",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55783"
+                    ]
                 },
-                "west": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "55757",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55762"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55796"
+        },
+        "55756": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "Accross the {YS{yands{x of the {YB{yeach{x, an {cI{Cc{Wy co{Cl{cd{x wind blows from the",
+                "west, the Sea of Swords.  Just over a small stretch of the sea past",
+                "the cliffs it is possible to see the ships docking in the harbour of",
+                "{BP{bort {BL{blast{x.  The {YB{yeach{x runs down to the south.  It doesnt look",
+                "possible to climb back up the cliffs here to the village.  "
+            ],
+            "name": "{BP{bort {BL{blast {YB{yeach{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55755",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55756"
+        },
+        "55781": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "As the road bends round to the east, it leaves a clear view of the",
+                "harbor to the south.  It is also possible to see waves crashing up",
+                "against the cliffs.  The village gates are not far ahead to the north,"
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55782",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55763",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55776"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55781"
+        },
+        "55794": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis section of the boat is used to carry people accross the seas. ",
+                "Slaves, workers, merchants, anyone who wants cheap passage with no",
+                "questions asked.  There is a small shrine dedicated to {bU{Bm{Db{rer{Dl{Be{be{y, the",
+                "goddess of oceans, waves, and the sea.  Here sailors or passengers can",
+                "offer a prayer of safe voyage for their journey.  A rope ladder leads",
+                "up out of the boat.  {x "
+            ],
+            "name": "{BU{Bm{Db{rer{Dl{Be{be{B'{bs B{Bl{De{rss{Di{Bn{bg A{Bf{Dt{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55793",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "55769",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55794"
+        },
+        "55752": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The High Road runs through the centre of Port Llast.  To the",
+                "southwest a small path heads off to the cliffside edge.  The Harbour",
+                "of Port Llast can be seen along the road to the northwest.  Somewhere",
+                "to the south, the sounds of machinery or something like that can be",
+                "heard.  "
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55759",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55751",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55753",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55752"
         },
         "55777": {
-            "name": "Whaelgund's Wheelrace",
+            "extras": {},
+            "flags_raw": "0 67108872 0 13",
+            "flags2_raw": "0",
             "description": [
                 "This is a rather large shop, and typical of the buildings in the",
                 "village, is built with large stone blocks.  The ceiling is very high,",
@@ -938,180 +329,234 @@
                 "the carts that fall prey to ware and tear, or attacks by the orcs and",
                 "goblins from Neverwinter Woods.  "
             ],
-            "flags_raw": "0 67108872 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55777",
+            "name": "Whaelgund's Wheelrace",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55775",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55775"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55779": {
-            "name": "The Alliance Arms",
-            "description": [
-                "This is the only Inn in Port Llast, and so, it is not the best",
-                "quality.  The main bar here is the style of an old farmhouse.  There",
-                "are large oak beams supporting the ceiling, and a very rustic feel to",
-                "the decor.  The tables are all made from the oak trees common in the",
-                "village.  To the east a large staircase leads to the rooms where weary",
-                "travellers can rest the night before continuing their travells to the",
-                "north.  "
-            ],
-            "flags_raw": "0 67108872 0 12",
             "wanted_area_vnum": "",
+            "vnum": "55777"
+        },
+        "55759": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "55779",
+            "description": [
+                "The Coastal Pathway, as the name suggests, runs right along the",
+                "edge of the clifftop, along the sword coast.  As with most of the",
+                "construction in this village, it is made from fine quality stone.  The",
+                "road slopes down to the north, towards the village centre and the",
+                "Harbour.  "
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55760",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55776"
+                    ]
                 },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55780"
-                }
-            },
-            "extras": {}
-        },
-        "55786": {
-            "name": "{BP{bort {BL{blast {BB{barracks{B: {WB{wunks{x",
-            "description": [
-                "This is where most of the soldiers sleep.  There is a long row of",
-                "beds along the back wall, and a foot locker for each soldier at the",
-                "end of their bed.  There is not much privacy as all the beds are next",
-                "to each other with no curtains or partitions of any kind.  To the",
-                "south is the main entrance hall, and more bunks for additional",
-                "soldiers are east of here.  "
-            ],
-            "flags_raw": "0 67108872 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55786",
-            "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55752",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55784"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55787"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55767": {
-            "name": "{BP{bort {BL{blast {BH{barbor{x",
-            "description": [
-                "The harbour road runs northward towards the edge of the inlet in",
-                "the cliffs that has allowed this harbour to be built.  To the west,",
-                "ships can be seen sailing in and out of the harbour quite often. ",
-                "There is a large ship moored to the west of here along the pier.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
             "wanted_area_vnum": "",
+            "vnum": "55759"
+        },
+        "55760": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "55767",
+            "description": [
+                "This is the centre of the village of Port Llast.  There is very",
+                "little activity for a village centre.  People tend to keep to",
+                "themselves in this village.  The constant threat of attack from",
+                "Luskan, or dangerous monsters make this village like a ghost town. ",
+                "People go about their business only when necessary.  To the west is",
+                "the harbour, where most of the villagers who dont work in the quarries",
+                "work.  To the east, a small path leads to the mansion of Haeromos",
+                "Dothwintyl, the man in charge of keeping the village safe.  The",
+                "Coastal Pathway continues to the north.  "
+            ],
+            "name": "The Village Centre {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55761",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55768"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55771",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55798",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55769"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "55759",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55764"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55757": {
-            "name": "{BP{bort {BL{blast {YB{yeach{x",
-            "description": [
-                "The {YB{yeach{x curves east, hugging the coastling tightly.  {BW{ca{Cv{ce{Bs{x crash",
-                "all along the sandy {YB{yeach{x bringing a {cc{Co{Wld wi{Cn{cd{x.  To the east is the",
-                "main entrance to the stone quarry, where stones are worked into",
-                "whatever is needed, be it bricks for a wall, or slabs for a road.  "
-            ],
-            "flags_raw": "0 67108864 0 10",
             "wanted_area_vnum": "",
+            "vnum": "55760"
+        },
+        "55771": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
             "flags2_raw": "0",
-            "vnum": "55757",
+            "description": [
+                "{wThis road is built by the fine stonecutters of Port Llast.  The",
+                "stones are perfectly smooth and the road is lined with tall oak trees.",
+                "It runs east to the town's richly decorated mansion, home of Haeromos",
+                "Dothwintyl.  {x "
+            ],
+            "name": "Cobblestone Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55772",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55760",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55771"
+        },
+        "55784": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is the main entrance hall of the barracks.  There is a large",
+                "stone circle in the centre where warriors can spar with eachother as",
+                "and when they choose.  There is the sound all around of soldiers",
+                "equipping themselves, checking weapons, chatting away with eachother",
+                "and the occasional arguement.  To the north are several bunks, and",
+                "there is a mess hall to the east.  The door to the south leads back",
+                "into the village.  "
+            ],
+            "name": "{BP{bort {BL{blast {BB{barracks{B: {WE{wntrance {WH{wall{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55786",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55755"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55785",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55758"
-                }
-            },
-            "extras": {}
-        },
-        "55769": {
-            "name": "{BP{bort {BL{blast {BH{barbor{x",
-            "description": [
-                "Just off the south side of this pier, a large boat is moored.  It",
-                "is called Umberlee's Blessing, and is a large cargo ship taking crates",
-                "of supplies accross the Sea of Swords.  The pier itself is built atop",
-                "huge stone pillars that sink for what could be miles under the sea",
-                "surface, an example of the fine craftsmanship of the stonecutters in",
-                "Port Llast.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55769",
-            "exits": {
-                "east": {
+                    ]
+                },
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "55783",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55767"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55784"
+        },
+        "55791": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This room is fairly nicely decorated with a couple of paintings on",
+                "the wall and animal firs on the floor.  There is a small bed in the",
+                "corner next to a window that overlooks Wagon Way.  There is a small",
+                "desk in the corner and a cupboard to leave equipment in.  The door is",
+                "made of oak, and leads north back to the stairwell.  "
+            ],
+            "name": "Standard Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "55770",
+                    "room_id": "55788",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55791"
+        },
+        "55754": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The pathway twists and turns as it reaches the edge of the",
+                "cliffside.  Looking over the edge, it is possible to see a quiet",
+                "beach, with golden sands, and the waves crashing into the edge.  There",
+                "is quite a chilly breeze on the edge of the cliffside.  "
+            ],
+            "name": "Path to a Beach",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55753",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "55755",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55796",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55754"
         },
         "55789": {
-            "name": "The Alliance Arms Second Floor",
+            "extras": {},
+            "flags_raw": "0 67108872 0 12",
+            "flags2_raw": "0",
             "description": [
                 "The corridor comes to an end here.  To the south there is an oak",
                 "door with a strong lock on it.  The corridor runs back to the east and",
@@ -1122,30 +567,104 @@
                 "{R      V                           V",
                 "{x"
             ],
-            "flags_raw": "0 67108872 0 12",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55789",
+            "name": "The Alliance Arms Second Floor",
             "exits": {
-                "south": {
-                    "flags_raw": "55771",
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55788",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55790"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "55771",
+                    "room_id": "55790",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55789"
+        },
+        "55762": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The High Road continues to run from south to north, towards the",
+                "gates of the village.  There is a wide road branching off to the east,",
+                "as usual in this village, made from well crafted cobblestones.  The",
+                "road is now quite high and as it rises up along the cliff side to the",
+                "west, ships arriving and departing from the harbour can be seen.  "
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55763",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55775",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55788"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55761",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55762"
+        },
+        "55772": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The fine cobblestone road continues towards the mansion of Haeromos",
+                "Dothwintyl.  It can be seen just over to the east.  To the south,",
+                "behind the tall oak trees is a small tavern, the Jack and Saber.  "
+            ],
+            "name": "Cobblestone Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55773",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55771",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55774",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55772"
         },
         "55750": {
-            "name": "{BP{bort {BL{blast {BS{bouth {BG{bates {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "extras": {},
+            "flags_raw": "0 1207967748 0 11",
+            "flags2_raw": "0",
             "description": [
                 "This is the south gates to the small village of {BP{bort {BL{blast{x.  To the",
                 "west and the east, a large stone wall surrounds the village,",
@@ -1157,316 +676,232 @@
                 "These wards typically prevent certain creatures, such as wolves and",
                 "orcs, from passing through them.  "
             ],
-            "flags_raw": "0 1207967748 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55750",
+            "name": "{BP{bort {BL{blast {BS{bouth {BG{bates {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55751",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55751"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "30943",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "30943"
-                }
-            },
-            "extras": {}
-        },
-        "55763": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "The Coastal Pathway continues to follow the edge of the cliffside,",
-                "south to the village centre, and northwest to leave the town and head",
-                "off to the colder less inviting settlements of the north.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55763",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55781"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55762"
-                }
-            },
-            "extras": {}
-        },
-        "55796": {
-            "name": "Path to a Beach",
-            "description": [
-                "The pathway twists and turns as it reaches the edge of the",
-                "cliffside.  Looking over the edge, it is possible to see a quiet",
-                "beach, with golden sands, and the waves crashing into the edge.  There",
-                "is quite a chilly breeze on the edge of the cliffside.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55796",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55754"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55757"
-                }
-            },
-            "extras": {}
-        },
-        "55792": {
-            "name": "Merchant's Boat",
-            "description": [
-                "{yYou find yourself inside a small boat.  There are a few crates with",
-                "nothing important left in them.  A fine wooden hull is visible behind",
-                "several maps of distant lands.  There is a ladder near the mast in the",
-                "centre of the boat that will allow people to leave the boat{x  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55792",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55770"
-                }
-            },
-            "extras": {}
-        },
-        "55781": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "As the road bends round to the east, it leaves a clear view of the",
-                "harbor to the south.  It is also possible to see waves crashing up",
-                "against the cliffs.  The village gates are not far ahead to the north,"
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55781",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55782"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55763"
-                }
-            },
-            "extras": {}
-        },
-        "55765": {
-            "name": "{BP{bort {BL{blast {BH{barbor{x",
-            "description": [
-                "The harbour road reaches its end here.  To the west is the harbour",
-                "master's office.  The rest of the harbour lies to the north.  As the",
-                "harbour is set in a small valley in the cliffs of the sword coast,",
-                "nothing but unscaleable rocks can be seen to the south and east.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55765",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55764"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55766"
-                }
-            },
-            "extras": {}
-        },
-        "55770": {
-            "name": "{BP{bort {BL{blast {BH{barbor{x",
-            "description": [
-                "This is a smaller jetty where a boat can moor itself.  It is made",
-                "of tough oak wood, and the pillars supporting it go deep into the sea",
-                "bed.  It is very cold and the wind from the sword coast makes even the",
-                "toughest of men feel a chattering cold down to their bones.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55770",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55768"
-                }
-            },
-            "extras": {}
-        },
-        "55772": {
-            "name": "Cobblestone Road",
-            "description": [
-                "The fine cobblestone road continues towards the mansion of Haeromos",
-                "Dothwintyl.  It can be seen just over to the east.  To the south,",
-                "behind the tall oak trees is a small tavern, the Jack and Saber.  "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55772",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55774"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55771"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55773"
-                }
-            },
-            "extras": {}
-        },
-        "55773": {
-            "name": "The gates to A Mansion",
-            "description": [
-                "To the east lies a large mansion.  It is the home of First Captain",
-                "Haeromos Dothwintyl, the man who is in charge of the village.  The",
-                "gates are closed and locked, and more of the familiar magical wards",
-                "can be seen protecting the gates so that noone may enter.  Back to the",
-                "west, Cobblestone Road leads back to the centre of the village.  "
-            ],
-            "flags_raw": "0 1275076672 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "55773",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55772"
-                }
-            },
-            "extras": {
-                "wardstones": {
-                    "description": [
-                        "{WTh{we {DSt{con{Ces{W a{wre{D p{cer{Cfe{Wct{wly{D r{wou{Wnd{w a{Dnd{c b{Cea{Wut{wif{Dul{wly",
-                        "{Wsm{woo{Dth{c. {CTh{Wey{w g{Dlo{cw {Cwi{Wth{w a{D p{wow{Wer{wfu{Dl {cma{Cgi{Wc {wpr{Dob{wab{Wly",
-                        "{Wcr{wea{Dte{cd {Cby{W s{wom{De {cve{Cry{W p{wow{Der{wfu{Wl {wan{Dd {cel{Cde{Wr {wel{Dve{wn",
-                        "{Wwi{wza{Drd{c. {CNo{W n{won{D-i{cnt{Cel{Wli{wge{Dnt{w c{Wre{wat{Dur{ce {Cma{Wy {wpa{Dss",
-                        "{Wth{wro{Dug{ch {Can{Wy {war{Dea{c p{Cro{Wte{wct{Ded{w b{Wy {wth{Des{ce {Cwa{Wrd{wst{Don{wes{W.",
                         ""
                     ]
                 }
-            }
-        },
-        "55783": {
-            "name": "Pathway to The Barracks",
-            "description": [
-                "A stone roadway runs north here to a large building, housing",
-                "several troops from the cities of Baldur's Gate and Neverwinter.  They",
-                "are stationed here to discourage attack from the pirate controlled",
-                "town of Luskan, and to protect the town from any other attacks.  "
-            ],
-            "flags_raw": "0 67108868 0 11",
+            },
             "wanted_area_vnum": "",
+            "vnum": "55750"
+        },
+        "55757": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 10",
             "flags2_raw": "0",
-            "vnum": "55783",
+            "description": [
+                "The {YB{yeach{x curves east, hugging the coastling tightly.  {BW{ca{Cv{ce{Bs{x crash",
+                "all along the sandy {YB{yeach{x bringing a {cc{Co{Wld wi{Cn{cd{x.  To the east is the",
+                "main entrance to the stone quarry, where stones are worked into",
+                "whatever is needed, be it bricks for a wall, or slabs for a road.  "
+            ],
+            "name": "{BP{bort {BL{blast {YB{yeach{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55755",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55784"
+                    ]
                 },
-                "south": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "55758",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55775"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55766": {
-            "name": "Harbour Master's Office",
-            "description": [
-                "This office must be one of the few buildings in Port Llast that",
-                "isnt made from stone.  It is build from oak wood, like an old log",
-                "cabin in the woods.  Shelves with sea charts and other nautical",
-                "information line the back walls, and a large desk takes up the centre",
-                "of the office.  Through a window to the north, the harbour in it's",
-                "splendour is visible.  "
-            ],
-            "flags_raw": "0 67108872 0 1",
             "wanted_area_vnum": "",
+            "vnum": "55757"
+        },
+        "55769": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
             "flags2_raw": "0",
-            "vnum": "55766",
+            "description": [
+                "Just off the south side of this pier, a large boat is moored.  It",
+                "is called Umberlee's Blessing, and is a large cargo ship taking crates",
+                "of supplies accross the Sea of Swords.  The pier itself is built atop",
+                "huge stone pillars that sink for what could be miles under the sea",
+                "surface, an example of the fine craftsmanship of the stonecutters in",
+                "Port Llast.  "
+            ],
+            "name": "{BP{bort {BL{blast {BH{barbor{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55767",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55765"
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "55769"
+        },
+        "55778": {
+            "extras": {},
+            "flags_raw": "0 67108876 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "It is quite dark in this shop.  There is much heat coming in from",
+                "the forge out the back of the shop.  Suits of armor fill racks in the",
+                "shop front, along with the occasional weapon.  A small fire lights the",
+                "room, with the smoke escaping through a large stone fireplace set near",
+                "the counter.  This is a good place to pick up some basic armor for",
+                "surviving the perils of the frozen north.  "
+            ],
+            "name": "The Cracked Anvil",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55776",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55778"
+        },
+        "55797": {
+            "extras": {},
+            "flags_raw": "0 201334820 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "Secluded along the cliffside above the beach of Port Llast, is a",
+                "small ledge.  There is little room to move, and no way back up the",
+                "cliff.  There is a small passageway below the ledge that might just",
+                "facilitate someone climbing down to safety.  "
+            ],
+            "name": "A ledge on the Cliffside",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "55756",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55797"
+        },
+        "55782": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The road runs from south to north, with many large boulders along",
+                "the side of the road.  They are remains of the old village wall, that",
+                "was used to protect the village from raiders.  It did not withstand an",
+                "old assault and has had to be rebuilt with finances from Neverwinter",
+                "and Baldur's Gate.  There are sounds of several guards at the gates to",
+                "the north.  "
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55795",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55781",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55782"
+        },
+        "55793": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis boat is a large vessel, capable of carrying over 100 large",
+                "crates.  There are several crates situated throughout this boat, they",
+                "have carried food supplies from the west to Port Llast, and will be",
+                "filled with goods from the quarry when it leaves.  The boat extends",
+                "further southward, into a small room at the aft of the boat.  {x "
+            ],
+            "name": "{BU{Bm{Db{rer{Dl{Be{be{B'{bs B{Bl{De{rss{Di{Bn{bg{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55794",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55793"
+        },
+        "55775": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "{wWagon Way, a smoothly stone cobbled, and rather wide road, runs",
+                "from west to east.  To the {Cnorth{w, a path leads to a large building",
+                "with the symbol of the flaming fist atop the door.  A sign points",
+                "{Csouth {wto {CWhaelgund's Wheelrace{w, the village's workshop for repairing",
+                "carts, wagons, and pretty much any road vehicle.  The only {Cinn {win Port",
+                "Llast is off to the {Ceast{w.  {x "
+            ],
+            "name": "Wagon Way",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55783",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55776",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55762",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55777",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55775"
+        },
+        "55766": {
             "extras": {
                 "window": {
                     "description": [
@@ -1481,104 +916,671 @@
                         ""
                     ]
                 }
-            }
-        },
-        "55782": {
-            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "The road runs from south to north, with many large boulders along",
-                "the side of the road.  They are remains of the old village wall, that",
-                "was used to protect the village from raiders.  It did not withstand an",
-                "old assault and has had to be rebuilt with finances from Neverwinter",
-                "and Baldur's Gate.  There are sounds of several guards at the gates to",
-                "the north.  "
-            ],
-            "flags_raw": "0 67108864 0 11",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 67108872 0 1",
             "flags2_raw": "0",
-            "vnum": "55782",
+            "description": [
+                "This office must be one of the few buildings in Port Llast that",
+                "isnt made from stone.  It is build from oak wood, like an old log",
+                "cabin in the woods.  Shelves with sea charts and other nautical",
+                "information line the back walls, and a large desk takes up the centre",
+                "of the office.  Through a window to the north, the harbour in it's",
+                "splendour is visible.  "
+            ],
+            "name": "Harbour Master's Office",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "55765",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55795"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "55781"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "55760": {
-            "name": "The Village Centre {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
-            "description": [
-                "This is the centre of the village of Port Llast.  There is very",
-                "little activity for a village centre.  People tend to keep to",
-                "themselves in this village.  The constant threat of attack from",
-                "Luskan, or dangerous monsters make this village like a ghost town. ",
-                "People go about their business only when necessary.  To the west is",
-                "the harbour, where most of the villagers who dont work in the quarries",
-                "work.  To the east, a small path leads to the mansion of Haeromos",
-                "Dothwintyl, the man in charge of keeping the village safe.  The",
-                "Coastal Pathway continues to the north.  "
-            ],
-            "flags_raw": "0 0 0 11",
             "wanted_area_vnum": "",
+            "vnum": "55766"
+        },
+        "55770": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
             "flags2_raw": "0",
-            "vnum": "55760",
+            "description": [
+                "This is a smaller jetty where a boat can moor itself.  It is made",
+                "of tough oak wood, and the pillars supporting it go deep into the sea",
+                "bed.  It is very cold and the wind from the sword coast makes even the",
+                "toughest of men feel a chattering cold down to their bones.  "
+            ],
+            "name": "{BP{bort {BL{blast {BH{barbor{x",
             "exits": {
-                "south": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "55768",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55759"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55770"
+        },
+        "55765": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The harbour road reaches its end here.  To the west is the harbour",
+                "master's office.  The rest of the harbour lies to the north.  As the",
+                "harbour is set in a small valley in the cliffs of the sword coast,",
+                "nothing but unscaleable rocks can be seen to the south and east.  "
+            ],
+            "name": "{BP{bort {BL{blast {BH{barbor{x",
+            "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "55764",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55761"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "55766",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55798"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55765"
+        },
+        "55751": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "This is the main road running through Port Llast.  It runs along",
+                "the edge of the Sword Coast.  To the south the gates of the village",
+                "are protected by several guards.  The road curves along to the west,",
+                "where it runs closer to the cliff's edge.  "
+            ],
+            "name": "The Coastal Pathway {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55752",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55750",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55751"
+        },
+        "55783": {
+            "extras": {},
+            "flags_raw": "0 67108868 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "A stone roadway runs north here to a large building, housing",
+                "several troops from the cities of Baldur's Gate and Neverwinter.  They",
+                "are stationed here to discourage attack from the pirate controlled",
+                "town of Luskan, and to protect the town from any other attacks.  "
+            ],
+            "name": "Pathway to The Barracks",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55784",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55775",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55783"
+        },
+        "55780": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This is a small alcove in the Alliance Arms Inn away from the main",
+                "bar area to the west.  It houses a small spiral staircase that leads",
+                "up to the private rooms that are up for rent for any traveller passing",
+                "through the village.  "
+            ],
+            "name": "Staircase in The Alliance Arms",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "55788",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55779",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55780"
+        },
+        "55768": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The Road reaches its end here.  To the west, a smaller jetty allows",
+                "smaller class sailing vessels to load and unload their cargo.  The",
+                "rest of the harbour can be seen to the southwest, where great ships",
+                "can sail in all their splendour.  "
+            ],
+            "name": "{BP{bort {BL{blast {BH{barbor{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55770",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55767",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55768"
+        },
+        "55767": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The harbour road runs northward towards the edge of the inlet in",
+                "the cliffs that has allowed this harbour to be built.  To the west,",
+                "ships can be seen sailing in and out of the harbour quite often. ",
+                "There is a large ship moored to the west of here along the pier.  "
+            ],
+            "name": "{BP{bort {BL{blast {BH{barbor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55768",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55769",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55764",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55767"
+        },
+        "55758": {
+            "extras": {},
+            "flags_raw": "0 1275076676 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "Port Llast is famous for it's stone cutters.  This is the main",
+                "entrance to the quarry where the stone is mined.  Wardstones are",
+                "magically placed into the ground in case anymining leads to some",
+                "underground monsters that could invade the village.  The quarry is",
+                "naturally bordered by the cliffs along the sword coast, and to the",
+                "west and the south, the sea of swords.  "
+            ],
+            "name": "The Stone Quarry",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55757",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55758"
+        },
+        "55779": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "This is the only Inn in Port Llast, and so, it is not the best",
+                "quality.  The main bar here is the style of an old farmhouse.  There",
+                "are large oak beams supporting the ceiling, and a very rustic feel to",
+                "the decor.  The tables are all made from the oak trees common in the",
+                "village.  To the east a large staircase leads to the rooms where weary",
+                "travellers can rest the night before continuing their travells to the",
+                "north.  "
+            ],
+            "name": "The Alliance Arms",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55776",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "55780",
                     "description": [
                         ""
-                    ],
-                    "room_id": "55771"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "55779"
+        },
+        "55755": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 10",
+            "flags2_raw": "0",
+            "description": [
+                "At the bottom of a treacherous path down the cliffside is the {YB{yeach{x",
+                "of {BP{bort {BL{blast{x.  It is a small beach, with fine sands, weathered by the",
+                "waves of the Sea of Swords.  The stretch of the {Yb{yeach{x runs north to",
+                "south along the coastline.  "
+            ],
+            "name": "{BP{bort {BL{blast {YB{yeach{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55756",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "55754",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55757",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55755"
+        },
+        "55792": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{yYou find yourself inside a small boat.  There are a few crates with",
+                "nothing important left in them.  A fine wooden hull is visible behind",
+                "several maps of distant lands.  There is a ladder near the mast in the",
+                "centre of the boat that will allow people to leave the boat{x  "
+            ],
+            "name": "Merchant's Boat",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "55770",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55792"
+        },
+        "55788": {
+            "extras": {},
+            "flags_raw": "0 67108876 0 12",
+            "flags2_raw": "0",
+            "description": [
+                "At the top of the spiral staircase, is a small corridor that runs",
+                "off to the west.  To the south is one of the rooms in the inn.  It is",
+                "the standard room for general travellers.  The Stone staircase spirals",
+                "back down to the main part of Alliance Arms Inn.  ",
+                " ",
+                "{R  _ {WN{wobleman{W'{ws {WR{woom   {CS{ctandard {CR{coom",
+                "{R |                          {R|",
+                "{R V                          {RV",
+                "{x"
+            ],
+            "name": "The Alliance Arms Second Floor",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55789",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "55780",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "55770",
+                    "room_id": "55791",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55788"
+        },
+        "55787": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is where most of the soldiers sleep.  There is a long row of",
+                "beds along the back wall, and a foot locker for each soldier at the",
+                "end of their bed.  There is not much privacy as all the beds are next",
+                "to each other with no curtains or partitions of any kind.  To the",
+                "south is the mess hall and more bunks for additional soldiers are west",
+                "of here.  "
+            ],
+            "name": "{BP{bort {BL{blast {BB{barracks{B: {WB{wunks{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55786",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55785",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55787"
+        },
+        "55786": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is where most of the soldiers sleep.  There is a long row of",
+                "beds along the back wall, and a foot locker for each soldier at the",
+                "end of their bed.  There is not much privacy as all the beds are next",
+                "to each other with no curtains or partitions of any kind.  To the",
+                "south is the main entrance hall, and more bunks for additional",
+                "soldiers are east of here.  "
+            ],
+            "name": "{BP{bort {BL{blast {BB{barracks{B: {WB{wunks{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55787",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55784",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55786"
+        },
+        "55764": {
+            "extras": {},
+            "flags_raw": "0 67108864 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "To the west of the High Road is the harbour road.  It is a small",
+                "pathway that runs north to south along the coastline.  There is a",
+                "constant hussle of dockers, sailors and other workmen all around the",
+                "harbour loading and unloading all the ships as they arrive.  A couple",
+                "of fairly large ships are moored along the north side of the harbour,",
+                "and to the south, the harbour master's office sits at the end of the",
+                "road.  "
+            ],
+            "name": "{BP{bort {BL{blast {BH{barbor{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55767",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "55798",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55765",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55764"
+        },
+        "55776": {
+            "extras": {},
+            "flags_raw": "0 67108868 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "{wWagon Way terminates in a large cul-de-sac.  It is a large circle",
+                "used to allow very large wagons to turn round without getting stuck in",
+                "the road, and also leaves room for people to leave their carts while",
+                "they stay in the {Cinn {wwhich lies off road to the {Csouth{w.  A large",
+                "signpost with a {Ccracked anvil {won it points to the {Cnorth{w, showing the",
+                "blacksmith's workshop where armor can be purchased.  Over to the east",
+                "are several residential buildings and pathways that seem of little",
+                "interest to a typical adventurer.  Far off to the east, the edges of",
+                "the Neverwinter Woods can be seen.  "
+            ],
+            "name": "Wagon Way",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55778",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55775",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55779",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55776"
+        },
+        "55795": {
+            "extras": {
+                "wardstones": {
+                    "description": [
+                        "{WTh{we {DSt{con{Ces{W a{wre{D p{cer{Cfe{Wct{wly{D r{wou{Wnd{w a{Dnd{c b{Cea{Wut{wif{Dul{wly",
+                        "{Wsm{woo{Dth{c. {CTh{Wey{w g{Dlo{cw {Cwi{Wth{w a{D p{wow{Wer{wfu{Dl {cma{Cgi{Wc {wpr{Dob{wab{Wly",
+                        "{Wcr{wea{Dte{cd {Cby{W s{wom{De {cve{Cry{W p{wow{Der{wfu{Wl {wan{Dd {cel{Cde{Wr {wel{Dve{wn",
+                        "{Wwi{wza{Drd{c. {CNo{W n{won{D-i{cnt{Cel{Wli{wge{Dnt{w c{Wre{wat{Dur{ce {Cma{Wy {wpa{Dss",
+                        "{Wth{wro{Dug{ch {Can{Wy {war{Dea{c p{Cro{Wte{wct{Ded{w b{Wy {wth{Des{ce {Cwa{Wrd{wst{Don{wes{W.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1275600900 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "Built into a massive stone wall, is a small gatehouse with heavy",
+                "security.  There are seige engines atop the stone wall, and many arrow",
+                "slits so that archers can attack potential enemies from all along the",
+                "walls.  There are also the protective wardstones, to prohibit entrance",
+                "to the village of animals and monsters.  The gatehouse leads north out",
+                "onto the northern heights of the High Road.  Back south is the centre",
+                "of the village, and the harbour.  "
+            ],
+            "name": "{BP{bort {BL{blast {BN{borth {BG{batehouse {r-{y+{r-{yT{rh{ye Hi{rg{yh R{ro{yad{r-{y+{r-{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "30945",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "55782",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55795"
+        },
+        "55785": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is a large room with a long table that could seat over 100 men",
+                "running down the centre.  There are benches attatched to the floor so",
+                "that noone can throw them at someone else should a fight break out at",
+                "the table.  A serving hatch on the eastern wall allows soldiers to",
+                "collect their daily meals when they get hungry.  "
+            ],
+            "name": "{BP{bort {BL{blast {BB{barracks{B: {WM{wess {WH{wall{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "55787",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55784",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55785"
+        },
+        "55773": {
+            "extras": {
+                "wardstones": {
+                    "description": [
+                        "{WTh{we {DSt{con{Ces{W a{wre{D p{cer{Cfe{Wct{wly{D r{wou{Wnd{w a{Dnd{c b{Cea{Wut{wif{Dul{wly",
+                        "{Wsm{woo{Dth{c. {CTh{Wey{w g{Dlo{cw {Cwi{Wth{w a{D p{wow{Wer{wfu{Dl {cma{Cgi{Wc {wpr{Dob{wab{Wly",
+                        "{Wcr{wea{Dte{cd {Cby{W s{wom{De {cve{Cry{W p{wow{Der{wfu{Wl {wan{Dd {cel{Cde{Wr {wel{Dve{wn",
+                        "{Wwi{wza{Drd{c. {CNo{W n{won{D-i{cnt{Cel{Wli{wge{Dnt{w c{Wre{wat{Dur{ce {Cma{Wy {wpa{Dss",
+                        "{Wth{wro{Dug{ch {Can{Wy {war{Dea{c p{Cro{Wte{wct{Ded{w b{Wy {wth{Des{ce {Cwa{Wrd{wst{Don{wes{W.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1275076672 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "To the east lies a large mansion.  It is the home of First Captain",
+                "Haeromos Dothwintyl, the man who is in charge of the village.  The",
+                "gates are closed and locked, and more of the familiar magical wards",
+                "can be seen protecting the gates so that noone may enter.  Back to the",
+                "west, Cobblestone Road leads back to the centre of the village.  "
+            ],
+            "name": "The gates to A Mansion",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "55772",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "55773"
         }
     },
-    "uid": "llast01",
-    "area_quest_points": 0,
     "credits": "[10 FR 50] Village of Port Llast",
     "faction_id": "",
+    "name": "Village of Port Llast",
     "vnums": [
         55750,
         55799
     ],
-    "recall_room_id": 55774,
-    "objects": {},
-    "security": 10,
+    "realm_id": 1,
+    "subroutines": [],
     "mobiles": {
         "55750": {
-            "name": "Jack the Bartender~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A man stands before you 5'3\" tall.  He is very stockily built, a\n",
                 "strong man with large muscles petruding through his tatterd shirt.  He\n",
@@ -1588,26 +1590,26 @@
                 "flames.  \n"
             ],
             "raw_flags5": "stand stand none 10000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55750,
             "raw_flags": "AB DF 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABa 0 0",
+            "room_name": "A short stocky bartender stands behind the bar ready to serve his customers.\n",
+            "name": "Jack the Bartender~\n",
             "raw_flags2": "120 0 99d99+9999 99d99+9999 99d99+9999 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "bartender~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A short stocky bartender stands behind the bar ready to serve his customers.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "bartender~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55751": {
-            "name": "Whaelgund~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Whaelgund is a stout jolly fellow, human, but with typical\n",
                 "mannerisms of a dwarf.  He is constantly telling jokes, singing, and\n",
@@ -1616,40 +1618,39 @@
                 "cold.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55751,
             "raw_flags": "AB DF 0 500 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABa 0 0",
+            "room_name": "Whaelgund is here selling and repairing wagons and carts.\n",
+            "name": "Whaelgund~\n",
             "raw_flags2": "120 0 99d99+99 99d99+99 99d99+99 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Whaelgund~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Whaelgund is here selling and repairing wagons and carts.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "Whaelgund~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55752": {
-            "name": "Haljal Throndor~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A dwarf about 4ft tall stands before you.  He is wearing some of\n",
                 "his work, a suit of chainmail armor mainly to show his quality work.  \n"
             ],
             "raw_flags5": "stand stand male 1000000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55752,
             "raw_flags": "AB DF 0 600 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABa 0 0",
+            "room_name": "Haljal Throndor The Blacksmith is here selling his goods.\n",
+            "name": "Haljal Throndor~\n",
             "raw_flags2": "120 0 99d99+99 99d99+99 99d99+99 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "haljal throndor blacksmith~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -1657,39 +1658,39 @@
                 "M SPEECH 55754 reformed~\n",
                 "M SPEECH 55752 staff of revelation~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Haljal Throndor The Blacksmith is here selling his goods.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "haljal throndor blacksmith~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55753": {
-            "name": "a serving wench~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A beautiful 5'4\" woman stands behind the bar wearing a low cut\n",
                 "white silk blouse.  Sheis probably wearing other things, but her low\n",
                 "cut blouse is enough to distract anyone's attention.  \n"
             ],
             "raw_flags5": "stand stand female 10000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55753,
             "raw_flags": "AB 0 0 400 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABa 0 0",
+            "room_name": "A Beautiful serving wench stands behind the bar waiting your orders.\n",
+            "name": "a serving wench~\n",
             "raw_flags2": "0 0 99d99+99 99d99+99 99d99+99 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "serving wench~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Beautiful serving wench stands behind the bar waiting your orders.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "serving wench~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55754": {
-            "name": "the Innkeeper~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A tall fellow, this innkeeper is around 6'1\" tall.  He is a\n",
                 "halfelf, but that is only noticeable by his pointed ears, otherwise to\n",
@@ -1697,62 +1698,62 @@
                 "in his chair talking to the patrons of the inn.  \n"
             ],
             "raw_flags5": "sit sit male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABa BF 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55754,
             "raw_flags": "AB DFL 0 0 0",
-            "race_id": "halfelf",
-            "raw_flags2": "120 0 99d99+99 99d99+99 99d99+99 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABa BF 0",
             "room_name": "The Innkeeper sits here in his chair selling keys to the rooms.\n",
-            "keywords": "innkeeper~\n"
+            "name": "the Innkeeper~\n",
+            "raw_flags2": "120 0 99d99+99 99d99+99 99d99+99 none",
+            "keywords": "innkeeper~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "halfelf",
+            "t_flags": "T ~"
         },
         "55755": {
-            "name": "an Alliance Arms Patron~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 4",
             "description": [
                 "This person is a typical working class peasant.  Not too wealthy,\n",
                 "but enough to get by on.  They spend their spare time in the bar\n",
                 "drinking.  \n"
             ],
             "raw_flags5": "stand stand either 325",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 H",
-            "raw_flags3": "0 0 0 4",
             "vnum": 55755,
             "raw_flags": "A 0 0 600 0",
-            "race_id": "human",
-            "raw_flags2": "20 0 9d10+157 9d10+157 4d4+8 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T 'Ey there. Watch yourself.~",
+            "raw_flags4": "0 A 0 H",
             "room_name": "A Patron of the Alliance Arms staggers around, smelling of alcohol.\n",
-            "keywords": "alliance arms patron~\n"
+            "name": "an Alliance Arms Patron~\n",
+            "raw_flags2": "20 0 9d10+157 9d10+157 4d4+8 punch",
+            "keywords": "alliance arms patron~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T 'Ey there. Watch yourself.~"
         },
         "55756": {
-            "name": "A Drunk Dwarf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [
                 "A small little dwarf is here.  He is obviously drunk as he\n",
                 "splutters and staggers around the inn.  \n"
             ],
             "raw_flags5": "stand stand male 247",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "D B FLQ RS",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 55756,
             "raw_flags": "AT JZ 0 -100 0",
-            "race_id": "dwarf",
-            "raw_flags2": "102 101 22d59+6184 7d19+223 5d20+40 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T Out of ma way, I need a BEER!~",
+            "raw_flags4": "D B FLQ RS",
             "room_name": "A little dwarf runs around here swaying and staggering.\n",
-            "keywords": "drunk dwarf~\n"
+            "name": "A Drunk Dwarf~\n",
+            "raw_flags2": "102 101 22d59+6184 7d19+223 5d20+40 none",
+            "keywords": "drunk dwarf~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "dwarf",
+            "t_flags": "T Out of ma way, I need a BEER!~"
         },
         "55757": {
-            "name": "a {BP{bort {BL{blast {WG{wate {WG{wuard{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -25",
             "description": [
                 "This guard is well dressed in chain and plate armor, and equipped\n",
                 "with maces, axes, and all sorts of weapons.  He is very muscular and\n",
@@ -1760,21 +1761,21 @@
                 "at all.  \n"
             ],
             "raw_flags5": "stand stand male 3050",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "KNU A 0 0",
-            "raw_flags3": "-20 -20 -20 -25",
             "vnum": 55757,
             "raw_flags": "ABT DFVa 0 500 0",
-            "race_id": "human",
-            "raw_flags2": "50 5 18d24+835 1d1+999 1d8+27 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "KNU A 0 0",
             "room_name": "A {BP{bort {BL{blast {WG{wate {WG{wuard{x stands here ready to defend the village.\n",
-            "keywords": "port llast gate guard~\n"
+            "name": "a {BP{bort {BL{blast {WG{wate {WG{wuard{x~\n",
+            "raw_flags2": "50 5 18d24+835 1d1+999 1d8+27 punch",
+            "keywords": "port llast gate guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55758": {
-            "name": "the soldier of the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Before you stands a knight dressed in the platemail armor of the\n",
                 "Flaming Fist, a group of knights that protect Baldurs Gate, but have\n",
@@ -1782,105 +1783,105 @@
                 "Luskans.  \n"
             ],
             "raw_flags5": "stand stand none 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55758,
             "raw_flags": "AT 0 0 300 0",
-            "race_id": "human",
-            "raw_flags2": "53 0 1d1+1249 1d1+999 5d10+22 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T I serve the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{m!{x~",
+            "raw_flags4": "0 A 0 0",
             "room_name": "{xA tall knight stands here in full platemail of the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x\n",
-            "keywords": "port llast flaming fist soldier~\n"
+            "name": "the soldier of the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{x~\n",
+            "raw_flags2": "53 0 1d1+1249 1d1+999 5d10+22 none",
+            "keywords": "port llast flaming fist soldier~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T I serve the {RF{rl{Ra{rm{Ri{rn{Rg {rF{Ri{rs{Rt{m!{x~"
         },
         "55759": {
-            "name": "a {WN{we{Dv{Be{Dr{ww{Di{Bn{Dt{we{Wr {xSoldier~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -10",
             "description": [
                 "Wearing the chainmail armor of a {WN{we{Dv{Be{Dr{ww{Di{Bn{Dt{we{Wr {xSoldier,\n",
                 "this man is tough, fearless and ready to defent {BP{bort {BL{blast{x\n",
                 "from all who attack the town.\n"
             ],
             "raw_flags5": "stand stand none 650",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_flags3": "-20 -20 -20 -10",
             "vnum": 55759,
             "raw_flags": "AT V 0 300 0",
-            "race_id": "human",
-            "raw_flags2": "60 9 8d65+1221 10d10+999 6d6+27 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T Damn those {wL{Wu{Cs{ck{Da{Wn{x's. {WN{we{Dv{Be{Dr{ww{Di{Bn{Dt{we{Wr {mwill defend {BP{bort {BL{blast{m from their treachary.{x~",
+            "raw_flags4": "0 A 0 0",
             "room_name": "A Soldier in the uniform of the city of {WN{we{Dv{Be{Dr{ww{Di{Bn{Dt{we{Wr{x is ready for action here.\n",
-            "keywords": "port llast neverwinter soldier~\n"
+            "name": "a {WN{we{Dv{Be{Dr{ww{Di{Bn{Dt{we{Wr {xSoldier~\n",
+            "raw_flags2": "60 9 8d65+1221 10d10+999 6d6+27 none",
+            "keywords": "port llast neverwinter soldier~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T Damn those {wL{Wu{Cs{ck{Da{Wn{x's. {WN{we{Dv{Be{Dr{ww{Di{Bn{Dt{we{Wr {mwill defend {BP{bort {BL{blast{m from their treachary.{x~"
         },
         "55760": {
-            "name": "a {BP{bort {BL{blast{W G{wuard{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "Before you stands a human wearing chainmail armor andthe symbols of\n",
                 "Port Llast.  He is a well built man, fit enough to break up street\n",
                 "fights or help keep the village safe.  \n"
             ],
             "raw_flags5": "stand stand none 600",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 55760,
             "raw_flags": "AGT 0 C 600 0",
-            "race_id": "human",
+            "raw_flags4": "0 A 0 0",
+            "room_name": "A {BP{bort {BL{blast{W G{wuard{x patrols the streets.\n",
+            "name": "a {BP{bort {BL{blast{W G{wuard{x~\n",
             "raw_flags2": "60 10 8d65+1221 10d10+1099 6d6+35 none",
-            "d_flags": "D ~",
+            "keywords": "port llast guard~\n",
             "subroutines": [
                 "M GRALL 55751 60~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A {BP{bort {BL{blast{W G{wuard{x patrols the streets.\n",
-            "keywords": "port llast guard~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55761": {
-            "name": "a drunk~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 6",
             "description": [
                 "This is your typical staggering drunk, standing out in the crowd\n",
                 "causing a nuisance.  \n"
             ],
             "raw_flags5": "stand stand none 34",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_flags3": "0 0 0 6",
             "vnum": 55761,
             "raw_flags": "ABCS d 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "19 -10 1d1+140 1d1+140 2d4+6 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 A 0 0",
             "room_name": "A drunk is here causing a nuisance.\n",
-            "keywords": "drunk~\n"
+            "name": "a drunk~\n",
+            "raw_flags2": "19 -10 1d1+140 1d1+140 2d4+6 none",
+            "keywords": "drunk~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55762": {
-            "name": "a village commoner~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 8",
             "description": [
                 "You look at a typical village commoner, normal clothes, nothing\n",
                 "expensive, They tend to shun you as they seem to always be on edge.  \n"
             ],
             "raw_flags5": "stand stand either 58",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_flags3": "2 2 2 8",
             "vnum": 55762,
             "raw_flags": "AG 0 0 650 0",
-            "race_id": "human",
-            "raw_flags2": "16 0 1d10+100 1d10+100 1d7+5 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T Hrm, strangers. Better not be from Luskan!~",
+            "raw_flags4": "0 A 0 0",
             "room_name": "A village commoner is here going quietly about their business.\n",
-            "keywords": "village commoner~\n"
+            "name": "a village commoner~\n",
+            "raw_flags2": "16 0 1d10+100 1d10+100 1d7+5 punch",
+            "keywords": "village commoner~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T Hrm, strangers. Better not be from Luskan!~"
         },
         "55763": {
-            "name": "the Harbour Master~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "This half elf is in charge of the ships timetables, where they are\n",
                 "going, and when.  He is also in charge of keeping the docks working in\n",
@@ -1888,61 +1889,61 @@
                 "him to get them working again.  \n"
             ],
             "raw_flags5": "stand stand male 830",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A BF 0",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 55763,
             "raw_flags": "ABQ DFL 0 400 0",
-            "race_id": "halfelf",
-            "raw_flags2": "55 10 1d1+1099 1d1+1099 5d5+30 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 A BF 0",
             "room_name": "The Harbour Master is here working at his desk.\n",
-            "keywords": "harbour master~\n"
+            "name": "the Harbour Master~\n",
+            "raw_flags2": "55 10 1d1+1099 1d1+1099 5d5+30 beating",
+            "keywords": "harbour master~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "halfelf",
+            "t_flags": "T ~"
         },
         "55764": {
-            "name": "cliffside mprog distributor~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 55764,
             "raw_flags": "ABI 0 P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABa 0 0",
+            "room_name": "Mob to distribute cliffside mprogs is here.\n",
+            "name": "cliffside mprog distributor~\n",
             "raw_flags2": "110 0 99d99+999 99d99+999 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "cliffside mprog mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M EXALL 55750 5~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Mob to distribute cliffside mprogs is here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "cliffside mprog mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55765": {
-            "name": "a Dock Worker~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -25",
             "description": [],
             "raw_flags5": "stand stand male 557",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABa R 0",
-            "raw_flags3": "-30 -30 -30 -25",
             "vnum": 55765,
             "raw_flags": "A 0 0 400 0",
-            "race_id": "human",
-            "raw_flags2": "61 15 9d59+1266 10d10+1000 10d6+30 smash",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABa R 0",
             "room_name": "A Dock Worker is working here.\n",
-            "keywords": "dock worker~\n"
+            "name": "a Dock Worker~\n",
+            "raw_flags2": "61 15 9d59+1266 10d10+1000 10d6+30 smash",
+            "keywords": "dock worker~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "55766": {
-            "name": "a {8spy {xfrom {CL{cuskan{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "He is short, bald and smells like water hasn't touched him in\n",
                 "weeks.  He wears a uniform of an Alliance Arms' steward, but it is\n",
@@ -1953,19 +1954,18 @@
                 "to be doing.  \n"
             ],
             "raw_flags5": "stand stand none 25000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 LQ BNO NS",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 55766,
             "raw_flags": "AB FJZ 0 -600 0",
-            "race_id": "drow",
-            "raw_flags2": "101 0 27d52+8000 27d52+8000 5d20+45 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 LQ BNO NS",
             "room_name": "A nervous little man stands here rummaging through drawers and papers.\n",
-            "keywords": "nervous little man luskan spy~\n"
+            "name": "a {8spy {xfrom {CL{cuskan{x~\n",
+            "raw_flags2": "101 0 27d52+8000 27d52+8000 5d20+45 none",
+            "keywords": "nervous little man luskan spy~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "drow",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 1
+    "area_quest_points": 0
 }

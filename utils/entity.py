@@ -5,7 +5,7 @@ class Entity(object):
         super(Entity, self).__setattr__("data", data)
 
     def __eq__(self, other):
-        if other is None:
+        if other is None or not hasattr(other, "get"):
             return False
 
         return self.get("uid") == other.get("uid")

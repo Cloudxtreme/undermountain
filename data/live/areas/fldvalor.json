@@ -1,10 +1,588 @@
 {
-    "name": "The Ducal Castle",
+    "security": 6,
+    "recall_room_id": 56823,
     "id": "fldvalor",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "fldvalor",
     "rooms": {
+        "38523": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BT{yh{Be E{bme{yrge{bnc{By E{bx{yi{Bt{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38510",
+                    "description": [
+                        "This leads into the arena proper.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38523"
+        },
+        "38509": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BD{bu{yc{ba{Bl C{ba{yst{bl{Be A{br{ye{bn{Ba C{be{ynt{be{Br{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38510",
+                    "description": [
+                        "This leads to the northern end of the arena.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38517",
+                    "description": [
+                        "The eastern wall can be seen in the distance.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38512",
+                    "description": [
+                        "This leads to the western end of the arena.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38508",
+                    "description": [
+                        "This leads to the southern end of the arena.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38509"
+        },
+        "38515": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BS{bou{yth{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38512",
+                    "description": [
+                        "The northwest corner of the arena is visible here.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38508",
+                    "description": [
+                        "This leads to the arena exit.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38514",
+                    "description": [
+                        "The western stadium wall lies here.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38515"
+        },
+        "38501": {
+            "extras": {
+                "lanterns": {
+                    "description": [
+                        "These flicker and burn low.",
+                        ""
+                    ]
+                },
+                "tapestries": {
+                    "description": [
+                        "These banners are cast with the crests of the Duke of Daggerford.",
+                        ""
+                    ]
+                },
+                "blue": {
+                    "description": [
+                        "These banners are cast with the crests of the Duke of Daggerford.",
+                        ""
+                    ]
+                },
+                "yellow": {
+                    "description": [
+                        "These banners are cast with the crests of the Duke of Daggerford.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "Long {Bblue{x and {Yyellow{x tapestries hang from either side of the massive",
+                "double door entrance which leads into The Ducal Castle of Daggerford.",
+                "Small stone fences line either side of the road, but seem to be placed",
+                "more for aesthetics than actual protection. Upon these stone fences,",
+                "small lanterns are lit at all hours due to the ever present shadows cast",
+                "by either the Castle itself or the massive eastern wall which lies just",
+                "beyond the eastern field. "
+            ],
+            "name": "{BB{Yefor{Be T{Yh{Be D{Yuca{Bl C{Yastl{Be{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38503",
+                    "description": [
+                        "{BT{Yh{Be D{Yuca{Bl C{Yastl{Be{x lies here.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38500",
+                    "description": [
+                        "The road takes a turn southward here.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38501"
+        },
+        "38519": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BN{bor{ythe{bas{Bt A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38518",
+                    "description": [
+                        "This leads deeper into the stadium.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38520",
+                    "description": [
+                        "The arena continues along the eastern wall.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38519"
+        },
+        "38503": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cContrasting greatly to the simplicity that is the very culture of Daggerford,",
+                "it is clear that the Duke has spared no expense when it has come to his",
+                "castle. Stone floors have been polished smooth as if to nearly resemble",
+                "marble flooring. High ceilings lead to large doors to either side of",
+                "the great hall. To both the north and south, massive sets of double doors",
+                "sit.{x"
+            ],
+            "name": "{BD{Yuca{Bl C{Yastl{Be {CG{crand {CE{cntrance{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38508",
+                    "description": [
+                        "A great archway leads into a massive stadium.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38506",
+                    "description": [
+                        "An archway leads east.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38505",
+                    "description": [
+                        "An archway leads west.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38501",
+                    "description": [
+                        "A large set of double doors leads outside the Castle.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38503"
+        },
+        "38512": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38511",
+                    "description": [
+                        "The walls of the arena meet to the north.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38509",
+                    "description": [
+                        "The center of the arena lies in this direction.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38513",
+                    "description": [
+                        "A large wall lies here.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38515",
+                    "description": [
+                        "This leads away from the stadium walls.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38512"
+        },
+        "38511": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BN{bor{ythw{bes{Bt A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38510",
+                    "description": [
+                        "The arena continues along the wall.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38522",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38512",
+                    "description": [
+                        "The southern arena expanse lies ahead.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38511"
+        },
+        "38538": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38538"
+        },
+        "38527": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38527"
+        },
+        "38548": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38548"
+        },
+        "38522": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38511",
+                    "description": [
+                        "A great wall continues from the north to a corner.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38513",
+                    "description": [
+                        "The wall continues southward here.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38522"
+        },
+        "38524": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "38506",
+                    "description": [
+                        "The stairway winds down towards the ground level.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38524"
+        },
+        "38518": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38519",
+                    "description": [
+                        "The northeast stadium corner lies here.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38510",
+                    "description": [
+                        "The midsection of the arena lies here.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38517",
+                    "description": [
+                        "This leads further into the stadium",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38518"
+        },
+        "38546": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38546"
+        },
+        "38530": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38530"
+        },
+        "38535": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38535"
+        },
+        "38547": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38547"
+        },
+        "38521": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BS{bout{yheas{bter{Bn A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38520",
+                    "description": [
+                        "The eastern wall continues.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38516",
+                    "description": [
+                        "The southern wall continues to the stadium exit.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38521"
+        },
+        "38513": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BW{bes{yt{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38522",
+                    "description": [
+                        "The northwest arena corner lies here.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38512",
+                    "description": [
+                        "This direction leads to the center of the stadium",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38514",
+                    "description": [
+                        "The western wall continues in this direction.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38513"
+        },
+        "38534": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38534"
+        },
+        "38541": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38541"
+        },
+        "38507": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BS{Ytadiu{Bm A{Ydmission{Bs O{Yffic{Be{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38506",
+                    "description": [
+                        "This leads out into the main Castle.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38507"
+        },
+        "38545": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38545"
+        },
         "38506": {
-            "name": "{BA L{Yarg{Be S{Ytairwa{By L{Yeadin{Bg U{Ypward{Bs{x",
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{cBuilt to accommodate large volumes of people at once, this circular room",
                 "encases a large stairway that winds it's way around the edges of the",
@@ -12,399 +590,461 @@
                 "fresh air into the castle, giving an ambiance of exposure to the climb",
                 "upwards.{x "
             ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38506",
+            "name": "{BA L{Yarg{Be S{Ytairwa{By L{Yeadin{Bg U{Ypward{Bs{x",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This door leads back to the Castle entrance.",
-                        ""
-                    ],
-                    "room_id": "38503"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "38507",
                     "description": [
                         "A small office lies to the east.",
                         ""
-                    ],
-                    "room_id": "38507"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "38524",
                     "description": [
                         "The stairs disappear along a rounded corner.",
                         ""
-                    ],
-                    "room_id": "38524"
-                }
-            },
-            "extras": {}
-        },
-        "38548": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38548",
-            "exits": {},
-            "extras": {}
-        },
-        "38509": {
-            "name": "{BD{bu{yc{ba{Bl C{ba{yst{bl{Be A{br{ye{bn{Ba C{be{ynt{be{Br{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38509",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads to the southern end of the arena.",
-                        ""
-                    ],
-                    "room_id": "38508"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads to the northern end of the arena.",
-                        ""
-                    ],
-                    "room_id": "38510"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "38503",
                     "description": [
-                        "This leads to the western end of the arena.",
+                        "This door leads back to the Castle entrance.",
                         ""
-                    ],
-                    "room_id": "38512"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The eastern wall can be seen in the distance.",
-                        ""
-                    ],
-                    "room_id": "38517"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "38512": {
-            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38512",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads away from the stadium walls.",
-                        ""
-                    ],
-                    "room_id": "38515"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The walls of the arena meet to the north.",
-                        ""
-                    ],
-                    "room_id": "38511"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A large wall lies here.",
-                        ""
-                    ],
-                    "room_id": "38513"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The center of the arena lies in this direction.",
-                        ""
-                    ],
-                    "room_id": "38509"
-                }
-            },
-            "extras": {}
+            "vnum": "38506"
         },
-        "38516": {
-            "name": "{BS{bou{yth{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38516",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The arena widens in this direction.",
-                        ""
-                    ],
-                    "room_id": "38517"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads towards the arena exit.",
-                        ""
-                    ],
-                    "room_id": "38508"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The eastern arena wall rises here.",
-                        ""
-                    ],
-                    "room_id": "38521"
-                }
-            },
-            "extras": {}
-        },
-        "38507": {
-            "name": "{BS{Ytadiu{Bm A{Ydmission{Bs O{Yffic{Be{x",
-            "description": [],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38507",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads out into the main Castle.",
-                        ""
-                    ],
-                    "room_id": "38506"
-                }
-            },
-            "extras": {}
-        },
-        "38529": {
-            "name": "{RUNUSED{x",
-            "description": [],
+        "38533": {
+            "extras": {},
             "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38529",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38533"
+        },
+        "38526": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38529",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38526"
+        },
+        "38500": {
+            "extras": {},
+            "flags_raw": "0 0 0 11",
+            "flags2_raw": "0",
+            "description": [
+                "The city streets narrow into a slightly smaller cobbled road, leading",
+                "to another bend before a large castle set into the eastern wall of Daggerford.",
+                "Either side of the road is lined with bright {Gg{green{x grass that seems to",
+                "be kept in a much more manageable condition than the rest of the fields",
+                "which surround the castle. "
+            ],
+            "name": "{BD{Yuca{Bl C{Yastl{Be R{Yoa{Bd{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "38501",
                     "description": [
+                        "The road continues to a northern bend which ends in front of a massive structure.",
                         ""
-                    ],
-                    "room_id": "38526"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38502",
+                    "description": [
+                        "The road leads to a larger street here.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "38500"
         },
         "38504": {
-            "name": "{BD{Yuca{Bl C{Yastl{Be {RM{ro{Rb S{rtorag{Re R{roo{Rm {W({C({caka The Office{C){W){x",
+            "extras": {},
+            "flags_raw": "0 1141408812 0 18",
+            "flags2_raw": "0",
             "description": [
                 "This room is designed for special mob reload programs within the Ducal",
                 "Castle. If you are a mortal who has somehow stumbled upon this room,",
                 "please consult an immortal as soon as possible. "
             ],
-            "flags_raw": "0 1141408812 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38504",
+            "name": "{BD{Yuca{Bl C{Yastl{Be {RM{ro{Rb S{rtorag{Re R{roo{Rm {W({C({caka The Office{C){W){x",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "38504"
         },
-        "38523": {
-            "name": "{BT{yh{Be E{bme{yrge{bnc{By E{bx{yi{Bt{x",
-            "description": [],
+        "38514": {
+            "extras": {},
             "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38523",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads into the arena proper.",
-                        ""
-                    ],
-                    "room_id": "38510"
-                }
-            },
-            "extras": {}
-        },
-        "38508": {
-            "name": "{BS{bou{yth{ber{Bn A{br{ye{bn{Ba E{bnt{yra{bnc{Be{x",
             "description": [],
-            "flags_raw": "0 8 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38508",
+            "name": "{BS{bout{yhwes{bter{Bn A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A large archway leads out of the arena.",
-                        ""
-                    ],
-                    "room_id": "38503"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "38513",
                     "description": [
-                        "The center of the arena lies in this direction.",
+                        "The western wall continues in this direction.",
                         ""
-                    ],
-                    "room_id": "38509"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A large stadium wall lies in the distance.",
-                        ""
-                    ],
-                    "room_id": "38515"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38516"
-                }
-            },
-            "extras": {}
-        },
-        "38531": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 336068653 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38531",
-            "exits": {},
-            "extras": {}
-        },
-        "38540": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38540",
-            "exits": {},
-            "extras": {}
-        },
-        "38520": {
-            "name": "{BE{bas{yt{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38520",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The northeast corner of the stadium lies here.",
-                        ""
-                    ],
-                    "room_id": "38519"
-                },
-                "west": {
-                    "flags_raw": "0",
+                    "room_id": "38515",
                     "description": [
                         "This leads deeper into the arena.",
                         ""
-                    ],
-                    "room_id": "38517"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38514"
+        },
+        "38532": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38532"
+        },
+        "38539": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38539"
+        },
+        "38549": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38549"
+        },
+        "38536": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38536"
+        },
+        "38528": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38528"
+        },
+        "38525": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38525"
+        },
+        "38502": {
+            "extras": {},
+            "flags_raw": "0 0 0 21",
+            "flags2_raw": "0",
+            "description": [
+                "The road takes a sharp turn to the north, zig zagging it's way through",
+                "overgrown fields to a large castle perched within the city walls. To",
+                "the east, lies the large wall which surrounds the city. Fortified against",
+                "those who might raid the city, it was decided upon construction of the",
+                "wall, not to build an eastern gate. This decision has saved the city",
+                "many a time over the years. "
+            ],
+            "name": "{BD{Yuk{Be's W{Ya{By{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38500",
+                    "description": [
+                        "The road continues to a bend.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "50683",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "56845",
+                    "description": [
+                        "The city street continues into the city.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38502"
+        },
+        "38508": {
+            "extras": {},
+            "flags_raw": "0 8 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BS{bou{yth{ber{Bn A{br{ye{bn{Ba E{bnt{yra{bnc{Be{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38509",
+                    "description": [
+                        "The center of the arena lies in this direction.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38516",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38515",
+                    "description": [
+                        "A large stadium wall lies in the distance.",
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "38503",
+                    "description": [
+                        "A large archway leads out of the arena.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38508"
+        },
+        "38510": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38523",
+                    "description": [
+                        "An archway leads into a small alcove.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38518",
+                    "description": [
+                        "The eastern wall can be seen in the distance.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38511",
+                    "description": [
+                        "The arena continues along the wall, coming to a dead end.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38509",
+                    "description": [
+                        "The center of the arena lies in this direction.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38510"
+        },
+        "38540": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38540"
+        },
+        "38531": {
+            "extras": {},
+            "flags_raw": "0 336068653 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38531"
+        },
+        "38517": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38518",
+                    "description": [
+                        "The northern part of the arena lies here.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "38520",
+                    "description": [
+                        "The arena wall borders near to the east.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38509",
+                    "description": [
+                        "The center of the stadium lies here.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38516",
+                    "description": [
+                        "The southern wall lies this way.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "38517"
+        },
+        "38537": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38537"
+        },
+        "38520": {
+            "extras": {},
+            "flags_raw": "0 0 0 18",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{BE{bas{yt{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "38519",
+                    "description": [
+                        "The northeast corner of the stadium lies here.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38517",
+                    "description": [
+                        "This leads deeper into the arena.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "38521",
                     "description": [
                         "The southeast corner of the stadium lies here.",
                         ""
-                    ],
-                    "room_id": "38521"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "38525": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38525",
-            "exits": {},
-            "extras": {}
+            "vnum": "38520"
         },
-        "38538": {
-            "name": "{RUNUSED{x",
-            "description": [],
+        "38529": {
+            "extras": {},
             "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38538",
-            "exits": {},
-            "extras": {}
-        },
-        "38536": {
-            "name": "{RUNUSED{x",
             "description": [],
-            "flags_raw": "0 67633197 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38536",
-            "exits": {},
-            "extras": {}
-        },
-        "38539": {
             "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38539",
-            "exits": {},
-            "extras": {}
-        },
-        "38505": {
-            "name": "{BThe D{Yuca{Bl C{Yastl{Be E{Ymporiu{Bm{x",
-            "description": [
-                "{cVast shelves lined with both common and uncommon artifacts line the walls",
-                "of this small room. Light from small candles set into the walls cast",
-                "their tiny glow over the stockpile of items set about the room. A small",
-                "{8silver{c plaque has been set into the wall nearest the door, which reflects",
-                "the candlelight in an odd manner.{x "
-            ],
-            "flags_raw": "0 1032 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38505",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "38526",
                     "description": [
-                        "A large door leads back to the Castle entrance.",
                         ""
-                    ],
-                    "room_id": "38503"
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "38529"
+        },
+        "38542": {
+            "extras": {},
+            "flags_raw": "0 67633197 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{RUNUSED{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "38542"
+        },
+        "38505": {
             "extras": {
                 "silver": {
                     "description": [
@@ -426,935 +1066,296 @@
                         ""
                     ]
                 }
-            }
-        },
-        "38547": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 1032 0 13",
             "flags2_raw": "0",
-            "vnum": "38547",
-            "exits": {},
-            "extras": {}
-        },
-        "38522": {
-            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38522",
+            "description": [
+                "{cVast shelves lined with both common and uncommon artifacts line the walls",
+                "of this small room. Light from small candles set into the walls cast",
+                "their tiny glow over the stockpile of items set about the room. A small",
+                "{8silver{c plaque has been set into the wall nearest the door, which reflects",
+                "the candlelight in an odd manner.{x "
+            ],
+            "name": "{BThe D{Yuca{Bl C{Yastl{Be E{Ymporiu{Bm{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The wall continues southward here.",
-                        ""
-                    ],
-                    "room_id": "38513"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "38503",
                     "description": [
-                        "A great wall continues from the north to a corner.",
+                        "A large door leads back to the Castle entrance.",
                         ""
-                    ],
-                    "room_id": "38511"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "38528": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38528",
-            "exits": {},
-            "extras": {}
+            "vnum": "38505"
         },
-        "38519": {
-            "name": "{BN{bor{ythe{bas{Bt A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
-            "description": [],
+        "38516": {
+            "extras": {},
             "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38519",
+            "description": [],
+            "name": "{BS{bou{yth{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads deeper into the stadium.",
-                        ""
-                    ],
-                    "room_id": "38518"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The arena continues along the eastern wall.",
-                        ""
-                    ],
-                    "room_id": "38520"
-                }
-            },
-            "extras": {}
-        },
-        "38535": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38535",
-            "exits": {},
-            "extras": {}
-        },
-        "38544": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38544",
-            "exits": {},
-            "extras": {}
-        },
-        "38517": {
-            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38517",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The southern wall lies this way.",
-                        ""
-                    ],
-                    "room_id": "38516"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "38517",
                     "description": [
-                        "The northern part of the arena lies here.",
+                        "The arena widens in this direction.",
                         ""
-                    ],
-                    "room_id": "38518"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The center of the stadium lies here.",
-                        ""
-                    ],
-                    "room_id": "38509"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "38521",
                     "description": [
-                        "The arena wall borders near to the east.",
+                        "The eastern arena wall rises here.",
                         ""
-                    ],
-                    "room_id": "38520"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "38508",
+                    "description": [
+                        "This leads towards the arena exit.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "38530": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 9",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38530",
-            "exits": {},
-            "extras": {}
+            "vnum": "38516"
         },
         "38543": {
-            "name": "{RUNUSED{x",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38543",
-            "exits": {},
-            "extras": {}
-        },
-        "38533": {
+            "description": [],
             "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38533",
             "exits": {},
-            "extras": {}
-        },
-        "38542": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 9",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38542",
-            "exits": {},
-            "extras": {}
+            "vnum": "38543"
         },
-        "38537": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38537",
-            "exits": {},
-            "extras": {}
-        },
-        "38541": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38541",
-            "exits": {},
-            "extras": {}
-        },
-        "38510": {
-            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38510",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The center of the arena lies in this direction.",
-                        ""
-                    ],
-                    "room_id": "38509"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "An archway leads into a small alcove.",
-                        ""
-                    ],
-                    "room_id": "38523"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The arena continues along the wall, coming to a dead end.",
-                        ""
-                    ],
-                    "room_id": "38511"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The eastern wall can be seen in the distance.",
-                        ""
-                    ],
-                    "room_id": "38518"
-                }
-            },
-            "extras": {}
-        },
-        "38549": {
-            "name": "{RUNUSED{x",
-            "description": [],
+        "38544": {
+            "extras": {},
             "flags_raw": "0 67633197 0 20",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "38549",
+            "description": [],
+            "name": "{RUNUSED{x",
             "exits": {},
-            "extras": {}
-        },
-        "38546": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38546",
-            "exits": {},
-            "extras": {}
-        },
-        "38502": {
-            "name": "{BD{Yuk{Be's W{Ya{By{x",
-            "description": [
-                "The road takes a sharp turn to the north, zig zagging it's way through",
-                "overgrown fields to a large castle perched within the city walls. To",
-                "the east, lies the large wall which surrounds the city. Fortified against",
-                "those who might raid the city, it was decided upon construction of the",
-                "wall, not to build an eastern gate. This decision has saved the city",
-                "many a time over the years. "
-            ],
-            "flags_raw": "0 0 0 21",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38502",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The road continues to a bend.",
-                        ""
-                    ],
-                    "room_id": "38500"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The city street continues into the city.",
-                        ""
-                    ],
-                    "room_id": "56845"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "50683"
-                }
-            },
-            "extras": {}
-        },
-        "38524": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38524",
-            "exits": {
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The stairway winds down towards the ground level.",
-                        ""
-                    ],
-                    "room_id": "38506"
-                }
-            },
-            "extras": {}
-        },
-        "38515": {
-            "name": "{BS{bou{yth{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38515",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The northwest corner of the arena is visible here.",
-                        ""
-                    ],
-                    "room_id": "38512"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The western stadium wall lies here.",
-                        ""
-                    ],
-                    "room_id": "38514"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads to the arena exit.",
-                        ""
-                    ],
-                    "room_id": "38508"
-                }
-            },
-            "extras": {}
-        },
-        "38521": {
-            "name": "{BS{bout{yheas{bter{Bn A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38521",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The eastern wall continues.",
-                        ""
-                    ],
-                    "room_id": "38520"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The southern wall continues to the stadium exit.",
-                        ""
-                    ],
-                    "room_id": "38516"
-                }
-            },
-            "extras": {}
-        },
-        "38500": {
-            "name": "{BD{Yuca{Bl C{Yastl{Be R{Yoa{Bd{x",
-            "description": [
-                "The city streets narrow into a slightly smaller cobbled road, leading",
-                "to another bend before a large castle set into the eastern wall of Daggerford.",
-                "Either side of the road is lined with bright {Gg{green{x grass that seems to",
-                "be kept in a much more manageable condition than the rest of the fields",
-                "which surround the castle. "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38500",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The road leads to a larger street here.",
-                        ""
-                    ],
-                    "room_id": "38502"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The road continues to a northern bend which ends in front of a massive structure.",
-                        ""
-                    ],
-                    "room_id": "38501"
-                }
-            },
-            "extras": {}
-        },
-        "38514": {
-            "name": "{BS{bout{yhwes{bter{Bn A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38514",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The western wall continues in this direction.",
-                        ""
-                    ],
-                    "room_id": "38513"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads deeper into the arena.",
-                        ""
-                    ],
-                    "room_id": "38515"
-                }
-            },
-            "extras": {}
-        },
-        "38513": {
-            "name": "{BW{bes{yt{ber{Bn A{br{ye{bn{Ba W{yal{Bl{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38513",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The western wall continues in this direction.",
-                        ""
-                    ],
-                    "room_id": "38514"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The northwest arena corner lies here.",
-                        ""
-                    ],
-                    "room_id": "38522"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This direction leads to the center of the stadium",
-                        ""
-                    ],
-                    "room_id": "38512"
-                }
-            },
-            "extras": {}
-        },
-        "38545": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38545",
-            "exits": {},
-            "extras": {}
-        },
-        "38532": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38532",
-            "exits": {},
-            "extras": {}
-        },
-        "38527": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38527",
-            "exits": {},
-            "extras": {}
-        },
-        "38501": {
-            "name": "{BB{Yefor{Be T{Yh{Be D{Yuca{Bl C{Yastl{Be{x",
-            "description": [
-                "Long {Bblue{x and {Yyellow{x tapestries hang from either side of the massive",
-                "double door entrance which leads into The Ducal Castle of Daggerford.",
-                "Small stone fences line either side of the road, but seem to be placed",
-                "more for aesthetics than actual protection. Upon these stone fences,",
-                "small lanterns are lit at all hours due to the ever present shadows cast",
-                "by either the Castle itself or the massive eastern wall which lies just",
-                "beyond the eastern field. "
-            ],
-            "flags_raw": "0 0 0 11",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38501",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{BT{Yh{Be D{Yuca{Bl C{Yastl{Be{x lies here.",
-                        ""
-                    ],
-                    "room_id": "38503"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The road takes a turn southward here.",
-                        ""
-                    ],
-                    "room_id": "38500"
-                }
-            },
-            "extras": {
-                "tapestries": {
-                    "description": [
-                        "These banners are cast with the crests of the Duke of Daggerford.",
-                        ""
-                    ]
-                },
-                "blue": {
-                    "description": [
-                        "These banners are cast with the crests of the Duke of Daggerford.",
-                        ""
-                    ]
-                },
-                "lanterns": {
-                    "description": [
-                        "These flicker and burn low.",
-                        ""
-                    ]
-                },
-                "yellow": {
-                    "description": [
-                        "These banners are cast with the crests of the Duke of Daggerford.",
-                        ""
-                    ]
-                }
-            }
-        },
-        "38503": {
-            "name": "{BD{Yuca{Bl C{Yastl{Be {CG{crand {CE{cntrance{x",
-            "description": [
-                "{cContrasting greatly to the simplicity that is the very culture of Daggerford,",
-                "it is clear that the Duke has spared no expense when it has come to his",
-                "castle. Stone floors have been polished smooth as if to nearly resemble",
-                "marble flooring. High ceilings lead to large doors to either side of",
-                "the great hall. To both the north and south, massive sets of double doors",
-                "sit.{x"
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38503",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A large set of double doors leads outside the Castle.",
-                        ""
-                    ],
-                    "room_id": "38501"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A great archway leads into a massive stadium.",
-                        ""
-                    ],
-                    "room_id": "38508"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "An archway leads west.",
-                        ""
-                    ],
-                    "room_id": "38505"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "An archway leads east.",
-                        ""
-                    ],
-                    "room_id": "38506"
-                }
-            },
-            "extras": {}
-        },
-        "38534": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 9",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38534",
-            "exits": {},
-            "extras": {}
-        },
-        "38511": {
-            "name": "{BN{bor{ythw{bes{Bt A{br{ye{bn{Ba C{bo{yrn{be{Br{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38511",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The southern arena expanse lies ahead.",
-                        ""
-                    ],
-                    "room_id": "38512"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38522"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The arena continues along the wall.",
-                        ""
-                    ],
-                    "room_id": "38510"
-                }
-            },
-            "extras": {}
-        },
-        "38526": {
-            "name": "{RUNUSED{x",
-            "description": [],
-            "flags_raw": "0 67633197 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38526",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "38529"
-                }
-            },
-            "extras": {}
-        },
-        "38518": {
-            "name": "{BT{yh{Be C{ba{yst{bl{Be A{br{ye{bn{Ba{x",
-            "description": [],
-            "flags_raw": "0 0 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "38518",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This leads further into the stadium",
-                        ""
-                    ],
-                    "room_id": "38517"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The midsection of the arena lies here.",
-                        ""
-                    ],
-                    "room_id": "38510"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The northeast stadium corner lies here.",
-                        ""
-                    ],
-                    "room_id": "38519"
-                }
-            },
-            "extras": {}
+            "vnum": "38544"
         }
     },
-    "uid": "fldvalor",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] Fields Of Valor",
     "faction_id": "",
+    "name": "The Ducal Castle",
     "vnums": [
         38500,
         38550
     ],
-    "recall_room_id": 56823,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 1,
+    "subroutines": [],
     "mobiles": {
         "38500": {
-            "name": "the test mob~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38500,
             "raw_flags": "A D 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A test mob stands here.\n",
+            "name": "the test mob~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "test mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M greet 38500 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A test mob stands here.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "test mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38501": {
-            "name": "brick wall~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 A 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38501,
             "raw_flags": "AB 0 P 0 0",
-            "race_id": "human",
+            "raw_flags4": "0 A 0 0",
+            "room_name": "A loose brick\n",
+            "name": "brick wall~\n",
             "raw_flags2": "10 2 1d1+1 1d1+1 1d1+1 slice",
-            "d_flags": "D ~",
+            "keywords": "brick wall~\n",
             "subroutines": [
                 "M speech 38504 push brick~\n",
                 "M speech 38503 push brick~\n",
                 "M speech 38502 push brick~\n",
                 "M speech 38501 push brick~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A loose brick\n",
-            "keywords": "brick wall~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38502": {
-            "name": "{3Roscoe {2G{@reenBottl{2e{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 10000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDQ JLP R",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38502,
             "raw_flags": "ABZ Jc 0 -100 0",
-            "race_id": "gnome",
+            "raw_flags4": "0 ABCDQ JLP R",
+            "room_name": "{3Roscoe {2G{@reenBottl{2e {xstands behind the bar, drinking more than serving.{x\n",
+            "name": "{3Roscoe {2G{@reenBottl{2e{x~\n",
             "raw_flags2": "15 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "keywords": "roscoe greenbottle~\n",
             "subroutines": [
                 "M random 38506 5~\n",
                 "M grall 38505 20~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{3Roscoe {2G{@reenBottl{2e {xstands behind the bar, drinking more than serving.{x\n",
-            "keywords": "roscoe greenbottle~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "gnome",
+            "t_flags": "T ~"
         },
         "38503": {
-            "name": "An invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 70",
-            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFK ABCDLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38503,
             "raw_flags": "ABINd 0 0 -1000 0",
-            "race_id": "human",
+            "raw_flags4": "EFK ABCDLQ 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "An invisable specter~\n",
             "raw_flags2": "110 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis alarmcos~\n",
             "subroutines": [
                 "M exall 38507 4~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis alarmcos~\n"
+            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38504": {
-            "name": "The RankMaster~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 CD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38504,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 CD 0 0",
+            "room_name": "The RankMaster stands here, ready to hand out titles.\n",
+            "name": "The RankMaster~\n",
             "raw_flags2": "10 500 1d1+1 1d1+1 100d100+200 slash",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "RankMaster~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The RankMaster stands here, ready to hand out titles.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "RankMaster~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38505": {
-            "name": "Mad Eddy~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 2147483647",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ACD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38505,
             "raw_flags": "ABZ 0 0 -1000 0",
-            "race_id": "human",
-            "raw_flags2": "10 1000 1d1+1 1d1+1 1d1+1 wrath",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ACD 0 0",
             "room_name": "Mad Eddy stands here drinking spirits and cackling to himself...\n",
-            "keywords": "mad eddy~\n"
+            "name": "Mad Eddy~\n",
+            "raw_flags2": "10 1000 1d1+1 1d1+1 1d1+1 wrath",
+            "keywords": "mad eddy~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38506": {
-            "name": "A Sorcerer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -50",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "AFHKT ABP CD 0",
-            "raw_flags3": "-30 -30 -30 -50",
             "vnum": 38506,
             "raw_flags": "ACGOR c HP 0 0",
-            "race_id": "human",
-            "raw_flags2": "110 30 15d101+8425 1d1+4999 5d20+42 magic",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "AFHKT ABP CD 0",
             "room_name": "A vaguely humanoid being clad in tattered black robes stands here menacingly.\n",
-            "keywords": "strifemage clanwizard Sorcerer~\n"
+            "name": "A Sorcerer~\n",
+            "raw_flags2": "110 30 15d101+8425 1d1+4999 5d20+42 magic",
+            "keywords": "strifemage clanwizard Sorcerer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38507": {
-            "name": "An invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 70",
-            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFK ABCDLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38507,
             "raw_flags": "ABINd 0 0 -1000 0",
-            "race_id": "human",
+            "raw_flags4": "EFK ABCDLQ 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "An invisable specter~\n",
             "raw_flags2": "102 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis alarmcos~\n",
             "subroutines": [
                 "M grall 38511 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis alarmcos~\n"
+            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38508": {
-            "name": "An invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 70",
-            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFK ABCDLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38508,
             "raw_flags": "ABINd 0 0 -1000 0",
-            "race_id": "human",
+            "raw_flags4": "EFK ABCDLQ 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "An invisable specter~\n",
             "raw_flags2": "102 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis alarmcos~\n",
             "subroutines": [
                 "M grall 38510 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis alarmcos~\n"
+            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38509": {
-            "name": "An invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 70",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCDLQa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38509,
             "raw_flags": "ABINd 0 P -1000 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "An invisable specter~\n",
             "raw_flags2": "110 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis spector~\n",
             "subroutines": [
                 "M exall 38512 2~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis spector~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38545": {
-            "name": "{!O{1u{8r{1i{!t{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "{RO{ru{8r{ri{Rt M{re{8l{ra{Rr{8, one of the {8E{wb{8on {rSp{Ru{rr{8'{1s {8crack guards, is a berserker in\n",
                 "all senses of the word.  Trained as a fighting monk, his most potent\n",
@@ -1362,111 +1363,110 @@
                 "black loin cloth.  His whole body is covered in runes of {%C{5y{8r{5i{%c{8.{x\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CFHK ABP 0 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 38545,
             "raw_flags": "ABIT DFQVa DHNO -1000 0",
-            "race_id": "human",
+            "raw_flags4": "CFHK ABP 0 0",
+            "room_name": "{8Lurking in the shadows is a monk with crazed look in his eyes.{x\n",
+            "name": "{!O{1u{8r{1i{!t{x~\n",
             "raw_flags2": "102 500 20d400+1000 0d0+0 10d50+60 punch",
-            "d_flags": "D ~",
+            "keywords": "ebon spur guard ourit monk~\n",
             "subroutines": [
                 "M grall 38545 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8Lurking in the shadows is a monk with crazed look in his eyes.{x\n",
-            "keywords": "ebon spur guard ourit monk~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38546": {
-            "name": "{RH{re{8r{we{8t{ri{Rc{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{8This {RH{re{8r{we{8t{ri{Rc {8should have kept his mouth shut about {%C{5y{8r{5i{%c{8.  Instead\n",
                 "he learned the hard way, and got {rs{yk{ri{yn{re{yd {8by {%D{5a{8r{wkl{8o{5r{%d {8Touch.  {x {8Now, he's\n",
                 "just a {Rb{rlood{Ry {8mess.  Don't ya think you should beat him a lil too?  {x \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EF ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38546,
             "raw_flags": "AB J 0 900 0",
-            "race_id": "human",
+            "raw_flags4": "EF ABCD 0 0",
+            "room_name": "{8A {RH{re{8r{we{8t{ri{Rc {8slumps in the corner. His {rs{yki{rn {8has been carefully removed.{x\n",
+            "name": "{RH{re{8r{we{8t{ri{Rc{x~\n",
             "raw_flags2": "46 0 100d1+0 0d0+0 1d8+26 beating",
-            "d_flags": "D ~",
+            "keywords": "dummy heretic torture~\n",
             "subroutines": [
                 "M act 38550 pokes you in the ribs.~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8A {RH{re{8r{we{8t{ri{Rc {8slumps in the corner. His {rs{yki{rn {8has been carefully removed.{x\n",
-            "keywords": "dummy heretic torture~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38547": {
-            "name": "{8The statue of {RL{ror{Rd {%C{5y{8r{5i{%c{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{8Made of an obsidian that is so black that no light can seem to\n",
                 "reflect of the statue.  It is like the statue was made of shadows,\n",
                 "instead of any earthly material.  {x \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK giant unknown",
-            "raw_flags4": "0 ABCDP 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38547,
             "raw_flags": "ABX DFJZ 0 0 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABCDP 0 0",
+            "room_name": "{8An obsidian statue of {RL{ror{Rd {%C{5y{8r{5i{%c {8weilding {1Godsbane {8stands upon the altar.{x\n",
+            "name": "{8The statue of {RL{ror{Rd {%C{5y{8r{5i{%c{x~\n",
             "raw_flags2": "102 0 100d100+100 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "keywords": "statue mob~\n",
             "subroutines": [
                 "M speech 38546 offering~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8An obsidian statue of {RL{ror{Rd {%C{5y{8r{5i{%c {8weilding {1Godsbane {8stands upon the altar.{x\n",
-            "keywords": "statue mob~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK giant unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "38548": {
-            "name": "You can't see this~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "You can't see this.\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABP BG Z",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38548,
             "raw_flags": "ABI FJVc P 0 0",
-            "race_id": "elf",
+            "raw_flags4": "0 ABP BG Z",
+            "room_name": "You can't see this\n",
+            "name": "You can't see this~\n",
             "raw_flags2": "102 0 1d1+1 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "keywords": "imp_invis mob~\n",
             "subroutines": [
                 "M speech 38548 sunburst~\n",
                 "M speech 38547 mark~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "You can't see this\n",
-            "keywords": "imp_invis mob~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "38549": {
-            "name": "{8A {Rb{rlood{Ry {8layer of {rs{3k{ri{3n{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 38549,
             "raw_flags": "AB 0 H 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "{8A {Rb{rlood{Ry {8layer of {rs{3k{ri{3n {8lays on the floor.\n",
+            "name": "{8A {Rb{rlood{Ry {8layer of {rs{3k{ri{3n{x~\n",
             "raw_flags2": "1 0 500d4+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "layer skin~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8A {Rb{rlood{Ry {8layer of {rs{3k{ri{3n {8lays on the floor.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "layer skin~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 1
+    "area_quest_points": 0
 }

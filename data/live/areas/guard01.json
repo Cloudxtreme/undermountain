@@ -1,10 +1,158 @@
 {
-    "name": "Guardian's Clan Hall",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "guard01",
-    "subroutines": [],
+    "objects": {},
+    "uid": "guard01",
     "rooms": {
+        "33023": {
+            "extras": {},
+            "flags_raw": "0 67634700 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a room that is obviously used for sleeping.  A",
+                "circular bed is here, which vaguely resembles a large nest!  Some",
+                "miscellaneous items are stored on a shelf against one wall, near the",
+                "door.  The other three walls have large windows to allow the breeze to",
+                "blow through.  "
+            ],
+            "name": "Baq's Nest ",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33023"
+        },
+        "33017": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Here lies the room of a powerful Titan called Trakand`Sedai.  As",
+                "you enter this rooms, you feel a slight breeze blowing hard on you. ",
+                "You start to shiver in coldness, thinking to yourself, 'Where Have I",
+                "Stumbled Into?  This place is creepy!  '.  As you look closely there",
+                "is a chair, most likely a throne made out of gold and platinum,",
+                "engraved there, there is a symbol of a cross shining, hurting your eye",
+                "so badly, most likely you better leave this place.  "
+            ],
+            "name": "Trakand's Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33017"
+        },
+        "33045": {
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "The shelves lining these walls are filed with very dusty old",
+                "bottles.  After a little dusting you notice some signs on the shelves",
+                "reading: \"Champagne\", \"Moscatel\", \"portwine\", \"Sherry\", \"Cognac\" and",
+                "\"Whiskey\".  During the dusting you notice a bottle completely clean of",
+                "dust, it somehow seems out of place.  The cave extends west and east. "
+            ],
+            "name": "Strong Wine Storeroom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "33047",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33046",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "33039",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33044",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33045"
+        },
+        "33050": {
+            "extras": {},
+            "flags_raw": "0 524288 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Weapons of all kinds hang on the walls all around you.  Many spell",
+                "books lay open to various pages.  Everything you would need to learn",
+                "for your class can be tought to you in this very room.  The smell of",
+                "sweat tweeks your nose.  You can tell many people have already used",
+                "the training room despite its newness.  "
+            ],
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BTraining Room{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33006",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20155",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33050"
+        },
+        "33042": {
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "This room is a part of the long cave that is the cellars of the",
+                "Crimson Guardians clan hall.  It is completely carved from the rock",
+                "and thus not very roomy.  The larger species of the realms have a hard",
+                "time getting around down here, though it is possible.  There are",
+                "several rows of shelves, set into the rock in a human arms length",
+                "depression in the northern and southern walls, filled with old bottles",
+                "old dusty bottles of wine.  The cavern continues west to the staircase",
+                "and east further into the cavern.  "
+            ],
+            "name": "Red wine storage room",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33041",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33048",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33042"
+        },
         "33016": {
-            "name": "A Rebuilt Room",
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This room has the general appearance of being under construction. ",
                 "Almost the entire wall the room shares with the hall is gone and",
@@ -17,15 +165,79 @@
                 "creature than it was originally designed for.  There is a faint smell",
                 "of rot and sulphur in the air.  "
             ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33016",
+            "name": "A Rebuilt Room",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "33016"
+        },
+        "33051": {
+            "extras": {},
+            "flags_raw": "0 524292 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This long and winding hallway seems to travel for a while.  You can",
+                "see vivid tapistries on the walls along with tall candle holders that",
+                "illuminate the hallway.  "
+            ],
+            "name": "Hallway",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33051"
+        },
+        "33038": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{0You are here in Psylince's {BR{^eal{Bm.  {0 You look {#up{x {0and see nothing but",
+                "{&stars {0and {%planets.  {x {0You look around and notice a {Bpool {@table {0to the",
+                "left of you and an enchanting {!  J{@a{#c{Bo{%o{^z{&i{*e {0to the right.  You notice",
+                "they aren't standing on anything, and you look down.  All you see is",
+                "space filled with more Stars and Planets below you.  You realize that",
+                "you are in some really big transparent Cube which is at the center of",
+                "the whole universe.  You are mezmerized by this discovery.  You come",
+                "out of the trance and wonder how many {!G{1i{#r{3l{!s{x Psylince has been",
+                "with on that Pool Table and Jacoozie."
+            ],
+            "name": "{BS{^p{0a{^c{Be {@({BPs{4yl{^in{4ce{B's {!D{1o{#ma{1i{!n{@){x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33038"
+        },
+        "33020": {
+            "extras": {},
+            "flags_raw": "0 67634188 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in a treehouse, overlooking the forest.  Although the house",
+                "is in a tree, it still is a comfortable, cozy place.  Looking out the",
+                "window, you see the tops of the trees...  And a few hawks circling in",
+                "an thermal updraft.  There is a ledge outside the main, large window. ",
+                "The only exit from the house is down...  Unless you can fly!  "
+            ],
+            "name": "Baquri's Treehouse Roost ",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33020"
+        },
+        "33004": {
+            "extras": {},
+            "flags_raw": "0 524300 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You step into the second guardian portal room.  Colourful",
+                "portals surround you.  As you gaze upon there beautiy, you notice",
+                "a glimps of the action on the other side."
+            ],
+            "name": "{BThe Gu{bar{*di{ban {BPortal Room{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33004"
         },
         "33003": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BPortal Room 1{x",
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
             "description": [
                 "About a league into the forest, behind the Guardian Stronghold, is",
                 "a enclosed grove.  Twisted about, ancient trees stretch up to form a",
@@ -41,205 +253,97 @@
                 "{#Up:    {BMarket Square{x",
                 "{yDown:  {RH{mell{x"
             ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33003",
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BPortal Room 1{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "13900",
                     "description": [
                         ""
-                    ],
-                    "room_id": "13900"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33000"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3014"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "1955",
                     "description": [
                         ""
-                    ],
-                    "room_id": "1955"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "27251"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "10494",
                     "description": [
                         ""
-                    ],
-                    "room_id": "10494"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33000",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "3014",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "27251",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33018": {
-            "name": "{GS{ganchin's {GG{grove{x",
-            "description": [
-                "{DSanchi{gn's grov{ge is a syn{wthesi{gs of marb{gle and wood{D, with{x",
-                "{Dlife s{gomehow bir{gthed from {wthe s{gtrange br{gew. Muted{D footsteps{x",
-                "{Dreverb{gerate off of{g the tiles {wof g{green vein{ged marb{Dle. Fluted{x",
-                "{Dmarble{g columns set in{gto the wal{wl ar{ge transfo{grmed{D into trees{x",
-                "{Das the{gy reach to th{ge sky. The{w cal{gl of a bl{guejay i{Dntrudes from{x",
-                "{Dtime t{go time fro{gm where sh{we has{g made her{g nest ami{Dd the upper{x",
-                "{Dbranch{ges. For {gall the op{wen ar{gea above{g you, the gr{Dove is quiet{x",
-                "{Dsave f{gor the {grustle of{w leav{ges in th{ge breeze.{x"
-            ],
-            "flags_raw": "0 67633156 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33018",
-            "exits": {},
-            "extras": {}
+            "vnum": "33003"
         },
-        "33011": {
-            "name": "Xairin's Room",
-            "description": [
-                "{cYou are in a room filled with the fragrance of {ySa{rnd{ylew{ro{yod{c and",
-                "{yDra{rg{yons{rb{ylood{c.  The room is decorated in {yw{Ra{yr{Rm{c colours, from the {ydried",
-                "{Mf{Rl{Bo{Cw{Re{Wr{Ys{c on the beareu to the soft {wbeige{c of the curtains on the {Wpillars",
-                "{cthat surround the bed.  On the {Wwalls{c are several {*black {cand {Wwhite",
-                "{cdrawings of places around Westbridge and New Thalos.  In the corner by",
-                "the {Yfi{Rre{Ypl{Rac{Ye{c is an easle with a half finished still-life painting and",
-                "a few scattered bottles of paint.  {x "
-            ],
-            "flags_raw": "0 67633165 0 20",
-            "wanted_area_vnum": "",
+        "33027": {
+            "extras": {},
+            "flags_raw": "0 524288 0 19",
             "flags2_raw": "0",
-            "vnum": "33011",
+            "description": [
+                "This portion of the garden is set aside for herbs of every species.",
+                "Flowers less elaborate the the ornamental fauna gracee the shrubs and",
+                "blend their scents with the plants throughout the garden.  Herbs for",
+                "cooking, healing, and every other use imaginable can be found here - A",
+                "great resource for druids and clerics of the Guardian family.  What is",
+                "that somewhat pungent smell from the south?  "
+            ],
+            "name": "Herb Garden",
             "exits": {
                 "north": {
-                    "flags_raw": "33032",
+                    "flags_raw": "0",
+                    "room_id": "33028",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33013"
-                }
-            },
-            "extras": {}
-        },
-        "33028": {
-            "name": "Topiary Maze",
-            "description": [
-                "Tall boxwood hedges are trimmed into straight walls marking the",
-                "entrance of a small labrynth.  Low wooden benches are spread out at",
-                "even intervals throughout the shrubbery, lest one become over-weary",
-                "from exploring.  Each turn finds topiary masterpieces of rabbits,",
-                "swans, castles and the like.  You can't help noticing the half-hidden",
-                "arrows that point the way out of the maze.  "
-            ],
-            "flags_raw": "0 524288 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33028",
-            "exits": {
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "33031",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33029"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "33039",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33027"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33032": {
-            "name": "{!W{#h{1i{3r{!l{#w{1i{3n{!d {#S{1p{3e{!l{#l{1f{3i{!r{#e{x",
-            "description": [
-                "{!F{1l{#a{3m{1e{#s {!suddenly surround you; you have arrived into a place of",
-                "unbearable heat.  Sweat pours from your neck as you wonder why you",
-                "are here.  Trying to exit would be a thought not worth thinking.",
-                "You feel the aura of another person surrounding you.{x"
-            ],
-            "flags_raw": "0 201859104 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33032",
-            "exits": {
-                "down": {
-                    "flags_raw": "33072",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33008"
-                }
-            },
-            "extras": {}
-        },
-        "33017": {
-            "name": "Trakand's Room",
-            "description": [
-                "Here lies the room of a powerful Titan called Trakand`Sedai.  As",
-                "you enter this rooms, you feel a slight breeze blowing hard on you. ",
-                "You start to shiver in coldness, thinking to yourself, 'Where Have I",
-                "Stumbled Into?  This place is creepy!  '.  As you look closely there",
-                "is a chair, most likely a throne made out of gold and platinum,",
-                "engraved there, there is a symbol of a cross shining, hurting your eye",
-                "so badly, most likely you better leave this place.  "
-            ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33017",
-            "exits": {},
-            "extras": {}
-        },
-        "33014": {
-            "name": "{!Fla{1me {*Sanc{1tu{!ary{x ",
-            "description": [
-                "{1Fla{!mes g{1lim{#mer t{1hrou{8gh {!th{#i{1s ent{8ire ro{!om,{# a{1s if{! the wa{8lls",
-                "{1th{!emse{1lves{# are {1made {8of {!fir{#e{1.  Des{8pite {!the{# f{1ire{!, this {8room",
-                "{1{!reall{1y i{#s not {1unbea{8rabl{!y h{#ot{1, the {8flames{! b{#ei{1ng {!comple{8tely",
-                "{1{!magi{1cal{# in n{1ature.{8  Th{!e da{#nc{1ing ene{8rgy al{!so {#th{1ro{!ws a f{8ar",
-                "{1{!soft{1er{# ligh{1t aro{8und t{!he r{#oom{1 than y{8ou woul{!d a{#nt{1ici{!pate,{8 and",
-                "{1{!in f{1ac{#t, i{1f the{8 cen{!tral {#lam{1p in the{8 room w{!ere {#to{1 be{! turne{8d ",
-                "{1{!off, {1t{#he r{1oom {8woul{!d pr{#obab{1ly be da{8rk save {!the {#wa{1lls.{!  On ",
-                "{1{!the no{1r{#the{1rn w{8all{!, mo{#vin{1g amidst {8the flam{!e, is{# a{1 mag{!ical ",
-                "{1{!statue o{1{#f a{1 be{8aut{!ifu{#l a{1vian wom{8an, a mag{!ical {#re{1minde{!r of",
-                "{1Th{!ryne's {1l{#ov{1e.{x"
-            ],
-            "flags_raw": "0 525324 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33014",
-            "exits": {
-                "south": {
-                    "flags_raw": "33031",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33013"
-                }
-            },
-            "extras": {}
+            "vnum": "33027"
         },
         "33005": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BCoffee Shop{x",
+            "extras": {},
+            "flags_raw": "0 67633160 0 13",
+            "flags2_raw": "0",
             "description": [
                 "You have entered a room to relax.  The Swiss Miss is here ready to",
                 "sell you food and drink.  Soft music plays in the background, you",
@@ -247,90 +351,85 @@
                 "stretch your arms and legs, chat with the other people.  Just plain",
                 "RELAX.  "
             ],
-            "flags_raw": "0 67633160 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33005",
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BCoffee Shop{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33026"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "33002",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33002"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "33025",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33025"
-                }
-            },
-            "extras": {}
-        },
-        "33029": {
-            "name": "Garden Path",
-            "description": [
-                "Blooms of every color and kind sprout from the earth here: irises,",
-                "roses, orchids, pansies, crocuses, daffodils.  Surely this is",
-                "enchanted ground, for there is no species of oplant that will not",
-                "grow, and the buds bloom all the year with no reagrd to season.  You",
-                "watch a bee suck the sweet nectar from a flower and momentarily forget",
-                "the cares and strifes outside these hallowed walls.  "
-            ],
-            "flags_raw": "0 524288 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33029",
-            "exits": {
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "33026",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33031"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33028"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33034": {
-            "name": "Long Hallway",
-            "description": [
-                "This long and winding hallway seems to travel for a while.  You can",
-                "see vivid tapistries on the walls along with tall candle holders that",
-                "illuminate the hallway.  Doors leading in all directions give off some",
-                "light but not much.",
-                " ",
-                "{!North: {BDieppe's Room{x",
-                "{MEast: {BAvlad's Room{x",
-                "{mWest: {!Fla{1me {*Sanc{1tu{!ary{x",
-                "{#Up: {BDeamien's Mountaintop{x",
-                "{3Down: {BS{Cp{7a{Cc{Be {G({BPs{byl{Cin{bce{B's {!D{1o{#ma{1i{!n{G){x"
-            ],
-            "flags_raw": "0 524300 0 0",
             "wanted_area_vnum": "",
+            "vnum": "33005"
+        },
+        "33019": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
             "flags2_raw": "0",
-            "vnum": "33034",
+            "description": [
+                "Rich panels of dark mahogany give this rooms a warm welcoming",
+                "atmosphere.  A large oak desk sits to one end of the room illumintated",
+                "from behind by tall windows opening onto the courtyard below.  A",
+                "sitting are is off to your left with several chairs around a cozy",
+                "fireplace.  Bookshelves line most of the walls, many of them",
+                "overflowing with micellaneous items found on many an adventure.  "
+            ],
+            "name": "Ventor's Office",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "33019"
+        },
+        "33040": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "if you are in here, get out."
+            ],
+            "name": "Guard pet holding room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33040"
+        },
+        "33033": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "There is a medium-sized room on the top of the tower.  The walls",
+                "are covered with {!  Red {7and {#golden {7tapestries{x.  There is a big library",
+                "here.  As you examine some of the books you understand that they are",
+                "all similar with the title '{#I,Ellizabeth{7' .  Probably her",
+                "autobiography.  In the middle of the room there is a square table with",
+                "a {#golden {7candlestick on it that lights the room.  As you open the only",
+                "window of the room , your gaze meets the top of a {2forest {7with oak",
+                "trees.  There is also a big and comfortable bed with {%purple {7sheets.  "
+            ],
+            "name": "{3E{#ll{&i{7z{*a{7b{&e{#th'{3s {2R{@oo{2m{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33033"
         },
         "33036": {
-            "name": "Deamien's Mountaintop",
+            "extras": {},
+            "flags_raw": "0 67633156 0 5",
+            "flags2_raw": "0",
             "description": [
                 "As you step into the room you find yourself no longer in a building",
                 "but standing on what appears to be a forrested mountaintop.  There is",
@@ -339,184 +438,37 @@
                 "east you can see a beautiful sunrise with the sun just cresting the",
                 "horizon.  "
             ],
-            "flags_raw": "0 67633156 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33036",
+            "name": "Deamien's Mountaintop",
             "exits": {},
-            "extras": {}
-        },
-        "33037": {
-            "name": "Depths of the Universe",
-            "description": [
-                "{&You walk into a rather dark room, with only a few candles",
-                "flickering here and there A cold draft washes over you, as you gaze",
-                "into the fireplace that looks as though it has not been lit in a very",
-                "long time.  The shadows on the wall change shape and sizes and seem to",
-                "be those of people standing in the room.  In the corner you see an old",
-                "rocking chair slowly moving back and forth, creaking as it does so.  {x "
-            ],
-            "flags_raw": "0 67633164 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33037",
-            "exits": {
-                "south": {
-                    "flags_raw": "33088",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33008"
-                }
-            },
-            "extras": {}
-        },
-        "33024": {
-            "name": "Long Hallway",
-            "description": [
-                "This long and winding hallway seems to travel for a while.  You can",
-                "see vivid tapistries on the walls along with tall candle holders that",
-                "illuminate the hallway.  Doors leading in all directions give off some",
-                "light but not much.  The hallway continues north.",
-                " ",
-                "{MEast: {BVentor's Office",
-                "{1South: {BLeora's Room",
-                "{mWest: {3E{#ll{&i{7z{*a{7b{&e{#th'{3s {2R{@oo{2m",
-                "{#Up: {BBaquri's Treehouse{x"
-            ],
-            "flags_raw": "0 524300 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33024",
-            "exits": {},
-            "extras": {}
-        },
-        "33047": {
-            "name": "Dr. Schwartz's Secret Laboratory",
-            "description": [
-                "There is considerably more {Ylight{x.  In here than you have seen since",
-                "you entered the cellars, but this light has a sickly yellow gleam.  In",
-                "the middle of the room a giant humanoid is fastoned to some kind of a",
-                "chair.  He looks dead...  REALLY dead.  A second chair stands besides",
-                "the large one, with a strange kind of helmet hanging from it.  Shelves",
-                "filled with funny glass jars line the walls.  Upon closer examination",
-                "you see brains resting in many of them.  All the jars are labelled. ",
-                "The only exit is back south.  "
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33047",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33045"
-                }
-            },
-            "extras": {}
-        },
-        "33050": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BTraining Room{x",
-            "description": [
-                "Weapons of all kinds hang on the walls all around you.  Many spell",
-                "books lay open to various pages.  Everything you would need to learn",
-                "for your class can be tought to you in this very room.  The smell of",
-                "sweat tweeks your nose.  You can tell many people have already used",
-                "the training room despite its newness.  "
-            ],
-            "flags_raw": "0 524288 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33050",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20155"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33006"
-                }
-            },
-            "extras": {}
-        },
-        "33004": {
-            "name": "{BThe Gu{bar{*di{ban {BPortal Room{x",
-            "description": [
-                "You step into the second guardian portal room.  Colourful",
-                "portals surround you.  As you gaze upon there beautiy, you notice",
-                "a glimps of the action on the other side."
-            ],
-            "flags_raw": "0 524300 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33004",
-            "exits": {},
-            "extras": {}
+            "vnum": "33036"
         },
         "33000": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BCouncil Room{x",
-            "description": [
-                "Vesper laden stones fashion the ancient archways of the main",
-                "chamber.  On either side of the entrance, granite holders burn",
-                "dragon's blood creating a taut vaporous stream arcing towards the",
-                "muraled ceiling.  Long ceremonial tapirs, mounted in candelabras, line",
-                "the back wall collecting into a mass gathering of illumination.  There",
-                "they cast an eerie radiance over several vivid tapestries of forgotten",
-                "lore.  At the center of the grand hall lays a massive stone table set",
-                "atop a mosaic of the heavens that spirals outward.  "
-            ],
-            "flags_raw": "0 525324 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33000",
-            "exits": {
-                "south": {
-                    "flags_raw": "33063",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33030"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33003"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33001"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33002"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33010"
-                }
-            },
             "extras": {
+                "ceiling": {
+                    "description": [
+                        "A mural is painted on the ceiling in once vivid colors.",
+                        ""
+                    ]
+                },
+                "mural": {
+                    "description": [
+                        "The mural depicts the forgotten clash between the forces of the Netheral and the common man in mortal.  ",
+                        ""
+                    ]
+                },
+                "candelabras": {
+                    "description": [
+                        "A piller of iron gathered in spirals to hold tapirs.",
+                        ""
+                    ]
+                },
+                "tapirs": {
+                    "description": [
+                        "A long thick candle shedding light across the chamber.",
+                        ""
+                    ]
+                },
                 "stream": {
                     "description": [
                         "The incense burns upward in a hypnotic spiral.",
@@ -529,874 +481,116 @@
                         ""
                     ]
                 },
-                "ceiling": {
-                    "description": [
-                        "A mural is painted on the ceiling in once vivid colors.",
-                        ""
-                    ]
-                },
-                "tapirs": {
-                    "description": [
-                        "A long thick candle shedding light across the chamber.",
-                        ""
-                    ]
-                },
-                "candelabras": {
-                    "description": [
-                        "A piller of iron gathered in spirals to hold tapirs.",
-                        ""
-                    ]
-                },
-                "mural": {
-                    "description": [
-                        "The mural depicts the forgotten clash between the forces of the Netheral and the common man in mortal.  ",
-                        ""
-                    ]
-                },
                 "entrance": {
                     "description": [
                         "The stones of the archway appear to be some of the oldest in the land.",
                         ""
                     ]
                 }
-            }
-        },
-        "33038": {
-            "name": "{BS{^p{0a{^c{Be {@({BPs{4yl{^in{4ce{B's {!D{1o{#ma{1i{!n{@){x",
-            "description": [
-                "{0You are here in Psylince's {BR{^eal{Bm.  {0 You look {#up{x {0and see nothing but",
-                "{&stars {0and {%planets.  {x {0You look around and notice a {Bpool {@table {0to the",
-                "left of you and an enchanting {!  J{@a{#c{Bo{%o{^z{&i{*e {0to the right.  You notice",
-                "they aren't standing on anything, and you look down.  All you see is",
-                "space filled with more Stars and Planets below you.  You realize that",
-                "you are in some really big transparent Cube which is at the center of",
-                "the whole universe.  You are mezmerized by this discovery.  You come",
-                "out of the trance and wonder how many {!G{1i{#r{3l{!s{x Psylince has been",
-                "with on that Pool Table and Jacoozie."
-            ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 525324 0 0",
             "flags2_raw": "0",
-            "vnum": "33038",
-            "exits": {},
-            "extras": {}
-        },
-        "33030": {
-            "name": "Approching a Great Hall",
             "description": [
-                "You walk along a narrow path, the trees are so think you can hardly",
-                "see a thing.  As you come closer, you make out a large building with",
-                "the symbol of the {!Cr{1im{!so{1n {BGu{bar{*di{ban{Bs{x atop the center tower.  You",
-                "hear the great noise of laughter and conversation comming from the",
-                "inside.  cuChulainn is here, keeping a close eye on you."
+                "Vesper laden stones fashion the ancient archways of the main",
+                "chamber.  On either side of the entrance, granite holders burn",
+                "dragon's blood creating a taut vaporous stream arcing towards the",
+                "muraled ceiling.  Long ceremonial tapirs, mounted in candelabras, line",
+                "the back wall collecting into a mass gathering of illumination.  There",
+                "they cast an eerie radiance over several vivid tapestries of forgotten",
+                "lore.  At the center of the grand hall lays a massive stone table set",
+                "atop a mosaic of the heavens that spirals outward.  "
             ],
-            "flags_raw": "0 201859080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33030",
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BCouncil Room{x",
             "exits": {
                 "north": {
+                    "flags_raw": "0",
+                    "room_id": "33003",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33002",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "33010",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33001",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
                     "flags_raw": "33063",
+                    "room_id": "33030",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33000"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "9301"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33007": {
-            "name": "Hallway",
-            "description": [
-                "This long and winding hallway seems to travel for a while.  You can",
-                "see vivid tapistries on the walls along with tall candle holders that",
-                "illuminate the hallway.  To the east the hallway continues into the",
-                "personal quartes of the Crimson Guardians.  "
-            ],
-            "flags_raw": "0 524296 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33007",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33008"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33002"
-                }
-            },
-            "extras": {}
-        },
-        "33027": {
-            "name": "Herb Garden",
-            "description": [
-                "This portion of the garden is set aside for herbs of every species.",
-                "Flowers less elaborate the the ornamental fauna gracee the shrubs and",
-                "blend their scents with the plants throughout the garden.  Herbs for",
-                "cooking, healing, and every other use imaginable can be found here - A",
-                "great resource for druids and clerics of the Guardian family.  What is",
-                "that somewhat pungent smell from the south?  "
-            ],
-            "flags_raw": "0 524288 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33027",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33028"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33031"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33039"
-                }
-            },
-            "extras": {}
-        },
-        "33046": {
-            "name": "The End",
-            "description": [
-                "As you enter this last part of the wine cellars you notice that the",
-                "cobwebs are gone.  Apparently not even spiders believe that there is",
-                "anything here worth catching.  As you are about to turn around and",
-                "leave, you notice something engraved in the wall.  Upon closer",
-                "inspection you notice a {Rheart{x with the letters \"K+P\" in it.  The only",
-                "exit is back west.  "
-            ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33046",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33045"
-                }
-            },
-            "extras": {}
-        },
-        "33025": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BArmor Shop{x",
-            "description": [
-                "The light of strategic lanterns illuminates the cluttered shop, and",
-                "light dances off the blades of weapons.  Implements from the",
-                "far-reaches of the realms have been gathered and sorted before being",
-                "offered for your perusal.  The shopkeeper eyes you suspicously,",
-                "waiting for you to make your selection and move on.  "
-            ],
-            "flags_raw": "0 525320 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33025",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33015"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33005"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33039"
-                }
-            },
-            "extras": {}
-        },
-        "33041": {
-            "name": "Downtrance",
-            "description": [
-                "As you slowly descend into the cellar, you notice that the",
-                "temperature is dropping and that all the moisture is vanishing from",
-                "the air.  The doorway at the end of the staircase is beautifully",
-                "ornamented with strange symbols of power.  Only one of these runes",
-                "makes any sense to you and you identify it as a major rune of",
-                "blasting.  When you enter the cellars you notice a skeleton with a",
-                "small piece of paper in it's hand.  Exits from this room leads west",
-                "east and back up the stairs."
-            ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33041",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33042"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33043"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33002"
-                }
-            },
-            "extras": {}
-        },
-        "33009": {
-            "name": "Kairi's Room",
-            "description": [
-                "The peace of the hall is disturbed when you enter this room.  Loud",
-                "hard rock music is being played by a huge red jukebox.  The walls are",
-                "covered almost totaly by posters of the coolest rock bands of the",
-                "realms.  The room itself is a mess, clothes everywhere, half drinked",
-                "soda bottles lying around.  Theres a kingsized bed on the back of the",
-                "room and on top of it, hanging from the wall, is a red warlock guitar.",
-                "On the other side of the room theres a desk with lots of doddled",
-                "parchments and ink.  On top of the desk you see a big photo of some of",
-                "his closest friends from the clan, Liliandra, Retyon, Ryel, Taryn,",
-                "Sarlekk, Garret, Kossuth and himself.  "
-            ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33009",
-            "exits": {
-                "west": {
-                    "flags_raw": "33001",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33013"
-                }
-            },
-            "extras": {}
-        },
-        "33045": {
-            "name": "Strong Wine Storeroom",
-            "description": [
-                "The shelves lining these walls are filed with very dusty old",
-                "bottles.  After a little dusting you notice some signs on the shelves",
-                "reading: \"Champagne\", \"Moscatel\", \"portwine\", \"Sherry\", \"Cognac\" and",
-                "\"Whiskey\".  During the dusting you notice a bottle completely clean of",
-                "dust, it somehow seems out of place.  The cave extends west and east. "
-            ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33045",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33047"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33044"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33046"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33039"
-                }
-            },
-            "extras": {}
-        },
-        "33023": {
-            "name": "Baq's Nest ",
-            "description": [
-                "You have entered a room that is obviously used for sleeping.  A",
-                "circular bed is here, which vaguely resembles a large nest!  Some",
-                "miscellaneous items are stored on a shelf against one wall, near the",
-                "door.  The other three walls have large windows to allow the breeze to",
-                "blow through.  "
-            ],
-            "flags_raw": "0 67634700 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33023",
-            "exits": {},
-            "extras": {}
-        },
-        "33021": {
-            "name": "Leora's Room",
-            "description": [
-                "A quaint little room filled with the love and warmth of a young",
-                "lady who knows how to make a room a home.  A canopied bed occupies the",
-                "far wall, a dresser is on the right while a small couch is on the",
-                "right.  She keeps it lit by a small lamp that sits on the bed table",
-                "beside the enormous spell book which she must continually read.  At",
-                "this point you can make it that anyone who enters hear a voice saying",
-                "welcome make your self at home.  "
-            ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33021",
-            "exits": {},
-            "extras": {}
-        },
-        "33008": {
-            "name": "Hallway",
-            "description": [
-                "This long and winding hallway seems to travel for a while.  You can",
-                "see vivid tapistries on the walls along with tall candle holders that",
-                "illuminate the hallway.  Doors leading in all directions give off some",
-                "light but not much.",
-                " ",
-                "{!North:{B Depths of the Universe{x",
-                "{1South:{B Avlad's Room{x",
-                "{#Up:    {!W{#h{1i{3r{!l{#w{1i{3n{!d {#S{1p{3e{!l{#l{1f{3i{!r{#e{x"
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33008",
-            "exits": {
-                "south": {
-                    "flags_raw": "33083",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33035"
-                },
-                "north": {
-                    "flags_raw": "33088",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33037"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33007"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33013"
-                },
-                "up": {
-                    "flags_raw": "33072",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33032"
-                }
-            },
-            "extras": {}
-        },
-        "33019": {
-            "name": "Ventor's Office",
-            "description": [
-                "Rich panels of dark mahogany give this rooms a warm welcoming",
-                "atmosphere.  A large oak desk sits to one end of the room illumintated",
-                "from behind by tall windows opening onto the courtyard below.  A",
-                "sitting are is off to your left with several chairs around a cozy",
-                "fireplace.  Bookshelves line most of the walls, many of them",
-                "overflowing with micellaneous items found on many an adventure.  "
-            ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33019",
-            "exits": {},
-            "extras": {}
+            "vnum": "33000"
         },
         "33052": {
-            "name": "{RCr{rim{Rso{rn {BGu{bar{8di{ban {BTraining Armor Dealer",
+            "extras": {},
+            "flags_raw": "0 67634184 0 13",
+            "flags2_raw": "0",
             "description": [
                 "Racks of armor and weapons line the walls of this room.  Pryderi stands",
                 "off to one side sharpening one of the many fine tools of his trade.",
                 "The walls here are covered in tapestries depicting the many battles",
                 "the Guardian's have sent aid to."
             ],
-            "flags_raw": "0 67634184 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33052",
+            "name": "{RCr{rim{Rso{rn {BGu{bar{8di{ban {BTraining Armor Dealer",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "33015",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33015"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33015": {
-            "name": "{RCr{rim{Rso{rn {BGu{bar{8di{ban {BApothecary{x",
-            "description": [
-                "The lamps are low in this room as light degrades potions over time.  Cu Roi",
-                "is here mixing components of the potions that the Crimson Guardians rely ",
-                "on.  Racks of bottles and scrolls line the wall behind the old sorcerer.",
-                "He eyes you over his table waiting for you to make a selection."
-            ],
-            "flags_raw": "0 67634184 0 13",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33015",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33025"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33052"
-                }
-            },
-            "extras": {}
-        },
-        "33020": {
-            "name": "Baquri's Treehouse Roost ",
-            "description": [
-                "You are in a treehouse, overlooking the forest.  Although the house",
-                "is in a tree, it still is a comfortable, cozy place.  Looking out the",
-                "window, you see the tops of the trees...  And a few hawks circling in",
-                "an thermal updraft.  There is a ledge outside the main, large window. ",
-                "The only exit from the house is down...  Unless you can fly!  "
-            ],
-            "flags_raw": "0 67634188 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33020",
-            "exits": {},
-            "extras": {}
-        },
-        "33035": {
-            "name": "Avlad's Room",
-            "description": [
-                "The entire room has a holy feeling, mostly because of the holy",
-                "symbols that adorn the walls.  There are paintings of Avlad's friends",
-                "hanging on the walls.  A bed is on one corner, a chair in the other,",
-                "and a dresser to hold Avlad's clothes, armor and other assorted",
-                "objects.  The place is extremely clean, nothing is messy at all.  "
-            ],
-            "flags_raw": "0 67633160 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33035",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33008"
-                }
-            },
-            "extras": {}
-        },
-        "33002": {
-            "name": "{&Sanctuary {Bof the {!Cr{1im{!so{1n {BGu{bar{*di{ban{Bs{x",
-            "description": [
-                "Stepping into this room you notice the bubbling healing pools right",
-                "away.  Marbel floors are beneath your feet as you gaze at paintings of",
-                "the many beautiful places within the realms.  Morann is standing by",
-                "ready to heal any injuries you may have encountered on your",
-                "adventures.  The spiral staircase will lead you to the 2nd floor of the",
-                "hall as well as the basement.  A library is to your east and a nice",
-                "coffee shop is in the southern direction.  "
-            ],
-            "flags_raw": "0 525320 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33002",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20153"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33005"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33007"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33031"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33000"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33041"
-                }
-            },
-            "extras": {}
-        },
-        "33013": {
-            "name": "Long Hallway",
-            "description": [
-                "This long and winding hallway seems to travel for a while.  You can",
-                "see vivid tapistries on the walls along with tall candle holders that",
-                "illuminate the hallway.  Doors leading in all directions give off some",
-                "light but not much.  ",
-                " ",
-                "{!North: {!Fla{1me {*Sanc{!tuary{x",
-                "{MEast:  {BKairi's Room{x",
-                "{1South: {BXairin's Room{x"
-            ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33013",
-            "exits": {
-                "south": {
-                    "flags_raw": "33032",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33011"
-                },
-                "north": {
-                    "flags_raw": "33031",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33014"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33008"
-                },
-                "east": {
-                    "flags_raw": "33001",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33009"
-                }
-            },
-            "extras": {}
-        },
-        "33042": {
-            "name": "Red wine storage room",
-            "description": [
-                "This room is a part of the long cave that is the cellars of the",
-                "Crimson Guardians clan hall.  It is completely carved from the rock",
-                "and thus not very roomy.  The larger species of the realms have a hard",
-                "time getting around down here, though it is possible.  There are",
-                "several rows of shelves, set into the rock in a human arms length",
-                "depression in the northern and southern walls, filled with old bottles",
-                "old dusty bottles of wine.  The cavern continues west to the staircase",
-                "and east further into the cavern.  "
-            ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33042",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33048"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33041"
-                }
-            },
-            "extras": {}
+            "vnum": "33052"
         },
         "33010": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BInterview Room{x",
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
             "description": [
                 "Entering a small white room you see a highly polished oak siting",
                 "table in the middle of the room with soft couches on either side of",
                 "it.  On the far wall sits the {BGu{bar{*di{ban{x crest set above an inset marble",
                 "fireplace."
             ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33010",
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BInterview Room{x",
             "exits": {
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "33000",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33000"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33051": {
-            "name": "Hallway",
-            "description": [
-                "This long and winding hallway seems to travel for a while.  You can",
-                "see vivid tapistries on the walls along with tall candle holders that",
-                "illuminate the hallway.  "
-            ],
-            "flags_raw": "0 524292 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33051",
-            "exits": {},
-            "extras": {}
-        },
-        "33039": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BMount Shop{x",
-            "description": [
-                "You have walked into the Crimson Guardian Mount Shop.  Hay and",
-                "grass line the floors giving off a nasty smell.  If it were not for",
-                "the garden to the north, you would fall over from the smell.  Old,",
-                "wooden, brown doors block off the exit of these magnificent animals. ",
-                "A short but sturdy fellow with a cocked eye looks at you wondering",
-                "what you are doing in the stable.  You notice some old wooden planks",
-                "being covered by a rather large pile of hay.  "
-            ],
-            "flags_raw": "0 537395212 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33039",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33027"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33025"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33045"
-                }
-            },
-            "extras": {}
-        },
-        "33043": {
-            "name": "White wine storage room",
-            "description": [
-                "This part of the caves forms a crude \"L\"-bend.  It is obvious that",
-                "the sheer effort of carving this cellar from the rocks have kept its",
-                "constructors from trying to make it artistic, it \"merely\" serves a",
-                "purpose.  In the northern and eastern walls a depression the depth of",
-                "a humans arm hold several shelves lodged into the sides of it, which",
-                "hold several dusty bottles of wine.  The caverns continue to the west,",
-                "to the staircase and to the south further into the cellars of the",
-                "Guardians.  "
-            ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33043",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33041"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33044"
-                }
-            },
-            "extras": {}
-        },
-        "33001": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BPractice Room{x",
-            "description": [
-                "You step outside into a field.  The grass and various plants grow",
-                "quite high here, except for a gigantic circle to do battle with the",
-                "training dummy, Queen Maeve.  This is the place to vent any",
-                "frustrations you may have encountered during the day or simply to",
-                "improve your combat skills.  To the north you can bairly see another",
-                "circle due to the high plant life, you wonder what that could be.  "
-            ],
-            "flags_raw": "0 524292 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33001",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33006"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20155"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33000"
-                }
-            },
-            "extras": {}
-        },
-        "33048": {
-            "name": "Beer and Equipment Storage.",
-            "description": [
-                "As you enter the room the first thing that strikes you is that it",
-                "smells faintly of old grapes (provided your character has a sense of",
-                "smell, of course).  You notice a couple of big wooden bathtubs, which",
-                "have apparently been used to mash grapes in some time long ago. ",
-                "Several large kegs of beer line the northern, western and southern",
-                "walls.  The cave extends to the east.  "
-            ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33048",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33042"
-                }
-            },
-            "extras": {}
-        },
-        "33012": {
-            "name": "The Temple of Crescents",
-            "description": [
-                "Walls of glossy obsidian arch to meet seamlessly with the high",
-                "domed ceiling.  A lunar disk rests in the vaulted heights, magically",
-                "collecting thelight of the moon every evening and diffusing it into",
-                "this chamber.  Shafts of light stream from the disk to hit ivory",
-                "engravings of the lunar phases on the ebony rock surface.  A carpet ",
-                "of emerald grass covers the entirety of the room, promising peaceful",
-                "slumber. Echoed prayers to the Moon Maiden reverberate peacefully",
-                "without end, offering a sence of tranquility."
-            ],
-            "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33012",
-            "exits": {},
-            "extras": {}
+            "vnum": "33010"
         },
         "33049": {
-            "name": "The secret storage room",
+            "extras": {},
+            "flags_raw": "0 524300 0 20",
+            "flags2_raw": "0",
             "description": [
                 "This room lies well hidden through a secret tunnel in a large",
                 "beer-keg.  Lots of bottles and wineskins lie on shelves in all walls",
@@ -1406,78 +600,78 @@
                 "Crimson Guardians seem to be surprisingly well stocked in the booze",
                 "department."
             ],
-            "flags_raw": "0 524300 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33049",
+            "name": "The secret storage room",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "33048",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33048"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "33049"
         },
         "33026": {
-            "name": "Cafe Patio",
+            "extras": {},
+            "flags_raw": "0 67633152 0 2",
+            "flags2_raw": "0",
             "description": [
                 "Intricately carved chairs and tables are scattered throughout this",
                 "area, a favorite place from which Guardians observe the sports in the",
                 "garden.  Ancient vines cover the trellis, ceilings, and walls, and the",
                 "blossoms' fragrance wafts over you on a brezze.  "
             ],
-            "flags_raw": "0 67633152 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33026",
+            "name": "Cafe Patio",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "33005",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33005"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33006": {
-            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BSparring Room{x",
-            "description": [
-                "A place to cure boredom, the Guardian Sparring Room.  Windows that",
-                "stretch from the floor to almost the top of the ceiling allow you to",
-                "see the outside at a glance.  A list of rules are posted on the wall,",
-                "stating that the thirst for revenge has no place on these grounds and",
-                "that it is forbidden to take your frustration out on your fellow",
-                "Guardians."
-            ],
-            "flags_raw": "0 268959744 0 0",
             "wanted_area_vnum": "",
+            "vnum": "33026"
+        },
+        "33029": {
+            "extras": {},
+            "flags_raw": "0 524288 0 19",
             "flags2_raw": "0",
-            "vnum": "33006",
+            "description": [
+                "Blooms of every color and kind sprout from the earth here: irises,",
+                "roses, orchids, pansies, crocuses, daffodils.  Surely this is",
+                "enchanted ground, for there is no species of oplant that will not",
+                "grow, and the buds bloom all the year with no reagrd to season.  You",
+                "watch a bee suck the sweet nectar from a flower and momentarily forget",
+                "the cares and strifes outside these hallowed walls.  "
+            ],
+            "name": "Garden Path",
             "exits": {
-                "west": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "33028",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33050"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "33031",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33001"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "33029"
         },
         "33031": {
-            "name": "Library",
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The musty smell of yellowed books and candle wax permeate the air,",
                 "promising to entice a sneeze.  Your eyes are drawn to flowers of",
@@ -1490,72 +684,336 @@
                 "jumbled upon a large desk before a beady-eyed gnome.  Two beautiful sets",
                 "of large doors allow you to see outside into the garden."
             ],
-            "flags_raw": "0 524296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33031",
+            "name": "Library",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "33029",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33029"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "33002"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "33027",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33027"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33002",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33022": {
-            "name": "Ventor's Workshop",
-            "description": [
-                "A total opposite to the room you have just left, this room is a",
-                "clutter of beakers, flasks, tomes, scrolls and many things you would",
-                "not dare try to identify.  The workshop of a wizard is a sacred place",
-                "in itself.  No other person could ever make sense of the chaos within.",
-                "A seldom used cot sits in one corner piled high with odds and ends.  "
-            ],
-            "flags_raw": "0 67633164 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33022",
-            "exits": {},
-            "extras": {}
+            "vnum": "33031"
         },
-        "33033": {
-            "name": "{3E{#ll{&i{7z{*a{7b{&e{#th'{3s {2R{@oo{2m{x",
-            "description": [
-                "There is a medium-sized room on the top of the tower.  The walls",
-                "are covered with {!  Red {7and {#golden {7tapestries{x.  There is a big library",
-                "here.  As you examine some of the books you understand that they are",
-                "all similar with the title '{#I,Ellizabeth{7' .  Probably her",
-                "autobiography.  In the middle of the room there is a square table with",
-                "a {#golden {7candlestick on it that lights the room.  As you open the only",
-                "window of the room , your gaze meets the top of a {2forest {7with oak",
-                "trees.  There is also a big and comfortable bed with {%purple {7sheets.  "
-            ],
+        "33037": {
+            "extras": {},
             "flags_raw": "0 67633164 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "33033",
-            "exits": {},
-            "extras": {}
+            "description": [
+                "{&You walk into a rather dark room, with only a few candles",
+                "flickering here and there A cold draft washes over you, as you gaze",
+                "into the fireplace that looks as though it has not been lit in a very",
+                "long time.  The shadows on the wall change shape and sizes and seem to",
+                "be those of people standing in the room.  In the corner you see an old",
+                "rocking chair slowly moving back and forth, creaking as it does so.  {x "
+            ],
+            "name": "Depths of the Universe",
+            "exits": {
+                "south": {
+                    "flags_raw": "33088",
+                    "room_id": "33008",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33037"
+        },
+        "33041": {
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "As you slowly descend into the cellar, you notice that the",
+                "temperature is dropping and that all the moisture is vanishing from",
+                "the air.  The doorway at the end of the staircase is beautifully",
+                "ornamented with strange symbols of power.  Only one of these runes",
+                "makes any sense to you and you identify it as a major rune of",
+                "blasting.  When you enter the cellars you notice a skeleton with a",
+                "small piece of paper in it's hand.  Exits from this room leads west",
+                "east and back up the stairs."
+            ],
+            "name": "Downtrance",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33043",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "33002",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33042",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33041"
+        },
+        "33002": {
+            "extras": {},
+            "flags_raw": "0 525320 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Stepping into this room you notice the bubbling healing pools right",
+                "away.  Marbel floors are beneath your feet as you gaze at paintings of",
+                "the many beautiful places within the realms.  Morann is standing by",
+                "ready to heal any injuries you may have encountered on your",
+                "adventures.  The spiral staircase will lead you to the 2nd floor of the",
+                "hall as well as the basement.  A library is to your east and a nice",
+                "coffee shop is in the southern direction.  "
+            ],
+            "name": "{&Sanctuary {Bof the {!Cr{1im{!so{1n {BGu{bar{*di{ban{Bs{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20153",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33031",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "33041",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33005",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "33007",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33000",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33002"
+        },
+        "33047": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "There is considerably more {Ylight{x.  In here than you have seen since",
+                "you entered the cellars, but this light has a sickly yellow gleam.  In",
+                "the middle of the room a giant humanoid is fastoned to some kind of a",
+                "chair.  He looks dead...  REALLY dead.  A second chair stands besides",
+                "the large one, with a strange kind of helmet hanging from it.  Shelves",
+                "filled with funny glass jars line the walls.  Upon closer examination",
+                "you see brains resting in many of them.  All the jars are labelled. ",
+                "The only exit is back south.  "
+            ],
+            "name": "Dr. Schwartz's Secret Laboratory",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33045",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33047"
+        },
+        "33043": {
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "This part of the caves forms a crude \"L\"-bend.  It is obvious that",
+                "the sheer effort of carving this cellar from the rocks have kept its",
+                "constructors from trying to make it artistic, it \"merely\" serves a",
+                "purpose.  In the northern and eastern walls a depression the depth of",
+                "a humans arm hold several shelves lodged into the sides of it, which",
+                "hold several dusty bottles of wine.  The caverns continue to the west,",
+                "to the staircase and to the south further into the cellars of the",
+                "Guardians.  "
+            ],
+            "name": "White wine storage room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33041",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33044",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33043"
+        },
+        "33048": {
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "As you enter the room the first thing that strikes you is that it",
+                "smells faintly of old grapes (provided your character has a sense of",
+                "smell, of course).  You notice a couple of big wooden bathtubs, which",
+                "have apparently been used to mash grapes in some time long ago. ",
+                "Several large kegs of beer line the northern, western and southern",
+                "walls.  The cave extends to the east.  "
+            ],
+            "name": "Beer and Equipment Storage.",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33042",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33048"
+        },
+        "33006": {
+            "extras": {},
+            "flags_raw": "0 268959744 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A place to cure boredom, the Guardian Sparring Room.  Windows that",
+                "stretch from the floor to almost the top of the ceiling allow you to",
+                "see the outside at a glance.  A list of rules are posted on the wall,",
+                "stating that the thirst for revenge has no place on these grounds and",
+                "that it is forbidden to take your frustration out on your fellow",
+                "Guardians."
+            ],
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BSparring Room{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33050",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33001",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33006"
+        },
+        "33007": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This long and winding hallway seems to travel for a while.  You can",
+                "see vivid tapistries on the walls along with tall candle holders that",
+                "illuminate the hallway.  To the east the hallway continues into the",
+                "personal quartes of the Crimson Guardians.  "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33008",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "33002",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33007"
+        },
+        "33035": {
+            "extras": {},
+            "flags_raw": "0 67633160 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The entire room has a holy feeling, mostly because of the holy",
+                "symbols that adorn the walls.  There are paintings of Avlad's friends",
+                "hanging on the walls.  A bed is on one corner, a chair in the other,",
+                "and a dresser to hold Avlad's clothes, armor and other assorted",
+                "objects.  The place is extremely clean, nothing is messy at all.  "
+            ],
+            "name": "Avlad's Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "33008",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33035"
         },
         "33044": {
-            "name": "\"L\"-bend",
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
             "description": [
                 "This is another shoddy \"L\"-bend carved from the rocks below the",
                 "Guardians clan hall.  Though this one seems different somehow.  On the",
@@ -1564,55 +1022,598 @@
                 "smell of dust and decay, can be felt here but does not seem to come",
                 "from either north or east.  The caves lead north and east from here.  "
             ],
-            "flags_raw": "0 524296 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "33044",
+            "name": "\"L\"-bend",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "33043",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33043"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "33045",
                     "description": [
                         ""
-                    ],
-                    "room_id": "33045"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "33040": {
-            "name": "Guard pet holding room",
-            "description": [
-                "if you are in here, get out."
-            ],
-            "flags_raw": "0 4 0 0",
             "wanted_area_vnum": "",
+            "vnum": "33044"
+        },
+        "33009": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
             "flags2_raw": "0",
-            "vnum": "33040",
+            "description": [
+                "The peace of the hall is disturbed when you enter this room.  Loud",
+                "hard rock music is being played by a huge red jukebox.  The walls are",
+                "covered almost totaly by posters of the coolest rock bands of the",
+                "realms.  The room itself is a mess, clothes everywhere, half drinked",
+                "soda bottles lying around.  Theres a kingsized bed on the back of the",
+                "room and on top of it, hanging from the wall, is a red warlock guitar.",
+                "On the other side of the room theres a desk with lots of doddled",
+                "parchments and ink.  On top of the desk you see a big photo of some of",
+                "his closest friends from the clan, Liliandra, Retyon, Ryel, Taryn,",
+                "Sarlekk, Garret, Kossuth and himself.  "
+            ],
+            "name": "Kairi's Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "33001",
+                    "room_id": "33013",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33009"
+        },
+        "33015": {
+            "extras": {},
+            "flags_raw": "0 67634184 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "The lamps are low in this room as light degrades potions over time.  Cu Roi",
+                "is here mixing components of the potions that the Crimson Guardians rely ",
+                "on.  Racks of bottles and scrolls line the wall behind the old sorcerer.",
+                "He eyes you over his table waiting for you to make a selection."
+            ],
+            "name": "{RCr{rim{Rso{rn {BGu{bar{8di{ban {BApothecary{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "33025",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33052",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33015"
+        },
+        "33032": {
+            "extras": {},
+            "flags_raw": "0 201859104 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "{!F{1l{#a{3m{1e{#s {!suddenly surround you; you have arrived into a place of",
+                "unbearable heat.  Sweat pours from your neck as you wonder why you",
+                "are here.  Trying to exit would be a thought not worth thinking.",
+                "You feel the aura of another person surrounding you.{x"
+            ],
+            "name": "{!W{#h{1i{3r{!l{#w{1i{3n{!d {#S{1p{3e{!l{#l{1f{3i{!r{#e{x",
+            "exits": {
+                "down": {
+                    "flags_raw": "33072",
+                    "room_id": "33008",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33032"
+        },
+        "33028": {
+            "extras": {},
+            "flags_raw": "0 524288 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "Tall boxwood hedges are trimmed into straight walls marking the",
+                "entrance of a small labrynth.  Low wooden benches are spread out at",
+                "even intervals throughout the shrubbery, lest one become over-weary",
+                "from exploring.  Each turn finds topiary masterpieces of rabbits,",
+                "swans, castles and the like.  You can't help noticing the half-hidden",
+                "arrows that point the way out of the maze.  "
+            ],
+            "name": "Topiary Maze",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33029",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33027",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33028"
+        },
+        "33021": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A quaint little room filled with the love and warmth of a young",
+                "lady who knows how to make a room a home.  A canopied bed occupies the",
+                "far wall, a dresser is on the right while a small couch is on the",
+                "right.  She keeps it lit by a small lamp that sits on the bed table",
+                "beside the enormous spell book which she must continually read.  At",
+                "this point you can make it that anyone who enters hear a voice saying",
+                "welcome make your self at home.  "
+            ],
+            "name": "Leora's Room",
             "exits": {},
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "33021"
+        },
+        "33012": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "Walls of glossy obsidian arch to meet seamlessly with the high",
+                "domed ceiling.  A lunar disk rests in the vaulted heights, magically",
+                "collecting thelight of the moon every evening and diffusing it into",
+                "this chamber.  Shafts of light stream from the disk to hit ivory",
+                "engravings of the lunar phases on the ebony rock surface.  A carpet ",
+                "of emerald grass covers the entirety of the room, promising peaceful",
+                "slumber. Echoed prayers to the Moon Maiden reverberate peacefully",
+                "without end, offering a sence of tranquility."
+            ],
+            "name": "The Temple of Crescents",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33012"
+        },
+        "33013": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This long and winding hallway seems to travel for a while.  You can",
+                "see vivid tapistries on the walls along with tall candle holders that",
+                "illuminate the hallway.  Doors leading in all directions give off some",
+                "light but not much.  ",
+                " ",
+                "{!North: {!Fla{1me {*Sanc{!tuary{x",
+                "{MEast:  {BKairi's Room{x",
+                "{1South: {BXairin's Room{x"
+            ],
+            "name": "Long Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "33031",
+                    "room_id": "33014",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "33001",
+                    "room_id": "33009",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33008",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "33032",
+                    "room_id": "33011",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33013"
+        },
+        "33034": {
+            "extras": {},
+            "flags_raw": "0 524300 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This long and winding hallway seems to travel for a while.  You can",
+                "see vivid tapistries on the walls along with tall candle holders that",
+                "illuminate the hallway.  Doors leading in all directions give off some",
+                "light but not much.",
+                " ",
+                "{!North: {BDieppe's Room{x",
+                "{MEast: {BAvlad's Room{x",
+                "{mWest: {!Fla{1me {*Sanc{1tu{!ary{x",
+                "{#Up: {BDeamien's Mountaintop{x",
+                "{3Down: {BS{Cp{7a{Cc{Be {G({BPs{byl{Cin{bce{B's {!D{1o{#ma{1i{!n{G){x"
+            ],
+            "name": "Long Hallway",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33034"
+        },
+        "33039": {
+            "extras": {},
+            "flags_raw": "0 537395212 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "You have walked into the Crimson Guardian Mount Shop.  Hay and",
+                "grass line the floors giving off a nasty smell.  If it were not for",
+                "the garden to the north, you would fall over from the smell.  Old,",
+                "wooden, brown doors block off the exit of these magnificent animals. ",
+                "A short but sturdy fellow with a cocked eye looks at you wondering",
+                "what you are doing in the stable.  You notice some old wooden planks",
+                "being covered by a rather large pile of hay.  "
+            ],
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BMount Shop{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "33027",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33025",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "33045",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33039"
+        },
+        "33001": {
+            "extras": {},
+            "flags_raw": "0 524292 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You step outside into a field.  The grass and various plants grow",
+                "quite high here, except for a gigantic circle to do battle with the",
+                "training dummy, Queen Maeve.  This is the place to vent any",
+                "frustrations you may have encountered during the day or simply to",
+                "improve your combat skills.  To the north you can bairly see another",
+                "circle due to the high plant life, you wonder what that could be.  "
+            ],
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BPractice Room{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "33006",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33000",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20155",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33001"
+        },
+        "33024": {
+            "extras": {},
+            "flags_raw": "0 524300 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This long and winding hallway seems to travel for a while.  You can",
+                "see vivid tapistries on the walls along with tall candle holders that",
+                "illuminate the hallway.  Doors leading in all directions give off some",
+                "light but not much.  The hallway continues north.",
+                " ",
+                "{MEast: {BVentor's Office",
+                "{1South: {BLeora's Room",
+                "{mWest: {3E{#ll{&i{7z{*a{7b{&e{#th'{3s {2R{@oo{2m",
+                "{#Up: {BBaquri's Treehouse{x"
+            ],
+            "name": "Long Hallway",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33024"
+        },
+        "33011": {
+            "extras": {},
+            "flags_raw": "0 67633165 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "{cYou are in a room filled with the fragrance of {ySa{rnd{ylew{ro{yod{c and",
+                "{yDra{rg{yons{rb{ylood{c.  The room is decorated in {yw{Ra{yr{Rm{c colours, from the {ydried",
+                "{Mf{Rl{Bo{Cw{Re{Wr{Ys{c on the beareu to the soft {wbeige{c of the curtains on the {Wpillars",
+                "{cthat surround the bed.  On the {Wwalls{c are several {*black {cand {Wwhite",
+                "{cdrawings of places around Westbridge and New Thalos.  In the corner by",
+                "the {Yfi{Rre{Ypl{Rac{Ye{c is an easle with a half finished still-life painting and",
+                "a few scattered bottles of paint.  {x "
+            ],
+            "name": "Xairin's Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "33032",
+                    "room_id": "33013",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33011"
+        },
+        "33022": {
+            "extras": {},
+            "flags_raw": "0 67633164 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "A total opposite to the room you have just left, this room is a",
+                "clutter of beakers, flasks, tomes, scrolls and many things you would",
+                "not dare try to identify.  The workshop of a wizard is a sacred place",
+                "in itself.  No other person could ever make sense of the chaos within.",
+                "A seldom used cot sits in one corner piled high with odds and ends.  "
+            ],
+            "name": "Ventor's Workshop",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33022"
+        },
+        "33018": {
+            "extras": {},
+            "flags_raw": "0 67633156 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{DSanchi{gn's grov{ge is a syn{wthesi{gs of marb{gle and wood{D, with{x",
+                "{Dlife s{gomehow bir{gthed from {wthe s{gtrange br{gew. Muted{D footsteps{x",
+                "{Dreverb{gerate off of{g the tiles {wof g{green vein{ged marb{Dle. Fluted{x",
+                "{Dmarble{g columns set in{gto the wal{wl ar{ge transfo{grmed{D into trees{x",
+                "{Das the{gy reach to th{ge sky. The{w cal{gl of a bl{guejay i{Dntrudes from{x",
+                "{Dtime t{go time fro{gm where sh{we has{g made her{g nest ami{Dd the upper{x",
+                "{Dbranch{ges. For {gall the op{wen ar{gea above{g you, the gr{Dove is quiet{x",
+                "{Dsave f{gor the {grustle of{w leav{ges in th{ge breeze.{x"
+            ],
+            "name": "{GS{ganchin's {GG{grove{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "33018"
+        },
+        "33046": {
+            "extras": {},
+            "flags_raw": "0 524296 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "As you enter this last part of the wine cellars you notice that the",
+                "cobwebs are gone.  Apparently not even spiders believe that there is",
+                "anything here worth catching.  As you are about to turn around and",
+                "leave, you notice something engraved in the wall.  Upon closer",
+                "inspection you notice a {Rheart{x with the letters \"K+P\" in it.  The only",
+                "exit is back west.  "
+            ],
+            "name": "The End",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33045",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33046"
+        },
+        "33014": {
+            "extras": {},
+            "flags_raw": "0 525324 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{1Fla{!mes g{1lim{#mer t{1hrou{8gh {!th{#i{1s ent{8ire ro{!om,{# a{1s if{! the wa{8lls",
+                "{1th{!emse{1lves{# are {1made {8of {!fir{#e{1.  Des{8pite {!the{# f{1ire{!, this {8room",
+                "{1{!reall{1y i{#s not {1unbea{8rabl{!y h{#ot{1, the {8flames{! b{#ei{1ng {!comple{8tely",
+                "{1{!magi{1cal{# in n{1ature.{8  Th{!e da{#nc{1ing ene{8rgy al{!so {#th{1ro{!ws a f{8ar",
+                "{1{!soft{1er{# ligh{1t aro{8und t{!he r{#oom{1 than y{8ou woul{!d a{#nt{1ici{!pate,{8 and",
+                "{1{!in f{1ac{#t, i{1f the{8 cen{!tral {#lam{1p in the{8 room w{!ere {#to{1 be{! turne{8d ",
+                "{1{!off, {1t{#he r{1oom {8woul{!d pr{#obab{1ly be da{8rk save {!the {#wa{1lls.{!  On ",
+                "{1{!the no{1r{#the{1rn w{8all{!, mo{#vin{1g amidst {8the flam{!e, is{# a{1 mag{!ical ",
+                "{1{!statue o{1{#f a{1 be{8aut{!ifu{#l a{1vian wom{8an, a mag{!ical {#re{1minde{!r of",
+                "{1Th{!ryne's {1l{#ov{1e.{x"
+            ],
+            "name": "{!Fla{1me {*Sanc{1tu{!ary{x ",
+            "exits": {
+                "south": {
+                    "flags_raw": "33031",
+                    "room_id": "33013",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33014"
+        },
+        "33008": {
+            "extras": {},
+            "flags_raw": "0 524296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This long and winding hallway seems to travel for a while.  You can",
+                "see vivid tapistries on the walls along with tall candle holders that",
+                "illuminate the hallway.  Doors leading in all directions give off some",
+                "light but not much.",
+                " ",
+                "{!North:{B Depths of the Universe{x",
+                "{1South:{B Avlad's Room{x",
+                "{#Up:    {!W{#h{1i{3r{!l{#w{1i{3n{!d {#S{1p{3e{!l{#l{1f{3i{!r{#e{x"
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "33088",
+                    "room_id": "33037",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33013",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "33072",
+                    "room_id": "33032",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33007",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "33083",
+                    "room_id": "33035",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33008"
+        },
+        "33025": {
+            "extras": {},
+            "flags_raw": "0 525320 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "The light of strategic lanterns illuminates the cluttered shop, and",
+                "light dances off the blades of weapons.  Implements from the",
+                "far-reaches of the realms have been gathered and sorted before being",
+                "offered for your perusal.  The shopkeeper eyes you suspicously,",
+                "waiting for you to make your selection and move on.  "
+            ],
+            "name": "{!Cr{1im{!so{1n {BGu{bar{*di{ban {BArmor Shop{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "33039",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "33005",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "33015",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33025"
+        },
+        "33030": {
+            "extras": {},
+            "flags_raw": "0 201859080 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You walk along a narrow path, the trees are so think you can hardly",
+                "see a thing.  As you come closer, you make out a large building with",
+                "the symbol of the {!Cr{1im{!so{1n {BGu{bar{*di{ban{Bs{x atop the center tower.  You",
+                "hear the great noise of laughter and conversation comming from the",
+                "inside.  cuChulainn is here, keeping a close eye on you."
+            ],
+            "name": "Approching a Great Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "33063",
+                    "room_id": "33000",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "9301",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "33030"
         }
     },
-    "uid": "guard01",
-    "area_quest_points": 0,
     "credits": "[ ClnHll ] Guardian's Clan Hall",
     "faction_id": "faction2",
+    "name": "Guardian's Clan Hall",
     "vnums": [
         33000,
         33399
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "33025": {
-            "name": "Taliesin~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "900 900 900 900",
             "description": [
                 "Taliesin a bard of grest prestige, has traveled the world singing\n",
                 "his tales for all to hear.  He carries with him novelties and\n",
@@ -1620,70 +1621,70 @@
                 "dreamer brings forth gifts of the Tylwth Teg, the Fair Fold.  \n"
             ],
             "raw_flags5": "stand stand male 10000",
-            "raw_flags6": "ACGHMV ABCDEFGHIJKMW small unknown",
-            "raw_flags4": "CDEFGJKN ABCDL E 0",
-            "raw_flags3": "900 900 900 900",
             "vnum": 33025,
             "raw_flags": "ABGNRc DFLZa HN 1000 0",
-            "race_id": "minotaur",
+            "raw_flags4": "CDEFGJKN ABCDL E 0",
+            "room_name": "Taliesin stands here with all your armor needs.\n",
+            "name": "Taliesin~\n",
             "raw_flags2": "105 600 500d500+99 500d500+99 500d500+99 none",
-            "d_flags": "D ~",
+            "keywords": "Taliesin crimson~\n",
             "subroutines": [
                 "M GREET 33025 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Taliesin stands here with all your armor needs.\n",
-            "keywords": "Taliesin crimson~\n"
+            "raw_flags6": "ACGHMV ABCDEFGHIJKMW small unknown",
+            "race_id": "minotaur",
+            "t_flags": "T ~"
         },
         "33030": {
-            "name": "cuChulainn~\n",
+            "d_flags": "D How the hell did you do that?~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [
                 "A wiry build young man with an au empowering stature.  This is non-other\n",
                 "than the mighty cuChulainn, who single handily protected the city of\n",
                 "Ulaidh.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMVZ ABCDEFGHIJKQUX medium unknown",
-            "raw_flags4": "CDEJMNOT ABP CD 0",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 33030,
             "raw_flags": "ABMNR c HP -1000 0",
-            "race_id": "human",
+            "raw_flags4": "CDEJMNOT ABP CD 0",
+            "room_name": "CuChulainn is here, guarding the enterance.\n",
+            "name": "cuChulainn~\n",
             "raw_flags2": "110 30 15d101+8425 1d1+4999 5d20+42 magic",
-            "d_flags": "D How the hell did you do that?~",
+            "keywords": "cuChulainn crimson~\n",
             "subroutines": [
                 "M GREET 33030 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "CuChulainn is here, guarding the enterance.\n",
-            "keywords": "cuChulainn crimson~\n"
+            "raw_flags6": "AHMVZ ABCDEFGHIJKQUX medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "33031": {
-            "name": "the librarian~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "100 100 100 100",
             "description": [
                 "This grump glairs back at you, daring you to say something\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "CG ABCDEFGHIJK medium unknown",
-            "raw_flags4": "C ABCD 0 0",
-            "raw_flags3": "100 100 100 100",
             "vnum": 33031,
             "raw_flags": "ABQ 0 H 1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "C ABCD 0 0",
+            "room_name": "A mean looking librarian is here.\n",
+            "name": "the librarian~\n",
             "raw_flags2": "102 600 999d999+999 20d20+20 999d999+999 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "Librarian crimson~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "M GREET 33031 75%~\n",
                 "M ACT 33032 screams~\n"
             ],
-            "t_flags": "T Ok~",
-            "room_name": "A mean looking librarian is here.\n",
-            "keywords": "Librarian crimson~\n"
+            "raw_flags6": "CG ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T Ok~"
         },
         "33000": {
-            "name": "Morann~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "A tall cloaked man, shrouded in shadows, who sings the prophecies\n",
                 "of the world to come.  One of the greatest Druids to walk the earth,\n",
@@ -1692,24 +1693,25 @@
                 "Type 'heal' to see a listing of spells.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "FHIK ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 33000,
             "raw_flags": "ABNQVa DF H 0 0",
-            "race_id": "human",
+            "raw_flags4": "FHIK ABCD 0 0",
+            "room_name": "Morann is here, proudly serving the {RCr{rim{Rso{rn {BGu{bar{8di{ban{Bs{x.\n",
+            "name": "Morann~\n",
             "raw_flags2": "103 0 1d1+999 1d1+999 2d4+30 none",
-            "d_flags": "D ~",
+            "keywords": "Morann crimson~\n",
             "subroutines": [
                 "M GREET 33002 100~\n",
                 "M SPEECH 33033 i need a key~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Morann is here, proudly serving the {RCr{rim{Rso{rn {BGu{bar{8di{ban{Bs{x.\n",
-            "keywords": "Morann crimson~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "33001": {
-            "name": "Queen Maeve~\n",
+            "d_flags": "D I shouldn't have died, please note Kossuth~",
+            "raw_flags3": "200 200 200 200",
+            "raw_resistances": "HIJL",
             "description": [
                 "After the defeat of Maeve's armies she had a powerful enchantress\n",
                 "cast an evil spell over the Ulstermen.  She then had her armies attack\n",
@@ -1717,28 +1719,27 @@
                 "stood his ground against her armies to buy the kingdom time.\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKPQ large unknown",
-            "raw_flags4": "CEFJKMO ABCDFHIJQT 0 0",
-            "raw_immunities": "L",
-            "raw_flags3": "200 200 200 200",
             "vnum": 33001,
+            "raw_immunities": "L",
             "raw_flags": "ABGO DFTVc H -1000 0",
-            "race_id": "draconian",
-            "raw_resistances": "HIJL",
+            "raw_flags4": "CEFJKMO ABCDFHIJQT 0 0",
+            "room_name": "Queen Maeve is here, waiting for you to attack.\n",
+            "raw_vulns": "FM",
+            "name": "Queen Maeve~\n",
             "raw_flags2": "102 3 1d1+999 1d1+99 1d1+1 none",
-            "d_flags": "D I shouldn't have died, please note Kossuth~",
+            "keywords": "Queen Maeve Crimson~\n",
             "subroutines": [
                 "F imm L\n",
                 "F res HIJL\n",
                 "F vul FM\n"
             ],
-            "t_flags": "T Bring it on!!~",
-            "room_name": "Queen Maeve is here, waiting for you to attack.\n",
-            "raw_vulns": "FM",
-            "keywords": "Queen Maeve Crimson~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKPQ large unknown",
+            "race_id": "draconian",
+            "t_flags": "T Bring it on!!~"
         },
         "33005": {
-            "name": "The {-Swiss {-Miss{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "As you gaze at her beautity, all you notice is that she is perfect\n",
                 "in everyway.  Her eyes make you melt into a pool of slob.  You wish\n",
@@ -1746,49 +1747,49 @@
                 "be happy.  \n"
             ],
             "raw_flags5": "stand stand female 10000",
-            "raw_flags6": "AHMV ABCDEFGHIJKW medium unknown",
-            "raw_flags4": "0 ABDL E 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 33005,
             "raw_flags": "ABGNRc DEFJLZ H 1000 0",
-            "race_id": "human",
+            "raw_flags4": "0 ABDL E 0",
+            "room_name": "The {-Swiss {-Miss{x stands here ready to serve you food.\n",
+            "name": "The {-Swiss {-Miss{x~\n",
             "raw_flags2": "105 600 1d1+999 1d1+999 1d1+999 none",
-            "d_flags": "D ~",
+            "keywords": "swiss miss crimson~\n",
             "subroutines": [
                 "M GREET 33005 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "The {-Swiss {-Miss{x stands here ready to serve you food.\n",
-            "keywords": "swiss miss crimson~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKW medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "33006": {
-            "name": "the ref~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "100 100 100 100",
+            "raw_resistances": "D",
             "description": [
                 "This large being is here to enforce the rules of combat.  He is wearing\n",
                 "a striped shirt and black pants.  His blond hair and blue eyes make\n",
                 "him look nice, but beware, do not break the rules.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "0 ABCD 0 0",
-            "raw_flags3": "100 100 100 100",
             "vnum": 33006,
             "raw_flags": "ABT DFa HR 1000 0",
-            "race_id": "titan",
-            "raw_resistances": "D",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "A referee is standing here in a {8b{7l{8a{7c{8k {7and {8w{7h{8i{7t{8e {7s{8t{7r{8i{7p{8e{7d shirt.{x\n",
+            "raw_vulns": "GR",
+            "name": "the ref~\n",
             "raw_flags2": "105 600 999d999+999 999d999+999 999d999+999 none",
-            "d_flags": "D ~",
+            "keywords": "referee crimson~\n",
             "subroutines": [
                 "F res D\n",
                 "F vul GR\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A referee is standing here in a {8b{7l{8a{7c{8k {7and {8w{7h{8i{7t{8e {7s{8t{7r{8i{7p{8e{7d shirt.{x\n",
-            "raw_vulns": "GR",
-            "keywords": "referee crimson~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "33039": {
-            "name": "The pet shop owner.~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "You see before you a short but sturdy fellow, dressed in grey\n",
                 "garments.  A hood covers his entire head You see before you a short\n",
@@ -1798,58 +1799,59 @@
                 "up.  Brown, wooden sandles reviel something that looks like a hoof.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJKW large unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 33039,
             "raw_flags": "ABEG La H 1000 0",
-            "race_id": "minotaur",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "Standing before you is the {RCr{rim{Rso{rn {BGu{bar{8di{ban{Bs {xpet shop owner.\n",
-            "keywords": "pet shop owner crimson~\n"
+            "name": "The pet shop owner.~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "pet shop owner crimson~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKW large unknown",
+            "race_id": "minotaur",
+            "t_flags": "T ~"
         },
         "33040": {
-            "name": "{7A pu{&r{7e {&v{7irgi{&n {7whi{&t{7e pe{&g{7a{&s{7us{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
+            "raw_resistances": "E",
             "description": [],
             "raw_flags5": "stand stand either 0",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "CFHK 0 BHK CFINQ",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 33040,
             "raw_flags": "AVdf FJT 0 1000 0",
-            "race_id": "dragon",
-            "raw_resistances": "E",
+            "raw_flags4": "CFHK 0 BHK CFINQ",
+            "room_name": "{7A pu{&r{7e {&v{7irgi{&n {7whi{&t{7e pe{&g{7a{&s{7us is here.{x\n",
+            "name": "{7A pu{&r{7e {&v{7irgi{&n {7whi{&t{7e pe{&g{7a{&s{7us{x~\n",
             "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 bite",
-            "d_flags": "D ~",
+            "keywords": "pegasus white virgin~\n",
             "subroutines": [
                 "F res E\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{7A pu{&r{7e {&v{7irgi{&n {7whi{&t{7e pe{&g{7a{&s{7us is here.{x\n",
-            "keywords": "pegasus white virgin~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "33047": {
-            "name": "Dr. Schwartz~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "500 500 500 500",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKPQ medium unknown",
-            "raw_flags4": "CF ABCDLQ HIJL FGJM",
-            "raw_flags3": "500 500 500 500",
             "vnum": 33047,
             "raw_flags": "ABM DFPTVZ 0 5000 0",
-            "race_id": "draconian",
-            "raw_flags2": "101 100 99d99+99 99d99+99 99d99+99 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF ABCDLQ HIJL FGJM",
             "room_name": "Dr. Schwartz is here, looking very busy.\n",
-            "keywords": "doctor dr schwartz~\n"
+            "name": "Dr. Schwartz~\n",
+            "raw_flags2": "101 100 99d99+99 99d99+99 99d99+99 none",
+            "keywords": "doctor dr schwartz~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKPQ medium unknown",
+            "race_id": "draconian",
+            "t_flags": "T ~"
         },
         "33050": {
-            "name": "The Guild Master~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-100 -100 -100 -100",
             "description": [
                 "Covered in nothing but long flowing dark robes, this figure stands\n",
                 "before you.  Locks of blonde hair can be seen comming out from the\n",
@@ -1858,26 +1860,26 @@
                 "seen.  You have a feeling that would not be a good idea.  \n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "GV 0 medium unknown",
-            "raw_flags4": "BCIKN ABQ 0 0",
-            "raw_flags3": "-100 -100 -100 -100",
             "vnum": 33050,
             "raw_flags": "ABGJKXZb 0 H 1000 0",
-            "race_id": "human",
-            "raw_form": "AHM",
+            "raw_flags4": "BCIKN ABQ 0 0",
+            "room_name": "A mystical figure stands here covered in robes.\n",
+            "name": "The Guild Master~\n",
             "raw_flags2": "101 500 1d1+1 1d1+1 1d1+1 slice",
-            "d_flags": "D ~",
+            "raw_form": "AHM",
+            "keywords": "guardian guild master mystical figure crimson~\n",
             "subroutines": [
                 "F for AHM\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A mystical figure stands here covered in robes.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "guardian guild master mystical figure crimson~\n"
+            "raw_flags6": "GV 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "33051": {
-            "name": "Pryderi~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "This man has long golden hair framing his thin face.  His well muscled body\n",
                 "and the scars on his arms hint at having participated in many battles.  The\n",
@@ -1886,27 +1888,27 @@
                 "has used such items in the past.\n"
             ],
             "raw_flags5": "stand stand male 1000",
-            "raw_flags6": "H 0 medium unknown",
-            "raw_flags4": "0 a 0 0",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 33051,
             "raw_flags": "AB DF H 1000 0",
-            "race_id": "human",
-            "raw_form": "AMV",
+            "raw_flags4": "0 a 0 0",
+            "room_name": "Pryderi is here selling armor for young adventurers.\n",
+            "name": "Pryderi~\n",
             "raw_flags2": "101 500 100d100+10000 100d100+3000 10d20+200 pound",
-            "d_flags": "D ~",
+            "raw_form": "AMV",
+            "keywords": "pryderi guardian armor dealer~\n",
             "subroutines": [
                 "F for AMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M GRALL 33003 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Pryderi is here selling armor for young adventurers.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "pryderi guardian armor dealer~\n"
+            "raw_flags6": "H 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "33052": {
-            "name": "Cu Roi, the Guardian Sorcerer~\n",
+            "raw_parts": "BCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Cu Roi is a tall man who wears a long robe that ties in the front\n",
                 "and just barely touches the floor.  His face has no lines of age\n",
@@ -1914,26 +1916,24 @@
                 "table dispensing magics to the Crimson Guardians.\n"
             ],
             "raw_flags5": "stand stand male 1000",
-            "raw_flags6": "HM A medium unknown",
-            "raw_flags4": "0 a 0 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 33052,
             "raw_flags": "AB DF CDEH 1000 0",
-            "race_id": "human",
-            "raw_form": "AV",
+            "raw_flags4": "0 a 0 0",
+            "room_name": "Cu Roi is here selling scrolls and vials of magics.\n",
+            "name": "Cu Roi, the Guardian Sorcerer~\n",
             "raw_flags2": "101 1000 100d100+5000 100d100+3000 10d10+200 magic",
-            "d_flags": "D ~",
+            "raw_form": "AV",
+            "keywords": "Cu Roi~\n",
             "subroutines": [
                 "F for AV\n",
                 "F par BCDEFGHIJK\n",
                 "M SPEECH 33004 i need an insignia~\n",
                 "M GRALL 33029 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Cu Roi is here selling scrolls and vials of magics.\n",
-            "raw_parts": "BCDEFGHIJK",
-            "keywords": "Cu Roi~\n"
+            "raw_flags6": "HM A medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

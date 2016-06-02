@@ -1,68 +1,393 @@
 {
-    "name": "Dragon Tower",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "draconia",
-    "subroutines": [],
+    "objects": {},
+    "uid": "draconia",
     "rooms": {
+        "2213": {
+            "extras": {},
+            "flags_raw": "0 0 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are continuing down the hall.  To the east and west you see ornate doors."
+            ],
+            "name": "Court",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2211",
+                    "description": [
+                        "You see the court.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "2240",
+                    "room_id": "2214",
+                    "description": [
+                        "You see a black door.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "2233",
+                    "room_id": "2215",
+                    "description": [
+                        "You see a white door.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2216",
+                    "description": [
+                        "You see the court.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2213"
+        },
+        "2200": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "2200"
+        },
+        "2226": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a large lair with bones strewn about the ground.  You",
+                "notice the source of these as you come face to face with a rather large red",
+                "dragon.  You notice a trap door in the floor."
+            ],
+            "name": "Lair",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "2227",
+                    "description": [
+                        "You see a trap door.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2225",
+                    "description": [
+                        "The narrow passageway.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2226"
+        },
+        "2204": {
+            "extras": {
+                "inscription": {
+                    "description": [
+                        "It says \"STORAGE\"",
+                        ""
+                    ]
+                },
+                "sign": {
+                    "description": [
+                        "The sign says \"NURSERY\" in bold letters.     ",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You trudge down the hallway.  You notice doors to the east and west. "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2207",
+                    "description": [
+                        "The hall continues. ",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "2205",
+                    "description": [
+                        "You see a door.  You notice a sign. ",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "2206",
+                    "description": [
+                        "You see an oak door.  There is an inscription on it. ",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2203",
+                    "description": [
+                        "The hall continues.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2204"
+        },
         "2223": {
-            "name": "Entrance to the Great Hall",
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You have entered a huge hall.  It has been carefully decorated with",
                 "beautiful tapestries depicting a great battle between dragons and men.  The",
                 "dragons appear to be the victors."
             ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2223",
+            "name": "Entrance to the Great Hall",
             "exits": {
-                "west": {
-                    "flags_raw": "2297",
-                    "description": [
-                        "You see the Nursery.",
-                        ""
-                    ],
-                    "room_id": "2205"
-                },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "2224",
                     "description": [
                         "The Hall continues.",
                         ""
-                    ],
-                    "room_id": "2224"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "2297",
+                    "room_id": "2205",
+                    "description": [
+                        "You see the Nursery.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2229": {
-            "name": "Great Hall Ends",
-            "description": [
-                "You have come to the end of the great hall.  You see before you a huge",
-                "golden door, it must be at least twenty feet tall!  It has beautiful etchings",
-                "of dragons.  You see a sign on the door."
-            ],
-            "flags_raw": "0 8 0 1",
             "wanted_area_vnum": "",
+            "vnum": "2223"
+        },
+        "2227": {
+            "extras": {},
+            "flags_raw": "0 9 0 2",
             "flags2_raw": "0",
-            "vnum": "2229",
+            "description": [
+                "You have entered an underground tunnel.  It is dark and dirty, and you find",
+                "yourself wishing you were back in Westbridge."
+            ],
+            "name": "Underground Tunnel",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2228",
+                    "description": [
+                        "You see the tunnel.",
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "2226",
+                    "description": [
+                        "You see the red dragon's lair.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2227"
+        },
+        "2212": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You stop dead in your tracks as you enter this ornately decorated room - it",
+                "is populated with the king's harem.  "
+            ],
+            "name": "Hall O' Pleasure",
             "exits": {
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "2211",
                     "description": [
-                        "You see the hall.",
+                        "You see the Court.",
                         ""
-                    ],
-                    "room_id": "2224"
-                },
-                "east": {
-                    "flags_raw": "2299",
-                    "description": [
-                        "You see a great golden door.",
-                        ""
-                    ],
-                    "room_id": "2230"
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "2212"
+        },
+        "2231": {
+            "extras": {},
+            "flags_raw": "0 8 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You have reached the final lair.  It is dominated by a huge five headed",
+                "dragon.  You suddenly realize that you have SERIOUS problems..."
+            ],
+            "name": "End..",
+            "exits": {
+                "south": {
+                    "flags_raw": "2241",
+                    "room_id": "2243",
+                    "description": [
+                        "You see the top of the mountain.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2231"
+        },
+        "2228": {
+            "extras": {},
+            "flags_raw": "0 13 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This tunnel has come to a dead end.  You feel nervous about being trapped here."
+            ],
+            "name": "Underground Tunnel",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2227",
+                    "description": [
+                        "You see the tunnel.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2228"
+        },
+        "2210": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have made it up to the second floor.  You hear hissing and see several",
+                "dragon men rushing you.  You wonder how long you will be staying here."
+            ],
+            "name": "Second Floor",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "2207",
+                    "description": [
+                        "You see the first floor.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "1",
+                    "room_id": "2211",
+                    "description": [
+                        "You see the court.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2210"
+        },
+        "2238": {
+            "extras": {},
+            "flags_raw": "0 9 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing in a small opening.  To the north lies the old wooden",
+                "bridge.  To your south the you can see a clearing.  You can see sunlight",
+                "again.  What a welcome relief!"
+            ],
+            "name": "Small opening",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2237",
+                    "description": [
+                        "bridge",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2239",
+                    "description": [
+                        "clearing",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2238"
+        },
+        "2205": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "It looks like a tornado has been through here.  Toys are scattered everywhere,",
+                "and a small group of dragon hatchlings are fighting over a bone. "
+            ],
+            "name": "Nursery",
+            "exits": {
+                "east": {
+                    "flags_raw": "2297",
+                    "room_id": "2223",
+                    "description": [
+                        "You see a large stone door.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "2204",
+                    "description": [
+                        "You see the hallway. ",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2205"
+        },
+        "2217": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This is the personal room of the draconian king.  It is not empty."
+            ],
+            "name": "Bedroom",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "2216",
+                    "description": [
+                        "You see Court.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2217"
+        },
+        "2229": {
             "extras": {
                 "sign": {
                     "description": [
@@ -71,825 +396,59 @@
                         ""
                     ]
                 }
-            }
+            },
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have come to the end of the great hall.  You see before you a huge",
+                "golden door, it must be at least twenty feet tall!  It has beautiful etchings",
+                "of dragons.  You see a sign on the door."
+            ],
+            "name": "Great Hall Ends",
+            "exits": {
+                "east": {
+                    "flags_raw": "2299",
+                    "room_id": "2230",
+                    "description": [
+                        "You see a great golden door.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "2224",
+                    "description": [
+                        "You see the hall.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2229"
         },
         "2220": {
-            "name": "Lair",
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You have entered a large room dominated by a great white dragon.  It growls",
                 "at you before it attacks."
             ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2220",
+            "name": "Lair",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "2235",
                     "description": [
                         "You the cave opening.",
                         ""
-                    ],
-                    "room_id": "2235"
-                }
-            },
-            "extras": {}
-        },
-        "2201": {
-            "name": "Tower Gates",
-            "description": [
-                "You are at the entrance to a tall tower.  Lightning flashes periodically and",
-                "it is raining.  You think it might be a good idea to turn back into the grove."
-            ],
-            "flags_raw": "0 1 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2201",
-            "exits": {
-                "north": {
-                    "flags_raw": "2231",
-                    "description": [
-                        "You see a large steel gate.  Beyond is the Foyer of the Tower.",
-                        ""
-                    ],
-                    "room_id": "2202"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1304"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The shadows cloud your vision.",
-                        ""
-                    ],
-                    "room_id": "1304"
-                }
-            },
-            "extras": {
-                "gate": {
-                    "description": [
-                        "The gate is tall and secure.  Whoever built it values privacy.",
-                        ""
                     ]
                 }
-            }
-        },
-        "2240": {
-            "name": "Path",
-            "description": [
-                "This path leads up the side of the mountain.  A clearing lies below you.",
-                "There is a cave opening to the west.  The path continues up the mountain."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2240",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "cave opening",
-                        ""
-                    ],
-                    "room_id": "2241"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "the path continues",
-                        ""
-                    ],
-                    "room_id": "2242"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "clearing",
-                        ""
-                    ],
-                    "room_id": "2239"
-                }
             },
-            "extras": {}
-        },
-        "2224": {
-            "name": "Great Hall",
-            "description": [
-                "You are working your way down the Hall.  To the north, you notice a smaller",
-                "passageway, while the main hall continues to the east."
-            ],
-            "flags_raw": "0 8 0 1",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2224",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a narrow passageway.",
-                        ""
-                    ],
-                    "room_id": "2225"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the Hall.",
-                        ""
-                    ],
-                    "room_id": "2229"
-                }
-            },
-            "extras": {}
-        },
-        "2212": {
-            "name": "Hall O' Pleasure",
-            "description": [
-                "You stop dead in your tracks as you enter this ornately decorated room - it",
-                "is populated with the king's harem.  "
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2212",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the Court.",
-                        ""
-                    ],
-                    "room_id": "2211"
-                }
-            },
-            "extras": {}
-        },
-        "2236": {
-            "name": "End of the tunnel",
-            "description": [
-                "You have finally come to the end of the tunnel.  Back to the west lies",
-                "the miles of tunnels you have walked through.  You see the faint outline of",
-                "a trapdoor above you.  A bridge over an underground river lies to the south."
-            ],
-            "flags_raw": "0 257 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2236",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The tunnel",
-                        ""
-                    ],
-                    "room_id": "2234"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "bridge",
-                        ""
-                    ],
-                    "room_id": "2237"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "trapdoor",
-                        ""
-                    ],
-                    "room_id": "2202"
-                }
-            },
-            "extras": {}
-        },
-        "2234": {
-            "name": "Tunnel",
-            "description": [
-                "This tunnel seems to stretch for miles.  You try to distinguish the end but",
-                "your eyes soon tire from the strain.  The smell here has increased two fold.",
-                "The tunnel continues to go to the east.  The wine cellar lies back to the ",
-                "west."
-            ],
-            "flags_raw": "0 257 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2234",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A cave opening",
-                        ""
-                    ],
-                    "room_id": "2235"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A tunnel",
-                        ""
-                    ],
-                    "room_id": "2233"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A tunnel",
-                        ""
-                    ],
-                    "room_id": "2236"
-                }
-            },
-            "extras": {}
-        },
-        "2237": {
-            "name": "Bridge",
-            "description": [
-                "You are walking along an old wooden bridge.  Its not that secure.  You ",
-                "might want to hurry along.  To the south, on the other side of the bridge,",
-                "lies a small opening."
-            ],
-            "flags_raw": "0 9 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2237",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The tunnel end",
-                        ""
-                    ],
-                    "room_id": "2236"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A small opening",
-                        ""
-                    ],
-                    "room_id": "2238"
-                }
-            },
-            "extras": {}
-        },
-        "2222": {
-            "name": "Crypt Ends",
-            "description": [
-                "You have come to the end of the Crypt.  It seems deserted.  There is a ",
-                "strange coffin lying against the wall."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2222",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "2232"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the Crypt.",
-                        ""
-                    ],
-                    "room_id": "2219"
-                }
-            },
-            "extras": {
-                "coffin": {
-                    "description": [
-                        "A coffin lies a against the east wall.  It is closed.",
-                        ""
-                    ]
-                }
-            }
-        },
-        "2235": {
-            "name": "Cave opening",
-            "description": [
-                "You stand at the opening of a giant cave.  There are many bones strewn across",
-                "the room.  Some human, some indistinguishable.  It smells very bad in here.",
-                "You can hear movement in the cave to the north.  The tunnel goes back to the",
-                "south."
-            ],
-            "flags_raw": "0 257 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2235",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The lair",
-                        ""
-                    ],
-                    "room_id": "2220"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The tunnel",
-                        ""
-                    ],
-                    "room_id": "2234"
-                }
-            },
-            "extras": {}
-        },
-        "2209": {
-            "name": "Treasure Room",
-            "description": [
-                "You have made it past the hydra into the vault.  You are astounded by ",
-                "the treasure here.  Not only are you now rich, you can probably rest here",
-                "safely.  The west wall seems to have a large door made entirely of ruby."
-            ],
-            "flags_raw": "0 12 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2209",
-            "exits": {
-                "north": {
-                    "flags_raw": "2234",
-                    "description": [
-                        "You see nothing special. ",
-                        ""
-                    ],
-                    "room_id": "2208"
-                },
-                "west": {
-                    "flags_raw": "2232",
-                    "description": [
-                        "You see a ruby door!",
-                        ""
-                    ],
-                    "room_id": "2218"
-                }
-            },
-            "extras": {}
-        },
-        "2210": {
-            "name": "Second Floor",
-            "description": [
-                "You have made it up to the second floor.  You hear hissing and see several",
-                "dragon men rushing you.  You wonder how long you will be staying here."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2210",
-            "exits": {
-                "south": {
-                    "flags_raw": "1",
-                    "description": [
-                        "You see the court.",
-                        ""
-                    ],
-                    "room_id": "2211"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the first floor.",
-                        ""
-                    ],
-                    "room_id": "2207"
-                }
-            },
-            "extras": {}
-        },
-        "2218": {
-            "name": "Entrance to the Crypt",
-            "description": [
-                "You have entered a large room which smells heavily of reptile.  You wonder",
-                "what awaits you here."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2218",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the Crypt.",
-                        ""
-                    ],
-                    "room_id": "2219"
-                },
-                "east": {
-                    "flags_raw": "2232",
-                    "description": [
-                        "You see the Treasure Vault.",
-                        ""
-                    ],
-                    "room_id": "2209"
-                }
-            },
-            "extras": {}
-        },
-        "2200": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2200",
-            "exits": {},
-            "extras": {}
-        },
-        "2232": {
-            "name": "Stairwell",
-            "description": [
-                "This is an old decrepit stairwell that leads to the wine cellar.  It looks",
-                "like it hasn't been used for decades.  Well, at least not by anything living."
-            ],
-            "flags_raw": "0 8 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2232",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The crypt"
-                    ],
-                    "room_id": "2222"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A wine cellar"
-                    ],
-                    "room_id": "2233"
-                }
-            },
-            "extras": {}
-        },
-        "2211": {
-            "name": "Court",
-            "description": [
-                "You have entered what seems to be a large court.  The people guarding it",
-                "don't seem happy to see you ..."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2211",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the court.",
-                        ""
-                    ],
-                    "room_id": "2213"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see nothing special.",
-                        ""
-                    ],
-                    "room_id": "2210"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a wooden door. ",
-                        ""
-                    ],
-                    "room_id": "2212"
-                }
-            },
-            "extras": {}
-        },
-        "2238": {
-            "name": "Small opening",
-            "description": [
-                "You are standing in a small opening.  To the north lies the old wooden",
-                "bridge.  To your south the you can see a clearing.  You can see sunlight",
-                "again.  What a welcome relief!"
-            ],
-            "flags_raw": "0 9 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2238",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "bridge",
-                        ""
-                    ],
-                    "room_id": "2237"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "clearing",
-                        ""
-                    ],
-                    "room_id": "2239"
-                }
-            },
-            "extras": {}
-        },
-        "2221": {
-            "name": "Lair",
-            "description": [
-                "You have entered a large room dominated by a great black dragon.  It looks",
-                "as though it is amused by your presence."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2221",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "You the cave opening.",
-                        ""
-                    ],
-                    "room_id": "2241"
-                }
-            },
-            "extras": {}
-        },
-        "2216": {
-            "name": "Court Ends",
-            "description": [
-                "You have reached the end of the court.  A huge Draconian is sitting in a",
-                "chair here.  As you enter, he motions with his hand and you are rushed by three",
-                "of his bodyguards."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2216",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the court.",
-                        ""
-                    ],
-                    "room_id": "2213"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a private chamber.",
-                        ""
-                    ],
-                    "room_id": "2217"
-                }
-            },
-            "extras": {}
-        },
-        "2215": {
-            "name": "Sanctum",
-            "description": [
-                "This small room is modestly decorated with small dragon icons.  Its sole",
-                "occupant is deep in thought."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2215",
-            "exits": {
-                "east": {
-                    "flags_raw": "2233",
-                    "description": [
-                        "You see the Court.",
-                        ""
-                    ],
-                    "room_id": "2213"
-                }
-            },
-            "extras": {}
-        },
-        "2228": {
-            "name": "Underground Tunnel",
-            "description": [
-                "This tunnel has come to a dead end.  You feel nervous about being trapped here."
-            ],
-            "flags_raw": "0 13 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2228",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the tunnel.",
-                        ""
-                    ],
-                    "room_id": "2227"
-                }
-            },
-            "extras": {}
-        },
-        "2203": {
-            "name": "Hallway",
-            "description": [
-                "This hallway seems to stretch on forever.  You notice a stairway in  ",
-                "the distance. "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2203",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The hall continues. ",
-                        ""
-                    ],
-                    "room_id": "2204"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the foyer. ",
-                        ""
-                    ],
-                    "room_id": "2202"
-                }
-            },
-            "extras": {}
-        },
-        "2230": {
-            "name": "THE Lair",
-            "description": [
-                "You have entered a huge lair.  You feel that something big lives here or at least did.  The golden door lies back to the west."
-            ],
-            "flags_raw": "0 8 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2230",
-            "exits": {
-                "west": {
-                    "flags_raw": "2299",
-                    "description": [
-                        "You see a great golden door.",
-                        ""
-                    ],
-                    "room_id": "2229"
-                }
-            },
-            "extras": {}
-        },
-        "2242": {
-            "name": "Path continues",
-            "description": [
-                "The path continues up the mountain to the top.  The path also goes down.",
-                "Thats it, nothing more to see."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2242",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "top of the mountain",
-                        ""
-                    ],
-                    "room_id": "2243"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "path",
-                        ""
-                    ],
-                    "room_id": "2240"
-                }
-            },
-            "extras": {}
-        },
-        "2207": {
-            "name": "End of the Hallway",
-            "description": [
-                "You have finally reached the end of the hallway.  A huge staircase leads up.",
-                "You see a sign at the base of the staircase. "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2207",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The hall continues. ",
-                        ""
-                    ],
-                    "room_id": "2204"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The second floor.",
-                        ""
-                    ],
-                    "room_id": "2210"
-                }
-            },
-            "extras": {
-                "sign": {
-                    "description": [
-                        "The sign reads:",
-                        "    This area is kind of tough.  You probably shouldn't go up these stairs ",
-                        "    alone if you are under 18th level, or at all if you under 14th level.  ",
-                        "    Have fun! -- Wench",
-                        ""
-                    ]
-                }
-            }
-        },
-        "2226": {
-            "name": "Lair",
-            "description": [
-                "You have entered a large lair with bones strewn about the ground.  You",
-                "notice the source of these as you come face to face with a rather large red",
-                "dragon.  You notice a trap door in the floor."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2226",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The narrow passageway.",
-                        ""
-                    ],
-                    "room_id": "2225"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a trap door.",
-                        ""
-                    ],
-                    "room_id": "2227"
-                }
-            },
-            "extras": {}
+            "vnum": "2220"
         },
         "2239": {
-            "name": "Clearing",
-            "description": [
-                "You stand out in a clearing.  Mountains are all around you.  There is a ",
-                "well in the middle of the clearing.  Lying against the well is a sign.  A",
-                "path leads up the mountain.  The small opening is back to the north."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2239",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "the small opening",
-                        ""
-                    ],
-                    "room_id": "2238"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "A path",
-                        ""
-                    ],
-                    "room_id": "2240"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "The well",
-                        ""
-                    ],
-                    "room_id": "2244"
-                }
-            },
             "extras": {
                 "well": {
                     "description": [
@@ -908,267 +467,433 @@
                         ""
                     ]
                 }
-            }
-        },
-        "2231": {
-            "name": "End..",
-            "description": [
-                "You have reached the final lair.  It is dominated by a huge five headed",
-                "dragon.  You suddenly realize that you have SERIOUS problems..."
-            ],
-            "flags_raw": "0 8 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2231",
-            "exits": {
-                "south": {
-                    "flags_raw": "2241",
-                    "description": [
-                        "You see the top of the mountain.",
-                        ""
-                    ],
-                    "room_id": "2243"
-                }
             },
-            "extras": {}
-        },
-        "2208": {
-            "name": "Guardian's Room",
-            "description": [
-                "You climb down the rickety stairs and find yourself face to face with a ",
-                "gargantuan hydra.  How fast can you climb UP stairs? "
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
+            "flags_raw": "0 0 0 2",
             "flags2_raw": "0",
-            "vnum": "2208",
+            "description": [
+                "You stand out in a clearing.  Mountains are all around you.  There is a ",
+                "well in the middle of the clearing.  Lying against the well is a sign.  A",
+                "path leads up the mountain.  The small opening is back to the north."
+            ],
+            "name": "Clearing",
             "exits": {
-                "south": {
-                    "flags_raw": "2234",
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2238",
                     "description": [
-                        "A large grey door.",
+                        "the small opening",
                         ""
-                    ],
-                    "room_id": "2209"
+                    ]
                 },
                 "up": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "2240",
                     "description": [
-                        "You see the storage room. ",
+                        "A path",
                         ""
-                    ],
-                    "room_id": "2206"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2244",
+                    "description": [
+                        "The well",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2239"
+        },
+        "2209": {
+            "extras": {},
+            "flags_raw": "0 12 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have made it past the hydra into the vault.  You are astounded by ",
+                "the treasure here.  Not only are you now rich, you can probably rest here",
+                "safely.  The west wall seems to have a large door made entirely of ruby."
+            ],
+            "name": "Treasure Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "2234",
+                    "room_id": "2208",
+                    "description": [
+                        "You see nothing special. ",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "2232",
+                    "room_id": "2218",
+                    "description": [
+                        "You see a ruby door!",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2209"
+        },
+        "2230": {
+            "extras": {},
+            "flags_raw": "0 8 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a huge lair.  You feel that something big lives here or at least did.  The golden door lies back to the west."
+            ],
+            "name": "THE Lair",
+            "exits": {
+                "west": {
+                    "flags_raw": "2299",
+                    "room_id": "2229",
+                    "description": [
+                        "You see a great golden door.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2230"
         },
         "2214": {
-            "name": "Library",
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You have entered a huge room, filled with books.  A peaceful man is",
                 "sitting at a table, studying."
             ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2214",
+            "name": "Library",
             "exits": {
                 "west": {
                     "flags_raw": "2240",
+                    "room_id": "2213",
                     "description": [
                         "You see the court.",
                         ""
-                    ],
-                    "room_id": "2213"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2214"
         },
-        "2217": {
-            "name": "Bedroom",
-            "description": [
-                "This is the personal room of the draconian king.  It is not empty."
-            ],
+        "2221": {
+            "extras": {},
             "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "2217",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see Court.",
-                        ""
-                    ],
-                    "room_id": "2216"
-                }
-            },
-            "extras": {}
-        },
-        "2213": {
-            "name": "Court",
             "description": [
-                "You are continuing down the hall.  To the east and west you see ornate doors."
+                "You have entered a large room dominated by a great black dragon.  It looks",
+                "as though it is amused by your presence."
             ],
-            "flags_raw": "0 0 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2213",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the court.",
-                        ""
-                    ],
-                    "room_id": "2216"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the court.",
-                        ""
-                    ],
-                    "room_id": "2211"
-                },
-                "west": {
-                    "flags_raw": "2233",
-                    "description": [
-                        "You see a white door.",
-                        ""
-                    ],
-                    "room_id": "2215"
-                },
-                "east": {
-                    "flags_raw": "2240",
-                    "description": [
-                        "You see a black door.",
-                        ""
-                    ],
-                    "room_id": "2214"
-                }
-            },
-            "extras": {}
-        },
-        "2227": {
-            "name": "Underground Tunnel",
-            "description": [
-                "You have entered an underground tunnel.  It is dark and dirty, and you find",
-                "yourself wishing you were back in Westbridge."
-            ],
-            "flags_raw": "0 9 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2227",
+            "name": "Lair",
             "exits": {
                 "north": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "2241",
                     "description": [
-                        "You see the tunnel.",
+                        "You the cave opening.",
                         ""
-                    ],
-                    "room_id": "2228"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the red dragon's lair.",
-                        ""
-                    ],
-                    "room_id": "2226"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2221"
         },
         "2233": {
-            "name": "Wine cellar",
+            "extras": {},
+            "flags_raw": "0 1 0 2",
+            "flags2_raw": "0",
             "description": [
                 "This is the old wine cellar of the Dragon Tower.  The shelves are empty.",
                 "Nothing living has been in here for a long time.  You see a tunnel leading",
                 "off to the east and boy does it smell bad.  Kinda of like rotting flesh."
             ],
-            "flags_raw": "0 1 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2233",
+            "name": "Wine cellar",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "2234",
                     "description": [
                         "A tunnel",
                         ""
-                    ],
-                    "room_id": "2234"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "2232",
                     "description": [
                         "The stairwell",
                         ""
-                    ],
-                    "room_id": "2232"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "2225": {
-            "name": "Narrow Passageway",
-            "description": [
-                "This Passageway branches off from the main hall and leads somewhere ... where?"
-            ],
-            "flags_raw": "0 8 0 1",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2225",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
+            "vnum": "2233"
+        },
+        "2207": {
+            "extras": {
+                "sign": {
                     "description": [
-                        "You see a large Lair.  It looks dangerous.",
+                        "The sign reads:",
+                        "    This area is kind of tough.  You probably shouldn't go up these stairs ",
+                        "    alone if you are under 18th level, or at all if you under 14th level.  ",
+                        "    Have fun! -- Wench",
                         ""
-                    ],
-                    "room_id": "2226"
+                    ]
+                }
+            },
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You have finally reached the end of the hallway.  A huge staircase leads up.",
+                "You see a sign at the base of the staircase. "
+            ],
+            "name": "End of the Hallway",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "2210",
+                    "description": [
+                        "The second floor.",
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "2204",
                     "description": [
-                        "You see the great hall.",
+                        "The hall continues. ",
                         ""
-                    ],
-                    "room_id": "2224"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2207"
+        },
+        "2218": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a large room which smells heavily of reptile.  You wonder",
+                "what awaits you here."
+            ],
+            "name": "Entrance to the Crypt",
+            "exits": {
+                "east": {
+                    "flags_raw": "2232",
+                    "room_id": "2209",
+                    "description": [
+                        "You see the Treasure Vault.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "2219",
+                    "description": [
+                        "You see the Crypt.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2218"
+        },
+        "2241": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You stand before a huge cave opening.  You hearing heavy breathing from",
+                "within the cave.  There are a few skeletons lying about.  The cave lies to ",
+                "the south.  The path is back to the east."
+            ],
+            "name": "Cave opening",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2240",
+                    "description": [
+                        "the path",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2221",
+                    "description": [
+                        "A lair",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2241"
+        },
+        "2224": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are working your way down the Hall.  To the north, you notice a smaller",
+                "passageway, while the main hall continues to the east."
+            ],
+            "name": "Great Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2225",
+                    "description": [
+                        "You see a narrow passageway.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "2229",
+                    "description": [
+                        "You see the Hall.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2224"
+        },
+        "2237": {
+            "extras": {},
+            "flags_raw": "0 9 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You are walking along an old wooden bridge.  Its not that secure.  You ",
+                "might want to hurry along.  To the south, on the other side of the bridge,",
+                "lies a small opening."
+            ],
+            "name": "Bridge",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2236",
+                    "description": [
+                        "The tunnel end",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2238",
+                    "description": [
+                        "A small opening",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2237"
+        },
+        "2215": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This small room is modestly decorated with small dragon icons.  Its sole",
+                "occupant is deep in thought."
+            ],
+            "name": "Sanctum",
+            "exits": {
+                "east": {
+                    "flags_raw": "2233",
+                    "room_id": "2213",
+                    "description": [
+                        "You see the Court.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2215"
+        },
+        "2211": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered what seems to be a large court.  The people guarding it",
+                "don't seem happy to see you ..."
+            ],
+            "name": "Court",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2210",
+                    "description": [
+                        "You see nothing special.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "2212",
+                    "description": [
+                        "You see a wooden door. ",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2213",
+                    "description": [
+                        "You see the court.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2211"
+        },
+        "2236": {
+            "extras": {},
+            "flags_raw": "0 257 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You have finally come to the end of the tunnel.  Back to the west lies",
+                "the miles of tunnels you have walked through.  You see the faint outline of",
+                "a trapdoor above you.  A bridge over an underground river lies to the south."
+            ],
+            "name": "End of the tunnel",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "2202",
+                    "description": [
+                        "trapdoor",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2234",
+                    "description": [
+                        "The tunnel",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2237",
+                    "description": [
+                        "bridge",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2236"
         },
         "2202": {
-            "name": "Foyer",
-            "description": [
-                "This is the entrance to the Tower.  The hallway continues to the north,",
-                "leading towards a staircase.  You notice a grim painting on the wall,  and ",
-                "quickly look away."
-            ],
-            "flags_raw": "0 12 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2202",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a long hallway. ",
-                        ""
-                    ],
-                    "room_id": "2203"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the gate. ",
-                        ""
-                    ],
-                    "room_id": "2201"
-                }
-            },
             "extras": {
                 "painting": {
                     "description": [
@@ -1177,99 +902,380 @@
                         ""
                     ]
                 }
-            }
-        },
-        "2204": {
-            "name": "Hallway",
-            "description": [
-                "You trudge down the hallway.  You notice doors to the east and west. "
-            ],
-            "flags_raw": "0 8 0 0",
-            "wanted_area_vnum": "",
+            },
+            "flags_raw": "0 12 0 0",
             "flags2_raw": "0",
-            "vnum": "2204",
+            "description": [
+                "This is the entrance to the Tower.  The hallway continues to the north,",
+                "leading towards a staircase.  You notice a grim painting on the wall,  and ",
+                "quickly look away."
+            ],
+            "name": "Foyer",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "The hall continues.",
-                        ""
-                    ],
-                    "room_id": "2203"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "2203",
                     "description": [
-                        "The hall continues. ",
+                        "You see a long hallway. ",
                         ""
-                    ],
-                    "room_id": "2207"
+                    ]
                 },
-                "west": {
+                "south": {
                     "flags_raw": "-1",
+                    "room_id": "2201",
                     "description": [
-                        "You see an oak door.  There is an inscription on it. ",
+                        "You see the gate. ",
                         ""
-                    ],
-                    "room_id": "2206"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see a door.  You notice a sign. ",
-                        ""
-                    ],
-                    "room_id": "2205"
+                    ]
                 }
             },
-            "extras": {
-                "inscription": {
-                    "description": [
-                        "It says \"STORAGE\"",
-                        ""
-                    ]
-                },
-                "sign": {
-                    "description": [
-                        "The sign says \"NURSERY\" in bold letters.     ",
-                        ""
-                    ]
-                }
-            }
+            "wanted_area_vnum": "",
+            "vnum": "2202"
         },
         "2219": {
-            "name": "Crypt",
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
             "description": [
                 "You are in a large room which continues to the west.  You notice many",
                 "coffins here.  Open coffins reveal remains of something other than man.  ",
                 "The smell of reptile is very strong here."
             ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2219",
+            "name": "Crypt",
             "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see nothing special.",
-                        ""
-                    ],
-                    "room_id": "2222"
-                },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "2218",
                     "description": [
                         "You see the entrance.",
                         ""
-                    ],
-                    "room_id": "2218"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "2222",
+                    "description": [
+                        "You see nothing special.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2219"
+        },
+        "2201": {
+            "extras": {
+                "gate": {
+                    "description": [
+                        "The gate is tall and secure.  Whoever built it values privacy.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You are at the entrance to a tall tower.  Lightning flashes periodically and",
+                "it is raining.  You think it might be a good idea to turn back into the grove."
+            ],
+            "name": "Tower Gates",
+            "exits": {
+                "north": {
+                    "flags_raw": "2231",
+                    "room_id": "2202",
+                    "description": [
+                        "You see a large steel gate.  Beyond is the Foyer of the Tower.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "1304",
+                    "description": [
+                        "The shadows cloud your vision.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1304",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2201"
+        },
+        "2225": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This Passageway branches off from the main hall and leads somewhere ... where?"
+            ],
+            "name": "Narrow Passageway",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2226",
+                    "description": [
+                        "You see a large Lair.  It looks dangerous.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2224",
+                    "description": [
+                        "You see the great hall.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2225"
+        },
+        "2242": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "The path continues up the mountain to the top.  The path also goes down.",
+                "Thats it, nothing more to see."
+            ],
+            "name": "Path continues",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "2243",
+                    "description": [
+                        "top of the mountain",
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2240",
+                    "description": [
+                        "path",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2242"
+        },
+        "2235": {
+            "extras": {},
+            "flags_raw": "0 257 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "You stand at the opening of a giant cave.  There are many bones strewn across",
+                "the room.  Some human, some indistinguishable.  It smells very bad in here.",
+                "You can hear movement in the cave to the north.  The tunnel goes back to the",
+                "south."
+            ],
+            "name": "Cave opening",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2220",
+                    "description": [
+                        "The lair",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "2234",
+                    "description": [
+                        "The tunnel",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2235"
+        },
+        "2206": {
+            "extras": {
+                "dust": {
+                    "description": [
+                        "As you look closely at the dust, you notice the outline of a trapdoor!       ",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "This room is covered with dust, it looks as if no one has been here in ages."
+            ],
+            "name": "Storage Room",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "2204",
+                    "description": [
+                        "You see the hallway. ",
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "2208",
+                    "description": [
+                        "You see nothing special. ",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2206"
+        },
+        "2222": {
+            "extras": {
+                "coffin": {
+                    "description": [
+                        "A coffin lies a against the east wall.  It is closed.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You have come to the end of the Crypt.  It seems deserted.  There is a ",
+                "strange coffin lying against the wall."
+            ],
+            "name": "Crypt Ends",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "2219",
+                    "description": [
+                        "You see the Crypt.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2232",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2222"
+        },
+        "2232": {
+            "extras": {},
+            "flags_raw": "0 8 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This is an old decrepit stairwell that leads to the wine cellar.  It looks",
+                "like it hasn't been used for decades.  Well, at least not by anything living."
+            ],
+            "name": "Stairwell",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2222",
+                    "description": [
+                        "The crypt"
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2233",
+                    "description": [
+                        "A wine cellar"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2232"
+        },
+        "2240": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This path leads up the side of the mountain.  A clearing lies below you.",
+                "There is a cave opening to the west.  The path continues up the mountain."
+            ],
+            "name": "Path",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "2242",
+                    "description": [
+                        "the path continues",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "2241",
+                    "description": [
+                        "cave opening",
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "2239",
+                    "description": [
+                        "clearing",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2240"
+        },
+        "2208": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
+            "flags2_raw": "0",
+            "description": [
+                "You climb down the rickety stairs and find yourself face to face with a ",
+                "gargantuan hydra.  How fast can you climb UP stairs? "
+            ],
+            "name": "Guardian's Room",
+            "exits": {
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "2206",
+                    "description": [
+                        "You see the storage room. ",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "2234",
+                    "room_id": "2209",
+                    "description": [
+                        "A large grey door.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2208"
         },
         "2243": {
-            "name": "Top of the mountain",
+            "extras": {
+                "door platinum": {
+                    "description": [
+                        "A huge platinum door separates you from harm"
+                    ]
+                }
+            },
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You are standing at the top of the mountain.  It feels more like the top of",
                 "the world.  To your north lies a huge platinum door.  You hear very pronounced",
@@ -1279,553 +1285,547 @@
                 "Headed dragon Tiamat was imprisoned here by the gods.  But who believes in ",
                 "fairy tales.  Well, if you're scared, you can always go down the mountain."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2243",
+            "name": "Top of the mountain",
             "exits": {
                 "north": {
                     "flags_raw": "2241",
+                    "room_id": "2231",
                     "description": [
                         "The platinum door",
                         ""
-                    ],
-                    "room_id": "2231"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "2242",
                     "description": [
                         "The path continues",
                         ""
-                    ],
-                    "room_id": "2242"
-                }
-            },
-            "extras": {
-                "door platinum": {
-                    "description": [
-                        "A huge platinum door separates you from harm"
                     ]
                 }
-            }
-        },
-        "2205": {
-            "name": "Nursery",
-            "description": [
-                "It looks like a tornado has been through here.  Toys are scattered everywhere,",
-                "and a small group of dragon hatchlings are fighting over a bone. "
-            ],
-            "flags_raw": "0 8 0 1",
+            },
             "wanted_area_vnum": "",
+            "vnum": "2243"
+        },
+        "2234": {
+            "extras": {},
+            "flags_raw": "0 257 0 2",
             "flags2_raw": "0",
-            "vnum": "2205",
+            "description": [
+                "This tunnel seems to stretch for miles.  You try to distinguish the end but",
+                "your eyes soon tire from the strain.  The smell here has increased two fold.",
+                "The tunnel continues to go to the east.  The wine cellar lies back to the ",
+                "west."
+            ],
+            "name": "Tunnel",
             "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "2235",
+                    "description": [
+                        "A cave opening",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "2236",
+                    "description": [
+                        "A tunnel",
+                        ""
+                    ]
+                },
                 "west": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "2233",
                     "description": [
-                        "You see the hallway. ",
-                        ""
-                    ],
-                    "room_id": "2204"
-                },
-                "east": {
-                    "flags_raw": "2297",
-                    "description": [
-                        "You see a large stone door.",
-                        ""
-                    ],
-                    "room_id": "2223"
-                }
-            },
-            "extras": {}
-        },
-        "2206": {
-            "name": "Storage Room",
-            "description": [
-                "This room is covered with dust, it looks as if no one has been here in ages."
-            ],
-            "flags_raw": "0 8 0 1",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "2206",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see the hallway. ",
-                        ""
-                    ],
-                    "room_id": "2204"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You see nothing special. ",
-                        ""
-                    ],
-                    "room_id": "2208"
-                }
-            },
-            "extras": {
-                "dust": {
-                    "description": [
-                        "As you look closely at the dust, you notice the outline of a trapdoor!       ",
+                        "A tunnel",
                         ""
                     ]
                 }
-            }
-        },
-        "2241": {
-            "name": "Cave opening",
-            "description": [
-                "You stand before a huge cave opening.  You hearing heavy breathing from",
-                "within the cave.  There are a few skeletons lying about.  The cave lies to ",
-                "the south.  The path is back to the east."
-            ],
-            "flags_raw": "0 0 0 2",
+            },
             "wanted_area_vnum": "",
+            "vnum": "2234"
+        },
+        "2216": {
+            "extras": {},
+            "flags_raw": "0 8 0 1",
             "flags2_raw": "0",
-            "vnum": "2241",
+            "description": [
+                "You have reached the end of the court.  A huge Draconian is sitting in a",
+                "chair here.  As you enter, he motions with his hand and you are rushed by three",
+                "of his bodyguards."
+            ],
+            "name": "Court Ends",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2213",
                     "description": [
-                        "A lair",
+                        "You see the court.",
                         ""
-                    ],
-                    "room_id": "2221"
+                    ]
                 },
                 "east": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "2217",
                     "description": [
-                        "the path",
+                        "You see a private chamber.",
                         ""
-                    ],
-                    "room_id": "2240"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "2216"
+        },
+        "2203": {
+            "extras": {},
+            "flags_raw": "0 8 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This hallway seems to stretch on forever.  You notice a stairway in  ",
+                "the distance. "
+            ],
+            "name": "Hallway",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "2204",
+                    "description": [
+                        "The hall continues. ",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "2202",
+                    "description": [
+                        "You see the foyer. ",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "2203"
         }
     },
-    "uid": "draconia",
-    "area_quest_points": 0,
     "credits": "[09 GR 60] Dragon Tower",
     "faction_id": "",
+    "name": "Dragon Tower",
     "vnums": [
         2200,
         2299
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "2240": {
-            "name": "a Draconian zombie~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 8",
             "description": [
                 "This used to be one of the warriors of this tribe.  He was denied his final\n",
                 "rest, however, and now guards this corridor tirelessly as a zombie.\n"
             ],
             "raw_flags5": "stand stand none 75",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "2 2 2 8",
             "vnum": 2240,
             "raw_flags": "ABCF DF 0 -400 0",
-            "race_id": "human",
-            "raw_flags2": "18 0 2d6+110 4d9+100 1d8+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Draconian zombie is here, staring at nothing in particular.\n",
-            "keywords": "oldstyle zombie draconian~\n"
+            "name": "a Draconian zombie~\n",
+            "raw_flags2": "18 0 2d6+110 4d9+100 1d8+2 none",
+            "keywords": "oldstyle zombie draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2241": {
-            "name": "the phase dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 1 8",
             "description": [
                 "This small dragon looks like he's up to no good. \n"
             ],
             "raw_flags5": "stand stand male 250",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
-            "raw_flags4": "EFNR 0 BEH FI",
-            "raw_flags3": "1 1 1 8",
             "vnum": 2241,
             "raw_flags": "ACFGH DFJT 0 -300 0",
-            "race_id": "dragon",
-            "raw_flags2": "20 0 2d7+121 5d9+100 2d4+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 BEH FI",
             "room_name": "A Phase Dragon is darting around the room.          \n",
-            "keywords": "oldstyle dragon phase~\n"
+            "name": "the phase dragon~\n",
+            "raw_flags2": "20 0 2d7+121 5d9+100 2d4+2 none",
+            "keywords": "oldstyle dragon phase~\n",
+            "subroutines": [],
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "2242": {
-            "name": "the draconian fool~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "This dragon man looks VERY foolish, dressed in a green and blue striped \n",
                 "suit.  As you enter the room, he points at you and laughs. \n"
             ],
             "raw_flags5": "stand stand male 25",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 2242,
             "raw_flags": "AGHS DF 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "9 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A Fool is here, making fun of you.          \n",
-            "keywords": "oldstyle fool draconian~\n"
+            "name": "the draconian fool~\n",
+            "raw_flags2": "9 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle fool draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2243": {
-            "name": "the Draconian Queen~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 7",
             "description": [
                 "This draconian looks VERY busy as she orders her slaves around.  You think \n",
                 "it might be a good idea to leave her alone. \n"
             ],
             "raw_flags5": "stand stand female 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-4 -4 -4 7",
             "vnum": 2243,
             "raw_flags": "ABC DF H -600 0",
-            "race_id": "human",
-            "raw_flags2": "39 0 3d9+333 10d9+100 2d8+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Female Draconian sits, here, looking very important.          \n",
-            "keywords": "oldstyle queen draconian~\n"
+            "name": "the Draconian Queen~\n",
+            "raw_flags2": "39 0 3d9+333 10d9+100 2d8+5 none",
+            "keywords": "oldstyle queen draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2220": {
-            "name": "Tiamat~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-22 -22 -22 2",
             "description": [
                 "You see before you the master of this Tower, Tiamat.  She frowns at you as she\n",
                 "prepares to make you pay for your insolence ... with your lives!\n"
             ],
             "raw_flags5": "stand stand female 2500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU AB CD 0",
-            "raw_flags3": "-22 -22 -22 2",
             "vnum": 2220,
             "raw_flags": "ABCF DFTV 0 -1000 0",
-            "race_id": "human",
-            "raw_flags2": "102 0 50d10+5500 26d9+100 6d7+20 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU AB CD 0",
             "room_name": "A five headed dragon hisses at you as you enter this room.\n",
-            "keywords": "oldstyle tiamat dragon~\n"
+            "name": "Tiamat~\n",
+            "raw_flags2": "102 0 50d10+5500 26d9+100 6d7+20 none",
+            "keywords": "oldstyle tiamat dragon~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2221": {
-            "name": "the Great Red Dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 4",
+            "raw_resistances": "H",
             "description": [
                 "This huge red dragon dominates the chamber.  As you turn to flee, he grins at\n",
                 "you and invites you to stay ... forever! \n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
-            "raw_flags4": "EFNR H BE FI",
-            "raw_flags3": "-15 -15 -15 4",
             "vnum": 2221,
             "raw_flags": "ABCF DFJT 0 -1000 0",
-            "race_id": "dragon",
-            "raw_resistances": "H",
+            "raw_flags4": "EFNR H BE FI",
+            "room_name": "A red dragon is here, contemplating your existence. \n",
+            "name": "the Great Red Dragon~\n",
             "raw_flags2": "89 0 25d10+3000 22d9+100 8d4+16 none",
-            "d_flags": "D ~",
+            "keywords": "oldstyle dragon red~\n",
             "subroutines": [
                 "F res H\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A red dragon is here, contemplating your existence. \n",
-            "keywords": "oldstyle dragon red~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "2222": {
-            "name": "the Great Black Dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-13 -13 -13 5",
+            "raw_resistances": "H",
             "description": [
                 "This huge black wyrm laughs at your puny weapons.  You realize that he is not\n",
                 "going to roll over and die for you.\n"
             ],
             "raw_flags5": "stand stand male 1000",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
-            "raw_flags4": "EFNR K BE FJ",
-            "raw_flags3": "-13 -13 -13 5",
             "vnum": 2222,
             "raw_flags": "ABCF DFJT 0 -900 0",
-            "race_id": "dragon",
-            "raw_resistances": "H",
+            "raw_flags4": "EFNR K BE FJ",
+            "room_name": "A black dragon is here, laughing at your insolence. \n",
+            "raw_vulns": "I",
+            "name": "the Great Black Dragon~\n",
             "raw_flags2": "78 0 15d10+1700 19d9+100 5d6+13 none",
-            "d_flags": "D ~",
+            "keywords": "oldstyle dragon black~\n",
             "subroutines": [
                 "F res H\n",
                 "F vul I\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A black dragon is here, laughing at your insolence. \n",
-            "raw_vulns": "I",
-            "keywords": "oldstyle dragon black~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "2223": {
-            "name": "the Great White Dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-12 -12 -12 5",
+            "raw_resistances": "H",
             "description": [
                 "This dragon towers over you.  Recalling your previous experiences with white\n",
                 "dragons, you are not afraid.  She smiles at you and says 'I think you will find\n",
                 "me a greater challenge than my offspring.'\n"
             ],
             "raw_flags5": "stand stand female 1750",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
-            "raw_flags4": "EFNR I BE FH",
-            "raw_flags3": "-12 -12 -12 5",
             "vnum": 2223,
             "raw_flags": "ABCF DFJT 0 -1000 0",
-            "race_id": "dragon",
-            "raw_resistances": "H",
+            "raw_flags4": "EFNR I BE FH",
+            "room_name": "A white dragon is here, waiting for you. \n",
+            "raw_vulns": "I",
+            "name": "the Great White Dragon~\n",
             "raw_flags2": "74 0 10d10+1500 18d9+100 3d10+12 none",
-            "d_flags": "D ~",
+            "keywords": "oldstyle dragon white~\n",
             "subroutines": [
                 "F res H\n",
                 "F vul I\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A white dragon is here, waiting for you. \n",
-            "raw_vulns": "I",
-            "keywords": "oldstyle dragon white~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "2225": {
-            "name": "the Ancient Green Dragon~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-14 -14 -14 4",
+            "raw_resistances": "H",
             "description": [
                 "This huge beast appears to be the most directly related to the draconians. \n",
                 "She looks at you with sorrow in her eyes and says 'You have slaughtered my \n",
                 "children.  Prepare to die.'\n"
             ],
             "raw_flags5": "stand stand female 1000",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
-            "raw_flags4": "EFNR L BE FP",
-            "raw_flags3": "-14 -14 -14 4",
             "vnum": 2225,
             "raw_flags": "ABCF DFJT 0 -1000 0",
-            "race_id": "dragon",
-            "raw_resistances": "H",
+            "raw_flags4": "EFNR L BE FP",
+            "room_name": "A green dragon is here, looking distraught. \n",
+            "raw_vulns": "I",
+            "name": "the Ancient Green Dragon~\n",
             "raw_flags2": "81 0 25d10+2000 20d9+100 4d8+14 none",
-            "d_flags": "D ~",
+            "keywords": "oldstyle dragon green~\n",
             "subroutines": [
                 "F res H\n",
                 "F vul I\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A green dragon is here, looking distraught. \n",
-            "raw_vulns": "I",
-            "keywords": "oldstyle dragon green~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "2226": {
-            "name": "a large hydra~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-3 -3 -3 7",
             "description": [
                 "A hydra is here, guarding the entrance to a sealed vault.  You have the feeling\n",
                 "it isn't happy to see you.\n"
             ],
             "raw_flags5": "stand stand none 250",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-3 -3 -3 7",
             "vnum": 2226,
             "raw_flags": "ABCF DF 0 -800 0",
-            "race_id": "human",
-            "raw_flags2": "36 0 3d9+283 9d9+100 2d7+4 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A hydra is here, blocking the doorway. \n",
-            "keywords": "oldstyle hydra~\n"
+            "name": "a large hydra~\n",
+            "raw_flags2": "36 0 3d9+283 9d9+100 2d7+4 none",
+            "keywords": "oldstyle hydra~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2227": {
-            "name": "A human slave~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "6 6 6 9",
             "description": [
                 "He looks like he's under a lot of stress.  He would probably like it if you\n",
                 "left him alone.\n"
             ],
             "raw_flags5": "stand stand male 5",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "6 6 6 9",
             "vnum": 2227,
             "raw_flags": "ABS DF 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "9 0 2d7+46 2d9+100 1d5+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A Human slave is here, hard at work.          \n",
-            "keywords": "oldstyle slave human~\n"
+            "name": "A human slave~\n",
+            "raw_flags2": "9 0 2d7+46 2d9+100 1d5+1 none",
+            "keywords": "oldstyle slave human~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2200": {
-            "name": "the dragon hatchling~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 9",
+            "raw_resistances": "H",
             "description": [
                 "This small dragon hisses at you as you enter the room.  Although it is only a\n",
                 "few feet long, its sharp teeth make you think twice about petting it.\n"
             ],
             "raw_flags5": "stand stand none 100",
-            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
-            "raw_flags4": "EFNU 0 BE F",
-            "raw_flags3": "4 4 4 9",
             "vnum": 2200,
             "raw_flags": "ABG JT 0 -900 0",
-            "race_id": "dragon",
-            "raw_resistances": "H",
+            "raw_flags4": "EFNU 0 BE F",
+            "room_name": "A dragon hatchling is here, chewing on a bone.\n",
+            "raw_vulns": "I",
+            "name": "the dragon hatchling~\n",
             "raw_flags2": "13 0 2d6+85 3d9+100 1d8+1 none",
-            "d_flags": "D ~",
+            "keywords": "oldstyle hatchling dragon baby~\n",
             "subroutines": [
                 "F res H\n",
                 "F vul I\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A dragon hatchling is here, chewing on a bone.\n",
-            "raw_vulns": "I",
-            "keywords": "oldstyle hatchling dragon baby~\n"
+            "raw_flags6": "AHZ ACDEFGHIJKPQUVX medium 0",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "2201": {
-            "name": "the Draconian~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1 -1 -1 8",
             "description": [
                 "This horrible creature is a bizarre cross between a man and a dragon.  He \n",
                 "has black scales and a seven foot wingspan.  He scowls at you and hefts his \n",
                 "spear as you enter the room.\n"
             ],
             "raw_flags5": "stand stand male 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-1 -1 -1 8",
             "vnum": 2201,
             "raw_flags": "ABCF D 0 -900 0",
-            "race_id": "human",
-            "raw_flags2": "25 0 2d10+170 6d9+100 2d5+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Draconian is standing here.\n",
-            "keywords": "oldstyle draconian~\n"
+            "name": "the Draconian~\n",
+            "raw_flags2": "25 0 2d10+170 6d9+100 2d5+3 none",
+            "keywords": "oldstyle draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2202": {
-            "name": "the dragon master~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-8 -8 -8 6",
             "description": [
                 "He doesn't look happy to see you.\n"
             ],
             "raw_flags5": "stand stand male 1750",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-8 -8 -8 6",
             "vnum": 2202,
             "raw_flags": "ABCF T 0 -1000 0",
-            "race_id": "human",
-            "raw_flags2": "54 0 5d10+650 13d9+100 5d4+7 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The lord of this crypt is here.\n",
-            "keywords": "oldstyle lord crypt master~\n"
+            "name": "the dragon master~\n",
+            "raw_flags2": "54 0 5d10+650 13d9+100 5d4+7 none",
+            "keywords": "oldstyle lord crypt master~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2203": {
-            "name": "a powerful mage~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-5 -5 -5 3",
             "description": [
                 "A powerful looking mage is standing in this room studying his spells.  You are\n",
                 "surprised at the fact that he is human, and realize that he must be very\n",
                 "powerful to have been accepted by the creatures which live here.\n"
             ],
             "raw_flags5": "stand stand male 30",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "FU 0 0 0",
-            "raw_flags3": "-5 -5 -5 3",
             "vnum": 2203,
             "raw_flags": "ABR D BH -900 0",
-            "race_id": "human",
-            "raw_flags2": "43 0 4d10+360 22d9+100 2d7+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FU 0 0 0",
             "room_name": "A man is here, studying some books.\n",
-            "keywords": "oldstyle man mage wizard~\n"
+            "name": "a powerful mage~\n",
+            "raw_flags2": "43 0 4d10+360 22d9+100 2d7+5 none",
+            "keywords": "oldstyle man mage wizard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2204": {
-            "name": "the holy Draconian~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-5 -5 -5 5",
             "description": [
                 "A Draconian stands here, dressed in simple robes.  Around his neck you \n",
                 "notice a golden medallion in the shape of a five headed dragon.  \n"
             ],
             "raw_flags5": "stand stand male 20",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIKU 0 0 0",
-            "raw_flags3": "-5 -5 -5 5",
             "vnum": 2204,
             "raw_flags": "ABCFQ D H -900 0",
-            "race_id": "human",
-            "raw_flags2": "43 0 5d10+400 22d9+100 2d8+6 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIKU 0 0 0",
             "room_name": "A Draconian is here, deep in thought.          \n",
-            "keywords": "oldstyle cleric draconian~\n"
+            "name": "the holy Draconian~\n",
+            "raw_flags2": "43 0 5d10+400 22d9+100 2d8+6 none",
+            "keywords": "oldstyle cleric draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2205": {
-            "name": "the Draconian King~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-7 -7 -7 6",
             "description": [
                 "The king of the draconians sits here on a golden throne.  He looks as \n",
                 "though he could crush your head with a single blow.  Yet you sense that he \n",
                 "is controlled by a greater power. \n"
             ],
             "raw_flags5": "stand stand male 40",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-7 -7 -7 6",
             "vnum": 2205,
             "raw_flags": "ABC D H -900 0",
-            "race_id": "human",
-            "raw_flags2": "52 0 5d10+600 13d9+100 3d7+7 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Draconian wearing fine clothes is here, pondering his greatness.          \n",
-            "keywords": "oldstyle king draconian~\n"
+            "name": "the Draconian King~\n",
+            "raw_flags2": "52 0 5d10+600 13d9+100 3d7+7 none",
+            "keywords": "oldstyle king draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2206": {
-            "name": "a concubine~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 9",
             "description": [
                 "This is a concubine of the king.  She is lounging here, wearing nothing at \n",
                 "all.  You find yourself strangely repulsed as she draws a knife and \n",
                 "prepares to defend herself. \n"
             ],
             "raw_flags5": "stand stand female 5",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "4 4 4 9",
             "vnum": 2206,
             "raw_flags": "AB 0 0 -500 0",
-            "race_id": "human",
-            "raw_flags2": "11 0 2d7+71 3d9+100 1d7+1 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A concubine is resting here. \n",
-            "keywords": "oldstyle concubine draconian~\n"
+            "name": "a concubine~\n",
+            "raw_flags2": "11 0 2d7+71 3d9+100 1d7+1 none",
+            "keywords": "oldstyle concubine draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "2207": {
-            "name": "A bodyguard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-3 -3 -3 7",
             "description": [
                 "This creature has devoted its life to defending the king.  Your intrusion has\n",
                 "not pleased it.\n"
             ],
             "raw_flags5": "stand stand male 250",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-3 -3 -3 7",
             "vnum": 2207,
             "raw_flags": "ABF CDF 0 -800 0",
-            "race_id": "human",
-            "raw_flags2": "36 0 3d9+283 9d9+100 2d7+4 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A bodyguard is here, staring at you menacingly. \n",
-            "keywords": "oldstyle bodyguard draconian~\n"
+            "name": "A bodyguard~\n",
+            "raw_flags2": "36 0 3d9+283 9d9+100 2d7+4 none",
+            "keywords": "oldstyle bodyguard draconian~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

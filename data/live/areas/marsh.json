@@ -1,45 +1,230 @@
 {
-    "name": "Marsh",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "marsh",
-    "subroutines": [],
+    "objects": {},
+    "uid": "marsh",
     "rooms": {
-        "8313": {
-            "name": "By the Monolith.",
-            "description": [
-                "You are standing near a monolith which protrudes some 20 feet from the",
-                "marsh into the air.  Its black obsidian surface shines darkly in the ",
-                "strange, almost unearthly light that enters through the clouds above."
-            ],
-            "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8313",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
+        "8317": {
+            "extras": {
+                "fortress": {
                     "description": [
-                        "To the north is a cloud of darkest evil.",
+                        "It is hewn of black stone and heavily fortified.",
                         ""
-                    ],
-                    "room_id": "8311"
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "You are on a sandy shore.  Marsh life creeps across the surface.  To the west",
+                "lies an evil fortress.  You see figures walking along the battlements."
+            ],
+            "name": "Beach",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8316",
+                    "description": [
+                        "To the east lies the southern portion of a small lake.",
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8318",
                     "description": [
-                        "Near Vegetation from Hell.",
+                        "The great gates.",
                         ""
-                    ],
-                    "room_id": "8312"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8317"
+        },
+        "8306": {
+            "extras": {
+                "limb": {
+                    "description": [
+                        "The limb looks like it is attached to a trap door in the ground.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 16",
+            "flags2_raw": "0",
+            "description": [
+                "The ground here is soft and oozing.  You feel slimy water seeping into your",
+                "boots.  Better stop and check for leeches when you get out of here."
+            ],
+            "name": "An Oozing Bog",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "6047",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8305",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8306"
+        },
+        "8321": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "The air is light here.  Stretching out to the east is a field,",
+                "while to the west lies the gnarled forest of the decaying marsh.  The",
+                "marsh seems to end abruptly here, as if halted from spreading",
+                "eastward.  "
+            ],
+            "name": "{xAt the {cEdge {xof a {8Looming {cM{ga{8r{gs{ch{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8322",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8320",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8325",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8321"
+        },
+        "8319": {
+            "extras": {},
+            "flags_raw": "0 0 0 16",
+            "flags2_raw": "0",
+            "description": [
+                "A murky bog bubbles all about.  To the east the marsh stretches",
+                "into the foggy darkness.  The sounds of splashing can be heard all",
+                "around from the creatures which lurk in these fetid waters.  "
+            ],
+            "name": "Murky Bog",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8320",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8314",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8323",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8319"
+        },
+        "8318": {
+            "extras": {},
+            "flags_raw": "0 1 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You stand before the gates of a huge fortress.  The drawbridge is up, the",
+                "gates closed, and the portcullis down.  This place looks very dangerous,",
+                "and you decide not to continue onward."
+            ],
+            "name": "Before the Great Gates.",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8317",
+                    "description": [
+                        "To the east is a marshy beach.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8318"
+        },
+        "8308": {
+            "extras": {
+                "lights ": {
+                    "description": [
+                        "From the stories you have heard, you recognize them as will-o-wisps.",
+                        ""
+                    ]
+                },
+                "quicksand": {
+                    "description": [
+                        "It looks deadly to the foolish.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 16",
+            "flags2_raw": "0",
+            "description": [
+                "You stand by a large oozing pool of quick sand.  Luckily only a complete",
+                "klutz could not avoid it.  Dancing lights fly about you and one seems to",
+                "be taunting you towards the pool."
+            ],
+            "name": "Pool of Quick Sand",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "8305",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "8307",
                     "description": [
-                        "Eastward lies a murky bog.",
+                        "The swamp thing's lair.",
                         ""
-                    ],
-                    "room_id": "8314"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8309",
+                    "description": [
+                        "A dark pool lies to the west.",
+                        ""
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "8308"
+        },
+        "8313": {
             "extras": {
                 "monolith": {
                     "description": [
@@ -48,260 +233,307 @@
                         ""
                     ]
                 }
-            }
-        },
-        "8321": {
-            "name": "{xAt the {cEdge {xof a {8Looming {cM{ga{8r{gs{ch{x",
-            "description": [
-                "The air is light here.  Stretching out to the east is a field,",
-                "while to the west lies the gnarled forest of the decaying marsh.  The",
-                "marsh seems to end abruptly here, as if halted from spreading",
-                "eastward.  "
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8321",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8325"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8320"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8322"
-                }
             },
-            "extras": {}
-        },
-        "8302": {
-            "name": "Swamp's Edge",
-            "description": [
-                "Briars and marsh plants stick to your boots and clothes, and clouds cover the",
-                "skies above the murky marsh, leaving the path before you dark and sinister.",
-                "You see some disturbances in the marsh, but after a few strangled screams,",
-                "the sounds stop."
-            ],
-            "flags_raw": "0 0 0 16",
-            "wanted_area_vnum": "",
+            "flags_raw": "0 1 0 16",
             "flags2_raw": "0",
-            "vnum": "8302",
+            "description": [
+                "You are standing near a monolith which protrudes some 20 feet from the",
+                "marsh into the air.  Its black obsidian surface shines darkly in the ",
+                "strange, almost unearthly light that enters through the clouds above."
+            ],
+            "name": "By the Monolith.",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "You notice a large hill rising out of the marsh to the south.",
-                        ""
-                    ],
-                    "room_id": "8304"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8311",
                     "description": [
+                        "To the north is a cloud of darkest evil.",
                         ""
-                    ],
-                    "room_id": "9763"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "8314",
                     "description": [
-                        "To the east lies a series of bogs and shallows that look rather threatening.",
+                        "Eastward lies a murky bog.",
                         ""
-                    ],
-                    "room_id": "8303"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8312",
+                    "description": [
+                        "Near Vegetation from Hell.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8313"
+        },
+        "8301": {
+            "extras": {
+                "swamp": {
+                    "description": [
+                        "The swamp to the south even reaches as far as this point ... it makes the",
+                        "ground and air about you moist and fetid.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This section of the path is slowly being drowned by the nearby swamp to the",
+                "south, which is creeping slowly inland.  Several caved-in buildings sprawl",
+                "here, torn apart both by battle and the elements."
+            ],
+            "name": "Muddy Path",
+            "exits": {
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8302",
+                    "description": [
+                        "A broken road leading southward into the marsh.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8301"
+        },
+        "8316": {
+            "extras": {
+                "north": {
+                    "description": [
+                        "The way to the north seems to be impassable, due to the rough water and",
+                        "strange wild life.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 7",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating on a calm section of blue crystal water.  You feel much more",
+                "at ease then you were before in this area.  Then a wave of fear passes over",
+                "you.  You are not alone."
+            ],
+            "name": "Southern Lake Side.",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8315",
+                    "description": [
+                        "Northern lake side.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8317",
+                    "description": [
+                        "To the west is a beach where your boat can land.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8316"
         },
         "8304": {
-            "name": "On a hill.",
+            "extras": {},
+            "flags_raw": "0 1 0 4",
+            "flags2_raw": "0",
             "description": [
                 "You stand atop a hill on the northwestern side of the evil swamp. Dark",
                 "clouds whip around you and the wind raises its voice and assails you."
             ],
-            "flags_raw": "0 1 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8304",
+            "name": "On a hill.",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "A gloomy path leads down the hill into the swamp.",
-                        ""
-                    ],
-                    "room_id": "8310"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8302",
                     "description": [
                         "To the north lies a damp broken roadway.",
                         ""
-                    ],
-                    "room_id": "8302"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "8309",
                     "description": [
                         "A dark pool congeals to the east.",
                         ""
-                    ],
-                    "room_id": "8309"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8310",
+                    "description": [
+                        "A gloomy path leads down the hill into the swamp.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8317": {
-            "name": "Beach",
-            "description": [
-                "You are on a sandy shore.  Marsh life creeps across the surface.  To the west",
-                "lies an evil fortress.  You see figures walking along the battlements."
-            ],
-            "flags_raw": "0 1 0 5",
             "wanted_area_vnum": "",
+            "vnum": "8304"
+        },
+        "8305": {
+            "extras": {
+                "beasts": {
+                    "description": [
+                        "You see a large creature, possibly a demon, flapping heavily above you.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 16",
             "flags2_raw": "0",
-            "vnum": "8317",
+            "description": [
+                "You stand in an oozing quagmire.  A creaking beat fills the air, ",
+                "accompanied by groans and soughing of the air.  Several large winged",
+                "beasts flap over you and send chilling glares your way.  You feel out",
+                "of place, and feel that the occupants of this realm will soon ",
+                "have you for a feast."
+            ],
+            "name": "An Oozing Bog",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8306",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8303",
+                    "description": [
+                        "Westward lies a marshy area.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8308",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8305"
+        },
+        "8322": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This area is at the edge of a great forest, stretching far to the",
+                "east and north.  The trees are ancient, and seem to stop abruptly",
+                "here, as a small stretch of plains begins and to the west, the",
+                "darkness of the marsh looms.  "
+            ],
+            "name": "{xAt the {cEdge {xof {GH{gaon'{GD{gor Forest{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "6033",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "6034",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8321",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8326",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8322"
+        },
+        "8307": {
+            "extras": {
+                "corpses": {
+                    "description": [
+                        "You notice a note on one of the corpses reading:  'Best ye forget the temple,",
+                        "it is not for the likes of you...'",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 16",
+            "flags2_raw": "0",
+            "description": [
+                "A horrible swamp thing resides here.  Mutilated corpses suffuse the air with",
+                "the overwhelming stench of putrid flesh."
+            ],
+            "name": "Swamp Thing's Lair",
             "exits": {
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8308",
                     "description": [
-                        "The great gates.",
-                        ""
-                    ],
-                    "room_id": "8318"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "To the east lies the southern portion of a small lake.",
-                        ""
-                    ],
-                    "room_id": "8316"
-                }
-            },
-            "extras": {
-                "fortress": {
-                    "description": [
-                        "It is hewn of black stone and heavily fortified.",
+                        "A pool of quick sand lies to the west.",
                         ""
                     ]
                 }
-            }
-        },
-        "8318": {
-            "name": "Before the Great Gates.",
-            "description": [
-                "You stand before the gates of a huge fortress.  The drawbridge is up, the",
-                "gates closed, and the portcullis down.  This place looks very dangerous,",
-                "and you decide not to continue onward."
-            ],
-            "flags_raw": "0 1 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8318",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "To the east is a marshy beach.",
-                        ""
-                    ],
-                    "room_id": "8317"
-                }
             },
-            "extras": {}
-        },
-        "8315": {
-            "name": "Northern Lake Side.",
-            "description": [
-                "Floating on this boiling lake is not what you would consider an enjoyable ",
-                "experience.  Many a creature bumps the bottom of your boat, and glares ",
-                "at you through unblinking eyes from the waters below.  The southern ",
-                "portion of the lake looks calm and serene compared to this wild place."
-            ],
-            "flags_raw": "0 1 0 7",
             "wanted_area_vnum": "",
+            "vnum": "8307"
+        },
+        "8311": {
+            "extras": {},
+            "flags_raw": "0 1 0 16",
             "flags2_raw": "0",
-            "vnum": "8315",
+            "description": [
+                "As you travel through this cloud of darkness, a fear such as you have never",
+                "known before assails you."
+            ],
+            "name": "Cloud of Darkness.",
             "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8309",
+                    "description": [
+                        "A dark pool lies to the north.",
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8313",
                     "description": [
-                        "The southern portion of the lake lies to the south.",
+                        "An obelisk lies to the south.",
                         ""
-                    ],
-                    "room_id": "8316"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8314"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8323"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8311"
         },
         "8310": {
-            "name": "Gloomy Path Through the Marsh.",
-            "description": [
-                "To the north lies a hill, shrouded in dark clouds, and to the south lies",
-                "a huge patch of vegetation.  You sense an evil presence and notice ",
-                "a beast flying overhead to the south east, towards what looks to be a ",
-                "huge fortress, half buried in the marsh."
-            ],
-            "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8310",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "To the north a hill protrudes from the marshes.",
-                        ""
-                    ],
-                    "room_id": "8304"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "To the south a huge mass of vegetation seems to quiver with life.",
-                        ""
-                    ],
-                    "room_id": "8312"
-                }
-            },
             "extras": {
-                "clouds": {
+                "vegetation": {
                     "description": [
-                        "The clouds look dark and foreboding.",
-                        ""
-                    ]
-                },
-                "beast": {
-                    "description": [
-                        "It looks to be a demon of some foul breed.",
+                        "It looks sentient.",
                         ""
                     ]
                 },
@@ -312,226 +544,53 @@
                         ""
                     ]
                 },
-                "vegetation": {
+                "beast": {
                     "description": [
-                        "It looks sentient.",
+                        "It looks to be a demon of some foul breed.",
+                        ""
+                    ]
+                },
+                "clouds": {
+                    "description": [
+                        "The clouds look dark and foreboding.",
                         ""
                     ]
                 }
-            }
-        },
-        "8301": {
-            "name": "Muddy Path",
-            "description": [
-                "This section of the path is slowly being drowned by the nearby swamp to the",
-                "south, which is creeping slowly inland.  Several caved-in buildings sprawl",
-                "here, torn apart both by battle and the elements."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8301",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "A broken road leading southward into the marsh.",
-                        ""
-                    ],
-                    "room_id": "8302"
-                }
             },
-            "extras": {
-                "swamp": {
-                    "description": [
-                        "The swamp to the south even reaches as far as this point ... it makes the",
-                        "ground and air about you moist and fetid.",
-                        ""
-                    ]
-                }
-            }
-        },
-        "8316": {
-            "name": "Southern Lake Side.",
-            "description": [
-                "You are floating on a calm section of blue crystal water.  You feel much more",
-                "at ease then you were before in this area.  Then a wave of fear passes over",
-                "you.  You are not alone."
-            ],
-            "flags_raw": "0 1 0 7",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8316",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Northern lake side.",
-                        ""
-                    ],
-                    "room_id": "8315"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "To the west is a beach where your boat can land.",
-                        ""
-                    ],
-                    "room_id": "8317"
-                }
-            },
-            "extras": {
-                "north": {
-                    "description": [
-                        "The way to the north seems to be impassable, due to the rough water and",
-                        "strange wild life.",
-                        ""
-                    ]
-                }
-            }
-        },
-        "8323": {
-            "name": "Northeast Lake Side",
-            "description": [
-                "The boiling waters of the putrid lake collides with the",
-                "northeastern shore here.  A small glimmer of light can be seen between",
-                "the trees to the east, signifying a clearing of some sort, while",
-                "darkness looms to the west and north.  "
-            ],
-            "flags_raw": "0 0 0 7",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8323",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8319"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8315"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8324"
-                }
-            },
-            "extras": {}
-        },
-        "8325": {
-            "name": "{xAt the {cEdge {xof a {8Looming {cM{ga{8r{gs{ch{x",
-            "description": [
-                "The air is light here.  Stretching out to the east is a field,",
-                "while to the west lies the gnarled forest of the decaying marsh.  The",
-                "marsh seems to end abruptly here, as if halted from spreading",
-                "eastward.  "
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8325",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8321"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8324"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8326"
-                }
-            },
-            "extras": {}
-        },
-        "8311": {
-            "name": "Cloud of Darkness.",
-            "description": [
-                "As you travel through this cloud of darkness, a fear such as you have never",
-                "known before assails you."
-            ],
             "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8311",
+            "description": [
+                "To the north lies a hill, shrouded in dark clouds, and to the south lies",
+                "a huge patch of vegetation.  You sense an evil presence and notice ",
+                "a beast flying overhead to the south east, towards what looks to be a ",
+                "huge fortress, half buried in the marsh."
+            ],
+            "name": "Gloomy Path Through the Marsh.",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8304",
                     "description": [
-                        "A dark pool lies to the north.",
+                        "To the north a hill protrudes from the marshes.",
                         ""
-                    ],
-                    "room_id": "8309"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8312",
                     "description": [
-                        "An obelisk lies to the south.",
+                        "To the south a huge mass of vegetation seems to quiver with life.",
                         ""
-                    ],
-                    "room_id": "8313"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8319": {
-            "name": "Murky Bog",
-            "description": [
-                "A murky bog bubbles all about.  To the east the marsh stretches",
-                "into the foggy darkness.  The sounds of splashing can be heard all",
-                "around from the creatures which lurk in these fetid waters.  "
-            ],
-            "flags_raw": "0 0 0 16",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8319",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8323"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8314"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8320"
-                }
-            },
-            "extras": {}
+            "vnum": "8310"
         },
-        "8320": {
-            "name": "a {8Looming {cM{ga{8r{gs{ch{x",
+        "8324": {
+            "extras": {},
+            "flags_raw": "0 0 0 16",
+            "flags2_raw": "0",
             "description": [
                 "The marsh is shallow here, though a good part of its depth is from",
                 "dead plants which float about the surface.  Swamp gas bubbles, filling",
@@ -539,63 +598,34 @@
                 "lurking in the waters, some snarling and splashing as if they were",
                 "swimming closer to this spot.  "
             ],
-            "flags_raw": "0 0 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8320",
+            "name": "a {8Looming {cM{ga{8r{gs{ch{x",
             "exits": {
-                "south": {
+                "north": {
                     "flags_raw": "0",
+                    "room_id": "8320",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8324"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8325",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "8323",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8319"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8321"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8324"
         },
         "8312": {
-            "name": "Near Vegetation from Hell.",
-            "description": [
-                "You stand near some of the strangest plant life you have ever seen, a mixture",
-                "of tumescent vegetables, evil-smelling fruit trees, and malignant ferns."
-            ],
-            "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8312",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "To the north is a gloomy path through the marsh.",
-                        ""
-                    ],
-                    "room_id": "8310"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Eastward is a large, black stone monolith.",
-                        ""
-                    ],
-                    "room_id": "8313"
-                }
-            },
             "extras": {
                 "plant plants": {
                     "description": [
@@ -603,259 +633,112 @@
                         ""
                     ]
                 }
-            }
-        },
-        "8306": {
-            "name": "An Oozing Bog",
-            "description": [
-                "The ground here is soft and oozing.  You feel slimy water seeping into your",
-                "boots.  Better stop and check for leeches when you get out of here."
-            ],
+            },
             "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8306",
+            "description": [
+                "You stand near some of the strangest plant life you have ever seen, a mixture",
+                "of tumescent vegetables, evil-smelling fruit trees, and malignant ferns."
+            ],
+            "name": "Near Vegetation from Hell.",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8310",
                     "description": [
+                        "To the north is a gloomy path through the marsh.",
                         ""
-                    ],
-                    "room_id": "8305"
+                    ]
                 },
                 "east": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "8313",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "6047"
-                }
-            },
-            "extras": {
-                "limb": {
-                    "description": [
-                        "The limb looks like it is attached to a trap door in the ground.",
+                        "Eastward is a large, black stone monolith.",
                         ""
                     ]
                 }
-            }
-        },
-        "8309": {
-            "name": "A Dark Pool.",
-            "description": [
-                "You stand beside a large dark pond.  The water boils not with heat, but with",
-                "motion, as if it is alive.  A creaking beat pulses through the air, leaving",
-                "you with a cold sweat and fear in your heart."
-            ],
-            "flags_raw": "0 1 0 6",
+            },
             "wanted_area_vnum": "",
+            "vnum": "8312"
+        },
+        "8320": {
+            "extras": {},
+            "flags_raw": "0 0 0 16",
             "flags2_raw": "0",
-            "vnum": "8309",
+            "description": [
+                "The marsh is shallow here, though a good part of its depth is from",
+                "dead plants which float about the surface.  Swamp gas bubbles, filling",
+                "the air with a foul odor, and all around can be heard creatures",
+                "lurking in the waters, some snarling and splashing as if they were",
+                "swimming closer to this spot.  "
+            ],
+            "name": "a {8Looming {cM{ga{8r{gs{ch{x",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8321",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8319",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "8324",
                     "description": [
-                        "You see a cloud of darkness to the south.",
-                        ""
-                    ],
-                    "room_id": "8311"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "A hill rises out of the swamp to the east.",
-                        ""
-                    ],
-                    "room_id": "8304"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "A large pool of quicksand lies to the east.",
-                        ""
-                    ],
-                    "room_id": "8308"
-                }
-            },
-            "extras": {
-                "pond": {
-                    "description": [
-                        "It looks ALIVE ...",
                         ""
                     ]
                 }
-            }
-        },
-        "8308": {
-            "name": "Pool of Quick Sand",
-            "description": [
-                "You stand by a large oozing pool of quick sand.  Luckily only a complete",
-                "klutz could not avoid it.  Dancing lights fly about you and one seems to",
-                "be taunting you towards the pool."
-            ],
-            "flags_raw": "0 1 0 16",
+            },
             "wanted_area_vnum": "",
+            "vnum": "8320"
+        },
+        "8315": {
+            "extras": {},
+            "flags_raw": "0 1 0 7",
             "flags2_raw": "0",
-            "vnum": "8308",
+            "description": [
+                "Floating on this boiling lake is not what you would consider an enjoyable ",
+                "experience.  Many a creature bumps the bottom of your boat, and glares ",
+                "at you through unblinking eyes from the waters below.  The southern ",
+                "portion of the lake looks calm and serene compared to this wild place."
+            ],
+            "name": "Northern Lake Side.",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "8314",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8305"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "A dark pool lies to the west.",
-                        ""
-                    ],
-                    "room_id": "8309"
+                    ]
                 },
                 "east": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "8323",
                     "description": [
-                        "The swamp thing's lair.",
-                        ""
-                    ],
-                    "room_id": "8307"
-                }
-            },
-            "extras": {
-                "quicksand": {
-                    "description": [
-                        "It looks deadly to the foolish.",
                         ""
                     ]
                 },
-                "lights ": {
-                    "description": [
-                        "From the stories you have heard, you recognize them as will-o-wisps.",
-                        ""
-                    ]
-                }
-            }
-        },
-        "8322": {
-            "name": "{xAt the {cEdge {xof {GH{gaon'{GD{gor Forest{x",
-            "description": [
-                "This area is at the edge of a great forest, stretching far to the",
-                "east and north.  The trees are ancient, and seem to stop abruptly",
-                "here, as a small stretch of plains begins and to the west, the",
-                "darkness of the marsh looms.  "
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8322",
-            "exits": {
                 "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8326"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "6033"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8321"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "6034"
-                }
-            },
-            "extras": {}
-        },
-        "8314": {
-            "name": "Murky Bog.",
-            "description": [
-                "A murky bog surrounds you.  To the east a black monolith juts forth from the",
-                "ground.  Far to the north lies a huge pool of quicksand.  Snarls can be heard",
-                "echoing as if from a great distance."
-            ],
-            "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8314",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8315"
-                },
-                "west": {
                     "flags_raw": "-1",
+                    "room_id": "8316",
                     "description": [
-                        "Westward a large monolith awaits adventurers.",
-                        ""
-                    ],
-                    "room_id": "8313"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8319"
-                }
-            },
-            "extras": {
-                "monolith": {
-                    "description": [
-                        "This is a huge obsidian stone block stuck in the marsh.",
+                        "The southern portion of the lake lies to the south.",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8315"
         },
         "8303": {
-            "name": "Marshy Forest",
-            "description": [
-                "This area is by no means a forest, but for those who dwell in these sparse",
-                "trees it is one.  Occasionally you see a whole humanoid form floating face down",
-                "in the water, but mostly you only find pieces.  You hear a loud bellow in the",
-                "distance.  And feel fear creep into your heart."
-            ],
-            "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8303",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Westward lies the remanents of a broken and shattered roadway being swallowed",
-                        "by the marsh.",
-                        ""
-                    ],
-                    "room_id": "8302"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Eastward is the thick bog of ooze...",
-                        ""
-                    ],
-                    "room_id": "8305"
-                }
-            },
             "extras": {
                 "humanoid corpse": {
                     "description": [
@@ -870,479 +753,596 @@
                         ""
                     ]
                 }
-            }
-        },
-        "8307": {
-            "name": "Swamp Thing's Lair",
-            "description": [
-                "A horrible swamp thing resides here.  Mutilated corpses suffuse the air with",
-                "the overwhelming stench of putrid flesh."
-            ],
+            },
             "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8307",
+            "description": [
+                "This area is by no means a forest, but for those who dwell in these sparse",
+                "trees it is one.  Occasionally you see a whole humanoid form floating face down",
+                "in the water, but mostly you only find pieces.  You hear a loud bellow in the",
+                "distance.  And feel fear creep into your heart."
+            ],
+            "name": "Marshy Forest",
             "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8305",
+                    "description": [
+                        "Eastward is the thick bog of ooze...",
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8302",
                     "description": [
-                        "A pool of quick sand lies to the west.",
-                        ""
-                    ],
-                    "room_id": "8308"
-                }
-            },
-            "extras": {
-                "corpses": {
-                    "description": [
-                        "You notice a note on one of the corpses reading:  'Best ye forget the temple,",
-                        "it is not for the likes of you...'",
+                        "Westward lies the remanents of a broken and shattered roadway being swallowed",
+                        "by the marsh.",
                         ""
                     ]
                 }
-            }
-        },
-        "8300": {
-            "name": "",
-            "description": [],
-            "flags_raw": "0 4 0 0",
+            },
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8300",
-            "exits": {},
-            "extras": {}
+            "vnum": "8303"
         },
-        "8324": {
-            "name": "a {8Looming {cM{ga{8r{gs{ch{x",
+        "8323": {
+            "extras": {},
+            "flags_raw": "0 0 0 7",
+            "flags2_raw": "0",
             "description": [
-                "The marsh is shallow here, though a good part of its depth is from",
-                "dead plants which float about the surface.  Swamp gas bubbles, filling",
-                "the air with a foul odor, and all around can be heard creatures",
-                "lurking in the waters, some snarling and splashing as if they were",
-                "swimming closer to this spot.  "
+                "The boiling waters of the putrid lake collides with the",
+                "northeastern shore here.  A small glimmer of light can be seen between",
+                "the trees to the east, signifying a clearing of some sort, while",
+                "darkness looms to the west and north.  "
             ],
-            "flags_raw": "0 0 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8324",
+            "name": "Northeast Lake Side",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "8319",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8320"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8323"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "8324",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8325"
-                }
-            },
-            "extras": {}
-        },
-        "8305": {
-            "name": "An Oozing Bog",
-            "description": [
-                "You stand in an oozing quagmire.  A creaking beat fills the air, ",
-                "accompanied by groans and soughing of the air.  Several large winged",
-                "beasts flap over you and send chilling glares your way.  You feel out",
-                "of place, and feel that the occupants of this realm will soon ",
-                "have you for a feast."
-            ],
-            "flags_raw": "0 1 0 16",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8305",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8308"
+                    ]
                 },
                 "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        "Westward lies a marshy area.",
-                        ""
-                    ],
-                    "room_id": "8303"
-                },
-                "east": {
                     "flags_raw": "0",
+                    "room_id": "8315",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "8306"
-                }
-            },
-            "extras": {
-                "beasts": {
-                    "description": [
-                        "You see a large creature, possibly a demon, flapping heavily above you.",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8323"
+        },
+        "8309": {
+            "extras": {
+                "pond": {
+                    "description": [
+                        "It looks ALIVE ...",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "You stand beside a large dark pond.  The water boils not with heat, but with",
+                "motion, as if it is alive.  A creaking beat pulses through the air, leaving",
+                "you with a cold sweat and fear in your heart."
+            ],
+            "name": "A Dark Pool.",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8308",
+                    "description": [
+                        "A large pool of quicksand lies to the east.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8304",
+                    "description": [
+                        "A hill rises out of the swamp to the east.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8311",
+                    "description": [
+                        "You see a cloud of darkness to the south.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8309"
+        },
+        "8300": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "8300"
+        },
+        "8314": {
+            "extras": {
+                "monolith": {
+                    "description": [
+                        "This is a huge obsidian stone block stuck in the marsh.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 1 0 16",
+            "flags2_raw": "0",
+            "description": [
+                "A murky bog surrounds you.  To the east a black monolith juts forth from the",
+                "ground.  Far to the north lies a huge pool of quicksand.  Snarls can be heard",
+                "echoing as if from a great distance."
+            ],
+            "name": "Murky Bog.",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8319",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8313",
+                    "description": [
+                        "Westward a large monolith awaits adventurers.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8315",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8314"
+        },
+        "8302": {
+            "extras": {},
+            "flags_raw": "0 0 0 16",
+            "flags2_raw": "0",
+            "description": [
+                "Briars and marsh plants stick to your boots and clothes, and clouds cover the",
+                "skies above the murky marsh, leaving the path before you dark and sinister.",
+                "You see some disturbances in the marsh, but after a few strangled screams,",
+                "the sounds stop."
+            ],
+            "name": "Swamp's Edge",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "9763",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8303",
+                    "description": [
+                        "To the east lies a series of bogs and shallows that look rather threatening.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8304",
+                    "description": [
+                        "You notice a large hill rising out of the marsh to the south.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8302"
+        },
+        "8325": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "The air is light here.  Stretching out to the east is a field,",
+                "while to the west lies the gnarled forest of the decaying marsh.  The",
+                "marsh seems to end abruptly here, as if halted from spreading",
+                "eastward.  "
+            ],
+            "name": "{xAt the {cEdge {xof a {8Looming {cM{ga{8r{gs{ch{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "8321",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8326",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8324",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8325"
         }
     },
-    "uid": "marsh",
-    "area_quest_points": 0,
     "credits": "[29 GR 50] Old Marsh",
     "faction_id": "",
+    "name": "Marsh",
     "vnums": [
         8300,
         8399
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "8320": {
-            "name": "a marsh giant~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 7",
             "description": [
                 "This huge monster of a man has green gnarly teeth and a BIG stick.\n"
             ],
             "raw_flags5": "stand stand male 600",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNR 0 EHI JPR",
-            "raw_flags3": "-2 -2 -2 7",
             "vnum": 8320,
             "raw_flags": "ABCDFG DF 0 -100 0",
-            "race_id": "giant",
-            "raw_flags2": "29 0 3d9+208 7d9+100 2d6+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 EHI JPR",
             "room_name": "A marsh giant stomps towards you.\n",
-            "keywords": "oldstyle giant~\n"
+            "name": "a marsh giant~\n",
+            "raw_flags2": "29 0 3d9+208 7d9+100 2d6+3 none",
+            "keywords": "oldstyle giant~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "giant",
+            "t_flags": "T ~"
         },
         "8321": {
-            "name": "a gargoyle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 8",
             "description": [
                 "This creepy fellow looks like he could use you as a meal.\n"
             ],
             "raw_flags5": "stand stand none 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "0 0 0 8",
             "vnum": 8321,
             "raw_flags": "ABCDFG DF 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "23 0 2d10+150 6d9+100 1d10+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A large gargoyle lands next to you, baring his fangs at you.\n",
-            "keywords": "oldstyle gargoyle~\n"
+            "name": "a gargoyle~\n",
+            "raw_flags2": "23 0 2d10+150 6d9+100 1d10+3 none",
+            "keywords": "oldstyle gargoyle~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8301": {
-            "name": "a swamp troll~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 7",
             "description": [
                 "This huge behemoth towers to a height of 15 feet.  He sneers at you \n",
                 "as he approaches and raises two black taloned claws to strike you.\n"
             ],
             "raw_flags5": "stand rest male 500",
-            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium 0",
-            "raw_flags4": "DEFNR 0 BE HK",
-            "raw_flags3": "-2 -2 -2 7",
             "vnum": 8301,
             "raw_flags": "ABCFG FJc 0 -600 0",
-            "race_id": "troll",
-            "raw_flags2": "32 0 3d9+233 8d9+100 2d6+4 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DEFNR 0 BE HK",
             "room_name": "A swamp troll charges towards you.\n",
-            "keywords": "oldstyle troll~\n"
+            "name": "a swamp troll~\n",
+            "raw_flags2": "32 0 3d9+233 8d9+100 2d6+4 none",
+            "keywords": "oldstyle troll~\n",
+            "subroutines": [],
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium 0",
+            "race_id": "troll",
+            "t_flags": "T ~"
         },
         "8302": {
-            "name": "a green troll~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1 -1 -1 8",
             "description": [
                 "This big troll towers several feet over you.  He has a large spear\n",
                 "which he seems to ply with utmost prowess.  He jabs his spear at you\n",
                 "and cackles with glee.\n"
             ],
             "raw_flags5": "stand stand male 400",
-            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium 0",
-            "raw_flags4": "DEFNR 0 BE HK",
-            "raw_flags3": "-1 -1 -1 8",
             "vnum": 8302,
             "raw_flags": "ACFG FJc 0 -400 0",
-            "race_id": "troll",
-            "raw_flags2": "27 0 2d10+190 7d9+100 1d12+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DEFNR 0 BE HK",
             "room_name": "A green troll attempts to get a hold on you.\n",
-            "keywords": "oldstyle troll~\n"
+            "name": "a green troll~\n",
+            "raw_flags2": "27 0 2d10+190 7d9+100 1d12+3 none",
+            "keywords": "oldstyle troll~\n",
+            "subroutines": [],
+            "raw_flags6": "ABHMV ABCDEFGHIJKUV medium 0",
+            "race_id": "troll",
+            "t_flags": "T ~"
         },
         "8303": {
-            "name": "an ogre~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 7",
             "description": [
                 "This mean bastard looks like he could tear you limb from limb.\n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-4 -4 -4 7",
             "vnum": 8303,
             "raw_flags": "ACFG 0 0 -500 0",
-            "race_id": "human",
-            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "An ogre stands here getting ready to beat in your face.\n",
-            "keywords": "oldstyle ogre~\n"
+            "name": "an ogre~\n",
+            "raw_flags2": "40 0 3d9+333 10d9+100 2d8+5 none",
+            "keywords": "oldstyle ogre~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8304": {
-            "name": "the Swamp Thing~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-6 -6 -6 6",
             "description": [
                 "The Swamp Thing has huge fists, which look like they could pound you flat.\n"
             ],
             "raw_flags5": "stand rest none 1250",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-6 -6 -6 6",
             "vnum": 8304,
             "raw_flags": "ACFG 0 0 -700 0",
-            "race_id": "human",
-            "raw_flags2": "48 0 5d10+500 12d9+100 2d10+6 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "The Swamp Thing shambles about here.  It seems hungry.\n",
-            "keywords": "oldstyle thing~\n"
+            "name": "the Swamp Thing~\n",
+            "raw_flags2": "48 0 5d10+500 12d9+100 2d10+6 none",
+            "keywords": "oldstyle thing~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8305": {
-            "name": "a gnoll~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-9 -9 -9 6",
             "description": [
                 "The Gnoll seems annoyed at your presence.\n"
             ],
             "raw_flags5": "stand stand male 1250",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-9 -9 -9 6",
             "vnum": 8305,
             "raw_flags": "ACG DF 0 -1000 0",
-            "race_id": "human",
-            "raw_flags2": "60 0 6d12+853 15d9+100 4d6+8 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "There is a mean looking gnoll here.\n",
-            "keywords": "oldstyle gnoll~\n"
+            "name": "a gnoll~\n",
+            "raw_flags2": "60 0 6d12+853 15d9+100 4d6+8 none",
+            "keywords": "oldstyle gnoll~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8306": {
-            "name": "a huge hairy beast~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-5 -5 -5 7",
             "description": [
                 "This huge beast stands about 20 feet in height and has huge green clawed\n",
                 "appendages. \n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-5 -5 -5 7",
             "vnum": 8306,
             "raw_flags": "ACFG DF 0 -450 0",
-            "race_id": "human",
-            "raw_flags2": "42 0 4d10+360 10d9+100 4d4+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A huge hairy beast shambles towards you with death in his eyes.\n",
-            "keywords": "oldstyle beast~\n"
+            "name": "a huge hairy beast~\n",
+            "raw_flags2": "42 0 4d10+360 10d9+100 4d4+5 none",
+            "keywords": "oldstyle beast~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8307": {
-            "name": "a rather small beast~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "7 7 7 10",
             "description": [
                 "This rather small beast looks like you could take it out with a single\n",
                 "sword blow.\n"
             ],
             "raw_flags5": "stand stand male 25",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "7 7 7 10",
             "vnum": 8307,
             "raw_flags": "ACGH P 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A rather small beast cringes in terror as it notices you.\n",
-            "keywords": "oldstyle beast~\n"
+            "name": "a rather small beast~\n",
+            "raw_flags2": "6 0 2d6+35 1d9+100 1d6+0 none",
+            "keywords": "oldstyle beast~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8308": {
-            "name": "the Will-O-Wisp~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 1 8",
             "description": [
                 "This strange little creature seems very hard to keep your eyes on.\n",
                 "You stare as hard as you can at the glowing ball of floating light and\n",
                 "are just able to notice a small pair of glowing eyes.\n"
             ],
             "raw_flags5": "stand stand none 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "1 1 1 8",
             "vnum": 8308,
             "raw_flags": "ACGH P 0 0 0",
-            "race_id": "human",
-            "raw_flags2": "19 0 2d7+121 5d9+100 2d4+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Will-O-Wisp darts hear and there, making fun of you.\n",
-            "keywords": "oldstyle will will-o-wisp~\n"
+            "name": "the Will-O-Wisp~\n",
+            "raw_flags2": "19 0 2d7+121 5d9+100 2d4+2 none",
+            "keywords": "oldstyle will will-o-wisp~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8309": {
-            "name": "the monstrous snake~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-2 -2 -2 7",
             "description": [
                 "This 10 meter anaconda looks rather hungry.\n"
             ],
             "raw_flags5": "stand stand male 500",
-            "raw_flags6": "AGXYc ADEFKLQVX medium 0",
-            "raw_flags4": "EFNR 0 L I",
-            "raw_flags3": "-2 -2 -2 7",
             "vnum": 8309,
             "raw_flags": "ACFGH PQ 0 -100 0",
-            "race_id": "snake",
-            "raw_flags2": "31 0 3d9+233 8d9+100 2d6+4 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 L I",
             "room_name": "A monstrous snake slithers towards you, thinking 'breakfast'.\n",
-            "keywords": "oldstyle snake anaconda~\n"
+            "name": "the monstrous snake~\n",
+            "raw_flags2": "31 0 3d9+233 8d9+100 2d6+4 none",
+            "keywords": "oldstyle snake anaconda~\n",
+            "subroutines": [],
+            "raw_flags6": "AGXYc ADEFKLQVX medium 0",
+            "race_id": "snake",
+            "t_flags": "T ~"
         },
         "8310": {
-            "name": "a large snake~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 1 8",
             "description": [
                 "It's the largest Amazon python you have ever seen.\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AGXYc ADEFKLQVX medium 0",
-            "raw_flags4": "EFNR 0 L I",
-            "raw_flags3": "1 1 1 8",
             "vnum": 8310,
             "raw_flags": "ACFGH PQ 0 -100 0",
-            "race_id": "snake",
-            "raw_flags2": "21 0 2d8+134 5d9+100 1d10+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNR 0 L I",
             "room_name": "A rather large python rests in a coil here.\n",
-            "keywords": "oldstyle snake python~\n"
+            "name": "a large snake~\n",
+            "raw_flags2": "21 0 2d8+134 5d9+100 1d10+2 none",
+            "keywords": "oldstyle snake python~\n",
+            "subroutines": [],
+            "raw_flags6": "AGXYc ADEFKLQVX medium 0",
+            "race_id": "snake",
+            "t_flags": "T ~"
         },
         "8312": {
-            "name": "the Marsh Hag~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "3 3 3 8",
             "description": [
                 "Yech!  She manages to make even Smurfette look attractive.  That's ok,\n",
                 "because she thinks you stink too, and she's about to do something about it.\n"
             ],
             "raw_flags5": "stand stand female 50",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "BEFJNU 0 0 0",
-            "raw_flags3": "3 3 3 8",
             "vnum": 8312,
             "raw_flags": "ACGS DF 0 -200 0",
-            "race_id": "human",
-            "raw_flags2": "18 0 2d7+96 4d9+100 1d7+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "BEFJNU 0 0 0",
             "room_name": "A Marsh Hag is here.\n",
-            "keywords": "oldstyle hag~\n"
+            "name": "the Marsh Hag~\n",
+            "raw_flags2": "18 0 2d7+96 4d9+100 1d7+2 none",
+            "keywords": "oldstyle hag~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8313": {
-            "name": "a Death Slaad~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-4 -4 -4 7",
             "description": [
                 "This dark apparition stands a meager 13 feet in height.  Even in the dim\n",
                 "swamp light, the blade of his scythe gleams.\n"
             ],
             "raw_flags5": "stand stand male 700",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-4 -4 -4 7",
             "vnum": 8313,
             "raw_flags": "ACG DF 0 -200 0",
-            "race_id": "human",
-            "raw_flags2": "39 0 3d9+333 10d9+100 2d8+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A Death Slaad is standing here distraught.  He seems lost.\n",
-            "keywords": "oldstyle slaad~\n"
+            "name": "a Death Slaad~\n",
+            "raw_flags2": "39 0 3d9+333 10d9+100 2d8+5 none",
+            "keywords": "oldstyle slaad~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8314": {
-            "name": "a marsh wolf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "3 3 3 9",
             "description": [
                 "This wolf looks plump.  She probably ate a friend or two of yours who came\n",
                 "into the marsh.\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AGV ACDEFJKQV medium 0",
-            "raw_flags4": "EFHNR 0 0 0",
-            "raw_flags3": "3 3 3 9",
             "vnum": 8314,
             "raw_flags": "ACFG Z 0 -200 0",
-            "race_id": "wolf",
-            "raw_flags2": "16 0 2d7+96 4d9+100 1d7+2 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFHNR 0 0 0",
             "room_name": "A marsh wolf sniffs the ground has followed your scent.\n",
-            "keywords": "oldstyle wolf~\n"
+            "name": "a marsh wolf~\n",
+            "raw_flags2": "16 0 2d7+96 4d9+100 1d7+2 none",
+            "keywords": "oldstyle wolf~\n",
+            "subroutines": [],
+            "raw_flags6": "AGV ACDEFJKQV medium 0",
+            "race_id": "wolf",
+            "t_flags": "T ~"
         },
         "8318": {
-            "name": "a shambling mound~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1 -1 -1 8",
             "description": [
                 "This grotesque pile of plant matter fills you with utmost horror.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EFNU 0 0 0",
-            "raw_flags3": "-1 -1 -1 8",
             "vnum": 8318,
             "raw_flags": "ACG Q 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "25 0 2d10+170 6d9+100 2d5+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFNU 0 0 0",
             "room_name": "A heap of garbage shambles towards you.\n",
-            "keywords": "oldstyle mound shambling~\n"
+            "name": "a shambling mound~\n",
+            "raw_flags2": "25 0 2d10+170 6d9+100 2d5+3 none",
+            "keywords": "oldstyle mound shambling~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "8319": {
-            "name": "the orc shaman~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 7",
             "description": [
                 "This old orc has an array of bones stuck in his hair and strange symbols\n",
                 "painted on his face and hands.\n"
             ],
             "raw_flags5": "stand stand male 17",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIKU 0 0 0",
-            "raw_flags3": "0 0 0 7",
             "vnum": 8319,
             "raw_flags": "ABCDFGQ DF 0 -100 0",
-            "race_id": "human",
-            "raw_flags2": "23 0 2d10+150 12d9+100 2d4+3 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIKU 0 0 0",
             "room_name": "An orc shaman stands before you holding a staff and wearing robes.\n",
-            "keywords": "oldstyle shaman orc~\n"
+            "name": "the orc shaman~\n",
+            "raw_flags2": "23 0 2d10+150 12d9+100 2d4+3 none",
+            "keywords": "oldstyle shaman orc~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

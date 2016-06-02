@@ -1,511 +1,183 @@
 {
-    "name": "Mirkwood",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "mirkwood",
-    "subroutines": [],
+    "objects": {},
+    "uid": "mirkwood",
     "rooms": {
-        "8833": {
-            "name": "A Northern Path",
-            "description": [
-                "This path is fairly even and well-used, so going is not as rough as the",
-                "previous paths. There is a broad junction to the north."
-            ],
+        "8814": {
+            "extras": {},
             "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8833",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8832"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8834"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "51819"
-                }
-            },
-            "extras": {}
-        },
-        "8807": {
-            "name": "Plains",
             "description": [
-                "The road opens onto an area cleared of trees here, a broad plain dotted with",
-                "the occasional hedge or distant farmhouse. There is a marked path running",
-                "due east toward the west gate of the distant fortress."
+                "This path is certainly less overgrown than the north-south one. You actually",
+                "find yourself able to move relatively quickly through the forest, stopping",
+                "only occasionally to hack away an overhanging branch or vine."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8807",
+            "name": "The Eastern Path",
             "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8815",
+                    "description": [
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8813",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8806"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8814"
         },
-        "8827": {
-            "name": "The Western Path",
+        "8828": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
             "description": [
                 "The path you are on here runs down a gently sloping hill, to the base of a",
                 "beautiful valley below."
             ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8827",
+            "name": "The Hill",
             "exits": {
-                "east": {
+                "up": {
                     "flags_raw": "-1",
+                    "room_id": "8827",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8826"
+                    ]
                 },
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "8829",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8828"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8828"
         },
         "8855": {
-            "name": "Approaching Mirkwood",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "The forest begins to surround you as you step into its depths. The path",
                 "abruptly turns to the north and you continue."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8855",
+            "name": "Approaching Mirkwood",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8800",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8800"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "338",
                     "description": [
                         ""
-                    ],
-                    "room_id": "338"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8855"
         },
-        "8810": {
-            "name": "A Guard Post",
-            "description": [
-                "You have stumbled into a Sylvan Elf guard post, from which they carefully",
-                "watch out for intruding Orcs or Goblins. They dislike strangers in general,",
-                "and detest interlopers into their personal areas even more. Expect a violent",
-                "reception if there is a guard present..."
-            ],
+        "8805": {
+            "extras": {},
             "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8810",
-            "exits": {
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8809"
-                }
-            },
-            "extras": {}
-        },
-        "8856": {
-            "name": "A Broad Tree-Lined Path",
             "description": [
-                "This path runs for some distance toward a huge cave, entrance to which is",
-                "restricted by a massive, handsome door that glows with magic. Magnificent",
-                "oaks tower high to either side, and everywhere there is light and beauty.",
-                "However, intruders are frowned upon here, so be on your guard."
+                "The path once again divides, this time into northern and southern branches.",
+                "To the north an impressive-looking citadel looms over the treetops, while",
+                "to the south the trail becomes significantly narrower, and overgrown."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8856",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8825"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8857"
-                }
-            },
-            "extras": {}
-        },
-        "8863": {
-            "name": "The River",
-            "description": [
-                "You are floating along a river that will carry you back through the forest,",
-                "and eventually to Lake Town."
-            ],
-            "flags_raw": "0 4 0 7",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8863",
+            "name": "Another Junction",
             "exits": {
                 "north": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "8806",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8862"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8804",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
-                    "flags_raw": "0",
+                    "flags_raw": "-1",
+                    "room_id": "8808",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8866"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8841": {
-            "name": "A Bend in the Path",
-            "description": [
-                "You reach a bend in the path, where you can head north or west."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8841",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8842"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8834"
-                }
-            },
-            "extras": {}
-        },
-        "8848": {
-            "name": "Cultivated Field",
-            "description": [
-                "This field borders on a neatly-tended area with several small farmhouses and",
-                "a small watch-tower near a wide stream."
-            ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8848",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8847"
-                }
-            },
-            "extras": {}
-        },
-        "8824": {
-            "name": "A Stream",
-            "description": [
-                "This stream is too wide and deep to wade across. You'll need a boat or a",
-                "spell. Mind you, you could always whip out your rod and start angling :)"
-            ],
-            "flags_raw": "0 0 0 6",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8824",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8823"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8825"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8866"
-                }
-            },
-            "extras": {}
+            "vnum": "8805"
         },
         "8852": {
-            "name": "The Path to Firetop Mountain",
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
             "description": [
                 "The path runs past the rubble and up into the foothills of an immense",
                 "mountain range. far in the distance looms Firetop Mountain."
             ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8852",
+            "name": "The Path to Firetop Mountain",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8853",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8853"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8825": {
-            "name": "A Northern Path",
-            "description": [
-                "This path is fairly even and well-used, so going is not as rough as the",
-                "previous paths. There is a wide stream to the south.",
-                "A broad, tree-lined path runs to the east."
-            ],
-            "flags_raw": "0 4 0 3",
             "wanted_area_vnum": "",
+            "vnum": "8852"
+        },
+        "8842": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "8825",
+            "description": [
+                "You reach a bend in the path, where you can head south or east."
+            ],
+            "name": "A Bend in the Path",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8824"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8826"
-                },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "8843",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8856"
-                }
-            },
-            "extras": {}
-        },
-        "8811": {
-            "name": "The Southern Trail",
-            "description": [
-                "Progress along this narrow, overgrown path is next to impossible, and you",
-                "find yourself having to stop several times for a rest. There doesn't seem to",
-                "be any quick end to it either.",
-                "At this point you may follow a side trail which runs to the east. It seems",
-                "to be a little less overgrown."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8811",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8812"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8809"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8813"
-                }
-            },
-            "extras": {}
-        },
-        "8850": {
-            "name": "A Desolate Section of the Forest",
-            "description": [
-                "You have entered a rather forlorn section of the forest, littered with dead",
-                "and dying trees, plus the occasional corpse. Howls and cries of pain sound",
-                "far off to the south."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8850",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8849"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8841",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8851"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8820": {
-            "name": "The Western Path",
-            "description": [
-                "This path is rather overgrown but it is still easily navigable. You fancy",
-                "you can see a rope ladder ascending into the brances of a tall oak near the",
-                "eastern side of the road."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8820",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8822"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8803"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8821"
-                }
-            },
-            "extras": {}
-        },
-        "8830": {
-            "name": "A Northern Path",
-            "description": [
-                "This path is fairly even and well-used, so going is not as rough as the",
-                "previous paths. There is a narrow path to the east."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8830",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8826"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8832"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8831"
-                }
-            },
-            "extras": {}
-        },
-        "8806": {
-            "name": "A Bend in the Road",
-            "description": [
-                "The northern road bends to the east at this point, allowing you to gaze",
-                "upon a wondrous Elven Fortress. Although you are more than a mile away,",
-                "it still looms large ahead of you."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8806",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8805"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8807"
-                }
-            },
-            "extras": {}
+            "vnum": "8842"
         },
         "8857": {
-            "name": "A Broad Tree-Lined Path",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "This path runs for some distance toward a huge cave, entrance to which is",
                 "restricted by a massive, handsome door that glows with magic. Magnificent",
@@ -513,1030 +185,278 @@
                 "However, intruders are frowned upon here, so be on your guard.",
                 "The entrance is directly before you."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8857",
+            "name": "A Broad Tree-Lined Path",
             "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8856"
-                },
                 "east": {
                     "flags_raw": "8813",
+                    "room_id": "8858",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8858"
-                }
-            },
-            "extras": {}
-        },
-        "8813": {
-            "name": "The Eastern Path",
-            "description": [
-                "This path is certainly less overgrown than the north-south one. You actually",
-                "find yourself able to move relatively quickly through the forest, stopping",
-                "only occasionally to hack away an overhanging branch or vine."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8813",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8811"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8814"
-                }
-            },
-            "extras": {}
-        },
-        "8862": {
-            "name": "The River",
-            "description": [
-                "You are floating along a river that will carry you back through the forest,",
-                "and eventually to Lake Town."
-            ],
-            "flags_raw": "0 4 0 7",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8862",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8863"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8861"
-                }
-            },
-            "extras": {}
-        },
-        "8818": {
-            "name": "The End of the Path",
-            "description": [
-                "The path ends here in a small clearing with a small shallow pool of crystal",
-                "clear water. You feel strangely at ease here."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8818",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8817"
-                },
-                "east": {
-                    "flags_raw": "21020",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "21020"
-                }
-            },
-            "extras": {}
-        },
-        "8846": {
-            "name": "A Guard Post",
-            "description": [
-                "You have stumbled into a Sylvan Elf guard post, from which they carefully",
-                "watch out for intruding Orcs or Goblins. They dislike strangers in general,",
-                "and detest interlopers into their personal areas even more. Expect a violent",
-                "reception if there is a guard present..."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8846",
-            "exits": {
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8844"
-                }
-            },
-            "extras": {}
-        },
-        "8861": {
-            "name": "Storage Room",
-            "description": [
-                "In this room the Elves store their foodstuffs and beloved Dorwinion Wine.",
-                "A trapdoor in the floor allows access to the river, and it is through here",
-                "that the Elves deposit their empty barrels, so that the river may carry",
-                "them down to Lake Town."
-            ],
-            "flags_raw": "0 8 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8861",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8860"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8862"
-                }
-            },
-            "extras": {}
-        },
-        "8840": {
-            "name": "The Cliff Face",
-            "description": [
-                "You are standing before the gash in the cliff-face now, wondering whether",
-                "you should continue into the inky darkness beyond..."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8840",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8839"
-                }
-            },
-            "extras": {}
-        },
-        "8814": {
-            "name": "The Eastern Path",
-            "description": [
-                "This path is certainly less overgrown than the north-south one. You actually",
-                "find yourself able to move relatively quickly through the forest, stopping",
-                "only occasionally to hack away an overhanging branch or vine."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8814",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8813"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8815"
-                }
-            },
-            "extras": {}
-        },
-        "8802": {
-            "name": "The Path Through Mirkwood",
-            "description": [
-                "You are advancing along a narrow path that runs deep into the forest of",
-                "Mirkwood. Giant, ancient trees tower over you to either side, and sweet",
-                "songbirds sing in their lofty branches. However, despite this serene scene,",
-                "you can't shake the feeling that you're being watched."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8802",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8803"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8801"
-                }
-            },
-            "extras": {}
-        },
-        "8831": {
-            "name": "A Narrow Path",
-            "description": [
-                "You are walking along a narrow path that runs from the major northern path",
-                "through Mirkwood. Up ahead the path ends in a dead end."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8831",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8830"
-                }
-            },
-            "extras": {}
-        },
-        "8816": {
-            "name": "The Northern Path",
-            "description": [
-                "The path here is fairly clear and free of vegetation. It actually looks",
-                "fairly well-maintained. You think you can hear a distant singing to the",
-                "north."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8816",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8817"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8815"
-                }
-            },
-            "extras": {}
-        },
-        "8815": {
-            "name": "A Bend in the Path",
-            "description": [
-                "You have reached a point where the path bends to the north."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8815",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8816"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8856",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8814"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8822": {
-            "name": "A Bend to the North",
-            "description": [
-                "The path bends to the north here, running for some distance toward a stream."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8822",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8823"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8820"
-                }
-            },
-            "extras": {}
-        },
-        "8829": {
-            "name": "The Base of the Hill",
-            "description": [
-                "You can proceed east toward the valley from here, or return to the summit",
-                "above."
-            ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8829",
-            "exits": {
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "7800"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8828"
-                }
-            },
-            "extras": {}
-        },
-        "8835": {
-            "name": "An Evil Section of the Forest",
-            "description": [
-                "There is a palpable evil in this area that causes you to shiver as you pass",
-                "by the blighted vegetation that lines this twisted gray path. The sky can",
-                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
-                "branches obscures your view."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8835",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8836"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8834"
-                }
-            },
-            "extras": {}
-        },
-        "8838": {
-            "name": "An Evil Section of the Forest",
-            "description": [
-                "There is a palpable evil in this area that causes you to shiver as you pass",
-                "by the blighted vegetation that lines this twisted gray path. The sky can",
-                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
-                "branches obscures your view.",
-                "Maggots crawl from a decaying Elven corpse hanging from an overhead branch.",
-                "The stench is unbearable.",
-                "To the north you see a shadowy area of the forest."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8838",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1300"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8839"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8837"
-                }
-            },
-            "extras": {}
-        },
-        "8867": {
-            "name": "A Cell",
-            "description": [
-                "This damp cell is small and cramped, and offers little comfort to its",
-                "single inhabitant."
-            ],
-            "flags_raw": "0 9 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8867",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8860"
-                }
-            },
-            "extras": {}
-        },
-        "8843": {
-            "name": "A Junction",
-            "description": [
-                "The path once again divides, this time into northern and southern branches.",
-                "To the north lies another bend in the trail, while to the south the trail",
-                "becomes significantly narrower, and overgrown."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8843",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8845"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8842"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8844"
-                }
-            },
-            "extras": {}
-        },
-        "8837": {
-            "name": "An Evil Section of the Forest",
-            "description": [
-                "There is a palpable evil in this area that causes you to shiver as you pass",
-                "by the blighted vegetation that lines this twisted gray path. The sky can",
-                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
-                "branches obscures your view.",
-                "The dying screams of some animal can be heard."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8837",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8838"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8836"
-                }
-            },
-            "extras": {}
-        },
-        "8849": {
-            "name": "A Desolate Section of the Forest",
-            "description": [
-                "You have entered a rather forlorn section of the forest, littered with dead",
-                "and dying trees, plus the occasional corpse. Howls and cries of pain sound",
-                "far off to the south."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8849",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8847"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8850"
-                }
-            },
-            "extras": {}
-        },
-        "8864": {
-            "name": "Inside the Cave",
-            "description": [
-                "You are in the castle of the Wood Elven King Thranduil. The corridor here",
-                "is usually deserted. It would be advisable to keep a low profile, as the",
-                "natives are hostile..."
-            ],
-            "flags_raw": "0 8 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8864",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8858"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8865"
-                }
-            },
-            "extras": {}
-        },
-        "8801": {
-            "name": "The Path Through Mirkwood",
-            "description": [
-                "You are advancing along a narrow path that runs deep into the forest of",
-                "Mirkwood. Giant, ancient trees tower over you to either side, and sweet",
-                "songbirds sing in their lofty branches. However, despite this serene scene,",
-                "you can't shake the feeling that you're being watched."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8801",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8802"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8800"
-                }
-            },
-            "extras": {}
-        },
-        "8805": {
-            "name": "Another Junction",
-            "description": [
-                "The path once again divides, this time into northern and southern branches.",
-                "To the north an impressive-looking citadel looms over the treetops, while",
-                "to the south the trail becomes significantly narrower, and overgrown."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8805",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8806"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8804"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8808"
-                }
-            },
-            "extras": {}
-        },
-        "8842": {
-            "name": "A Bend in the Path",
-            "description": [
-                "You reach a bend in the path, where you can head south or east."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8842",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8841"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8843"
-                }
-            },
-            "extras": {}
-        },
-        "8845": {
-            "name": "A Bend in the Path",
-            "description": [
-                "Here, the path bends sharply to the east, heading toward an area of the",
-                "forest that is very different from the previous section. A second path",
-                "runs to the north."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8845",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8843"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8868"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8847"
-                }
-            },
-            "extras": {}
-        },
-        "8812": {
-            "name": "A Dead End",
-            "description": [
-                "WHAT? After all that exertion, the path ends at a DEAD END??? Ah well, I",
-                "guess you had better turn back..."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8812",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8811"
-                }
-            },
-            "extras": {}
+            "vnum": "8857"
         },
         "8865": {
-            "name": "The Throne Room of Thrandul",
+            "extras": {},
+            "flags_raw": "0 8 0 20",
+            "flags2_raw": "0",
             "description": [
                 "Now you've blown it. You've gone and stumbled into the King's Throne Room.",
                 "He is seated upon an intricately-carved wooden throne at the end of the hall.",
                 "Dour guards glare at you on all sides."
             ],
-            "flags_raw": "0 8 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8865",
+            "name": "The Throne Room of Thrandul",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "8864",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8864"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8859": {
-            "name": "Inside the Cave",
-            "description": [
-                "You are in the castle of the Wood Elven King Thranduil. The corridor here",
-                "is usually deserted. It would be advisable to keep a low profile, as the",
-                "natives are hostile..."
-            ],
-            "flags_raw": "0 8 0 20",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8859",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8858"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8860"
-                }
-            },
-            "extras": {}
+            "vnum": "8865"
         },
-        "8851": {
-            "name": "A Desolate Section of the Forest",
-            "description": [
-                "You have entered a rather forlorn section of the forest, littered with dead",
-                "and dying trees, plus the occasional corpse. Howls and cries of pain sound",
-                "far off to the south.",
-                "To the south is a particularly dark patch of forest."
-            ],
+        "8826": {
+            "extras": {},
             "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8851",
+            "description": [
+                "You have reached a point where you can proceed either north or west. Your",
+                "choice. You still have the feeling you're being watched..."
+            ],
+            "name": "A Junction",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8830",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8850"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8827",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8825",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8826"
         },
-        "8809": {
-            "name": "The Southern Trail",
+        "8850": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a rather forlorn section of the forest, littered with dead",
+                "and dying trees, plus the occasional corpse. Howls and cries of pain sound",
+                "far off to the south."
+            ],
+            "name": "A Desolate Section of the Forest",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8849",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8851",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8850"
+        },
+        "8811": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "Progress along this narrow, overgrown path is next to impossible, and you",
                 "find yourself having to stop several times for a rest. There doesn't seem to",
                 "be any quick end to it either.",
-                "You spy a rope ladder ascending to a platform in a nearby tree."
+                "At this point you may follow a side trail which runs to the east. It seems",
+                "to be a little less overgrown."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8809",
+            "name": "The Southern Trail",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8808"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8813",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8812",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8811"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8810"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8811"
         },
-        "8819": {
-            "name": "Approaching the Holy Grove",
-            "description": [
-                "The singing is clearly audible here, and it is coming from a well-tended",
-                "grove just below you. Dimly visible are all manner of man and beast, and",
-                "although they would usually feed upon each other, they all seem to be at",
-                "peace."
-            ],
+        "8844": {
+            "extras": {},
             "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "8819",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8817"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8904"
-                }
-            },
-            "extras": {}
-        },
-        "8828": {
-            "name": "The Hill",
             "description": [
-                "The path you are on here runs down a gently sloping hill, to the base of a",
-                "beautiful valley below."
+                "The passage ends in a dead end, but you see a small rope ladder hanging down",
+                "from a nearby oak tree, disappearing in its bushy branches above."
             ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8828",
+            "name": "A Dead End",
             "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8843",
+                    "description": [
+                        ""
+                    ]
+                },
                 "up": {
                     "flags_raw": "-1",
+                    "room_id": "8846",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8827"
-                },
-                "down": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8829"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8844"
         },
-        "8821": {
-            "name": "A Guard Post",
+        "8825": {
+            "extras": {},
+            "flags_raw": "0 4 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is fairly even and well-used, so going is not as rough as the",
+                "previous paths. There is a wide stream to the south.",
+                "A broad, tree-lined path runs to the east."
+            ],
+            "name": "A Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8826",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8856",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8824",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8825"
+        },
+        "8816": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The path here is fairly clear and free of vegetation. It actually looks",
+                "fairly well-maintained. You think you can hear a distant singing to the",
+                "north."
+            ],
+            "name": "The Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8817",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8815",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8816"
+        },
+        "8810": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "You have stumbled into a Sylvan Elf guard post, from which they carefully",
                 "watch out for intruding Orcs or Goblins. They dislike strangers in general,",
                 "and detest interlopers into their personal areas even more. Expect a violent",
                 "reception if there is a guard present..."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8821",
+            "name": "A Guard Post",
             "exits": {
                 "down": {
                     "flags_raw": "-1",
+                    "room_id": "8809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8820"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8836": {
-            "name": "An Evil Section of the Forest",
-            "description": [
-                "There is a palpable evil in this area that causes you to shiver as you pass",
-                "by the blighted vegetation that lines this twisted gray path. The sky can",
-                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
-                "branches obscures your view."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8836",
-            "exits": {
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8837"
-                },
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8835"
-                }
-            },
-            "extras": {}
-        },
-        "8839": {
-            "name": "An Evil Section of the Forest",
-            "description": [
-                "There is a palpable evil in this area that causes you to shiver as you pass",
-                "by the blighted vegetation that lines this twisted gray path. The sky can",
-                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
-                "branches obscures your view.",
-                "At this point the twisting turning path runs sharply downward toward a large",
-                "gash in the side of a grey cliff face."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8839",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8840"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8838"
-                }
-            },
-            "extras": {}
+            "vnum": "8810"
         },
         "8800": {
-            "name": "Entrance to Mirkwood",
-            "description": [
-                "You have entered the quasi-magical Elven forest of Mirkwood, populated by",
-                "Sylvan Elves and their mysterious allies. Strangers are frowned upon here,",
-                "so be on your guard. It is rumored that many different races of Elves actually ",
-                "inhabit this forest, in various parts and sometimes they are carefully hidden, ",
-                "away from the prying eyes of strangers.",
-                "There is a sign tacked to a tree nearby.",
-                "     There is a small (Glowing) (Huming) tablet."
-            ],
-            "flags_raw": "0 4 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8800",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8855"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8801"
-                }
-            },
             "extras": {
+                "sign": {
+                    "description": [
+                        "This area serves as a connector for many areas with an Elven or Faerie flavour,",
+                        "favored areas of the Immortal Yaegar. Tread carefully, and remember to keep ",
+                        "track of where you have been.",
+                        "",
+                        "--Yaegar",
+                        ""
+                    ]
+                },
                 "small tablet": {
                     "description": [
                         "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
@@ -1557,534 +477,1615 @@
                         "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++",
                         ""
                     ]
-                },
-                "sign": {
+                }
+            },
+            "flags_raw": "0 4 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered the quasi-magical Elven forest of Mirkwood, populated by",
+                "Sylvan Elves and their mysterious allies. Strangers are frowned upon here,",
+                "so be on your guard. It is rumored that many different races of Elves actually ",
+                "inhabit this forest, in various parts and sometimes they are carefully hidden, ",
+                "away from the prying eyes of strangers.",
+                "There is a sign tacked to a tree nearby.",
+                "     There is a small (Glowing) (Huming) tablet."
+            ],
+            "name": "Entrance to Mirkwood",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "8801",
                     "description": [
-                        "This area serves as a connector for many areas with an Elven or Faerie flavour,",
-                        "favored areas of the Immortal Yaegar. Tread carefully, and remember to keep ",
-                        "track of where you have been.",
-                        "",
-                        "--Yaegar",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8855",
+                    "description": [
                         ""
                     ]
                 }
-            }
-        },
-        "8868": {
-            "name": "A Northern Path",
-            "description": [
-                "This path runs more or less directly north toward a rather old-looking",
-                "section of the woods."
-            ],
-            "flags_raw": "0 0 0 3",
+            },
             "wanted_area_vnum": "",
+            "vnum": "8800"
+        },
+        "8864": {
+            "extras": {},
+            "flags_raw": "0 8 0 20",
             "flags2_raw": "0",
-            "vnum": "8868",
+            "description": [
+                "You are in the castle of the Wood Elven King Thranduil. The corridor here",
+                "is usually deserted. It would be advisable to keep a low profile, as the",
+                "natives are hostile..."
+            ],
+            "name": "Inside the Cave",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "8858",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8865",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8864"
+        },
+        "8861": {
+            "extras": {},
+            "flags_raw": "0 8 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "In this room the Elves store their foodstuffs and beloved Dorwinion Wine.",
+                "A trapdoor in the floor allows access to the river, and it is through here",
+                "that the Elves deposit their empty barrels, so that the river may carry",
+                "them down to Lake Town."
+            ],
+            "name": "Storage Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8860",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "8862",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8861"
+        },
+        "8823": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is fairly even and well-used, so going is not as rough as the",
+                "previous paths. There is a wide stream dead ahead."
+            ],
+            "name": "A Northern Path",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8824",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8869"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8822",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8845"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8803": {
-            "name": "A Fork in the Path",
-            "description": [
-                "You have reached a point where the path branches, with paths running to the",
-                "east and west. A wild animal suddenly howls angrily some distance away, and",
-                "you involuntarily jump."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
+            "vnum": "8823"
+        },
+        "8839": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "8803",
+            "description": [
+                "There is a palpable evil in this area that causes you to shiver as you pass",
+                "by the blighted vegetation that lines this twisted gray path. The sky can",
+                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
+                "branches obscures your view.",
+                "At this point the twisting turning path runs sharply downward toward a large",
+                "gash in the side of a grey cliff face."
+            ],
+            "name": "An Evil Section of the Forest",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8802"
-                },
-                "west": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8820"
-                },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "8838",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8804"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8840",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8839"
         },
         "8847": {
-            "name": "A T-Junction",
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
             "description": [
                 "You have come out of Mirkwood onto a rather dusty trail. At this point you",
                 "may proceed east toward some well-cultivated fields, or south and west back",
                 "into the forest."
             ],
-            "flags_raw": "0 0 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8847",
+            "name": "A T-Junction",
             "exits": {
-                "south": {
+                "east": {
                     "flags_raw": "-1",
+                    "room_id": "8848",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8849"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8845",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8845"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "-1",
+                    "room_id": "8849",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8848"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8847"
+        },
+        "8801": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You are advancing along a narrow path that runs deep into the forest of",
+                "Mirkwood. Giant, ancient trees tower over you to either side, and sweet",
+                "songbirds sing in their lofty branches. However, despite this serene scene,",
+                "you can't shake the feeling that you're being watched."
+            ],
+            "name": "The Path Through Mirkwood",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8802",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "8800",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8801"
         },
         "8834": {
-            "name": "A Broad Junction",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "You have come to another junction in the forest. The path to the east runs",
                 "through some handsome aspen and pine, but the northern passage is lined by",
                 "sickly-looking, dying trees of unidentifiable type."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8834",
+            "name": "A Broad Junction",
             "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8833"
-                },
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8835",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8835"
+                    ]
                 },
                 "east": {
                     "flags_raw": "-1",
+                    "room_id": "8841",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8841"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8833",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8834"
+        },
+        "8813": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is certainly less overgrown than the north-south one. You actually",
+                "find yourself able to move relatively quickly through the forest, stopping",
+                "only occasionally to hack away an overhanging branch or vine."
+            ],
+            "name": "The Eastern Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8814",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8811",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8813"
+        },
+        "8832": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is fairly even and well-used, so going is not as rough as the",
+                "previous paths."
+            ],
+            "name": "A Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8833",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8830",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8832"
+        },
+        "8803": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have reached a point where the path branches, with paths running to the",
+                "east and west. A wild animal suddenly howls angrily some distance away, and",
+                "you involuntarily jump."
+            ],
+            "name": "A Fork in the Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8804",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8820",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8802",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8803"
         },
         "8858": {
-            "name": "Inside the Cave",
+            "extras": {},
+            "flags_raw": "0 8 0 20",
+            "flags2_raw": "0",
             "description": [
                 "You are in the castle of the Wood Elven King Thranduil. The corridor here",
                 "is usually deserted. It would be advisable to keep a low profile, as the",
                 "natives are hostile...",
                 "The enchantments here prohibit spellcasting of any form."
             ],
-            "flags_raw": "0 8 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8858",
+            "name": "Inside the Cave",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8859",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8859"
+                    ]
                 },
                 "west": {
                     "flags_raw": "8813",
+                    "room_id": "8857",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8857"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8864",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8864"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8826": {
-            "name": "A Junction",
-            "description": [
-                "You have reached a point where you can proceed either north or west. Your",
-                "choice. You still have the feeling you're being watched..."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
+            "vnum": "8858"
+        },
+        "8866": {
+            "extras": {},
+            "flags_raw": "0 4 0 7",
             "flags2_raw": "0",
-            "vnum": "8826",
+            "description": [
+                "You are floating along a river that will carry you back through the forest,",
+                "and eventually to Lake Town."
+            ],
+            "name": "The River",
             "exits": {
                 "north": {
-                    "flags_raw": "-1",
+                    "flags_raw": "0",
+                    "room_id": "8862",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8830"
+                    ]
                 },
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8824",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8827"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8866"
+        },
+        "8806": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The northern road bends to the east at this point, allowing you to gaze",
+                "upon a wondrous Elven Fortress. Although you are more than a mile away,",
+                "it still looms large ahead of you."
+            ],
+            "name": "A Bend in the Road",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8807",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8805",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8825"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8806"
+        },
+        "8867": {
+            "extras": {},
+            "flags_raw": "0 9 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "This damp cell is small and cramped, and offers little comfort to its",
+                "single inhabitant."
+            ],
+            "name": "A Cell",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8860",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8867"
+        },
+        "8831": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You are walking along a narrow path that runs from the major northern path",
+                "through Mirkwood. Up ahead the path ends in a dead end."
+            ],
+            "name": "A Narrow Path",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8830",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8831"
         },
         "8808": {
-            "name": "The Southern Trail",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "Progress along this narrow, overgrown path is next to impossible, and you",
                 "find yourself having to stop several times for a rest. There doesn't seem to",
                 "be any quick end to it either."
             ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8808",
+            "name": "The Southern Trail",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8805",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8805"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8809",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8809"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8808"
         },
-        "8866": {
-            "name": "The River",
+        "8845": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Here, the path bends sharply to the east, heading toward an area of the",
+                "forest that is very different from the previous section. A second path",
+                "runs to the north."
+            ],
+            "name": "A Bend in the Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8868",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8847",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8843",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8845"
+        },
+        "8807": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "The road opens onto an area cleared of trees here, a broad plain dotted with",
+                "the occasional hedge or distant farmhouse. There is a marked path running",
+                "due east toward the west gate of the distant fortress."
+            ],
+            "name": "Plains",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8806",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8807"
+        },
+        "8856": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path runs for some distance toward a huge cave, entrance to which is",
+                "restricted by a massive, handsome door that glows with magic. Magnificent",
+                "oaks tower high to either side, and everywhere there is light and beauty.",
+                "However, intruders are frowned upon here, so be on your guard."
+            ],
+            "name": "A Broad Tree-Lined Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8857",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8825",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8856"
+        },
+        "8833": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is fairly even and well-used, so going is not as rough as the",
+                "previous paths. There is a broad junction to the north."
+            ],
+            "name": "A Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8834",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "51819",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8832",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8833"
+        },
+        "8846": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have stumbled into a Sylvan Elf guard post, from which they carefully",
+                "watch out for intruding Orcs or Goblins. They dislike strangers in general,",
+                "and detest interlopers into their personal areas even more. Expect a violent",
+                "reception if there is a guard present..."
+            ],
+            "name": "A Guard Post",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "8844",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8846"
+        },
+        "8818": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The path ends here in a small clearing with a small shallow pool of crystal",
+                "clear water. You feel strangely at ease here."
+            ],
+            "name": "The End of the Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "21020",
+                    "room_id": "21020",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8817",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8818"
+        },
+        "8848": {
+            "extras": {},
+            "flags_raw": "0 0 0 2",
+            "flags2_raw": "0",
+            "description": [
+                "This field borders on a neatly-tended area with several small farmhouses and",
+                "a small watch-tower near a wide stream."
+            ],
+            "name": "Cultivated Field",
+            "exits": {
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8847",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8848"
+        },
+        "8809": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "Progress along this narrow, overgrown path is next to impossible, and you",
+                "find yourself having to stop several times for a rest. There doesn't seem to",
+                "be any quick end to it either.",
+                "You spy a rope ladder ascending to a platform in a nearby tree."
+            ],
+            "name": "The Southern Trail",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8808",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "8810",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8811",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8809"
+        },
+        "8829": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "You can proceed east toward the valley from here, or return to the summit",
+                "above."
+            ],
+            "name": "The Base of the Hill",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "7800",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "8828",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8829"
+        },
+        "8830": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is fairly even and well-used, so going is not as rough as the",
+                "previous paths. There is a narrow path to the east."
+            ],
+            "name": "A Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8832",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8831",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8826",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8830"
+        },
+        "8812": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "WHAT? After all that exertion, the path ends at a DEAD END??? Ah well, I",
+                "guess you had better turn back..."
+            ],
+            "name": "A Dead End",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8811",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8812"
+        },
+        "8837": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "There is a palpable evil in this area that causes you to shiver as you pass",
+                "by the blighted vegetation that lines this twisted gray path. The sky can",
+                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
+                "branches obscures your view.",
+                "The dying screams of some animal can be heard."
+            ],
+            "name": "An Evil Section of the Forest",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8836",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8838",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8837"
+        },
+        "8841": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You reach a bend in the path, where you can head north or west."
+            ],
+            "name": "A Bend in the Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8842",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8834",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8841"
+        },
+        "8840": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing before the gash in the cliff-face now, wondering whether",
+                "you should continue into the inky darkness beyond..."
+            ],
+            "name": "The Cliff Face",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8839",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8840"
+        },
+        "8863": {
+            "extras": {},
+            "flags_raw": "0 4 0 7",
+            "flags2_raw": "0",
             "description": [
                 "You are floating along a river that will carry you back through the forest,",
                 "and eventually to Lake Town."
             ],
-            "flags_raw": "0 4 0 7",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8866",
+            "name": "The River",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "8862",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8862"
+                    ]
                 },
-                "west": {
-                    "flags_raw": "-1",
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8866",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8824"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8853": {
-            "name": "The Path Continues",
-            "description": [
-                "You continue for what seems like an eternity, drawing slowly closer to the",
-                "distant peak."
-            ],
-            "flags_raw": "0 0 0 4",
             "wanted_area_vnum": "",
+            "vnum": "8863"
+        },
+        "8819": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "8853",
+            "description": [
+                "The singing is clearly audible here, and it is coming from a well-tended",
+                "grove just below you. Dimly visible are all manner of man and beast, and",
+                "although they would usually feed upon each other, they all seem to be at",
+                "peace."
+            ],
+            "name": "Approaching the Holy Grove",
             "exits": {
-                "north": {
+                "down": {
                     "flags_raw": "-1",
+                    "room_id": "8904",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8854"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8817",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8852"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8844": {
-            "name": "A Dead End",
-            "description": [
-                "The passage ends in a dead end, but you see a small rope ladder hanging down",
-                "from a nearby oak tree, disappearing in its bushy branches above."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8844",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8843"
-                },
-                "up": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8846"
-                }
-            },
-            "extras": {}
-        },
-        "8817": {
-            "name": "The Northern Path",
-            "description": [
-                "The path here is fairly clear and free of vegetation. It actually looks",
-                "fairly well-maintained. You think you can hear a distant singing to the",
-                "north.",
-                "Another path runs to the east of here."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8817",
-            "exits": {
-                "south": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8816"
-                },
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8819"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8818"
-                }
-            },
-            "extras": {}
-        },
-        "8860": {
-            "name": "A Guard Room",
-            "description": [
-                "You have stumbled into the guard room! The guards will definitely not",
-                "be happy to see you. You fancy you can hear muffled cries for help."
-            ],
-            "flags_raw": "0 8 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8860",
-            "exits": {
-                "north": {
-                    "flags_raw": "8812",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8867"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8859"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8861"
-                }
-            },
-            "extras": {}
+            "vnum": "8819"
         },
         "8804": {
-            "name": "A Broad Path",
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
             "description": [
                 "This branch of the path widens out after a short distance, and you notice",
                 "signs of heavy use, evidently by non-Elves, as Elves do not leave footprints.",
                 "The trees are thinner and smaller in this part of the forest, giving the",
                 "impression that it has been recently cleared."
             ],
-            "flags_raw": "0 0 0 3",
+            "name": "A Broad Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8805",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8803",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "8804"
+        },
+        "8836": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "8804",
+            "description": [
+                "There is a palpable evil in this area that causes you to shiver as you pass",
+                "by the blighted vegetation that lines this twisted gray path. The sky can",
+                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
+                "branches obscures your view."
+            ],
+            "name": "An Evil Section of the Forest",
             "exits": {
                 "west": {
                     "flags_raw": "-1",
+                    "room_id": "8837",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8803"
-                },
-                "east": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8805"
-                }
-            },
-            "extras": {}
-        },
-        "8832": {
-            "name": "A Northern Path",
-            "description": [
-                "This path is fairly even and well-used, so going is not as rough as the",
-                "previous paths."
-            ],
-            "flags_raw": "0 0 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8832",
-            "exits": {
-                "north": {
-                    "flags_raw": "-1",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "8833"
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8835",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8830"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8836"
+        },
+        "8835": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "There is a palpable evil in this area that causes you to shiver as you pass",
+                "by the blighted vegetation that lines this twisted gray path. The sky can",
+                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
+                "branches obscures your view."
+            ],
+            "name": "An Evil Section of the Forest",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8836",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8834",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8835"
+        },
+        "8824": {
+            "extras": {},
+            "flags_raw": "0 0 0 6",
+            "flags2_raw": "0",
+            "description": [
+                "This stream is too wide and deep to wade across. You'll need a boat or a",
+                "spell. Mind you, you could always whip out your rod and start angling :)"
+            ],
+            "name": "A Stream",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8825",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8866",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8823",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8824"
+        },
+        "8802": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You are advancing along a narrow path that runs deep into the forest of",
+                "Mirkwood. Giant, ancient trees tower over you to either side, and sweet",
+                "songbirds sing in their lofty branches. However, despite this serene scene,",
+                "you can't shake the feeling that you're being watched."
+            ],
+            "name": "The Path Through Mirkwood",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8803",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8801",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8802"
+        },
+        "8862": {
+            "extras": {},
+            "flags_raw": "0 4 0 7",
+            "flags2_raw": "0",
+            "description": [
+                "You are floating along a river that will carry you back through the forest,",
+                "and eventually to Lake Town."
+            ],
+            "name": "The River",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "8861",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "8863",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8862"
+        },
+        "8827": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "The path you are on here runs down a gently sloping hill, to the base of a",
+                "beautiful valley below."
+            ],
+            "name": "The Western Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8826",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "8828",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8827"
+        },
+        "8821": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have stumbled into a Sylvan Elf guard post, from which they carefully",
+                "watch out for intruding Orcs or Goblins. They dislike strangers in general,",
+                "and detest interlopers into their personal areas even more. Expect a violent",
+                "reception if there is a guard present..."
+            ],
+            "name": "A Guard Post",
+            "exits": {
+                "down": {
+                    "flags_raw": "-1",
+                    "room_id": "8820",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8821"
+        },
+        "8817": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The path here is fairly clear and free of vegetation. It actually looks",
+                "fairly well-maintained. You think you can hear a distant singing to the",
+                "north.",
+                "Another path runs to the east of here."
+            ],
+            "name": "The Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8819",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8818",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8816",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8817"
+        },
+        "8859": {
+            "extras": {},
+            "flags_raw": "0 8 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "You are in the castle of the Wood Elven King Thranduil. The corridor here",
+                "is usually deserted. It would be advisable to keep a low profile, as the",
+                "natives are hostile..."
+            ],
+            "name": "Inside the Cave",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8860",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8858",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8859"
+        },
+        "8843": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The path once again divides, this time into northern and southern branches.",
+                "To the north lies another bend in the trail, while to the south the trail",
+                "becomes significantly narrower, and overgrown."
+            ],
+            "name": "A Junction",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8845",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8842",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8844",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8843"
+        },
+        "8820": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path is rather overgrown but it is still easily navigable. You fancy",
+                "you can see a rope ladder ascending into the brances of a tall oak near the",
+                "eastern side of the road."
+            ],
+            "name": "The Western Path",
+            "exits": {
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8803",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "-1",
+                    "room_id": "8821",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8822",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8820"
         },
         "8854": {
-            "name": "The Path Continues",
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
             "description": [
                 "You continue for what seems like an eternity, drawing slowly closer to the",
                 "distant peak."
             ],
-            "flags_raw": "0 0 0 4",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "8854",
+            "name": "The Path Continues",
             "exits": {
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8853",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8853"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "8823": {
-            "name": "A Northern Path",
-            "description": [
-                "This path is fairly even and well-used, so going is not as rough as the",
-                "previous paths. There is a wide stream dead ahead."
-            ],
-            "flags_raw": "0 0 0 3",
             "wanted_area_vnum": "",
+            "vnum": "8854"
+        },
+        "8851": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
             "flags2_raw": "0",
-            "vnum": "8823",
+            "description": [
+                "You have entered a rather forlorn section of the forest, littered with dead",
+                "and dying trees, plus the occasional corpse. Howls and cries of pain sound",
+                "far off to the south.",
+                "To the south is a particularly dark patch of forest."
+            ],
+            "name": "A Desolate Section of the Forest",
             "exits": {
                 "north": {
                     "flags_raw": "-1",
+                    "room_id": "8850",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8824"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8851"
+        },
+        "8860": {
+            "extras": {},
+            "flags_raw": "0 8 0 20",
+            "flags2_raw": "0",
+            "description": [
+                "You have stumbled into the guard room! The guards will definitely not",
+                "be happy to see you. You fancy you can hear muffled cries for help."
+            ],
+            "name": "A Guard Room",
+            "exits": {
+                "north": {
+                    "flags_raw": "8812",
+                    "room_id": "8867",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "8861",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "8859",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8860"
+        },
+        "8849": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered a rather forlorn section of the forest, littered with dead",
+                "and dying trees, plus the occasional corpse. Howls and cries of pain sound",
+                "far off to the south."
+            ],
+            "name": "A Desolate Section of the Forest",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8847",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8850",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8849"
+        },
+        "8822": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "The path bends to the north here, running for some distance toward a stream."
+            ],
+            "name": "A Bend to the North",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8823",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8820",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8822"
+        },
+        "8853": {
+            "extras": {},
+            "flags_raw": "0 0 0 4",
+            "flags2_raw": "0",
+            "description": [
+                "You continue for what seems like an eternity, drawing slowly closer to the",
+                "distant peak."
+            ],
+            "name": "The Path Continues",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8854",
+                    "description": [
+                        ""
+                    ]
                 },
                 "south": {
                     "flags_raw": "-1",
+                    "room_id": "8852",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8822"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "8853"
+        },
+        "8815": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "You have reached a point where the path bends to the north."
+            ],
+            "name": "A Bend in the Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8816",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8814",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8815"
+        },
+        "8838": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "There is a palpable evil in this area that causes you to shiver as you pass",
+                "by the blighted vegetation that lines this twisted gray path. The sky can",
+                "no longer be seen overhead- instead a canopy of decaying leaves and rotten",
+                "branches obscures your view.",
+                "Maggots crawl from a decaying Elven corpse hanging from an overhead branch.",
+                "The stench is unbearable.",
+                "To the north you see a shadowy area of the forest."
+            ],
+            "name": "An Evil Section of the Forest",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "1300",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "-1",
+                    "room_id": "8837",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "-1",
+                    "room_id": "8839",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8838"
+        },
+        "8868": {
+            "extras": {},
+            "flags_raw": "0 0 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "This path runs more or less directly north toward a rather old-looking",
+                "section of the woods."
+            ],
+            "name": "A Northern Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "-1",
+                    "room_id": "8869",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "-1",
+                    "room_id": "8845",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "8868"
         }
     },
-    "uid": "mirkwood",
-    "area_quest_points": 0,
     "credits": "[10 GR 30] Mirkwood Forest",
     "faction_id": "",
+    "name": "Mirkwood",
     "vnums": [
         8800,
         8899
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "security": 10,
+    "realm_id": 4,
+    "subroutines": [],
     "mobiles": {
         "8800": {
-            "name": "a sylvan elf scout~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 5 10",
             "description": [
                 "The Sylvan Elves are a good people, but centuries of subjection to the\n",
                 "violences and prejudices of other races have made them wary and very\n",
@@ -2093,21 +2094,21 @@
                 "if they don't want to be seen.\n"
             ],
             "raw_flags5": "stand sit male 103",
-            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
-            "raw_flags4": "DF ABIN ABGN GHZ",
-            "raw_flags3": "5 5 5 10",
             "vnum": 8800,
             "raw_flags": "ABCFG FJQVc 0 400 0",
-            "race_id": "elf",
-            "raw_flags2": "10 0 2d6+60 1d1+99 1d6+1 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "DF ABIN ABGN GHZ",
             "room_name": "A Sylvan Elf scout is offended at your intrusion!\n",
-            "keywords": "sylvan elf scout~\n"
+            "name": "a sylvan elf scout~\n",
+            "raw_flags2": "10 0 2d6+60 1d1+99 1d6+1 punch",
+            "keywords": "sylvan elf scout~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8801": {
-            "name": "a sylvan elf warrior~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 7 10",
             "description": [
                 "The Sylvan Elves are a good people, but centuries of subjection to the\n",
                 "violences and prejudices of other races have made them wary and very\n",
@@ -2115,21 +2116,21 @@
                 "back down.\n"
             ],
             "raw_flags5": "rest stand male 150",
-            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
-            "raw_flags4": "CEF AB BG DZ",
-            "raw_flags3": "5 5 7 10",
             "vnum": 8801,
             "raw_flags": "ABCFG FJVc 0 400 0",
-            "race_id": "elf",
-            "raw_flags2": "14 2 2d6+84 1d1+99 1d8+1 slice",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CEF AB BG DZ",
             "room_name": "A Sylvan Elf warrior lunges at you with his sword!\n",
-            "keywords": "sylvan elf warrior~\n"
+            "name": "a sylvan elf warrior~\n",
+            "raw_flags2": "14 2 2d6+84 1d1+99 1d8+1 slice",
+            "keywords": "sylvan elf warrior~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8802": {
-            "name": "an orc scout~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "10 5 10 10",
             "description": [
                 "These foul creatures have been sent in advance by Orcish forces to scout\n",
                 "out the defenses of Mirkwood. So far, their attempts have resulted only\n",
@@ -2137,21 +2138,21 @@
                 "sheer weight of numbers of the immense Orcish hordes.\n"
             ],
             "raw_flags5": "stand stand male 211",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDF AB Q CDS",
-            "raw_flags3": "10 5 10 10",
             "vnum": 8802,
             "raw_flags": "ABCFGH J 0 -400 0",
-            "race_id": "orc",
-            "raw_flags2": "10 0 2d6+60 1d1+99 1d6+1 slap",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDF AB Q CDS",
             "room_name": "An Orcish scout screams and attacks!\n",
-            "keywords": "orc scout~\n"
+            "name": "an orc scout~\n",
+            "raw_flags2": "10 0 2d6+60 1d1+99 1d6+1 slap",
+            "keywords": "orc scout~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "orc",
+            "t_flags": "T ~"
         },
         "8803": {
-            "name": "an orc warrior~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 7 5",
             "description": [
                 "These fell minions of Sauron have been sent in an attempt to subjugate\n",
                 "Mirkwood. So far, their attempts have resulted only in their own demise,\n",
@@ -2159,41 +2160,41 @@
                 "of the immense Orcish hordes.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "EIN AB Q CS",
-            "raw_flags3": "5 5 7 5",
             "vnum": 8803,
             "raw_flags": "ACFG J 0 -400 0",
-            "race_id": "orc",
-            "raw_flags2": "10 1 2d6+60 1d1+99 1d6+1 grep",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EIN AB Q CS",
             "room_name": "An Orcish warrior screams and attacks!\n",
-            "keywords": "orc warrior~\n"
+            "name": "an orc warrior~\n",
+            "raw_flags2": "10 1 2d6+60 1d1+99 1d6+1 grep",
+            "keywords": "orc warrior~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "orc",
+            "t_flags": "T ~"
         },
         "8804": {
-            "name": "a wood elf guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "3 3 3 5",
             "description": [
                 "This angry guard is incensed at your trespass in the hall of his king, and\n",
                 "will attempt to forcibly eject you.\n"
             ],
             "raw_flags5": "stand stand male 50",
-            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
-            "raw_flags4": "CKNRT ABHLN BG Z",
-            "raw_flags3": "3 3 3 5",
             "vnum": 8804,
             "raw_flags": "AFGQT FJVc 0 400 8807",
-            "race_id": "elf",
-            "raw_flags2": "16 0 2d7+98 1d1+99 1d7+2 smash",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CKNRT ABHLN BG Z",
             "room_name": "A Wood Elf guard angrily accosts you.\n",
-            "keywords": "guard~\n"
+            "name": "a wood elf guard~\n",
+            "raw_flags2": "16 0 2d7+98 1d1+99 1d7+2 smash",
+            "keywords": "guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8805": {
-            "name": "the chief of the guard~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "1 1 0 7",
             "description": [
                 "The Wood Elves are a good people, but centuries of subjection to the\n",
                 "violences and prejudices of other races have made them wary and very\n",
@@ -2201,139 +2202,138 @@
                 "back down.\n"
             ],
             "raw_flags5": "stand stand male 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEFRTU HLN BCG Z",
-            "raw_flags3": "1 1 0 7",
             "vnum": 8805,
             "raw_flags": "ABCFGQ FJVc 0 400 0",
-            "race_id": "elf",
-            "raw_flags2": "24 1 2d10+150 1d1+99 1d10+3 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEFRTU HLN BCG Z",
             "room_name": "A Wood Elf chief of the guard lunges at you with his sword!\n",
-            "keywords": "chief guard~\n"
+            "name": "the chief of the guard~\n",
+            "raw_flags2": "24 1 2d10+150 1d1+99 1d10+3 claw",
+            "keywords": "chief guard~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8806": {
-            "name": "Galion the butler~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 8",
             "description": [
                 "Galion has a tremenous fondness for Dorwinion Wine, and he is now well and\n",
                 "truly inebriated. However that does not mean he won't react to your intrusion.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "KN AB BG Z",
-            "raw_flags3": "2 2 2 8",
             "vnum": 8806,
             "raw_flags": "ABCFG FJVc 0 400 0",
-            "race_id": "elf",
-            "raw_flags2": "20 0 2d7+120 1d1+99 2d4+2 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "KN AB BG Z",
             "room_name": "A Wood Elf butler glares at you accusingly.\n",
-            "keywords": "galion butler~\n"
+            "name": "Galion the butler~\n",
+            "raw_flags2": "20 0 2d7+120 1d1+99 2d4+2 punch",
+            "keywords": "galion butler~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8807": {
-            "name": "Thranduil, king of the Wood Elves~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1 -1 -1 2",
             "description": [
                 "While not immune to the prejudices of his brethren, Thranduil is a trifle\n",
                 "wiser (and more civilized) and he will not attack without provocation.\n"
             ],
             "raw_flags5": "sit sit male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "CDEK 0 BDG Z",
-            "raw_flags3": "-1 -1 -1 2",
             "vnum": 8807,
             "raw_flags": "ABGR FJVc H 500 0",
-            "race_id": "elf",
-            "raw_flags2": "30 1 3d9+180 1d1+149 2d5+1 claw",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CDEK 0 BDG Z",
             "room_name": "Thranduil, King of the Wood Elves, eyes you suspiciously.\n",
-            "keywords": "thranduil king~\n"
+            "name": "Thranduil, king of the Wood Elves~\n",
+            "raw_flags2": "30 1 3d9+180 1d1+149 2d5+1 claw",
+            "keywords": "thranduil king~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8808": {
-            "name": "a male wood elf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "4 4 4 5",
             "description": [
                 "This person won't attack you like the guards will, but that doesn't mean\n",
                 "he likes you any more than they do...\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
-            "raw_flags4": "FR 0 BG Z",
-            "raw_flags3": "4 4 4 5",
             "vnum": 8808,
             "raw_flags": "ACGQ FJVc 0 400 0",
-            "race_id": "elf",
-            "raw_flags2": "12 0 2d7+70 1d1+99 1d7+1 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FR 0 BG Z",
             "room_name": "A male Wood Elf glares angrily at you.\n",
-            "keywords": "wood elf male~\n"
+            "name": "a male wood elf~\n",
+            "raw_flags2": "12 0 2d7+70 1d1+99 1d7+1 punch",
+            "keywords": "wood elf male~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8809": {
-            "name": "a female wood elf~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "5 5 5 5",
             "description": [
                 "This person won't attack you like the guards will, but that doesn't mean\n",
                 "ahe likes you any more than they do...\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
-            "raw_flags4": "FR 0 BG Z",
-            "raw_flags3": "5 5 5 5",
             "vnum": 8809,
             "raw_flags": "ACGQ FJVc 0 400 0",
-            "race_id": "elf",
-            "raw_flags2": "12 0 2d7+65 1d1+99 1d7+1 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FR 0 BG Z",
             "room_name": "A female Wood Elf glares angrily at you.\n",
-            "keywords": "wood elf female~\n"
+            "name": "a female wood elf~\n",
+            "raw_flags2": "12 0 2d7+65 1d1+99 1d7+1 punch",
+            "keywords": "wood elf female~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8810": {
-            "name": "the turnkey~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "2 2 2 4",
             "description": [
                 "This surly fellow is almost always passed out from copious alcohol consumption.\n"
             ],
             "raw_flags5": "sleep sleep male 20",
-            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
-            "raw_flags4": "FJ 0 BG Z",
-            "raw_flags3": "2 2 2 4",
             "vnum": 8810,
             "raw_flags": "ABCG FJVc 0 0 0",
-            "race_id": "elf",
-            "raw_flags2": "18 -1 2d6+112 1d1+99 1d8+2 slap",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "FJ 0 BG Z",
             "room_name": "The turnkey sleeps here.\n",
-            "keywords": "turnkey elf~\n"
+            "name": "the turnkey~\n",
+            "raw_flags2": "18 -1 2d6+112 1d1+99 1d8+2 slap",
+            "keywords": "turnkey elf~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "8811": {
-            "name": "Thorin Oakenshield~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-1 -1 -1 0",
             "description": [
                 "This Dwarf is descended from noble blood. He and his fellows were waylaid\n",
                 "by the Wood Elves while journeying to avenge their brethren against the\n",
                 "dragon Smaug.\n"
             ],
             "raw_flags5": "stand stand male 40",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
-            "raw_flags4": "IKNR 0 ABGIN Z",
-            "raw_flags3": "-1 -1 -1 0",
             "vnum": 8811,
             "raw_flags": "ACGQ FJVc O 500 0",
-            "race_id": "elf",
-            "raw_flags2": "28 0 2d10+190 1d1+99 1d12+3 punch",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "IKNR 0 ABGIN Z",
             "room_name": "Thorin Oakenshield politely bows before you.\n",
-            "keywords": "thorin oakenshield~\n"
+            "name": "Thorin Oakenshield~\n",
+            "raw_flags2": "28 0 2d10+190 1d1+99 1d12+3 punch",
+            "keywords": "thorin oakenshield~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium 0",
+            "race_id": "elf",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 4
+    "area_quest_points": 0
 }

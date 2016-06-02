@@ -1,147 +1,785 @@
 {
-    "name": "Red Wizards of Thay Tower",
+    "security": 4,
+    "recall_room_id": 3001,
     "id": "redwiz",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "redwiz",
     "rooms": {
-        "42454": {
-            "name": "Second Floor Balcony - Thay Tower",
+        "42426": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
             "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42454",
+            "name": "Third Floor Hallway - Thay Tower",
             "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42419"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42455"
-                }
-            },
-            "extras": {}
-        },
-        "42401": {
-            "name": "{8Tower Base - Thay Tower{x",
-            "description": [
-                "{x",
-                "{rBefore  you loo{8ms a  dark ston{re  tower.  Spir{8al stairs lead {r from a",
-                "balcony {8on the second f{rloor, disappear{8ing around to t{rhe back of the",
-                "t{8ower.  A large {rstable stands o{8ff to  the west{r and to the eas{8t what",
-                "looks lik{re a rather larg{8e and  inviting{r garden lays op{8en  for those",
-                "wh{ro  wish to  ventu{8re  there. Char{rred  symbols ar{8e etched into  t{rhe",
-                "ground benea{8th, marking onc{re again that mag{8ic will be usel{ress here."
-            ],
-            "flags_raw": "0 134225921 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42401",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42400"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "42427",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42405"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42430",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "42425",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42402"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "42429",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "42404"
-                }
-            },
-            "extras": {
-                "tower": {
-                    "description": [
-                        "{rLarge flat poli{8shed stones for{rm an archway in{8to the tower  w{rith the",
-                        "symbol o{8f the  {RRed Wizards of Thay  {rmo{8unted at the to{rp.",
-                        " ",
-                        "Soli{8d polished woode{rn doors lie ope{8n  allowing fre{re access into t{8he",
-                        "tower day or {rnight.",
                         ""
                     ]
                 }
-            }
-        },
-        "42446": {
-            "name": "Wide Open Cavern - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42446",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42445"
-                }
             },
-            "extras": {}
-        },
-        "42471": {
-            "name": "Guest Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
+            "vnum": "42426"
+        },
+        "42434": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "42471",
+            "description": [],
+            "name": "Dark Hallway - Under Thay Tower",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "42435",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42461"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42436",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42433",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42463": {
-            "name": "Master's Chamber - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
+            "vnum": "42434"
+        },
+        "42413": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "42463",
+            "description": [],
+            "name": "Slave's Common Room - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42414",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42415",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42412",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42413"
+        },
+        "42445": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Dark Stairway - Under Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42446",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42444",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42445"
+        },
+        "42419": {
+            "extras": {},
+            "flags_raw": "0 134225920 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Private Chambers - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42418",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42454",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42419"
+        },
+        "42427": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Scholars Room - Thay Tower",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42428",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42426",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42427"
+        },
+        "42429": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Magic Workroom - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42426",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42429"
+        },
+        "42407": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rSlender iron br{8aziers are posi{rtioned strategi{8cally around th{ris room",
+                "providin{8g  a soft  ligh{rt for a  comfor{8table  atmosphe{rre. Tables  of",
+                "v{8arying  sizes a{rre set up aroun{8d  this room.  {rAll are  polish{8ed and",
+                "oiled to pe{rrfection.  High{8  back wooden c{rhairs rest  at {8each table.",
+                "Com{rfortable padded{8  wing  chairs {rare  clustered {8together in var{rious",
+                "spots with {8end tables resti{rng near. A smal{8l stage on the {rsouth wall",
+                "allow{8s for musicians{r to entertain a{8t will.{x"
+            ],
+            "name": "{8Common Room - Thay Tower{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42411",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42405",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42409",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42407"
+        },
+        "42449": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Row of Cages - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42451",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42453",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42447",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42452",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42449"
+        },
+        "42450": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Confining Cage - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42447",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42450"
+        },
+        "42451": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Spacious Cage - Under Thay Tower",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "42449",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42462"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "42451"
+        },
+        "42443": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Torture Room - Under Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42447",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42440",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42444",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42443"
+        },
+        "42454": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Second Floor Balcony - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42419",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42455",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42454"
+        },
+        "42446": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 20",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Wide Open Cavern - Under Thay Tower",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42445",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42446"
+        },
+        "42425": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Spiral Stairs - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42426",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42456",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42417",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42425"
+        },
+        "42440": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Damp Hallway - Under Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42443",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42439",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42441",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42440"
+        },
+        "42461": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Fourth Floor Hallway - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42460",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42456",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42470",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42471",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42461"
+        },
+        "42462": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Top Floor - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42463",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42456",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42462"
+        },
+        "42466": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Private Chambers - Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42458",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42466"
+        },
+        "42472": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Private Chambers - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42457",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42472"
+        },
+        "42469": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Guest Chambers - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42460",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42469"
+        },
+        "42463": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Master's Chamber - Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42462",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42463"
+        },
+        "42430": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Third Floor Hallway - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42431",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42426",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42430"
+        },
+        "42441": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Damp Kitchen - Under Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42440",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42442",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42441"
+        },
+        "42406": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rSeveral wide st{8one steps lead {rinto this gigan{8tic room. Large{r arching",
+                "windows  {8open over  the {rgarden to  the {8east  allowing {r a view of the",
+                "bea{8utiful pond tha{rt hides within {8it's walls. Tal{rl stone columns{8 have",
+                "been draped {rwith deep red v{8elvet material {rwhich has been {8pulled back",
+                "to th{re corners with {8a braided black{r cord.  Merchan{8t carts and sta{rnds",
+                "line the edge{8s of this room.{r In the middle {8of the room is a{r fountain",
+                "with {8exotic stone fi{rsh spouting wat{8er. Stone  benc{rhes are positio{8ned",
+                "around the fo{runtain. A guard{8 station is off{r to the north a{8nd back to",
+                "the e{rast is the entr{8y room.{x"
+            ],
+            "name": "{8Merchant Trade Room - Thay Tower{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42408",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42405",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42406"
+        },
+        "42464": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Private Chambers - Thay Tower",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42457",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42464"
+        },
+        "42428": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Library - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42427",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42410",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42428"
+        },
+        "42471": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Guest Chambers - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42461",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42471"
+        },
+        "42423": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Conference Room - Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42420",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42423"
+        },
+        "42452": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Large Cage - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42449",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42452"
         },
         "42400": {
-            "name": "{8Trail To The Tower{x",
+            "extras": {},
+            "flags_raw": "0 134750209 0 5",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "{yJagged mountain{8s line the side{ys of this rugge{8d trail seeming{y almost",
@@ -156,982 +794,451 @@
                 "{8Blazing torches{y burn day and n{8ight  through s{yome magical mea{8ns near",
                 "the end {yof the trail.{x"
             ],
-            "flags_raw": "0 134750209 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42400",
+            "name": "{8Trail To The Tower{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "42401",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "42401"
-                }
-            },
-            "extras": {}
-        },
-        "42412": {
-            "name": "Kitchen - Thay Tower",
-            "description": [
-                "{x",
-                "{rNested into the{8 west wall is a{r deep  fire pit{8 with various t{rypes of",
-                "iron st{8ands and racks {rinside for cook{8ing, and even a{r stone platform",
-                "{8towards  the ce{rnter.  Thick  w{8ooden tables ar{re  set off to t{8he side",
-                "with co{roking  supplies{8 and utensils. {r Shelves have  {8been built into",
-                "{rthe stone walls{8  and hold iron{r pots and pans {8of all types.  {rAn iron",
-                "rack  h{8angs from the c{reiling  with  h{8ooks that  hold{r many  types of",
-                "{8herbs as they d{rry.  Ceramic pi{8tchers and  pot{rs hold various {8liquids",
-                "and gra{rins waiting to {8be used.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42412",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42413"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42411"
-                }
-            },
-            "extras": {}
-        },
-        "42420": {
-            "name": "Second Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42420",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42424"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42423"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42418"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42421"
-                }
-            },
-            "extras": {}
-        },
-        "42429": {
-            "name": "Magic Workroom - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42429",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42426"
-                }
-            },
-            "extras": {}
-        },
-        "42464": {
-            "name": "Private Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42464",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42457"
-                }
-            },
-            "extras": {}
-        },
-        "42455": {
-            "name": "Back of Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117057 0 5",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42455",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42454"
-                }
-            },
-            "extras": {}
-        },
-        "42411": {
-            "name": "Dining Room - Thay Tower",
-            "description": [
-                "{x",
-                "{rDelicately  {8woven  tapestri{res depicting  s{8cenes of people{r  feasting",
-                "hang {8 from  the wall{rs.  Buffet  tab{8les line the  e{rast wall  holdi{8ng",
-                "silver servin{rg trays,  pitch{8ers and extra t{rable ware.  Thr{8ee tables",
-                "are se{rt up near  the {8center of  the {rroom,  their le{8ngth  stretchin{rg",
-                "almost from on{8e end of the ro{rom to the other{8. Off to the no{rrth wall",
-                "is a  s{8mall stage for {r entertainment.{8  The kitchen l{ries  off to the",
-                "{8west and a larg{re archway to th{8e  south open t{ro a cozy common{8  room.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42411",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42412"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42407"
-                }
-            },
-            "extras": {}
-        },
-        "42466": {
-            "name": "Private Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42466",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42458"
-                }
-            },
-            "extras": {}
-        },
-        "42406": {
-            "name": "{8Merchant Trade Room - Thay Tower{x",
-            "description": [
-                "{x",
-                "{rSeveral wide st{8one steps lead {rinto this gigan{8tic room. Large{r arching",
-                "windows  {8open over  the {rgarden to  the {8east  allowing {r a view of the",
-                "bea{8utiful pond tha{rt hides within {8it's walls. Tal{rl stone columns{8 have",
-                "been draped {rwith deep red v{8elvet material {rwhich has been {8pulled back",
-                "to th{re corners with {8a braided black{r cord.  Merchan{8t carts and sta{rnds",
-                "line the edge{8s of this room.{r In the middle {8of the room is a{r fountain",
-                "with {8exotic stone fi{rsh spouting wat{8er. Stone  benc{rhes are positio{8ned",
-                "around the fo{runtain. A guard{8 station is off{r to the north a{8nd back to",
-                "the e{rast is the entr{8y room.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42406",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42408"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42405"
-                }
-            },
-            "extras": {}
-        },
-        "42457": {
-            "name": "Fourth Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42457",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42472"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42458"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42456"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42464"
-                }
-            },
-            "extras": {}
-        },
-        "42426": {
-            "name": "Third Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42426",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42429"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42427"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42425"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42430"
-                }
-            },
-            "extras": {}
-        },
-        "42435": {
-            "name": "Dark Storage Room - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42435",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42434"
-                }
-            },
-            "extras": {}
-        },
-        "42430": {
-            "name": "Third Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42430",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42431"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42426"
-                }
-            },
-            "extras": {}
-        },
-        "42439": {
-            "name": "Damp Stairs - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42439",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42437"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42440"
-                }
-            },
-            "extras": {}
-        },
-        "42448": {
-            "name": "Cramped Cage - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42448",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42447"
-                }
-            },
-            "extras": {}
-        },
-        "42438": {
-            "name": "Magic Item Room - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42438",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42437"
-                }
-            },
-            "extras": {}
-        },
-        "42404": {
-            "name": "{8Inviting Gardens - Thay Tower{x",
-            "description": [
-                "{x",
-                "{8Tall fruit trees of  various types have grown and twisted  together",
-                "forming  individual solid trees  bearing  different types of fruit.",
-                "Two  such trees arch over  the entrance  to the garden, their limbs",
-                "intertwining and  wrapping around  each other  to form  a permanent",
-                "bond.  Wild vines climb  the tall stone walls that enclose the huge",
-                "garden.  Stone paths lead  through the maze of  shrubs and  plants.",
-                "Along the edges of the paths, spacious benches have been placed off",
-                "to the side, allowing for resting.{x"
-            ],
-            "flags_raw": "0 67117056 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42404",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42401"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42473"
-                }
-            },
-            "extras": {
-                "plants": {
-                    "description": [
-                        "Different plants,  herbs, and spices some of which  are rarely used",
-                        "can be seen growing freely, yet somehow  there is a structure to it",
-                        "all.",
                         ""
                     ]
                 }
-            }
-        },
-        "42417": {
-            "name": "Spiral Stairs - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42417",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42418"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42425"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42416"
-                }
             },
-            "extras": {}
-        },
-        "42443": {
-            "name": "Torture Room - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
+            "vnum": "42400"
+        },
+        "42467": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "42443",
+            "description": [],
+            "name": "Private Chambers - Thay Tower",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "42459",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42444"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42440"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42447"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42440": {
-            "name": "Damp Hallway - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42440",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42441"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42443"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42439"
-                }
-            },
-            "extras": {}
+            "vnum": "42467"
         },
         "42436": {
-            "name": "Dark Hallway - Under Thay Tower",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "42436",
+            "description": [],
+            "name": "Dark Hallway - Under Thay Tower",
             "exits": {
-                "west": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "42437",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42434"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42434",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42436"
+        },
+        "42408": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rMounted on the {8back wall of  t{rhe guards room {8are two polishe{rd steel",
+                "swords  c{8rossing blades.{r  Behind them i{8s  a sturdy shi{reld  with the",
+                "s{8piraling in  re{rd and silver.  {8A large wooden d{resk rests  belo{8w the",
+                "swords wi{rth a straight  {8solid oak chair{r. A solid  wood{8en door leads",
+                "to{r the south into{8 the merchant t{rrade room. Towa{8rds the back of{r the",
+                "room, a sma{8ll iron barred {rholding cell re{8sts.{x"
+            ],
+            "name": "{8Trade Guard Room - Thay Tower{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42406",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42408"
+        },
+        "42444": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Private Chambers - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42443",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42445",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42444"
+        },
+        "42401": {
+            "extras": {
+                "tower": {
+                    "description": [
+                        "{rLarge flat poli{8shed stones for{rm an archway in{8to the tower  w{rith the",
+                        "symbol o{8f the  {RRed Wizards of Thay  {rmo{8unted at the to{rp.",
+                        " ",
+                        "Soli{8d polished woode{rn doors lie ope{8n  allowing fre{re access into t{8he",
+                        "tower day or {rnight.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 134225921 0 5",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rBefore  you loo{8ms a  dark ston{re  tower.  Spir{8al stairs lead {r from a",
+                "balcony {8on the second f{rloor, disappear{8ing around to t{rhe back of the",
+                "t{8ower.  A large {rstable stands o{8ff to  the west{r and to the eas{8t what",
+                "looks lik{re a rather larg{8e and  inviting{r garden lays op{8en  for those",
+                "wh{ro  wish to  ventu{8re  there. Char{rred  symbols ar{8e etched into  t{rhe",
+                "ground benea{8th, marking onc{re again that mag{8ic will be usel{ress here."
+            ],
+            "name": "{8Tower Base - Thay Tower{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42405",
+                    "description": [
+                        ""
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "42404",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42437"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42402",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42400",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42410": {
-            "name": "Strategy Room - Thay Tower",
-            "description": [
-                "{x",
-                "{8A large  s{rtone table res{8ts in  the cent{rer of this room {8with shelves",
-                "under{rneath holding{8 various long m{raps that are th{8e perfect  size{r for",
-                "the table. {8Each side of th{re table has a  {8lip to hold dow{rn the edges",
-                "of t{8he maps.  Stone{r shelves and  w{8ooden bookcases{r line the walls{8 of",
-                "this  room, {r filled  with  {8scrolls  parchm{rents  and books{8.  Several",
-                "uphol{rstered chairs a{8re scattered ar{round the room.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
+            "vnum": "42401"
+        },
+        "42448": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "42410",
+            "description": [],
+            "name": "Cramped Cage - Under Thay Tower",
             "exits": {
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "42447",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42409"
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42448"
+        },
+        "42459": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Fourth Floor Hallway - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42467",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42458",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42460",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42459"
+        },
+        "42435": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Dark Storage Room - Under Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42434",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42435"
+        },
+        "42458": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Fourth Floor Hallway - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42466",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42465",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42459",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42457",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42458"
+        },
+        "42420": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Second Floor Hallway - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42423",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42421",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42418",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42424",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42420"
+        },
+        "42416": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rThis small entr{8y way allows  a{rccess to the sp{8iral  staircase{r of the",
+                "tower.  {8The  only direc{rtion  they seem{8  to lead  is  {rup  from here.",
+                "{8Tapestries cove{rr the walls dep{8icting scenes o{rf slaves servin{8g their",
+                "shaven a{rnd tattoo heade{8d masters in va{rrious ways. Oil{8 burning lamps",
+                "{rare  attached t{8o  the stone wa{rll  along the s{8ide  of the  st{raircase",
+                "cutting {8the would-be da{rrkness. Scuff m{8arks on the flo{ror lead behind",
+                "{8the spiral stai{rrs.{x"
+            ],
+            "name": "Spiral Stairs - Thay Tower",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42417",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42433",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42405",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42416"
+        },
+        "42417": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Spiral Stairs - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42418",
+                    "description": [
+                        ""
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "42425",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42428"
-                }
-            },
-            "extras": {}
-        },
-        "42441": {
-            "name": "Damp Kitchen - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42441",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42442"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42440"
-                }
-            },
-            "extras": {}
-        },
-        "42449": {
-            "name": "Row of Cages - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42449",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42452"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42451"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42447"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42453"
-                }
-            },
-            "extras": {}
-        },
-        "42462": {
-            "name": "Top Floor - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42462",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42463"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "42416",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "42456"
-                }
-            },
-            "extras": {}
-        },
-        "42403": {
-            "name": "{8Stable Stalls - Thay Tower{x",
-            "description": [
-                "{x",
-                "{8Individual stalls  line this wide hallway.  The hard stone floor is",
-                "covered  with  a thick  layer of  dust and  a thin layer  of straw.",
-                "Outside  of  each  stall, on  thick  iron  nails hang feed  buckets",
-                "waiting to be used.  Iron latches hold  the sturdy but short wooden",
-                "doors  closed to keep the inhabitants  safely  inside.  The  stable",
-                "smell is most prominent here, hanging thick in the air.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42403",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42402"
-                }
-            },
-            "extras": {}
-        },
-        "42434": {
-            "name": "Dark Hallway - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42434",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42435"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42433"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42436"
-                }
-            },
-            "extras": {}
-        },
-        "42413": {
-            "name": "Slave's Common Room - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42413",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42414"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42415"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42412"
-                }
-            },
-            "extras": {}
-        },
-        "42422": {
-            "name": "Combat Chamber - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42422",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42421"
-                }
-            },
-            "extras": {}
-        },
-        "42402": {
-            "name": "{8Tower Stables - Thay Tower{x",
-            "description": [
-                "{x",
-                "{8Stone walls display  an array of ropes, saddles, and  various tools",
-                "used in grooming and caring  for the animals that are housed within",
-                "this  building. Barrels of  feed and  stacks of  straw are  stacked",
-                "neatly  off  to one side.  Carts and  carriages are stored  in this",
-                "large courtyard like area, waiting for their owner to load them up.",
-                "To the west is a wide  hallway that  leads to individual stalls. To",
-                "the east is the base of the tower.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42402",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42403"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42401"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42442"
-                }
-            },
-            "extras": {
-                "floor": {
-                    "description": [
-                        "Barely visible scuff marks on the floor can be seen from around the",
-                        "back  side of  the feed  and straw.  A large iron ring can  be seen",
-                        "potion up from the straw covered ground. A trap door?",
-                        ""
-                    ]
-                },
-                "straw": {
-                    "description": [
-                        "Barely visible scuff marks on the floor can be seen from around the",
-                        "back  side of  the feed  and straw.  A large iron ring can  be seen",
-                        "potion up from the straw covered ground. A trap door?",
-                        ""
-                    ]
-                },
-                "feed": {
-                    "description": [
-                        "Barely visible scuff marks on the floor can be seen from around the",
-                        "back  side of  the feed  and straw.  A large iron ring can  be seen",
-                        "potion up from the straw covered ground. A trap door?",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42417"
         },
-        "42461": {
+        "42460": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
             "name": "Fourth Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42461",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42471"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42460"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42470"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42456"
-                }
-            },
-            "extras": {}
-        },
-        "42469": {
-            "name": "Guest Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42469",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42460"
-                }
-            },
-            "extras": {}
-        },
-        "42421": {
-            "name": "Summoning Chamber - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42421",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "42468",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42422"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42459",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "42469",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42420"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42461",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42423": {
-            "name": "Conference Room - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
+            "vnum": "42460"
+        },
+        "42414": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "42423",
+            "description": [],
+            "name": "Slave Chambers - Thay Tower",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "42413",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42420"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "42414"
         },
         "42405": {
-            "name": "{8Comfortable Foyer - Thay Tower{x",
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "{rComfortable cou{8ches and spacio{rus  benches are{8 spread out thr{roughout",
@@ -1147,711 +1254,88 @@
                 "upward to t{8he next level o{rf the tower. Be{8autifully woven{r tapestries",
                 "cover{8 the walls, dis{rplaying differe{8nt scenes for v{riewing pleasure.{x"
             ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42405",
+            "name": "{8Comfortable Foyer - Thay Tower{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42401"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "42416",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42416"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42407"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "42406",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42406"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42407",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42401",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "42405"
         },
-        "42407": {
-            "name": "{8Common Room - Thay Tower{x",
+        "42404": {
+            "extras": {
+                "plants": {
+                    "description": [
+                        "Different plants,  herbs, and spices some of which  are rarely used",
+                        "can be seen growing freely, yet somehow  there is a structure to it",
+                        "all.",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 67117056 0 19",
+            "flags2_raw": "0",
             "description": [
                 "{x",
-                "{rSlender iron br{8aziers are posi{rtioned strategi{8cally around th{ris room",
-                "providin{8g  a soft  ligh{rt for a  comfor{8table  atmosphe{rre. Tables  of",
-                "v{8arying  sizes a{rre set up aroun{8d  this room.  {rAll are  polish{8ed and",
-                "oiled to pe{rrfection.  High{8  back wooden c{rhairs rest  at {8each table.",
-                "Com{rfortable padded{8  wing  chairs {rare  clustered {8together in var{rious",
-                "spots with {8end tables resti{rng near. A smal{8l stage on the {rsouth wall",
-                "allow{8s for musicians{r to entertain a{8t will.{x"
+                "{8Tall fruit trees of  various types have grown and twisted  together",
+                "forming  individual solid trees  bearing  different types of fruit.",
+                "Two  such trees arch over  the entrance  to the garden, their limbs",
+                "intertwining and  wrapping around  each other  to form  a permanent",
+                "bond.  Wild vines climb  the tall stone walls that enclose the huge",
+                "garden.  Stone paths lead  through the maze of  shrubs and  plants.",
+                "Along the edges of the paths, spacious benches have been placed off",
+                "to the side, allowing for resting.{x"
             ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42407",
+            "name": "{8Inviting Gardens - Thay Tower{x",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "42473",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42411"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "42401",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42409"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42405"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42424": {
-            "name": "Casting Chamber - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42424",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42420"
-                }
-            },
-            "extras": {}
-        },
-        "42452": {
-            "name": "Large Cage - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42452",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42449"
-                }
-            },
-            "extras": {}
-        },
-        "42431": {
-            "name": "Scrying Chamber - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42431",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42432"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42430"
-                }
-            },
-            "extras": {}
-        },
-        "42442": {
-            "name": "Dark Storage Room - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42442",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42441"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42402"
-                }
-            },
-            "extras": {}
-        },
-        "42428": {
-            "name": "Library - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42428",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42427"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42410"
-                }
-            },
-            "extras": {}
-        },
-        "42453": {
-            "name": "Huge Cage - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42453",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42449"
-                }
-            },
-            "extras": {}
-        },
-        "42414": {
-            "name": "Slave Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42414",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42413"
-                }
-            },
-            "extras": {}
-        },
-        "42470": {
-            "name": "Guest Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42470",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42461"
-                }
-            },
-            "extras": {}
-        },
-        "42433": {
-            "name": "Dark Stairs - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42433",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42434"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42416"
-                }
-            },
-            "extras": {}
-        },
-        "42415": {
-            "name": "Slave Chamber - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42415",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42413"
-                }
-            },
-            "extras": {}
-        },
-        "42472": {
-            "name": "Private Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42472",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42457"
-                }
-            },
-            "extras": {}
-        },
-        "42451": {
-            "name": "Spacious Cage - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42451",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42449"
-                }
-            },
-            "extras": {}
-        },
-        "42456": {
-            "name": "Spiral Stairs - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42456",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42461"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42457"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42462"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42425"
-                }
-            },
-            "extras": {}
-        },
-        "42468": {
-            "name": "Guest Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42468",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42460"
-                }
-            },
-            "extras": {}
-        },
-        "42447": {
-            "name": "Row of Cages - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42447",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42450"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42448"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42443"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42449"
-                }
-            },
-            "extras": {}
-        },
-        "42408": {
-            "name": "{8Trade Guard Room - Thay Tower{x",
-            "description": [
-                "{x",
-                "{rMounted on the {8back wall of  t{rhe guards room {8are two polishe{rd steel",
-                "swords  c{8rossing blades.{r  Behind them i{8s  a sturdy shi{reld  with the",
-                "s{8piraling in  re{rd and silver.  {8A large wooden d{resk rests  belo{8w the",
-                "swords wi{rth a straight  {8solid oak chair{r. A solid  wood{8en door leads",
-                "to{r the south into{8 the merchant t{rrade room. Towa{8rds the back of{r the",
-                "room, a sma{8ll iron barred {rholding cell re{8sts.{x"
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42408",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42406"
-                }
-            },
-            "extras": {}
-        },
-        "42432": {
-            "name": "Alchemy Room - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42432",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42431"
-                }
-            },
-            "extras": {}
-        },
-        "42419": {
-            "name": "Private Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 134225920 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42419",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42454"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42418"
-                }
-            },
-            "extras": {}
-        },
-        "42460": {
-            "name": "Fourth Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42460",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42461"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42468"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42469"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42459"
-                }
-            },
-            "extras": {}
-        },
-        "42459": {
-            "name": "Fourth Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42459",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42467"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42460"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42458"
-                }
-            },
-            "extras": {}
-        },
-        "42445": {
-            "name": "Dark Stairway - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 20",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42445",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42446"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42444"
-                }
-            },
-            "extras": {}
-        },
-        "42465": {
-            "name": "Private Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42465",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42458"
-                }
-            },
-            "extras": {}
-        },
-        "42437": {
-            "name": "Magic Experimentation Room - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42437",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42438"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42436"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42439"
-                }
-            },
-            "extras": {}
-        },
-        "42458": {
-            "name": "Fourth Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42458",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42457"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42466"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42459"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42465"
-                }
-            },
-            "extras": {}
-        },
-        "42418": {
-            "name": "Second Floor Hallway - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42418",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42417"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42419"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42420"
-                }
-            },
-            "extras": {}
+            "vnum": "42404"
         },
         "42409": {
-            "name": "{8Meeting Room - Thay Tower{x",
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "{rA large iron ch{8andelier hangs {rfrom the center{8 of the ceiling{r of this",
@@ -1862,200 +1346,716 @@
                 "allowing{8 more seating i{rf needed. Tall {8polished  metal{r suits of armor",
                 "{8with  no crests{r  rest in the c{8orners  holding{r wickedly  shar{8p pikes.{x"
             ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42409",
+            "name": "{8Meeting Room - Thay Tower{x",
             "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42407",
+                    "description": [
+                        ""
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "42410",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42410"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42407"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42425": {
-            "name": "Spiral Stairs - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42425",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42426"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42456"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42417"
-                }
-            },
-            "extras": {}
+            "vnum": "42409"
         },
-        "42444": {
-            "name": "Private Chambers - Under Thay Tower",
-            "description": [],
+        "42410": {
+            "extras": {},
             "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "42444",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42443"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42445"
-                }
-            },
-            "extras": {}
-        },
-        "42416": {
-            "name": "Spiral Stairs - Thay Tower",
             "description": [
                 "{x",
-                "{rThis small entr{8y way allows  a{rccess to the sp{8iral  staircase{r of the",
-                "tower.  {8The  only direc{rtion  they seem{8  to lead  is  {rup  from here.",
-                "{8Tapestries cove{rr the walls dep{8icting scenes o{rf slaves servin{8g their",
-                "shaven a{rnd tattoo heade{8d masters in va{rrious ways. Oil{8 burning lamps",
-                "{rare  attached t{8o  the stone wa{rll  along the s{8ide  of the  st{raircase",
-                "cutting {8the would-be da{rrkness. Scuff m{8arks on the flo{ror lead behind",
-                "{8the spiral stai{rrs.{x"
+                "{8A large  s{rtone table res{8ts in  the cent{rer of this room {8with shelves",
+                "under{rneath holding{8 various long m{raps that are th{8e perfect  size{r for",
+                "the table. {8Each side of th{re table has a  {8lip to hold dow{rn the edges",
+                "of t{8he maps.  Stone{r shelves and  w{8ooden bookcases{r line the walls{8 of",
+                "this  room, {r filled  with  {8scrolls  parchm{rents  and books{8.  Several",
+                "uphol{rstered chairs a{8re scattered ar{round the room.{x"
             ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42416",
+            "name": "Strategy Room - Thay Tower",
             "exits": {
-                "south": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "42409",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42405"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "42428",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42417"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42433"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "42450": {
-            "name": "Confining Cage - Under Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
+            "vnum": "42410"
+        },
+        "42470": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "42450",
+            "description": [],
+            "name": "Guest Chambers - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42461",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42470"
+        },
+        "42437": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Magic Experimentation Room - Under Thay Tower",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "42438",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42447"
-                }
-            },
-            "extras": {}
-        },
-        "42467": {
-            "name": "Private Chambers - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42467",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "42459"
-                }
-            },
-            "extras": {}
-        },
-        "42427": {
-            "name": "Scholars Room - Thay Tower",
-            "description": [],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "42427",
-            "exits": {
+                    ]
+                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "42436",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42428"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "42439",
                     "description": [
                         ""
-                    ],
-                    "room_id": "42426"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "42437"
+        },
+        "42447": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Row of Cages - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42448",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42449",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42443",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42450",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42447"
+        },
+        "42465": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Private Chambers - Thay Tower",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42458",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42465"
+        },
+        "42411": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rDelicately  {8woven  tapestri{res depicting  s{8cenes of people{r  feasting",
+                "hang {8 from  the wall{rs.  Buffet  tab{8les line the  e{rast wall  holdi{8ng",
+                "silver servin{rg trays,  pitch{8ers and extra t{rable ware.  Thr{8ee tables",
+                "are se{rt up near  the {8center of  the {rroom,  their le{8ngth  stretchin{rg",
+                "almost from on{8e end of the ro{rom to the other{8. Off to the no{rrth wall",
+                "is a  s{8mall stage for {r entertainment.{8  The kitchen l{ries  off to the",
+                "{8west and a larg{re archway to th{8e  south open t{ro a cozy common{8  room.{x"
+            ],
+            "name": "Dining Room - Thay Tower",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42412",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42407",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42411"
+        },
+        "42456": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Spiral Stairs - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42457",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42462",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42461",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42425",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42456"
+        },
+        "42439": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Damp Stairs - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42437",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42440",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42439"
+        },
+        "42453": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Huge Cage - Under Thay Tower",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42449",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42453"
+        },
+        "42433": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Dark Stairs - Under Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42434",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42416",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42433"
+        },
+        "42438": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Magic Item Room - Under Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42437",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42438"
+        },
+        "42415": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Slave Chamber - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42413",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42415"
+        },
+        "42402": {
+            "extras": {
+                "feed": {
+                    "description": [
+                        "Barely visible scuff marks on the floor can be seen from around the",
+                        "back  side of  the feed  and straw.  A large iron ring can  be seen",
+                        "potion up from the straw covered ground. A trap door?",
+                        ""
+                    ]
+                },
+                "floor": {
+                    "description": [
+                        "Barely visible scuff marks on the floor can be seen from around the",
+                        "back  side of  the feed  and straw.  A large iron ring can  be seen",
+                        "potion up from the straw covered ground. A trap door?",
+                        ""
+                    ]
+                },
+                "straw": {
+                    "description": [
+                        "Barely visible scuff marks on the floor can be seen from around the",
+                        "back  side of  the feed  and straw.  A large iron ring can  be seen",
+                        "potion up from the straw covered ground. A trap door?",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{8Stone walls display  an array of ropes, saddles, and  various tools",
+                "used in grooming and caring  for the animals that are housed within",
+                "this  building. Barrels of  feed and  stacks of  straw are  stacked",
+                "neatly  off  to one side.  Carts and  carriages are stored  in this",
+                "large courtyard like area, waiting for their owner to load them up.",
+                "To the west is a wide  hallway that  leads to individual stalls. To",
+                "the east is the base of the tower.{x"
+            ],
+            "name": "{8Tower Stables - Thay Tower{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42401",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42403",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "42442",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42402"
+        },
+        "42457": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Fourth Floor Hallway - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42458",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42464",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42456",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42472",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42457"
+        },
+        "42455": {
+            "extras": {},
+            "flags_raw": "0 67117057 0 5",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Back of Thay Tower",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42454",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42455"
+        },
+        "42431": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Scrying Chamber - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42432",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42430",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42431"
+        },
+        "42424": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Casting Chamber - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42420",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42424"
+        },
+        "42422": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Combat Chamber - Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42421",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42422"
+        },
+        "42432": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Alchemy Room - Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42431",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42432"
+        },
+        "42421": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Summoning Chamber - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42422",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42420",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42421"
+        },
+        "42468": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Guest Chambers - Thay Tower",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42460",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42468"
+        },
+        "42418": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Second Floor Hallway - Thay Tower",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42420",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "42419",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "42417",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42418"
+        },
+        "42442": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Dark Storage Room - Under Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42441",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "42402",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42442"
+        },
+        "42412": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{rNested into the{8 west wall is a{r deep  fire pit{8 with various t{rypes of",
+                "iron st{8ands and racks {rinside for cook{8ing, and even a{r stone platform",
+                "{8towards  the ce{rnter.  Thick  w{8ooden tables ar{re  set off to t{8he side",
+                "with co{roking  supplies{8 and utensils. {r Shelves have  {8been built into",
+                "{rthe stone walls{8  and hold iron{r pots and pans {8of all types.  {rAn iron",
+                "rack  h{8angs from the c{reiling  with  h{8ooks that  hold{r many  types of",
+                "{8herbs as they d{rry.  Ceramic pi{8tchers and  pot{rs hold various {8liquids",
+                "and gra{rins waiting to {8be used.{x"
+            ],
+            "name": "Kitchen - Thay Tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "42413",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42411",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42412"
+        },
+        "42403": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{x",
+                "{8Individual stalls  line this wide hallway.  The hard stone floor is",
+                "covered  with  a thick  layer of  dust and  a thin layer  of straw.",
+                "Outside  of  each  stall, on  thick  iron  nails hang feed  buckets",
+                "waiting to be used.  Iron latches hold  the sturdy but short wooden",
+                "doors  closed to keep the inhabitants  safely  inside.  The  stable",
+                "smell is most prominent here, hanging thick in the air.{x"
+            ],
+            "name": "{8Stable Stalls - Thay Tower{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "42402",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "42403"
         }
     },
-    "uid": "redwiz",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] UPDATE Thay Tower 9/2012",
     "faction_id": "",
+    "name": "Red Wizards of Thay Tower",
     "vnums": [
         42400,
         42499
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 4,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {},
-    "realm_id": 3
+    "area_quest_points": 0
 }

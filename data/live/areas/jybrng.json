@@ -1,56 +1,165 @@
 {
-    "name": "The Joy Bringers (Clan Hall 2010)",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "jybrng",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "jybrng",
     "rooms": {
-        "40455": {
-            "name": "The Boxwood Maze",
+        "40449": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 27",
+            "flags2_raw": "0",
+            "description": [
+                "{CT{che {CW{caterwheel {yis a simple machine designed for many functions. ",
+                "This one is attached to the bellows in the blacksmith shop next door. ",
+                "{CW{cater from the {Cstream{y is diverted to the wheel, making it spin and",
+                "pump the bellows, freeing up the smith to focus on the other aspects",
+                "of his trade.  {x "
+            ],
+            "name": "The Waterwheel ",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40448",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40449"
+        },
+        "40462": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The highest reaches of the manor, this small passageway has low",
+                "ceilings, and little light, save for a few oil lamps scattered along",
+                "its length.  A small wooden staircased leads down to the side hall,",
+                "and there is a door to the east.  The attic hall continues to the",
+                "north.  "
+            ],
+            "name": "The Attic Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40464",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40463",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "40458",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40462"
+        },
+        "40410": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{GThe east lawn is a well manicured affair.  A thick carpet of grass",
+                "has been trimmed short, but provides a soft cushion to walk upon,",
+                "lending a spring to one's step.  Pleasure and childlike joy radiate",
+                "with each placement of a foot.  The east lawn curves around the east",
+                "wing of the manor and leads to the Rose Gardens.  West can be seen the",
+                "Terrace of the Fountains.  {x "
+            ],
+            "name": "The East Lawn",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40409",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40402",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40410"
+        },
+        "40471": {
+            "extras": {},
+            "flags_raw": "0 603989004 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Horse Holding Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "40471"
+        },
+        "40453": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
             "description": [
                 "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
                 "entering a maze would follow one direction until they came to the",
                 "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
                 "have been augmented by magic, and the doors shift randomly in time. ",
                 "The manor house remains to the east, with no apparent exit to that",
-                "{glocation, and the west lawn lies somewhere to the south.  {x "
+                "location, and the west lawn lies somewhere to the south.  {x "
             ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40455",
+            "name": "The Boxwood Maze",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40453"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40455",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40454"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40453"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40455",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40405"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40454",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40405",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40453"
         },
         "40438": {
-            "name": "Kitchens",
+            "extras": {},
+            "flags_raw": "0 67118088 0 13",
+            "flags2_raw": "0",
             "description": [
                 "The kitchens are a functional space, not frilly, but functional. ",
                 "Large fireplaces stand against the eastern wall with spits for",
@@ -62,70 +171,506 @@
                 "members of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x and their guests.  The formal dining hall",
                 "lies just to the north of the Kitchens.  {x "
             ],
-            "flags_raw": "0 67118088 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40438",
+            "name": "Kitchens",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40437",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40437"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40414": {
-            "name": "The Front Terrace",
-            "description": [
-                "{8The front terrace of {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr {YM{ca{Cn{co{Yr{8 sets a magnificent stage for",
-                "looking over the front grounds of the estate.  The central portion of",
-                "the terrace is holds the stairs leading down to the well manicured",
-                "grounds.  {wMarble balusters {8support intricately carved railings edging",
-                "the terrace and framing in the grand terrace.  The terrace continues",
-                "to the east and west.  The Manor's Entrance hall lies through a",
-                "heavily carved double door.  {x "
-            ],
-            "flags_raw": "0 67118080 0 0",
             "wanted_area_vnum": "",
+            "vnum": "40438"
+        },
+        "40459": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
             "flags2_raw": "0",
-            "vnum": "40414",
+            "description": [
+                "{cA small room with a writing desk, an armchair, and asmall pallet",
+                "along the wall.  These are the small comforts members of the",
+                "Joybringers chosing to live within the manor may expect.  All othe",
+                "rcreature comforts and personal designs are to be provided by the",
+                "individual member.  Those desiring to occupy rooms within the manor",
+                "are expected to pay a rental fee to the organization in the amount of",
+                "500 platinum per month.  {x ",
+                " ",
+                "[{RFOR RENT{x]"
+            ],
+            "name": "Clan Member Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40458",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40459"
+        },
+        "40457": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8This narrow hall rises nearly twelve feet culminating in a gothic",
+                "arch.  The hall is constructed of stone, and has none of the bright",
+                "and glossy appearance of the main halls of the manor, but is more",
+                "utilitarian in nature.  A single heavy oak door leads to the east.  {x "
+            ],
+            "name": "A Small Side Hall",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40435",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40417"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40415"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40460",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40416"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40458",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40457"
+        },
+        "40447": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 27",
+            "flags2_raw": "0",
+            "description": [
+                "{yThis small foot bridge {gcontinues the peacefull path through the",
+                "woods north of the manor.  Oak and Maple trees dominate the landscape.",
+                "In the distance to the north, the sound of a hammer ringing on an",
+                "anvil can be heard, and the air is laced with the scent of {8smoke{g, both",
+                "from a fire and a pipe.  {x "
+            ],
+            "name": "The Bridge over the Stream",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40448",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40446",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40447"
+        },
+        "40442": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThis circular room provides near perfect acoustics for the playing",
+                "of music.  A small lancet {Cwindow{c provides some filtered light in the",
+                "north wall.  The floor is sunken with two steps leading down to a",
+                "large custom sofa.  The walls are hung with instruments of all kind,",
+                "allowing members to select and practice what suits their needs for the",
+                "moment.  {x "
+            ],
+            "name": "Music Room",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40431",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40442"
+        },
+        "40429": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The back terrace overlooks the back gardens and the forest to the",
+                "north.  Down a set of stone steps, the back gardens spread out with",
+                "flagstone paths winding between fruit trees and other shrubs.  The",
+                "terrace itself is small in comparison to many of the structures around",
+                "the manor, but provides just enough room for an intimate conversation,",
+                "or room for one to sit down and write in the peace of the outdoors.  {x "
+            ],
+            "name": "The Back Terrace",
+            "exits": {
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "40407",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40422",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40429"
+        },
+        "40432": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wTo maintain continuity with the other major passages within the",
+                "manor, the west wing hall is clad entirely in white marble.  The most",
+                "quiet and private bedroom in the manor lies to the north.  To the",
+                "east, the west wing hall continues, an the west wing stair lies to the",
+                "west.  {x "
+            ],
+            "name": "The West Wing Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40461",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40431",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40433",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40432"
+        },
+        "40437": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{CThe dining hall is a festive place.  It is here that the",
+                "J{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{C hold banquets and other affairs or parties.  The dining",
+                "hall is located in close proximity to the Ballroom, with large sets of",
+                "french doors constantly open to that grand space, allowing revellers",
+                "easy access to the dance floor if the mood should take them, as well",
+                "as allowing for music to waft down from the musician's balcony above. ",
+                "The kitchens lie to the south, while the east hall is just north.  {x "
+            ],
+            "name": "The Formal Dining Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40424",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40420",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40438",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40437"
+        },
+        "40433": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The west wing stair winds up to this small round room with a single",
+                "doorway to the east.  This stair provides members a less grand way to",
+                "access the second floor, particularly the parts of the west wing.  {x "
+            ],
+            "name": "The West Wing Stair",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40432",
+                    "description": [
+                        ""
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "40428",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40403"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40433"
+        },
+        "40408": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{GThe back lawn is a wide expanse of grass, neatly trimmed with small",
+                "colorful shrubs mingled throughout, breaking up the monotony of a wide",
+                "swath of lawn.  South is a stunning rose garden, while a small path",
+                "enters the woods to the east.  {x "
+            ],
+            "name": "The Back Lawn",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40446",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40407",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40409",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40408"
+        },
+        "40454": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
+                "entering a maze would follow one direction until they came to the",
+                "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
+                "have been augmented by magic, and the doors shift randomly in time. ",
+                "The manor house remains to the east, with no apparent exit to that",
+                "location, and the west lawn lies somewhere to the south.  {x "
+            ],
+            "name": "The Boxwood Maze",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40405",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40453",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40406",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40405",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40455",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40454"
+        },
+        "40434": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wThis wide marble corridor leads to the more quiet side of the",
+                "manor's second floor, with the exception of the Musician's Balcony to",
+                "the south, which can be fairly raucous during festivals and balls held",
+                "in the room below.  A quiet study lies to the north, and the hall",
+                "continues east.  To the west is the second floor landing looking over",
+                "the Grand Rotunda.  {x "
+            ],
+            "name": "The East Wing Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40443",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40435",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40430",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40444",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40434"
+        },
+        "40441": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe conservatory is a cross between a greenhouse and a lounge. ",
+                "Thousands of plants are raised here, many of them quite rare.  The air",
+                "in this largely glass room is humid, and has the pleasant aromas of",
+                "damp earth and flowers.  A feeling of peace emanates from this room,",
+                "at least for those whose hearts lead them towards nature.  {x "
+            ],
+            "name": "Conservatory",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40427",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40441"
+        },
+        "40446": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "{yA small dirt path {gleads into the woods, curving towards the north",
+                "where a {yfoot bridge {garcs gracefully over a {Cb{ca{wb{Cb{wl{ci{Cn{wg {Cb{cr{Wo{co{Ck{g.  The trees",
+                "are fairly well spaced out at this location, owing to the proximity to",
+                "the edge of the wood.  {GFerns {gfill in the understory with a lush",
+                "carpet.  {x "
+            ],
+            "name": "A Path through the Woods",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40447",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40408",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40446"
+        },
+        "40418": {
+            "extras": {},
+            "flags_raw": "0 67109896 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "This sitting room has several purposes.  On a daily basis, it",
+                "provides comfortable seating for members of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x to sit,",
+                "chat, and relax.  During events and and dancing, it provides a quiet",
+                "location for revelers to get away from the heat and noise of the dance",
+                "floor and sit down to recover.  The entrance hall to the manor lies to",
+                "the east.  {x "
+            ],
+            "name": "Sitting Room",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40417",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40451",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40418"
         },
         "40402": {
-            "name": "The Terrace of Fountains",
+            "extras": {},
+            "flags_raw": "0 67109888 0 19",
+            "flags2_raw": "0",
             "description": [
                 "{CThe Terrace of Fountains{8, so named for the circular flagstone paths",
                 "surrounding a large central {Cf{cou{wnt{cai{Cn {8depicting {cthree dolphins leaping",
@@ -136,167 +681,101 @@
                 "Entrance to the Manor can be seen, while the lawns continue to the",
                 "east and west.  {x "
             ],
-            "flags_raw": "0 67109888 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40402",
+            "name": "The Terrace of Fountains",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40401"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40403",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40403"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40404"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40410",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40410"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40404",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40401",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40402"
         },
-        "40410": {
-            "name": "The East Lawn",
-            "description": [
-                "{GThe east lawn is a well manicured affair.  A thick carpet of grass",
-                "has been trimmed short, but provides a soft cushion to walk upon,",
-                "lending a spring to one's step.  Pleasure and childlike joy radiate",
-                "with each placement of a foot.  The east lawn curves around the east",
-                "wing of the manor and leads to the Rose Gardens.  West can be seen the",
-                "Terrace of the Fountains.  {x "
-            ],
+        "40404": {
+            "extras": {},
             "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "40410",
+            "description": [
+                "{GThe west lawn is a well manicured affair.  A thick carpet of grass",
+                "has been trimmed short, but provides a soft cushion to walk upon.  A",
+                "springy step is a side effect of this treatment, and pleasure radiates",
+                "out from every step.  The west lawn leads around the west side of the",
+                "manor, with a Boxwood Maze located to the down.  The Terrace of",
+                "Fountains lies to the east.  {x "
+            ],
+            "name": "The West Lawn",
             "exits": {
-                "north": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "40402",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40409"
+                    ]
                 },
-                "west": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "40405",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40402"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40468": {
-            "name": "The Attic Hall",
-            "description": [
-                "The highest hall of the manor, the Attic Hall is a small passageway",
-                "with relatively low ceilings and little light.  Oil lamps are",
-                "scattered along it's length, and there is a door in the east wall. ",
-                "The attic hall terminates at this point with a small window looking",
-                "over the back gardens.  "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
+            "vnum": "40404"
+        },
+        "40456": {
+            "extras": {},
+            "flags_raw": "0 67109896 0 0",
             "flags2_raw": "0",
-            "vnum": "40468",
+            "description": [
+                "{CThe Leaders' Office is just that, a working office space.  This is",
+                "where the day-to-day adminstration is taken care of.  Two desks sit in",
+                "the room, one on each the east and west walls.  A small {8leaded {wglass",
+                "window{C is in the northern wall, while heavily carved door stands in",
+                "the south wall of the room.  The east wing hall lies just so the",
+                "south.  {x "
+            ],
+            "name": "Leader's Office",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40435",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40466"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40469"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40459": {
-            "name": "Clan Member Room",
-            "description": [
-                "{cA small room with a writing desk, an armchair, and asmall pallet",
-                "along the wall.  These are the small comforts members of the",
-                "Joybringers chosing to live within the manor may expect.  All othe",
-                "rcreature comforts and personal designs are to be provided by the",
-                "individual member.  Those desiring to occupy rooms within the manor",
-                "are expected to pay a rental fee to the organization in the amount of",
-                "500 platinum per month.  {x ",
-                " ",
-                "[{RFOR RENT{x]"
-            ],
-            "flags_raw": "0 67108872 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40459",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40458"
-                }
-            },
-            "extras": {}
-        },
-        "40418": {
-            "name": "Sitting Room",
-            "description": [
-                "This sitting room has several purposes.  On a daily basis, it",
-                "provides comfortable seating for members of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x to sit,",
-                "chat, and relax.  During events and and dancing, it provides a quiet",
-                "location for revelers to get away from the heat and noise of the dance",
-                "floor and sit down to recover.  The entrance hall to the manor lies to",
-                "the east.  {x "
-            ],
-            "flags_raw": "0 67109896 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40418",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40451"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40417"
-                }
-            },
-            "extras": {}
+            "vnum": "40456"
         },
         "40470": {
-            "name": "The Joy Bringer's Stables",
+            "extras": {},
+            "flags_raw": "0 603989000 0 13",
+            "flags2_raw": "0",
             "description": [
                 "{Y{YT{yhe {YJ{yoybringer's {YS{ytables are a modest affair.  A small building",
                 "with stalls for a dozen or so horses is all that exist here.  The",
@@ -304,23 +783,62 @@
                 "the building belies the quality of the stock, however, and the dapple",
                 "grey horses bred by the stablemaster are the finest in the realms.  {x "
             ],
-            "flags_raw": "0 603989000 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40470",
+            "name": "The Joy Bringer's Stables",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40411",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40411"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40470"
         },
-        "40460": {
-            "name": "Clan Member Room",
+        "40407": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{GThe back garden is a small affair of winding flagstone paths",
+                "leading ending in the edge of the forest.  Fruit trees are spread",
+                "throughout this garden, and small flower and vegetable beds add a",
+                "sprinkling of color to the landscap.  The back terrace of the manor is",
+                "just up a set of {8wide stone steps,{G and the back lawn is to the east. ",
+                "To the west one of the flagstone paths disappears into the trees.  {x "
+            ],
+            "name": "The Back Garden",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40408",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40429",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40406",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40407"
+        },
+        "40465": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{cA small room with a writing desk, an armchair, and asmall pallet",
                 "along the wall.  These are the small comforts members of the",
@@ -332,184 +850,389 @@
                 " ",
                 "[{RFOR RENT{x]"
             ],
-            "flags_raw": "0 67108872 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40460",
+            "name": "Clan Member Room",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40464",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40457"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40464": {
-            "name": "The Attic Hall",
-            "description": [
-                "The highest hall of the manor, the Attic Hall is a small passageway",
-                "with relatively low ceilings and little light.  Oil lamps are",
-                "scattered along it's length, and there is a door in the east wall. ",
-                "The attic hall continues both north and south.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40464",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40462"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40466"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40465"
-                }
-            },
-            "extras": {}
-        },
-        "40447": {
-            "name": "The Bridge over the Stream",
-            "description": [
-                "{yThis small foot bridge {gcontinues the peacefull path through the",
-                "woods north of the manor.  Oak and Maple trees dominate the landscape.",
-                "In the distance to the north, the sound of a hammer ringing on an",
-                "anvil can be heard, and the air is laced with the scent of {8smoke{g, both",
-                "from a fire and a pipe.  {x "
-            ],
-            "flags_raw": "0 67118080 0 27",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40447",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40448"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40446"
-                }
-            },
-            "extras": {}
-        },
-        "40419": {
-            "name": "South Ballroom",
-            "description": [
-                "{rThe marble floors of the surrounding halls give way to richly",
-                "inlaid wood floors in the ballroom.  The walls are hung with {Cr{ci{Yc{ch",
-                "{Cf{ca{Yb{cr{Ci{cc{Ys{r in the colors of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr {YP{ca{Cr{ca{Yd{ce {CB{ca{Yn{cn{Ce{cr{Ys{r.  The dance",
-                "floor stretches out to the north, while large double doors open west",
-                "into the Entrance Hall of the mannor.  A Small back staircase leads up",
-                "to the south ballroom balcony above.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40419",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40420"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40417"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40445"
-                }
-            },
-            "extras": {}
+            "vnum": "40465"
         },
         "40436": {
-            "name": "The East Wing Stair",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The east wing stair rises from the lower level to a small landing",
                 "here.  West lies the east wing hall, a marble clad room stretching",
                 "westwards to the balcony over the Grand Rotunda.  This stair provides",
                 "quiet access for members to their private rooms.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40436",
+            "name": "The East Wing Stair",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40435",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40435"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "40425",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40425"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40415": {
-            "name": "The Front Terrace",
-            "description": [
-                "{8The western portion of the front terrace is framed by {wmarble",
-                "balusters{8 supporting intricately carved ralings.  While no entrances",
-                "to the manor are located on the western terrace, it provides an",
-                "excellent vantage point to view people wandering through the boxwood",
-                "maze below or to look out over the western portions of the estate.  {x "
-            ],
-            "flags_raw": "0 67118080 0 0",
             "wanted_area_vnum": "",
+            "vnum": "40436"
+        },
+        "40427": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
             "flags2_raw": "0",
-            "vnum": "40415",
+            "description": [
+                "{wThe west hall, like the main hall, is clad in gleaming white",
+                "marble.  The floors ring with musical notes as members of the",
+                "{CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w move about their daily routines.  The walls here are",
+                "covered in portraits of the members of this hall.  East the hall",
+                "continues, while to the west, there is a small spiral staircase",
+                "leading to the second floor.  {x "
+            ],
+            "name": "The West Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40441",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40426",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40428",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40427"
+        },
+        "40423": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The east hall, like the main hall, is clad in gleaming white",
+                "marble.  The floors ring with the footsteps of all who pass by and",
+                "reflect their visages in the highly polished surface.  The walls are",
+                "covered with paintings of hunting scenes.  West lies the Grand",
+                "Rotunda, east the hall continues, and the north ballroom lies to the",
+                "south.  {x "
+            ],
+            "name": "The East Hall",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40424",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40414"
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40422",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40420",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40423"
+        },
+        "40455": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
+                "entering a maze would follow one direction until they came to the",
+                "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
+                "have been augmented by magic, and the doors shift randomly in time. ",
+                "The manor house remains to the east, with no apparent exit to that",
+                "{glocation, and the west lawn lies somewhere to the south.  {x "
+            ],
+            "name": "The Boxwood Maze",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40454",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40405",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40453",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40453",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40455"
+        },
+        "40420": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{rThe marble floors of the surrounding halls give way to richly",
+                "inlaid wood floors in the ballroom.  The ceiling soars to the full",
+                "forty foot height over the central floor, with balconies lining the",
+                "east and west walls of the second floor.  Music can be heard drifting",
+                "down from the musician's balcony above, and the dance floor stretches",
+                "out far to the south.  Double doors open up onto the east hall to the",
+                "north.  {x "
+            ],
+            "name": "North Ballroom",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40423",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40437",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40419",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40420"
+        },
+        "40405": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
+                "entering a maze would follow one direction until they came to the",
+                "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
+                "have been augmented by magic, and the doors shift randomly in time. ",
+                "The manor house remains to the east, with no apparent exit to that",
+                "location, and the west lawn lies somewhere to the south.  {x ",
+                " "
+            ],
+            "name": "The Boxwood Maze",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40453",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40454",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40404",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40455",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40454",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40405"
+        },
+        "40412": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "{gThe trunks of immense big leaf maples and oaks dominate the forest",
+                "here, with the occasional douglas fir mixed in occasionally.  The",
+                "understory is dominated by ferns and salal, through which a small game",
+                "trail winds, moving to and fro as only a trail created by animals can.",
+                "In the canopy, the sounds of chattering squirrels and chirping birds",
+                "can be readily heard.  What appears to be a manicured hedge lies to",
+                "the north, while the trail winds down the slope of a small hill.  {x "
+            ],
+            "name": "A Game Trail through the Woods",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40400",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "40413",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40412"
+        },
+        "40406": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "{rA s{ymall {rd{yir{rt p{yat{rh {gmeanders through the woods creating the ideal in",
+                "tranquil settings.  Dappled light filters through the leaves of the",
+                "stately oaks and maples that make up the edge of the forest.  The path",
+                "heads north into the woods, while a small back garden is to the east. ",
+                "{gThe boxwood maze is down and to the south, while the manor house can",
+                "be seen just to the southeast.  {x "
+            ],
+            "name": "A Path through the Woods",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40411",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40407",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "40454",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40406"
+        },
+        "40430": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wWide marble stairs sweep up from the Grand Rotunda below, curving",
+                "around from both the left and right to this balcony.  {wThe {Cglass dome{w",
+                "arching overhead allows clear views of the sky, and at night,",
+                "spectacular views of the stars.  Marble halls run east and west from",
+                "the landing, leading to the quieter and less public rooms of the",
+                "manor.  {x "
+            ],
+            "name": "The Second Floor Landing",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40450",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40434",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40431",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "40422",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40430"
         },
         "40411": {
-            "name": "A Stream through the Woods",
+            "extras": {},
+            "flags_raw": "0 67118080 0 3",
+            "flags2_raw": "0",
             "description": [
                 "{YA s{ymall foot bridge {gcrosses over a {Cb{cur{wb{cli{Cn{wg {Cs{ct{wr{ce{Ca{wm{g allowing the",
                 "path to continue to meander through the woods.  Familiar smells and",
@@ -520,114 +1243,61 @@
                 "canopy.  {-F{-l{-o{-w{-e{-r{-s{g grow everywhere around the structure, save for a",
                 "small path leading to a little round door.  {x "
             ],
-            "flags_raw": "0 67118080 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40411",
+            "name": "A Stream through the Woods",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40406"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40470"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40472",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40472"
-                }
-            },
-            "extras": {}
-        },
-        "40453": {
-            "name": "The Boxwood Maze",
-            "description": [
-                "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
-                "entering a maze would follow one direction until they came to the",
-                "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
-                "have been augmented by magic, and the doors shift randomly in time. ",
-                "The manor house remains to the east, with no apparent exit to that",
-                "location, and the west lawn lies somewhere to the south.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40453",
-            "exits": {
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40470",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40406",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40405"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40455"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40454"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40411"
+        },
+        "40415": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8The western portion of the front terrace is framed by {wmarble",
+                "balusters{8 supporting intricately carved ralings.  While no entrances",
+                "to the manor are located on the western terrace, it provides an",
+                "excellent vantage point to view people wandering through the boxwood",
+                "maze below or to look out over the western portions of the estate.  {x "
+            ],
+            "name": "The Front Terrace",
+            "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40414",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40455"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40446": {
-            "name": "A Path through the Woods",
-            "description": [
-                "{yA small dirt path {gleads into the woods, curving towards the north",
-                "where a {yfoot bridge {garcs gracefully over a {Cb{ca{wb{Cb{wl{ci{Cn{wg {Cb{cr{Wo{co{Ck{g.  The trees",
-                "are fairly well spaced out at this location, owing to the proximity to",
-                "the edge of the wood.  {GFerns {gfill in the understory with a lush",
-                "carpet.  {x "
-            ],
-            "flags_raw": "0 67118080 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40446",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40447"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40408"
-                }
-            },
-            "extras": {}
+            "vnum": "40415"
         },
         "40451": {
-            "name": "The Secret Stair",
+            "extras": {},
+            "flags_raw": "0 67117065 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{8This cramped stair leads down into the darkness.  All organizations",
                 "have their secrets, and it is here that the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{8 hide theirs. ",
@@ -635,266 +1305,92 @@
                 "dripping from some surface.  The stairs down are cut from natural",
                 "rock, and worn with the passing of many footsteps.  {x "
             ],
-            "flags_raw": "0 67117065 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40451",
+            "name": "The Secret Stair",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40418",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40418"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "40452",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40452"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40463": {
-            "name": "Clan Member Room",
-            "description": [
-                "{cA small room with a writing desk, an armchair, and asmall pallet",
-                "along the wall.  These are the small comforts members of the",
-                "Joybringers chosing to live within the manor may expect.  All othe",
-                "rcreature comforts and personal designs are to be provided by the",
-                "individual member.  Those desiring to occupy rooms within the manor",
-                "are expected to pay a rental fee to the organization in the amount of",
-                "500 platinum per month.  {x ",
-                " ",
-                "[{RFOR RENT{x]"
-            ],
-            "flags_raw": "0 67108872 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40463",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40462"
-                }
-            },
-            "extras": {}
+            "vnum": "40451"
         },
-        "40434": {
-            "name": "The East Wing Hall",
-            "description": [
-                "{wThis wide marble corridor leads to the more quiet side of the",
-                "manor's second floor, with the exception of the Musician's Balcony to",
-                "the south, which can be fairly raucous during festivals and balls held",
-                "in the room below.  A quiet study lies to the north, and the hall",
-                "continues east.  To the west is the second floor landing looking over",
-                "the Grand Rotunda.  {x "
-            ],
+        "40428": {
+            "extras": {},
             "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "40434",
+            "description": [
+                "{8A small spiral stair winds up to the second floor.  While it is",
+                "described as small, this is a relative term when compared to the grand",
+                "staircases in the Rotunda.  East lies the West Hall, while top of the",
+                "west wing stair is above.  {x "
+            ],
+            "name": "The West Stair",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40444"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40443"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40430"
-                },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40427",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40435"
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40433",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40420": {
-            "name": "North Ballroom",
-            "description": [
-                "{rThe marble floors of the surrounding halls give way to richly",
-                "inlaid wood floors in the ballroom.  The ceiling soars to the full",
-                "forty foot height over the central floor, with balconies lining the",
-                "east and west walls of the second floor.  Music can be heard drifting",
-                "down from the musician's balcony above, and the dance floor stretches",
-                "out far to the south.  Double doors open up onto the east hall to the",
-                "north.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40420",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40419"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40423"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40437"
-                }
-            },
-            "extras": {}
+            "vnum": "40428"
         },
-        "40406": {
-            "name": "A Path through the Woods",
-            "description": [
-                "{rA s{ymall {rd{yir{rt p{yat{rh {gmeanders through the woods creating the ideal in",
-                "tranquil settings.  Dappled light filters through the leaves of the",
-                "stately oaks and maples that make up the edge of the forest.  The path",
-                "heads north into the woods, while a small back garden is to the east. ",
-                "{gThe boxwood maze is down and to the south, while the manor house can",
-                "be seen just to the southeast.  {x "
-            ],
-            "flags_raw": "0 67118080 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40406",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40411"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40407"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40454"
-                }
-            },
-            "extras": {}
-        },
-        "40408": {
-            "name": "The Back Lawn",
-            "description": [
-                "{GThe back lawn is a wide expanse of grass, neatly trimmed with small",
-                "colorful shrubs mingled throughout, breaking up the monotony of a wide",
-                "swath of lawn.  South is a stunning rose garden, while a small path",
-                "enters the woods to the east.  {x "
-            ],
+        "40400": {
+            "extras": {},
             "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "40408",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40409"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40407"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40446"
-                }
-            },
-            "extras": {}
-        },
-        "40430": {
-            "name": "The Second Floor Landing",
             "description": [
-                "{wWide marble stairs sweep up from the Grand Rotunda below, curving",
-                "around from both the left and right to this balcony.  {wThe {Cglass dome{w",
-                "arching overhead allows clear views of the sky, and at night,",
-                "spectacular views of the stars.  Marble halls run east and west from",
-                "the landing, leading to the quieter and less public rooms of the",
-                "manor.  {x "
+                "{gThe surrounding forest stops suddenly in a tall, well manicured yew",
+                "hedge.  There is a gap in the hedge with a large {8wrought iron gate. ",
+                "{gAtop the gate is a large sculpture of a {Rruby-throated {Ghu{gmm{Cin{ggb{Gir{cd {g",
+                "looking out over the forest.  A flagstone path leads out from the gap",
+                "into well manicured lawns and beautiful grounds.  In the distance an",
+                "ivy covered manor house can be seen.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40430",
+            "name": "A Gap in the Hedge",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40401",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40450"
+                    ]
                 },
-                "west": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "40412",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40431"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40434"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40422"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40400"
         },
         "40403": {
-            "name": "The Grand Entrance",
+            "extras": {},
+            "flags_raw": "0 67118080 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{8A set of wide stone stairs leads up to an impressive terrace.  The",
                 "terrace fronts the entire face of the manor, and truly frames the",
@@ -907,507 +1403,77 @@
                 "South lies the terrace of fountains, while the manor awaits up the",
                 "stairs.  {x "
             ],
+            "name": "The Grand Entrance",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40414",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40402",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40403"
+        },
+        "40414": {
+            "extras": {},
             "flags_raw": "0 67118080 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "40403",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40402"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40414"
-                }
-            },
-            "extras": {}
-        },
-        "40423": {
-            "name": "The East Hall",
             "description": [
-                "The east hall, like the main hall, is clad in gleaming white",
-                "marble.  The floors ring with the footsteps of all who pass by and",
-                "reflect their visages in the highly polished surface.  The walls are",
-                "covered with paintings of hunting scenes.  West lies the Grand",
-                "Rotunda, east the hall continues, and the north ballroom lies to the",
-                "south.  {x "
+                "{8The front terrace of {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr {YM{ca{Cn{co{Yr{8 sets a magnificent stage for",
+                "looking over the front grounds of the estate.  The central portion of",
+                "the terrace is holds the stairs leading down to the well manicured",
+                "grounds.  {wMarble balusters {8support intricately carved railings edging",
+                "the terrace and framing in the grand terrace.  The terrace continues",
+                "to the east and west.  The Manor's Entrance hall lies through a",
+                "heavily carved double door.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40423",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40420"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40422"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40424"
-                }
-            },
-            "extras": {}
-        },
-        "40452": {
-            "name": "The Whipping Post",
-            "description": [
-                "{8This room has the look and smell of an ancient dungeon, damp dank",
-                "aromas permeate the air.  A tall wooden post stands in the middle of",
-                "the room, with a set of manacles chained high up on the post.  The",
-                "walls of this chamber house tools that can only be described as",
-                "torture devices.  {x "
-            ],
-            "flags_raw": "0 67117065 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40452",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40451"
-                }
-            },
-            "extras": {}
-        },
-        "40427": {
-            "name": "The West Hall",
-            "description": [
-                "{wThe west hall, like the main hall, is clad in gleaming white",
-                "marble.  The floors ring with musical notes as members of the",
-                "{CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w move about their daily routines.  The walls here are",
-                "covered in portraits of the members of this hall.  East the hall",
-                "continues, while to the west, there is a small spiral staircase",
-                "leading to the second floor.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40427",
+            "name": "The Front Terrace",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40417",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40441"
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40416",
+                    "description": [
+                        ""
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40415",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40428"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40426"
-                }
-            },
-            "extras": {}
-        },
-        "40461": {
-            "name": "Leader's Room",
-            "description": [
-                "The leader's room is a large room, designed for the comfort of the",
-                "leader of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x.  More of a suite than a room, this is where",
-                "leaders retire from their duties and have the peace and solitude where",
-                "they actually get work done.  A pair of {Cleaded glass windows{x opens up",
-                "to the north, providing stunning views of the {Ggardens{x below, and the",
-                "{gforest{x stretching out far to the north.  "
-            ],
-            "flags_raw": "0 1032 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40461",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40432"
-                }
-            },
-            "extras": {}
-        },
-        "40443": {
-            "name": "Study",
-            "description": [
-                "The Study is a quite room for members of the order to sit and work",
-                "on individual projects.  It is here that quiet hobies are undertaken,",
-                "as well as studying or planning for various events.  A large {Ccasement",
-                "window{x stands in the north wall, providing a stunning view of the back",
-                "gardens and forest below.  A small fireplace provides warmth on cold",
-                "nights.  Overall, it is a tranquil retreat.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40443",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40434"
-                }
-            },
-            "extras": {}
-        },
-        "40407": {
-            "name": "The Back Garden",
-            "description": [
-                "{GThe back garden is a small affair of winding flagstone paths",
-                "leading ending in the edge of the forest.  Fruit trees are spread",
-                "throughout this garden, and small flower and vegetable beds add a",
-                "sprinkling of color to the landscap.  The back terrace of the manor is",
-                "just up a set of {8wide stone steps,{G and the back lawn is to the east. ",
-                "To the west one of the flagstone paths disappears into the trees.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40407",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40406"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40408"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40429"
-                }
-            },
-            "extras": {}
-        },
-        "40428": {
-            "name": "The West Stair",
-            "description": [
-                "{8A small spiral stair winds up to the second floor.  While it is",
-                "described as small, this is a relative term when compared to the grand",
-                "staircases in the Rotunda.  East lies the West Hall, while top of the",
-                "west wing stair is above.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40428",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40427"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40433"
-                }
-            },
-            "extras": {}
-        },
-        "40442": {
-            "name": "Music Room",
-            "description": [
-                "{cThis circular room provides near perfect acoustics for the playing",
-                "of music.  A small lancet {Cwindow{c provides some filtered light in the",
-                "north wall.  The floor is sunken with two steps leading down to a",
-                "large custom sofa.  The walls are hung with instruments of all kind,",
-                "allowing members to select and practice what suits their needs for the",
-                "moment.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40442",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40431"
-                }
-            },
-            "extras": {}
-        },
-        "40471": {
-            "name": "Horse Holding Room",
-            "description": [],
-            "flags_raw": "0 603989004 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40471",
-            "exits": {},
-            "extras": {}
-        },
-        "40466": {
-            "name": "The Attic Hall",
-            "description": [
-                "The highest hall of the manor, the Attic Hall is a small passageway",
-                "with relatively low ceilings and little light.  Oil lamps are",
-                "scattered along it's length, and there is a door in the east wall. ",
-                "The attic hall continues both north and south.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40466",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40464"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40468"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40467"
-                }
-            },
-            "extras": {}
-        },
-        "40433": {
-            "name": "The West Wing Stair",
-            "description": [
-                "The west wing stair winds up to this small round room with a single",
-                "doorway to the east.  This stair provides members a less grand way to",
-                "access the second floor, particularly the parts of the west wing.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40433",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40432"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "40403",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40428"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40401": {
-            "name": "The Flagstone Path",
-            "description": [
-                "{8A flagstone path {Gwinds through the lawns, heading towards the manor",
-                "house.  Stone sculptures of beasts fantastic and mundane are scattered",
-                "over the grounds, intermixed with topiaries.  Everywhere one looks,",
-                "the eye is drawn to a different piece of artwork.  The sound of",
-                "{Cgurgling water{G can be heard in the distance.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40401",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40402"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40400"
-                }
-            },
-            "extras": {}
-        },
-        "40473": {
-            "name": "Aviary Holding Room",
-            "description": [],
-            "flags_raw": "0 67122188 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40473",
-            "exits": {},
-            "extras": {}
-        },
-        "40416": {
-            "name": "The Front Terrace",
-            "description": [
-                "{8The eastern portion of the front terrace is framed by {wmarble",
-                "balusters{8 supporting intricately carved ralings.  While no entrances",
-                "to the manor are located on the eastern terrace, it provides an",
-                "excellent vantage point to view people wandering through the {RR{ro{Ms{re",
-                "{RG{ra{Mr{rd{Re{Mn{8 below or to look out over the eastern portions of the estate.{x"
-            ],
-            "flags_raw": "0 67118080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40416",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40414"
-                }
-            },
-            "extras": {}
-        },
-        "40457": {
-            "name": "A Small Side Hall",
-            "description": [
-                "{8This narrow hall rises nearly twelve feet culminating in a gothic",
-                "arch.  The hall is constructed of stone, and has none of the bright",
-                "and glossy appearance of the main halls of the manor, but is more",
-                "utilitarian in nature.  A single heavy oak door leads to the east.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40457",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40458"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40435"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40460"
-                }
-            },
-            "extras": {}
-        },
-        "40469": {
-            "name": "Clan Member Room",
-            "description": [
-                "{cA small room with a writing desk, an armchair, and asmall pallet",
-                "along the wall.  These are the small comforts members of the",
-                "Joybringers chosing to live within the manor may expect.  All othe",
-                "rcreature comforts and personal designs are to be provided by the",
-                "individual member.  Those desiring to occupy rooms within the manor",
-                "are expected to pay a rental fee to the organization in the amount of",
-                "500 platinum per month.  {x ",
-                " ",
-                "[{RFOR RENT{x]"
-            ],
-            "flags_raw": "0 67108872 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40469",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40468"
-                }
-            },
-            "extras": {}
-        },
-        "40472": {
-            "name": "The Joybringers' Aviary",
-            "description": [
-                "{gThe aviary of the joybringers consists of a small building and then",
-                "an incredibly large aviary, a gigantic mesh canopy held up on long",
-                "poles reaching high into the sky.  {-F{-l{-o{-w{-e{-r{-s{g of many kinds grow within",
-                "the aviary all having one thing in common, their production of nectar.",
-                "A sweet smell pervades the air, and the buzzing sound heard outside",
-                "{gcomes from the wings of dozens of {RRuby-throated {Ghu{gmm{Cin{ggb{Gir{cds.  {x "
-            ],
-            "flags_raw": "0 67122184 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40472",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40411"
-                }
-            },
-            "extras": {}
+            "vnum": "40414"
         },
         "40440": {
-            "name": "Library - Upper Level",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{rA stout mahogany railing{c provides protection for those browsing",
                 "through the stacks on the upper level of the library.  This railing",
@@ -1419,53 +1485,62 @@
                 "A small door in the north wall leads to a hall in the west wing of the",
                 "manor.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40440",
+            "name": "Library - Upper Level",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40431",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40431"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "40439",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40439"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40474": {
-            "name": "The Weaver's Shop",
-            "description": [
-                "{CThis small but comfortable shop houses several different spinning",
-                "wheels.  Skeins of yarn in varying colors are stacked in cubicles",
-                "along the west wall, while bags of undyed wool are stacked along the",
-                "north, awaiting spinning.  The Blacksmith's Shop lies to the east.  {x "
-            ],
-            "flags_raw": "0 67118088 0 13",
             "wanted_area_vnum": "",
+            "vnum": "40440"
+        },
+        "40409": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
             "flags2_raw": "0",
-            "vnum": "40474",
+            "description": [
+                "{RT{rh{Me {RR{ro{Ms{re {RG{ra{Mr{rd{Me{Rn {gof the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Y'{cs {8M{Wa{wn{Wo{8r {ghas won numerous awards",
+                "from the horticultural societies of the realms.  Master Gardeners from",
+                "all over come merely to look upon their speldor.  The elves were so",
+                "taken with the gardens, that they enchanted it to always be high",
+                "summer so that the {Rr{ro{Ms{re{ms {gare always in {Rb{rl{Mo{ro{mm{g.  North lies the back",
+                "lawn, while the east lawn lies to the south.  {x "
+            ],
+            "name": "The Rose Garden",
             "exits": {
-                "east": {
+                "north": {
                     "flags_raw": "0",
+                    "room_id": "40408",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40448"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40410",
+                    "description": [
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40409"
         },
         "40450": {
-            "name": "The Meditation Chamber",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The meditation chamber of the joybringers is a austere room.  The",
                 "floor is covered with a {ccyan carpet{x running from wall to wall.  A",
@@ -1473,23 +1548,55 @@
                 "shoe shelf against the south wall indicates that all visitors to this",
                 "space should leave their shoes at the door.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40450",
+            "name": "The Meditation Chamber",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40430",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40430"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40450"
         },
-        "40467": {
-            "name": "Clan Member Room",
+        "40413": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 3",
+            "flags2_raw": "0",
+            "description": [
+                "{gThis small game trail intersects with the Shire Forest Road to the",
+                "west, and is truly just a game trail.  The narrow winding path climbs",
+                "back and forth up the hill, moving between the trunks of large big",
+                "leaf maples and oaks.  The understory is dominated by a dense",
+                "undergrowth of sword fern and salal, making the game trail barely",
+                "recognizable.  {x "
+            ],
+            "name": "A Game Trail through the Woods",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40412",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "1168",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40413"
+        },
+        "40460": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{cA small room with a writing desk, an armchair, and asmall pallet",
                 "along the wall.  These are the small comforts members of the",
@@ -1501,23 +1608,63 @@
                 " ",
                 "[{RFOR RENT{x]"
             ],
-            "flags_raw": "0 67108872 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40467",
+            "name": "Clan Member Room",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40457",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40466"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40460"
+        },
+        "40448": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 13",
+            "flags2_raw": "0",
+            "description": [
+                "{8The blacksmith's shop is a pair of small buildings, the shop itself",
+                "and the waterwheel located just to the east.  The shop is of simple",
+                "wood construction with exposed beams and tools of the trade hanging on",
+                "all the walls.  A Large bellows is built into the eastern side of the",
+                "shop, and appears to be mechanically driven.  The Forge itself is a",
+                "huge affair dominating the north wall.  Anvils of differing sizes are",
+                "spread in a semicircle around the forge.  {x "
+            ],
+            "name": "The Blacksmith's Shop",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40449",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40474",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40447",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40448"
         },
         "40417": {
-            "name": "The Entrance Hall of the Manor",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wThe entrance hall forms the front portion of the main hall of the",
                 "{CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Y'{cs {CM{ca{Yn{co{Cr{w.  Polished marble floors reflect light streaming",
@@ -1528,523 +1675,173 @@
                 "the southern portion of the ballroom.  The main hall continues to the",
                 "north and the front terrace lies to the south.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40417",
+            "name": "The Entrance Hall of the Manor",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40414"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40421",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40421"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40418"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40419",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40419"
-                }
-            },
-            "extras": {}
-        },
-        "40409": {
-            "name": "The Rose Garden",
-            "description": [
-                "{RT{rh{Me {RR{ro{Ms{re {RG{ra{Mr{rd{Me{Rn {gof the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Y'{cs {8M{Wa{wn{Wo{8r {ghas won numerous awards",
-                "from the horticultural societies of the realms.  Master Gardeners from",
-                "all over come merely to look upon their speldor.  The elves were so",
-                "taken with the gardens, that they enchanted it to always be high",
-                "summer so that the {Rr{ro{Ms{re{ms {gare always in {Rb{rl{Mo{ro{mm{g.  North lies the back",
-                "lawn, while the east lawn lies to the south.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40409",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40408"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40410"
-                }
-            },
-            "extras": {}
-        },
-        "40444": {
-            "name": "Musician's Balcony",
-            "description": [
-                "{cThe Musician's Balcony circles around the northern portion of the",
-                "ballroom below, allowing the musicians clear view of the dancers",
-                "below, and conducting superb sound to the revellers waltzing across",
-                "the floor.  A small door to the north allows musicians to move in and",
-                "out as unobtrusively as possibe, stepping out into the east wing hall.",
-                "{x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40444",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40434"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40445"
-                }
-            },
-            "extras": {}
-        },
-        "40405": {
-            "name": "The Boxwood Maze",
-            "description": [
-                "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
-                "entering a maze would follow one direction until they came to the",
-                "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
-                "have been augmented by magic, and the doors shift randomly in time. ",
-                "The manor house remains to the east, with no apparent exit to that",
-                "location, and the west lawn lies somewhere to the south.  {x ",
-                " "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40405",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40454"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40453"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40418",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40455"
+                    ]
                 },
-                "east": {
+                "south": {
                     "flags_raw": "0",
+                    "room_id": "40414",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40454"
-                },
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40417"
+        },
+        "40452": {
+            "extras": {},
+            "flags_raw": "0 67117065 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8This room has the look and smell of an ancient dungeon, damp dank",
+                "aromas permeate the air.  A tall wooden post stands in the middle of",
+                "the room, with a set of manacles chained high up on the post.  The",
+                "walls of this chamber house tools that can only be described as",
+                "torture devices.  {x "
+            ],
+            "name": "The Whipping Post",
+            "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "40451",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40404"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40452"
         },
         "40435": {
-            "name": "The East Wing Hall",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wEncased in white marble, the east wing hall leads from the east",
                 "wing stair to the balcony overlooking the Grand Rotunda.  A small,",
                 "quiet side hall leads to the south.  "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40435",
+            "name": "The East Wing Hall",
             "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40456",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40436",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40434",
+                    "description": [
+                        ""
+                    ]
+                },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40457",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40457"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40456"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40434"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40436"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40462": {
-            "name": "The Attic Hall",
-            "description": [
-                "The highest reaches of the manor, this small passageway has low",
-                "ceilings, and little light, save for a few oil lamps scattered along",
-                "its length.  A small wooden staircased leads down to the side hall,",
-                "and there is a door to the east.  The attic hall continues to the",
-                "north.  "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
+            "vnum": "40435"
+        },
+        "40474": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 13",
             "flags2_raw": "0",
-            "vnum": "40462",
+            "description": [
+                "{CThis small but comfortable shop houses several different spinning",
+                "wheels.  Skeins of yarn in varying colors are stacked in cubicles",
+                "along the west wall, while bags of undyed wool are stacked along the",
+                "north, awaiting spinning.  The Blacksmith's Shop lies to the east.  {x "
+            ],
+            "name": "The Weaver's Shop",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40448",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40474"
+        },
+        "40419": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{rThe marble floors of the surrounding halls give way to richly",
+                "inlaid wood floors in the ballroom.  The walls are hung with {Cr{ci{Yc{ch",
+                "{Cf{ca{Yb{cr{Ci{cc{Ys{r in the colors of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr {YP{ca{Cr{ca{Yd{ce {CB{ca{Yn{cn{Ce{cr{Ys{r.  The dance",
+                "floor stretches out to the north, while large double doors open west",
+                "into the Entrance Hall of the mannor.  A Small back staircase leads up",
+                "to the south ballroom balcony above.  {x "
+            ],
+            "name": "South Ballroom",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40420",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40464"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40463"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40458"
-                }
-            },
-            "extras": {}
-        },
-        "40425": {
-            "name": "The East Stair",
-            "description": [
-                "{8A small spiral stair winds up to the second floor.  While it is",
-                "described as small, this is a relative term when compared to the grand",
-                "staircase in the Rotunda.  West lies the east hall, while the top of",
-                "the east wing stair is above.  ",
-                "{x"
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40425",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40424"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "40445",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40436"
-                }
-            },
-            "extras": {}
-        },
-        "40413": {
-            "name": "A Game Trail through the Woods",
-            "description": [
-                "{gThis small game trail intersects with the Shire Forest Road to the",
-                "west, and is truly just a game trail.  The narrow winding path climbs",
-                "back and forth up the hill, moving between the trunks of large big",
-                "leaf maples and oaks.  The understory is dominated by a dense",
-                "undergrowth of sword fern and salal, making the game trail barely",
-                "recognizable.  {x "
-            ],
-            "flags_raw": "0 67118088 0 3",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40413",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "1168"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40412"
-                }
-            },
-            "extras": {}
-        },
-        "40404": {
-            "name": "The West Lawn",
-            "description": [
-                "{GThe west lawn is a well manicured affair.  A thick carpet of grass",
-                "has been trimmed short, but provides a soft cushion to walk upon.  A",
-                "springy step is a side effect of this treatment, and pleasure radiates",
-                "out from every step.  The west lawn leads around the west side of the",
-                "manor, with a Boxwood Maze located to the down.  The Terrace of",
-                "Fountains lies to the east.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40404",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40402"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40405"
-                }
-            },
-            "extras": {}
-        },
-        "40429": {
-            "name": "The Back Terrace",
-            "description": [
-                "The back terrace overlooks the back gardens and the forest to the",
-                "north.  Down a set of stone steps, the back gardens spread out with",
-                "flagstone paths winding between fruit trees and other shrubs.  The",
-                "terrace itself is small in comparison to many of the structures around",
-                "the manor, but provides just enough room for an intimate conversation,",
-                "or room for one to sit down and write in the peace of the outdoors.  {x "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40429",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40422"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40407"
-                }
-            },
-            "extras": {}
-        },
-        "40449": {
-            "name": "The Waterwheel ",
-            "description": [
-                "{CT{che {CW{caterwheel {yis a simple machine designed for many functions. ",
-                "This one is attached to the bellows in the blacksmith shop next door. ",
-                "{CW{cater from the {Cstream{y is diverted to the wheel, making it spin and",
-                "pump the bellows, freeing up the smith to focus on the other aspects",
-                "of his trade.  {x "
-            ],
-            "flags_raw": "0 67118088 0 27",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40449",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40448"
-                }
-            },
-            "extras": {}
-        },
-        "40454": {
-            "name": "The Boxwood Maze",
-            "description": [
-                "{gThe Boxwood Maze is a truly confusing construction.  Normally one",
-                "entering a maze would follow one direction until they came to the",
-                "appropriate exit, but the boxwood maze of the {CJ{co{Yy{cb{wr{Yi{wn{cg{Ye{cr{Cs {g appears to",
-                "have been augmented by magic, and the doors shift randomly in time. ",
-                "The manor house remains to the east, with no apparent exit to that",
-                "location, and the west lawn lies somewhere to the south.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40454",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40455"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40405"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40417",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40405"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40453"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40406"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40431": {
-            "name": "The West Wing Hall",
-            "description": [
-                "{wThe wide white marble floors of the west wing hall echo with",
-                "footsteps of those treading the halls.  The west wing hall continues",
-                "to the west, while to the east lies the second floor landing over the",
-                "Grand Rotunda.  A small carven door leads south to the upper library,",
-                "while the music room of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w lies to the north.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40431",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40440"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40442"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40432"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40430"
-                }
-            },
-            "extras": {}
-        },
-        "40426": {
-            "name": "The West Hall",
-            "description": [
-                "{wThe west hall, like the main hall, is clad in gleaming white",
-                "marble.  The floors ring with musical notes as members of the",
-                "{CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w move about their daily routines.  The walls here are",
-                "covered in portraits of the rulers of the realms.  East lies the Grand",
-                "Rotunda, while to the west the hall continues.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40426",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40427"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40422"
-                }
-            },
-            "extras": {}
+            "vnum": "40419"
         },
         "40458": {
-            "name": "A Small Side Hall",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{8This narrow hall rises nearly twelve feet culminating in a gothic",
                 "arch.  The hall is constructed of unpolished granite, owing to its",
@@ -2052,37 +1849,37 @@
                 "is reserved for members of the clan.  {x {8A small wooden staircase leads",
                 "upwards towards the attic space.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40458",
+            "name": "A Small Side Hall",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40457",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40457"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40459",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40459"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "40462",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40462"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40458"
         },
         "40421": {
-            "name": "The Main Hall",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wThe main hall, ascending to the skylights forty feet above, is clad",
                 "entirely in white marble.  The walls in this portion of the hall are",
@@ -2091,37 +1888,351 @@
                 "into a grand rotundat to the north where the Grand Staircase is",
                 "located.  South lies the Entrance Hall of the Manor.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40421",
+            "name": "The Main Hall",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40422",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40422"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40439",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40439"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40417",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40417"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40421"
+        },
+        "40445": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cA stair descends from either side of the balcony, meeting at a",
+                "landing before continuing as one down to the dance floor.  The balcony",
+                "is split, passing along both the east and west sides of the second",
+                "floor, providing excellent views of the dance floor below.  These",
+                "balconies are used by revelers in need of a short break, but who want",
+                "to remain a part of the festivities, and more than one sultry liaison",
+                "has been initiated from these heady heights.  {x "
+            ],
+            "name": "South Ballroom Balcony",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40444",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "40419",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40445"
+        },
+        "40466": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The highest hall of the manor, the Attic Hall is a small passageway",
+                "with relatively low ceilings and little light.  Oil lamps are",
+                "scattered along it's length, and there is a door in the east wall. ",
+                "The attic hall continues both north and south.  {x "
+            ],
+            "name": "The Attic Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40468",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40467",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40464",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40466"
+        },
+        "40426": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wThe west hall, like the main hall, is clad in gleaming white",
+                "marble.  The floors ring with musical notes as members of the",
+                "{CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w move about their daily routines.  The walls here are",
+                "covered in portraits of the rulers of the realms.  East lies the Grand",
+                "Rotunda, while to the west the hall continues.  {x "
+            ],
+            "name": "The West Hall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40422",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40427",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40426"
+        },
+        "40463": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cA small room with a writing desk, an armchair, and asmall pallet",
+                "along the wall.  These are the small comforts members of the",
+                "Joybringers chosing to live within the manor may expect.  All othe",
+                "rcreature comforts and personal designs are to be provided by the",
+                "individual member.  Those desiring to occupy rooms within the manor",
+                "are expected to pay a rental fee to the organization in the amount of",
+                "500 platinum per month.  {x ",
+                " ",
+                "[{RFOR RENT{x]"
+            ],
+            "name": "Clan Member Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40462",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40463"
+        },
+        "40416": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8The eastern portion of the front terrace is framed by {wmarble",
+                "balusters{8 supporting intricately carved ralings.  While no entrances",
+                "to the manor are located on the eastern terrace, it provides an",
+                "excellent vantage point to view people wandering through the {RR{ro{Ms{re",
+                "{RG{ra{Mr{rd{Re{Mn{8 below or to look out over the eastern portions of the estate.{x"
+            ],
+            "name": "The Front Terrace",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40414",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40416"
+        },
+        "40425": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{8A small spiral stair winds up to the second floor.  While it is",
+                "described as small, this is a relative term when compared to the grand",
+                "staircase in the Rotunda.  West lies the east hall, while the top of",
+                "the east wing stair is above.  ",
+                "{x"
+            ],
+            "name": "The East Stair",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40436",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40424",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40425"
+        },
+        "40468": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The highest hall of the manor, the Attic Hall is a small passageway",
+                "with relatively low ceilings and little light.  Oil lamps are",
+                "scattered along it's length, and there is a door in the east wall. ",
+                "The attic hall terminates at this point with a small window looking",
+                "over the back gardens.  "
+            ],
+            "name": "The Attic Hall",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40469",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40466",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40468"
+        },
+        "40431": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wThe wide white marble floors of the west wing hall echo with",
+                "footsteps of those treading the halls.  The west wing hall continues",
+                "to the west, while to the east lies the second floor landing over the",
+                "Grand Rotunda.  A small carven door leads south to the upper library,",
+                "while the music room of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w lies to the north.  {x "
+            ],
+            "name": "The West Wing Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40442",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40430",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40432",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40440",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40431"
+        },
+        "40422": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wThe Grand Rotunda is formed by the intersection of the three",
+                "primary corridors of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr {YM{ca{Cn{co{Yr{w.  This is the point where",
+                "the main hall, the east hall and the west hall meet.  The room is a",
+                "large circle, with a {Cglass dome {warching high overhead, and a grand",
+                "staircase sweeping up and around from each side, rising to the second",
+                "floor landing.  To the north is a wall of {Cwindows{w looking out over the",
+                "back grounds and forest.  {x "
+            ],
+            "name": "The Grand Rotunda",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40429",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40423",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "40430",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40426",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40421",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40422"
         },
         "40439": {
-            "name": "Library - Lower Level",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{cBook cases line the walls from floor to the heights of the two",
                 "story ceiling.  A Library ladder allows access to the second floor",
@@ -2133,168 +2244,55 @@
                 "providing light sources for the evenings where members of the",
                 "{CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{c spend time in research or just reading for enjoyment.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40439",
+            "name": "Library - Lower Level",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40421",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40421"
+                    ]
                 },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "40440",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40440"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40456": {
-            "name": "Leader's Office",
-            "description": [
-                "{CThe Leaders' Office is just that, a working office space.  This is",
-                "where the day-to-day adminstration is taken care of.  Two desks sit in",
-                "the room, one on each the east and west walls.  A small {8leaded {wglass",
-                "window{C is in the northern wall, while heavily carved door stands in",
-                "the south wall of the room.  The east wing hall lies just so the",
-                "south.  {x "
-            ],
-            "flags_raw": "0 67109896 0 0",
             "wanted_area_vnum": "",
+            "vnum": "40439"
+        },
+        "40461": {
+            "extras": {},
+            "flags_raw": "0 1032 0 0",
             "flags2_raw": "0",
-            "vnum": "40456",
+            "description": [
+                "The leader's room is a large room, designed for the comfort of the",
+                "leader of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x.  More of a suite than a room, this is where",
+                "leaders retire from their duties and have the peace and solitude where",
+                "they actually get work done.  A pair of {Cleaded glass windows{x opens up",
+                "to the north, providing stunning views of the {Ggardens{x below, and the",
+                "{gforest{x stretching out far to the north.  "
+            ],
+            "name": "Leader's Room",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40432",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40435"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40445": {
-            "name": "South Ballroom Balcony",
-            "description": [
-                "{cA stair descends from either side of the balcony, meeting at a",
-                "landing before continuing as one down to the dance floor.  The balcony",
-                "is split, passing along both the east and west sides of the second",
-                "floor, providing excellent views of the dance floor below.  These",
-                "balconies are used by revelers in need of a short break, but who want",
-                "to remain a part of the festivities, and more than one sultry liaison",
-                "has been initiated from these heady heights.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40445",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40444"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40419"
-                }
-            },
-            "extras": {}
+            "vnum": "40461"
         },
-        "40437": {
-            "name": "The Formal Dining Hall",
-            "description": [
-                "{CThe dining hall is a festive place.  It is here that the",
-                "J{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{C hold banquets and other affairs or parties.  The dining",
-                "hall is located in close proximity to the Ballroom, with large sets of",
-                "french doors constantly open to that grand space, allowing revellers",
-                "easy access to the dance floor if the mood should take them, as well",
-                "as allowing for music to waft down from the musician's balcony above. ",
-                "The kitchens lie to the south, while the east hall is just north.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
+        "40469": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
             "flags2_raw": "0",
-            "vnum": "40437",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40424"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40420"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40438"
-                }
-            },
-            "extras": {}
-        },
-        "40448": {
-            "name": "The Blacksmith's Shop",
-            "description": [
-                "{8The blacksmith's shop is a pair of small buildings, the shop itself",
-                "and the waterwheel located just to the east.  The shop is of simple",
-                "wood construction with exposed beams and tools of the trade hanging on",
-                "all the walls.  A Large bellows is built into the eastern side of the",
-                "shop, and appears to be mechanically driven.  The Forge itself is a",
-                "huge affair dominating the north wall.  Anvils of differing sizes are",
-                "spread in a semicircle around the forge.  {x "
-            ],
-            "flags_raw": "0 67118088 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40448",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40447"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40474"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40449"
-                }
-            },
-            "extras": {}
-        },
-        "40465": {
-            "name": "Clan Member Room",
             "description": [
                 "{cA small room with a writing desk, an armchair, and asmall pallet",
                 "along the wall.  These are the small comforts members of the",
@@ -2306,172 +2304,73 @@
                 " ",
                 "[{RFOR RENT{x]"
             ],
-            "flags_raw": "0 67108872 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40465",
+            "name": "Clan Member Room",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40468",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40464"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40412": {
-            "name": "A Game Trail through the Woods",
-            "description": [
-                "{gThe trunks of immense big leaf maples and oaks dominate the forest",
-                "here, with the occasional douglas fir mixed in occasionally.  The",
-                "understory is dominated by ferns and salal, through which a small game",
-                "trail winds, moving to and fro as only a trail created by animals can.",
-                "In the canopy, the sounds of chattering squirrels and chirping birds",
-                "can be readily heard.  What appears to be a manicured hedge lies to",
-                "the north, while the trail winds down the slope of a small hill.  {x "
-            ],
-            "flags_raw": "0 67118088 0 3",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40412",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40400"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40413"
-                }
-            },
-            "extras": {}
+            "vnum": "40469"
         },
-        "40432": {
-            "name": "The West Wing Hall",
-            "description": [
-                "{wTo maintain continuity with the other major passages within the",
-                "manor, the west wing hall is clad entirely in white marble.  The most",
-                "quiet and private bedroom in the manor lies to the north.  To the",
-                "east, the west wing hall continues, an the west wing stair lies to the",
-                "west.  {x "
-            ],
+        "40443": {
+            "extras": {},
             "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "40432",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40461"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40433"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40431"
-                }
-            },
-            "extras": {}
-        },
-        "40441": {
-            "name": "Conservatory",
             "description": [
-                "{cThe conservatory is a cross between a greenhouse and a lounge. ",
-                "Thousands of plants are raised here, many of them quite rare.  The air",
-                "in this largely glass room is humid, and has the pleasant aromas of",
-                "damp earth and flowers.  A feeling of peace emanates from this room,",
-                "at least for those whose hearts lead them towards nature.  {x "
+                "The Study is a quite room for members of the order to sit and work",
+                "on individual projects.  It is here that quiet hobies are undertaken,",
+                "as well as studying or planning for various events.  A large {Ccasement",
+                "window{x stands in the north wall, providing a stunning view of the back",
+                "gardens and forest below.  A small fireplace provides warmth on cold",
+                "nights.  Overall, it is a tranquil retreat.  {x "
             ],
-            "flags_raw": "0 67118088 0 13",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40441",
+            "name": "Study",
             "exits": {
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40434",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40427"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "40422": {
-            "name": "The Grand Rotunda",
-            "description": [
-                "{wThe Grand Rotunda is formed by the intersection of the three",
-                "primary corridors of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr {YM{ca{Cn{co{Yr{w.  This is the point where",
-                "the main hall, the east hall and the west hall meet.  The room is a",
-                "large circle, with a {Cglass dome {warching high overhead, and a grand",
-                "staircase sweeping up and around from each side, rising to the second",
-                "floor landing.  To the north is a wall of {Cwindows{w looking out over the",
-                "back grounds and forest.  {x "
-            ],
-            "flags_raw": "0 67118088 0 0",
             "wanted_area_vnum": "",
+            "vnum": "40443"
+        },
+        "40472": {
+            "extras": {},
+            "flags_raw": "0 67122184 0 13",
             "flags2_raw": "0",
-            "vnum": "40422",
+            "description": [
+                "{gThe aviary of the joybringers consists of a small building and then",
+                "an incredibly large aviary, a gigantic mesh canopy held up on long",
+                "poles reaching high into the sky.  {-F{-l{-o{-w{-e{-r{-s{g of many kinds grow within",
+                "the aviary all having one thing in common, their production of nectar.",
+                "A sweet smell pervades the air, and the buzzing sound heard outside",
+                "{gcomes from the wings of dozens of {RRuby-throated {Ghu{gmm{Cin{ggb{Gir{cds.  {x "
+            ],
+            "name": "The Joybringers' Aviary",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40421"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40429"
-                },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "40411",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40426"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40423"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40430"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40472"
         },
         "40424": {
-            "name": "The East Hall",
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wThis portion of the east hall is clad in white marble, like all the",
                 "halls of the manor.  In a slight change from those other locations,",
@@ -2481,90 +2380,192 @@
                 "South lies the {CF{co{Yr{cm{Ca{cl {YD{ci{Cn{ci{Yn{cg {CH{ca{Yl{cl{w of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{w lies to the",
                 "south.  {x "
             ],
-            "flags_raw": "0 67118088 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40424",
+            "name": "The East Hall",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40437"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "40475",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40475"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "40423"
+                    ]
                 },
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "40425",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40425"
-                }
-            },
-            "extras": {}
-        },
-        "40400": {
-            "name": "A Gap in the Hedge",
-            "description": [
-                "{gThe surrounding forest stops suddenly in a tall, well manicured yew",
-                "hedge.  There is a gap in the hedge with a large {8wrought iron gate. ",
-                "{gAtop the gate is a large sculpture of a {Rruby-throated {Ghu{gmm{Cin{ggb{Gir{cd {g",
-                "looking out over the forest.  A flagstone path leads out from the gap",
-                "into well manicured lawns and beautiful grounds.  In the distance an",
-                "ivy covered manor house can be seen.  {x "
-            ],
-            "flags_raw": "0 67118080 0 19",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "40400",
-            "exits": {
-                "north": {
+                    ]
+                },
+                "west": {
                     "flags_raw": "0",
+                    "room_id": "40423",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40401"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "40437",
                     "description": [
                         ""
-                    ],
-                    "room_id": "40412"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "40424"
+        },
+        "40444": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cThe Musician's Balcony circles around the northern portion of the",
+                "ballroom below, allowing the musicians clear view of the dancers",
+                "below, and conducting superb sound to the revellers waltzing across",
+                "the floor.  A small door to the north allows musicians to move in and",
+                "out as unobtrusively as possibe, stepping out into the east wing hall.",
+                "{x "
+            ],
+            "name": "Musician's Balcony",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40434",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40445",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40444"
+        },
+        "40467": {
+            "extras": {},
+            "flags_raw": "0 67108872 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{cA small room with a writing desk, an armchair, and asmall pallet",
+                "along the wall.  These are the small comforts members of the",
+                "Joybringers chosing to live within the manor may expect.  All othe",
+                "rcreature comforts and personal designs are to be provided by the",
+                "individual member.  Those desiring to occupy rooms within the manor",
+                "are expected to pay a rental fee to the organization in the amount of",
+                "500 platinum per month.  {x ",
+                " ",
+                "[{RFOR RENT{x]"
+            ],
+            "name": "Clan Member Room",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "40466",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40467"
+        },
+        "40401": {
+            "extras": {},
+            "flags_raw": "0 67118080 0 19",
+            "flags2_raw": "0",
+            "description": [
+                "{8A flagstone path {Gwinds through the lawns, heading towards the manor",
+                "house.  Stone sculptures of beasts fantastic and mundane are scattered",
+                "over the grounds, intermixed with topiaries.  Everywhere one looks,",
+                "the eye is drawn to a different piece of artwork.  The sound of",
+                "{Cgurgling water{G can be heard in the distance.  {x "
+            ],
+            "name": "The Flagstone Path",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40402",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40400",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40401"
+        },
+        "40464": {
+            "extras": {},
+            "flags_raw": "0 67118088 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "The highest hall of the manor, the Attic Hall is a small passageway",
+                "with relatively low ceilings and little light.  Oil lamps are",
+                "scattered along it's length, and there is a door in the east wall. ",
+                "The attic hall continues both north and south.  {x "
+            ],
+            "name": "The Attic Hall",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "40466",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "40465",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "40462",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "40464"
+        },
+        "40473": {
+            "extras": {},
+            "flags_raw": "0 67122188 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "Aviary Holding Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "40473"
         }
     },
-    "uid": "jybrng",
-    "area_quest_points": 0,
     "credits": "[ CLNHLL ] Hall of the Joy Bringers",
     "faction_id": "",
+    "name": "The Joy Bringers (Clan Hall 2010)",
     "vnums": [
         40400,
         40499
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 10,
+    "subroutines": [],
     "mobiles": {
         "40400": {
-            "name": "{GI{wv{gy{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Ivy is the Joybringer's master gardener, spending most of her time\n",
                 "in maintenance of the fabulous grounds around the manor.  When she is\n",
@@ -2573,21 +2574,21 @@
                 "taken from plants grown directly on the manor grounds.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 40400,
             "raw_flags": "ABGQ DEFLa 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "{GI{wv{gy{8, the {Gm{ga{Ys{gt{Ge{wr {Gg{ga{Yr{gd{Ge{gn{we{Gr{8 and {cpotion mistress{8 of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{8 relaxes in her {Cc{co{wn{gs{Ge{gr{Cv{ga{Gt{go{wr{Gy{g.{x\n",
-            "keywords": "ivy potion gardener~\n"
+            "name": "{GI{wv{gy{x~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "ivy potion gardener~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40401": {
-            "name": "{GL{gor{Gd {GH{Me{mll{8e{mbo{Mr{Ge{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Lord Hellebore is a sturdy man, accustomed to hard work outdoors. \n",
                 "He is the stablemaster for the Joybringers, as was his father before\n",
@@ -2596,21 +2597,21 @@
                 "realms.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 40401,
             "raw_flags": "ABEG La 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "{GL{gor{Gd {GH{Me{mll{8e{mbo{Mr{Ge{C{8, {YS{ytablemaster {8for the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{8 mucks out a stall.{x\n",
-            "keywords": "lord hellebore~\n"
+            "name": "{GL{gor{Gd {GH{Me{mll{8e{mbo{Mr{Ge{x~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "lord hellebore~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40402": {
-            "name": "{ML{wad{My A{mc{wa{Mnt{wh{mu{Ms{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Lady Acanthus is a striking woman.  Although she is small, her\n",
                 "exceptionally fine features hint at some fey heritage.  Perhaps this\n",
@@ -2619,21 +2620,21 @@
                 " \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 40402,
             "raw_flags": "ABEG La 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "{ML{wad{My A{mc{wa{Mnt{wh{mu{Ms{g stands here tending her {-f{-l{-o{-w{-e{-r{-s {gand {Gb{gi{Cr{gd{Gs.{x\n",
-            "keywords": "lady acanthus~\n"
+            "name": "{ML{wad{My A{mc{wa{Mnt{wh{mu{Ms{x~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "lady acanthus~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40403": {
-            "name": "{GL{gor{Gd {GF{Mo{mx{8g{mlo{Mv{Ge{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Lord Foxglove is a handsome man, but all accounts.  He is\n",
                 "impeccably dressed, with not a speck of dirt, or blood for that\n",
@@ -2642,21 +2643,21 @@
                 "stare into yours as he {Rs{rlits your throat.  {x \n"
             ],
             "raw_flags5": "sit stand male 0",
-            "raw_flags6": "AGHMV ABCDEFGHIJKUV medium unknown",
-            "raw_flags4": "H ABCDN 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 40403,
             "raw_flags": "ABCGd DEFJVac 0 -1000 0",
-            "race_id": "human",
-            "raw_flags2": "102 7000 1d1+11059 100d100+100 666d666+666 digestion",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "H ABCDN 0 0",
             "room_name": "{GL{gor{Gd {GF{Mo{mx{8g{mlo{Mv{Ge{8 stand here, ready to ease your pain... permanently.{x\n",
-            "keywords": "lord foxglove~\n"
+            "name": "{GL{gor{Gd {GF{Mo{mx{8g{mlo{Mv{Ge{x~\n",
+            "raw_flags2": "102 7000 1d1+11059 100d100+100 666d666+666 digestion",
+            "keywords": "lord foxglove~\n",
+            "subroutines": [],
+            "raw_flags6": "AGHMV ABCDEFGHIJKUV medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40404": {
-            "name": "{MV{Bi{Mo{Bl{Me{Bt{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "An attractive young woman whose culinary talents far surpass her\n",
                 "age.  Violet stands about 5'11\" tall and unlike most cooks, is slender\n",
@@ -2664,21 +2665,21 @@
                 "eyes for which she was named.  {x \n"
             ],
             "raw_flags5": "stand stand male 1000",
-            "raw_flags6": "AHMV ABCDEFGHIJKP medium unknown",
-            "raw_flags4": "CFGJKN ABCDE BJ R",
-            "raw_flags3": "0 0 0 0",
             "vnum": 40404,
             "raw_flags": "ABGNR DEFJTUVZ 0 1000 0",
-            "race_id": "pixie",
-            "raw_flags2": "100 600 100d100+100 100d100+100 100d100+100 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CFGJKN ABCDE BJ R",
             "room_name": "{MV{Bi{Mo{Bl{Me{Bt{M, e{Bx{Me{Bc{Mu{Bt{Mi{Bv{Me {Bc{Mh{Be{Mf{8 of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{8 stands here governing over the kitchen staff.{x\n",
-            "keywords": "violet~\n"
+            "name": "{MV{Bi{Mo{Bl{Me{Bt{x~\n",
+            "raw_flags2": "100 600 100d100+100 100d100+100 100d100+100 none",
+            "keywords": "violet~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKP medium unknown",
+            "race_id": "pixie",
+            "t_flags": "T ~"
         },
         "40406": {
-            "name": "{CL{cor{Cd A{cs{Yt{ce{Cr, {CJ{ce{Yw{cl{Ce{cr{8 of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Lord Aster is a well reputed jewler throughout the realms.  He is\n",
                 "middle-aged with salt and pepper hair, and a hawklike nose.  A pair of\n",
@@ -2688,21 +2689,21 @@
                 "realms.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 40406,
             "raw_flags": "ABGQT DEFLa 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "{CL{cor{Cd A{cs{Yt{ce{Cr, {CJ{ce{Yw{cl{Ce{cr{8 of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x tends his shop.\n",
-            "keywords": "lord aster jewler~\n"
+            "name": "{CL{cor{Cd A{cs{Yt{ce{Cr, {CJ{ce{Yw{cl{Ce{cr{8 of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{x~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "lord aster jewler~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40407": {
-            "name": "{GL{gor{Gd {RS{rn{gap{Md{Rr{ra{ggo{Rn, {8the Blacksmith{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Lord Snapdragon is the blacksmith for the Joybringers.  Enjoying\n",
                 "his solitude, he remains outside the manor, prefering to stay in the\n",
@@ -2713,71 +2714,73 @@
                 "battle.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 40407,
             "raw_flags": "ABGQT DEFLa 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "{GL{gor{Gd {RS{rn{gap{Md{Rr{ra{ggo{Rn, {8the Blacksmith stands before the forge.{x\n",
-            "keywords": "lord snap dragon snapdragon black smith blacksmith~\n"
+            "name": "{GL{gor{Gd {RS{rn{gap{Md{Rr{ra{ggo{Rn, {8the Blacksmith{x~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "lord snap dragon snapdragon black smith blacksmith~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40408": {
-            "name": "{BI{br{Yi{bs{B, {8the {BH{be{Ya{bl{Be{br{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Iris is the Healer of the Joybringers.  Trained as a healer from a\n",
                 "young age, she is well known for her tender touch and the floral\n",
                 "scents of her healing oils.  There is little Iris cannot care for.  \n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 40408,
             "raw_flags": "ABZa 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZa 0 0",
+            "room_name": "{BI{br{Yi{bs{B, {8the {BH{be{Ya{bl{Be{br {8of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{8 stands here ready to tend your wounds.{x\n",
+            "name": "{BI{br{Yi{bs{B, {8the {BH{be{Ya{bl{Be{br{x~\n",
             "raw_flags2": "0 0 1d1+1 1d1+1 1d1+1 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "iris healer~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{BI{br{Yi{bs{B, {8the {BH{be{Ya{bl{Be{br {8of the {CJ{co{Yy{cb{Cr{ci{Yn{cg{Ce{cr{Ys{8 stands here ready to tend your wounds.{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "iris healer~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "40409": {
-            "name": "{GA {RRuby-throated {GHu{gmm{Cin{ggb{Gir{cd{x~\n",
+            "raw_parts": "BGI",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "These hummingbirds seem to be whereever the Joybringers tread. \n",
                 "Their bright colors and whimsical personalities seem to accentuate the\n",
                 "nature of the organization.  \n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AGHMV ACDEFHJKPQ medium unknown",
-            "raw_flags4": "EFHIKL AB J LQ",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 40409,
             "raw_flags": "AIVd DFJLPTVZ 0 0 0",
-            "race_id": "avian",
+            "raw_flags4": "EFHIKL AB J LQ",
+            "room_name": "{GA {RRuby-throated {GHu{gmm{Cin{ggb{Gir{cd{x flits from {-f{-l{-o{-w{-e{-r {xto {-f{-l{-o{-w{-e{-r{x.\n",
+            "name": "{GA {RRuby-throated {GHu{gmm{Cin{ggb{Gir{cd{x~\n",
             "raw_flags2": "101 9 1d1+2999 30d60+6200 4d12+9 pierce",
-            "d_flags": "D ~",
+            "keywords": "ruby throat humming bird hummingbird~\n",
             "subroutines": [
                 "F par BGI\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{GA {RRuby-throated {GHu{gmm{Cin{ggb{Gir{cd{x flits from {-f{-l{-o{-w{-e{-r {xto {-f{-l{-o{-w{-e{-r{x.\n",
-            "raw_parts": "BGI",
-            "keywords": "ruby throat humming bird hummingbird~\n"
+            "raw_flags6": "AGHMV ACDEFHJKPQ medium unknown",
+            "race_id": "avian",
+            "t_flags": "T ~"
         },
         "40410": {
-            "name": "{8A {wD{8ap{Wpl{we {WG{wre{8y {wH{Wo{8r{wse{x~\n",
+            "raw_parts": "G",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
+            "raw_resistances": "N",
             "description": [
                 "Bred in the stables of Lord Hellebore, these magnificent animals\n",
                 "are the exclusive mounts for the Joybringers.  Their sleek coats and\n",
@@ -2786,30 +2789,28 @@
                 "prime examples of what every horse should be.  \n"
             ],
             "raw_flags5": "stand stand female 10000",
-            "raw_flags6": "AHMV ABCDEFHIJK large unknown",
-            "raw_flags4": "FHK ABQ HI CFQ",
-            "raw_parts": "G",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 40410,
+            "raw_affected": "c",
             "raw_flags": "AVdf CFG 0 1000 0",
-            "race_id": "centaur",
-            "raw_resistances": "N",
+            "raw_flags4": "FHK ABQ HI CFQ",
+            "room_name": "{8A {wD{8ap{Wpl{we {WG{wre{8y {wH{Wo{8r{wse{x awaits its rider.\n",
+            "raw_vulns": "M",
+            "name": "{8A {wD{8ap{Wpl{we {WG{wre{8y {wH{Wo{8r{wse{x~\n",
             "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 bite",
-            "d_flags": "D ~",
+            "keywords": "horse dapple grey~\n",
             "subroutines": [
                 "F aff c\n",
                 "F res N\n",
                 "F vul M\n",
                 "F par G\n"
             ],
-            "raw_affected": "c",
-            "t_flags": "T ~",
-            "room_name": "{8A {wD{8ap{Wpl{we {WG{wre{8y {wH{Wo{8r{wse{x awaits its rider.\n",
-            "raw_vulns": "M",
-            "keywords": "horse dapple grey~\n"
+            "raw_flags6": "AHMV ABCDEFHIJK large unknown",
+            "race_id": "centaur",
+            "t_flags": "T ~"
         },
         "40411": {
-            "name": "{GL{gad{Gy {RS{rn{gap{Md{Rr{ra{ggo{Rn,{8 the {Cw{ce{Ya{cv{Ce{cr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "Lady Snapdragon is the wife of the Blacksmith of the Joybringers. \n",
                 "Her grey hair is pulled back, adding to the severe appearance of her\n",
@@ -2817,19 +2818,18 @@
                 "knowing look.  \n"
             ],
             "raw_flags5": "stand stand male 100000",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CF L E 0",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 40411,
             "raw_flags": "ABGQT DEFLa 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CF L E 0",
             "room_name": "{GL{gad{Gy {RS{rn{gap{Md{Rr{ra{ggo{Rn,{8 the {Cw{ce{Ya{cv{Ce{cr{x walks around her shop.\n",
-            "keywords": "lady snapdragon~\n"
+            "name": "{GL{gad{Gy {RS{rn{gap{Md{Rr{ra{ggo{Rn,{8 the {Cw{ce{Ya{cv{Ce{cr{x~\n",
+            "raw_flags2": "105 10 10d10+10 10d10+10 10d10+10 none",
+            "keywords": "lady snapdragon~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 10
+    "area_quest_points": 0
 }

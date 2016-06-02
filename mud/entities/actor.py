@@ -449,6 +449,7 @@ class Actor(RoomEntity):
     A creature, monster, person, etc. that is 'alive' in the World.
     """
     COLLECTION_NAME = "actors"
+    CACHED_COMMANDS = []
 
     def __init__(self, *args, **kwargs):
         super(Actor, self).__init__(*args, **kwargs)
@@ -679,118 +680,131 @@ class Actor(RoomEntity):
         return False
 
     def query_command_handlers(self):
-        from settings.directions import DIRECTIONS
-        from settings.channels import CHANNELS
+        if not self.__class__.CACHED_COMMANDS:
+            from settings.directions import DIRECTIONS
+            from settings.channels import CHANNELS
 
-        commands = []
+            commands = []
 
-        commands = [
-            {
-                "keywords": "password",
-                "handler": password_command,
-            },
-            {
-                "keywords": "quit",
-                "handler": quit_command,
-            },
-            {
-                "keywords": "commands",
-                "handler": commands_command,
-            },
-            {
-                "keywords": "affects",
-                "handler": affects_command
-            },
-            {
-                "keywords": "nocommand",
-                "role": "admin",
-                "handler": nocommand_command
-            },
-            {
-                "keywords": "effects",
-                "handler": affects_command
-            },
-            {
-                "keywords": "title",
-                "handler": title_command
-            },
-            {
-                "keywords": "bash",
-                "handler": bash_command
-            },
-            {
-                "keywords": "say",
-                "handler": say_command
-            },
-            {
-                "keywords": "sayooc",
-                "handler": sayooc_command
-            },
-            {
-                "keywords": "save",
-                "handler": save_command
-            },
-            {
-                "keywords": "tell",
-                "handler": tell_command
-            },
-            {
-                "keywords": "who",
-                "handler": who_command
-            },
-            {
-                "keywords": "prompt",
-                "handler": prompt_command
-            },
-            {
-                "keywords": "kill",
-                "handler": kill_command
-            },
-            {
-                "keywords": "string",
-                "handler": string_command
-            },
-        ]
+            commands = [
+                {
+                    "keywords": "password",
+                    "handler": password_command,
+                },
+                {
+                    "keywords": "quit",
+                    "handler": quit_command,
+                },
+                {
+                    "keywords": "commands",
+                    "handler": commands_command,
+                },
+                {
+                    "keywords": "affects",
+                    "handler": affects_command
+                },
+                {
+                    "keywords": "nocommand",
+                    "role": "admin",
+                    "handler": nocommand_command
+                },
+                {
+                    "keywords": "effects",
+                    "handler": affects_command
+                },
+                {
+                    "keywords": "title",
+                    "handler": title_command
+                },
+                {
+                    "keywords": "bash",
+                    "handler": bash_command
+                },
+                {
+                    "keywords": "say",
+                    "handler": say_command
+                },
+                {
+                    "keywords": "sayooc",
+                    "handler": sayooc_command
+                },
+                {
+                    "keywords": "save",
+                    "handler": save_command
+                },
+                {
+                    "keywords": "tell",
+                    "handler": tell_command
+                },
+                {
+                    "keywords": "who",
+                    "handler": who_command
+                },
+                {
+                    "keywords": "prompt",
+                    "handler": prompt_command
+                },
+                {
+                    "keywords": "kill",
+                    "handler": kill_command
+                },
+                {
+                    "keywords": "string",
+                    "handler": string_command
+                },
+            ]
 
-        from mud.commands.sockets import sockets_command
-        commands.append({"keywords": "sockets", "handler": sockets_command, "role": "admin"})
+            from mud.commands.sockets import sockets_command
+            commands.append({"keywords": "sockets", "handler": sockets_command, "role": "admin"})
 
-        from mud.commands.map import map_command
-        commands.append({"keywords": "map", "handler": map_command})
+            from mud.commands.map import map_command
+            commands.append({"keywords": "map", "handler": map_command})
 
-        from mud.commands.look import look_command
-        commands.append({"keywords": "look", "handler": look_command})
+            from mud.commands.look import look_command
+            commands.append({"keywords": "look", "handler": look_command})
 
-        from mud.commands.roles import roles_command
-        commands.append({"keywords": "roles", "handler": roles_command, "role": "admin"})
+            from mud.commands.roles import roles_command
+            commands.append({"keywords": "roles", "handler": roles_command, "role": "admin"})
 
-        from mud.commands.equipment import equipment_command
-        commands.append({"keywords": "equipment", "handler": equipment_command})
+            from mud.commands.equipment import equipment_command
+            commands.append({"keywords": "equipment", "handler": equipment_command})
 
-        from mud.commands.recall import recall_command
-        commands.append({"keywords": "recall", "handler": recall_command})
+            from mud.commands.recall import recall_command
+            commands.append({"keywords": "recall", "handler": recall_command})
 
-        from mud.commands.emote import emote_command
-        commands.append({"keywords": "emote", "handler": emote_command})
+            from mud.commands.emote import emote_command
+            commands.append({"keywords": "emote", "handler": emote_command})
 
-        from mud.commands.pmote import pmote_command
-        commands.append({"keywords": "pmote", "handler": pmote_command})
+            from mud.commands.pmote import pmote_command
+            commands.append({"keywords": "pmote", "handler": pmote_command})
 
-        # Add walking in directions.
-        for direction in DIRECTIONS.keys():
-            commands.insert(0, {
-                "keywords": direction,
-                "handler": walk_command
-            })
+            # Add walking in directions.
+            for direction in DIRECTIONS.keys():
+                commands.insert(0, {
+                    "keywords": direction,
+                    "handler": walk_command
+                })
 
-        # Add channel commands.
-        for channel in CHANNELS.keys():
-            commands.append({
-                "keywords": channel,
-                "handler": channel_command
-            })
+            # Add channel commands.
+            for channel in CHANNELS.keys():
+                commands.append({
+                    "keywords": channel,
+                    "handler": channel_command
+                })
 
-        return commands
+            # SOCIALS
+            from mud.entities.social import Social
+            from mud.commands.social import social_command
+
+            for social in Social.query(game=self.game):
+                commands.append({
+                    "keywords": social["name"],
+                    "handler": social_command
+                })
+
+            self.__class__.CACHED_COMMANDS = commands
+
+        return self.__class__.CACHED_COMMANDS
 
     def add_role(self, role):
         roles = self.get_roles()

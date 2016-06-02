@@ -1,52 +1,242 @@
 {
-    "name": "Artifacts",
+    "security": 10,
+    "recall_room_id": 3001,
     "id": "artifact",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "artifact",
     "rooms": {
-        "54626": {
-            "name": "{RTeam Two Prep Room{x",
-            "description": [
-                "This is your prep room.  Group up, work out your differences, and",
-                "prepare to be thrust into combat at any time.  "
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
+        "54616": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
             "flags2_raw": "0",
-            "vnum": "54626",
-            "exits": {},
-            "extras": {}
-        },
-        "54608": {
-            "name": "{R({gL{Go{Ct{Gt{go A{Gre{ga{R)  {8The Lobby{x",
             "description": [
-                "This room is very well decorated, the walls covered with either",
-                "beautiful tapestries or expensive paintings.  The receptionist is",
-                "waiting to hear what you need.  ",
-                " ",
-                "There is a {RSIGN{x here.",
-                " ",
-                "This area provided courtesy of Pax Faerunis."
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
             ],
-            "flags_raw": "0 0 8389120 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54608",
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "54617",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54609"
+                    ]
                 },
-                "down": {
+                "east": {
                     "flags_raw": "0",
+                    "room_id": "54624",
                     "description": [
                         ""
-                    ],
-                    "room_id": "4500"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54623",
+                    "description": [
+                        ""
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "54616"
+        },
+        "54611": {
+            "extras": {},
+            "flags_raw": "0 0 8389120 0",
+            "flags2_raw": "0",
+            "description": [
+                "The lottery area is a large circle of chairs, seated around an oak",
+                "table.  Upon the table is a large machine, where you can place items",
+                "of value to be won by the highest bidder.  "
+            ],
+            "name": "{R({gL{Go{Ct{Gt{go {gR{Goo{gm{x{R){x  {CR{coom {CT{cwo{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54609",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54611"
+        },
+        "54621": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54620",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54622",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54621"
+        },
+        "54624": {
+            "extras": {},
+            "flags_raw": "0 67117060 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  ",
+                " ",
+                "Market Square is up for when you are ready to leave."
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54618",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54620",
+                    "description": [
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "3014",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54616",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54622",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54624"
+        },
+        "54602": {
+            "extras": {},
+            "flags_raw": "0 1073750080 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing in the sweltering heat of the abyss.  The air is",
+                "filled with a red mist, and fiends and demons fly in all directions,",
+                "crying out in glee at the sight of a new playtoy.  Unluckily for you,",
+                "primes are the main source of amusement for the lower planes...  And",
+                "you happen to be from the prime material plane.  Good luck.  "
+            ],
+            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54603",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54601",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54602"
+        },
+        "54604": {
+            "extras": {},
+            "flags_raw": "0 1073750080 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing in the sweltering heat of the abyss.  The air is",
+                "filled with a red mist, and fiends and demons fly in all directions,",
+                "crying out in glee at the sight of a new playtoy.  Unluckily for you,",
+                "primes are the main source of amusement for the lower planes...  And",
+                "you happen to be from the prime material plane.  Good luck.  "
+            ],
+            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54605",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54603",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54604"
+        },
+        "54619": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54618",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54620",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54619"
+        },
+        "54608": {
             "extras": {
                 "sign": {
                     "description": [
@@ -83,390 +273,92 @@
                         ""
                     ]
                 }
-            }
+            },
+            "flags_raw": "0 0 8389120 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is very well decorated, the walls covered with either",
+                "beautiful tapestries or expensive paintings.  The receptionist is",
+                "waiting to hear what you need.  ",
+                " ",
+                "There is a {RSIGN{x here.",
+                " ",
+                "This area provided courtesy of Pax Faerunis."
+            ],
+            "name": "{R({gL{Go{Ct{Gt{go A{Gre{ga{R)  {8The Lobby{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54609",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "4500",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54608"
+        },
+        "54617": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54618",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54616",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54617"
         },
         "54606": {
-            "name": "{DEntrance to {rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
             "description": [
                 "The abyss stands before you.  You only need step north to enter,",
                 "but be warned...  Doing so is tantamount to suicide.  "
             ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54606",
+            "name": "{DEntrance to {rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "54601",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54601"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "54607": {
-            "name": "{rA{Rb{Yyss{Ra{rl{x {yT{Yr{Weasu{Yr{ye{x {bR{Boo{bm{x",
-            "description": [
-                "This cave is the private chamber of the balor you have just",
-                "defeated...  Contained inside is a single chest.  "
-            ],
-            "flags_raw": "0 0 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54607",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54605"
-                }
-            },
-            "extras": {}
-        },
-        "54614": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54614",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54613"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54615"
-                }
-            },
-            "extras": {}
-        },
-        "54601": {
-            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
-            "description": [
-                "You are standing in the sweltering heat of the abyss.  The air is",
-                "filled with a red mist, and fiends and demons fly in all directions,",
-                "crying out in glee at the sight of a new playtoy.  Unluckily for you,",
-                "primes are the main source of amusement for the lower planes...  And",
-                "you happen to be from the prime material plane.  Good luck.  "
-            ],
-            "flags_raw": "0 1073750080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54601",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54602"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54606"
-                }
-            },
-            "extras": {}
-        },
-        "54616": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54616",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54623"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54617"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54624"
-                }
-            },
-            "extras": {}
-        },
-        "54624": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  ",
-                " ",
-                "Market Square is up for when you are ready to leave."
-            ],
-            "flags_raw": "0 67117060 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54624",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54622"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54618"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54616"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54620"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "3014"
-                }
-            },
-            "extras": {}
-        },
-        "54605": {
-            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
-            "description": [
-                "You are standing in the sweltering heat of the abyss.  The air is",
-                "filled with a red mist, and fiends and demons fly in all directions,",
-                "crying out in glee at the sight of a new playtoy.  Unluckily for you,",
-                "primes are the main source of amusement for the lower planes...  And",
-                "you happen to be from the prime material plane.  Good luck.  ",
-                " ",
-                "This appears to be the home of a balor, foulest chaotic fiend of",
-                "the lower planes.",
-                " ",
-                "It would be a good idea to pray to your god before it is too late."
-            ],
-            "flags_raw": "0 1073750080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54605",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54607"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54604"
-                }
-            },
-            "extras": {}
-        },
-        "54620": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54620",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54619"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54624"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54621"
-                }
-            },
-            "extras": {}
-        },
-        "54617": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54617",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54616"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54618"
-                }
-            },
-            "extras": {}
-        },
-        "54621": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54621",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54620"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54622"
-                }
-            },
-            "extras": {}
-        },
-        "54604": {
-            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
-            "description": [
-                "You are standing in the sweltering heat of the abyss.  The air is",
-                "filled with a red mist, and fiends and demons fly in all directions,",
-                "crying out in glee at the sight of a new playtoy.  Unluckily for you,",
-                "primes are the main source of amusement for the lower planes...  And",
-                "you happen to be from the prime material plane.  Good luck.  "
-            ],
-            "flags_raw": "0 1073750080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54604",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54605"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54603"
-                }
-            },
-            "extras": {}
-        },
-        "54619": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54619",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54618"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54620"
-                }
-            },
-            "extras": {}
+            "vnum": "54606"
         },
         "54603": {
-            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
+            "extras": {},
+            "flags_raw": "0 1073750080 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are standing in the sweltering heat of the abyss.  The air is",
                 "filled with a red mist, and fiends and demons fly in all directions,",
@@ -474,286 +366,27 @@
                 "primes are the main source of amusement for the lower planes...  And",
                 "you happen to be from the prime material plane.  Good luck.  "
             ],
-            "flags_raw": "0 1073750080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54603",
+            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "54604",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54604"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "54602",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54602"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "54618": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54618",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54624"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54617"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54619"
-                }
-            },
-            "extras": {}
-        },
-        "54622": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54622",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54624"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54623"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54621"
-                }
-            },
-            "extras": {}
-        },
-        "54609": {
-            "name": "{R({gL{Go{Ct{Gt{go {gA{Gre{ga{x{R){D  An Intersection",
-            "description": [
-                "This room is interesting in that you can purchase tokens for use in",
-                "the lottery machines.  They are valued in platinum, are redeemable",
-                "here for their full price, and make quite a lovely gift or door prize."
-            ],
-            "flags_raw": "0 0 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54609",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54608"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54612"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54610"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54611"
-                }
-            },
-            "extras": {}
-        },
-        "54612": {
-            "name": "{R({gL{Go{Ct{Gt{go {gR{Goo{gm{x{R){x  {CR{coom {CT{chree{x",
-            "description": [
-                "The lottery area is a large circle of chairs, seated around an oak",
-                "table.  Upon the table is a large machine, where you can place items",
-                "of value to be won by the highest bidder.  "
-            ],
-            "flags_raw": "0 0 8389120 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54612",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54609"
-                }
-            },
-            "extras": {}
-        },
-        "54600": {
-            "name": "Artifacts Building Room",
-            "description": [
-                "if u playa",
-                "u dei & in hel",
-                "so leve",
-                "if u imm",
-                "i luv u",
-                " ",
-                " ",
-                "PLAYERS:  Leave if you find yourself here.",
-                "IMMS:  Please ask Helm before doing ANYTHING with this chest."
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54600",
-            "exits": {},
-            "extras": {}
-        },
-        "54623": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
-            ],
-            "flags_raw": "0 67117056 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54623",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54616"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54622"
-                }
-            },
-            "extras": {}
-        },
-        "54610": {
-            "name": "{R({gL{Go{Ct{Gt{go {gR{Goo{gm{x{R){x  {CR{coom {CO{cne{x",
-            "description": [
-                "The lottery area is a large circle of chairs, seated around an oak",
-                "table.  Upon the table is a large machine, where you can place items",
-                "of value to be won by the highest bidder.  "
-            ],
-            "flags_raw": "0 0 8389120 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54610",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54609"
-                }
-            },
-            "extras": {}
-        },
-        "54611": {
-            "name": "{R({gL{Go{Ct{Gt{go {gR{Goo{gm{x{R){x  {CR{coom {CT{cwo{x",
-            "description": [
-                "The lottery area is a large circle of chairs, seated around an oak",
-                "table.  Upon the table is a large machine, where you can place items",
-                "of value to be won by the highest bidder.  "
-            ],
-            "flags_raw": "0 0 8389120 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54611",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "54609"
-                }
-            },
-            "extras": {}
-        },
-        "54625": {
-            "name": "{RTeam One Prep Room{x",
-            "description": [
-                "This is your prep room.  Group up, work out your differences, and",
-                "prepare to be thrust into combat at any time.  "
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54625",
-            "exits": {},
-            "extras": {}
+            "vnum": "54603"
         },
         "54615": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x:  Teaming Room",
-            "description": [
-                "This room is strange, the walls and floor green, with channels of",
-                "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  ",
-                "{x",
-                "This room seems to be used for seperation into teams.{x",
-                " "
-            ],
-            "flags_raw": "0 4 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54615",
-            "exits": {},
             "extras": {
                 "rules": {
                     "description": [
@@ -782,32 +415,48 @@
                         ""
                     ]
                 }
-            }
-        },
-        "54613": {
-            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            },
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
             "description": [
                 "This room is strange, the walls and floor green, with channels of",
                 "what appear to be gold running along them.  Aside from that, this room",
-                "is bare and plain...  "
+                "is bare and plain...  ",
+                "{x",
+                "This room seems to be used for seperation into teams.{x",
+                " "
             ],
-            "flags_raw": "0 0 0 0",
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x:  Teaming Room",
+            "exits": {},
             "wanted_area_vnum": "",
+            "vnum": "54615"
+        },
+        "54610": {
+            "extras": {},
+            "flags_raw": "0 0 8389120 0",
             "flags2_raw": "0",
-            "vnum": "54613",
+            "description": [
+                "The lottery area is a large circle of chairs, seated around an oak",
+                "table.  Upon the table is a large machine, where you can place items",
+                "of value to be won by the highest bidder.  "
+            ],
+            "name": "{R({gL{Go{Ct{Gt{go {gR{Goo{gm{x{R){x  {CR{coom {CO{cne{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "54609",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54614"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "54610"
         },
-        "54602": {
-            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
+        "54601": {
+            "extras": {},
+            "flags_raw": "0 1073750080 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are standing in the sweltering heat of the abyss.  The air is",
                 "filled with a red mist, and fiends and demons fly in all directions,",
@@ -815,54 +464,406 @@
                 "primes are the main source of amusement for the lower planes...  And",
                 "you happen to be from the prime material plane.  Good luck.  "
             ],
-            "flags_raw": "0 1073750080 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "54602",
+            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "54602",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54603"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "54606",
                     "description": [
                         ""
-                    ],
-                    "room_id": "54601"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "54601"
+        },
+        "54612": {
+            "extras": {},
+            "flags_raw": "0 0 8389120 0",
+            "flags2_raw": "0",
+            "description": [
+                "The lottery area is a large circle of chairs, seated around an oak",
+                "table.  Upon the table is a large machine, where you can place items",
+                "of value to be won by the highest bidder.  "
+            ],
+            "name": "{R({gL{Go{Ct{Gt{go {gR{Goo{gm{x{R){x  {CR{coom {CT{chree{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54609",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54612"
+        },
+        "54605": {
+            "extras": {},
+            "flags_raw": "0 1073750080 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are standing in the sweltering heat of the abyss.  The air is",
+                "filled with a red mist, and fiends and demons fly in all directions,",
+                "crying out in glee at the sight of a new playtoy.  Unluckily for you,",
+                "primes are the main source of amusement for the lower planes...  And",
+                "you happen to be from the prime material plane.  Good luck.  ",
+                " ",
+                "This appears to be the home of a balor, foulest chaotic fiend of",
+                "the lower planes.",
+                " ",
+                "It would be a good idea to pray to your god before it is too late."
+            ],
+            "name": "{rT{Rh{re {rA{Rb{Yy{Rs{rs{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54607",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54604",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54605"
+        },
+        "54623": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54616",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54622",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54623"
+        },
+        "54600": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "if u playa",
+                "u dei & in hel",
+                "so leve",
+                "if u imm",
+                "i luv u",
+                " ",
+                " ",
+                "PLAYERS:  Leave if you find yourself here.",
+                "IMMS:  Please ask Helm before doing ANYTHING with this chest."
+            ],
+            "name": "Artifacts Building Room",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "54600"
+        },
+        "54626": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is your prep room.  Group up, work out your differences, and",
+                "prepare to be thrust into combat at any time.  "
+            ],
+            "name": "{RTeam Two Prep Room{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "54626"
+        },
+        "54609": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is interesting in that you can purchase tokens for use in",
+                "the lottery machines.  They are valued in platinum, are redeemable",
+                "here for their full price, and make quite a lovely gift or door prize."
+            ],
+            "name": "{R({gL{Go{Ct{Gt{go {gA{Gre{ga{x{R){D  An Intersection",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54612",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54611",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54610",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54608",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54609"
+        },
+        "54620": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54619",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54624",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54621",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54620"
+        },
+        "54618": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54619",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54617",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54624",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54618"
+        },
+        "54625": {
+            "extras": {},
+            "flags_raw": "0 4 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is your prep room.  Group up, work out your differences, and",
+                "prepare to be thrust into combat at any time.  "
+            ],
+            "name": "{RTeam One Prep Room{x",
+            "exits": {},
+            "wanted_area_vnum": "",
+            "vnum": "54625"
+        },
+        "54622": {
+            "extras": {},
+            "flags_raw": "0 67117056 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "54624",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54621",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54623",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54622"
+        },
+        "54607": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This cave is the private chamber of the balor you have just",
+                "defeated...  Contained inside is a single chest.  "
+            ],
+            "name": "{rA{Rb{Yyss{Ra{rl{x {yT{Yr{Weasu{Yr{ye{x {bR{Boo{bm{x",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "54605",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54607"
+        },
+        "54613": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54614",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54613"
+        },
+        "54614": {
+            "extras": {},
+            "flags_raw": "0 0 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is strange, the walls and floor green, with channels of",
+                "what appear to be gold running along them.  Aside from that, this room",
+                "is bare and plain...  "
+            ],
+            "name": "{DT{wr{Waini{wn{Dg {DM{wa{Wtr{wi{Dx{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "54615",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "54613",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "54614"
         }
     },
-    "uid": "artifact",
-    "area_quest_points": 0,
     "credits": "[  IMM   ] Artifacts",
     "faction_id": "",
+    "name": "Artifacts",
     "vnums": [
         54600,
         54649
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 10,
+    "realm_id": 0,
+    "subroutines": [],
     "mobiles": {
         "54600": {
-            "name": "{Da {rb{Ra{Yl{Ro{rr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-300 -300 -300 -300",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AIMV ABCDEFHJKQU medium unknown",
-            "raw_flags4": "CEHR AB 0 IK",
-            "raw_flags3": "-300 -300 -300 -300",
             "vnum": 54600,
             "raw_flags": "ABFNTUV CDEFG CDEH 0 0",
-            "race_id": "school monster",
+            "raw_flags4": "CEHR AB 0 IK",
+            "room_name": "A balor is here, wreathed in flames and cackling.\n",
+            "raw_vulns": "C",
+            "name": "{Da {rb{Ra{Yl{Ro{rr{x~\n",
             "raw_flags2": "105 300 40d15000+15000 1500d1500+15000 2d5000+1 flame",
-            "d_flags": "D ~",
+            "keywords": "questhelmbalor balor~\n",
             "subroutines": [
                 "F vul C\n",
                 "M act 54600 you. -=~\n",
@@ -870,23 +871,23 @@
                 "M exall 54605 0~\n",
                 "M fight 54601 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A balor is here, wreathed in flames and cackling.\n",
-            "raw_vulns": "C",
-            "keywords": "questhelmbalor balor~\n"
+            "raw_flags6": "AIMV ABCDEFHJKQU medium unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
         },
         "54601": {
-            "name": "{Da {mm{Ma{Rrile{Mt{mh{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-150 -150 -150 -150",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AIMV ABCDEFHJKQU medium unknown",
-            "raw_flags4": "R AB 0 HIK",
-            "raw_flags3": "-150 -150 -150 -150",
             "vnum": 54601,
             "raw_flags": "ABFNTUV CDEFG H 0 0",
-            "race_id": "school monster",
+            "raw_flags4": "R AB 0 HIK",
+            "room_name": "A marileth is here, all six arms wielding weapons.\n",
+            "raw_vulns": "C",
+            "name": "{Da {mm{Ma{Rrile{Mt{mh{x~\n",
             "raw_flags2": "105 5000 2d15000+5000 1500d1500+15000 2d3000+1 whip",
-            "d_flags": "D ~",
+            "keywords": "questhelmmarileth marileth~\n",
             "subroutines": [
                 "F vul C\n",
                 "M act 54609 our whip~\n",
@@ -894,89 +895,89 @@
                 "M exall 54605 0~\n",
                 "M fight 54602 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A marileth is here, all six arms wielding weapons.\n",
-            "raw_vulns": "C",
-            "keywords": "questhelmmarileth marileth~\n"
+            "raw_flags6": "AIMV ABCDEFHJKQU medium unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
         },
         "54602": {
-            "name": "{Da {Wna{Dlf{res{Dhn{Wee{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AIMV ABCDEFHJKQU huge unknown",
-            "raw_flags4": "CHR AB 0 IK",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54602,
             "raw_flags": "ABFNTU CDEFG H 0 0",
-            "race_id": "school monster",
+            "raw_flags4": "CHR AB 0 IK",
+            "room_name": "A nalfeshnee is here, grunting and charging!\n",
+            "raw_vulns": "C",
+            "name": "{Da {Wna{Dlf{res{Dhn{Wee{x~\n",
             "raw_flags2": "105 5000 1d20000+5000 0d0+0 2d2000+1 stab",
-            "d_flags": "D ~",
+            "keywords": "questhelmnalfeshnee nalfeshnee~\n",
             "subroutines": [
                 "F vul C\n",
                 "M act 54606 our stab~\n",
                 "M exall 54605 0~\n",
                 "M fight 54603 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A nalfeshnee is here, grunting and charging!\n",
-            "raw_vulns": "C",
-            "keywords": "questhelmnalfeshnee nalfeshnee~\n"
+            "raw_flags6": "AIMV ABCDEFHJKQU huge unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
         },
         "54603": {
-            "name": "{Da {rg{Rl{Dabre{Rz{ru{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AIMV ABCDEFHJKQU medium unknown",
-            "raw_flags4": "R AB 0 IK",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54603,
             "raw_flags": "ABNTU CDEFG H 0 0",
-            "race_id": "school monster",
-            "raw_flags2": "105 5000 2d7500+5000 0d0+0 2d1000+1 whip",
-            "d_flags": "D ~",
-            "subroutines": [
-                "F vul C\n",
-                "M exall 54605 0~\n"
-            ],
-            "t_flags": "T ~",
+            "raw_flags4": "R AB 0 IK",
             "room_name": "A glabrezu stands here, offering you power... and more.\n",
             "raw_vulns": "C",
-            "keywords": "questhelmglabrezu glabrezu~\n"
-        },
-        "54604": {
-            "name": "{Da {yd{Dr{ret{Dc{yh{x~\n",
-            "description": [],
-            "raw_flags5": "stand stand none 0",
-            "raw_flags6": "ADIMV ABCDEFHJKQU medium unknown",
-            "raw_flags4": "HLR AB 0 IK",
-            "raw_flags3": "0 0 0 0",
-            "vnum": 54604,
-            "raw_flags": "ABFMNTU CDEFG H 0 0",
-            "race_id": "school monster",
-            "raw_flags2": "105 500 1d1+1 0d0+0 1d1750+1 none",
-            "d_flags": "D ~",
+            "name": "{Da {rg{Rl{Dabre{Rz{ru{x~\n",
+            "raw_flags2": "105 5000 2d7500+5000 0d0+0 2d1000+1 whip",
+            "keywords": "questhelmglabrezu glabrezu~\n",
             "subroutines": [
                 "F vul C\n",
                 "M exall 54605 0~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A dretch stands here, ready to be cut down for its masters.\n",
-            "raw_vulns": "C",
-            "keywords": "dretch questhelm~\n"
+            "raw_flags6": "AIMV ABCDEFHJKQU medium unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
         },
-        "54605": {
-            "name": "Annette~\n",
+        "54604": {
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCD 0 0",
+            "vnum": 54604,
+            "raw_flags": "ABFMNTU CDEFG H 0 0",
+            "raw_flags4": "HLR AB 0 IK",
+            "room_name": "A dretch stands here, ready to be cut down for its masters.\n",
+            "raw_vulns": "C",
+            "name": "{Da {yd{Dr{ret{Dc{yh{x~\n",
+            "raw_flags2": "105 500 1d1+1 0d0+0 1d1750+1 none",
+            "keywords": "dretch questhelm~\n",
+            "subroutines": [
+                "F vul C\n",
+                "M exall 54605 0~\n"
+            ],
+            "raw_flags6": "ADIMV ABCDEFHJKQU medium unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
+        },
+        "54605": {
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
             "raw_flags3": "0 0 0 0",
+            "description": [],
+            "raw_flags5": "stand stand none 0",
             "vnum": 54605,
             "raw_flags": "ABN DFJLZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "Annette, the Lotto Area receptionist, points towards the sign.\n",
+            "name": "Annette~\n",
             "raw_flags2": "105 0 50d15000+15000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "lotto leader annette~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -989,125 +990,126 @@
                 "M act 54613 points at himself, obviously very confused.~\n",
                 "M act 54613 points at herself, obviously very confused.~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Annette, the Lotto Area receptionist, points towards the sign.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "lotto leader annette~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54606": {
-            "name": "the Lotto Machine~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54606,
             "raw_flags": "ABZ DFJLZ 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "A lotto machine sits in the corner, looking vaguely sentient.\n",
+            "name": "the Lotto Machine~\n",
             "raw_flags2": "105 0 50d15000+15000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "lotto machine~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M act 54615 nods at you in agreement.~\n",
                 "M act 54627 places his boot firmly up~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A lotto machine sits in the corner, looking vaguely sentient.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "lotto machine~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54607": {
-            "name": "a token shopkeeper~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 500000000",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54607,
             "raw_flags": "AB 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCD 0 0",
+            "room_name": "A shopkeeper is here, selling tokens.\n",
+            "name": "a token shopkeeper~\n",
             "raw_flags2": "150 0 50d5000+5000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "shopkeeper~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A shopkeeper is here, selling tokens.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "shopkeeper~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54608": {
-            "name": "{DM{wo{Wdr{wo{Dn{x {DW{wa{Wrri{wo{Dr{x {RVersion {B3{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "200 200 200 200",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 tiny unknown",
-            "raw_flags4": "H 0 M HKNOS",
-            "raw_flags3": "200 200 200 200",
             "vnum": 54608,
             "raw_flags": "AT 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "H 0 M HKNOS",
+            "room_name": "An advanced Modron warrior walks around here, following programming.\n",
+            "name": "{DM{wo{Wdr{wo{Dn{x {DW{wa{Wrri{wo{Dr{x {RVersion {B3{x~\n",
             "raw_flags2": "360 0 20000d1+1 0d0+0 25d25+100 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "modron mach three~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An advanced Modron warrior walks around here, following programming.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "modron mach three~\n"
+            "raw_flags6": "0 0 tiny unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54609": {
-            "name": "{DM{wo{Wdr{wo{Dn{x {DW{wa{Wrri{wo{Dr{x {RVersion {B2{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "200 200 200 200",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 tiny unknown",
-            "raw_flags4": "H 0 0 HKNOS",
-            "raw_flags3": "200 200 200 200",
             "vnum": 54609,
             "raw_flags": "AT 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "H 0 0 HKNOS",
+            "room_name": "A Modron warrior walks around here, following programming.\n",
+            "name": "{DM{wo{Wdr{wo{Dn{x {DW{wa{Wrri{wo{Dr{x {RVersion {B2{x~\n",
             "raw_flags2": "240 0 10000d1+1 0d0+0 25d25+100 thwack",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "modron warrior version 2~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Modron warrior walks around here, following programming.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "modron warrior version 2~\n"
+            "raw_flags6": "0 0 tiny unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54610": {
-            "name": "{DM{wo{Wdr{wo{Dn{x {DW{wa{Wrri{wo{Dr{x {RVersion {B1{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "200 200 200 200",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 tiny unknown",
-            "raw_flags4": "H 0 0 HKNOS",
-            "raw_flags3": "200 200 200 200",
             "vnum": 54610,
             "raw_flags": "AT 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "H 0 0 HKNOS",
+            "room_name": "A weak Modron warrior walks around here, following programming.\n",
+            "name": "{DM{wo{Wdr{wo{Dn{x {DW{wa{Wrri{wo{Dr{x {RVersion {B1{x~\n",
             "raw_flags2": "150 0 5000d1+1 0d0+0 25d25+100 thwack",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "modron warrior version one~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A weak Modron warrior walks around here, following programming.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "modron warrior version one~\n"
+            "raw_flags6": "0 0 tiny unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54611": {
-            "name": "modron setup mob~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "Agree for team one.\n",
                 "Point for team two.\n",
@@ -1120,15 +1122,14 @@
                 "say 'spawn strong droids' for strong mobs\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDLQa 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54611,
             "raw_flags": "ABN DFJZ P 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDLQa 0 0",
+            "room_name": "Modron setup mob\n",
+            "name": "modron setup mob~\n",
             "raw_flags2": "102 0 10d10+10000 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "modron setup mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
@@ -1143,55 +1144,54 @@
                 "M speech 54622 spawn weak droids~\n",
                 "M speech 54626 arena reset~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Modron setup mob\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "modron setup mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54612": {
-            "name": "a nightclub dancer~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ABCDLQ 0 NS",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54612,
             "raw_flags": "AB 0 0 -1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ABCDLQ 0 NS",
+            "room_name": "A nightclub dancer is having a great time dancing to the music.\n",
+            "name": "a nightclub dancer~\n",
             "raw_flags2": "200 0 1d1+100 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "%~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A nightclub dancer is having a great time dancing to the music.\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "%~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "54613": {
-            "name": "test mob~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 54613,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Test mob\n",
+            "name": "test mob~\n",
             "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "test mob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Test mob\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "test mob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 0
+    "area_quest_points": 0
 }

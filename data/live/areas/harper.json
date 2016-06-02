@@ -1,32 +1,338 @@
 {
-    "name": "The Harper's Clan Hall",
+    "security": 6,
+    "recall_room_id": 3001,
     "id": "harper",
-    "subroutines": [],
+    "zone_id": 0,
+    "objects": {},
+    "uid": "harper",
     "rooms": {
-        "20300": {
-            "name": "{^H{6arper {^S{6anctuary",
-            "description": [
-                "{7You have arrived in the {^H{6arper {^S{6sanctuary{7, this is a safe haven for",
-                "all {^H{6a{^r{6p{^e{6r {7members and offers accsess to the remainder of the clan",
-                "hall.  {7This is a {&Bright {7room and is adorned with many {^B{6e{8u{7a{&t{7i{*f{6u{^l",
-                "T{6apestries {7and various artworks.  {7A large {#G{3l{7o{&w{7i{3n{#g {7archway is east",
-                "through which lays the rest of the {^H{6a{^r{6p{^e{6r {^H{6all{7.  {7In the corner is a",
-                "fountain, flowing with a sweet smelling liquid.  {7There is also a small",
-                "plaque on the wall along with a {3[{%S{5ign{3] {7and a {3[{%M{5ap{3] "
-            ],
-            "flags_raw": "0 525320 0 0",
-            "wanted_area_vnum": "",
+        "20308": {
+            "extras": {
+                "sun": {
+                    "description": [
+                        "Don't Look At It!!!",
+                        " ",
+                        "Didn't your mother teach you anything? :P",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 67641384 0 2",
             "flags2_raw": "0",
-            "vnum": "20300",
+            "description": [
+                "You exit the interior of the hall and enter a decent sized court yard,",
+                "there are several practice dummies strewn around the yard, and one large",
+                "dummy stands in the center of the room, you notice the face of the dummy",
+                "resembles that of Malik, Cyric's Seraph of Lies.  The {#Sun{x and the breeze",
+                "here make you feel ready for a good fight.  To the north you see a small",
+                "building, with the moon and harp symbol on its door.  "
+            ],
+            "name": "{@P{2ractice {@Y{2ard{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20311",
+                    "description": [
+                        "This way leads to a small Guildhall",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20312",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20308"
+        },
+        "20311": {
+            "extras": {},
+            "flags_raw": "0 67641388 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This small square building has one room, and you are in it.  Covering",
+                "every wall and a couple tables, is just about everything one would need to",
+                "learn just about any new skill, or hone their current ones.  Standing in the",
+                "middle of the room is the {^H{6a{^r{6p{^e{6r{^s{x Guildmaster with his arms",
+                "crossed in front of his chest.  "
+            ],
+            "name": "{^G{6uild{^H{6all {7of The {^H{6a{^r{6p{^e{6r{^s",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20308",
+                    "description": [
+                        "This door leads back to the {@P{2ractice {@Y{2ard{x",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20311"
+        },
+        "20322": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are along the northern wall of the {RBattle {WArena{x, and all around",
+                "you there are signs of past matches that have occured here.  The arena",
+                "continues as far as the eye can see to the east, west, and south.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20326",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20305"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20319",
+                    "description": [
+                        ""
+                    ]
                 }
             },
+            "wanted_area_vnum": "",
+            "vnum": "20322"
+        },
+        "20315": {
+            "extras": {},
+            "flags_raw": "0 532492 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "This room is a bit more average looking than the rooms on either",
+                "side of it, but it is still decorated quite fancily.  There are small",
+                "objects laying around the room that were acquired by {CH{ca{Cr{cp{Ce{cr{Cs{x on",
+                "various adventures throughout the realms.  In the center of the room",
+                "there is a large table made completely out of {YGold{x for the active",
+                "{CH{ca{Cr{cp{Ce{cr{Cs{x to discuss the admission of applicants around.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CL{co{Cu{cn{Cg{ce{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20313",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20314",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20315"
+        },
+        "20321": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are along the southern wall of the arena.  To the north and",
+                "east as far as you can see there are rooms for the clan members to",
+                "work on their skills with one another.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20318",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20323",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20321"
+        },
+        "20312": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in the room of the only Halfling bard to ever exist.  "
+            ],
+            "name": "{cMrs. Ruskettle's Room{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20308",
+                    "description": [
+                        "{&The {@P{2ractice {@Y{2ard {&is off to the North.",
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20304",
+                    "description": [
+                        "{&Back Up lies the {^H{6arper {^H{6ealing {&Room.",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20309",
+                    "description": [
+                        "{&Off to the West is the harper meeting room.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20312"
+        },
+        "20302": {
+            "extras": {},
+            "flags_raw": "0 532512 0 9",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "in the air, north of the tower",
+            "exits": {
+                "north": {
+                    "flags_raw": "20300",
+                    "room_id": "20325",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20342",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20302"
+        },
+        "20305": {
+            "extras": {},
+            "flags_raw": "0 67641388 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wYou have entered the great portal of the {CH{ca{Cr{cp{Ce{cr{Cs{w.  Magical portals lead to  -",
+                "{: {^W{6estbridge{x",
+                "{: {^Z{6ozo{x",
+                "{: {^M{6useum{x",
+                "{: {^T{6orregiano{x"
+            ],
+            "name": "{^R{6oom {^o{6f {^P{6ortals",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "4256",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20301",
+                    "description": [
+                        "{&A corridor heads east, opening up other areas of the {^H{6a{^r{6p{^e{6r {^C{6lan {^H{6all{&.",
+                        ""
+                    ]
+                },
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "3160",
+                    "description": [
+                        "{&Looking up is Westbridges, Market Square...",
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "6788",
+                    "description": [
+                        "{&ZoZo is below us, just need to take a step down...",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "27252",
+                    "description": [
+                        "{&This portal heads to the Brewery area of torregianio...",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20305"
+        },
+        "20338": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{WL{wong {CH{callway{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20339",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20337",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20338"
+        },
+        "20303": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This room is full of wonderous items that tickle your fancy and pique",
+                "your curiousity.  A desk lies near the north wall.  Standing behind the desk",
+                "of his shop, a short man is showing off his rare and delicate items. ",
+                "Looking more closely, the little man seems to be a halfling.  The merchant",
+                "smiles warmly and welcomes you to his shop.  There is a soft melody playing",
+                "in the back of your mind, purifying it from dark and evil thoughts.  "
+            ],
+            "name": "{6Gnairea{^'{6s {^S{6h{^o{6p{^e{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20310",
+                    "description": [
+                        "{&Upwards is {^J{6erval {&in the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern{&.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20303"
+        },
+        "20300": {
             "extras": {
                 "map": {
                     "description": [
@@ -53,12 +359,6 @@
                         ""
                     ]
                 },
-                "tapestries": {
-                    "description": [
-                        "Yep, The Tapestries sure are beautiful.",
-                        ""
-                    ]
-                },
                 "plaque": {
                     "description": [
                         "{CHarper Clan Rules{x",
@@ -73,11 +373,448 @@
                         "{CAll For Now, Thanks For Your Time{x",
                         ""
                     ]
+                },
+                "tapestries": {
+                    "description": [
+                        "Yep, The Tapestries sure are beautiful.",
+                        ""
+                    ]
                 }
-            }
+            },
+            "flags_raw": "0 525320 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{7You have arrived in the {^H{6arper {^S{6sanctuary{7, this is a safe haven for",
+                "all {^H{6a{^r{6p{^e{6r {7members and offers accsess to the remainder of the clan",
+                "hall.  {7This is a {&Bright {7room and is adorned with many {^B{6e{8u{7a{&t{7i{*f{6u{^l",
+                "T{6apestries {7and various artworks.  {7A large {#G{3l{7o{&w{7i{3n{#g {7archway is east",
+                "through which lays the rest of the {^H{6a{^r{6p{^e{6r {^H{6all{7.  {7In the corner is a",
+                "fountain, flowing with a sweet smelling liquid.  {7There is also a small",
+                "plaque on the wall along with a {3[{%S{5ign{3] {7and a {3[{%M{5ap{3] "
+            ],
+            "name": "{^H{6arper {^S{6anctuary",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20305",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20300"
+        },
+        "20318": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in the {CH{ca{Cr{cp{Ce{cr{C's{x arena.  This large room extends as far as",
+                "the eye can see to the north, east, and south.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20320",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20319",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20317",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20321",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20318"
+        },
+        "20325": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in the southeastern corner of the clan arena, and can see",
+                "on the walls all around you makings from battles of old from the great",
+                "{CH{ca{Cr{cp{Ce{cr {CW{ca{Cr{cr{Ci{co{Cr{cs{x.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20324",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "20300",
+                    "room_id": "20302",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20325"
+        },
+        "20328": {
+            "extras": {},
+            "flags_raw": "0 67641388 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{WYou have entered a large gloomy room and as you look around, you",
+                "are met by the gaze of two female statues one portraying Mystra, the",
+                "Goddess of Magic the other Selena, wife of the Wizard who this study",
+                "belongs to.  The only light in the room is the {Mp{murple{W flames that",
+                "surround each of the four statues in the room.  Two at the door",
+                "(Mystra and Selena) and one in each of the far corners of the room,",
+                "each showing a Drow Warrior.  The only window in the room is located",
+                "in the far wall but heavy curtains prevent any light from entering the",
+                "room.  In the middle is a large desk littered with books and dusty",
+                "tomes though a small area is cleared as a work area.  The only other",
+                "objects in the room are huge book shelves filled with tomes and",
+                "parchments hiding{BA{brcane{W knowledge and a spiral staircase in the corner",
+                "closest to you from which you came.  "
+            ],
+            "name": "{WThe Study of {CV{ce{Cl{ck{Ci{ce{Cn{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20305",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20328"
+        },
+        "20309": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "This is a medium-sized circular room.  The walls are covered with",
+                "tapestries depicting scenes from long forgotten battles fought well before",
+                "your time.  The light in this room comes from a large chandelier in the",
+                "center of the room In the middle of the room is a round table, with a",
+                "{Bcrescent moon{x and a {&s{0i{&l{0v{&e{0r {&h{0a{&r{0p{x engraved into it,",
+                "the edges of the table are inlaid with gold.  A small fireplace is set into",
+                "the wall here giving off warmth.  "
+            ],
+            "name": "{^M{6e{^e{6t{^i{6n{^g {6Hall{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20312",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20331",
+                    "description": [
+                        "{&To the West is the {*D{7isgruntle{*d {^H{6arper{&.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20309"
+        },
+        "20323": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are walking along the south wall of the clan arena, and can see",
+                "clearly in any direction.  As far as you can see to the north, west,",
+                "and east there are open fields for the {CH{ca{Cr{cp{Ce{cr{C's{x to practice their",
+                "skills with one another.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20319",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20321",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20323"
+        },
+        "20317": {
+            "extras": {},
+            "flags_raw": "0 67641352 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wYou are in a hallway leading to the harpers clan arena.  {x "
+            ],
+            "name": "{8Back Hallway{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20304",
+                    "description": [
+                        "{&The {^H{6arper {^H{6ealer {&is off to the North.",
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20318",
+                    "description": [
+                        "{&to the East is the {^C{6lan {!Battle {&Arena.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20335",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20317"
+        },
+        "20339": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{WL{wong {CH{callway{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20338",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20334",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20339"
+        },
+        "20310": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You have entered the Tavern of the {^H{6a{^r{6p{^e{6r{^s{x.  Your nostrils are assailed",
+                "with the odor of freshly roasted peanuts, and your ears are delighted with",
+                "the best music in the realms.  It is here where the harpers come to relax",
+                "and enjoy a nice beverage, and some of Jerval's world famous roasted",
+                "peanuts.  The atmosphere of this tavern makes you feel relaxed, and your",
+                "worries drift away as your thoughts drift twords recreation.  ",
+                " "
+            ],
+            "name": "{^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20329",
+                    "description": [
+                        "{&In a little room to the East is a man selling '{^H{6a{^r{6p{^e{6r {&Doves' {&They",
+                        "seem to make an excellent choice for 'Pets'.  ",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20332",
+                    "description": [
+                        "{&Off to the West is a spiritual man, selling mounts to the {^H{6a{^r{6p{^e{6r{^s{&.",
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20303",
+                    "description": [
+                        "{&Down below is a man who sells equipment and potions, he has a vast selection for sale.",
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20304",
+                    "description": [
+                        "{&Just off to the south is the {^H{6arper {^H{6ealer {&and resting area.",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20310"
+        },
+        "20332": {
+            "extras": {},
+            "flags_raw": "0 604512296 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wThe room you are now in is a very basic looking room with places to",
+                "kneel to worship your favorite diety all along the walls.  In the",
+                "center of the room you notice a small pulpit with the {CH{ca{Cr{cp{Ce{cr{C's",
+                "{WSpiritual Leader{w standing behind it.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {WSanctuary{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20310",
+                    "description": [
+                        "{&Heading back East is the main room of the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern{&.{x",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20332"
+        },
+        "20319": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are in the very center of the {CH{ca{Cr{cp{Ce{cr{x arena, and as far as you",
+                "can see in any direction there is open room for you to test your",
+                "skills with those of other harpers.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20322",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20318",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20323",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20319"
+        },
+        "20306": {
+            "extras": {
+                "sign": {
+                    "description": [
+                        "{!NO SUMMONING NON-HARPERS",
+                        "{^W{6i{^t{6h{^o{6u{^t {6t{^h{6e {^p{6e{^r{6m{^i{6s{^s{6i{^o{6n {^o{6f {^a {6L{^e{6a{^d{6e{^r{x",
+                        "{0monsters do not apply",
+                        "{!DO NOT LEAVE MONSTERS UNATTENDED",
+                        "{x",
+                        ""
+                    ]
+                }
+            },
+            "flags_raw": "0 532492 0 18",
+            "flags2_raw": "0",
+            "description": [
+                "This square grey room is empty, yet you can feel the magical energies",
+                "this room had been endowed with. This looks like it would make a perfect place to summon monsters for research. ",
+                " ",
+                "a large SIGN hangs on the north wall"
+            ],
+            "name": "{!C{1asting {!R{1oom{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20305",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20306"
+        },
+        "20326": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are now in the northeastern corner of the {RBattle {wArena{x, and all",
+                "around you there are hills where fellow harpers have run to trying to",
+                "get some protection as their clan members came after them.  While the",
+                "fighting is all in good fun you can see blood from where these harpers",
+                "have failed to get the protection they needed in time.  The arena",
+                "continues to the west and south.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
+            "exits": {
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20322",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20324",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20326"
         },
         "20314": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {WCandidate {CL{co{Cu{cn{Cg{ce{x",
+            "extras": {},
+            "flags_raw": "0 532488 0 14",
+            "flags2_raw": "0",
             "description": [
                 "You find yourself in a room unlike the rest of the Holy Grove when",
                 "you just came from.  The whole room is as {WWhite{x as snow, and is",
@@ -87,99 +824,30 @@
                 "hidden well in the leaves of the forest, and to the north you see",
                 "another room much like this one with a large table.  "
             ],
-            "flags_raw": "0 532488 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20314",
+            "name": "{CH{ca{Cr{cp{Ce{cr {WCandidate {CL{co{Cu{cn{Cg{ce{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20315",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20315"
+                    ]
                 },
                 "down": {
                     "flags_raw": "0",
+                    "room_id": "8906",
                     "description": [
                         ""
-                    ],
-                    "room_id": "8906"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20335": {
-            "name": "{WL{wong {CH{callway{x",
-            "description": [],
-            "flags_raw": "0 67641385 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20335",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20317"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20336"
-                }
-            },
-            "extras": {}
-        },
-        "20307": {
-            "name": "Temple Of Milil",
-            "description": [
-                "Unused"
-            ],
-            "flags_raw": "0 532492 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20307",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20305"
-                }
-            },
-            "extras": {}
-        },
-        "20332": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {WSanctuary{x",
-            "description": [
-                "{wThe room you are now in is a very basic looking room with places to",
-                "kneel to worship your favorite diety all along the walls.  In the",
-                "center of the room you notice a small pulpit with the {CH{ca{Cr{cp{Ce{cr{C's",
-                "{WSpiritual Leader{w standing behind it.  "
-            ],
-            "flags_raw": "0 604512296 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20332",
-            "exits": {
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Heading back East is the main room of the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern{&.{x",
-                        ""
-                    ],
-                    "room_id": "20310"
-                }
-            },
-            "extras": {}
+            "vnum": "20314"
         },
         "20327": {
-            "name": "{CA{cr{Cm{ca{Cn{c's {wSanctuary{x",
+            "extras": {},
+            "flags_raw": "0 67641388 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wYou open a the door and enter a small chapel, dedicated to the God of",
                 "{8W{Wa{8r and {CJ{cu{Cs{ct{Ci{cc{Ce.  {w You can see s simple table and a simple chair",
@@ -194,395 +862,295 @@
                 "presence of a good being.  Arman smiles at you and inquires: \"How may",
                 "I help you my child?\"  "
             ],
-            "flags_raw": "0 67641388 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20327",
+            "name": "{CA{cr{Cm{ca{Cn{c's {wSanctuary{x",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20305",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20305"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20327"
         },
         "20336": {
-            "name": "{WL{wong {CH{callway{x",
-            "description": [],
+            "extras": {},
             "flags_raw": "0 67641377 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20336",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20335"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20337"
-                }
-            },
-            "extras": {}
-        },
-        "20310": {
-            "name": "{^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern",
-            "description": [
-                "You have entered the Tavern of the {^H{6a{^r{6p{^e{6r{^s{x.  Your nostrils are assailed",
-                "with the odor of freshly roasted peanuts, and your ears are delighted with",
-                "the best music in the realms.  It is here where the harpers come to relax",
-                "and enjoy a nice beverage, and some of Jerval's world famous roasted",
-                "peanuts.  The atmosphere of this tavern makes you feel relaxed, and your",
-                "worries drift away as your thoughts drift twords recreation.  ",
-                " "
-            ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20310",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Just off to the south is the {^H{6arper {^H{6ealer {&and resting area.",
-                        ""
-                    ],
-                    "room_id": "20304"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Off to the West is a spiritual man, selling mounts to the {^H{6a{^r{6p{^e{6r{^s{&.",
-                        ""
-                    ],
-                    "room_id": "20332"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&In a little room to the East is a man selling '{^H{6a{^r{6p{^e{6r {&Doves' {&They",
-                        "seem to make an excellent choice for 'Pets'.  ",
-                        ""
-                    ],
-                    "room_id": "20329"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Down below is a man who sells equipment and potions, he has a vast selection for sale.",
-                        ""
-                    ],
-                    "room_id": "20303"
-                }
-            },
-            "extras": {}
-        },
-        "20325": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
-            "description": [
-                "You are in the southeastern corner of the clan arena, and can see",
-                "on the walls all around you makings from battles of old from the great",
-                "{CH{ca{Cr{cp{Ce{cr {CW{ca{Cr{cr{Ci{co{Cr{cs{x.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20325",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20324"
-                },
-                "south": {
-                    "flags_raw": "20300",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20302"
-                }
-            },
-            "extras": {}
-        },
-        "20311": {
-            "name": "{^G{6uild{^H{6all {7of The {^H{6a{^r{6p{^e{6r{^s",
-            "description": [
-                "This small square building has one room, and you are in it.  Covering",
-                "every wall and a couple tables, is just about everything one would need to",
-                "learn just about any new skill, or hone their current ones.  Standing in the",
-                "middle of the room is the {^H{6a{^r{6p{^e{6r{^s{x Guildmaster with his arms",
-                "crossed in front of his chest.  "
-            ],
-            "flags_raw": "0 67641388 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20311",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This door leads back to the {@P{2ractice {@Y{2ard{x",
-                        ""
-                    ],
-                    "room_id": "20308"
-                }
-            },
-            "extras": {}
-        },
-        "20315": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CL{co{Cu{cn{Cg{ce{x",
-            "description": [
-                "This room is a bit more average looking than the rooms on either",
-                "side of it, but it is still decorated quite fancily.  There are small",
-                "objects laying around the room that were acquired by {CH{ca{Cr{cp{Ce{cr{Cs{x on",
-                "various adventures throughout the realms.  In the center of the room",
-                "there is a large table made completely out of {YGold{x for the active",
-                "{CH{ca{Cr{cp{Ce{cr{Cs{x to discuss the admission of applicants around.  "
-            ],
-            "flags_raw": "0 532492 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20315",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20313"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20314"
-                }
-            },
-            "extras": {}
-        },
-        "20326": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
-            "description": [
-                "You are now in the northeastern corner of the {RBattle {wArena{x, and all",
-                "around you there are hills where fellow harpers have run to trying to",
-                "get some protection as their clan members came after them.  While the",
-                "fighting is all in good fun you can see blood from where these harpers",
-                "have failed to get the protection they needed in time.  The arena",
-                "continues to the west and south.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20326",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20322"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20324"
-                }
-            },
-            "extras": {}
-        },
-        "20333": {
-            "name": "spectral harper",
             "description": [],
-            "flags_raw": "0 524292 0 0",
+            "name": "{WL{wong {CH{callway{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20335",
+                    "description": [
+                        ""
+                    ]
+                },
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20337",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
             "wanted_area_vnum": "",
+            "vnum": "20336"
+        },
+        "20307": {
+            "extras": {},
+            "flags_raw": "0 532492 0 0",
             "flags2_raw": "0",
-            "vnum": "20333",
-            "exits": {},
-            "extras": {}
+            "description": [
+                "Unused"
+            ],
+            "name": "Temple Of Milil",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20305",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20307"
         },
         "20316": {
-            "name": "{CJ{co{wv{ci{Ck'{Ws {wLaboratory{x",
+            "extras": {},
+            "flags_raw": "0 532492 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wYou have etered a very well kept room with vials of strange colored",
                 "{8Ethers{w all over the counters.  Around the edges of the room there is",
                 "not a single space to sit as most people stand in the owner's",
                 "presence.  "
             ],
-            "flags_raw": "0 532492 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20316",
+            "name": "{CJ{co{wv{ci{Ck'{Ws {wLaboratory{x",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20305",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20305"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20318": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena{x",
-            "description": [
-                "You are in the {CH{ca{Cr{cp{Ce{cr{C's{x arena.  This large room extends as far as",
-                "the eye can see to the north, east, and south.  "
-            ],
-            "flags_raw": "0 532520 0 0",
             "wanted_area_vnum": "",
+            "vnum": "20316"
+        },
+        "20304": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
             "flags2_raw": "0",
-            "vnum": "20318",
+            "description": [
+                "{wYou have entered the great clan hall of the {CH{ca{Cr{cp{Ce{cr{C's{w.  The room has",
+                "a healing pool in the center and a priest standing over it watching",
+                "for hurt harpers.  "
+            ],
+            "name": "{^G{6reat {^H{6all{x",
             "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20321"
-                },
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20310",
                     "description": [
+                        "{&North is the entrance to the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern{&. Many items can be found for sale in there.",
                         ""
-                    ],
-                    "room_id": "20320"
+                    ]
                 },
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "20301",
                     "description": [
+                        "{&To the West is a hallway that leads to the portals and clan recall point.",
                         ""
-                    ],
-                    "room_id": "20317"
+                    ]
                 },
-                "east": {
+                "down": {
                     "flags_raw": "0",
+                    "room_id": "20312",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20319"
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20317",
+                    "description": [
+                        "{&The Southern hallway leads to the clan {^B{6attle {^A{6rena{&.",
+                        ""
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20304"
+        },
+        "20301": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "{wYou are in a long plain hallway with very few decorations on any",
+                "wall.  The healing chamber is to the east and the portals are to your",
+                "west.  {x "
+            ],
+            "name": "{^H{6a{^r{6p{^e{6r {^H{6all{x",
+            "exits": {
+                "east": {
+                    "flags_raw": "0",
+                    "room_id": "20304",
+                    "description": [
+                        "{&Another step east will take you to the {^H{6a{^r{6p{^e{6r {^H{6ealer{&.{x",
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20305",
+                    "description": [
+                        "{&To the West is the clan {^P{6ortal {^R{6oom{&.{x",
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20301"
+        },
+        "20320": {
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
+            "description": [
+                "You are along the northern most wall of the arena, and to the south",
+                "and east you can see large open spaces for all of your bretheren to",
+                "help each other improve.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20318",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20320"
         },
         "20324": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
+            "extras": {},
+            "flags_raw": "0 532520 0 0",
+            "flags2_raw": "0",
             "description": [
                 "You are now along the eastern wall of the battle arena, and can see",
                 "all around you places where heros have fought their clan members to",
                 "better both of their skills.  You can see to the north, south, and",
                 "west as far as the eye can see.  "
             ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20324",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20326"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20325"
-                }
-            },
-            "extras": {}
-        },
-        "20323": {
             "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
-            "description": [
-                "You are walking along the south wall of the clan arena, and can see",
-                "clearly in any direction.  As far as you can see to the north, west,",
-                "and east there are open fields for the {CH{ca{Cr{cp{Ce{cr{C's{x to practice their",
-                "skills with one another.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20323",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20326",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20319"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20321"
-                }
-            },
-            "extras": {}
-        },
-        "20308": {
-            "name": "{@P{2ractice {@Y{2ard{x",
-            "description": [
-                "You exit the interior of the hall and enter a decent sized court yard,",
-                "there are several practice dummies strewn around the yard, and one large",
-                "dummy stands in the center of the room, you notice the face of the dummy",
-                "resembles that of Malik, Cyric's Seraph of Lies.  The {#Sun{x and the breeze",
-                "here make you feel ready for a good fight.  To the north you see a small",
-                "building, with the moon and harp symbol on its door.  "
-            ],
-            "flags_raw": "0 67641384 0 2",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20308",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "This way leads to a small Guildhall",
-                        ""
-                    ],
-                    "room_id": "20311"
+                    ]
                 },
                 "south": {
                     "flags_raw": "0",
+                    "room_id": "20325",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "20312"
-                }
-            },
-            "extras": {
-                "sun": {
-                    "description": [
-                        "Don't Look At It!!!",
-                        " ",
-                        "Didn't your mother teach you anything? :P",
                         ""
                     ]
                 }
-            }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20324"
+        },
+        "20313": {
+            "extras": {},
+            "flags_raw": "0 532492 0 14",
+            "flags2_raw": "0",
+            "description": [
+                "As you enter this room you are amazed at the wealth that the",
+                "{CH{ca{Cr{cp{Ce{cr{Cs{x have put into it.  The floor is made from tiles that seem to",
+                "be made of {wIvory{x they are so white and smooth.  The walls all around",
+                "you have {GB{ge{ma{cu{Ct{Gi{gf{mu{cl {CP{ca{Ci{cn{Ct{ci{Cn{cg{Cs{x of all of the finest {CH{ca{Cr{cp{Ce{cr{x leaders.  The",
+                "last thing that you notice about this room is the high vaulted",
+                "ceilings made out of the scales of the {rC{Br{go{8m{Wa{rt{Bi{gc {8D{Wr{ra{Bg{go{8n{Ws{x.  "
+            ],
+            "name": "{CH{ca{Cr{cp{Ce{cr {WCeremony {CHall",
+            "exits": {
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20315",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20313"
+        },
+        "20335": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{WL{wong {CH{callway{x",
+            "exits": {
+                "north": {
+                    "flags_raw": "0",
+                    "room_id": "20317",
+                    "description": [
+                        ""
+                    ]
+                },
+                "south": {
+                    "flags_raw": "0",
+                    "room_id": "20336",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20335"
+        },
+        "20337": {
+            "extras": {},
+            "flags_raw": "0 67641385 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{WL{wong {CH{callway{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20338",
+                    "description": [
+                        ""
+                    ]
+                },
+                "west": {
+                    "flags_raw": "0",
+                    "room_id": "20336",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20337"
         },
         "20334": {
-            "name": "{CF{clag {WR{woom{x",
+            "extras": {},
+            "flags_raw": "0 532525 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{x",
                 "                       {W /\\{x                                 ",
@@ -615,345 +1183,23 @@
                 "                     {W   /\\  {x                               ",
                 "                       {W \\/{x                                 "
             ],
-            "flags_raw": "0 532525 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20334",
+            "name": "{CF{clag {WR{woom{x",
             "exits": {
                 "north": {
                     "flags_raw": "0",
+                    "room_id": "20339",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20339"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20339": {
-            "name": "{WL{wong {CH{callway{x",
-            "description": [],
-            "flags_raw": "0 67641385 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20339",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20334"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20338"
-                }
-            },
-            "extras": {}
-        },
-        "20305": {
-            "name": "{^R{6oom {^o{6f {^P{6ortals",
-            "description": [
-                "{wYou have entered the great portal of the {CH{ca{Cr{cp{Ce{cr{Cs{w.  Magical portals lead to  -",
-                "{: {^W{6estbridge{x",
-                "{: {^Z{6ozo{x",
-                "{: {^M{6useum{x",
-                "{: {^T{6orregiano{x"
-            ],
-            "flags_raw": "0 67641388 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20305",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&This portal heads to the Brewery area of torregianio...",
-                        ""
-                    ],
-                    "room_id": "27252"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "4256"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&A corridor heads east, opening up other areas of the {^H{6a{^r{6p{^e{6r {^C{6lan {^H{6all{&.",
-                        ""
-                    ],
-                    "room_id": "20301"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Looking up is Westbridges, Market Square...",
-                        ""
-                    ],
-                    "room_id": "3160"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&ZoZo is below us, just need to take a step down...",
-                        ""
-                    ],
-                    "room_id": "6788"
-                }
-            },
-            "extras": {}
-        },
-        "20329": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {WA{wv{Wi{wa{Wr{wy{x",
-            "description": [
-                "The room you have entered is a fairly large room with {GTall Trees{x in",
-                "the corners and {8Iron Cages{x holding {WPure White Doves{x.  In the center of",
-                "the room stands a small {CH{ca{Cr{cp{Ce{cr{x shopkeeper trying to set you up with",
-                "the pet or mount of your dreams.  "
-            ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20329",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&To the west is the main room in the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern.",
-                        ""
-                    ],
-                    "room_id": "20310"
-                }
-            },
-            "extras": {}
-        },
-        "20304": {
-            "name": "{^G{6reat {^H{6all{x",
-            "description": [
-                "{wYou have entered the great clan hall of the {CH{ca{Cr{cp{Ce{cr{C's{w.  The room has",
-                "a healing pool in the center and a priest standing over it watching",
-                "for hurt harpers.  "
-            ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20304",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&North is the entrance to the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern{&. Many items can be found for sale in there.",
-                        ""
-                    ],
-                    "room_id": "20310"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&To the West is a hallway that leads to the portals and clan recall point.",
-                        ""
-                    ],
-                    "room_id": "20301"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&The Southern hallway leads to the clan {^B{6attle {^A{6rena{&.",
-                        ""
-                    ],
-                    "room_id": "20317"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20312"
-                }
-            },
-            "extras": {}
-        },
-        "20321": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena",
-            "description": [
-                "You are along the southern wall of the arena.  To the north and",
-                "east as far as you can see there are rooms for the clan members to",
-                "work on their skills with one another.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20321",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20318"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20323"
-                }
-            },
-            "extras": {}
-        },
-        "20319": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena",
-            "description": [
-                "You are in the very center of the {CH{ca{Cr{cp{Ce{cr{x arena, and as far as you",
-                "can see in any direction there is open room for you to test your",
-                "skills with those of other harpers.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20319",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20322"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20318"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20323"
-                }
-            },
-            "extras": {}
-        },
-        "20338": {
-            "name": "{WL{wong {CH{callway{x",
-            "description": [],
-            "flags_raw": "0 67641385 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20338",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20339"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20337"
-                }
-            },
-            "extras": {}
-        },
-        "20340": {
-            "name": "{WH{widden {CP{cathway{x",
-            "description": [],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20340",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20341"
-                }
-            },
-            "extras": {}
-        },
-        "20328": {
-            "name": "{WThe Study of {CV{ce{Cl{ck{Ci{ce{Cn{x",
-            "description": [
-                "{WYou have entered a large gloomy room and as you look around, you",
-                "are met by the gaze of two female statues one portraying Mystra, the",
-                "Goddess of Magic the other Selena, wife of the Wizard who this study",
-                "belongs to.  The only light in the room is the {Mp{murple{W flames that",
-                "surround each of the four statues in the room.  Two at the door",
-                "(Mystra and Selena) and one in each of the far corners of the room,",
-                "each showing a Drow Warrior.  The only window in the room is located",
-                "in the far wall but heavy curtains prevent any light from entering the",
-                "room.  In the middle is a large desk littered with books and dusty",
-                "tomes though a small area is cleared as a work area.  The only other",
-                "objects in the room are huge book shelves filled with tomes and",
-                "parchments hiding{BA{brcane{W knowledge and a spiral staircase in the corner",
-                "closest to you from which you came.  "
-            ],
-            "flags_raw": "0 67641388 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20328",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20305"
-                }
-            },
-            "extras": {}
-        },
-        "20301": {
-            "name": "{^H{6a{^r{6p{^e{6r {^H{6all{x",
-            "description": [
-                "{wYou are in a long plain hallway with very few decorations on any",
-                "wall.  The healing chamber is to the east and the portals are to your",
-                "west.  {x "
-            ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20301",
-            "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&To the West is the clan {^P{6ortal {^R{6oom{&.{x",
-                        ""
-                    ],
-                    "room_id": "20305"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Another step east will take you to the {^H{6a{^r{6p{^e{6r {^H{6ealer{&.{x",
-                        ""
-                    ],
-                    "room_id": "20304"
-                }
-            },
-            "extras": {}
+            "vnum": "20334"
         },
         "20331": {
-            "name": "{8H{wo{8m{we {8O{wf {8Th{we {8D{wi{8s{wg{8r{wu{8n{wt{8l{we{8d {CH{ca{Cr{cp{Ce{cr{x",
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wAfter many years of fighting off the evils of the world the stress",
                 "got to this old harper and he had to be separated from the rest of the",
@@ -961,488 +1207,243 @@
                 "quite proficient in killing and can put members of the clan out of",
                 "their misery quickly and painlessly.  "
             ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20331",
+            "name": "{8H{wo{8m{we {8O{wf {8Th{we {8D{wi{8s{wg{8r{wu{8n{wt{8l{we{8d {CH{ca{Cr{cp{Ce{cr{x",
             "exits": {
                 "east": {
                     "flags_raw": "0",
+                    "room_id": "20309",
                     "description": [
-                        ""
-                    ],
-                    "room_id": "20309"
-                }
-            },
-            "extras": {}
-        },
-        "20322": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {wArena{x",
-            "description": [
-                "You are along the northern wall of the {RBattle {WArena{x, and all around",
-                "you there are signs of past matches that have occured here.  The arena",
-                "continues as far as the eye can see to the east, west, and south.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20322",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20319"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20326"
-                }
-            },
-            "extras": {}
-        },
-        "20341": {
-            "name": "{WH{widden {CP{cathway{x",
-            "description": [],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20341",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20305"
-                },
-                "down": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20340"
-                }
-            },
-            "extras": {}
-        },
-        "20306": {
-            "name": "{!C{1asting {!R{1oom{x",
-            "description": [
-                "This square grey room is empty, yet you can feel the magical energies",
-                "this room had been endowed with. This looks like it would make a perfect place to summon monsters for research. ",
-                " ",
-                "a large SIGN hangs on the north wall"
-            ],
-            "flags_raw": "0 532492 0 18",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20306",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20305"
-                }
-            },
-            "extras": {
-                "sign": {
-                    "description": [
-                        "{!NO SUMMONING NON-HARPERS",
-                        "{^W{6i{^t{6h{^o{6u{^t {6t{^h{6e {^p{6e{^r{6m{^i{6s{^s{6i{^o{6n {^o{6f {^a {6L{^e{6a{^d{6e{^r{x",
-                        "{0monsters do not apply",
-                        "{!DO NOT LEAVE MONSTERS UNATTENDED",
-                        "{x",
                         ""
                     ]
                 }
-            }
-        },
-        "20313": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {WCeremony {CHall",
-            "description": [
-                "As you enter this room you are amazed at the wealth that the",
-                "{CH{ca{Cr{cp{Ce{cr{Cs{x have put into it.  The floor is made from tiles that seem to",
-                "be made of {wIvory{x they are so white and smooth.  The walls all around",
-                "you have {GB{ge{ma{cu{Ct{Gi{gf{mu{cl {CP{ca{Ci{cn{Ct{ci{Cn{cg{Cs{x of all of the finest {CH{ca{Cr{cp{Ce{cr{x leaders.  The",
-                "last thing that you notice about this room is the high vaulted",
-                "ceilings made out of the scales of the {rC{Br{go{8m{Wa{rt{Bi{gc {8D{Wr{ra{Bg{go{8n{Ws{x.  "
-            ],
-            "flags_raw": "0 532492 0 14",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20313",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20315"
-                }
             },
-            "extras": {}
-        },
-        "20312": {
-            "name": "{cMrs. Ruskettle's Room{x",
-            "description": [
-                "You are in the room of the only Halfling bard to ever exist.  "
-            ],
-            "flags_raw": "0 67641384 0 0",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20312",
-            "exits": {
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&The {@P{2ractice {@Y{2ard {&is off to the North.",
-                        ""
-                    ],
-                    "room_id": "20308"
-                },
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Off to the West is the harper meeting room.",
-                        ""
-                    ],
-                    "room_id": "20309"
-                },
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Back Up lies the {^H{6arper {^H{6ealing {&Room.",
-                        ""
-                    ],
-                    "room_id": "20304"
-                }
-            },
-            "extras": {}
+            "vnum": "20331"
         },
-        "20337": {
-            "name": "{WL{wong {CH{callway{x",
+        "20333": {
+            "extras": {},
+            "flags_raw": "0 524292 0 0",
+            "flags2_raw": "0",
             "description": [],
-            "flags_raw": "0 67641385 0 0",
+            "name": "spectral harper",
+            "exits": {},
             "wanted_area_vnum": "",
+            "vnum": "20333"
+        },
+        "20340": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
             "flags2_raw": "0",
-            "vnum": "20337",
+            "description": [],
+            "name": "{WH{widden {CP{cathway{x",
             "exits": {
-                "west": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20336"
-                },
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20341",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20338"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20340"
+        },
+        "20341": {
+            "extras": {},
+            "flags_raw": "0 67641384 0 0",
+            "flags2_raw": "0",
+            "description": [],
+            "name": "{WH{widden {CP{cathway{x",
+            "exits": {
+                "up": {
+                    "flags_raw": "0",
+                    "room_id": "20305",
+                    "description": [
+                        ""
+                    ]
+                },
+                "down": {
+                    "flags_raw": "0",
+                    "room_id": "20340",
+                    "description": [
+                        ""
+                    ]
+                }
+            },
+            "wanted_area_vnum": "",
+            "vnum": "20341"
         },
         "20330": {
-            "name": "{CH{ca{Cr{cp{Ce{cr{x {WSanctuary{x",
+            "extras": {},
+            "flags_raw": "0 532492 0 0",
+            "flags2_raw": "0",
             "description": [
                 "{wThe room you are now in is a very basic looking room with places to",
                 "kneel to worship your favorite diety all along the walls.  In the",
                 "center of the room you notice a small pulpit with the {CH{ca{Cr{cp{Ce{cr{C's",
                 "{WSpiritual Leader{w standing behind it.  "
             ],
-            "flags_raw": "0 532492 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20330",
+            "name": "{CH{ca{Cr{cp{Ce{cr{x {WSanctuary{x",
             "exits": {
                 "up": {
                     "flags_raw": "0",
+                    "room_id": "20305",
                     "description": [
                         ""
-                    ],
-                    "room_id": "20305"
+                    ]
                 }
             },
-            "extras": {}
-        },
-        "20302": {
-            "name": "in the air, north of the tower",
-            "description": [],
-            "flags_raw": "0 532512 0 9",
             "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20302",
-            "exits": {
-                "north": {
-                    "flags_raw": "20300",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20325"
-                },
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20342"
-                }
-            },
-            "extras": {}
+            "vnum": "20330"
         },
-        "20320": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{Ca{cn {RBattle {WArena",
-            "description": [
-                "You are along the northern most wall of the arena, and to the south",
-                "and east you can see large open spaces for all of your bretheren to",
-                "help each other improve.  "
-            ],
-            "flags_raw": "0 532520 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20320",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20318"
-                }
-            },
-            "extras": {}
-        },
-        "20303": {
-            "name": "{6Gnairea{^'{6s {^S{6h{^o{6p{^e{x",
-            "description": [
-                "This room is full of wonderous items that tickle your fancy and pique",
-                "your curiousity.  A desk lies near the north wall.  Standing behind the desk",
-                "of his shop, a short man is showing off his rare and delicate items. ",
-                "Looking more closely, the little man seems to be a halfling.  The merchant",
-                "smiles warmly and welcomes you to his shop.  There is a soft melody playing",
-                "in the back of your mind, purifying it from dark and evil thoughts.  "
-            ],
+        "20329": {
+            "extras": {},
             "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
             "flags2_raw": "0",
-            "vnum": "20303",
-            "exits": {
-                "up": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&Upwards is {^J{6erval {&in the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern{&.",
-                        ""
-                    ],
-                    "room_id": "20310"
-                }
-            },
-            "extras": {}
-        },
-        "20317": {
-            "name": "{8Back Hallway{x",
             "description": [
-                "{wYou are in a hallway leading to the harpers clan arena.  {x "
+                "The room you have entered is a fairly large room with {GTall Trees{x in",
+                "the corners and {8Iron Cages{x holding {WPure White Doves{x.  In the center of",
+                "the room stands a small {CH{ca{Cr{cp{Ce{cr{x shopkeeper trying to set you up with",
+                "the pet or mount of your dreams.  "
             ],
-            "flags_raw": "0 67641352 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20317",
-            "exits": {
-                "south": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20335"
-                },
-                "north": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&The {^H{6arper {^H{6ealer {&is off to the North.",
-                        ""
-                    ],
-                    "room_id": "20304"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        "{&to the East is the {^C{6lan {!Battle {&Arena.",
-                        ""
-                    ],
-                    "room_id": "20318"
-                }
-            },
-            "extras": {}
-        },
-        "20309": {
-            "name": "{^M{6e{^e{6t{^i{6n{^g {6Hall{x",
-            "description": [
-                "This is a medium-sized circular room.  The walls are covered with",
-                "tapestries depicting scenes from long forgotten battles fought well before",
-                "your time.  The light in this room comes from a large chandelier in the",
-                "center of the room In the middle of the room is a round table, with a",
-                "{Bcrescent moon{x and a {&s{0i{&l{0v{&e{0r {&h{0a{&r{0p{x engraved into it,",
-                "the edges of the table are inlaid with gold.  A small fireplace is set into",
-                "the wall here giving off warmth.  "
-            ],
-            "flags_raw": "0 67641384 0 0",
-            "wanted_area_vnum": "",
-            "flags2_raw": "0",
-            "vnum": "20309",
+            "name": "{CH{ca{Cr{cp{Ce{cr {WA{wv{Wi{wa{Wr{wy{x",
             "exits": {
                 "west": {
                     "flags_raw": "0",
+                    "room_id": "20310",
                     "description": [
-                        "{&To the West is the {*D{7isgruntle{*d {^H{6arper{&.",
+                        "{&To the west is the main room in the {^T{6hirsty {^H{6a{^r{6p{^e{6r {^T{6avern.",
                         ""
-                    ],
-                    "room_id": "20331"
-                },
-                "east": {
-                    "flags_raw": "0",
-                    "description": [
-                        ""
-                    ],
-                    "room_id": "20312"
+                    ]
                 }
             },
-            "extras": {}
+            "wanted_area_vnum": "",
+            "vnum": "20329"
         }
     },
-    "uid": "harper",
-    "area_quest_points": 0,
     "credits": "[ CLOSED ] The Harpers",
     "faction_id": "",
+    "name": "The Harper's Clan Hall",
     "vnums": [
         20300,
         20349
     ],
-    "recall_room_id": 3001,
-    "objects": {},
-    "zone_id": 0,
-    "security": 6,
+    "realm_id": 3,
+    "subroutines": [],
     "mobiles": {
         "20300": {
-            "name": "A dart trap~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-160 -160 -160 -160",
             "description": [],
             "raw_flags5": "stand stand male 237",
-            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
-            "raw_flags4": "0 AB CI 0",
-            "raw_flags3": "-160 -160 -160 -160",
             "vnum": 20300,
             "raw_flags": "ABMNVZ DF DHP -1000 0",
-            "race_id": "human",
+            "raw_flags4": "0 AB CI 0",
+            "room_name": "{WA Dart Trap{x\n",
+            "name": "A dart trap~\n",
             "raw_flags2": "101 0 200d10+23000 200d10+10000 5d15+400 magic",
-            "d_flags": "D ~",
+            "keywords": "trap~\n",
             "subroutines": [
                 "M grall 20323 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{WA Dart Trap{x\n",
-            "keywords": "trap~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large 0",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20301": {
-            "name": "Gnairea~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "....\n"
             ],
             "raw_flags5": "stand stand male 1300",
-            "raw_flags6": "AHMV ABCDEFGHIJK tiny 0",
-            "raw_flags4": "EFJ ABCD JLNQ S",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 20301,
             "raw_flags": "ABGd DFJLQUb 0 1000 0",
-            "race_id": "halfling",
-            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "EFJ ABCD JLNQ S",
             "room_name": "Gnairea The Shopkeeper stands here.\n",
-            "keywords": "Gnairea shopkeeper~\n"
+            "name": "Gnairea~\n",
+            "raw_flags2": "46 0 1d1+999 1d1+99 1d8+20 beating",
+            "keywords": "Gnairea shopkeeper~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK tiny 0",
+            "race_id": "halfling",
+            "t_flags": "T ~"
         },
         "20302": {
-            "name": "{^P{6riest{x of {^M{6ilil{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-10 -10 -10 -10",
             "description": [
                 "One of the wandering minstrels of Milil sits upon\n",
                 "a chair here singing the \"Tears of Selune\" His beautiful\n",
                 "music begins to form into healing light...\n"
             ],
             "raw_flags5": "stand stand either 1000",
-            "raw_flags6": "AHMV ABCDEFGHIJKP medium skin",
-            "raw_flags4": "0 ACDLQ J LQ",
-            "raw_flags3": "-10 -10 -10 -10",
             "vnum": 20302,
             "raw_flags": "ABGXZa DFJLT 0 1000 0",
-            "race_id": "avian",
-            "raw_flags2": "101 150 50d100+100 50d100+100 50d100+100 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ACDLQ J LQ",
             "room_name": "The {^P{6riest{x of {^M{6ilil{x stands here, healing the {^h{6a{^r{6p{^e{6r{^s{x\n",
-            "keywords": "priest cleric healer~\n"
+            "name": "{^P{6riest{x of {^M{6ilil{x~\n",
+            "raw_flags2": "101 150 50d100+100 50d100+100 50d100+100 none",
+            "keywords": "priest cleric healer~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJKP medium skin",
+            "race_id": "avian",
+            "t_flags": "T ~"
         },
         "20303": {
-            "name": "a Standard Issue Strifer~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [
                 "This simple dummy reminds you of someone who has a mental disability, It\n",
                 "must be a Strifer.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKQU tiny unknown",
-            "raw_flags4": "DH ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 20303,
             "raw_flags": "ABGO DFVa 0 0 0",
-            "race_id": "school monster",
-            "raw_flags2": "1 3 1d1+999 1d1+99 1d1+4 beating",
+            "raw_flags4": "DH ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
             "raw_acts": "U",
-            "d_flags": "D ~",
+            "room_name": "A Generic Strifer stands here, picking his nose.\n",
+            "raw_vulns": "C",
+            "name": "a Standard Issue Strifer~\n",
+            "raw_flags2": "1 3 1d1+999 1d1+99 1d1+4 beating",
+            "keywords": "dummy generic strifer~\n",
             "subroutines": [
                 "F act U\n",
                 "F vul C\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A Generic Strifer stands here, picking his nose.\n",
-            "raw_vulns": "C",
-            "keywords": "dummy generic strifer~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKQU tiny unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
         },
         "20304": {
-            "name": "a replica of Malik~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [
                 "This ugly dummy looks to be constructed to resemble Cyric's very own\n",
                 "Seraph of Lies.  In its hand is a fake Cyrinishad.  It's mouth is open, and\n",
                 "its hand is raised, as if it is preaching to all the slow-minded suckers.  \n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJKLPQU tiny unknown",
-            "raw_flags4": "DH ABCDLQ CD 0",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 20304,
             "raw_flags": "ABGO DFVa 0 0 0",
-            "race_id": "school monster",
-            "raw_flags2": "38 3 10d10+1000 1d1+99 1d2+1 none",
+            "raw_flags4": "DH ABCDLQ CD 0",
             "raw_acts": "U",
-            "d_flags": "D ~",
+            "room_name": "Malik el Sami yn Nasser stands here holding the Cyrinishad.\n",
+            "raw_vulns": "C",
+            "name": "a replica of Malik~\n",
+            "raw_flags2": "38 3 10d10+1000 1d1+99 1d2+1 none",
+            "keywords": "dummy strifer generic~\n",
             "subroutines": [
                 "F act U\n",
                 "F vul C\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "Malik el Sami yn Nasser stands here holding the Cyrinishad.\n",
-            "raw_vulns": "C",
-            "keywords": "dummy strifer generic~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJKLPQU tiny unknown",
+            "race_id": "school monster",
+            "t_flags": "T ~"
         },
         "20305": {
-            "name": "Tavernkeeper Jerval~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "{7After many years of roasting peanuts, Jerval has traded them in for\n",
                 "a chefs knife and apron and has started going gourmet.  {7The little\n",
@@ -1450,376 +1451,375 @@
                 "is reputed to be some of the best around.  \n"
             ],
             "raw_flags5": "stand stand male 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
-            "raw_flags4": "0 ABQ JLP R",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20305,
             "raw_flags": "ABG DFJc 0 1000 0",
-            "race_id": "gnome",
-            "raw_flags2": "80 50 10d10+100 1d1+1 10d10+100 slap",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABQ JLP R",
             "room_name": "{&C{7hef {^J{6erval {7is offering gourmet food and drinks.{x\n",
-            "keywords": "Jerval gnome tavernkeeper~\n"
+            "name": "Tavernkeeper Jerval~\n",
+            "raw_flags2": "80 50 10d10+100 1d1+1 10d10+100 slap",
+            "keywords": "Jerval gnome tavernkeeper~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "race_id": "gnome",
+            "t_flags": "T ~"
         },
         "20306": {
-            "name": "The Ancient Mentor~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [
                 "This old man looks very wise, and he has a very long beard that looks to\n",
                 "have been growing for centuries.  He smiles upon you and looks ready to\n",
                 "teach you anything you wish to learn.  \n"
             ],
             "raw_flags5": "stand stand male 100",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium skin",
-            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 20306,
             "raw_flags": "ABJKb DF 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "101 100 100d100+10 100d100+10 100d100+10 smash",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 ABCDEFGHIJKLMNOPQRSTXYZ 0 0",
             "room_name": "A man with his arms crossed in front of his chest smiles at you.\n",
-            "keywords": "guildmaster ancient mentor~\n"
+            "name": "The Ancient Mentor~\n",
+            "raw_flags2": "101 100 100d100+10 100d100+10 100d100+10 smash",
+            "keywords": "guildmaster ancient mentor~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium skin",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20307": {
-            "name": "(no short description)~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20307,
             "raw_flags": "A 0 0 1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "(no long description)\n",
+            "name": "(no short description)~\n",
             "raw_flags2": "1 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "narm~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "(no long description)\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "narm~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20308": {
-            "name": "(no short description)~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 BG Z",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20308,
             "raw_flags": "A FJVc 0 0 0",
-            "race_id": "elf",
-            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 0 BG Z",
             "room_name": "(no long description)\n",
-            "keywords": "a~\n"
+            "name": "(no short description)~\n",
+            "raw_flags2": "0 0 0d0+0 0d0+0 0d0+0 none",
+            "keywords": "a~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "elf",
+            "t_flags": "T ~"
         },
         "20309": {
-            "name": "Mrs. Ruskettle~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [
                 "An extremely small halfling is here, who strikes you as short even for the race that she is.\n",
                 "You notice instantly that her hair is a brilliant {rRed{x, and it contrasts very well with her {yHazel{x eyes.\n"
             ],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
-            "raw_flags4": "0 BD LNQ S",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20309,
             "raw_flags": "AB QUb 0 1000 0",
-            "race_id": "halfling",
-            "raw_flags2": "5 0 10d169+920 50d10+100 0d0+0 chomp",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 BD LNQ S",
             "room_name": "{cMrs. Ruskettle{x\n",
-            "keywords": "olive~\n"
+            "name": "Mrs. Ruskettle~\n",
+            "raw_flags2": "5 0 10d169+920 50d10+100 0d0+0 chomp",
+            "keywords": "olive~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK small unknown",
+            "race_id": "halfling",
+            "t_flags": "T ~"
         },
         "20310": {
-            "name": "{wStatue of the Goddess of Magic{x~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 ACD 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20310,
             "raw_flags": "ABR 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 ACD 0 0",
+            "room_name": "{wStatue of the Goddess of Magic{x\n",
+            "name": "{wStatue of the Goddess of Magic{x~\n",
             "raw_flags2": "101 0 10d169+920 101d10+100 5d10+25 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "goddess~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n",
                 "M grall 20311 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wStatue of the Goddess of Magic{x\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "goddess~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20311": {
-            "name": "Statue of a beautifull {WD{8row {wfemale.{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand female 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 D BO NS",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20311,
             "raw_flags": "AB JLZ 0 0 0",
-            "race_id": "drow",
-            "raw_flags2": "8 0 3d22+96 8d10+10 2d5+5 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 D BO NS",
             "room_name": "Statue of a beautifull {WD{8row {wfemale.{x\n",
-            "keywords": "drow female~\n"
+            "name": "Statue of a beautifull {WD{8row {wfemale.{x~\n",
+            "raw_flags2": "8 0 3d22+96 8d10+10 2d5+5 none",
+            "keywords": "drow female~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "drow",
+            "t_flags": "T ~"
         },
         "20312": {
-            "name": "{CJ{co{wv{ci{Ck{W's {wAssistant{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-42 -42 -42 -42",
             "description": [
                 "A tall man stands here mixing all of the potions that his friend Jovik uses in battles.\n",
                 "He is a tall titan magician, and all over you can see scars from his days out on the Harper's front lines.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 AB D GR",
-            "raw_flags3": "-42 -42 -42 -42",
             "vnum": 20312,
             "raw_flags": "ABR Da 0 1000 0",
-            "race_id": "titan",
+            "raw_flags4": "0 AB D GR",
+            "room_name": "{CJ{co{wv{ci{Ck{W's {wAssistant stands here motionless.{x\n",
+            "name": "{CJ{co{wv{ci{Ck{W's {wAssistant{x~\n",
             "raw_flags2": "105 30 27d52+7380 101d10+101 5d21+42 wrath",
-            "d_flags": "D ~",
+            "keywords": "mixer~\n",
             "subroutines": [
                 "M grall 20302 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{CJ{co{wv{ci{Ck{W's {wAssistant stands here motionless.{x\n",
-            "keywords": "mixer~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "20313": {
-            "name": "{CS{cp{Ce{cc{Ct{cr{Ca{cl {WH{wa{Wr{wp{We{wr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "Before you see what looks like the {Wholy {CS{cp{Ci{cr{Ci{ct{x of a long dead {WH{wa{Wr{wp{We{wr{x warrior.\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX medium unknown",
-            "raw_flags4": "CFHKO 0 BDEHK CFINQSY",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20313,
             "raw_flags": "Adf FJTZ 0 1000 0",
-            "race_id": "dragon",
-            "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 bite",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CFHKO 0 BDEHK CFINQSY",
             "room_name": "{wA Tall {CS{cp{Ce{cc{Ct{cr{Ca{cl{w form stands before you.{x\n",
-            "keywords": "spectral harper~\n"
+            "name": "{CS{cp{Ce{cc{Ct{cr{Ca{cl {WH{wa{Wr{wp{We{wr{x~\n",
+            "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 bite",
+            "keywords": "spectral harper~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMVZ ABCDEFGHIJKPQUVX medium unknown",
+            "race_id": "dragon",
+            "t_flags": "T ~"
         },
         "20314": {
-            "name": "{WPure White {CH{ca{Cr{cp{Ce{cr {WDove{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-20 -20 -20 -20",
             "description": [
                 "Before you is the {WWhitest{x bird that you have ever seen, and the goodness that it represents overwhelms everyone who looks at it.\n"
             ],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AGHMVW ABCDEFGHIKPQ medium unknown",
-            "raw_flags4": "CFHK 0 BHK CFGINQ",
-            "raw_flags3": "-20 -20 -20 -20",
             "vnum": 20314,
             "raw_flags": "AI FJT 0 0 0",
-            "race_id": "song bird",
-            "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 peck",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CFHK 0 BHK CFGINQ",
             "room_name": "{wA {WWhite Dove{w flying over it's master's head.{x\n",
-            "keywords": "harper dove~\n"
+            "name": "{WPure White {CH{ca{Cr{cp{Ce{cr {WDove{x~\n",
+            "raw_flags2": "101 0 30d60+6200 30d60+6200 9d19+67 peck",
+            "keywords": "harper dove~\n",
+            "subroutines": [],
+            "raw_flags6": "AGHMVW ABCDEFGHIKPQ medium unknown",
+            "race_id": "song bird",
+            "t_flags": "T ~"
         },
         "20315": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {WBird {wKeeper{x~\n",
+            "raw_parts": "GHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "0 ABCDEF medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20315,
             "raw_flags": "AB 0 0 1000 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "A tall man stands here taking care of the birds.\n",
+            "name": "{CH{ca{Cr{cp{Ce{cr {WBird {wKeeper{x~\n",
             "raw_flags2": "50 20 13d31+869 50d10+50 5d9+20 slash",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "man shop keeper bird~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par GHIJK\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "A tall man stands here taking care of the birds.\n",
-            "raw_parts": "GHIJK",
-            "keywords": "man shop keeper bird~\n"
+            "raw_flags6": "0 ABCDEF medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20316": {
-            "name": "{wThe {CH{ca{Cr{cp{Ce{cr{C's {WSpiritual leader{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-15 -15 -15 -15",
             "description": [
                 "{wAn elderly man stands here trying to sell you a companion for life to carry you through the hard times.\n",
                 "{x\n"
             ],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "-15 -15 -15 -15",
             "vnum": 20316,
             "raw_flags": "AB 0 0 1000 0",
-            "race_id": "human",
-            "raw_flags2": "50 20 13d31+869 50d10+50 5d9+20 none",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "0 0 0 0",
             "room_name": "{wThe {CH{ca{Cr{cp{Ce{cr{C's {WSpiritual leader{w stands here.{x\n",
-            "keywords": "spiritual leader~\n"
+            "name": "{wThe {CH{ca{Cr{cp{Ce{cr{C's {WSpiritual leader{x~\n",
+            "raw_flags2": "50 20 13d31+869 50d10+50 5d9+20 none",
+            "keywords": "spiritual leader~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20317": {
-            "name": "{8Disgruntled {CH{ca{Cr{cp{Ce{cr{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
-            "raw_flags4": "0 ABCD D GR",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 20317,
             "raw_flags": "ABT DFa 0 0 0",
-            "race_id": "titan",
+            "raw_flags4": "0 ABCD D GR",
+            "room_name": "{8The Disgruntled {CH{ca{Cr{cp{Ce{cr{8 Stands Here.{x\n",
+            "name": "{8Disgruntled {CH{ca{Cr{cp{Ce{cr{x~\n",
             "raw_flags2": "101 101 22d59+6184 101d10+101 5d20+40 divine",
-            "d_flags": "D ~",
+            "keywords": "disgruntled harper~\n",
             "subroutines": [
                 "M speech 20317 kill me~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{8The Disgruntled {CH{ca{Cr{cp{Ce{cr{8 Stands Here.{x\n",
-            "keywords": "disgruntled harper~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK large unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "20318": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {wElder{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -40",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "0 ABCD D GR",
-            "raw_flags3": "-40 -40 -40 -40",
             "vnum": 20318,
             "raw_flags": "AB Da 0 1000 0",
-            "race_id": "titan",
+            "raw_flags4": "0 ABCD D GR",
+            "room_name": "{wA {CH{ca{Cr{cp{Ce{cr {wElder stands here.\n",
+            "name": "{CH{ca{Cr{cp{Ce{cr {wElder{x~\n",
             "raw_flags2": "101 101 22d59+6184 101d10+101 5d20+40 none",
-            "d_flags": "D ~",
+            "keywords": "harper elder~\n",
             "subroutines": [
                 "M speech 20318 yes~\n",
                 "M act 20312 bows~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wA {CH{ca{Cr{cp{Ce{cr {wElder stands here.\n",
-            "keywords": "harper elder~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "20319": {
-            "name": "bob~\n",
+            "raw_parts": "ABCDEFGHIJK",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "0 0 medium unknown",
-            "raw_flags4": "0 0 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20319,
             "raw_flags": "A 0 0 0 0",
-            "race_id": "human",
-            "raw_form": "AHMV",
+            "raw_flags4": "0 0 0 0",
+            "room_name": "Bob\n",
+            "name": "bob~\n",
             "raw_flags2": "10 0 20d20+80 0d0+0 0d0+0 none",
-            "d_flags": "D ~",
+            "raw_form": "AHMV",
+            "keywords": "bob~\n",
             "subroutines": [
                 "F for AHMV\n",
                 "F par ABCDEFGHIJK\n"
             ],
-            "t_flags": "T Cappuchino~",
-            "room_name": "Bob\n",
-            "raw_parts": "ABCDEFGHIJK",
-            "keywords": "bob~\n"
+            "raw_flags6": "0 0 medium unknown",
+            "race_id": "human",
+            "t_flags": "T Cappuchino~"
         },
         "20320": {
-            "name": "{CJ{Wovie {cS{wtands {cH{were {cF{wighting {cF{wor {cH{wis {cM{waster{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "CH AB D GR",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20320,
             "raw_flags": "A Da 0 0 0",
-            "race_id": "titan",
-            "raw_flags2": "108 50 15d101+8425 108d10+108 5d21+43 divine",
-            "d_flags": "D ~",
-            "subroutines": [],
-            "t_flags": "T ~",
+            "raw_flags4": "CH AB D GR",
             "room_name": "{WThe spiritual guardian of jovik stands here with {RFire{W in his eyes.{x\n",
-            "keywords": "Jovie~\n"
+            "name": "{CJ{Wovie {cS{wtands {cH{were {cF{wighting {cF{wor {cH{wis {cM{waster{x~\n",
+            "raw_flags2": "108 50 15d101+8425 108d10+108 5d21+43 divine",
+            "keywords": "Jovie~\n",
+            "subroutines": [],
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "titan",
+            "t_flags": "T ~"
         },
         "20321": {
-            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{ca{cn {WGuard{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-40 -40 -40 -30",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "ACDEFHIKLNOT ABP CD 0",
-            "raw_flags3": "-40 -40 -40 -30",
             "vnum": 20321,
             "raw_flags": "ABFGOT c H 0 0",
-            "race_id": "human",
+            "raw_flags4": "ACDEFHIKLNOT ABP CD 0",
+            "room_name": "{WThe {CH{ca{Cr{cp{Ce{cr {CC{cl{ca{cn {WGuard {wStands Here Watching You{x\n",
+            "name": "{CH{ca{Cr{cp{Ce{cr {CC{cl{ca{cn {WGuard{x~\n",
             "raw_flags2": "110 110 1d1+19999 1d1+499 0d0+0 crush",
-            "d_flags": "D ~",
+            "keywords": "Harper Clan Guard~\n",
             "subroutines": [
                 "M death 20300 100~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{WThe {CH{ca{Cr{cp{Ce{cr {CC{cl{ca{cn {WGuard {wStands Here Watching You{x\n",
-            "keywords": "Harper Clan Guard~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20322": {
-            "name": "{WGrand {BHigh {CMagician{x~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "-30 -30 -30 -50",
             "description": [],
             "raw_flags5": "stand stand none 0",
-            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "AFHKT ABP CD 0",
-            "raw_flags3": "-30 -30 -30 -50",
             "vnum": 20322,
             "raw_flags": "ACFGOR c HP 0 0",
-            "race_id": "human",
+            "raw_flags4": "AFHKT ABP CD 0",
+            "room_name": "{wThe Leader of the {CH{ca{Cr{cp{Ce{cr {WGuards {wStands Here.{x\n",
+            "name": "{WGrand {BHigh {CMagician{x~\n",
             "raw_flags2": "110 30 15d101+8425 1d1+4999 5d20+42 magic",
-            "d_flags": "D ~",
+            "keywords": "harper clan guard mage~\n",
             "subroutines": [
                 "M fight 20322 85~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "{wThe Leader of the {CH{ca{Cr{cp{Ce{cr {WGuards {wStands Here.{x\n",
-            "keywords": "harper clan guard mage~\n"
+            "raw_flags6": "AHMV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         },
         "20323": {
-            "name": "An invisable specter~\n",
+            "d_flags": "D ~",
+            "raw_flags3": "0 0 0 0",
             "description": [],
             "raw_flags5": "stand stand male 70",
-            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
-            "raw_flags4": "EFK ABCDLQ 0 0",
-            "raw_flags3": "0 0 0 0",
             "vnum": 20323,
             "raw_flags": "ABINd 0 0 -1000 0",
-            "race_id": "human",
+            "raw_flags4": "EFK ABCDLQ 0 0",
+            "room_name": "An invisable specter floats above all here.\n",
+            "name": "An invisable specter~\n",
             "raw_flags2": "102 0 100d100+25 0d0+0 1d1+0 none",
-            "d_flags": "D ~",
+            "keywords": "invis alarm Harper~\n",
             "subroutines": [
                 "M exall 20339 2~\n"
             ],
-            "t_flags": "T ~",
-            "room_name": "An invisable specter floats above all here.\n",
-            "keywords": "invis alarm Harper~\n"
+            "raw_flags6": "AHMSV ABCDEFGHIJK medium unknown",
+            "race_id": "human",
+            "t_flags": "T ~"
         }
     },
-    "realm_id": 3
+    "area_quest_points": 0
 }
