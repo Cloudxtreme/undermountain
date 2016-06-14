@@ -455,17 +455,26 @@ class Actor(RoomEntity):
         super(Actor, self).__init__(*args, **kwargs)
         super(Entity, self).__setattr__("connection", None)
 
-        if not self.level:
-            self.level = 1
+        # FIXME DO NOT LEAVE THIS
+        self.level = 1
+        self.hp = 100
+        self.mana = 100
+        self.max_hp = 100
+        self.max_mana = 100
+        self.effects = [
+            {"id": "poison", "seconds": 5, "expire_message": "Your poison fades."},
+            {"id": "poison", "seconds": 10, "expire_message": "Your second poison fades."},
+        ]
+        self.nochans = []
+        # FIXME DO NOT LEAVE THIS
 
-        if type(self.effects) is not list:
-            self.effects = [
-                {"id": "poison", "seconds": 5, "expire_message": "Your poison fades."},
-                {"id": "poison", "seconds": 10, "expire_message": "Your second poison fades."},
-            ]
+    def get_hp_cap(self):
+        # FIXME constant
+        return 16000
 
-        if type(self.nochans) is not list:
-            self.nochans = []
+    def get_mana_cap(self):
+        # FIXME constant
+        return 20000
 
     def clear_prompt(self):
         self.prompt = None
@@ -532,7 +541,12 @@ class Actor(RoomEntity):
         prompt = self.prompt
 
         if not prompt:
-            prompt = "{R100{8/{R100{Chp {G100{8/{G100{Cmana {Y1000{Cxp {8%N{x>"
+            prompt = "{{R{}{{8/{{R{}{{Chp {{G{}{{8/{{G{}{{Cmana {{Y1000{{Cxp {{8%N{{x>".format(
+                self.hp,
+                self.max_hp,
+                self.mana,
+                self.max_mana
+            )
 
         prompt = prompt.replace("%N", self.name)
 
@@ -781,6 +795,9 @@ class Actor(RoomEntity):
             from mud.commands.pmote import pmote_command
             commands.append({"keywords": "pmote", "handler": pmote_command})
 
+            from mud.commands.damage import damage_command
+            commands.append({"keywords": "damage", "handler": damage_command})
+
             # Add walking in directions.
             for direction in DIRECTIONS.keys():
                 commands.insert(0, {
@@ -872,6 +889,28 @@ class Actor(RoomEntity):
             "!" if amount > 100 else ".",
             amount
         ))
+        target.receive_damage(amount=amount)
+
+    def receive_heal(self, amount):
+        self.hp += abs(amount)
+        self.hp = min(self.hp, self.get_max_hp())
+
+    def receive_damage(self, amount):
+        self.hp -= abs(amount)
+        self.hp = max(self.hp, 0)
+        if self.hp == 0:
+            self.die()
+
+    def die(self):
+        from mud.entities.room import Room
+        # FIXME CONSTANT
+        self.act_around("[actor.name] has died!")
+        room = Room.find_by("id", "3001", game=self.game)
+        self.set_room(room)
+        self.hp = 1
+        # self.set_position("resting")
+        self.echo("YOU HAVE DIED!")
+        self.force("look")
 
     def get_combat_target(self):
         battle = Combat.get_by_actor(self)
